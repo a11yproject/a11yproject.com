@@ -17,10 +17,11 @@ task :server => :clean do
   jekyll('--server --auto')
 end
 
-desc 'Build and deploy'
-task :deploy => :build do
-  sh 'rsync -rtzh --progress --delete _site/ username@servername:/var/www/websitename/'
+desc 'Check if site will run on Github pages'
+task :check => :clean do
+  jekyll('--safe')
 end
+
 
 desc 'Check links for site already running on localhost:4000'
 task :check_links do
