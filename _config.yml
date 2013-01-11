@@ -1,0 +1,27 @@
+# standard jekyll configuration
+
+permalink: /posts/:title
+pygments: false
+exclude: ['Rakefile', 'README.md', 'config.rb']
+markdown: kramdown
+
+# configuration required for some pages
+
+domain: simplea11y.com
+title: Simple Accessibility
+author: Dave Rupert
+email: dave@paravelinc.com
+
+# configuration for ehancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+# google_analytics:
+#   account: UA-XXXXX-X
+
+# github:
+#   username: ghusername
+
+# disqus:
+#   id: disqusid

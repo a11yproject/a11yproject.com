@@ -1,0 +1,53 @@
+---
+layout: default
+description: A description about my blog homepage
+---
+<div class="jumbotron masthead">
+  <div class="container-fluid">
+    <h1><img src="/img/logo.svg" class="logo" />{{ site.title }}</h1>
+    <p>A community-driven effort to make web accessibility easier.</p>
+    <ul class="masthead-links">
+      <li>
+        <a href="./about.html">Learn more</a>
+      </li>
+      <li>
+        <a href="./contributing.html">Contribute</a>
+      </li>
+      <li>
+        <a href="http://github.com/davatron5000/simpleA11Y">GitHub project</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="container-fluid">
+
+  <div class="row-fluid">
+    <div class="span9">
+      <header class="page-header">
+        <h2>Latest Posts</h2>
+      </header>
+
+      <div class="row-fluid">
+        {% for post in site.posts %}
+        <div class="span4">
+          <h4>{{ post.title }}</h4>
+          {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
+          <p><a class="btn" href="{{ post.url }}">Read more &raquo;</a></p>
+        </div><!--/span-->
+        {% endfor %}
+      </div><!--/row-->
+    </div><!--/span-->
+
+    <div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="nav-header">Categories</li>
+          {% category_list %}
+        </ul>
+      </div><!--/.well -->
+    </div><!--/span-->
+
+
+  </div><!--/row-->
+</div>

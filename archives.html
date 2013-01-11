@@ -1,0 +1,37 @@
+---
+layout: default
+description: A description about my blog homepage
+---
+<div class="container-fluid">
+
+  <div class="row-fluid">
+    <div class="span9">
+      <header class="page-header">
+        <h2>Archives</h2>
+      </header>
+
+      <div class="row-fluid">
+        {% for post in site.posts %}
+        <div class="media">
+
+            <div class="media-body">
+              <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+              {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div><!--/row-->
+    </div><!--/span-->
+
+    <div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="nav-header">Categories</li>
+          {% category_list %}
+        </ul>
+      </div><!--/.well -->
+    </div><!--/span-->
+
+
+  </div><!--/row-->
+</div>
