@@ -18,35 +18,17 @@ description: A description about my blog homepage
 </div>
 
 <div class="container-fluid">
-
-  <div class="row-fluid">
-    <div class="span9">
       <header class="page-header">
         <h2>Latest Posts</h2>
       </header>
 
-      <div class="row-fluid">
-        {% for post in site.posts %}
-        <div class="span4">
-          <h4>{{ post.title }}</h4>
-          {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
-          <p><a class="btn" href="{{ post.url }}">Read more &raquo;</a></p>
-        </div><!--/span-->
-        {% endfor %}
-      </div><!--/row-->
-    </div><!--/span-->
-
+  <div class="row-fluid">
+    {% for post in site.posts limit:4 %}
     <div class="span3">
-      <div class="well sidebar-nav">
-        <ul class="nav nav-list">
-          <li class="nav-header">Categories</li>
-          {% for cat in site.categories | sort %}
-              <li><a href="/categories/{{ cat[0] }}">{{ cat[0] }}</a></li>
-          {% endfor %}
-        </ul>
-      </div><!--/.well -->
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
+      <p><a class="btn" href="{{ post.url }}">Read more &raquo;</a></p>
     </div><!--/span-->
-
-
+    {% endfor %}
   </div><!--/row-->
 </div>
