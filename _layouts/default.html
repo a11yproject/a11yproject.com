@@ -60,6 +60,8 @@
     <link rel="stylesheet" href="/css/responsive.css" />
     {% if site.feedburner %}
     <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+    {% else %}
+    <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
     {% endif %}
     {% if site.google_analytics %}
     <!-- google analytics async -->
