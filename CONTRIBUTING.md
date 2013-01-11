@@ -1,7 +1,5 @@
----
-layout: post
-title: Contributing to SimpleA11Y
----
+# Contributing to SimpleA11Y
+
 Do you enjoy web accessibility and want to help? **Here's how you can help.**
 
 ## Writing articles
