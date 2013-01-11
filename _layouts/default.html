@@ -65,7 +65,7 @@
     {% endif %}
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -93,15 +93,16 @@
           </div><!--/.nav-collapse -->
         </div>
       </div>
-    </div>
+    </nav>
 
+    <section role="main">
     {{ content }}
+    </section>
 
+    <footer role="contentinfo">
+      <div class="container-fluid">
+        <hr>
 
-    <div class="container-fluid">
-      <hr>
-
-      <footer>
         <div class="row-fluid">
           <div class="span8">
             <h5>Contributors</h5>
@@ -116,9 +117,10 @@
           </div>
 
         </div>
-      </footer>
 
-    </div> <!-- /container -->
+      </div> <!-- /container -->
+
+    </footer>
 
   {% if site.github %}
     <a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
