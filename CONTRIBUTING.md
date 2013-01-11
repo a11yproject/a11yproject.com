@@ -25,8 +25,7 @@ Notice something innaccurate? Noticed something inaccessible on this site? You t
 ## Pull requests
 
 - Filing a descriptive issue then assigning it to yourself before you commit would really help get your commit accepted.
-- CSS changes must be done in .sass files first, never just the compiled files
-- Don't commit compiled CSS files, plskthx.
+- CSS changes must be done in .sass files first, never just the compiled files.
 
 ## License
 
