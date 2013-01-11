@@ -3,7 +3,7 @@
 permalink: /posts/:title
 pygments: false
 exclude: ['Rakefile', 'README.md', 'config.rb']
-markdown: rdiscount
+markdown: maruku
 
 # configuration required for some pages
 
