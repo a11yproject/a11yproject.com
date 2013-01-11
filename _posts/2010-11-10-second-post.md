@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Second Post
-tags: [second post]
+title: |
+    ARIA introduction: roles, states, properties
+categories:
+  - Basics
 ---
 
 {% highlight ruby %}
