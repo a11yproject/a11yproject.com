@@ -24,15 +24,14 @@ code {
 
 // Blocks of code
 pre {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
   display: block;
   padding: ($baseLineHeight - 1) / 2;
   margin: 0 0 $baseLineHeight / 2;
   font-size: $baseFontSize - 1; // 14px to 13px
   line-height: $baseLineHeight;
-  word-break: break-all;
-  word-wrap: break-word;
   white-space: pre;
-  white-space: pre-wrap;
   background-color: #f5f5f5;
   border: 1px solid #ccc; // fallback for IE7-8
   border: 1px solid rgba(0,0,0,.15);
@@ -48,7 +47,6 @@ pre {
     padding: 0;
     color: inherit;
     white-space: pre;
-    white-space: pre-wrap;
     background-color: transparent;
     border: 0;
   }
