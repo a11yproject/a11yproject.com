@@ -1,0 +1,38 @@
+[
+{
+"type": "User",
+"organizations_url": "https://api.github.com/users/davatron5000/orgs",
+"starred_url": "https://api.github.com/users/davatron5000/starred{/owner}{/repo}",
+"avatar_url": "https://secure.gravatar.com/avatar/0988796fb50136535a69cea314396cfa?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+"followers_url": "https://api.github.com/users/davatron5000/followers",
+"login": "davatron5000",
+"following_url": "https://api.github.com/users/davatron5000/following",
+"subscriptions_url": "https://api.github.com/users/davatron5000/subscriptions",
+"url": "https://api.github.com/users/davatron5000",
+"gravatar_id": "0988796fb50136535a69cea314396cfa",
+"events_url": "https://api.github.com/users/davatron5000/events{/privacy}",
+"repos_url": "https://api.github.com/users/davatron5000/repos",
+"contributions": 12,
+"id": 42218,
+"received_events_url": "https://api.github.com/users/davatron5000/received_events",
+"gists_url": "https://api.github.com/users/davatron5000/gists{/gist_id}"
+},
+{
+"type": "User",
+"organizations_url": "https://api.github.com/users/SlexAxton/orgs",
+"starred_url": "https://api.github.com/users/SlexAxton/starred{/owner}{/repo}",
+"avatar_url": "https://secure.gravatar.com/avatar/7ea369b9b67a85f638af2e0f5d708d2d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+"followers_url": "https://api.github.com/users/SlexAxton/followers",
+"login": "SlexAxton",
+"following_url": "https://api.github.com/users/SlexAxton/following",
+"subscriptions_url": "https://api.github.com/users/SlexAxton/subscriptions",
+"url": "https://api.github.com/users/SlexAxton",
+"gravatar_id": "7ea369b9b67a85f638af2e0f5d708d2d",
+"events_url": "https://api.github.com/users/SlexAxton/events{/privacy}",
+"repos_url": "https://api.github.com/users/SlexAxton/repos",
+"contributions": 5,
+"id": 96554,
+"received_events_url": "https://api.github.com/users/SlexAxton/received_events",
+"gists_url": "https://api.github.com/users/SlexAxton/gists{/gist_id}"
+}
+]

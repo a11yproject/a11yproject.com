@@ -131,9 +131,9 @@
     -->
     <script>
     (function($){
-      var url = 'https://api.github.com/repos/davatron5000/fitVids.js/contributors';
+      var url = '/contributors.json';
 
-      $.ajax(url)
+      $.getJSON(url)
           .success(function(data) {
 
             var html = '';
