@@ -14,19 +14,60 @@ description: A handy HTML accessibility checklist.
         <div class="row-fluid">
           <form action="" role="form">
             <ul>
+              <!-- Aria Roles -->
               <li>
-                <h3>Links</h3>
-                <label for="">Bolding or underlining links, not just relying on color alone.</label><input name="" type="checkbox"></li>
-              <li><label for=""></label><input name="" type="checkbox"></li>
+                <h3>ARIA Role Attributes</h3>
+                <!-- banner -->
+                <label for=""><h4>&lt;header role="banner"&gt;</h4></label>
+                <input name="" type="checkbox">
+                <p>Region of the page that is site focused</p>
+                <!-- navigation -->
+                <label for=""><h4>&lt;nav role="navigation"&gt;</h4></label>
+                <input name="" type="checkbox">
+                <p>Contains navigational links</p>
+                <!-- main -->
+                <label for=""><h4>&lt;section role="main"&gt;</h4></label>
+                <input name="" type="checkbox">
+                <p>Focal content of document</p>
+                <!-- complementary -->
+                <label for=""><h4>&lt;aside role="complementary"&gt;</h4></label>
+                <input name="" type="checkbox">
+                <p>Supporting section related to the main content even when separated</p>
+                <!-- complementary -->
+                <label for=""><h4>&lt;footer role="contentinfo"&gt;</h4></label>
+                <input name="" type="checkbox">
+                <p>Contains information about the document (meta info,copyright,company info etc.)</p>
+              </li>
+
+              <!-- Images -->
+              <li>
+                <h3>Images</h3>
+                <!-- alt -->
+                <label for=""><h4>Alt Attribute</h4></label>
+                <input name="" type="checkbox">
+                <p>Appropriate <code class="language-markup">alt</code> attribute values for images when they're not displayed while leaving text for decorational images blank (e.g. <code class="language-markup">alt=""</code>). Use <code class="language-markup">alt</code> attribute values that convey meaning to your visitors, rather than meaning to you and your colleagues</p>
+              </li>
+
+              <!-- Javascript -->
+              <li>
+                <h3>Javascript</h3>
+                <label for=""><h4>Unobtrusive Javascript</h4></label>
+                <input name="" type="checkbox">
+                <p>Use unobtrusive Javascript (Never use inline scripting)</p>
+                <label for=""><h4>Javascript Alternatives</h4></label>
+                <input name="" type="checkbox">
+                <p>Provide alternatives for users without Javascript enabled.</p>
+              </li>
+
+              <!-- Audio -->
+              <li>
+                <h3>Audio</h3>
+                <!-- text transcript -->
+                <label for=""><h4>Provide a Text Transcript</h4></label><input name="" type="checkbox">
+                <p>Providing a text transcript makes the audio information accessible to people who are deaf or hard of hearing. This also goes for Search Engines who are deaf and hard of hearing as well.</p>
+              </li>
             </ul>
           </form>
-          <div class="media">
-
-              <div class="media-body">
-                <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
-              </div>
-            </div>
         </div><!--/row-->
 
       </div>
