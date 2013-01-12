@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Simple Accessibility</title>
+ <link href="http://simplea11y.com/atom.xml" rel="self"/>
+ <link href="http://simplea11y.com/"/>
+ <updated>2013-01-12T00:21:40-05:00</updated>
+ <id>http://simplea11y.com/</id>
+ <author>
+   <name>Dave Rupert</name>
+   <email>dave@paravelinc.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Quick test: Navigate using just your keyboard
+</title>
+   <link href="http://simplea11y.com/posts/navigate-using-just-your-keyboard"/>
+   <updated>2013-01-11T00:00:00-05:00</updated>
+   <id>http://simplea11y.com/posts/navigate-using-just-your-keyboard</id>
+   <content type="html">&lt;p&gt;One quick way that you can check your accessibility is to navigate through the site using nothing but your keyboard.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Un-plug/turn off your mouse.&lt;/li&gt;
+
+&lt;li&gt;Use the &lt;kbd&gt;Tab&lt;/kbd&gt; key browse.&lt;/li&gt;
+
+&lt;li&gt;Use &lt;kbd&gt;Enter&lt;/kbd&gt; to select elements.&lt;/li&gt;
+
+&lt;li&gt;Some menus and form elements may require &lt;kbd&gt;&amp;uarr;&lt;/kbd&gt; &lt;kbd&gt;&amp;darr;&lt;/kbd&gt; &lt;kbd&gt;&amp;larr;&lt;/kbd&gt; &lt;kbd&gt;&amp;rarr;&lt;/kbd&gt; arrow keys.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is by no means a complete accessibility check, but it can quickly help you find major accessibility problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Estimated Time:&lt;/strong&gt; 5 seconds&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>MYTH: Accessibility is "blind people"
+</title>
+   <link href="http://simplea11y.com/posts/myth-accessibility-is-blind-people"/>
+   <updated>2013-01-11T00:00:00-05:00</updated>
+   <id>http://simplea11y.com/posts/myth-accessibility-is-blind-people</id>
+   <content type="html">&lt;p&gt;Accessibility (A11Y) is often viewed often viewed as making your site work on a screen readers. In reality, web accessibility is a subset of &lt;abbr title='User Experience'&gt;UX&lt;/abbr&gt; focused on making your websites usable by the widest range of people possible, including those who have disabilities.&lt;/p&gt;
+
+&lt;h3 id='4_categories_of_accessibilitiy'&gt;4 Categories of Accessibilitiy&lt;/h3&gt;
+
+&lt;p&gt;In &lt;a href='http://www.netmagazine.com/features/simple-introduction-web-accessibility'&gt;Ian Hamilton&amp;#8217;s .net magazine article&lt;/a&gt;, A11Y is broken down into 4 key categories.&lt;/p&gt;
+&lt;table class='table table-striped table-bordered'&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+        &lt;th&gt;&amp;nbsp;&lt;/th&gt;
+        &lt;th&gt;Description&lt;/th&gt;
+        &lt;th&gt;Associated Conditions&lt;/th&gt;
+
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Visual&lt;/th&gt;
+        &lt;td&gt;This can be non-sighted users, users with low-vision, users with obstructed vision, or even simply your aging parents.&lt;/td&gt;
+        &lt;td&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Myopia&lt;/li&gt;
+            &lt;li&gt;Colour blindness&lt;/li&gt;
+            &lt;li&gt;Glaucoma&lt;/li&gt;
+            &lt;li&gt;Albinism&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Auditory&lt;/th&gt;
+        &lt;td&gt;The web is a visual medium, but captions and fallbacks for sound-necessary media need to be considered for hearing impaired users.&lt;/td&gt;
+        &lt;td&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Presbycusis&lt;/li&gt;
+            &lt;li&gt;Acoustic trauma&lt;/li&gt;
+            &lt;li&gt;Auditory processing disorder&lt;/li&gt;
+            &lt;li&gt;Otosclerosis&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Motor&lt;/th&gt;
+        &lt;td&gt;People with motor impairments typically use a wide arrange of &lt;abbr title='Assistive Technology'&gt;AT&lt;/abbr&gt;.&lt;/td&gt;
+        &lt;td&gt;
+          &lt;ul&gt;
+            &lt;li&gt;RSI&lt;/li&gt;
+            &lt;li&gt;Cerebral palsy&lt;/li&gt;
+            &lt;li&gt;Parkinson's&lt;/li&gt;
+            &lt;li&gt;Muscular dystrophy&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Cognitive&lt;/th&gt;
+        &lt;td&gt;Relates to the ease processing of information.&lt;/td&gt;
+        &lt;td&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Down’s syndrome&lt;/li&gt;
+            &lt;li&gt;Autism&lt;/li&gt;
+            &lt;li&gt;Global developmental delay&lt;/li&gt;
+            &lt;li&gt;Dyslexia&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Each of these areas of accessibility will be discussed further in-detail, specifically regarding web accessibility.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Introduction to ARIA: Roles, States, and Properties
+</title>
+   <link href="http://simplea11y.com/posts/intro-to-aria-roles-states-and-properties"/>
+   <updated>2013-01-11T00:00:00-05:00</updated>
+   <id>http://simplea11y.com/posts/intro-to-aria-roles-states-and-properties</id>
+   <content type="html">&lt;p&gt;&lt;abbr title='Web Accessibility Initiative - Accessible Rich Internet Applications'&gt;WAI-ARIA&lt;/abbr&gt; is the HTML5 spec designed to increase the accessibility of web pages, dynamic content, and user interfaces developed with HTML5 and modern Javascript.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>How-to: Hide Content
+</title>
+   <link href="http://simplea11y.com/posts/how-to-hide-content"/>
+   <updated>2013-01-11T00:00:00-05:00</updated>
+   <id>http://simplea11y.com/posts/how-to-hide-content</id>
+   <content type="html">&lt;p&gt;Developers commonly use &lt;code&gt;display: none&lt;/code&gt; to hide content on the page. Unfortunately, this simple and common action is a bit problematic.&lt;/p&gt;
+
+&lt;p&gt;Some screen readers will still read &lt;code&gt;display: none&lt;/code&gt; content and some won&amp;#8217;t&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;. There are also situations where you want to hide elements (i.e., a form &lt;code&gt;label&lt;/code&gt;), but you still want it to be read by a screen reader. Here are CSS classes that you should include in every project and use responsibly.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/* http://webaim.org/techniques/css/invisiblecontent/ */
+.screen-reader-text {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
+.hidden {
+    display:none;
+    visibility:hidden;
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
+&lt;p&gt;&lt;a href='http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/'&gt;http://www.456bereastreet.com/archive/200711/&amp;#8230;&lt;/a&gt;&lt;/p&gt;
+&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content>
+ </entry>
+ 
+
+</feed>

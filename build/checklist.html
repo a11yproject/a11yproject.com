@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-    {% endif %}
+    <title>Simple Accessibility</title>
+    
+    <meta name="description" content="A handy HTML accessibility checklist." />
+    
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <style type="text/css">
       body {
@@ -58,24 +58,10 @@
     </style>
 
     <link rel="stylesheet" href="/css/responsive.css" />
-    {% if site.feedburner %}
-    <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-    {% else %}
-    <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-    {% endif %}
-    {% if site.google_analytics %}
-    <!-- google analytics async -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    {% endif %}
+    
+    <link href="/atom.xml" rel="alternate" title="Simple Accessibility" type="application/atom+xml" />
+    
+    
   </head>
   <body>
     <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
@@ -99,7 +85,42 @@
     </nav>
 
     <section role="main">
-    {{ content }}
+    <div class="container-fluid">
+
+  <div class="row-fluid">
+    <div class="span9">
+      <div class="container-content">
+        <header class="page-header">
+          <h2>The Checklist</h2>
+        </header>
+
+        <div class="row-fluid">
+          <form action="" role="form">
+            <ul>
+              <li>
+                <h3>Links</h3>
+                <label for="">Bolding or underlining links, not just relying on color alone.</label><input name="" type="checkbox"></li>
+              <li><label for=""></label><input name="" type="checkbox"></li>
+            </ul>
+          </form>
+          <div class="media">
+
+              <div class="media-body">
+                <h4 class="media-heading"><a href=""></a></h4>
+                
+              </div>
+            </div>
+        </div><!--/row-->
+
+      </div>
+    </div><!--/span-->
+
+    <div class="span3">
+    </div><!--/span-->
+
+
+  </div><!--/row-->
+</div>
     </section>
 
     <footer role="contentinfo">
@@ -125,9 +146,7 @@
 
     </footer>
 
-  {% if site.github %}
-    <a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-  {% endif %}
+  
 
     <!-- Le javascript
     ================================================== -->

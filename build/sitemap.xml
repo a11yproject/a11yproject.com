@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!--  Homepage -->
+  <url>
+    <loc>http://simplea11y.com/</loc>
+    <lastmod>2013-01-12</lastmod>
+    <changefreq>daily</changefreq>
+		<priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://simplea11y.com/posts/navigate-using-just-your-keyboard</loc>
+    
+    <lastmod>2013-01-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://simplea11y.com/posts/myth-accessibility-is-blind-people</loc>
+    
+    <lastmod>2013-01-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://simplea11y.com/posts/intro-to-aria-roles-states-and-properties</loc>
+    
+    <lastmod>2013-01-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://simplea11y.com/posts/how-to-hide-content</loc>
+    
+    <lastmod>2013-01-11</lastmod>
+    
+  </url>
+  
+
+  
+  <url>
+    <loc>http://simplea11y.com/about.html</loc>
+    
+    <lastmod>2013-01-12</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://simplea11y.com/archives.html</loc>
+    
+    <lastmod>2013-01-12</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://simplea11y.com/checklist.html</loc>
+    
+    <lastmod>2013-01-12</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://simplea11y.com/index.html</loc>
+    
+    <lastmod>2013-01-12</lastmod>
+    
+    
+    
+  </url>
+  
+
+</urlset>

@@ -1,0 +1,40 @@
+---
+layout: default
+description: A handy HTML accessibility checklist.
+---
+<div class="container-fluid">
+
+  <div class="row-fluid">
+    <div class="span9">
+      <div class="container-content">
+        <header class="page-header">
+          <h2>The Checklist</h2>
+        </header>
+
+        <div class="row-fluid">
+          <form action="" role="form">
+            <ul>
+              <li>
+                <h3>Links</h3>
+                <label for="">Bolding or underlining links, not just relying on color alone.</label><input name="" type="checkbox"></li>
+              <li><label for=""></label><input name="" type="checkbox"></li>
+            </ul>
+          </form>
+          <div class="media">
+
+              <div class="media-body">
+                <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
+              </div>
+            </div>
+        </div><!--/row-->
+
+      </div>
+    </div><!--/span-->
+
+    <div class="span3">
+    </div><!--/span-->
+
+
+  </div><!--/row-->
+</div>

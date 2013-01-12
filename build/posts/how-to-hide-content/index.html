@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-    {% endif %}
+    <title>How-to: Hide Content
+ - Simple Accessibility</title>
+    
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <style type="text/css">
       body {
@@ -58,24 +57,10 @@
     </style>
 
     <link rel="stylesheet" href="/css/responsive.css" />
-    {% if site.feedburner %}
-    <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-    {% else %}
-    <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
-    {% endif %}
-    {% if site.google_analytics %}
-    <!-- google analytics async -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    {% endif %}
+    
+    <link href="/atom.xml" rel="alternate" title="Simple Accessibility" type="application/atom+xml" />
+    
+    
   </head>
   <body>
     <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
@@ -99,7 +84,75 @@
     </nav>
 
     <section role="main">
-    {{ content }}
+    <div class="container-fluid">
+
+  <div class="row-fluid">
+    <div class="span8">
+
+      <div class="container-content">
+        <article class="post">
+        
+        <header class="page-header">
+          <h1>How-to: Hide Content
+</h1>
+          <div class="postdate">Posted <time datetime="2013-01-11T00:00:00-05:00">January 11, 2013</time></div>
+
+        </header>
+        
+
+        <div class="post">
+        <p>Developers commonly use <code>display: none</code> to hide content on the page. Unfortunately, this simple and common action is a bit problematic.</p>
+
+<p>Some screen readers will still read <code>display: none</code> content and some won&#8217;t<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>. There are also situations where you want to hide elements (i.e., a form <code>label</code>), but you still want it to be read by a screen reader. Here are CSS classes that you should include in every project and use responsibly.</p>
+
+<pre><code>/* http://webaim.org/techniques/css/invisiblecontent/ */
+.screen-reader-text {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
+.hidden {
+    display:none;
+    visibility:hidden;
+}</code></pre>
+<div class='footnotes'><hr /><ol><li id='fn:1'>
+<p><a href='http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/'>http://www.456bereastreet.com/archive/200711/&#8230;</a></p>
+<a href='#fnref:1' rev='footnote'>&#8617;</a></li></ol></div>
+        </div>
+
+        
+        </article>
+      </div>
+    </div>
+
+    <div class="span4">
+      
+      <div id="related">
+        <div class="well sidebar-nav">
+          <ul class="nav nav-list">
+            <li class="nav-header">Related Posts</li>
+            
+              <li><a href="/posts/navigate-using-just-your-keyboard">Quick test: Navigate using just your keyboard
+</a></li>
+            
+              <li><a href="/posts/myth-accessibility-is-blind-people">MYTH: Accessibility is "blind people"
+</a></li>
+            
+              <li><a href="/posts/intro-to-aria-roles-states-and-properties">Introduction to ARIA: Roles, States, and Properties
+</a></li>
+            
+          </ul>
+        </div><!--/.well -->
+      </div>
+      
+    </div>
+  </div>
+</div>
     </section>
 
     <footer role="contentinfo">
@@ -125,9 +178,7 @@
 
     </footer>
 
-  {% if site.github %}
-    <a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-  {% endif %}
+  
 
     <!-- Le javascript
     ================================================== -->
