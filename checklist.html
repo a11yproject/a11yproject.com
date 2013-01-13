@@ -12,58 +12,85 @@ description: A handy HTML accessibility checklist.
         </header>
 
         <div class="row-fluid">
-          <form action="" role="form">
+          <form action="" id="simple-a11y-checklist" role="form">
             <ul>
               <!-- Aria Roles -->
-              <li>
+              <li id="aria-roles">
                 <h3>ARIA Role Attributes</h3>
                 <!-- banner -->
-                <label for=""><h4>&lt;header role="banner"&gt;</h4></label>
-                <input name="" type="checkbox">
-                <p>Region of the page that is site focused</p>
+                <label for="banner-role">&lt;header role="banner"&gt;</label>
+                <input name="aria-banner-role" id="banner-role" type="checkbox">
+                <p>A region of the page that is site focused</p>
+
                 <!-- navigation -->
-                <label for=""><h4>&lt;nav role="navigation"&gt;</h4></label>
-                <input name="" type="checkbox">
+                <label for="navigation-role">&lt;nav role="navigation"&gt;</label>
+                <input name="aria-navigation-role" id="navigation-role" type="checkbox">
                 <p>Contains navigational links</p>
+
                 <!-- main -->
-                <label for=""><h4>&lt;section role="main"&gt;</h4></label>
-                <input name="" type="checkbox">
+                <label for="main-role">&lt;section role="main"&gt;</label>
+                <input name="aria-main-role" id="main-role" type="checkbox">
                 <p>Focal content of document</p>
+
                 <!-- complementary -->
-                <label for=""><h4>&lt;aside role="complementary"&gt;</h4></label>
-                <input name="" type="checkbox">
+                <label for="complementary-role">&lt;aside role="complementary"&gt;</label>
+                <input name="aria-complementary-role" id="complementary-role" type="checkbox">
                 <p>Supporting section related to the main content even when separated</p>
+
                 <!-- complementary -->
-                <label for=""><h4>&lt;footer role="contentinfo"&gt;</h4></label>
-                <input name="" type="checkbox">
-                <p>Contains information about the document (meta info,copyright,company info etc.)</p>
+                <label for="contentinfo-role">&lt;footer role="contentinfo"&gt;</label>
+                <input name="aria-contentinfo-role" id="content-info" type="checkbox">
+                <p>Contains information about the document <b>(meta info,copyright,company info etc.)</b></p>
               </li>
 
               <!-- Images -->
-              <li>
+              <li id="images">
                 <h3>Images</h3>
                 <!-- alt -->
-                <label for=""><h4>Alt Attribute</h4></label>
-                <input name="" type="checkbox">
+                <label for="img-alt"><code class="language-markup">alt</code> Attribute</label>
+                <input name="img-alt-attr" id="img-alt" type="checkbox">
                 <p>Appropriate <code class="language-markup">alt</code> attribute values for images when they're not displayed while leaving text for decorational images blank (e.g. <code class="language-markup">alt=""</code>). Use <code class="language-markup">alt</code> attribute values that convey meaning to your visitors, rather than meaning to you and your colleagues</p>
               </li>
 
               <!-- Javascript -->
-              <li>
+              <li id="js">
                 <h3>Javascript</h3>
-                <label for=""><h4>Unobtrusive Javascript</h4></label>
-                <input name="" type="checkbox">
+                <!-- unobtrusive js -->
+                <label for="unobtrusive-js">Unobtrusive Javascript</label>
+                <input name="unobtrusive-js-input" id="unobtrusive-js" type="checkbox">
                 <p>Use unobtrusive Javascript (Never use inline scripting)</p>
-                <label for=""><h4>Javascript Alternatives</h4></label>
-                <input name="" type="checkbox">
+                <!-- js alts -->
+                <label for="alt-js">Javascript Alternatives</label>
+                <input name="alt-js-fallback" id="alt-js" type="checkbox">
                 <p>Provide alternatives for users without Javascript enabled.</p>
               </li>
 
+              <!-- Hidden Nodes -->
+              <li id="hidden-nodes">
+                <h3>Hidden Nodes</h3>
+                <p>Anytime something is visually hidden within your markup use this role attribute → aria-hidden="true" or aria-hidden="false"</p>
+                <label for="aria-hidden-true">aria-hidden=true</label>
+                <input name="aria-hidden-true-attr" id="aria-hidden-true" type="checkbox">
+                <p>Content that you wan't hidden but accessible</p>
+                <label for="aria-hidden-false">aria-hidden="false"</label>
+                <input name="aria-hidden-false-attr" id="aria-hidden-false" type="checkbox">
+                <p>Content that you don't want hidden</p>
+              </li>
+
+              <!-- Widgets -->
+              <li id="widgets">
+                <h3>Widgets</h3>
+                <label for="application-role">role="application"</label>
+                <input name="aria-application-role" id="application-role" type="checkbox">
+                <p>Add role="application" to your &lt;body&gt; element to instruct screen readers to recognize your site as an application-style widget and not standard content</p>
+              </li>
+
               <!-- Audio -->
-              <li>
+              <li id="audio">
                 <h3>Audio</h3>
                 <!-- text transcript -->
-                <label for=""><h4>Provide a Text Transcript</h4></label><input name="" type="checkbox">
+                <label for="audio">Provide a Text Transcript</label>
+                <input name="audio-input" id="audio" type="checkbox">
                 <p>Providing a text transcript makes the audio information accessible to people who are deaf or hard of hearing. This also goes for Search Engines who are deaf and hard of hearing as well.</p>
               </li>
             </ul>
