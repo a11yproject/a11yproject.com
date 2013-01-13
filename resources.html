@@ -1,0 +1,103 @@
+---
+layout: default
+title: Resources
+---
+<div class="container-fluid">
+    <article class="post">
+        {% if page.title %}
+        <header class="page-header">
+          <h1>{{ page.title }}</h1>
+          {% if page.date %}<div class="postdate">Posted <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y"  }}</time>{% if page.last_updated %}. Last updated <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y"  }}</time>{% endif %}</div>{% endif %}
+
+        </header>
+        {% endif %}
+
+        <div class="row-fluid">
+
+            <div class="span4">
+                <h3>Software</h3>
+                <ul>
+                    <li><a href="http://www.paciellogroup.com/resources/contrastAnalyser">Colour Contrast Analyser</a> (Mac/Win)</li>
+                    <li><a href="http://colororacle.org/">Color Oracle</a> (Mac/Win)</li>
+                    <li><a href="http://wave.webaim.org/">WAVE</a> (Firefox Extention)</li>
+                    <li><a href="http://www.paciellogroup.com/resources/wat/ie">WAT</a> (IE/<a href="http://www.paciellogroup.com/resources/wat/opera">Opera</a>)</li>
+                </ul>
+            </div>
+
+            <div class="span4">
+                <h3>Screen Readers</h3>
+                <ul>
+                    <li><a href="http://www.nvda-project.org/">NVDA</a> (Win)</li>
+                    <li><a href="http://www.freedomscientific.com/products/fs/jaws-product-page.asp">JAWS</a> (Win)</li>
+                    <li><a href="http://www.apple.com/accessibility/voiceover/">VoiceOver</a> (Mac)</li>
+                    <li><a href="http://www.apple.com/accessibility/iphone/vision.html">VoiceOver for iOS</a> (iOS)</li>
+                    <li><a href="http://www.chromevox.com/">Chrome Vox</a> (ChromeOS)</li>
+                </ul>
+            </div>
+
+            <div class="span4">
+                <h3>HTML Related</h3>
+                <ul>
+                    <li><a href="http://www.html5accessibility.com/">HTML5 Accessibility</a></li>
+                    <li><a href="http://www.w3.org/TR/wai-aria/">W3C WAI-ARIA Specification</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="row-fluid">
+
+
+            <div class="span4">
+                <h3>Books</h3>
+                <ul>
+                    <li><a href="http://www.amazon.com/Pro-HTML5-Accessibility-Professional-Apress/dp/1430241942">Pro HTML5 Accessibility</a> by Joshue O Connor</li>
+                    <li><a href="http://www.amazon.com/Web-Accessibility-Standards-Regulatory-Compliance/dp/1590596382">Web Accessibility: Web Standards and Regulatory Compliance</a> by Jim Thatcher</li>
+                    <li><a href="">Designing with Web Standards</a> by Jeffrey Zeldman</li>
+                    <li><a href="">Adaptive Web Design</a> by Aaron Gustafson</li>
+                    <li><a href="">Progressive Enhancement</a> by The Filament Group</li>
+                </ul>
+            </div>
+
+            <div class="span4">
+                <h3>Blogs</h3>
+                <ul>
+                    <li><a href="http://www.paciellogroup.com/">The Paciello Group Blog</a></li>
+                    <li><a href="http://www.456bereastreet.com/">456 Berea Street</a></li>
+                    <li><a href="http://yaccessibilityblog.com/">Yahoo! Accessibility Blog</a></li>
+                    <li><a href="http://www.accessibleculture.org/">Accessible Culture</a></li>
+                </ul>
+            </div>
+
+
+            <div class="span4">
+                <h3>Further Reading</h3>
+                <ul>
+                    <li><strong>Video:</strong> <a href="http://vimeo.com/1157346">Aaron Cannon, Blind Web Developer</a></li>
+                    <li><a href="http://northtemple.com/1608">Accessibility Checklist</a> by Aaron Cannon</li>
+                    <li><a href="http://cameronmoll.com/downloads/Web_Accessibility_Checklist.pdf">PDF Checklist</a> by Cameron Moll</li>
+                    <li><a href="http://www.apple.com/accessibility">Apple’s Commitment to Accessibility</a></li>
+                    <li><a href="http://diveintoaccessibility.info/table_of_contents.html">Dive Into Accessibility: 30 days to a more accessible web site</li></li>
+                    <li><a href="http://wearecolorblind.com">We are Color Blind</a> by Tom van Beveren</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row-fluid">
+
+            <div class="span4">
+                <h3>Consultantcies &amp; Non-profits</h3>
+                <p>Specifically related to web accessibility.</p>
+                <ul>
+                    <li><a href="http://www.knowbility.org/">Knowbility</a></li>
+                    <li><a href="http://www.paciellogroup.com/">The Paciello Group</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </article>
+
+</div>
