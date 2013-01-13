@@ -14,8 +14,8 @@ email: dave@paravelinc.com
 
 # configuration for ehancements, uncomment to enable
 
-# feedburner:
-#   id: feedburnerid
+feedburner:
+  id: SimpleA11Y
 
 # google_analytics:
 #   account: UA-XXXXX-X
