@@ -48,6 +48,30 @@ description: A handy HTML accessibility checklist.
                 <p>Appropriate <code class="language-markup">alt</code> attribute values for images when they're not displayed while leaving text for decorational images blank (e.g. <code class="language-markup">alt=""</code>). Use <code class="language-markup">alt</code> attribute values that convey meaning to your visitors, rather than meaning to you and your colleagues</p>
               </li>
 
+              <!-- Forms -->
+              <li>
+                <h3>Forms</h3>
+                <!-- form layout -->
+                <label for="logical-layout"><h4>Logical layout</h4></label>
+                <input name="logical-layout" type="checkbox" id="logical-layout">
+                <p>Tab order of the form follows a logical pattern.</p>
+
+                <!-- labels -->
+                <label for="labels"><h4>Labels</h4></label>
+                <input name="labels" type="checkbox" id="labels">
+                <p>All <code class="language-markup">input</code> elements have associated <code class="language-markup">label</code> elements. (e.g. <code class="language-markup">&lt;label for="name"&gt;Name:&lt;/label&gt;&lt;input id="name" type="text"&gt;</code>)</p>
+
+                <!-- fieldset -->
+                <label for="group-related-elements"><h4>Group related elements</h4></label>
+                <input name="group-related-elements" type="checkbox" id="group-related-elements">
+                <p>Related <code class="language-markup">input</code> elements are grouped together with <code class="language-markup">fieldset</code>  element. Important for <code class="language-markup">&lt;input type="radio"&gt;</code> and <code class="language-markup">&lt;input type="checkbox"&gt;</code></p>
+
+                <!-- search -->
+                <label for="search-title"><h4>Search field title</h4></label>
+                <input name="search-field-title" type="checkbox" id="search-title">
+                <p>Additional guidience for search fields with <code class="language-markup">title="search"</code> inside the <code class="language-markup">&lt;input type="text" ... &gt;</code> element.</p>
+              </li>
+
               <!-- Javascript -->
               <li>
                 <h3>Javascript</h3>
