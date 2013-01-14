@@ -41,7 +41,6 @@ body {
 
   a {
     @include transition(opacity 0.2s ease-in);
-    border-radius: 2em;
     display: block;
     overflow: hidden;
     opacity: 0.6;

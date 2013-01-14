@@ -1196,6 +1196,7 @@ h3 code {
   background-image: -webkit-linear-gradient(bottom left, #1a274e, #397c9c 110%);
   background-image: -moz-linear-gradient(bottom left, #1a274e, #397c9c 110%);
   background-image: -o-linear-gradient(bottom left, #1a274e, #397c9c 110%);
+  background-image: -ms-linear-gradient(bottom left, #1a274e, #397c9c 110%);
   background-image: linear-gradient(bottom left, #1a274e, #397c9c 110%);
   -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
