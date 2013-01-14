@@ -1,6 +1,6 @@
 [![http://simplea11y.com](http://simplea11y.com/img/README-logo.svg)](http://simplea11y.com)
 
-Simple A11Y
+A11Y Project
 ==========
 
 Making *#A11Y* tips and tricks easier to digest and leveraging the community into the cloud. Simple Accessibility is a community&ndash;driven effort to make web accessibility easier.
