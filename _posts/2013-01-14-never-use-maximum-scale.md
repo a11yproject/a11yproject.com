@@ -3,10 +3,10 @@ layout: post
 title: |
     Quick Tip: Never use maximum-scale=1.0
 tldr: Why you never ever should use maximum-scale=1.0 in your viewport meta tag.
-# date: 
+# date:
 # last_updated:
 categories:
-  - Quick Tip
+  - Quick Tips
 ---
 Using the viewport meta tag the wrong way can hinder users with visual problems to use your website. By setting `maximum-scale=1.0`, you are disabling the functionality to use pinch zoom on mobile devices, and forcing users to view your page a certain way.
 

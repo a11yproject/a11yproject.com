@@ -5,7 +5,7 @@ title: |
 tldr: |
     How-to hide content but still make it accessible to screen readers.
 categories:
-  - How-to
+  - How-tos
 ---
 
 Developers commonly use `display: none` to hide content on the page. Unfortunately, this simple and common action is a bit problematic for screen readers.

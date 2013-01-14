@@ -6,7 +6,7 @@ tldr: A quick 5 second accessibility test that you can run on your sites right n
 # date:
 # last_updated:
 categories:
-  - Quick Tip
+  - Quick Tips
 ---
 One quick way that you can check your accessibility is to navigate through the site using nothing but your keyboard.
 

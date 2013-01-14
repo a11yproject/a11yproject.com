@@ -4,7 +4,7 @@ title: |
     MYTH: Accessibility is "blind people"
 tldr: Brief explanation of the four categories of accessibility
 categories:
-  - Basics
+  - Myths
 # last_updated: 2010-10-07
 ---
 
