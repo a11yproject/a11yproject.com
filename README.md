@@ -3,7 +3,7 @@
 A11Y Project
 ==========
 
-Making *#A11Y* tips and tricks easier to digest and leveraging the community into the cloud. Simple Accessibility is a community&ndash;driven effort to make web accessibility easier.
+Making *#A11Y* tips and tricks easier to digest and leveraging the community into the cloud. The A11Y Project is a community&ndash;driven effort to make web accessibility easier.
 
 This site is the product of a community of people who want to help to make web accessibility&hellip;well, accessible. Our goal is to accomplish this with 3 tennets in mind:
 
@@ -17,7 +17,7 @@ In order to contribute you'll need to know a bit about [Jekyll](https://github.c
 
 ###Gems
 
-Run the following to install the necessary gems for **Simple A11Y**. (**Hint**: All the cool kids use [ruby version manager](https://rvm.io) to organize ``gemset`` dependencies):
+Run the following to install the necessary gems for **The A11Y Project**. (**Hint**: All the cool kids use [ruby version manager](https://rvm.io) to organize ``gemset`` dependencies):
 
     gem install jekyll rdiscount compass
 
