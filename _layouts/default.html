@@ -102,19 +102,20 @@
     -->
     <script>
     (function($){
-      var url = 'https://api.github.com/repos/davatron5000/simplea11y/contributors';
+      var url = 'https://api.github.com/repos/davatron5000/simplea11y/contributors?callback=listContributors';
 
-      $.getJSON(url)
-          .success(function(data) {
+      $.getJSON(url);
+      
+      function listContributors(data) {
 
-            var html = '';
-            $(data).each(function(i, user){
-              html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
-            });
+        var html = '';
+        $(data).each(function(i, user){
+          html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
+        });
 
-            $(html).appendTo('#contributors-list');
+        $(html).appendTo('#contributors-list');
 
-          });
+      });
 
     })(jQuery);
     </script>
