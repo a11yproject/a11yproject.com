@@ -3,7 +3,7 @@ layout: post
 title: Accessibility is hard :(
 ---
 
-For many web developer, accessibility is complex and somewhat difficult. SimpleA11Y understands that and we want to help to make web accessibility easier for front end developers to implement. Our strategy is to accomplish this with 3 principles in mind:
+For many web developers, accessibility is complex and somewhat difficult. SimpleA11Y understands that and we want to help to make web accessibility easier for front end developers to implement. Our strategy is to accomplish this with 3 principles in mind:
 
 1. **Digestible.** We strive to feature short, digestible pieces of content.
 1. **Up-to-date.** The project is hosted on Github so information can be current with the latest standards.
