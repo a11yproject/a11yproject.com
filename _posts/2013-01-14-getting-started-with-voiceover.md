@@ -2,7 +2,7 @@
 layout: post
 title: |
     Getting Started with OSX VoiceOver
-tldr: |
+description: |
     How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in OSX.
 categories:
   - How-tos

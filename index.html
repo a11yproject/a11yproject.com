@@ -26,7 +26,7 @@ description: A description about my blog homepage
     {% for post in site.posts limit:4 %}
     <div class="span3">
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
+      {% if post.description %}<p>{{ post.description }}</p>{% endif %}
       <p><a class="btn" href="{{ post.url }}">Read more &raquo;</a></p>
     </div><!--/span-->
     {% endfor %}
