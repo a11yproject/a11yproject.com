@@ -44,7 +44,7 @@ The following are tasks which can be run from your shell of choice. Some of us u
 
 ###Rake Commands
 
-The following ``rake`` tasks are available (use `rake -T` to list them):
+The following ``rake`` tasks are available and are used for testing the site locally, on your own machine (use `rake -T` to list them):
 
     rake build        # Build site with Jekyll
     rake check_links  # Check links for site already running on localhost:4000
