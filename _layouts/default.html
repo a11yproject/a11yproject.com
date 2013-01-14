@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/"><img src="/img/logo.svg" class="logo" alt=""/>Simple A11Y</a>
+          <a class="brand" href="/"><img src="/img/logo.svg" class="logo" alt=""/>A11Y Project</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li><a href="/archives.html">Archives</a></li>
@@ -61,7 +61,7 @@
           <div class="span8">
             <h5>Contributors</h5>
             <ul id="contributors-list"></ul>
-            <p>Notice an issue or want to help? <a href="http://github.com/davatron5000/simpleA11Y">Please contribute</a>.</p>
+            <p>Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
           </div>
 
           <div class="span4">
@@ -102,7 +102,7 @@
     -->
     <script>
     (function($){
-      var url = 'https://api.github.com/repos/davatron5000/simplea11y/contributors?callback=?';
+      var url = 'https://api.github.com/repos/a11yproject/a11yproject.com/contributors?callback=?';
 
       $.ajax({
         type: 'GET',
@@ -117,7 +117,7 @@
           console.log(e.message);
         }
       });
-      
+
       function listContributors(data) {
 
         var html = '';
