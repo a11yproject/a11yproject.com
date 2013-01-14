@@ -7002,6 +7002,10 @@ body {
   }
 }
 
+.sidebar-nav {
+  margin: 9px 0;
+}
+
 .logo {
   width: 0.75em;
   height: auto;
@@ -7044,7 +7048,6 @@ body {
 }
 .footnotes ol li {
   position: relative;
-  overflow: hidden;
 }
 .footnotes ol a {
   word-break: break;

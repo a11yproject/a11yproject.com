@@ -9,9 +9,9 @@ body {
   }
 }
 
-// .sidebar-nav {
-//   padding: 9px 0;
-// }
+.sidebar-nav {
+  margin: 9px 0;
+}
 
 .logo {
   width:0.75em;
@@ -60,7 +60,6 @@ body {
 
   li {
     position: relative;
-    overflow: hidden;
   }
 
   a {
