@@ -18,16 +18,10 @@ h3 code {
   font-weight: normal;
 }
 
-/* Jumbotrons
+/* Mastheads
 -------------------------------------------------- */
-
-/* Base class
-------------------------- */
-.jumbotron {
+.masthead {
   position: relative;
-  padding: 3em 0 5em;
-  margin-top: -20px;
-  margin-bottom: 2em;
   color: #fff;
   text-align: left;
   text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
@@ -37,298 +31,70 @@ h3 code {
   -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
      -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
           box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
-}
 
-.jumbotron h1 {
-  font-size: 3em;
-  font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
-}
-.jumbotron p {
-  font-size: 1.5em;
-  font-weight: 300;
-  line-height: 1.25;
-  margin-bottom: 0.5em;
-}
+  // Mobile First
+  padding: 1.5em 20px 3em;
+  margin-top:   -20px; /* Offset bottom margin on .navbar */
+  margin-right: -20px;
+  margin-left:  -20px;
 
-@media (min-width: 768px) {
-  .jumbotron h1 {
-    font-size: 5em;
-  }
-  .jumbotron p {
+
+  h1 {
     font-size: 3em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
   }
 
-}
-
-/* Link styles (used on .masthead-links as well) */
-.masthead-links a {
-  color: #fff;
-  color: rgba(255,255,255,.8);
-  -webkit-transition: all .2s ease-in-out;
-     -moz-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
-}
-.masthead-links a:hover {
-  color: #fff;
-  text-shadow: 0 0 10px rgba(255,255,255,.25);
-}
-
-
-/* Masthead (docs home)
-------------------------- */
-
-/* Textual links in masthead */
-.masthead-links {
-  margin: 0;
-  list-style: none;
-}
-.masthead-links li {
-  display: inline;
-  padding: 0 1.5em 0 0;
-  color: rgba(255,255,255,.25);
-}
-
-/* Footer
--------------------------------------------------- */
-
-.footer {
-  text-align: center;
-  padding: 30px 0;
-  margin-top: 70px;
-  border-top: 1px solid #e5e5e5;
-  background-color: #f5f5f5;
-}
-.footer p {
-  margin-bottom: 0;
-  color: #777;
-}
-.footer-links {
-  margin: 10px 0;
-}
-.footer-links li {
-  display: inline;
-  padding: 0 2px;
-}
-.footer-links li:first-child {
-  padding-left: 0;
-}
-
-
-/* Special grid styles
--------------------------------------------------- */
-
-.show-grid {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.show-grid [class*="span"] {
-  background-color: #eee;
-  text-align: center;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
-  min-height: 40px;
-  line-height: 40px;
-}
-.show-grid:hover [class*="span"] {
-  background: #ddd;
-}
-.show-grid .show-grid {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.show-grid .show-grid [class*="span"] {
-  margin-top: 5px;
-}
-.show-grid [class*="span"] [class*="span"] {
-  background-color: #ccc;
-}
-.show-grid [class*="span"] [class*="span"] [class*="span"] {
-  background-color: #999;
-}
-
-/* Misc
--------------------------------------------------- */
-
-/* Make tables spaced out a bit more */
-h2 + table,
-h3 + table,
-h4 + table,
-h2 + .row {
-  margin-top: 5px;
-}
-
-/* Example sites showcase */
-.example-sites {
-  xmargin-left: 20px;
-}
-.example-sites img {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.scrollspy-example {
-  height: 200px;
-  overflow: auto;
-  position: relative;
-}
-
-
-/* Fake the :focus state to demo it */
-.focused {
-  border-color: rgba(82,168,236,.8);
-  -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
-     -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
-          box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
-  outline: 0;
-}
-
-/* For input sizes, make them display block */
-.docs-input-sizes select,
-.docs-input-sizes input[type=text] {
-  display: block;
-  margin-bottom: 9px;
-}
-
-/* Icons
-------------------------- */
-.the-icons {
-  margin-left: 0;
-  list-style: none;
-}
-.the-icons li {
-  float: left;
-  width: 25%;
-  line-height: 25px;
-}
-.the-icons i:hover {
-  background-color: rgba(255,0,0,.25);
-}
-
-/* Example page
-------------------------- */
-.bootstrap-examples p {
-  font-size: 13px;
-  line-height: 18px;
-}
-.bootstrap-examples .thumbnail {
-  margin-bottom: 9px;
-  background-color: #fff;
-}
-
-
-
-/* Bootstrap code examples
--------------------------------------------------- */
-
-
-
-/* Responsive docs
--------------------------------------------------- */
-
-/* Utility classes table
-------------------------- */
-.responsive-utilities th small {
-  display: block;
-  font-weight: normal;
-  color: #999;
-}
-.responsive-utilities tbody th {
-  font-weight: normal;
-}
-.responsive-utilities td {
-  text-align: center;
-}
-.responsive-utilities td.is-visible {
-  color: #468847;
-  background-color: #dff0d8 !important;
-}
-.responsive-utilities td.is-hidden {
-  color: #ccc;
-  background-color: #f9f9f9 !important;
-}
-
-
-
-
-/* Responsive
--------------------------------------------------- */
-
-
-/* Tablet to desktop
-------------------------- */
-@media (min-width: 768px) and (max-width: 979px) {
-  /* Remove any padding from the body */
-  body {
-    padding-top: 0;
-  }
-  /* Widen masthead and social buttons to fill body padding */
-  .jumbotron {
-    margin-top: -20px; /* Offset bottom margin on .navbar */
-  }
-}
-
-/* Tablet
-------------------------- */
-@media (max-width: 767px) {
-  /* Remove any padding from the body */
-  body {
-    padding-top: 0;
-  }
-
-  /* Widen masthead and social buttons to fill body padding */
-  .jumbotron {
-    padding: 1.5em 20px 3em;
-    margin-top:   -20px; /* Offset bottom margin on .navbar */
-    margin-right: -20px;
-    margin-left:  -20px;
-  }
-
-  /* Space out the show-grid examples */
-  .show-grid [class*="span"] {
-    margin-bottom: 5px;
-  }
-
-  /* Sidenav */
-
-  /* Unfloat the back to top link in footer */
-  .footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .footer p {
-    margin-bottom: 9px;
-  }
-}
-
-/* Landscape phones
-------------------------- */
-@media (max-width: 480px) {
-  /* Remove padding above jumbotron */
-  body {
-    padding-top: 0;
-  }
-
-  /* Change up some type stuff */
-  h2 small {
-    display: block;
+  p {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 0.5em;
   }
 
 
-  /* Do our best to make tables work in narrow viewports */
-  table code {
-    white-space: normal;
-    word-wrap: break-word;
-    word-break: break-all;
+  /* Textual links in masthead */
+  .masthead-links {
+    margin: 0;
+    list-style: none;
+
+    li {
+        display: inline;
+        padding: 0 1.5em 0 0;
+        color: rgba(255,255,255,.25);
+    }
+
+    a {
+      color: #fff;
+      color: rgba(255,255,255,.8);
+      -webkit-transition: all .2s ease-in-out;
+         -moz-transition: all .2s ease-in-out;
+              transition: all .2s ease-in-out;
+
+      &:hover {
+        color: #fff;
+        text-shadow: 0 0 10px rgba(255,255,255,.25);
+      }
+
+    }
   }
 
-  /* Tighten up footer */
-  .footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  @media (min-width: 768px) {
+    margin: -20px 0 2em;
+  }
+
+  @media (min-width: 980px) {
+
+    &.jumbotron {
+      padding: 4em 0;
+
+      h1 {
+        font-size: 5em;
+      }
+       p {
+        font-size: 3em;
+      }
+    }
   }
 }
