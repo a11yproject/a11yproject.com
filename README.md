@@ -11,7 +11,7 @@ This site is the product of a community of people who want to help to make web a
 2. **Up-to-date.** The project is hosted on Github so information can be current with the latest standards.
 3. **Forgiving.** People make mistakes and web accessiblity is hard, so we seek to be encouraging.
 
-##Requirements  
+##Requirements
 ========
 In order to contribute you'll need to know a bit about [Jekyll](https://github.com/mojombo/jekyll), [Compass](http://compass-style.org), [Sass](http://sass-lang.com), [Twitter Bootstrap](http://twitter.github.com/bootstrap), [Bash](http://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f) and [Markdown](http://daringfireball.net/projects/markdown/). You'll also need to know how to install *[Ruby Gems](https://rvm.io)* and of course have *[Ruby](http://www.ruby-lang.org/en/downloads/)* installed on your machine.
 
@@ -21,7 +21,11 @@ Run the following to install the necessary gems for **Simple A11Y**. (**Hint**: 
 
     gem install jekyll rdiscount compass
 
-##Under the Hood  
+##Contributing
+========
+[Contributors Docs](https://github.com/davatron5000/simpleA11Y/blob/gh-pages/CONTRIBUTING.md)
+
+##Under the Hood
 ========
 ###Markup
 
@@ -34,7 +38,7 @@ Authored with [Compass](http://compass-style.org) and [Sass](http://sass-lang.co
 
 The site is built on a customized [Compass](http://compass-style.org/) port of [Twitter Bootstrap](http://twitter.github.com/bootstrap). [Jekyll](https://github.com/mojombo/jekyll) is used for templating and posts.
 
-##Local Development  
+##Local Development
 ========
 The following are tasks which can be run from your shell of choice. Some of us use [iTerm](http://iterm.sourceforge.net/downloads.shtml) for Mac but whatevs.
 
