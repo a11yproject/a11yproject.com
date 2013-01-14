@@ -27,7 +27,7 @@ There are two modes you can use when navigating with VoiceOver: by “grouping i
 
 ## The Web Item Rotor ##
 
-<img src="http://wil.to/rotor.png" alt="Screenshot of OSX VoiceOver’s Web Item Rotor listing navigational headings on simplea11y.com">
+<img src="/img/rotor.png" alt="Screenshot of OSX VoiceOver’s Web Item Rotor listing navigational headings on simplea11y.com">
 
 Open the rotor by pressing VO-U with VoiceOver enabled, and you’ll be presented with a list of navigational elements on the current page. You can use the rotor to jump directly to links, headings, form controls, tables, web spaces, and ARIA landmarks. You can switch between these navigation methods using the left and right arrow keys, navigate through the list using the up and down arrow keys, and select an item using the enter key or the spacebar.
 
