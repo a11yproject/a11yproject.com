@@ -1,34 +1,22 @@
 ---
-layout: default
+layout: page
+title: Archives
 description: A description about my blog homepage
 ---
-<div class="container-fluid">
+{% for category in site.categories %}
 
-  <div class="row-fluid">
-    <div class="span9">
-      <div class="container-content">
-        <header class="page-header">
-          <h1>Archives</h1>
-        </header>
+  {% assign title = category.first %}
+  {% assign posts = category.last %}
 
-        <div class="row-fluid">
-          {% for post in site.posts %}
-          <div class="media">
+  <h2>{{ title }}</h2>
 
-              <div class="media-body">
-                <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
-              </div>
-            </div>
-          {% endfor %}
-        </div><!--/row-->
-
+  {% for post in posts %}
+    <div class="media">
+      <div class="media-body">
+        <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        {% if post.tldr %}<p>{{ post.tldr }}</p>{% endif %}
       </div>
-    </div><!--/span-->
+    </div>
+  {% endfor %}
 
-    <div class="span3">
-    </div><!--/span-->
-
-
-  </div><!--/row-->
-</div>
+{% endfor %}
