@@ -102,9 +102,21 @@
     -->
     <script>
     (function($){
-      var url = 'https://api.github.com/repos/davatron5000/simplea11y/contributors?callback=listContributors';
+      var url = 'https://api.github.com/repos/davatron5000/simplea11y/contributors?callback=?';
 
-      $.getJSON(url);
+      $.ajax({
+        type: 'GET',
+        url: url,
+        async: false,
+        contentType: "application/json",
+        dataType: 'jsonp',
+        success: function(data){
+          listContributors(data.data);
+        },
+        error: function(e) {
+          console.log(e.message);
+        }
+      });
       
       function listContributors(data) {
 
