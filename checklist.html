@@ -11,8 +11,15 @@ description: A handy HTML accessibility checklist.
           <h2>Web Accessiblity Checklist</h2>
         </header>
 
+        <style type="text/css">
+          .checklist > ul {
+            margin-left: 0;
+            list-style-type: none;
+          }
+        </style>
+
         <div class="row-fluid">
-          <form action="" id="simple-a11y-checklist" role="form">
+          <form action="" id="simple-a11y-checklist" role="form" class="checklist">
             <ul>
               <!-- Aria Roles -->
               <li id="aria-roles">
