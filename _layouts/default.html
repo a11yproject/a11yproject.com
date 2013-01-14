@@ -102,8 +102,7 @@
     -->
     <script>
     (function($){
-      // Needs to be manual curl'd from https://api.github.com/repos/davatron5000/simpleA11Y/contributors
-      var url = '/contributors.json';
+      var url = 'https://api.github.com/repos/davatron5000/simplea11y/contributors';
 
       $.getJSON(url)
           .success(function(data) {
