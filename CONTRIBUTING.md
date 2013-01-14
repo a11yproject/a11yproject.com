@@ -1,6 +1,5 @@
 [![http://simplea11y.com](http://simplea11y.com/img/README-logo.svg)](http://simplea11y.com)
 # Contributing to Simple A11Y
-
 Do you enjoy web accessibility and want to help? **Here's how you can help.**
 
 ## Writing articles
@@ -10,6 +9,11 @@ We have a list of articles we'd love to see written. Have an idea for an article
 2. Claim an article by starting a new issue with the article title and assign the issue to yourself. The final title can (or probably should) be different.
 3. When you check&ndash;in, reference that issue number in the commit, i.e, `re: #32`
 4. Articles can either be subitted via a pull request or written as a [gist](https://gist.github.com). Link us to your [gist](https://gist.github.com) in the [issue filed](https://github.com/davatron5000/simpleA11Y/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece.
+
+###Gist Worflow for Article Submission
+1. Make a [gist](https://gist.github.com)
+2. Start a conversation about it in an [issue](https://github.com/davatron5000/simpleA11Y/issues)
+3. Roll the article in yourself via a pull request **OR** ask someone to help you.
 
 ## Reporting issues
 Notice something innaccurate? Noticed something inaccessible on this site? You think you can code something up better?
