@@ -1,25 +1,42 @@
-simpleA11Y
+Simple A11Y
 ==========
 
-Making #A11Y tips and tricks easier to digest and leveraging the community into the cloud.
+Making *#A11Y* tips and tricks easier to digest and leveraging the community into the cloud. Simple Accessibility is a community&ndash;driven effort to make web accessibility easier.
 
-## Gems
+This site is the product of a community of people who want to help to make web accessibility&hellip;well, accessible. Our goal is to accomplish this with 3 tennets in mind:
+
+1. **Digestible.** Articles on accessibilty tend to be in-depth. We feature short, digestible pieces of content.
+2. **Up-to-date.** The project is hosted on Github so information can be current with the latest standards.
+3. **Forgiving.** People make mistakes and web accessiblity is hard, so we seek to be encouraging.
+
+##Requirements
+========
+###Gems
 
 Run the following to install the necessary gems:
 
     gem install jekyll rdiscount compass
 
-## Markup
+##Under the Hood
+========
+###Markup
 
 Posts are all written in [Markdown](http://daringfireball.net/projects/markdown/).
 
-## Stylesheets
+###Stylesheets
+Authored with [Compass](http://compass-style.org) and [Sass](http://sass-lang.com).
 
-The site is built on a customized [Compass](http://compass-style.org/) port of [Twitter Bootstrap](http://twitter.github.com/bootstrap).
+###Framework
 
-## Rake tasks
+The site is built on a customized [Compass](http://compass-style.org/) port of [Twitter Bootstrap](http://twitter.github.com/bootstrap). [Jekyll](https://github.com/mojombo/jekyll) is used for templating and posts.
 
-The following tasks are available (use `rake -T` to list them):
+##Local Development
+========
+The following are tasks which can be run from your shell of choice. Some of us use [iTerm](http://iterm.sourceforge.net/downloads.shtml) for Mac but whatevs.
+
+###Rake Commands
+
+The following ``rake`` tasks are available (use `rake -T` to list them):
 
     rake build        # Build site with Jekyll
     rake check_links  # Check links for site already running on localhost:4000
