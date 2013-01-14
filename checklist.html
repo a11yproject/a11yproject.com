@@ -50,6 +50,8 @@ description: A handy HTML accessibility checklist.
                 <label for="img-alt"><code class="language-markup">alt</code> Attribute</label>
                 <input name="img-alt-attr" id="img-alt" type="checkbox">
                 <p>Appropriate <code class="language-markup">alt</code> attribute values for images when they're not displayed while leaving text for decorational images blank (e.g. <code class="language-markup">alt=""</code>). Use <code class="language-markup">alt</code> attribute values that convey meaning to your visitors, rather than meaning to you and your colleagues</p>
+
+
               </li>
 
               <!-- Javascript -->
@@ -92,6 +94,21 @@ description: A handy HTML accessibility checklist.
                 <label for="audio">Provide a Text Transcript</label>
                 <input name="audio-input" id="audio" type="checkbox">
                 <p>Providing a text transcript makes the audio information accessible to people who are deaf or hard of hearing. This also goes for Search Engines who are deaf and hard of hearing as well.</p>
+              </li>
+
+              <!-- Testing -->
+              <li>
+                <h3>Blindness or Low-Vision</h3>
+                <label>Test site using a screen reader</label>
+                <input name="test-screenreader" id="screenreader" type="checkbox">
+                <p>Navigating your site using a screen reader will help you see how the blind will experience it</p>
+              </li> 
+
+              <li>
+                <h3>Color Blindness</h3>
+                <label>Test your site against various types of colorblindness</label>
+                <input name="colorblindness" id="colorblindess" type="checkbox">
+                <p>Testing your site with a tool like http://colorfilter.wickline.org/ will give you an idea of how the site will be viewed by the colorblind</p>
               </li>
             </ul>
           </form>
