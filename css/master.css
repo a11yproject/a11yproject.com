@@ -7038,7 +7038,7 @@ body {
   overflow: hidden;
   opacity: 0.6;
 }
-#contributors-list a:hover {
+#contributors-list a:hover, #contributors-list a:focus {
   opacity: 1;
 }
 
