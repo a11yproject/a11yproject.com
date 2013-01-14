@@ -17,6 +17,9 @@ email: dave@paravelinc.com
 feedburner:
   id: SimpleA11Y
 
+jekyll-press:
+  exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+
 google_analytics:
   account: UA-2419836-9
 
