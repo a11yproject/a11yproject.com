@@ -1,0 +1,65 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    chunky_png (1.2.7)
+    classifier (1.3.3)
+      fast-stemmer (>= 1.0.0)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    css_press (0.3.2)
+      csspool-st (= 3.1.2)
+      json
+    csspool-st (3.1.2)
+    directory_watcher (1.4.1)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    fast-stemmer (1.0.1)
+    fssm (0.2.9)
+    html_press (0.8.1)
+      htmlentities
+      multi_css (>= 0.1.0)
+      multi_js
+    htmlentities (4.3.1)
+    jekyll (0.12.0)
+      classifier (~> 1.3)
+      directory_watcher (~> 1.1)
+      kramdown (~> 0.13.4)
+      liquid (~> 2.3)
+      maruku (~> 0.5)
+      pygments.rb (~> 0.3.2)
+    jekyll-press (0.2.0)
+      html_press (>= 0.8.0)
+      jekyll
+      multi_css (>= 0.1.0)
+      uglifier
+    json (1.7.6)
+    kramdown (0.13.8)
+    liquid (2.4.1)
+    maruku (0.6.1)
+      syntax (>= 1.0.0)
+    multi_css (0.1.0)
+      css_press
+    multi_js (0.0.1)
+      uglifier
+    multi_json (1.5.0)
+    posix-spawn (0.3.6)
+    pygments.rb (0.3.7)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
+    sass (3.2.5)
+    syntax (1.0.0)
+    uglifier (1.3.0)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  jekyll
+  jekyll-press
+  maruku
