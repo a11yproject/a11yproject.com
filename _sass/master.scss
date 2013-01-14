@@ -1,0 +1,75 @@
+@import "bootstrap";
+@import "responsive";
+
+body {
+  padding-bottom: 40px;
+
+  @media (min-width: 980px) {
+      padding-top: 60px;
+  }
+}
+
+// .sidebar-nav {
+//   padding: 9px 0;
+// }
+
+.logo {
+  width:0.75em;
+  height:auto;
+  position: relative;
+  top: -0.1em;
+  margin-right: 0.15em;
+}
+
+.container-content {
+  max-width: 46em;
+}
+
+// Contributors List
+// -------------------------------------------------------------
+#contributors-list {
+  margin-left: 0;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    width: 3.5em;
+    overflow: hidden;
+  }
+
+  a {
+    @include transition(opacity 0.2s ease-in);
+    border-radius: 2em;
+    display: block;
+    overflow: hidden;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+// Footnotes
+// -------------------------------------------------------------
+.footnotes ol {
+
+  padding-left: 1em;
+
+  li {
+    position: relative;
+    overflow: hidden;
+  }
+
+  a {
+    word-break: break;
+  }
+
+  a[rev="footnote"] {
+    position: absolute;
+    left: -2.75em;
+    top: 0.1em;
+  }
+}

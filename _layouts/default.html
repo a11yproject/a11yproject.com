@@ -7,56 +7,7 @@
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
     {% endif %}
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <style>
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-    .logo {
-      width:0.75em;
-      height:auto;
-      position: relative;
-      top: -0.1em;
-      margin-right: 0.15em;
-    }
-    #contributors-list {
-      margin-left: 0;
-    }
-    #contributors-list li {
-      list-style-type: none;
-      display: inline-block;
-      margin-right: 0.5em;
-      width: 3.5em;
-      border-radius: 2em;
-      overflow: hidden;
-    }
-    #contributors-list a {
-      opacity: 0.6;
-    }
-    #contributors-list a:hover {
-      opacity: 1;
-    }
-    .container-content {
-      max-width: 46em;
-    }
-    .footnotes ol {
-      padding-left: 1em;
-    }
-    .footnotes li {
-      position: relative;
-    }
-    .footnotes a[rev="footnote"] {
-      position: absolute;
-      left: -2.75em;
-      top: 0.1em;
-    }
-    </style>
-
-    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/master.css">
     {% if site.feedburner %}
     <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml">
     {% else %}
