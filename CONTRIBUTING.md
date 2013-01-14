@@ -1,5 +1,5 @@
-[![http://simplea11y.com](http://simplea11y.com/img/README-logo.svg)](http://simplea11y.com)
-# Contributing to Simple A11Y
+[![http://a11yproject.com](http://a11yproject.com/img/README-logo.svg)](http://a11yproject.com)
+# Contributing to A11Y Project
 Do you enjoy web accessibility and want to help? **Here's how you can help.**
 
 ## Writing articles
@@ -8,11 +8,11 @@ We have a list of articles we'd love to see written. Have an idea for an article
 1. Search to make sure someone hasn't snagged the article already.
 2. Claim an article by starting a new issue with the article title and assign the issue to yourself. The final title can (or probably should) be different.
 3. When you check&ndash;in, reference that issue number in the commit, i.e, `re: #32`
-4. Articles can either be subitted via a pull request or written in plain text at a linkable location on the web. We recommend using Github's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/davatron5000/simpleA11Y/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece.
+4. Articles can either be subitted via a pull request or written in plain text at a linkable location on the web. We recommend using Github's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece.
 
 ### Plain-text Workflow for Article Submission
 1. Make a [gist](https://gist.github.com) or a [clap](http://oksoclap.com/)
-2. Start a conversation about it in an [issue](https://github.com/davatron5000/simpleA11Y/issues)
+2. Start a conversation about it in an [issue](https://github.com/a11yproject/a11yproject.com/issues)
 3. Roll the article in yourself via a pull request (gist only) **OR** ask someone to help you.
 
 ## Reporting issues
@@ -31,7 +31,7 @@ If you have a feature request(s) we suggest filing an issue initially to discuss
 - `feature/name_of_feature` 
 
 ## Build Process
-- In order to create a site build you'll need to make sure you've run through all the listed commands in the order they appear from our [README.md](https://github.com/davatron5000/simpleA11Y#local-development)
+- In order to create a site build you'll need to make sure you've run through all the listed commands in the order they appear from our [README.md](https://github.com/a11yproject/a11yproject.com#local-development)
 - CSS changes must be done in ``.sass`` files first, never just the compiled files. We use [Codekit](http://incident57.com/codekit) to compile our *Sass* and *Compass*.
 
 
