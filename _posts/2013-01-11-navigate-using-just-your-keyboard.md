@@ -2,7 +2,7 @@
 layout: post
 title: |
     Quick test: Navigate using just your keyboard
-tldr: A quick 5 second accessibility test that you can run on your sites right now.
+description: A quick 5 second accessibility test that you can run on your sites right now.
 # date:
 # last_updated:
 categories:
