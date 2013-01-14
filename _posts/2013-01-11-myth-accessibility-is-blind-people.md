@@ -17,15 +17,14 @@ In [Ian Hamilton's .net magazine article](http://www.netmagazine.com/features/si
   <thead>
     <tr>
         <th>&nbsp;</th>
-        <th>Description</th>
-        <th>Associated Conditions</th>
-
+        <th>Associated&nbsp;Conditions</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-        <th>Visual</th>
-        <td>This can be non-sighted users, users with low-vision, users with obstructed vision, or even simply your aging parents.</td>
+        <td>
+          <h4>Visual</h4>
+          This can be non-sighted users, users with low-vision, users with obstructed vision, or even simply your aging parents.</td>
         <td>
           <ul>
             <li>Myopia</li>
@@ -36,8 +35,9 @@ In [Ian Hamilton's .net magazine article](http://www.netmagazine.com/features/si
         </td>
     </tr>
     <tr>
-        <th>Auditory</th>
-        <td>The web is a visual medium, but captions and fallbacks for sound-necessary media need to be considered for hearing impaired users.</td>
+        <td>
+          <h4>Auditory</h4>
+          The web is a visual medium, but captions and fallbacks for sound-necessary media need to be considered for hearing impaired users.</td>
         <td>
           <ul>
             <li>Presbycusis</li>
@@ -48,8 +48,9 @@ In [Ian Hamilton's .net magazine article](http://www.netmagazine.com/features/si
         </td>
     </tr>
     <tr>
-        <th>Motor</th>
-        <td>People with motor impairments typically use a wide arrange of <abbr title="Assistive Technology">AT</abbr>.</td>
+        <td>
+          <h4>Motor</h4>
+          People with motor impairments typically use a wide arrange of <abbr title="Assistive Technology">AT</abbr>.</td>
         <td>
           <ul>
             <li>RSI</li>
@@ -60,8 +61,9 @@ In [Ian Hamilton's .net magazine article](http://www.netmagazine.com/features/si
         </td>
     </tr>
     <tr>
-        <th>Cognitive</th>
-        <td>Relates to the ease processing of information.</td>
+        <td>
+          <h4>Cognitive</h4>
+          Relates to the ease processing of information.</td>
         <td>
           <ul>
             <li>Down’s syndrome</li>
