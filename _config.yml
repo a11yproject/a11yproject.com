@@ -17,8 +17,8 @@ email: dave@paravelinc.com
 feedburner:
   id: SimpleA11Y
 
-# google_analytics:
-#   account: UA-XXXXX-X
+google_analytics:
+  account: UA-2419836-9
 
 # github:
 #   username: ghusername
