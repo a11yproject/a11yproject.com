@@ -25,28 +25,38 @@ description: A handy HTML accessibility checklist.
               <li id="aria-roles">
                 <h3>ARIA Role Attributes</h3>
                 <!-- banner -->
-                <label for="banner-role">&lt;header role="banner"&gt;</label>
-                <input name="aria-banner-role" id="banner-role" type="checkbox">
+                <label for="banner-role" class="checkbox"><code>&lt;header role="banner"&gt;</code>
+                  <input name="aria-banner-role" id="banner-role" type="checkbox">
+                </label>
+
                 <p>A region of the page that is site focused</p>
 
                 <!-- navigation -->
-                <label for="navigation-role">&lt;nav role="navigation"&gt;</label>
-                <input name="aria-navigation-role" id="navigation-role" type="checkbox">
+                <label for="navigation-role" class="checkbox"><code>&lt;nav role="navigation"&gt;</code>
+                  <input name="aria-navigation-role" id="navigation-role" type="checkbox">
+                </label>
+
                 <p>Contains navigational links</p>
 
                 <!-- main -->
-                <label for="main-role">&lt;section role="main"&gt;</label>
-                <input name="aria-main-role" id="main-role" type="checkbox">
+                <label for="main-role" class="checkbox"><code>&lt;section role="main"&gt;</code>
+                  <input name="aria-main-role" id="main-role" type="checkbox">
+                </label>
+
                 <p>Focal content of document</p>
 
                 <!-- complementary -->
-                <label for="complementary-role">&lt;aside role="complementary"&gt;</label>
-                <input name="aria-complementary-role" id="complementary-role" type="checkbox">
+                <label for="complementary-role" class="checkbox"><code>&lt;aside role="complementary"&gt;</code>
+                  <input name="aria-complementary-role" id="complementary-role" type="checkbox">
+                </label>
+
                 <p>Supporting section related to the main content even when separated</p>
 
                 <!-- complementary -->
-                <label for="contentinfo-role">&lt;footer role="contentinfo"&gt;</label>
-                <input name="aria-contentinfo-role" id="content-info" type="checkbox">
+                <label for="content-info" class="checkbox"><code>&lt;footer role="contentinfo"&gt;</code>
+                  <input name="aria-contentinfo-role" id="content-info" type="checkbox">
+                </label>
+
                 <p>Contains information about the document <b>(meta info,copyright,company info etc.)</b></p>
               </li>
 
@@ -54,8 +64,10 @@ description: A handy HTML accessibility checklist.
               <li id="images">
                 <h3>Images</h3>
                 <!-- alt -->
-                <label for="img-alt"><code class="language-markup">alt</code> Attribute</label>
-                <input name="img-alt-attr" id="img-alt" type="checkbox">
+                <label for="img-alt" class="checkbox"><code class="language-markup">alt</code> Attributes
+                  <input name="img-alt-attr" id="img-alt" type="checkbox">
+                </label>
+
                 <p>Appropriate <code class="language-markup">alt</code> attribute values for images when they're not displayed while leaving text for decorational images blank (e.g. <code class="language-markup">alt=""</code>). Use <code class="language-markup">alt</code> attribute values that convey meaning to your visitors, rather than meaning to you and your colleagues</p>
 
 
@@ -65,12 +77,16 @@ description: A handy HTML accessibility checklist.
               <li id="js">
                 <h3>Javascript</h3>
                 <!-- unobtrusive js -->
-                <label for="unobtrusive-js">Unobtrusive Javascript</label>
-                <input name="unobtrusive-js-input" id="unobtrusive-js" type="checkbox">
+                <label for="unobtrusive-js" class="checkbox">Unobtrusive Javascript
+                  <input name="unobtrusive-js-input" id="unobtrusive-js" type="checkbox">
+                </label>
+
                 <p>Use unobtrusive Javascript (Never use inline scripting)</p>
                 <!-- js alts -->
-                <label for="alt-js">Javascript Alternatives</label>
-                <input name="alt-js-fallback" id="alt-js" type="checkbox">
+                <label for="alt-js" class="checkbox">No-JS Alternatives
+                  <input name="alt-js-fallback" id="alt-js" type="checkbox">
+                </label>
+
                 <p>Provide alternatives for users without Javascript enabled.</p>
               </li>
 
@@ -78,23 +94,31 @@ description: A handy HTML accessibility checklist.
               <li>
                 <h3>Forms</h3>
                 <!-- form layout -->
-                <label for="logical-layout">Logical layout</label>
-                <input name="logical-layout" type="checkbox" id="logical-layout">
+                <label for="logical-layout" class="checkbox">Logical layout
+                  <input name="logical-layout" type="checkbox" id="logical-layout">
+                </label>
+
                 <p>Tab order of the form follows a logical pattern.</p>
 
                 <!-- labels -->
-                <label for="labels">Labels</label>
-                <input name="labels" type="checkbox" id="labels">
+                <label for="labels" class="checkbox">Labels
+                  <input name="labels" type="checkbox" id="labels">
+                </label>
+
                 <p>All <code class="language-markup">input</code> elements have an associated <code class="language-markup">label</code> element. (e.g. <code class="language-markup">&lt;label for="name"&gt;Name:&lt;/label&gt;&lt;input id="name" type="text"&gt;</code>)</p>
 
                 <!-- fieldset -->
-                <label for="group-related-elements">Group related elements</label>
-                <input name="group-related-elements" type="checkbox" id="group-related-elements">
+                <label for="group-related-elements" class="checkbox">Group related elements
+                  <input name="group-related-elements" type="checkbox" id="group-related-elements">
+                </label>
+
                 <p>Related <code class="language-markup">input</code> elements are grouped together with <code class="language-markup">fieldset</code>  element. Important for <code class="language-markup">&lt;input type="radio"&gt;</code> and <code class="language-markup">&lt;input type="checkbox"&gt;</code></p>
 
                 <!-- search -->
-                <label for="search-title">Search field title</label>
-                <input name="search-field-title" type="checkbox" id="search-title">
+                <label for="search-title" class="checkbox">Search field <code>title</code>
+                  <input name="search-field-title" type="checkbox" id="search-title">
+                </label>
+
                 <p>Additional guidience for search fields with <code class="language-markup">title="search"</code> inside the <code class="language-markup">&lt;input type="text" ... &gt;</code> element.</p>
               </li>
 
@@ -102,19 +126,25 @@ description: A handy HTML accessibility checklist.
               <li id="hidden-nodes">
                 <h3>Hidden Nodes</h3>
                 <p>Anytime something is visually hidden within your markup use this role attribute → aria-hidden="true" or aria-hidden="false"</p>
-                <label for="aria-hidden-true">aria-hidden=true</label>
-                <input name="aria-hidden-true-attr" id="aria-hidden-true" type="checkbox">
+                <label for="aria-hidden-true" class="checkbox"><code>aria-hidden=true</code>
+                  <input name="aria-hidden-true-attr" id="aria-hidden-true" type="checkbox">
+                </label>
+
                 <p>Content that you wan't hidden but accessible</p>
-                <label for="aria-hidden-false">aria-hidden="false"</label>
-                <input name="aria-hidden-false-attr" id="aria-hidden-false" type="checkbox">
+                <label for="aria-hidden-false" class="checkbox"><code>aria-hidden="false"</code>
+                  <input name="aria-hidden-false-attr" id="aria-hidden-false" type="checkbox">
+                </label>
+
                 <p>Content that you don't want hidden</p>
               </li>
 
               <!-- Widgets -->
               <li id="widgets">
                 <h3>Widgets</h3>
-                <label for="application-role">role="application"</label>
-                <input name="aria-application-role" id="application-role" type="checkbox">
+                <label for="application-role" class="checkbox"><code>role="application"</code>
+                  <input name="aria-application-role" id="application-role" type="checkbox">
+                </label>
+
                 <p>Add role="application" to your &lt;body&gt; element to instruct screen readers to recognize your site as an application-style widget and not standard content</p>
               </li>
 
@@ -122,20 +152,26 @@ description: A handy HTML accessibility checklist.
               <li id="audio">
                 <h3>Audio</h3>
                 <!-- text transcript -->
-                <label for="audio">Provide a Text Transcript</label>
-                <input name="audio-input" id="audio" type="checkbox">
+                <label for="audio-input" class="checkbox">Provide a Text Transcript
+                  <input name="audio-input" id="audio-input" type="checkbox">
+                </label>
+
                 <p>Providing a text transcript makes the audio information accessible to people who are deaf or hard of hearing. This also goes for Search Engines who are deaf and hard of hearing as well.</p>
               </li>
 
               <!-- Testing -->
               <li>
                 <h3>Testing</h3>
-                <label>Test site using a screen reader</label>
-                <input name="test-screenreader" id="screenreader" type="checkbox">
+                <label class="checkbox">Test site using a screen reader
+                  <input name="test-screenreader" id="screenreader" type="checkbox">
+                </label>
+
                 <p>Navigating your site using a screen reader will help you see how the blind will experience it</p>
 
-                <label>Test your site against various types of colorblindness</label>
-                <input name="colorblindness" id="colorblindess" type="checkbox">
+                <label class="checkbox">Test your site against various types of colorblindness
+                  <input name="colorblindness" id="colorblindess" type="checkbox">
+                </label>
+
                 <p>Testing your site with a tool like  <a href="http://colorfilter.wickline.org/">http://colorfilter.wickline.org/</a> will give you an idea of how the site will be viewed by the colorblind</p>
               </li>
 
