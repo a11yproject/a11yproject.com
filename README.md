@@ -13,9 +13,11 @@ This site is the product of a community of people who want to help to make web a
 
 ##Requirements  
 ========
+In order to contribute you'll need to know a bit about [Jekyll](https://github.com/mojombo/jekyll), [Compass](http://compass-style.org), [Sass](http://sass-lang.com), [Twitter Bootstrap](http://twitter.github.com/bootstrap), [Bash](http://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f) and [Markdown](http://daringfireball.net/projects/markdown/). You'll also need to know how to install *[Ruby Gems](https://rvm.io)* and of course have *[Ruby](http://www.ruby-lang.org/en/downloads/)* installed on your machine.
+
 ###Gems
 
-Run the following to install the necessary gems:
+Run the following to install the necessary gems for **Simple A11Y**. (**Hint**: All the cool kids use [ruby version manager](https://rvm.io) to organize ``gemset`` dependencies):
 
     gem install jekyll rdiscount compass
 
@@ -23,7 +25,7 @@ Run the following to install the necessary gems:
 ========
 ###Markup
 
-Posts are all written in [Markdown](http://daringfireball.net/projects/markdown/).
+Posts are all written in [Markdown](http://daringfireball.net/projects/markdown).
 
 ###Stylesheets
 Authored with [Compass](http://compass-style.org) and [Sass](http://sass-lang.com).
