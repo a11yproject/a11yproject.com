@@ -51,3 +51,5 @@ The following ``rake`` tasks are available and are used for testing the site loc
     rake clean        # Clean up generated site
     rake server       # Start server with --auto
     rake check        # Check if site will run on Github pages
+    
+When the server is running, it is accessible at `http://localhost:4000`
