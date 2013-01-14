@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     {% if page.description %}
-    <meta name="description" content="{{ page.description }}" />
+    <meta name="description" content="{{ page.description }}">
     {% endif %}
-    <link rel="stylesheet" href="/css/bootstrap.css" />
-    <style type="text/css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <style>
       body {
         padding-top: 60px;
         padding-bottom: 40px;
@@ -54,18 +54,17 @@
       left: -2.75em;
       top: 0.1em;
     }
-
     </style>
 
-    <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="/css/responsive.css">
     {% if site.feedburner %}
-    <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+    <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml">
     {% else %}
-    <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml" />
+    <link href="/atom.xml" rel="alternate" title="{{ site.title }}" type="application/atom+xml">
     {% endif %}
     {% if site.google_analytics %}
     <!-- google analytics async -->
-    <script type="text/javascript">
+    <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
       _gaq.push(['_trackPageview']);
@@ -91,6 +90,7 @@
             <ul class="nav">
               <li><a href="/archives.html">Archives</a></li>
               <li><a href="/about.html">About</a></li>
+              <li><a href="/checklist.html">Checklist</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -115,7 +115,8 @@
           <div class="span4">
             <h5>Colophon</h5>
             <p>&copy;2013 SimpleA11Y<br/>
-              Powered by <a href="">Jekyll</a> & <a href="">Boostrap</a></p>
+              Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://twitter.github.com/bootstrap/">Bootstrap</a></p>
+            <p><a href="/atom.xml">Subscribe</a></p>
           </div>
 
         </div>
@@ -132,6 +133,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <!-- <script src="/js/local-storage.js"></script> -->
     <script src="/js/bootstrap-dropdown.js"></script>
     <script src="/js/bootstrap-collapse.js"></script>
     <!--
