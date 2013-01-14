@@ -2,7 +2,7 @@
 layout: post
 title: |
     Quick Tip: ARIA Landmark Roles
-tldr: Use ARIA Landmark Roles to help assistive devices navigate the markup.
+description: Use ARIA Landmark Roles to help assistive devices navigate the markup.
 # date:
 # last_updated:
 categories:

@@ -2,7 +2,7 @@
 layout: post
 title: |
     How-to: Hide Content
-tldr: |
+description: |
     How-to hide content but still make it accessible to screen readers.
 categories:
   - How-tos
