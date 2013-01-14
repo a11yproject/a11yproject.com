@@ -4,7 +4,7 @@ description: A description about my blog homepage
 ---
 <div class="jumbotron masthead">
   <div class="container-fluid">
-    <h1><img src="/img/logo.svg" class="logo" />{{ site.title }}</h1>
+    <h1><img src="/img/logo.svg" class="logo" alt="" />{{ site.title }}</h1>
     <p>A community-driven effort to make web accessibility easier.</p>
     <ul class="masthead-links">
       <li>
@@ -18,9 +18,9 @@ description: A description about my blog homepage
 </div>
 
 <div class="container-fluid">
-      <header class="page-header">
-        <h2>Latest Posts</h2>
-      </header>
+  <header class="page-header">
+    <h2>Latest Posts</h2>
+  </header>
 
   <div class="row-fluid">
     {% for post in site.posts limit:4 %}
