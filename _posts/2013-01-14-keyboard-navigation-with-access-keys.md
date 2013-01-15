@@ -41,4 +41,4 @@ So which keys should you use you ask? That’s a great question. There’s nothi
   </tbody>
 </table>
 
-I simple way to get started would be to include access keys for the homepage (“1”), content (use “c” for instance), navigation (“s”) and search (“4”).
+A simple way to get started would be to include access keys for the homepage (“1”), content (use “c” for instance), navigation (“s”) and search (“4”).
