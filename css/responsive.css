@@ -1192,6 +1192,7 @@ h3 code {
   color: #fff;
   text-align: left;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 0, 0, 0.075);
+  background-color: #1A274E;
   background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, #1a274e), color-stop(110%, #397c9c));
   background-image: -webkit-linear-gradient(bottom left, #1a274e, #397c9c 110%);
   background-image: -moz-linear-gradient(bottom left, #1a274e, #397c9c 110%);
