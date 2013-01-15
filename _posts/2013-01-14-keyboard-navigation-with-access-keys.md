@@ -2,7 +2,7 @@
 layout: post
 title: |
     How To Add Keyboard Navigation with Access Keys
-tldr: Access Keys are simple shortcuts that allow for simple keyboard navigation
+description: Access Keys are simple shortcuts that allow for simple keyboard navigation
 # date:
 # last_updated:
 categories:
