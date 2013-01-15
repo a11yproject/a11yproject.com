@@ -45,7 +45,8 @@ body {
     overflow: hidden;
     opacity: 0.6;
 
-    &:hover {
+    &:hover,
+    &:focus {
       opacity: 1;
     }
   }

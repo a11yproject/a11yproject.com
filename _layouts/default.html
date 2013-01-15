@@ -36,7 +36,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/"><img src="/img/logo.svg" class="logo" alt=""/>Simple A11Y</a>
+          <a class="brand" href="/"><img src="/img/logo.svg" class="logo" alt=""/>A11Y Project</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li><a href="/archives.html">Archives</a></li>
@@ -49,9 +49,9 @@
       </div>
     </nav>
 
-    <section role="main">
+    <main role="main">
     {{ content }}
-    </section>
+    </main>
 
     <footer role="contentinfo">
       <div class="container-fluid">
@@ -61,12 +61,12 @@
           <div class="span8">
             <h5>Contributors</h5>
             <ul id="contributors-list"></ul>
-            <p>Notice an issue or want to help? <a href="http://github.com/davatron5000/simpleA11Y">Please contribute</a>.</p>
+            <p>Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
           </div>
 
           <div class="span4">
             <h5>Colophon</h5>
-            <p>&copy;2013 SimpleA11Y<br/>
+            <p>&copy;2013 The Accessibility Project<br/>
               Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://twitter.github.com/bootstrap/">Bootstrap</a></p>
             <p><a href="/atom.xml">Subscribe</a></p>
           </div>
@@ -102,20 +102,32 @@
     -->
     <script>
     (function($){
-      // Needs to be manual curl'd from https://api.github.com/repos/davatron5000/simpleA11Y/contributors
-      var url = '/contributors.json';
+      var url = 'https://api.github.com/repos/a11yproject/a11yproject.com/contributors?callback=?';
 
-      $.getJSON(url)
-          .success(function(data) {
+      $.ajax({
+        type: 'GET',
+        url: url,
+        async: false,
+        contentType: "application/json",
+        dataType: 'jsonp',
+        success: function(data){
+          listContributors(data.data);
+        },
+        error: function(e) {
+          console.log(e.message);
+        }
+      });
 
-            var html = '';
-            $(data).each(function(i, user){
-              html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
-            });
+      function listContributors(data) {
 
-            $(html).appendTo('#contributors-list');
+        var html = '';
+        $(data).each(function(i, user){
+          html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
+        });
 
-          });
+        $(html).appendTo('#contributors-list');
+
+      }
 
     })(jQuery);
     </script>
