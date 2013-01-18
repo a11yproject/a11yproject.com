@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "responsive";
+@import "icons";
 
 body {
   padding-bottom: 40px;
@@ -14,11 +15,19 @@ body {
 }
 
 .logo {
-  width:0.75em;
+  display: inline-block;
   height:auto;
   position: relative;
-  top: -0.1em;
   margin-right: 0.15em;
+}
+.oldie-logo-navbar {
+  width: 23px;
+  height: 23px;
+  background: #103051;
+}
+.oldie-logo-masthead {
+  width: 43px;
+  height: 43px;
 }
 
 .container-content {

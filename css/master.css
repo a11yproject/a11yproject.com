@@ -4244,7 +4244,7 @@ input[type="submit"].btn.btn-mini {
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
+  margin: 2px 10px 0 0;
 }
 
 .navbar .nav.pull-right {
@@ -6994,6 +6994,43 @@ h3 code {
   }
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("/../fonts/icomoon.eot");
+  src: url("/../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("/../fonts/icomoon.svg#icomoon") format("svg"), url("/../fonts/icomoon.woff") format("woff"), url("/../fonts/icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-logo:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-logo:before {
+  content: "\e000";
+}
+
 body {
   padding-bottom: 40px;
 }
@@ -7008,11 +7045,21 @@ body {
 }
 
 .logo {
-  width: 0.75em;
+  display: inline-block;
   height: auto;
   position: relative;
-  top: -0.1em;
   margin-right: 0.15em;
+}
+
+.oldie-logo-navbar {
+  width: 23px;
+  height: 23px;
+  background: #103051;
+}
+
+.oldie-logo-masthead {
+  width: 43px;
+  height: 43px;
 }
 
 .container-content {

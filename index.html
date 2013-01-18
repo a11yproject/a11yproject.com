@@ -4,7 +4,7 @@ description: A description about my blog homepage
 ---
 <div class="jumbotron masthead">
   <div class="container-fluid">
-    <h1><img src="/img/logo.svg" class="logo" alt="" />{{ site.title }}</h1>
+    <h1><!--[if lte IE 8]><img src="/img/logo.png" class="oldie-logo-masthead logo" alt=""><![endif]--><!--[if gte IE 9]><!--><span class="fs1 logo" aria-hidden="true" data-icon="&#xe000;"></span><!--<![endif]-->{{ site.title }}</h1>
     <p>A community-driven effort to make web accessibility easier.</p>
     <ul class="masthead-links">
       <li>
