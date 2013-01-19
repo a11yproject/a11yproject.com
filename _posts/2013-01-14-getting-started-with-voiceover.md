@@ -1,14 +1,14 @@
 ---
 layout: post
 title: |
-    Getting Started with OSX VoiceOver
+    Getting Started with OS X VoiceOver
 description: |
-    How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in OSX.
+    How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in OS X.
 categories:
   - How-tos
 ---
 
-VoiceOver is the assistive software built into OSX. It provides a richer set of keyboard shortcuts for navigating a website and reads sections of the page aloud based on the current focus. It’s a great way to test the accessibility of a project because it’s always readily at-hand: you can toggle VoiceOver on/off by:
+VoiceOver is the assistive software built into OS X. It provides a richer set of keyboard shortcuts for navigating a website and reads sections of the page aloud based on the current focus. It’s a great way to test the accessibility of a project because it’s always readily at-hand: you can toggle VoiceOver on/off by:
 
 * Toggling it to “on” under “Universal Access” in your system preferences.
 * Pressing ⌘+F5
@@ -27,7 +27,7 @@ There are two modes you can use when navigating with VoiceOver: by “grouping i
 
 ## The Web Item Rotor ##
 
-<img src="/img/rotor.png" alt="Screenshot of OSX VoiceOver’s Web Item Rotor listing navigational headings on a11yproject.com">
+<img src="/img/rotor.png" alt="Screenshot of OS X VoiceOver’s Web Item Rotor listing navigational headings on a11yproject.com">
 
 Open the rotor by pressing VO-U with VoiceOver enabled, and you’ll be presented with a list of navigational elements on the current page. You can use the rotor to jump directly to links, headings, form controls, tables, web spaces, and ARIA landmarks. You can switch between these navigation methods using the left and right arrow keys, navigate through the list using the up and down arrow keys, and select an item using the enter key or the spacebar.
 
