@@ -1,17 +1,17 @@
 ---
 layout: post
 title: |
-    Don't auto-play video, music and more
+    Quick tip: Don't auto-play video, music and more
 description: Why you shouldn't auto-play anything that could distract the user from their main task.
-<!-- categories:
-  - Quick Tips -->
+categories:
+  - Quick Tips
 ---
 
 **Summary\:** don't auto-play and it will please *all* of your users.
 
 ## Sound
 
-People using screen-readers navigate by listening so any sound playing when the page load will interfere with this immensely.
+People using screen-readers navigate by listening so any sound playing when the page load will interfere immensely.
 
 In [a note on audio control](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html), WCAG 2.0 suggests:
 > Therefore, we discourage the practice of automatically starting sounds (especially if they last more than 3 seconds), and encourage that the sound be started by an action initiated by the user after they reach the page, rather than requiring that the sound be stopped by an action of the user after they land on the page.
@@ -41,8 +41,6 @@ We, as web developers, don't always have the luxury of making the business decis
 1. Ensure the clip lasts for [five seconds or fewer](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#time-limits-pause) before stopping for good
 1. If the clip lasts over five seconds you must provide the user with an option to [stop or pause it](http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
 1. It is generally accepted that if the user was aware, when they clicked a link, that the proceeding page would auto-play - for example a link to YouTube
-
-
 
 ## Further reading
 
