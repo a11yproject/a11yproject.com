@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Archives
-description: A description about my blog homepage
+description: All posts organized by category
 ---
 {% for category in site.categories %}
+
+  {% unless forloop.first %}<hr/>{% endunless %}
 
   {% assign title = category.first %}
   {% assign posts = category.last %}
