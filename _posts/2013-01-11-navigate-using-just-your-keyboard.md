@@ -1,13 +1,15 @@
 ---
 layout: post
 title: |
-    Quick test: Navigate using just your keyboard
+    Quick Test: Navigate using just your keyboard
 description: A quick 5 second accessibility test that you can run on your sites right now.
 # date:
 # last_updated:
 categories:
-  - Quick Tips
+  - Quick Tests
 ---
+**Estimated Time:** 5 seconds
+
 One quick way that you can check your accessibility is to navigate through the site using nothing but your keyboard.
 
 1. Un-plug/turn off your mouse.
@@ -16,5 +18,3 @@ One quick way that you can check your accessibility is to navigate through the s
 4. Some menus and form elements may require <kbd>&uarr;</kbd> <kbd>&darr;</kbd> <kbd>&larr;</kbd> <kbd>&rarr;</kbd> arrow keys.
 
 This is by no means a complete accessibility check, but it can quickly help you find major accessibility problems.
-
-**Estimated Time:** 5 seconds
