@@ -18,4 +18,4 @@ Here are some tools to test your content:
 3. [Microsoft Office](http://office.microsoft.com/en-us/word-help/test-your-document-s-readability-HP010148506.aspx)
 
 
-If your content content isn't hitting the target audience, take some time and rewrite it.
+If your content isn't hitting the target audience, take some time and rewrite it.
