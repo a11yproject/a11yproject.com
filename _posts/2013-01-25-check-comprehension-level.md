@@ -14,7 +14,8 @@ Cognitive disabilities affect more than 6% of the population. People with cognit
 Here are some tools to test your content:
 
 1. [Read-able.com](http://www.read-able.com/)
-2. [Microsoft Office](http://office.microsoft.com/en-us/word-help/test-your-document-s-readability-HP010148506.aspx)
+2. [Readability Test - Juicy Studio](http://juicystudio.com/services/readability.php)
+3. [Microsoft Office](http://office.microsoft.com/en-us/word-help/test-your-document-s-readability-HP010148506.aspx)
 
 
 If your content content isn't hitting the target audience, take some time and rewrite it.
