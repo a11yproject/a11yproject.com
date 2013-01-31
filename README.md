@@ -19,7 +19,7 @@ In order to contribute you'll need to know a bit about [Jekyll](https://github.c
 
 Run the following to install the necessary gems for **A11Y Project**. (**Hint**: All the cool kids use [ruby version manager](https://rvm.io) to organize ``gemset`` dependencies):
 
-    gem install jekyll rdiscount compass
+    $ bundle
 
 ##Contributing
 ========
