@@ -11,16 +11,17 @@ categories:
 
 ## Sound
 
-People using screen-readers navigate by listening so any sound playing when the page load will interfere immensely.
+People using screen-readers navigate by listening, so any sound playing when the page loads will interfere immensely.
 
 In [a note on audio control](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html), WCAG 2.0 suggests:
+
 > Therefore, we discourage the practice of automatically starting sounds (especially if they last more than 3 seconds), and encourage that the sound be started by an action initiated by the user after they reach the page, rather than requiring that the sound be stopped by an action of the user after they land on the page.
 
-It will also be frustrating to any user that may be listening to music or is in a quiet area with their sound on high!
+It will also be frustrating to any user that may be listening to music or is in a quiet area with their sound on high.
 
 ## Vision
 
-Vision includes video and CSS/Javascript animations like slide-shows and carousels.
+Vision includes video and CSS/JavaScript animations like slide-shows and carousels.
 
 Some groups of people, such as those with certain types of learning difficulties, can find it hard to concentrate or focus on tasks. These groups may have a problem with moving content on a web page that starts without warning.
 
