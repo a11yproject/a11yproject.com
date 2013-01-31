@@ -10,7 +10,7 @@ categories:
 
 Developers commonly use `display: none` to hide content on the page. Unfortunately, this simple and common action is a bit problematic for screen readers.
 
-[Screen readers sometimes ignore display:none](http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/). Which means the content will be read despite being "hidden". To hide content completely from screen readers use the following:
+[Screen readers sometimes ignore display:none](http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/). This means the content will be read despite being "hidden". To hide content completely from screen readers use the following:
 
     /* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
     .hidden {
@@ -20,7 +20,7 @@ Developers commonly use `display: none` to hide content on the page. Unfortunate
 
 And for good measure you could consider adding the ARIA attribute `aria-hidden="true"` to the element.
 
-There are also real world situations where you want to hide elements (i.e., a `form label`), but you still want text to be read by a screen reader.
+There are also real world situations where you want to hide elements (e.g., a `form label`), but you still want text to be read by a screen reader.
 
     /* http://webaim.org/techniques/css/invisiblecontent/ */
     .screen-reader-text {

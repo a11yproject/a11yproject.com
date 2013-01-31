@@ -16,13 +16,13 @@ Access keys are a very simple accessibility tool to implement. By doing so, it a
 
 This would allow a user to hit “control + 1″ (or “alt + 1″) on any page of your site to get back to the homepage.
 
-Now one of the difficulties with access keys is letting your users know they exist. One option is to add a title attribute alongside each accesskey, which could tip-off users when they mouse over the element for future reference, like so:
+One of the difficulties with access keys is letting your users know they exist. One option is to add a title attribute alongside each accesskey, which could tip-off users when they mouse over the element for future reference, like so:
 
     <h1><a href="/" accesskey="1" title="Homepage shortcut key = 1">Title of My Site</h1>
 
-There are other ways to advertise access keys. [See this Wikipedia entry for suggestions](http://en.wikipedia.org/wiki/Access_key).
+There are other ways to advertise access keys. [See the Wikipedia entry on "Access key" for suggestions](http://en.wikipedia.org/wiki/Access_key).
 
-So which keys should you use you ask? That’s a great question. There’s nothing in the HTML spec indicating which keys/values should be used, but there are sets that have become widely adopted around the web. According to the UK Government accessibility guidelines, you should use the following:
+So which keys should you use? That’s a great question. There’s nothing in the HTML spec indicating which keys/values should be used, but there are sets that have become widely adopted around the web. According to the UK Government accessibility guidelines, you should use the following:
 
 <table class="table table-striped table-bordered">
   <thead>

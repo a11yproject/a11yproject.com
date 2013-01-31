@@ -10,6 +10,6 @@ categories:
   - How-to
 ---
 
-WAI-ARIA is the HTML5 spec designed to increase the accessibility of web pages, dynamic content, and user interfaces developed with HTML5 and modern Javascript.
+WAI-ARIA is the HTML5 spec designed to increase the accessibility of web pages, dynamic content, and user interfaces developed with HTML5 and modern JavaScript.
 
 *[WAI-ARIA]: Web Accessibility Initiative - Accessible Rich Internet Applications
