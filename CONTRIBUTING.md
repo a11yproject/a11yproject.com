@@ -6,21 +6,28 @@ Do you enjoy web accessibility and want to help? **Here's how you can help.**
 We have a list of articles we'd love to see written. Have an idea for an article? We'd love to know what you want to contribute.
 
 1. Search to make sure someone hasn't snagged the article already.
-2. Claim an article by starting a new issue with "Article: your title" as issue title. The final title can (or probably should) be different.
-3. When you check&ndash;in, reference that issue number in the commit, i.e, `re: #32`
-4. Articles can either be subitted via a pull request or written in plain text at a linkable location on the web. We recommend using Github's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece.
+2. Claim an article by starting a new issue with "Article: your title" as the issue title. The final title can (or probably should) be different.
+3. When you check&ndash;in, reference that issue number in the commit, e.g., `re: #32`
+4. Articles can either be submitted via a pull request or written in plain text at a linkable location on the web. We recommend using GitHub's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece.
 
 ### Plain-text Workflow for Article Submission
 1. Make a [gist](https://gist.github.com) or a [clap](http://oksoclap.com/)
 2. Start a conversation about it in an [issue](https://github.com/a11yproject/a11yproject.com/issues)
 3. Roll the article in yourself via a pull request (gist only) **OR** ask someone to help you.
 
+### Article style guide
+
+Here are some suggestions and tips on writing your article:
+
+- Short - Aim for a timed reading length of approximately two minutes.
+- Focused - Keep it digestable and to a single topic. Articles that span multiple areas and topics are better broken up.
+
 ## Reporting issues
-Notice something innaccurate? Noticed something inaccessible on this site? You think you can code something up better?
+Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
 
 - File an issue.
-- Preface your issue as either an `innaccuracy`, a `inaccessibility`, or a `bug` (for site issues) (e.g. "Bug: Link at archive not working"). 
-- **ISSUES ARE NOT** free help on your website. Use [StackOverflow](http://stackoverflow.com) for that.
+- Preface your issue as either an `inaccuracy`, a `inaccessibility`, or a `bug` (for site issues) (e.g. "Bug: Link at archive not working"). 
+- **ISSUES ARE NOT** free help on your website. Use [Stack Overflow](http://stackoverflow.com) for that.
 
 ## Key branches
 
