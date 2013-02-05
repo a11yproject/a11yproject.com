@@ -22,14 +22,11 @@ And for good measure you could consider adding the ARIA attribute `aria-hidden="
 
 There are also real world situations where you want to hide elements (e.g., a `form label`), but you still want text to be read by a screen reader.
 
-    /* http://webaim.org/techniques/css/invisiblecontent/ */
-    .screen-reader-text {
-        position:absolute;
-        left:-10000px;
-        top:auto;
-        width:1px;
-        height:1px;
-        overflow:hidden;
+    /* http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/ */
+    .hide-text {
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
 Consider adding these HTML classes and CSS rules to your base stylesheet and use them when applicable.
