@@ -13,7 +13,7 @@ This site is the product of a community of people who want to help to make web a
 
 ##Requirements
 ========
-In order to contribute you'll need to know a bit about [Jekyll](https://github.com/mojombo/jekyll), [Compass](http://compass-style.org), [Sass](http://sass-lang.com), [Twitter Bootstrap](http://twitter.github.com/bootstrap), [Bash](http://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f) and [Markdown](http://daringfireball.net/projects/markdown/). You'll also need to know how to install *[Ruby Gems](https://rvm.io)* and of course have *[Ruby](http://www.ruby-lang.org/en/downloads/)* installed on your machine.
+In order to contribute to the code of the website, you&rsquo;ll need to know a bit about [Jekyll](https://github.com/mojombo/jekyll), [Compass](http://compass-style.org), [Sass](http://sass-lang.com), [Twitter Bootstrap](http://twitter.github.com/bootstrap), [Bash](http://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f) and [Markdown](http://daringfireball.net/projects/markdown/). You'll also need to know how to install *[Ruby Gems](https://rvm.io)* and of course have *[Ruby](http://www.ruby-lang.org/en/downloads/)* installed on your machine.
 
 ###Gems
 
@@ -51,7 +51,7 @@ The following ``rake`` tasks are available and are used for testing the site loc
     rake clean        # Clean up generated site
     rake server       # Start server with --auto
     rake check        # Check if site will run on Github pages
-    
+
 **Local Server**
 
 Trigger the local server by executing the ``rake server`` task. Your local copy will now be accessible at `http://localhost:4000`. You should see a message thats says ``INFO  WEBrick::HTTPServer#start: pid=62675 port=4000`` which means your local copy can now be found at ``port 4000 ``.
