@@ -24,6 +24,7 @@ There are also real world situations where you want to hide elements (e.g., a `f
 
 The clip pattern will hide the content visually, yet provide the content to screen readers. Unlike positioning and negative text-indent, it works with rtl languages for localization.
 Read Thierry Koblentz's article [Clip Your Hidden Content For Better Accessibility](http://developer.yahoo.com/blogs/ydn/posts/2012/10/clip-your-hidden-content-for-better-accessibility/) for more information on this pattern and when to decide between visually-hidden and hidden.
+
     .visually-hidden { /*http://developer.yahoo.com/blogs/ydn/posts/2012/10/clip-your-hidden-content-for-better-accessibility/*/
         position: absolute !important;
         clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
