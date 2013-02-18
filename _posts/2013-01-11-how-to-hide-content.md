@@ -4,6 +4,7 @@ title: |
     How-to: Hide Content
 description: |
     How-to hide content but still make it accessible to screen readers.
+last_updated: 2013-02-15
 categories:
   - How-tos
 ---
