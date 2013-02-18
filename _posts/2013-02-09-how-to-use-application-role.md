@@ -7,7 +7,7 @@ description: <strong>NEVER</strong> use <code>role=application</code> on a widel
 # last_updated:
 published: true
 categories:
-  - How-to
+  - How-tos
 ---
 
 **NEVER** use ``role="application"`` on a widely containing element such as ``<body>`` if your page consists mostly of traditional widgets or page elements such as links that the user does not have to interact with in focus mode. Using ``role="application"`` unnecessarily can cause huge headaches for any assistive technology user trying to use your site/application. Only put it on the ``<body>`` element if your page consists solely of a widget or set of widgets that all need the focus mode[^focusmode] to be turned on.
