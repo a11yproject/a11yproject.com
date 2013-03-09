@@ -5,7 +5,7 @@ title: |
 description: Brief explanation of the four categories of accessibility
 categories:
   - Myths
-# last_updated: 2010-10-07
+# last_updated: 2013-03-09
 ---
 
 Accessibility is often viewed as making your site work on screen readers. In reality, web accessibility is a subset of <abbr title="User Experience">UX</abbr> focused on making your websites usable by the widest range of people possible, including those who have disabilities.
@@ -78,5 +78,8 @@ Accessibility can be broken down into four key categories[^fn1].
     </tr>
   </tbody>
 </table>
+
+### Temporary Disabilities
+While each of these disabilities are usually permanent, there are often situations in which even fully-abled people are 'temporarily disabled' such as having an arm injury may prevent you from being able to use a mouse. Robin Christopherson (an accessbility expert who is blind) once spoke about how people that are driving but use hands-free sets or have their phone connected to the car radio are 'temporarily disabled' as they use the phone differently to how they normally would. Of course, most people do not need to browse websites while they are driving but it is important to understand different situations like that, where the user may not have special software installed that a disabled user might.
 
 As you can see, there are a variety of different users with different needs and concerns across the web. We will cover each category further in detail as they relate to accessibility on the web.
