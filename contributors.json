@@ -143,4 +143,22 @@
     "id": 439942,
     "subscriptions_url": "https://api.github.com/users/wilto/subscriptions"
   }
+  {
+    "type": "User",
+    "avatar_url": "https://secure.gravatar.com/avatar/a6af2c09103913255f2be27fb0d84b58?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
+    "starred_url": "https://api.github.com/users/shanehudson/starred{/owner}{/repo}",
+    "gravatar_id": "a6af2c09103913255f2be27fb0d84b58",
+    "repos_url": "https://api.github.com/users/shanehudson/repos",
+    "gists_url": "https://api.github.com/users/shanehudson/gists{/gist_id}",
+    "organizations_url": "https://api.github.com/users/shanehudson/orgs",
+    "contributions": 1,
+    "events_url": "https://api.github.com/users/shanehudson/events{/privacy}",
+    "login": "shanehudson",
+    "received_events_url": "https://api.github.com/users/shanehudson/received_events",
+    "url": "https://api.github.com/users/shanehudson",
+    "followers_url": "https://api.github.com/users/shanehudson/followers",
+    "following_url": "https://api.github.com/users/shanehudson/following",
+    "id": 487005,
+    "subscriptions_url": "https://api.github.com/users/shanehudson/subscriptions"
+  }
 ]
