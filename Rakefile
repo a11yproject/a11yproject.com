@@ -13,8 +13,7 @@ end
 
 desc 'Start server with --auto'
 task :server => :clean do
-  compass
-  jekyll('--server --auto')
+  jekyll_compass
 end
 
 desc 'Check if site will run on Github pages'
@@ -63,4 +62,8 @@ end
 
 def compass(opts = '')
   sh 'compass compile -c config.rb --force ' + opts
+end
+
+def jekyll_compass
+  sh 'compass watch & jekyll --server --auto'
 end
