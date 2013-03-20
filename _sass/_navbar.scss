@@ -224,7 +224,10 @@
   }
 }
 
-
+// Google translate bar
+.skiptranslate + .navbar-fixed-top {
+  position: absolute;
+}
 
 // NAVIGATION
 // ----------

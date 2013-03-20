@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-translate-customization" content="2799b63e9872a422-144b0a71179bc4c5-gbc0bb0558eb2f07b-f"></meta>
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}">
@@ -28,6 +29,7 @@
     {% endif %}
   </head>
   <body>
+
     <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
@@ -69,6 +71,8 @@
             <p>&copy; 2013 The Accessibility Project<br />
               Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://twitter.github.com/bootstrap/">Bootstrap</a></p>
             <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
+            <div id="google_translate_element"></div>
+
           </div>
 
         </div>
@@ -100,6 +104,12 @@
     <script src="/js/bootstrap-carousel.js"></script>
     <script src="/js/bootstrap-typeahead.js"></script>
     -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     <script>
     (function($){
       var url = 'https://api.github.com/repos/a11yproject/a11yproject.com/contributors?callback=?';
