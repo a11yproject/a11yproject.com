@@ -12,7 +12,7 @@ categories:
 
 * **banner** – Typically the “header” of your page that includes the name of the site
 * **search** – For the search form
-* **form** - Group of elements that as a whole, assemble a form</li>
+* **form** - Group of elements that as a whole, assemble a form (please note that there isn't a great deal of legacy support for this role)</li>
 * **main** – This would designate the main content area on your site
 * **navigation** – Use on any navigation list, typically on the nav element
 * **contentinfo** – Typically the "footer" of your page that contains information about the parent document such as copyrights and links to privacy statements
