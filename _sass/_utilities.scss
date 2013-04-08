@@ -39,6 +39,11 @@
   @include hide-text();
 }
 
+// Accessible yet invisible and focusable text
+.visuallyhidden {
+  @include visuallyhidden();
+}
+
 // Uses box-sizing mixin, so must be defined here
 .input-block-level {
   @include input-block-level();
