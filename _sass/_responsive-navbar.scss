@@ -49,9 +49,17 @@
   .nav-collapse .nav {
     float: none;
     margin: 0 0 ($baseLineHeight / 2);
+    overflow: auto;
   }
   .nav-collapse .nav > li {
-    float: none;
+    //float: none;
+    float: right;
+    @media screen and (max-width: 23.875em) {
+      float: none;
+      border: 1px solid rgb(54, 49, 49);
+      padding: 1em 0;
+      background: #1A1A1A;
+    }
   }
   .nav-collapse .nav > li > a {
     margin-bottom: 2px;

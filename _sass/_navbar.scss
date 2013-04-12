@@ -245,6 +245,7 @@
 }
 .navbar .nav > li {
   float: left;
+  text-align:right;
 }
 
 // Links
@@ -285,9 +286,10 @@
 .navbar .btn-navbar {
   display: none;
   float: right;
-  padding: 7px 10px;
+  padding: 1em;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 1em;
   @include buttonBackground(darken($navbarBackgroundHighlight, 5%), darken($navbarBackground, 5%));
   @include box-shadow(inset 0 1px 0 rgba(255,255,255,.1), 0 1px 0 rgba(255,255,255,.075));
 }

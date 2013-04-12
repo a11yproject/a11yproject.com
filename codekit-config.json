@@ -250,16 +250,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/bootstrap-carousel.js" : {
+    "\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/bootstrap-carousel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/bootstrap-carousel-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_layouts\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/icons.css" : {
       "ignoreWasSetByUser" : 0,
@@ -269,15 +267,6 @@
       "inputAbbreviatedPath" : "\/css\/icons.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/_layouts\/default.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_sass\/_hero-unit.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -300,6 +289,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/minified\/bootstrap-typeahead-min.js",
+      "fileType" : 64
+    },
+    "\/js\/bootstrap-carousel.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/bootstrap-carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/bootstrap-carousel-min.js",
       "fileType" : 64
     },
     "\/js\/bootstrap-scrollspy.min.js" : {
@@ -471,17 +471,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/tests\/unit\/bootstrap-tab.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-tab.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-tab.min-min.js",
-      "fileType" : 64
-    },
     "\/_sass\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -493,6 +482,17 @@
       "outputAbbreviatedPath" : "\/css\/_variables.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/tests\/unit\/bootstrap-tab.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-tab.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-tab.min-min.js",
+      "fileType" : 64
     },
     "\/js\/bootstrap-button.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -633,16 +633,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/js\/tests\/unit\/bootstrap-tooltip.js" : {
+    "\/resources.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-tooltip.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-tooltip-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/resources.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_sass\/icons.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -656,14 +654,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/resources.html" : {
+    "\/js\/tests\/unit\/bootstrap-tooltip.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/resources.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-tooltip-min.js",
+      "fileType" : 64
     },
     "\/_sass\/_accordion.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -709,15 +709,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_sass\/_pagination.scss" : {
+    "\/_sass\/bootstrap.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_sass\/_pagination.scss",
+      "inputAbbreviatedPath" : "\/_sass\/bootstrap.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_pagination.css",
+      "outputAbbreviatedPath" : "\/css\/bootstrap.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -732,6 +732,18 @@
       "outputAbbreviatedPath" : "\/js\/minified\/bootstrap-transition.min-min.js",
       "fileType" : 64
     },
+    "\/_sass\/_pagination.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_sass\/_pagination.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_pagination.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/_sass\/_popovers.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -741,18 +753,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_popovers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/_sass\/bootstrap.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_sass\/bootstrap.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/bootstrap.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -1343,26 +1343,6 @@
       "outputAbbreviatedPath" : "\/js\/minified\/bootstrap-tooltip.min-min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/bootstrap-carousel.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-carousel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-carousel-min.js",
-      "fileType" : 64
-    },
-    "\/_sass\/tests\/forms.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_sass\/tests\/forms.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_sass\/responsive.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1374,6 +1354,26 @@
       "outputAbbreviatedPath" : "\/css\/responsive.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_sass\/tests\/forms.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_sass\/tests\/forms.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/js\/tests\/unit\/bootstrap-carousel.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-carousel-min.js",
+      "fileType" : 64
     },
     "\/js\/tests\/unit\/bootstrap-transition.js" : {
       "ignoreWasSetByUser" : 0,
