@@ -22,13 +22,16 @@ description: A community-driven effort to make web accessibility easier.
     <h2>Latest Posts</h2>
   </header>
 
-  <div class="row-fluid">
-    {% for post in site.posts limit:4 %}
+  <div class="row-fluid latest-posts">
+    {% for post in site.posts limit: 8 %}
     <div class="span3">
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
       {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-      <p><a class="btn" href="{{ post.url }}">Read more &raquo;</a></p>
     </div><!--/span-->
+    {% if forloop.index == 4 %}
+  </div>
+  <div class="row-fluid latest-posts">
+    {% endif %}
     {% endfor %}
   </div><!--/row-->
 </div>

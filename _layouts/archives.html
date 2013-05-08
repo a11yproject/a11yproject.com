@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <div class="masthead">
+    <div class="container-fluid">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description }}</p>
+
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row-fluid">
+      <div class="span8">
+
+          <div class="post row-fluid">
+          {{ content }}
+          </div>
+
+      </div>
+
+      <div class="span4">
+        <div class="well sidebar-nav">
+          <ul id="toc" class="nav nav-list"></ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</article>

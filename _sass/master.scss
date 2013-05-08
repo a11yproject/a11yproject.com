@@ -63,6 +63,25 @@ body {
 
 // Post
 // -------------------------------------------------------------
+.latest-posts {
+  .span3 {
+    border-bottom: 1px solid #eee;
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+  @media (min-width:768px) {
+    margin-bottom: 3em;
+
+    .span3 {
+      border-bottom: 0;
+    }
+  }
+}
+
+// Post
+// -------------------------------------------------------------
 .post .post a {
   text-decoration: underline;
 }

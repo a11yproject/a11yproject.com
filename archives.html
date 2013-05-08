@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archives
 title: Archives
 description: All posts organized by category
 ---
@@ -10,7 +10,7 @@ description: All posts organized by category
   {% assign title = category.first %}
   {% assign posts = category.last %}
 
-  <h2>{{ title }}</h2>
+  <h2 id="{{ title | downcase | replace:' ','-' }}" class="category-title">{{ title }}</h2>
 
   {% for post in posts %}
     <div class="media">
