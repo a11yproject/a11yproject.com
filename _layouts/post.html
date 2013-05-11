@@ -10,18 +10,21 @@ layout: default
           {% if page.title %}
             <header class="page-header">
               <h1>{{ page.title }}</h1>
-              {% if page.date %}
-                <p>
-                  <small class="postdate">
-                    Published: 
-                    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-                    {% if page.last_updated %} 
-                      &ndash; Updated: 
-                      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y" }}</time>
-                    {% endif %}
-                  </small>
-                </p>
-              {% endif %}
+              <p>
+                {% if page.date %}
+                    <small class="postdate">
+                      Published on
+                      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+                      {% if page.last_updated %}
+                        &ndash; Updated:
+                        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y" }}</time>
+                      {% endif %}
+                    </small>
+                {% endif %}
+                {% if page.author %}
+                  <small class="postauthor">by {{ page.author }}</small>
+                {% endif %}
+              </p>
             </header>
           {% endif %}
           <div class="post">
