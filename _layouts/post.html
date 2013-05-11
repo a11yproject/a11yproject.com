@@ -3,56 +3,64 @@ layout: default
 ---
 
 <div class="container-fluid">
-
   <div class="row-fluid">
     <div class="span8">
-
       <div class="container-content">
         <article class="post">
-        {% if page.title %}
-        <header class="page-header">
-          <h1>{{ page.title }}</h1>
-          {% if page.date %}<p><small class="postdate">Published: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y"  }}</time>{% if page.last_updated %} &ndash; Updated: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y"  }}</time>{% endif %}</small></p>{% endif %}
-
-        </header>
-        {% endif %}
-
-        <div class="post">
-        {{ content }}
-        </div>
-
-        {% if site.disq4s %}
-        <div id="comments">
-          <h2>Comments</h2>
-          <div id="disqus_thread"></div>
-          <script type="text/javascript">
-            var disqus_identifier = "{{ page.url }}";
-            (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = 'http://{{ site.disqus.id }}.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript={{ site.disqus.id }}">comments powered by Disqus.</a></noscript>
-          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-        </div>
-        {% endif %}
+          {% if page.title %}
+            <header class="page-header">
+              <h1>{{ page.title }}</h1>
+              <p>
+                {% if page.date %}
+                    <small class="postdate">
+                      Published on
+                      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+                      {% if page.last_updated %}
+                        &ndash; Updated:
+                        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y" }}</time>
+                      {% endif %}
+                    </small>
+                {% endif %}
+                {% if page.author %}
+                  <small class="postauthor">by {{ page.author }}</small>
+                {% endif %}
+              </p>
+            </header>
+          {% endif %}
+          <div class="post">
+            {{ content }}
+          </div>
+          {% if site.disq4s %}
+            <div id="comments">
+              <h2>Comments</h2>
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                var disqus_identifier = "{{ page.url }}";
+                (function() {
+                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                 dsq.src = 'http://{{ site.disqus.id }}.disqus.com/embed.js';
+                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript={{ site.disqus.id }}">comments powered by Disqus.</a></noscript>
+              <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+          {% endif %}
         </article>
       </div>
     </div>
-
     <div class="span4">
       {% if site.related_posts %}
-      <div id="related">
-        <div class="well sidebar-nav">
-          <ul class="nav nav-list">
-            <li class="nav-header">Related Posts</li>
-            {% for post in site.related_posts limit:5 %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </div><!--/.well -->
-      </div>
+        <div id="related">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Related Posts</li>
+              {% for post in site.related_posts limit:5 %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div><!--/.well -->
+        </div>
       {% endif %}
     </div>
   </div>
