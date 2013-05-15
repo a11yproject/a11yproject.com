@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     anemone (0.7.2)
       nokogiri (>= 1.3.0)
