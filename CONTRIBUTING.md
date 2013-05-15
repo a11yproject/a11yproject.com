@@ -8,7 +8,7 @@ We have a list of articles we'd love to see written. Have an idea for an article
 1. Search to make sure someone hasn't snagged the article already.
 2. Claim an article by starting a new issue with "Article: your title" as the issue title. The final title can (or probably should) be different.
 3. When you check&ndash;in, reference that issue number in the commit, e.g., `re: #32`
-4. Articles can either be submitted via a pull request or written in plain text at a linkable location on the web. We recommend using GitHub's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece.
+4. Articles can either be submitted via a pull request or written in plain text at a linkable location on the web. We recommend using GitHub's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece. If you are submitting the article via pull request, we have a lovely [sample post file](_posts/example-post.md) to get you started. 
 
 ### Plain-text Workflow for Article Submission
 1. Make a [gist](https://gist.github.com) or a [clap](http://oksoclap.com/)
