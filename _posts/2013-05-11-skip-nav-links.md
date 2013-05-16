@@ -2,6 +2,7 @@
 layout: post
 title: "How&ndash;to: Use Skip Navigation links"
 description: "Use skip nav links to ease keyboard user fatigue and frustration."
+author: Cameron Cundiff
 published: true
 categories:
   - How-tos
