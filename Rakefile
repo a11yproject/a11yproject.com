@@ -8,7 +8,7 @@ end
 desc 'Build site with Jekyll'
 task :build => :clean do
   compass
-  jekyll
+  jekyll('build')
 end
 
 desc 'Start server with --auto'
@@ -18,7 +18,7 @@ end
 
 desc 'Check if site will run on Github pages'
 task :check => :clean do
-  jekyll('--safe')
+  jekyll('doctor --safe')
 end
 
 
@@ -65,5 +65,5 @@ def compass(opts = '')
 end
 
 def jekyll_compass
-  sh 'compass watch & jekyll --server --auto'
+  sh 'compass watch & jekyll serve --watch'
 end
