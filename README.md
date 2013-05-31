@@ -50,9 +50,9 @@ The following ``rake`` tasks are available and are used for testing the site loc
     rake build        # Build site with Jekyll
     rake check_links  # Check links for site already running on localhost:4000
     rake clean        # Clean up generated site
-    rake server       # Start server with --auto
-    rake check        # Check 
+    rake server       # Start the server
+    rake check        # Check if site will run on Github pages
 
 **Local Server**
 
-Trigger the local server by executing the ``rake server`` task. Your local copy will now be accessible at `http://localhost:4000`. You should see a message thats says ``INFO  WEBrick::HTTPServer#start: pid=62675 port=4000`` which means your local copy can now be found at ``port 4000 ``.
+Trigger the local server by executing the ``rake server`` task. Your local copy will now be accessible at `http://localhost:4000`.
