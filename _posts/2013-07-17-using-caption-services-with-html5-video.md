@@ -1,4 +1,5 @@
 ---
+author: Greg Tarnoff
 layout: post
 title: "How&ndash;to: Using Caption Services with HTML5 Video"
 description: "How to implement captions on HTML5 video (and audio) elements."
