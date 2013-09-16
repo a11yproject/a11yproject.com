@@ -1,0 +1,46 @@
+---
+layout: post
+title: How–to: Indicate required fields on forms
+description: Adding accessibility cues to required form fields.
+author: Kate Kalcevich
+published: false
+categories:
+  - How-tos
+---
+
+In order to successfully fill out a web form, users need to know what kind of input is expected for each field and which form fields are required.
+
+All form fields must have a label that describes the type of input you expect and that label must be connected to the correct field. All users must be able to figure out which fields are required.
+
+**Step 1** 
+Add a unique id to every form field. This id will be used to connect a label to every field.
+
+    <input id="email" />
+   
+**Step 2**
+Insert a label before every field with a 'for' attribute value that matches the field. If you are using CSS to position labels beside fields, make sure it is obvious which label goes with which field. The id/for connection will help screen reader users, but sighted users will benefit from the labels and fields being visually associated.
+
+    <label for="email">Email</label>
+    <input id="email" />
+	
+**Step 3**
+For all required form fields, add (required) to the label or use the abbreviation tag with an asterisk to indicate that the field is required. Sighted visitors can see the asterisk and screen readers will read the text inside the title attribute aloud. You can also add a class that will allow you to style the asterisk to make it more visually prominent.
+
+    <label for="email">Email (required)</label> OR <label for="email">Email <abbr title="required" class="required">*</abbr></label>
+    <input id="email" />
+	
+**Step 4** (optional)
+Add HTML5 and WAI-ARIA required attributes to all required form fields. Browser and screen reader support for both fields currently varies, but in the future there should be wider support for both.
+
+    <label for="email">Email <abbr title="required" class="required">*</abbr></label>
+    <input id="email" required="required" aria-required="true" />
+	
+
+    
+    
+--------------------------------
+
+**References**:
+
+1. [H90: Indicating required form controls](http://www.w3.org/WAI/GL/WCAG20/WD-WCAG20-TECHS/H90.html)
+2. [Accessible Forms 2: Required Fields and Extra Information](http://usability.com.au/2013/05/accessible-forms-2-required-fields-and-extra-information/)
