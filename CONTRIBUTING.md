@@ -39,7 +39,7 @@ If you have a feature request(s) we suggest filing an issue initially to discuss
 
 ## Build Process
 - In order to create a site build you'll need to make sure you've run through all the listed commands in the order they appear from our [README.md](https://github.com/a11yproject/a11yproject.com#local-development)
-- CSS changes must be done in ``.sass`` files first, never just the compiled files. We use [Codekit](http://incident57.com/codekit) to compile our *Sass* and *Compass*.
+- CSS changes must be done in ``.scss`` files first, never just the compiled files. We use [Codekit](http://incident57.com/codekit) to compile our *Sass* and *Compass*.
 
 
 ## Pull requests
