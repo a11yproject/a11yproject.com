@@ -20,3 +20,5 @@ categories:
 To add a role to an element, simply add the "role" as an attribute:
 
     <header role="banner" class="site-header">
+
+It's recommended to label the areas with a descriptive name using *aria-label*, *aria-labelledby* or *title*. This get's more important in case you use a role more than once. Please note that 'banner', 'main' and 'contentinfo' should only be used once.
