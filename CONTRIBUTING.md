@@ -20,7 +20,7 @@ We have a list of articles we'd love to see written. Have an idea for an article
 Here are some suggestions and tips on writing your article:
 
 - Short - Aim for a timed reading length of approximately two minutes.
-- Focused - Keep it digestable and to a single topic. Articles that span multiple areas and topics are better broken up.
+- Focused - Keep it digestible and to a single topic. Articles that span multiple areas and topics are better broken up.
 
 ## Reporting issues
 Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
@@ -49,4 +49,4 @@ If you have a feature request(s) we suggest filing an issue initially to discuss
 
 ## License
 
-By contributing your code, you agree to license your contribution under the terms of the [APLv2](https://github.com/twitter/bootstrap/blob/master/LICENSE).
+By contributing your code, you agree to license your contribution under the terms of the [APLv2](http://www.apache.org/licenses/LICENSE-2.0.html).
