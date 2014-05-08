@@ -8,7 +8,7 @@ categories:
 ---
 **Short answer:** Don't use them, except in special circumstances.
   
-HTML `title` attributes are often perceived as an accessibility (and SEO) bonus, but the opposite is true. For screen reader users the content included inside of the `title` attribute is typically unncessary, redundant, and [possibly not even used](http://www.rnib.org.uk/professionals/webaccessibility/wacblog/Lists/Posts/Post.aspx?id=38). Conversely, content being put in the `title` attribute is being hidden from the (probable) majority of your users. If information is being hidden from the majority of your users, then it's probably not necessary.
+HTML `title` attributes are often perceived as an accessibility (and SEO) bonus, but the opposite is true. For screen reader users the content included inside of the `title` attribute is typically unnecessary, redundant, and [possibly not even used](http://www.rnib.org.uk/professionals/webaccessibility/wacblog/Lists/Posts/Post.aspx?id=38). Conversely, content being put in the `title` attribute is being hidden from the (probable) majority of your users. If information is being hidden from the majority of your users, then it's probably not necessary.
 
 There are a few times when using a `title` attribute is appropriate:
 

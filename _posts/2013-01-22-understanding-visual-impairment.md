@@ -3,8 +3,7 @@ layout: post
 title: |
     A Primer To Visual Impairment
 description: Key facts, definitions, demographics, causes, challenges and future of visual impairment.
-# date: 2013-01-22
-# last_updated:
+author: Greg Tarnoff
 published: true
 categories:
   - Basics
@@ -38,6 +37,6 @@ Although the visually impaired community has seen new opportunities, these are n
 
 ## The Future's Bright
 
-Louis Braille invented the Braille system for reading and writing in 1824, giving access to previously inaccessible literature. Helen Keller overcame the institutionalized education system of the 19th century, becoming the first deafblind person to earn a Bachelor of Arts Degree. Bob Stepp in 1980 developed the first Braille editing program, and in the modern era of internet we hold the key to accessibility for this generation and many more to come.  
+Louis Braille invented the Braille system for reading and writing in 1824, giving access to previously inaccessible literature. Helen Keller overcame the institutionalized education system of the 19th century, becoming the first deafblind person to earn a Bachelor of Arts Degree. Bob Stepp in 1980 developed the first Braille editing program, and in the modern era of internet we hold the key to accessibility for this generation and many more to come.
 
 > The challenges of yesterday are the opportunities of today.

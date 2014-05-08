@@ -8,7 +8,7 @@ We have a list of articles we'd love to see written. Have an idea for an article
 1. Search to make sure someone hasn't snagged the article already.
 2. Claim an article by starting a new issue with "Article: your title" as the issue title. The final title can (or probably should) be different.
 3. When you check&ndash;in, reference that issue number in the commit, e.g., `re: #32`
-4. Articles can either be submitted via a pull request or written in plain text at a linkable location on the web. We recommend using GitHub's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece.
+4. Articles can either be submitted via a pull request or written in plain text at a linkable location on the web. We recommend using GitHub's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece. If you are submitting the article via pull request, we have a lovely [sample post file](_posts/example-post.md) to get you started. 
 
 ### Plain-text Workflow for Article Submission
 1. Make a [gist](https://gist.github.com) or a [clap](http://oksoclap.com/)
@@ -20,7 +20,7 @@ We have a list of articles we'd love to see written. Have an idea for an article
 Here are some suggestions and tips on writing your article:
 
 - Short - Aim for a timed reading length of approximately two minutes.
-- Focused - Keep it digestable and to a single topic. Articles that span multiple areas and topics are better broken up.
+- Focused - Keep it digestible and to a single topic. Articles that span multiple areas and topics are better broken up.
 
 ## Reporting issues
 Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
@@ -39,7 +39,7 @@ If you have a feature request(s) we suggest filing an issue initially to discuss
 
 ## Build Process
 - In order to create a site build you'll need to make sure you've run through all the listed commands in the order they appear from our [README.md](https://github.com/a11yproject/a11yproject.com#local-development)
-- CSS changes must be done in ``.sass`` files first, never just the compiled files. We use [Codekit](http://incident57.com/codekit) to compile our *Sass* and *Compass*.
+- CSS changes must be done in ``.scss`` files first, never just the compiled files. We use [Codekit](http://incident57.com/codekit) to compile our *Sass* and *Compass*.
 
 
 ## Pull requests
@@ -49,4 +49,4 @@ If you have a feature request(s) we suggest filing an issue initially to discuss
 
 ## License
 
-By contributing your code, you agree to license your contribution under the terms of the [APLv2](https://github.com/twitter/bootstrap/blob/master/LICENSE).
+By contributing your code, you agree to license your contribution under the terms of the [APLv2](http://www.apache.org/licenses/LICENSE-2.0.html).

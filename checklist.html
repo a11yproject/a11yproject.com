@@ -54,6 +54,13 @@ description: A beginner's guide to web accessibility
 					</label>
 
 					<p>Focal content of document. Use only once.</p>
+					
+					<!-- article -->
+					<label for="article-role" class="checkbox"><code>&lt;article role="article"&gt;</code>
+						<input name="aria-article-role" id="article-role" type="checkbox">
+					</label>
+
+					<p>Represents an independent item of content. Use only once on outermost element of this type.</p>
 
 					<!-- complementary -->
 					<label for="complementary-role" class="checkbox"><code>&lt;aside role="complementary"&gt;</code>
@@ -82,6 +89,18 @@ description: A beginner's guide to web accessibility
 					</label>
 
 					<p>Add a `search` role to your primary search form.</p>
+				</fieldset>
+
+				<!-- Language -->
+				<fieldset id="language">
+					<legend>Language Attribute</legend>
+					<p>Declaring a language attribute on the html element enables a screen reader to read out the text with correct pronunciation.</p>
+					<!-- text transcript -->
+					<label for="language-input" class="checkbox"><code>&lt;html lang="en"&gt;</code> 
+						<input name="language-input" id="language-input" type="checkbox">
+					</label>
+
+					<p>Specify a language with the lang attribute on the &lt;html&gt; element.</p>
 				</fieldset>
 				
 				<!-- Document Outline -->

@@ -8,7 +8,7 @@ For many web developers, accessibility is complex and somewhat difficult. The Ac
 
 1. **Digestible.** We strive to feature short, digestible pieces of content.
 1. **Up-to-date.** The project is hosted on Github so information can be current with the latest standards.
-1. **Forgiving.** People make mistakes and web accessiblity is hard, so we seek to be encouraging.
+1. **Forgiving.** People make mistakes and web accessibility is hard, so we seek to be encouraging.
 
 ### Why accessibility is important
 
@@ -20,4 +20,4 @@ If you care and are knowledgeable about accessibility and want to help please co
 
 ### About this site
 
-This site is built with [Jekyll](https://github.com/mojombo/jekyll) &amp; [Bootstrap](http://twitter.github.com/bootstrap/), collaboratively by developers (see the footer) on [Github](https://github.com/a11yproject/a11yproject.com/). In its current state, The Accessibility Project may not be a perfect example of an accessible website&hellip; yet. We're commited, through the power of Open Source, to incrementally improve our own accessibility on the site going forward.
+This site is built with [Jekyll](https://github.com/mojombo/jekyll) &amp; [Bootstrap](http://getbootstrap.com), collaboratively by developers (see the footer) on [Github](https://github.com/a11yproject/a11yproject.com/). In its current state, The Accessibility Project may not be a perfect example of an accessible website&hellip; yet. We're committed, through the power of Open Source, to incrementally improve our own accessibility on the site going forward.
