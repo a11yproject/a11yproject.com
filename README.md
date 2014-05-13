@@ -11,20 +11,22 @@ This site is the product of a community of people who want to help to make web a
 2. **Up-to-date.** The project is hosted on Github so information can be current with the latest standards.
 3. **Forgiving.** People make mistakes and web accessiblity is hard, so we seek to be encouraging.
 
+##Contributing
+========
+
+- [Contributor Docs](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md)
+- [Pattern Submissions](https://github.com/a11yproject/a11yproject.com/wiki/Pattern-Submissions)
+
 ##Requirements
 ========
 In order to contribute to the website&rsquo;s codebase, you&rsquo;ll need to know a bit about [Jekyll](https://github.com/mojombo/jekyll), [Compass](http://compass-style.org), [Sass](http://sass-lang.com), [Bootstrap](http://getbootstrap.com), [Bash](http://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f) and [Markdown](http://daringfireball.net/projects/markdown/). You'll also need to know how to install *[Ruby Gems](https://rvm.io)* and of course have *[Ruby](http://www.ruby-lang.org/en/downloads/)* installed on your machine.
 
-###Gems Installation
+###Gem Installation
 
 Use the ``bundle`` command to install the necessary gems for the **A11Y Project**. (**Hint**: All the cool kids use [ruby version manager](https://rvm.io) to organize ``gemset`` dependencies):
 If you don't have [bundler](http://gembundler.com) installed you'll need to run ``gem install bundler`` before using ``bundle``.
 
     $ bundle
-
-##Contributing
-========
-[Contributors Docs](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md)
 
 ##Under the Hood
 ========
