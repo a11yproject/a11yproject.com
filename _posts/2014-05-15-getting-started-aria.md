@@ -53,21 +53,6 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and do not change for
 
 ARIA states and properties are often used to support ARIA roles that exist on a page. Properties often describe relationships with other elements and for the most part, do not change once they're set. States are more dynamic and are typically updated with JavaScript as a user interacts with a page. It's common to refer to states and properties collectively as just ARIA attributes. Screen readers are notified when attributes change and can announce these changes to users after an interaction takes place.
 
-### Common States and Properties (Attributes)
-There are many different states and properties available to developers. This is a small set of examples.
-
-* described-by (property)
-
-Added to an element to associate it with a useful text description that exists elsewhere on a page. The value is the ID of the text element with the extra information. For example, this could be used to link a phone number input field with an example below on how to format the number.
-
-* aria-live (property)
-
-Indicates an element with content that may be updated by some interaction on the page. Commonly used to describe AJAX functionality, this property would be added to in-page chat boxes, dynamic search results, or on large content areas in single-page JavaScript applications. Changes inside the container are announced back to the user.
-
-* aria-expanded (state)
-
-Indicates whether an element, such as an accordion, is currently expanded or collapsed.
-
 ## When to use ARIA
 Native HTML semantics should still be used whenever possible, but ARIA is useful when certain design patterns or interactions make it impossible to do so. For example, a complex tabbed-interface has no semantic equivalent in HTML 5, but a `role="tablist"` and its related attributes can be added to provide this detail to screen readers. ARIA is also useful to describe newer, HTML5 elements that may not yet have full cross-browser support or be understood by screen readers.
 
