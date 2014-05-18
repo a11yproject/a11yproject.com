@@ -27,9 +27,9 @@ Skip nav links are useful for users who use keyboard navigation only, but screen
       <li><a href="/blog">Blog</a></li>
     </ul>
   </nav>
-  <div id="main" role="main">
+  <main id="main" role="main">
     <!-- page specific content -->
-  </div>
+  </main>
 </body>
 {% endhighlight %}
 

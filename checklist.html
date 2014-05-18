@@ -55,6 +55,13 @@ description: A beginner's guide to web accessibility
 
 					<p>Focal content of document. Use only once.</p>
 
+					<!-- article -->
+					<label for="article-role" class="checkbox"><code>&lt;article role="article"&gt;</code>
+						<input name="aria-article-role" id="article-role" type="checkbox">
+					</label>
+
+					<p>Represents an independent item of content. Use only once on outermost element of this type.</p>
+
 					<!-- complementary -->
 					<label for="complementary-role" class="checkbox"><code>&lt;aside role="complementary"&gt;</code>
 						<input name="aria-complementary-role" id="complementary-role" type="checkbox">
@@ -83,7 +90,19 @@ description: A beginner's guide to web accessibility
 
 					<p>Add a `search` role to your primary search form.</p>
 				</fieldset>
-				
+
+				<!-- Language -->
+				<fieldset id="language">
+					<legend>Language Attribute</legend>
+					<p>Declaring a language attribute on the html element enables a screen reader to read out the text with correct pronunciation.</p>
+					<!-- text transcript -->
+					<label for="language-input" class="checkbox"><code>&lt;html lang="en"&gt;</code>
+						<input name="language-input" id="language-input" type="checkbox">
+					</label>
+
+					<p>Specify a language with the lang attribute on the &lt;html&gt; element.</p>
+				</fieldset>
+
 				<!-- Document Outline -->
 				<fieldset id="forms">
 					<legend>Document Outline</legend>
@@ -184,6 +203,7 @@ description: A beginner's guide to web accessibility
 
 				<fieldset>
 					<p>Test against different types of color blindness with a tool like <a href="http://colorfilter.wickline.org/">http://colorfilter.wickline.org/</a>.</p>
+					<p>If you are on a Mac, another option is <a href="http://michelf.ca/projects/sim-daltonism/">Michel Fortin's, Sim Daltonism</a> color blindness simulator.</p>
 
 					<label for="deuteranopia" class="checkbox">Deuteranopia
 						<input name="deuteranopia" id="deuteranopia" type="checkbox">

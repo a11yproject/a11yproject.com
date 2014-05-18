@@ -2,5 +2,5 @@ source "https://rubygems.org"
 
 gem "compass"
 gem "jekyll"
-gem "maruku"
+gem "kramdown"
 gem "anemone"

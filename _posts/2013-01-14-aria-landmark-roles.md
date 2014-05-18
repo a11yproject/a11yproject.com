@@ -12,7 +12,7 @@ categories:
 
 * **banner** – Typically the “header” of your page that includes the name of the site
 * **search** – For the search form
-* **form** - Group of elements that as a whole, assemble a form (please note that there isn't a great deal of legacy support for this role)</li>
+* **form** - Group of elements that as a whole, assemble a form (please note that there isn't a great deal of legacy support for this role)
 * **main** – This would designate the main content area on your site
 * **navigation** – Use on any navigation list, typically on the nav element
 * **contentinfo** – Typically the "footer" of your page that contains information about the parent document such as copyrights and links to privacy statements
@@ -20,3 +20,5 @@ categories:
 To add a role to an element, simply add the "role" as an attribute:
 
     <header role="banner" class="site-header">
+
+It's recommended to label the areas with a descriptive name using *aria-label*, *aria-labelledby* or *title*. This get's more important in case you use a role more than once. Please note that 'banner', 'main' and 'contentinfo' should only be used once.
