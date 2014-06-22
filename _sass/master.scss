@@ -61,6 +61,58 @@ body {
   }
 }
 
+.github-data {
+  h3 {
+    * { vertical-align: middle; }
+  }
+  h3 > a {
+    position: relative;
+    margin-right: 1em;
+    &:after {
+      content: ' ';
+      position: absolute;
+      right: -.6em;
+      top: 0;
+      height: 1.3em;
+      width: 1px;
+      background: #eee;
+      display: none;
+      @media(min-width: 840px){
+        display: block;
+      }
+    }
+  }
+  h3 a + a {
+    margin-left: 1.3em;
+  }
+  h3 > span {
+    display: block;
+    @media(min-width: 840px){
+      display: inline-block;
+    }
+  }
+  h3 a span {
+    margin-right: .3em;
+  }
+  h3 span {
+    font-size: .5em;
+    position: relative;
+    span {
+      font-size: 1em;
+      display: inline-block;
+      background: #3072ba;
+      color: #fff;
+      text-shadow: 1px 1px 1px darken(#3072ba,15%);
+      line-height: 1;
+      padding: 5px;
+      border-radius: 4px;
+    }
+  }
+  .pager {
+    text-align: left;
+  }
+}
+
 // Post
 // -------------------------------------------------------------
 .latest-posts {
