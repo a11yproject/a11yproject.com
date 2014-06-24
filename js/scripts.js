@@ -8,6 +8,8 @@ $(document).ready(function(){
 
   "use strict";
 
+  $('form').garlic(); // persistent checkboxes for checklist section
+
   var Engine = {
 
     ui : {
