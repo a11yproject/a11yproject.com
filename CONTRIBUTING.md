@@ -5,7 +5,7 @@ Do you enjoy web accessibility and want to help? **Here's how you can help.**
 ## Pattern Submissions
 If you'd like to submit patterns to the A11Y Project make sure to do the following…
 
-1. [Make a CodePen](http://codepen.io/pen) **NOTE** : Please keep code as vanilla as possible. No Sass. No LESS. No HAML etc. You get the point.
+1. [Make a CodePen](http://codepen.io/pen) (or use an equivalent service like a JSFiddle or JSBin for example) **NOTE** : Please keep code as vanilla as possible. No Sass. No LESS. No HAML etc. You get the point.
 2. [Submit your pen to our Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues/new) w/the name of your pattern as the title.
 3. Wait for the community to give you feedback and approval. **Note:** Keep the feedback and discussion to the pattern submitted and avoid discussing other patterns. Submit new patterns as separate issues.
 4. “Git” down and boogie
