@@ -25,6 +25,14 @@ $(document).ready(function(){
             paginationClass = "contributors-pagination-link",
             $pager = $(".pager");
 
+            if(!localStorage.getItem("pageLoads")){
+              localStorage.setItem("pageLoads",0); // page load count
+            }else{
+              localStorage.setItem("pageLoads", parseInt(localStorage.getItem('pageLoads')) + 1);
+            }
+
+            console.log(localStorage.getItem("pageLoads"));
+
           function _listContributors(data) {
             $contributorsOutput.html("");
             var html = '';
@@ -32,6 +40,13 @@ $(document).ready(function(){
               html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
             });
             $contributorsOutput.html(html);
+            localStorage.setItem("contribsHtml",html);
+            localStorage.setItem("contribsLoaded",true);
+          }
+
+          function _listContributorsLocalStorage(){
+            console.log("loading contribs from local storage");
+            $contributorsOutput.html(localStorage.getItem("contribsHtml"));
           }
 
           function _contribPagination(meta){
@@ -50,34 +65,49 @@ $(document).ready(function(){
               _simplifyPager(); // cut down pager
           }
 
+          function _contribPaginationLocalStorage(){
+            console.log("loading pagination from");
+            $paginationOutput.html(localStorage.getItem("contribsPagination"));
+          }
+
           function _paginationTriggers(){
             $("."+paginationClass).click(function(e){
               e.preventDefault();
+              localStorage.removeItem("contribsLoaded");
               var url = $(this).attr("href");
               _getContributors(url);
             });
           }
 
           function _getContributors(apiUrl){
-            $.ajax({
-              type: 'GET',
-              url: apiUrl,
-              async: false,
-              contentType: "application/json",
-              dataType: 'jsonp',
-              success: function(data){
-                if(data.meta.status != "200"){
-                  _throwError(data.meta);
-                }else{
-                  _listContributors(data.data); // output contribs
-                  _contribPagination(data.meta); // draw pagination
-                  _paginationTriggers(); // handle pagination clicks
+
+            if(localStorage.getItem("contribsLoaded") && localStorage.getItem("pageLoads") <= 20){
+              _listContributorsLocalStorage(); // output contribs from localStorage
+              _contribPaginationLocalStorage(); // output contrib pagination from localStorage
+              _paginationTriggers(); // handle pagination clicks
+            }else{
+              console.log("loading from API");
+              localStorage.removeItem("pageLoads");
+              $.ajax({
+                type: 'GET',
+                url: apiUrl,
+                async: false,
+                contentType: "application/json",
+                dataType: 'jsonp',
+                success: function(data){
+                  if(data.meta.status != "200"){
+                    _throwError(data.meta);
+                  }else{
+                    _listContributors(data.data); // output contribs
+                    _contribPagination(data.meta); // draw pagination
+                    _paginationTriggers(); // handle pagination clicks
+                  }
+                },
+                error: function(e) {
+                  console.log(e.message);
                 }
-              },
-              error: function(e) {
-                console.log(e.message);
-              }
-            });
+              });
+            }
           }
 
           function _throwError(data){
@@ -106,6 +136,9 @@ $(document).ready(function(){
                 default:
               }
             });
+
+            localStorage.setItem("contribsPagination",$pager.html())
+
           }
 
           // get contributors on landing
