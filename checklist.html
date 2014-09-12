@@ -163,6 +163,13 @@ description: A beginner's guide to web accessibility
 
 					<p>(e.g. <code class="language-markup">&lt;label for="name"&gt;Name:&lt;/label&gt;&lt;input id="name" type="text"&gt;</code>)</p>
 
+					<!-- placeholder -->
+					<label for="placeholders" class="checkbox">Make sure <code>placeholder</code> attributes are <strong>NOT</strong> being used in place of <code>label</code> tags. <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#attr-input-placeholder">WHATWG</a>
+						<input name="placeholders" type="checkbox" id="placeholders">
+					</label>
+
+					<p>An exception to this rule would be smaller forms with one or two fields (eg. search or log in forms)</p>
+
 					<!-- fieldset -->
 					<label for="group-related-elements" class="checkbox">Group related form elements with <code class="language-markup">fieldset</code> and describe the group with <code class="language-markup">legend</code>
 						<input name="group-related-elements" type="checkbox" id="group-related-elements">
@@ -228,5 +235,3 @@ description: A beginner's guide to web accessibility
 
 <div class="span3">
 </div><!--/span-->
-
-
