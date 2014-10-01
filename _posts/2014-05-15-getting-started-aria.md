@@ -101,8 +101,8 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
     <a href="#second-tab" role="tab" aria-selected="false" aria-controls="second-tab">Panel 2</a>
   </li>
 </ul>
-<div id="first-tab" role="tab-panel"></div>
-<div id="second-tab" role="tab-panel"></div>
+<div id="first-tab" role="tabpanel"></div>
+<div id="second-tab" role="tabpanel"></div>
 ~~~~~~~~
 
   Each element has an ARIA role and attributes to create a complete tab widget. The relationship between a tab link and tab panel is now available to screen readers.
