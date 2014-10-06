@@ -33,7 +33,7 @@ Skip nav links are useful for users who use keyboard navigation only, but screen
 </body>
 {% endhighlight %}
 
-**Disclaimer**: The mechanism by which skip navigation links work had for some time been broken in Webkit based browsers and has only [recently been fixed](https://code.google.com/p/chromium/issues/detail?id=37721). Until these browsers release the fixes, you may need to use a javascript polyfill to make skip nav links work.
+**Disclaimer**: The mechanism by which skip navigation links work had for some time been broken in Webkit based browsers and has [not yet been fixed](https://code.google.com/p/chromium/issues/detail?id=37721). Until these browsers release the fixes, you may need to use a javascript polyfill to make skip nav links work.
 
 
 ### Notes
