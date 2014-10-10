@@ -158,3 +158,21 @@ body {
     top: 0.1em;
   }
 }
+
+// Post
+// -------------------------------------------------------------
+#skip-navigation {
+  padding: 1em;
+  position: absolute;
+  top: -40px;
+  left: 1em;
+  z-index: 1000;
+  color: #1C2C53;
+  transition: top .3s ease-in-out;
+}
+
+#skip-navigation:focus {
+  position: absolute;
+  top: 40px;
+  background: #fff;
+}
