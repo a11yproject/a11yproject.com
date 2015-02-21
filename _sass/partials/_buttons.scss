@@ -1,0 +1,28 @@
+/*************************************
+/  Buttons
+/************************************/
+
+// Github button
+// -------------------------------------------------------------
+.button-edit {
+	display: inline-block;
+	padding: 0.25em 0.75em;
+	background: $grayLighter;
+	border-radius: 3px;
+	color: $grayDarker;
+	font-size: 0.8em;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+
+	.icon {
+		font-size: 1.2em;
+		margin-right: 0.15em;
+		vertical-align: text-top;
+	}
+}
+.button-edit:hover {
+	text-decoration: none;
+	background: darken($grayLighter, 5%);
+	color: $grayDarker;
+}

@@ -1,0 +1,21 @@
+/*************************************
+/  Footnotes
+/************************************/
+.footnotes ol {
+
+	padding-left: 1em;
+
+	li {
+		position: relative;
+	}
+
+	a {
+		word-break: break;
+	}
+
+	a[rev="footnote"] {
+		position: absolute;
+		left: -2.75em;
+		top: 0.1em;
+	}
+}
