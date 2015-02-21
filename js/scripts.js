@@ -1,5 +1,5 @@
 /*
-  Using object literal notation we can keep our JS organized and easy
+  Using object literals & dot notation we can keep our JS organized and easy
   to maintain. Functions are comma separated, well named parameter values,
   and triggered by calling them like this Engine.ui.functionName();
 */
