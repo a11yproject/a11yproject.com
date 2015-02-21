@@ -80,15 +80,15 @@
       "outputAbbreviatedPath" : "\/js\/tests\/vendor\/minified\/qunit-min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/minified\/bootstrap-tooltip-min.js" : {
+    "\/js\/scripts.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-tooltip-min.js",
+      "inputAbbreviatedPath" : "\/js\/scripts.min.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-tooltip-min-min.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/minified\/scripts.min-min.js",
       "fileType" : 64
     },
     "\/_sass\/partials\/_footer.scss" : {
@@ -103,15 +103,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/scripts.min.js" : {
+    "\/js\/tests\/unit\/minified\/bootstrap-tooltip-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/scripts.min.js",
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-tooltip-min.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/minified\/scripts.min-min.js",
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-tooltip-min-min.js",
       "fileType" : 64
     },
     "\/_sass\/partials\/elements\/_footnotes.scss" : {
@@ -171,6 +171,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/tests\/vendor\/qunit.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/vendor\/qunit.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/vendor\/minified\/qunit.min-min.js",
+      "fileType" : 64
+    },
     "\/_sass\/vendor\/bootstrap\/mixins\/_text-emphasis.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -183,16 +194,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/tests\/vendor\/qunit.min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+    "\/_layouts\/page.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/vendor\/qunit.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/vendor\/minified\/qunit.min-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_layouts\/page.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/tests\/unit\/minified\/bootstrap-dropdown.min-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -215,15 +224,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/bootstrap-phantom.min-min.js",
       "fileType" : 64
-    },
-    "\/_layouts\/page.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/page.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/_site\/posts\/getting-started-with-voiceover\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -564,16 +564,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/js\/tests\/vendor\/jquery.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/_sass\/partials\/_helpers.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/tests\/vendor\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/js\/tests\/vendor\/minified\/jquery-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_sass\/partials\/_helpers.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_helpers.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/_sass\/vendor\/bootstrap\/mixins\/_list-group.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -619,17 +620,16 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/minified\/carousel-min.js",
       "fileType" : 64
     },
-    "\/_sass\/partials\/_helpers.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_site\/js\/tests\/vendor\/jquery.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_sass\/partials\/_helpers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_helpers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_site\/js\/tests\/vendor\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/_site\/js\/tests\/vendor\/minified\/jquery-min.js",
+      "fileType" : 64
     },
     "\/_sass\/vendor\/bootstrap\/_print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -746,15 +746,15 @@
       "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-phantom.min-min-min.js",
       "fileType" : 64
     },
-    "\/_sass\/partials\/sections\/_contributors-list.scss" : {
+    "\/_sass\/vendor\/bootstrap\/mixins\/_alerts.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_sass\/partials\/sections\/_contributors-list.scss",
+      "inputAbbreviatedPath" : "\/_sass\/vendor\/bootstrap\/mixins\/_alerts.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_contributors-list.css",
+      "outputAbbreviatedPath" : "\/css\/_alerts.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -770,27 +770,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_sass\/vendor\/bootstrap\/mixins\/_alerts.scss" : {
+    "\/_sass\/partials\/sections\/_contributors-list.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_sass\/vendor\/bootstrap\/mixins\/_alerts.scss",
+      "inputAbbreviatedPath" : "\/_sass\/partials\/sections\/_contributors-list.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_alerts.css",
+      "outputAbbreviatedPath" : "\/css\/_contributors-list.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/js\/tests\/unit\/bootstrap-button.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/js\/tests\/unit\/minified\/bootstrap-collapse-min.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/bootstrap-button.js",
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-collapse-min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/bootstrap-button-min.js",
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-collapse-min-min.js",
       "fileType" : 64
     },
     "\/_site\/js\/tests\/unit\/bootstrap-alert.js" : {
@@ -804,15 +804,15 @@
       "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/bootstrap-alert-min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/minified\/bootstrap-collapse-min.js" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_site\/js\/tests\/unit\/bootstrap-button.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-collapse-min.js",
+      "inputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/bootstrap-button.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-collapse-min-min.js",
+      "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/bootstrap-button-min.js",
       "fileType" : 64
     },
     "\/_site\/js\/tests\/minified\/server-min.js" : {
@@ -838,17 +838,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/tests\/unit\/minified\/bootstrap-collapse.min-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-collapse.min-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-collapse.min-min-min.js",
-      "fileType" : 64
-    },
     "\/js\/vendor\/bootstrap\/alert.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -858,6 +847,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/minified\/alert-min.js",
+      "fileType" : 64
+    },
+    "\/js\/tests\/unit\/minified\/bootstrap-collapse.min-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-collapse.min-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-collapse.min-min-min.js",
       "fileType" : 64
     },
     "\/_site\/js\/tests\/unit\/minified\/bootstrap-alert-min.js" : {
@@ -882,16 +882,17 @@
       "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/minified\/bootstrap-collapse-min-min.js",
       "fileType" : 64
     },
-    "\/_site\/js\/vendor\/bootstrap\/tooltip.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/_sass\/vendor\/bootstrap\/_normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/tooltip.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/minified\/tooltip-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/_sass\/vendor\/bootstrap\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/_sass\/partials\/_header.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -905,17 +906,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_sass\/vendor\/bootstrap\/_normalize.scss" : {
-      "ignoreWasSetByUser" : 0,
+    "\/_site\/js\/vendor\/bootstrap\/tooltip.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_sass\/vendor\/bootstrap\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/minified\/tooltip-min.js",
+      "fileType" : 64
     },
     "\/_sass\/vendor\/bootstrap\/mixins\/_gradients.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1069,15 +1069,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/tests\/unit\/bootstrap-popover.min.js" : {
+    "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-popover.min.js",
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/js\/scripts.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-popover.min-min.js",
+      "outputAbbreviatedPath" : "\/js\/scripts.min.js",
       "fileType" : 64
     },
     "\/_sass\/vendor\/bootstrap\/mixins\/_responsive-visibility.scss" : {
@@ -1092,15 +1092,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/scripts.js" : {
+    "\/js\/tests\/unit\/bootstrap-popover.min.js" : {
       "ignoreWasSetByUser" : 1,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/js\/scripts.js",
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-popover.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/scripts.min.js",
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-popover.min-min.js",
       "fileType" : 64
     },
     "\/_site\/js\/tests\/unit\/minified\/bootstrap-scrollspy.min-min.js" : {
@@ -1579,15 +1579,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/js\/tests\/unit\/bootstrap-transition.min.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/js\/tests\/unit\/minified\/bootstrap-typeahead-min.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-transition.min.js",
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-typeahead-min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-transition.min-min.js",
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-typeahead-min-min.js",
       "fileType" : 64
     },
     "\/_site\/posts\/understanding-visual-impairment\/index.html" : {
@@ -1599,15 +1599,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/tests\/unit\/minified\/bootstrap-typeahead-min.js" : {
-      "ignoreWasSetByUser" : 0,
+    "\/js\/tests\/unit\/bootstrap-transition.min.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-typeahead-min.js",
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-transition.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-typeahead-min-min.js",
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-transition.min-min.js",
       "fileType" : 64
     },
     "\/_site\/js\/tests\/unit\/minified\/bootstrap-modal.min-min.js" : {
@@ -1621,15 +1621,15 @@
       "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/minified\/bootstrap-modal.min-min-min.js",
       "fileType" : 64
     },
-    "\/_site\/js\/tests\/unit\/minified\/bootstrap-tab.min-min.js" : {
-      "ignoreWasSetByUser" : 0,
+    "\/js\/tests\/unit\/bootstrap-alert.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/bootstrap-tab.min-min.js",
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-alert.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/minified\/bootstrap-tab.min-min-min.js",
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-alert-min.js",
       "fileType" : 64
     },
     "\/_site\/img\/logo.png" : {
@@ -1643,17 +1643,6 @@
       "initialSize" : 940,
       "fileType" : 8192
     },
-    "\/js\/tests\/unit\/bootstrap-alert.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-alert.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-alert-min.js",
-      "fileType" : 64
-    },
     "\/_sass\/partials\/_global.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1665,6 +1654,17 @@
       "outputAbbreviatedPath" : "\/css\/_global.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_site\/js\/tests\/unit\/minified\/bootstrap-tab.min-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/bootstrap-tab.min-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/minified\/bootstrap-tab.min-min-min.js",
+      "fileType" : 64
     },
     "\/_site\/js\/tests\/unit\/bootstrap-popover.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1752,15 +1752,15 @@
       "outputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/minified\/modal-min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/bootstrap-affix.min.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/js\/tests\/unit\/minified\/bootstrap-alert-min.js" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-affix.min.js",
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-alert-min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-affix.min-min.js",
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-alert-min-min.js",
       "fileType" : 64
     },
     "\/js\/tests\/unit\/minified\/bootstrap-popover-min.js" : {
@@ -1774,26 +1774,15 @@
       "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-popover-min-min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/minified\/bootstrap-alert-min.js" : {
-      "ignoreWasSetByUser" : 0,
+    "\/js\/tests\/unit\/bootstrap-affix.min.js" : {
+      "ignoreWasSetByUser" : 1,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-alert-min.js",
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-affix.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-alert-min-min.js",
-      "fileType" : 64
-    },
-    "\/js\/tests\/unit\/minified\/bootstrap-scrollspy.min-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-scrollspy.min-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-scrollspy.min-min-min.js",
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-affix.min-min.js",
       "fileType" : 64
     },
     "\/img\/rotor.png" : {
@@ -1806,6 +1795,17 @@
       "outputAbbreviatedPath" : "\/img\/rotor.png",
       "initialSize" : 215412,
       "fileType" : 8192
+    },
+    "\/js\/tests\/unit\/minified\/bootstrap-scrollspy.min-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-scrollspy.min-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-scrollspy.min-min-min.js",
+      "fileType" : 64
     },
     "\/_sass\/vendor\/garlic.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1974,16 +1974,14 @@
       "outputAbbreviatedPath" : "\/js\/scripts-min.js",
       "fileType" : 64
     },
-    "\/_site\/img\/rotor.png" : {
+    "\/_layouts\/default.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/img\/rotor.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/_site\/img\/rotor.png",
-      "initialSize" : 215412,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/_layouts\/default.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/tests\/unit\/bootstrap-dropdown.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -1996,14 +1994,16 @@
       "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-dropdown.min-min.js",
       "fileType" : 64
     },
-    "\/_layouts\/default.html" : {
+    "\/js\/tests\/minified\/server.min-min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/default.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/tests\/minified\/server.min-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/minified\/minified\/server.min-min-min.js",
+      "fileType" : 64
     },
     "\/_sass\/partials\/elements\/_index.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2017,17 +2017,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/tests\/minified\/server.min-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/minified\/server.min-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/minified\/minified\/server.min-min-min.js",
-      "fileType" : 64
-    },
     "\/_site\/js\/tests\/unit\/bootstrap-modal.js" : {
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
@@ -2038,6 +2027,17 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/bootstrap-modal-min.js",
       "fileType" : 64
+    },
+    "\/_site\/img\/rotor.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/img\/rotor.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/_site\/img\/rotor.png",
+      "initialSize" : 215412,
+      "fileType" : 8192
     },
     "\/_site\/img\/glyphicons-halflings.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2061,14 +2061,16 @@
       "outputAbbreviatedPath" : "\/js\/tests\/vendor\/minified\/jquery-min.js",
       "fileType" : 64
     },
-    "\/_layouts\/post.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/js\/vendor\/bootstrap\/tooltip.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/post.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/minified\/tooltip-min.js",
+      "fileType" : 64
     },
     "\/_site\/js\/vendor\/bootstrap\/carousel.js" : {
       "ignoreWasSetByUser" : 1,
@@ -2081,6 +2083,15 @@
       "outputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/minified\/carousel-min.js",
       "fileType" : 64
     },
+    "\/_layouts\/post.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/post.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css\/icons.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2089,17 +2100,6 @@
       "inputAbbreviatedPath" : "\/css\/icons.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/js\/vendor\/bootstrap\/tooltip.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/tooltip.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/minified\/tooltip-min.js",
-      "fileType" : 64
     },
     "\/_site\/js\/tests\/server.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -2250,17 +2250,6 @@
       "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-phantom-min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-scrollspy-min.js",
-      "fileType" : 64
-    },
     "\/_sass\/modules\/_index.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2272,6 +2261,17 @@
       "outputAbbreviatedPath" : "\/css\/_index.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/bootstrap-scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-scrollspy-min.js",
+      "fileType" : 64
     },
     "\/_site\/js\/tests\/unit\/bootstrap-collapse.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -2351,17 +2351,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_sass\/vendor\/bootstrap\/mixins\/_grid-framework.scss" : {
+    "\/js\/tests\/unit\/minified\/bootstrap-tab-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_sass\/vendor\/bootstrap\/mixins\/_grid-framework.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_grid-framework.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-tab-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-tab-min-min.js",
+      "fileType" : 64
     },
     "\/_sass\/vendor\/bootstrap\/mixins\/_clearfix.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2386,17 +2385,6 @@
       "outputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/minified\/button-min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/unit\/minified\/bootstrap-tab-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/bootstrap-tab-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/tests\/unit\/minified\/minified\/bootstrap-tab-min-min.js",
-      "fileType" : 64
-    },
     "\/_sass\/partials\/_icons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2406,6 +2394,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 1,
       "outputAbbreviatedPath" : "\/css\/_icons.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/_sass\/vendor\/bootstrap\/mixins\/_grid-framework.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_sass\/vendor\/bootstrap\/mixins\/_grid-framework.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_grid-framework.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -2529,15 +2529,6 @@
       "outputAbbreviatedPath" : "\/_site\/js\/tests\/unit\/minified\/minified\/bootstrap-alert.min-min-min.js",
       "fileType" : 64
     },
-    "\/js\/tests\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/tests\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_site\/js\/tests\/vendor\/minified\/jquery.min-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2548,6 +2539,15 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/_site\/js\/tests\/vendor\/minified\/minified\/jquery.min-min-min.js",
       "fileType" : 64
+    },
+    "\/js\/tests\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/tests\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/_sass\/vendor\/bootstrap\/_dropdowns.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2941,17 +2941,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/_site\/js\/vendor\/bootstrap\/scrollspy.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/scrollspy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/minified\/scrollspy-min.js",
-      "fileType" : 64
-    },
     "\/_sass\/vendor\/bootstrap\/_button-groups.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2963,6 +2952,17 @@
       "outputAbbreviatedPath" : "\/css\/_button-groups.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/_site\/js\/vendor\/bootstrap\/scrollspy.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/_site\/js\/vendor\/bootstrap\/minified\/scrollspy-min.js",
+      "fileType" : 64
     },
     "\/js\/tests\/unit\/minified\/bootstrap-affix-min.js" : {
       "ignoreWasSetByUser" : 0,
