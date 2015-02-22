@@ -13,7 +13,7 @@
   border-color: #252525;
 }
 
-.navbar-inverse .nav>li>a {
+.navbar-inverse .nav > li > a {
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -29,3 +29,5 @@
     padding: 15px 15px 15px 0;
   }
 }
+
+.navbar li.selected a { color: #fff; }
