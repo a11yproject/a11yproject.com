@@ -1,0 +1,17 @@
+/*************************************
+/  Sidebar Nav
+/************************************/
+.nav-header {
+	display: block;
+	padding: 3px 15px;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #a2a2a2;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	text-transform: uppercase;
+}
+
+.nav-list>li>a {
+	padding: 3px 15px;
+}

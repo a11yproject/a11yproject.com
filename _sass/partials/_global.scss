@@ -8,3 +8,7 @@ body {
 			padding-top: 60px;
 	}
 }
+
+#content:focus {
+	outline: none;
+}

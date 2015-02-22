@@ -3,6 +3,7 @@
 /************************************/
 #contributors-list {
 	margin-left: 0;
+	padding-left: 0;
 
 	li {
 		list-style-type: none;
@@ -23,6 +24,8 @@
 		&:focus {
 			opacity: 1;
 		}
+
+		img { width: 100%; height: auto; }
 	}
 }
 

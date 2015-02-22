@@ -19,3 +19,13 @@
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
+
+.navbar ul {
+  padding: 0;
+}
+
+.navbar-brand {
+  @media(min-width: $mamaBear){
+    padding: 15px 15px 15px 0;
+  }
+}
