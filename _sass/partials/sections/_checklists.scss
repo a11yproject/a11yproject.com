@@ -1,21 +1,28 @@
 /*************************************
 /  Contributors List
 /************************************/
-.checklist > ul {
-	margin-left: 0;
-	list-style-type: none;
-}
-.checklist label {
-	font-size: 1.1em;
-	line-height: 1.1em;
-}
+.checklist {
 
-.checklist label input[type="checkbox"] {
-	width: 1.1em;
-	height: 1.1em;
-	position: relative;
-	top: -0.2em;
-}
-.checklist fieldset {
-	margin-bottom: 2em;
+	> ul {
+		margin-left: 0;
+		list-style-type: none;
+	}
+	label {
+		font-size: 1.1em;
+		line-height: 1.1em;
+		cursor: pointer;
+		font-weight: normal;
+	}
+	input[type="checkbox"] {
+		width: 1.1em;
+		height: 1.1em;
+		position: relative;
+		top: -0.2em;
+		float: left;
+		margin-left: 0;
+	}
+	fieldset {
+		margin-bottom: 2em;
+	}
+
 }
