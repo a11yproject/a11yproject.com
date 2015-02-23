@@ -1,0 +1,33 @@
+/*************************************
+/  Main Nav
+/************************************/
+.navbar-inverse .navbar-inner {
+  background-color: #1b1b1b;
+  background-image: -moz-linear-gradient(top, #222, #111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222), to(#111));
+  background-image: -webkit-linear-gradient(top, #222, #111);
+  background-image: -o-linear-gradient(top, #222, #111);
+  background-image: linear-gradient(to bottom, #222, #111);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF222222', endColorstr='#FF111111', GradientType=0);
+  border-color: #252525;
+}
+
+.navbar-inverse .nav > li > a {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.navbar ul {
+  padding: 0;
+}
+
+.navbar-brand {
+  @media(min-width: $mamaBear){
+    padding: 15px 15px 15px 0;
+  }
+}
+
+.navbar li.selected a { color: #fff; }

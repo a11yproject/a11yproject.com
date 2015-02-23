@@ -1,0 +1,14 @@
+/*************************************
+/  Global
+/************************************/
+body {
+	padding-bottom: 40px;
+
+	@media (min-width: 980px) {
+			padding-top: 60px;
+	}
+}
+
+#content:focus {
+	outline: none;
+}

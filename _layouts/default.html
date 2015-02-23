@@ -35,24 +35,31 @@
       </symbol>
     </svg>
     <a id="skip-navigation" href="#content">Skip Navigation</a>
-    <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="/"><!--[if lte IE 8]><img src="/img/logo.png" class="oldie-logo-navbar logo" alt=""><![endif]--><!--[if gte IE 9]><!--><span class="fs1 logo" aria-hidden="true" data-icon="&#xe000;"></span><!--<![endif]-->A11Y Project</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse-target">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><!--[if lte IE 8]><img src="/img/logo.png" class="oldie-logo-navbar logo" alt=""><![endif]--><!--[if gte IE 9]><!--><span class="fs1 logo" aria-hidden="true" data-icon="&#xe000;"></span><!--<![endif]-->A11Y Project</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="nav-collapse-target">
+            <ul class="nav navbar-nav">
               <li><a href="/patterns/">Patterns</a></li>
               <li><a href="/checklist.html">Checklist</a></li>
               <li><a href="/resources.html">Resources</a></li>
               <li><a href="/about.html">About</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
-        </div>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
       </div>
     </nav>
 
@@ -61,10 +68,10 @@
     </main>
 
     <footer role="contentinfo">
-      <div class="container-fluid">
+      <div class="container">
       <hr />
-        <div class="row-fluid">
-          <div class="span8 github-data">
+        <div class="row">
+          <div class="col-sm-8 github-data">
             <h3>Join us on <a href="https://github.com/a11yproject/a11yproject.com">GitHub</a> <span> <a href="https://github.com/a11yproject/a11yproject.com/graphs/contributors"><span class="data contributors">&nbsp;</span>Contributors</a> <a href="https://github.com/a11yproject/a11yproject.com"><span class="data stars">&nbsp;</span>Stars</a> <a href="https://github.com/a11yproject/a11yproject.com/issues"><span class="data open-issues">&nbsp;</span>Open Issues</a> </span></h3>
 
             <ul id="contributors-list"></ul>
@@ -72,7 +79,7 @@
 
           </div>
 
-          <div class="span4">
+          <div class="col-sm-4">
             <h5>Colophon</h5>
               <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
                 Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://getbootstrap.com">Bootstrap</a></p>
@@ -89,9 +96,9 @@
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/garlic.js/1.2.2/garlic.min.js"></script>
-    <script src="/js/bootstrap-dropdown.js"></script>
-    <script src="/js/bootstrap-collapse.js"></script>
-    <script src="/js/scripts.js"></script>
+    <script src="/js/vendor/bootstrap/dropdown.js"></script>
+    <script src="/js/vendor/bootstrap/collapse.js"></script>
+    <script src="/js/scripts.min.js"></script>
     <script>
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');

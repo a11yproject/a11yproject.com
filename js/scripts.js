@@ -1,5 +1,5 @@
 /*
-  Using object literal notation we can keep our JS organized and easy
+  Using object literals & dot notation we can keep our JS organized and easy
   to maintain. Functions are comma separated, well named parameter values,
   and triggered by calling them like this Engine.ui.functionName();
 */
@@ -254,7 +254,17 @@ $(document).ready(function(){
             toc.append('<li><a href=#'+this.id+'>'+$(this).text()+'</a>');
           });
         }
-      } // toc
+      }, // toc
+
+      navSelectedState : function(nav){
+        // pass in the container tag eg 'nav'
+        $(nav + " ul li").each(function(){
+          if ($(this).find("a").attr('href') === window.location.pathname){
+            $(this).addClass('selected');
+            $(this).parents("li").addClass('selected');
+          }
+        });
+      }// navSelectedState
 
     } // ui
 
@@ -263,5 +273,6 @@ $(document).ready(function(){
   Engine.ui.footerContributors();
   Engine.ui.footerCopyright();
   Engine.ui.toc();
+  Engine.ui.navSelectedState(".navbar");
 
 });

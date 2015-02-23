@@ -1,0 +1,29 @@
+// normalize lists
+@mixin tameLists(){
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style:none;
+  }
+}
+
+// clear
+@mixin clearfix() {
+  &:before, &:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden;
+  }
+  &:after {
+      clear: both;
+  }
+}
+
+
+@mixin fontSmoothing(){
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

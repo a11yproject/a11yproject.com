@@ -1,0 +1,54 @@
+/*************************************
+/  Typography
+/************************************/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 10px 0;
+	font-family: inherit;
+	font-weight: bold;
+	line-height: 20px;
+	color: inherit;
+	text-rendering: optimizelegibility;
+}
+
+h2 {
+	font-size: 31.5px;
+}
+
+h3 {
+	font-size: 24.5px;
+}
+
+h4 {
+	font-size: 17.5px;
+}
+
+h5 {
+	font-size: 14px;
+}
+
+h1, h2, h3 {
+	line-height: 40px;
+}
+
+p {
+	margin: 0 0 25px;
+	font-size: 16px;
+}
+
+a {
+	color: #3072ba;
+	text-decoration: none;
+	&:hover,&:focus {
+		color: #204d7d;
+		text-decoration: underline;
+	}
+}
+
+ul {
+	padding: 0 0 20px 25px;
+}
+
+ul ul {
+	padding-bottom: 0;
+}
