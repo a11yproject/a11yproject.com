@@ -29,7 +29,12 @@
     {% endif %}
   </head>
   <body>
-    <a href="#content" class="visuallyhidden">Skip Navigation</a>
+    <svg style="display: none;">
+      <symbol id="icon-github" viewBox="0 0 32 32" fill="currentColor">
+        <path d="M0 18 C0 12 3 10 3 9 C2.5 7 2.5 4 3 3 C6 3 9 5 10 6 C12 5 14 5 16 5 C18 5 20 5 22 6 C23 5 26 3 29 3 C29.5 4 29.5 7 29 9 C29 10 32 12 32 18 C32 25 30 30 16 30 C2 30 0 25 0 18 M3 20 C3 24 4 28 16 28 C28 28 29 24 29 20 C29 16 28 14 16 14 C4 14 3 16 3 20 M8 21 A1.5 2.5 0 0 0 13 21 A1.5 2.5 0 0 0 8 21 M24 21 A1.5 2.5 0 0 0 19 21 A1.5 2.5 0 0 0 24 21 z "></path>
+      </symbol>
+    </svg>
+    <a id="skip-navigation" href="#content">Skip Navigation</a>
     <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
@@ -41,7 +46,6 @@
           <a class="brand" href="/"><!--[if lte IE 8]><img src="/img/logo.png" class="oldie-logo-navbar logo" alt=""><![endif]--><!--[if gte IE 9]><!--><span class="fs1 logo" aria-hidden="true" data-icon="&#xe000;"></span><!--<![endif]-->A11Y Project</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li><a href="/archives.html">Archives</a></li>
               <li><a href="/patterns/">Patterns</a></li>
               <li><a href="/checklist.html">Checklist</a></li>
               <li><a href="/resources.html">Resources</a></li>
@@ -52,101 +56,48 @@
       </div>
     </nav>
 
-    <main role="main" id="content">
+    <main role="main" id="content" tabindex="0">
     {{ content }}
     </main>
 
     <footer role="contentinfo">
       <div class="container-fluid">
-        <hr />
-
+      <hr />
         <div class="row-fluid">
-          <div class="span8">
-            <h5>Contributors</h5>
+          <div class="span8 github-data">
+            <h3>Join us on <a href="https://github.com/a11yproject/a11yproject.com">GitHub</a> <span> <a href="https://github.com/a11yproject/a11yproject.com/graphs/contributors"><span class="data contributors">&nbsp;</span>Contributors</a> <a href="https://github.com/a11yproject/a11yproject.com"><span class="data stars">&nbsp;</span>Stars</a> <a href="https://github.com/a11yproject/a11yproject.com/issues"><span class="data open-issues">&nbsp;</span>Open Issues</a> </span></h3>
+
             <ul id="contributors-list"></ul>
-            <p>Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
+            <ul class="pager contributors-pagination"></ul>
+
           </div>
 
           <div class="span4">
             <h5>Colophon</h5>
-            <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
-              Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://getbootstrap.com">Bootstrap</a></p>
-            <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
-            <div id="google_translate_element"></div>
-
+              <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
+                Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://getbootstrap.com">Bootstrap</a></p>
+              <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
+              <div id="google_translate_element"></div>
           </div>
-
         </div>
+
+        <p class="notice">Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
 
       </div> <!-- /container -->
 
     </footer>
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-
-    <!-- Site-Scripts | Includes: bootstrap-dropdown.js, bootstrap-collapse.js, garlic.min.js -->
-    <script src="/js/minified/scripts-min.js"></script>
-
-    <!-- Dynamic Copyright Year -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/garlic.js/1.2.2/garlic.min.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/scripts.js"></script>
     <script>
-      $('.a11y-copyright').text(new Date().getFullYear())
-    </script>
-
-    <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
     }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-    <script>
-    (function($){
-      var url = 'https://api.github.com/repos/a11yproject/a11yproject.com/contributors?callback=?';
-
-      function listContributors(data) {
-
-        var html = '';
-        $(data).each(function(i, user){
-          html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
-        });
-
-        $(html).appendTo('#contributors-list');
-
-      }
-
-
-      if(window.matchMedia('(min-width: 480px)').matches) {
-        $.ajax({
-          type: 'GET',
-          url: url,
-          async: false,
-          contentType: "application/json",
-          dataType: 'jsonp',
-          success: function(data){
-            listContributors(data.data);
-          },
-          error: function(e) {
-            console.log(e.message);
-          }
-        });
-      }
-
-    })(jQuery);
-
-    (function($){
-      var toc = $('#toc');
-
-      if(toc.length) {
-        toc.prepend('<li class="nav-header">Archive Categories</li>');
-        $('.category-title').each(function(){
-          toc.append('<li><a href=#'+this.id+'>'+$(this).text()+'</a>');
-        });
-      }
-
-    })(jQuery);
-    </script>
   </body>
 </html>
