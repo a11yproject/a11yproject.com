@@ -14,7 +14,35 @@ $(document).ready(function(){
 
     ui : {
 
+      lazyLoadFooter : function(target,offset){
+
+        var $target = $(target),
+            targetLoc = $target.offset().top,
+            footerLazyLoadTriggered = false;
+
+            if(!footerLazyLoadTriggered){
+
+              $(window).scroll(function(e){
+
+                var scrollPos = $(this).scrollTop(),
+                    offSet = offset,
+                    targetScroll = targetLoc - offSet;
+
+                    if(targetScroll <= scrollPos && !footerLazyLoadTriggered){
+                      Engine.ui.footerContributors(); // run custom footer
+                      footerLazyLoadTriggered = true;
+                    }
+
+              });
+
+            }else{
+              Engine.ui.footerContributors(); // run custom footer
+            }
+
+      }, // lazyLoadFooter()
+
       footerContributors : function(){
+
         function gitHubContributors(){
 
           var
@@ -260,7 +288,7 @@ $(document).ready(function(){
 
   } // Engine
 
-  Engine.ui.footerContributors();
+  Engine.ui.lazyLoadFooter("footer[role='contentinfo']",800);
   Engine.ui.footerCopyright();
   Engine.ui.toc();
 
