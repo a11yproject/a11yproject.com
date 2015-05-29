@@ -10,7 +10,7 @@ categories:
 
 NVDA is a free and open source screen reader from [NVAccess](http://www.nvaccess.org/). It is available for the Windows operating system and officially supports Internet Explorer, Firefox, and Chrome web browsers. There is also a ton of [braille display support](http://www.nvaccess.org/files/nvda/documentation/userGuide.html?#SupportedBrailleDisplays)!
 
-NVDA is available for download here: http://www.nvaccess.org/download/
+NVDA is available for download here: [http://www.nvaccess.org/download/](nvaccess.org/download)
  
 After everything is installed you can press `Ctrl + Alt + n` to start NVDA. Quitting NVDA is done by pressing `NVDA + q`, then `enter` at the prompt.
 
