@@ -1,4 +1,4 @@
-[![http://simplea11y.com](http://a11yproject.com/img/README-logo.svg)](http://a11yproject.com)
+[![http://a11yproject.com](http://a11yproject.com/img/README-logo.svg)](http://a11yproject.com)
 
 A11Y Project
 ==========
