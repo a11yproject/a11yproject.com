@@ -51,8 +51,13 @@ g | Navigate through graphics / images
 ## Advanced Navigation
 By pressing `NVDA + f7`, NVDA displays a listing of all elements on the page. This is helpful to quickly skip to a specific area or element on the page. It also helps with testing by gaining an understanding of what each element might sound like to the end user. Do those “read more” links give enough context to be useful?
 
+![NVDA element list being used on a website](https://cloud.githubusercontent.com/assets/1392632/7968990/04d5fb78-0a02-11e5-9139-128f05ee9458.png)
+
 ## Descriptive Output
 If you’re used to using VoiceOver and miss the on-screen text description output, NVDA also has this available as a feature. To enable descriptive text output, check the `Tools > Speech viewer` checkbox. This will open a new, always-on-top, window with a continuous log of text that is being described by NVDA.
+
+![NVDA speech viewer being used to help describe a website](https://cloud.githubusercontent.com/assets/1392632/7968993/0fcd841a-0a02-11e5-9cc7-b316eb509707.png)
+
 
 ## A note on styling
 One feature that other screen readers have that NVDA doesn’t is custom focus styles. Others like Apple’s VoiceOver or Google’s Chromevox have a custom focus style for links or for input controls that aid in navigation. NVDA does not have a custom focus style so it is very important to style page elements with the `:focus` pseudo-class. It’s good to make a habit of adding this whenever the `:hover` pseudo-class is used. Also, avoid using `outline: none` as this removes focus styles completely from view. 
