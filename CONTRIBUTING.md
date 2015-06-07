@@ -13,7 +13,7 @@ If you'd like to submit patterns to the A11Y Project make sure to do the followi
     ![boogie dance](http://bukk.it/gitdown.gif)
 
 ## Writing articles
-We have a list of articles we'd love to see written. Have an idea for an article? We'd love to know what you want to contribute.
+We have a [list of articles](https://github.com/a11yproject/a11yproject.com/issues/12) we'd love to see written. Have an idea for an article? We'd love to know what you want to contribute.
 
 1. Search to make sure someone hasn't snagged the article already.
 2. Claim an article by starting a new issue with "Article: your title" as the issue title. The final title can (or probably should) be different.
