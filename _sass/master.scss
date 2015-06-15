@@ -163,6 +163,12 @@ body {
   text-decoration: underline;
 }
 
+.post {
+  table {
+    @extend .table;
+  }
+}
+
 // Footnotes
 // -------------------------------------------------------------
 .footnotes ol {
