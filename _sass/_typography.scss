@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  font: 1em/1.8 'Source Sans Pro', sans-serif;
+  padding: 2em;
+  @media (min-width: 36em) {
+    font-size: 1.15em;
+    line-height: 1.9;
+    padding-top: 3em;
+  }
+}
+
+a {
+  color: #397c9c;
+}
+
+.post {
+
+  p, ol, ul {
+    margin-top:0;
+    margin-bottom: 1.4em;
+  }
+
+  ol,ul {
+    padding-left: 1.4em;
+  }
+
+  code {
+    background: $grayLighter;
+    padding: 0.25em;
+  }
+
+  kbd {
+    background: $grayLighter;
+    padding: 0.25em;
+    border: 1px solid $grayDarker;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+  }
+
+  // larger margin to space out new sections within the article.
+  p+h2, ul+h2, table+h2, img+h2, pre+h2,
+  p+h3, ul+h3, table+h3, img+h3, pre+h3,
+  p+h4, ul+h4, table+h4, img+h4, pre+h4,
+  p+h5, ul+h5, table+h5, img+h5, pre+h5,
+  p+h6, ul+h6, table+h6, img+h6, pre+h6 {
+      margin-top: 3em;
+  }
+
+  .page-header {
+    margin-bottom: 1.5em;
+  }
+
+  .button-edit {
+    background: $grayLighter;
+    padding: 0.1em 0.5em;
+    font-size: 0.8em;
+    color: #222;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 0.25em;
+    transition: background 0.2s;
+
+    .icon {
+      font-size: 1.2em;
+      vertical-align: text-top;
+      margin-right: 0.25em;
+    }
+
+    &:hover {
+      background: darken($grayLighter, 10%);
+    }
+  }
+
+}
