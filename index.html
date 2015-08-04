@@ -4,8 +4,6 @@ description: A community-driven effort to make web accessibility easier.
 ---
 {% for category in site.categories %}
 
-  {% unless forloop.first %}<hr/>{% endunless %}
-
   {% assign title = category.first %}
   {% assign posts = category.last %}
 

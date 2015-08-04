@@ -1,0 +1,17 @@
+$desktop: 48em;
+$tablet: 34em;
+$mobile: 24em;
+
+body {
+  padding: 2em;
+  @media (min-width: $tablet) {
+    padding-top: 3em;
+  }
+}
+
+.row {
+  max-width: $desktop;
+  margin-left: auto;
+  margin-right: auto;
+  @extend %clearfix;
+}

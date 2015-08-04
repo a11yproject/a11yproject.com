@@ -2,11 +2,9 @@
 
 body {
   font: 1em/1.8 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  @media (min-width: 36em) {
+  @media (min-width: $tablet) {
     font-size: 1.15em;
     line-height: 1.9;
-    padding-top: 3em;
   }
 }
 
@@ -14,41 +12,65 @@ a {
   color: #397c9c;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  line-height: 1.2em;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.9em;
+}
+
+h3 {
+    font-size: 1.35em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.1em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+// larger margin to space out new sections within the article.
+p+h2, ul+h2, table+h2, img+h2, pre+h2,
+p+h3, ul+h3, table+h3, img+h3, pre+h3,
+p+h4, ul+h4, table+h4, img+h4, pre+h4,
+p+h5, ul+h5, table+h5, img+h5, pre+h5,
+p+h6, ul+h6, table+h6, img+h6, pre+h6 {
+    margin-top: 3em;
+}
+
+p, ol, ul {
+  margin-top:0;
+  margin-bottom: 1.4em;
+}
+
+ol,ul {
+  padding-left: 1.4em;
+}
+
+code {
+  background: $grayLighter;
+  padding: 0.25em;
+}
+
+kbd {
+  background: $grayLighter;
+  padding: 0.25em;
+  border: 1px solid $grayDarker;
+}
+
 .post {
-
-  p, ol, ul {
-    margin-top:0;
-    margin-bottom: 1.4em;
-  }
-
-  ol,ul {
-    padding-left: 1.4em;
-  }
-
-  code {
-    background: $grayLighter;
-    padding: 0.25em;
-  }
-
-  kbd {
-    background: $grayLighter;
-    padding: 0.25em;
-    border: 1px solid $grayDarker;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.5em;
-    line-height: 1.2em;
-  }
-
-  // larger margin to space out new sections within the article.
-  p+h2, ul+h2, table+h2, img+h2, pre+h2,
-  p+h3, ul+h3, table+h3, img+h3, pre+h3,
-  p+h4, ul+h4, table+h4, img+h4, pre+h4,
-  p+h5, ul+h5, table+h5, img+h5, pre+h5,
-  p+h6, ul+h6, table+h6, img+h6, pre+h6 {
-      margin-top: 3em;
-  }
 
   .page-header {
     margin-bottom: 1.5em;
