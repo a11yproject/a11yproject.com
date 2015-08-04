@@ -1,42 +1,23 @@
 ---
 layout: default
 ---
-<div>
-  <div>
-    <h1>
-      <!--[if lte IE 8]><img src="/img/logo.png" class="oldie-logo" alt=""><![endif]-->
-      <!--[if gte IE 9]><!--><span class="fs1 logo" aria-hidden="true" data-icon="&#xe000;"></span><!--<![endif]-->
-    {{ site.title }}</h1>
+<h1>
+  <!--[if lte IE 8]><img src="/img/logo.png" class="oldie-logo" alt=""><![endif]-->
+  <!--[if gte IE 9]><!--><span class="fs1 logo" aria-hidden="true" data-icon="&#xe000;"></span><!--<![endif]-->
+{{ site.title }}</h1>
 
-    <p>A community-driven effort to make web accessibility easier.</p>
+<p>A community-driven effort to make web accessibility easier.</p>
 
-    <ul>
-      <li>
-        <a href="./about.html">Learn more</a>
-      </li>
-      <li>
-        <a href="http://github.com/a11yproject/a11yproject.com">Contribute on Github</a>
-      </li>
-    </ul>
-  </div>
-</div>
+<ul>
+  <li>
+    <a href="./about.html">Learn more</a>
+  </li>
+  <li>
+    <a href="http://github.com/a11yproject/a11yproject.com">Contribute on Github</a>
+  </li>
+</ul>
 
 <article class="post">
-  <div>
-    <div>
-
-      <div>
-          <div>
-          {{ content }}
-          </div>
-      </div>
-
-      <div>
-        <div>
-          <ul id="toc"></ul>
-        </div>
-      </div>
-
-    </div>
-  </div>
+  <ul id="toc"></ul>
+  {{ content }}
 </article>

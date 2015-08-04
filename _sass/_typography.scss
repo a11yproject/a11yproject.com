@@ -18,23 +18,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 1.9em;
+    font-size: 2.33em;
 }
 
 h3 {
-    font-size: 1.35em;
+    font-size: 1.66em;
 }
 
 h4 {
-    font-size: 1.2em;
+    font-size: 1.33em;
 }
 
 h5 {
-    font-size: 1.1em;
+    font-size: 1.125em;
 }
 
 h6 {
@@ -57,6 +57,14 @@ p, ol, ul {
 
 ol,ul {
   padding-left: 1.4em;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
 }
 
 code {

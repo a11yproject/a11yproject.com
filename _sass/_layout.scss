@@ -15,3 +15,16 @@ body {
   margin-right: auto;
   @extend %clearfix;
 }
+
+.section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.excerpt-list {
+  @extend %no-list-style;
+
+  .excerpt-heading {
+    margin-bottom: .2em;
+  }
+}

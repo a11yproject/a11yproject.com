@@ -1,4 +1,6 @@
 #contributors-list {
+  @extend %no-list-style;
+
   li {
     float: left;
     line-height: 0;
