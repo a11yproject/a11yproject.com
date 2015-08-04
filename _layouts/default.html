@@ -34,35 +34,22 @@
       </symbol>
     </svg>
 
-    <a id="skip-navigation" href="#content">Skip Navigation</a>
+    <a id="skip-navigation" class="screen-reader-text" href="#content">Skip Navigation</a>
 
     <nav role="navigation">
-      <div>
-        <div>
-
-          <a>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-
           <a class="brand" href="/">
             <!--[if lte IE 8]><img src="/img/logo.png" class="oldie-logo-navbar logo" alt=""><![endif]-->
             <!--[if gte IE 9]><!-->
-            <span class="fs1 logo" aria-hidden="true" data-icon="&#xe000;"></span>
+            <span class="logo" aria-hidden="true" data-icon="&#xe000;"></span>
             <!--<![endif]-->A11Y Project</a>
 
-          <div class="">
             <ul class="nav">
+              <li class="screen-reader-text"><a href="/">Home</a></li>
               <li><a href="/patterns/">Patterns</a></li>
               <li><a href="/checklist.html">Checklist</a></li>
               <li><a href="/resources.html">Resources</a></li>
               <li><a href="/about.html">About</a></li>
             </ul>
-          </div>
-        </div>
-
-      </div>
     </nav>
 
     <main role="main" id="content" tabindex="0">
@@ -70,27 +57,19 @@
     </main>
 
     <footer role="contentinfo">
-      <div>
-        <div>
-          <div class="github-data">
-            <h3>Join us on <a href="https://github.com/a11yproject/a11yproject.com">GitHub</a> <span> <a href="https://github.com/a11yproject/a11yproject.com/graphs/contributors"><span class="data contributors">&nbsp;</span>Contributors</a> <a href="https://github.com/a11yproject/a11yproject.com"><span class="data stars">&nbsp;</span>Stars</a> <a href="https://github.com/a11yproject/a11yproject.com/issues"><span class="data open-issues">&nbsp;</span>Open Issues</a> </span></h3>
+      <h3>Join us on <a href="https://github.com/a11yproject/a11yproject.com">GitHub</a> <span> <a href="https://github.com/a11yproject/a11yproject.com/graphs/contributors"><span class="data contributors">&nbsp;</span>Contributors</a> <a href="https://github.com/a11yproject/a11yproject.com"><span class="data stars">&nbsp;</span>Stars</a> <a href="https://github.com/a11yproject/a11yproject.com/issues"><span class="data open-issues">&nbsp;</span>Open Issues</a> </span></h3>
 
-            <ul id="contributors-list"></ul>
-            <ul class="pager contributors-pagination"></ul>
-          </div>
+      <ul id="contributors-list"></ul>
+      <ul class="pager contributors-pagination"></ul>
 
-          <div>
-            <h5>Colophon</h5>
-              <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
-                Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> &amp; <a href="http://getbootstrap.com">Bootstrap</a></p>
-              <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
-              <div id="google_translate_element"></div>
-          </div>
-        </div>
+      <h5 class="screen-reader-text">Colophon</h5>
+      <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
+        Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a></p>
+      <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
+      <div id="google_translate_element"></div>
 
-        <p class="notice">Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
+      <p class="notice">Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
 
-      </div>
     </footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
