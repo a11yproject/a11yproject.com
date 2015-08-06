@@ -1,3 +1,9 @@
+.colophon {
+    background: $footer_bg;
+    padding-top: 4em;
+    margin-top: 1em;
+}
+
 #contributors-list {
     @extend %no-list-style;
 

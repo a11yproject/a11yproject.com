@@ -52,8 +52,9 @@
 }
 
 .hero {
-    background: #FFF79B;
-    padding: 3em 2em 2em;;
+    background: $hero;
+    background: linear-gradient($hero, $heroGradient);
+    padding: 4em 2em ;
     overflow: hidden;
     width: 120%;
     margin: -2em 0 4em -10%;
@@ -73,6 +74,13 @@
 
     .connect-with-a11y {
         margin-bottom: 0;
+
+        a {
+            background: $link;
+            color: #fff;
+            padding: .8em 1.2em;
+            text-decoration: none;
+        }
     }
 }
 
