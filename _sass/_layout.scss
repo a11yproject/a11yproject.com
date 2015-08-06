@@ -21,6 +21,11 @@ $mobile: 24em;
     max-width: $tablet;
 }
 
+.archive-section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .excerpt-list {
     @extend %no-list-style;
 
