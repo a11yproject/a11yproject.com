@@ -6,9 +6,26 @@
     }
 }
 
+.center {
+    text-align: center;
+}
+
 %no-list-style {
     padding-left: 0;
     list-style: none;
+}
+
+.inline-list {
+    padding-left: 0;
+
+    li {
+        display: inline-block;
+        margin-right: 1.4em;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }
 
 .screen-reader-text {

@@ -2,6 +2,11 @@ $desktop: 48em;
 $tablet: 34em;
 $mobile: 24em;
 
+%section,
+.section {
+    padding: 2em 20px;
+}
+
 %row,
 .row {
     max-width: $desktop;
@@ -10,9 +15,10 @@ $mobile: 24em;
     @extend %clearfix;
 }
 
-.section {
-    padding-top: 2em;
-    padding-bottom: 2em;
+%row-narrow,
+.row-narrow {
+    @extend %row;
+    max-width: $tablet;
 }
 
 .excerpt-list {
@@ -21,4 +27,9 @@ $mobile: 24em;
     .excerpt-heading {
         margin-bottom: .2em;
     }
+}
+
+.related-posts {
+    @extend %row-narrow;
+    margin-top: 3em;
 }

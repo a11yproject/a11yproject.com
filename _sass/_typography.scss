@@ -81,8 +81,7 @@ kbd {
 }
 
 .post {
-    @extend %row;
-    max-width: $tablet;
+    @extend %row-narrow;
 
     .page-header {
         margin-bottom: 1.5em;
@@ -108,6 +107,12 @@ kbd {
         &:hover {
             background: darken($grayLighter, 10%);
         }
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        margin: 1.6em auto;
     }
 
 }
