@@ -1,20 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 body {
-  font: 1em/1.8 'Source Sans Pro', sans-serif;
-  @media (min-width: $tablet) {
-    font-size: 1.15em;
-    line-height: 1.9;
-  }
+    font: 1em/1.8 'Source Sans Pro', sans-serif;
+    color: $body_font;
+    @media (min-width: $tablet) {
+        font-size: 1.15em;
+        line-height: 1.9;
+    }
 }
 
 a {
-  color: #397c9c;
+    color: $link;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.5em;
-  line-height: 1.2em;
+    color: $headings;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
 }
 
 h1 {
@@ -51,12 +53,12 @@ p+h6, ul+h6, table+h6, img+h6, pre+h6 {
 }
 
 p, ol, ul {
-  margin-top:0;
-  margin-bottom: 1.4em;
+    margin-top:0;
+    margin-bottom: 1.4em;
 }
 
 ol,ul {
-  padding-left: 1.4em;
+    padding-left: 1.4em;
 }
 
 ul {
@@ -68,42 +70,44 @@ ol {
 }
 
 code {
-  background: $grayLighter;
-  padding: 0.25em;
+    background: $grayLighter;
+    padding: 0.25em;
 }
 
 kbd {
-  background: $grayLighter;
-  padding: 0.25em;
-  border: 1px solid $grayDarker;
+    background: $grayLighter;
+    padding: 0.25em;
+    border: 1px solid $grayDarker;
 }
 
 .post {
+    @extend %row;
+    max-width: $tablet;
 
-  .page-header {
-    margin-bottom: 1.5em;
-  }
-
-  .button-edit {
-    background: $grayLighter;
-    padding: 0.1em 0.5em;
-    font-size: 0.8em;
-    color: #222;
-    text-decoration: none;
-    border-radius: 3px;
-    display: inline-block;
-    margin-right: 0.25em;
-    transition: background 0.2s;
-
-    .icon {
-      font-size: 1.2em;
-      vertical-align: text-top;
-      margin-right: 0.25em;
+    .page-header {
+        margin-bottom: 1.5em;
     }
 
-    &:hover {
-      background: darken($grayLighter, 10%);
+    .button-edit {
+        background: $grayLighter;
+        padding: 0.1em 0.5em;
+        font-size: 0.8em;
+        color: #222;
+        text-decoration: none;
+        border-radius: 3px;
+        display: inline-block;
+        margin-right: 0.25em;
+        transition: background 0.2s;
+
+        .icon {
+            font-size: 1.2em;
+            vertical-align: text-top;
+            margin-right: 0.25em;
+        }
+
+        &:hover {
+            background: darken($grayLighter, 10%);
+        }
     }
-  }
 
 }

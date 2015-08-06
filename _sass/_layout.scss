@@ -2,29 +2,23 @@ $desktop: 48em;
 $tablet: 34em;
 $mobile: 24em;
 
-body {
-  padding: 2em;
-  @media (min-width: $tablet) {
-    padding-top: 3em;
-  }
-}
-
+%row,
 .row {
-  max-width: $desktop;
-  margin-left: auto;
-  margin-right: auto;
-  @extend %clearfix;
+    max-width: $desktop;
+    margin-left: auto;
+    margin-right: auto;
+    @extend %clearfix;
 }
 
 .section {
-  padding-top: 2em;
-  padding-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .excerpt-list {
-  @extend %no-list-style;
+    @extend %no-list-style;
 
-  .excerpt-heading {
-    margin-bottom: .2em;
-  }
+    .excerpt-heading {
+        margin-bottom: .2em;
+    }
 }

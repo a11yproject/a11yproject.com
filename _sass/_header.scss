@@ -1,0 +1,54 @@
+.banner {
+    background: $header_bg;
+    margin-bottom: 3em;
+    padding: 1em 2em .4em;
+}
+
+.nav {
+    @extend %no-list-style;
+    margin-bottom: 0;
+    text-align: center;
+
+    @media (min-width: $desktop) {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 1.4em;
+    }
+
+    li:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .logo {
+        font-size: 1.4em;
+        display: block;
+        margin-right: 0;
+        margin-top: -.5em;
+
+
+        @media (min-width: $desktop) {
+            float: left;
+        }
+
+        .oldie-logo-navbar,
+        .icon-logo {
+            width: 1.4em;
+            position: relative;
+            top: .3em;
+        }
+
+        .home-logo-link {
+            color: $headings;
+        }
+
+    }
+}
+
+

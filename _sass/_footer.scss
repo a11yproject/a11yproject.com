@@ -1,17 +1,17 @@
 #contributors-list {
-  @extend %no-list-style;
+    @extend %no-list-style;
 
-  li {
-    float: left;
-    line-height: 0;
-    padding: 0;
-    margin: 0 .6em .6em 0;
-  }
+    li {
+        float: left;
+        line-height: 0;
+        padding: 0;
+        margin: 0 .6em .6em 0;
+    }
 
-  .contributor-avatar {
-    display: block;
-    margin: 0 auto;
-    height: 50px;
-    width: 50px;
-  }
+    .contributor-avatar {
+        display: block;
+        margin: 0 auto;
+        height: 50px;
+        width: 50px;
+    }
 }
