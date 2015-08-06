@@ -2,6 +2,16 @@
 layout: archives
 description: A community-driven effort to make web accessibility easier.
 ---
+<h3 class="toc-title">Categories</h3>
+<ul class="toc">
+  {% for category in site.categories %}
+    {% assign title = category.first %}
+
+    <li><a href="#{{ title | capitalize | replace:' ','-' }}">{{ title | capitalize }}</a></li>
+
+  {% endfor %}
+</ul>
+
 {% for category in site.categories %}
 
   <section class="archive-section">
