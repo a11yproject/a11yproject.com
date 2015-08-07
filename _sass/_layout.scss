@@ -48,3 +48,38 @@ $mobile: 24em;
     padding-top: 3em;
     padding-bottom: 3em;
 }
+
+
+
+.checklist {
+
+    ul {
+        list-style: none
+    }
+
+    fieldset {
+        margin-bottom: 2em;
+    }
+
+    legend {
+        font-size: 1.33em;
+    }
+
+    label {
+        display: block;
+        padding-left: 1em;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        float: left;
+        margin-left: -1.5em;
+        width: 1.5em;
+        height: 1.5em;
+        position: relative;
+        top: .5em;
+    }
+
+
+
+}

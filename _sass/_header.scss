@@ -78,9 +78,10 @@
         a {
             background: $link;
             color: #fff;
-            border-bottom: 4px solid darken($link, 10%);
-            padding: .8em 1.2em;
+            border-bottom: 3px solid darken($link, 10%);
+            padding: .6em 1.2em .5em;
             text-decoration: none;
+            line-height: 1;
         }
     }
 }
