@@ -87,6 +87,15 @@ kbd {
         margin-bottom: 1.5em;
     }
 
+    .post-title {
+        margin-bottom: 0;
+    }
+
+    .post-meta {
+        font-size: .85em;
+        color: lighten($body_font, 20%);
+    }
+
     .button-edit {
         background: $grayLighter;
         padding: 0.1em 0.5em;

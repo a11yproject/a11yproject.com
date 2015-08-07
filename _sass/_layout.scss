@@ -38,3 +38,8 @@ $mobile: 24em;
     @extend %row-narrow;
     margin-top: 3em;
 }
+
+#content {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}

@@ -4,14 +4,8 @@ layout: default
 <article class="post">
   {% if page.title %}
     <header class="page-header">
-      <h1>{{ page.title }}</h1>
-      <p>
-        {%if page.path %}
-        <a class="button-edit" href="//github.com/a11yproject/a11yproject.com/tree/gh-pages/{{ page.path }}">
-          <svg class="icon" style="height:1em; width: 1em;"><use xlink:href="#icon-github"></use></svg>
-          Edit on GitHub
-        </a>
-        {% endif %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      <p class="post-meta">
         {% if page.date %}
             <small class="postdate">
               Published on
@@ -30,6 +24,13 @@ layout: default
   {% endif %}
 
   {{ content }}
+
+  {%if page.path %}
+    <a class="button-edit" href="//github.com/a11yproject/a11yproject.com/tree/gh-pages/{{ page.path }}">
+      <svg class="icon" style="height:1em; width: 1em;"><use xlink:href="#icon-github"></use></svg>
+      Edit on GitHub
+    </a>
+  {% endif %}
 
   {% if site.disq4s %}
     <div id="comments">

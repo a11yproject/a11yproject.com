@@ -1,7 +1,6 @@
 .banner {
     background: $header_bg;
     padding: 1em 2em .4em;
-    margin-bottom: 1em;
     border-bottom: 1px solid darken($header_bg, 8%);
 
     .nav {
@@ -58,7 +57,7 @@
     padding: 4em 2em 5em;
     overflow: hidden;
     width: 120%;
-    margin: -3em 0 5em -10%;
+    margin: -3.1em 0 5em -10%;
 
     .icon-logo-hero {
         width: 6.5em;
