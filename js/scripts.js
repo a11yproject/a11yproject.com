@@ -245,17 +245,6 @@ $(document).ready(function(){
         $('.a11y-copyright').text(new Date().getFullYear())
       }, // footerCopyright
 
-      toc : function(){
-        var toc = $('#toc');
-
-        if(toc.length) {
-          toc.prepend('<li class="nav-header">Archive Categories</li>');
-          $('.category-title').each(function(){
-            toc.append('<li><a href=#'+this.id+'>'+$(this).text()+'</a>');
-          });
-        }
-      } // toc
-
     } // ui
 
   } // Engine
