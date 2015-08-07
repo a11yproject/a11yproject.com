@@ -62,20 +62,31 @@
     {{ content }}
     </main>
 
-    <footer role="contentinfo" class="section colophon">
+    <footer role="contentinfo" class="section footer">
       <div class="row">
-        <h3>Join us on <a href="https://github.com/a11yproject/a11yproject.com">GitHub</a> <span> <a href="https://github.com/a11yproject/a11yproject.com/graphs/contributors"><span class="data contributors">&nbsp;</span>Contributors</a> <a href="https://github.com/a11yproject/a11yproject.com"><span class="data stars">&nbsp;</span>Stars</a> <a href="https://github.com/a11yproject/a11yproject.com/issues"><span class="data open-issues">&nbsp;</span>Open Issues</a> </span></h3>
+        <div class="join-us">
+          <h3 class="join-us-title">Join us on <a href="https://github.com/a11yproject/a11yproject.com">GitHub</a></h3>
+          <ul class="join-us-buttons github-data inline-list">
+            <li><a class="join-us-btn" href="https://github.com/a11yproject/a11yproject.com/graphs/contributors"><span class="data contributors">&nbsp;</span>Contributors</a></li>
+            <li><a class="join-us-btn" href="https://github.com/a11yproject/a11yproject.com"><span class="data stars">&nbsp;</span>Stars</a></li>
+            <li><a class="join-us-btn" href="https://github.com/a11yproject/a11yproject.com/issues"><span class="data open-issues">&nbsp;</span>Open Issues</a></li>
+          </ul>
 
-        <ul id="contributors-list" class="row"></ul>
-        <ul class="pager contributors-pagination"></ul>
+          <ul id="contributors-list" class="row"></ul>
+          <ul class="pager contributors-pagination inline-list"></ul>
+        </div>
 
-        <h5 class="screen-reader-text">Colophon</h5>
-        <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
-          Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a></p>
-        <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
-        <div id="google_translate_element"></div>
+        <div class="colophon">
 
-        <p class="notice">Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
+          <h5 class="screen-reader-text">Colophon</h5>
+          <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
+          <div id="google_translate_element"></div>
+
+          <p class="notice">Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
+
+          <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
+            Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a></p>
+        </div>
       </div>
 
     </footer>

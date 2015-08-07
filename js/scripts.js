@@ -251,6 +251,5 @@ $(document).ready(function(){
 
   Engine.ui.footerContributors();
   Engine.ui.footerCopyright();
-  Engine.ui.toc();
 
 });
