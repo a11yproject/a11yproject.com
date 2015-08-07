@@ -35,8 +35,13 @@ $mobile: 24em;
 }
 
 .related-posts {
-    @extend %row-narrow;
-    margin-top: 3em;
+    margin-top: 4em;
+    padding-top: 3em;
+    border-top: 1px solid #ddd;
+
+    h3, ul {
+        @extend %row-narrow;
+    }
 }
 
 #content {
