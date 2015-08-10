@@ -2,23 +2,27 @@
 layout: archives
 description: A community-driven effort to make web accessibility easier.
 ---
-<h3 class="toc-title">Categories</h3>
-<ul class="toc">
-  {% for category in site.categories %}
-    {% assign title = category.first %}
+<div class="toc-wrap">
+  <h3 class="toc-title">Categories</h3>
+  <ul class="toc">
+    {% for category in site.categories %}
+      {% assign title = category.first %}
 
-    <li><a href="#{{ title | capitalize | replace:' ','-' }}">{{ title | capitalize }}</a></li>
+      <li><a class="{{ title | capitalize | replace:' ','-' }}" href="#{{ title | capitalize | replace:' ','-' }}">{{ title | capitalize }}</a></li>
 
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</div>
 
 {% for category in site.categories %}
 
-  <section class="archive-section">
-    {% assign title = category.first %}
-    {% assign posts = category.last %}
+  {% assign title = category.first %}
+  {% assign posts = category.last %}
 
-    <h2 id="{{ title | capitalize | replace:' ','-' }}" class="category-title">{{ title | capitalize }}</h2>
+  <section id="{{ title | capitalize | replace:' ','-' }}" class="archive-section">
+
+
+    <h2 class="category-title">{{ title | capitalize }}</h2>
     <ul class="excerpt-list">
     {% for post in posts %}
       <li class="excerpt">

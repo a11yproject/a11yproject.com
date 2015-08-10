@@ -26,6 +26,74 @@ $mobile: 24em;
     padding-bottom: 2em;
 }
 
+// ARCHIVE TABLE OF CONTENTS
+.has-toc { // this class is added via js so we don't make layout changes that won't make sense to non-js users
+    @media (min-width: ($desktop+5em) ) {
+
+        // add relative positioning and z indexes to hide the .toc behind them
+
+        .banner,
+        .footer,
+        .hero {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero {
+            box-shadow: 0 40px 40px 0 #fff; // a little fade-in for the homepage
+        }
+
+        .post {
+            // widen it up to make room
+            min-width: $desktop;
+        }
+
+        .toc-wrap {
+            width: 8em;
+            position: fixed;
+            top: 2em;
+            z-index: 1;
+
+
+            .toc-title {
+                text-align: right;
+                font-size: .8rem;
+                color: lighten($body_font, 20%);
+            }
+
+            .toc {
+                list-style: none;
+                padding-left: 0;
+                text-align: right;
+            }
+
+            a {
+                padding: .5rem;
+                font-size: 1em;
+                text-decoration: none;
+                transition: all .2s;
+                position: relative;
+                right: 0;
+
+                &.active {
+                    font-size: 1.33em;
+                    color: darken($link, 25%);
+                    right: -.3rem;
+                }
+            }
+
+        }
+
+        .archive-section {
+            max-width: ($tablet+10em);
+            padding-left: 10em;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}
+
+
 .excerpt-list {
     @extend %no-list-style;
 
@@ -48,7 +116,6 @@ $mobile: 24em;
     padding-top: 3em;
     padding-bottom: 3em;
 }
-
 
 
 .checklist {

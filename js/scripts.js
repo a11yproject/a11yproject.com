@@ -10,9 +10,45 @@ $(document).ready(function(){
 
   $('form').garlic(); // persistent checkboxes for checklist section
 
+
   var Engine = {
 
     ui : {
+
+      toc : function(){
+        if($('.toc').length) {
+          // if we have a toc, add a body class
+          $('body').addClass('has-toc');
+          // add active class to first item
+          $('.toc li:first a').addClass('active');
+          function toc_class(direction, element) {
+            // remove the active class from all of them
+            $('.toc a').removeClass('active');
+
+            if(direction == 'down') {
+              // we're arriving here from above it. Add active to this element
+              $('.toc a.'+element).addClass('active');
+            } else {
+              // when we hit the top of the element while scrolling up, we're actually
+              // arriving at the one before it, so let's make that one active instead.
+              $('.toc a.'+element).parent().prev('li').find('a').addClass('active');
+            }
+          }
+
+          $('.archive-section').each( function() {
+              var id = $(this).attr('id');
+              var waypoint = new Waypoint({
+                element: $('#'+id),
+                handler: function(direction) {
+                  // pass it to our function to keep things cleaner in here
+                  toc_class(direction, id);
+                },
+                offset: '20%' // this offset 'feels' right
+              });
+            }
+          );
+        }
+      }, // toc
 
       footerContributors : function(){
         function gitHubContributors(){
@@ -249,6 +285,7 @@ $(document).ready(function(){
 
   } // Engine
 
+  Engine.ui.toc();
   Engine.ui.footerContributors();
   Engine.ui.footerCopyright();
 
