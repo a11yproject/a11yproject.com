@@ -57,6 +57,12 @@ $mobile: 24em;
         list-style: none
     }
 
+    p.helper {
+        padding-left: 1.33rem;
+        font-size: smaller;
+        color: lighten($body_font, 15%);
+    }
+
     fieldset {
         margin-bottom: 2em;
     }
@@ -67,17 +73,21 @@ $mobile: 24em;
 
     label {
         display: block;
-        padding-left: 1em;
+        padding-left: 1.33rem;
+        position: relative;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     input[type="radio"],
     input[type="checkbox"] {
-        float: left;
-        margin-left: -1.5em;
-        width: 1.5em;
-        height: 1.5em;
-        position: relative;
-        top: .5em;
+        width: 1.6em;
+        height: 1.6em;
+        position: absolute;
+        top: .65em;
+        left: -.3em;
     }
 
 
