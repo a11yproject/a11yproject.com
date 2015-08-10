@@ -12,52 +12,52 @@ description: A beginner's guide to web accessibility
 		<p>ARIA Landmark Roles are helpful landmarks that can be used by <abbr title="Assistive Technology">AT</abbr> to navigate a website.</p>
 		<!-- banner -->
 		<label for="banner-role" class="checkbox"><code>&lt;header role="banner"&gt;</code>
-			<input name="aria-banner-role" id="banner-role" type="checkbox">
+			<input name="aria-banner-role" id="banner-role" aria-describedby="banner-role-description" type="checkbox">
 		</label>
 
-		<p>A region of the page that is site focused. Typically your global page header.</p>
+		<p id="banner-role-description" class="description">A region of the page that is site focused. Typically your global page header.</p>
 
 		<!-- navigation -->
 		<label for="navigation-role" class="checkbox"><code>&lt;nav role="navigation"&gt;</code>
-			<input name="aria-navigation-role" id="navigation-role" type="checkbox">
+			<input name="aria-navigation-role" id="navigation-role" aria-describedby="navigation-role-description" type="checkbox">
 		</label>
 
-		<p>Contains navigational links.</p>
+		<p id="navigation-role-description" class="description">Contains navigational links.</p>
 
 		<!-- main -->
 		<label for="main-role" class="checkbox"><code>&lt;main role="main"&gt;</code>
-			<input name="aria-main-role" id="main-role" type="checkbox">
+			<input name="aria-main-role" id="main-role" aria-describedby="main-role-description" type="checkbox">
 		</label>
 
-		<p>Focal content of document. Use only once.</p>
+		<p id="main-role-description" class="description">Focal content of document. Use only once.</p>
 
 		<!-- article -->
 		<label for="article-role" class="checkbox"><code>&lt;article role="article"&gt;</code>
-			<input name="aria-article-role" id="article-role" type="checkbox">
+			<input name="aria-article-role" id="article-role" aria-describedby="article-role-description" type="checkbox">
 		</label>
 
-		<p>Represents an independent item of content. Use only once on outermost element of this type.</p>
+		<p id="article-role-description" class="description">Represents an independent item of content. Use only once on outermost element of this type.</p>
 
 		<!-- complementary -->
 		<label for="complementary-role" class="checkbox"><code>&lt;aside role="complementary"&gt;</code>
-			<input name="aria-complementary-role" id="complementary-role" type="checkbox">
+			<input name="aria-complementary-role" id="complementary-role" aria-describedby="complementary-role-description" type="checkbox">
 		</label>
 
-		<p>Supporting section related to the main content even when separated.</p>
+		<p id="complementary-role-description" class="description">Supporting section related to the main content even when separated.</p>
 
 		<!-- contentinfo -->
 		<label for="content-info" class="checkbox"><code>&lt;footer role="contentinfo"&gt;</code>
-			<input name="aria-contentinfo-role" id="content-info" type="checkbox">
+			<input name="aria-contentinfo-role" id="content-info" aria-describedby="content-info-description" type="checkbox">
 		</label>
 
-		<p>Contains information about the document (meta info, copyright, company info, etc).</p>
+		<p id="content-info-description" class="description">Contains information about the document (meta info, copyright, company info, etc).</p>
 
 		<!-- search -->
 		<label for="search-role" class="checkbox"><code>&lt;form role="search"&gt;</code>
-			<input name="aria-search-role" id="search-role" type="checkbox">
+			<input name="aria-search-role" id="search-role" aria-describedby="search-role-description" type="checkbox">
 		</label>
 
-		<p>Add a `search` role to your primary search form.</p>
+		<p id="search-role-description" class="description">Add a `search` role to your primary search form.</p>
 	</fieldset>
 
 	<!-- Language -->
@@ -66,10 +66,10 @@ description: A beginner's guide to web accessibility
 		<p>Declaring a language attribute on the html element enables a screen reader to read out the text with correct pronunciation.</p>
 		<!-- text transcript -->
 		<label for="language-input" class="checkbox"><code>&lt;html lang="en"&gt;</code>
-			<input name="language-input" id="language-input" type="checkbox">
+			<input name="language-input" id="language-input" aria-describedby="language-input-description" type="checkbox">
 		</label>
 
-		<p>Specify a language with the lang attribute on the &lt;html&gt; element.</p>
+		<p id="language-input-description" class="description">Specify a language with the lang attribute on the &lt;html&gt; element.</p>
 	</fieldset>
 
 	<!-- Document Outline -->
@@ -110,16 +110,17 @@ description: A beginner's guide to web accessibility
 		<legend>Javascript</legend>
 		<!-- unobtrusive js -->
 		<label for="unobtrusive-js" class="checkbox">Unobtrusive Javascript
-			<input name="unobtrusive-js-input" id="unobtrusive-js" type="checkbox">
+			<input name="unobtrusive-js-input" id="unobtrusive-js" aria-describedby="unobtrusive-js-description" type="checkbox">
 		</label>
 
-		<p>Use unobtrusive Javascript (never use inline scripting).</p>
+		<p id="unobtrusive-js-description" class="description">Use unobtrusive Javascript (never use inline scripting).</p>
+
 		<!-- js alts -->
 		<label for="alt-js" class="checkbox">No-JS Alternatives
-			<input name="alt-js-fallback" id="alt-js" type="checkbox">
+			<input name="alt-js-fallback" id="alt-js" aria-describedby="alt-js-description" type="checkbox">
 		</label>
 
-		<p>Provide alternatives for users without Javascript enabled.</p>
+		<p id="alt-js-description" class="description">Provide alternatives for users without Javascript enabled.</p>
 	</fieldset>
 
 	<!-- Forms -->
@@ -127,31 +128,31 @@ description: A beginner's guide to web accessibility
 		<legend>Forms</legend>
 		<!-- form layout -->
 		<label for="logical-layout" class="checkbox">Logical layout
-			<input name="logical-layout" type="checkbox" id="logical-layout">
+			<input name="logical-layout" type="checkbox" aria-describedby="logical-layout-description" id="logical-layout">
 		</label>
 
-		<p>Tab order of the form follows a logical pattern.</p>
+		<p id="logical-layout-description" class="description">Tab order of the form follows a logical pattern.</p>
 
 		<!-- labels -->
 		<label for="labels" class="checkbox">Associated <code>label</code> for all form controls (e.g. <code class="language-markup">input</code>, <code class="language-markup">select</code> etc.)
-			<input name="labels" type="checkbox" id="labels">
+			<input name="labels" type="checkbox" aria-describedby="labels-description" id="labels">
 		</label>
 
-		<p>(e.g. <code class="language-markup">&lt;label for="name"&gt;Name:&lt;/label&gt;&lt;input id="name" type="text"&gt;</code>)</p>
+		<p id="labels-description" class="description">(e.g. <code class="language-markup">&lt;label for="name"&gt;Name:&lt;/label&gt;&lt;input id="name" type="text"&gt;</code>)</p>
 
 		<!-- placeholder -->
 		<label for="placeholders" class="checkbox">Make sure <code>placeholder</code> attributes are <strong>NOT</strong> being used in place of <code>label</code> tags. <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#attr-input-placeholder">WHATWG</a>
-			<input name="placeholders" type="checkbox" id="placeholders">
+			<input name="placeholders" type="checkbox" aria-describedby="placeholders-description" id="placeholders">
 		</label>
 
-		<p>An exception to this rule would be smaller forms with one or two fields (eg. search or log in forms)</p>
+		<p id="placeholders-description" class="description">An exception to this rule would be smaller forms with one or two fields (eg. search or log in forms)</p>
 
 		<!-- fieldset -->
 		<label for="group-related-elements" class="checkbox">Group related form elements with <code class="language-markup">fieldset</code> and describe the group with <code class="language-markup">legend</code>
-			<input name="group-related-elements" type="checkbox" id="group-related-elements">
+			<input name="group-related-elements" type="checkbox" aria-describedby="group-related-elements-description" id="group-related-elements">
 		</label>
 
-		<p>Important for <code class="language-markup">&lt;input type="radio"&gt;</code> and <code class="language-markup">&lt;input type="checkbox"&gt;</code></p>
+		<p id="group-related-elements-description" class="description">Important for <code class="language-markup">&lt;input type="radio"&gt;</code> and <code class="language-markup">&lt;input type="checkbox"&gt;</code></p>
 
 	</fieldset>
 
@@ -171,16 +172,12 @@ description: A beginner's guide to web accessibility
 	<!-- Color and Contrast -->
 	<fieldset>
 		<legend>Color and Contrast</legend>
-		<p>Best done early in the process, by ensuring that the foreground and background colors of your site have sufficient contrast you will help make your site more readable for everyone. <a href="http://leaverou.github.com/contrast-ratio/">Contrast Ratio</a> is one tool for checking the contrast of your colors for both standard vision and color deficient user.</p>
 		<label for="test-colorcontrast" class="checkbox">Test color contrast
 			<input name="test-colorcontrast" id="test-colorcontrast" type="checkbox">
 		</label>
-	</fieldset>
+		<p class="description">Best done early in the process, by ensuring that the foreground and background colors of your site have sufficient contrast you will help make your site more readable for everyone. <a href="http://leaverou.github.com/contrast-ratio/">Contrast Ratio</a> is one tool for checking the contrast of your colors for both standard vision and color deficient user.</p>
 
-	<fieldset>
-		<p>Test against different types of color blindness with a tool like <a href="http://colorfilter.wickline.org/">http://colorfilter.wickline.org/</a>.</p>
-		<p>If you are on a Mac, another option is <a href="http://michelf.ca/projects/sim-daltonism/">Michel Fortin's, Sim Daltonism</a> color blindness simulator.</p>
-
+		<legend>Test for different types of color blindness.</legend>
 		<label for="deuteranopia" class="checkbox">Deuteranopia
 			<input name="deuteranopia" id="deuteranopia" type="checkbox">
 		</label>
@@ -190,6 +187,7 @@ description: A beginner's guide to web accessibility
 		<label for="tritanopia" class="checkbox">Tritanopia
 			<input name="tritanopia" id="tritanopia" type="checkbox">
 		</label>
+		<p class="description">Test against different types of color blindness with a tool like <a href="http://colorfilter.wickline.org/">http://colorfilter.wickline.org/</a>. If you are on a Mac, another option is <a href="http://michelf.ca/projects/sim-daltonism/">Michel Fortin's, Sim Daltonism</a> color blindness simulator.</p>
 	</fieldset>
 
 	<!-- Testing -->
