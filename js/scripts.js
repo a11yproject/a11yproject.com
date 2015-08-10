@@ -19,8 +19,7 @@ $(document).ready(function(){
         if($('.toc').length) {
           // if we have a toc, add a body class
           $('body').addClass('has-toc');
-          // add active class to first item
-          $('.toc li:first a').addClass('active');
+
           function toc_class(direction, element) {
             // remove the active class from all of them
             $('.toc a').removeClass('active');
@@ -43,10 +42,25 @@ $(document).ready(function(){
                   // pass it to our function to keep things cleaner in here
                   toc_class(direction, id);
                 },
+                group: 'toc-group',
                 offset: '20%' // this offset 'feels' right
               });
             }
           );
+
+          // add sticky sidebar
+          var sticky_waypoint = new Waypoint({
+            element: $('.toc-wrap'),
+            handler: function(direction) {
+              // pass it to our function to keep things cleaner in here
+              if(direction == 'down') {
+                $('.toc-wrap').addClass('stick');
+              } else {
+                $('.toc-wrap').removeClass('stick');
+              }
+            },
+            offset: '10px'
+          });
         }
       }, // toc
 

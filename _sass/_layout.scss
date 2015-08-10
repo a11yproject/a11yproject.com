@@ -39,25 +39,27 @@ $mobile: 24em;
             z-index: 2;
         }
 
-        .hero {
-            box-shadow: 0 40px 40px 0 #fff; // a little fade-in for the homepage
-        }
-
         .post {
             // widen it up to make room
-            min-width: $desktop;
+            max-width: ($tablet+11em);
         }
 
         .toc-wrap {
             width: 8em;
-            position: fixed;
-            top: 2em;
+            position: relative;
+            float: left;
+            top: 1em;
             z-index: 1;
+
+            &.stick {
+                position: fixed;
+            }
 
 
             .toc-title {
                 text-align: right;
-                font-size: .8rem;
+                font-size: .9rem;
+                padding-right: .5rem;
                 color: lighten($body_font, 20%);
             }
 
@@ -77,7 +79,7 @@ $mobile: 24em;
 
                 &.active {
                     font-size: 1.33em;
-                    color: darken($link, 25%);
+                    color: darken($link, 15%);
                     right: -.3rem;
                 }
             }
@@ -85,10 +87,14 @@ $mobile: 24em;
         }
 
         .archive-section {
-            max-width: ($tablet+10em);
-            padding-left: 10em;
-            margin-right: auto;
-            margin-left: auto;
+            width: $tablet;
+            float: right;
+
+            &:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
         }
     }
 }
