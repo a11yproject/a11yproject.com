@@ -114,6 +114,11 @@ em {
         color: lighten($body_font, 20%);
     }
 
+    .page-header+p,
+    .page-header+blockquote {
+        font-size: 1.2em;
+    }
+
     .button-edit {
         background: $grayLighter;
         padding: 0.1em 0.5em;
