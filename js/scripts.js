@@ -34,7 +34,7 @@ $(document).ready(function(){
             }
           }
 
-          $('.archive-section').each( function() {
+          $('.waypoint-section').each( function() {
               var id = $(this).attr('id');
               var waypoint = new Waypoint({
                 element: $('#'+id),

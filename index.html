@@ -2,7 +2,7 @@
 layout: archives
 description: A community-driven effort to make web accessibility easier.
 ---
-<div class="toc-wrap">
+<section class="toc-wrap">
   <h3 class="toc-title">Categories</h3>
   <ul class="toc">
     {% for category in site.categories %}
@@ -12,14 +12,14 @@ description: A community-driven effort to make web accessibility easier.
 
     {% endfor %}
   </ul>
-</div>
+</section>
 
 {% for category in site.categories %}
 
   {% assign title = category.first %}
   {% assign posts = category.last %}
 
-  <section id="{{ title | capitalize | replace:' ','-' }}" class="archive-section">
+  <section id="{{ title | capitalize | replace:' ','-' }}" class="archive-section waypoint-section">
 
 
     <h2 class="category-title">{{ title | capitalize }}</h2>

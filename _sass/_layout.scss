@@ -59,7 +59,6 @@ $mobile: 24em;
             .toc-title {
                 text-align: right;
                 font-size: .9rem;
-                padding-right: .5rem;
                 color: lighten($body_font, 20%);
             }
 
@@ -70,7 +69,7 @@ $mobile: 24em;
             }
 
             a {
-                padding: .5rem;
+                padding: .5rem 0;
                 font-size: 1em;
                 text-decoration: none;
                 transition: all .2s;
@@ -83,17 +82,43 @@ $mobile: 24em;
                     right: -.3rem;
                 }
             }
+        }
+
+        .toc-long {
+            text-align: left;
+            width: 10em;
+            border-right: 1px solid #ddd;
+
+            .toc-title,
+            .toc {
+                text-align: left;
+            }
+
+            a.active {
+                font-size: 1.2em;
+                right: 0;
+            }
 
         }
 
-        .archive-section {
+        .waypoint-section {
             width: $tablet;
             float: right;
+            padding-top: 2em;
+            padding-bottom: 2em;
 
             &:after {
                 content: "";
                 display: table;
                 clear: both;
+            }
+        }
+
+        .resources-section {
+            width: ($tablet - 1.5);
+
+            &:last-of-type {
+                margin-bottom: 4em;
             }
         }
     }
