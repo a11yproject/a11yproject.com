@@ -20,19 +20,12 @@ $(document).ready(function(){
           // if we have a toc, add a body class
           $('body').addClass('has-toc');
 
-          function toc_class(direction, element) {
-            // remove the active class from all of them
-            $('.toc a').removeClass('active');
+          // mobile accordion
+          $('.category-title').click(function() {
+            $(this).next('.excerpt-list').toggleClass('visible');
+          });
 
-            if(direction == 'down') {
-              // we're arriving here from above it. Add active to this element
-              $('.toc a.'+element).addClass('active');
-            } else {
-              // when we hit the top of the element while scrolling up, we're actually
-              // arriving at the one before it, so let's make that one active instead.
-              $('.toc a.'+element).parent().prev('li').find('a').addClass('active');
-            }
-          }
+          // desktop waypoint
 
           $('.waypoint-section').each( function() {
               var id = $(this).attr('id');
@@ -47,6 +40,20 @@ $(document).ready(function(){
               });
             }
           );
+
+          function toc_class(direction, element) {
+            // remove the active class from all of them
+            $('.toc a').removeClass('active');
+
+            if(direction == 'down') {
+              // we're arriving here from above it. Add active to this element
+              $('.toc a.'+element).addClass('active');
+            } else {
+              // when we hit the top of the element while scrolling up, we're actually
+              // arriving at the one before it, so let's make that one active instead.
+              $('.toc a.'+element).parent().prev('li').find('a').addClass('active');
+            }
+          }
 
           // add sticky sidebar
           var sticky_waypoint = new Waypoint({
