@@ -33,9 +33,8 @@ $mobile: 24em;
     // override a bunch of code in the desktop version with a min-width query
     @media (max-width: $desktop+4.99em) {
         // hide all text like screen reader text so it's still usable for screen readers
-        .toc-title,
-        .toc li {
-            @include screen-reader-text;
+        .toc-wrap {
+            display: none;
         }
 
         .accordion-section {

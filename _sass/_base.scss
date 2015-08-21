@@ -28,37 +28,7 @@
     }
 }
 
-// yeah, I wish this could be a placeholder, too
-@mixin screen-reader-text {
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    position: absolute;
-    height: 1px;
-    width: 1px;
 
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: #f1f1f1;
-        border-radius: 3px;
-        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-        clip: auto !important;
-        color: #21759b;
-        display: block;
-        font-size: 14px;
-        font-weight: bold;
-        height: auto;
-        left: 5px;
-        line-height: normal;
-        padding: 15px 23px 14px;
-        text-decoration: none;
-        top: 5px;
-        width: auto;
-        z-index: 100000;
-    }
-}
-
-%screen-reader-text,
 .screen-reader-text {
     clip: rect(0 0 0 0);
     overflow: hidden;
