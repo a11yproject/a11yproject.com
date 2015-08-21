@@ -21,14 +21,25 @@ $(document).ready(function(){
           $('body').addClass('has-toc');
 
           // mobile accordion
-          $('.category-title').click(function() {
-            $(this).next('.excerpt-list').toggleClass('visible');
+          $(document).on('click', '.accordion-section__title', function() {
+            $(this).next('.accordion-section__content').toggleClass('visible');
           });
 
           // desktop waypoint
 
-          $('.waypoint-section').each( function() {
+          $('.article-section').each( function() {
+              // waypoint classes that need to be added
+              $(this).addClass('waypoint-section');
+
+              // accordion classes that need to be added
+              $(this).addClass('accordion-section');
+              $('.article-section__title', this).addClass('accordion-section__title');
+              $('.article-section__content', this).addClass('accordion-section__content');
+
+              // get the ID of the section
               var id = $(this).attr('id');
+
+              // Create the waypoint
               var waypoint = new Waypoint({
                 element: $('#'+id),
                 handler: function(direction) {

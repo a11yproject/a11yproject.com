@@ -21,7 +21,7 @@ $mobile: 24em;
     max-width: $tablet;
 }
 
-.archive-section {
+.article-section {
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -38,24 +38,32 @@ $mobile: 24em;
             @include screen-reader-text;
         }
 
-        .archive-section {
+        .accordion-section {
             padding: 0;
+
+            &:first-of-type {
+                .accordion-section__title {
+                    margin-top: 0; // giving the top margin instead of bottom to help content padding animation feel smoother
+                }
+            }
         }
 
-        .category-title {
+        .accordion-section__title {
             font-size: 1.6em;
-            padding: 1rem;
-            background: $header_bg;
-            border-bottom: 2px solid darken($header_bg, 10%);
+            padding: 1rem 1.2rem;
+            margin: .6em 0 0;
+            background: $accordion_bg;
+            border-bottom: 2px solid darken($accordion_bg, 12.5%);
             cursor: pointer; // this shouldn't even come into play on tablets anyways... but...
+
         }
 
-        .excerpt-list {
+        .accordion-section__content {
             position: absolute;
             clip: rect(0 0 0 0);
             height: 1px;
             overflow: hidden;
-            padding: 0 1rem;
+            padding: 0 1.2rem;
             margin: 0;
             transition: all .4s;
 
@@ -63,7 +71,7 @@ $mobile: 24em;
                 position: relative;
                 clip: auto;
                 height: auto;
-                padding: 1em 1rem 2em; //animating padding makes it feel a little like a ease in with out doing a max-height animation hack
+                padding: 1em 1.2rem 1.6em; //animating padding makes it feel a little like a ease in with out doing a max-height animation hack
             }
         }
 
@@ -169,10 +177,10 @@ $mobile: 24em;
 
 .excerpt-list {
     @extend %no-list-style;
+}
 
-    .excerpt-heading {
-        margin-bottom: .2em;
-    }
+.excerpt-list__title {
+    margin-bottom: .2em;
 }
 
 .related-posts {

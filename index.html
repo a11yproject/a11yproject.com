@@ -19,15 +19,15 @@ description: A community-driven effort to make web accessibility easier.
   {% assign title = category.first %}
   {% assign posts = category.last %}
 
-  <section id="{{ title | capitalize | replace:' ','-' }}" class="archive-section waypoint-section">
+  <section id="{{ title | capitalize | replace:' ','-' }}" class="article-section archive-section">
 
 
-    <h2 class="category-title">{{ title | capitalize }}</h2>
-    <ul class="excerpt-list">
+    <h2 class="article-section__title">{{ title | capitalize }}</h2>
+    <ul class="article-section__content excerpt-list">
     {% for post in posts %}
-      <li class="excerpt">
-        <h4 class="excerpt-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        {% if post.description %}<p class="excerpt-paragraph">{{ post.description }}</p>{% endif %}
+      <li>
+        <h4 class="excerpt-list__title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
     {% endfor %}
   </section>
 
