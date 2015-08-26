@@ -1,0 +1,242 @@
+$desktop: 48em;
+$tablet: 34em;
+$mobile: 24em;
+
+%section,
+.section {
+    padding: 2em 20px;
+}
+
+%row,
+.row {
+    max-width: $desktop;
+    margin-left: auto;
+    margin-right: auto;
+    @extend %clearfix;
+}
+
+%row-narrow,
+.row-narrow {
+    @extend %row;
+    max-width: $tablet;
+}
+
+.article-section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+// ARCHIVE TABLE OF CONTENTS
+.has-toc { // this class is added via js so we don't make layout changes that won't make sense to non-js users
+    // Everything UP TO our desktop view
+    // The views are so dramatically different, we don't want to have to
+    // override a bunch of code in the desktop version with a min-width query
+    @media (max-width: $desktop+4.99em) {
+        // hide all text like screen reader text so it's still usable for screen readers
+        .toc-wrap {
+            display: none;
+        }
+
+        .accordion-section {
+            padding: 0;
+
+            &:first-of-type {
+                .accordion-section__title {
+                    margin-top: 0; // giving the top margin instead of bottom to help content padding animation feel smoother
+                }
+            }
+        }
+
+        .accordion-section__title {
+            font-size: 1.6em;
+            padding: 1rem 1.2rem;
+            margin: .6em 0 0;
+            background: $accordion_bg;
+            border-bottom: 2px solid darken($accordion_bg, 12.5%);
+            cursor: pointer; // this shouldn't even come into play on tablets anyways... but...
+
+        }
+
+        .accordion-section__content {
+            position: absolute;
+            clip: rect(0 0 0 0);
+            height: 1px;
+            overflow: hidden;
+            padding: 0 1.2rem;
+            margin: 0;
+            transition: all .4s;
+
+            &.visible {
+                position: relative;
+                clip: auto;
+                height: auto;
+                padding: 1em 1.2rem 1.6em; //animating padding makes it feel a little like a ease in with out doing a max-height animation hack
+            }
+        }
+
+    }
+
+    // desktop view with waypoints sidebar
+    @media (min-width: ($desktop+5em) ) {
+
+        // add relative positioning and z indexes to hide the .toc behind them
+
+        .banner,
+        .footer,
+        .hero {
+            position: relative;
+            z-index: 2;
+        }
+
+        .post {
+            // widen it up to make room
+            max-width: ($tablet+11em);
+        }
+
+        .toc-wrap {
+            width: 8em;
+            position: relative;
+            float: left;
+            top: 1em;
+            z-index: 1;
+
+            &.stick {
+                position: fixed;
+            }
+
+
+            .toc-title {
+                text-align: right;
+                font-size: .9rem;
+                color: lighten($body_font, 20%);
+            }
+
+            .toc {
+                list-style: none;
+                padding-left: 0;
+                text-align: right;
+            }
+
+            a {
+                padding: .5rem 0;
+                font-size: 1em;
+                text-decoration: none;
+                transition: all .2s;
+                position: relative;
+                right: 0;
+
+                &.active {
+                    font-size: 1.33em;
+                    color: darken($link, 15%);
+                    right: -.3rem;
+                }
+            }
+        }
+
+        .toc-long {
+            text-align: left;
+            width: 10em;
+            border-right: 1px solid #ddd;
+
+            .toc-title,
+            .toc {
+                text-align: left;
+            }
+
+            a.active {
+                font-size: 1.2em;
+                right: 0;
+            }
+
+        }
+
+        .waypoint-section {
+            width: $tablet;
+            float: right;
+            padding-top: 2em;
+            padding-bottom: 2em;
+
+            &:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        }
+
+        .resources-section {
+            width: ($tablet - 1.5);
+
+            &:last-of-type {
+                margin-bottom: 4em;
+            }
+        }
+    }
+}
+
+
+.excerpt-list {
+    @extend %no-list-style;
+}
+
+.excerpt-list__title {
+    margin-bottom: .2em;
+}
+
+.related-posts {
+    margin-top: 4em;
+    padding-top: 3em;
+    border-top: 1px solid #ddd;
+
+    h3, ul {
+        @extend %row-narrow;
+    }
+}
+
+#content {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+.checklist {
+
+    ul {
+        list-style: none
+    }
+
+    p.description {
+        padding-left: 1.33rem;
+        font-size: smaller;
+        color: lighten($body_font, 15%);
+    }
+
+    fieldset {
+        margin-bottom: 2em;
+    }
+
+    legend {
+        font-size: 1.33em;
+    }
+
+    label {
+        display: block;
+        padding-left: 1.33rem;
+        position: relative;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: 1.6em;
+        height: 1.6em;
+        position: absolute;
+        top: .65em;
+        left: -.3em;
+    }
+
+
+
+}

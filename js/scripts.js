@@ -10,9 +10,150 @@ $(document).ready(function(){
 
   $('form').garlic(); // persistent checkboxes for checklist section
 
+
+  function addAccordionSemantics(element, tabindex) {
+
+    var articleID = $(element).attr('id');
+
+    $(element).addClass('accordion-section');
+    $('.article-section__title', element)
+      .addClass('accordion-section__title')
+      .attr('tabindex', tabindex)
+      .attr('role','tab')
+      .attr('aria-controls', articleID+'-content')
+      .attr('id', articleID+'-title');
+    $('.article-section__content', element)
+      .addClass('accordion-section__content')
+      .attr('id', articleID+'-content')
+      .attr('aria-labeledby', articleID+'-title')
+      .attr('role', 'tabpanel');
+  }
+
+  function removeAccordionSemantics(element) {
+    $(element).removeClass('accordion-section');
+    $('.article-section__title', element)
+      .removeClass('accordion-section__title')
+      .attr('tabindex','')
+      .attr('role','')
+      .attr('aria-controls', '')
+      .attr('id', '');
+    $('.article-section__content', element)
+      .removeClass('accordion-section__content')
+      .attr('id', '')
+      .attr('aria-labeledby', '')
+      .attr('role', '');
+  }
+
+  function toc_class(direction, element) {
+    // remove the active class from all of them
+    $('.toc a').removeClass('active');
+
+    if(direction == 'down') {
+      // we're arriving here from above it. Add active to this element
+      $('.toc a.'+element).addClass('active');
+    } else {
+      // when we hit the top of the element while scrolling up, we're actually
+      // arriving at the one before it, so let's make that one active instead.
+      $('.toc a.'+element).parent().prev('li').find('a').addClass('active');
+    }
+  }
+
+
+  function tocPageSemantics() {
+    // get window width in EMs
+    var windowWidth = $(window).width() / parseFloat($("html").css("font-size"));
+
+    if(windowWidth < 55) { // accordion view
+      var tabindex;
+
+      $('.article-section').each( function(i, element) {
+        if(i === 0) {
+          tabindex = 0;
+        } else {
+          tabindex = -1;
+        }
+        // accordion classes & attributes
+        addAccordionSemantics(element, tabindex);
+      });
+
+      // mobile accordion
+      $(document).on('click', '.accordion-section__title', function() {
+        $(this).next('.accordion-section__content').toggleClass('visible');
+      });
+
+    } else { // desktop view
+
+      $('.article-section').each( function(i, element) {
+        // remove all accordion semantics
+        removeAccordionSemantics(element);
+
+        // waypoint classes that need to be added
+        $(this).addClass('waypoint-section');
+
+        // get the ID of the section
+        var id = $(this).attr('id');
+
+        // Create the waypoint
+        var waypoint = new Waypoint({
+          element: $('#'+id),
+          handler: function(direction) {
+            // pass it to our function to keep things cleaner in here
+            toc_class(direction, id);
+          },
+          group: 'toc-group',
+          offset: '20%' // this offset 'feels' right
+        });
+
+      }); // article-section each
+
+    }// if windowWidth < 55
+
+  } // addAccordionSemantics
+
+
+  // Resize delay
+  var fireResize;
+
+  window.addEventListener('resize', function(event){
+      clearTimeout(fireResize);
+      // what to do when the resize is finished - fire our resizeWindow function
+      fireResize = setTimeout(tocPageSemantics, 300);
+  });
+
+
   var Engine = {
 
     ui : {
+
+      toc : function(){
+
+        // had to move this function outside of the if($('.toc').length) statement bc I was getting this error:
+        // [Error] SyntaxError: Strict mode does not allow function declarations in a lexically nested statement.
+        // (anonymous function) (scripts.js, line 30)
+
+        if($('.toc').length) {
+          // if we have a toc, add a body class
+          $('body').addClass('has-toc');
+
+          // add the accordion / waypoints semantics
+          tocPageSemantics();
+
+
+          // add sticky sidebar
+          var sticky_waypoint = new Waypoint({
+            element: $('.toc-wrap'),
+            handler: function(direction) {
+              // pass it to our function to keep things cleaner in here
+              if(direction == 'down') {
+                $('.toc-wrap').addClass('stick');
+              } else {
+                $('.toc-wrap').removeClass('stick');
+              }
+            },
+            offset: '10px'
+          });
+        }
+      }, // toc
 
       footerContributors : function(){
         function gitHubContributors(){
@@ -245,23 +386,12 @@ $(document).ready(function(){
         $('.a11y-copyright').text(new Date().getFullYear())
       }, // footerCopyright
 
-      toc : function(){
-        var toc = $('#toc');
-
-        if(toc.length) {
-          toc.prepend('<li class="nav-header">Archive Categories</li>');
-          $('.category-title').each(function(){
-            toc.append('<li><a href=#'+this.id+'>'+$(this).text()+'</a>');
-          });
-        }
-      } // toc
-
     } // ui
 
   } // Engine
 
+  Engine.ui.toc();
   Engine.ui.footerContributors();
   Engine.ui.footerCopyright();
-  Engine.ui.toc();
 
 });

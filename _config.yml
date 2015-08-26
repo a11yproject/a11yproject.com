@@ -8,7 +8,7 @@ markdown: kramdown
 # configuration required for some pages
 
 domain: a11yproject.com
-title: The Accessibility Project
+title: The A11Y Project
 author: Dave Rupert
 email: dave@paravelinc.com
 
