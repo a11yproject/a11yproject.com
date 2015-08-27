@@ -134,9 +134,14 @@ $mobile: 24em;
         }
 
         .toc-long {
-            text-align: left;
             width: 10em;
-            border-right: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            float: right;
+            padding: 0 0 0 1em;
+
+            &.stick {
+                margin-left: 35em;
+            }
 
             .toc-title,
             .toc {
@@ -152,7 +157,6 @@ $mobile: 24em;
 
         .waypoint-section {
             width: $tablet;
-            float: right;
             padding-top: 2em;
             padding-bottom: 2em;
 
@@ -161,14 +165,15 @@ $mobile: 24em;
                 display: table;
                 clear: both;
             }
+
+            &.archive-section {
+                float: right;
+            }
+
         }
 
         .resources-section {
             width: ($tablet - 1.5);
-
-            &:last-of-type {
-                margin-bottom: 4em;
-            }
         }
     }
 }
