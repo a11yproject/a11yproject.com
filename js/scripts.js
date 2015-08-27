@@ -18,30 +18,33 @@ $(document).ready(function(){
     $(element).addClass('accordion-section');
     $('.article-section__title', element)
       .addClass('accordion-section__title')
-      .attr('tabindex', tabindex)
-      .attr('role','tab')
-      .attr('aria-controls', articleID+'-content')
-      .attr('id', articleID+'-title');
+      .attr({
+        'tabindex': tabindex,
+        'role':'tab',
+        'aria-controls': articleID+'-content',
+        'id': articleID+'-title',
+        'aria-selected': 'false',
+        'aria-expanded': 'false'
+      });
     $('.article-section__content', element)
       .addClass('accordion-section__content')
-      .attr('id', articleID+'-content')
-      .attr('aria-labeledby', articleID+'-title')
-      .attr('role', 'tabpanel');
+      .attr({
+        'id': articleID+'-content',
+        'aria-labeledby': articleID+'-title',
+        'role': 'tabpanel',
+        'tabindex': '0',
+        'aria-hidden': 'true'
+      });
   }
 
   function removeAccordionSemantics(element) {
     $(element).removeClass('accordion-section');
     $('.article-section__title', element)
       .removeClass('accordion-section__title')
-      .attr('tabindex','')
-      .attr('role','')
-      .attr('aria-controls', '')
-      .attr('id', '');
+      .removeAttr('tabindex role aria-controls id aria-selected aria-expanded');
     $('.article-section__content', element)
       .removeClass('accordion-section__content')
-      .attr('id', '')
-      .attr('aria-labeledby', '')
-      .attr('role', '');
+      .removeAttr('id aria-labeledby role tabindex aria-hidden');
   }
 
   function setupWaypoints(element) {
@@ -111,7 +114,25 @@ $(document).ready(function(){
 
       // bind click on mobile accordion
       $(document).on('click', '.accordion-section__title', function() {
-        $(this).next('.accordion-section__content').toggleClass('visible');
+        var accordion_title = $(this);
+        var accordion_content = $(this).next('.accordion-section__content');
+
+        if( accordion_content.hasClass('visible') ) {
+          // close the accordion and change attributes on title and content
+          accordion_title.attr({
+            'aria-selected': 'false',
+            'aria-expanded': 'false'
+          });
+          accordion_content.removeClass('visible').attr('aria-hidden', 'true');
+        } else {
+          // open the accordion and change title and content aria attributes & classes
+          accordion_title.attr({
+            'aria-selected': 'true',
+            'aria-expanded': 'true'
+          });
+          accordion_content.addClass('visible').attr('aria-hidden', 'false');
+
+        }
       });
 
     } else { // desktop view
