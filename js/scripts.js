@@ -47,7 +47,7 @@ $(document).ready(function(){
       .removeAttr('id aria-labeledby role tabindex aria-hidden');
   }
 
-  function setupWaypoints(element) {
+  function setupWaypoints(element, offset) {
     // waypoint classes that need to be added
     $(element).addClass('waypoint-section');
 
@@ -62,7 +62,7 @@ $(document).ready(function(){
         toc_class(direction, id);
       },
       group: 'toc-group',
-      offset: '20%' // this offset 'feels' right
+      offset: offset
     });
   }
 
@@ -141,8 +141,15 @@ $(document).ready(function(){
         // remove all accordion semantics
         removeAccordionSemantics(element);
 
+        // find out if we're on a short TOC or long TOC
+        var offset;
+        if($('.toc-wrap').hasClass('toc-long')) {
+          offset = '30%'; // larger offset for long TOC lists feels better
+        } else {
+          offset = '20%'; // this offset feels right for short TOC lists
+        }
         // add waypoints and waypoint classes
-        setupWaypoints(element);
+        setupWaypoints(element, offset);
 
       }); // article-section each
 
