@@ -44,6 +44,35 @@ $(document).ready(function(){
       .attr('role', '');
   }
 
+  function setupWaypoints(element) {
+    // waypoint classes that need to be added
+    $(element).addClass('waypoint-section');
+
+    // get the ID of the section
+    var id = $(element).attr('id');
+
+    // Create the waypoint
+    var waypoint = new Waypoint({
+      element: $('#'+id),
+      handler: function(direction) {
+        // pass it to our function to keep things cleaner in here
+        toc_class(direction, id);
+      },
+      group: 'toc-group',
+      offset: '20%' // this offset 'feels' right
+    });
+  }
+
+  function removeWaypoints(element) {
+    // waypoint classes that need to be added
+    $(element).removeClass('waypoint-section');
+
+    // get the ID of the section
+    var id = $(element).attr('id');
+    // destroys all active waypoints
+    Waypoint.destroyAll();
+  }
+
   function toc_class(direction, element) {
     // remove the active class from all of them
     $('.toc a').removeClass('active');
@@ -72,11 +101,15 @@ $(document).ready(function(){
         } else {
           tabindex = -1;
         }
+
+        // remove waypoints and waypoint semantics
+        removeWaypoints(element);
+
         // accordion classes & attributes
         addAccordionSemantics(element, tabindex);
       });
 
-      // mobile accordion
+      // bind click on mobile accordion
       $(document).on('click', '.accordion-section__title', function() {
         $(this).next('.accordion-section__content').toggleClass('visible');
       });
@@ -87,22 +120,8 @@ $(document).ready(function(){
         // remove all accordion semantics
         removeAccordionSemantics(element);
 
-        // waypoint classes that need to be added
-        $(this).addClass('waypoint-section');
-
-        // get the ID of the section
-        var id = $(this).attr('id');
-
-        // Create the waypoint
-        var waypoint = new Waypoint({
-          element: $('#'+id),
-          handler: function(direction) {
-            // pass it to our function to keep things cleaner in here
-            toc_class(direction, id);
-          },
-          group: 'toc-group',
-          offset: '20%' // this offset 'feels' right
-        });
+        // add waypoints and waypoint classes
+        setupWaypoints(element);
 
       }); // article-section each
 
