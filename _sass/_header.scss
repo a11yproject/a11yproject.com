@@ -14,11 +14,8 @@
 
         li {
             display: inline-block;
-            margin-right: 1.4em;
-        }
-
-        li:last-child {
-            margin-right: 0;
+            margin-left: 0.7em;
+            margin-right: 0.7em;
         }
 
         a {
@@ -54,16 +51,24 @@
 .hero {
     background: $hero;
     background: linear-gradient($hero, darken($hero, 8%));
-    padding: 4em 2em 5em;
     overflow: hidden;
     width: 120%;
-    margin: -3.1em 0 5em -10%;
+    padding: 4em 2em 4em;
+    margin: -3.1em 0 4em -10%;
+
+    @media (min-width: $tablet ) {
+        padding-bottom: 5em;
+        margin-bottom: 5em;
+    }
 
     .icon-logo-hero {
         width: 6.5em;
     }
 
     .a11y-title {
+        @media (max-width: $mobile) {
+            font-size: 2.2em;
+        }
         margin-bottom: 0;
     }
 
@@ -74,6 +79,10 @@
 
     .connect-with-a11y {
         margin-bottom: 0;
+
+        li {
+            margin: 0 .6em 1.6em;
+        }
 
         a {
             background: $link;
