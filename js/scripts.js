@@ -112,10 +112,14 @@ $(document).ready(function(){
         addAccordionSemantics(element, tabindex);
       });
 
+      // unbind the clicks to prevent multiple bindings
+      $(document).unbind('click');
+
       // bind click on mobile accordion
       $(document).on('click', '.accordion-section__title', function() {
         var accordion_title = $(this);
         var accordion_content = $(this).next('.accordion-section__content');
+        console.log('click');
 
         if( accordion_content.hasClass('visible') ) {
           // close the accordion and change attributes on title and content
@@ -131,7 +135,6 @@ $(document).ready(function(){
             'aria-expanded': 'true'
           });
           accordion_content.addClass('visible').attr('aria-hidden', 'false');
-
         }
       });
 
