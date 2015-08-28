@@ -95,7 +95,7 @@ $(document).ready(function(){
     // get window width in EMs
     var windowWidth = $(window).width() / parseFloat($("html").css("font-size"));
 
-    if(windowWidth < 55) { // accordion view
+    if(windowWidth < 53) { // accordion view
       var tabindex;
 
       $('.article-section').each( function(i, element) {
