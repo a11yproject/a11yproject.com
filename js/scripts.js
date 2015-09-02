@@ -209,7 +209,7 @@ $(document).ready(function(){
         function gitHubContributors(){
 
           var
-            howMany = 42,
+            howMany = 18,
             baseUrl = 'https://api.github.com/repos/a11yproject/a11yproject.com/contributors?per_page='+howMany+'&callback=?',
             $contributorsOutput = $("#contributors-list"),
             $paginationOutput = $(".contributors-pagination"),
@@ -228,7 +228,7 @@ $(document).ready(function(){
               $contributorsOutput.html("");
               var html = '';
               $(data).each(function(i, user){
-                html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
+                html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'&s=50" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
               });
               $contributorsOutput.html(html);
               localStorage.setItem("contribsHtml",html);
@@ -250,7 +250,7 @@ $(document).ready(function(){
                   var text = item[1].rel,
                       url = item[0],
                       html = "<li><a href="+url+" class='"+paginationClass+"'>"+text+"</a></li>";
-                      $output.append(html);
+                      $output.prepend(html);
                 });
 
                 _simplifyPager(); // cut down pager
