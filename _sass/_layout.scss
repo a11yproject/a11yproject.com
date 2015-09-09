@@ -47,6 +47,7 @@ $mobile: 24em;
         .post {
             // widen it up to make room
             max-width: ($tablet+11em);
+            position: relative;
         }
 
         .toc-wrap {
@@ -58,6 +59,12 @@ $mobile: 24em;
 
             &.stick {
                 position: fixed;
+            }
+
+            &.stick-footer {
+                position: absolute;
+                bottom: 0;
+                top: auto;
             }
 
 
@@ -105,7 +112,7 @@ $mobile: 24em;
             }
 
             a.active {
-                font-size: 1.2em;
+                font-size: 1.1em;
                 right: 0;
             }
 

@@ -10,7 +10,6 @@ $(document).ready(function(){
 
   $('form').garlic(); // persistent checkboxes for checklist section
 
-
   function setupWaypoints(element, offset) {
     // waypoint classes that need to be added
     $(element).addClass('waypoint-section');
@@ -114,7 +113,7 @@ $(document).ready(function(){
 
           // add sticky sidebar
           var sticky_waypoint = new Waypoint({
-            element: $('.toc-wrap'),
+            element: $('.post'),
             handler: function(direction) {
               // pass it to our function to keep things cleaner in here
               if(direction == 'down') {
@@ -124,6 +123,23 @@ $(document).ready(function(){
               }
             },
             offset: '10px'
+          });
+
+
+
+          var sticky_waypoint_footer = new Waypoint({
+            element: $('.footer'),
+            handler: function(direction) {
+              // pass it to our function to keep things cleaner in here
+              if(direction == 'down') {
+                $('.toc-wrap').addClass('stick-footer');
+              } else {
+                $('.toc-wrap').removeClass('stick-footer');
+              }
+            },
+            offset: function() {
+                    return this.element.outerHeight(true);
+                  }
           });
         }
       }, // toc
