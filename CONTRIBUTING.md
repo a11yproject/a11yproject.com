@@ -32,6 +32,13 @@ Here are some suggestions and tips on writing your article:
 - Short - Aim for a timed reading length of approximately two minutes.
 - Focused - Keep it digestible and to a single topic. Articles that span multiple areas and topics are better broken up.
 
+## Adding Resources
+
+Find a great resources that you think will be useful to others?
+
+- Add to the [resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/resources.html) page under the appropriate category.
+- Resources should be listed alphabetically.
+
 ## Reporting issues
 Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
 
