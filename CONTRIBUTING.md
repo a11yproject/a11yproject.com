@@ -34,9 +34,9 @@ Here are some suggestions and tips on writing your article:
 
 ## Adding Resources
 
-Find a great resources that you think will be useful to others?
+Find a great resource that you think will be useful to others?
 
-- Add to the [resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/resources.html) page under the appropriate category.
+- Add it to the [resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/resources.html) page under the appropriate category.
 - Resources should be listed alphabetically.
 
 ## Reporting issues
