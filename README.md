@@ -45,5 +45,4 @@ The following ``rake`` tasks are available and are used for testing the site loc
     rake check        # Check if site will run on Github pages
 
 **Local Server**
-
 Trigger the local server by executing the ``rake server`` task. Your local copy will now be accessible at `http://localhost:4000`.
