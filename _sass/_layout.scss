@@ -50,6 +50,10 @@ $mobile: 24em;
             position: relative;
         }
 
+        .post-content {
+            position: relative;
+        }
+
         .toc-wrap {
             width: 8em;
             position: relative;
@@ -99,11 +103,19 @@ $mobile: 24em;
         .toc-long {
             width: 10em;
             border-left: 1px solid #ddd;
-            float: right;
+            position: absolute;
+            left: 35em;
             padding: 0 0 0 1em;
+            top: 2em;
 
             &.stick {
+                top: 1em;
+                left: auto;
                 margin-left: 35em;
+            }
+
+            &.stick-footer {
+                top: auto;
             }
 
             .toc-title,

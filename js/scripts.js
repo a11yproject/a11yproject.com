@@ -111,9 +111,16 @@ $(document).ready(function(){
           tocPageSemantics();
 
 
-          // add sticky sidebar
+          if($('.post-content').length) {
+            var tocWrapElem = $('.post-content');
+            var tocOffset = '-10px';
+          } else {
+            var tocWrapElem = $('.post');
+            var tocOffset = '10px';
+          }
+
           var sticky_waypoint = new Waypoint({
-            element: $('.post'),
+            element: tocWrapElem,
             handler: function(direction) {
               // pass it to our function to keep things cleaner in here
               if(direction == 'down') {
@@ -122,7 +129,7 @@ $(document).ready(function(){
                 $('.toc-wrap').removeClass('stick');
               }
             },
-            offset: '10px'
+            offset: tocOffset
           });
 
 
