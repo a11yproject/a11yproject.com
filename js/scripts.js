@@ -10,43 +10,6 @@ $(document).ready(function(){
 
   $('form').garlic(); // persistent checkboxes for checklist section
 
-
-  function addAccordionSemantics(element, tabindex) {
-
-    var articleID = $(element).attr('id');
-
-    $(element).addClass('accordion-section');
-    $('.article-section__title', element)
-      .addClass('accordion-section__title')
-      .attr({
-        'tabindex': tabindex,
-        'role':'tab',
-        'aria-controls': articleID+'-content',
-        'id': articleID+'-title',
-        'aria-selected': 'false',
-        'aria-expanded': 'false'
-      });
-    $('.article-section__content', element)
-      .addClass('accordion-section__content')
-      .attr({
-        'id': articleID+'-content',
-        'aria-labeledby': articleID+'-title',
-        'role': 'tabpanel',
-        'tabindex': '0',
-        'aria-hidden': 'true'
-      });
-  }
-
-  function removeAccordionSemantics(element) {
-    $(element).removeClass('accordion-section');
-    $('.article-section__title', element)
-      .removeClass('accordion-section__title')
-      .removeAttr('tabindex role aria-controls id aria-selected aria-expanded');
-    $('.article-section__content', element)
-      .removeClass('accordion-section__content')
-      .removeAttr('id aria-labeledby role tabindex aria-hidden');
-  }
-
   function setupWaypoints(element, offset) {
     // waypoint classes that need to be added
     $(element).addClass('waypoint-section');
@@ -95,54 +58,13 @@ $(document).ready(function(){
     // get window width in EMs
     var windowWidth = $(window).width() / parseFloat($("html").css("font-size"));
 
-    if(windowWidth < 55) { // accordion view
-      var tabindex;
-
-      $('.article-section').each( function(i, element) {
-        if(i === 0) {
-          tabindex = 0;
-        } else {
-          tabindex = -1;
-        }
-
-        // remove waypoints and waypoint semantics
-        removeWaypoints(element);
-
-        // accordion classes & attributes
-        addAccordionSemantics(element, tabindex);
-      });
-
-      // unbind the clicks to prevent multiple bindings
-      $(document).unbind('click');
-
-      // bind click on mobile accordion
-      $(document).on('click', '.accordion-section__title', function() {
-        var accordion_title = $(this);
-        var accordion_content = $(this).next('.accordion-section__content');
-        console.log('click');
-
-        if( accordion_content.hasClass('visible') ) {
-          // close the accordion and change attributes on title and content
-          accordion_title.attr({
-            'aria-selected': 'false',
-            'aria-expanded': 'false'
-          });
-          accordion_content.removeClass('visible').attr('aria-hidden', 'true');
-        } else {
-          // open the accordion and change title and content aria attributes & classes
-          accordion_title.attr({
-            'aria-selected': 'true',
-            'aria-expanded': 'true'
-          });
-          accordion_content.addClass('visible').attr('aria-hidden', 'false');
-        }
-      });
+    if(windowWidth < 53) { // accordion view
+      // remove waypoints and waypoint semantics
+      removeWaypoints(element);
 
     } else { // desktop view
 
       $('.article-section').each( function(i, element) {
-        // remove all accordion semantics
-        removeAccordionSemantics(element);
 
         // find out if we're on a short TOC or long TOC
         var offset;
@@ -158,7 +80,7 @@ $(document).ready(function(){
 
     }// if windowWidth < 55
 
-  } // addAccordionSemantics
+  }
 
 
   // Resize delay
@@ -189,9 +111,16 @@ $(document).ready(function(){
           tocPageSemantics();
 
 
-          // add sticky sidebar
+          if($('.post-content').length) {
+            var tocWrapElem = $('.post-content');
+            var tocOffset = '-10px';
+          } else {
+            var tocWrapElem = $('.post');
+            var tocOffset = '10px';
+          }
+
           var sticky_waypoint = new Waypoint({
-            element: $('.toc-wrap'),
+            element: tocWrapElem,
             handler: function(direction) {
               // pass it to our function to keep things cleaner in here
               if(direction == 'down') {
@@ -200,7 +129,24 @@ $(document).ready(function(){
                 $('.toc-wrap').removeClass('stick');
               }
             },
-            offset: '10px'
+            offset: tocOffset
+          });
+
+
+
+          var sticky_waypoint_footer = new Waypoint({
+            element: $('.footer'),
+            handler: function(direction) {
+              // pass it to our function to keep things cleaner in here
+              if(direction == 'down') {
+                $('.toc-wrap').addClass('stick-footer');
+              } else {
+                $('.toc-wrap').removeClass('stick-footer');
+              }
+            },
+            offset: function() {
+                    return this.element.outerHeight(true);
+                  }
           });
         }
       }, // toc
