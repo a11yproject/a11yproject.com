@@ -16,7 +16,7 @@ ARIA (Assistive Rich Internet Applications), is a spec from the W3C and created 
 ARIA has no effect on how elements are displayed or behave in browsers. It does not add new functionality and is meant to act only as an extra descriptive layer for screen readers.
 
 ### Links
-* HTML5 ARIA spec -  <http://www.w3.org/html/wg/drafts/html/CR/dom.html#wai-aria>
+* HTML5 ARIA spec -  <http://www.w3.org/TR/aria-in-html/>
 * ARIA spec - <http://www.w3.org/WAI/PF/aria/>
 
 ## ARIA Attributes
