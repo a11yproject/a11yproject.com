@@ -14,7 +14,7 @@ Accessibility is often viewed as making your site work on screen readers. In rea
 
 Accessibility can be broken down into four key categories[^fn1].
 
-[^fn1]: [Simple Introduction to Web Accessibility](http://www.netmagazine.com/features/simple-introduction-web-accessibility) by Ian Hamilton (.net Magazine)
+[^fn1]: [Simple Introduction to Web Accessibility](http://www.creativebloq.com/netmag/simple-introduction-web-accessibility-7116888) by Ian Hamilton (.net Magazine)
 
 <table class="table table-striped table-bordered">
   <thead>
