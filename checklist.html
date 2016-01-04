@@ -34,6 +34,7 @@ description: A beginner's guide to web accessibility
 				<fieldset id="aria-roles">
 					<legend>Landmarks</legend>
 					<p>ARIA Landmark Roles are helpful landmarks that can be used by <abbr title="Assistive Technology">AT</abbr> to navigate a website.</p>
+					<p>Note: When you <a href="https://validator.w3.org/">validate html</a> using landmark roles, you'll receive a warning stating these roles are redundant.  In HTML5, several of the landmark roles are implicit via the native structural element which is supported by most modern <a href="http://stevefaulkner.github.io/html-mapping-tests/">desktop browsers</a> with the exception of IE and <a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks-example.html">iOS Safari</a>. So, if you support IE and iOS browsers, you'll want to use the landmark roles. For more information, read <a href="/posts/aria-landmark-roles/">Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping</a>.</p>
 					<!-- banner -->
 					<label for="banner-role" class="checkbox"><code>&lt;header role="banner"&gt;</code>
 						<input name="aria-banner-role" id="banner-role" type="checkbox">
@@ -77,11 +78,11 @@ description: A beginner's guide to web accessibility
 					<p>Contains information about the document (meta info, copyright, company info, etc).</p>
 
 					<!-- search -->
-					<label for="search-role" class="checkbox"><code>&lt;form role="search"&gt;</code>
+					<label for="search-role" class="checkbox"><code>&lt;div role="search"&gt;</code>
 						<input name="aria-search-role" id="search-role" type="checkbox">
 					</label>
 
-					<p>Add a `search` role to your primary search form.</p>
+					<p>Add a `search` role to your primary search (<a href="http://adrianroselli.com/2015/08/where-to-put-your-search-role.html">how to implement</a>).</p>
 				</fieldset>
 
 				<!-- Language -->
