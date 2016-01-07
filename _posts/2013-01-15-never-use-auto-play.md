@@ -45,4 +45,4 @@ We, as web developers, don't always have the luxury of making the business decis
 
 ## Further reading
 
-[Accessibility of animations and transitions from Microsoft](http://msdn.microsoft.com/en-us/library/windows/desktop/aa511285.aspx#accessibility)
+[Accessibility of animations and transitions from Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742481.aspx#accessibility)

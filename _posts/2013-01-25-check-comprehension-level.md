@@ -9,7 +9,7 @@ categories:
 
 **Estimated time:** 3 minutes
 
-Cognitive disabilities affect more than 6% of the population. People with cognitive disabilites often struggle with reading text on the internet. When writing content, it is important to identify your target audience and write accordingly. If you don't know who your target audience is, target your content towards a reader between the ages of 12 and 15 years old.
+Cognitive disabilities affect more than 6% of the population. People with cognitive disabilities often struggle with reading text on the internet. When writing content, it is important to identify your target audience and write accordingly. If you don't know who your target audience is, target your content towards a reader between the ages of 12 and 15 years old.
 
 Here are some tools to test your content:
 

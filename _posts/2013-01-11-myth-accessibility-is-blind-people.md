@@ -10,11 +10,11 @@ categories:
 
 Accessibility is often viewed as making your site work on screen readers. In reality, web accessibility is a subset of <abbr title="User Experience">UX</abbr> focused on making your websites usable by the widest range of people possible, including those who have disabilities.
 
-### Four Categories of Accessibilitiy
+### Four Categories of Accessibility
 
 Accessibility can be broken down into four key categories[^fn1].
 
-[^fn1]: [Simple Introduction to Web Accessibility](http://www.netmagazine.com/features/simple-introduction-web-accessibility) by Ian Hamilton (.net Magazine)
+[^fn1]: [Simple Introduction to Web Accessibility](http://www.creativebloq.com/netmag/simple-introduction-web-accessibility-7116888) by Ian Hamilton (.net Magazine)
 
 <table class="table table-striped table-bordered">
   <thead>
