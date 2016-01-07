@@ -2,22 +2,33 @@
 layout: archives
 description: A community-driven effort to make web accessibility easier.
 ---
-{% for category in site.categories %}
+<section class="toc-wrap">
+  <h3 class="toc-title">Categories</h3>
+  <ul class="toc">
+    {% for category in site.categories %}
+      {% assign title = category.first %}
 
-  {% unless forloop.first %}<hr/>{% endunless %}
+      <li><a class="{{ title | capitalize | replace:' ','-' }}" href="#{{ title | capitalize | replace:' ','-' }}">{{ title | capitalize }}</a></li>
+
+    {% endfor %}
+  </ul>
+</section>
+
+{% for category in site.categories %}
 
   {% assign title = category.first %}
   {% assign posts = category.last %}
 
-  <h2 id="{{ title | capitalize | replace:' ','-' }}" class="category-title">{{ title | capitalize }}</h2>
+  <section id="{{ title | capitalize | replace:' ','-' }}" class="article-section archive-section" tabindex="0">
 
-  {% for post in posts %}
-    <div class="media">
-      <div class="media-body">
-        <h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+
+    <h2 class="article-section__title">{{ title | capitalize }}</h2>
+    <ul class="article-section__content excerpt-list">
+    {% for post in posts %}
+      <li>
+        <h4 class="excerpt-list__title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
         {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-      </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </section>
 
 {% endfor %}

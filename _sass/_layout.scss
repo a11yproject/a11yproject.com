@@ -1,0 +1,222 @@
+$desktop: 48em;
+$tablet: 34em;
+$mobile: 24em;
+
+%section,
+.section {
+    padding: 2em 20px;
+}
+
+%row,
+.row {
+    max-width: $desktop;
+    margin-left: auto;
+    margin-right: auto;
+    @extend %clearfix;
+}
+
+%row-narrow,
+.row-narrow {
+    @extend %row;
+    max-width: $tablet;
+}
+
+.article-section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+// ARCHIVE TABLE OF CONTENTS
+.has-toc { // this class is added via js so we don't make layout changes that won't make sense to non-js users
+    // Everything UP TO our desktop view
+    // The views are so dramatically different, we don't want to have to
+    // override a bunch of code in the desktop version with a min-width query
+
+    // desktop view with waypoints sidebar
+    @media (min-width: ($desktop+5em) ) {
+
+        // add relative positioning and z indexes to hide the .toc behind them
+
+        .banner,
+        .footer,
+        .hero {
+            position: relative;
+            z-index: 2;
+        }
+
+        .post {
+            // widen it up to make room
+            max-width: ($tablet+11em);
+            position: relative;
+        }
+
+        .post-content {
+            position: relative;
+        }
+
+        .toc-wrap {
+            width: 8em;
+            position: relative;
+            float: left;
+            top: 1em;
+            z-index: 1;
+
+            &.stick {
+                position: fixed;
+            }
+
+            &.stick-footer {
+                position: absolute;
+                bottom: 0;
+                top: auto;
+            }
+
+
+            .toc-title {
+                text-align: right;
+                font-size: .9rem;
+                color: lighten($body_font, 20%);
+            }
+
+            .toc {
+                list-style: none;
+                padding-left: 0;
+                text-align: right;
+            }
+
+            a {
+                padding: .5rem 0;
+                font-size: 1em;
+                text-decoration: none;
+                transition: all .2s;
+                position: relative;
+                right: 0;
+
+                &.active {
+                    font-size: 1.33em;
+                    color: darken($link, 15%);
+                    right: -.3rem;
+                }
+            }
+        }
+
+        .toc-long {
+            width: 10em;
+            border-left: 1px solid #ddd;
+            position: absolute;
+            left: 35em;
+            padding: 0 0 0 1em;
+            top: 2em;
+
+            &.stick {
+                top: 1em;
+                left: auto;
+                margin-left: 35em;
+            }
+
+            &.stick-footer {
+                top: auto;
+            }
+
+            .toc-title,
+            .toc {
+                text-align: left;
+            }
+
+            a.active {
+                font-size: 1.1em;
+                right: 0;
+            }
+
+        }
+
+        .waypoint-section {
+            width: $tablet;
+            padding-top: 2em;
+            padding-bottom: 2em;
+
+            &:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            &.archive-section {
+                float: right;
+            }
+
+        }
+
+        .resources-section {
+            width: ($tablet - 1.5);
+        }
+    }
+}
+
+
+.excerpt-list {
+    @extend %no-list-style;
+}
+
+.excerpt-list__title {
+    margin-bottom: .2em;
+}
+
+.related-posts {
+    margin-top: 4em;
+    padding-top: 3em;
+    border-top: 1px solid #ddd;
+
+    h3, ul {
+        @extend %row-narrow;
+    }
+}
+
+#content {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+
+.checklist {
+
+    ul {
+        list-style: none
+    }
+
+    p.description {
+        padding-left: 1.33rem;
+        font-size: smaller;
+        color: lighten($body_font, 15%);
+    }
+
+    fieldset {
+        margin-bottom: 2em;
+    }
+
+    legend {
+        font-size: 1.33em;
+    }
+
+    label {
+        display: block;
+        padding-left: 1.33rem;
+        position: relative;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: 1.6em;
+        height: 1.6em;
+        position: absolute;
+        top: .65em;
+        left: -.3em;
+    }
+
+
+
+}
