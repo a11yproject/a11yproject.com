@@ -1,7 +1,11 @@
 .banner {
     background: $header_bg;
-    padding: 1em 2em .4em;
+    padding: 1em 0em .4em;
     border-bottom: 1px solid darken($header_bg, 8%);
+
+    @media (min-width: $tablet) {
+        padding: 1em 2em .4em;
+    }
 
     .nav {
         @extend %no-list-style;
@@ -14,8 +18,15 @@
 
         li {
             display: inline-block;
-            margin-left: 0.7em;
-            margin-right: 0.7em;
+            margin-right: 1.1em;
+
+            @media (min-width: $tablet) {
+                margin-right: 1.4em;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
         }
 
         a {
@@ -94,4 +105,3 @@
         }
     }
 }
-
