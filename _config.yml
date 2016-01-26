@@ -1,7 +1,6 @@
 # standard jekyll configuration
 
 permalink: /posts/:title
-highlighter: pygments
 exclude: ['Rakefile', 'README.md', 'config.rb']
 markdown: kramdown
 
