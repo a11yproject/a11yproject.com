@@ -1,0 +1,112 @@
+.footer {
+    background: $footer_bg;
+    background: linear-gradient(darken($footer_bg, 3%), $footer_bg 25%);
+    padding-top: 4em;
+
+    .colophon {
+        margin-top: .5em;
+    }
+
+    @media (min-width: $desktop) {
+        .join-us,
+        .colophon {
+            float: left;
+        }
+
+        .join-us {
+            width: 68%;
+            margin-right: 3%;
+            margin-bottom: 0;
+        }
+
+        .colophon {
+            width: 29%;
+        }
+    }
+
+    #google_translate_element {
+        margin-bottom: 1.4em;
+    }
+}
+
+.join-us {
+    margin-bottom: 3em;
+
+    .join-us-title {
+        @media (min-width: $desktop) {
+            font-size: 1.2em;
+        }
+        margin: 0 .8em .4em 0;
+        display: inline-block;
+    }
+
+    .join-us-buttons {
+        margin-top: -.1em;
+        display: inline-block;
+
+        li {
+            margin-right: .8em;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .github-data {
+        margin-bottom: .4em;
+
+        a {
+            text-decoration: none;
+
+            @media (min-width: $desktop) {
+                font-size: .8em;
+            }
+        }
+
+        .data {
+            background: $link;
+            color: #fff;
+            padding: .1em .3em;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+    }
+
+
+    #contributors-list {
+        @extend %no-list-style;
+        margin-bottom: 0;
+
+        li {
+            float: left;
+            line-height: 0;
+            padding: 0;
+            margin: 0 .6em .6em 0;
+        }
+
+        .contributor-avatar {
+            display: block;
+            margin: 0 auto;
+            height: 50px;
+            width: 50px;
+        }
+
+    }
+
+    .contributors-pagination {
+
+        a {
+            font-size: .8em;
+            padding: .4em .8em;
+            background: rgba(0,0,0,.2);
+            text-decoration: none;
+            color: $body_font;
+            border-radius: 5px;
+
+            &:hover {
+                background: rgba(0,0,0,.3);
+            }
+        }
+    }
+}

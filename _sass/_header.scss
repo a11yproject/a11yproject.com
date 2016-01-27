@@ -1,0 +1,107 @@
+.banner {
+    background: $header_bg;
+    padding: 1em 0em .4em;
+    border-bottom: 1px solid darken($header_bg, 8%);
+
+    @media (min-width: $tablet) {
+        padding: 1em 2em .4em;
+    }
+
+    .nav {
+        @extend %no-list-style;
+        margin-bottom: 0;
+        text-align: center;
+
+        @media (min-width: $desktop) {
+            text-align: right;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 1.1em;
+
+            @media (min-width: $tablet) {
+                margin-right: 1.4em;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .logo {
+            font-size: 1.4em;
+            display: block;
+            margin-right: 0;
+            margin-top: -.5em;
+
+
+            @media (min-width: $desktop) {
+                float: left;
+            }
+
+            .oldie-logo-navbar,
+            .icon-logo {
+                width: 1.4em;
+                position: relative;
+                top: .3em;
+            }
+
+            .home-logo-link {
+                color: $headings;
+            }
+
+        }
+    }
+}
+
+.hero {
+    background: $hero;
+    background: linear-gradient($hero, darken($hero, 8%));
+    overflow: hidden;
+    width: 120%;
+    padding: 4em 2em 4em;
+    margin: -3.1em 0 4em -10%;
+
+    @media (min-width: $tablet ) {
+        padding-bottom: 5em;
+        margin-bottom: 5em;
+    }
+
+    .icon-logo-hero {
+        width: 6.5em;
+    }
+
+    .a11y-title {
+        @media (max-width: $mobile) {
+            font-size: 2.2em;
+        }
+        margin-bottom: 0;
+    }
+
+    .a11y-subtitle {
+        font-size: 1.2em;
+        margin-bottom: 1.2em;
+    }
+
+    .connect-with-a11y {
+        margin-bottom: 0;
+
+        li {
+            margin: 0 .6em 1.6em;
+        }
+
+        a {
+            background: $link;
+            color: #fff;
+            border-bottom: 3px solid darken($link, 10%);
+            padding: .6em 1.2em .5em;
+            text-decoration: none;
+            line-height: 1;
+        }
+    }
+}

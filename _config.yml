@@ -1,14 +1,13 @@
 # standard jekyll configuration
 
 permalink: /posts/:title
-highlighter: pygments
 exclude: ['Rakefile', 'README.md', 'config.rb']
 markdown: kramdown
 
 # configuration required for some pages
 
 domain: a11yproject.com
-title: The Accessibility Project
+title: The A11Y Project
 author: Dave Rupert
 email: dave@paravelinc.com
 

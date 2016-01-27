@@ -20,4 +20,4 @@ If you care and are knowledgeable about accessibility and want to help please co
 
 ### About this site
 
-This site is built with [Jekyll](https://github.com/mojombo/jekyll) &amp; [Bootstrap](http://getbootstrap.com), collaboratively by developers (see the footer) on [Github](https://github.com/a11yproject/a11yproject.com/). In its current state, The Accessibility Project may not be a perfect example of an accessible website&hellip; yet. We're committed, through the power of Open Source, to incrementally improve our own accessibility on the site going forward.
+This site is built with [Jekyll](https://github.com/mojombo/jekyll), collaboratively by developers (see the footer) on [Github](https://github.com/a11yproject/a11yproject.com/). In its current state, The Accessibility Project may not be a perfect example of an accessible website&hellip; yet. We're committed, through the power of Open Source, to incrementally improve our own accessibility on the site going forward.
