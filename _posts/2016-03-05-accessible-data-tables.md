@@ -12,9 +12,33 @@ categories:
 The semantic purpose of a data table is to present tabular data. Sighted users can quickly scan the table but a screen reader goes through line by line. Proper markup must be added to help the screen reader make the correct associations that a sighted user would.
 
 # Example of an accessible data table.
-
-<p data-height="268" data-theme-id="0" data-slug-hash="zqOKvY" data-default-tab="html" data-user="franklynroth" class="codepen">See the Pen <a href="http://codepen.io/franklynroth/pen/zqOKvY/">Accessible Data Tables</a> by Franklyn (<a href="http://codepen.io/franklynroth">@franklynroth</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+{% highlight html %}
+	<table>
+	<caption>Monthly Budget</caption
+	  <thead>
+	    <tr>
+	      	<th scope="col">Month</th>
+	      	<th scope="col">Amount Earned</th>
+	      	<th scope="col">Amount Spent</th>
+			<th scope="col">Amount Saved</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+			<th scope="row">January</th>
+			<td>$2500</td>
+			<td>$1500</td>
+			<td>$500</td>
+	    </tr>
+		<tr>
+			<th scope="row">February</th>
+			<td>$2700</td>
+			<td>$1500</td>
+			<td>$700</td>
+		</tr>
+	  </tbody>
+	</table>
+{% endhighlight %}
 
 Making an accessible table isn’t hard and can be broken down into two main things.
 
