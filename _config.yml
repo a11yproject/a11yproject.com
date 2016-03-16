@@ -1,6 +1,6 @@
 # standard jekyll configuration
 
-permalink: /posts/:title
+permalink: /posts/:title/
 exclude: ['Rakefile', 'README.md', 'config.rb']
 markdown: kramdown
 
