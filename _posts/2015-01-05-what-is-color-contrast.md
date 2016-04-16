@@ -38,7 +38,7 @@ Aside from using color contrast tools to determine your site's colors, there are
 - Ensure that your placeholders in forms also have valid color contrast.
 
 ##Further Reading:
-- [Constrasting Colors](http://desktoppub.about.com/od/glossary/g/contrastingcolors.htm) by http: about.com (2014)
+- [Contrasting Colors](http://desktoppub.about.com/od/glossary/g/contrastingcolors.htm) by http: about.com (2014)
 - [The Contrast Minimum](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) by W3C
 - [Understanding Conformance](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head) by W3C
 - [Basic Color Theory](http://www.colormatters.com/color-and-design/basic-color-theory) by colormatters.com
