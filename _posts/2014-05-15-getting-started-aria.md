@@ -42,7 +42,7 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change f
 
 * Widget
 
-  Widget roles describe common interactive patterns that currently lack semantic equivalets in HTML, and can be used on their own, or as part of larger, composite widgets.
+  Widget roles describe common interactive patterns that currently lack semantic equivalents in HTML, and can be used on their own, or as part of larger, composite widgets.
   Eg. `<div role="tooltip">`
 
 * Abstract
