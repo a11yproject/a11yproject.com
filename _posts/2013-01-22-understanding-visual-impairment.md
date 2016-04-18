@@ -29,11 +29,11 @@ Refractive errors ([myopia](http://en.wikipedia.org/wiki/Myopia), [hyperopia](ht
 
 ## The Challenges?
 
-Before the industrial revolution, people with visual impairment were condemned to a life of confinement where opportunities of education and employment were unheard of. Since this time the rights of visually impaired people have been fought for and as a result improvements in accessibility that now allow people with low visual accuity to live full and independant lives in place of bygone institutionalization.
+Before the industrial revolution, people with visual impairment were condemned to a life of confinement where opportunities of education and employment were unheard of. Since this time the rights of visually impaired people have been fought for and as a result improvements in accessibility that now allow people with low visual acuity to live full and independent lives in place of bygone institutionalization.
 
 Equality is the most important challenge that faces those with visual impairment and the improved accessibility to technology, braille and other tools that aid in daily life, the rest of the world is beginning to understand that the visually impaired population are capable of the same things as those with near perfect vision.
 
-Although the visually impaired community has seen new opportunities, these are not foolproof solutions to everyday challenges and a greater dependence on what we might take for granted is very important. Electricity is a huge factor when it comes to content as without electricity a person who relies solely on a screen reader cannot simply browse a book, magazine or newspaper. This inturn puts greater demand on media that originated in print to be made available through computers where screen readers can assist in accessibility to content.
+Although the visually impaired community has seen new opportunities, these are not foolproof solutions to everyday challenges and a greater dependence on what we might take for granted is very important. Electricity is a huge factor when it comes to content as without electricity a person who relies solely on a screen reader cannot simply browse a book, magazine or newspaper. This in turn puts greater demand on media that originated in print to be made available through computers where screen readers can assist in accessibility to content.
 
 ## The Future's Bright
 
