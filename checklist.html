@@ -3,235 +3,203 @@ layout: page
 title: Web Accessibility Checklist
 description: A beginner's guide to web accessibility
 ---
-<div class="span9">
-	<div class="container-content">
 
-		<style type="text/css">
-			.checklist > ul {
-				margin-left: 0;
-				list-style-type: none;
-			}
-			.checklist label {
-				font-size: 1.1em;
-				line-height: 1.1em;
-			}
+<form action="/" data-persist="garlic" method="POST" class="checklist" id="simple-a11y-checklist">
+	<!-- Aria Roles -->
 
-			.checklist label input[type="checkbox"] {
-				width: 1.1em;
-				height: 1.1em;
-				position: relative;
-				top: -0.2em;
-			}
-			.checklist fieldset {
-				margin-bottom: 2em;
-			}
-		</style>
+	<fieldset id="aria-roles">
+		<legend>Landmarks</legend>
+		<p>ARIA Landmark Roles are helpful landmarks that can be used by <abbr title="Assistive Technology">AT</abbr> to navigate a website.</p>
+		<p>Note: When you <a href="https://validator.w3.org/">validate html</a> using landmark roles, you'll receive a warning stating these roles are redundant.  In HTML5, several of the landmark roles are implicit via the native structural element which is supported by most modern <a href="http://stevefaulkner.github.io/html-mapping-tests/">desktop browsers</a> with the exception of IE and <a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks-example.html">iOS Safari</a>. So, if you support IE and iOS browsers, you'll want to use the landmark roles. For more information, read <a href="/posts/aria-landmark-roles/">Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping</a>.</p>
+		<!-- banner -->
+		<label for="banner-role" class="checkbox"><code>&lt;header role="banner"&gt;</code>
+			<input name="aria-banner-role" id="banner-role" aria-describedby="banner-role-description" type="checkbox">
+		</label>
 
-		<div class="row-fluid">
-			<form action="/" data-persist="garlic" method="POST" class="checklist" id="simple-a11y-checklist">
+		<p id="banner-role-description" class="description">A region of the page that is site focused. Typically your global page header.</p>
 
-				<!-- Aria Roles -->
-				<fieldset id="aria-roles">
-					<legend>Landmarks</legend>
-					<p>ARIA Landmark Roles are helpful landmarks that can be used by <abbr title="Assistive Technology">AT</abbr> to navigate a website.</p>
-					<!-- banner -->
-					<label for="banner-role" class="checkbox"><code>&lt;header role="banner"&gt;</code>
-						<input name="aria-banner-role" id="banner-role" type="checkbox">
-					</label>
+		<!-- navigation -->
+		<label for="navigation-role" class="checkbox"><code>&lt;nav role="navigation"&gt;</code>
+			<input name="aria-navigation-role" id="navigation-role" aria-describedby="navigation-role-description" type="checkbox">
+		</label>
 
-					<p>A region of the page that is site focused. Typically your global page header.</p>
+		<p id="navigation-role-description" class="description">Contains navigational links.</p>
 
-					<!-- navigation -->
-					<label for="navigation-role" class="checkbox"><code>&lt;nav role="navigation"&gt;</code>
-						<input name="aria-navigation-role" id="navigation-role" type="checkbox">
-					</label>
+		<!-- main -->
+		<label for="main-role" class="checkbox"><code>&lt;main role="main"&gt;</code>
+			<input name="aria-main-role" id="main-role" aria-describedby="main-role-description" type="checkbox">
+		</label>
 
-					<p>Contains navigational links.</p>
+		<p id="main-role-description" class="description">Focal content of document. Use only once.</p>
 
-					<!-- main -->
-					<label for="main-role" class="checkbox"><code>&lt;main role="main"&gt;</code>
-						<input name="aria-main-role" id="main-role" type="checkbox">
-					</label>
+		<!-- article -->
+		<label for="article-role" class="checkbox"><code>&lt;article role="article"&gt;</code>
+			<input name="aria-article-role" id="article-role" aria-describedby="article-role-description" type="checkbox">
+		</label>
 
-					<p>Focal content of document. Use only once.</p>
+		<p id="article-role-description" class="description">Represents an independent item of content. Use only once on outermost element of this type.</p>
 
-					<!-- article -->
-					<label for="article-role" class="checkbox"><code>&lt;article role="article"&gt;</code>
-						<input name="aria-article-role" id="article-role" type="checkbox">
-					</label>
+		<!-- complementary -->
+		<label for="complementary-role" class="checkbox"><code>&lt;aside role="complementary"&gt;</code>
+			<input name="aria-complementary-role" id="complementary-role" aria-describedby="complementary-role-description" type="checkbox">
+		</label>
 
-					<p>Represents an independent item of content. Use only once on outermost element of this type.</p>
+		<p id="complementary-role-description" class="description">Supporting section related to the main content even when separated.</p>
 
-					<!-- complementary -->
-					<label for="complementary-role" class="checkbox"><code>&lt;aside role="complementary"&gt;</code>
-						<input name="aria-complementary-role" id="complementary-role" type="checkbox">
-					</label>
+		<!-- contentinfo -->
+		<label for="content-info" class="checkbox"><code>&lt;footer role="contentinfo"&gt;</code>
+			<input name="aria-contentinfo-role" id="content-info" aria-describedby="content-info-description" type="checkbox">
+		</label>
 
-					<p>Supporting section related to the main content even when separated.</p>
+		<p id="content-info-description" class="description">Contains information about the document (meta info, copyright, company info, etc).</p>
 
-					<!-- contentinfo -->
-					<label for="content-info" class="checkbox"><code>&lt;footer role="contentinfo"&gt;</code>
-						<input name="aria-contentinfo-role" id="content-info" type="checkbox">
-					</label>
+		<!-- search -->
+		<label for="search-role" class="checkbox"><code>&lt;form role="search"&gt;</code>
+			<input name="aria-search-role" id="search-role" aria-describedby="search-role-description" type="checkbox">
+		</label>
 
-					<p>Contains information about the document (meta info, copyright, company info, etc).</p>
+		<p id="search-role-description" class="description">Add a `search` role to your primary search (<a href="http://adrianroselli.com/2015/08/where-to-put-your-search-role.html">how to implement</a>).</p>
+	</fieldset>
 
-					<!-- search -->
-					<label for="search-role" class="checkbox"><code>&lt;form role="search"&gt;</code>
-						<input name="aria-search-role" id="search-role" type="checkbox">
-					</label>
+	<!-- Language -->
+	<fieldset id="language">
+		<legend>Language Attribute</legend>
+		<p>Declaring a language attribute on the html element enables a screen reader to read out the text with correct pronunciation.</p>
+		<!-- text transcript -->
+		<label for="language-input" class="checkbox"><code>&lt;html lang="en"&gt;</code>
+			<input name="language-input" id="language-input" aria-describedby="language-input-description" type="checkbox">
+		</label>
 
-					<p>Add a `search` role to your primary search form.</p>
-				</fieldset>
+		<p id="language-input-description" class="description">Specify a language with the lang attribute on the &lt;html&gt; element.</p>
+	</fieldset>
 
-				<!-- Language -->
-				<fieldset id="language">
-					<legend>Language Attribute</legend>
-					<p>Declaring a language attribute on the html element enables a screen reader to read out the text with correct pronunciation.</p>
-					<!-- text transcript -->
-					<label for="language-input" class="checkbox"><code>&lt;html lang="en"&gt;</code>
-						<input name="language-input" id="language-input" type="checkbox">
-					</label>
+	<!-- Document Outline -->
+	<fieldset id="forms">
+		<legend>Document Outline</legend>
+		<!-- form document-outline -->
+		<label for="document-outline" class="checkbox">Use semantic headings and structure
+			<input name="document-outline" type="checkbox" id="document-outline">
+		</label>
+	</fieldset>
 
-					<p>Specify a language with the lang attribute on the &lt;html&gt; element.</p>
-				</fieldset>
+	<!-- Images -->
+	<fieldset id="links">
+		<legend>Links</legend>
+		<!-- focus -->
+		<label for="links-focus" class="checkbox">Ensure links have <code class="language-markup">:focus</code> state.
+			<input name="links-focus" id="links-focus" type="checkbox">
+		</label>
 
-				<!-- Document Outline -->
-				<fieldset id="forms">
-					<legend>Document Outline</legend>
-					<!-- form document-outline -->
-					<label for="document-outline" class="checkbox">Use semantic headings and structure
-						<input name="document-outline" type="checkbox" id="document-outline">
-					</label>
-				</fieldset>
+		<!-- underlined -->
+		<label for="links-underlined" class="checkbox">Ensure links are recognizable (underlined).
+			<input name="links-underlined" id="links-underlined" type="checkbox">
+		</label>
+	</fieldset>
 
-				<!-- Images -->
-				<fieldset id="links">
-					<legend>Links</legend>
-					<!-- focus -->
-					<label for="links-focus" class="checkbox">Ensure links have <code class="language-markup">:focus</code> state.
-						<input name="links-focus" id="links-focus" type="checkbox">
-					</label>
+	<!-- Images -->
+	<fieldset id="images">
+		<legend>Images</legend>
 
-					<!-- underlined -->
-					<label for="links-underlined" class="checkbox">Ensure links are recognizable (underlined).
-						<input name="links-underlined" id="links-underlined" type="checkbox">
-					</label>
-				</fieldset>
+		<!-- alt -->
+		<label for="img-alt" class="checkbox">Use appropriate <code class="language-markup">alt</code> text. <a href="http://a11yproject.com/posts/alt-text/">Read article on using ALT text</a>
+			<input name="img-alt" id="img-alt" type="checkbox">
+		</label>
+	</fieldset>
 
-				<!-- Images -->
-				<fieldset id="images">
-					<legend>Images</legend>
+	<!-- Javascript -->
+	<fieldset id="js">
+		<legend>Javascript</legend>
+		<!-- unobtrusive js -->
+		<label for="unobtrusive-js" class="checkbox">Unobtrusive Javascript
+			<input name="unobtrusive-js-input" id="unobtrusive-js" aria-describedby="unobtrusive-js-description" type="checkbox">
+		</label>
 
-					<!-- alt -->
-					<label for="img-alt" class="checkbox">Use appropriate <code class="language-markup">alt</code> text. <a href="http://a11yproject.com/posts/alt-text/">Read article on using ALT text</a>
-						<input name="img-alt" id="img-alt" type="checkbox">
-					</label>
-				</fieldset>
+		<p id="unobtrusive-js-description" class="description">Use unobtrusive Javascript (never use inline scripting).</p>
 
-				<!-- Javascript -->
-				<fieldset id="js">
-					<legend>Javascript</legend>
-					<!-- unobtrusive js -->
-					<label for="unobtrusive-js" class="checkbox">Unobtrusive Javascript
-						<input name="unobtrusive-js-input" id="unobtrusive-js" type="checkbox">
-					</label>
+		<!-- js alts -->
+		<label for="alt-js" class="checkbox">No-JS Alternatives
+			<input name="alt-js-fallback" id="alt-js" aria-describedby="alt-js-description" type="checkbox">
+		</label>
 
-					<p>Use unobtrusive Javascript (never use inline scripting).</p>
-					<!-- js alts -->
-					<label for="alt-js" class="checkbox">No-JS Alternatives
-						<input name="alt-js-fallback" id="alt-js" type="checkbox">
-					</label>
+		<p id="alt-js-description" class="description">Provide alternatives for users who do not have Javascript enabled and for environments where Javascript is unavailable.</p>
+	</fieldset>
 
-					<p>Provide alternatives for users without Javascript enabled.</p>
-				</fieldset>
+	<!-- Forms -->
+	<fieldset id="forms">
+		<legend>Forms</legend>
+		<!-- form layout -->
+		<label for="logical-layout" class="checkbox">Logical layout
+			<input name="logical-layout" type="checkbox" aria-describedby="logical-layout-description" id="logical-layout">
+		</label>
 
-				<!-- Forms -->
-				<fieldset id="forms">
-					<legend>Forms</legend>
-					<!-- form layout -->
-					<label for="logical-layout" class="checkbox">Logical layout
-						<input name="logical-layout" type="checkbox" id="logical-layout">
-					</label>
+		<p id="logical-layout-description" class="description">Tab order of the form follows a logical pattern.</p>
 
-					<p>Tab order of the form follows a logical pattern.</p>
+		<!-- labels -->
+		<label for="labels" class="checkbox">Associated <code>label</code> for all form controls (e.g. <code class="language-markup">input</code>, <code class="language-markup">select</code> etc.)
+			<input name="labels" type="checkbox" aria-describedby="labels-description" id="labels">
+		</label>
 
-					<!-- labels -->
-					<label for="labels" class="checkbox">Associated <code>label</code> for all form controls (e.g. <code class="language-markup">input</code>, <code class="language-markup">select</code> etc.)
-						<input name="labels" type="checkbox" id="labels">
-					</label>
+		<p id="labels-description" class="description">(e.g. <code class="language-markup">&lt;label for="name"&gt;Name:&lt;/label&gt;&lt;input id="name" type="text"&gt;</code>)</p>
 
-					<p>(e.g. <code class="language-markup">&lt;label for="name"&gt;Name:&lt;/label&gt;&lt;input id="name" type="text"&gt;</code>)</p>
+		<!-- placeholder -->
+		<label for="placeholders" class="checkbox">Make sure <code>placeholder</code> attributes are <strong>NOT</strong> being used in place of <code>label</code> tags. <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#attr-input-placeholder">WHATWG</a>
+			<input name="placeholders" type="checkbox" aria-describedby="placeholders-description" id="placeholders">
+		</label>
 
-					<!-- placeholder -->
-					<label for="placeholders" class="checkbox">Make sure <code>placeholder</code> attributes are <strong>NOT</strong> being used in place of <code>label</code> tags. <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#attr-input-placeholder">WHATWG</a>
-						<input name="placeholders" type="checkbox" id="placeholders">
-					</label>
+		<p id="placeholders-description" class="description">An exception to this rule would be smaller forms with one or two fields (eg. search or log in forms)</p>
 
-					<p>An exception to this rule would be smaller forms with one or two fields (eg. search or log in forms)</p>
+		<!-- fieldset -->
+		<label for="group-related-elements" class="checkbox">Group related form elements with <code class="language-markup">fieldset</code> and describe the group with <code class="language-markup">legend</code>
+			<input name="group-related-elements" type="checkbox" aria-describedby="group-related-elements-description" id="group-related-elements">
+		</label>
 
-					<!-- fieldset -->
-					<label for="group-related-elements" class="checkbox">Group related form elements with <code class="language-markup">fieldset</code> and describe the group with <code class="language-markup">legend</code>
-						<input name="group-related-elements" type="checkbox" id="group-related-elements">
-					</label>
+		<p id="group-related-elements-description" class="description">Important for <code class="language-markup">&lt;input type="radio"&gt;</code> and <code class="language-markup">&lt;input type="checkbox"&gt;</code></p>
 
-					<p>Important for <code class="language-markup">&lt;input type="radio"&gt;</code> and <code class="language-markup">&lt;input type="checkbox"&gt;</code></p>
+	</fieldset>
 
-				</fieldset>
+	<!-- Audio -->
+	<fieldset id="audio">
+		<legend>Media (Audio and Video)</legend>
+		<p>Providing text alternatives makes the audio information accessible to people who are deaf or hard of hearing. This also goes for search engines who are deaf and hard of hearing as well.</p>
+		<!-- text transcript -->
+		<label for="audio-input" class="checkbox">Provide text transcripts
+			<input name="audio-input" id="audio-input" type="checkbox">
+		</label>
+		<label for="video-subtitles" class="checkbox">Synchronized subtitles for videos
+			<input name="video-subtitles" id="video-subtitles" type="checkbox">
+		</label>
+	</fieldset>
 
-				<!-- Audio -->
-				<fieldset id="audio">
-					<legend>Media (Audio and Video)</legend>
-					<p>Providing text alternatives makes the audio information accessible to people who are deaf or hard of hearing. This also goes for search engines who are deaf and hard of hearing as well.</p>
-					<!-- text transcript -->
-					<label for="audio-input" class="checkbox">Provide text transcripts
-						<input name="audio-input" id="audio-input" type="checkbox">
-					</label>
-					<label for="video-subtitles" class="checkbox">Synchronized subtitles for videos
-						<input name="video-subtitles" id="video-subtitles" type="checkbox">
-					</label>
-				</fieldset>
+	<!-- Color and Contrast -->
+	<fieldset>
+		<legend>Color and Contrast</legend>
+		<label for="test-colorcontrast" class="checkbox">Test color contrast
+			<input name="test-colorcontrast" id="test-colorcontrast" type="checkbox">
+		</label>
+		<p class="description">Best done early in the process, by ensuring that the foreground and background colors of your site have sufficient contrast you will help make your site more readable for everyone. <a href="http://leaverou.github.com/contrast-ratio/">Contrast Ratio</a> is one tool for checking the contrast of your colors for both standard vision and color deficient user.</p>
 
-				<!-- Color and Contrast -->
-				<fieldset>
-					<legend>Color and Contrast</legend>
-					<p>Best done early in the process, by ensuring that the foreground and background colors of your site have sufficient contrast you will help make your site more readable for everyone. <a href="http://leaverou.github.com/contrast-ratio/">Contrast Ratio</a> is one tool for checking the contrast of your colors for both standard vision and color deficient user.</p>
-					<label for="test-colorcontrast" class="checkbox">Test color contrast
-						<input name="test-colorcontrast" id="test-colorcontrast" type="checkbox">
-					</label>
-				</fieldset>
+		<legend>Test for different types of color blindness.</legend>
+		<label for="deuteranopia" class="checkbox">Deuteranopia
+			<input name="deuteranopia" id="deuteranopia" type="checkbox">
+		</label>
+		<label for="protanopia" class="checkbox">Protanopia
+			<input name="protanopia" id="protanopia" type="checkbox">
+		</label>
+		<label for="tritanopia" class="checkbox">Tritanopia
+			<input name="tritanopia" id="tritanopia" type="checkbox">
+		</label>
+		<p class="description">Test against different types of color blindness with a tool like <a href="http://colorfilter.wickline.org/">http://colorfilter.wickline.org/</a>. If you are on a Mac, another option is <a href="http://michelf.ca/projects/sim-daltonism/">Michel Fortin's, Sim Daltonism</a> color blindness simulator.</p>
+	</fieldset>
 
-				<fieldset>
-					<p>Test against different types of color blindness with a tool like <a href="http://colorfilter.wickline.org/">http://colorfilter.wickline.org/</a>.</p>
-					<p>If you are on a Mac, another option is <a href="http://michelf.ca/projects/sim-daltonism/">Michel Fortin's, Sim Daltonism</a> color blindness simulator.</p>
-
-					<label for="deuteranopia" class="checkbox">Deuteranopia
-						<input name="deuteranopia" id="deuteranopia" type="checkbox">
-					</label>
-					<label for="protanopia" class="checkbox">Protanopia
-						<input name="protanopia" id="protanopia" type="checkbox">
-					</label>
-					<label for="tritanopia" class="checkbox">Tritanopia
-						<input name="tritanopia" id="tritanopia" type="checkbox">
-					</label>
-				</fieldset>
-
-				<!-- Testing -->
-				<fieldset>
-					<legend>Testing</legend>
-					<p>Navigating your site using a range of tools, such as just the keyboard or a screen reader, will help you understand how a blind, low-vision, or limited-mobility user will experience it.</p>
-					<label for="test-screenreader" class="checkbox" >Test using a screen reader
-						<input name="test-screenreader" id="test-screenreader" type="checkbox">
-					</label>
-					<label for="test-keyboard" class="checkbox" >Test using keyboard only
-						<input name="test-keyboard" id="test-keyboard" type="checkbox">
-					</label>
-				</fieldset>
-			</form>
-		</div><!--/row-->
-
-	</div>
-</div><!--/span-->
-
-<div class="span3">
-</div><!--/span-->
+	<!-- Testing -->
+	<fieldset>
+		<legend>Testing</legend>
+		<p>Navigating your site using a range of tools, such as just the keyboard or a screen reader, will help you understand how a blind, low-vision, or limited-mobility user will experience it.</p>
+		<label for="test-screenreader" class="checkbox" >Test using a screen reader
+			<input name="test-screenreader" id="test-screenreader" type="checkbox">
+		</label>
+		<label for="test-keyboard" class="checkbox" >Test using keyboard only
+			<input name="test-keyboard" id="test-keyboard" type="checkbox">
+		</label>
+	</fieldset>
+</form>

@@ -10,15 +10,152 @@ $(document).ready(function(){
 
   $('form').garlic(); // persistent checkboxes for checklist section
 
+  function setupWaypoints(element, offset) {
+    // waypoint classes that need to be added
+    $(element).addClass('waypoint-section');
+
+    // get the ID of the section
+    var id = $(element).attr('id');
+
+    // Create the waypoint
+    var waypoint = new Waypoint({
+      element: $('#'+id),
+      handler: function(direction) {
+        // pass it to our function to keep things cleaner in here
+        toc_class(direction, id);
+      },
+      group: 'toc-group',
+      offset: offset
+    });
+  }
+
+  function removeWaypoints(element) {
+    // waypoint classes that need to be added
+    $(element).removeClass('waypoint-section');
+
+    // get the ID of the section
+    var id = $(element).attr('id');
+    // destroys all active waypoints
+    Waypoint.destroyAll();
+  }
+
+  function toc_class(direction, element) {
+    // remove the active class from all of them
+    $('.toc a').removeClass('active');
+
+    if(direction == 'down') {
+      // we're arriving here from above it. Add active to this element
+      $('.toc a.'+element).addClass('active');
+    } else {
+      // when we hit the top of the element while scrolling up, we're actually
+      // arriving at the one before it, so let's make that one active instead.
+      $('.toc a.'+element).parent().prev('li').find('a').addClass('active');
+    }
+  }
+
+
+  function tocPageSemantics() {
+    // get window width in EMs
+    var windowWidth = $(window).width() / parseFloat($("html").css("font-size"));
+
+    if(windowWidth < 53) { // accordion view
+      // remove waypoints and waypoint semantics
+      removeWaypoints(element);
+
+    } else { // desktop view
+
+      $('.article-section').each( function(i, element) {
+
+        // find out if we're on a short TOC or long TOC
+        var offset;
+        if($('.toc-wrap').hasClass('toc-long')) {
+          offset = '30%'; // larger offset for long TOC lists feels better
+        } else {
+          offset = '20%'; // this offset feels right for short TOC lists
+        }
+        // add waypoints and waypoint classes
+        setupWaypoints(element, offset);
+
+      }); // article-section each
+
+    }// if windowWidth < 55
+
+  }
+
+
+  // Resize delay
+  var fireResize;
+
+  window.addEventListener('resize', function(event){
+      clearTimeout(fireResize);
+      // what to do when the resize is finished - fire our resizeWindow function
+      fireResize = setTimeout(tocPageSemantics, 300);
+  });
+
+
   var Engine = {
 
     ui : {
+
+      toc : function(){
+
+        // had to move this function outside of the if($('.toc').length) statement bc I was getting this error:
+        // [Error] SyntaxError: Strict mode does not allow function declarations in a lexically nested statement.
+        // (anonymous function) (scripts.js, line 30)
+
+        if($('.toc').length) {
+          // if we have a toc, add a body class
+          $('body').addClass('has-toc');
+
+          // add the accordion / waypoints semantics
+          tocPageSemantics();
+
+
+          if($('.post-content').length) {
+            var tocWrapElem = $('.post-content');
+            var tocOffset = '-10px';
+          } else {
+            var tocWrapElem = $('.post');
+            var tocOffset = '10px';
+          }
+
+          var sticky_waypoint = new Waypoint({
+            element: tocWrapElem,
+            handler: function(direction) {
+              // pass it to our function to keep things cleaner in here
+              if(direction == 'down') {
+                $('.toc-wrap').addClass('stick');
+              } else {
+                $('.toc-wrap').removeClass('stick');
+              }
+            },
+            offset: tocOffset
+          });
+
+
+
+          var sticky_waypoint_footer = new Waypoint({
+            element: $('.footer'),
+            handler: function(direction) {
+              // pass it to our function to keep things cleaner in here
+              if(direction == 'down') {
+                $('.toc-wrap').addClass('stick-footer');
+              } else {
+                $('.toc-wrap').removeClass('stick-footer');
+              }
+            },
+            offset: function() {
+                    return this.element.outerHeight(true);
+                  }
+          });
+        }
+      }, // toc
 
       footerContributors : function(){
         function gitHubContributors(){
 
           var
-            howMany = 42,
+            howMany = 18,
             baseUrl = 'https://api.github.com/repos/a11yproject/a11yproject.com/contributors?per_page='+howMany+'&callback=?',
             $contributorsOutput = $("#contributors-list"),
             $paginationOutput = $(".contributors-pagination"),
@@ -37,7 +174,7 @@ $(document).ready(function(){
               $contributorsOutput.html("");
               var html = '';
               $(data).each(function(i, user){
-                html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
+                html += '<li><a href="'+ user.url.replace('api.','').replace('users/','') +'"><img src="'+ user.avatar_url +'&s=50" alt="'+ user.login +'" class="contributor-avatar"></a></li>';
               });
               $contributorsOutput.html(html);
               localStorage.setItem("contribsHtml",html);
@@ -59,7 +196,7 @@ $(document).ready(function(){
                   var text = item[1].rel,
                       url = item[0],
                       html = "<li><a href="+url+" class='"+paginationClass+"'>"+text+"</a></li>";
-                      $output.append(html);
+                      $output.prepend(html);
                 });
 
                 _simplifyPager(); // cut down pager
@@ -245,23 +382,12 @@ $(document).ready(function(){
         $('.a11y-copyright').text(new Date().getFullYear())
       }, // footerCopyright
 
-      toc : function(){
-        var toc = $('#toc');
-
-        if(toc.length) {
-          toc.prepend('<li class="nav-header">Archive Categories</li>');
-          $('.category-title').each(function(){
-            toc.append('<li><a href=#'+this.id+'>'+$(this).text()+'</a>');
-          });
-        }
-      } // toc
-
     } // ui
 
   } // Engine
 
+  Engine.ui.toc();
   Engine.ui.footerContributors();
   Engine.ui.footerCopyright();
-  Engine.ui.toc();
 
 });

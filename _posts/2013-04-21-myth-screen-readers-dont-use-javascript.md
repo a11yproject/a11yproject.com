@@ -16,7 +16,7 @@ According to a January 2014 survey conducted by WebAIM, [97.6% of screen reader 
 
 Be sure to make efforts to ensure that all functionality (apps, custom UI controls, forms, etc) within your site is accessible with  JavaScript enabled as well as provide accessible fallbacks for the 2% of users (globally) with JavaScript disabled. A good starting point might be to use native anchor links and form inputs instead of custom scripted form elements.
 
-### Futher Reading
+### Further Reading
 
 - [Client-side Scripting Techniques for WCAG 2.0](http://www.w3.org/TR/WCAG20-TECHS/client-side-script.html)
 - [WCAG 2.0 Failure: Scripting events to emulate links](http://www.w3.org/TR/WCAG20-TECHS/failures.html#F42)

@@ -16,7 +16,7 @@ ARIA (Assistive Rich Internet Applications), is a spec from the W3C and created 
 ARIA has no effect on how elements are displayed or behave in browsers. It does not add new functionality and is meant to act only as an extra descriptive layer for screen readers.
 
 ### Links
-* HTML5 ARIA spec -  <http://www.w3.org/html/wg/drafts/html/CR/dom.html#wai-aria>
+* HTML5 ARIA spec -  <http://www.w3.org/TR/aria-in-html/>
 * ARIA spec - <http://www.w3.org/WAI/PF/aria/>
 
 ## ARIA Attributes
@@ -33,7 +33,7 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change f
 
 * Landmark
 
-  Landmark roles identify large content areas and are used by screen readers for navigation. If landmark roles are used, its important that all page content fall under a role so that all content is available to the navigation.
+  Landmark roles identify large content areas and are used by screen readers for navigation. If landmark roles are used, it's important that all page content fall under a role so that all content is available to the navigation.
   Eg. `<footer role="contentinfo">`
 
 * Document
@@ -42,7 +42,7 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change f
 
 * Widget
 
-  Widget roles describe common interactive patterns that currently lack semantic equivalets in HTML, and can be used on their own, or as part of larger, composite widgets.
+  Widget roles describe common interactive patterns that currently lack semantic equivalents in HTML, and can be used on their own, or as part of larger, composite widgets.
   Eg. `<div role="tooltip">`
 
 * Abstract
