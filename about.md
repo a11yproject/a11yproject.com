@@ -2,6 +2,7 @@
 layout: post
 title: Accessibility is hard :(
 description: The A11Y Project aims to make accessibility easier
+permalink: about.html
 ---
 
 For many web developers, accessibility is complex and somewhat difficult. The Accessibility Project understands that and we want to help to make web accessibility easier for front end developers to implement. Our strategy is to accomplish this with 3 principles in mind:
