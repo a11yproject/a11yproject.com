@@ -33,7 +33,7 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change f
 
 * Landmark
 
-  Landmark roles identify large content areas and are used by screen readers for navigation. If landmark roles are used, its important that all page content fall under a role so that all content is available to the navigation.
+  Landmark roles identify large content areas and are used by screen readers for navigation. If landmark roles are used, it's important that all page content fall under a role so that all content is available to the navigation.
   Eg. `<footer role="contentinfo">`
 
 * Document
@@ -42,7 +42,7 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change f
 
 * Widget
 
-  Widget roles describe common interactive patterns that currently lack semantic equivalets in HTML, and can be used on their own, or as part of larger, composite widgets.
+  Widget roles describe common interactive patterns that currently lack semantic equivalents in HTML, and can be used on their own, or as part of larger, composite widgets.
   Eg. `<div role="tooltip">`
 
 * Abstract

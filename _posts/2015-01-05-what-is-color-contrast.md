@@ -8,17 +8,18 @@ categories:
   - Basics
 ---
 
-##Color Theory
+## Color Theory
 
 Colors from different segments of the color wheel are contrasting colors. In color theory, [complementary colors](https://en.wikipedia.org/wiki/Complementary_colors) (or "opposite" colors) that are directly across from one another on a basic color wheel provide maximum contrast. This means they stand out from one another the strongest compared to being paired with other colors. Complementary colors are two colors that cancel one another out and produce a white/gray-scale color.
 
 Oftentimes companies implement complementary colors to provide the most contrast in their brand. Examples in the wild are the Laker's logo that uses purple and yellow or the Knick's logo that uses blue and orange. Purple and yellow are on opposite sides of the color wheel from each other. So are orange and blue. You may also see complementary colors during the end of the year holidays - as red and green are also complementary to one another.
 
-##What does this mean for web accessibility?
+## What does this mean for web accessibility?
 
 On the web, color contrast is about finding colors that not only provide maximum contrast, but provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](http://a11yproject.com/posts/understanding-visual-impairment/). This doesn't mean you have to limit your colors to complementary colors as we just talked about - but the contrast should be kept in mind all the same. The text and non-decorative images need to be clearly legible for everyone regardless of whether they have moderately low vision or color deficiencies. We can check colors for contrast by using one of many contrast tools online. There are more you can find, but here's a list to get you started:
 
 **Color Contrast Tools**
+
 - [Tanaguru Contrast Finder](http://contrast-finder.tanaguru.com/)
 - [Contrast Ratio by Lea Verou](http://leaverou.github.io/contrast-ratio/)
 - [Colour Contrast Analyzer by Paciello Group](https://www.paciellogroup.com/resources/contrastanalyser/)
@@ -28,7 +29,7 @@ What these tools do once you provide colors for testing is check them against a 
 
 W3C states that it's not always possible to reach the AAA level of conformance across entire sites. So the goal is to get the highest level you can where it counts.
 
-##What else can we do?
+## What else can we do?
 
 Aside from using color contrast tools to determine your site's colors, there are some other ways you can keep your site's contrast in mind:
 
@@ -37,8 +38,9 @@ Aside from using color contrast tools to determine your site's colors, there are
 - Steer clear of text based images and use text wherever possible. If not, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](http://a11yproject.com/posts/alt-text/).
 - Ensure that your placeholders in forms also have valid color contrast.
 
-##Further Reading:
-- [Constrasting Colors](http://desktoppub.about.com/od/glossary/g/contrastingcolors.htm) by http: about.com (2014)
+## Further Reading:
+
+- [Contrasting Colors](http://desktoppub.about.com/od/glossary/g/contrastingcolors.htm) by http: about.com (2014)
 - [The Contrast Minimum](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) by W3C
 - [Understanding Conformance](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head) by W3C
 - [Basic Color Theory](http://www.colormatters.com/color-and-design/basic-color-theory) by colormatters.com
