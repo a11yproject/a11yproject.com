@@ -36,8 +36,7 @@ Here are some suggestions and tips on writing your article:
 
 Find a great resource that you think will be useful to others?
 
-- Add it to the [resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/resources.html) page under the appropriate category.
-- Resources should be listed alphabetically.
+- Add the url and title to the [resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/resources.yml) page under the appropriate category.
 
 ## Reporting issues
 Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
