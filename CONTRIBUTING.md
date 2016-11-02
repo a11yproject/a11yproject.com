@@ -38,6 +38,37 @@ Find a great resource that you think will be useful to others?
 
 - Add the url and title to the [resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/resources.yml) page under the appropriate category.
 
+### Writing in YAML
+
+YAML is a human readable markup language that's good for writing structured data. Even if you've never written anything in a .yml file, it shouldn't be too hard to understand the structure of the content. Yaml data is structured by spaces (you can not use tabs!), so an indented line means the content is nested within the parent. 
+
+For example, here is an ordered list:
+
+```
+- 'one'
+- 'two'
+- 'three'
+```
+
+Here is a dictionary, where each value has a name:
+
+```
+  thing1: 'a string value'
+  thing2: 2
+  thing3: 3
+```
+
+And here is how we could make the value of `thing1` a list:
+
+```
+thing1:
+  - 'first'
+  - 'second'
+  - 'third'
+```
+
+For a full cheatsheet, you can visit the [official YAML site](http://yaml.org/about.html), or check out this [cheat sheet](http://cheat.readthedocs.io/en/latest/yaml.html).
+
 ## Reporting issues
 Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
 
