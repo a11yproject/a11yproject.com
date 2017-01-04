@@ -54,6 +54,14 @@
     - url: http://www.w3.org/WAI/tutorials/
       title: "W3C: Web Accessibility Tutorials"
 
+- resource-category: Courses
+  section-id: courses
+  resources:
+    - url: https://www.udacity.com/course/web-accessibility--ud891
+      title: "Web Accessibility by Google. Developing with Empathy"
+    - url: https://egghead.io/courses/start-building-accessible-web-applications-today
+      title: "Start Building Accessible Web Applications Today"
+
 - resource-category: Books
   section-id: books
   resources:
@@ -117,6 +125,10 @@
       title: "We are Color Blind by Tom van Beveren"
     - url: http://webaim.org/resources/designers/
       title: "Web Accessibility for Designers [Infographic]"
+    - url: https://developers.google.com/web/fundamentals/accessibility/
+      title: "Web Fundamentals: Accessibility (2016)"
+    - url: https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
+      title: "A11ycasts [YouTube Playlist] (2017)"
 
 - resource-category: Professional Help
   section-id: professional-help
@@ -169,6 +181,10 @@
       title: "WDCNZ 2013: The Accessibility Panel"
     - url: http://vimeo.com/73427435
       title: "WDCNZ 2013: Make Your Widgets Sing With ARIA"
+    - url: https://www.youtube.com/watch?v=2qjgxH384Nc
+      title: "Accessibility is My Favorite Part of the Platform - Google I/O 2016"
+    - url: https://www.youtube.com/watch?v=8dr_IUGwsO0
+      title: "PWAs in any context (Progressive Web App Summit 2016)"
 
 - resource-category: Community Help
   section-id: community-help
