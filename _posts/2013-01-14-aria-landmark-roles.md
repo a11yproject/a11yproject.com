@@ -24,7 +24,7 @@ So, why do you see this warning when you [validate your html](https://validator.
 
 <p class="info warning"><strong>Warning</strong>: <span>The <code>banner</code> role is unnecessary for element <code>header</code>.</span></p><p class="location">From line <span class="first-line">60</span>, column <span class="first-col">1712</span>; to line <span class="last-line">60</span>, column <span class="last-col">1758</span></p><p class="extract"><code>/a&gt;&lt;/div&gt; <b>&lt;header class="header fixed-pos" role="banner"&gt;</b>&lt;div c</code></p>
 
-You see the warning ([consider fixing/changing](https://www.paciellogroup.com/blog/2015/08/short-note-on-html-conformance-checking/)) because in HTML5, several of the landmark roles are implicit via the native structural elements.
+You see the warning ([consider fixing/changing](https://www.paciellogroup.com/blog/2015/08/short-note-on-html-conformance-checking/)) because, in HTML5, several of the landmark roles are implicit via the native structural elements.
 
 **HTML5 Implicit Mappings**
 
