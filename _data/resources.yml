@@ -121,8 +121,10 @@
       title: "Google Accessibility"
     - url: http://heydonworks.com/practical_aria_examples/
       title: "Practical ARIA Examples (2014)"
-    - url: http://a11y.nicolas-hoffmann.net/
+    - url: https://a11y.nicolas-hoffmann.net/
       title: "Accessibility section - jQuery Plugins using ARIA (2016)"
+    - url: https://van11y.net/
+      title: "Van11y (Vanilla Accessibility) - A collection of accessible scripts, made in ES2015, IE9+ compatible (2016)"
     - url: http://wearecolorblind.com"
       title: "We are Color Blind by Tom van Beveren"
     - url: http://webaim.org/resources/designers/
