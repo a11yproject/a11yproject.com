@@ -33,7 +33,7 @@ Before the industrial revolution, people with visual impairment were condemned t
 
 Equality is the most important challenge that faces those with visual impairment and the improved accessibility to technology, braille and other tools that aid in daily life, the rest of the world is beginning to understand that the visually impaired population are capable of the same things as those with near perfect vision.
 
-Although the visually impaired community has seen new opportunities, these are not foolproof solutions to everyday challenges and a greater dependence on what we might take for granted is very important. Electricity is a huge factor when it comes to content as without electricity a person who relies solely on a screen reader cannot simply browse a book, magazine or newspaper. This in turn puts greater demand on media that originated in print to be made available through computers where screen readers can assist in accessibility to content.
+Although the visually impaired community has seen new opportunities, these are not foolproof solutions to everyday challenges and a greater dependence on what we might take for granted is very important. Electricity is a huge factor when it comes to content as without electricity a person who relies solely on a screen reader cannot simply browse a book, magazine or newspaper. This, in turn, puts greater demand on media that originated in print to be made available through computers where screen readers can assist in accessibility to content.
 
 ## The Future's Bright
 

@@ -26,7 +26,7 @@ The cause may be from illness, injury, or from a genetic anomaly but anyone can 
 
 ## What should you consider?
 
-Don't make animations, sliders, rapid movement start automatically. Give an indicator of what movement will happen on the site when a user takes action. Allow the user the option to turn off any animation and movement.
+Don't make animations, sliders, or rapid movement start automatically. Give an indicator of what movement will happen on the site when a user takes action. Allow the user the option to turn off any animation and movement.
 
 ## Additional Reading
 - [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity)
