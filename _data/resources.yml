@@ -172,7 +172,7 @@
     - url: http://jxnblk.com/colorable/demos/text/
       title: "Colorable - Color palette combination contrast tester"
     - url: http://clrs.cc/a11y/
-      title: "Colors - Mix and match color classes to create accessible themes"
+      title: "A11y Colors - Mix and match color classes to create accessible themes"
 
 - resource-category: Talks (Video)
   section-id: talks
@@ -223,8 +223,3 @@
       title: "Sass a11y"
     - url: http://tenon.io/
       title: "Tenon.io Accessibility Testing API"
-    - url: http://jxnblk.com/colorable/demos/text/
-      title: "Colorable - Color palette combination contrast tester"
-    - url: http://clrs.cc/a11y/
-      title: "Colors - Mix and match color classes to create accessible themes"
-
