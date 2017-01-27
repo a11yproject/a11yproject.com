@@ -38,7 +38,7 @@
     - url: http://www.nvda-project.org/
       title: "NVDA"
       description: "Desktop App (Win only)"
-    - url: https://projects.gnome.org/orca/  # Redirects to: https://wiki.gnome.org/Projects/Orca
+    - url: https://wiki.gnome.org/Projects/Orca
       title: "Orca Screen Reader"
       description: "By GNOME, Extensible screen reader (Linux only)"
     - url: http://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/
@@ -142,8 +142,8 @@
       title: "Karl Grove's web accessibility blog"
       #description: ""
     - url: http://dboudreau.tumblr.com/
-      title: "Denis Boudreau's blog: a11yTips"
-      #description: ""
+      title: "a11yTips Blog"
+      description: "By Denis Boudreau"
 
 - resource-category: Further Reading
   section-id: further-reading
@@ -170,7 +170,7 @@
       description: "By Dive Into Accessibility (2002)"
     - url: https://www.google.com/accessibility/
       title: "Google Accessibility"
-      #description: ""
+      description: "Resources and Tools to help everyone access and enjoy the web."
     - url: http://heydonworks.com/practical_aria_examples/
       title: "Practical ARIA Examples"
       description: "By heydonworks.com (2014)"
@@ -298,7 +298,7 @@
     - url: http://www.meetup.com/find/?allMeetups=false&keywords=a11y&radius=Infinity&sort=recommended&eventFilter=mysugg
       title: "Accessibility Meetups"
       description: "By MeetUp.com"
-    - url: http://www.accessify.com/search?q=accessibility  # No longer online: http://www.accessifyforum.com/
+    - url: http://www.accessify.com/search?q=accessibility
       title: "Accessibility Topics on Accessify"
       #description: ""
     - url: http://ux.stackexchange.com/questions/tagged/accessibility
@@ -307,7 +307,7 @@
     - url: http://stackoverflow.com/questions/tagged/accessibility
       title: "Web Accessibility content tagged on StackOverflow"
       #description: ""
-    - url: https://medium.com/tag/web-accessibility  # Old link 404's: https://medium.com/web-accessibility/8f7161340cc1
+    - url: https://medium.com/tag/web-accessibility
       title: "Web Accessibility content tagged on Medium.com"
       #description: ""
     - url: http://webaim.org/discussion/
@@ -327,5 +327,5 @@
       title: "Sass a11y"
       description: "A Compass plugin"
     - url: http://tenon.io/
-      title: "Tenon.io Accessibility Testing API"
-      #description: ""
+      title: "Accessibility Testing API"
+      description: "By Tenon.io"
