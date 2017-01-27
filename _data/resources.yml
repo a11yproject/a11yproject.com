@@ -38,7 +38,7 @@
     - url: http://www.nvda-project.org/
       title: "NVDA"
       description: "Desktop App (Win only)"
-    - url: https://projects.gnome.org/orca/ # Redirects to: https://wiki.gnome.org/Projects/Orca
+    - url: https://projects.gnome.org/orca/  # Redirects to: https://wiki.gnome.org/Projects/Orca
       title: "Orca Screen Reader"
       description: "By GNOME, Extensible screen reader (Linux only)"
     - url: http://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/
@@ -157,15 +157,15 @@
     - url: http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/
       title: "Accessibility Checklist Article"
       description: "By Cameron Moll (2008)"
-    - url: http://cameronmoll.com/downloads/Web_Accessibility_Checklist.pdf"
+    - url: http://cameronmoll.com/downloads/Web_Accessibility_Checklist.pdf
       title: "Accessibility Checklist [PDF]"
       description: "By Aaron Cannon (2008)"
-    - url: http://www.apple.com/accessibility"
+    - url: http://www.apple.com/accessibility
       title: "Apple’s Commitment to Accessibility"
-    - url: https://mobiforge.com/design-development/why-mobile-web-accessibility-matters-best-practices-make-your-mobile-site-accessi"
+    - url: https://mobiforge.com/design-development/why-mobile-web-accessibility-matters-best-practices-make-your-mobile-site-accessi
       title: "Best practices to make your mobile site accessible"
       description: "By mobiforge.com (2012)"
-    - url: http://diveintoaccessibility.info/table_of_contents.html"
+    - url: http://diveintoaccessibility.info/table_of_contents.html
       title: "30 days to a more accessible web site"
       description: "By Dive Into Accessibility (2002)"
     - url: https://www.google.com/accessibility/
@@ -177,7 +177,7 @@
     - url: http://a11y.nicolas-hoffmann.net/
       title: "jQuery simple and accessible hide-show system (collapsible regions), using ARIA"
       description: "By Nicolas Hoffmann (2016)"
-    - url: http://wearecolorblind.com"
+    - url: http://wearecolorblind.com
       title: "We are Color Blind"
       description: "by Tom van Beveren"
     - url: http://webaim.org/resources/designers/
@@ -245,7 +245,7 @@
     - url: http://khan.github.io/tota11y/
       title: "tota11y"
       description: "An Accessibility Visualization Toolkit"
-    - url: http://howlowck.github.com/Akbar"
+    - url: http://howlowck.github.com/Akbar
       title: "Akbar"
       description: "User Experience Simulation Bookmarklet"
     - url: http://wave.webaim.org/
