@@ -55,6 +55,8 @@
       title: "W3C: WAI-ARIA Specification"
     - url: http://www.w3.org/WAI/tutorials/
       title: "W3C: Web Accessibility Tutorials"
+    - url: https://frend.co/
+      title: "Frend - A collection of accessible, modern front-end components"
 
 - resource-category: Courses
   section-id: courses
@@ -167,6 +169,10 @@
       title: "User Experience Simulation Bookmarklet"
     - url: http://wave.webaim.org/
       title: "WAVE - web accessibility evaluation tool"
+    - url: http://jxnblk.com/colorable/demos/text/
+      title: "Colorable - Color palette combination contrast tester"
+    - url: http://clrs.cc/a11y/
+      title: "A11y Colors - Mix and match color classes to create accessible themes"
 
 - resource-category: Talks (Video)
   section-id: talks
@@ -217,4 +223,3 @@
       title: "Sass a11y"
     - url: http://tenon.io/
       title: "Tenon.io Accessibility Testing API"
-
