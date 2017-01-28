@@ -35,3 +35,6 @@ gems:
 
 feed:
   path: atom.xml
+
+sass:
+  style: :compressed
