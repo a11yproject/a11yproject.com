@@ -1,0 +1,10 @@
+language: ruby
+script: bundle exec rake test
+notifications:
+  email: false
+branches:
+  only:
+    - gh-pages
+    - /.*/
+sudo: false
+cache: bundler
