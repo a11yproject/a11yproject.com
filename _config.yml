@@ -31,3 +31,7 @@ google_analytics:
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: atom.xml
