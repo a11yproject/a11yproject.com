@@ -11,6 +11,8 @@
       title: "Colour Contrast Analyser (Mac/Win)"
     - url: https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl
       title: "NoCoffee (Chrome Extension)        "
+    - url: https://michelf.ca/projects/sim-daltonism/
+      title: "Sim Daltonism (Mac/iOS)"
     - url: https://www.paciellogroup.com/resources/wat/
       title: "WAT (IE)"
     - url: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
@@ -53,6 +55,8 @@
       title: "W3C: WAI-ARIA Specification"
     - url: http://www.w3.org/WAI/tutorials/
       title: "W3C: Web Accessibility Tutorials"
+    - url: https://frend.co/
+      title: "Frend - A collection of accessible, modern front-end components"
 
 - resource-category: Courses
   section-id: courses
@@ -119,8 +123,10 @@
       title: "Google Accessibility"
     - url: http://heydonworks.com/practical_aria_examples/
       title: "Practical ARIA Examples (2014)"
-    - url: http://a11y.nicolas-hoffmann.net/
+    - url: https://a11y.nicolas-hoffmann.net/
       title: "Accessibility section - jQuery Plugins using ARIA (2016)"
+    - url: https://van11y.net/
+      title: "Van11y (Vanilla Accessibility) - A collection of accessible scripts, made in ES2015, IE9+ compatible (2016)"
     - url: http://wearecolorblind.com"
       title: "We are Color Blind by Tom van Beveren"
     - url: http://webaim.org/resources/designers/
@@ -163,6 +169,10 @@
       title: "User Experience Simulation Bookmarklet"
     - url: http://wave.webaim.org/
       title: "WAVE - web accessibility evaluation tool"
+    - url: http://jxnblk.com/colorable/demos/text/
+      title: "Colorable - Color palette combination contrast tester"
+    - url: http://clrs.cc/a11y/
+      title: "A11y Colors - Mix and match color classes to create accessible themes"
 
 - resource-category: Talks (Video)
   section-id: talks
@@ -213,4 +223,3 @@
       title: "Sass a11y"
     - url: http://tenon.io/
       title: "Tenon.io Accessibility Testing API"
-
