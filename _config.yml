@@ -3,6 +3,7 @@
 permalink: /posts/:title/
 exclude: ['Rakefile', 'README.md', 'config.rb', "Gemfile", "Gemfile.lock", "vendor"]
 markdown: kramdown
+url: http://a11yproject.com
 
 # configuration required for some pages
 
@@ -27,3 +28,6 @@ google_analytics:
 
 # disqus:
 #   id: disqusid
+
+gems:
+  - jekyll-sitemap
