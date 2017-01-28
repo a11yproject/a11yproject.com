@@ -18,11 +18,12 @@ permalink: resources.html
     </ul>
 </section>
 
-{% for category in site.data.resources  %}
+{% for category in site.data.resources %}
 <section id="{{category.section-id}}" class="article-section resources-section" tabindex="-1">
     <h3 class="article-section__title">{{ category.resource-category }}</h3>
     <ul class="article-section__content">
-    {% for resource in category.resources | sort: 'title' %}
+    {% assign sorted_resources = (category.resources | sort: 'title') %}
+    {% for resource in sorted_resources %}
       <li>
         <a href="{{ resource.url }}" rel="external">
           {{resource.title}}

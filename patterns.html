@@ -27,7 +27,8 @@ permalink: patterns.html
           <li>
             {{category.sub-category}}
             <ul>
-              {% for pattern in category.sub-category-patterns | sort: 'title' %}
+              {% assign sorted_subcategory = (category.sub-category-patterns | sort: 'title') %}
+              {% for pattern in sorted_subcategory %}
                 <li>
                   <a href="{{ pattern.url }}" rel="external">
                     {{pattern.title}}
@@ -37,22 +38,15 @@ permalink: patterns.html
             </ul>
           </li>
         </ul>
-        {% for pattern in category.patterns | sort: 'title' %}
-          <li>
-            <a href="{{ pattern.url }}" rel="external">
-              {{pattern.title}}
-            </a>
-          </li>
-        {% endfor %}
-      {% else %}
-      {% for pattern in category.patterns | sort: 'title' %}
+      {% endif %}
+      {% assign sorted_category = (category.patterns | sort: 'title') %}
+      {% for pattern in sorted_category %}
         <li>
           <a href="{{ pattern.url }}" rel="external">
             {{pattern.title}}
           </a>
         </li>
       {% endfor %}
-      {% endif %}
     </ul>
 </section>
 {% endfor %}
