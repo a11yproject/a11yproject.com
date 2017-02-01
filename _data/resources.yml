@@ -25,6 +25,9 @@
     - url: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
       title: "WAVE Toolbar"
       description: "Chrome Extension (Mac/Win)"
+    - url: https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia
+      title: "ExtensionI want to see like the colour blind"
+      description: "Chrome Extension (Mac/Win)"
 
 - resource-category: Screen Readers
   section-id: screen-readers
