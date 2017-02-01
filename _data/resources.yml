@@ -110,6 +110,9 @@
     - url: https://rosenfeldmedia.com/books/a-web-for-everyone/
       title: "A Web for Everyone - Designing Accessible User Experiences"
       description: "by Sarah Horton &amp; Whitney Quesenbery"
+    - url: https://shop.smashingmagazine.com/products/apps-for-all
+      title: "Apps For All: Coding Accessible Web Applications"
+      description: "by Heydon Pickering"      
 
 - resource-category: Blogs
   section-id: blogs
