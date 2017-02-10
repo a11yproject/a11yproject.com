@@ -71,3 +71,5 @@ A few well-reviewed services include:
 - [http://verbalink.com/](http://verbalink.com/)
 - [https://www.speechpad.com/](https://www.speechpad.com/)
 - [http://www.rev.com/transcription](http://www.rev.com/transcription)
+
+There is also a free to use [HTML5 Video Caption Maker](http://samples.msdn.microsoft.com/Workshop/samples/media/captionmaker/default.html) tool available to help transcribe your own videos.
