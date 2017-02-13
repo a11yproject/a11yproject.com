@@ -1,0 +1,94 @@
+- pattern-category: Menus
+  section-id: menus
+  patterns:
+    - url: "http://codepen.io/grayghostvisuals/pen/d7d131e58a33665d24ea0881c01a02b8"
+      title: "Dropdown"
+    - url: "http://adobe-accessibility.github.io/Accessible-Mega-Menu"
+      title: "Mega Dropdown"
+    - url: "http://codepen.io/svinkle/pen/LDKwA"
+      title: "Mobile Toggle"
+    - url: "http://codepen.io/grayghostvisuals/pen/IkmGF"
+      title: "Off Canvas Push"
+
+- pattern-category: Imagery
+  section-id: imagery
+  patterns:
+    - url: "http://codepen.io/grayghostvisuals/pen/eyvrK"
+      title: "SVG"
+    - url: "http://codepen.io/mpiotrowicz/pen/yndxA"
+      title: "Video Element Backgrounds"
+
+
+- pattern-category: Accordions &amp; Tabs
+  section-id: accordions-and-tabs
+  patterns:
+    - url: "http://codepen.io/svinkle/pen/mKfru"
+      title: "Simple Accordion"
+    - url: "http://codepen.io/svinkle/pen/edmDF"
+      title: "Simple Tabs"
+    - url: "http://codepen.io/mpiotrowicz/pen/gocmu"
+      title: "Responsive Tabs to Accordion"
+    - url: "http://codepen.io/BeyondHyper/pen/xZXXzj"
+      title: "Simple Responsive Tabs (Vanilla JS)"
+
+- pattern-category: Buttons
+  section-id: buttons
+  patterns:
+    - url: "http://codepen.io/grayghostvisuals/pen/HhiAz"
+      title: "Form Submission"
+    - url: "http://codepen.io/svinkle/pen/FHGBh"
+      title: "Single Toggle (anchor)"
+
+- pattern-category: Anchors/Links
+  section-id: anchors-links
+  patterns:
+    - url: "http://codepen.io/joe-watkins/pen/rjhiK"
+      title: "Skip To Content"
+  sub-category: "Read More Links"
+  sub-category-patterns:
+    - url: "http://codepen.io/svinkle/pen/Jmlbw"
+      title: "hidden &lt;span&gt;"
+    - url: "http://codepen.io/grayghostvisuals/pen/Gtoua"
+      title: "aria-labelledby"
+    - url: "http://codepen.io/joe-watkins/pen/xaDbJ"
+      title: "aria-label"
+
+- pattern-category: Modal Windows
+  section-id: modal-windows
+  patterns:
+    - url: "http://codepen.io/BeyondHyper/pen/NREjpP"
+      title: "The Incredible Accessible Modal Window, Version 3"
+    - url: "http://codepen.io/scottohara/pen/lIdfv"
+      title: "An accessible Modal Window with JavaScript & CSS"
+
+- pattern-category: Tables
+  section-id: tables
+  patterns:
+    - url: "http://codepen.io/svinkle/pen/zmlEi"
+      title: "Simple Data Table"
+
+- pattern-category: Tooltips
+  section-id: tooltips
+  patterns:
+    - url: "http://codepen.io/mpiotrowicz/pen/PwQYMd"
+      title: "Form field with icon-based tooltip for extra field information"
+
+- pattern-category: Labelling
+  section-id: labelling
+  patterns:
+    - url: "http://codepen.io/svinkle/pen/eNPyEB"
+      title: "Using aria-labelledby with Lists"
+
+- pattern-category: Video Players
+  section-id: video-players
+  patterns:
+    - url: "https://github.com/ableplayer/ableplayer"
+      title: "Able Player"
+    - url: "http://github.com/paypal/accessible-html5-video-player/"
+      title: "Accessible HTML5 Video Player"
+
+- pattern-category: Other
+  section-id: other
+  patterns:
+    - url: "http://codepen.io/svinkle/pen/yDAiG"
+      title: "Content Touch Target"
