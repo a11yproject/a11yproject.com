@@ -9,6 +9,8 @@
       title: "Mobile Toggle"
     - url: "http://codepen.io/grayghostvisuals/pen/IkmGF"
       title: "Off Canvas Push"
+    - url: "https://a11y.nicolas-hoffmann.net/subnav-dropdown/"
+      title: "jQuery accessible keyboard-enhanced dropdown navigation"
 
 - pattern-category: Imagery
   section-id: imagery
