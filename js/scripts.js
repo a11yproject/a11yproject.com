@@ -30,11 +30,6 @@ $(document).ready(function(){
   }
 
   function removeWaypoints(element) {
-    // waypoint classes that need to be added
-    $(element).removeClass('waypoint-section');
-
-    // get the ID of the section
-    var id = $(element).attr('id');
     // destroys all active waypoints
     Waypoint.destroyAll();
   }
@@ -59,8 +54,9 @@ $(document).ready(function(){
     var windowWidth = $(window).width() / parseFloat($("html").css("font-size"));
 
     if(windowWidth < 53) { // accordion view
+
       // remove waypoints and waypoint semantics
-      removeWaypoints(element);
+      removeWaypoints();
 
     } else { // desktop view
 
