@@ -38,4 +38,4 @@ Skip nav links are useful for users who use keyboard navigation only, but screen
 ### Notes
 * Jim Thatcher pioneered skip navigation links [as early as 1998](http://www.jimthatcher.com/skipnavold.htm)
 * An example of a [javascript polyfill by Nicholas C. Zakas](http://www.nczonline.net/blog/2013/01/15/fixing-skip-to-content-links/).
-* An alternative non-Javascript method would be to add tabindex=-1 or 0 to elements that don't normally receive focus. This adds them to the tab order. The bug in Chrome looks to apply to anchors as well. However, the tabindex bypasses the issue. 
+* An alternative non-Javascript method would be to add tabindex=-1 or 0 to elements that don't normally receive focus. This adds them to the tab order. [The bug in Chrome](https://code.google.com/p/chromium/issues/detail?id=37721) looks to apply to anchors as well. However, the tabindex bypasses the issue.
