@@ -343,3 +343,6 @@
     - url: http://tenon.io/
       title: "Accessibility Testing API"
       description: "By Tenon.io"
+    - url: https://packagecontrol.io/packages/WAI-ARIA
+      title: "Sublime WAI-ARIA"
+      description: "WAI-ARIA Roles, States and Properties auto-completion for Sublime Text"
