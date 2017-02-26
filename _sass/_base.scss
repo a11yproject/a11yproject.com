@@ -37,6 +37,21 @@
     width: 1px;
 }
 
+/*
+  use when hiding text inline
+  webkit and blink will read text in order
+  .screen-reader-text will read text out of order
+*/
+.screen-reader-text-inline {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 0;
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
 .screen-reader-text:hover,
 .screen-reader-text:active,
 .screen-reader-text:focus {
