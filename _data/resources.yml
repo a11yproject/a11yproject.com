@@ -268,6 +268,9 @@
     - url: http://www.dmoz.org/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/
       title: "DMOZ"
       description: "List of online accessibility tools"
+    - url: https://toolness.github.io/accessible-color-matrix/
+      title: "Accessible color palette builder"
+      description: "An Elm-based prototype to help designers build accessible color palettes."
 
 - resource-category: Talks (Video)
   section-id: talks
