@@ -1,0 +1,348 @@
+- resource-category: Software
+  section-id: software
+  resources:
+    - url: https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en
+      title: "Chrome Accessibility Tools"
+      description: "Chrome Extension (Mac/Win)"
+    - url: https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll/related
+      title: "Color Contrast Analyzer"
+      description: "Chrome Extension (Mac/Win)"
+    - url: http://colororacle.org/
+      title: "Color Oracle"
+      description: "App (Mac/Win/Linux)"
+    - url: https://www.paciellogroup.com/resources/contrastanalyser/
+      title: "WCAG 2.0 Colour Contrast Analyser (CCA)"
+      description: "By The Paciello Group, Desktop App (Mac/Win)"
+    - url: https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl
+      title: "NoCoffee"
+      description: "Chrome Extension (Mac/Win)"
+    - url: https://michelf.ca/projects/sim-daltonism/
+      title: "Sim Daltonism"
+      description: "Desktop App (Mac/iOS)"
+    - url: https://www.paciellogroup.com/resources/wat/
+      title: "Web Accessibility Toolbar (WAT)"
+      description: "By The Paciello Group, IE Extension (Win only)"
+    - url: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
+      title: "WAVE Toolbar"
+      description: "Chrome Extension (Mac/Win)"
+    - url: https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia
+      title: "I want to see like the colour blind"
+      description: "Chrome Extension (Mac/Win)"
+
+- resource-category: Screen Readers
+  section-id: screen-readers
+  resources:
+    - url: http://www.chromevox.com/
+      title: "Chrome Vox"
+      description: "Chrome Extension (Mac/Win/ChromeOS)"
+    - url: http://www.freedomscientific.com/products/fs/jaws-product-page.asp
+      title: "JAWS"
+      description: "Desktop App (Win only)"
+    - url: http://www.nvda-project.org/
+      title: "NVDA"
+      description: "Desktop App (Win only)"
+    - url: https://wiki.gnome.org/Projects/Orca
+      title: "Orca Screen Reader"
+      description: "By GNOME, Extensible screen reader (Linux only)"
+    - url: http://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/
+      title: "Basic screen reader commands for accessibility testing"
+      description: "By The Paciello Group"
+    - url: http://www.apple.com/accessibility/iphone/vision.html
+      title: "VoiceOver"
+      description: "By Apple, iPhone App (iOS)"
+    - url: http://www.apple.com/accessibility/voiceover/
+      title: "VoiceOver"
+      description: "By Apple, Desktop App (Mac)"
+
+- resource-category: HTML Related
+  section-id: html-related
+  resources:
+    - url: http://paypal.github.io/bootstrap-accessibility-plugin/
+      title: "Bootstrap accessibility plugin"
+      description: "By PayPal"
+    - url: http://stevefaulkner.github.io/HTML5accessibility/
+      title: "HTML5 Accessibility"
+      description: "By Steve Faulkner"
+    - url: http://dylanb.github.io/periodic-aria-roles.html
+      title: "Periodic Table of ARIA roles"
+      description: "By dylanb"
+    - url: http://www.w3.org/WAI/PF/aria-practices/
+      title: "Recommended ARIA usage by feature"
+      description: "By W3C"
+    - url: http://rawgithub.com/w3c/aria-in-html/master/index.html
+      title: "Using ARIA with HTML"
+      description: "By W3C"
+    - url: http://www.w3.org/TR/wai-aria/
+      title: "WAI-ARIA Specification"
+      description: "By W3C"
+    - url: http://www.w3.org/WAI/tutorials/
+      title: "Web Accessibility Tutorials"
+      description: "By W3C"
+    - url: https://frend.co/
+      title: "A collection of accessible, modern front-end components"
+      description: "By Frend"
+
+- resource-category: Courses
+  section-id: courses
+  resources:
+    - url: https://www.udacity.com/course/web-accessibility--ud891
+      title: "Web Accessibility by Google - Developing with Empathy"
+      description: "By udacity.com"
+    - url: https://egghead.io/courses/start-building-accessible-web-applications-today
+      title: "Start Building Accessible Web Applications Today"
+      description: "By egghead.io"
+
+- resource-category: Books
+  section-id: books
+  resources:
+    - url: http://www.amazon.com/Adaptive-Web-Design-Experiences-Progressive/dp/098358950X
+      title: "Adaptive Web Design"
+      description: "by Aaron Gustafson"
+    - url: http://www.amazon.com/Designing-Progressive-Enhancement-Building-Everyone/dp/0321658884/
+      title: "Designing with Progressive Enhancement"
+      description: "by The Filament Group"
+    - url: http://www.amazon.com/Designing-Web-Standards-Jeffrey-Zeldman/dp/0321616952
+      title: "Designing with Web Standards"
+      description: "by Jeffrey Zeldman"
+    - url: http://www.amazon.com/Pro-HTML5-Accessibility-Professional-Apress/dp/1430241942
+      title: "Pro HTML5 Accessibility"
+      description: "by Joshue O Connor"
+    - url: http://www.amazon.com/Web-Accessibility-Standards-Regulatory-Compliance/dp/1590596382
+      title: "Web Accessibility: Web Standards and Regulatory Compliance"
+      description: "by Jim Thatcher"
+    - url: https://rosenfeldmedia.com/books/a-web-for-everyone/
+      title: "A Web for Everyone - Designing Accessible User Experiences"
+      description: "by Sarah Horton &amp; Whitney Quesenbery"
+    - url: https://shop.smashingmagazine.com/products/apps-for-all
+      title: "Apps For All: Coding Accessible Web Applications"
+      description: "by Heydon Pickering"      
+    - url: https://shop.smashingmagazine.com/products/inclusive-design-patterns
+      title: "Inclusive Design Patterns"
+      description: "by Heydon Pickering"
+
+- resource-category: Blogs
+  section-id: blogs
+  resources:
+    - url: http://www.456bereastreet.com/
+      title: "456 Berea Street"
+      #description: ""
+    - url: http://www.a11ybuzz.com/
+      title: "A11y Buzz"
+      #description: ""
+    - url: http://www.accessibleculture.org/
+      title: "Accessible Culture"
+      #description: ""
+    - url: http://a11ywins.tumblr.com/
+      title: "Accessibility Wins"
+      #description: ""
+    - url: http://www.paciellogroup.com/
+      title: "The Paciello Group Blog"
+      #description: ""
+    - url: http://webaim.org/blog/
+      title: "WebAIM Blog"
+      #description: ""
+    - url: http://www.webaxe.org/
+      title: "WebAxe Blog and Podcast"
+    - url: https://yahooaccessibility.tumblr.com/
+      title: "Yahoo! Accessibility Blog"
+      #description: ""
+    - url: http://www.karlgroves.com/
+      title: "Karl Grove's web accessibility blog"
+      #description: ""
+    - url: http://dboudreau.tumblr.com/
+      title: "a11yTips Blog"
+      description: "By Denis Boudreau"
+
+- resource-category: Further Reading
+  section-id: further-reading
+  resources:
+    - url: http://vimeo.com/1157346
+      title: "Aaron Cannon, Blind Web Developer"
+      description: "(2007) [Video]"
+    - url: http://bitsofco.de/2015/the-accessibility-cheatsheet/
+      title: "The Accessibility Cheatsheet"
+      description: "By bitsofco.de (2015)"
+    - url: http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/
+      title: "Accessibility Checklist Article"
+      description: "By Cameron Moll (2008)"
+    - url: http://cameronmoll.com/downloads/Web_Accessibility_Checklist.pdf
+      title: "Accessibility Checklist [PDF]"
+      description: "By Aaron Cannon (2008)"
+    - url: http://www.apple.com/accessibility
+      title: "Apple’s Commitment to Accessibility"
+    - url: https://mobiforge.com/design-development/why-mobile-web-accessibility-matters-best-practices-make-your-mobile-site-accessi
+      title: "Best practices to make your mobile site accessible"
+      description: "By mobiforge.com (2012)"
+    - url: http://diveintoaccessibility.info/table_of_contents.html
+      title: "30 days to a more accessible web site"
+      description: "By Dive Into Accessibility (2002)"
+    - url: https://www.google.com/accessibility/
+      title: "Google Accessibility"
+      description: "Resources to help everyone access and enjoy the web."
+    - url: http://heydonworks.com/practical_aria_examples/
+      title: "Practical ARIA Examples"
+      description: "By heydonworks.com (2014)"
+    - url: http://a11y.nicolas-hoffmann.net/
+      title: "jQuery simple and accessible hide-show system (collapsible regions), using ARIA"
+      description: "By Nicolas Hoffmann (2016)"
+    - url: http://wearecolorblind.com
+      title: "We are Color Blind"
+      description: "by Tom van Beveren"
+    - url: http://webaim.org/resources/designers/
+      title: "Web Accessibility for Designers [Infographic]"
+      description: "By WebAIM"
+    - url: https://developers.google.com/web/fundamentals/accessibility/
+      title: "Web Fundamentals: Accessibility"
+      description: "By Google (2016)"
+    - url: https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
+      title: "A11ycasts"
+      description: "YouTube Playlist (2017)"
+    - url: http://www.webaim.org/techniques/skipnav/
+      title: "WebAIM: Skip Navigation"
+      description: "By WebAIM"
+    - url: http://webaim.org/blog/motivating-accessibility-change/
+      title: "WebAIM’s Hierarchy for Motivating Accessibility Change"
+      description: "By WebAIM"
+    - url: https://www.nngroup.com/topic/accessibility/
+      title: "NNG Topic - Accessibility"
+      description: "By Nielsen Norman Group"
+    - url: http://webaim.org/articles/screenreader_testing/
+      title: "Testing with Screen Readers"
+      description: "By WebAIM"
+
+- resource-category: Professional Help
+  section-id: professional-help
+  resources:
+    - url: http://www.deque.com/
+      title: "Deque"
+      #description: ""
+    - url: http://www.knowbility.org/
+      title: "Knowbility"
+      #description: ""
+    - url: http://www.paciellogroup.com/
+      title: "The Paciello Group"
+      #description: ""
+    - url: http://simplyaccessible.com/
+      title: "Simply Accessible"
+      #description: ""
+    - url: http://webaim.org/
+      title: "WebAIM"
+      #description: ""
+    - url: http://www.ssbbartgroup.com/
+      title: "SSB Bart Group"
+      #description: ""
+
+- resource-category: Online Tools
+  section-id: online-tools
+  resources:
+    - url: http://colorfilter.wickline.org/
+      title: "Color Filter"
+      description: "Colorblind Web Page Filter"
+    - url: http://leaverou.github.com/contrast-ratio
+      title: "Contrast Ratio"
+      description: "By Lea Verou"
+    - url: http://www.dasplankton.de/ContrastA/
+      title: "Contrast-A"
+      description: "Accessible color combinations tool"
+    - url: http://squizlabs.github.com/HTML_CodeSniffer/
+      title: "HTML_CodeSniffer"
+      description: "By Squiz Labs"
+    - url: http://keycode.info/
+      title: "JavaScript Event KeyCodes"
+      description: "By keycode.info"
+    - url: http://khan.github.io/tota11y/
+      title: "tota11y"
+      description: "An Accessibility Visualization Toolkit"
+    - url: http://howlowck.github.com/Akbar
+      title: "Akbar"
+      description: "User Experience Simulation Bookmarklet"
+    - url: http://wave.webaim.org/
+      title: "WAVE"
+      description: "Web accessibility evaluation tool"
+    - url: http://jxnblk.com/colorable/demos/text/
+      title: "Colorable"
+      description: "Color palette combination contrast tester"
+    - url: http://clrs.cc/a11y/
+      title: "A11y Colors"
+      description: "Mix and match color classes to create accessible themes"
+    - url: http://www.accessify.com/
+      title: "Accessify"
+      description: "A collection of accessibility tools"
+    - url: http://www.dmoz.org/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/
+      title: "DMOZ"
+      description: "List of online accessibility tools"
+    - url: https://toolness.github.io/accessible-color-matrix/
+      title: "Accessible color palette builder"
+      description: "An Elm-based prototype to help designers build accessible color palettes."
+
+- resource-category: Talks (Video)
+  section-id: talks
+  resources:
+    - url: http://www.youtube.com/watch?v=Fe1behOSjdU&list=PLb_ziuDPiUzZkc077IW3_rDcqX1OC8VbV&index=16
+      title: "The rock'n'roll guide to ARIA and HTML5"
+      description: "Generate Conference (2013)"
+    - url: https://www.youtube.com/watch?v=YyWu9HB9QtU
+      title: "Advancing Web Accessibility with ChromeVox"
+      description: "Google I/O (2013)"
+    - url: http://vimeo.com/77860167
+      title: "HTML5 Accessibility (Steve Faulkner)"
+      description: "Paris Web (2013)"
+    - url: https://www.youtube.com/watch?v=E0ojKLzXoZ4
+      title: "Multi-device Accessibility (Alice Boxhall)"
+      description: "Chrome Dev Summit (2013)"
+    - url: http://vimeo.com/73913824
+      title: "Accessibility Mythbusting"
+      description: "WDCNZ (2013)"
+    - url: http://vimeo.com/73914110
+      title: "The Accessibility Panel"
+      description: "WDCNZ (2013)"
+    - url: http://vimeo.com/73427435
+      title: "Make Your Widgets Sing With ARIA"
+      description: "WDCNZ (2013)"
+    - url: https://www.youtube.com/watch?v=2qjgxH384Nc
+      title: "Accessibility is My Favorite Part of the Platform"
+      description: "Google I/O (2016)"
+    - url: https://www.youtube.com/watch?v=8dr_IUGwsO0
+      title: "PWAs in any context"
+      description: "Progressive Web App Summit (2016)"
+
+- resource-category: Community Help
+  section-id: community-help
+  resources:
+    - url: http://www.meetup.com/find/?allMeetups=false&keywords=a11y&radius=Infinity&sort=recommended&eventFilter=mysugg
+      title: "Accessibility Meetups"
+      description: "By MeetUp.com"
+    - url: http://www.accessify.com/search?q=accessibility
+      title: "Accessibility Topics on Accessify"
+      #description: ""
+    - url: http://ux.stackexchange.com/questions/tagged/accessibility
+      title: "Web Accessibility content tagged on StackExchange"
+      #description: ""
+    - url: http://stackoverflow.com/questions/tagged/accessibility
+      title: "Web Accessibility content tagged on StackOverflow"
+      #description: ""
+    - url: https://medium.com/tag/web-accessibility
+      title: "Web Accessibility content tagged on Medium.com"
+      #description: ""
+    - url: http://webaim.org/discussion/
+      title: "WebAIM Mailing List"
+      description: "For anyone interested in discussing web accessibility issues"
+
+- resource-category: Development Tools
+  section-id: development-tools
+  resources:
+    - url: http://allyjs.io/
+      title: "ally.js"
+      description: "Helps JavaScript applications become more accessible"
+    - url: http://quailjs.org/
+      title: "Quail JS Testing Plugin"
+      description: "A jQuery plugin for checking content against accessibility guidelines"
+    - url: https://github.com/at-import/sass-a11y
+      title: "Sass a11y"
+      description: "A Compass plugin"
+    - url: http://tenon.io/
+      title: "Accessibility Testing API"
+      description: "By Tenon.io"
+    - url: https://packagecontrol.io/packages/WAI-ARIA
+      title: "Sublime WAI-ARIA"
+      description: "WAI-ARIA Roles, States and Properties auto-completion for Sublime Text"

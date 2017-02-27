@@ -13,7 +13,7 @@ One of the great things about the internet is the ability to share video. With H
 
 In addition to making video accessible to those with hearing issues, having a transcript on the page can provide you localization of a video not always available in the local language. With a transcript on your page, you may increase your search engine rankings by making your content easily indexed by search engine crawl spiders.
 
-So how do we pull off putting captions into a video after the video has been produced? Fortunately the HTML5 video tag has a solution for us. We have to provide a transcript file in either XML or a VTT as a track element after your video source files.
+So how do we pull off putting captions into a video after the video has been produced? Fortunately, the HTML5 video tag has a solution for us. We have to provide a transcript file in either XML or a VTT as a track element after your video source files.
 
 
     <video class="span12 readable" poster="your-video-poster.jpg" controls tabindex="0" title="My Movie">
@@ -65,9 +65,11 @@ In addition to the VTT file format, you can also use TTML (Time Text Markup Lang
 
 
 ## Transcribing
-Now that you know how to implement it, you need to transcribe all of your videos. You can watch, and rewatch, and rewatch them to capture all of the talking perfectly timed (I watched that Alice in Wonderland trailer 30 or 40 times and it is only a minute long). However there are services that can handle the transcription for you. These will typically start at $1 per minute for transcription with a fee of $0.25 per minute for the needed timestamping.
+Now that you know how to implement it, you need to transcribe all of your videos. You can watch, and rewatch, and rewatch them to capture all of the talking perfectly timed (I watched that Alice in Wonderland trailer 30 or 40 times and it is only a minute long). However, there are services that can handle the transcription for you. These will typically start at $1 per minute for transcription with a fee of $0.25 per minute for the needed timestamping.
 
 A few well-reviewed services include:
 - [http://verbalink.com/](http://verbalink.com/)
 - [https://www.speechpad.com/](https://www.speechpad.com/)
 - [http://www.rev.com/transcription](http://www.rev.com/transcription)
+
+There is also a free to use [HTML5 Video Caption Maker](http://samples.msdn.microsoft.com/Workshop/samples/media/captionmaker/default.html) tool available to help transcribe your own videos.

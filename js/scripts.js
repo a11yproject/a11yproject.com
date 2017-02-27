@@ -30,11 +30,6 @@ $(document).ready(function(){
   }
 
   function removeWaypoints(element) {
-    // waypoint classes that need to be added
-    $(element).removeClass('waypoint-section');
-
-    // get the ID of the section
-    var id = $(element).attr('id');
     // destroys all active waypoints
     Waypoint.destroyAll();
   }
@@ -59,8 +54,9 @@ $(document).ready(function(){
     var windowWidth = $(window).width() / parseFloat($("html").css("font-size"));
 
     if(windowWidth < 53) { // accordion view
+
       // remove waypoints and waypoint semantics
-      removeWaypoints(element);
+      removeWaypoints();
 
     } else { // desktop view
 
@@ -151,7 +147,38 @@ $(document).ready(function(){
         }
       }, // toc
 
+      lazyLoadFooter : function(target,offset){
+
+        var $target = $(target),
+            targetLoc = $target.offset().top,
+            contribsHaveLoaded = localStorage.getItem("contribsLoaded"),
+            footerLazyLoadTriggered = false,
+            $window = $(window);
+
+            if(!contribsHaveLoaded){
+
+              $window.on('scroll.lazyLoadFooter', function(e){
+
+                var scrollPos = $window.scrollTop(),
+                    targetScroll = targetLoc - offset;
+
+                    if(targetScroll <= scrollPos && !footerLazyLoadTriggered){
+                      localStorage.setItem("hasLoadedFooter",true);
+                      Engine.ui.footerContributors(); // run custom footer
+                      //footerLazyLoadTriggered = true;
+                      $window.off('scroll.lazyLoadFooter');
+                    }
+
+              });
+
+            }else{
+              Engine.ui.footerContributors(); // run custom footer
+            }
+
+      }, // lazyLoadFooter()
+
       footerContributors : function(){
+
         function gitHubContributors(){
 
           var
@@ -387,7 +414,7 @@ $(document).ready(function(){
   } // Engine
 
   Engine.ui.toc();
-  Engine.ui.footerContributors();
+  Engine.ui.lazyLoadFooter("footer[role='contentinfo']",800);
   Engine.ui.footerCopyright();
 
 });

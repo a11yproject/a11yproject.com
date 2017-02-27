@@ -35,7 +35,7 @@ Aside from using color contrast tools to determine your site's colors, there are
 
 - The larger the font and wider the stroke, the more legible it will be with lower contrast. Therefore the contrast requirement for larger font is lower. W3C recommends starting at 18pt regular weight or 14pt bold text.
 - Provide tools for users to adjust the foreground and background colors of your site on the front-end. This is especially helpful for users that need to either switch to a low contrast or a high contrast mode. This gives them more control over the contrast ratio and covers everyone using your site regardless of what kind of vision loss or color deficiency they have.
-- Steer clear of text based images and use text wherever possible. If not, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](http://a11yproject.com/posts/alt-text/).
+- Steer clear of text-based images and use text wherever possible. If not, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](http://a11yproject.com/posts/alt-text/).
 - Ensure that your placeholders in forms also have valid color contrast.
 
 ## Further Reading:
