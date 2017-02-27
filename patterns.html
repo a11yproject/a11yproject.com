@@ -19,7 +19,7 @@ permalink: patterns.html
 </section>
 
 {% for category in site.data.patterns  %}
-<section id="{{category.section-id}}" class="article-section patterns-section" tabindex="0">
+<section id="{{category.section-id}}" class="article-section patterns-section" tabindex="-1">
     <h3 class="article-section__title">{{ category.pattern-category }}</h3>
     <ul class="article-section__content">
       {% if category.sub-category %}
