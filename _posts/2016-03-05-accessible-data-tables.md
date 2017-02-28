@@ -14,7 +14,7 @@ The semantic purpose of a data table is to present tabular data. Sighted users c
 # Example of an accessible data table.
 {% highlight html %}
 	<table>
-	<caption>Monthly Budget</caption
+	<caption>Monthly Budget</caption>
 	  <thead>
 	    <tr>
 	      	<th scope="col">Month</th>
