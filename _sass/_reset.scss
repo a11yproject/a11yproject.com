@@ -72,3 +72,14 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+%focus {
+    outline-color: #4D90FE;
+    outline-offset: -2px;
+    outline-style: auto;
+    outline-width: 5px;
+}
+// add focus to images
+a:focus img {
+    @extend %focus;
+}

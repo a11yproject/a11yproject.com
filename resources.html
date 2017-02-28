@@ -19,7 +19,7 @@ permalink: resources.html
 </section>
 
 {% for category in site.data.resources  %}
-<section id="{{category.section-id}}" class="article-section resources-section" tabindex="0">
+<section id="{{category.section-id}}" class="article-section resources-section" tabindex="-1">
     <h3 class="article-section__title">{{ category.resource-category }}</h3>
     <ul class="article-section__content">
     {% for resource in category.resources | sort: 'title' %}
