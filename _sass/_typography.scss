@@ -86,6 +86,9 @@ pre {
     word-wrap: break-word;
     margin-bottom: 1.4em;
 }
+pre code {
+  background: none;
+}
 
 code {
     background: $grayLighter;
