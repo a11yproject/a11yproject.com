@@ -8,6 +8,9 @@ markdown: kramdown
 
 domain: a11yproject.com
 title: The A11Y Project
+description: A community-driven effort to make web accessibility easier.
+url: http://a11yproject.com
+avatar: /img/avatar.png
 author: Dave Rupert
 email: dave@paravelinc.com
 
