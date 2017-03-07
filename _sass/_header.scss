@@ -27,11 +27,21 @@
             &:last-child {
                 margin-right: 0;
             }
+            &.active a {
+              text-decoration: underline;
+              color: #333;
+            }
         }
 
         a {
             text-decoration: none;
         }
+
+        a:hover, a:focus {
+          color: #333;
+          text-decoration: underline;
+        }
+
 
         .logo {
             font-size: 1.4em;

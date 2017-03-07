@@ -409,6 +409,20 @@ $(document).ready(function(){
         $('.a11y-copyright').text(new Date().getFullYear())
       }, // footerCopyright
 
+      activeNav : function(el,activeClass){
+        /* Loops over nav and adds .active class to parent + visually hidden current page text */
+        $(el).find("li a").each(function(){
+          var path = document.location.pathname,
+              current_href = this.getAttribute("href");
+              if (path == current_href) {
+                $(this).html($(this).text()+"<span class='screen-reader-text-inline'>, current page</span>");
+                $(this)
+                  .addClass(activeClass)
+                  .parents("li").addClass(activeClass);
+              }
+        });
+      } // activeNav
+
     } // ui
 
   } // Engine
@@ -416,5 +430,6 @@ $(document).ready(function(){
   Engine.ui.toc();
   Engine.ui.lazyLoadFooter("footer[role='contentinfo']",800);
   Engine.ui.footerCopyright();
+  Engine.ui.activeNav("#main-navigation","active");
 
 });
