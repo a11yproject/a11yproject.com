@@ -411,7 +411,7 @@ $(document).ready(function(){
 
       activeNav : function(el,activeClass){
         /* Loops over nav and adds .active class to parent + visually hidden current page text */
-        $(el).find("li a").each(function(){
+        $(el).find("li:not('.logo') a").each(function(){
           var path = document.location.pathname,
               current_href = this.getAttribute("href");
               if (path == current_href) {
