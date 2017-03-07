@@ -77,6 +77,7 @@ ol {
 
 pre {
     background: $grayLighter;
+    line-height: 1.6;
     padding: 1em;
     white-space: pre-wrap;       /* CSS 3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -85,9 +86,14 @@ pre {
     word-wrap: break-word;
     margin-bottom: 1.4em;
 }
+pre code {
+  background: none;
+}
 
 code {
     background: $grayLighter;
+    font-family: 'Source Code Pro', Consolas, Monaco, 'Courier New', monospace;
+    font-size: 80%;
     padding: 0.1em 0.25em;
 }
 
