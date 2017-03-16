@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+script/branding
+
+bundle exec jekyll serve -w

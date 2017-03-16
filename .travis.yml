@@ -1,5 +1,5 @@
 language: ruby
-script: bundle exec rake test
+script: "./script/cibuild"
 notifications:
   email: false
 branches:
