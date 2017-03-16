@@ -23,7 +23,7 @@ There are 3 levels of visual impairment:
 
 ## The Causes?
 
-Disorders of the eye that lead to visual impairments can include [retinal degeneration](http://www.ffb.ca/eye_conditions/RD_diseases.html), [albinism](http://en.wikipedia.org/wiki/Albinism), [cataracts](http://en.wikipedia.org/wiki/Cataract), [glaucoma](http://en.wikipedia.org/wiki/Glaucoma), muscular problems, [corneal disorders](http://www.nei.nih.gov/health/cornealdisease/), [diabetic retinopathy](http://en.wikipedia.org/wiki/Diabetic_retinopathy), [congenital disorders](http://en.wikipedia.org/wiki/Congenital_disorder), infection and [cortical disorders](http://en.wikipedia.org/wiki/Cortical_visual_impairment).
+Disorders of the eye that lead to visual impairments can include [retinal degeneration](http://ffb.ca/learn/eye-diseases/), [albinism](http://en.wikipedia.org/wiki/Albinism), [cataracts](http://en.wikipedia.org/wiki/Cataract), [glaucoma](http://en.wikipedia.org/wiki/Glaucoma), muscular problems, [corneal disorders](http://www.nei.nih.gov/health/cornealdisease/), [diabetic retinopathy](http://en.wikipedia.org/wiki/Diabetic_retinopathy), [congenital disorders](http://en.wikipedia.org/wiki/Congenital_disorder), infection and [cortical disorders](http://en.wikipedia.org/wiki/Cortical_visual_impairment).
 
 Refractive errors ([myopia](http://en.wikipedia.org/wiki/Myopia), [hyperopia](http://en.wikipedia.org/wiki/Hyperopia) or [astigmatism](http://www.medicalnewstoday.com/articles/158810.php)) are typically the result of nature with 43% of visually impaired born with refractive errors that can be corrected with medication, surgery, glasses or contact lenses.
 
