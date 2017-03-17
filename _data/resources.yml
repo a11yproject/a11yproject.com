@@ -268,7 +268,7 @@
     - url: http://www.accessify.com/
       title: "Accessify"
       description: "A collection of accessibility tools"
-    - url: http://www.dmoz.org/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/
+    - url: http://dmoztools.net/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/
       title: "DMOZ"
       description: "List of online accessibility tools"
     - url: https://toolness.github.io/accessible-color-matrix/
