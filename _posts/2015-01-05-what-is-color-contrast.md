@@ -46,4 +46,4 @@ Aside from using color contrast tools to determine your site's colors, there are
 - [Basic Color Theory](http://www.colormatters.com/color-and-design/basic-color-theory) by colormatters.com
 - [Color Contrast Tips & Tools](http://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/) by Smashing Magazine
 - [Providing A Style Switcher To Switch To High Contrast](http://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/SL13) by W3C
-- [Techniques for High Contrast Icons](https://developer.yahoo.com/blogs/ydn/techniques-high-contrast-friendly-icons-153038779.html) by YDN
+- [Techniques for High Contrast Icons](http://web.archive.org/web/20160728090107/https://developer.yahoo.com/blogs/ydn/techniques-high-contrast-friendly-icons-153038779.html) by YDN

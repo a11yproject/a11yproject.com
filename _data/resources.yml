@@ -115,7 +115,7 @@
       description: "by Sarah Horton &amp; Whitney Quesenbery"
     - url: https://shop.smashingmagazine.com/products/apps-for-all
       title: "Apps For All: Coding Accessible Web Applications"
-      description: "by Heydon Pickering"      
+      description: "by Heydon Pickering"
     - url: https://shop.smashingmagazine.com/products/inclusive-design-patterns
       title: "Inclusive Design Patterns"
       description: "by Heydon Pickering"
@@ -268,7 +268,7 @@
     - url: http://www.accessify.com/
       title: "Accessify"
       description: "A collection of accessibility tools"
-    - url: http://www.dmoz.org/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/
+    - url: http://dmoztools.net/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/
       title: "DMOZ"
       description: "List of online accessibility tools"
     - url: https://toolness.github.io/accessible-color-matrix/
@@ -334,7 +334,7 @@
     - url: http://allyjs.io/
       title: "ally.js"
       description: "Helps JavaScript applications become more accessible"
-    - url: http://quailjs.org/
+    - url: https://github.com/quailjs/quail
       title: "Quail JS Testing Plugin"
       description: "A jQuery plugin for checking content against accessibility guidelines"
     - url: https://github.com/at-import/sass-a11y

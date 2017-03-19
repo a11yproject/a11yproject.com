@@ -32,10 +32,10 @@ There are also real world situations where you want to hide elements (e.g., a `f
         height: 1px !important;
         width: 1px !important;
         overflow: hidden;
-    } 
-    body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; } 
+    }
+    body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; }
 
 Consider adding these HTML classes and CSS rules to your base stylesheet and use them when applicable.
 
 [^bereast]: [Screen readers sometimes ignore display:none](http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/) 456 Berea Street (November 7, 2007)
-[^clip]: [Clip Your Hidden Content For Better Accessibility](https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html) Yahoo Accessibility Blog  (October 23, 2012)
+[^clip]: [Clip Your Hidden Content For Better Accessibility](http://web.archive.org/web/20160616144545/https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html) Yahoo Accessibility Blog  (October 23, 2012)

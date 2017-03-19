@@ -1,7 +1,7 @@
 ---
 layout: post
 title: |
-    How&ndash;to: Use role="application"
+    How&ndash;to: Use role='application'
 description: <strong>NEVER</strong> use <code>role=application</code> on a widely containing element such as <code>&lt;body&gt;</code> if your page consists mostly of traditional widgets or page elements.
 # date:
 # last_updated:
@@ -16,7 +16,7 @@ categories:
 
 1. Use sparingly.
 2. If your page has no resemblance to a classic document in roughly over 90% of its content.
-2. Use clear labels within your application.
+3. Use clear labels within your application.
 
 **Don&rsquo;t**
 
@@ -30,7 +30,7 @@ Unless you take a great deal of care in ensuring that you&rsquo;ve recreated a l
 **References**:
 
 1. [http://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely](http://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely)
-2. [https://dvcs.w3.org/hg/aria-unofficial/raw-file/tip/index.html#application](https://dvcs.w3.org/hg/aria-unofficial/raw-file/tip/index.html#application)
+2. [https://www.w3.org/TR/aria-in-html/#using-aria-role-application](https://www.w3.org/TR/aria-in-html/#using-aria-role-application)
 3. [http://www.accessibleculture.org/articles/2012/09/aria-widgets-and-focus-forms-mode-support](http://www.accessibleculture.org/articles/2012/09/aria-widgets-and-focus-forms-mode-support)
 
 [^focusmode]: Allows the user to interact with forms and <abbr title="Accessible Rich Internet Applications">ARIA</abbr>&ndash;enabled <abbr title="Hyper Text Markup Language">HTML</abbr> elements.

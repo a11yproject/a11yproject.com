@@ -3,3 +3,4 @@ _site/
 .DS_Store
 Icon
 config.codekit
+*.lock

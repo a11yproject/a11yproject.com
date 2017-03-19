@@ -18,7 +18,7 @@ We have a [list of articles](https://github.com/a11yproject/a11yproject.com/issu
 1. Search to make sure someone hasn't snagged the article already.
 2. Claim an article by starting a new issue with "Article: your title" as the issue title. The final title can (or probably should) be different.
 3. When you check&ndash;in, reference that issue number in the commit, e.g., `re: #32`
-4. Articles are written in plain text at a linkable location on the web. We recommend using GitHub's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece. When you are ready to submit the article via a pull request, we have a lovely [sample post file](_posts/example-post.md) to get you started. 
+4. Articles are written in plain text at a linkable location on the web. We recommend using GitHub's [gists](https://gist.github.com) (but [OK So Clap](http://oksoclap.com/) is another option if gists aren't your thing). Link us to your [gist](https://gist.github.com) (or your [clap](http://oksoclap.com/)) in the [issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site accordingly with your masterpiece. When you are ready to submit the article via a pull request, we have a lovely [sample post file](_posts/example-post.md) to get you started.
 
 ### Plain-text Workflow for Article Submission
 1. Make a [gist](https://gist.github.com) or a [clap](http://oksoclap.com/)
@@ -40,7 +40,7 @@ Find a great resource that you think will be useful to others?
 
 ### Writing in YAML
 
-YAML is a human readable markup language that's good for writing structured data. Even if you've never written anything in a .yml file, it shouldn't be too hard to understand the structure of the content. Yaml data is structured by spaces (you can not use tabs!), so an indented line means the content is nested within the parent. 
+YAML is a human readable markup language that's good for writing structured data. Even if you've never written anything in a .yml file, it shouldn't be too hard to understand the structure of the content. Yaml data is structured by spaces (you can not use tabs!), so an indented line means the content is nested within the parent.
 
 For example, here is an ordered list:
 
@@ -73,7 +73,7 @@ For a full cheatsheet, you can visit the [official YAML site](http://yaml.org/ab
 Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
 
 - File an issue.
-- Preface your issue as either an `inaccuracy`, a `inaccessibility`, or a `bug` (for site issues) (e.g. "Bug: Link at archive not working"). 
+- Preface your issue as either an `inaccuracy`, a `inaccessibility`, or a `bug` (for site issues) (e.g. "Bug: Link at archive not working").
 - **ISSUES ARE NOT** free help on your website. Use [Stack Overflow](http://stackoverflow.com) for that.
 
 ## Key branches
@@ -82,7 +82,7 @@ Notice something inaccurate? Noticed something inaccessible on this site? You th
 
 If you have a feature request(s) we suggest filing an issue initially to discuss your feature. Once that feature has been accepted you'll be off and running to feature making madness. Start a separate branch and use the following naming convention for your *feature branch*:
 
-- `feature/name_of_feature` 
+- `feature/name_of_feature`
 
 ## Build Process
 - In order to create a site build you'll need to make sure you've run through all the listed commands in the order they appear from our [README.md](https://github.com/a11yproject/a11yproject.com#local-development)
@@ -93,6 +93,27 @@ If you have a feature request(s) we suggest filing an issue initially to discuss
 
 - Filing a descriptive issue then assigning it to yourself before you commit would really help get your commit accepted.
 
+## To Set up Locally
+
+You can take all the files of this site and run them just on your computer as if it were live online, only it's just on your machine.
+
+### Requirements
+
+* [Jekyll](http://jekyllrb.com/)
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Git](http://git-scm.com/)
+
+_If you have installed [GitHub Desktop](https://desktop.github.com), Git was also installed automatically._
+
+To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
+
+```bash
+git clone https://github.com/a11yproject/a11yproject.com.git
+cd a11yproject.com
+script/bootstrap
+script/server
+```
+Open `http://localhost:4000` in your browser
 
 ## License
 
