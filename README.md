@@ -25,4 +25,4 @@ Trigger the local server by executing the ``jekyll serve`` task.
 
     $ jekyll serve
 
-Your local copy will now be accessible at `http://localhost:4000`. Then use `CTRL` + `C` to stop the server. :)
+Your local copy will now be accessible at `http://localhost:4000`. Then use `CTRL` + `C` to stop the server.
