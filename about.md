@@ -15,7 +15,7 @@ For many web developers, accessibility is complex and somewhat difficult. The Ac
 
 Blind and visually impaired make up 285,000,000 people according to the [World Health Organization](http://www.who.int/mediacentre/factsheets/fs282/en/) (June 2012) with 39,000,000 categorized as legally blind and the remaining 246,000,000 visually impaired. Deaf and hearing impaired make up 275,000,000 (2004) in the moderate-to-profound hearing impairment category.
 
-To put these in perspective, the population of the [United States of America](https://www.census.gov/popclock/) is 315,000,000 (January 2013).
+To put these in perspective, the population of the [United States of America](http://www.worldometers.info/world-population/us-population/) is 315,000,000 (January 2013).
 
 If you care and are knowledgeable about accessibility and want to help please consider [contributing](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md). We would love people to help write articles, edit inaccuracies, and provide top-level information.
 
