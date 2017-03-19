@@ -24,20 +24,21 @@ Make your forms accessible by using one of the following methods (in order of pr
 
 While we're paying attention to our placeholder text, let's review how to add better contrast:
 
-```css
+{% highlight css %}
 ::-webkit-input-placeholder {
-  	color: #626262;
+  color: #626262;
 }
 ::-moz-placeholder {
-    color: #626262;
+  color: #626262;
 }
 :-moz-placeholder {  /* Older versions of Firefox */
-    color: #626262;
+  color: #626262;
 }
 :-ms-input-placeholder {
-    color: #626262;
+  color: #626262;
 }
-```
+{% endhighlight %}
+
 The above CSS assumes that the background for the form controls are `#fff`. If we test `#fff` and `#626262` in a color contrast tool like [Tanaguru Contrast-Finder](http://contrast-finder.tanaguru.com/result.html;jsessionid=57DFFB6E8E217E7C92C55B7CE2629CF6?foreground=%23626262&background=%23ffffff&isBackgroundTested=false&ratio=4.5&algo=HSV), the results will approve these colors for valid contrast. You can use your own color for this, but be sure to read about [how conformance levels work](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head), and use a color contrast tool to confirm.
 
 In the above CSS, each selector for placeholder text needs to be seperate in their own declaration blocks. The reason for this is due to the prefixes needed for placeholder styles to apply. The browser will read the first selector, and if it's not the prefix for that browser, instead of reading through the rest until one applies, it will ignore the rest. To ensure each browser can find it's own prefixed placeholder text styles, it's necessary to write them each separate as we did above.
@@ -45,26 +46,26 @@ In the above CSS, each selector for placeholder text needs to be seperate in the
 Once we have sufficient color contrast in our placeholders, placeholders can be used in addition to labels. Here are two examples of forms where placeholders are used with labels to maintain accessibility.
 
 **Explicit Labeling:**
-````html
+{% highlight html %}
 <form>
-	<label for="your-name">
-		Your Name:
-	</label>
-	<input type="text" id="your-name" name="your-name" placeholder="What's your name?">
-	<input type="submit" value="Submit Name">
+  <label for="your-name">
+    Your Name:
+  </label>
+  <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
+  <input type="submit" value="Submit Name">
 </form>
-````
+{% endhighlight %}
 
 **Implicit & Explicit Labeling Combined:**
-````html
+{% highlight html %}
 <form>
-	<label for="your-name">
-		Your Name:
-		<input type="text" id="your-name" name="your-name" placeholder="What's your name?">
-	</label>
-	<input type="submit" value="Submit Name">
+  <label for="your-name">
+    Your Name:
+    <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
+  </label>
+  <input type="submit" value="Submit Name">
 </form>
-````
+{% endhighlight %}
 
 Note that in the second example above, omitting the `for` attribute on the label is still valid, but still best practice to include. By keeping the `for` attribute in place, we're combining both explicit and implicit techniques. For more about explicit and implicit labeling, check out ["Labeled with Love"](https://www.aaron-gustafson.com/notebook/labeled-with-love/). By adding the `for` attribute to a label with the same value as the ID for the input element it corresponds to, the label becomes *explicitly* associated with that input element. Explicit labeling is great for screen reader users and when clicking/focusing that label, it will automatically focus the associated input element.
 
