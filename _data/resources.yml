@@ -152,6 +152,8 @@
     - url: http://dboudreau.tumblr.com/
       title: "a11yTips Blog"
       description: "By Denis Boudreau"
+    - url: http://inclusive-components.club/
+      title: "Inclusive Components"
 
 - resource-category: Further Reading
   section-id: further-reading
