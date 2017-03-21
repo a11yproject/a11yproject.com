@@ -40,6 +40,8 @@
       title: "Form Submission"
     - url: "http://codepen.io/svinkle/pen/FHGBh"
       title: "Single Toggle (anchor)"
+    - url: "https://scottaohara.github.io/aria-switch-button/"
+      title: "ARIA Switch Demo"
 
 - pattern-category: Anchors/Links
   section-id: anchors-links
