@@ -1,0 +1,28 @@
+## a11y checklist
+
+- [ ] `<header role="banner">` 
+- [ ] `<nav role="navigation">` 
+- [ ] `<main role="main">` 
+- [ ] `<article role="article">` 
+- [ ] `<aside role="complementary">` 
+- [ ] `<footer role="contentinfo">` 
+- [ ] `<form role="search">` 
+- [ ] `<html lang="en">` 
+- [ ] Use semantic headings and structure 
+- [ ] Ensure links have `:focus` state. 
+- [ ] Use appropriate `alt` text. [Read article on using ALT text](http://a11yproject.com/posts/alt-text/). 
+- [ ] Unobtrusive Javascript 
+- [ ] Use unobtrusive Javascript (never use inline scripting).
+- [ ] Provide alternatives for users without Javascript enabled.
+- [ ] Logical layout 
+- [ ] Associated `label` for all form controls (e.g. `input`, `select` etc.) 
+- [ ] Make sure `placeholder` attributes are **NOT** being used in place of label tags. [WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#attr-input-placeholder)
+- [ ] Group related form elements with `fieldset` and describe the group with `legend` 
+- [ ] Provide text transcripts 
+- [ ] Synchronized subtitles for videos
+- [ ] Test color contrast 
+- [ ] Deuteranopia 
+- [ ] Protanopia 
+- [ ] Tritanopia 
+- [ ] Test using a screen reader 
+- [ ] Test using keyboard only
