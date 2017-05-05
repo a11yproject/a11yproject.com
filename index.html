@@ -20,14 +20,13 @@ description: A community-driven effort to make web accessibility easier.
   {% assign posts = category.last %}
 
   <section id="{{ title | capitalize | replace:' ','-' }}" class="article-section archive-section" tabindex="-1">
-
-
     <h2 class="article-section__title">{{ title | capitalize }}</h2>
     <ul class="article-section__content excerpt-list">
     {% for post in posts %}
       <li>
-        <h4 class="excerpt-list__title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <h3 class="excerpt-list__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
         {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+      </li>
     {% endfor %}
   </section>
 
