@@ -20,14 +20,14 @@ Skip nav links are useful for users who use keyboard navigation only, but screen
 {% highlight html %}
 <body>
   <a href="#main">Skip to main content</a>
-  <nav role='navigation'>
+  <nav>
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/blog">Blog</a></li>
     </ul>
   </nav>
-  <main id="main" role="main">
+  <main id="main">
     <!-- page specific content -->
   </main>
 </body>
