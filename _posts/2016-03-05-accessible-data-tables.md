@@ -60,7 +60,7 @@ For sighted users, row and column headings of tables are often highlighted visua
 
 Column headers should be marked using `scope="col"`. The `scope="col"` typically goes on the `<th>` element. If the `<th>` is a column like the <strong>"Amount Earned", "Amount Spent" and "Amount Saved"</strong> in my example, you would put them all as `scope="col"`. This lets the screen reader know that the `<th>`’s are column headers for that entire column. Column headers should be unique.
 
-Row headers should be marked up using `scope="row"`. The `scope="row"` is typically put on a `<th>` in the row. In this case <strong>"January" and "February"</strong> would get them. For optimal usability, the row header selected should be sufficiently unique and readable to identify the row. 
+Row headers should be marked up using `scope="row"`. The `scope="row"` is typically put on the first `<th>` in the row. In this case <strong>"January" and "February"</strong> would get them. For optimal usability, the row header selected should be sufficiently unique and readable to identify the row. 
 
 The screen reader will most likely be able to figure out what is a column header and row header, but assigning this makes it unambiguous to the screen reader on what is a row or column header and how to proceed.
 
