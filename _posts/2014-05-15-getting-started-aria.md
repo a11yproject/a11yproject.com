@@ -11,7 +11,7 @@ categories:
 
 ## What is ARIA?
 
-ARIA (Assistive Rich Internet Applications), is a spec from the W3C and created to improve accessibility of applications by providing extra information to screen readers via HTML attributes. Out of the box, screen readers work with regular HTML, but adding ARIA can provide screen reader users with more context and greater interactivity with content.
+ARIA (Accessible Rich Internet Applications), is a spec from the W3C and created to improve accessibility of applications by providing extra information to screen readers via HTML attributes. Out of the box, screen readers work with regular HTML, but adding ARIA can provide screen reader users with more context and greater interactivity with content.
 
 ARIA has no effect on how elements are displayed or behave in browsers. It does not add new functionality and is meant to act only as an extra descriptive layer for screen readers.
 
