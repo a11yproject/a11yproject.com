@@ -348,3 +348,6 @@
     - url: https://packagecontrol.io/packages/WAI-ARIA
       title: "Sublime WAI-ARIA"
       description: "WAI-ARIA Roles, States and Properties auto-completion for Sublime Text"
+    - url: http://pa11y.org/
+      title: "Pa11y"
+      description: "Automated accessibility testing"
