@@ -308,6 +308,13 @@
       title: "PWAs in any context"
       description: "Progressive Web App Summit (2016)"
 
+- resource-category: Empathy Development
+  section-id: empathy-development
+  resources:
+    - url: https://empathyprompts.net/
+      title: "Empathy Prompts"
+      description: "Prompts to consider when making things for others to use."
+
 - resource-category: Community Help
   section-id: community-help
   resources:
