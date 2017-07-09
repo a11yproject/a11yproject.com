@@ -351,4 +351,7 @@
     - url: http://pa11y.org/
       title: "Pa11y"
       description: "Automated accessibility testing"
+    - url: https://github.com/dequelabs/axe-core
+      title: "axe-core"
+      description: "Accessibility engine for automated Web UI testing"
       
