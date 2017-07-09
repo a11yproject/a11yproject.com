@@ -358,4 +358,9 @@
     - url: http://pa11y.org/
       title: "Pa11y"
       description: "Automated accessibility testing"
-      
+    - url: https://github.com/dequelabs/axe-core
+      title: "axe-core"
+      description: "Accessibility engine for automated Web UI testing"
+    - url: https://github.com/evcohen/eslint-plugin-jsx-a11y
+      title: "eslint-plugin-jsx-a11y"
+      description: "Static AST checker for a11y rules on JSX elements"
