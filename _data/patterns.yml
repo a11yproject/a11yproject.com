@@ -76,6 +76,8 @@
   patterns:
     - url: "http://codepen.io/mpiotrowicz/pen/PwQYMd"
       title: "Form field with icon-based tooltip for extra field information"
+    - url: "https://codepen.io/heydon/pen/Vzwdpy"
+      title: "Toggletip from paragraph"
 
 - pattern-category: Labelling
   section-id: labelling
