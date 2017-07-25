@@ -19,7 +19,8 @@
       title: "SVG"
     - url: "http://codepen.io/mpiotrowicz/pen/yndxA"
       title: "Video Element Backgrounds"
-
+    - url: "https://codepen.io/svinkle/pen/pwYRzM/"
+      title: "Accessible SVG Link List with Tooltips"
 
 - pattern-category: Accordions &amp; Tabs
   section-id: accordions-and-tabs
