@@ -99,3 +99,5 @@
   patterns:
     - url: "http://codepen.io/svinkle/pen/yDAiG"
       title: "Content Touch Target"
+    - url: "https://codepen.io/dpersing/pen/vJERyv"
+      title: "High Contrast-friendly dropshadow"
