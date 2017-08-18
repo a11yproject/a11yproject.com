@@ -34,6 +34,12 @@
     - url: "http://codepen.io/BeyondHyper/pen/xZXXzj"
       title: "Simple Responsive Tabs (Vanilla JS)"
 
+- pattern-category: Forms
+  section-id: forms
+  patterns:
+    - url: "https://codepen.io/svinkle/pen/NvazGb"
+      title: "Accessible Floating Labels"
+
 - pattern-category: Buttons
   section-id: buttons
   patterns:
