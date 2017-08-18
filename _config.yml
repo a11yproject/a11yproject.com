@@ -29,7 +29,7 @@ google_analytics:
 # disqus:
 #   id: disqusid
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
 
