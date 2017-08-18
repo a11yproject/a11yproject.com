@@ -22,7 +22,7 @@ permalink: resources.html
 <section id="{{category.section-id}}" class="article-section resources-section" tabindex="-1">
     <h3 class="article-section__title">{{ category.resource-category }}</h3>
     <ul class="article-section__content">
-    {% assign sorted_resources = (category.resources | sort: 'title') %}
+    {% assign sorted_resources = category.resources | sort: 'title' %}
     {% for resource in sorted_resources %}
       <li>
         <a href="{{ resource.url }}" rel="external">
