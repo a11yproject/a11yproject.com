@@ -310,6 +310,13 @@
       title: "PWAs in any context"
       description: "Progressive Web App Summit (2016)"
 
+- resource-category: Podcasts
+  section-id: podcasts
+  resources:
+    - url: https://www.patreon.com/steenhout
+      title: "#A11y Rules Podcast"
+      description: "Conversations around web accessibility"
+
 - resource-category: Empathy Development
   section-id: empathy-development
   resources:
