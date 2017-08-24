@@ -2,8 +2,8 @@
 layout: archives
 description: A community-driven effort to make web accessibility easier.
 ---
-<section class="toc-wrap">
-  <h3 class="toc-title">Categories</h3>
+<nav class="toc-wrap" aria-labelledby="toc_title">
+  <h2 id="toc_title" class="toc-title">Categories</h2>
   <ul class="toc">
     {% for category in site.categories %}
       {% assign title = category.first %}
@@ -12,7 +12,7 @@ description: A community-driven effort to make web accessibility easier.
 
     {% endfor %}
   </ul>
-</section>
+</nav>
 
 {% for category in site.categories %}
 
