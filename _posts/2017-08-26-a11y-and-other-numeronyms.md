@@ -58,7 +58,7 @@ While numeronyms have been around for quite some time, they're not always immedi
 
 With all that said, I wouldn't lose any sleep over mispronouncing a11y, or using it as a hash tag without prefacing it with "when I say a11y, I mean accessibility." As mentioned, using "#a11y" to increase awareness on platforms like Twitter, is a good thing!  
 
-There are a lot of projects and sites out that that use "a11y" in their name. Obviously there's The A11Y Project, but also [Pa11y](http://pa11y.org/), [Tota11y](http://khan.github.io/tota11y/), and [a11ycasts](https://www.youtube.com/watch?v=HtTyRajRuyY), among many others. All of these different projects don't overtly say "accessibility" in their names, but they make it immediately clear that accessibility is their focus, thus indirectly connecting the numeronym to the concept.  
+There are a lot of projects and sites out that that use "a11y" in their name. Obviously there's The A11Y Project, but also [Pa11y](http://pa11y.org/), [Tota11y](http://khan.github.io/tota11y/), and [A11ycasts](https://www.youtube.com/watch?v=HtTyRajRuyY), among many others. All of these different projects don't overtly say "accessibility" in their names, but they make it immediately clear that accessibility is their focus, thus indirectly connecting the numeronym to the concept.  
 
 As long as we do our best to make people aware of what numeronyms stand for, and use them appropriately, then their usage and accepted understanding will only grow.
 
