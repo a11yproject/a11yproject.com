@@ -102,6 +102,12 @@
     - url: "http://github.com/paypal/accessible-html5-video-player/"
       title: "Accessible HTML5 Video Player"
 
+- pattern-category: Error Messages
+  section-id: error-messages
+  patterns:
+    - url: "https://hiddedevries.nl/en/blog/2017-04-04-how-to-make-error-messages-accessible"
+      title: "How to make error messages accessible"
+
 - pattern-category: Other
   section-id: other
   patterns:
