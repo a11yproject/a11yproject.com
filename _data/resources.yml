@@ -349,6 +349,9 @@
 - resource-category: Development Tools
   section-id: development-tools
   resources:
+    - url: https://www.accesslint.com/
+      title: "AccessLint"
+      description: "A GitHub App that finds accessibility issues in your pull requests."
     - url: http://allyjs.io/
       title: "ally.js"
       description: "Helps JavaScript applications become more accessible"
