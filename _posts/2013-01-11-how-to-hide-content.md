@@ -33,7 +33,10 @@ There are also real world situations where you want to hide elements (e.g., a `f
         width: 1px !important;
         overflow: hidden;
     }
-    body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; }
+    
+It is possible to apply the `.visually-hidden` class to content that contains nativily focusable elements (such as `a`, `button`, `input`, etc). It is important to still show these elements visually when they recieve focus, otherwise a keyboard-only users might not know what has focus. CSS for this might look something like:
+
+    .visually-hidden a:focus, .visually-hidden input:focus, .visually-hidden button:focus { position:static; width:auto; height:auto;  }
 
 Consider adding these HTML classes and CSS rules to your base stylesheet and use them when applicable.
 
