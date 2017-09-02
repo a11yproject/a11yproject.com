@@ -76,6 +76,16 @@ Notice something inaccurate? Noticed something inaccessible on this site? You th
 - Preface your issue as either an `inaccuracy`, a `inaccessibility`, or a `bug` (for site issues) (e.g. "Bug: Link at archive not working").
 - **ISSUES ARE NOT** free help on your website. Use [Stack Overflow](http://stackoverflow.com) for that.
 
+## Stale issues
+An issue is considered in a "stale" state when the following conditions are met:
+
+- Last comment was made over one year ago
+- No movement since
+- Not an open question
+- Someone has attempted to address the issue, no comment from the author
+
+When an issue has become stale a project maintainer will close the issue, leaving a note for the author to open a new issue if so desired.
+
 ## Key branches
 
 - `gh-pages` is the "master" branch. This is the website.
