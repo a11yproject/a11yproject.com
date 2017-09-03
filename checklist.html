@@ -5,10 +5,27 @@ description: A beginner's guide to web accessibility
 permalink: checklist.html
 ---
 
+<nav class="toc-wrap toc-long" aria-labelledby="toc_title">
+    <h2 id="toc_title" class="toc-title">Categories</h2>
+    <ul class="toc">
+        <li><a class="aria-roles" href="#aria-roles">Landmarks</a></li>
+        <li><a class="language" href="#language">Language Attribute</a></li>
+        <li><a class="outline" href="#outline">Document Outline</a></li>
+        <li><a class="links" href="#links">Links</a></li>
+        <li><a class="images" href="#images">Images</a></li>
+        <li><a class="js" href="#js">Javascript</a></li>
+        <li><a class="forms" href="#forms">Forms</a></li>
+        <li><a class="audio" href="#audio">Media (Audio and Video)</a></li>
+        <li><a class="color-contrast" href="#color-contrast">Color and Contrast</a></li>
+        <li><a class="color-blind" href="#color-blind">Test for Color Blindness</a></li>
+        <li><a class="testing" href="#testing">Testing</a></li>
+    </ul>
+</nav>
+
 <form action="/" data-persist="garlic" method="POST" class="checklist" id="simple-a11y-checklist">
 	<!-- Aria Roles -->
 
-	<fieldset id="aria-roles">
+  <fieldset class="article-section resources-section" id="aria-roles" tabindex="-1">
 		<legend>Landmarks</legend>
 		<p>ARIA Landmark Roles are helpful landmarks that can be used by <abbr title="Assistive Technology">AT</abbr> to navigate a website.</p>
 		<p>Note: When you <a href="https://validator.w3.org/">validate html</a> using landmark roles, you'll receive a warning stating these roles are redundant.  In HTML5, several of the landmark roles are implicit via the native structural element which is supported by most modern <a href="http://stevefaulkner.github.io/html-mapping-tests/">desktop browsers</a> with the exception of IE and <a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks-example.html">iOS Safari</a>. So, if you support IE and iOS browsers, you'll want to use the landmark roles. For more information, read <a href="/posts/aria-landmark-roles/">Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping</a>.</p>
@@ -63,7 +80,7 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Language -->
-	<fieldset id="language">
+	<fieldset class="article-section resources-section" id="language" tabindex="-1">
 		<legend>Language Attribute</legend>
 		<p>Declaring a language attribute on the html element enables a screen reader to read out the text with correct pronunciation.</p>
 		<!-- text transcript -->
@@ -75,7 +92,7 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Document Outline -->
-	<fieldset id="outline">
+	<fieldset class="article-section resources-section" id="outline" tabindex="-1">
 		<legend>Document Outline</legend>
 		<!-- form document-outline -->
 		<label for="document-outline" class="checkbox">Use semantic headings and structure
@@ -84,7 +101,7 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Images -->
-	<fieldset id="links">
+	<fieldset class="article-section resources-section" id="links" tabindex="-1">
 		<legend>Links</legend>
 		<!-- focus -->
 		<label for="links-focus" class="checkbox">Ensure links have <code class="language-markup">:focus</code> state.
@@ -104,7 +121,7 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Images -->
-	<fieldset id="images">
+	<fieldset class="article-section resources-section" id="images" tabindex="-1">
 		<legend>Images</legend>
 
 		<!-- alt -->
@@ -114,7 +131,7 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Javascript -->
-	<fieldset id="js">
+	<fieldset class="article-section resources-section" id="js" tabindex="-1">
 		<legend>Javascript</legend>
 		<!-- unobtrusive js -->
 		<label for="unobtrusive-js" class="checkbox">Unobtrusive Javascript
@@ -132,7 +149,7 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Forms -->
-	<fieldset id="forms">
+	<fieldset class="article-section resources-section" id="forms" tabindex="-1">
 		<legend>Forms</legend>
 		<!-- form layout -->
 		<label for="logical-layout" class="checkbox">Logical layout
@@ -165,7 +182,7 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Audio -->
-	<fieldset id="audio">
+	<fieldset class="article-section resources-section" id="audio" tabindex="-1">
 		<legend>Media (Audio and Video)</legend>
 		<p>Providing text alternatives makes the audio information accessible to people who are deaf or hard of hearing. This also goes for search engines who are deaf and hard of hearing as well.</p>
 		<!-- text transcript -->
@@ -178,7 +195,7 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Color and Contrast -->
-	<fieldset>
+	<fieldset class="article-section resources-section" id="color-contrast" tabindex="-1">
 		<legend>Color and Contrast</legend>
 		<label for="test-colorcontrast" class="checkbox">Test color contrast
 			<input name="test-colorcontrast" id="test-colorcontrast" type="checkbox">
@@ -186,7 +203,7 @@ permalink: checklist.html
 		<p class="description">Best done early in the process, by ensuring that the foreground and background colors of your site have sufficient contrast you will help make your site more readable for everyone. <a href="http://leaverou.github.com/contrast-ratio/">Contrast Ratio</a> is one tool for checking the contrast of your colors for both standard vision and color deficient user.</p>
 	</fieldset>
 
-  <fieldset>
+  <fieldset class="article-section resources-section" id="color-blind" tabindex="-1">
     <legend>Test for different types of color blindness.</legend>
 		<label for="deuteranopia" class="checkbox">Deuteranopia
 			<input name="deuteranopia" id="deuteranopia" type="checkbox">
@@ -201,7 +218,7 @@ permalink: checklist.html
   </fieldset>
 
 	<!-- Testing -->
-	<fieldset>
+	<fieldset class="article-section resources-section" id="testing" tabindex="-1">
 		<legend>Testing</legend>
 		<p>Navigating your site using a range of tools, such as just the keyboard or a screen reader, will help you understand how a blind, low-vision, or limited-mobility user will experience it.</p>
 		<label for="test-screenreader" class="checkbox" >Test using a screen reader
