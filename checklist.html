@@ -25,8 +25,8 @@ permalink: checklist.html
 <form action="/" data-persist="garlic" method="POST" class="checklist" id="simple-a11y-checklist">
 	<!-- Aria Roles -->
 
-  <fieldset class="article-section resources-section" id="aria-roles" tabindex="-1">
-		<legend>Landmarks</legend>
+  <fieldset class="article-section resources-section" id="aria-roles" aria-labelledby="label-landmarks" tabindex="-1">
+		<legend id="label-landmarks">Landmarks</legend>
 		<p>ARIA Landmark Roles are helpful landmarks that can be used by <abbr title="Assistive Technology">AT</abbr> to navigate a website.</p>
 		<p>Note: When you <a href="https://validator.w3.org/">validate html</a> using landmark roles, you'll receive a warning stating these roles are redundant.  In HTML5, several of the landmark roles are implicit via the native structural element which is supported by most modern <a href="http://stevefaulkner.github.io/html-mapping-tests/">desktop browsers</a> with the exception of IE and <a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks-example.html">iOS Safari</a>. So, if you support IE and iOS browsers, you'll want to use the landmark roles. For more information, read <a href="/posts/aria-landmark-roles/">Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping</a>.</p>
 		<!-- banner -->
@@ -80,8 +80,8 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Language -->
-	<fieldset class="article-section resources-section" id="language" tabindex="-1">
-		<legend>Language Attribute</legend>
+	<fieldset class="article-section resources-section" id="language" aria-labelledby="label-language-attribute" tabindex="-1">
+		<legend id="label-language-attribute">Language Attribute</legend>
 		<p>Declaring a language attribute on the html element enables a screen reader to read out the text with correct pronunciation.</p>
 		<!-- text transcript -->
 		<label for="language-input" class="checkbox"><code>&lt;html lang="en"&gt;</code>
@@ -92,8 +92,8 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Document Outline -->
-	<fieldset class="article-section resources-section" id="outline" tabindex="-1">
-		<legend>Document Outline</legend>
+	<fieldset class="article-section resources-section" id="outline" aria-labelledby="label-document-outline" tabindex="-1">
+		<legend id="label-document-outline">Document Outline</legend>
 		<!-- form document-outline -->
 		<label for="document-outline" class="checkbox">Use semantic headings and structure
 			<input name="document-outline" type="checkbox" id="document-outline">
@@ -101,8 +101,8 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Images -->
-	<fieldset class="article-section resources-section" id="links" tabindex="-1">
-		<legend>Links</legend>
+	<fieldset class="article-section resources-section" id="links" aria-labelledby="label-links" tabindex="-1">
+		<legend id="label-links">Links</legend>
 		<!-- focus -->
 		<label for="links-focus" class="checkbox">Ensure links have <code class="language-markup">:focus</code> state.
 			<input name="links-focus" id="links-focus" type="checkbox">
@@ -121,8 +121,8 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Images -->
-	<fieldset class="article-section resources-section" id="images" tabindex="-1">
-		<legend>Images</legend>
+	<fieldset class="article-section resources-section" id="images" aria-labelledby="label-images" tabindex="-1">
+		<legend id="label-images">Images</legend>
 
 		<!-- alt -->
 		<label for="img-alt" class="checkbox">Use appropriate <code class="language-markup">alt</code> text. <a href="http://a11yproject.com/posts/alt-text/">Read article on using ALT text</a>
@@ -131,8 +131,8 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Javascript -->
-	<fieldset class="article-section resources-section" id="js" tabindex="-1">
-		<legend>Javascript</legend>
+	<fieldset class="article-section resources-section" id="js" aria-labelledby="label-javascript" tabindex="-1">
+		<legend id="label-javascript">Javascript</legend>
 		<!-- unobtrusive js -->
 		<label for="unobtrusive-js" class="checkbox">Unobtrusive Javascript
 			<input name="unobtrusive-js-input" id="unobtrusive-js" aria-describedby="unobtrusive-js-description" type="checkbox">
@@ -149,8 +149,8 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Forms -->
-	<fieldset class="article-section resources-section" id="forms" tabindex="-1">
-		<legend>Forms</legend>
+	<fieldset class="article-section resources-section" id="forms" aria-labelledby="label-forms" tabindex="-1">
+		<legend id="label-forms">Forms</legend>
 		<!-- form layout -->
 		<label for="logical-layout" class="checkbox">Logical layout
 			<input name="logical-layout" type="checkbox" aria-describedby="logical-layout-description" id="logical-layout">
@@ -182,8 +182,8 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Audio -->
-	<fieldset class="article-section resources-section" id="audio" tabindex="-1">
-		<legend>Media (Audio and Video)</legend>
+	<fieldset class="article-section resources-section" id="audio" aria-labelledby="label-media" tabindex="-1">
+		<legend id="label-media">Media (Audio and Video)</legend>
 		<p>Providing text alternatives makes the audio information accessible to people who are deaf or hard of hearing. This also goes for search engines who are deaf and hard of hearing as well.</p>
 		<!-- text transcript -->
 		<label for="audio-input" class="checkbox">Provide text transcripts
@@ -195,16 +195,16 @@ permalink: checklist.html
 	</fieldset>
 
 	<!-- Color and Contrast -->
-	<fieldset class="article-section resources-section" id="color-contrast" tabindex="-1">
-		<legend>Color and Contrast</legend>
+	<fieldset class="article-section resources-section" id="color-contrast" aria-labelledby="label-color-contrast" tabindex="-1">
+		<legend id="label-color-contrast">Color and Contrast</legend>
 		<label for="test-colorcontrast" class="checkbox">Test color contrast
 			<input name="test-colorcontrast" id="test-colorcontrast" type="checkbox">
 		</label>
 		<p class="description">Best done early in the process, by ensuring that the foreground and background colors of your site have sufficient contrast you will help make your site more readable for everyone. <a href="http://leaverou.github.com/contrast-ratio/">Contrast Ratio</a> is one tool for checking the contrast of your colors for both standard vision and color deficient user.</p>
 	</fieldset>
 
-  <fieldset class="article-section resources-section" id="color-blind" tabindex="-1">
-    <legend>Test for different types of color blindness.</legend>
+  <fieldset class="article-section resources-section" id="color-blind" aria-labelledby="label-test-color-blindness" tabindex="-1">
+    <legend id="label-test-color-blindness">Test for different types of color blindness.</legend>
 		<label for="deuteranopia" class="checkbox">Deuteranopia
 			<input name="deuteranopia" id="deuteranopia" type="checkbox">
 		</label>
@@ -218,8 +218,8 @@ permalink: checklist.html
   </fieldset>
 
 	<!-- Testing -->
-	<fieldset class="article-section resources-section" id="testing" tabindex="-1">
-		<legend>Testing</legend>
+	<fieldset class="article-section resources-section" id="testing" aria-labelledby="label-testing" tabindex="-1">
+		<legend id="label-testing">Testing</legend>
 		<p>Navigating your site using a range of tools, such as just the keyboard or a screen reader, will help you understand how a blind, low-vision, or limited-mobility user will experience it.</p>
 		<label for="test-screenreader" class="checkbox" >Test using a screen reader
 			<input name="test-screenreader" id="test-screenreader" type="checkbox">
