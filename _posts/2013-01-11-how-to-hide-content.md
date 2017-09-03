@@ -42,10 +42,10 @@ There may be cases where you want to use `aria-hidden` and also visually hide th
         display: none; 
     }
     
- Another way to hide content both visually and from assistive technology is the [HTML `hidden` attribute](https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute). To support older browsers like IE9, you might want to add the following css to your pages:
+ Another way to hide content both visually and from assistive technology is the [HTML5 `hidden` attribute](https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute). To support older browsers like IE9, you might want to add the following css to your pages:
  
      [hidden] { display: none; }
      
-See the artilce *[HTML5 hidden Attribute](https://davidwalsh.name/html5-hidden)* for more information on the `hidden` attribute.
+See the artilce *[HTML5 Hidden Attribute](https://davidwalsh.name/html5-hidden)* for more information on the `hidden` attribute.
     
 
