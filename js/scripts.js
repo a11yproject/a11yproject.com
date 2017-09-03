@@ -69,6 +69,7 @@ $(document).ready(function(){
         } else {
           offset = '20%'; // this offset feels right for short TOC lists
         }
+
         // add waypoints and waypoint classes
         setupWaypoints(element, offset);
 
@@ -105,7 +106,6 @@ $(document).ready(function(){
 
           // add the accordion / waypoints semantics
           tocPageSemantics();
-
 
           if($('.post-content').length) {
             var tocWrapElem = $('.post-content');

@@ -55,7 +55,7 @@ $mobile: 24em;
         }
 
         .toc-wrap {
-            width: 8em;
+            width: 10em;
             position: relative;
             float: left;
             top: 1em;
@@ -98,9 +98,9 @@ $mobile: 24em;
                 right: 0;
 
                 &.active {
-                    font-size: 1.33em;
                     color: darken($link, 15%);
                     right: -.3rem;
+                    text-decoration: underline;
                 }
             }
         }
@@ -129,7 +129,6 @@ $mobile: 24em;
             }
 
             a.active {
-                font-size: 1.1em;
                 right: 0;
             }
 
