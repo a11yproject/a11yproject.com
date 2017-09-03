@@ -55,11 +55,15 @@ $mobile: 24em;
         }
 
         .toc-wrap {
-            width: 8em;
+            width: 10em;
             position: relative;
             float: left;
             top: 1em;
             z-index: 1;
+
+            &.pulled-left {
+              padding-right: 1em;
+            }
 
             &.stick {
                 position: fixed;
