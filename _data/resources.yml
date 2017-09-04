@@ -316,6 +316,9 @@
     - url: https://www.patreon.com/steenhout
       title: "#A11y Rules Podcast"
       description: "Conversations around web accessibility"
+    - url: http://frontendhappyhour.com/episodes/a11y-cocktail/
+      title: "Front End Happy Hour - Episode 007 - a11y Cocktail"
+      description: "A conversation about web accessibility with guest Jennison Asuncion"
 
 - resource-category: Empathy Development
   section-id: empathy-development
