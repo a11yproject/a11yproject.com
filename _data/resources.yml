@@ -319,6 +319,9 @@
     - url: http://frontendhappyhour.com/episodes/a11y-cocktail/
       title: "Front End Happy Hour - Episode 007 - a11y Cocktail"
       description: "A conversation about web accessibility with guest Jennison Asuncion"
+    - url: https://frontsidethepodcast.simplecast.fm/episodes/44c5e387/61-accessibility-with-marcy-sutton
+      title: "Accessibility with Marcy Sutton"
+      description: "A conversation about accessibility, WCAG, ARIA, and single page apps with guest Marcy Sutton"
 
 - resource-category: Empathy Development
   section-id: empathy-development
