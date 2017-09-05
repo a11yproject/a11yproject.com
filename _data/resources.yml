@@ -213,6 +213,9 @@
     - url: http://webaim.org/articles/screenreader_testing/
       title: "Testing with Screen Readers"
       description: "By WebAIM"
+    - url: https://yoast.com/dev-blog/accessibility-slow-down-development-process/
+      title: "Does Accessibility slow down the development process?"
+      description: "by Andrea Fercia"
 
 - resource-category: Professional Help
   section-id: professional-help
