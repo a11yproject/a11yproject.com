@@ -64,7 +64,7 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
 ## ARIA Examples
 
 * Landmark role
-  The `<nav>` element has been given a landmark role allowing screen reader users navigate directly to this element.
+  The `<nav>` element implicitly has landmark role of `navigation` allowing screen reader users navigate directly to this element. [Discussion on implicit html5 landmarks](http://a11yproject.com/posts/aria-landmark-roles/)
 
 ~~~~~~~~
     <nav>
