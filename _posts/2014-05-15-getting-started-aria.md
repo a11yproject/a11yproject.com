@@ -67,7 +67,7 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
   The `<nav>` element has been given a landmark role allowing screen reader users navigate directly to this element.
 
 ~~~~~~~~
-    <nav role="navigation">
+    <nav>
       <ul>
         <li>
           <a href="/">Home</a>
