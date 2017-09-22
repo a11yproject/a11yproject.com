@@ -34,11 +34,11 @@ Consider adding these HTML classes and CSS rules to your base stylesheet and use
 
 ## Alternatives to `display: none`
 
-The `aria-hidden="true"` HTML attribute is the logical oposite of the `.visually-hidden` class. It hides content from assistive technology, but not visually. This can be helpful in cases where there are visual cues that screen readers do not need to announce, such as icons (although you should provide some form of alternative text for icons).
+The `aria-hidden="true"` HTML attribute is the logical opposite of the `.visually-hidden` class. It hides content from assistive technology, but not visually. This can be helpful in cases where there are visual cues that screen readers do not need to announce, such as icons (although you should provide some form of alternative text for icons).
 
 There may be cases where you want to use `aria-hidden` and also visually hide the content. This can be accomplished with some CSS like:
 
-    .my-compnent[aria-hidden="true"] { 
+    .my-component[aria-hidden="true"] { 
         display: none; 
     }
     
@@ -46,6 +46,6 @@ There may be cases where you want to use `aria-hidden` and also visually hide th
  
      [hidden] { display: none; }
      
-See the artilce *[HTML5 Hidden Attribute](https://davidwalsh.name/html5-hidden)* for more information on the `hidden` attribute.
+See the article *[HTML5 Hidden Attribute](https://davidwalsh.name/html5-hidden)* for more information on the `hidden` attribute.
     
 
