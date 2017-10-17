@@ -119,6 +119,15 @@
     - url: https://shop.smashingmagazine.com/products/inclusive-design-patterns
       title: "Inclusive Design Patterns"
       description: "by Heydon Pickering"
+    - url: https://abookapart.com/products/accessibility-for-everyone
+      title: "Accessibility for Everyone"
+      description: "by Laura Kalbag"
+    - url: https://abookapart.com/products/color-accessibility-workflows
+      title: "Color Accessibility Workflows"
+      description: "by Geri Coady"
+    - url: https://abookapart.com/products/design-for-real-life
+      title: "Designing for Real Life"
+      description: "by Sara Wachter-Boettcher and Eric Meyer"
 
 - resource-category: Blogs
   section-id: blogs
