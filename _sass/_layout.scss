@@ -26,6 +26,12 @@ $mobile: 24em;
     padding-bottom: 2em;
 }
 
+.article-section__follow-image {
+  border-right: 5px solid transparent;
+  position: relative;
+  top: 20px;
+}
+
 // ARCHIVE TABLE OF CONTENTS
 .has-toc { // this class is added via js so we don't make layout changes that won't make sense to non-js users
     // Everything UP TO our desktop view
