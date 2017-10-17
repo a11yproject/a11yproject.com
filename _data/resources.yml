@@ -400,3 +400,11 @@
     - url: https://github.com/evcohen/eslint-plugin-jsx-a11y
       title: "eslint-plugin-jsx-a11y"
       description: "Static AST checker for a11y rules on JSX elements"
+      
+- resource-category: Newsletters
+  section-id: newsletters
+  resources:
+    - url: http://a11yweekly.com/
+      title: "Accessibility Weekly"
+    - url: http://t12t.se/accessibility-newsletter/
+      title: "t12t Accessibility Newsletter"
