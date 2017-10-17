@@ -91,6 +91,9 @@
     - url: https://egghead.io/courses/start-building-accessible-web-applications-today
       title: "Start Building Accessible Web Applications Today"
       description: "By egghead.io"
+    - url: https://github.com/mgifford/a11y-courses
+      title: "Accessibility Courses"
+      description: "List curated by Mike Gifford"
 
 - resource-category: Books
   section-id: books
