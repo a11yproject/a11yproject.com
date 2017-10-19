@@ -12,11 +12,13 @@ Some peoples' eyes can't tell the difference between certain colours; that's not
 
 Yet, colour blindness is not rare. Some form of colour blindness affects at least one in twenty people; [Wikipedia has a helpful table](https://en.wikipedia.org/wiki/Color_blindness#Epidemiology), based on [a journal article](https://apfmj.biomedcentral.com/articles/10.1186/s12930-014-0010-3). There are [several different forms](http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/). The most common, red-green colourblindness, affects around one in twelve men.
 
-Colour blindness is less profound than many impairments. Yet, people with colour vision problems often face restrictions on certain activities. This varies around the world. For example, Romania prohibits residents who are colour blind from driving. Yet, the USA doesn't consider colour blindness as a disability, for workplace discrimination purposes.rely've avoided going into the different types here, as the principles are the same for each. Also, [Wikipedia's article on colour blindness](https://en.wikipedia.org/wiki/Color_blindness) has some excellent descriptions.
+Colour blindness is less profound than many impairments. Yet, people with colour vision problems often face restrictions on certain activities. This varies around the world. For example, Romania prohibits residents who are colour blind from driving. Yet, the USA doesn't consider colour blindness as a disability, for workplace discrimination purposes.
+
+I've avoided going into the different types here, as the principles are the same for each. Also, [Wikipedia's article on colour blindness](https://en.wikipedia.org/wiki/Color_blindness) has some excellent descriptions.
 
 ## What does this mean for accessibility on the web?
 
-Don't rely on colour alone to communicate. As a result, you can make life simpler for colour blind users. An example of this would be hyperlinks being designed to be underlined by default.
+Don't rely on colour alone to communicate. As a result, you don't risk making life difficult for colour blind users. For example, hyperlinks are underlined and coloured.
 
 Sticking to this is also compliant with the WCAG; guideline [1.4.1 covers making content distinguishable using colour](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html).
 
