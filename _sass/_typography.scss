@@ -170,7 +170,7 @@ em {
         }
     }
 
-    img {
+    img:not(.article-section__follow-image) {
         display: block;
         max-width: 100%;
         margin: 1.6em auto;
