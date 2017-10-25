@@ -1,33 +1,35 @@
 ---
 layout: page
 title: Events
-description: Upcoming and recurring accessibility events and meetups.
+description: Upcoming remote and local accessibility events
 permalink: events.html
 ---
 
+<p class="resources-section"><a href="">Let us know</a> if you are hosting an event and want it listed here. <a href="follow.html#meetups">Meetups</a> might also be happening in your area, be sure to check!</p>
+
 <nav class="toc-wrap toc-long" aria-labelledby="toc_title">
-    <h2 id="toc_title" class="toc-title">Events</h2>
+    <h2 id="toc_title" class="toc-title">Categories</h2>
     <ul class="toc">
-        {% for category in site.data.resources %}
+        {% for category in site.data.events %}
         <li>
             <a class="{{ category.section-id }}" href="#{{category.section-id}}">
-            {{ category.resource-category }}
+            {{ category.event-category }}
             </a>
         </li>
         {% endfor %}
     </ul>
 </nav>
 
-{% for category in site.data.resources %}
+{% for category in site.data.events %}
 <section id="{{category.section-id}}" class="article-section resources-section" tabindex="-1">
-    <h3 class="article-section__title">{{ category.resource-category }}</h3>
+    <h3 class="article-section__title">{{ category.event-category }}</h3>
     <ul class="article-section__content">
-    {% assign sorted_resources = category.resources | sort: 'title' %}
-    {% for resource in sorted_resources %}
+    {% assign sorted_events = category.events | sort: 'title' %}
+    {% for event in sorted_events %}
       <li>
-        <a href="{{ resource.url }}" rel="external">
-          {{resource.title}}
-        </a>{% if resource.description %}<span> - {{ resource.description }}</span>{% endif %}
+        <a href="{{ event.url }}" rel="external">
+          {{event.title}}
+        </a>{% if event.time %}<time datetime="{{ event.time }}"> - {{ event.time | date:"%B %e, %Y" }}</time>{% endif %}
       </li>
     {% endfor %}
     </ul>
