@@ -1,0 +1,13 @@
+- event-category: Remote
+  section-id: remote
+  events:
+    - url: https://www.inclusivedesign24.org/
+      title: "Inclusive Design 24 (#ID24)"
+      time: 2017-11-16
+
+- event-category: Physical
+  section-id: physical
+  events:
+    - url: http://camp.a11yto.com/
+      title: "#a11yTOCamp"
+      time: 2017-11-18
