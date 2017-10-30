@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Events
-description: Upcoming remote and local accessibility events
+description: Local and remote accessibility events
 permalink: events.html
 ---
 
-<p class="resources-section"><a href="">Let us know</a> if you are hosting an event and want it listed here. <a href="follow.html#meetups">Meetups</a> might also be happening in your area, be sure to check!</p>
+<p class="resources-section"><a href="https://github.com/a11yproject/a11yproject.com/labels">Let us know if you are hosting an event</a> and want it listed here. <a href="follow.html#meetups">Meetups</a> might also be happening in your area, be sure to check!</p>
 
-<nav class="toc-wrap toc-long" aria-labelledby="toc_title">
+<nav hidden id="toc-events" class="toc-wrap toc-long" aria-labelledby="toc_title">
     <h2 id="toc_title" class="toc-title">Categories</h2>
     <ul class="toc">
         {% for category in site.data.events %}
@@ -17,21 +17,52 @@ permalink: events.html
             </a>
         </li>
         {% endfor %}
+        <li>
+            <a class="past-events" href="#past-events">
+            Past events
+            </a>
+        </li>
     </ul>
 </nav>
 
 {% for category in site.data.events %}
-<section id="{{category.section-id}}" class="article-section resources-section" tabindex="-1">
-    <h3 class="article-section__title">{{ category.event-category }}</h3>
-    <ul class="article-section__content">
-    {% assign sorted_events = category.events | sort: 'title' %}
+<section id="{{category.section-id}}" class="article-section resources-section " tabindex="-1">
+    <h3 id="event-list" class="article-section__title">Event List</h3>
+    {% assign sorted_events = category.events | sort: 'date' %}
     {% for event in sorted_events %}
-      <li>
-        <a href="{{ event.url }}" rel="external">
-          {{event.title}}
-        </a>{% if event.time %}<time datetime="{{ event.time }}"> - {{ event.time | date:"%B %e, %Y" }}</time>{% endif %}
-      </li>
+    <div id="{{event.title | url_encode | downcase | replace:'+','-'}}" class="waypoint-section event" data-date="{{event.date | date:"%s"}}" >
+      <h4>
+        <a href="{{ event.url }}" rel="external">{{event.title}}</a>{% if event.type %} <span class="event__type">{{event.type}}</span>{% endif %}
+      </h4>
+      <dl class="article-section__content">
+        <dt class="screen-reader-text">
+          Event date:
+        </dt>
+        <dd class="event__time">
+          <time datetime="{{ event.date }}">{{ event.date | date:"%B %e, %Y" }}</time>
+        </dd>
+        {% if event.address %}
+        <dt class="screen-reader-text">
+          Event address:
+        </dt>
+        <dd class="event__address">
+          <a href="{{ event.map }}" rel="external">
+            {{event.address}}
+          </a>
+        </dd>
+        {% endif %}
+        <dt class="screen-reader-text">
+          Event description:
+        </dt>
+        <dd>
+          {{event.description}} {% if event.hashtag %}<span class="screen-reader-text">Event hashtag: </span><a href="https://twitter.com/search?src=typd&q=%23{{event.hashtag}}" rel="external">#{{event.hashtag}}</a>{% endif %}
+        </dd>
+      </div>
     {% endfor %}
-    </ul>
+  </dl>
 </section>
 {% endfor %}
+
+<section hidden id="past-events" class="article-section resources-section" tabindex="-1">
+    <h3 class="article-section__title">Past events</h3>
+</section>

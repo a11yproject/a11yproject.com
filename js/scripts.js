@@ -421,8 +421,43 @@ $(document).ready(function(){
                   .parents("li").addClass(activeClass);
               }
         });
-      } // activeNav
+      }, // activeNav
 
+      pastEvents : function(){
+        /* Make the current time Jekyll friendly */
+        var now = Date.now() / 1000;
+
+        function findPastEvents() {
+          /* Snag everything with a `data-date` attribute, puts it into a node list */
+          var events = [].slice.call(document.querySelectorAll('[data-date]'));
+          /* Loops through event array, returns past that occured after current date */
+          var eventTimes = events.filter(function (el) {
+            return el.dataset.date < now;
+          })
+          return eventTimes;
+      }
+
+      // Reverses past event list so oldest is placed last
+      var pastEventList = findPastEvents();
+      pastEventList = pastEventList.reverse();
+
+      // Moves an event list to the targeted container
+      function moveEventsList(container, arr) {
+        arr.map(function (el) {
+          container.appendChild(el);
+        })
+      }
+      moveEventsList(document.querySelector('#past-events'), pastEventList);
+
+      // Reveal ToC and past events once filled
+      function unhide(el) {
+        el.removeAttribute("hidden");
+      }
+      unhide(document.querySelector('#past-events'));
+      unhide(document.querySelector('#toc-events'));
+
+      document.querySelector('#event-list').textContent = "Upcoming";
+    } // pastEvents
     } // ui
 
   } // Engine
@@ -431,5 +466,6 @@ $(document).ready(function(){
   Engine.ui.lazyLoadFooter("footer[role='contentinfo']",800);
   Engine.ui.footerCopyright();
   Engine.ui.activeNav("#main-navigation","active");
+  Engine.ui.pastEvents();
 
 });
