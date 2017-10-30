@@ -30,7 +30,7 @@ permalink: events.html
     <h3 id="event-list" class="article-section__title">Event List</h3>
     {% assign sorted_events = category.events | sort: 'date' %}
     {% for event in sorted_events %}
-    <div id="{{event.title | url_encode | downcase | replace:'+','-'}}" class="waypoint-section event" data-date="{{event.date | date:"%s"}}" >
+    <div id="{{event.title | url_encode | downcase | replace_first:'%','' | replace:'+','-'}}" class="waypoint-section event" data-date="{{event.date | date:"%s"}}" >
       <h4>
         <a href="{{ event.url }}" rel="external">{{event.title}}</a>{% if event.type %} <span class="event__type">{{event.type}}</span>{% endif %}
       </h4>
