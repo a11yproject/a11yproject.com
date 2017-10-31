@@ -26,12 +26,12 @@ permalink: events.html
 </nav>
 
 {% for category in site.data.events %}
-<section id="{{category.section-id}}" class="article-section resources-section " tabindex="-1">
+<section id="{{category.section-id}}" class="article-section resources-section " aria-labelledby="event-list" tabindex="-1">
     <h3 id="event-list" class="article-section__title">Event List</h3>
     {% assign sorted_events = category.events | sort: 'date' %}
     {% for event in sorted_events %}
-    <div id="{{event.title | url_encode | downcase | replace_first:'%','' | replace:'+','-'}}" class="waypoint-section event" data-date="{{event.date | date:"%s"}}" >
-      <h4>
+    <div class="waypoint-section event" data-date="{{event.date | date:"%s"}}" aria-labelledby="{{event.title | url_encode | downcase | replace_first:'%','' | replace:'+','-'}}">
+      <h4 id="{{event.title | url_encode | downcase | replace_first:'%','' | replace:'+','-'}}">
         <a href="{{ event.url }}" rel="external">{{event.title}}</a>{% if event.type %} <span class="event__type">{{event.type}}</span>{% endif %}
       </h4>
       <dl class="article-section__content">
