@@ -227,7 +227,29 @@ $mobile: 24em;
         top: .25em;
         left: -.625em;
     }
+}
 
+.event {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 
+  // Place closer to section heading
+  &:first-of-type {
+    padding-top: 1em;
+  }
 
+  &__type {
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-size: 75%;
+  }
+
+  &__time {
+    line-height: 1.3;
+  }
+
+  // Ensure space between event description and time or address
+  dd:nth-last-child(3) {
+    margin-bottom: 1em;
+  }
 }
