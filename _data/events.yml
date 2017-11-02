@@ -1,0 +1,25 @@
+- event-category: Upcoming
+  section-id: upcoming
+  events:
+    - title: "Inclusive Design 24"
+      description: "A Free 24-Hour Online Community Event On Accessibility Organized by The Paciello Group."
+      url: "https://www.inclusivedesign24.org/"
+      type: "Webinar"
+      date: 2017-11-16
+      hashtag: "ID24"
+    - title: "a11yTOCamp"
+      description: "#a11yTOCamp believes in introducing digital accessibility to new people all year round through our monthly Meetups and at Camp."
+      url: "http://camp.a11yto.com/"
+      type: "Regional"
+      date: 2017-11-18
+      address: "100 McCaul St, Toronto, ON M5T 1W1, Canada"
+      map: "https://www.google.com/maps?ll=43.653228,-79.39147&z=16&t=m&hl=en-US&gl=CA&mapclient=embed&cid=9667773230772056803"
+      hashtag: "a11yTOCamp"
+    - title: "Accessibility Camp Seattle"
+      description: "An unconference about accessibility and people."
+      url: "http://accessibilitycampseattle.org/2017/"
+      type: "Regional"
+      date: 2017-09-23
+      address: "1000 4th Ave, Seattle, WA 98104, USA"
+      map: "https://goo.gl/maps/pVPhTvDbKUk"
+      hashtag: "a11yCampSeattle"
