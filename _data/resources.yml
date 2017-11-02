@@ -10,6 +10,9 @@
     - url: http://colororacle.org/
       title: "Color Oracle"
       description: "App (Mac/Win/Linux)"
+    - url: https://usecontrast.com/
+      title: "Contrast"
+      description: "Desktop App (Mac)"
     - url: https://www.paciellogroup.com/resources/contrastanalyser/
       title: "WCAG 2.0 Colour Contrast Analyser (CCA)"
       description: "By The Paciello Group, Desktop App (Mac/Win)"
