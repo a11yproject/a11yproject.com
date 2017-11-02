@@ -1,6 +1,24 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Live aXe-core Webinar: Updates and aXe Coconut"
+      description: "On November 7th at 2pm EST, Senior Front-End Engineer, Accessibility Evangelist, and aXe-Master Marcy Sutton will walk you through the new aXe-core updates and how to test with aXe Coconut."
+      url: "https://accessibility.deque.com/accessibility-testing-axe-core-webinar"
+      type: "Regional"
+      date: 2017-12-06
+      - title: "Panel: Are you ready for the Section 508 Refresh?"
+      description: "Join us on Wednesday, December 6th at 9:00AM to learn the steps you can take for organizational readiness for the Section 508 Refresh. Doors will open at 8:30AM and we welcome attendees to stay and network after the panel until 12:00PM. Our panel of experts will break down the nuances of the final rule, important deadlines you should know, and how this policy will affect you and your colleagues."
+      url: "https://accessibility.deque.com/section-508-refresh-panel"
+      type: "Regional"
+      date: 2017-12-06
+      address: "1800 Jefferson Davis Hwy, Arlington, VA 22202"
+      map: "https://www.google.com/maps?q=1800+Jefferson+Davis+Hwy,+Arlington,+VA+22202&oe=utf-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj-w73si6DXAhUpxYMKHZ1GBfEQ_AUICigB"
+    - title: "Live aXe-core Webinar: Updates and aXe Coconut"
+      description: "On November 7th at 2pm EST, Senior Front-End Engineer, Accessibility Evangelist, and aXe-Master Marcy Sutton will walk you through the new aXe-core updates and how to test with aXe Coconut."
+      url: "https://accessibility.deque.com/accessibility-testing-axe-core-webinar"
+      type: "Webinar"
+      date: 2017-11-07
+      hashtag: "axeCore"
     - title: "Inclusive Design 24"
       description: "A Free 24-Hour Online Community Event On Accessibility Organized by The Paciello Group."
       url: "https://www.inclusivedesign24.org/"
