@@ -1,12 +1,15 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
-    - title: "Inclusive Design 24"
-      description: "A Free 24-Hour Online Community Event On Accessibility Organized by The Paciello Group."
-      url: "https://www.inclusivedesign24.org/"
-      type: "Webinar"
-      date: 2017-11-16
-      hashtag: "ID24"
+    - title: "Live Panel: Are you ready for the Section 508 Refresh?"
+      description: "Join us on Wednesday, December 6th at 9:00AM to learn the steps you can take for organizational readiness for the Section 508 Refresh. Doors will open at 8:30AM and we welcome attendees to stay and network after the panel until 12:00PM. This panel is hosted by Deque Systems and <a href='https://accessibility.deque.com/section-508-refresh-panel'>includes a panel of Section 508 experts</a>."
+      url: "https://accessibility.deque.com/section-508-refresh-panel"
+      type: "Regional"
+      date: 2017-12-06
+      address: "1800 Jefferson Davis Hwy, Arlington, VA 22202"
+      map: "https://www.google.com/maps?q=1800+Jefferson+Davis+Hwy,+Arlington,+VA+22202&oe=utf-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj-w73si6DXAhUpxYMKHZ1GBfEQ_AUICigB"
+      address: "100 McCaul St, Toronto, ON M5T 1W1, Canada"
+      map: "https://goo.gl/maps/GNChbnmVgqy"
     - title: "a11yTOCamp"
       description: "#a11yTOCamp believes in introducing digital accessibility to new people all year round through our monthly Meetups and at Camp."
       url: "http://camp.a11yto.com/"
@@ -15,6 +18,23 @@
       address: "100 McCaul St, Toronto, ON M5T 1W1, Canada"
       map: "https://www.google.com/maps?ll=43.653228,-79.39147&z=16&t=m&hl=en-US&gl=CA&mapclient=embed&cid=9667773230772056803"
       hashtag: "a11yTOCamp"
+    - title: "Inclusive Design 24"
+      description: "A Free 24-Hour Online Community Event On Accessibility Organized by The Paciello Group."
+      url: "https://www.inclusivedesign24.org/"
+      type: "Webinar"
+      date: 2017-11-16
+      hashtag: "ID24"
+    - title: "Ann Arbor Web Accessibility Meetup"
+      description: "Our first event! <a href='https://www.meetup.com/a2a11y/events/243778915/'>You should come</a> on Monday, November 13th from 6-8PM. This will be a pretty low-key social gathering to give us all the opportunity to hang out with others who are interested in digital accessibility. Bring ideas for what you'd like to get out of an accessibility meetup! Also, feel free to reach out to either of us organizers with any questions or concerns. We plan to send out a survey to all members after the event to gather feedback and suggestions."
+      url: "https://www.meetup.com/a2a11y/events/243778915/"
+      type: "Regional"
+      date: 2017-11-13
+    - title: "Live aXe-core Webinar: Updates and aXe Coconut"
+      description: "On November 7th at 2pm EST, Senior Front-End Engineer, Accessibility Evangelist, and aXe-Master Marcy Sutton will walk you through the new aXe-core updates and how to test with aXe Coconut."
+      url: "https://accessibility.deque.com/accessibility-testing-axe-core-webinar"
+      type: "Webinar"
+      hashtag: "axeCore"
+      date: 2017-11-07
     - title: "Accessibility Camp Seattle"
       description: "An unconference about accessibility and people."
       url: "http://accessibilitycampseattle.org/2017/"
