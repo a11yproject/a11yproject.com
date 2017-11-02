@@ -10,6 +10,9 @@
     - url: http://colororacle.org/
       title: "Color Oracle"
       description: "App (Mac/Win/Linux)"
+    - url: https://usecontrast.com/
+      title: "Contrast"
+      description: "Desktop App (Mac)"
     - url: https://www.paciellogroup.com/resources/contrastanalyser/
       title: "WCAG 2.0 Colour Contrast Analyser (CCA)"
       description: "By The Paciello Group, Desktop App (Mac/Win)"
@@ -234,6 +237,9 @@
     - url: https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939
       title: "Writing CSS with Accessibility in Mind"
       description: "by Manuel Matuzovic"
+    - url: https://increment.com/development/a-guide-to-coding-accessible-developer-tools/
+      title: "A guide to coding accessible developer tools"
+      description: "by Suz Hinton"
 
 - resource-category: Professional Help
   section-id: professional-help
