@@ -336,6 +336,9 @@
     - url: https://www.youtube.com/watch?v=8dr_IUGwsO0
       title: "PWAs in any context"
       description: "Progressive Web App Summit (2016)"
+    - url: https://www.youtube.com/watch?v=hUCOA338jwk
+      title: "JavaScript and Civil Rights (Marcy Sutton)"
+      description: "Web Rebels (2017)"
 
 - resource-category: Podcasts
   section-id: podcasts
