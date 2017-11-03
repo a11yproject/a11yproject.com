@@ -352,6 +352,9 @@
     - url: https://frontsidethepodcast.simplecast.fm/episodes/44c5e387/61-accessibility-with-marcy-sutton
       title: "Accessibility with Marcy Sutton"
       description: "A conversation about accessibility, WCAG, ARIA, and single page apps with guest Marcy Sutton"
+    - url: https://www.codenewbie.org/podcast/intro-to-accessibility
+      title: "Intro to Accessibility with Stephanie Slattery"
+      description: "Stephanie Slattery explains the 5 categories of disabilities, shows us how to implement suggestions from the Web Content Accessibility Guidelines, and shares why she’s so passionate about accessibility."
 
 - resource-category: Empathy Development
   section-id: empathy-development
