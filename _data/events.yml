@@ -43,3 +43,11 @@
       address: "1000 4th Ave, Seattle, WA 98104, USA"
       map: "https://goo.gl/maps/pVPhTvDbKUk"
       hashtag: "a11yCampSeattle"
+    - title: "#a11yTOConf"
+      description: "A curated playlist of talks, focused on digital accessibility"
+      url: "http://conf.a11yto.com/"
+      type: "Regional"
+      date: 2017-09-28
+      address: "25 York St., Toronto, ON M5J 2V5, Canada"
+      map: "https://goo.gl/maps/2rgNzh8o9LB2"
+      hashtag: "a11yTOConf"
