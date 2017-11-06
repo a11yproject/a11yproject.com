@@ -104,6 +104,7 @@
             color: $body_font;
             border-radius: 5px;
 
+            &:focus,
             &:hover {
                 background: rgba(0,0,0,.3);
             }

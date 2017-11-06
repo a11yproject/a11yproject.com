@@ -11,6 +11,11 @@ body {
 
 a {
     color: $link;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-skip: ink;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -165,6 +170,7 @@ em {
             margin-right: 0.25em;
         }
 
+        &:focus,
         &:hover {
             background: darken($grayLighter, 10%);
         }

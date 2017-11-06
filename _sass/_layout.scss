@@ -214,6 +214,7 @@ $mobile: 24em;
         padding-left: 1.33rem;
         position: relative;
 
+        &:focus,
         &:hover {
             cursor: pointer;
         }
