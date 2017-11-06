@@ -23,7 +23,6 @@ $mobile: 24em;
 
 .article-section {
     padding-top: 2em;
-    padding-bottom: 2em;
 
     &:focus {
       outline: 0;
@@ -146,7 +145,6 @@ $mobile: 24em;
         .waypoint-section {
             width: $tablet;
             padding-top: 2em;
-            padding-bottom: 2em;
 
             &:after {
                 content: "";
