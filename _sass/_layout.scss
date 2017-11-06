@@ -24,6 +24,10 @@ $mobile: 24em;
 .article-section {
     padding-top: 2em;
     padding-bottom: 2em;
+
+    &:focus {
+      outline: 0;
+    }
 }
 
 .article-section__follow-image {
@@ -99,7 +103,6 @@ $mobile: 24em;
                 padding: .5rem 0;
                 font-size: 1em;
                 text-decoration: none;
-                transition: all .2s;
                 position: relative;
                 right: 0;
 
