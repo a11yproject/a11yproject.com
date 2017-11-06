@@ -451,12 +451,16 @@ $(document).ready(function(){
 
       // Reveal ToC and past events once filled
       function unhide(el) {
-        el.removeAttribute("hidden");
+        if (el) {
+          el.removeAttribute("hidden");
+        }
       }
       unhide(document.querySelector('#past-events'));
       unhide(document.querySelector('#toc-events'));
 
-      document.querySelector('#event-list').textContent = "Upcoming";
+      if (document.querySelector('#event-list')) {
+        document.querySelector('#event-list').textContent = "Upcoming";
+      }
     } // pastEvents
     } // ui
 
