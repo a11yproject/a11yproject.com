@@ -8,8 +8,6 @@
       date: 2017-12-06
       address: "1800 Jefferson Davis Hwy, Arlington, VA 22202"
       map: "https://www.google.com/maps?q=1800+Jefferson+Davis+Hwy,+Arlington,+VA+22202&oe=utf-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj-w73si6DXAhUpxYMKHZ1GBfEQ_AUICigB"
-      address: "100 McCaul St, Toronto, ON M5T 1W1, Canada"
-      map: "https://goo.gl/maps/GNChbnmVgqy"
     - title: "A11Y Talks - November 2017"
       description: "Join us on November 29th at 12pm EST for a panel discussion on all things accessibility with four accessibility experts! There will be a few questions queued up to start the discussion, but more questions can be submitted using the hashtag #a11ytalks on Twitter."
       url: "https://groups.drupal.org/node/517800"
