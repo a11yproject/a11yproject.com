@@ -33,6 +33,8 @@
       title: "Responsive Tabs to Accordion"
     - url: "http://codepen.io/BeyondHyper/pen/xZXXzj"
       title: "Simple Responsive Tabs (Vanilla JS)"
+    - url: "https://github.com/scottaohara/accessible_accordions"
+      title: "Accessible Accordions (progressively enhanced Vanilla JS)"
 
 - pattern-category: Forms
   section-id: forms
