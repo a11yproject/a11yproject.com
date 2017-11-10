@@ -33,6 +33,8 @@
       title: "Responsive Tabs to Accordion"
     - url: "http://codepen.io/BeyondHyper/pen/xZXXzj"
       title: "Simple Responsive Tabs (Vanilla JS)"
+    - url: "https://github.com/scottaohara/accessible_accordions"
+      title: "Accessible Accordions (progressively enhanced Vanilla JS)"
 
 - pattern-category: Forms
   section-id: forms
@@ -69,8 +71,8 @@
   patterns:
     - url: "http://codepen.io/BeyondHyper/pen/NREjpP"
       title: "The Incredible Accessible Modal Window, Version 3"
-    - url: "http://codepen.io/scottohara/pen/lIdfv"
-      title: "An accessible Modal Window with JavaScript & CSS"
+    - url: "https://github.com/scottaohara/accessible_modal_window"
+      title: "Accessible Modal Window (jQuery)"
     - url: "https://codepen.io/svinkle/pen/pjVepz"
       title: "Launchy: An Accessible Modal Window"
 
@@ -109,3 +111,5 @@
       title: "Content Touch Target"
     - url: "https://codepen.io/dpersing/pen/vJERyv"
       title: "High Contrast-friendly dropshadow"
+    - url: "https://github.com/scottaohara/a11y_breadcrumbs"
+      title: "Accessible Breadcrumb Navigation Pattern"
