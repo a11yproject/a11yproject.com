@@ -201,9 +201,12 @@
     - url: http://heydonworks.com/practical_aria_examples/
       title: "Practical ARIA Examples"
       description: "By heydonworks.com (2014)"
-    - url: http://a11y.nicolas-hoffmann.net/
-      title: "jQuery simple and accessible hide-show system (collapsible regions), using ARIA"
-      description: "By Nicolas Hoffmann (2016)"
+    - url: https://a11y.nicolas-hoffmann.net/
+      title: "jQuery accessible plugins for rich interfaces elements (tabpanel, hide-show system, etc.), using ARIA"
+      description: "By Nicolas Hoffmann"
+    - url: https://van11y.net/
+      title: "Van11y (for Vanilla-Accessibility), a collection of accessible scripts for rich interfaces elements"
+      description: "By Nicolas Hoffmann"
     - url: http://wearecolorblind.com
       title: "We are Color Blind"
       description: "by Tom van Beveren"
