@@ -49,6 +49,8 @@
       url: "https://www.meetup.com/a2a11y/events/243778915/"
       type: "Regional"
       date: 2017-11-13
+      address: "401 E Liberty St., Ann Arbor, MI 48104 USA"
+      map: "https://goo.gl/maps/pjemtzqJAzv"
     - title: "Live aXe-core Webinar: Updates and aXe Coconut"
       description: "On November 7th at 2pm EST, Senior Front-End Engineer, Accessibility Evangelist, and aXe-Master Marcy Sutton will walk you through the new aXe-core updates and how to test with aXe Coconut."
       url: "https://accessibility.deque.com/accessibility-testing-axe-core-webinar"
