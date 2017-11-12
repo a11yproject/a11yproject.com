@@ -36,6 +36,12 @@
       type: "Webinar"
       date: 2017-11-16
       hashtag: "ID24"
+    - title: "Accessibility for Everyone - An Evening with Laura Kalbag"
+      description: "Laura gets really tired of the myth that accessible websites are ugly websites. First of all, accessibility starts with our content, and Laura will explore ways to make content more inclusive. Then, let’s look at inclusive aesthetics, and how layout, typography and color can be used to improve a site’s accessibility while also making for an attractive page. We’ll prove them wrong!"
+      url: "https://www.meetup.com/a11ychi/events/243947005/"
+      type: "Regional"
+      date: 2017-11-15
+      hashtag: "a11yChi"
     - title: "Ann Arbor Web Accessibility Meetup"
       description: "Our first event! <a href='https://www.meetup.com/a2a11y/events/243778915/'>You should come</a> on Monday, November 13th from 6-8PM. This will be a pretty low-key social gathering to give us all the opportunity to hang out with others who are interested in digital accessibility. Bring ideas for what you'd like to get out of an accessibility meetup! Also, feel free to reach out to either of us organizers with any questions or concerns. We plan to send out a survey to all members after the event to gather feedback and suggestions."
       url: "https://www.meetup.com/a2a11y/events/243778915/"
