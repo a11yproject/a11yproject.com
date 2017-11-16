@@ -16,6 +16,11 @@
       address: "75 Binney Street, Cambridge, MA, 02142, USA"
       map: "https://goo.gl/maps/CaXkQLzCeZA2"
       hashtag: "a11yBos"
+    - title: "Virtual Panel: How Persons with Disabilities Use the Web"
+      description: "<a href='https://accessibility.deque.com/virtual-panel-how-persons-with-disabilities-use-the-web'>Join us on Thursday, November 30th at 11:00AM</a> to learn how persons with disabilities use the web.This panel is a great introduction for people who are new to accessibility but want to learn more. Millions of people have disabilities that affect their use of the web. Currently, most websites and software have accessibility barriers that make it difficult or impossible for many people with disabilities to use the web. Our panelists will go over the various scenarios they encounter."
+      url: "https://accessibility.deque.com/virtual-panel-how-persons-with-disabilities-use-the-web"
+      type: "Webinar"
+      date: 2017-11-30
     - title: "A11Y Talks - November 2017"
       description: "Join us on November 29th at 12pm EST for a panel discussion on all things accessibility with four accessibility experts! There will be a few questions queued up to start the discussion, but more questions can be submitted using the hashtag #a11ytalks on Twitter."
       url: "https://groups.drupal.org/node/517800"
