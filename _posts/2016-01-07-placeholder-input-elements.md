@@ -14,7 +14,7 @@ categories:
 
 Form input `placeholder` attributes are helpful for providing hints to (sighted) users in forms. Often times, due to design decisions, a `placeholder` is used to replace a more semantic `label` element. Unfortunately, accessible `placeholder` browser support isn't complete and placeholders often lack sufficient color contrast by default.
 
-Now, there's nothing wrong with using placeholders - they can still be used. However, they should be used in *addition* to a label, not as a replacement. What happens when we don't use a label for an input element, is a screen reader will get to that field, but won't have any information for the user on what the input element is for. So the screen reader user doesn't know what information to fill out. Also, a placeholder dissapears when the input element is in focus, and can be an issue for people with memory impairments.
+Now, there's nothing wrong with using placeholders - they can still be used. However, they should be used in *addition* to a label, not as a replacement. What happens when we don't use a label for an input element, is a screen reader will get to that field, but won't have any information for the user on what the input element is for. So the screen reader user doesn't know what information to fill out. Also, a placeholder disappears when the input element is in focus, and can be an issue for people with memory impairments.
 
 Make your forms accessible by using one of the following methods (in order of preference):
 
