@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Accessibility Club #7"
+      description: "We are extremely pleased that <a href='https://marcysutton.com/'>Marcy Sutton</a> — senior front-end engineer at <a href='https://www.deque.com/'>Deque Systems</a>, writer and speaker — will give us a visit and, among other things, talk about her work on the <a href='http://www.deque.com/products/axe/'>axe-core</a> team focusing on accessibility test integrations into web developer tooling."
+      url: "https://accessibility.deque.com/section-508-refresh-panel"
+      type: "Regional"
+      date: 2018-01-15
+      address: "Münchner Künstlerhaus"
+      map: "https://goo.gl/maps/T4VU9E9Z9aQ2"
+      hashtag: "a11yclub"
     - title: "Live Panel: Are you ready for the Section 508 Refresh?"
       description: "Join us on Wednesday, December 6th at 9:00AM to learn the steps you can take for organizational readiness for the Section 508 Refresh. Doors will open at 8:30AM and we welcome attendees to stay and network after the panel until 12:00PM. This panel is hosted by Deque Systems and <a href='https://accessibility.deque.com/section-508-refresh-panel'>includes a panel of Section 508 experts</a>."
       url: "https://accessibility.deque.com/section-508-refresh-panel"
