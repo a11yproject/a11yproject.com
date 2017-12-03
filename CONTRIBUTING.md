@@ -1,18 +1,18 @@
-[![http://a11yproject.com](http://a11yproject.com/img/README-logo.svg)](http://a11yproject.com)
+[![https://a11yproject.com](https://a11yproject.com/img/README-logo.svg)](https://a11yproject.com)
 # Contributing to A11Y Project
 Do you enjoy web accessibility and want to help? **Here's how you can help.**
 
 ## Pattern Submissions
 If you'd like to submit patterns to the A11Y Project make sure to do the following…
 
-1. [Make a CodePen](http://codepen.io/pen) (or use an equivalent service like a JSFiddle or JSBin for example) **NOTE** : Please keep code as vanilla as possible. No Sass. No LESS. No HAML etc. You get the point.
+1. [Make a CodePen](https://codepen.io/pen) (or use an equivalent service like a JSFiddle or JSBin for example) **NOTE** : Please keep code as vanilla as possible. No Sass. No LESS. No HAML etc. You get the point.
 2. [Submit your pen to our Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues/new) w/the name of your pattern as the title.
 3. Wait for the community to give you feedback and approval. **Note:** Keep the feedback and discussion to the pattern submitted and avoid discussing other patterns. Submit new patterns as separate issues.
 4. “Git” down and boogie
 
     ![boogie dance](http://bukk.it/gitdown.gif)
 
-## Writing articles
+## Writing Articles
 We have a [list of articles](https://github.com/a11yproject/a11yproject.com/issues/12) we'd love to see written. Have an idea for an article? We'd love to know what you want to contribute.
 
 1. Search to make sure someone hasn't snagged the article already.
@@ -25,7 +25,7 @@ We have a [list of articles](https://github.com/a11yproject/a11yproject.com/issu
 2. Start a conversation about it in an [issue](https://github.com/a11yproject/a11yproject.com/issues)
 3. Roll the article in yourself via a pull request (gist only) **OR** ask someone to help you.
 
-### Article style guide
+### Article Style Guide
 
 Here are some suggestions and tips on writing your article:
 
@@ -67,16 +67,27 @@ thing1:
   - 'third'
 ```
 
-For a full cheatsheet, you can visit the [official YAML site](http://yaml.org/about.html), or check out this [cheat sheet](http://cheat.readthedocs.io/en/latest/yaml.html).
+For a full cheatsheet, you can visit the [official YAML site](http://yaml.org/about.html), or check out this [cheat sheet](https://cheat.readthedocs.io/en/latest/yaml.html).  
 
-## Reporting issues
+## Adding Events
+Have an accessibility focused event you would like to promote?  Whether it's in person or online, you have two way you can get your event added to the project. Either [create a new issue](https://github.com/a11yproject/a11yproject.com/issues/new), or [edit the events.yml file](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/events.yml) directly and submit a pull request.
+
+You'll want to add the following information about your event:
+- Event title
+- Date of event
+- A brief description
+- Web address (url) for more info
+- Physical address of event (if applicable)
+- Social Media Hashtag (if applicable)
+
+## Reporting Issues
 Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
 
 - File an issue.
 - Preface your issue as either an `inaccuracy`, a `inaccessibility`, or a `bug` (for site issues) (e.g. "Bug: Link at archive not working").
-- **ISSUES ARE NOT** free help on your website. Use [Stack Overflow](http://stackoverflow.com) for that.
+- **ISSUES ARE NOT** free help on your website. Use [Stack Overflow](https://stackoverflow.com) for that.
 
-## Stale issues
+## Stale Issues
 An issue is considered in a "stale" state when the following conditions are met:
 
 - Last comment was made over one year ago
@@ -86,7 +97,7 @@ An issue is considered in a "stale" state when the following conditions are met:
 
 When an issue has become stale a project maintainer will close the issue, leaving a note for the author to open a new issue if so desired.
 
-## Key branches
+## Key Branches
 
 - `gh-pages` is the "master" branch. This is the website.
 
@@ -99,9 +110,9 @@ If you have a feature request(s) we suggest filing an issue initially to discuss
 - CSS changes must be done in ``.scss`` files first, never just the compiled files. We use [Codekit](http://incident57.com/codekit) to compile our *Sass* and *Compass*.
 
 
-## Pull requests
+## Pull Requests
 
-- Filing a descriptive issue then assigning it to yourself before you commit would really help get your commit accepted.
+Filing a descriptive issue and then assigning it to yourself, before you send your request, will help in get your commit accepted. This way we'll have a better understanding of what your request entails and why it was made.
 
 ## To Set up Locally
 
@@ -109,9 +120,9 @@ You can take all the files of this site and run them just on your computer as if
 
 ### Requirements
 
-* [Jekyll](http://jekyllrb.com/)
+* [Jekyll](https://jekyllrb.com/)
 * [Ruby](https://www.ruby-lang.org/en/)
-* [Git](http://git-scm.com/)
+* [Git](https://git-scm.com/)
 
 _If you have installed [GitHub Desktop](https://desktop.github.com), Git was also installed automatically._
 
