@@ -33,7 +33,7 @@
       address: "1800 Jefferson Davis Hwy, Arlington, VA 22202"
       map: "https://www.google.com/maps?q=1800+Jefferson+Davis+Hwy,+Arlington,+VA+22202&oe=utf-8&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj-w73si6DXAhUpxYMKHZ1GBfEQ_AUICigB"
     - title: "A11yBos: An Overview of CAST Figuration"
-      description: "Looking for a development framework designed to include accessibility from the start? Join us for an overview of CAST (<a href='http://www.cast.org/'>http://www.cast.org/</a>), the AEM Center (<a href='http://aem.cast.org/'>http://aem.cast.org/</a>), and the latest version of CAST Figuration (<a href='http://figuration.org/'>http://figuration.org/</a>) - 'A feature rich, responsive, mobile first, accessible, front-end framework.'<br><br>Presenter: Lynn McCormack, Software Engineer , Senior Technologist – AEM Center"
+      description: "Looking for a development framework designed to include accessibility from the start? Join us for an overview of <a href='http://www.cast.org/'>CAST</a>, <a href='http://aem.cast.org/'>the AEM Center</a>, and the latest version of <a href='http://figuration.org/'>CAST Figuration</a>: A feature rich, responsive, mobile first, accessible, front-end framework. Presenter: Lynn McCormack, Software Engineer, Senior Technologist – AEM Center"
       url: "https://www.meetup.com/a11yBos/events/244938714"
       type: "Regional"
       date: 2017-12-05
