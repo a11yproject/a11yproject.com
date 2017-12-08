@@ -141,9 +141,6 @@
     - url: http://www.456bereastreet.com/
       title: "456 Berea Street"
       #description: ""
-    - url: http://www.a11ybuzz.com/
-      title: "A11y Buzz"
-      #description: ""
     - url: http://www.accessibleculture.org/
       title: "Accessible Culture"
       #description: ""
@@ -192,9 +189,6 @@
     - url: https://mobiforge.com/design-development/why-mobile-web-accessibility-matters-best-practices-make-your-mobile-site-accessi
       title: "Best practices to make your mobile site accessible"
       description: "By mobiforge.com (2012)"
-    - url: http://diveintoaccessibility.info/table_of_contents.html
-      title: "30 days to a more accessible web site"
-      description: "By Dive Into Accessibility (2002)"
     - url: https://www.google.com/accessibility/
       title: "Google Accessibility"
       description: "Resources to help everyone access and enjoy the web."
