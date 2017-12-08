@@ -1,13 +1,13 @@
 - pattern-category: Menus
   section-id: menus
   patterns:
-    - url: "http://codepen.io/grayghostvisuals/pen/d7d131e58a33665d24ea0881c01a02b8"
+    - url: "https://codepen.io/grayghostvisuals/pen/ltjDa"
       title: "Dropdown"
-    - url: "http://adobe-accessibility.github.io/Accessible-Mega-Menu"
+    - url: "https://adobe-accessibility.github.io/Accessible-Mega-Menu/"
       title: "Mega Dropdown"
-    - url: "http://codepen.io/svinkle/pen/LDKwA"
+    - url: "https://codepen.io/svinkle/pen/LDKwA"
       title: "Mobile Toggle"
-    - url: "http://codepen.io/grayghostvisuals/pen/IkmGF"
+    - url: "https://codepen.io/grayghostvisuals/pen/IkmGF"
       title: "Off Canvas Push"
     - url: "https://a11y.nicolas-hoffmann.net/subnav-dropdown/"
       title: "jQuery accessible keyboard-enhanced dropdown navigation"
@@ -15,9 +15,9 @@
 - pattern-category: Imagery
   section-id: imagery
   patterns:
-    - url: "http://codepen.io/grayghostvisuals/pen/eyvrK"
+    - url: "https://codepen.io/grayghostvisuals/pen/eyvrK"
       title: "SVG"
-    - url: "http://codepen.io/mpiotrowicz/pen/yndxA"
+    - url: "https://codepen.io/mpiotrowicz/pen/yndxA"
       title: "Video Element Backgrounds"
     - url: "https://codepen.io/svinkle/pen/pwYRzM/"
       title: "Accessible SVG Link List with Tooltips"
@@ -25,13 +25,13 @@
 - pattern-category: Accordions &amp; Tabs
   section-id: accordions-and-tabs
   patterns:
-    - url: "http://codepen.io/svinkle/pen/mKfru"
+    - url: "https://codepen.io/svinkle/pen/mKfru"
       title: "Simple Accordion"
-    - url: "http://codepen.io/svinkle/pen/edmDF"
+    - url: "https://codepen.io/svinkle/pen/edmDF"
       title: "Simple Tabs"
-    - url: "http://codepen.io/mpiotrowicz/pen/gocmu"
+    - url: "https://codepen.io/mpiotrowicz/pen/gocmu"
       title: "Responsive Tabs to Accordion"
-    - url: "http://codepen.io/BeyondHyper/pen/xZXXzj"
+    - url: "https://codepen.io/BeyondHyper/pen/xZXXzj"
       title: "Simple Responsive Tabs (Vanilla JS)"
     - url: "https://github.com/scottaohara/accessible_accordions"
       title: "Accessible Accordions (progressively enhanced Vanilla JS)"
@@ -45,32 +45,32 @@
 - pattern-category: Buttons
   section-id: buttons
   patterns:
-    - url: "http://codepen.io/grayghostvisuals/pen/HhiAz"
+    - url: "https://codepen.io/grayghostvisuals/pen/HhiAz"
       title: "Form Submission"
-    - url: "http://codepen.io/svinkle/pen/FHGBh"
+    - url: "https://codepen.io/svinkle/pen/FHGBh"
       title: "Single Toggle (anchor)"
     - url: "https://scottaohara.github.io/aria-switch-button/"
-      title: "ARIA Switch Demo"
+      title: "ARIA Switch Button"
 
 - pattern-category: Anchors/Links
   section-id: anchors-links
   patterns:
-    - url: "http://codepen.io/joe-watkins/pen/rjhiK"
+    - url: "https://codepen.io/joe-watkins/pen/rjhiK"
       title: "Skip To Content"
   sub-category: "Read More Links"
   sub-category-patterns:
-    - url: "http://codepen.io/svinkle/pen/Jmlbw"
+    - url: "https://codepen.io/svinkle/pen/Jmlbw"
       title: "hidden &lt;span&gt;"
-    - url: "http://codepen.io/grayghostvisuals/pen/Gtoua"
+    - url: "https://codepen.io/grayghostvisuals/pen/Gtoua"
       title: "aria-labelledby"
-    - url: "http://codepen.io/joe-watkins/pen/xaDbJ"
+    - url: "https://codepen.io/joe-watkins/pen/xaDbJ"
       title: "aria-label"
 
 - pattern-category: Modal Windows
   section-id: modal-windows
   patterns:
-    - url: "http://codepen.io/BeyondHyper/pen/NREjpP"
-      title: "The Incredible Accessible Modal Window, Version 3"
+    - url: "https://codepen.io/BeyondHyper/pen/NREjpP"
+      title: "The Incredible Accessible Modal Window, Version 4"
     - url: "https://github.com/scottaohara/accessible_modal_window"
       title: "Accessible Modal Window (jQuery)"
     - url: "https://codepen.io/svinkle/pen/pjVepz"
@@ -79,13 +79,13 @@
 - pattern-category: Tables
   section-id: tables
   patterns:
-    - url: "http://codepen.io/svinkle/pen/zmlEi"
+    - url: "https://codepen.io/svinkle/pen/zmlEi"
       title: "Simple Data Table"
 
 - pattern-category: Tooltips
   section-id: tooltips
   patterns:
-    - url: "http://codepen.io/mpiotrowicz/pen/PwQYMd"
+    - url: "https://codepen.io/mpiotrowicz/pen/PwQYMd"
       title: "Form field with icon-based tooltip for extra field information"
     - url: "https://codepen.io/heydon/pen/Vzwdpy"
       title: "Toggletip from paragraph"
@@ -93,7 +93,7 @@
 - pattern-category: Labelling
   section-id: labelling
   patterns:
-    - url: "http://codepen.io/svinkle/pen/eNPyEB"
+    - url: "https://codepen.io/svinkle/pen/eNPyEB"
       title: "Using aria-labelledby with Lists"
 
 - pattern-category: Video Players
@@ -101,13 +101,13 @@
   patterns:
     - url: "https://github.com/ableplayer/ableplayer"
       title: "Able Player"
-    - url: "http://github.com/paypal/accessible-html5-video-player/"
+    - url: "https://github.com/paypal/accessible-html5-video-player/"
       title: "Accessible HTML5 Video Player"
 
 - pattern-category: Other
   section-id: other
   patterns:
-    - url: "http://codepen.io/svinkle/pen/yDAiG"
+    - url: "https://codepen.io/svinkle/pen/yDAiG"
       title: "Content Touch Target"
     - url: "https://codepen.io/dpersing/pen/vJERyv"
       title: "High Contrast-friendly dropshadow"
