@@ -17,6 +17,12 @@
       address: "1033 W Van Buren #700, Chicago, IL 60607"
       map: "https://goo.gl/maps/rKS3qwChiC22"
       hashtag: "a11ychi"
+    - title: "A11Y Talks - December 2017"
+      description: "As an early holiday present, for December's meet-up we have a very special accessibility guru joining us - Heydon Pickering! Heydon will be talking about prioritizing accessibility and demoing his inclusive design checklist. Hopefully, he will have some time to answer some audience questions too, so make sure to post your questions on Twitter with the hashtag #a11yTalks"
+      url: "https://groups.drupal.org/node/517982"
+      type: "Webinar"
+      date: 2017-12-20
+      hashtag: "a11ytalks"  
     - title: "Chicago Digital Accessibility and Inclusive Design Meetup: Digital Accessibility Lightning Talks & Holiday Social"
       description: "This event will be a hybrid lightning talk, social networking meetup. Between 6-8pm, join us for a mix of formal talks and holiday merrymaking. We're looking to have food and beverage for this event."
       url: "https://www.meetup.com/a11ychi/events/238768965/"
