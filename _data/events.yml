@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "A11y Meetup Berlin #1"
+      description: "We are extremely happy to invite you to our first meetup. <a href='https://www.stefanjudis.com/'>Stefan Judis</a> will present us with the common problems of the web today and how we can make it a more welcoming place. <a href='http://sozialhelden.de/blog/team/svenja/'>Svenja Heinecke</a> and <a href='http://www.felixzappe.com/'>Sebastian Felix Zappe</a> will give us an insight into the status quo and the latest community and IT developments of the Wheelmap project. Doors will open at 7:00 pm."
+      url: "https://www.meetup.com/A11y-Meetup-Berlin/events/245047218/"
+      type: "Regional"
+      date: 2018-01-16
+      address: "Julie-Wolfthorn-Straße 1, Berlin 10115"
+      map: "https://goo.gl/maps/htDVzqGkom72"
+      hashtag: "a11yberlin"
     - title: "Accessibility Club #7"
       description: "We are extremely pleased that <a href='https://marcysutton.com/'>Marcy Sutton</a> — senior front-end engineer at <a href='https://www.deque.com/'>Deque Systems</a>, writer and speaker — will give us a visit and, among other things, talk about her work on the <a href='http://www.deque.com/products/axe/'>axe-core</a> team focusing on accessibility test integrations into web developer tooling."
       url: "https://accessibility-club.org/"
@@ -22,7 +30,7 @@
       url: "https://groups.drupal.org/node/517982"
       type: "Webinar"
       date: 2017-12-20
-      hashtag: "a11ytalks"  
+      hashtag: "a11ytalks"
     - title: "Chicago Digital Accessibility and Inclusive Design Meetup: Digital Accessibility Lightning Talks & Holiday Social"
       description: "This event will be a hybrid lightning talk, social networking meetup. Between 6-8pm, join us for a mix of formal talks and holiday merrymaking. We're looking to have food and beverage for this event."
       url: "https://www.meetup.com/a11ychi/events/238768965/"
