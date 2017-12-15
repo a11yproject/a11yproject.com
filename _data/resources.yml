@@ -419,6 +419,16 @@
       title: "eslint-plugin-jsx-a11y"
       description: "Static AST checker for a11y rules on JSX elements"
 
+- resource-category: PDFs
+  section-id: pdfs
+  resources:
+    - url: https://webaim.org/techniques/acrobat/
+      title: "WebAIM: PDF Accessibility"
+    - url: https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html
+      title: "Adobe: Create and verify PDF accessibility, Acrobat Pro"
+    - url: https://www.pdf-accessible.com/en/
+      title: "AcceDe PDF Project"
+
 - resource-category: Newsletters
   section-id: newsletters
   resources:
