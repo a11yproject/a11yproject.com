@@ -53,6 +53,10 @@ $mobile: 24em;
             z-index: 2;
         }
 
+        .footer {
+            margin-top: 6em;
+        }
+
         .post {
             // widen it up to make room
             max-width: ($tablet+11em);
