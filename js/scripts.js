@@ -432,7 +432,7 @@ $(document).ready(function(){
           var events = [].slice.call(document.querySelectorAll('[data-date]'));
           /* Loops through event array, returns past that occured after current date */
           var eventTimes = events.filter(function (el) {
-            return el.dataset.date < now;
+            return el.dataset.date < now - 86400; // `86400` is 24 hours in Unix time (60 * 60 * 24)
           })
           return eventTimes;
       }
