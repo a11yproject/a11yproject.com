@@ -3,33 +3,47 @@
   patterns:
     - url: "https://codepen.io/grayghostvisuals/pen/ltjDa"
       title: "Dropdown"
-      code: Javascript, CSS
+      code:
+        - js
+        - css
     - url: "https://adobe-accessibility.github.io/Accessible-Mega-Menu/"
       title: "Mega Dropdown"
-      code: jQuery
+      code:
+        - jquery
     - url: "https://codepen.io/svinkle/pen/LDKwA"
       title: "Mobile Toggle"
-      code: Javascript, CSS
+      code:
+        - js
+        - css
     - url: "https://codepen.io/grayghostvisuals/pen/IkmGF"
       title: "Off Canvas Push"
-      code: Javascript, CSS
+      code:
+        - js
+        - css
     - url: "https://a11y.nicolas-hoffmann.net/subnav-dropdown/"
       title: "jQuery accessible keyboard-enhanced dropdown navigation"
-      code: jQuery
+      code:
+        - jquery
 
 - pattern-category: Imagery
   section-id: imagery
   patterns:
     - url: "https://codepen.io/grayghostvisuals/pen/eyvrK"
       title: "SVG"
-      code: HTML
+      code:
+        - html
     - url: "https://codepen.io/mpiotrowicz/pen/yndxA"
       title: "Video Element Backgrounds"
-      code: HTML, CSS, Javascript
+      code:
+        - html
+        - css
+        - js
     - url: "https://codepen.io/svinkle/pen/pwYRzM/"
       title: "Accessible SVG Link List with Tooltips"
-      code: HTML, CSS
-
+      code:
+        - html
+        - css
+        
 - pattern-category: Accordions &amp; Tabs
   section-id: accordions-and-tabs
   patterns:
