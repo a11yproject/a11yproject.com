@@ -3,113 +3,146 @@
   patterns:
     - url: "https://codepen.io/grayghostvisuals/pen/ltjDa"
       title: "Dropdown"
+      code: Javascript, CSS
     - url: "https://adobe-accessibility.github.io/Accessible-Mega-Menu/"
       title: "Mega Dropdown"
+      code: jQuery
     - url: "https://codepen.io/svinkle/pen/LDKwA"
       title: "Mobile Toggle"
+      code: Javascript, CSS
     - url: "https://codepen.io/grayghostvisuals/pen/IkmGF"
       title: "Off Canvas Push"
+      code: Javascript, CSS
     - url: "https://a11y.nicolas-hoffmann.net/subnav-dropdown/"
       title: "jQuery accessible keyboard-enhanced dropdown navigation"
+      code: jQuery
 
 - pattern-category: Imagery
   section-id: imagery
   patterns:
     - url: "https://codepen.io/grayghostvisuals/pen/eyvrK"
       title: "SVG"
+      code: HTML
     - url: "https://codepen.io/mpiotrowicz/pen/yndxA"
       title: "Video Element Backgrounds"
+      code: HTML, CSS, Javascript
     - url: "https://codepen.io/svinkle/pen/pwYRzM/"
       title: "Accessible SVG Link List with Tooltips"
+      code: HTML, CSS
 
 - pattern-category: Accordions &amp; Tabs
   section-id: accordions-and-tabs
   patterns:
     - url: "https://codepen.io/svinkle/pen/mKfru"
       title: "Simple Accordion"
+      code:
     - url: "https://codepen.io/svinkle/pen/edmDF"
       title: "Simple Tabs"
+      code:
     - url: "https://codepen.io/mpiotrowicz/pen/gocmu"
       title: "Responsive Tabs to Accordion"
+      code:
     - url: "https://codepen.io/BeyondHyper/pen/xZXXzj"
       title: "Simple Responsive Tabs (Vanilla JS)"
+      code:
     - url: "https://github.com/scottaohara/accessible_accordions"
       title: "Accessible Accordions (progressively enhanced Vanilla JS)"
+      code:
 
 - pattern-category: Forms
   section-id: forms
   patterns:
     - url: "https://codepen.io/svinkle/pen/NvazGb"
       title: "Accessible Floating Labels"
+      code:
 
 - pattern-category: Buttons
   section-id: buttons
   patterns:
     - url: "https://codepen.io/grayghostvisuals/pen/HhiAz"
       title: "Form Submission"
+      code:
     - url: "https://codepen.io/svinkle/pen/FHGBh"
       title: "Single Toggle (anchor)"
+      code:
     - url: "https://scottaohara.github.io/aria-switch-button/"
       title: "ARIA Switch Button"
+      code:
 
 - pattern-category: Anchors/Links
   section-id: anchors-links
   patterns:
     - url: "https://codepen.io/joe-watkins/pen/rjhiK"
       title: "Skip To Content"
+      code:
   sub-category: "Read More Links"
   sub-category-patterns:
     - url: "https://codepen.io/svinkle/pen/Jmlbw"
       title: "hidden &lt;span&gt;"
+      code:
     - url: "https://codepen.io/grayghostvisuals/pen/Gtoua"
       title: "aria-labelledby"
+      code:
     - url: "https://codepen.io/joe-watkins/pen/xaDbJ"
       title: "aria-label"
+      code:
 
 - pattern-category: Modal Windows
   section-id: modal-windows
   patterns:
     - url: "https://codepen.io/BeyondHyper/pen/NREjpP"
       title: "The Incredible Accessible Modal Window, Version 4"
+      code:
     - url: "https://github.com/scottaohara/accessible_modal_window"
       title: "Accessible Modal Window (jQuery)"
+      code:
     - url: "https://codepen.io/svinkle/pen/pjVepz"
       title: "Launchy: An Accessible Modal Window"
+      code:
 
 - pattern-category: Tables
   section-id: tables
   patterns:
     - url: "https://codepen.io/svinkle/pen/zmlEi"
       title: "Simple Data Table"
+      code:
 
 - pattern-category: Tooltips
   section-id: tooltips
   patterns:
     - url: "https://codepen.io/mpiotrowicz/pen/PwQYMd"
       title: "Form field with icon-based tooltip for extra field information"
+      code:
     - url: "https://codepen.io/heydon/pen/Vzwdpy"
       title: "Toggletip from paragraph"
+      code:
 
 - pattern-category: Labelling
   section-id: labelling
   patterns:
     - url: "https://codepen.io/svinkle/pen/eNPyEB"
       title: "Using aria-labelledby with Lists"
+      code:
 
 - pattern-category: Video Players
   section-id: video-players
   patterns:
     - url: "https://github.com/ableplayer/ableplayer"
       title: "Able Player"
+      code:
     - url: "https://github.com/paypal/accessible-html5-video-player/"
       title: "Accessible HTML5 Video Player"
+      code:
 
 - pattern-category: Other
   section-id: other
   patterns:
     - url: "https://codepen.io/svinkle/pen/yDAiG"
       title: "Content Touch Target"
+      code:
     - url: "https://codepen.io/dpersing/pen/vJERyv"
       title: "High Contrast-friendly dropshadow"
+      code:
     - url: "https://github.com/scottaohara/a11y_breadcrumbs"
       title: "Accessible Breadcrumb Navigation Pattern"
+      code:
