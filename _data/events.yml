@@ -5,7 +5,7 @@
       description: "Writing reports and documentation is nothing new for many of us — we write them all the time. But even though we may do our best write clearly, those who receive our reports and documentation might not be as familiar with accessibility as we are. At the end of the day, no matter how technically correct a document may be, our words won't do much good if those who are reading them can't understand what we're trying to say. But writing isn't a black box—there are straightforward techniques that we can use to help ensure that our writing remains accessible."
       url: "https://groups.drupal.org/node/518076"
       type: "Webinar"
-      date: 2018-1-24
+      date: 2018-01-24
       hashtag: "a11ytalks"
     - title: "A11y Meetup Berlin #1"
       description: "We are extremely happy to invite you to our first meetup. <a href='https://www.stefanjudis.com/'>Stefan Judis</a> will present us with the common problems of the web today and how we can make it a more welcoming place. <a href='http://sozialhelden.de/blog/team/svenja/'>Svenja Heinecke</a> and <a href='http://www.felixzappe.com/'>Sebastian Felix Zappe</a> will give us an insight into the status quo and the latest community and IT developments of the Wheelmap project. Doors will open at 7:00 pm."
