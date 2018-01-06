@@ -168,6 +168,8 @@
       title: "Inclusive Components"
     - url: https://simplyaccessible.com/articles/
       title: "Simply Accessible Articles"
+    - url: https://dev.to/t/a11y
+      title: "#a11y tag on The Practical Dev"
 
 - resource-category: Further Reading
   section-id: further-reading
