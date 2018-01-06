@@ -1,7 +1,7 @@
 - pattern-category: Menus
   section-id: menus
   patterns:
-    - url: "https://codepen.io/grayghostvisuals/pen/ltjDa"
+    - url: "https://codepen.io/svinkle/pen/aEVwWd"
       title: "Dropdown"
     - url: "https://adobe-accessibility.github.io/Accessible-Mega-Menu/"
       title: "Mega Dropdown"
