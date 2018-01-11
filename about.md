@@ -25,7 +25,9 @@ In short, _A11Y_ means "accessibility". A11Y is what is known as a _numeronym_, 
 
 There are a number of ways a numeronym can be created. In the case of translating "accessibility" to "A11Y", the first and last letters of "accessibility" are preserved, replacing the remaining letters between with their sum total, 11.
 
-One of the guiding reasons for this is the limited space available on social media platforms for posting content. For example, on Twitter - where the character limit was 140 (until November 2017) - by replacing the hashtag [#accessibility](https://twitter.com/hashtag/accessibility) with [#a11y](https://twitter.com/hashtag/a11y), the author now has another 9 characters available to them. Easily enough for another one or two important words on the subject of accessibility.
+One of the motivations for a numeronym is the limited space available on social media platforms for posting content. For example, on Twitter - where the character limit was 140 (until November 2017) - by replacing the hashtag [#accessibility](https://twitter.com/hashtag/accessibility) with [#a11y](https://twitter.com/hashtag/a11y), the author now has another 9 characters available to them. Easily enough for another one or two important words on the subject of accessibility.
+
+Another motivation is discoverability. Searching for this subject with “accessibility”, you will find many irrelevant resources using that word in various other senses, and you will also miss resources in languages other than English. To the extent that specialists use “a11y” as an international technical term, you can find more relevant resources, and with greater precision.
 
 
 ### About this site
