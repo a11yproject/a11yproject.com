@@ -13,7 +13,7 @@ permalink: checklist.html
         <li><a class="outline" href="#outline">Document Outline</a></li>
         <li><a class="links" href="#links">Links</a></li>
         <li><a class="images" href="#images">Images</a></li>
-        <li><a class="js" href="#js">Javascript</a></li>
+        <li><a class="js" href="#js">JavaScript</a></li>
         <li><a class="forms" href="#forms">Forms</a></li>
         <li><a class="audio" href="#audio">Media (Audio and Video)</a></li>
         <li><a class="color-contrast" href="#color-contrast">Color and Contrast</a></li>
@@ -27,8 +27,15 @@ permalink: checklist.html
 
   <fieldset class="article-section resources-section" id="aria-roles" aria-labelledby="label-landmarks" tabindex="-1">
 		<legend id="label-landmarks">Landmarks</legend>
-		<p>ARIA Landmark Roles are helpful landmarks that can be used by <abbr title="Assistive Technology">AT</abbr> to navigate a website.</p>
-		<p>Note: When you <a href="https://validator.w3.org/">validate html</a> using landmark roles, you'll receive a warning stating these roles are redundant.  In HTML5, several of the landmark roles are implicit via the native structural element which is supported by most modern <a href="http://stevefaulkner.github.io/html-mapping-tests/">desktop browsers</a> with the exception of IE and <a href="https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks-example.html">iOS Safari</a>. So, if you support IE and iOS browsers, you'll want to use the landmark roles. For more information, read <a href="/posts/aria-landmark-roles/">Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping</a>.</p>
+		<p>
+      ARIA Landmark roles can help assistive technology users to quickly navigate to and past blocks of content in a web interface.
+    </p>
+		<p>
+      <strong>Note:</strong> When you <a href="https://validator.w3.org/">validate HTML</a> that utilizes most landmark roles, you'll receive a warning stating these roles are redundant.
+    </p>
+    <p>
+      In HTML5, several of the landmark roles are implicit via the native structural elements which are supported by modern <a href="http://www.html5accessibility.com/">desktop browsers</a>. With that said, if you need to support older browsers, you'll want to check their support for landmark roles. If you find support to be lacking, then use the landmark roles regardless of the validation warnings. For more information, read <a href="/posts/aria-landmark-roles/">Quick Tip: ARIA Landmark Roles and HTML5 Implicit Mapping</a>.
+    </p>
 		<!-- banner -->
 		<label for="banner-role" class="checkbox"><code>&lt;header role="banner"&gt;</code>
 			<input name="aria-banner-role" id="banner-role" aria-describedby="banner-role-description" type="checkbox">
@@ -41,21 +48,23 @@ permalink: checklist.html
 			<input name="aria-navigation-role" id="navigation-role" aria-describedby="navigation-role-description" type="checkbox">
 		</label>
 
-		<p id="navigation-role-description" class="description">Contains navigational links.</p>
+		<p id="navigation-role-description" class="description">Contains links to navigate to different pages of a website, screens of an application, or a sections within a single document.</p>
 
 		<!-- main -->
 		<label for="main-role" class="checkbox"><code>&lt;main role="main"&gt;</code>
 			<input name="aria-main-role" id="main-role" aria-describedby="main-role-description" type="checkbox">
 		</label>
 
-		<p id="main-role-description" class="description">Focal content of document. Use only once.</p>
+		<p id="main-role-description" class="description">Wraps the focal content of document. Use only once.</p>
 
 		<!-- article -->
 		<label for="article-role" class="checkbox"><code>&lt;article role="article"&gt;</code>
 			<input name="aria-article-role" id="article-role" aria-describedby="article-role-description" type="checkbox">
 		</label>
 
-		<p id="article-role-description" class="description">Represents an independent item of content. Use only once on outermost element of this type.</p>
+		<p id="article-role-description" class="description">
+      Represents an independent item of content. There may be many &lt;article&gt;s in a single document. &lt;article&gt;s are not considered landmarks, but screen readers may still surface <code>article</code>s when navigating by regions or landmarks in a document.
+    </p>
 
 		<!-- complementary -->
 		<label for="complementary-role" class="checkbox"><code>&lt;aside role="complementary"&gt;</code>
@@ -82,13 +91,13 @@ permalink: checklist.html
 	<!-- Language -->
 	<fieldset class="article-section resources-section" id="language" aria-labelledby="label-language-attribute" tabindex="-1">
 		<legend id="label-language-attribute">Language Attribute</legend>
-		<p>Declaring a language attribute on the html element enables a screen reader to read out the text with correct pronunciation.</p>
+		<p>Declaring a language attribute on the HTML element enables a screen reader to read out the text with correct pronunciation.</p>
 		<!-- text transcript -->
 		<label for="language-input" class="checkbox"><code>&lt;html lang="en"&gt;</code>
 			<input name="language-input" id="language-input" aria-describedby="language-input-description" type="checkbox">
 		</label>
 
-		<p id="language-input-description" class="description">Specify a language with the lang attribute on the &lt;html&gt; element.</p>
+		<p id="language-input-description" class="description">Specify a language with the <code>lang</code> attribute on the &lt;html&gt; element.</p>
 	</fieldset>
 
 	<!-- Document Outline -->
@@ -130,22 +139,22 @@ permalink: checklist.html
 		</label>
 	</fieldset>
 
-	<!-- Javascript -->
+	<!-- JavaScript -->
 	<fieldset class="article-section resources-section" id="js" aria-labelledby="label-javascript" tabindex="-1">
-		<legend id="label-javascript">Javascript</legend>
+		<legend id="label-javascript">JavaScript</legend>
 		<!-- unobtrusive js -->
-		<label for="unobtrusive-js" class="checkbox">Unobtrusive Javascript
+		<label for="unobtrusive-js" class="checkbox">Unobtrusive JavaScript
 			<input name="unobtrusive-js-input" id="unobtrusive-js" aria-describedby="unobtrusive-js-description" type="checkbox">
 		</label>
 
-		<p id="unobtrusive-js-description" class="description">Use unobtrusive Javascript (never use inline scripting).</p>
+		<p id="unobtrusive-js-description" class="description">Use unobtrusive JavaScript (never use in line scripting).</p>
 
 		<!-- js alts -->
 		<label for="alt-js" class="checkbox">No-JS Alternatives
 			<input name="alt-js-fallback" id="alt-js" aria-describedby="alt-js-description" type="checkbox">
 		</label>
 
-		<p id="alt-js-description" class="description">Provide alternatives for users who do not have Javascript enabled and for environments where Javascript is unavailable.</p>
+		<p id="alt-js-description" class="description">Provide alternatives for users who do not have JavaScript enabled and for environments where JavaScript is unavailable.</p>
 	</fieldset>
 
 	<!-- Forms -->
@@ -166,7 +175,7 @@ permalink: checklist.html
 		<p id="labels-description" class="description">(e.g. <code class="language-markup">&lt;label for="name"&gt;Name:&lt;/label&gt;&lt;input id="name" type="text"&gt;</code>)</p>
 
 		<!-- placeholder -->
-		<label for="placeholders" class="checkbox">Make sure <code>placeholder</code> attributes are <strong>NOT</strong> being used in place of <code>label</code> tags. <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#attr-input-placeholder">WHATWG</a>
+		<label for="placeholders" class="checkbox">Make sure <code>placeholder</code> attributes are <strong>not</strong> being used in place of <code>label</code> tags. <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/forms.html#attr-input-placeholder">WHATWG</a>
 			<input name="placeholders" type="checkbox" aria-describedby="placeholders-description" id="placeholders">
 		</label>
 
@@ -214,17 +223,19 @@ permalink: checklist.html
 		<label for="tritanopia" class="checkbox">Tritanopia
 			<input name="tritanopia" id="tritanopia" type="checkbox">
 		</label>
-		<p class="description">Test against different types of color blindness with a tool like <a href="http://colorfilter.wickline.org/">http://colorfilter.wickline.org/</a>. If you are on a Mac, another option is <a href="http://michelf.ca/projects/sim-daltonism/">Michel Fortin's, Sim Daltonism</a> color blindness simulator.</p>
+		<p class="description">Test against different types of color blindness with a tool like <a href="http://colorfilter.wickline.org/">http://colorfilter.wickline.org</a>. If you are on a Mac, another option is <a href="http://michelf.ca/projects/sim-daltonism/">Michel Fortin's, Sim Daltonism</a> color blindness simulator.</p>
   </fieldset>
 
 	<!-- Testing -->
 	<fieldset class="article-section resources-section" id="testing" aria-labelledby="label-testing" tabindex="-1">
 		<legend id="label-testing">Testing</legend>
-		<p>Navigating your site using a range of tools, such as just the keyboard or a screen reader, will help you understand how a blind, low-vision, or limited-mobility user will experience it.</p>
+		<p>
+      Navigating your site or application using a range of tools. For instance: using only a keyboard or a screen reader will help you understand how a blind, low-vision, or limited-mobility user will experience it.
+    </p>
 		<label for="test-screenreader" class="checkbox" >Test using a screen reader
 			<input name="test-screenreader" id="test-screenreader" type="checkbox">
 		</label>
-		<label for="test-keyboard" class="checkbox" >Test using keyboard only
+		<label for="test-keyboard" class="checkbox">Test using keyboard only
 			<input name="test-keyboard" id="test-keyboard" type="checkbox">
 		</label>
 	</fieldset>
