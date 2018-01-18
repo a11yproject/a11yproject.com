@@ -1,6 +1,13 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "aXe-hackathon 2018"
+      description: "Contribute to <a href='eventbrite.com/e/axe-hackathon-2018-tickets-42248468306?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing'>making the web accessible to people with disabilities</a> at the 3rd Annual aXe-Hackathon on March 24th, 2018. The Hackathon will be lead by <a href='https://twitter.com/marcysutton'>Marcy Sutton</a> and <a href='https://twitter.com/wilcofiers'>Wilco Fiers</a>. We will be testing open source component libraries and logging accessibility issues, working on adding WCAG 2.1 rules to aXe-core, sharing knowledge and solutions with our fellow accessibility devotees, working on personal accessibility projects, and hanging out with awesome people and making the web a better place."
+      url: "https://www.eventbrite.com/e/axe-hackathon-2018-tickets-42248468306?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing"
+      type: "Regional"
+      date: 2018-03-24
+      address: "Downtown Works, 550 West B Street, 4th Floor, San Diego, CA 92101"
+      map: "https://goo.gl/maps/obVU8AVJqfG2"
     - title: "A11Y Talks - January 2018"
       description: "Writing reports and documentation is nothing new for many of us — we write them all the time. But even though we may do our best write clearly, those who receive our reports and documentation might not be as familiar with accessibility as we are. At the end of the day, no matter how technically correct a document may be, our words won't do much good if those who are reading them can't understand what we're trying to say. But writing isn't a black box—there are straightforward techniques that we can use to help ensure that our writing remains accessible."
       url: "https://groups.drupal.org/node/518076"
