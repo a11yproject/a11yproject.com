@@ -8,6 +8,11 @@
       date: 2018-03-24
       address: "Downtown Works, 550 West B Street, 4th Floor, San Diego, CA 92101"
       map: "https://goo.gl/maps/obVU8AVJqfG2"
+    - title: "Live Webinar: Using Personas as an Inclusive Design Tool"
+      description: "Join us on February 27th at 1PM EST, Denis Boudreau and Caitlin Geier, two of our UX accessibility experts, will talk about creating personas which you can use to promote inclusive design in your workplace and to design websites and applications which work for a broad variety of people. This is the first part of our new UX and Inclusive Design webinar series."
+      url: "https://accessibility.deque.com/creating-ux-design-personas-webinar"
+      type: "Webinar"
+      date: 2018-02-27
     - title: "A11Y Talks - January 2018"
       description: "Writing reports and documentation is nothing new for many of us — we write them all the time. But even though we may do our best write clearly, those who receive our reports and documentation might not be as familiar with accessibility as we are. At the end of the day, no matter how technically correct a document may be, our words won't do much good if those who are reading them can't understand what we're trying to say. But writing isn't a black box—there are straightforward techniques that we can use to help ensure that our writing remains accessible."
       url: "https://groups.drupal.org/node/518076"
@@ -141,7 +146,7 @@
       date: 2018-01-22
       address: "Funda HQ, Piet Heinkade 167, Amsterdam"
       map: "https://goo.gl/maps/dEzdCdrLiXk"
-      hashtag: "roledrinks"  
+      hashtag: "roledrinks"
     - title: "Accessibility, Inclusion and Universal Design"
       description: "Join Access to Success at the Rotman School of Management on Feb 10 and hear from experts representing Microsoft, IBM and Slack about the necessity for universal design. Event details available in the attachment. Register at <a href='http://accesstosuccess.ca'>accesstosuccess.ca</a>!"
       url: "http://accesstosuccess.ca/"
