@@ -1,6 +1,12 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "A11Y Talks - February 2018 - Creating Accessible React Apps"
+      description: "The React JavaScript library is a great way to create reusable modular components that can be shared among projects. But how do you ensure your React apps are usable by all kinds of people? <a href='https://twitter.com/svinkle'>Scott Vinkle</a> will share tips on how to build your React apps with accessibility baked-in! All levels of JS and accessibility experience are welcome! If you need a little more background information on React JS and Accessibility please read Scott’s article: <a href='https://svinkle.me/react-a11y'>https://svinkle.me/react-a11y</a>."
+      url: "https://groups.drupal.org/node/518261"
+      type: "Webinar"
+      date: 2018-02-28
+      hashtag: "a11ytalks"
     - title: "aXe-hackathon 2018"
       description: "Contribute to <a href='eventbrite.com/e/axe-hackathon-2018-tickets-42248468306?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing'>making the web accessible to people with disabilities</a> at the 3rd Annual aXe-Hackathon on March 24th, 2018. The Hackathon will be lead by <a href='https://twitter.com/marcysutton'>Marcy Sutton</a> and <a href='https://twitter.com/wilcofiers'>Wilco Fiers</a>. We will be testing open source component libraries and logging accessibility issues, working on adding WCAG 2.1 rules to aXe-core, sharing knowledge and solutions with our fellow accessibility devotees, working on personal accessibility projects, and hanging out with awesome people and making the web a better place."
       url: "https://www.eventbrite.com/e/axe-hackathon-2018-tickets-42248468306?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing"
