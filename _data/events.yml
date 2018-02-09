@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "#t12t meetup #10 - Jubileum"
+      description: "The theme for this evening is numbers since this is our tenth meetup. We'll have an awesome line-up of lightning talks. Read more at our Meetup-page and if you are in or near Stockholm join us!"
+      url: "https://www.meetup.com/t12t-Stockholm/events/247278626/"
+      type: "Regional"
+      date: 2018-03-08
+      address: "Kungsholmsgatan 23, Stockholm, Sweden"
+      map: "https://goo.gl/maps/z6nuj7yRksu"
+      hashtag: "t12t"
     - title: "A11Y Talks - February 2018 - Creating Accessible React Apps"
       description: "The React JavaScript library is a great way to create reusable modular components that can be shared among projects. But how do you ensure your React apps are usable by all kinds of people? <a href='https://twitter.com/svinkle'>Scott Vinkle</a> will share tips on how to build your React apps with accessibility baked-in! All levels of JS and accessibility experience are welcome! If you need a little more background information on React JS and Accessibility please read Scott’s article: <a href='https://svinkle.me/react-a11y'>https://svinkle.me/react-a11y</a>. <br><br>If you have any questions for our speaker please use the hashtag #a11yTalks on Twitter! Use this link to join the event: <a href='https://zoom.us/j/403828399'>https://zoom.us/j/403828399</a> Please note: the link will not be activated until the day/time of the event."
       url: "https://groups.drupal.org/node/518261"
