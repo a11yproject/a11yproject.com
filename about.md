@@ -34,4 +34,4 @@ Another motivation is discoverability. You can find more relevant resources, and
 
 This site is built collaboratively by developers on [GitHub](https://github.com/a11yproject/a11yproject.com/) using [Jekyll](https://github.com/mojombo/jekyll).
 
-Through the power of Open Source we're committed to incrementally improving our own site's accessibility. If you are knowledgeable about accessibility and want to help, please consider [contributing](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md). We would love people to help write articles, edit inaccuracies, and provide high-level information.
+Through the power of Open Source we're committed to incrementally improving our own site's accessibility. If you are knowledgeable about accessibility and want to help, please consider [contributing](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md). We always welcome help with writing articles, editing inaccuracies, and providing high-level information.
