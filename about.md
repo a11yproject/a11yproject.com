@@ -5,11 +5,11 @@ description: The A11Y Project aims to make accessibility easier
 permalink: about.html
 ---
 
-For many web developers, accessibility is complex and somewhat difficult. The Accessibility Project understands that and we want to help to make web accessibility easier for front end developers to implement. Our strategy is to accomplish this with 3 principles in mind:
+Accessibility can be a complex and difficult topic. The Accessibility Project understands this and wants to help make it easier to implement on the web. Our goal is to accomplish this with three principles in mind:
 
 1. **Digestible.** We strive to feature short, digestible pieces of content.
-1. **Up-to-date.** The project is hosted on Github so information can be current with the latest standards.
-1. **Forgiving.** People make mistakes and web accessibility is hard, so we seek to be encouraging.
+1. **Up-to-date.** The project is hosted on GitHub so information can be current with the latest standards.
+1. **Forgiving.** People make mistakes, so we seek to be encouraging.
 
 ### Why accessibility is important
 
@@ -17,19 +17,21 @@ Blind and visually impaired make up 285,000,000 people according to the [World H
 
 To put these in perspective, the population of the [United States of America](https://www.worldometers.info/world-population/us-population/) is 315,000,000 (January 2013).
 
-If you care and are knowledgeable about accessibility and want to help please consider [contributing](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md). We would love people to help write articles, edit inaccuracies, and provide top-level information.
+Disabilities can also be conditional. A broken arm, a loud restaurant, harsh glare, not speaking the local language—all are examples where someone may benefit from accessible practices.
 
 ### What does the term A11Y mean?
 
-In short, _A11Y_ means "accessibility". A11Y is what is known as a _numeronym_, somewhat similar to an acronym. Essentially, numbers are used in place of letters to achieve the desired result. You may be familiar with other numeronyms, such as "K-9" for "Canine" or "W3C" for "World Wide Web Consortium".
+In short, _A11Y_ means "accessibility". A11Y is what is known as a [_numeronym_](https://a11yproject.com/posts/a11y-and-other-numeronyms/), which is somewhat similar to an acronym. Unlike an acronym, numbers are used in place of letters to shorten the term. You may already be familiar with other numeronyms, such as "K-9" for "Canine" or "W3C" for "World Wide Web Consortium".
 
-There are a number of ways a numeronym can be created. In the case of translating "accessibility" to "A11Y", the first and last letters of "accessibility" are preserved, replacing the remaining letters between with their sum total, 11.
+There are a number of ways a numeronym can be created. In the case of translating "accessibility" to "A11Y", the first and last letters of "accessibility" are preserved, replacing the remaining letters between with their sum total of 11.
 
-One of the motivations for a numeronym is the limited space available on social media platforms for posting content. For example, on Twitter - where the character limit was 140 (until November 2017) - by replacing the hashtag [#accessibility](https://twitter.com/hashtag/accessibility) with [#a11y](https://twitter.com/hashtag/a11y), the author now has another 9 characters available to them. Easily enough for another one or two important words on the subject of accessibility.
+One of the motivations for a numeronym is the limited space available on social media platforms for posting content. For example, on Twitter—where the character limit was 140 until November 2017—replacing the hashtag [#accessibility](https://twitter.com/hashtag/accessibility) with [#a11y](https://twitter.com/hashtag/a11y) freed up 9 extra characters for the author to use.
 
-Another motivation is discoverability. Searching for this subject with “accessibility”, you will find many irrelevant resources using that word in various other senses, and you will also miss resources in languages other than English. To the extent that specialists use “a11y” as an international technical term, you can find more relevant resources, and with greater precision.
+Another motivation is discoverability. You can find more relevant resources, and with greater precision. Using the term “accessibility” to search, you will find many irrelevant resources using that word in various other contexts. You may also miss resources in languages other than English. Many accessibility specialists from around the world use “a11y” as an international technical term when speaking about their work.
 
 
 ### About this site
 
-This site is built with [Jekyll](https://github.com/mojombo/jekyll), collaboratively by developers (see the footer) on [Github](https://github.com/a11yproject/a11yproject.com/). In its current state, The Accessibility Project may not be a perfect example of an accessible website&hellip; yet. We're committed, through the power of Open Source, to incrementally improve our own accessibility on the site going forward.
+This site is built collaboratively by developers on [GitHub](https://github.com/a11yproject/a11yproject.com/) using [Jekyll](https://github.com/mojombo/jekyll).
+
+Through the power of Open Source we're committed to incrementally improving our own site's accessibility. If you care and are knowledgeable about accessibility and want to help, please consider [contributing](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md). We would love people to help write articles, edit inaccuracies, and provide high-level information.
