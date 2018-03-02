@@ -1,6 +1,13 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Web Accessibility Summit"
+      description: "A one-day conference about all things website accessibility for higher education web professionals in Missouri. Join us May 30 at the University of Missouri."
+      url: "http://webaccessibilitysummit.org/"
+      type: "Regional"
+      date: 2018-05-30
+      address: "University of Missouri, Columbia, MO"
+      map: "https://goo.gl/maps/YakZGxj9FHN2"
     - title: "#t12t meetup #10 - Jubileum"
       description: "The theme for this evening is numbers since this is our tenth meetup. We'll have an awesome line-up of lightning talks. Read more at our Meetup-page and if you are in or near Stockholm join us!"
       url: "https://www.meetup.com/t12t-Stockholm/events/247278626/"
