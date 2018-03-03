@@ -183,7 +183,7 @@
       address: "HackerYou 483 Queen Street West 3rd Floor, Toronto, ON M5V 2A9"
       map: "https://goo.gl/maps/dyPPYpuzEYE2"
     - title: "Shopify Partners Webinar — Creating Accessible React Apps"
-      description: "In this free one-hour webinar hosted by FED and Accessibility Advocate Scott Vinkle, you’ll learn how to accomplish the following techniques and why they are so important for your apps…"
+      description: "In this free one-hour webinar hosted by FED and Accessibility Advocate <a href='https://twitter.com/svinkle'>Scott Vinkle</a>, you’ll learn how to accomplish the following techniques and why they are so important for your apps…"
       url: "https://www.shopify.com/partners/blog/creating-accessible-react-apps"
       type: "Webinar"
       date: 2018-03-15
