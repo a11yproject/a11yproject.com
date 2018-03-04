@@ -188,3 +188,10 @@
       type: "Webinar"
       date: 2018-03-15
       hashtag: "reacta11y"
+    - title: "Funka Accessibility Days 2018"
+      description: "During the 10th anniversary of the Funka Accessibility Days 17-18 April, much will of course revolve around the Web Accessibility Directive, and the new European accessibility standard that the public sector must meet. We will also focus on the latest version of the international guidelines WCAG 2.1 and the latest in accessible technology, design and content."
+      url: "https://www.funka.com/en/we-offer/funka-accessibility-days/"
+      type: "Regional"
+      date: 2018-04-17
+      address: "Elite Hotel Marina Tower, Saltsjöqvarns kaj 25, 131 71 Nacka, Sweden"
+      map: "https://goo.gl/maps/dW4GML2TScB2"
