@@ -187,7 +187,7 @@
       url: "https://www.shopify.com/partners/blog/creating-accessible-react-apps"
       type: "Webinar"
       date: 2018-03-15
-      hashtag: "reacta11y"
+      hashtag: "reactA11y"
     - title: "Funka Accessibility Days 2018"
       description: "During the 10th anniversary of the Funka Accessibility Days 17-18 April, much will of course revolve around the Web Accessibility Directive, and the new European accessibility standard that the public sector must meet. We will also focus on the latest version of the international guidelines WCAG 2.1 and the latest in accessible technology, design and content."
       url: "https://www.funka.com/en/we-offer/funka-accessibility-days/"
@@ -207,3 +207,11 @@
       url: "https://www.thisdot.co/javascript/05-17-2018"
       type: "Webinar"
       date: 2018-05-17
+    - title: "Learn to Listen: Viewing the Web from the Perspective of a Screen Reader User"
+      description: "Al Puzzuoli will be speaking to us about what it's like to use websites as a screen reader user in his talk, 'Learn to Listen: Viewing the Web from the Perspective of a Screen Reader User'. He will give an interactive talk / demo to show how screen readers access websites, and will talk about some of the difficulties faced by people who are blind when they use the web."
+      url: "https://www.meetup.com/a2a11y/events/248310668/"
+      type: "Regional"
+      date: 2018-03-29
+      address: "206 S. Fifth Ave, Ann Arbor, MI, 48104"
+      map: "https://goo.gl/maps/q6DxXqaFJkA2"
+      hashtag: "annArborA11y"
