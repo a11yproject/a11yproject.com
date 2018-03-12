@@ -15,6 +15,12 @@
       date: 2018-05-08
       address: "Alumni Hall, Indiana Memorial Union, Indiana University"
       map: "https://goo.gl/maps/tocUUikRi652"
+    - title: "A11Y Talks - March 2018 - Ambitious Accessibility"
+      description: "Ember, the original JS Framework, is "the framework for building ambitious applications." But what happens when that ambition leaves some users behind? <a href='https://twitter.com/melaniersumner'>Melanie Sumner</a> will discuss how Ember supports this, some ways to address these challenges, and places where there is room for improvement in *any* single-page application. <br><br>If you have any questions for our speaker please use the hashtag #a11yTalks on Twitter! Use this link to join the event: <a href='https://zoom.us/j/117532271'>https://zoom.us/j/117532271</a> Please note the link will not be activated until the day/time of the event."
+      url: "https://groups.drupal.org/node/518863"
+      type: "Webinar"
+      date: 2018-03-28
+      hashtag: "a11ytalks"      
     - title: "#t12t meetup #10 - Jubileum"
       description: "The theme for this evening is numbers since this is our tenth meetup. We'll have an awesome line-up of lightning talks. Read more at our Meetup-page and if you are in or near Stockholm join us!"
       url: "https://www.meetup.com/t12t-Stockholm/events/247278626/"
