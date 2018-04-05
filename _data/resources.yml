@@ -40,10 +40,10 @@
       description: "Chrome Extension (Mac/Win/ChromeOS)"
     - url: https://www.freedomscientific.com/products/fs/jaws-product-page.asp
       title: "JAWS"
-      description: "Desktop App (Win only)"
+      description: "Desktop App (Windows only)"
     - url: https://www.nvaccess.org/
       title: "NVDA"
-      description: "Desktop App (Win only)"
+      description: "Desktop App (Windows only)"
     - url: https://wiki.gnome.org/Projects/Orca
       title: "Orca Screen Reader"
       description: "By GNOME, Extensible screen reader (Linux only)"
@@ -52,10 +52,13 @@
       description: "By The Paciello Group"
     - url: https://www.apple.com/accessibility/iphone/vision/
       title: "VoiceOver"
-      description: "By Apple, iPhone App (iOS)"
+      description: "By Apple, iPhone System App (iOS)"
     - url: https://www.apple.com/accessibility/mac/vision/
       title: "VoiceOver"
-      description: "By Apple, Desktop App (Mac)"
+      description: "By Apple, Desktop System App (Mac)"
+    - url: https://support.google.com/accessibility/android/answer/6283677?hl=en
+      title: "TalkBack"
+      description: "By Google, Android App"
 
 - resource-category: HTML Related
   section-id: html-related
