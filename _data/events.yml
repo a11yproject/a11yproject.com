@@ -1,6 +1,19 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Live Webinar: An Introduction to Screen Readers"
+      description: "In this webinar, Steve Sawczyn, Solutions Architect at Deque Systems, will demonstrate how he uses a screen reader to navigate the web. In celebration of Global Accessibility Awareness Day (GAAD), this fundamentals-based webinar will provide developers, designers, business users or anyone new to digital accessibility a first-hand experience of how people who are visually impaired navigate the web."
+      url: "https://accessibility.deque.com/live-webinar-introduction-to-screen-readers"
+      type: "Webinar"
+      date: 2018-05-17
+    - title: "Seattle Meetup: Global Accessibility Awareness Day 2018"
+      description: "To celebrate <a href='http://globalaccessibilityawarenessday.org/'>Global Accessibility Awareness Day 2018</a>, we're coming together as a community to share ideas and get inspired. Come learn about web accessibility perspectives and techniques from other Meetup members and make new friends. <p>We're so excited to see everyone! If your schedule changes closer to the event and you can't attend, please update your RSVP to allow people to join from the wait list. That will also help the food and drink situation!</p>"
+      url: "https://www.meetup.com/a11ysea/events/249275750/"
+      type: "Regional"
+      date: 2018-05-17
+      address: "Expedia, 645 Elliott Ave W · Seattle, WA"
+      map: "https://goo.gl/maps/NCkUgjYwqL42"
+      hashtag: "GAAD"
     - title: "Web Accessibility Summit"
       description: "A one-day conference about all things website accessibility for higher education web professionals in Missouri. Join us May 30 at the University of Missouri."
       url: "http://webaccessibilitysummit.org/"
