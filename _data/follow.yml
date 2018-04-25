@@ -165,8 +165,8 @@
     name: "Marcy Sutton"
   - url: https://twitter.com/melaniersumner
     username: "@melaniersumner"
-    name: "Melanie Sumner"   
-- url: https://twitter.com/MichielBijl
+    name: "Melanie Sumner"
+  - url: https://twitter.com/MichielBijl
     username: "@MichielBijl"
     name: "Michiel Bijl"
   - url: https://twitter.com/mgifford
@@ -238,6 +238,9 @@
   - url: https://twitter.com/stevefaulkner
     username: "@stevefaulkner"
     name: "Steve Faulkner"
+  - url: https://twitter.com/noopkat
+    username: "@noopkat"
+    name: "Suz Hinton"
   - url: https://twitter.com/svknyc
     username: "@svknyc"
     name: "Svetlana Kouznetsova"
