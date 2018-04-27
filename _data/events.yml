@@ -260,3 +260,10 @@
       address: "HackerYou, 483 Queen Street West, 3rd Floor, Toronto, ON M5V 2A9"
       map: "https://goo.gl/maps/fCNj9tMUCZC2"
       hashtag: "hya11y"
+    - title: "A11YNYC - LinkNYC Accessibility"
+      description: "LinkNYC is a first-of-its-kind communications network replacing over 7,500 pay phones across the five boroughs with new structures called Links. Each Link provides superfast, free public Wi-Fi, phone calls, device charging and a tablet for access to city services, maps and directions. LinkNYC strives to be a beloved part of all of the communities we serve. Come learn about the accessible features implemented on this first of its kind product."
+      url: "https://www.meetup.com/A11yNYC/events/249983386/"
+      type: "Regional"
+      date: 2018-05-01
+      address: "thoughtbot, 1384 Broadway 20th Floor, New York, NY 10018 USA"
+      map: "https://goo.gl/maps/yeUD7VUfFPo"
