@@ -252,3 +252,11 @@
       address: "206 S. Fifth Ave, Ann Arbor, MI, 48104"
       map: "https://goo.gl/maps/q6DxXqaFJkA2"
       hashtag: "annArborA11y"
+    - title: "HYA11Y Meetup: Building Accessible React Web Apps"
+      description: "React is a great way to create single-page web apps with reusable, modular components that can be shared within and between projects. But how do you ensure your React apps are accessible? <a href='https://twitter.com/svinkle'>Scott Vinkle</a>, a front end developer and web accessibility advocate, will share tips on how to create React apps with accessibility best practices and techniques baked-in from the start! And don't forget to bring your laptop! We'll have a short code-along after the presentation to apply all the skills we learn from Scott."
+      url: "https://www.eventbrite.com/o/hackeryou-2612361414"
+      type: "Regional"
+      date: 2018-05-31
+      address: "HackerYou, 483 Queen Street West, 3rd Floor, Toronto, ON M5V 2A9"
+      map: "https://goo.gl/maps/fCNj9tMUCZC2"
+      hashtag: "hya11y"
