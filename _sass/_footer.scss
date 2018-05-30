@@ -53,6 +53,16 @@
         }
     }
 
+    .join-us-btn {
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:active {
+            text-decoration: none;
+        }
+    }
+
     .github-data {
         margin-bottom: .4em;
 
@@ -104,9 +114,19 @@
             color: $body_font;
             border-radius: 5px;
 
+            &:hover {
+                text-decoration: underline;
+            }
+
             &:focus,
             &:hover {
-                background: rgba(0,0,0,.3);
+                background: darken($grayLighter, 10%);
+            }
+
+            &:active {
+                background: darken($grayLighter, 50%);
+                color: #fff;
+                text-decoration: none;
             }
         }
     }
