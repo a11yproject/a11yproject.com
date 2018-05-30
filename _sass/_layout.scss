@@ -109,10 +109,19 @@ $mobile: 24em;
                 position: relative;
                 right: 0;
 
+                &:hover,
+                &:active {
+                    text-decoration: underline;
+                }
+
+                &:active {
+                    text-decoration: none;
+                }
+
                 &.active {
                     color: darken($link, 15%);
+                    font-weight: bold;
                     right: -.3rem;
-                    text-decoration: underline;
                 }
             }
         }

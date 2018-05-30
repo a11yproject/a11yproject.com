@@ -37,13 +37,16 @@
 
         a {
             text-decoration: none;
-        }
 
-        a:hover, a:focus {
-          color: #333;
-          text-decoration: underline;
-        }
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+            }
 
+            &:active {
+                text-decoration: none;
+            }
+        }
 
         .logo {
             font-size: 1.4em;

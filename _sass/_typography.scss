@@ -16,6 +16,16 @@ a {
     text-decoration-style: solid;
     text-decoration-color: currentColor;
     text-decoration-skip: ink;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:active {
+        color: $umber;
+        text-decoration: underline;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -170,9 +180,19 @@ em {
             margin-right: 0.25em;
         }
 
+        &:hover {
+            text-decoration: underline;
+        }
+
         &:focus,
         &:hover {
             background: darken($grayLighter, 10%);
+        }
+
+        &:active {
+            background: darken($grayLighter, 50%);
+            color: #fff;
+            text-decoration: none;
         }
     }
 
