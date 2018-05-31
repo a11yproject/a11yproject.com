@@ -23,8 +23,8 @@ ARIA has no effect on how elements are displayed or behave in browsers. It does 
 ARIA attributes are predefined in the spec and are divided into two categories, roles and states & properties. Both can be added directly in the markup or via JavaScript and should be updated as needed based on user interactions. There are rules behind which elements may receive types of ARIA attributes, as well as design guidelines for how and when these should be updated in common interactive widgets.
 
 ### Links
-* Roles - <http://www.w3.org/TR/wai-aria/roles>
-* States and Properties - <http://www.w3.org/TR/wai-aria/states_and_properties>
+* Roles - <https://www.w3.org/WAI/PF/aria/roles>
+* States and Properties - https://www.w3.org/WAI/PF/aria/states_and_properties>
 * Design Patterns - <http://www.w3.org/TR/wai-aria-practices/#aria_ex>
 
 ## ARIA Roles
@@ -64,7 +64,7 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
 ## ARIA Examples
 
 * Landmark role
-  The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](http://a11yproject.com/posts/aria-landmark-roles/) for more information. 
+  The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](http://a11yproject.com/posts/aria-landmark-roles/) for more information.
 
 ~~~~~~~~
     <nav>
