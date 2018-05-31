@@ -24,7 +24,7 @@ ARIA attributes are predefined in the spec and are divided into two categories, 
 
 ### Links
 * Roles - <https://www.w3.org/WAI/PF/aria/roles>
-* States and Properties - https://www.w3.org/WAI/PF/aria/states_and_properties>
+* States and Properties - <https://www.w3.org/WAI/PF/aria/states_and_properties>
 * Design Patterns - <http://www.w3.org/TR/wai-aria-practices/#aria_ex>
 
 ## ARIA Roles
