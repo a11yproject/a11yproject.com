@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Learning how to integrate accessibility testing into your existing processes is easier than ever with new features from WorldSpace Attest"
+      description: "Join us on July 12th, from 1:30-2:00PM EST, as Noah Mashni, Solutions Architect at Deque, walks you through an introduction to Attest, Deque’s enterprise, automated accessibility testing tool. WorldSpace Attest is a toolkit for running accessibility tests while you code. It equips your development team to run accessibility tests while they create new code and components. Accessibility issues will simply become part of functional issue reporting."
+      url: "https://accessibility.deque.com/change-is-hard-automating-web-accessibility-isnt"
+      type: "Webinar"
+      date: 2018-07-12
     - title: "Live Webinar: An Introduction to Screen Readers"
       description: "In this webinar, Steve Sawczyn, Solutions Architect at Deque Systems, will demonstrate how he uses a screen reader to navigate the web. In celebration of Global Accessibility Awareness Day (GAAD), this fundamentals-based webinar will provide developers, designers, business users or anyone new to digital accessibility a first-hand experience of how people who are visually impaired navigate the web."
       url: "https://accessibility.deque.com/live-webinar-introduction-to-screen-readers"
