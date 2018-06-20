@@ -6,6 +6,12 @@
       url: "https://accessibility.deque.com/change-is-hard-automating-web-accessibility-isnt"
       type: "Webinar"
       date: 2018-07-12
+    - title: "A11Y Talks (June 2018) - What’s new with WCAG 2.1"
+      description: "The long-awaited updates to the Web Content Accessibility Guidelines (WCAG 2.1) were released in early June - but what does that mean for you and your organization? Join <a href='https://twitter.com/MartianWebDev'>Andrew Macpherson</a> and <a href='https://twitter.com/cariefisher'>Carie Fisher</a> to hear about the new guidelines, who they help the most, and how you can incorporate these changes into your next website design or development project!<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#a11yTalks</a> on Twitter! Use this link to join the event: <a href='https://deque.zoom.us/j/731679925'>https://deque.zoom.us/j/731679925</a> Please note the link will not be activated until the day/time of the event. Thank you to Deque for the use of their online meeting room!"
+      url: "https://groups.drupal.org/node/520888"
+      type: "Webinar"
+      date: 2018-06-27
+      hashtag: "a11ytalks"
     - title: "Live Webinar: An Introduction to Screen Readers"
       description: "In this webinar, Steve Sawczyn, Solutions Architect at Deque Systems, will demonstrate how he uses a screen reader to navigate the web. In celebration of Global Accessibility Awareness Day (GAAD), this fundamentals-based webinar will provide developers, designers, business users or anyone new to digital accessibility a first-hand experience of how people who are visually impaired navigate the web."
       url: "https://accessibility.deque.com/live-webinar-introduction-to-screen-readers"
