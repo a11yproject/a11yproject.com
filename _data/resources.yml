@@ -242,6 +242,12 @@
     - url: https://increment.com/development/a-guide-to-coding-accessible-developer-tools/
       title: "A guide to coding accessible developer tools"
       description: "by Suz Hinton"
+    - url: https://typography.guru/journal/letters-symbols-misrecognition/
+      title: "Letter and symbol misrecognition in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers"
+      description: "by Thomas Bohm"
+    - url: https://usabilitygeek.com/information-different-types-people-graphic-communication-website-information-designers/
+      title: "Information On Different Types Of People For Graphic Communication, Website And Information Designers"
+      description: "by Thomas Bohm"
 
 - resource-category: Professional Help
   section-id: professional-help
@@ -263,6 +269,9 @@
       #description: ""
     - url: https://www.levelaccess.com/
       title: "Level Access (Formerly SSB Bart Group)"
+      #description: ""
+    - url: https://tenon.io/
+      title: "Tenon.io"
       #description: ""
 
 - resource-category: Online Tools
