@@ -279,7 +279,12 @@
       address: "thoughtbot, 1384 Broadway 20th Floor, New York, NY 10018 USA"
       map: "https://goo.gl/maps/yeUD7VUfFPo"
     - title: "Empathy Driven Development"
-      description: "It’s not a surprise: without a focus on accessibility throughout the web development process, people with disabilities are often left behind. Fortunately, there are techniques and tools that can help kickstart the process. In this special live coding presentation from Deque Developer Advocate Marcy Sutton, you’ll learn hands-on skills for developing inclusively with JavaScript, HTML and CSS."
+      description: "It’s not a surprise: without a focus on accessibility throughout the web development process, people with disabilities are often left behind. Fortunately, there are techniques and tools that can help kickstart the process. In this special live coding presentation from Deque Developer Advocate <a href='https://twitter.com/marcysutton'>Marcy Sutton</a>, you’ll learn hands-on skills for developing inclusively with JavaScript, HTML and CSS."
       url: "https://accessibility.deque.com/empathy-driven-development"
       type: "Webinar"
-      date: 2018-08-09      
+      date: 2018-08-09
+    - title: "Section 508, WCAG, and Digital Accessibility in the Federal Government: What You Need to Know"
+      description: "U.S. federal government entities must comply with the disability accessibility guidelines in Section 508 when creating or purchasing information technology (IT). The purpose is to increase opportunities and quality of life for people with disabilities. But what does compliance really mean, and how do you achieve it? Join Karina Boycheva and Lora Budzier as they give an overview of the logic behind Section 508, its web accessibility requirements in light of the incorporation of the internationally-recognized Web Content Accessibility Guidelines (WCAG), and some strategies for managing the process."
+      url: "https://accessibility.deque.com/section-508-wcag-and-the-federal-government"
+      type: "Webinar"
+      date: 2018-08-21     
