@@ -278,3 +278,8 @@
       date: 2018-05-01
       address: "thoughtbot, 1384 Broadway 20th Floor, New York, NY 10018 USA"
       map: "https://goo.gl/maps/yeUD7VUfFPo"
+    - title: "Empathy Driven Development"
+      description: "It’s not a surprise: without a focus on accessibility throughout the web development process, people with disabilities are often left behind. Fortunately, there are techniques and tools that can help kickstart the process. In this special live coding presentation from Deque Developer Advocate Marcy Sutton, you’ll learn hands-on skills for developing inclusively with JavaScript, HTML and CSS."
+      url: "https://accessibility.deque.com/empathy-driven-development"
+      type: "Webinar"
+      date: 2018-08-09      
