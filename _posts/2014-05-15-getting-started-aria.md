@@ -34,16 +34,16 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change f
 * Landmark
 
   Landmark roles identify large content areas and are used by screen readers for navigation. If landmark roles are used, it's important that all page content fall under a role so that all content is available to the navigation.
-  Eg. `<footer role="contentinfo">`
+  E.g. `<footer role="contentinfo">`
 
 * Document
 
-    Document roles provide a structural description for a section and are typically non-interactive. Some document roles map onto existing HTML tags (Eg. `<div role="form">`) and are only meant for cases when using the native tag is not possible. It's unnecessary to add ARIA roles to existing semantically meaningful elements. For example, `<form role="form">` is redundant.
+    Document roles provide a structural description for a section and are typically non-interactive. Some document roles map onto existing HTML tags (E.g. `<div role="form">`) and are only meant for cases when using the native tag is not possible. It's unnecessary to add ARIA roles to existing semantically meaningful elements. For example, `<form role="form">` is redundant.
 
 * Widget
 
   Widget roles describe common interactive patterns that currently lack semantic equivalents in HTML, and can be used on their own, or as part of larger, composite widgets.
-  Eg. `<div role="tooltip">`
+  E.g. `<div role="tooltip">`
 
 * Abstract
 
