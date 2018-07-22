@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Cleveland Accessibility - A11yCLE Brand, Mission, and Vision Meetup"
+      description: "Please join us as Melanie Bozzelli and Kate Penrod lead us through an exercise to develop a brand, mission, and vision for our <a href='https://www.meetup.com/Cleveland-Accessibility-Meetup/events/252287250/'>Cleveland Accessibility Meetup</a>. These essential elements will provide the foundation upon which we build our long-term success."
+      url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/252287250/"
+      type: "Regional"
+      hashtag: "A11yCLE"
+      date: 2018-08-08
+      address: "Independence Branch of Cuyahoga County Public Library, 6361 Selig Dr, Independence, OH 44131"
+      map: "https://goo.gl/maps/qdthLERDXAn"
     - title: "Learning how to integrate accessibility testing into your existing processes is easier than ever with new features from WorldSpace Attest"
       description: "Join us on July 12th, from 1:30-2:00PM EST, as Noah Mashni, Solutions Architect at Deque, walks you through an introduction to Attest, Deque’s enterprise, automated accessibility testing tool. WorldSpace Attest is a toolkit for running accessibility tests while you code. It equips your development team to run accessibility tests while they create new code and components. Accessibility issues will simply become part of functional issue reporting."
       url: "https://accessibility.deque.com/change-is-hard-automating-web-accessibility-isnt"
