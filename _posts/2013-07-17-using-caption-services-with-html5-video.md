@@ -70,6 +70,4 @@ Now that you know how to implement it, you need to transcribe all of your videos
 A few well-reviewed services include:
 - [https://verbalink.com/](https://verbalink.com/)
 - [https://www.speechpad.com/](https://www.speechpad.com/)
-
-There is also a free to use [HTML5 Video Caption Maker](http://samples.msdn.microsoft.com/Workshop/samples/media/captionmaker/default.html) tool available to help transcribe your own videos.
 - [https://www.rev.com/transcription](https://www.rev.com/transcription)
