@@ -35,7 +35,7 @@ The following are common landmark roles that tend to be useful on many pages:
   <dt>navigation</dt>
   <dd>
     <p>
-      Used to promote an area as a navigation. Combine with a unique <code>aria-label</code> to provide context of the navigation's purpose. e.g. <code>aria-label="primary"</code>.
+      Used to promote an area as a navigation. Combine with a unique <code>aria-label</code> to provide context of the navigation's purpose. e.g. <code>&lt;nav aria-label="primary"></code>.
     </p>
   </dd>
   <dt>contentinfo</dt>
