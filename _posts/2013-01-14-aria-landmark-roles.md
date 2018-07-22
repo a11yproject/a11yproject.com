@@ -17,7 +17,7 @@ The following are common landmark roles that tend to be useful on many pages:
   <dt>banner</dt>
   <dd>
     <p>
-      Typically the “header” of your page. Typically includes the name of the site/application along with other globally available content.
+      Typically the “header” of your page, containing the name of the site/application along with other globally available content.
     </p>
   </dd>
   <dt>search</dt>
