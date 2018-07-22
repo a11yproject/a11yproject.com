@@ -74,8 +74,8 @@ The following table outlines the different <abbr>ARIA</abbr> landmarks, and the 
   <col width="35%">
   <thead>
     <tr>
-        <th>Landmark Role</th>
-        <th>HTML5 Structural Element</th>
+        <th scope="col">Landmark Role</th>
+        <th scope="col">HTML5 Structural Element</th>
     </tr>
   </thead>
   <tbody>
