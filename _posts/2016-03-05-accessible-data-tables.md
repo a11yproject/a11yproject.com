@@ -51,7 +51,7 @@ Table captions are added right after the opening `<table>` tag with `<caption>Yo
 	
 The screen reader will then say “Table with 3 rows and 4 columns, Monthly Budget” or something to that effect. Without this, the screen reader will just start reading off the values inside the table, which is going to be frustrating and not super useful. Imagine reading an entire table cell by cell and then piecing together what the table is trying to tell you.
 
-<p data-height="268" data-theme-id="0" data-slug-hash="zqOKvY" data-default-tab="result" data-user="franklynroth" class="codepen">See the Pen <a href="http://codepen.io/franklynroth/pen/zqOKvY/">Accessible Data Tables</a> by Franklyn (<a href="http://codepen.io/franklynroth">@franklynroth</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="zqOKvY" data-default-tab="result" data-user="franklynroth" class="codepen">See the Pen <a href="https://codepen.io/franklynroth/pen/zqOKvY/">Accessible Data Tables</a> by Franklyn (<a href="https://codepen.io/franklynroth">@franklynroth</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
@@ -63,6 +63,5 @@ Column headers should be marked using `scope="col"`. The `scope="col"` typically
 Row headers should be marked up using `scope="row"`. The `scope="row"` is typically put on the first `<th>` in the row. In this case <strong>"January" and "February"</strong> would get them. For optimal usability, the row header selected should be sufficiently unique and readable to identify the row. 
 
 The screen reader will most likely be able to figure out what is a column header and row header, but assigning this makes it unambiguous to the screen reader on what is a row or column header and how to proceed.
-
 
 That’s pretty much it on how to make an accessible table. Use them for tabular data, assign a caption and use `scope="col"` or `scope="row"`.

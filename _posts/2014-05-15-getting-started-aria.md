@@ -16,8 +16,8 @@ ARIA (Accessible Rich Internet Applications), is a spec from the W3C and created
 ARIA has no effect on how elements are displayed or behave in browsers. It does not add new functionality and is meant to act only as an extra descriptive layer for screen readers.
 
 ### Links
-* HTML5 ARIA spec -  <http://www.w3.org/TR/aria-in-html/>
-* ARIA spec - <http://www.w3.org/WAI/PF/aria/>
+* HTML5 ARIA spec -  <https://www.w3.org/TR/html-aria/>
+* ARIA spec - <https://www.w3.org/TR/wai-aria/>
 
 ## ARIA Attributes
 ARIA attributes are predefined in the spec and are divided into two categories, roles and states & properties. Both can be added directly in the markup or via JavaScript and should be updated as needed based on user interactions. There are rules behind which elements may receive types of ARIA attributes, as well as design guidelines for how and when these should be updated in common interactive widgets.
@@ -25,7 +25,7 @@ ARIA attributes are predefined in the spec and are divided into two categories, 
 ### Links
 * Roles - <https://www.w3.org/WAI/PF/aria/roles>
 * States and Properties - <https://www.w3.org/WAI/PF/aria/states_and_properties>
-* Design Patterns - <http://www.w3.org/TR/wai-aria-practices/#aria_ex>
+* Design Patterns - <https://www.w3.org/TR/wai-aria-practices/#aria_ex>
 
 ## ARIA Roles
 
@@ -59,12 +59,12 @@ Native HTML semantics should still be used whenever possible, but ARIA is useful
 To create accessible applications, basic principles of semantic HTML, keyboard support, and color contrast should still be the primary focus of developers. ARIA may be used to "fill in the blanks" where web page information isn't understood or available to a screen reader via HTML alone.
 
 ### Links
-* ARIA in HTML <http://rawgit.com/w3c/aria-in-html/master/index.html>
+* ARIA in HTML <https://www.w3.org/TR/html-aria/>
 
 ## ARIA Examples
 
 * Landmark role
-  The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](http://a11yproject.com/posts/aria-landmark-roles/) for more information.
+  The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](https://a11yproject.com/posts/aria-landmark-roles/) for more information.
 
 ~~~~~~~~
     <nav>

@@ -68,8 +68,8 @@ In addition to the VTT file format, you can also use TTML (Time Text Markup Lang
 Now that you know how to implement it, you need to transcribe all of your videos. You can watch, and rewatch, and rewatch them to capture all of the talking perfectly timed (I watched that Alice in Wonderland trailer 30 or 40 times and it is only a minute long). However, there are services that can handle the transcription for you. These will typically start at $1 per minute for transcription with a fee of $0.25 per minute for the needed timestamping.
 
 A few well-reviewed services include:
-- [http://verbalink.com/](http://verbalink.com/)
+- [https://verbalink.com/](https://verbalink.com/)
 - [https://www.speechpad.com/](https://www.speechpad.com/)
-- [http://www.rev.com/transcription](http://www.rev.com/transcription)
 
 There is also a free to use [HTML5 Video Caption Maker](http://samples.msdn.microsoft.com/Workshop/samples/media/captionmaker/default.html) tool available to help transcribe your own videos.
+- [https://www.rev.com/transcription](https://www.rev.com/transcription)

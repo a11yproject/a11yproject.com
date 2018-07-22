@@ -35,5 +35,5 @@ In this case, the `alt` actually becomes the alternative, because it is higher i
 Rule of Thumb: Serve all users equal content.
 
 ### Further reading
-- ["Using the HTML title attribute"](http://www.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/) by Steve Faulkner _(Jan 15th, 2013)_
 - [RNIB Blog: TITLE attributes](http://www.rnib.org.uk/professionals/webaccessibility/wacblog/Lists/Posts/Post.aspx?id=38) _(May 16th, 2007)_
+- ["Using the HTML title attribute"](https://developer.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/) by Steve Faulkner _(January 15th, 2013)_

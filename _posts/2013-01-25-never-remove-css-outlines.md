@@ -20,8 +20,8 @@ If you do not like the default focus outline that is displayed when a user click
 
     * [outliner.js](https://gist.github.com/2470777), a cross-lib implementation with event delegation, by [Aireh Glazer](https://twitter.com/#!/arglazer)
 
-    * [outline.js](https://github.com/lindsayevans/outline.js), a similar approach that uses `mousedown` instead of `mouseover`, by [Lindsay Evans](http://twitter.com/lindsayevans/)
-    
+    * [outline.js](https://github.com/lindsayevans/outline.js), a similar approach that uses `mousedown` instead of `mouseover`, by [Lindsay Evans](https://twitter.com/lindsayevans/)
+
     * [What Input?](https://github.com/ten1seven/what-input), differently from the previous two, adds an attribute to your `body` allowing you to write CSS that will be enabled only if the user is using the keyboard to navigate.
 
     Consider this third solution as a last resort. Some browser/screen reader combinations fire mouse events, which could cause outlines to disappear while using this method.
@@ -29,6 +29,6 @@ If you do not like the default focus outline that is displayed when a user click
 In conclusion, using `outline: none` without proper fallbacks makes your site significantly less accessible to any keyboard only user, not only those with reduced vision. Make sure to always give your interactive elements a visible indication of focus.
 
 ## Further reading
-- [The plague of outline:0](http://webaim.org/blog/plague-of-outline-0/)
+- [The plague of outline:0](https://webaim.org/blog/plague-of-outline-0/)
 - [Web Content Accessibility Guidelines (WCAG) 2.0 (2.4.7)](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms-focus-visible)
 - [Failure of Success Criterion 2.4.7 due to styling element outlines and borders in a way that removes or renders non-visible the visual focus indicator](https://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F78)
