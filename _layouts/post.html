@@ -10,14 +10,17 @@ layout: default
             <small class="postdate">
               Published on
               <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-              {% if page.last_updated %}
-                &ndash; Updated:
-                <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y" }}</time>
-              {% endif %}
             </small>
         {% endif %}
         {% if page.author %}
           <small class="postauthor">by {{ page.author }}</small>
+        {% endif %}
+        {% if page.last_updated %}
+          &ndash; Updated:
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y" }}</time>
+          {% if page.updated_by %}
+            <small class="postauthor">by {{ page.updated_by }}</small>
+          {% endif %}
         {% endif %}
       </p>
     </header>
