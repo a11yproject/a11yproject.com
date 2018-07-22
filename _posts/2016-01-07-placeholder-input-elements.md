@@ -20,7 +20,7 @@ Make your forms accessible by using one of the following methods (in order of pr
 
 1. Redesign to include a proper visible `label`
 1. Use `aria-label` or `aria-labelledby` to provide assistive text
-1. [Visually hide](http://a11yproject.com/posts/how-to-hide-content/) `label` elements (in an accessible manner)
+1. [Visually hide](https://a11yproject.com/posts/how-to-hide-content/) `label` elements (in an accessible manner)
 
 While we're paying attention to our placeholder text, let's review how to add better contrast:
 
@@ -39,7 +39,7 @@ While we're paying attention to our placeholder text, let's review how to add be
 }
 {% endhighlight %}
 
-The above CSS assumes that the background for the form controls are `#fff`. If we test `#fff` and `#626262` in a color contrast tool like [Tanaguru Contrast-Finder](http://contrast-finder.tanaguru.com/result.html;jsessionid=57DFFB6E8E217E7C92C55B7CE2629CF6?foreground=%23626262&background=%23ffffff&isBackgroundTested=false&ratio=4.5&algo=HSV), the results will approve these colors for valid contrast. You can use your own color for this, but be sure to read about [how conformance levels work](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head), and use a color contrast tool to confirm.
+The above CSS assumes that the background for the form controls are `#fff`. If we test `#fff` and `#626262` in a color contrast tool like [Tanaguru Contrast-Finder](http://contrast-finder.tanaguru.com/result.html;jsessionid=57DFFB6E8E217E7C92C55B7CE2629CF6?foreground=%23626262&background=%23ffffff&isBackgroundTested=false&ratio=4.5&algo=HSV), the results will approve these colors for valid contrast. You can use your own color for this, but be sure to read about [how conformance levels work](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head), and use a color contrast tool to confirm.
 
 In the above CSS, each selector for placeholder text needs to be seperate in their own declaration blocks. The reason for this is due to the prefixes needed for placeholder styles to apply. The browser will read the first selector, and if it's not the prefix for that browser, instead of reading through the rest until one applies, it will ignore the rest. To ensure each browser can find it's own prefixed placeholder text styles, it's necessary to write them each separate as we did above.
 
@@ -71,5 +71,6 @@ Note that in the second example above, omitting the `for` attribute on the label
 
 ## Further reading
 
-- [HTML5 Accessibility Chops: the placeholder attribute](http://blog.paciellogroup.com/2011/02/html5-accessibility-chops-the-placeholder-attribute/) - from the Paciello Group (February 2011)
-- [Using @placeholder on Input](http://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input) - from W3C
+- [Don’t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
+- [HTML5 Accessibility Chops: the placeholder attribute](https://blog.paciellogroup.com/2011/02/html5-accessibility-chops-the-placeholder-attribute/) - from the Paciello Group (February 2011)
+- [Using @placeholder on Input](https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input) - from W3C
