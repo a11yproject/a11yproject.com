@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Accessibility Club Conference 2018"
+      description: "Having started as a tiny meetup in 2014, this is the first conference scale Accessibility Club event with international speakers and a broad audience from all over the world. Join us and listen to <a href='https://tink.uk'>Léonie Watson</a>, <a href='https://raul.de'>Raúl Aguayo-Krauthausen</a>, <a href='https://sonniesedge.co.uk'>Charlie Owen</a>, <a href='http://alistairduggin.co.uk'>Alistair Duggin</a> and many others to learn about web accessibility and assistive technologies. We've got a diversity / scholarship programme and a lot of tickets to give away — please apply! <a href='https://twitter.com/a11yclub'>@a11yclub</a>"
+      url: "https://accessibility-club.org"
+      type: "Regional"
+      hashtag: "a11yclub"
+      date: 2018-11-05
+      address: "Spreespeicher, Stralauer Allee 2, 10245 Berlin, Germany"
+      map: "https://goo.gl/maps/dmhmtHLDi572"
     - title: "Cleveland Accessibility - A11yCLE Brand, Mission, and Vision Meetup"
       description: "Please join us as Melanie Bozzelli and Kate Penrod lead us through an exercise to develop a brand, mission, and vision for our <a href='https://www.meetup.com/Cleveland-Accessibility-Meetup/events/252287250/'>Cleveland Accessibility Meetup</a>. These essential elements will provide the foundation upon which we build our long-term success."
       url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/252287250/"
