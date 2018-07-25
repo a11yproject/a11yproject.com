@@ -36,3 +36,4 @@ Rule of Thumb: Serve all users equal content.
 
 ### Further reading
 - ["Using the HTML title attribute"](https://developer.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/) by Steve Faulkner _(January 15th, 2013)_
+- [title - HTML | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title)
