@@ -14,4 +14,4 @@ Having good contrast and readability are an important part of creating an access
 1. Set the brightness of your mobile device to its lowest setting.
 1. Open up your website on the device and begin browsing around.
 
-If you find something difficult to read, congratulations, you may have found an accessibility issue! Take measures to [check](http://www.checkmycolours.com/) and increase the contrast of your text.
+If you find something difficult to read, congratulations, you may have found an accessibility issue! Take measures to [check and increase the contrast of your text](http://www.checkmycolours.com/).

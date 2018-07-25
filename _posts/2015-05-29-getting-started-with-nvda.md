@@ -8,10 +8,10 @@ categories:
   - Assistive Technology
 ---
 
-NVDA is a free and open source screen reader from [NVAccess](http://www.nvaccess.org/). It is available for the Windows operating system and officially supports Internet Explorer, Firefox, and Chrome web browsers. There is also a ton of [braille display support](http://www.nvaccess.org/files/nvda/documentation/userGuide.html?#SupportedBrailleDisplays)!
+NVDA is a free and open source screen reader from [NVAccess](https://www.nvaccess.org/). It is available for the Windows operating system and officially supports Internet Explorer, Firefox, and Chrome web browsers. There is also a ton of [braille display support](https://www.nvaccess.org/files/nvda/documentation/userGuide.html?#SupportedBrailleDisplays)!
 
-NVDA is available for download here: [nvaccess.org/download](http://www.nvaccess.org/download/)
- 
+NVDA is available for download here: [nvaccess.org/download](https://www.nvaccess.org/download/)
+
 After everything is installed you can press `Ctrl + Alt + n` to start NVDA. Quitting NVDA is done by pressing `NVDA + q`, then `enter` at the prompt.
 
 ## The NVDA Modifier Key
@@ -43,7 +43,7 @@ h | Navigate through headings
 f | Navigate through forms
 t | Navigate through tables
 Ctrl + Alt + up / down / left / right arrow | Navigate table content
-b | Navigate through buttons 
+b | Navigate through buttons
 l | Navigate through lists
 i | Navigate through list items
 g | Navigate through graphics / images
@@ -60,4 +60,4 @@ If you’re used to using VoiceOver and miss the on-screen text description outp
 
 
 ## A note on styling
-One feature that other screen readers have that NVDA doesn’t is custom focus styles. Others like Apple’s VoiceOver or Google’s Chromevox have a custom focus style for links or for input controls that aid in navigation. NVDA does not have a custom focus style so it is very important to style page elements with the `:focus` pseudo-class. It’s good to make a habit of adding this whenever the `:hover` pseudo-class is used. Also, avoid using `outline: none` as this removes focus styles completely from view. 
+One feature that other screen readers have that NVDA doesn’t is custom focus styles. Others like Apple’s VoiceOver or Google’s Chromevox have a custom focus style for links or for input controls that aid in navigation. NVDA does not have a custom focus style so it is very important to style page elements with the `:focus` pseudo-class. It’s good to make a habit of adding this whenever the `:hover` pseudo-class is used. Also, avoid using `outline: none` as this removes focus styles completely from view.

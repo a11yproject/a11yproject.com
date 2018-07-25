@@ -7,8 +7,8 @@ categories:
   - How-tos
 ---
 **Short answer:** Don't use them, except in special circumstances.
-  
-HTML `title` attributes are often perceived as an accessibility (and SEO) bonus, but the opposite is true. For screen reader users the content included inside of the `title` attribute is typically unnecessary, redundant, and [possibly not even used](http://www.rnib.org.uk/professionals/webaccessibility/wacblog/Lists/Posts/Post.aspx?id=38). Conversely, content being put in the `title` attribute is being hidden from the (probable) majority of your users. If information is being hidden from the majority of your users, then it's probably not necessary.
+
+HTML `title` attributes are often perceived as an accessibility (and SEO) bonus, but the opposite is true. For screen reader users the content included inside of the `title` attribute is typically unnecessary, redundant, and possibly not even used. Conversely, content being put in the `title` attribute is being hidden from the (probable) majority of your users. If information is being hidden from the majority of your users, then it's likely not necessary.
 
 There are a few times when using a `title` attribute is appropriate:
 
@@ -17,14 +17,14 @@ There are a few times when using a `title` attribute is appropriate:
 
 If you must use `title` on images, keep it the same as the `alt`.
 
-Based on the intended behavior for [Text Alternative Computation](http://www.w3.org/TR/wai-aria/roles#textalternativecomputation) the precedence for calculating a text alternative should be:
+Based on the intended behavior for Text Alternative Computation the precedence for calculating a text alternative should be:
 
 - `aria-labelledby`
 - `aria-label`
 - `alt`
 - `title`
 
-In cases where two or more of the above are used, whatever's highest in that list becomes what gets used. Consider the following example:
+In cases where two or more of the above are used, whatever is highest in that list becomes what gets used. Consider the following example:
 
 ```
 <img src="/path/to/image.png" alt="" title="some stuff that could be useful" />
@@ -35,5 +35,4 @@ In this case, the `alt` actually becomes the alternative, because it is higher i
 Rule of Thumb: Serve all users equal content.
 
 ### Further reading
-- ["Using the HTML title attribute"](http://www.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/) by Steve Faulkner _(Jan 15th, 2013)_
-- [RNIB Blog: TITLE attributes](http://www.rnib.org.uk/professionals/webaccessibility/wacblog/Lists/Posts/Post.aspx?id=38) _(May 16th, 2007)_
+- ["Using the HTML title attribute"](https://developer.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/) by Steve Faulkner _(January 15th, 2013)_

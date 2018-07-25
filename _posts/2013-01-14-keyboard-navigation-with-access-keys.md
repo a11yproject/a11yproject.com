@@ -2,7 +2,7 @@
 layout: post
 title: |
     How To Add Keyboard Navigation with Access Keys
-description: Access Keys are simple shortcuts that allow for simple keyboard navigation
+description: Access Keys are simple shortcuts that allow for quick keyboard navigation
 published: false
 editor_comment: Not recommended
 # date:
@@ -20,7 +20,7 @@ One of the difficulties with access keys is letting your users know they exist. 
 
     <h1><a href="/" accesskey="1" title="Homepage shortcut key = 1">Title of My Site</h1>
 
-There are other ways to advertise access keys. [See the Wikipedia entry on "Access key" for suggestions](http://en.wikipedia.org/wiki/Access_key).
+There are other ways to advertise access keys. [See the Wikipedia entry on "Access key" for suggestions](https://en.wikipedia.org/wiki/Access_key).
 
 So which keys should you use? That’s a great question. There’s nothing in the HTML spec indicating which keys/values should be used, but there are sets that have become widely adopted around the web. According to the UK Government accessibility guidelines, you should use the following:
 
