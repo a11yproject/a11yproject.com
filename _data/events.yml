@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Accessibility Scotland"
+      description: "One day of talks. Friendly, open discussion about accessibility. An opportunity to network and learn."
+      url: "https://accessibility.scot/"
+      type: "Regional"
+      hashtag: "a11yScotland"
+      date: 2018-11-09
+      address: "Spreespeicher, Stralauer Allee 2, 10245 Berlin, Germany"
+      map: "https://goo.gl/maps/PB6YajjTj3r"
     - title: "Accessibility Club Conference 2018"
       description: "Having started as a tiny meetup in 2014, this is the first conference scale Accessibility Club event with international speakers and a broad audience from all over the world. Join us and listen to <a href='https://tink.uk'>Léonie Watson</a>, <a href='https://raul.de'>Raúl Aguayo-Krauthausen</a>, <a href='https://sonniesedge.co.uk'>Charlie Owen</a>, <a href='http://alistairduggin.co.uk'>Alistair Duggin</a> and many others to learn about web accessibility and assistive technologies. We've got a diversity / scholarship programme and a lot of tickets to give away — please apply! <a href='https://twitter.com/a11yclub'>@a11yclub</a>"
       url: "https://accessibility-club.org"
