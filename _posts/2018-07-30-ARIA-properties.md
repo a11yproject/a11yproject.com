@@ -31,7 +31,7 @@ Property (links to WAI-ARIA specs) | Category | Description | Allowed Values (**
 [aria-valuemax](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-valuemax) | Widget attributes | Maximum allowed value for a range selector | Number
 [aria-valuemin](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-valuemin) | Widget attributes | Minimum allowed value for a range selector | Number
 [aria-valuenow](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-valuenow) |Widget attributes | Current value for a range selector | Number (between aria-valuemin and aria-valuemax)
-[aria-valuetext](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-valuetext) | Widget attribubtes | Human readable text alternative to a value for a range selector | String
+[aria-valuetext](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-valuetext) | Widget attributes | Human readable text alternative to a value for a range selector | String
 [aria-atomic](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-atomic) | Live region attributes | Indicates whether assistive technologies will present the entire element (or only parts of it) when the element is changed | **false**, true
 [aria-live](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-live) | Live region attributes | Indicates an element will be updated and gives the type of updates the user can expect | **off**, assertive, polite
 [aria-relevant](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-relevant) | Live region attributes | Defines what constitutes a update requiring notification in a live region | **additions text**, additions, all, removals, text
