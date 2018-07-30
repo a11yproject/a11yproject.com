@@ -268,3 +268,21 @@ $mobile: 24em;
     margin-bottom: 1em;
   }
 }
+
+.figure-callout {
+  border: 1px solid rgba(0,0,0,.625);
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+
+.table-dividers {
+  margin-bottom: 1.5em;
+
+  th {
+    font-weight: bold;
+  }
+
+  td, th {
+    border-bottom: 1px solid rgba(0,0,0,.35);
+  }
+}
