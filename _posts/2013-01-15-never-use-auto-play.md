@@ -13,7 +13,7 @@ categories:
 
 People using screen-readers navigate by listening, so any sound playing when the page loads will interfere immensely.
 
-In [a note on audio control](https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/visual-audio-contrast-dis-audio.html, WCAG 2.0 suggests:
+In [a note on audio control](https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/visual-audio-contrast-dis-audio.html), WCAG 2.0 suggests:
 
 > Therefore, we discourage the practice of automatically starting sounds (especially if they last more than 3 seconds), and encourage that the sound be started by an action initiated by the user after they reach the page, rather than requiring that the sound be stopped by an action of the user after they land on the page.
 
