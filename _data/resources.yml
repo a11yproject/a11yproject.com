@@ -363,6 +363,12 @@
     - url: https://www.patreon.com/steenhout
       title: "#A11y Rules Podcast"
       description: "Conversations around web accessibility"
+    - url: https://www.accessible.fm
+      title: "Accessible Podcast"
+      description: "A podcast about accessibility in tech. Topics covered on the show are mostly Apple-centric but will span the tech industry at large where appropriate."
+    - url: https://player.fm/series/presentable/presentable-30-accessibility-is-social-justice
+      title: "Presentable 30: Accessibility is Social Justice"
+      description: "An interview with Laura Kalbag about her book, Accessibility for Everyone."
     - url: http://frontendhappyhour.com/episodes/a11y-cocktail/
       title: "Front End Happy Hour - Episode 007 - a11y Cocktail"
       description: "A conversation about web accessibility with guest Jennison Asuncion"
