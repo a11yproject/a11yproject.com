@@ -17,6 +17,12 @@
       date: 2018-11-05
       address: "Spreespeicher, Stralauer Allee 2, 10245 Berlin, Germany"
       map: "https://goo.gl/maps/dmhmtHLDi572"
+    - title: "A11Y Talks (August 2018) - A11Y Meetups, Camps, & Beyond"
+      description: "Dennis Deacon will describe how he started the Chicago Digital Accessibility & Inclusive Design Meetup, not only focused on topics related to digital accessibility but focused on delivering the most accessible events.<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#A11yTalks</a> on Twitter! Use this link to join the event: <a href='http://bit.ly/A11yTalksAug2018'>http://bit.ly/A11yTalksAug2018</a> Please note the link will not be activated until the day/time of the event."
+      url: "https://groups.drupal.org/node/534190"
+      type: "Webinar"
+      date: 2018-08-14
+      hashtag: "A11yTalks"
     - title: "Cleveland Accessibility - A11yCLE Brand, Mission, and Vision Meetup"
       description: "Please join us as Melanie Bozzelli and Kate Penrod lead us through an exercise to develop a brand, mission, and vision for our <a href='https://www.meetup.com/Cleveland-Accessibility-Meetup/events/252287250/'>Cleveland Accessibility Meetup</a>. These essential elements will provide the foundation upon which we build our long-term success."
       url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/252287250/"
@@ -31,7 +37,7 @@
       type: "Webinar"
       date: 2018-07-12
     - title: "A11Y Talks (June 2018) - What’s new with WCAG 2.1"
-      description: "The long-awaited updates to the Web Content Accessibility Guidelines (WCAG 2.1) were released in early June - but what does that mean for you and your organization? Join <a href='https://twitter.com/MartianWebDev'>Andrew Macpherson</a> and <a href='https://twitter.com/cariefisher'>Carie Fisher</a> to hear about the new guidelines, who they help the most, and how you can incorporate these changes into your next website design or development project!<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#a11yTalks</a> on Twitter! Use this link to join the event: <a href='https://deque.zoom.us/j/731679925'>https://deque.zoom.us/j/731679925</a> Please note the link will not be activated until the day/time of the event. Thank you to Deque for the use of their online meeting room!"
+      description: "The long-awaited updates to the Web Content Accessibility Guidelines (WCAG 2.1) were released in early June - but what does that mean for you and your organization? Join <a href='https://twitter.com/MartianWebDev'>Andrew Macpherson</a> and <a href='https://twitter.com/cariefisher'>Carie Fisher</a> to hear about the new guidelines, who they help the most, and how you can incorporate these changes into your next website design or development project!<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#a11yTalks</a> on Twitter! Use this link to join the event: <a href='https://deque.zoom.us/j/731679925'>https://deque.zoom.us/j/731679925</a> Please note the link will not be activated until the day/time of the event."
       url: "https://groups.drupal.org/node/520888"
       type: "Webinar"
       date: 2018-06-27
