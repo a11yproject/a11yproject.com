@@ -18,7 +18,7 @@ I've avoided going into the different types here, as the principles are the same
 
 ## What does this mean for accessibility on the web?
 
-Don't rely on colour alone to communicate. As a result, you don't risk making life difficult for colour blind users. 
+Don't rely on colour alone to communicate. As a result, you don't risk making life difficult for colour blind users. For example, hyperlinks are underlined and coloured.
 
 Sticking to this is also compliant with the WCAG; guideline [1.4.1 covers making content distinguishable using colour](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html).
 
