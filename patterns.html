@@ -32,6 +32,9 @@ permalink: patterns.html
                 <a href="{{ pattern.url }}" rel="external">
                   {{pattern.title}}
                 </a>
+                {% for badge in pattern.code %}
+                  <svg><use xlink:href="#{{ badge }}"/></svg>
+                {% endfor %}
               </li>
             {% endfor %}
           </ul>
@@ -43,6 +46,9 @@ permalink: patterns.html
           <a href="{{ pattern.url }}" rel="external">
             {{pattern.title}}
           </a>
+          {% for badge in pattern.code %}
+            <svg><use xlink:href="#{{ badge }}"/></svg>
+          {% endfor %}
         </li>
       {% endfor %}
     </ul>
