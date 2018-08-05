@@ -113,3 +113,5 @@
       title: "High Contrast-friendly dropshadow"
     - url: "https://github.com/scottaohara/a11y_breadcrumbs"
       title: "Accessible Breadcrumb Navigation Pattern"
+    - url: "https://github.com/schne324/dragon-drop"
+    - title: "Dragon Drop: Accessible drag and drop list reorder module"
