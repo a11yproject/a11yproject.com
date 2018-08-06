@@ -11,6 +11,7 @@ Do you enjoy web accessibility and want to help? **Here's how.**
 1. [Adding Events](#adding-events)
 1. [Reporting Issues](#reporting-issues)
 1. [Stale Issues](#stale-issues)
+1. [Stale PRs](#stale-prs)
 1. [Key Branches](#key-branches)
 1. [Build Process](#build-process)
 1. [Pull Requests](#pull-requests)
@@ -117,7 +118,7 @@ Notice something inaccurate? Noticed something inaccessible on this site? You th
 **Issues are not to be used for** free help on your website. Use [Stack Overflow](https://stackoverflow.com) for that.
 
 ## Stale Issues
-An Issue is considered in a "stale" state when the following conditions are met:
+An Issue is considered to be in a "stale" state when the following conditions are met:
 
 - Last comment was made over one year ago
 - No movement since
@@ -125,6 +126,15 @@ An Issue is considered in a "stale" state when the following conditions are met:
 - Someone has attempted to address the Issue, no comment from the author
 
 When an Issue has become stale a project maintainer will close the Issue, leaving a note for the author to open a new Issue if so desired.
+
+## Stale PRs
+An PR is considered to be in a "stale" state when the following conditions are met:
+
+- Last comment was made over siz months ago
+- No movement since
+- Someone has attempted to move the PR along, no comment from the author
+
+When a PR has become stale a project maintainer will close the PR, leaving a note for the author to open a new PR with the latest code from `gh-pages` if so desired.
 
 ## Key Branches
 
