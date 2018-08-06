@@ -318,3 +318,11 @@
       url: "https://accessibility.deque.com/section-508-wcag-and-the-federal-government"
       type: "Webinar"
       date: 2018-08-21     
+    - title: "A11y Camp Melbourne"
+      description: "A11y Camp is about creating a digital world with no barriers, and is Australia’s largest event for professionals interested in digital accessibility and inclusive design. This year it takes place in Melbourne from 17-19 October 2018, comprising two days of workshops with leading international and Australian accessibility practitioners, plus a one-day conference with two streams of talks on implementing accessibility. Registration is now open (Early Bird until 17 August)."
+      url: "http://a11ycamp.org.au/"
+      type: "Regional"
+      hashtag: "a11ycampmelb"
+      date: 2018-10-17
+      address: "Rydges Melbourne (CBD), 186 Exhibition St, Melbourne VIC 3000"
+      map: "https://goo.gl/maps/4r9viywfgGC2"
