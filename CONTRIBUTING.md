@@ -130,7 +130,7 @@ When an Issue has become stale a project maintainer will close the Issue, leavin
 ## Stale PRs
 A PR is considered to be in a "stale" state when the following conditions are met:
 
-- Last comment was made over siz months ago
+- Last comment was made over six months ago
 - No movement since
 - Someone has attempted to move the PR along, no comment from the author
 
