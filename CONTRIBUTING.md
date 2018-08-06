@@ -128,7 +128,7 @@ An Issue is considered to be in a "stale" state when the following conditions ar
 When an Issue has become stale a project maintainer will close the Issue, leaving a note for the author to open a new Issue if so desired.
 
 ## Stale PRs
-An PR is considered to be in a "stale" state when the following conditions are met:
+A PR is considered to be in a "stale" state when the following conditions are met:
 
 - Last comment was made over siz months ago
 - No movement since
