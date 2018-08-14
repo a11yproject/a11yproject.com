@@ -35,5 +35,6 @@ In this case, the `alt` actually becomes the alternative, because it is higher i
 Rule of Thumb: Serve all users equal content.
 
 ### Further reading
+- [The Trials and Tribulations of the Title Attribute](https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/) by Scott O'Hara _(December 22, 2017)_
 - ["Using the HTML title attribute"](https://developer.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/) by Steve Faulkner _(January 15th, 2013)_
-- [title - HTML | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title)
+- [`title` attribute on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title)
