@@ -2,13 +2,12 @@
 layout: post
 title: |
     Quick Test: Navigate using just your keyboard
-description: A quick 5 second accessibility test that you can run on your sites right now.
+description: A quick accessibility test that you can run on your sites right now.
 # date:
 # last_updated:
 categories:
   - Quick Tests
 ---
-**Estimated Time:** 5 seconds
 
 One quick way that you can check your accessibility is to navigate through the site using nothing but your keyboard.
 
