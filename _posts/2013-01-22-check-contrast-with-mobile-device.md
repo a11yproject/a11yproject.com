@@ -7,8 +7,6 @@ categories:
     - Quick Tests
 ---
 
-**Estimated time:** 3 minutes
-
 Having good contrast and readability are an important part of creating an accessible website. One trick you can do to test whether or not your contrast is sufficient enough is by using your phone or mobile device.
 
 1. Set the brightness of your mobile device to its lowest setting.
