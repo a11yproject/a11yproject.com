@@ -26,3 +26,7 @@ Trigger the local server by executing the ``jekyll serve`` task.
     $ jekyll serve
 
 Your local copy will now be accessible at `http://localhost:4000`. Then use `CTRL` + `C` to stop the server.
+
+If you are experiencing Ruby issues that are preventing you from launching the local copy, you may need to [install bundler](https://bundler.io/). Once installed try this command instead:
+
+     $ bundle exec jekyll serve
