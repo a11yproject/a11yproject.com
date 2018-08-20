@@ -5,7 +5,7 @@ description: What is colour blindness, and how can we design with it in mind?
 author: Matthew Higgins
 published: true
 categories:
-  - Basics
+  - Background
 ---
 
 Some peoples' eyes can't tell the difference between certain colours; that's not to say they see everything in greyscale. Total colour blindness is very rare in humans.
