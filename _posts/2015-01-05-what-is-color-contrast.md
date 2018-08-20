@@ -5,7 +5,7 @@ description: What is color contrast and why do we need it for web accessibility?
 author: Rachel R. Vasquez
 published: true
 categories:
-  - Basics
+  - Background
 ---
 
 ## Color Theory

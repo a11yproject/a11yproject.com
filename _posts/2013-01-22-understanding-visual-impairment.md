@@ -6,7 +6,7 @@ description: Key facts, definitions, demographics, causes, challenges and future
 author: Greg Tarnoff
 published: true
 categories:
-  - Basics
+  - Background
 ---
 
 Over 285,000,000 people suffer visual impairment, a condition that limits the visual capability of an individual to such a degree that additional support is needed. Visual impairment is the result of trauma, disease, congenital or degenerative conditions that cannot be corrected by medication, surgery or refractive correction. 90% of the world's visually impaired live in developing countries and 80% of all visual impairment can be avoided or cured by conventional means.

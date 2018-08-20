@@ -6,7 +6,7 @@ description: Introduction to ARIA, describing Roles, States, and Properties and 
 published: true
 author: Monika Piotrowicz
 categories:
-  - Basics
+  - Background
 ---
 
 ## What is ARIA?

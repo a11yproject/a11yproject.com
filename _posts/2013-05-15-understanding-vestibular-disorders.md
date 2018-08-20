@@ -5,7 +5,7 @@ title: |
 description: Key facts, definitions, demographics and causes of vestibular disorders.
 published: true
 categories:
-  - Basics
+  - Background
 ---
 >**Vestibular system** — n
 >The sensory mechanism in the inner ear that detects movement of the head and helps to control balance.
