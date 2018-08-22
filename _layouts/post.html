@@ -12,14 +12,18 @@ layout: default
               <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
             </small>
         {% endif %}
+
+        {% assign author = site.data.authors[page.author] %}
         {% if page.author %}
-          <small class="postauthor">by {{ page.author }}</small>
+          <small class="postauthor">by {% if author.contact %}<a href="{{ author.contact }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}</small>
         {% endif %}
+
+        {% assign updater = site.data.authors[page.updated_by] %}
         {% if page.last_updated %}
           &ndash; Updated:
           <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.last_updated | date: "%B %d, %Y" }}</time>
           {% if page.updated_by %}
-            <small class="postauthor">by {{ page.updated_by }}</small>
+            <small class="postauthor">by {% if updater.contact %}<a href="{{ updater.contact }}">{{ updater.name }}</a>{% else %}{{ updater.name }}{% endif %}</small>
           {% endif %}
         {% endif %}
       </p>
