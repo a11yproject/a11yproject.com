@@ -2,7 +2,7 @@
 layout: post
 title: Understanding Colourblindness
 description: What is colour blindness, and how can we design with it in mind?
-author: Matthew Higgins
+author: matthew_higgins
 published: true
 categories:
   - Background

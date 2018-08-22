@@ -2,7 +2,7 @@
 layout: post
 title: |
     Getting Started with OS X VoiceOver
-author: Mat Marquis
+author: mat_marquis
 description: |
     How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in OS X.
 categories:

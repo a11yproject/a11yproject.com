@@ -3,7 +3,7 @@ layout: post
 title: |
     Quick Tip: Safari Keyboard Navigation
 description: How to enable full keyboard support in Safari
-author: Scott Vinkle
+author: scott_vinkle
 date: 2017-12-29
 # last_updated:
 published: true

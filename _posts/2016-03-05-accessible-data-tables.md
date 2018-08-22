@@ -4,7 +4,7 @@ title: |
     How&ndash;to: Create accessible data tables.
 description: What you need to create an accessible data table.
 published: true
-author: Franklyn Roth
+author: franklyn_roth
 categories:
   - How-tos
 ---

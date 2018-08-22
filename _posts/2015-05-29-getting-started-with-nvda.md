@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started with NVDA
 description: A quick overview of navigating a webpage using the NVDA screen reader
-author: Scott Vinkle
+author: scott_vinkle
 published: true
 categories:
   - Assistive Technology

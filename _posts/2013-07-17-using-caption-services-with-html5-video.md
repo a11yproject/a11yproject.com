@@ -1,15 +1,15 @@
 ---
 layout: post
-title: | 
+title: |
     How&ndash;to: Using Caption Services with HTML5 Video
 description: How to implement captions on HTML5 video (and audio) elements.
 published: true
-author: Greg Tarnoff
+author: greg_tarnoff
 categories:
   - How-tos
 ---
 
-One of the great things about the internet is the ability to share video. With HTML5 we can now use video without the use of Flash. This makes video more accessible as the controls are located in the DOM. However, to do accessible video right, you need to include captions and transcripts. 
+One of the great things about the internet is the ability to share video. With HTML5 we can now use video without the use of Flash. This makes video more accessible as the controls are located in the DOM. However, to do accessible video right, you need to include captions and transcripts.
 
 In addition to making video accessible to those with hearing issues, having a transcript on the page can provide you localization of a video not always available in the local language. With a transcript on your page, you may increase your search engine rankings by making your content easily indexed by search engine crawl spiders.
 
@@ -23,7 +23,7 @@ So how do we pull off putting captions into a video after the video has been pro
         <track src="your-video-transcript.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
     </video>
 
-But what do these track files look like? 
+But what do these track files look like?
 
 ## VTT
 VTT is a specially formatted text document. It contains each of the queues numbered, followed by the start time & end time and finally the text. It is recommended to include in the text the name of the person talking. Some styling can be included in the text via basic HTML elements like `i` or `b`.
@@ -35,11 +35,11 @@ We start it by declaring it a WEBVTT file.
     1
     00:00:09.000 --> 00:00:11.000
     <b>Alice:</b> Curiouser and curiouser.
-    
+
     2
     00:00:17.000 --> 00:00:18.000
     <b>Rabbit:</b> I told you she was the right Alice!
-    
+
     3
     00:00:19.000 --> 00:00:20.000
     <b>Mouse:</b> I am not convinced.
@@ -52,7 +52,7 @@ In addition to the VTT file format, you can also use TTML (Time Text Markup Lang
     <tt xmlns="http://www.w3.org/ns/ttml" xml:lang="en">
         <body>
             <div>
-                <p begin="00:00:9.00" end="00:00:11.00">        
+                <p begin="00:00:9.00" end="00:00:11.00">
                     Alice: Curiouser and curiouser.
                 </p>
 

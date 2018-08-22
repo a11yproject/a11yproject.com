@@ -3,7 +3,7 @@ layout: post
 title: |
     Quick Tip: A11y and a brief numeronyms primer
 description: The numeronym "a11y" is shorthand for "accessibility"
-author: Scott O'Hara
+author: scott_ohara
 date: 2017-08-26
 # last_updated:
 published: true
