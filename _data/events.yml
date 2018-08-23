@@ -1,6 +1,12 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Intro to Talkback and Android Accessibility"
+      description: "Our Mobile Developer and A11y Expert, Chris McMeeking, will walk you through how to navigate and test for accessibility with Talkback."
+      url: "https://accessibility.deque.com/intro-to-talkback-and-native-android-accessibility"
+      type: "Webinar"
+      date: 2018-09-18
+      hashtag: "A11yTalks"
     - title: "Accessibility Scotland"
       description: "One day of talks. Friendly, open discussion about accessibility. An opportunity to network and learn. Accessibility Scotland’s focus is on providing a friendly and informative day focused on digital accessibility and inclusion. We run a single-track event, so you don’t have to choose between sessions. And we try for a mix of speakers – new and familiar, on a range of topics all related to accessibility and diversity, inclusive design and development. Our aim is always to ensure that you leave with new ideas, new knowledge, new friends and contacts, and enthusiasm for doing your bit for inclusion. If you're interested in attending or speaking, get in touch <a href='https://accessibility.scot/'>via our website</a>."
       url: "https://accessibility.scot/"
