@@ -24,11 +24,11 @@ In order to get the website running locally on your computer, you'll need access
 
 1. A command line application such as Terminal.
 1. [Git](https://git-scm.com/) version control and a [GitHub account](https://github.com/).
-  - You can check to see if Git is already installed on your computer by typing `git --version` into your command line application. If it is installed it will list the currently installed version (e.g. `git version 2.18.0`).
-  - If you prefer to use a GUI to work with version control, GitHub offers a [free desktop app](https://desktop.github.com).
-1. The [Ruby](https://www.ruby-lang.org/) programming language. 
-  - You can check to see if Ruby is already installed on your computer by typing `ruby -v` into your command line application. If it is installed it will list the currently installed version (e.g. `ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin17]`).
-  - It may also be helpful to use [rbenv](https://github.com/rbenv/rbenv), a command line program that helps manage your Ruby versions.
+    - You can check to see if Git is already installed on your computer by typing `git --version` into your command line application. If it is installed it will list the currently installed version (e.g. `git version 2.18.0`).
+    - If you prefer to use a GUI to work with version control, GitHub offers a [free desktop app](https://desktop.github.com).
+1. The [Ruby](https://www.ruby-lang.org/) programming language.
+    - You can check to see if Ruby is already installed on your computer by typing `ruby -v` into your command line application. If it is installed it will list the currently installed version (e.g. `ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin17]`).
+    - It may also be helpful to use [rbenv](https://github.com/rbenv/rbenv), a command line program that helps manage your Ruby versions.
 1. [bundler](https://bundler.io/), a command line application that helps manage [Ruby Gems](https://teamtreehouse.com/library/what-are-ruby-gems).
 
 ### Technology
@@ -45,13 +45,13 @@ Once you have met [the prerequisites](#requirements), follow these steps to inst
 
 ### Running the website
 
-After cloning and installing project Ruby Gems, type `jekyll serve` into your command line application. This will tell Jekyll to compile the project and turn it into a website. 
+After cloning and installing project Ruby Gems, type `jekyll serve` into your command line application. This will tell Jekyll to compile the project and turn it into a website.
 
 Your command line application will then display some information about Jekyll, including a line about `Server address:`. You can copy the URL it points (it should read something like `http://127.0.0.1:4000`) to and paste it into a browser tab. This will load a local copy of the website that you can interact with to preview your changes.
 
 Saving project files will make Jekyll regenerate the website to reflect the changes you made. Your command line application will display some new messaging to reflect this, including any errors you might accidentally make. Don't worry! Since the site uses version control, you're not in danger of seriously breaking anything. If you fix the error, Jekyll should continue to run.
 
-You can tell Jekyll to stop running by pressing the `Control` and `C` keys at the same time in your command line application. 
+You can tell Jekyll to stop running by pressing the `Control` and `C` keys at the same time in your command line application.
 
 ### Troubleshooting
 

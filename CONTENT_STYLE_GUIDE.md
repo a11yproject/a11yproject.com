@@ -6,40 +6,40 @@ A consistent writing style will help site content feel unified and aid with comp
 ## Table of Contents
 
 1. [General approach](#general-approach)
-  1. [Themes](#themes)
-  1. [Tone](#tone)
+    1. [Themes](#themes)
+    1. [Tone](#tone)
 1. [Authoring](#authoring)
-  1. [Written language](#written-language)
-  1. [Reading level](#reading-level)
-  1. [Punctuation](#punctuation)
-  1. [Styling](#styling)
-  1. [Capitalization](#capitalization)
-  1. [Concepts and terminology](#concepts-and-terminology)
-  1. [User or Person?](#user-or-person)
-  1. [Acronyms](#acronyms)
-  1. [Assumptive phrases](#assumptive-phrases)
-  1. [Gender](#gender)
-  1. [Ableist language](#ableist-language)
-  1. [Profanity](#profanity)
-  1. [Multimedia](#multimedia)
-  1. [Spell-check](#spell-check)
+    1. [Written language](#written-language)
+    1. [Reading level](#reading-level)
+    1. [Punctuation](#punctuation)
+    1. [Styling](#styling)
+    1. [Capitalization](#capitalization)
+    1. [Concepts and terminology](#concepts-and-terminology)
+    1. [User or Person?](#user-or-person)
+    1. [Acronyms](#acronyms)
+    1. [Assumptive phrases](#assumptive-phrases)
+    1. [Gender](#gender)
+    1. [Ableist language](#ableist-language)
+    1. [Profanity](#profanity)
+    1. [Multimedia](#multimedia)
+    1. [Spell-check](#spell-check)
 1. [Markdown](#)
-  1. [Front matter](#front-matter)
-  1. [Line breaks](#line-breaks)
-  1. [Headings](#headings)
-  1. [Paragraphs](#paragraphs)
-  1. [Lists](#lists)
-  1. [Links](#links)
-  1. [Images](#images)
-  1. [Code](#code)
-  1. [Horizontal rules](#horizontal-rules)
-  1. [Inline HTML](#inline-html)
+    1. [Front matter](#front-matter)
+    1. [Line breaks](#line-breaks)
+    1. [Headings](#headings)
+    1. [Paragraphs](#paragraphs)
+    1. [Lists](#lists)
+    1. [Links](#links)
+    1. [Images](#images)
+    1. [Code](#code)
+    1. [Horizontal rules](#horizontal-rules)
+    1. [Inline HTML](#inline-html)
 1. [Important terms](#inline-html)
-  1. [The A11Y Project](#the-a11y-project)
-  1. [a11y/accessibility](#a11y-accessibility)
-  1. [GitHub](#github)
-  1. [People, organizations, titles, and honorifics](#people-organizations-titles-and-honorifics)
-  1. [Other proper nouns](#other-proper-nouns)
+    1. [The A11Y Project](#the-a11y-project)
+    1. [a11y/accessibility](#a11y-accessibility)
+    1. [GitHub](#github)
+    1. [People, organizations, titles, and honorifics](#people-organizations-titles-and-honorifics)
+    1. [Other proper nouns](#other-proper-nouns)
 
 
 ## General approach
@@ -52,13 +52,13 @@ A consistent writing style will help site content feel unified and aid with comp
 
 ### Tone
 
-We prefer an active tone, where the subject of the sentence performs the action. 
+We prefer an active tone, where the subject of the sentence performs the action.
 
 #### Example
 
 > **Do:** Some people navigate via keyboard.
-> 
-> **Don't:** It was discovered earlier that some people navigate using keyboard input. 
+>
+> **Don't:** It was discovered earlier that some people navigate using keyboard input.
 
 
 ## Authoring
@@ -70,7 +70,7 @@ Use American English spelling, unless quoting in context.
 #### Example
 
 > **Do:** color
-> 
+>
 > **Don't:** colour
 
 ### Reading level
@@ -91,14 +91,14 @@ Try not to exceed a seventh grade reading level. Avoid unnecessary jargon and ex
 - Use bold and italic text styling sparingly. Long sections of text set with these text styles have been known to be a Dyslexia trigger.
 - Do not underline text. Underlined text is reserved for links.
 
-### Capitalization 
+### Capitalization
 
-- Avoid writing in all caps. Some assistive technology may read out each letter individually in sequence if it is authored using all capital letters. Large sections of text set in all caps has also been known to be a Dyslexia trigger, as well as being difficult to parse for people who are learning English or who have cognitive concerns. 
+- Avoid writing in all caps. Some assistive technology may read out each letter individually in sequence if it is authored using all capital letters. Large sections of text set in all caps has also been known to be a Dyslexia trigger, as well as being difficult to parse for people who are learning English or who have cognitive concerns.
 - Capitalize words in a hashtag (e.g. #ThisReadsWell).
 
 ### Concepts and terminology
 
-If possible, link to supporting articles when discussing new concepts and terminology. Please use high-quality sources, preferably sites with good accessibility support. This provides the reader with more detail on the subject without having to extend your article's length. It is also provides an alternate way of understanding the subject you introduce. 
+If possible, link to supporting articles when discussing new concepts and terminology. Please use high-quality sources, preferably sites with good accessibility support. This provides the reader with more detail on the subject without having to extend your article's length. It is also provides an alternate way of understanding the subject you introduce.
 
 Avoid analogies, similes, and metaphors that are too reliant on demographic, geography, religion, or culture.
 
@@ -113,7 +113,7 @@ Prefer the terms "person" or "people" over "user" or "users".
 #### Example
 
 > **Don't:** Most users have smartphones
-> 
+>
 > **Do:** Some people prefer a large font size.
 
 ### Acronyms
@@ -126,7 +126,7 @@ Spell out an acronym in full before using the shorthand version.
 
 ### Assumptive phrases
 
-The reader may have a different level of experience than you on the topic you're writing about. Avoid using terms like "just", "simply", "easily", "obviously", etc. 
+The reader may have a different level of experience than you on the topic you're writing about. Avoid using terms like "just", "simply", "easily", "obviously", etc.
 
 If you make a statement about how a population behaves, please also make sure to cite a trustworthy source.
 
@@ -158,13 +158,13 @@ Don't describe an individual as having a disability unless it is relevant to the
 >
 > **Do:** They use a wheelchair.
 
-> **Don't:** She's handicapable. 
+> **Don't:** She's handicapable.
 >
 > **Do:** Alice is blind.
 
 > **Don't:** They're able-bodied.
 >
-> **Do:** They do not have a disability. 
+> **Do:** They do not have a disability.
 
 ### Profanity
 
@@ -173,7 +173,7 @@ Don't use profane terms unless quoting in context.
 #### Example
 
 > **Do:** Our project manager said, "Ugh, accessibility. Not that shit again." Reader, it was time to act.
-> 
+>
 > **Don't:** Writing transcripts is fucking tedious.
 
 ### Multimedia
@@ -181,13 +181,12 @@ Don't use profane terms unless quoting in context.
 - Ensure interactive multimedia can be fully operated by keyboard input.
 - Multimedia should be able to be paused, and should load in a paused state.
 - Don't use multimedia that will automatically steal keyboard focus.
-- Multimedia with audio should provide both subtitles and transcripts of any spoken dialog or important sounds. 
-- Don't use multimedia that uses rapidly blinking, flashing, or strobing content. This may trigger photosensitive seizure disorders. 
-
+- Multimedia with audio should provide both subtitles and transcripts of any spoken dialog or important sounds.
+- Don't use multimedia that uses rapidly blinking, flashing, or strobing content. This may trigger photosensitive seizure disorders.
 
 ### Spell-check
 
-Many code editors have spell checking extensions. Please check your spelling before submitting content. This is a courtesy to both your readers and the people who will review your contribution. 
+Many code editors have spell checking extensions. Please check your spelling before submitting content. This is a courtesy to both your readers and the people who will review your contribution.
 
 
 ## Markdown
@@ -221,7 +220,7 @@ Use a single newline to separate block-level content like headings, lists, image
 - Uses dashes (`-`) for unordered lists.
 - Use the number one (`1.`) for ordered lists.
 - Use one space after a list item.
-- Indent nested lists with two spaces (e.g. `⋅⋅-`).
+- Indent nested lists with four spaces (e.g. `⋅⋅⋅⋅-`).
 
 ### Links
 
@@ -233,7 +232,7 @@ Use a single newline to separate block-level content like headings, lists, image
 
 - Use Markdown-style images (`![alternate description](image url)`) instead of HTML.
 - Provide meaningful alternative (alt) descriptions for images. Alt descriptions should concisely describe the image's content.
-- Use complete sentences for your alt descriptions (e.g. `![A happy-looking Labrador Retriever puppy sitting in a clay flower pot.](image url)`). Including punctuation in your alt description will help some assistive technology pronounce it clearly. 
+- Use complete sentences for your alt descriptions (e.g. `![A happy-looking Labrador Retriever puppy sitting in a clay flower pot.](image url)`). Including punctuation in your alt description will help some assistive technology pronounce it clearly.
 - Do not use ambiguous terms like "image", "ScreenCapture at Wed Aug 22", "post image", etc.
 - Do not use height and width attributes.
 
@@ -247,7 +246,7 @@ Use a single newline to separate block-level content like headings, lists, image
 
 - Use three hyphens (`---`) to create a horizontal rule.
 - Use horizontal rules to denote thematic breaks in content
-- Do not use horizontal rules for decoration. 
+- Do not use horizontal rules for decoration.
 
 ### Inline HTML
 
@@ -274,7 +273,7 @@ The A11Y Project also uses the following terms as proper nouns when discussing a
 ### a11y/accessibility
 "a11y" is a [numeronym](https://a11yproject.com/posts/a11y-and-other-numeronyms/) that is short for "accessibility". The number 11 stands for the 11 letters between the first and last letters of the word.
 
-The numeronym is to not be used in formal writing. Use the full word, unless quoting in context. 
+The numeronym is to not be used in formal writing. Use the full word, unless quoting in context.
 
 #### Example
 
@@ -300,7 +299,7 @@ Honor how someone or something choses to officially spell their name.
 
 #### Example
 
-> danah boyd is a technology and social media scholar. She is a Principal Researcher at Microsoft Research, the founder and president of Data & Society Research Institute, and a Visiting Professor at New York University. 
+> danah boyd is a technology and social media scholar. She is a Principal Researcher at Microsoft Research, the founder and president of Data & Society Research Institute, and a Visiting Professor at New York University.
 
 ### Other proper nouns
 
