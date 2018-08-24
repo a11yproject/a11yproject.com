@@ -7,7 +7,6 @@ General guidelines for writing articles and other content for A11Y Project.
 1. [Formatting](#formatting)
 1. [Vocabulary](#vocabulary)
 1. [Complexity](#complexity)
-1. [Tone](#complexity)
 
 ## Spelling
 
@@ -18,7 +17,7 @@ For better or for worse, American English is generally considered to be the stan
 Check your spelling before submitting content. Word processors usually have spell-check built-in. There are also many spell-checking websites and browser extensions.
 
 ## Formatting
-Markdown tips. Heading levels. Templates?
+Markdown tips.
 
 **Resources:**
 - [Online Markdown Editor](https://jbt.github.io/markdown-editor/)
@@ -45,6 +44,3 @@ In some cases, such as the hashtag (#a11y) or a brand name (A11yProject) are acc
 
 **Resources:**
 - [Hemingway App](http://www.hemingwayapp.com/)
-
-## Tone
-Tone of voice tips. Professional and clear.
