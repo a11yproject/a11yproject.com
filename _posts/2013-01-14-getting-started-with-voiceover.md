@@ -1,10 +1,8 @@
 ---
 layout: post
-title: |
-    Getting Started with OS X VoiceOver
+title: "Getting Started with OS X VoiceOver"
 author: mat_marquis
-description: |
-    How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in OS X.
+description: "How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in OS X."
 categories:
   - Assistive Technology
 ---

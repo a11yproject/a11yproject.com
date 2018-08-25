@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Understanding Colourblindness
-description: What is colour blindness, and how can we design with it in mind?
+title: "Understanding Colourblindness"
+description: "What is colour blindness, and how can we design with it in mind?"
 author: matthew_higgins
 published: true
 categories:

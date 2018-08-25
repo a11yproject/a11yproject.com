@@ -1,8 +1,7 @@
 ---
 layout: post
-title: |
-    How&ndash;to: Using Caption Services with HTML5 Video
-description: How to implement captions on HTML5 video (and audio) elements.
+title: "How-to: Using Caption Services with HTML5 Video"
+description: "How to implement captions on HTML5 video (and audio) elements."
 published: true
 author: greg_tarnoff
 categories:

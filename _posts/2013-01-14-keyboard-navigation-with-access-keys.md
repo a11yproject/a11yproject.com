@@ -1,8 +1,7 @@
 ---
 layout: post
-title: |
-    How To Add Keyboard Navigation with Access Keys
-description: Access Keys are simple shortcuts that allow for quick keyboard navigation
+title: "How To Add Keyboard Navigation with Access Keys"
+description: "Access Keys are simple shortcuts that allow for quick keyboard navigation."
 published: false
 editor_comment: Not recommended
 # date:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How&ndash;to: Use TITLE attributes"
+title: "How-to: Use title attributes"
 description: "Short answer: Avoid using title attributes except in a few special circumstances."
 author: dave_rupert
 published: true

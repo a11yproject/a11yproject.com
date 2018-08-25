@@ -1,8 +1,7 @@
 ---
 layout: post
-title: |
-    A Primer To Visual Impairment
-description: Key facts, definitions, demographics, causes, challenges and future of visual impairment.
+title: "A Primer To Visual Impairment"
+description: "Key facts, definitions, demographics, causes, challenges and future of visual impairment."
 author: greg_tarnoff
 published: true
 categories:

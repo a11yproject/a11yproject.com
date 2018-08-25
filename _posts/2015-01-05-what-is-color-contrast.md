@@ -1,7 +1,7 @@
 ---
 layout: post
-title: What is Color Contrast?
-description: What is color contrast and why do we need it for web accessibility?
+title: "What is Color Contrast?"
+description: "What is color contrast and why do we need it for web accessibility?"
 author: rachel_vasquez
 published: true
 categories:

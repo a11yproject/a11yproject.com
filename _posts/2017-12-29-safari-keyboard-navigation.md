@@ -1,8 +1,7 @@
 ---
 layout: post
-title: |
-    Quick Tip: Safari Keyboard Navigation
-description: How to enable full keyboard support in Safari
+title: "Quick tip: Safari Keyboard Navigation"
+description: "How to enable full keyboard support in Safari."
 author: scott_vinkle
 date: 2017-12-29
 # last_updated:
@@ -23,7 +22,7 @@ In the macOS settings, allow **"All Controls"** to be keyboard accessible.  Enab
 
 <img width="780" alt="Screenshot of the macOS Settings window. The screenshot is highlighting the selection of the 'All controls' radio button." src="https://user-images.githubusercontent.com/1392632/34268380-79798d34-e64e-11e7-817c-d069ee0210e0.png">
 
-## Highlight each item in Safari 
+## Highlight each item in Safari
 
 In Safari settings, allow **"highlighting of each item"** in order to Tab to page controls.  Enable this feature by going to:
 

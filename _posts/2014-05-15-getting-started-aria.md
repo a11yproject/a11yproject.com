@@ -1,8 +1,7 @@
 ---
 layout: post
-title: |
-    Getting started with ARIA
-description: Introduction to ARIA, describing Roles, States, and Properties and when to use ARIA in HTML
+title: "Getting started with ARIA"
+description: "Introduction to ARIA, describing Roles, States, and Properties and when to use ARIA in HTML."
 published: true
 author: monika_piotrowicz
 categories:

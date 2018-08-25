@@ -1,8 +1,7 @@
 ---
 layout: post
-title: | 
-    How&ndash;to: Create accessible data tables.
-description: What you need to create an accessible data table.
+title: "How-to: Create accessible data tables."
+description: "What you need to create an accessible data table."
 published: true
 author: franklyn_roth
 categories:
@@ -47,8 +46,8 @@ Making an accessible table isn’t hard and can be broken down into two main thi
 2. Mark row and column headings using the 'scope' attribute
 
 ## Table Captions
-Table captions are added right after the opening `<table>` tag with `<caption>Your caption goes here</caption>`. 
-	
+Table captions are added right after the opening `<table>` tag with `<caption>Your caption goes here</caption>`.
+
 The screen reader will then say “Table with 3 rows and 4 columns, Monthly Budget” or something to that effect. Without this, the screen reader will just start reading off the values inside the table, which is going to be frustrating and not super useful. Imagine reading an entire table cell by cell and then piecing together what the table is trying to tell you.
 
 <p data-height="268" data-theme-id="0" data-slug-hash="zqOKvY" data-default-tab="result" data-user="franklynroth" class="codepen">See the Pen <a href="https://codepen.io/franklynroth/pen/zqOKvY/">Accessible Data Tables</a> by Franklyn (<a href="https://codepen.io/franklynroth">@franklynroth</a>) on <a href="https://codepen.io">CodePen</a>.</p>
@@ -60,7 +59,7 @@ For sighted users, row and column headings of tables are often highlighted visua
 
 Column headers should be marked using `scope="col"`. The `scope="col"` typically goes on the `<th>` element. If the `<th>` is a column like the <strong>"Amount Earned", "Amount Spent" and "Amount Saved"</strong> in my example, you would put them all as `scope="col"`. This lets the screen reader know that the `<th>`’s are column headers for that entire column. Column headers should be unique.
 
-Row headers should be marked up using `scope="row"`. The `scope="row"` is typically put on the first `<th>` in the row. In this case <strong>"January" and "February"</strong> would get them. For optimal usability, the row header selected should be sufficiently unique and readable to identify the row. 
+Row headers should be marked up using `scope="row"`. The `scope="row"` is typically put on the first `<th>` in the row. In this case <strong>"January" and "February"</strong> would get them. For optimal usability, the row header selected should be sufficiently unique and readable to identify the row.
 
 The screen reader will most likely be able to figure out what is a column header and row header, but assigning this makes it unambiguous to the screen reader on what is a row or column header and how to proceed.
 

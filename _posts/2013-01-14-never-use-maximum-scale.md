@@ -1,8 +1,7 @@
 ---
 layout: post
-title: |
-    Quick Tip: Never use maximum-scale=1.0
-description: Why you never ever should use maximum-scale=1.0 in your viewport meta tag.
+title: "Quick tip: Never use maximum-scale=1.0"
+description: "Why you never ever should use <code>maximum-scale=1.0</code> in your viewport meta tag."
 author: thomas_sjogren
 # date:
 # last_updated:
