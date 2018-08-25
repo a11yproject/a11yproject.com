@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quick tip: Aria Landmark Roles and HTML5 Implicit Mapping"
+title: "Quick tip: ARIA Landmark roles and HTML5 implicit mapping"
 description: "Use ARIA Landmark Roles to help assistive devices navigate the markup."
 author: erik_runyon
 date: 2013-01-14

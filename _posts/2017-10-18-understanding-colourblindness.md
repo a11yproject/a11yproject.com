@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding Colourblindness"
+title: "Understanding colourblindness"
 description: "What is colour blindness, and how can we design with it in mind?"
 author: matthew_higgins
 published: true

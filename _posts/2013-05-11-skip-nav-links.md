@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How-to: Use Skip Navigation links"
+title: "How-to: Use skip navigation links"
 description: "Use skip nav links to ease keyboard user fatigue and frustration."
 author: cameron_cundiff
 published: true

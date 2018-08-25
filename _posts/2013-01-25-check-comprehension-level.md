@@ -1,5 +1,5 @@
 ---
-title: "Quick test: Check Comprehension Level"
+title: "Quick test: Check comprehension level"
 description: "Using these tools you can check the reading level of your written content."
 author: greg_tarnoff
 layout: post

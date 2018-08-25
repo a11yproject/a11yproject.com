@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quick tip: Safari Keyboard Navigation"
+title: "Quick tip: Safari keyboard navigation"
 description: "How to enable full keyboard support in Safari."
 author: scott_vinkle
 date: 2017-12-29
