@@ -250,7 +250,7 @@ Use a single newline to separate block-level content like headings, lists, image
 
 ### Inline HTML
 
-Use HTML only when Markdown cannot accurately describe your content. Use relevant, semantic HTML elements and attributes. An example of this would be a video embed.
+Use HTML only when Markdown cannot accurately describe your content. Use relevant, semantic HTML elements and attributes. Examples of this would be a video embed or a definition list.
 
 
 ## Important terms
@@ -308,7 +308,7 @@ These terms are commonly used on the site, or in the accessibility community.
 - Cascading Style Sheets (CSS)
 - Document Object Model (DOM)
 - High Contrast Mode
-- Hypertext Markup Language (HTML)\
+- Hypertext Markup Language (HTML)
 - JavaScript (JS)
 - JavaScript Object Notation (JSON)
 - Landmark
