@@ -3,6 +3,7 @@ layout: post
 title: |
     Quick Tip: Don't auto-play video, music and more
 description: Why you shouldn't auto-play anything that could distract the user from their main task.
+author: emma_patricios
 categories:
   - Quick Tips
 ---

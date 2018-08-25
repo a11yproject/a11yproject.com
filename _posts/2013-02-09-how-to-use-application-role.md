@@ -3,6 +3,7 @@ layout: post
 title: |
     How&ndash;to: Use role='application'
 description: <strong>NEVER</strong> use <code>role=application</code> on a widely containing element such as <code>&lt;body&gt;</code> if your page consists mostly of traditional widgets or page elements.
+author: gray_ghost
 # date:
 # last_updated:
 published: true

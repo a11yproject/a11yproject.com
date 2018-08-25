@@ -3,6 +3,7 @@ layout: post
 title: |
     Quick Tip: Never use maximum-scale=1.0
 description: Why you never ever should use maximum-scale=1.0 in your viewport meta tag.
+author: thomas_sjogren
 # date:
 # last_updated:
 categories:
@@ -27,4 +28,4 @@ Avoiding `maximum-scale=1.0` allows your site to meet users' needs and provide a
 ## About the `user-scalable` attribute
 The `user-scalable` attribute can likewise cause problems for users who use the built-in zoom functionality of their web browser. The attribute is set as `user-scalable=yes` by default, which means that users are able to control the zoom setting on a webpage. Changing it to `user-scalable=no` would prevent desktop users' zoom settings from applying to a webpage and prevent mobile users from using pinch zoom.
 
-Avoid setting `user-scalable` to `no` to assure better accessibility of your site; either leave it as defaulted by not referencing the `user-scalable` attribute or set it to `yes`. 
+Avoid setting `user-scalable` to `no` to assure better accessibility of your site; either leave it as defaulted by not referencing the `user-scalable` attribute or set it to `yes`.

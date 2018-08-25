@@ -2,6 +2,7 @@
 title: |
   Quick Test: Check contrast with your mobile device
 description: Using an ordinary mobile device you can check your site's readability.
+author: dave_rupert
 layout: post
 categories:
     - Quick Tests
