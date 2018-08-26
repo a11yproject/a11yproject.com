@@ -1,8 +1,8 @@
 ---
 layout: post
-title: |
-    A Primer To Vestibular Disorders
-description: Key facts, definitions, demographics and causes of vestibular disorders.
+title: "A primer to Vestibular Disorders"
+description: "Key facts, definitions, demographics and causes of vestibular disorders."
+author: gray_ghost
 published: true
 categories:
   - Background

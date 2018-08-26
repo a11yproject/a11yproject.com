@@ -1,9 +1,8 @@
 ---
 layout: post
-title: |
-    MYTH: Screen readers don’t use JavaScript
-description: |
-    97.6% of all screen readers have JavaScript enabled.
+title: "Myth: Screen readers don't use JavaScript"
+description: "97.6% of all screen readers have JavaScript enabled."
+author: dave_rupert
 last_updated: 2014-09-26
 categories:
   - Myths

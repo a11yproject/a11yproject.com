@@ -1,8 +1,8 @@
 ---
 layout: post
-title: |
-    Quick Tip: Never remove CSS outlines
-description: Removing CSS outlines without proper fallbacks can make it impossible to navigate your site with a keyboard.
+title: "Quick tip: Never remove CSS outlines"
+description: "Removing CSS outlines without proper fallbacks can make it impossible to navigate your site with a keyboard."
+author: guilherme_simoes
 # date:
 # last_updated:
 categories:

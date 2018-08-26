@@ -1,9 +1,8 @@
 ---
 layout: post
-title: |
-    How-to: Hide Content
-description: |
-    How-to hide content but still make it accessible to screen readers.
+title: "How-to: Hide content"
+description: "How-to hide content but still make it accessible to screen readers."
+author: dave_rupert
 last_updated: 2013-02-15
 categories:
   - How-tos
@@ -15,19 +14,19 @@ There are real world situations where you might need to hide elements visually (
 
     .visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
         position: absolute !important;
-        height: 1px; width: 1px; 
+        height: 1px; width: 1px;
         overflow: hidden;
         clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
         clip: rect(1px, 1px, 1px, 1px);
     }
-    
+
 It is possible to apply the `.visually-hidden` class to content that contains natively focusable elements (such as `a`, `button`, `input`, etc). It's important to show these elements visually when they receive focus, otherwise a keyboard-only user might not know which element currently has focus. CSS for this might look something like:
 
     .visually-hidden a:focus,
     .visually-hidden input:focus,
-    .visually-hidden button:focus { 
-        position:static; 
-        width:auto; height:auto;  
+    .visually-hidden button:focus {
+        position:static;
+        width:auto; height:auto;
     }
 
 Consider adding these HTML classes and CSS rules to your base stylesheet and use them when applicable.
@@ -38,14 +37,14 @@ The `aria-hidden="true"` HTML attribute is the logical opposite of the `.visuall
 
 There may be cases where you want to use `aria-hidden` and also visually hide the content. This can be accomplished with some CSS like:
 
-    .my-component[aria-hidden="true"] { 
-        display: none; 
+    .my-component[aria-hidden="true"] {
+        display: none;
     }
-    
+
  Another way to hide content both visually and from assistive technology is the [HTML5 `hidden` attribute](https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute). To support older browsers like IE9, you might want to add the following css to your pages:
- 
+
      [hidden] { display: none; }
-     
+
 See the article *[HTML5 Hidden Attribute](https://davidwalsh.name/html5-hidden)* for more information on the `hidden` attribute.
-    
+
 

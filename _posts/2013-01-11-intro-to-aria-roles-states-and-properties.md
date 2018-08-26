@@ -1,8 +1,7 @@
 ---
 layout: post
-title: |
-    Introduction to ARIA: Roles, States, and Properties
-description: Overview of the key components in creating an accessible internet application or webpage.
+title: "Introduction to ARIA: Roles, States, and Properties"
+description: "Overview of the key components in creating an accessible internet application or webpage."
 # date:
 # last_updated:
 published: false
