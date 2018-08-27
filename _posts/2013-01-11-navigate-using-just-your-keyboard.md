@@ -1,8 +1,8 @@
 ---
 layout: post
-title: |
-    Quick Test: Navigate using just your keyboard
-description: A quick accessibility test that you can run on your sites right now.
+title: "Quick test: Navigate using just your keyboard"
+description: "A quick accessibility test that you can run on your sites right now."
+author: dave_rupert
 # date:
 # last_updated:
 categories:
