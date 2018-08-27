@@ -101,6 +101,8 @@ Copying an existing post, then updating its filename and front matter to match y
 
 Once you are satisfied with your article's content, [submit a Pull Request](#submitting-pull-requests) so it can be reviewed. Reviews will be conducted using [GitHub's review tools](https://github.com/features/code-review/). Project maintainers may request additional updates for clarification or technical accuracy.
 
+Be sure to also add yourself to [`authors.yml`](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/authors.yml) so you can get credit for your work!
+
 Once both the project maintainers and author are satisfied with the article, it will be merged by a project maintainer and published automatically.
 
 ### Events
