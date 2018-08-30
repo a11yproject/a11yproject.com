@@ -204,8 +204,8 @@ Use a single newline to separate block-level content like headings, lists, image
 ### Headings
 
 - Use ordered headings to provide a meaningful high-level outline of your content.
-- There should be only one first-level heading per page.
-- Use pound/hash signs (`#`), not underlines (`---` or `===`) to designate first-level headings.
+- There should be only one first-level heading per page. Blog posts don't need first level headings, as Jekyll will automatically convert the title section of your post's front matter into a first-level heading.
+- For non-blog post content, use pound/hash signs (`#`), not underlines (`---` or `===`) to designate first-level headings.
 - Use sentence case for headings (e.g. Quick Tip: Don't auto-play video, music and more).
 - Try to not use headings level 4 through 6. If your content is that detailed, it may need to be broken into separate articles.
 
