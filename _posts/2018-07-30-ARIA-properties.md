@@ -6,17 +6,29 @@ author: Alex Brenon
 categories: basics
 published: true
 ---
-# Aria Properties
-[ARIA defines multiple "properties"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. Unlike ARIA states, most properties are likely to stay static when a page is loaded instead of changing with user interaction. Properties are inserted into elements as follows: `<element aria-property="value"></element>` . Example: 
+[ARIA 1.1 defines multiple "properties"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. Unlike ARIA states, most properties are likely to stay static when a page is loaded instead of changing with user interaction. Properties are inserted into elements as follows: `<element aria-property="value"></element>` . Example: 
 ```html
-<button aria-haspopup="true"> Clicking on this button expands a menu. </button>
+<button aria-haspopup="true"> Options. </button>
 ```
+A screenreader will announce this button with 'Options, button menu' or something similar.
 
-There are 26 properties that can be used in ARIA. They fall into 3 categories as defined by W3. The categories are Widget Attributes - properties that give information about user input elements; Live region attributes - properties that are specific to regions that will update while the page is being viewed; Drag-and-Drop attributes - properties of drag-and-drop input elements; and Relationship attributes - properties that give information about elements' relationships to other elements.
+There are 26 properties that can be used in ARIA. They fall into 4 categories as defined by the W3C. The categories are:
+<dl>
+  <dt>Widget Attributes</dt>
+  <dd>Properties that give information about user input elements.</dd>
+  <dt>Live Region Attributes</dt>
+  <dd>Properties that are specific to regions that will update while the page is being viewed.</dd>
+  <dt>Drag-and-Drop Attributes</dt>
+  <dd>Properties of drag-and-drop input elements.</dd>
+  <dt>Relationship Attributes</dt>
+  <dd>Properties that give information about elements' relationships to other elements.</dd>
+</dl>
+
+Note: ARIA is constantly being updated by the W3C. [Read the latest working draft](https://w3c.github.io/aria/).
 
 The properties are given below, along with their category, brief description, and allowed value lists or type of input allowed.
 
-Property (links to WAI-ARIA specs) | Category | Description | Allowed Values (**default values bolded**)
+Property (links to WAI-ARIA 1.1 specs) | Category | Description | Allowed Values (**default values bolded**)
 ---|---|---|---
 [aria-autocomplete](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-autocomplete) | Widget attributes | Defines if and how autocomplete suggestions are shown | **none**, both, inline, list
 [aria-haspopup](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-haspopup) | Widget attributes | The element can trigger a popup context menu | **false**, true
