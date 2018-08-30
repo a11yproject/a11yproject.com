@@ -6,17 +6,25 @@ author: Alex Brenon
 categories: basics
 published: true
 ---
-# Aria States
-[ARIA defines multiple "states"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. States are likely to change as the user interacts with the page. States are inserted into elements as follows: `<element aria-state="value"></element>` . Example: 
+[ARIA 1.1 defines multiple "states"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. States are likely to change as the user interacts with the page. States are inserted into elements as follows: `<element aria-state="value"></element>` . Example: 
 ```html
 <span aria-busy="true">This element is currently being updated. </span> 
 ```
-There are 9 states that can be used in ARIA. They fall into 3 categories as defined by W3. The categories are Widget Attributes - states that give information about user input elements; Live region attributes - states that are specific to regions that will update while the page is being viewed; and Drag-and-Drop attributes - states of drag-and-drop input elements.
+There are 9 states that can be used in ARIA. They fall into 3 categories as defined by the W3C. The categories are:
+<dl>
+  <dt>Widget Attributes</dt>
+  <dd>States that give information about user input elements.</dd>
+  <dt>Live Region Attributes</dt>
+  <dd>States that are specific to regions that will update while the page is being viewed.</dd>
+  <dt>Drag-and-Drop Attributes</dt>
+  <dd>States of drag-and-drop input elements.</dd>
+</dl>
+
+Note: ARIA is constantly being updated by the W3C. [Read the latest working draft](https://w3c.github.io/aria/).
 
 The states are given below, along with their category, brief description, and allowed value lists. Many states allow for either true or false, and when "undefined" is chosen it means the state is not applicable to the current element. 
 
-
-State (links to WAI-ARIA specs) | Category | Description | Allowed Values (**default values bolded**)
+State (links to WAI-ARIA 1.1 specs) | Category | Description | Allowed Values (**default values bolded**)
 ---|---|---|---
 [aria-checked](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-checked) | Widget attributes | The input item is checked |**undefined**, false, mixed, true
 [aria-disabled](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-disabled) | Widget attributes | The element is visible but not interactive | **false**, true
