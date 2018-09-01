@@ -46,7 +46,7 @@ A consistent writing style will help site content feel unified and aid with comp
 
 ### Themes
 
-- **Short:** Attention spans are short online. Aim for brief, succinct article lengths.
+- **Short:** Attention spans are limited. Aim for brief, succinct article lengths.
 - **Focused:** Keep it digestible and to a single topic. Articles that span multiple areas and topics should be broken up.
 - **Accessible:** Use plain language and avoid jargon if possible. Explain complicated concepts by breaking them down.
 
@@ -84,21 +84,21 @@ Try not to exceed a seventh grade reading level. Avoid unnecessary jargon and ex
 - Avoid rhetorical questions.
 - Avoid trailing thoughts/ellipses.
 - Avoid comma splices, em dash phrases, and semicolons. Using them increases the cognitive load when parsing the sentence.
-- Use parenthetical phrases with discretion.
+- Use parentheses with care.
 
 ### Styling
 
-- Use bold and italic text styling sparingly. Long sections of text set with these text styles have been known to be a Dyslexia trigger.
-- Do not underline text. Underlined text is reserved for links.
+- Use bold and italic text styling sparingly, and when semantically appropriate. Long sections of text set with these text styles have been known to be a Dyslexia trigger.
+- Do not underline text. Underlined text should be reserved for links.
 
 ### Capitalization
 
-- Avoid writing in all caps. Some assistive technology may read out each letter individually in sequence if it is authored using all capital letters. Large sections of text set in all caps has also been known to be a Dyslexia trigger, as well as being difficult to parse for people who are learning English or who have cognitive concerns.
+- Avoid writing in all caps. Some assistive technologies will announce all cap words as individual letters. 
 - Capitalize words in a hashtag (e.g. #ThisReadsWell).
 
 ### Concepts and terminology
 
-If possible, link to supporting articles when discussing new concepts and terminology. Please use high-quality sources, preferably sites with good accessibility support. This provides the reader with more detail on the subject without having to extend your article's length. It is also provides an alternate way of understanding the subject you introduce.
+If possible, link to supporting articles when discussing new concepts and terminology, preferably sites with good accessibility support. This provides the reader with more detail on the subject without having to extend your article's length. It is also provides an alternate way of understanding the subject you introduce.
 
 Avoid analogies, similes, and metaphors that are too reliant on demographic, geography, religion, or culture.
 
@@ -132,13 +132,13 @@ If you make a statement about how a population behaves, please also make sure to
 
 ### Gender
 
-Use "they" when discussing an individual unless they have made their preferred gender known.
+Use "they" when discussing a person unless they have made their preferred gender known.
 
 ### Ableist language
 
 Avoid using ableist language, unless quoting in context. Ableist language uses words or phrases that have a negative connotation for people with disabilities.
 
-Don't describe an individual as having a disability unless it is relevant to the point you are trying to make. When discussing an individual, use the term they choose to self-identify with.
+Don't describe a person as having a disability unless it is relevant to the point you are trying to make. When discussing an individual, use the term they choose to self-identify with.
 
 #### Further reading
 
@@ -231,7 +231,7 @@ Use a single newline to separate block-level content like headings, lists, image
 ### Images
 
 - Use Markdown-style images (`![alternate description](image url)`) instead of HTML.
-- Provide meaningful alternative (alt) descriptions for images. Alt descriptions should concisely describe the image's content.
+- Provide [meaningful alternative (alt) descriptions for images](https://a11yproject.com/posts/alt-text/). Alt descriptions should concisely describe the image's content.
 - Use complete sentences for your alt descriptions (e.g. `![A happy-looking Labrador Retriever puppy sitting in a clay flower pot.](image url)`). Including punctuation in your alt description will help some assistive technology pronounce it clearly.
 - Do not use ambiguous terms like "image", "ScreenCapture at Wed Aug 22", "post image", etc.
 - Do not use height and width attributes.
@@ -245,12 +245,16 @@ Use a single newline to separate block-level content like headings, lists, image
 ### Horizontal rules
 
 - Use three hyphens (`---`) to create a horizontal rule.
-- Use horizontal rules to denote thematic breaks in content
+- Use horizontal rules for breaks in paragraph content
 - Do not use horizontal rules for decoration.
 
 ### Inline HTML
 
-Use HTML only when Markdown cannot accurately describe your content. Use relevant, semantic HTML elements and attributes. Examples of this would be a video embed or a definition list.
+Use HTML only when Markdown cannot accurately describe your content. Use [relevant, semantic HTML elements](https://alistapart.com/article/conversational-semantics) and attributes. Examples of this would be: 
+
+- A video embed.
+- A definition list.
+- Elements like `<kbd>` and `<samp>`, which do not have Markdown equivalents.
 
 
 ## Important terms

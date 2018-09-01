@@ -30,7 +30,7 @@ Want to help? Here's how. Please be sure to check our [Content Style Guide](http
 Following is information about how the site operates. Instructions on how to get the site running locally on your computer can be found in the [`README`](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/README.md).
 
 ### Git and GitHub
-The A11Y Project is an [Open Source](https://en.m.wikipedia.org/wiki/Open-source_software) project. It uses [Git](https://git-scm.com/) and [GitHub](http://github.com/) to handle publishing new content and features, as well as coordinating maintenance.
+The A11Y Project is an [Open Source](https://en.m.wikipedia.org/wiki/Open-source_software) project. It uses [Git](https://git-scm.com/) and [GitHub](https://github.com/) to handle publishing new content and features, as well as coordinating maintenance.
 
 People working on more sophisticated aspects of the site (new features, bug fixes, etc.) are expected to have at least some familiarity with version control, GitHub's key functionality, and [using feature branches to work locally](#set-up-locally).
 
@@ -45,7 +45,7 @@ Any changes you save will cause the local version of the site to recompile. You 
 
 `gh-pages` is the [production branch](https://www.atlassian.com/git/tutorials/using-branches). This is the live website.
 
-If you have a feature request, we suggest first [filing an Issue](#reporting-issues) to discuss it. Once that feature has been approved you can start coding! Create a new [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) from `gh-pages`, and name it something that references the feature you'll be working on. For example a feature to increase the site's type size could be: `increase-font-size`.
+If you have a feature request, we suggest first [filing an Issue](https://github.com/a11yproject/a11yproject.com/issues/new) to discuss it (please read [how to report an issue first](#reporting-issues)). Once that feature has been approved you can start coding! Create a new [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) from `gh-pages`, and name it something that references the feature you'll be working on. For example a feature to increase the site's type size could be: `increase-font-size`.
 
 A list of [all active branches are available here](https://github.com/a11yproject/a11yproject.com/branches).
 
