@@ -13,7 +13,7 @@ Our goal is to accomplish this with 3 tenets in mind:
 Everything you need to know about contributing to this project can be found in our [Contributor Docs](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md).
 
 ## Requirements
-In order to contribute to the website&rsquo;s codebase, you&rsquo;ll need to know a bit about [Jekyll](https://github.com/jekyll/jekyll) [Sass](http://sass-lang.com), [Markdown](http://daringfireball.net/projects/markdown/), and some Command Line-fu. You'll also need to know how to install *[Ruby Gems](https://rvm.io)* and of course have *[Ruby](http://www.ruby-lang.org/en/downloads/)* installed on your machine.
+In order to contribute to the website&rsquo;s codebase, you&rsquo;ll need to know a bit about [Jekyll](https://github.com/jekyll/jekyll), [Sass](http://sass-lang.com), [Markdown](http://daringfireball.net/projects/markdown/), and some Command Line-fu. You'll also need to know how to install *[Ruby Gems](https://rvm.io)* and of course have *[Ruby](http://www.ruby-lang.org/en/downloads/)* installed on your machine.
 
 ### Gem Installation
 Use the ``bundle`` command to install the necessary gems for the **A11Y Project**. If you don't have [bundler](http://gembundler.com) installed you'll need to run ``gem install bundler`` before using ``bundle``.
