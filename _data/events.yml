@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "a11ybos 2018"
+      description: "The Boston event is a combination of “unconference” and “conference”. While we schedule some sessions in advance, we also make slots available for people who want to present a session or moderate a discussion."
+      url: "http://a11y-bos.org/"
+      type: "Regional"
+      date: 2018-10-27
+      address: "Fidelity Investments Corporate Headquarters, 245 Summer Street, Boston, MA 02110"
+      map: "https://goo.gl/maps/U7wg2MZ15rP2"
+      hashtag: "a11yBos"
     - title: "Intro to Talkback and Android Accessibility"
       description: "Our Mobile Developer and A11y Expert, Chris McMeeking, will walk you through how to navigate and test for accessibility with Talkback."
       url: "https://accessibility.deque.com/intro-to-talkback-and-native-android-accessibility"
