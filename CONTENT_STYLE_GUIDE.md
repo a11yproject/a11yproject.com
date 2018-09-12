@@ -309,17 +309,17 @@ Honor how someone or something choses to officially spell their name.
 
 These terms are commonly used on the site, or in the accessibility community.
 
-- Cascading Style Sheets (CSS)
-- Document Object Model (DOM)
-- High Contrast Mode
-- Hypertext Markup Language (HTML)
-- JavaScript (JS)
-- JavaScript Object Notation (JSON)
-- Landmark
-- Meetup
-- Scalable Vector Graphics (SVG)
-- Web Accessibility Initiative Accessible Rich Internet Applications (WAI-ARIA/ARIA)
-- World Wide Web Consortium (W3C)
-- Web Content Accessibility Guidelines (WCAG)
-- Webinar
-- YAML (YAML Ain't Markup Language)
+- [Cascading Style Sheets](https://www.w3.org/Style/CSS/Overview.en.html) (CSS)
+- [Document Object Model](https://www.w3.org/DOM/) (DOM)
+- [High Contrast Mode](https://support.microsoft.com/en-us/help/13862/windows-use-high-contrast-mode)
+- [Hypertext Markup Language](https://www.w3.org/html/) (HTML)
+- [JavaScript](https://www.w3.org/standards/techs/js) (JS)
+- [JavaScript Object Notation](https://www.json.org/) (JSON)
+- [Landmark](https://www.w3.org/WAI/PF/aria/roles#landmark_roles)
+- [Meetup](https://www.meetup.com/)
+- [Scalable Vector Graphics](https://www.w3.org/Graphics/SVG/) (SVG)
+- [Web Accessibility Initiative Accessible Rich Internet Applications](https://www.w3.org/WAI/standards-guidelines/aria/) (WAI-ARIA/ARIA)
+- [World Wide Web Consortium](https://www.w3.org/) (W3C)
+- [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG)
+- [Webinar](https://en.m.wikipedia.org/wiki/Web_conferencing)
+- [YAML](http://yaml.org/) (YAML Ain't Markup Language)
