@@ -3,7 +3,7 @@ layout: post
 title: ARIA States
 description: A quick introduction to ARIA's state system.
 author: Alex Brenon
-categories: basics
+categories: background
 published: true
 ---
 [ARIA 1.1 defines multiple "states"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. States are likely to change as the user interacts with the page. States are inserted into elements as follows: `<element aria-state="value"></element>` . Example: 
