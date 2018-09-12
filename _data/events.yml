@@ -9,6 +9,11 @@
       address: "Fidelity Investments Corporate Headquarters, 245 Summer Street, Boston, MA 02110"
       map: "https://goo.gl/maps/U7wg2MZ15rP2"
       hashtag: "a11yBos"
+    - title: "What you need to know about WCAG 2.1"
+      description: "In this 30-minute webinar, Léonie Watson from The Paciello Group will look at the business case for adopting the Web Content Accessibility Guidelines (WCAG) 2.1."
+      url: "https://zoom.us/webinar/register/4615355480419/WN__Ajriw-dQt65h4__cTZZ5A"
+      type: "Webinar"
+      date: 2018-10-26
     - title: "Intro to Talkback and Android Accessibility"
       description: "Our Mobile Developer and A11y Expert, Chris McMeeking, will walk you through how to navigate and test for accessibility with Talkback."
       url: "https://accessibility.deque.com/intro-to-talkback-and-native-android-accessibility"
