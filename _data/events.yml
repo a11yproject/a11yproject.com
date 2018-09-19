@@ -14,12 +14,17 @@
       url: "https://zoom.us/webinar/register/4615355480419/WN__Ajriw-dQt65h4__cTZZ5A"
       type: "Webinar"
       date: 2018-10-26
+    - title: "A11Y Talks (September 2018) - Love Thy Keyboard"
+      description: "Sarbbottam is a frontend engineer, working in the web space for more than 14 years, currently at LinkedIn. He had been part of LinkedIn's core accessibility team, focusing primarily on web accessibility. He has been involved with web accessibility since his Yahoo days. Keyboard accessibility is extremely critical, as many assistive devices emulate the keyboard. Using semantic HTML one can achieve accessible UI with less code than non-semantic markup. Along with Semantic HTML, by managing and guiding focus, developing an accessible UI is not difficult, rather easy. Semantic HTML plays an important role in Accessibility as well as SEO. Though we are aware of it, it's often overlooked. This presentation will share the trade-offs of using semantic vs non-semantic markup with an everyday example and how to manage and guide focus. It's a brief presentation emphasizing the various aspect of keyboard accessibility. Last but not the least a brief introduction to WAI-ARIA..<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#A11yTalks</a> on Twitter! Use the following link to join the event: <a href='http://bit.ly/A11yTalksSept2018'>http://bit.ly/A11yTalksSept2018</a> Please note the link will not be activated until the day/time of the event."
+      url: "https://groups.drupal.org/node/534258"
+      type: "Webinar"
+      date: 2018-09-25
+      hashtag: "A11yTalks"      
     - title: "Intro to Talkback and Android Accessibility"
       description: "Our Mobile Developer and A11y Expert, Chris McMeeking, will walk you through how to navigate and test for accessibility with Talkback."
       url: "https://accessibility.deque.com/intro-to-talkback-and-native-android-accessibility"
       type: "Webinar"
       date: 2018-09-18
-      hashtag: "A11yTalks"
     - title: "Accessibility Scotland"
       description: "One day of talks. Friendly, open discussion about accessibility. An opportunity to network and learn. Accessibility Scotland’s focus is on providing a friendly and informative day focused on digital accessibility and inclusion. We run a single-track event, so you don’t have to choose between sessions. And we try for a mix of speakers – new and familiar, on a range of topics all related to accessibility and diversity, inclusive design and development. Our aim is always to ensure that you leave with new ideas, new knowledge, new friends and contacts, and enthusiasm for doing your bit for inclusion. If you're interested in attending or speaking, get in touch <a href='https://accessibility.scot/'>via our website</a>."
       url: "https://accessibility.scot/"
