@@ -8,13 +8,13 @@ categories:
   - Background
 ---
 
-Colorblindness is a common genetic condition in which some peoples' eyes can't tell the difference between certain colors. That's not to say they see everything in greyscale-- just that many colors seem identical to one another. Total color blindness is very rare in humans.
+Colorblindness is a common genetic condition in which some peoples' eyes can't tell the difference between certain colors. That's not to say they see everything in greyscale— just that many colors seem identical to one another. Total color blindness is very rare in humans.
 
 Color vision deficiencies (typically grouped together as "color blindness") are not rare. Some form of color blindness affects at least one in twenty people. [Wikipedia has a helpful table](https://en.wikipedia.org/wiki/Color_blindness#Epidemiology), based on [a journal article](https://apfmj.biomedcentral.com/articles/10.1186/s12930-014-0010-3). There are [several different forms](http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/). The most common, red-green color blindness, affects around one in twelve men.
 
 Color blindness is less profound than many impairments, but people with color vision problems often face restrictions on certain activities. This varies around the world. For example, Romania prohibits residents who are color blind from driving. The USA doesn't consider color blindness a disability because of workplace discrimination purposes.
 
-Though there are multiple types of color blindness, they are the same in principle. For more information, check out [Wikipedia's article on colour blindness](https://en.wikipedia.org/wiki/Color_blindness), which has some excellent descriptions.
+Though there are multiple types of color blindness, they are the same in principle. For more information, check out [Wikipedia's article on color blindness](https://en.wikipedia.org/wiki/Color_blindness), which has some excellent descriptions.
 
 ## What does this mean for accessibility on the web?
 
