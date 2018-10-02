@@ -1,11 +1,11 @@
 ---
 layout: post
-title: |
-    A Primer To Vestibular Disorders
-description: Key facts, definitions, demographics and causes of vestibular disorders.
+title: "A primer to Vestibular Disorders"
+description: "Key facts, definitions, demographics and causes of vestibular disorders."
+author: gray_ghost
 published: true
 categories:
-  - Basics
+  - Background
 ---
 >**Vestibular system** — n
 >The sensory mechanism in the inner ear that detects movement of the head and helps to control balance.
@@ -22,11 +22,11 @@ Sometimes the sensation lasts only a short while, but others can suffer it for y
 
 ## Who is at risk?
 
-The cause may be from illness, injury, or from a genetic anomaly but anyone can suffer from a vestibular disorder. According to [vestibular.org](http://vestibular.org/understanding-vestibular-disorder), a resource for people with vestibular disorders, as many as 35% of adults aged 40 years or older in the United States have experienced some form of vestibular dysfunction.
+The cause may be from illness, injury, or from a genetic anomaly but anyone can suffer from a vestibular disorder. According to [vestibular.org](https://vestibular.org/understanding-vestibular-disorder), a resource for people with vestibular disorders, as many as 35% of adults aged 40 years or older in the United States have experienced some form of vestibular dysfunction.
 
 ## What should you consider?
 
 Don't make animations, sliders, or rapid movement start automatically. Give an indicator of what movement will happen on the site when a user takes action. Allow the user the option to turn off any animation and movement.
 
 ## Additional Reading
-- [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity)
+- [Designing Safer Web Animation For Motion Sensitivity](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) - by Val Head _September 8th, 2015_

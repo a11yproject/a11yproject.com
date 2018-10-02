@@ -1,8 +1,8 @@
 ---
 layout: post
-title: |
-    How&ndash;to: Use role='application'
-description: <strong>NEVER</strong> use <code>role=application</code> on a widely containing element such as <code>&lt;body&gt;</code> if your page consists mostly of traditional widgets or page elements.
+title: "How-to: Use <code>role='application'</code>"
+description: "<strong>Never</strong> use <code>role=application</code> on a widely containing element such as <code>&lt;body&gt;</code> if your page consists mostly of traditional widgets or page elements."
+author: gray_ghost
 # date:
 # last_updated:
 published: true
@@ -29,7 +29,7 @@ Unless you take a great deal of care in ensuring that you&rsquo;ve recreated a l
 
 **References**:
 
-1. [http://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely](http://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely)
+1. [https://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely](https://www.marcozehe.de/2012/02/06/if-you-use-the-wai-aria-role-application-please-do-so-wisely)
 2. [https://www.w3.org/TR/aria-in-html/#using-aria-role-application](https://www.w3.org/TR/aria-in-html/#using-aria-role-application)
 3. [http://www.accessibleculture.org/articles/2012/09/aria-widgets-and-focus-forms-mode-support](http://www.accessibleculture.org/articles/2012/09/aria-widgets-and-focus-forms-mode-support)
 

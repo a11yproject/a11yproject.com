@@ -69,6 +69,7 @@ $(document).ready(function(){
         } else {
           offset = '20%'; // this offset feels right for short TOC lists
         }
+
         // add waypoints and waypoint classes
         setupWaypoints(element, offset);
 
@@ -105,7 +106,6 @@ $(document).ready(function(){
 
           // add the accordion / waypoints semantics
           tocPageSemantics();
-
 
           if($('.post-content').length) {
             var tocWrapElem = $('.post-content');
@@ -421,8 +421,47 @@ $(document).ready(function(){
                   .parents("li").addClass(activeClass);
               }
         });
-      } // activeNav
+      }, // activeNav
 
+      pastEvents : function(){
+        /* Make the current time Jekyll friendly */
+        var now = Date.now() / 1000;
+
+        function findPastEvents() {
+          /* Snag everything with a `data-date` attribute, puts it into a node list */
+          var events = [].slice.call(document.querySelectorAll('[data-date]'));
+          /* Loops through event array, returns past that occured after current date */
+          var eventTimes = events.filter(function (el) {
+            return el.dataset.date < now - 86400; // `86400` is 24 hours in Unix time (60 * 60 * 24)
+          })
+          return eventTimes;
+      }
+
+      // Reverses past event list so oldest is placed last
+      var pastEventList = findPastEvents();
+      pastEventList = pastEventList.reverse();
+
+      // Moves an event list to the targeted container
+      function moveEventsList(container, arr) {
+        arr.map(function (el) {
+          container.appendChild(el);
+        })
+      }
+      moveEventsList(document.querySelector('#past-events'), pastEventList);
+
+      // Reveal ToC and past events once filled
+      function unhide(el) {
+        if (el) {
+          el.removeAttribute("hidden");
+        }
+      }
+      unhide(document.querySelector('#past-events'));
+      unhide(document.querySelector('#toc-events'));
+
+      if (document.querySelector('#event-list')) {
+        document.querySelector('#event-list').textContent = "Upcoming";
+      }
+    } // pastEvents
     } // ui
 
   } // Engine
@@ -431,5 +470,6 @@ $(document).ready(function(){
   Engine.ui.lazyLoadFooter("footer[role='contentinfo']",800);
   Engine.ui.footerCopyright();
   Engine.ui.activeNav("#main-navigation","active");
+  Engine.ui.pastEvents();
 
 });

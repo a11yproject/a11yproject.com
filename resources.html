@@ -5,8 +5,8 @@ description: Accessibility software, books, blogs, online tools, and more
 permalink: resources.html
 ---
 
-<section class="toc-wrap toc-long">
-    <h3 class="toc-title">Categories</h3>
+<nav class="toc-wrap toc-long" aria-labelledby="toc_title">
+    <h2 id="toc_title" class="toc-title">Categories</h2>
     <ul class="toc">
         {% for category in site.data.resources %}
         <li>
@@ -16,13 +16,13 @@ permalink: resources.html
         </li>
         {% endfor %}
     </ul>
-</section>
+</nav>
 
 {% for category in site.data.resources %}
 <section id="{{category.section-id}}" class="article-section resources-section" tabindex="-1">
     <h3 class="article-section__title">{{ category.resource-category }}</h3>
     <ul class="article-section__content">
-    {% assign sorted_resources = (category.resources | sort: 'title') %}
+    {% assign sorted_resources = category.resources | sort: 'title' %}
     {% for resource in sorted_resources %}
       <li>
         <a href="{{ resource.url }}" rel="external">

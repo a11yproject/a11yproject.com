@@ -2,8 +2,8 @@
 layout: archives
 description: A community-driven effort to make web accessibility easier.
 ---
-<section class="toc-wrap">
-  <h3 class="toc-title">Categories</h3>
+<nav class="toc-wrap toc-long" aria-labelledby="toc_title">
+  <h2 id="toc_title" class="toc-title">Categories</h2>
   <ul class="toc">
     {% for category in site.categories %}
       {% assign title = category.first %}
@@ -12,14 +12,14 @@ description: A community-driven effort to make web accessibility easier.
 
     {% endfor %}
   </ul>
-</section>
+</nav>
 
 {% for category in site.categories %}
 
   {% assign title = category.first %}
   {% assign posts = category.last %}
 
-  <section id="{{ title | capitalize | replace:' ','-' }}" class="article-section archive-section" tabindex="-1">
+  <section id="{{ title | capitalize | replace:' ','-' }}" class="article-section" tabindex="-1">
     <h2 class="article-section__title">{{ title | capitalize }}</h2>
     <ul class="article-section__content excerpt-list">
     {% for post in posts %}

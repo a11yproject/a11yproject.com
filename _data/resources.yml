@@ -10,6 +10,9 @@
     - url: http://colororacle.org/
       title: "Color Oracle"
       description: "App (Mac/Win/Linux)"
+    - url: https://usecontrast.com/
+      title: "Contrast"
+      description: "Desktop App (Mac)"
     - url: https://www.paciellogroup.com/resources/contrastanalyser/
       title: "WCAG 2.0 Colour Contrast Analyser (CCA)"
       description: "By The Paciello Group, Desktop App (Mac/Win)"
@@ -35,47 +38,50 @@
     - url: http://www.chromevox.com/
       title: "Chrome Vox"
       description: "Chrome Extension (Mac/Win/ChromeOS)"
-    - url: http://www.freedomscientific.com/products/fs/jaws-product-page.asp
+    - url: https://www.freedomscientific.com/products/fs/jaws-product-page.asp
       title: "JAWS"
-      description: "Desktop App (Win only)"
-    - url: http://www.nvda-project.org/
+      description: "Desktop App (Windows only)"
+    - url: https://www.nvaccess.org/
       title: "NVDA"
-      description: "Desktop App (Win only)"
+      description: "Desktop App (Windows only)"
     - url: https://wiki.gnome.org/Projects/Orca
       title: "Orca Screen Reader"
       description: "By GNOME, Extensible screen reader (Linux only)"
-    - url: http://www.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/
+    - url: https://developer.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/
       title: "Basic screen reader commands for accessibility testing"
       description: "By The Paciello Group"
-    - url: http://www.apple.com/accessibility/iphone/vision.html
+    - url: https://www.apple.com/accessibility/iphone/vision/
       title: "VoiceOver"
-      description: "By Apple, iPhone App (iOS)"
-    - url: http://www.apple.com/accessibility/voiceover/
+      description: "By Apple, iPhone System App (iOS)"
+    - url: https://www.apple.com/accessibility/mac/vision/
       title: "VoiceOver"
-      description: "By Apple, Desktop App (Mac)"
+      description: "By Apple, Desktop System App (Mac)"
+    - url: https://support.google.com/accessibility/android/answer/6283677?hl=en
+      title: "TalkBack"
+      description: "By Google, Android App"
 
 - resource-category: HTML Related
   section-id: html-related
   resources:
-    - url: http://paypal.github.io/bootstrap-accessibility-plugin/
+    - url: https://paypal.github.io/bootstrap-accessibility-plugin/
       title: "Bootstrap accessibility plugin"
       description: "By PayPal"
-    - url: http://stevefaulkner.github.io/HTML5accessibility/
+    - url: http://www.html5accessibility.com/
       title: "HTML5 Accessibility"
       description: "By Steve Faulkner"
-    - url: http://dylanb.github.io/periodic-aria-roles.html
+    - url: https://dylanb.github.io/periodic-aria-roles.html
       title: "Periodic Table of ARIA roles"
       description: "By dylanb"
     - url: https://www.w3.org/TR/wai-aria-practices/
-      title: "Recommended ARIA usage by feature"
+      title: "WAI-ARIA Authoring Practices"
       description: "By W3C"
-    - url: http://rawgithub.com/w3c/aria-in-html/master/index.html
-      title: "Using ARIA with HTML"
+    - url: https://w3c.github.io/using-aria/
+      title: "Using ARIA"
       description: "By W3C"
-    - url: http://www.w3.org/TR/wai-aria/
+    - url: https://www.w3.org/TR/wai-aria/
       title: "WAI-ARIA Specification"
       description: "By W3C"
-    - url: http://www.w3.org/WAI/tutorials/
+    - url: https://www.w3.org/WAI/tutorials/
       title: "Web Accessibility Tutorials"
       description: "By W3C"
     - url: https://frend.co/
@@ -91,23 +97,26 @@
     - url: https://egghead.io/courses/start-building-accessible-web-applications-today
       title: "Start Building Accessible Web Applications Today"
       description: "By egghead.io"
+    - url: https://github.com/mgifford/a11y-courses
+      title: "Accessibility courses, and more"
+      description: "List curated by Mike Gifford"
 
 - resource-category: Books
   section-id: books
   resources:
-    - url: http://www.amazon.com/Adaptive-Web-Design-Experiences-Progressive/dp/098358950X
+    - url: https://www.amazon.com/Adaptive-Web-Design-Experiences-Progressive/dp/098358950X
       title: "Adaptive Web Design"
       description: "by Aaron Gustafson"
-    - url: http://www.amazon.com/Designing-Progressive-Enhancement-Building-Everyone/dp/0321658884/
+    - url: https://www.amazon.com/Designing-Progressive-Enhancement-Building-Everyone/dp/0321658884/
       title: "Designing with Progressive Enhancement"
       description: "by The Filament Group"
-    - url: http://www.amazon.com/Designing-Web-Standards-Jeffrey-Zeldman/dp/0321616952
+    - url: https://www.amazon.com/Designing-Web-Standards-Jeffrey-Zeldman/dp/0321616952
       title: "Designing with Web Standards"
       description: "by Jeffrey Zeldman"
-    - url: http://www.amazon.com/Pro-HTML5-Accessibility-Professional-Apress/dp/1430241942
+    - url: https://www.amazon.com/Pro-HTML5-Accessibility-Professional-Apress/dp/1430241942
       title: "Pro HTML5 Accessibility"
       description: "by Joshue O Connor"
-    - url: http://www.amazon.com/Web-Accessibility-Standards-Regulatory-Compliance/dp/1590596382
+    - url: https://www.amazon.com/Web-Accessibility-Standards-Regulatory-Compliance/dp/1590596382
       title: "Web Accessibility: Web Standards and Regulatory Compliance"
       description: "by Jim Thatcher"
     - url: https://rosenfeldmedia.com/books/a-web-for-everyone/
@@ -119,6 +128,18 @@
     - url: https://shop.smashingmagazine.com/products/inclusive-design-patterns
       title: "Inclusive Design Patterns"
       description: "by Heydon Pickering"
+    - url: https://abookapart.com/products/accessibility-for-everyone
+      title: "Accessibility for Everyone"
+      description: "by Laura Kalbag"
+    - url: https://abookapart.com/products/color-accessibility-workflows
+      title: "Color Accessibility Workflows"
+      description: "by Geri Coady"
+    - url: https://abookapart.com/products/design-for-real-life
+      title: "Designing for Real Life"
+      description: "by Sara Wachter-Boettcher and Eric Meyer"
+    - url: https://hubs.ly/H0cSQZk0
+      title: "Web and App Accessibility: Your Roadmap to Digital Inclusion"
+      description: "by Jason C. Taylor"
 
 - resource-category: Blogs
   section-id: blogs
@@ -126,19 +147,16 @@
     - url: http://www.456bereastreet.com/
       title: "456 Berea Street"
       #description: ""
-    - url: http://www.a11ybuzz.com/
-      title: "A11y Buzz"
-      #description: ""
     - url: http://www.accessibleculture.org/
       title: "Accessible Culture"
       #description: ""
-    - url: http://a11ywins.tumblr.com/
+    - url: https://a11ywins.tumblr.com/
       title: "Accessibility Wins"
       #description: ""
-    - url: http://www.paciellogroup.com/
+    - url: https://developer.paciellogroup.com/blog/
       title: "The Paciello Group Blog"
       #description: ""
-    - url: http://webaim.org/blog/
+    - url: https://webaim.org/blog/
       title: "WebAIM Blog"
       #description: ""
     - url: http://www.webaxe.org/
@@ -152,16 +170,20 @@
     - url: http://dboudreau.tumblr.com/
       title: "a11yTips Blog"
       description: "By Denis Boudreau"
-    - url: http://inclusive-components.club/
+    - url: https://inclusive-components.design/
       title: "Inclusive Components"
+    - url: https://simplyaccessible.com/articles/
+      title: "Simply Accessible Articles"
+    - url: https://dev.to/t/a11y
+      title: "#a11y tag on The Practical Dev"
 
 - resource-category: Further Reading
   section-id: further-reading
   resources:
-    - url: http://vimeo.com/1157346
+    - url: https://vimeo.com/1157346
       title: "Aaron Cannon, Blind Web Developer"
       description: "(2007) [Video]"
-    - url: http://bitsofco.de/2015/the-accessibility-cheatsheet/
+    - url: https://bitsofco.de/the-accessibility-cheatsheet/
       title: "The Accessibility Cheatsheet"
       description: "By bitsofco.de (2015)"
     - url: http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/
@@ -170,27 +192,27 @@
     - url: http://cameronmoll.com/downloads/Web_Accessibility_Checklist.pdf
       title: "Accessibility Checklist [PDF]"
       description: "By Aaron Cannon (2008)"
-    - url: http://www.apple.com/accessibility
+    - url: https://www.apple.com/accessibility/
       title: "Apple’s Commitment to Accessibility"
     - url: https://mobiforge.com/design-development/why-mobile-web-accessibility-matters-best-practices-make-your-mobile-site-accessi
       title: "Best practices to make your mobile site accessible"
       description: "By mobiforge.com (2012)"
-    - url: http://diveintoaccessibility.info/table_of_contents.html
-      title: "30 days to a more accessible web site"
-      description: "By Dive Into Accessibility (2002)"
     - url: https://www.google.com/accessibility/
       title: "Google Accessibility"
       description: "Resources to help everyone access and enjoy the web."
-    - url: http://heydonworks.com/practical_aria_examples/
+    - url: https://heydonworks.com/practical_aria_examples/
       title: "Practical ARIA Examples"
       description: "By heydonworks.com (2014)"
-    - url: http://a11y.nicolas-hoffmann.net/
-      title: "jQuery simple and accessible hide-show system (collapsible regions), using ARIA"
-      description: "By Nicolas Hoffmann (2016)"
+    - url: https://a11y.nicolas-hoffmann.net/
+      title: "jQuery accessible plugins for rich interfaces elements (tabpanel, hide-show system, etc.), using ARIA"
+      description: "By Nicolas Hoffmann"
+    - url: https://van11y.net/
+      title: "Van11y (for Vanilla-Accessibility), a collection of accessible scripts for rich interfaces elements"
+      description: "By Nicolas Hoffmann"
     - url: http://wearecolorblind.com
       title: "We are Color Blind"
       description: "by Tom van Beveren"
-    - url: http://webaim.org/resources/designers/
+    - url: https://webaim.org/resources/designers/
       title: "Web Accessibility for Designers [Infographic]"
       description: "By WebAIM"
     - url: https://developers.google.com/web/fundamentals/accessibility/
@@ -199,39 +221,63 @@
     - url: https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
       title: "A11ycasts"
       description: "YouTube Playlist (2017)"
-    - url: http://www.webaim.org/techniques/skipnav/
+    - url: https://webaim.org/techniques/skipnav/
       title: "WebAIM: Skip Navigation"
       description: "By WebAIM"
-    - url: http://webaim.org/blog/motivating-accessibility-change/
+    - url: https://webaim.org/blog/motivating-accessibility-change/
       title: "WebAIM’s Hierarchy for Motivating Accessibility Change"
       description: "By WebAIM"
     - url: https://www.nngroup.com/topic/accessibility/
       title: "NNG Topic - Accessibility"
       description: "By Nielsen Norman Group"
-    - url: http://webaim.org/articles/screenreader_testing/
+    - url: https://webaim.org/articles/screenreader_testing/
       title: "Testing with Screen Readers"
       description: "By WebAIM"
+    - url: https://yoast.com/dev-blog/accessibility-slow-down-development-process/
+      title: "Does Accessibility slow down the development process?"
+      description: "by Andrea Fercia"
+    - url: https://axesslab.com/fonts-dont-matter/
+      title: "Fonts Don't Matter"
+      description: "by Axess Lab"
+    - url: https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939
+      title: "Writing CSS with Accessibility in Mind"
+      description: "by Manuel Matuzovic"
+    - url: https://increment.com/development/a-guide-to-coding-accessible-developer-tools/
+      title: "A guide to coding accessible developer tools"
+      description: "by Suz Hinton"
+    - url: https://typography.guru/journal/letters-symbols-misrecognition/
+      title: "Letter and symbol misrecognition in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers"
+      description: "by Thomas Bohm"
+    - url: https://usabilitygeek.com/information-different-types-people-graphic-communication-website-information-designers/
+      title: "Information On Different Types Of People For Graphic Communication, Website And Information Designers"
+      description: "by Thomas Bohm"
+    - url: https://accessibility.digital.gov/
+      title: "Accessibility for Teams"
+      description: "by Digital.gov"
 
 - resource-category: Professional Help
   section-id: professional-help
   resources:
-    - url: http://www.deque.com/
+    - url: https://www.deque.com/
       title: "Deque"
       #description: ""
-    - url: http://www.knowbility.org/
+    - url: https://knowbility.org/
       title: "Knowbility"
       #description: ""
-    - url: http://www.paciellogroup.com/
+    - url: https://www.paciellogroup.com/
       title: "The Paciello Group"
       #description: ""
-    - url: http://simplyaccessible.com/
+    - url: https://simplyaccessible.com/
       title: "Simply Accessible"
       #description: ""
-    - url: http://webaim.org/
+    - url: https://webaim.org/
       title: "WebAIM"
       #description: ""
-    - url: http://www.ssbbartgroup.com/
-      title: "SSB Bart Group"
+    - url: https://www.levelaccess.com/
+      title: "Level Access (Formerly SSB Bart Group)"
+      #description: ""
+    - url: https://tenon.io/
+      title: "Tenon.io"
       #description: ""
 
 - resource-category: Online Tools
@@ -307,6 +353,38 @@
     - url: https://www.youtube.com/watch?v=8dr_IUGwsO0
       title: "PWAs in any context"
       description: "Progressive Web App Summit (2016)"
+    - url: https://www.youtube.com/watch?v=hUCOA338jwk
+      title: "JavaScript and Civil Rights (Marcy Sutton)"
+      description: "Web Rebels (2017)"
+
+- resource-category: Podcasts
+  section-id: podcasts
+  resources:
+    - url: https://www.patreon.com/steenhout
+      title: "#A11y Rules Podcast"
+      description: "Conversations around web accessibility"
+    - url: https://www.accessible.fm
+      title: "Accessible Podcast"
+      description: "A podcast about accessibility in tech. Topics covered on the show are mostly Apple-centric but will span the tech industry at large where appropriate."
+    - url: https://player.fm/series/presentable/presentable-30-accessibility-is-social-justice
+      title: "Presentable 30: Accessibility is Social Justice"
+      description: "An interview with Laura Kalbag about her book, Accessibility for Everyone."
+    - url: http://frontendhappyhour.com/episodes/a11y-cocktail/
+      title: "Front End Happy Hour - Episode 007 - a11y Cocktail"
+      description: "A conversation about web accessibility with guest Jennison Asuncion"
+    - url: https://frontsidethepodcast.simplecast.fm/episodes/44c5e387/61-accessibility-with-marcy-sutton
+      title: "Accessibility with Marcy Sutton"
+      description: "A conversation about accessibility, WCAG, ARIA, and single page apps with guest Marcy Sutton"
+    - url: https://www.codenewbie.org/podcast/intro-to-accessibility
+      title: "Intro to Accessibility with Stephanie Slattery"
+      description: "Stephanie Slattery explains the 5 categories of disabilities, shows us how to implement suggestions from the Web Content Accessibility Guidelines, and shares why she’s so passionate about accessibility."
+
+- resource-category: Empathy Development
+  section-id: empathy-development
+  resources:
+    - url: https://empathyprompts.net/
+      title: "Empathy Prompts"
+      description: "Prompts to consider when making things for others to use."
 
 - resource-category: Community Help
   section-id: community-help
@@ -333,6 +411,9 @@
 - resource-category: Development Tools
   section-id: development-tools
   resources:
+    - url: https://www.accesslint.com/
+      title: "AccessLint"
+      description: "A GitHub App that finds accessibility issues in your pull requests."
     - url: http://allyjs.io/
       title: "ally.js"
       description: "Helps JavaScript applications become more accessible"
@@ -348,3 +429,37 @@
     - url: https://packagecontrol.io/packages/WAI-ARIA
       title: "Sublime WAI-ARIA"
       description: "WAI-ARIA Roles, States and Properties auto-completion for Sublime Text"
+    - url: http://pa11y.org/
+      title: "Pa11y"
+      description: "Automated accessibility testing"
+    - url: https://github.com/dequelabs/axe-core
+      title: "axe-core"
+      description: "Accessibility engine for automated Web UI testing"
+    - url: https://github.com/evcohen/eslint-plugin-jsx-a11y
+      title: "eslint-plugin-jsx-a11y"
+      description: "Static AST checker for a11y rules on JSX elements"
+
+- resource-category: PDFs
+  section-id: pdfs
+  resources:
+    - url: https://webaim.org/techniques/acrobat/
+      title: "WebAIM: PDF Accessibility"
+    - url: https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html
+      title: "Adobe: Create and verify PDF accessibility, Acrobat Pro"
+    - url: https://www.pdf-accessible.com/en/
+      title: "AcceDe PDF Project"
+
+- resource-category: Newsletters
+  section-id: newsletters
+  resources:
+    - url: http://a11yweekly.com/
+      title: "Accessibility Weekly"
+    - url: https://axesslab.com/alt-texts#thanks-for-making-the-web-better
+      title: "Axess Lab Newsletter"
+    - url: http://t12t.se/accessibility-newsletter/
+      title: "t12t Accessibility Newsletter"
+    - url: https://webaim.org/newsletter/
+      title: "The WebAIM Newsletter"
+    - url: https://mailchi.mp/9f8895e93f13/hackeryou-accessibility-club-newsletter
+      title: "Skip Links"
+      description: "A monthly newsletter curated by the HackerYou Web Accessibility Club"

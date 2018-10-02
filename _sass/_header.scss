@@ -18,10 +18,12 @@
 
         li {
             display: inline-block;
-            margin-right: 1.1em;
+            font-size: 90%;
+            margin-right: 0.8em;
 
             @media (min-width: $tablet) {
-                margin-right: 1.4em;
+                font-size: 95%;
+                margin-right: 1em;
             }
 
             &:last-child {
@@ -35,13 +37,16 @@
 
         a {
             text-decoration: none;
-        }
 
-        a:hover, a:focus {
-          color: #333;
-          text-decoration: underline;
-        }
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+            }
 
+            &:active {
+                text-decoration: none;
+            }
+        }
 
         .logo {
             font-size: 1.4em;
@@ -57,6 +62,7 @@
             .oldie-logo-navbar,
             .icon-logo {
                 width: 1.4em;
+                height: 1.4em;
                 position: relative;
                 top: .3em;
             }
@@ -79,7 +85,7 @@
 
     @media (min-width: $tablet ) {
         padding-bottom: 5em;
-        margin-bottom: 5em;
+        margin-bottom: 3em;
     }
 
     .icon-logo-hero {

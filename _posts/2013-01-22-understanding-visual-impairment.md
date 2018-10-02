@@ -1,12 +1,11 @@
 ---
 layout: post
-title: |
-    A Primer To Visual Impairment
-description: Key facts, definitions, demographics, causes, challenges and future of visual impairment.
-author: Greg Tarnoff
+title: "A primer to visual impairment"
+description: "Key facts, definitions, demographics, causes, challenges and future of visual impairment."
+author: greg_tarnoff
 published: true
 categories:
-  - Basics
+  - Background
 ---
 
 Over 285,000,000 people suffer visual impairment, a condition that limits the visual capability of an individual to such a degree that additional support is needed. Visual impairment is the result of trauma, disease, congenital or degenerative conditions that cannot be corrected by medication, surgery or refractive correction. 90% of the world's visually impaired live in developing countries and 80% of all visual impairment can be avoided or cured by conventional means.
@@ -23,9 +22,9 @@ There are 3 levels of visual impairment:
 
 ## The Causes?
 
-Disorders of the eye that lead to visual impairments can include [retinal degeneration](http://ffb.ca/learn/eye-diseases/), [albinism](http://en.wikipedia.org/wiki/Albinism), [cataracts](http://en.wikipedia.org/wiki/Cataract), [glaucoma](http://en.wikipedia.org/wiki/Glaucoma), muscular problems, [corneal disorders](http://www.nei.nih.gov/health/cornealdisease/), [diabetic retinopathy](http://en.wikipedia.org/wiki/Diabetic_retinopathy), [congenital disorders](http://en.wikipedia.org/wiki/Congenital_disorder), infection and [cortical disorders](http://en.wikipedia.org/wiki/Cortical_visual_impairment).
+Disorders of the eye that lead to visual impairments can include [retinal degeneration](http://ffb.ca/learn/eye-diseases/), [albinism](https://en.wikipedia.org/wiki/Albinism), [cataracts](https://en.wikipedia.org/wiki/Cataract), [glaucoma](https://en.wikipedia.org/wiki/Glaucoma), muscular problems, [corneal disorders](https://www.nei.nih.gov/health/cornealdisease/), [diabetic retinopathy](https://en.wikipedia.org/wiki/Diabetic_retinopathy), [congenital disorders](https://en.wikipedia.org/wiki/Congenital_disorder), infection and [cortical disorders](https://en.wikipedia.org/wiki/Cortical_visual_impairment).
 
-Refractive errors ([myopia](http://en.wikipedia.org/wiki/Myopia), [hyperopia](http://en.wikipedia.org/wiki/Hyperopia) or [astigmatism](http://www.medicalnewstoday.com/articles/158810.php)) are typically the result of nature with 43% of visually impaired born with refractive errors that can be corrected with medication, surgery, glasses or contact lenses.
+Refractive errors ([myopia](https://en.wikipedia.org/wiki/Myopia), [hyperopia](https://en.wikipedia.org/wiki/Hyperopia) or [astigmatism](https://www.medicalnewstoday.com/articles/158810.php)) are typically the result of nature with 43% of visually impaired born with refractive errors that can be corrected with medication, surgery, glasses or contact lenses.
 
 ## The Challenges?
 

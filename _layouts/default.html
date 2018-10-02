@@ -4,70 +4,73 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-translate-customization" content="2799b63e9872a422-144b0a71179bc4c5-gbc0bb0558eb2f07b-f">
-    <!-- twitter card -->
+
+    <!-- search -->
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}">
+    {% else %}
+      <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    <meta name="image" content="{{ site.url }}{{ site.social }}">
+
+    <!-- google schema.org -->
+    {% if page.title %}
+      <meta itemprop="name" content="{{ page.title }}">
+    {% else %}
+      <meta itemprop="name" content="{{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+      <meta itemprop="description" content="{{ page.description }}">
+    {% else %}
+      <meta itemprop="description" content="{{ site.description }}">
+    {% endif %}
+    <meta itemprop="image" content="{{ site.url }}{{ site.social }}">
+
+    <!-- twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@A11YProject">
-    <meta name="twitter:creator" content="@davatron5000">
     {% if page.title %}
       <meta name="twitter:title" content="{{ page.title }}">
     {% else %}
       <meta name="twitter:title" content="{{ site.title }}">
-    {% endif %}
-    {% if page.url %}
-      <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     {% endif %}
     {% if page.description %}
       <meta name="twitter:description" content="{{ page.description }}">
     {% else %}
       <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
-    {% if page.thumbnail %}
-      <meta name="twitter:image:src" content="{{ site.url }}{{ page.thumbnail }}">
-    {% else %}
-      <meta name="twitter:image:src" content="{{ site.url }}{{ site.avatar }}">
-    {% endif %}
-    <!--// end twitter card -->
+    <meta name="twitter:site" content="@A11YProject">
+    <meta name="twitter:creator" content="@davatron5000">
+    <meta name="twitter:image:src" content="{{ site.url }}{{ site.social }}">
 
-    <!-- open graph -->
-    <meta content="{{ site.title }}" property="og:site_name">
+    <!-- open graph/twitter article -->
     {% if page.title %}
-      <meta content="{{ page.title }}" property="og:title">
+      <meta name="og:title" content="{{ page.title }}">
     {% else %}
-      <meta content="{{ site.title }}" property="og:title">
-    {% endif %}
-    {% if page.title %}
-      <meta content="article" property="og:type">
-    {% else %}
-      <meta content="website" property="og:type">
+      <meta name="og:title" content="{{ site.title }}">
     {% endif %}
     {% if page.description %}
-      <meta content="{{ page.description }}" property="og:description">
+      <meta name="og:description" content="{{ page.description }}">
     {% else %}
-      <meta content="{{ site.description }}" property="og:description">
+      <meta name="og:description" content="{{ site.description }}">
     {% endif %}
-    {% if page.url %}
-      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-    {% endif %}
-    {% if page.date %}
-      <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-      <meta content="{{ site.url }}/about.html" property="article:author">
-    {% endif %}
-    {% if page.thumbnail %}
-      <meta content="{{ site.url }}{{ page.thumbnail }}" property="og:image">
-    {% else %}
-      <meta content="{{ site.url }}{{ site.avatar }}" property="og:image">
-    {% endif %}
+    <meta name="og:image" content="{{ site.url }}{{ site.social }}">
+    <meta name="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="og:site_name" content="{{ site.title }}">
+    <meta name="og:locale" content="en_US">
     {% if page.categories %}
+      <meta name="og:type" content="article">
       {% for category in page.categories limit:1 %}
-      <meta content="{{ category }}" property="article:section">
+        <meta name="article:section" content="{{ category | downcase }}">
       {% endfor %}
     {% endif %}
-    <!--// end open graph -->
-
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
+    {% if page.date %}
+      <meta name="article:published_time" content="{{ page.date | date_to_xmlschema }}">
     {% endif %}
+    {% if page.author %}
+      <meta name="article:author" content="{{ page.author }}">
+    {% endif %}
+
     <link rel="stylesheet" href="/css/master.css">
     {% if site.feedburner %}
     <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml">
@@ -110,10 +113,12 @@
               <!--<![endif]-->The A11Y Project
               </a>
             </li>
-            <li><a href="/patterns.html">Patterns</a></li>
-            <li><a href="/checklist.html">Checklist</a></li>
-            <li><a href="/resources.html">Resources</a></li>
-            <li><a href="/about.html">About</a></li>
+            <li><a href="/patterns">Patterns</a></li>
+            <li><a href="/checklist">Checklist</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/follow">Follow</a></li>
+            <li><a href="/about">About</a></li>
           </ul>
       </nav>
     </header>
@@ -139,10 +144,20 @@
         <div class="colophon">
 
           <h5 class="screen-reader-text">Colophon</h5>
-          <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
+          <ul>
+            <li>
+              <a href="https://twitter.com/A11YProject">@A11YProject</a>
+            </li>
+            <li>
+              <a href="mailto:hello@a11yproject.com">hello@a11yproject.com</a>
+            </li>
+            <li>
+              <a href="/atom.xml">Subscribe</a>
+            </li>
+          </ul>
           <div id="google_translate_element"></div>
 
-          <p class="notice">Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
+          <p class="notice">Notice an issue or want to help? <a href="https://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
 
           <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
             Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a></p>
@@ -151,8 +166,8 @@
 
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/garlic.js/1.2.2/garlic.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/garlic.js/1.2.2/garlic.min.js"></script>
     <script src="/js/jquery.waypoints.min.js"></script>
 
     <script src="/js/scripts.js"></script>
@@ -161,6 +176,6 @@
       new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
     }
     </script>
-    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>

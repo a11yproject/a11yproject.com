@@ -5,8 +5,8 @@ description: An accessible widget & pattern library
 permalink: patterns.html
 ---
 
-<section class="toc-wrap toc-long">
-    <h3 class="toc-title">Categories</h3>
+<nav class="toc-wrap toc-long" aria-labelledby="toc_title">
+    <h2 id="toc_title" class="toc-title">Categories</h2>
     <ul class="toc">
         {% for category in site.data.patterns %}
         <li>
@@ -16,7 +16,7 @@ permalink: patterns.html
         </li>
         {% endfor %}
     </ul>
-</section>
+</nav>
 
 {% for category in site.data.patterns  %}
 <section id="{{category.section-id}}" class="article-section patterns-section" tabindex="-1">
@@ -26,7 +26,7 @@ permalink: patterns.html
         <li>
           {{category.sub-category}}
           <ul>
-            {% assign sorted_subcategory = (category.sub-category-patterns | sort: 'title') %}
+            {% assign sorted_subcategory = category.sub-category-patterns | sort: 'title' %}
             {% for pattern in sorted_subcategory %}
               <li>
                 <a href="{{ pattern.url }}" rel="external">
@@ -37,7 +37,7 @@ permalink: patterns.html
           </ul>
         </li>
       {% endif %}
-      {% assign sorted_category = (category.patterns | sort: 'title') %}
+      {% assign sorted_category = category.patterns | sort: 'title' %}
       {% for pattern in sorted_category %}
         <li>
           <a href="{{ pattern.url }}" rel="external">

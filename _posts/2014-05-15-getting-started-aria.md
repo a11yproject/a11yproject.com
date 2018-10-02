@@ -1,31 +1,30 @@
 ---
 layout: post
-title: |
-    Getting started with ARIA
-description: Introduction to ARIA, describing Roles, States, and Properties and when to use ARIA in HTML
+title: "Getting started with ARIA"
+description: "Introduction to ARIA, describing Roles, States, and Properties and when to use ARIA in HTML."
 published: true
-author: Monika Piotrowicz
+author: monika_piotrowicz
 categories:
-  - Basics
+  - Background
 ---
 
 ## What is ARIA?
 
-ARIA (Assistive Rich Internet Applications), is a spec from the W3C and created to improve accessibility of applications by providing extra information to screen readers via HTML attributes. Out of the box, screen readers work with regular HTML, but adding ARIA can provide screen reader users with more context and greater interactivity with content.
+ARIA (Accessible Rich Internet Applications), is a spec from the W3C and created to improve accessibility of applications by providing extra information to screen readers via HTML attributes. Out of the box, screen readers work with regular HTML, but adding ARIA can provide screen reader users with more context and greater interactivity with content.
 
 ARIA has no effect on how elements are displayed or behave in browsers. It does not add new functionality and is meant to act only as an extra descriptive layer for screen readers.
 
 ### Links
-* HTML5 ARIA spec -  <http://www.w3.org/TR/aria-in-html/>
-* ARIA spec - <http://www.w3.org/WAI/PF/aria/>
+* HTML5 ARIA spec -  <https://www.w3.org/TR/html-aria/>
+* ARIA spec - <https://www.w3.org/TR/wai-aria/>
 
 ## ARIA Attributes
 ARIA attributes are predefined in the spec and are divided into two categories, roles and states & properties. Both can be added directly in the markup or via JavaScript and should be updated as needed based on user interactions. There are rules behind which elements may receive types of ARIA attributes, as well as design guidelines for how and when these should be updated in common interactive widgets.
 
 ### Links
-* Roles - <http://www.w3.org/TR/wai-aria/roles>
-* States and Properties - <http://www.w3.org/TR/wai-aria/states_and_properties>
-* Design Patterns - <http://www.w3.org/TR/wai-aria-practices/#aria_ex>
+* Roles - <https://www.w3.org/WAI/PF/aria/roles>
+* States and Properties - <https://www.w3.org/WAI/PF/aria/states_and_properties>
+* Design Patterns - <https://www.w3.org/TR/wai-aria-practices/#aria_ex>
 
 ## ARIA Roles
 
@@ -34,16 +33,16 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change f
 * Landmark
 
   Landmark roles identify large content areas and are used by screen readers for navigation. If landmark roles are used, it's important that all page content fall under a role so that all content is available to the navigation.
-  Eg. `<footer role="contentinfo">`
+  E.g. `<footer role="contentinfo">`
 
 * Document
 
-    Document roles provide a structural description for a section and are typically non-interactive. Some document roles map onto existing HTML tags (Eg. `<div role="form">`) and are only meant for cases when using the native tag is not possible. It's unnecessary to add ARIA roles to existing semantically meaningful elements. For example, `<form role="form">` is redundant.
+    Document roles provide a structural description for a section and are typically non-interactive. Some document roles map onto existing HTML tags (E.g. `<div role="form">`) and are only meant for cases when using the native tag is not possible. It's unnecessary to add ARIA roles to existing semantically meaningful elements. For example, `<form role="form">` is redundant.
 
 * Widget
 
   Widget roles describe common interactive patterns that currently lack semantic equivalents in HTML, and can be used on their own, or as part of larger, composite widgets.
-  Eg. `<div role="tooltip">`
+  E.g. `<div role="tooltip">`
 
 * Abstract
 
@@ -59,15 +58,15 @@ Native HTML semantics should still be used whenever possible, but ARIA is useful
 To create accessible applications, basic principles of semantic HTML, keyboard support, and color contrast should still be the primary focus of developers. ARIA may be used to "fill in the blanks" where web page information isn't understood or available to a screen reader via HTML alone.
 
 ### Links
-* ARIA in HTML <http://rawgit.com/w3c/aria-in-html/master/index.html>
+* ARIA in HTML <https://www.w3.org/TR/html-aria/>
 
 ## ARIA Examples
 
 * Landmark role
-  The `<nav>` element has been given a landmark role allowing screen reader users navigate directly to this element.
+  The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](https://a11yproject.com/posts/aria-landmark-roles/) for more information.
 
 ~~~~~~~~
-    <nav role="navigation">
+    <nav>
       <ul>
         <li>
           <a href="/">Home</a>
