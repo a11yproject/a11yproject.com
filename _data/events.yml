@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Applying Accessibility Heuristics to a Wireframe: Part 1"
+      description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on November 8th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
+      url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe"
+      type: "Webinar"
+      date: 2018-11-08
     - title: "a11ybos 2018"
       description: "The Boston event is a combination of “unconference” and “conference”. While we schedule some sessions in advance, we also make slots available for people who want to present a session or moderate a discussion."
       url: "http://a11y-bos.org/"
@@ -19,7 +24,7 @@
       url: "https://groups.drupal.org/node/534258"
       type: "Webinar"
       date: 2018-09-25
-      hashtag: "A11yTalks"      
+      hashtag: "A11yTalks"
     - title: "Intro to Talkback and Android Accessibility"
       description: "Our Mobile Developer and A11y Expert, Chris McMeeking, will walk you through how to navigate and test for accessibility with Talkback."
       url: "https://accessibility.deque.com/intro-to-talkback-and-native-android-accessibility"
