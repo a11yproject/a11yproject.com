@@ -112,9 +112,9 @@ Prefer the terms "person" or "people" over "user" or "users".
 
 #### Example
 
-> **Don't:** Most users have smartphones
->
 > **Do:** Some people prefer a large font size.
+>
+> **Don't:** Most users have smartphones
 
 ### Acronyms
 
@@ -150,21 +150,21 @@ Don't describe a person as having a disability unless it is relevant to the poin
 
 #### Examples
 
-> **Don't:** This is crazy!
->
 > **Do:** This seems confusing!
-
-> **Don't:** They're bound to a wheelchair.
 >
+> **Don't:** This is crazy!
+
 > **Do:** They use a wheelchair.
-
-> **Don't:** She's handicapable.
 >
+> **Don't:** They're bound to a wheelchair.
+
 > **Do:** Alice is blind.
-
-> **Don't:** They're able-bodied.
 >
+> **Don't:** She's handicapable.
+
 > **Do:** They do not have a disability.
+>
+> **Don't:** They're able-bodied.
 
 ### Profanity
 
@@ -265,9 +265,9 @@ This website's name is spelled with a capital T, A, Y, and P.
 
 #### Example
 
-> **Don't:** a11y Project
-
 > **Do:** The A11Y Project
+
+> **Don't:** a11y Project
 
 The A11Y Project also uses the following terms as proper nouns when discussing accessibility-related content:
 
@@ -281,9 +281,10 @@ The numeronym is to not be used in formal writing. Use the full word, unless quo
 
 #### Example
 
+> **Do:** "The number of developers interested in accessibility a11y (accessibility) is rising quickly."
+
 > **Don't:** When we talk about a11y, we are discussing...
 
-> **Do:** "The number of developers interested in accessibility a11y (accessibility) is rising quickly."
 
 ### GitHub
 
@@ -299,7 +300,7 @@ Capitalize the terms critical to using GitHub:
 
 ### People, organizations, titles, and honorifics
 
-Honor how someone or something choses to officially spell their name.
+Honor how someone or something chooses to officially spell their name.
 
 #### Example
 
