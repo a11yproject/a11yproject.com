@@ -6,6 +6,13 @@
       url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe"
       type: "Webinar"
       date: 2018-11-08
+    - title: "A11y Meetup Munich #1"
+      description: "We’re extremely happy to invite you to our first meetup! As the interest about digital accessibility is growing strong in Munich, we want to bring the community together and organise regular meetings to network and share knowledge. Topic for this meetup: How to build accessible components."
+      url: "https://www.meetup.com/Munich-Accessibility-Meetup/events/255477733/"
+      type: "Regional"
+      date: 2018-10-30
+      address: "Riesstraße 24, 80992 München, Germany"
+      map: "https://goo.gl/maps/DmnRnULDN9A2"
     - title: "a11ybos 2018"
       description: "The Boston event is a combination of “unconference” and “conference”. While we schedule some sessions in advance, we also make slots available for people who want to present a session or moderate a discussion."
       url: "http://a11y-bos.org/"
@@ -346,7 +353,7 @@
       description: "U.S. federal government entities must comply with the disability accessibility guidelines in Section 508 when creating or purchasing information technology (IT). The purpose is to increase opportunities and quality of life for people with disabilities. But what does compliance really mean, and how do you achieve it? Join Karina Boycheva and Lora Budzier as they give an overview of the logic behind Section 508, its web accessibility requirements in light of the incorporation of the internationally-recognized Web Content Accessibility Guidelines (WCAG), and some strategies for managing the process."
       url: "https://accessibility.deque.com/section-508-wcag-and-the-federal-government"
       type: "Webinar"
-      date: 2018-08-21     
+      date: 2018-08-21
     - title: "A11y Camp Melbourne"
       description: "A11y Camp is about creating a digital world with no barriers, and is Australia’s largest event for professionals interested in digital accessibility and inclusive design. This year it takes place in Melbourne from 17-19 October 2018, comprising two days of workshops with leading international and Australian accessibility practitioners, plus a one-day conference with two streams of talks on implementing accessibility. Registration is now open (Early Bird until 17 August)."
       url: "http://a11ycamp.org.au/"
