@@ -1,182 +1,187 @@
-[![https://a11yproject.com](https://a11yproject.com/img/README-logo.svg)](https://a11yproject.com)
-# Contributing to A11Y Project
-Do you enjoy web accessibility and want to help? **Here's how.**
+# Contributing to The A11Y Project
+
+Want to help? Here's how. Please be sure to check our [Content Style Guide](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md) before contributing. Questions or concerns about contributing can be addressed in the site's [Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues).
+
 
 ## Table of Contents
 
-1. [Git and GitHub](#git-and-github)
-1. [Pattern Submissions](#pattern-submissions)
-1. [Writing Articles](#writing-articles)
-1. [Adding Resources](#adding-resources)
-1. [Adding Events](#adding-events)
-1. [Reporting Issues](#reporting-issues)
-1. [Stale Issues](#stale-issues)
-1. [Stale PRs](#stale-prs)
-1. [Key Branches](#key-branches)
-1. [Build Process](#build-process)
-1. [Pull Requests](#pull-requests)
-1. [Labels](#labels)
-1. [Set Up Locally](#to-set-up-locally)
+1. [About this site](#about-this-site)
+    - [Git and GitHub](#git-and-github)
+    - [Build Process](#build-process)
+    - [Important Branches](#important-branches)
+    - [Editing Files](#editing-files)
+1. [Submitting content](#submitting-content)
+    - [Content Style Guide](#content-style-guide)
+    - [Articles](#articles)
+    - [Events](#events)
+    - [Patterns](#patterns)
+    - [Resources](#resources)
+    - [Rejection](#resources)
+1. [Fixing things](#fixing-things)
+    - [Reporting Issues](#reporting-issues)
+    - [Submitting Pull Requests](#submitting-pull-requests)
+    - [Stale Issues and Pull Requests](#stale-issues-and-pull-requests)
+    - [Labels](#labels)
 1. [License](#license)
 
-## Git and GitHub
-The A11Y Project is an Open Source project. It uses [Git](https://git-scm.com/) and [GitHub](http://github.com/) to handle coordinating maintenance of the site and the publishing of new content and features.
 
-People working on more sophisticated aspects of the site (new features, bug fixes, etc.) are expected to have at least some familiarity with version control, GitHub's key functionality, and using [feature branches to work locally](#set-up-locally).
+## About this site
+
+Following is information about how the site operates. Instructions on how to get the site running locally on your computer can be found in the [`README`](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/README.md).
+
+### Git and GitHub
+The A11Y Project is an [Open Source](https://en.m.wikipedia.org/wiki/Open-source_software) project. It uses [Git](https://git-scm.com/) and [GitHub](https://github.com/) to handle publishing new content and features, as well as coordinating maintenance.
+
+People working on more sophisticated aspects of the site (new features, bug fixes, etc.) are expected to have at least some familiarity with version control, GitHub's key functionality, and [using feature branches to work locally](#set-up-locally).
 
 If you are looking for a place to get started learning about Git and contributing to an Open Source project, [Egghead.io offers a great introductory course](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
-## Pattern Submissions
+### Build Process
+This project uses [Jekyll](https://jekyllrb.com/) to convert project files into a website that a browser can read and display. You'll need to make sure you've run all the commands in our [`README`](https://github.com/a11yproject/a11yproject.com#local-development) to get Jekyll working.
+
+Any changes you save will cause the local version of the site to recompile. You can then refresh the browser tab that has your local instance of the site open to preview your edits.
+
+### Important Branches
+
+`gh-pages` is the [production branch](https://www.atlassian.com/git/tutorials/using-branches). This is the live website.
+
+If you have a feature request, we suggest first [filing an Issue](https://github.com/a11yproject/a11yproject.com/issues/new) to discuss it (please read [how to report an issue first](#reporting-issues)). Once that feature has been approved you can start coding! Create a new [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) from `gh-pages`, and name it something that references the feature you'll be working on. For example a feature to increase the site's type size could be: `increase-font-size`.
+
+A list of [all active branches are available here](https://github.com/a11yproject/a11yproject.com/branches).
+
+### Editing files
+
+This site uses specific kinds of files to help run the site efficiently. [Jekyll](https://jekyllrb.com/) will take these files and compile them into HTML, CSS, and other browser-friendly code.
+
+Please make all edits in these files, and **not** the compiled code. If you edit the compiled code it will be overwritten the next time any file is saved and all your hard work will be lost!
+
+Some of the main files this site uses are:
+
+#### Markdown
+
+[Markdown](https://daringfireball.net/projects/markdown/syntax) is a lightweight markup language that makes writing easier. We use it to organize our blog posts, as well as our main site pages. It uses `.md` files and compiles into HTML.
+
+#### Sass
+
+[Syntactically Awesome Style Sheets (Sass)](https://sass-lang.com/) is an extension of the CSS language that adds many helpful features. Using it helps keep our site's visual presentation consistent. It uses `.scss` files and compiles into CSS.
+
+#### YAML
+
+[YAML Ain't Markup Language (YAML)](http://yaml.org/) is a human-readable markup language that's good for writing structured data. This structured data is used throughout the site as a way to keep information both consistent and human-readable. It uses `.yml` files.
+
+
+## Submitting content
+
+As we are an Open Source project, The A11Y Project tries to only promote content that is free, or has a low barrier to entry. We're not too keen on partnership deals or promotions.
+
+### Content Style Guide
+
+The A11Y Project has a [Style Guide](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md) to help our content have a consistent voice and tone. Please take a moment to familiarize yourself with it.
+
+### Articles
+
+#### Pitching
+
+Have an idea for an article? We'd love to know what you want to contribute!
+
+1. Search to make sure someone hasn't claimed the article already.
+1. Claim an article by starting a new Issue with "Article: Your title" as the Issue title. This will help us keep track of who is working on what. The final, published title can be different from the Issue name.
+
+We also have a [list of articles](https://github.com/a11yproject/a11yproject.com/issues/12) we'd love to see written.
+
+#### Writing
+
+Articles are written using [Markdown](#markdown), using a special formatting technique called [front matter](https://jekyllrb.com/docs/frontmatter/). Jekyll uses front matter information to create things like author attribution, categories, and page layout.
+
+To get started writing an article, [create a feature branch](#important-branches) and create a new Markdown file in the [`_posts` directory](https://github.com/a11yproject/a11yproject.com/tree/gh-pages/_posts). The Markdown's file name should reflect the intended publishing date and the title of the article. For example, a post about accessible typography may have a filename along the lines of `2018-09-12-accessible-typography.md`
+
+Copying an existing post, then updating its filename and front matter to match your article can be an easy way to help ensure everything is formatted properly.
+
+#### Submitting
+
+Once you are satisfied with your article's content, [submit a Pull Request](#submitting-pull-requests) so it can be reviewed. Reviews will be conducted using [GitHub's review tools](https://github.com/features/code-review/). Project maintainers may request additional updates for clarification or technical accuracy.
+
+Be sure to also add yourself to [`authors.yml`](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/authors.yml) so you can get credit for your work!
+
+Once both the project maintainers and author are satisfied with the article, it will be merged by a project maintainer and published automatically.
+
+### Events
+
+Have an accessibility-themed event you would like to promote? There are two ways you can get your event added to the project: Either [create a new Issue](https://github.com/a11yproject/a11yproject.com/issues/new), or [edit the `events.yml` file](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/events.yml) directly and submit a Pull Request.
+
+Events can either be Regional (in-person), or Webinars (online). You'll want to add the following information about your event:
+
+- Event title.
+- A brief description (2-3 sentences).
+- Web address (URL) for more info.
+- Event type (Regional or Webinar).
+- Social Media Hashtag (if applicable).
+- Date the event is occurring (yyyy-mm-dd).
+- Physical address of event (if applicable).
+- An optional link to a mapping service such as Google Maps that uses the supplied physical address.
+
+### Patterns
+
 If you'd like to submit a [Pattern](https://a11yproject.com/patterns) make sure to do the following:
 
-1. [Make a CodePen](https://codepen.io/pen) (or use an equivalent service such as [JSFiddle](https://jsfiddle.net/) or [JSBin](https://jsbin.com/)). **Note**: Please try not to use preprocessing libraries ([Sass](http://sass-lang.com/), [Less](http://lesscss.org/), [HAML](http://haml.info/) etc.) if at all possible.
-2. [Submit your pen to our Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues/new) with the name of your pattern as the title.
-3. Wait for the community to give you feedback and approval. **Note:** Keep the feedback and discussion to the pattern submitted and avoid discussing other patterns. Submit new patterns as separate Issues.
-4. “Git” down and boogie
+1. [Make a CodePen](https://codepen.io/pen) (or use an equivalent service such as [JSFiddle](https://jsfiddle.net/) or [JSBin](https://jsbin.com/)). Please try not to use preprocessing libraries ([Sass](http://sass-lang.com/), [Less](http://lesscss.org/), [HAML](http://haml.info/), etc.) if at all possible—this helps keep the barrier for entry lower, as well as ensuring your code is future-proof.
+1. [Submit your CodePen to our Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues/new) with the name of your pattern as the title.
+1. Discuss community feedback. Please keep the feedback and discussion relevant to the pattern submitted. Submit new patterns as separate Issues, and discuss them in their respective threads.
+1. When feedback is concluded, the pattern will be added to the site by project maintainers.
 
-    ![Boogie dance.](http://bukk.it/gitdown.gif)
+### Resources
 
-## Writing Articles
-We have a [list of articles](https://github.com/a11yproject/a11yproject.com/issues/12) we'd love to see written. Have an idea for an article? We'd love to know what you want to contribute.
+Did you create or find a great accessibility-related resource that you think other people would find useful? Add it to the [Resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/resources.yml) file under the appropriate category. Please be sure to include the resource's title, description, and a URL where it can be accessed.
 
-1. Search to make sure someone hasn't snagged the article already.
-2. Claim an article by starting a new Issue with "Article: your title" as the Issue title. The final title can (or probably should) be different.
-3. When you check&ndash;in, reference that Issue number in the commit, e.g., `re: #32`
-4. Articles are written in plain text at a linkable location on the web. We recommend using GitHub's [gists](https://gist.github.com). Link us to your [gist](https://gist.github.com) in the [Issue field](https://github.com/a11yproject/a11yproject.com/issues) for your article and we'll be sure to clone and update our site to incorporate your work. When you are ready to submit the article via a Pull Request, we have a [sample post file](_posts/example-post.md) to get you started.
+### Rejection
 
-### Plain-text Workflow for Article Submission
-1. Make a [gist](https://gist.github.com).
-2. Start a conversation about it in an [Issue](https://github.com/a11yproject/a11yproject.com/issues).
-3. Roll the article in yourself via a Pull Request (gist only) **or** ask someone to help you.
+Project maintainers may elect to not accept your submitted content if they feel it is not in line with the site's goals. This will be handled on a case-by-case basis.
 
-### Article Style Guide
+## Fixing things
 
-Here are some suggestions and tips on writing your article:
+### Reporting Issues
 
-- **Short** - Aim for a timed reading length of approximately two minutes.
-- **Focused** - Keep it digestible and to a single topic. Articles that span multiple areas and topics are better broken up.
-- **Accessible** - Strive to use plain language, avoid jargon if possible, and explain complicated concepts.
+Have you noticed something inaccurate or inaccessible? You can help make it better!
 
-## Adding Resources
+1. File an [Issue](https://github.com/a11yproject/a11yproject.com/issues).
+1. Preface your Issue title as an:
+    - `Inaccuracy` for incorrect or inaccurate information (e.g. "Inaccuracy: Visually hidden CSS missing property declaration").
+    - `Inaccessibility` for an accessibility issue (e.g. "Inaccessibility: Low contrast link color").
+    - `Bug` for site issues (e.g. "Bug: Link at archive not working").
 
-Find a great resource that you think will be useful to others?
+**Issues are not to be used for free accessibility help**. Project maintainers may close reported Issues at their discretion.
 
-- Add the URL and title to the [Resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/resources.yml) page under the appropriate category.
+### Submitting Pull Requests
 
-### Writing in YAML
+Creating a descriptive Issue and assigning it to yourself before you send your Pull Request will help get it accepted. It will provide a better understanding of what your request entails and why it was made. It also helps to link the Issue to the Pull Request and vice-versa (eg. "This Pull Request addresses Issue XX").
 
-[YAML](http://yaml.org/) is a human-readable markup language that's good for writing structured data. Even if you've never written anything in a `.yml` file, it shouldn't be too hard to understand the structure of our site's content.
+Project maintainers may reject Pull Requests at their discretion.
 
-For example, here is an ordered list:
+### Stale Issues and Pull Requests
 
-```yaml
-- 'one'
-- 'two'
-- 'three'
-```
+Project maintainers will close Issues and Pull Requests if they become stale, leaving a note for the author as to why. This keeps our Issue tracker and code work clean and up-to-date, and helps project maintainers focus their attention where it is needed.
 
-Here is a dictionary, where each value has a name:
+#### Stale Issues
 
-```yaml
-  thing1: 'a string value'
-  thing2: 2
-  thing3: 3
-```
+An Issue is considered to be in a "stale" state when any of the following conditions are met:
 
-And here is how we could make the value of `thing1` a list:
+- The last comment was made over six months ago.
+- There has been no activity since.
+- The question isn't open.
+- Someone has attempted to address the Issue, no with no followup participation from the author.
 
-```yaml
-thing1:
-  - 'first'
-  - 'second'
-  - 'third'
-```
+#### Stale Pull Requests
 
-YAML data is structured by spaces (you can not use tabs!), so an indented line means the content is nested within the parent. For more information, you can visit the [official YAML site](http://yaml.org/about.html), or check out this [cheatsheet](https://cheat.readthedocs.io/en/latest/yaml.html).  
+A Pull Request (PR) is considered to be in a "stale" state when the following conditions are met:
 
-## Adding Events
-Have an accessibility focused event you would like to promote?  Whether it's in person or online, you have two way you can get your event added to the project. Either [create a new Issue](https://github.com/a11yproject/a11yproject.com/issues/new), or [edit the `events.yml` file](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/events.yml) directly and submit a Pull Request.
+- The last comment was made over six months ago.
+- There has been no activity since.
+- Someone has attempted to move the PR along with no followup from the author.
 
-You'll want to add the following information about your event:
+### Labels
 
-- Event title
-- Date of event
-- A brief description
-- Web address (URL) for more info
-- Physical address of event (if applicable)
-- Social Media Hashtag (if applicable)
+[Labels](https://github.com/a11yproject/a11yproject.com/labels) allow the project maintainers to quickly sort filter and site [Issues](#reporting-issues) and [Pull Requests](#submitting-pull-requests). They will be added and removed as needed.
 
-## Reporting Issues
-Notice something inaccurate? Noticed something inaccessible on this site? You think you can code something up better?
-
-- File an [Issue](https://github.com/a11yproject/a11yproject.com/issues).
-- Preface your Issue title as an:
-    - `Inaccuracy` for incorrect or inaccurate information (e.g. "Inaccuracy: Visually hidden CSS missing property declaration")
-    - `Inaccessibility` for an accessibility issue (e.g. "Inaccessibility: Low contrast link color")
-    - `Bug` for site issues (e.g. "Bug: Link at archive not working") 
-
-**Issues are not to be used for** free help on your website. Use [Stack Overflow](https://stackoverflow.com) for that.
-
-## Stale Issues
-An Issue is considered to be in a "stale" state when the following conditions are met:
-
-- Last comment was made over one year ago
-- No movement since
-- Not an open question
-- Someone has attempted to address the Issue, no comment from the author
-
-When an Issue has become stale a project maintainer will close the Issue, leaving a note for the author to open a new Issue if so desired.
-
-## Stale PRs
-A PR is considered to be in a "stale" state when the following conditions are met:
-
-- Last comment was made over six months ago
-- No movement since
-- Someone has attempted to move the PR along, no comment from the author
-
-When a PR has become stale a project maintainer will close the PR, leaving a note for the author to open a new PR with the latest code from `gh-pages` if so desired.
-
-## Key Branches
-
-- `gh-pages` is the [master branch](https://www.atlassian.com/git/tutorials/using-branches). This is the live website.
-
-If you have a feature request, we suggest filing an Issue initially to discuss it. Once that feature has been accepted you'll can start coding to your heart's content. Start a separate branch and use the following naming convention for your [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow):
-
-- `feature/name_of_feature`
-
-## Build Process
-- In order to create a site build you'll need to make sure you've run through all the listed commands in the order they appear from our [`README.md`](https://github.com/a11yproject/a11yproject.com#local-development)
-- CSS changes must be done in `.scss` files, never directly in the compiled CSS.
-
-## Pull Requests
-
-Filing a descriptive issue and assigning it to yourself before you send your request will help in get your commit accepted. It will provide a better understanding of what your request entails and why it was made. It also helps to link the Issue to the Pull Request and vice-versa (eg. "This Pull Request addresses Issue XX").
-
-## Labels
-
-Labels allow the project maintainers to quickly sort filter and site Issues and Pull Requests. They will be added and removed as needed.
-
-## Set up Locally
-
-You can take all the files of this site and run them just on your computer as if it were live online, only it's just on your machine. This is ideal for working on new features and verifying that fixes to issues work.
-
-### Requirements
-
-- [Jekyll](https://jekyllrb.com/)
-- [Ruby](https://www.ruby-lang.org/en/)
-- [Git](https://git-scm.com/)
-
-If you have installed [GitHub Desktop](https://desktop.github.com), Git was also installed automatically.
-
-To copy the repository's files from here onto your computer and to view and serve those files locally, at your computer's command line type:
-
-```bash
-git clone https://github.com/a11yproject/a11yproject.com.git
-cd a11yproject.com
-script/bootstrap
-script/server
-```
-Then open [http://localhost:4000](http://localhost:4000) in your browser.
 
 ## License
 
