@@ -17,7 +17,8 @@ There are 3 levels of visual impairment:
 * Severe visual impairment
 * Blindness
 
-The Federal census includes "'total or near-total blindness' and 'trouble seeing, even when wearing glasses or contact lenses'" under "severe vision impairment" [source](https://nfb.org/blindness-statistics)  
+According to The United States Bureau of the Census,
+> The question about about “significant vision loss” encompasses both total or near-total blindness and “trouble seeing, even > when wearing glasses or contact lenses.” and [...] There are no generally accepted definitions for “visually impaired,” “low > vision,” or “vision loss.” [source](https://nfb.org/blindness-statistics)  
 
 ## Who Is At Risk?
 
