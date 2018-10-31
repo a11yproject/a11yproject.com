@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Applying Accessibility Heuristics to a Wireframe: Part 2"
+      description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Tuesday, November 20th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
+      url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-0"
+      type: "Webinar"
+      date: 2018-11-2-
     - title: "Applying Accessibility Heuristics to a Wireframe: Part 1"
       description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on November 8th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
       url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe"
