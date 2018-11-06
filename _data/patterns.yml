@@ -81,6 +81,8 @@
   patterns:
     - url: "https://codepen.io/svinkle/pen/zmlEi"
       title: "Simple Data Table"
+    - url: "https://codepen.io/svinkle/pen/WYvxGQ"
+      title: "Simple ARIA Data Table"
 
 - pattern-category: Tooltips
   section-id: tooltips
