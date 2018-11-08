@@ -254,6 +254,9 @@
     - url: https://accessibility.digital.gov/
       title: "Accessibility for Teams"
       description: "by Digital.gov"
+    - url: https://accessuse.eu/en/
+      title: "Access & Use"
+      description: "Access & Use shows what it needs to make dynamic elements in websites accessible and usable for all."
 
 - resource-category: Professional Help
   section-id: professional-help
