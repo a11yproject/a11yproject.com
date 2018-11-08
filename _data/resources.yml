@@ -56,9 +56,9 @@
     - url: https://www.apple.com/accessibility/mac/vision/
       title: "VoiceOver"
       description: "By Apple, Desktop System App (Mac)"
-    - url: https://support.google.com/accessibility/android/answer/6283677?hl=en
-      title: "TalkBack"
-      description: "By Google, Android App"
+    - url: https://knowbility.org/blog/2018/keyboard-testing-basics/
+      title: "Keyboard Testing Basics"
+      description: "By Knowbility"
 
 - resource-category: HTML Related
   section-id: html-related
