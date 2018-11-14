@@ -6,6 +6,11 @@
       url: "https://accessibility.deque.com/automated-accessibility-testing-attest-for-android"
       type: "Webinar"
       date: 2018-11-29
+    - title: "Accessibility and Compliance: Current Legal Landscape"
+      description: "Teresa L. Jakubowski, partner at Barnes & Thornburg LLP, will discuss the current litigation landscape for website accessibility. Teresa chairs the firm’s Accessibility and Disability Law Practice. Find out more about current trends in case decisions and claims involving web and digital accessibility."
+      url: "https://accessibility.deque.com/accessibility-and-compliance-current-legal-landscape"
+      type: "Webinar"
+      date: 2018-11-27
     - title: "Applying Accessibility Heuristics to a Wireframe: Part 2"
       description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Tuesday, November 20th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
       url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-0"
