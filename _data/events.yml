@@ -1,6 +1,16 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Applying Accessibility Heuristics to a Wireframe: Part 3"
+      description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Thursday, December 6th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
+      url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-part-3"
+      type: "Webinar"
+      date: 2018-12-06
+    - title: "Virtual Panel: Inclusion and equality for people with disabilities in education and employment"
+      description: "To commemorate International Persons with Disabilities Day, our panelists will discuss the experiences they've had in academic institutions and while seeking employment. This webinar is intended to create awareness common barriers, opportunities, or resources for people with disabilities encounter at academic institutions or while seeking employment. This panel is a great introduction for people who are new to accessibility but want to learn more."
+      url: "https://accessibility.deque.com/inclusion-for-people-with-disabilities-education-employment"
+      type: "Webinar"
+      date: 2018-12-03
     - title: "Automated Accessibility Testing with Attest for Android"
       description: "This webinar is intended to teach developers how they can now trial Attest for Android for free and utilize the limited functionality framework in their own build. Our mobile accessibility expert, Chris McMeeking, will demonstrate how developers will now be able to trial Attest for Android simulator right on their desktops without having to request a demo."
       url: "https://accessibility.deque.com/automated-accessibility-testing-attest-for-android"
