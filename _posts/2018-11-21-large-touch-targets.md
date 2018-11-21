@@ -12,12 +12,12 @@ A touch target is the total area a user can click or tap on to activate an inter
 
 ## Background
 
-Ensuring that interactive elements have sufficiently large touch targets helps people with [motor control issues](https://webaim.org/articles/motor/motordisabilities) use your website or application. Providing a too-small touch target may make it difficult or impossible for some people to be able to reliably reach the area required activate the element. Think of it like trying to thread a needle.
+Ensuring that interactive elements have sufficiently large touch targets helps people with [motor control issues](https://webaim.org/articles/motor/motordisabilities) use your website or application. Providing a too-small touch target may make it difficult or impossible for some people to be able to reliably reach the area required to activate the element. Think of it like trying to thread a needle.
 
 The [Web Content Accessibility Guidelines (WCAG) specify a minimum size of 44 by 44 CSS pixels](https://www.w3.org/WAI/WCAG21/Understanding/target-size.html) for all interactive elements. The exceptions are:
 
 - If the interactive element's functionality can be activated by another element of acceptable size on the same page.
-- If the interactive element is an inline element in a block of text, such as a link.
+- If the interactive element is rendered inline within a block of text, such as a link.
 - If the interactive element's size is controlled by the browser or operating system's UI.
 - If the interactive element has a design whose presentation requires a certain size or shape.
 
