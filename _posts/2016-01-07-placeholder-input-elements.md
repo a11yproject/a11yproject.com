@@ -3,7 +3,9 @@ layout: post
 title: "How-to: Use <code>placeholder</code> attributes"
 description: "How-to use placeholders on input elements."
 author: rachel_vasquez
-last_updated: 2016-01-07
+date: 2016-01-07
+updated_by: scott_ohara
+last_updated: 2018-07-22
 categories:
   - How-tos
 ---
