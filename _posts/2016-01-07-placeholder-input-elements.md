@@ -72,6 +72,6 @@ Note that in the second example above, omitting the `for` attribute on the label
 
 ## Further reading
 
-- [Don’t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
+- [Don’t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/) - Smashing Magazine (June 2018)
 - [HTML5 Accessibility Chops: the placeholder attribute](https://blog.paciellogroup.com/2011/02/html5-accessibility-chops-the-placeholder-attribute/) - from the Paciello Group (February 2011)
-- [Using @placeholder on Input](https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input) - from W3C
+- [Using @placeholder on Input](https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input) - W3C (November 2012)
