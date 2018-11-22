@@ -3,8 +3,8 @@ layout: post
 title: "Quick test: Navigate using just your keyboard"
 description: "A quick accessibility test that you can run on your sites right now."
 author: dave_rupert
-# date:
-# last_updated:
+date: 2013-01-11
+last_updated: 2018-08-24
 categories:
   - Quick Tests
 ---
