@@ -7,7 +7,6 @@
       type: "Regional"
       address: "Nottingham City Centre"
       date: 2018-12-10
-
     - title: "Applying Accessibility Heuristics to a Wireframe: Part 3"
       description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Thursday, December 6th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
       url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-part-3"
