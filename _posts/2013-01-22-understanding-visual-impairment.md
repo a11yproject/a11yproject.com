@@ -3,12 +3,13 @@ layout: post
 title: "A primer to visual impairment"
 description: "Key facts, definitions, demographics, causes, challenges and future of visual impairment."
 author: greg_tarnoff
+updated_by: emily_lane
 published: true
 categories:
   - Background
 ---
 
-Over 285,000,000 people suffer visual impairment, a condition that limits the visual capability of an individual to such a degree that additional support is needed. Visual impairment is the result of trauma, disease, congenital or degenerative conditions that cannot be corrected by medication, surgery or refractive correction. 90% of the world's visually impaired live in developing countries and 80% of all visual impairment can be avoided or cured by conventional means.
+According to the [National Federation for the Blind](https://nfb.org/), 7,297,100 people over the age of 16 were reported to have some level of visual impairment, as of a [2015 American Community Survey](https://nfb.org/blindness-statistics) interpreted by Cornell University's Employment and Disability Institute (EDI). Visual impairment is a condition that limits the visual capability of an individual to such a degree that additional support is needed. Visual impairment is the result of trauma, disease, congenital or degenerative conditions that cannot be corrected by medication, surgery or refractive correction. 90% of the world's visually impaired live in developing countries and 80% of all visual impairment can be avoided or cured by conventional means.
 
 There are 3 levels of visual impairment:
 
@@ -16,17 +17,20 @@ There are 3 levels of visual impairment:
 * Severe visual impairment
 * Blindness
 
+According to The United States Bureau of the Census,
+> The question about about “significant vision loss” encompasses both total or near-total blindness and “trouble seeing, even > when wearing glasses or contact lenses.” and [...] There are no generally accepted definitions for “visually impaired,” “low > vision,” or “vision loss.” [source](https://nfb.org/blindness-statistics)  
+
 ## Who Is At Risk?
 
-65% of visually impaired are over 50 years and with an ever increasing elderly population in many countries, more people will be at risk of age-related visual impairment. An estimated 19,000,000 children under 15 years are visually impaired with 12,000,000 due to refractive errors that have not yet been diagnosed or corrected, while 1,400,000 are irreversibly blind.
+65% of visually impaired people are over 50 years old. With an ever increasing elderly population in many countries, more people will be at risk of age-related visual impairment. An estimated 19,000,000 children under 15 years are visually impaired with 12,000,000 due to refractive errors that have not yet been diagnosed or corrected, while 1,400,000 are irreversibly blind.
 
-## The Causes?
+## The Causes
 
 Disorders of the eye that lead to visual impairments can include [retinal degeneration](http://ffb.ca/learn/eye-diseases/), [albinism](https://en.wikipedia.org/wiki/Albinism), [cataracts](https://en.wikipedia.org/wiki/Cataract), [glaucoma](https://en.wikipedia.org/wiki/Glaucoma), muscular problems, [corneal disorders](https://www.nei.nih.gov/health/cornealdisease/), [diabetic retinopathy](https://en.wikipedia.org/wiki/Diabetic_retinopathy), [congenital disorders](https://en.wikipedia.org/wiki/Congenital_disorder), infection and [cortical disorders](https://en.wikipedia.org/wiki/Cortical_visual_impairment).
 
 Refractive errors ([myopia](https://en.wikipedia.org/wiki/Myopia), [hyperopia](https://en.wikipedia.org/wiki/Hyperopia) or [astigmatism](https://www.medicalnewstoday.com/articles/158810.php)) are typically the result of nature with 43% of visually impaired born with refractive errors that can be corrected with medication, surgery, glasses or contact lenses.
 
-## The Challenges?
+## The Challenges
 
 Before the industrial revolution, people with visual impairment were condemned to a life of confinement where opportunities of education and employment were unheard of. Since this time the rights of visually impaired people have been fought for and as a result improvements in accessibility that now allow people with low visual acuity to live full and independent lives in place of bygone institutionalization.
 
