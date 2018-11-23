@@ -2,11 +2,13 @@
   section-id: upcoming
   events:
     - title: "A11y Nottingham Event"
-      description: "Do you want to learn how to make what you’re creating accessible and/or just keen to network with other like-minded people looking to make a difference to users with different abilities? <br><br> We will predominantly be covering digital topics to gain as much insight into the technology that is assisting people every day. This will include hints and tips on website accessibility from organisers, HeX Productions. Follow <a href="https://twiter.com/a11yNottingham">@a11yNottingham</a> for more info."
+      description: "Do you want to learn how to make what you’re creating accessible and/or just keen to network with other like-minded people looking to make a difference to users with different abilities? <br><br> We will predominantly be covering digital topics to gain as much insight into the technology that is assisting people every day. This will include hints and tips on website accessibility from organisers, HeX Productions. Follow <a href='https://twiter.com/a11yNottingham'>@a11yNottingham</a> for more info."
       url: "https://www.horlix.com/accessibility-nottingham-meet-up/"
       type: "Regional"
-      address: "Nottingham City Centre"
       date: 2018-12-10
+      address: "Nottingham City Centre, United Kingdom"
+      map: "https://www.google.com/maps/search/Nottingham+City+Centre,+United+Kingdom/"
+      hashtag: "Nottingham"
     - title: "Applying Accessibility Heuristics to a Wireframe: Part 3"
       description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Thursday, December 6th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
       url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-part-3"
