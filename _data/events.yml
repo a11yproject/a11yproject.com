@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "A11y Nottingham Event"
+      description: "Do you want to learn how to make what you’re creating accessible and/or just keen to network with other like-minded people looking to make a difference to users with different abilities? <br><br> We will predominantly be covering digital topics to gain as much insight into the technology that is assisting people every day. This will include hints and tips on website accessibility from organisers, HeX Productions. Follow <a href='https://twiter.com/a11yNottingham'>@a11yNottingham</a> for more info."
+      url: "https://www.horlix.com/accessibility-nottingham-meet-up/"
+      type: "Regional"
+      date: 2018-12-10
+      address: "Nottingham City Centre, United Kingdom"
+      map: "https://www.google.com/maps/search/Nottingham+City+Centre,+United+Kingdom/"
+      hashtag: "Nottingham"
     - title: "Applying Accessibility Heuristics to a Wireframe: Part 3"
       description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Thursday, December 6th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
       url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-part-3"
@@ -52,7 +60,7 @@
       type: "Webinar"
       date: 2018-10-26
     - title: "A11Y Talks (September 2018) - Love Thy Keyboard"
-      description: "Sarbbottam is a frontend engineer, working in the web space for more than 14 years, currently at LinkedIn. He had been part of LinkedIn's core accessibility team, focusing primarily on web accessibility. He has been involved with web accessibility since his Yahoo days. Keyboard accessibility is extremely critical, as many assistive devices emulate the keyboard. Using semantic HTML one can achieve accessible UI with less code than non-semantic markup. Along with Semantic HTML, by managing and guiding focus, developing an accessible UI is not difficult, rather easy. Semantic HTML plays an important role in Accessibility as well as SEO. Though we are aware of it, it's often overlooked. This presentation will share the trade-offs of using semantic vs non-semantic markup with an everyday example and how to manage and guide focus. It's a brief presentation emphasizing the various aspect of keyboard accessibility. Last but not the least a brief introduction to WAI-ARIA..<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#A11yTalks</a> on Twitter! Use the following link to join the event: <a href='http://bit.ly/A11yTalksSept2018'>http://bit.ly/A11yTalksSept2018</a> Please note the link will not be activated until the day/time of the event."
+      description: "Sarbbottam is a frontend engineer, working in the web space for more than 14 years, currently at LinkedIn. He had been part of LinkedIn's core accessibility team, focusing primarily on web accessibility. He has been involved with web accessibility since his Yahoo days. Keyboard accessibility is extremely critical, as many assistive devices emulate the keyboard. Using semantic HTML one can achieve accessible UI with less code than non-semantic markup. Along with Semantic HTML, by managing and guiding focus, developing an accessible UI is not difficult, rather easy. Semantic HTML plays an important role in Accessibility as well as SEO. Though we are aware of it, it's often overlooked. This presentation will share the trade-offs of using semantic vs non-semantic markup with an everyday example and how to manage and guide focus. It's a brief presentation emphasizing the various aspect of keyboard accessibility. Last but not the least a brief introduction to WAI-ARIA.<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#A11yTalks</a> on Twitter! Use the following link to join the event: <a href='http://bit.ly/A11yTalksSept2018'>http://bit.ly/A11yTalksSept2018</a> Please note the link will not be activated until the day/time of the event."
       url: "https://groups.drupal.org/node/534258"
       type: "Webinar"
       date: 2018-09-25
