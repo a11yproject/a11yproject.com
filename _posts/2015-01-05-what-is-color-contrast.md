@@ -4,6 +4,7 @@ title: "What is Color Contrast?"
 description: "What is color contrast and why do we need it for web accessibility?"
 author: rachel_vasquez
 updated_by: emily_lane
+last_updated: 2018-11-17
 published: true
 categories:
   - Background
