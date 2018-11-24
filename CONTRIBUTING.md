@@ -16,7 +16,7 @@ Want to help? Here's how. Please be sure to check our [Content Style Guide](http
     - [Events](#events)
     - [Patterns](#patterns)
     - [Resources](#resources)
-    - [Rejection](#resources)
+    - [Rejection](#rejection)
 1. [Fixing things](#fixing-things)
     - [Reporting issues](#reporting-issues)
     - [Submitting pull requests](#submitting-pull-requests)
