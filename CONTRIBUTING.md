@@ -7,20 +7,20 @@ Want to help? Here's how. Please be sure to check our [Content Style Guide](http
 
 1. [About this site](#about-this-site)
     - [Git and GitHub](#git-and-github)
-    - [Build Process](#build-process)
-    - [Important Branches](#important-branches)
-    - [Editing Files](#editing-files)
+    - [Build process](#build-process)
+    - [Important branches](#important-branches)
+    - [Editing files](#editing-files)
 1. [Submitting content](#submitting-content)
-    - [Content Style Guide](#content-style-guide)
+    - [Content style guide](#content-style-guide)
     - [Articles](#articles)
     - [Events](#events)
     - [Patterns](#patterns)
     - [Resources](#resources)
-    - [Rejection](#resources)
+    - [Rejection](#rejection)
 1. [Fixing things](#fixing-things)
-    - [Reporting Issues](#reporting-issues)
-    - [Submitting Pull Requests](#submitting-pull-requests)
-    - [Stale Issues and Pull Requests](#stale-issues-and-pull-requests)
+    - [Reporting issues](#reporting-issues)
+    - [Submitting pull requests](#submitting-pull-requests)
+    - [Stale issues and pull requests](#stale-issues-and-pull-requests)
     - [Labels](#labels)
 1. [License](#license)
 
@@ -36,12 +36,12 @@ People working on more sophisticated aspects of the site (new features, bug fixe
 
 If you are looking for a place to get started learning about Git and contributing to an Open Source project, [Egghead.io offers a great introductory course](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
-### Build Process
+### Build process
 This project uses [Jekyll](https://jekyllrb.com/) to convert project files into a website that a browser can read and display. You'll need to make sure you've run all the commands in our [`README`](https://github.com/a11yproject/a11yproject.com#local-development) to get Jekyll working.
 
 Any changes you save will cause the local version of the site to recompile. You can then refresh the browser tab that has your local instance of the site open to preview your edits.
 
-### Important Branches
+### Important branches
 
 `gh-pages` is the [production branch](https://www.atlassian.com/git/tutorials/using-branches). This is the live website.
 
@@ -74,7 +74,7 @@ Some of the main files this site uses are:
 
 As we are an Open Source project, The A11Y Project tries to only promote content that is free, or has a low barrier to entry. We're not too keen on partnership deals or promotions.
 
-### Content Style Guide
+### Content style guide
 
 The A11Y Project has a [Style Guide](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md) to help our content have a consistent voice and tone. Please take a moment to familiarize yourself with it.
 
@@ -139,7 +139,7 @@ Project maintainers may elect to not accept your submitted content if they feel 
 
 ## Fixing things
 
-### Reporting Issues
+### Reporting issues
 
 Have you noticed something inaccurate or inaccessible? You can help make it better!
 
@@ -151,17 +151,17 @@ Have you noticed something inaccurate or inaccessible? You can help make it bett
 
 **Issues are not to be used for free accessibility help**. Project maintainers may close reported Issues at their discretion.
 
-### Submitting Pull Requests
+### Submitting pull requests
 
 Creating a descriptive Issue and assigning it to yourself before you send your Pull Request will help get it accepted. It will provide a better understanding of what your request entails and why it was made. It also helps to link the Issue to the Pull Request and vice-versa (eg. "This Pull Request addresses Issue XX").
 
 Project maintainers may reject Pull Requests at their discretion.
 
-### Stale Issues and Pull Requests
+### Stale issues and pull requests
 
 Project maintainers will close Issues and Pull Requests if they become stale, leaving a note for the author as to why. This keeps our Issue tracker and code work clean and up-to-date, and helps project maintainers focus their attention where it is needed.
 
-#### Stale Issues
+#### Stale issues
 
 An Issue is considered to be in a "stale" state when any of the following conditions are met:
 
@@ -170,7 +170,7 @@ An Issue is considered to be in a "stale" state when any of the following condit
 - The question isn't open.
 - Someone has attempted to address the Issue, no with no followup participation from the author.
 
-#### Stale Pull Requests
+#### Stale pull requests
 
 A Pull Request (PR) is considered to be in a "stale" state when the following conditions are met:
 
