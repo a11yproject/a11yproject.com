@@ -144,6 +144,9 @@
 - resource-category: Blogs
   section-id: blogs
   resources:
+    - url: https://www.24a11y.com/
+      title: "24 Accessibility"
+      #description: ""
     - url: http://www.456bereastreet.com/
       title: "456 Berea Street"
       #description: ""
@@ -329,6 +332,9 @@
 - resource-category: Talks (Video)
   section-id: talks
   resources:
+    - url: https://www.youtube.com/c/accessibilitytalks
+      title: "Accessibility Talks"
+      description: "Monthly online talks about accessibility."
     - url: http://www.youtube.com/watch?v=Fe1behOSjdU&list=PLb_ziuDPiUzZkc077IW3_rDcqX1OC8VbV&index=16
       title: "The rock'n'roll guide to ARIA and HTML5"
       description: "Generate Conference (2013)"
