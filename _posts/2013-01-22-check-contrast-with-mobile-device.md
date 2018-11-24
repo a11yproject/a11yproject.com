@@ -3,6 +3,7 @@ title: "Quick test: Check contrast with your mobile device"
 description: "Using an ordinary mobile device you can check your site's readability."
 author: dave_rupert
 layout: post
+last_updated: 2018-11-24
 categories:
     - Quick Tests
 ---
@@ -20,6 +21,8 @@ If you find something difficult to read, you may have found an accessibility iss
 ## Available Tools
 
 - [Check My Colours](http://www.checkmycolours.com/)
+- [Contrast for macOS](https://usecontrast.com/)
 - [WebAIM: Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [Axe: Open Source Library for Web Accessibility Testing](https://www.deque.com/axe/)
 - [Tenon.io](https://tenon.io/)
+- [TPG: Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)
