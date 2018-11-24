@@ -7,9 +7,19 @@ categories:
     - Quick Tests
 ---
 
-Having good contrast and readability are an important part of creating an accessible website. One trick you can do to test whether or not your contrast is sufficient enough is by using your phone or mobile device.
+Having good contrast and readability are an important part of creating an accessible website. 
+
+One trick you can do to test whether or not your contrast is sufficient enough is by using your phone or mobile device.
 
 1. Set the brightness of your mobile device to its lowest setting.
 1. Open up your website on the device and begin browsing around.
+1. Optionally, try viewing your site in direct sunlight.
 
-If you find something difficult to read, congratulations, you may have found an accessibility issue! Take measures to [check and increase the contrast of your text](http://www.checkmycolours.com/).
+If you find something difficult to read, you may have found an accessibility issue! Take measures to check and increase the contrast of your text.
+
+## Available Tools
+
+- [Check My Colours](http://www.checkmycolours.com/)
+- [WebAIM: Color Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [Axe: Open Source Library for Web Accessibility Testing](https://www.deque.com/axe/)
+- [Tenon.io](https://tenon.io/)
