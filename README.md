@@ -16,7 +16,7 @@ The A11Y Project is guided by three principles:
 You can learn about helping this project by reading our [Contributor documentation](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md) and [Content Style Guide](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md). Please familiarize yourself with them before submitting content.
 
 
-## Local Development
+## Local development
 
 ### Requirements
 
