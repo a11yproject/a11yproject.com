@@ -7,9 +7,9 @@ categories:
     - Quick Tests
 ---
 
-People with cognitive disabilities often struggle with reading text on the internet. When writing content, it is important to identify your target audience and write accordingly. 
+People with cognitive disabilities often struggle with reading text on the Internet. When writing content, it is important to identify your target audience and write accordingly. 
 
-If you don't know who your target audience is, target your content towards a reader between the ages of 12 and 15 years old.
+If you don't know who your audience is, target your content towards a reader between the ages of 12 and 15 years old.
 
 Here are some tools to test your content:
 
