@@ -11,11 +11,14 @@
 }
 
 @mixin no-list-style-mixin() {
-    padding-left: 0;
     list-style: none;
+    padding-left: 0;
+
     li:before {
         content: "\200B"; /* add zero-width space */
-        position: absolute; /* makes sure to not interfere with the DOM layout. */
+        position: absolute;
+        /* makes sure to not add extra line breaks
+           prior to the <li>. */
     }
 }
 
@@ -32,6 +35,13 @@
 
         &:last-child {
             margin-right: 0;
+        }
+
+        &:before {
+            content: "\200B"; /* add zero-width space */
+            position: absolute;
+            /* makes sure to not add extra line breaks
+               prior to the <li>. */
         }
     }
 }
