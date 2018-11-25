@@ -92,7 +92,8 @@ $mobile: 24em;
             }
 
             .toc {
-                @include no-list-style-mixin();
+                list-style: none;
+                padding-left: 0;
                 text-align: right;
             }
 
@@ -240,6 +241,10 @@ $mobile: 24em;
         position: absolute;
         top: .25em;
         left: -.625em;
+
+        &:focus {
+            @extend %focus;
+        }
     }
 }
 
