@@ -15,6 +15,7 @@
     list-style: none;
     li:before {
         content: "\200B"; /* add zero-width space */
+        position: absolute; /* makes sure to not interfere with the DOM layout. */
     }
 }
 
