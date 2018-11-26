@@ -135,12 +135,11 @@ em {
     padding: .6em 1.2em .5em;
     text-decoration: none;
     line-height: 1;
-}
 
-.btn:focus {
-    @extend %focus;
+    &:focus {
+        @extend %focus;
+    }
 }
-
 
 .post {
     @extend %row-narrow;

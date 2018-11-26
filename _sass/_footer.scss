@@ -95,6 +95,14 @@
             margin: 0 .6em .6em 0;
         }
 
+        a:focus {
+            outline: none;
+
+            .contributor-avatar {
+                @extend %focus;
+            }
+        }
+
         .contributor-avatar {
             display: block;
             margin: 0 auto;

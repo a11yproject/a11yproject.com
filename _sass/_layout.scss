@@ -240,6 +240,10 @@ $mobile: 24em;
         position: absolute;
         top: .25em;
         left: -.625em;
+
+        &:focus {
+            @extend %focus;
+        }
     }
 }
 
