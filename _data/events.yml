@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Accessibility and Compliance: How to measure digital accessibility"
+      description: "Join part two of our live webinar series on accessibility and compliance.  Glenda Sims, Director of Consulting at Deque Systems, will discuss how organizations can measure accessibility via the Web Content Accessibility Guidelines (WCAG) 2.0 A & AA in order to stay compliant and accessible."
+      url: "https://accessibility.deque.com/accessibility-and-compliance-how-to-measure-digital-accessibility"
+      type: "Webinar"
+      date: 2018-12-11
     - title: "A11y Nottingham Event"
       description: "Do you want to learn how to make what you’re creating accessible and/or just keen to network with other like-minded people looking to make a difference to users with different abilities? <br><br> We will predominantly be covering digital topics to gain as much insight into the technology that is assisting people every day. This will include hints and tips on website accessibility from organisers, HeX Productions. Follow <a href='https://twiter.com/a11yNottingham'>@a11yNottingham</a> for more info."
       url: "https://www.horlix.com/accessibility-nottingham-meet-up/"
