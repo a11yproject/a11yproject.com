@@ -19,15 +19,21 @@ If you know of a method that doesn't require either of these abilities, please u
 
 ## Background
 
-User's with low vision may need to increase the size of text in order to use the page. 
+People with low vision may need to increase the size of text in order to use the page. 
 
-When the user resizes text, any of the following can break the page:
+When someone resizes text, any of the following can break the page:
 
 * text on the page is no longer readable
 * content is lost or truncated
-* functionality or inter
+* interactive elements overlapping each other
 
 ## How To Test
+
+Testing is pretty straight forward.
+
+1. Choose the right browser
+1. Resize text
+1. Check everything
 
 ### Choosing a Browser
 
@@ -37,13 +43,13 @@ Firefox is the best browser for testing [WCAG Resize Text (Success Criterion 1.4
 * It informs you of the current zoom level
 * It's available on all popular Operating Systems
 
-Safari works, but not as well
+Safari works, but not as well:
 
 * Ability to resize text is not obvious
 * Does not display the current zoom level
-* Only available on Mac OS
+* Only available on macOS
 
-Chrome and Edge won't work
+Chrome and Edge won't work:
 
 * Chrome does not support text-only resize up to 200%
 * Edge only supports text-only resize in Reading view
@@ -68,7 +74,7 @@ After resizing text up to 200%, verify the following:
 
 #### Thorough Check
 
-Some users might not need to zoom text up to 200%. And there might be a level of zoom below 200% where content doesn't work.
+Some people might not need to zoom text up to 200%. And there might be a level of zoom below 200% where content doesn't work.
 
 To do a more thorough job, you should check the page at each of the zoom steps the browser makes to see if there are any odd breakpoints.
 
@@ -79,7 +85,7 @@ To do a more thorough job, you should check the page at each of the zoom steps t
 
 ## Can I zoom everything instead of resizing text only?
 
-Without going too deep into the Success Criterion, it does not require you to use text-only zoom. But I think it's still a good idea to make sure that pages work well with text-only zoom since some users may want only the text to be bigger.
+Without going too deep into the Success Criterion, it does not require you to use text-only zoom. But I think it's still a good idea to make sure that pages work well with text-only zoom since some people may want only the text to be bigger.
 
 Practically speaking, I don't think many people know that text-only resizing is available. And that's assuming they're using a browser that supports it. I'd expect most folks that want larger text would use regular browser zooming more often than text-only zooming.
 
