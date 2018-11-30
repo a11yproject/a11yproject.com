@@ -4,9 +4,10 @@
     - title: "Chicago Digital Accessibility and Inclusive Design meetup Lighting Talks"
       description: "The Chicago Digital Accessibility and Inclusive Design meetup presents a Lightning Talk event on Tuesday, December 11th at 6pm CT. <a href='https://www.youtube.com/watch?v=mQbPiv0dAZk'>A live stream will be available</a> for those who can't attend in person."
       url: "https://www.meetup.com/a11ychi/events/256749111/"
-      type: "Regional"
+      type: "Regional and Webinar"
       date: 2018-12-11
       address: "The Nerdery 1033 W Van Buren #700 Chicago, IL"
+      map: "https://www.google.com/maps/search/?api=1&query=41.876230%2C-87.653206"
     - title: "Accessibility and Compliance: How to measure digital accessibility"
       description: "Join part two of our live webinar series on accessibility and compliance.  Glenda Sims, Director of Consulting at Deque Systems, will discuss how organizations can measure accessibility via the Web Content Accessibility Guidelines (WCAG) 2.0 A & AA in order to stay compliant and accessible."
       url: "https://accessibility.deque.com/accessibility-and-compliance-how-to-measure-digital-accessibility"
