@@ -4,29 +4,31 @@ about: Promote a live or digital accessibility event
 
 ---
 
-Please provide the following information to streamline adding your event to the site!
-More details can be found in our [Contributing guidelines](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md#events).
+Please provide the following information to streamline adding your event to the site! Delete this boilerplate or any other information that doesn't apply to your event.
+
+Please review our Contributing guidelines:
+https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md#events
 
 ## Title
-<!-- add the title of your event here -->
+>Add the title of your event here.
 
 ### Description
-<!-- Provide a concise description of your event -->
+>A brief description (2-3 sentences).
 
 ### URL
-<!-- link to the best place for people to sign up for you event. If you have both an information site and a sign up site (like meetup) you can indicate text to link to the informational site in the description -->
+>Link to the best place for people to sign up for you event (for instance your Meetup or Eventbrite page).
 
 ### Date
-<!-- Provide dates in Year / Month / Day, e.g. 20XX-01-01 -->
+>Provide dates in Year / Month / Day, e.g. 20XX-01-01.
 
 ### Type
-<!-- Webinar and/or Regional -->
+>Indicate if the event is a "Webinar" and/or "Regional".
 
-### Address
-<!-- write out the physical address -->
+### Address (if Regional)
+>Physical address of event (if applicable).
 
-### Map
-<!-- provide a direct link to an online map -->
+### Map (optional)
+>Use an online map service to provide a link to your event's physical address.
 
-### hashtag
-<!-- Let people to follow along on social media with a particular hashtag -->
+### Hashtag (optional)
+>Let people follow along on social media with your unique Hashtag.
