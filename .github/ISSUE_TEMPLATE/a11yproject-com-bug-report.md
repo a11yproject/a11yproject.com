@@ -4,6 +4,9 @@ about: Find something that didn't work as you expected on the website?  Let us k
 
 ---
 
+Please review our Contributing guidelines:
+https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md#reporting-issues
+
 ## Summary
 > Brief description of the issue. Please identify specific steps.
 > 
@@ -13,16 +16,16 @@ about: Find something that didn't work as you expected on the website?  Let us k
 > 3. Navigate to ...
 
 ### Expected result
-> What did you expect to happen?
+> Explain what you expected to happen.
 
 ### Actual result
-> What actually happened?
-> Optionally, if applicable, add allowed media (such as screenshots) to help explain the issue.
+> Explain what actually happened.
+> Optionally, upload any screenshots that might help explain the issue.
 
 ### Additional Information
 > To help us try and reproduce the issue, please provide the following information:
 > 1. What device were you using? (laptop, phone, tablet, etc.)
-> 2. OS version.
+> 2. Operating System version.
 > 3. Browser(s) and version(s).
 > 4. Assistive technology used (if applicable)
 
