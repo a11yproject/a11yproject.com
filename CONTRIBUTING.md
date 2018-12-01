@@ -18,9 +18,9 @@ Want to help? Here's how. Please be sure to check our [Content Style Guide](http
     - [Resources](#resources)
     - [Rejection](#rejection)
 1. [Fixing things](#fixing-things)
-    - [Reporting issues](#reporting-issues)
-    - [Submitting pull requests](#submitting-pull-requests)
-    - [Stale issues and pull requests](#stale-issues-and-pull-requests)
+    - [Reporting Issues](#reporting-issues)
+    - [Submitting Pull Requests](#submitting-pull-requests)
+    - [Stale Issues and Pull Requests](#stale-issues-and-pull-requests)
     - [Labels](#labels)
 1. [License](#license)
 
@@ -107,14 +107,14 @@ Once both the project maintainers and author are satisfied with the article, it 
 
 ### Events
 
-Have an accessibility-themed event you would like to promote? There are two ways you can get your event added to the project: Either [create a new Issue](https://github.com/a11yproject/a11yproject.com/issues/new), or [edit the `events.yml` file](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/events.yml) directly and submit a Pull Request.
+Have an accessibility-themed event you would like to promote? There are two ways you can get your event added to the project: Either [create a new event Issue](https://github.com/a11yproject/a11yproject.com/issues/new?template=request-to-add-an-event.md), or [edit the `events.yml` file](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/events.yml) directly and submit a Pull Request.
 
 Events can either be Regional (in-person), or Webinars (online). You'll want to add the following information about your event:
 
 - Event title.
 - A brief description (2-3 sentences).
 - Web address (URL) for more info.
-- Event type (Regional or Webinar).
+- Event type (Regional or Webinar or both).
 - Social Media Hashtag (if applicable).
 - Date the event is occurring (yyyy-mm-dd).
 - Physical address of event (if applicable).
@@ -139,11 +139,11 @@ Project maintainers may elect to not accept your submitted content if they feel 
 
 ## Fixing things
 
-### Reporting issues
+### Reporting Issues
 
 Have you noticed something inaccurate or inaccessible? You can help make it better!
 
-1. File an [Issue](https://github.com/a11yproject/a11yproject.com/issues).
+1. File an [Issue](https://github.com/a11yproject/a11yproject.com/issues/new?template=a11yproject-com-bug-report.md).
 1. Preface your Issue title as an:
     - `Inaccuracy` for incorrect or inaccurate information (e.g. "Inaccuracy: Visually hidden CSS missing property declaration").
     - `Inaccessibility` for an accessibility issue (e.g. "Inaccessibility: Low contrast link color").
@@ -151,17 +151,22 @@ Have you noticed something inaccurate or inaccessible? You can help make it bett
 
 **Issues are not to be used for free accessibility help**. Project maintainers may close reported Issues at their discretion.
 
-### Submitting pull requests
+### Submitting Pull Requests
 
-Creating a descriptive Issue and assigning it to yourself before you send your Pull Request will help get it accepted. It will provide a better understanding of what your request entails and why it was made. It also helps to link the Issue to the Pull Request and vice-versa (eg. "This Pull Request addresses Issue XX").
+Creating a descriptive [Issue](https://github.com/a11yproject/a11yproject.com/issues/new/choose) and assigning it to yourself before you send your Pull Request will help get it accepted. It will provide a better understanding of what your request entails and why it was made. It also helps to link the Issue to the Pull Request and vice-versa (eg. "This Pull Request addresses Issue XX").
 
 Project maintainers may reject Pull Requests at their discretion.
 
-### Stale issues and pull requests
+When submitting your Pull Request, please include the text "closes" or "fixes" and then the issue number.   
+For example:  
+> Fixes #101. 
+This will help us automatically close the issue upon merging the Pull Request!
+
+### Stale Issues and Pull Requests
 
 Project maintainers will close Issues and Pull Requests if they become stale, leaving a note for the author as to why. This keeps our Issue tracker and code work clean and up-to-date, and helps project maintainers focus their attention where it is needed.
 
-#### Stale issues
+#### Stale Issues
 
 An Issue is considered to be in a "stale" state when any of the following conditions are met:
 
@@ -170,7 +175,7 @@ An Issue is considered to be in a "stale" state when any of the following condit
 - The question isn't open.
 - Someone has attempted to address the Issue, no with no followup participation from the author.
 
-#### Stale pull requests
+#### Stale Pull Requests
 
 A Pull Request (PR) is considered to be in a "stale" state when the following conditions are met:
 
