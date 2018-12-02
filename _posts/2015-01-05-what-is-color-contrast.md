@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is Color Contrast?"
+title: "What is color contrast?"
 description: "What is color contrast and why do we need it for web accessibility?"
 author: rachel_vasquez
 updated_by: emily_lane
@@ -10,9 +10,9 @@ categories:
   - Background
 ---
 
-## Color Theory
+## Color theory
 
-Contrasting colors, also known as [complementary colors](https://en.wikipedia.org/wiki/Complementary_colors), are colors from opposing segments of the color wheel. Colors that are directly across from one another on a basic color wheel provide maximum contrast.  
+Contrasting colors, also known as [complementary colors](https://en.wikipedia.org/wiki/Complementary_colors), are colors from opposing segments of the color wheel. Colors that are directly across from one another on a basic color wheel provide maximum contrast.
 
 Oftentimes companies implement complementary colors to provide the most contrast in their brand. The IKEA logo uses blue and gold, which are direct opposites on the color wheel, as does the FedEx logo. These allow for maximum recognizability and readability, the latter of which is especially important for web accessibility.
 
@@ -20,7 +20,7 @@ Oftentimes companies implement complementary colors to provide the most contrast
 
 On the web, the use of complementary colors is about finding shades that provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](https://a11yproject.com/posts/understanding-visual-impairment/). This doesn't mean colors should only be limited to contrasting colors, but instead that care should be taken to ensure a level of contrast in body text, logos, and essential diagrams or other pieces of content. There are a number of tools to help designers and developers check color contrast, including these listed below:
 
-**Color Contrast Tools**
+**Color contrast tools**
 
 - [Tanaguru Contrast Finder](http://contrast-finder.tanaguru.com/)
 - [Contrast Ratio by Lea Verou](http://leaverou.github.io/contrast-ratio/)
@@ -40,7 +40,7 @@ Aside from using color contrast tools to determine your site's colors, there are
 - Steer clear of text-based images and use text wherever possible. If that's not possible, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](https://a11yproject.com/posts/alt-text/).
 - Ensure that your placeholders in forms also have valid color contrast.
 
-## Further Reading:
+## Further reading:
 
 - [Contrasting Colors](https://www.lifewire.com/contrasting-colors-in-design-1078274) by lifewire.com
 - [The Contrast Minimum](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) by W3C

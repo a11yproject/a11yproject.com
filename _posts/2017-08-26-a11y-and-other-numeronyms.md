@@ -11,7 +11,7 @@ categories:
 ---
 You may have seen "a11y" used as a [hash tag on Twitter](https://twitter.com/search?q=%23a11y), or used in a comment, article, used in a comment thread, or written in an article. Since you're reading this right now, you've likely seen it in the name of a certain website about accessibility. ahem... But if you're unfamiliar with the term "[numeronym](https://en.wikipedia.org/wiki/Numeronym)", you may not have realized that a11y isn't just a hash tag, nor is it a hip way to spell <em>ally</em>. Rather a11y is a shorthand for <em>accessibility</em>.
 
-## How Numeronyms work
+## How numeronyms work
 
 Unlike [abbreviations](https://en.wikipedia.org/wiki/Abbreviation) like FYI (<i>for your information</i>), and PC (<i>personal computer</i>), or [acronyms](https://en.wikipedia.org/wiki/Acronym) like HTML (<i>hypertext markup language</i>), and JAWS (<i>Job Access With Speech</i>), numeronyms are number-based words. And while you may not be familiar with the term "numeronym" itself, you've likely used them throughout your life.
 

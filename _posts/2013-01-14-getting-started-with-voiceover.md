@@ -16,7 +16,7 @@ Turning on VoiceOver enables a number of navigational key commands, all of which
 
 To start out, try turning on VoiceOver with ⌘-F5, then use VO-F8 to open VoiceOver’s preferences window—here you can adjust things like the voice used, speaking speed, and under “web”: your navigation method.
 
-## Navigation Modes
+## Navigation modes
 
 There are two modes you can use when navigating with VoiceOver: by “grouping items” or by “DOM order.” These two methods allow you to interact with a page’s content in slightly different ways.
 
@@ -24,7 +24,7 @@ There are two modes you can use when navigating with VoiceOver: by “grouping i
 
 *DOM Order* will flag that you are entering a list of items, and  drill down into those items automatically. This mode is based entirely on the page’s underlying markup. Navigating by DOM order allows you to shift focus between DOM elements with the left and right arrow keys. The up and down arrow keys are based on the last used navigation method in the “Web Item Rotor.”
 
-## The Web Item Rotor ##
+## The Web Item rotor ##
 
 <img src="/img/rotor.png" alt="Screenshot of OS X VoiceOver’s Web Item Rotor listing navigational headings on a11yproject.com">
 

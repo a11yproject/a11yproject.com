@@ -31,17 +31,17 @@ It is also recommended that you [add space between large interactive elements](h
 
 ## How to test
 
-To determine the CSS pixel size of an interactive element, use a browser's Inspector feature to check it's computed value. 
+To determine the CSS pixel size of an interactive element, use a browser's Inspector feature to check it's computed value.
 
-Two common methods to open a browser's Inspector panel are typing <kbd>Command/Control</kbd> + <kbd>Option</kbd> + <kbd>i</kbd> on your keyboard, or by right clicking on an element on your page and choosing the Inspect option. 
+Two common methods to open a browser's Inspector panel are typing <kbd>Command/Control</kbd> + <kbd>Option</kbd> + <kbd>i</kbd> on your keyboard, or by right clicking on an element on your page and choosing the Inspect option.
 
 If you right click on the interactive element you want to test, it will automatically be highlighted when you choose the Inspect option in the right click menu. For most browsers, this method of selecting an element will also display its CSS pixel height and width:
 
 ![Chrome's inspector highlighting the height and width of Wikipedia's logo, which serves as a link back to the Wikipedia homepage. The logo's computed size is 160 by 160 CSS pixels. The inspector also has the code for the logo highlighted, as well as its computed properties. Screenshot.](/img/posts/2018-11-21-large-touch-targets/touch-target-inspector.png)
 
-The inspector also has a Computed panel. It will display the selected element's `height` and `width` values, as well as an alphabetical list of the other computed CSS properties. This can be good for checking how the browser ultimately renders your site's CSS.  
+The inspector also has a Computed panel. It will display the selected element's `height` and `width` values, as well as an alphabetical list of the other computed CSS properties. This can be good for checking how the browser ultimately renders your site's CSS.
 
-## Further Reading
+## Further reading
 
 - [Understanding pixels and other CSS units: On CSS pixels, physical units and scalability · WebPlatform Docs](https://webplatform.github.io/docs/tutorials/understanding-css-units/#On-CSS-pixels,-physical-units-and-scalability)
 - [Exploring WCAG 2.1 — 2.5.5 Target Size — Knowbility](https://knowbility.org/blog/2018/WCAG21-255TargetSize/)

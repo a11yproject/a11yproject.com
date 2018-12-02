@@ -9,7 +9,7 @@ categories:
   - Quick Tips
 ---
 
-### The Difficulty in Removing CSS Outlines
+### The difficulty in removing CSS outlines
 
 Removing outlines in CSS creates issues for people navigating the web with a keyboard. Using the CSS rule `:focus { outline: none; }` to remove an outline on an object causes the link or control to be focusable, but removes any visible indication of focus for keyboard users. Methods to remove it such as `onfocus="blur()"` result in keyboard users being unable to interact with the link or control.
 
