@@ -46,7 +46,7 @@ In the above CSS, each selector for placeholder text needs to be seperate in the
 
 Once we have sufficient color contrast in our placeholders, placeholders can be used in addition to labels. Here are two examples of forms where placeholders are used with labels to maintain accessibility.
 
-**Explicit Labeling:**
+**Explicit labeling:**
 {% highlight html %}
 <form>
   <label for="your-name">
@@ -57,7 +57,7 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
 </form>
 {% endhighlight %}
 
-**Implicit & Explicit Labeling Combined:**
+**Implicit & explicit labeling combined:**
 {% highlight html %}
 <form>
   <label for="your-name">

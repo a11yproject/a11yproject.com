@@ -27,7 +27,7 @@ It is not enough to simply tab through a webpage from start to end. While naviga
 - Focus should move between elements as they appear on the page and not jump back and forth.
 - There should be a way to skip past lengthy spans of content, like global navigation menus. See article: ["How–to: Use Skip Navigation links"](https://a11yproject.com/posts/skip-nav-links/).
 
-## Further Reading
+## Further reading
 1. [WebAIM - Keyboard Accessibility](https://webaim.org/techniques/keyboard/)
 2. [Nielsen Norman Group - Keyboard-Only Navigation for Improved Accessibility](https://www.nngroup.com/articles/keyboard-accessibility/)
 3. [User Testing - Why Keyboard Usability Is More Important Than You Think](https://www.usertesting.com/blog/why-keyboard-usability-is-more-important-than-you-think/)

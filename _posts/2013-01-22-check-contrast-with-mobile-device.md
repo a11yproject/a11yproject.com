@@ -8,7 +8,7 @@ categories:
     - Quick Tests
 ---
 
-Having good contrast and readability are an important part of creating an accessible website. 
+Having good contrast and readability are an important part of creating an accessible website.
 
 One trick you can do to test whether or not your contrast is sufficient enough is by using your phone or mobile device.
 
@@ -18,7 +18,7 @@ One trick you can do to test whether or not your contrast is sufficient enough i
 
 If you find something difficult to read, you may have found an accessibility issue! Take measures to check and increase the contrast of your text.
 
-## Available Tools
+## Available tools
 
 - [Check My Colours](http://www.checkmycolours.com/)
 - [Contrast for macOS](https://usecontrast.com/)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ARIA Properties
+title: ARIA properties
 description: A quick introduction to ARIA's properties.
 author: alex_brenon
 categories:

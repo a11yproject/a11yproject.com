@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A primer to Vestibular Disorders"
+title: "A primer to vestibular disorders"
 description: "Key facts, definitions, demographics and causes of vestibular disorders."
 author: gray_ghost
 published: true
@@ -28,5 +28,5 @@ The cause may be from illness, injury, or from a genetic anomaly but anyone can 
 
 Don't make animations, sliders, or rapid movement start automatically. Give an indicator of what movement will happen on the site when a user takes action. Allow the user the option to turn off any animation and movement.
 
-## Additional Reading
+## Additional reading
 - [Designing Safer Web Animation For Motion Sensitivity](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) - by Val Head _September 8th, 2015_

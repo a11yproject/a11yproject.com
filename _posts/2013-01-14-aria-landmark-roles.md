@@ -51,7 +51,7 @@ Implementing landmarks in your documents is a straight forward process. Simply a
 ```
 
 
-## HTML5 Implicit Mappings of Landmark Roles
+## HTML5 implicit mappings of Landmark roles
 Before you start adding <abbr>ARIA</abbr> roles to your HTML elements, you should be aware that many of these landmarks will be natively conveyed by proper HTML usage. For example, the following markup snippet will produce a warning in modern HTML and accessibility automated checkers:
 
 ```
