@@ -262,10 +262,10 @@
       description: "Access & Use shows what it needs to make dynamic elements in websites accessible and usable for all."
     - url: https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8
       title: "Are you accessible?  —  A Primer on Web Accessibility"
-      description: "Accessibility of the world wide web hasn’t always been a number one priority for web developers (much to detriment of internet users). Whilst very few people set out to design a website that is inaccessible, many studies have documented partially or completely inaccessible websites."
+      description: "by Amy Dickens"
     - url: https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope
       title: "The Web Accessibility Introduction I Wish I Had"
-      description: "Hello again, past self. I'm sending you another message from a future where it's finally getting colder, you got the guts to go to therapy, and that thing under the floorboards somehow escaped."
+      description: "by Max Antonucci"
 
 - resource-category: Professional Help
   section-id: professional-help
