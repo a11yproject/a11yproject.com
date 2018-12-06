@@ -56,9 +56,9 @@
     - url: https://www.apple.com/accessibility/mac/vision/
       title: "VoiceOver"
       description: "By Apple, Desktop System App (Mac)"
-    - url: https://support.google.com/accessibility/android/answer/6283677?hl=en
-      title: "TalkBack"
-      description: "By Google, Android App"
+    - url: https://knowbility.org/blog/2018/keyboard-testing-basics/
+      title: "Keyboard Testing Basics"
+      description: "By Knowbility"
 
 - resource-category: HTML Related
   section-id: html-related
@@ -144,6 +144,9 @@
 - resource-category: Blogs
   section-id: blogs
   resources:
+    - url: https://www.24a11y.com/
+      title: "24 Accessibility"
+      #description: ""
     - url: http://www.456bereastreet.com/
       title: "456 Berea Street"
       #description: ""
@@ -254,6 +257,15 @@
     - url: https://accessibility.digital.gov/
       title: "Accessibility for Teams"
       description: "by Digital.gov"
+    - url: https://accessuse.eu/en/
+      title: "Access & Use"
+      description: "Access & Use shows what it needs to make dynamic elements in websites accessible and usable for all."
+    - url: https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8
+      title: "Are you accessible?  —  A Primer on Web Accessibility"
+      description: "by Amy Dickens"
+    - url: https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope
+      title: "The Web Accessibility Introduction I Wish I Had"
+      description: "by Max Antonucci"
 
 - resource-category: Professional Help
   section-id: professional-help
@@ -326,6 +338,9 @@
 - resource-category: Talks (Video)
   section-id: talks
   resources:
+    - url: https://www.youtube.com/c/accessibilitytalks
+      title: "Accessibility Talks"
+      description: "Monthly online talks about accessibility."
     - url: http://www.youtube.com/watch?v=Fe1behOSjdU&list=PLb_ziuDPiUzZkc077IW3_rDcqX1OC8VbV&index=16
       title: "The rock'n'roll guide to ARIA and HTML5"
       description: "Generate Conference (2013)"

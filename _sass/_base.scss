@@ -10,9 +10,20 @@
     text-align: center;
 }
 
-%no-list-style {
-    padding-left: 0;
+@mixin no-list-style-mixin() {
     list-style: none;
+    padding-left: 0;
+
+    li:before {
+        content: "\200B"; /* add zero-width space */
+        position: absolute;
+        /* makes sure to not add extra line breaks
+           prior to the <li>. */
+    }
+}
+
+%no-list-style {
+    @include no-list-style-mixin();
 }
 
 .inline-list {
@@ -24,6 +35,13 @@
 
         &:last-child {
             margin-right: 0;
+        }
+
+        &:before {
+            content: "\200B"; /* add zero-width space */
+            position: absolute;
+            /* makes sure to not add extra line breaks
+               prior to the <li>. */
         }
     }
 }

@@ -92,8 +92,7 @@ $mobile: 24em;
             }
 
             .toc {
-                list-style: none;
-                padding-left: 0;
+                @include no-list-style-mixin();
                 text-align: right;
             }
 

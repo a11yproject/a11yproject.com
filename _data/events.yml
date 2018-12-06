@@ -1,6 +1,68 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Chicago Digital Accessibility and Inclusive Design meetup Lighting Talks"
+      description: "The Chicago Digital Accessibility and Inclusive Design meetup presents a Lightning Talk event on Tuesday, December 11th at 6pm CT. <a href='https://www.youtube.com/watch?v=mQbPiv0dAZk'>A live stream will be available</a> for those who can't attend in person."
+      url: "https://www.meetup.com/a11ychi/events/256749111/"
+      type: "Regional and Webinar"
+      date: 2018-12-11
+      address: "The Nerdery 1033 W Van Buren #700 Chicago, IL"
+      map: "https://www.google.com/maps/search/?api=1&query=41.876230%2C-87.653206"
+    - title: "Accessibility and Compliance: How to measure digital accessibility"
+      description: "Join part two of our live webinar series on accessibility and compliance.  Glenda Sims, Director of Consulting at Deque Systems, will discuss how organizations can measure accessibility via the Web Content Accessibility Guidelines (WCAG) 2.0 A & AA in order to stay compliant and accessible."
+      url: "https://accessibility.deque.com/accessibility-and-compliance-how-to-measure-digital-accessibility"
+      type: "Webinar"
+      date: 2018-12-11
+    - title: "A11y Nottingham Event"
+      description: "Do you want to learn how to make what you’re creating accessible and/or just keen to network with other like-minded people looking to make a difference to users with different abilities? <br><br> We will predominantly be covering digital topics to gain as much insight into the technology that is assisting people every day. This will include hints and tips on website accessibility from organisers, HeX Productions. Follow <a href='https://twiter.com/a11yNottingham'>@a11yNottingham</a> for more info."
+      url: "https://www.horlix.com/accessibility-nottingham-meet-up/"
+      type: "Regional"
+      date: 2018-12-10
+      address: "Nottingham City Centre, United Kingdom"
+      map: "https://www.google.com/maps/search/Nottingham+City+Centre,+United+Kingdom/"
+      hashtag: "Nottingham"
+    - title: "Applying Accessibility Heuristics to a Wireframe: Part 3"
+      description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Thursday, December 6th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
+      url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-part-3"
+      type: "Webinar"
+      date: 2018-12-06
+    - title: "Inspirational stories of strength building and sustainable lifestyles for people with disabilities"
+      description: "To commemorate International Persons with Disabilities Day, Deque is proud to partner with Adaptive Training Foundation and their athletes for this virtual panel.<p>The theme for this year's International Persons With Disabilities Day (IDPD) is 'Empowering persons with disabilities and ensuring inclusiveness and equality. Persons with disabilities, as both beneficiaries and agents of change, can fast track the process towards inclusive and sustainable development and promote a resilient society for all.</p>"
+      url: "https://accessibility.deque.com/inspirational-stories-people-with-disabilities"
+      type: "Webinar"
+      date: 2018-12-03
+    - title: "Virtual Panel: Inclusion and equality for people with disabilities in education and employment"
+      description: "To commemorate International Persons with Disabilities Day, our panelists will discuss the experiences they've had in academic institutions and while seeking employment. This webinar is intended to create awareness common barriers, opportunities, or resources for people with disabilities encounter at academic institutions or while seeking employment. This panel is a great introduction for people who are new to accessibility but want to learn more."
+      url: "https://accessibility.deque.com/inclusion-for-people-with-disabilities-education-employment"
+      type: "Webinar"
+      date: 2018-12-03
+    - title: "Automated Accessibility Testing with Attest for Android"
+      description: "This webinar is intended to teach developers how they can now trial Attest for Android for free and utilize the limited functionality framework in their own build. Our mobile accessibility expert, Chris McMeeking, will demonstrate how developers will now be able to trial Attest for Android simulator right on their desktops without having to request a demo."
+      url: "https://accessibility.deque.com/automated-accessibility-testing-attest-for-android"
+      type: "Webinar"
+      date: 2018-11-29
+    - title: "Accessibility and Compliance: Current Legal Landscape"
+      description: "Teresa L. Jakubowski, partner at Barnes & Thornburg LLP, will discuss the current litigation landscape for website accessibility. Teresa chairs the firm’s Accessibility and Disability Law Practice. Find out more about current trends in case decisions and claims involving web and digital accessibility."
+      url: "https://accessibility.deque.com/accessibility-and-compliance-current-legal-landscape"
+      type: "Webinar"
+      date: 2018-11-27
+    - title: "Applying Accessibility Heuristics to a Wireframe: Part 2"
+      description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Tuesday, November 20th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
+      url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-0"
+      type: "Webinar"
+      date: 2018-11-20
+    - title: "Applying Accessibility Heuristics to a Wireframe: Part 1"
+      description: "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on November 8th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session."
+      url: "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe"
+      type: "Webinar"
+      date: 2018-11-08
+    - title: "A11y Meetup Munich #1"
+      description: "We’re extremely happy to invite you to our first meetup! As the interest about digital accessibility is growing strong in Munich, we want to bring the community together and organise regular meetings to network and share knowledge. Topic for this meetup: How to build accessible components."
+      url: "https://www.meetup.com/Munich-Accessibility-Meetup/events/255477733/"
+      type: "Regional"
+      date: 2018-10-30
+      address: "Riesstraße 24, 80992 München, Germany"
+      map: "https://goo.gl/maps/DmnRnULDN9A2"
     - title: "a11ybos 2018"
       description: "The Boston event is a combination of “unconference” and “conference”. While we schedule some sessions in advance, we also make slots available for people who want to present a session or moderate a discussion."
       url: "http://a11y-bos.org/"
@@ -15,11 +77,11 @@
       type: "Webinar"
       date: 2018-10-26
     - title: "A11Y Talks (September 2018) - Love Thy Keyboard"
-      description: "Sarbbottam is a frontend engineer, working in the web space for more than 14 years, currently at LinkedIn. He had been part of LinkedIn's core accessibility team, focusing primarily on web accessibility. He has been involved with web accessibility since his Yahoo days. Keyboard accessibility is extremely critical, as many assistive devices emulate the keyboard. Using semantic HTML one can achieve accessible UI with less code than non-semantic markup. Along with Semantic HTML, by managing and guiding focus, developing an accessible UI is not difficult, rather easy. Semantic HTML plays an important role in Accessibility as well as SEO. Though we are aware of it, it's often overlooked. This presentation will share the trade-offs of using semantic vs non-semantic markup with an everyday example and how to manage and guide focus. It's a brief presentation emphasizing the various aspect of keyboard accessibility. Last but not the least a brief introduction to WAI-ARIA..<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#A11yTalks</a> on Twitter! Use the following link to join the event: <a href='http://bit.ly/A11yTalksSept2018'>http://bit.ly/A11yTalksSept2018</a> Please note the link will not be activated until the day/time of the event."
+      description: "Sarbbottam is a frontend engineer, working in the web space for more than 14 years, currently at LinkedIn. He had been part of LinkedIn's core accessibility team, focusing primarily on web accessibility. He has been involved with web accessibility since his Yahoo days. Keyboard accessibility is extremely critical, as many assistive devices emulate the keyboard. Using semantic HTML one can achieve accessible UI with less code than non-semantic markup. Along with Semantic HTML, by managing and guiding focus, developing an accessible UI is not difficult, rather easy. Semantic HTML plays an important role in Accessibility as well as SEO. Though we are aware of it, it's often overlooked. This presentation will share the trade-offs of using semantic vs non-semantic markup with an everyday example and how to manage and guide focus. It's a brief presentation emphasizing the various aspect of keyboard accessibility. Last but not the least a brief introduction to WAI-ARIA.<br><br>If you have any questions for our speakers please use the hashtag <a href='https://twitter.com/search?q=a11ytalks&src=typd'>#A11yTalks</a> on Twitter! Use the following link to join the event: <a href='http://bit.ly/A11yTalksSept2018'>http://bit.ly/A11yTalksSept2018</a> Please note the link will not be activated until the day/time of the event."
       url: "https://groups.drupal.org/node/534258"
       type: "Webinar"
       date: 2018-09-25
-      hashtag: "A11yTalks"      
+      hashtag: "A11yTalks"
     - title: "Intro to Talkback and Android Accessibility"
       description: "Our Mobile Developer and A11y Expert, Chris McMeeking, will walk you through how to navigate and test for accessibility with Talkback."
       url: "https://accessibility.deque.com/intro-to-talkback-and-native-android-accessibility"
@@ -341,7 +403,7 @@
       description: "U.S. federal government entities must comply with the disability accessibility guidelines in Section 508 when creating or purchasing information technology (IT). The purpose is to increase opportunities and quality of life for people with disabilities. But what does compliance really mean, and how do you achieve it? Join Karina Boycheva and Lora Budzier as they give an overview of the logic behind Section 508, its web accessibility requirements in light of the incorporation of the internationally-recognized Web Content Accessibility Guidelines (WCAG), and some strategies for managing the process."
       url: "https://accessibility.deque.com/section-508-wcag-and-the-federal-government"
       type: "Webinar"
-      date: 2018-08-21     
+      date: 2018-08-21
     - title: "A11y Camp Melbourne"
       description: "A11y Camp is about creating a digital world with no barriers, and is Australia’s largest event for professionals interested in digital accessibility and inclusive design. This year it takes place in Melbourne from 17-19 October 2018, comprising two days of workshops with leading international and Australian accessibility practitioners, plus a one-day conference with two streams of talks on implementing accessibility. Registration is now open (Early Bird until 17 August)."
       url: "http://a11ycamp.org.au/"

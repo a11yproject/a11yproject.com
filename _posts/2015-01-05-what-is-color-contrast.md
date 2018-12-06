@@ -3,42 +3,44 @@ layout: post
 title: "What is color contrast?"
 description: "What is color contrast and why do we need it for web accessibility?"
 author: rachel_vasquez
+updated_by: emily_lane
+last_updated: 2018-11-17
 published: true
 categories:
   - Background
 ---
 
-## Color Theory
+## Color theory
 
-Colors from different segments of the color wheel are contrasting colors. In color theory, [complementary colors](https://en.wikipedia.org/wiki/Complementary_colors) (or "opposite" colors) that are directly across from one another on a basic color wheel provide maximum contrast. This means they stand out from one another the strongest compared to being paired with other colors. Complementary colors are two colors that cancel one another out and produce a white/gray-scale color.
+Contrasting colors, also known as [complementary colors](https://en.wikipedia.org/wiki/Complementary_colors), are colors from opposing segments of the color wheel. Colors that are directly across from one another on a basic color wheel provide maximum contrast.
 
-Oftentimes companies implement complementary colors to provide the most contrast in their brand. Examples in the wild are the Laker's logo that uses purple and yellow or the Knick's logo that uses blue and orange. Purple and yellow are on opposite sides of the color wheel from each other. So are orange and blue. You may also see complementary colors during the end of the year holidays - as red and green are also complementary to one another.
+Oftentimes companies implement complementary colors to provide the most contrast in their brand. The IKEA logo uses blue and gold, which are direct opposites on the color wheel, as does the FedEx logo. These allow for maximum recognizability and readability, the latter of which is especially important for web accessibility.
 
 ## What does this mean for web accessibility?
 
-On the web, color contrast is about finding colors that not only provide maximum contrast, but provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](https://a11yproject.com/posts/understanding-visual-impairment/). This doesn't mean you have to limit your colors to complementary colors as we just talked about - but the contrast should be kept in mind all the same. The text and non-decorative images need to be clearly legible for everyone regardless of whether they have moderately low vision or color deficiencies. We can check colors for contrast by using one of many contrast tools online. There are more you can find, but here's a list to get you started:
+On the web, the use of complementary colors is about finding shades that provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](https://a11yproject.com/posts/understanding-visual-impairment/). This doesn't mean colors should only be limited to contrasting colors, but instead that care should be taken to ensure a level of contrast in body text, logos, and essential diagrams or other pieces of content. There are a number of tools to help designers and developers check color contrast, including these listed below:
 
-**Color Contrast Tools**
+**Color contrast tools**
 
 - [Tanaguru Contrast Finder](http://contrast-finder.tanaguru.com/)
 - [Contrast Ratio by Lea Verou](http://leaverou.github.io/contrast-ratio/)
 - [Colour Contrast Analyzer by Paciello Group](https://developer.paciellogroup.com/resources/contrastanalyser/)
 - [Color Contrast Checker by WebAIM](https://webaim.org/resources/contrastchecker/)
 
-What these tools do once you provide colors for testing is check them against a contrast ratio. A contrast ratio of 3:1 is the minimum standard for text and vision. For those with visual impairments however, the contrast ratio standard is 4.5:1. The standard ratios differ depending on the vision loss or color deficiency. There's a link to W3C's article at the end of this called "The Contrast Minimum" that explains how these ratios are calculated. The gist of it is that our colors need to fall into these ratios. These ratios have "grades" or what are known as "levels of conformance". Levels of conformance are the requirements you've satisfied. So the more requirements you've met, in our case with contrast, the higher our "grade" or level of conformance will be. The higher, the better. The highest we can reach is AAA. The contrast ratio to reach that level is 7:1.
+These tools test your colors against a contrast ratio. A contrast ratio of 4.5:1 is the minimum Web Content Accessibility Guideline (WCAG) 2 standard for regular sized text. For more information on how these ratios are calculated, there is a link to an article by W3C called "The Contrast Minimum" included in the Further Reading section following the article.
 
-W3C states that it's not always possible to reach the AAA level of conformance across entire sites. So the goal is to get the highest level you can where it counts.
+The level to which a pair of colors are contrasted is measured with a grade system, known as "levels of conformance". The highest attainable grade is AAA, which requires a 7:1 contrast ratio. W3C states that because it is not always possible to reach the AAA level of conformance across entire sites, the goal is to get the highest level in crucial areas across a site, such as headlines and body text.
 
 ## What else can we do?
 
 Aside from using color contrast tools to determine your site's colors, there are some other ways you can keep your site's contrast in mind:
 
 - The larger the font and wider the stroke, the more legible it will be with lower contrast. Therefore the contrast requirement for larger font is lower. W3C recommends starting at 18pt regular weight or 14pt bold text.
-- Provide tools for users to adjust the foreground and background colors of your site on the front-end. This is especially helpful for users that need to either switch to a low contrast or a high contrast mode. This gives them more control over the contrast ratio and covers everyone using your site regardless of what kind of vision loss or color deficiency they have.
-- Steer clear of text-based images and use text wherever possible. If not, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](https://a11yproject.com/posts/alt-text/).
+- Provide tools for users to adjust the foreground and background colors of your site on the front end. This is especially helpful for people that need to either switch to a low contrast or a high contrast mode. This gives them more control over the contrast ratio and covers everyone using your site regardless of what kind of vision loss or color deficiency they have.
+- Steer clear of text-based images and use text wherever possible. If that's not possible, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](https://a11yproject.com/posts/alt-text/).
 - Ensure that your placeholders in forms also have valid color contrast.
 
-## Further Reading:
+## Further reading:
 
 - [Contrasting Colors](https://www.lifewire.com/contrasting-colors-in-design-1078274) by lifewire.com
 - [The Contrast Minimum](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) by W3C

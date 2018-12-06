@@ -8,7 +8,10 @@ author: guilherme_simoes
 categories:
   - Quick Tips
 ---
-Use of the rule `:focus { outline: none; }` to remove an outline results in the link or control being focusable but with no visible indication of focus for keyboard users. Even worse, methods to remove it such as `onfocus="blur()"` result in keyboard users being unable to interact with the link or control.
+
+### The difficulty in removing CSS outlines
+
+Removing outlines in CSS creates issues for people navigating the web with a keyboard. Using the CSS rule `:focus { outline: none; }` to remove an outline on an object causes the link or control to be focusable, but removes any visible indication of focus for keyboard users. Methods to remove it such as `onfocus="blur()"` result in keyboard users being unable to interact with the link or control.
 
 If you do not like the default focus outline that is displayed when a user clicks on an interactive element, you have 3 accessible solutions:
 

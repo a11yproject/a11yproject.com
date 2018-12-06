@@ -35,12 +35,16 @@
       title: "Simple Responsive Tabs (Vanilla JS)"
     - url: "https://github.com/scottaohara/accessible_accordions"
       title: "Accessible Accordions (progressively enhanced Vanilla JS)"
+    - url: "https://github.com/scottaohara/a11y_tab_widget"
+      title: "Accessible Tab Widgets (progressively enhanced Vanilla JS)"
 
 - pattern-category: Forms
   section-id: forms
   patterns:
     - url: "https://codepen.io/svinkle/pen/NvazGb"
       title: "Accessible Floating Labels"
+    - url: "https://scottaohara.github.io/a11y_styled_form_controls/"
+      title: "A11y Styled Form Controls: from checkboxes and radios, to toggle buttons and range sliders"
 
 - pattern-category: Buttons
   section-id: buttons
@@ -72,7 +76,7 @@
     - url: "https://codepen.io/BeyondHyper/pen/NREjpP"
       title: "The Incredible Accessible Modal Window, Version 4"
     - url: "https://github.com/scottaohara/accessible_modal_window"
-      title: "Accessible Modal Window (jQuery)"
+      title: "Accessible Modal Dialogs"
     - url: "https://codepen.io/svinkle/pen/pjVepz"
       title: "Launchy: An Accessible Modal Window"
 
@@ -81,6 +85,8 @@
   patterns:
     - url: "https://codepen.io/svinkle/pen/zmlEi"
       title: "Simple Data Table"
+    - url: "https://codepen.io/svinkle/pen/WYvxGQ"
+      title: "Simple ARIA Data Table"
 
 - pattern-category: Tooltips
   section-id: tooltips
@@ -111,5 +117,5 @@
       title: "Content Touch Target"
     - url: "https://codepen.io/dpersing/pen/vJERyv"
       title: "High Contrast-friendly dropshadow"
-    - url: "https://github.com/scottaohara/a11y_breadcrumbs"
+    - url: "https://scottaohara.github.io/a11y_breadcrumbs/"
       title: "Accessible Breadcrumb Navigation Pattern"

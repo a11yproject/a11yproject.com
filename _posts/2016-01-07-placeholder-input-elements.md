@@ -3,7 +3,9 @@ layout: post
 title: "How-to: Use <code>placeholder</code> attributes"
 description: "How-to use placeholders on input elements."
 author: rachel_vasquez
-last_updated: 2016-01-07
+date: 2016-01-07
+updated_by: scott_ohara
+last_updated: 2018-07-22
 categories:
   - How-tos
 ---
@@ -44,7 +46,7 @@ In the above CSS, each selector for placeholder text needs to be seperate in the
 
 Once we have sufficient color contrast in our placeholders, placeholders can be used in addition to labels. Here are two examples of forms where placeholders are used with labels to maintain accessibility.
 
-**Explicit Labeling:**
+**Explicit labeling:**
 {% highlight html %}
 <form>
   <label for="your-name">
@@ -55,7 +57,7 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
 </form>
 {% endhighlight %}
 
-**Implicit & Explicit Labeling Combined:**
+**Implicit & explicit labeling combined:**
 {% highlight html %}
 <form>
   <label for="your-name">
@@ -70,6 +72,6 @@ Note that in the second example above, omitting the `for` attribute on the label
 
 ## Further reading
 
-- [Don’t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
+- [Don’t Use The Placeholder Attribute](https://www.smashingmagazine.com/2018/06/placeholder-attribute/) - Smashing Magazine (June 2018)
 - [HTML5 Accessibility Chops: the placeholder attribute](https://blog.paciellogroup.com/2011/02/html5-accessibility-chops-the-placeholder-attribute/) - from the Paciello Group (February 2011)
-- [Using @placeholder on Input](https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input) - from W3C
+- [Using @placeholder on Input](https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input) - W3C (November 2012)
