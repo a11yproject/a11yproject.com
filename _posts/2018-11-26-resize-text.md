@@ -43,27 +43,31 @@ Firefox is the best browser for testing [WCAG Resize Text (Success Criterion 1.4
 * It informs you of the current zoom level
 * It's available on all popular Operating Systems
 
-Safari works, but not as well:
+Safari and Chrome works, but not as well:
 
 * Ability to resize text is not obvious
 * Does not display the current zoom level
-* Only available on macOS
+* Safari is only available on macOS
 
-Chrome and Edge won't work:
+Edge won't work:
 
-* Chrome does not support text-only resize up to 200%
 * Edge only supports text-only resize in Reading view
 
-### Resizing text
+### Resizing text in Firefox
 
 1. Go to <strong>View > Zoom</strong> and select <strong>Zoom Text Only</strong>
 1. Zoom to 200%
   * <kbd>Ctrl</kbd> + <kbd>+</kbd>
   * <kbd>Ctrl</kbd> + Scroll Up
+  
+### Resizing text in Chrome
+
+1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard
+1. Increase the <strong>Font size</strong> to 32px (default is 16px)
 
 ### Checking everything
 
-After resizing text up to 200%, verify the following:
+After resizing text up to 2x, verify the following:
 
 * All content on the page should still be readable
   * Text shouldn't be too cut off
