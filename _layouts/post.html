@@ -37,7 +37,7 @@ layout: default
       <h2>Further reading</h2>
       <ul>
         {% for article in page.further_reading %}
-          {% if article.url && article.title %}
+          {% if article.url and article.title %}
             <li>
               <a href="{{ article.url }}">{{ article.title }}</a>
               {% if article.source %}
