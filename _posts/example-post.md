@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "example"
+title:
 description:
 author:
-published: true
+published:
 categories:
   - Category Name
 further_reading:
