@@ -34,7 +34,7 @@ A consistent writing style will help site content feel unified and aid with comp
     - [Code](#code)
     - [Horizontal rules](#horizontal-rules)
     - [Inline HTML](#inline-html)
-1. [Important terms](#inline-html)
+1. [Important terms](#important-terms)
     - [The A11Y Project](#the-a11y-project)
     - [a11y/accessibility](#a11y-accessibility)
     - [GitHub](#github)
