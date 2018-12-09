@@ -23,7 +23,7 @@ A consistent writing style will help site content feel unified and aid with comp
     - [Profanity](#profanity)
     - [Multimedia](#multimedia)
     - [Spell-check](#spell-check)
-1. [Markdown](#)
+1. [Markdown](#markdown)
     - [Front matter](#front-matter)
     - [Line breaks](#line-breaks)
     - [Headings](#headings)
@@ -93,7 +93,7 @@ Try not to exceed a seventh grade reading level. Avoid unnecessary jargon and ex
 
 ### Capitalization
 
-- Avoid writing in all caps. Some assistive technologies will announce all cap words as individual letters. 
+- Avoid writing in all caps. Some assistive technologies will announce all cap words as individual letters.
 - Capitalize words in a hashtag (e.g. #ThisReadsWell).
 
 ### Concepts and terminology
@@ -250,7 +250,7 @@ Use a single newline to separate block-level content like headings, lists, image
 
 ### Inline HTML
 
-Use HTML only when Markdown cannot accurately describe your content. Use [relevant, semantic HTML elements](https://alistapart.com/article/conversational-semantics) and attributes. Examples of this would be: 
+Use HTML only when Markdown cannot accurately describe your content. Use [relevant, semantic HTML elements](https://alistapart.com/article/conversational-semantics) and attributes. Examples of this would be:
 
 - A video embed.
 - A definition list.
