@@ -7,6 +7,18 @@ date: 2013-01-11
 last_updated: 2018-08-24
 categories:
   - Quick Tests
+further_reading:
+  - url: https://webaim.org/techniques/keyboard/
+    title: "Keyboard Accessibility"
+    source: WebAIM
+    year: 2018
+  - url: https://www.nngroup.com/articles/keyboard-accessibility/
+    title: "Keyboard-Only Navigation for Improved Accessibility"
+    source: Nielsen Norman Group
+    year: 2014
+  - url: https://www.usertesting.com/blog/why-keyboard-usability-is-more-important-than-you-think/
+    title: "Why Keyboard Usability Is More Important Than You Think"
+    source: User Testing
 ---
 
 Testing your site for keyboard navigation will help ensure that keyboard users can access your site.
@@ -26,8 +38,3 @@ It is not enough to simply tab through a webpage from start to end. While naviga
 - The focused element should be visible and have an obvious focus style. See article: ["Quick Tip: Never remove CSS outlines"](https://a11yproject.com/posts/never-remove-css-outlines/).
 - Focus should move between elements as they appear on the page and not jump back and forth.
 - There should be a way to skip past lengthy spans of content, like global navigation menus. See article: ["How–to: Use Skip Navigation links"](https://a11yproject.com/posts/skip-nav-links/).
-
-## Further reading
-1. [WebAIM - Keyboard Accessibility](https://webaim.org/techniques/keyboard/)
-2. [Nielsen Norman Group - Keyboard-Only Navigation for Improved Accessibility](https://www.nngroup.com/articles/keyboard-accessibility/)
-3. [User Testing - Why Keyboard Usability Is More Important Than You Think](https://www.usertesting.com/blog/why-keyboard-usability-is-more-important-than-you-think/)

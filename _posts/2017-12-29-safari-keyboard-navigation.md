@@ -8,6 +8,23 @@ last_updated: 2018-11-24
 published: true
 categories:
   - Quick Tips
+further_reading:
+  - url: http://www.weba11y.com/blog/2014/07/07/keyboard-navigation-in-mac-browsers/
+    title: "Keyboard Navigation in Mac Browsers"
+    source: WebA11y
+    year: 2014
+  - url: https://www.scottohara.me/blog/2014/10/03/link-tabbing-firefox-osx.html
+    title: "Tabbing Links in OSX/macOS"
+    source: Scott O'Hara
+    year: 2014
+  - url: http://www.webaxe.org/apples-inaccessibility/
+    title: "Apple’s Inaccessibility"
+    source: Web Axe
+    year: 2015
+  - url: https://stackoverflow.com/questions/11704828/how-to-allow-keyboard-focus-of-links-in-firefox/11713537#11713537
+    title: "How to allow keyboard focus of links in Firefox? (macOS)"
+    source: Stack Overflow
+    year: 2012
 ---
 
 By default, Apple computers have an operating system (OS) level setting that limits the <kbd>Tab</kbd> key to "Text boxes and lists only".  This can be confusing, if not frustrating, for those unaware of this setting and expect keyboard focus to be similar to navigating on a Windows machine.
@@ -45,11 +62,3 @@ Run the following command in [Terminal](https://en.m.wikipedia.org/wiki/Terminal
 ```bash
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 ```
-
-## Additional resources
-Apple's choice to limit <kbd>Tab</kbd> key functionality by default is not a recent decision, as indicated by the publish dates of the following resources:
-
-* [Keyboard Navigation in Mac Browsers](http://www.weba11y.com/blog/2014/07/07/keyboard-navigation-in-mac-browsers/) - (weba11y.com: 2014)
-* [Tabbing Links in OSX/macOS ](https://www.scottohara.me/blog/2014/10/03/link-tabbing-firefox-osx.html) - (scottohara.me: 2014)
-* [Apple’s Inaccessibility](http://www.webaxe.org/apples-inaccessibility/) - (Web Axe: 2015)
-* [How to allow keyboard focus of links in Firefox? (macOS)](https://stackoverflow.com/questions/11704828/how-to-allow-keyboard-focus-of-links-in-firefox/11713537#11713537) - (StackOverflow Question: 2012)
