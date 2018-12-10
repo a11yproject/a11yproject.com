@@ -6,6 +6,11 @@ author: gray_ghost
 published: true
 categories:
   - Background
+further_reading:
+  - title: "Designing Safer Web Animation For Motion Sensitivity"
+    url: https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity
+    source: Val Head
+    year: 2015
 ---
 >**Vestibular system** — n
 >The sensory mechanism in the inner ear that detects movement of the head and helps to control balance.
@@ -27,6 +32,3 @@ The cause may be from illness, injury, or from a genetic anomaly but anyone can 
 ## What should you consider?
 
 Don't make animations, sliders, or rapid movement start automatically. Give an indicator of what movement will happen on the site when a user takes action. Allow the user the option to turn off any animation and movement.
-
-## Additional reading
-- [Designing Safer Web Animation For Motion Sensitivity](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) - by Val Head _September 8th, 2015_
