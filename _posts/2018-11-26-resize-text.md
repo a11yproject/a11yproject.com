@@ -8,7 +8,7 @@ categories:
   - Quick Tests
 ---
 
-Resize text and make sure everything on the page work. Repeat until you get to 200% zoom. Seems simple? It is.
+Resize text and make sure everything on the page works. Repeat until you get to 200% zoom. Seems simple? It is.
 
 ## Essential abilities
 
@@ -43,7 +43,7 @@ Firefox is the best browser for testing [WCAG Resize Text (Success Criterion 1.4
 * It informs you of the current zoom level
 * It's available on all popular Operating Systems
 
-Safari and Chrome works, but not as well:
+Safari and Chrome work, but not as well:
 
 * Ability to resize text is not obvious
 * Does not display the current zoom level
