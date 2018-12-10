@@ -8,7 +8,7 @@ categories:
   - Quick Tests
 ---
 
-Resize text and make sure everything on the page works. Repeat until you get to 200% zoom. Seems simple? It is.
+Resize text and make sure everything on the page work. Repeat until you get to 200% zoom. Seems simple? It is.
 
 ## Essential abilities
 
@@ -63,7 +63,7 @@ Edge won't work:
 ### Resizing text in Chrome
 
 1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard
-1. Increase the <strong>Font size</strong> to 32px (default is 16px)
+1. Increase the **font size** to 32px (default is 16px)
 
 ### Checking everything
 
