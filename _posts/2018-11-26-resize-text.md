@@ -67,7 +67,7 @@ Edge won't work:
 
 ### Checking everything
 
-After resizing text up to 2x, verify the following:
+After doubling the size of text, verify the following:
 
 * All content on the page should still be readable
   * Text shouldn't be too cut off
