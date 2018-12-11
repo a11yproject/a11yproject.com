@@ -260,6 +260,12 @@
     - url: https://accessuse.eu/en/
       title: "Access & Use"
       description: "Access & Use shows what it needs to make dynamic elements in websites accessible and usable for all."
+    - url: https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8
+      title: "Are you accessible?  —  A Primer on Web Accessibility"
+      description: "by Amy Dickens"
+    - url: https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope
+      title: "The Web Accessibility Introduction I Wish I Had"
+      description: "by Max Antonucci"
 
 - resource-category: Professional Help
   section-id: professional-help

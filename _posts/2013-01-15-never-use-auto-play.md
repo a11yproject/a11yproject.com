@@ -5,6 +5,11 @@ description: "Why you shouldn't auto-play anything that could distract the user 
 author: emma_patricios
 categories:
   - Quick Tips
+further_reading:
+  - title: "Animations and Transitions: Accessibility"
+    url: https://msdn.microsoft.com/en-us/library/windows/desktop/dn742481.aspx#accessibility
+    source: Microsoft
+    year: 2018
 ---
 
 **Summary\:** don't auto-play and it will please *all* of your users.
@@ -42,7 +47,3 @@ We, as web developers, don't always have the luxury of making the business decis
 1. Ensure the clip lasts for [five seconds or fewer](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#time-limits-pause) before stopping for good
 1. If the clip lasts over five seconds you must provide the user with an option to [stop or pause it](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html)
 1. It is generally accepted that if the user was aware, when they clicked a link, that the proceeding page would auto-play - for example a link to YouTube
-
-## Further reading
-
-[Accessibility of animations and transitions from Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742481.aspx#accessibility)

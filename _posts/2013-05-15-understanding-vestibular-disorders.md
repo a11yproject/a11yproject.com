@@ -6,6 +6,11 @@ author: gray_ghost
 published: true
 categories:
   - Background
+further_reading:
+  - title: "Designing Safer Web Animation For Motion Sensitivity"
+    url: https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity
+    source: Val Head
+    year: 2015
 ---
 
 Your Vestibular system us the sensory mechanism in the inner ear that detects movement of the head and helps to control balance.
@@ -26,10 +31,4 @@ The cause may be from illness, injury, or a genetic condition, but anyone can su
 
 ## What should you consider?
 
-Don't make animations, sliders, or rapid movement start automatically. Give an indicator of what movement will happen on the site when a user takes action. Allow the user the option to turn off any animation and movement at any point in the process.
-
-## Additional reading
-- [Designing Safer Web Animation For Motion Sensitivity](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) - by Val Head _September 8th, 2015_
-- [An Introduction to the Reduced Motion Media Query](https://css-tricks.com/introduction-reduced-motion-media-query/)
-- [Your Interactive Makes Me Sick - Source: An OpenNews project](https://source.opennews.org/articles/motion-sick/)
-- [	Designing Safer Web Animation For Motion Sensitivity · An A List Apart Article](https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity)
+Don't make animations, sliders, or rapid movement start automatically. Give an indicator of what movement will happen on the site when someone takes action. Allow the option to turn off any animation and movement at any point in the process.
