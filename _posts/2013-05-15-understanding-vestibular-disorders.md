@@ -13,7 +13,7 @@ further_reading:
     year: 2015
 ---
 
-Your Vestibular system us the sensory mechanism in the inner ear that detects movement of the head and helps to control balance.
+Your Vestibular system is the sensory mechanism in the inner ear that detects movement of the head and helps to control balance.
 
 Imagine a world where your internal gyroscope is not working properly. Very similar to being intoxicated, things seem to move of their own accord, your feet never quite seem to be stable underneath you, and your senses are moving faster or slower than the rest of syour body.
 
