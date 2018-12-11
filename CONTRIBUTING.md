@@ -95,7 +95,7 @@ Articles are written using [Markdown](#markdown), using a special formatting tec
 
 To get started writing an article, [create a feature branch](#important-branches) and create a new Markdown file in the [`_posts` directory](https://github.com/a11yproject/a11yproject.com/tree/gh-pages/_posts). The Markdown's file name should reflect the intended publishing date and the title of the article. For example, a post about accessible typography may have a filename along the lines of `2018-09-12-accessible-typography.md`
 
-Copying an existing post, then updating its filename and front matter to match your article can be an easy way to help ensure everything is formatted properly.
+Copying [our example post](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_posts/example-post.md), then updating its filename and front matter to match your article can be an easy way to help ensure everything is formatted properly.
 
 #### Submitting
 
@@ -157,9 +157,9 @@ Creating a descriptive [Issue](https://github.com/a11yproject/a11yproject.com/is
 
 Project maintainers may reject Pull Requests at their discretion.
 
-When submitting your Pull Request, please include the text "closes" or "fixes" and then the issue number.   
-For example:  
-> Fixes #101. 
+When submitting your Pull Request, please include the text "closes" or "fixes" and then the issue number.
+For example:
+> Fixes #101.
 This will help us automatically close the issue upon merging the Pull Request!
 
 ### Stale Issues and Pull Requests

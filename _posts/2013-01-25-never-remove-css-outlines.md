@@ -7,6 +7,19 @@ author: guilherme_simoes
 # last_updated:
 categories:
   - Quick Tips
+further_reading:
+  - title: "The plague of outline:0"
+    url: https://webaim.org/blog/plague-of-outline-0/
+    source: WebAIM
+    year: 2008
+  - title: "Web Content Accessibility Guidelines (WCAG) 2.0 (2.4.7)"
+    url: https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms-focus-visible
+    source: W3C
+    year: 2008
+  - title: "Failure of Success Criterion 2.4.7 due to styling element outlines and borders in a way that removes or renders non-visible the visual focus indicator"
+    url: https://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F78
+    source: W3C
+    year: 2008
 ---
 
 ### The difficulty in removing CSS outlines
@@ -30,8 +43,3 @@ If you do not like the default focus outline that is displayed when a user click
     Consider this third solution as a last resort. Some browser/screen reader combinations fire mouse events, which could cause outlines to disappear while using this method.
 
 In conclusion, using `outline: none` without proper fallbacks makes your site significantly less accessible to any keyboard only user, not only those with reduced vision. Make sure to always give your interactive elements a visible indication of focus.
-
-## Further reading
-- [The plague of outline:0](https://webaim.org/blog/plague-of-outline-0/)
-- [Web Content Accessibility Guidelines (WCAG) 2.0 (2.4.7)](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#navigation-mechanisms-focus-visible)
-- [Failure of Success Criterion 2.4.7 due to styling element outlines and borders in a way that removes or renders non-visible the visual focus indicator](https://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F78)

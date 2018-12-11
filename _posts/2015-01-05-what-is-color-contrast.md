@@ -8,6 +8,27 @@ last_updated: 2018-11-17
 published: true
 categories:
   - Background
+further_reading:
+  - title: "Contrasting Colors"
+    url: https://www.lifewire.com/contrasting-colors-in-design-1078274
+    source: Lifewire
+    year: 2018
+  - title: "The Contrast Minimum"
+    url: https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html
+    source: W3C
+  - title: "Understanding Conformance"
+    url: https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head
+    source: W3C
+  - title: "Basic Color Theory"
+    url: https://www.colormatters.com/color-and-design/basic-color-theory
+    source: Color Matters
+  - title: "Color Contrast And Why You Should Rethink It"
+    url: https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/
+    source: Smashing Magazine
+    year: 2014
+  - title: "Providing A Style Switcher To Switch To High Contrast"
+    url: https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/SL13
+    source: W3C
 ---
 
 ## Color theory
@@ -39,12 +60,3 @@ Aside from using color contrast tools to determine your site's colors, there are
 - Provide tools for users to adjust the foreground and background colors of your site on the front end. This is especially helpful for people that need to either switch to a low contrast or a high contrast mode. This gives them more control over the contrast ratio and covers everyone using your site regardless of what kind of vision loss or color deficiency they have.
 - Steer clear of text-based images and use text wherever possible. If that's not possible, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](https://a11yproject.com/posts/alt-text/).
 - Ensure that your placeholders in forms also have valid color contrast.
-
-## Further reading:
-
-- [Contrasting Colors](https://www.lifewire.com/contrasting-colors-in-design-1078274) by lifewire.com
-- [The Contrast Minimum](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) by W3C
-- [Understanding Conformance](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head) by W3C
-- [Basic Color Theory](https://www.colormatters.com/color-and-design/basic-color-theory) by colormatters.com
-- [Color Contrast Tips & Tools](https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/) by Smashing Magazine
-- [Providing A Style Switcher To Switch To High Contrast](https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/SL13) by W3C

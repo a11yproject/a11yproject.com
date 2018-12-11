@@ -8,6 +8,11 @@ updated_by: michael_fairchild
 last_updated: 2017-09-02
 categories:
   - How-tos
+further_reading:
+  - title: "HTML5 Hidden Attribute"
+    url: https://davidwalsh.name/html5-hidden
+    source: David Walsh
+    year: 2012
 ---
 
 Developers commonly use `display: none` to hide content on the page. Unfortunately, this simple and common action can be problematic for users of screen readers.
@@ -46,7 +51,3 @@ There may be cases where you want to use `aria-hidden` and also visually hide th
  Another way to hide content both visually and from assistive technology is the [HTML5 `hidden` attribute](https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute). To support older browsers like IE9, you might want to add the following css to your pages:
 
      [hidden] { display: none; }
-
-See the article *[HTML5 Hidden Attribute](https://davidwalsh.name/html5-hidden)* for more information on the `hidden` attribute.
-
-
