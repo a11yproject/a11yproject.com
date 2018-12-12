@@ -35,8 +35,8 @@ Following these criteria has the bonus value of better supporting current and fu
 
 ### Breaking down the criteria
 
-* [4.1.1 Parsing](https://www.w3.org/TR/WCAG21/#parsing) relates to ensuring that user agents and AT are able to correctly read and navigate your website without complications from erroneous markup.
-  ** Using the [W3C Nu HTML Checker](https://validator.w3.org/nu/) can help you locate errors in your source or rendered markup. If any validation errors are found, they can then be corrected which will help decrease the likelihood of ATs incorrectly parsing your website.
+* [4.1.1 Parsing](https://www.w3.org/TR/WCAG21/#parsing) relates to ensuring that user agents and AT are able to correctly read and navigate your website without complications from erroneous markup.  
+  ** Using the [W3C Nu HTML Checker](https://validator.w3.org/nu/) can help you locate errors in your source or rendered markup. If any validation errors are found, they can then be corrected which will help decrease the likelihood of ATs incorrectly parsing your website.  
   ** Follow the official HTML specifications for guidance on writing correct markup. E.g. make sure to close open tags (`<div class="a-class">...</div>`), use unique `id`s, and don't incorrectly nest HTML elements.
 * [4.1.2 Name, role, value](https://www.w3.org/TR/WCAG21/#name-role-value) are related to the components and controls that make up the web interface. Specifically, that these components of the page can have their name and role programmatically determined, and that their states, properties and values can be set by the individual interacting with them.
 
