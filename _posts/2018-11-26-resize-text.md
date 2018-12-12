@@ -10,7 +10,7 @@ categories:
 
 Resize text and make sure everything on the page works. Repeat until you get to 200% zoom. Seems simple? It is.
 
-## Essential Abilities
+## Essential abilities
 
 * **Sight**: This method tests the visual appearance of content on the page
 * **Interact with content via a pointer**: This method tests mouse interactions
@@ -19,7 +19,7 @@ If you know of a method that doesn't require either of these abilities, please u
 
 ## Background
 
-People with low vision may need to increase the size of text in order to use the page. 
+People with low vision may need to increase the size of text in order to use the page.
 
 When someone resizes text, any of the following can break the page:
 
@@ -27,7 +27,7 @@ When someone resizes text, any of the following can break the page:
 * content is lost or truncated
 * interactive elements overlapping each other
 
-## How To Test
+## How to test
 
 Testing is pretty straight forward.
 
@@ -35,7 +35,7 @@ Testing is pretty straight forward.
 1. Resize text
 1. Check everything
 
-### Choosing a Browser
+### Choosing a browser
 
 Firefox is the best browser for testing [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
 
@@ -43,27 +43,31 @@ Firefox is the best browser for testing [WCAG Resize Text (Success Criterion 1.4
 * It informs you of the current zoom level
 * It's available on all popular Operating Systems
 
-Safari works, but not as well:
+Safari and Chrome work, but not as well:
 
 * Ability to resize text is not obvious
 * Does not display the current zoom level
-* Only available on macOS
+* Safari is only available on macOS
 
-Chrome and Edge won't work:
+Edge won't work:
 
-* Chrome does not support text-only resize up to 200%
 * Edge only supports text-only resize in Reading view
 
-### Resizing text
+### Resizing text in Firefox
 
 1. Go to <strong>View > Zoom</strong> and select <strong>Zoom Text Only</strong>
 1. Zoom to 200%
   * <kbd>Ctrl</kbd> + <kbd>+</kbd>
   * <kbd>Ctrl</kbd> + Scroll Up
+  
+### Resizing text in Chrome
+
+1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard
+1. Increase the **font size** to 32px (default is 16px)
 
 ### Checking everything
 
-After resizing text up to 200%, verify the following:
+After doubling the size of text, verify the following:
 
 * All content on the page should still be readable
   * Text shouldn't be too cut off
@@ -72,7 +76,7 @@ After resizing text up to 200%, verify the following:
 * Interactions still work
   * Buttons, links, and inputs are still usable with mouse, touch, or similar
 
-#### Thorough Check
+#### Thorough check
 
 Some people might not need to zoom text up to 200%. And there might be a level of zoom below 200% where content doesn't work.
 

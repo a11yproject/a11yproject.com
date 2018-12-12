@@ -8,10 +8,30 @@ date: 2017-08-26
 published: true
 categories:
   - Quick Tips
+further_reading:
+  - title: "a11y = Accessibility"
+    year: 2016
+    url: http://adrianroselli.com/2016/11/a11y-accessibility.html
+    source: Adrian Roselli
+  - title: "The Numerony Generator"
+    url: http://superninja.dk/numerony/?text=accessibility
+    year: 2017
+  - title: "10 Numeronyms Web Developers Should Know"
+    url: https://www.hongkiat.com/blog/tech-numeronyms/
+    source: Anna Monus
+    year: 2018
+  - title: "The 411 on Numeronyms"
+    url: https://www.dailywritingtips.com/the-411-on-numeronyms/
+    source: Mark Nichol
+  - title: "Is 'a11y' our ally? Thoughts on a tag for web accessibility"
+    year: 2010
+    url: https://58sound.com/2010/04/16/is-a11y-our-ally-thoughts-on-a-tag-for-web-accessibility/
+    source: David Sloan
+
 ---
 You may have seen "a11y" used as a [hash tag on Twitter](https://twitter.com/search?q=%23a11y), or used in a comment, article, used in a comment thread, or written in an article. Since you're reading this right now, you've likely seen it in the name of a certain website about accessibility. ahem... But if you're unfamiliar with the term "[numeronym](https://en.wikipedia.org/wiki/Numeronym)", you may not have realized that a11y isn't just a hash tag, nor is it a hip way to spell <em>ally</em>. Rather a11y is a shorthand for <em>accessibility</em>.
 
-## How Numeronyms work
+## How numeronyms work
 
 Unlike [abbreviations](https://en.wikipedia.org/wiki/Abbreviation) like FYI (<i>for your information</i>), and PC (<i>personal computer</i>), or [acronyms](https://en.wikipedia.org/wiki/Acronym) like HTML (<i>hypertext markup language</i>), and JAWS (<i>Job Access With Speech</i>), numeronyms are number-based words. And while you may not be familiar with the term "numeronym" itself, you've likely used them throughout your life.
 
@@ -60,12 +80,3 @@ With all that said, I wouldn't lose any sleep over mispronouncing a11y, or using
 There are a lot of projects and sites out that that use "a11y" in their name. Obviously there's The A11Y Project, but also [Pa11y](http://pa11y.org/), [Tota11y](https://khan.github.io/tota11y/), and [A11ycasts](https://www.youtube.com/watch?v=HtTyRajRuyY), among many others. All of these different projects don't overtly say "accessibility" in their names, but they make it immediately clear that accessibility is their focus, thus indirectly connecting the numeronym to the concept.
 
 As long as we do our best to make people aware of what numeronyms stand for, and use them appropriately, then their usage and accepted understanding will only grow.
-
-
-For additional articles about numeronyms, you can check out the following links:
-
-- [a11y = Accessibility (2016)](http://adrianroselli.com/2016/11/a11y-accessibility.html), by Adrian Roselli
-- [The Numerony Generator](http://superninja.dk/numerony/?text=accessibility)
-- [10 Numeronyms Web Developers Should Know](https://www.hongkiat.com/blog/tech-numeronyms/), by Anna Monus
-- [The 411 on Numeronyms](https://www.dailywritingtips.com/the-411-on-numeronyms/), by Mark Nichol
-- [Is 'a11y' our ally? Thoughts on a tag for web accessibility (2010)](https://58sound.com/2010/04/16/is-a11y-our-ally-thoughts-on-a-tag-for-web-accessibility/), by David Sloan

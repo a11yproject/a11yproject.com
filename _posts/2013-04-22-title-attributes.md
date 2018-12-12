@@ -6,6 +6,18 @@ author: dave_rupert
 published: true
 categories:
   - How-tos
+further_reading:
+  - title: "The Trials and Tribulations of the Title Attribute"
+    url: https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/
+    source: Scott O'Hara
+    year: 2017
+  - title: "Using the HTML title attribute"
+    url: https://developer.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/
+    source: Steve Faulkner
+    year: 2013
+  - title: "title attribute"
+    url: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title
+    source: MDN
 ---
 **Short answer:** Don't use them, except in special circumstances.
 
@@ -34,8 +46,3 @@ In cases where two or more of the above are used, whatever is highest in that li
 In this case, the `alt` actually becomes the alternative, because it is higher in precedence. So even though the `title` has useful content, it doesn't get used because the `alt` is there. For a universally reliable text alternative for images, the `alt` attribute should be the the preferred method. In cases where a `title` attribute is provided, it should have the same value as the `alt`.
 
 Rule of Thumb: Serve all users equal content.
-
-### Further reading
-- [The Trials and Tribulations of the Title Attribute](https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/) by Scott O'Hara _(December 22, 2017)_
-- ["Using the HTML title attribute"](https://developer.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/) by Steve Faulkner _(January 15th, 2013)_
-- [`title` attribute on MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title)

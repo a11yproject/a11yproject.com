@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ARIA States
+title: ARIA states
 description: A quick introduction to ARIA's states.
 author: alex_brenon
 categories:
@@ -11,13 +11,13 @@ published: true
 ```html
 <span aria-busy="true">This element is currently being updated. </span>
 ```
-There are 9 states that can be used in ARIA. They fall into 3 categories as defined by the W3C. The categories are:
+There are 10 states that can be used in ARIA. They fall into 3 categories as defined by the W3C. The categories are:
 <dl>
-  <dt>Widget Attributes</dt>
+  <dt>Widget attributes</dt>
   <dd>States that give information about user input elements.</dd>
-  <dt>Live Region Attributes</dt>
+  <dt>Live region attributes</dt>
   <dd>States that are specific to regions that will update while the page is being viewed.</dd>
-  <dt>Drag-and-Drop Attributes</dt>
+  <dt>Drag-and-drop attributes</dt>
   <dd>States of drag-and-drop input elements.</dd>
 </dl>
 
@@ -27,12 +27,13 @@ The states are given below, along with their category, brief description, and al
 
 State (links to WAI-ARIA 1.1 specs) | Category | Description | Allowed Values (**default values bolded**)
 ---|---|---|---
-[aria-checked](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-checked) | Widget attributes | The input item is checked |**undefined**, false, mixed, true
-[aria-disabled](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-disabled) | Widget attributes | The element is visible but not interactive | **false**, true
-[aria-expanded](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-expanded) | Widget attributes | The element is expanded | **undefined**, false, true
-[aria-hidden](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-hidden) | Widget attributes | The element is invisible to all users (including assistive technologies) | **false**, true
-[aria-invalid](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-invalid) | Widget attributes | The element contains a value that doesn't match the expected format | **false**, grammar, spelling, true
-[aria-pressed](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-pressed) | Widget attributes | The button is pressed | **undefined**, false, mixed, true
-[aria-selected](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-selected) | Widget attributes | The element is selected | **undefined**, false, true
-[aria-busy](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-busy) | Live region attributes | The element is currently being updated | **false**, true
-[aria-grabbed](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties#aria-grabbed) | Drag-and-Drop attributes | The element is selected for dragging | **undefined**, false, true
+[aria-busy](https://www.w3.org/TR/wai-aria-1.1/#aria-busy) | Live region attributes | The element is currently being updated | **false**, true
+[aria-checked](https://www.w3.org/TR/wai-aria-1.1/#aria-checked) | Widget attributes | The input item is checked |**undefined**, false, mixed, true
+[aria-current](https://www.w3.org/TR/wai-aria-1.1/#aria-current) | Widget attributes | Indicates the element that represents the current item within a container or set of related elements | page, step, location, date, time, true, **false**
+[aria-disabled](https://www.w3.org/TR/wai-aria-1.1/#aria-disabled) | Widget attributes | The element is visible but not interactive | **false**, true
+[aria-expanded](https://www.w3.org/TR/wai-aria-1.1/#aria-expanded) | Widget attributes | The element is expanded | **undefined**, false, true
+[aria-grabbed](https://www.w3.org/TR/wai-aria-1.1/#aria-grabbed) | Drag-and-Drop attributes | *Deprecated* The element is selected for dragging | **undefined**, false, true
+[aria-hidden](https://www.w3.org/TR/wai-aria-1.1/#aria-hidden) | Widget attributes | The element is invisible to all users (including assistive technologies) | **false**, true
+[aria-invalid](https://www.w3.org/TR/wai-aria-1.1/#aria-invalid) | Widget attributes | The element contains a value that doesn't match the expected format | **false**, grammar, spelling, true
+[aria-pressed](https://www.w3.org/TR/wai-aria-1.1/#aria-pressed) | Widget attributes | The button is pressed | **undefined**, false, mixed, true
+[aria-selected](https://www.w3.org/TR/wai-aria-1.1/#aria-selected) | Widget attributes | The element is selected | **undefined**, false, true

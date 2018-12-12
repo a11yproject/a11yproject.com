@@ -32,6 +32,29 @@ layout: default
 
   {{ content }}
 
+  {% if page.further_reading %}
+    <section id="further_reading">
+      <h2>Further reading</h2>
+      <ul>
+        {% for article in page.further_reading %}
+          {% if article.url and article.title %}
+            <li>
+              <a href="{{ article.url }}">{{ article.title }}</a>
+              {% if article.source %}
+                - {{ article.source }}
+              {% endif %}
+              {% if article.year %}
+                <time datetime="{{ article.year }}">
+                  ({{ article.year }})
+                </time>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
   {%if page.path %}
     <a class="button-edit" href="//github.com/a11yproject/a11yproject.com/tree/gh-pages/{{ page.path }}">
       <svg class="icon" style="height:1em; width: 1em;"><use xlink:href="#icon-github"></use></svg>

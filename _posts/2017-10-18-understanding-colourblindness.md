@@ -28,7 +28,7 @@ In practice, you can achieve this by choosing colors that are easily distinguish
 
 There are cases where this isn't possible. The periodic table, for example, often color-codes the chemical symbols of the elements. When working with tables or other standardised layouts, adding more text or symbols might not be practical. 
 
-## Available Tools
+## Available tools
 
 There are a number of online tools to help those without color blindness visualize how accessible their designs are:
 
@@ -36,4 +36,4 @@ There are a number of online tools to help those without color blindness visuali
 - [Colorblind web page filter by Toptal](https://www.toptal.com/designers/colorfilter)
 - [I want to see like the colour blind Chrome extension](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia)
 
-These tools are free, simple to use, and can quickly help you make color-accessible choices. 
+These tools are free, simple to use, and can quickly help you make color-accessible choices.

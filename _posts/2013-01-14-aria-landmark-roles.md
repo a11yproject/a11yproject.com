@@ -8,6 +8,25 @@ updated_by: scott_ohara
 last_updated: 2018-07-22
 categories:
   - Quick Tips
+further_reading:
+  - title: "Accessible Landmarks"
+    url: https://www.scottohara.me/blog/2018/03/03/landmarks.html
+    source: Scott O'Hara
+    year: 2018
+  - title: "Where to put your search role"
+    url: http://adrianroselli.com/2015/08/where-to-put-your-search-role.html
+    source: Adrian Roselli
+    year: 2015
+  - title: "Short Note on HTML conformance checking"
+    url: https://developer.paciellogroup.com/blog/2015/08/short-note-on-html-conformance-checking/
+    source: Steve Faulkner
+    year: 2015
+  - title: "Using ARIA landmarks to identify regions of a page"
+    url: https://www.w3.org/TR/WCAG20-TECHS/ARIA11.html
+    source: W3C
+  - title: "Using ARIA"
+    url: https://www.w3.org/TR/using-aria/
+    source: W3C
 ---
 <a href="https://w3c.github.io/aria/#landmark_roles"><abbr title="Accessible Rich Internet Application">ARIA</abbr> Landmark Roles</a> can be helpful to assistive device users, as they can be used to orient a user to, and easily navigate, your website or application. For a quick video demonstration, check out ["How ARIA landmark roles help screen reader users"](https://youtu.be/IhWMou12_Vk), by [Léonie Watson](https://tink.uk/).
 
@@ -51,7 +70,7 @@ Implementing landmarks in your documents is a straight forward process. Simply a
 ```
 
 
-## HTML5 Implicit Mappings of Landmark Roles
+## HTML5 implicit mappings of Landmark roles
 Before you start adding <abbr>ARIA</abbr> roles to your HTML elements, you should be aware that many of these landmarks will be natively conveyed by proper HTML usage. For example, the following markup snippet will produce a warning in modern HTML and accessibility automated checkers:
 
 ```
@@ -139,13 +158,3 @@ The following table outlines the different <abbr>ARIA</abbr> landmarks, and the 
 The majority of [modern browsers](http://www.html5accessibility.com/) (except <abbr title="Internet Explorer">IE</abbr>) support these mappings. But it's always beneficial to run your own tests to ensure the appropriate landmark role is being appropriately exposed to assistive technology.
 
 For example, as of July 2018, Safari and VoiceOver on macOS High Sierra do not properly expose the <code>contentinfo</code> role from a <code>footer</code> element. When presented with situations like this, ignoring conformance warnings, and adding a redundant role to an element, may be preferred to not exposing the correct landmark information.
-
-
-## Additional references
-For more information about landmarks and other concepts mentioned in this article, you can check out the following resources:
-
-* [Accessible Landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html)
-* [Where to put your search role](http://adrianroselli.com/2015/08/where-to-put-your-search-role.html)
-* [HTML Conformance checking](https://developer.paciellogroup.com/blog/2015/08/short-note-on-html-conformance-checking/)
-* [W3C: Using ARIA landmarks to identify regions of a page](https://www.w3.org/TR/WCAG20-TECHS/ARIA11.html)
-* [W3C: Using ARIA](https://www.w3.org/TR/using-aria/)

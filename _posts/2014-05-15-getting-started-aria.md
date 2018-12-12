@@ -18,7 +18,7 @@ ARIA has no effect on how elements are displayed or behave in browsers. It does 
 * HTML5 ARIA spec -  <https://www.w3.org/TR/html-aria/>
 * ARIA spec - <https://www.w3.org/TR/wai-aria/>
 
-## ARIA Attributes
+## ARIA attributes
 ARIA attributes are predefined in the spec and are divided into two categories, roles and states & properties. Both can be added directly in the markup or via JavaScript and should be updated as needed based on user interactions. There are rules behind which elements may receive types of ARIA attributes, as well as design guidelines for how and when these should be updated in common interactive widgets.
 
 ### Links
@@ -26,7 +26,7 @@ ARIA attributes are predefined in the spec and are divided into two categories, 
 * States and Properties - <https://www.w3.org/WAI/PF/aria/states_and_properties>
 * Design Patterns - <https://www.w3.org/TR/wai-aria-practices/#aria_ex>
 
-## ARIA Roles
+## ARIA roles
 
 An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change for an element once set. There are four categories of ARIA roles.
 
@@ -48,7 +48,7 @@ An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change f
 
   Abstract roles are only used by browsers to help organize and streamline a document, and **never** by developers to mark up HTML. They are not mapped onto screen readers and provide no extra accessibility information directly between HTML and screen reader.
 
-## States and Properties
+## States and properties
 
 ARIA states and properties are often used to support ARIA roles that exist on a page. Properties often describe relationships with other elements and for the most part, do not change once they're set. States are more dynamic and are typically updated with JavaScript as a user interacts with a page. It's common to refer to states and properties collectively as just ARIA attributes. Screen readers are notified when attributes change and can announce these changes to users after an interaction takes place.
 
@@ -60,7 +60,7 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
 ### Links
 * ARIA in HTML <https://www.w3.org/TR/html-aria/>
 
-## ARIA Examples
+## ARIA examples
 
 * Landmark role
   The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](https://a11yproject.com/posts/aria-landmark-roles/) for more information.
