@@ -38,7 +38,7 @@ Not auto-playing your media will make everyone happy.
 
 People using screen-readers navigate by listening, so any sound playing when the page loads will interfere immensely. It will also be frustrating to any person that may be listening to music or is in a quiet area with their sound on high.
 
-In [a note on audio control](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html), the Web Content Accessibility Guidelines (WCAG) 2.0 suggests:
+In [a note on audio control](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html), the Web Content Accessibility Guidelines (WCAG) suggests:
 
 > Therefore, we discourage the practice of automatically starting sounds (especially if they last more than 3 seconds), and encourage that the sound be started by an action initiated by the user after they reach the page, rather than requiring that the sound be stopped by an action of the user after they land on the page.
 
