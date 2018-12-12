@@ -5,6 +5,31 @@ description: "Why you shouldn't auto-play anything that could distract the user 
 author: emma_patricios
 categories:
   - Quick Tips
+further_reading:
+  - url: https://docs.microsoft.com/en-us/windows/desktop/uxguide/vis-animations#accessibility
+    title: "Accessibility of animations and transitions from Microsoft"
+    source: Microsoft Docs
+  - url: http://www.prettysimple.co.uk/blog/index.php/2009/07/autoplaying-videos/
+    title: "Auto-play: a usability and accessibility failure"
+    source: A Pretty Simple blog
+  - url: http://www.punkchip.com/autoplay-is-bad-for-all-users/
+    title: "Autoplay is bad for all users"
+    source: Punkchip
+  - url: http://www.mmcwatters.com/blog/2015/6/23/against-autoplaying-videos
+    title: "Autoplay blues"
+    source: Michael McWatters
+  - url: https://www.nngroup.com/articles/video-usability/
+    title: "Video Usability"
+    source: Nielsen Norman Group
+  - url: https://www.nngroup.com/videos/distracting-animations/
+    title: "Animations are Distracting! (Video)"
+    source: Nielsen Norman Group
+  - url: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+    title: "prefers-reduced-motion - CSS: Cascading Style Sheets"
+    source: MDN web docs
+  - url: https://webkit.org/blog/7551/responsive-design-for-motion/
+    title: "Responsive Design for Motion"
+    source: WebKit
 ---
 
 Not auto-playing your media will make everyone happy.
@@ -13,7 +38,7 @@ Not auto-playing your media will make everyone happy.
 
 People using screen-readers navigate by listening, so any sound playing when the page loads will interfere immensely. It will also be frustrating to any person that may be listening to music or is in a quiet area with their sound on high.
 
-In [a note on audio control](https://www.w3.org/TR/2016/NOTE-UNDERSTANDING-WCAG20-20161007/visual-audio-contrast-dis-audio.html), the Web Content Accessibility Guidelines (WCAG) 2.0 suggests:
+In [a note on audio control](https://www.w3.org/WAI/WCAG21/Understanding/audio-control.html), the Web Content Accessibility Guidelines (WCAG) 2.0 suggests:
 
 > Therefore, we discourage the practice of automatically starting sounds (especially if they last more than 3 seconds), and encourage that the sound be started by an action initiated by the user after they reach the page, rather than requiring that the sound be stopped by an action of the user after they land on the page.
 
@@ -41,14 +66,3 @@ As web developers, we don't always have the luxury of making business decisions,
 1. If media lasts over five seconds, you must provide the user with an option to [stop or pause it](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html).
 
 It is also considered good practice to indicate a link will navigate to a location that contains auto-playing media. For example, a link to YouTube could be written as, "Beethoven - Moonlight Sonata (YouTube)".
-
-## Further reading
-
-- [Accessibility of animations and transitions from Microsoft](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742481.aspx#accessibility)
-- [Auto-play: a usability and accessibility failure | A Pretty Simple blog](http://www.prettysimple.co.uk/blog/index.php/2009/07/autoplaying-videos/)
-- [Autoplay is bad for all users | Punkchip](http://www.punkchip.com/autoplay-is-bad-for-all-users/)
-- [Autoplay blues — Michael McWatters](http://www.mmcwatters.com/blog/2015/6/23/against-autoplaying-videos)
-- [Video Usability - Nielsen Norman Group](https://www.nngroup.com/articles/video-usability/)
-- [Animations are Distracting! (Video) - Nielsen Norman Group](https://www.nngroup.com/videos/distracting-animations/)
-- [prefers-reduced-motion - CSS: Cascading Style Sheets - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
-- [Responsive Design for Motion | WebKit](https://webkit.org/blog/7551/responsive-design-for-motion/)	
