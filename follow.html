@@ -20,13 +20,12 @@ permalink: follow.html
 
 {% for category in site.data.follow %}
 <section id="{{category.section-id}}" class="article-section resources-section" tabindex="-1">
-    <h3 class="article-section__title">{{ category.category }}</h3>
+    <h2 class="article-section__title">{{ category.category }}</h2>
     <ul class="article-section__content">
     {% assign sorted_links = category.links | sort: 'name' %}
     {% for link in sorted_links %}
       <li>
         <a href="{{ link.url }}" rel="external">
-          <img src="https://twitter.com/{{link.username}}/profile_image?size=normal" alt="" class="article-section__follow-image">
           {{ link.name }} ({{link.username}})
         </a>
       </li>
