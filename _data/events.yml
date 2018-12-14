@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Tips for management: how accessibility testing actually impacts your development process"
+      description: "This webinar is geared towards those who have been recently tasked with accessibility, are starting to think about how to automate accessibility testing, or are curious about different ways to implement testing into their organization. Noah Mashni, Solutions Architect at Deque, will answer common questions people have when they’re curious about how accessibility will impact their current organization and developers."
+      url: "https://accessibility.deque.com/tips-for-management-how-accessibility-testing-actually-impacts-your-development-process"
+      type: "Webinar"
+      date: 2018-12-17
     - title: "Chicago Digital Accessibility and Inclusive Design meetup Lighting Talks"
       description: "The Chicago Digital Accessibility and Inclusive Design meetup presents a Lightning Talk event on Tuesday, December 11th at 6pm CT. <a href='https://www.youtube.com/watch?v=mQbPiv0dAZk'>A live stream will be available</a> for those who can't attend in person."
       url: "https://www.meetup.com/a11ychi/events/256749111/"
