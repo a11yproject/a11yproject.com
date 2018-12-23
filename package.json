@@ -1,0 +1,44 @@
+{
+  "name": "The A11Y Project",
+  "description": "A community-driven effort to make web accessibility easier.",
+  "homepage": "https://a11yproject.com/",
+  "version": "0.0.1",
+  "license": "APLv2",
+  "author": "Dave Rupert <hello@a11yproject.com> (https://daverupert.com/)",
+  "contributors": [
+    "Alex Brenon <alex@alexroseb.com> (https://alexroseb.com/)",
+    "Carie Fisher <hello@a11yproject.com> (https://www.linkedin.com/in/cehfisher/)",
+    "Dennis Gaebel <dennisgaebel@gmail.com> (https://droidpinkman.io/)",
+    "Eric Bailey <eric.w.bailey@gmail.com> (https://ericwbailey.design/)",
+    "Jerry Jones <hello@a11yproject.com> (http://jeremyjon.es/)",
+    "Mat Marquis <mat@matmarquis.com> (https://matmarquis.com/)",
+    "Monika Piotrowicz <hello@a11yproject.com> (https://twitter.com/monsika)",
+    "Scott O'Hara <scottaohara@gmail.com> (https://www.scottohara.me/)",
+    "Scott Vinkle <scott.vinkle@shopify.com> (https://svinkle.me/)",
+    "Tiffany Tse <hello@a11yproject.com> (https://github.com/tiffanytse)"
+  ],
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "community",
+    "inclusive-design",
+    "oss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/a11yproject/a11yproject.com"
+  },
+  "bugs": {
+    "url": "https://github.com/a11yproject/a11yproject.com/issues",
+    "email": "hello@a11yproject.com"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "scripts": {
+
+  }
+}
