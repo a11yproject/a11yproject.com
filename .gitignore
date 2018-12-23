@@ -1,8 +1,65 @@
-_site/
+## Project-specific files and folders #########################################
+.build
 .sass-cache/
-.DS_Store
-Icon
-config.codekit
+.test/
+documentation/
+source/element-patterns.hbs
+styleguide/
+
+
+## Generic files to ignore ####################################################
+*~
+*.DS_Store
+._*
 *.lock
-vendor/
-.bundle/
+*.out
+*.swp
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+
+## Project Files ##############################################################
+*.project
+*.settings
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+*.esproj
+*.expressostorage
+*.orig
+_notes
+codekit-config.json
+dwsync.xml
+node_modules
+npm-debug.log
+
+
+## Compiled source ############################################################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+## Logs and databases #########################################################
+*.log
+*.sql
+*.sqlite
+
+
+## Packages (better to unpack these files and commit the raw source) ##########
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
