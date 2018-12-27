@@ -1,5 +1,5 @@
 {
-  "name": "The A11Y Project",
+  "name": "the-a11y-project",
   "description": "A community-driven effort to make web accessibility easier.",
   "homepage": "https://a11yproject.com/",
   "version": "0.0.1",
@@ -21,8 +21,7 @@
     "a11y",
     "accessibility",
     "community",
-    "inclusive-design",
-    "oss"
+    "inclusive-design"
   ],
   "repository": {
     "type": "git",
@@ -32,13 +31,18 @@
     "url": "https://github.com/a11yproject/a11yproject.com/issues",
     "email": "hello@a11yproject.com"
   },
-  "dependencies": {
-
-  },
-  "devDependencies": {
-
-  },
   "scripts": {
-
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.6.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.3",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
+    "luxon": "^1.0.0",
+    "markdown-it": "^8.4.1",
+    "markdown-it-anchor": "^5.0.2"
   }
 }
