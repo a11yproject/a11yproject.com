@@ -3,7 +3,7 @@
   "description": "A community-driven effort to make web accessibility easier.",
   "homepage": "https://a11yproject.com/",
   "version": "0.0.1",
-  "license": "APLv2",
+  "license": "Apache-2.0",
   "author": "Dave Rupert <hello@a11yproject.com> (https://daverupert.com/)",
   "contributors": [
     "Alex Brenon <alex@alexroseb.com> (https://alexroseb.com/)",
