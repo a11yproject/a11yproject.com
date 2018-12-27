@@ -1,0 +1,15 @@
+{
+  "title": "The A11Y Project",
+  "url": "https://a11yproject.com/",
+  "feed": {
+    "subtitle": "A community-driven effort to make web accessibility easier.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://a11yproject.com/feed/feed.xml",
+    "id": "https://a11yproject.com/"
+  },
+  "author": {
+    "name": "Dave Rupert",
+    "email": "hello@a11yproject.com"
+  }
+}
