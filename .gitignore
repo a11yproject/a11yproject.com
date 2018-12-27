@@ -1,10 +1,5 @@
 ## Project-specific files and folders #########################################
-.build
-.sass-cache/
-.test/
-documentation/
-source/element-patterns.hbs
-styleguide/
+_site/
 
 
 ## Generic files to ignore ####################################################
