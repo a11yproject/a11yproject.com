@@ -1,0 +1,15 @@
+<header>
+  <h1>
+    <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+  </h1>
+
+  <nav id="primary-nav" aria-label="Primary">
+    <h2>Primary navigation</h2>
+    <ul>
+      {%- for nav in collections.nav -%}
+      <li><a href="{{ nav.url | url }}" {% if nav.url == page.url %}aria-current="page"{% endif %}>{{ nav.data.navtitle }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+
+</header>

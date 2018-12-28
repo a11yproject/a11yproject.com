@@ -4,14 +4,9 @@
   <nav id="" aria-label="">
     <h3>Main nav repeated</h3>
     <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Posts</a></li>
-      <li><a href="">Patterns</a></li>
-      <li><a href="">Checklist</a></li>
-      <li><a href="">Resoruces</a></li>
-      <li><a href="">Events</a></li>
-      <li><a href="">Follow</a></li>
-      <li><a href="">About</a></li>
+      {%- for nav in collections.nav -%}
+      <li><a href="{{ nav.url | url }}" {% if nav.url == page.url %}aria-current="page"{% endif %}>{{ nav.data.navtitle }}</a></li>
+      {%- endfor -%}
     </ul>
   </nav>
 
