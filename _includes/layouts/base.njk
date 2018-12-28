@@ -3,10 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {# <title>{{ renderData.title or title or metadata.title }}</title> #}
-
     {% include "social-media.njk" %}
-
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
@@ -23,6 +20,14 @@
     </header>
 
     <main id="main"{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+
+      <h1>{{ authors.alex_brenon.name }}</h1>
+
+    <ul>
+      {%- for author in authors -%}
+      <li>{{ author.name }}</li>
+      {%- endfor -%}
+    </ul>
 <!--
 			<div class="warning">
 				<ol>
