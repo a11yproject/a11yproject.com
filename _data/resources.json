@@ -1,0 +1,951 @@
+{
+  "blogs" : [
+    {
+      "title": "#a11y tag on The Practical Dev",
+      "description": "Where programmers share ideas and help each other grow.",
+      "url": "https://dev.to/t/a11y"
+    },
+    {
+      "title": "24 Accessibility",
+      "description": "24 days of digital accessibility gifts during the season of giving and sharing.",
+      "url": "https://www.24a11y.com/"
+    },
+    {
+      "title": "456 Berea Street",
+      "description": "Articles and news on web standards, accessibility, and usability.",
+      "url": "https://www.456bereastreet.com/"
+    },
+    {
+      "title": "a11yTips",
+      "description": "Simple tips on making web content more accessible to all.",
+      "url": "http://dboudreau.tumblr.com/"
+    },
+    {
+      "title": "Accessible Culture",
+      "description": "Promoting a culture of inclusion through the research and application of web accessibility and standards.",
+      "url": "http://www.accessibleculture.org/"
+    },
+    {
+      "title": "Accessibility Wins",
+      "description": "Showcasing accessible user interfaces and tools.",
+      "url": "https://a11ywins.tumblr.com/"
+    },
+    {
+      "title": "Articles » Simply Accessible",
+      "description": "Find out what’s happening in the world of accessible design, Simply Accessible’s team updates, and better practices for an accessible web.",
+      "url": "https://simplyaccessible.com/articles/"
+    },
+    {
+      "title": "Blog - Karl Groves",
+      "description": "Karl Groves' web accessibility blog",
+      "url": "http://www.karlgroves.com/blog/"
+    },
+    {
+      "title": "Inclusive Components",
+      "description": "A blog trying to be a pattern library. All about designing inclusive web interfaces, piece by piece.",
+      "url": "https://inclusive-components.design/"
+    },
+    {
+      "title": "The Paciello Group Blog",
+      "description": "A blog about accessibility written by the The Paciello Group's employees.",
+      "url": "https://developer.paciellogroup.com/blog/"
+    },
+    {
+      "title": "WebAIM Blog",
+      "description": "A blog about accessibility written by WebAIM's employees.",
+      "url": "https://webaim.org/blog/"
+    },
+    {
+      "title": "Web Axe",
+      "description": "Blog and podcast on web accessibility.",
+      "url": "http://www.webaxe.org/"
+    }
+  ],
+  "bookmarklets" : [
+    {
+      "title": "Akbar",
+      "description": "A bookmarklet that simulates various types user experiences.",
+      "developers": "Hao Luo",
+      "url": "https://howlowck.github.io/Akbar/"
+    },
+    {
+      "title": "ANDI",
+      "description": "The Accessible Name and Description Inspector accessibility testing tool.",
+      "developers": "The United States Social Security Administration",
+      "url": "https://www.ssa.gov/accessibility/andi/help/howtouse.html"
+    },
+    {
+      "title": "HTML_CodeSniffer",
+      "description": "Check that your HTML code conforms to your coding standard.",
+      "developers": "Squiz",
+      "url": "https://squizlabs.github.io/HTML_CodeSniffer/"
+    },
+    {
+      "title": "Nu Markup Validation Service Bookmarklets",
+      "description": "The W3C Nu Markup Validator checks the markup validity of Web documents, but instead uses the backend from the Validator.nu engine.",
+      "developers": "The Paciello Group",
+      "url": "https://developer.paciellogroup.com/blog/2012/06/nu-markup-validation-service-bookmarklets/"
+    },
+    {
+      "title": "tota11y",
+      "description": "An accessibility visualization toolkit.",
+      "developers": "Khan Academy",
+      "url": "http://khan.github.io/tota11y/"
+    },
+    {
+      "title": "The Visual ARIA Bookmarklet",
+      "description": "Visual ARIA allows engineers, testers, educators, and students to physically observe ARIA usage within web technologies.",
+      "developers": "WhatSock",
+      "url": "http://whatsock.com/training/matrices/visual-aria.htm"
+    },
+  ],
+  "books" : [
+    {
+      "title": "Accessibility for Everyone",
+      "description": "Get sure footing on the path to designing with accessibility.",
+      "authors": "Laura Kalbag",
+      "url": "https://abookapart.com/products/accessibility-for-everyone"
+    },
+    {
+      "title": "Adaptive Web Design: Crafting Rich Experiences with Progressive Enhancement",
+      "description": "Building an elegant, functional website requires more than just knowing how to code. In Adaptive Web Design, Second Edition, you’ll learn how to use progressive enhancement to build websites that won’t break, work anywhere, are accessible by anyone—on any device, and are designed to work well into the future.",
+      "authors": "Aaron Gustafson",
+      "url": "http://a.co/d/7aVobuX"
+    },
+    {
+      "title": "Apps For All: Coding Accessible Web Applications",
+      "description": "Web accessibility is quite a large topic — far too large to fit into a small book. So, what will this book cover? Though we shall encounter visual design challenges, deal with performance issues, and adopt progressive enhancement — all of which are accessibility concerns — the underlying theme of this book is about making the interactivity of web applications include keyboard and screen reader users.",
+      "authors": "Heydon Pickering",
+      "url": "https://shop.smashingmagazine.com/products/apps-for-all"
+    },
+    {
+      "title": "Color Accessibility Workflows",
+      "description": "Make sure accessibility and aesthetics go hand-in-hand with every design.",
+      "authors": "Geri Coady",
+      "url": "https://abookapart.com/products/color-accessibility-workflows"
+    },
+    {
+      "title": "Design for Real Life",
+      "description": "You can’t know every user, but you can develop inclusive practices to create experiences that support a wider range of people, more of the time.",
+      "authors": "Eric Meyer, Sara Wachter-Boettcher",
+      "url": "https://abookapart.com/products/design-for-real-life"
+    },
+    {
+      "title": "Designing with Progressive Enhancement: Building the Web that Works for Everyone",
+      "description": "Progressive enhancement is an approach to web development that aims to deliver the best possible experience to the widest possible audience, and simplifies coding and testing as well. Whether users are viewing your sites on an iPhone, the latest and greatest high-end system, or even hearing them on a screen-reader, their experience should be easy to understand and use, and as fully-featured and functional as possible.",
+      "authors": "Todd Parker, Scott Jehl, Maggie Costello Wachs, and Patty Toland",
+      "url": "http://a.co/d/1XaEnBw"
+    },
+    {
+      "title": "Designing with Web Standards",
+      "description": "Designing with Web Standards remains your essential guide to creating sites that load faster, reach more users, and cost less to design and maintain.",
+      "authors": "Jeffrey Zeldman",
+      "url": "http://a.co/d/f0aNSFO"
+    },
+    {
+      "title": "Inclusive Design Patterns",
+      "description": "Inclusive Design Handbook gets to the bottom of it all: accessibility myths and rules of thumbs, WAI-ARIA roles, content accessibility guidelines, landmark roles, keyboard and touch accessibility, accessible markup and interaction patterns, accessible forms and widgets, multimedia accessibility and inclusive prototyping.",
+      "authors": "Heydon Pickering",
+      "url": "https://shop.smashingmagazine.com/products/inclusive-design-patterns"
+    },
+    {
+      "title": "Pro HTML5 Accessibility",
+      "description": "Pro HTML5 Accessibility helps designers come to grips with building exciting, accessible and usable web sites and applications with HTML5. The book covers how to use HTML5 in order to serve the needs of people with disabilities and older persons using assistive technology (AT).",
+      "authors": "Joshue O Connor",
+      "url": "http://a.co/d/4AX1wPY"
+    },
+    {
+      "title": "Web and App Accessibility: Your Roadmap to Digital Inclusion",
+      "description": "Your Roadmap to Digital Inclusion is made up of four instructive chapters, focused on the resource considerations for each stage of a typical digital accessibility program and how to integrate the disability community across your program.",
+      "authors": "Jason C. Taylor",
+      "url": "https://info.usablenet.com/web-and-app-accessibility"
+    }
+    {
+      "title": "Web Accessibility: Web Standards and Regulatory Compliance",
+      "description": "The power of the Web lies in the fact that anyone and everyone can access it, and this should also extend to users with disabilities. Accessibility is about making websites accessible to those with aural, visual, or physical disabilities, or rather, constructing websites that don't exclude these people from accessing the content or services provided.",
+      "authors": "Jim Thatcher and Mark Urban",
+      "url": "http://a.co/d/bMguqOv"
+    },
+    {
+      "title": "A Web for Everyone: Designing Accessible User Experiences",
+      "description": "If you are in charge of the user experience, development, or strategy for a web site, A Web for Everyone will help you make your site accessible without sacrificing design or innovation. Rooted in universal design principles, this book provides solutions: practical advice and examples of how to create sites that everyone can use.",
+      "authors": "Sarah Horton and Whitney Quesenbery",
+      "url": "https://rosenfeldmedia.com/books/a-web-for-everyone/"
+    },
+  ],
+  "browserExtensions" : [
+    {
+      "title": "ChromeVox (Classic)",
+      "description": "The ChromeVox (Classic) screen reader is an extension to Chrome that brings the speed, versatility, and security of Chrome to visually impaired users.",
+      "developer": "Google",
+      "url": "https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn",
+      "browsers": [ "Chrome" ]
+    },
+    {
+      "title": "Color Contrast Analyzer",
+      "description": "Allows you to analyze text color contrast problems on a webpage according to the WCAG 2 text color contrast requirements.",
+      "developer": "NC State IT Accessibility",
+      "url": "https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll/related",
+      "browsers": [ "Chrome" ]
+    },
+    {
+      "title": "I want to see like the colour blind",
+      "description": "Right-click on a page and select 'Experience Colour Blindness' from the context menu.",
+      "developer": "artbek",
+      "url": "https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia",
+      "browsers": [ "Chrome" ]
+    },
+    {
+      "title": "headingsMap",
+      "description": "The extension generates a documentmap or index of any web document structured with headings (you can access directly to the content by clicking on any of its items), and now, it shows the HTML 5 outline.",
+      "developer": "Rumoroso",
+      "url": "https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en",
+      "browsers": [ "Chrome" ]
+    },
+    {
+      "title": "Landmarks",
+      "description": "Allows you to navigate a web page via WAI-ARIA landmarks, using the keyboard or a pop-up menu.",
+      "developer": "Matthew Tylee Atkinson",
+      "url": "https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia",
+      "browsers": [ "Chrome", "Firefox", "Opera" ]
+    },
+    {
+      "title": "NoCoffee",
+      "description": "NoCoffee can be helpful for understanding the problems faced by people with slight to extreme vision problems.",
+      "developer": "artbek",
+      "url": "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl",
+      "browsers": [ "Chrome" ]
+    },
+    {
+      "title": "WAVE Evaluation Tool",
+      "description": "WAVE is a web accessibility evaluation tool developed by WebAIM. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page.",
+      "developer": "WebAIM",
+      "url": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh",
+      "browsers": [ "Chrome" ]
+    },
+    {
+      "title": "Web Accessibility Toolbar",
+      "description": "The Web Accessibility Toolbar (WAT) has been developed to aid manual examination of web pages for a variety of aspects of accessibility.",
+      "developer": "The Paciello Group",
+      "url": "https://developer.paciellogroup.com/resources/wat/",
+      "browsers": [ "Internet Explorer" ]
+    }
+  ],
+  "colors" : [
+    {
+      "title": "Accessibility Tester",
+      "description": "Pick any color to generate an accessible palette.",
+      "developer": "Confrere",
+      "url": "https://confrere.com/a11y/test/"
+    },
+    {
+      "title": "Accessible color palette builder",
+      "description": "An Elm-based prototype to help designers build accessible color palettes.",
+      "developer": "Atul Varma",
+      "url": "https://toolness.github.io/accessible-color-matrix/"
+    },
+    {
+      "title": "Colorable",
+      "description": "Color palette combination contrast tester",
+      "developer": "Brent Jackson",
+      "url": "http://jxnblk.com/colorable/demos/text/"
+    },
+    {
+      "title": "Color Safe",
+      "description": " Empowering designers with beautiful and accessible color palettes based on WCAG Guidelines of text and background contrast ratios.",
+      "developer": "Donielle Berg and Adrian Rapp",
+      "url": "http://colorsafe.co/"
+    },
+    {
+      "title": "Colors: A11Y Stats",
+      "description": "Colors.css - A nicer color palette for the web.",
+      "developer": "Adam Morse",
+      "url": "http://clrs.cc/a11y/"
+    },
+    {
+      "title": "Colorblind Web Page Filter",
+      "description": "Use the Colorblind Colorlab to select safe colors earlier in the design process.",
+      "developer": "toptal",
+      "url": "http://colorfilter.wickline.org/"
+    },
+    {
+      "title": "Contrast Ratio",
+      "description": "Easily calculate color contrast ratios. Passing WCAG was never this easy!",
+      "developer": "Lea Verou",
+      "url": "https://contrast-ratio.com/"
+    },
+    {
+      "title": "Hex Naw",
+      "description": "Hex Naw is a tool that helps designers and developers test entire color systems for contrast and accessibility. Plug in your palette or color system and let Hex Naw do the rest.",
+      "developer": "The Scenery",
+      "url": "https://hexnaw.com/"
+    },
+    {
+      "title": "Tanaguru Contrast-finder",
+      "description": "Find good constrast for web accessibility between two colors.",
+      "developer": "Tanaguru",
+      "url": "http://contrast-finder.tanaguru.com/"
+    },
+    {
+      "title": "We are Colorblind",
+      "description": "Making the world a better place for the colorblind.",
+      "developer": "Tom van Beveren and Kim van den Brink",
+      "url": "http://wearecolorblind.com/"
+    }
+  ],
+  "communityHelp" : [
+    {
+      "description": "Accessify.com - all the tools, links and resources you'll ever need to make your web site accessible.",
+      "url": "http://www.accessify.com/search?q=accessibility"
+    },
+    {
+      "title": "Anybody can be an A11y Slacker",
+      "description": "Information on the web-a11y Slack group.",
+      "url": "https://developer.paciellogroup.com/blog/2015/07/anybody-can-be-an-a11y-slacker/"
+    },
+    {
+      "title": "The most insightful stories about Web Accessibility – Medium",
+      "description": "Content tagged with 'accessibility'.",
+      "url": "https://medium.com/tag/web-accessibility"
+    },
+    {
+      "title": "Newest 'accessibility' Questions - User Experience Stack Exchange",
+      "description": "Content tagged with 'accessibility'.",
+      "url": "http://ux.stackexchange.com/questions/tagged/accessibility"
+    },
+    {
+      "title": "Newest 'accessibility' Questions - Stack Overflow",
+      "description": "Content tagged with 'accessibility'.",
+      "url": "http://stackoverflow.com/questions/tagged/accessibility"
+    },
+    {
+      "title": "Search for 'a11y' on Meetup.com",
+      "description": "Find Meetups so you can do more of what matters to you.",
+      "url": "http://www.meetup.com/find/?allMeetups=false&keywords=a11y&radius=Infinity&sort=recommended&eventFilter=mysugg"
+    },
+    {
+      "title": "WebAIM Web Accessibility E-mail Discussion List",
+      "description": "The WebAIM web accessibility mailing list is for anyone interested in discussing web accessibility issues. Individuals from all organizations and specialties are encouraged to join.",
+      "url": "http://webaim.org/discussion/"
+    }
+  ],
+  "courses" : [
+    {
+      "title": "Accessibility Courses",
+      "description": "Courses, webinars, educational videos, and more, offered in web accessibility.",
+      "developer": "Mike Gifford",
+      "url": "https://github.com/mgifford/a11y-courses"
+    },
+    {
+      "title": "Start Building Accessible Web Applications Today",
+      "description": "This course will introduce you to accessibility through hands-on, technical examples that are way more effective than reading 10-year-old static web content.",
+      "developer": "egghead.io",
+      "url": "https://egghead.io/courses/start-building-accessible-web-applications-today"
+    },
+    {
+      "title": "Web Accessibility by Google",
+      "description": "In this course you’ll get hands-on experience making web applications accessible.",
+      "developer": "Udacity",
+      "url": "https://www.udacity.com/course/web-accessibility--ud891"
+    }
+  ],
+  "developmentTools" : [
+    {
+      "title": "Accessify",
+      "description": "Run a free website performance test and get actionable tips on how to optimize it.",
+      "developer": "AccessLint",
+      "url": "https://www.accessify.com/"
+    },
+    {
+      "title": "AccessLint",
+      "description": "AccessLint is a GitHub App that finds accessibility issues in your pull requests.",
+      "developer": "AccessLint",
+      "url": "https://www.accesslint.com/"
+    },
+    {
+      "title": "ally.js",
+      "description": "A JavaScript library to help modern web applications with accessibility concerns by making accessibility simpler.",
+      "developer": "Rodney Rehm",
+      "url": "http://allyjs.io/"
+    },
+    {
+      "title": "a11yTools Extension for Safari macOS",
+      "description": "a11yTools is a collection of HTML Web Accessibility Testing Tools in one location in an Extension for Safari used for quick and easy Accessibility testing.",
+      "developer": "Paul J. Adam",
+      "url": "http://pauljadam.com/extension.html"
+    },
+    {
+      "title": "a11yTools iOS - Web Accessibility Testing Tool",
+      "description": "a11yTools is a collection of HTML Web Accessibility Testing Tools in one location on your iPhone and iPad for quick and easy Accessibility testing.",
+      "developer": "Paul J. Adam",
+      "url": "http://pauljadam.com/extension.html"
+    },
+    {
+      "title": "axe-core",
+      "description": "Accessibility engine for automated Web UI testing .",
+      "developer": "Deque Labs",
+      "url": "https://github.com/dequelabs/axe-core"
+    },
+    {
+      "title": "Atom: web-accessibility-checker",
+      "description": "Web Accessibility checker which evaluate some defined WCAG rules instantly during coding or on command.",
+      "developer": "Michael Weber",
+      "url": "https://atom.io/packages/web-accessibility-checker"
+    },
+    {
+      "title": "Atom: accessibility-snippets",
+      "description": "Snippets that include all WAI-ARIA attributes and descriptions, for ease of use in building more accessible web content.",
+      "developer": "silviasusai",
+      "url": "https://atom.io/packages/accessible-snippets"
+    },
+    {
+      "title": "Atom: accessibility-snippets",
+      "description": "Snippets that include all WAI-ARIA attributes and descriptions, for ease of use in building more accessible web content.",
+      "developer": "silviasusai",
+      "url": "https://atom.io/packages/accessible-snippets"
+    },
+    {
+      "title": "Bootstrap accessibility plugin",
+      "description": "Bootstrap Accessibility Plugin is an extension for the Bootstrap 3 web development framework that makes many of the components of this library accessible for keyboard and screen reader users.",
+      "developer": "PayPal",
+      "url": "https://paypal.github.io/bootstrap-accessibility-plugin/"
+    },
+    {
+      "title": "Pa11y",
+      "description": "Pa11y is your automated accessibility testing pal.",
+      "developer": "Pa11y",
+      "url": "http://pa11y.org/"
+    },
+    {
+      "title": "Sublime WAI-ARIA Package",
+      "description": "WAI-ARIA Roles, States and Properties auto-completion for Sublime Text.",
+      "developer": "Indrek Paas",
+      "url": "https://packagecontrol.io/packages/WAI-ARIA"
+    }
+  ],
+  "htmlAndAria" : [
+    {
+      "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
+      "description": "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities.",
+      "source": "W3C",
+      "url": "https://www.w3.org/TR/wai-aria/"
+    },
+    {
+      "title": "HTML5 Accessibility",
+      "description": "Get the current accessibility support status of HTML5 features across major browsers",
+      "source": "Steve Faulkner",
+      "url": "http://www.html5accessibility.com/"
+    },
+    {
+      "title": "Periodic Table of ARIA 1.0 Roles",
+      "description": "ARIA 1.0 Roles displayed in the style of the periodic table of elements.",
+      "source": "Dylan Barrell",
+      "url": "https://dylanb.github.io/periodic-aria-roles.html"
+    },
+    {
+      "title": "WAI-ARIA Authoring Practices 1.1",
+      "description": "This document provides readers with an understanding of how to use WAI-ARIA 1.1 to create accessible rich internet applications.",
+      "source": "W3C",
+      "url": "https://www.w3.org/TR/wai-aria-practices/"
+    },
+    {
+      "title": "Web Accessibility Tutorials",
+      "description": "This collection of tutorials shows you how to develop web content that is accessible to people with disabilities, and that provides a better user experience for everyone.",
+      "source": "W3C",
+      "url": "https://www.w3.org/WAI/tutorials/"
+    },
+  ],
+  "newsletters" : [
+    {
+      "title": "Accessibility Weekly",
+      "description": "A weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday.",
+      "source": "David A. Kennedy",
+      "url": "http://a11yweekly.com/"
+    },
+    {
+      "title": "Axess Lab Newsletter",
+      "description": "Get notified when we write new stuff",
+      "source": "Axess Lab",
+      "url": "https://axesslab.com/alt-texts#thanks-for-making-the-web-better"
+    },
+    {
+      "title": "Skip Links",
+      "description": "A monthly newsletter curated by the HackerYou Web Accessibility Club",
+      "source": "HackerYou",
+      "url": "https://mailchi.mp/9f8895e93f13/hackeryou-accessibility-club-newsletter"
+    },
+    {
+      "title": "t12t Accessibility Newsletter",
+      "description": "The goal is to spread news, articles and tips regarding web accessibility. This will be more than a bunch of links in an email, there will be opinions.",
+      "source": "t12t",
+      "url": "http://t12t.se/accessibility-newsletter/"
+    },
+    {
+      "title": "University of Minnesota Duluth Webdev Newsletter",
+      "description": "The Web Design Update is a plain text email digest dedicated to disseminating news and information about web design and development with emphasis on elements of user experience, accessibility, web standards and more.",
+      "source": "Laura L. Carlson",
+      "url": "http://www.d.umn.edu/itss/training/online/webdesign/webdev_listserv.html"
+    },
+    {
+      "title": "The WebAIM Newsletter",
+      "description": "The WebAIM newsletter is for people that are interested in receiving monthly news and updates on web accessibility issues. The newsletter will include featured articles, monthly tips, resources, and questions from WebAIM's discussion forum.",
+      "source": "WebAIM",
+      "url": "https://webaim.org/newsletter/"
+    }
+  ],
+  "pdfs" : [
+    {
+      "title": "AcceDe PDF Project",
+      "description": "The aim of this guide is to provide all the practical information you need to learn how to tag a PDF document.",
+      "source": "AcceDe",
+      "url": "https://www.pdf-accessible.com/en/"
+    },
+    {
+      "title": "Create and verify PDF accessibility (Acrobat Pro)",
+      "description": "Acrobat tools make it easy to create accessible PDFs and check the accessibility of existing PDFs. You can create PDFs to meet common accessibility standards, such as Web Content Accessibility Guidelines (WCAG) 2.0 and PDF/UA (Universal Access, or ISO 14289).",
+      "source": "Adobe",
+      "url": "https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html"
+    },
+    {
+      "title": "WebAIM: PDF Accessibility",
+      "description": "Defining Acrobat PDF accessibility.",
+      "source": "WebAIM",
+      "url": "https://webaim.org/techniques/acrobat/"
+    }
+  ],
+  "podcasts" : [
+    {
+      "title": "061: Accessibility with Marcy Sutton",
+      "description": "Marcy Sutton is going to be talking with us a little bit about accessibility, both in the large and the small.",
+      "source": "The Frontside Podcast",
+      "url": "https://frontsidethepodcast.simplecast.fm/episodes/44c5e387/61-accessibility-with-marcy-sutton",
+      "type": "Episode"
+    },
+    {
+      "title": "#A11y Rules Podcast",
+      "description": "Conversations around web accessibility.",
+      "source": "Nicolas Steenhout",
+      "url": "https://a11yrules.com/",
+      "type": "Podcast"
+    },
+    {
+      "title": "a11y Cocktail",
+      "description": "In this episode, we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users.",
+      "source": "Front End Happy Hour",
+      "url": "https://frontendhappyhour.com/episodes/a11y-cocktail/",
+      "type": "Episode"
+    },
+    {
+      "title": "Accessible Podcast",
+      "description": "Accessible is a fortnightly—episodes are released twice per month—podcast about accessibility in tech. Topics covered on the show are mostly Apple-centric but will span the tech industry at large where appropriate.",
+      "source": "Steven Aquino and Timothy Buck",
+      "url": "https://www.accessible.fm",
+      "type": "Podcast"
+    },
+    {
+      "title": "Intro to Accessibility with Stephanie Slattery",
+      "description": "Stephanie Slattery explains the 5 categories of disabilities, shows us how to implement suggestions from the Web Content Accessibility Guidelines, and shares why she’s so passionate about accessibility.",
+      "source": "CodeNewbie",
+      "url": "https://www.codenewbie.org/podcast/intro-to-accessibility",
+      "type": "Episode"
+    },
+    {
+      "title": "Presentable 30: Accessibility is Social Justice",
+      "description": "This week on the show, we talk to Laura Kalbag about her new book, Accessibility for Everyone. We discuss how digital products have an increasing mandate to be broadly usable by everyone in society, and what we can do to achieve better accessibility in our designs.",
+      "source": "Presentable",
+      "url": "https://player.fm/series/presentable/presentable-30-accessibility-is-social-justice",
+      "type": "Episode"
+    }
+  ],
+  "professionalHelp" : [
+    {
+      "title": "Deque Systems",
+      "description": "Deque Systems provides web and mobile accessibility solutions so you can meet compliance goals and help make the web accessible to all users.",
+      "url": "https://www.deque.com/"
+    },
+    {
+      "title": "Knowbility",
+      "description": "Knowbility is a nonprofit organization with the goal of improving technology access for millions of youth and adults with disabilities all over the world.",
+      "url": "https://knowbility.org/"
+    },
+    {
+      "title": "The Paciello Group",
+      "description": "The Paciello Group – Your Accessibility Partner (WCAG 2.0/508 audits, VPAT, usability and accessible user experience).",
+      "url": "https://www.paciellogroup.com/"
+    },
+    {
+      "title": "Simply Accessible",
+      "description": "Help us a build a digital world for everybody. Apply an accessible approach to your design, development, and testing. We'll guide you & show you how using an accessibility first approach empower us all.",
+      "url": "https://simplyaccessible.com/"
+    },
+    {
+      "title": "WebAIM: Web Accessibility In Mind",
+      "description": "Our mission is to empower organizations to make their web content accessible to people with disabilities.",
+      "url": "https://webaim.org/"
+    },
+    {
+      "title": "Level Access",
+      "description": "Level Access is a company that provides digital accessibility solutions and services to corporations, government agencies, and educational institutions.",
+      "url": "https://www.levelaccess.com/"
+    },
+    {
+      "title": "Tenon",
+      "description": "We believe in a web accessible to everyone. Tenon.io exists because universal design is hard. We create software to help you reach beyond compliance and build superior experiences for everyone.",
+      "url": "https://tenon.io/"
+    }
+  ],
+  "screenReaders" : [
+    {
+      "title": "Android Accessibility Suite",
+      "description": "Android Accessibility Suite is a collection of accessibility services that help you use your Android device eyes-free or with a switch device.",
+      "developer": "Google",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback",
+      "platforms": [ "Android" ]
+    },
+    {
+      "title": "Job Access With Speech (JAWS)",
+      "description": "JAWS is the world's most popular screen reader, developed for computer users whose vision loss prevents them from seeing screen content or navigating with a mouse.",
+      "developer": "Freedom Scientific",
+      "url": "https://www.freedomscientific.com/Products/Blindness/JAWS",
+      "platforms": [ "Windows" ]
+    },
+    {
+      "title": "NonVisual Desktop Access",
+      "description": "NonVisual Desktop Access (NVDA) is a free, open-source, portable screen reader for Microsoft Windows.",
+      "developer": "NV Access",
+      "url": "https://www.nvaccess.org/",
+      "platforms": [ "Windows" ]
+    },
+    {
+      "title": "Orca",
+      "description": "Orca is a free and open-source, flexible, extensible screen reader from the GNOME project for individuals who are blind or visually impaired.",
+      "developer": "The GNOME Project",
+      "url": "https://wiki.gnome.org/Projects/Orca",
+      "platforms": [ "Linux" ]
+    },
+    {
+      "title": "VoiceOver (iOS)",
+      "description": "VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen.",
+      "developer": "Apple",
+      "url": "https://www.apple.com/accessibility/iphone/vision/",
+      "platforms": [ "iOS" ]
+    },
+    {
+      "title": "VoiceOver (macOS)",
+      "description": "VoiceOver gives you auditory descriptions of each onscreen element and provides helpful hints along the way.",
+      "developer": "Apple",
+      "url": "https://www.apple.com/accessibility/mac/vision/",
+      "platforms": [ "macOS" ]
+    }
+  ],
+  "screenReaderHelp" : [
+    {
+      "title": "Basic screen reader commands for accessibility testing",
+      "description": "When you test your website with a screen reader there are a few basic commands you should know.",
+      "source": "The Paciello Group",
+      "url": "https://developer.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/",
+    },
+    {
+      "title": "The Importance Of Manual Accessibility Testing",
+      "description": "Automated accessibility tests are a great resource to have, but they can’t automatically make your site accessible. Use them as one step of a larger testing process.",
+      "source": "Smashing Magazine",
+      "url": "https://knowbility.org/blog/2018/keyboard-testing-basics/",
+    },
+    {
+      "title": "Keyboard Testing Basics",
+      "description": "Keyboard testing is one of the most efficient, impactful, and easy tasks that any team member can do to find accessibility issues.",
+      "source": "Knowbility",
+      "url": "https://knowbility.org/blog/2018/keyboard-testing-basics/",
+    },
+    {
+      "title": "Testing with Screen Readers",
+      "description": "Answers to common questions.",
+      "source": "WebAIM",
+      "url": "https://webaim.org/articles/screenreader_testing/",
+    }
+  ],
+  "talks" : [
+    {
+      "title": "A11ycasts with Rob Dodson",
+      "description": "The goal of A11ycasts is to teach developers how accessibility works all the way down at the platform level, while also demonstrating real world accessibility problems and solutions to fix them.",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g",
+      "type": "Series"
+    },
+    {
+      "title": "Aaron Cannon, Blind Web Developer",
+      "description": "LDS Church (2007)",
+      "source": "Vimeo",
+      "url": "https://vimeo.com/1157346",
+      "type": "Talk"
+    },
+    {
+      "title": "Accessibility is My Favorite Part of the Platform",
+      "description": "Google I/O (2016)",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/watch?v=2qjgxH384Nc",
+      "type": "Talk"
+    },
+    {
+      "title": "Accessibility Mythbusting",
+      "description": "WDCNZ (2013)",
+      "source": "Vimeo",
+      "url": "http://vimeo.com/73913824",
+      "type": "Talk"
+    },
+    {
+      "title": "The Accessibility Panel",
+      "description": "WDCNZ (2013)",
+      "source": "Vimeo",
+      "url": "http://vimeo.com/73914110",
+      "type": "Talk"
+    },
+    {
+      "title": "Accessibility Talks",
+      "description": "Monthly online talks about accessibility.",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/c/accessibilitytalks",
+      "type": "Series"
+    },
+    {
+      "title": "Advancing Web Accessibility with ChromeVox",
+      "description": "Google I/O (2013)",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/watch?v=YyWu9HB9QtU",
+      "type": "Talk"
+    },
+    {
+      "title": "HTML5 Accessibility (Steve Faulkner)",
+      "description": "Paris Web (2013)",
+      "source": "Vimeo",
+      "url": "http://vimeo.com/77860167",
+      "type": "Talk"
+    },
+    {
+      "title": "Make Your Widgets Sing With ARIA",
+      "description": "WDCNZ (2013)",
+      "source": "Vimeo",
+      "url": "http://vimeo.com/73427435",
+      "type": "Talk"
+    },
+    {
+      "title": "JavaScript and Civil Rights (Marcy Sutton)",
+      "description": "Web Rebels (2017)",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/watch?v=hUCOA338jwk",
+      "type": "Talk"
+    },
+    {
+      "title": "Multi-device Accessibility (Alice Boxhall)",
+      "description": "Chrome Dev Summit (2013)",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/watch?v=E0ojKLzXoZ4",
+      "type": "Talk"
+    },
+    {
+      "title": "PWAs in any context",
+      "description": "Progressive Web App Summit (2016)",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/watch?v=8dr_IUGwsO0",
+      "type": "Talk"
+    },
+    {
+      "title": "The rock'n'roll guide to ARIA and HTML5",
+      "description": "Generate Conference (2013)",
+      "source": "YouTube",
+      "url": "http://www.youtube.com/watch?v=Fe1behOSjdU&list=PLb_ziuDPiUzZkc077IW3_rDcqX1OC8VbV&index=16",
+      "type": "Talk"
+    }
+  ],
+  "typography" : [
+    {
+      "title": "Designing Accessible Content: Typography, Font Styling, and Structure",
+      "description": "Creating and designing accessible content means more than just choosing accessible typography. Even with “perfect” font families in place on your website, people with low vision, cognitive, language, and learning disabilities may still struggle to process the text.",
+      "source": "Envato Tuts+",
+      "url": "https://axesslab.com/fonts-dont-matter/"
+    },
+    {
+      "title": "Fonts don’t matter",
+      "description": "If you’re an art director or font fanatic, you might want to sit down for this. Take a few deep breaths. Go to your happy place. Because I’m going to explain why fonts are overrated and what actually matters for readability.",
+      "source": "Axess Lab",
+      "url": "https://axesslab.com/fonts-dont-matter/"
+    },
+    {
+      "title": "Letter and symbol misrecognition in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers",
+      "description": "This paper identifies easily misrecognised letters and symbols in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers. It can also be considered as a review of related research in this area.",
+      "source": "Typography.Guru",
+      "url": "https://typography.guru/journal/letters-symbols-misrecognition/"
+    }
+  ],
+  "visionSimulators" : [
+    {
+      "title": "Color Oracle",
+      "description": "Color Oracle takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see.",
+      "developer": "Bernie Jenny",
+      "url": "http://colororacle.org/",
+      "platforms": [ "Linux", "macOS", "Windows" ]
+    },
+    {
+      "title": "Contrast",
+      "description": "A macOS app for quick access to WCAG color contrast ratios",
+      "developer": "Nothing Magical, Inc.",
+      "url": "https://usecontrast.com/",
+      "platforms": [ "macOS" ]
+    },
+    {
+      "title": "Colour Contrast Analyser",
+      "description": "The Colour Contrast Analyser (CCA) helps you determine the legibility of text and the contrast of visual elements, such as graphical controls and visual indicators.",
+      "developer": "The Paciello Group",
+      "url": "https://developer.paciellogroup.com/resources/contrastanalyser/",
+      "platforms": [ "macOS", "Windows" ]
+    },
+    {
+      "title": "Sim Daltonism",
+      "description": "Sim Daltonism lets you visualize colors as they are perceived with various types of color blindness.",
+      "developer": "Michel Fortin",
+      "url": "https://michelf.ca/projects/sim-daltonism/",
+      "platforms": [ "iOS", "macOS" ]
+    }
+  ],
+  "additionalResources" : [
+    {
+      "title": "The Accessibility Cheatsheet",
+      "description": "The WCAG contain some very useful information, and so I decided to condense the very extensive guidelines and highlight some practical examples of what we can do to implement them and make our websites more accessible.",
+      "source": "Ire Aderinokun",
+      "url": "https://bitsofco.de/the-accessibility-cheatsheet/"
+    },
+    {
+      "title": "Aaron Cannon’s Web Accessibility Checklist",
+      "description": "PDF accessibility checklist.",
+      "source": "Cameron Moll",
+      "url": "http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/"
+    },
+    {
+      "title": "Empathy Prompts",
+      "description": "Prompts to consider when making things for others to use.",
+      "source": "Eric Bailey",
+      "url": "https://empathyprompts.net/"
+    },
+    {
+      "title": "Google Accessibility",
+      "description": "Everyone should be able to access and enjoy the web. We’re committed to making that a reality.",
+      "source": "Google",
+      "url": "https://www.google.com/accessibility/"
+    },
+    {
+      "title": "List of online accessibility tools",
+      "description": "The Directory of the Web.",
+      "source": "DMOZ",
+      "url": "http://dmoztools.net/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/"
+    },
+    {
+      "title": "Van11y: Accessibility and Vanilla JavaScript - ES2015",
+      "description": "A collection of accessible scripts for rich interfaces elements, built using progressive enhancement and customisable.",
+      "source": "Nicolas Hoffmann",
+      "url": "https://van11y.net/"
+    },
+    {
+      "title": "Web Accessibility for Designers (Infographic)",
+      "description": "Optimal accessibility should start much earlier, as part of the visual design process. We have created an infographic that highlights a few important principles of accessible design.",
+      "source": "WebAIM",
+      "url": "https://webaim.org/resources/designers/"
+    },
+    {
+      "title": "Web Fundamentals: Accessibility",
+      "description": "A concise treatment of accessibility principles and practices.",
+      "source": "Google",
+      "url": "https://developers.google.com/web/fundamentals/accessibility/"
+    },
+    {
+      "title": "WebAIM: 'Skip Navigation' Links",
+      "description": "The main content is not usually the first thing on a web page. Keyboard and screen reader users generally must navigate a long list of navigation links, sub-lists of links, corporate icons, site searches, and other elements before ever arriving at the main content. This is particularly difficult for users with some forms of motor disabilities.",
+      "source": "WebAIM",
+      "url": "https://webaim.org/techniques/skipnav/"
+    },
+    {
+      "title": "WebAIM’s Hierarchy for Motivating Accessibility Change",
+      "description": "“When you incent, people optimize for reward. When you inspire, people optimize for purpose.”",
+      "source": "WebAIM",
+      "url": "https://webaim.org/blog/motivating-accessibility-change/"
+    },
+    {
+      "title": "Accessibility Articles, Reports, Training Courses, and Online Seminars by Nielsen Norman Group",
+      "description": "All articles tagged with 'accessibility.'",
+      "source": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/topic/accessibility/"
+    },
+    {
+      "title": "The a11y Monthly: Does Accessibility slow down the development process?",
+      "description": "One of the complaints I’ve often heard from business owners and managers is that implementing accessibility is hard and slows down the development process. For this reason, sometimes accessibility gets postponed or set aside in the erroneous belief that’s something that can be “added” later. Here, I’d like to share my thoughts on why I think the first statement is misleading.",
+      "source": "Yoast",
+      "url": "https://developer.yoast.com/accessibility-slow-down-development-process/"
+    },
+    {
+      "title": "Writing CSS with Accessibility in Mind",
+      "description": "Tips on how to improve the accessibility of your web sites and apps with CSS.",
+      "source": "Manuel Matuzovic",
+      "url": "https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939"
+    },
+    {
+      "title": "A guide to coding accessible developer tools",
+      "description": "When we talk about accessibility in the tech industry, most conversations are centered around the end user. But how accessible are the tools we code for other developers?",
+      "source": "The Increment",
+      "url": "https://increment.com/development/a-guide-to-coding-accessible-developer-tools/"
+    },
+    {
+      "title": "Information On Different Types Of People For Graphic Communication, Website And Information Designers",
+      "description": "Every day we use graphic communication design from reading letters which have come through the post, or the newspaper in the morning, to reading and using information at work, to travelling and navigating in the environment. How can we include as many people as possible when designing graphic communication and information, and how do we not unnecessarily exclude people?",
+      "source": "Usability Geek",
+      "url": "https://usabilitygeek.com/information-different-types-people-graphic-communication-website-information-designers/"
+    },
+    {
+      "title": "Accessibility for Teams",
+      "description": "A ‘quick-start’ guide for embedding accessibility and inclusive design practices into your team’s workflow.",
+      "source": "U.S. General Services Administration",
+      "url": "https://accessibility.digital.gov/"
+    },
+    {
+      "title": "Access & Use",
+      "description": "Access & Use shows what it needs to make dynamic elements in websites accessible and usable for all.",
+      "source": "Dias GmbH",
+      "url": "https://accessuse.eu/en/"
+    },
+    {
+      "title": "Are you accessible?  —  A Primer on Web Accessibility",
+      "description": "Accessibility of the world wide web hasn’t always been a number one priority for web developers (much to detriment of internet users). Whilst very few people set out to design a website that is inaccessible, many studies have documented partially or completely inaccessible websites.",
+      "source": "Amy Dickens",
+      "url": "https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8"
+    },
+    {
+      "title": "The Web Accessibility Introduction I Wish I Had",
+      "description": "This post aims to tell you a few key things about accessibility. I can't cover everything, but I can cover: why accessibility matters, how to make a website accessible, and how to test for accessibility.",
+      "source": "Max Antonucci",
+      "url": "https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope"
+    },
+    {
+      "title": "",
+      "description": "",
+      "source": "",
+      "url": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "source": "",
+      "url": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "source": "",
+      "url": ""
+    },
+    {
+      "title": "",
+      "description": "",
+      "source": "",
+      "url": ""
+    },
+
+  ]
+}
