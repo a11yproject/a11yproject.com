@@ -97,7 +97,7 @@
       "description": "Visual ARIA allows engineers, testers, educators, and students to physically observe ARIA usage within web technologies.",
       "developers": "WhatSock",
       "url": "http://whatsock.com/training/matrices/visual-aria.htm"
-    },
+    }
   ],
   "books" : [
     {
@@ -159,7 +159,7 @@
       "description": "Your Roadmap to Digital Inclusion is made up of four instructive chapters, focused on the resource considerations for each stage of a typical digital accessibility program and how to integrate the disability community across your program.",
       "authors": "Jason C. Taylor",
       "url": "https://info.usablenet.com/web-and-app-accessibility"
-    }
+    },
     {
       "title": "Web Accessibility: Web Standards and Regulatory Compliance",
       "description": "The power of the Web lies in the fact that anyone and everyone can access it, and this should also extend to users with disabilities. Accessibility is about making websites accessible to those with aural, visual, or physical disabilities, or rather, constructing websites that don't exclude these people from accessing the content or services provided.",
@@ -171,7 +171,7 @@
       "description": "If you are in charge of the user experience, development, or strategy for a web site, A Web for Everyone will help you make your site accessible without sacrificing design or innovation. Rooted in universal design principles, this book provides solutions: practical advice and examples of how to create sites that everyone can use.",
       "authors": "Sarah Horton and Whitney Quesenbery",
       "url": "https://rosenfeldmedia.com/books/a-web-for-everyone/"
-    },
+    }
   ],
   "browserExtensions" : [
     {
@@ -295,7 +295,8 @@
   ],
   "communityHelp" : [
     {
-      "description": "Accessify.com - all the tools, links and resources you'll ever need to make your web site accessible.",
+      "title": "Search for 'accessibility' on Accessify.com",
+      "description": "Questions and Answers by Accessify: Browse through our database of popular questions to find the best answers ever posted by other people.",
       "url": "http://www.accessify.com/search?q=accessibility"
     },
     {
@@ -453,7 +454,7 @@
       "description": "This collection of tutorials shows you how to develop web content that is accessible to people with disabilities, and that provides a better user experience for everyone.",
       "source": "W3C",
       "url": "https://www.w3.org/WAI/tutorials/"
-    },
+    }
   ],
   "newsletters" : [
     {
@@ -643,25 +644,25 @@
       "title": "Basic screen reader commands for accessibility testing",
       "description": "When you test your website with a screen reader there are a few basic commands you should know.",
       "source": "The Paciello Group",
-      "url": "https://developer.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/",
+      "url": "https://developer.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/"
     },
     {
       "title": "The Importance Of Manual Accessibility Testing",
       "description": "Automated accessibility tests are a great resource to have, but they can’t automatically make your site accessible. Use them as one step of a larger testing process.",
       "source": "Smashing Magazine",
-      "url": "https://knowbility.org/blog/2018/keyboard-testing-basics/",
+      "url": "https://knowbility.org/blog/2018/keyboard-testing-basics/"
     },
     {
       "title": "Keyboard Testing Basics",
       "description": "Keyboard testing is one of the most efficient, impactful, and easy tasks that any team member can do to find accessibility issues.",
       "source": "Knowbility",
-      "url": "https://knowbility.org/blog/2018/keyboard-testing-basics/",
+      "url": "https://knowbility.org/blog/2018/keyboard-testing-basics/"
     },
     {
       "title": "Testing with Screen Readers",
       "description": "Answers to common questions.",
       "source": "WebAIM",
-      "url": "https://webaim.org/articles/screenreader_testing/",
+      "url": "https://webaim.org/articles/screenreader_testing/"
     }
   ],
   "talks" : [
@@ -921,31 +922,6 @@
       "description": "This post aims to tell you a few key things about accessibility. I can't cover everything, but I can cover: why accessibility matters, how to make a website accessible, and how to test for accessibility.",
       "source": "Max Antonucci",
       "url": "https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope"
-    },
-    {
-      "title": "",
-      "description": "",
-      "source": "",
-      "url": ""
-    },
-    {
-      "title": "",
-      "description": "",
-      "source": "",
-      "url": ""
-    },
-    {
-      "title": "",
-      "description": "",
-      "source": "",
-      "url": ""
-    },
-    {
-      "title": "",
-      "description": "",
-      "source": "",
-      "url": ""
-    },
-
+    }
   ]
 }
