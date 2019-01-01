@@ -11,3 +11,296 @@ subtitle: Accessibility software, books, blogs, online tools, and more.
 <p>
   {{ subtitle }}
 </p>
+
+<nav id="table-of-contents" aria-label="Table of Contents">
+  <h2>Table of Contents</h2>
+  <ol>
+    <li><a href="#blogs">Blogs</a></li>
+    <li><a href="#bookmarklets">Bookmarklets</a></li>
+    <li><a href="#books">Books</a></li>
+    <li><a href="#browser-extensions">Browser Extensions</a></li>
+    <li><a href="#color">Color</a></li>
+    <li><a href="#community-help">Community Help</a></li>
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#development-tools">Development Tools</a></li>
+    <li><a href="#html-and-aria">HTML and ARIA</a></li>
+    <li><a href="#newsletters">Newsletters</a></li>
+    <li><a href="#pdfs">PDFs</a></li>
+    <li><a href="#podcasts">Podcasts</a></li>
+    <li><a href="#professional-help">Professional Help</a></li>
+    <li><a href="#screen-readers">Screen Readers</a></li>
+    <li><a href="#screen-reader-help">Screen Reader Help</a></li>
+    <li><a href="#talks">Talks</a></li>
+    <li><a href="#typography">Typography</a></li>
+    <li><a href="#vision-simulators">Vision Simulators</a></li>
+    <li><a href="#additional-resources">Additional Resources</a></li>
+  </ol>
+</nav>
+
+<h2 id="blogs">Blogs</h2>
+<p>
+  Bookmarklets copy TK.
+</p>
+<dl>
+  {%- for blog in resources.blogs %}
+  <dt id="{{ blog.title | slug }}">
+    <a rel="external noopener" href="{{ blog.url }}">{{ blog.title }}</a>
+  </dt>
+  <dd>{{ blog.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="bookmarklets">Bookmarklets</h2>
+<p>
+  Bookmarklets copy TK.
+</p>
+<dl>
+  {%- for bookmarklet in resources.bookmarklets %}
+  <dt id="{{ bookmarklet.title | slug }}">
+    <a rel="external noopener" href="{{ bookmarklet.url }}">{{ bookmarklet.title }}</a>
+  </dt>
+  <dd>{{ bookmarklet.developers }}</dd>
+  <dd>{{ bookmarklet.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="books">Books</h2>
+<p>
+  Books copy TK.
+</p>
+<dl>
+  {%- for book in resources.books %}
+  <dt id="{{ book.title | slug }}">
+    <a rel="external noopener" href="{{ book.url }}">{{ book.title }}</a>
+  </dt>
+  <dd>{{ book.authors }}</dd>
+  <dd>{{ book.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="browser-extensions">Browser Extensions</h2>
+<p>
+  Browser extensions copy TK.
+</p>
+<dl>
+  {%- for extension in resources.browserExtensions %}
+  <dt id="{{ extension.title | slug }}">
+    <a rel="external noopener" href="{{ extension.url }}">{{ extension.title }}</a>
+  </dt>
+  <dd>{{ extension.browsers }}</dd>
+  <dd>{{ extension.developer }}</dd>
+  <dd>{{ extension.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="color">Color</h2>
+<p>
+  Color copy TK.
+</p>
+<dl>
+  {%- for color in resources.colors %}
+  <dt id="{{ color.title | slug }}">
+    <a rel="external noopener" href="{{ color.url }}">{{ color.title }}</a>
+  </dt>
+  <dd>{{ color.developer }}</dd>
+  <dd>{{ color.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="community-help">Community Help</h2>
+<p>
+  Community help copy TK.
+</p>
+<dl>
+  {%- for help in resources.communityHelp %}
+  <dt id="{{ help.title | slug }}">
+    <a rel="external noopener" href="{{ help.url }}">{{ help.title }}</a>
+  </dt>
+  <dd>{{ help.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="courses">Courses</h2>
+<p>
+  Course copy TK.
+</p>
+<dl>
+  {%- for course in resources.courses %}
+  <dt id="{{ course.title | slug }}">
+    <a rel="external noopener" href="{{ course.url }}">{{ course.title }}</a>
+  </dt>
+  <dd>{{ course.developer }}</dd>
+  <dd>{{ course.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="development-tools">Development Tools</h2>
+<p>
+  Development tools copy TK.
+</p>
+<dl>
+  {%- for tool in resources.developmentTools %}
+  <dt id="{{ tool.title | slug }}">
+    <a rel="external noopener" href="{{ tool.url }}">{{ tool.title }}</a>
+  </dt>
+  <dd>{{ tool.developer }}</dd>
+  <dd>{{ tool.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="html-and-aria">HTML and ARIA</h2>
+<p>
+  HTML and ARIA copy TK.
+</p>
+<dl>
+  {%- for html in resources.htmlAndAria %}
+  <dt id="{{ html.title | slug }}">
+    <a rel="external noopener" href="{{ html.url }}">{{ html.title }}</a>
+  </dt>
+  <dd>{{ html.source }}</dd>
+  <dd>{{ html.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="newsletters">Newsletters</h2>
+<p>
+  Newsletters copy TK.
+</p>
+<dl>
+  {%- for newsletter in resources.newsletters %}
+  <dt id="{{ newsletter.title | slug }}">
+    <a rel="external noopener" href="{{ newsletter.url }}">{{ newsletter.title }}</a>
+  </dt>
+  <dd>{{ newsletter.source }}</dd>
+  <dd>{{ newsletter.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="pdfs">PDFs</h2>
+<p>
+  PDFs copy TK.
+</p>
+<dl>
+  {%- for pdf in resources.pdfs %}
+  <dt id="{{ pdf.title | slug }}">
+    <a rel="external noopener" href="{{ pdf.url }}">{{ pdf.title }}</a>
+  </dt>
+  <dd>{{ pdf.source }}</dd>
+  <dd>{{ pdf.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="podcasts">Podcasts</h2>
+<p>
+  Podcasts copy TK.
+</p>
+<dl>
+  {%- for podcast in resources.podcasts %}
+  <dt id="{{ podcast.title | slug }}">
+    <a rel="external noopener" href="{{ podcast.url }}">{{ podcast.title }}</a>
+  </dt>
+  <dd>{{ podcast.source }}</dd>
+  <dd>{{ podcast.type }}</dd>
+  <dd>{{ podcast.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="professional-help">Professional Help</h2>
+<p>
+  Professional help copy TK.
+</p>
+<dl>
+  {%- for company in resources.professionalHelp %}
+  <dt id="{{ company.title | slug }}">
+    <a rel="external noopener" href="{{ company.url }}">{{ company.title }}</a>
+  </dt>
+  <dd>{{ company.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="screen-readers">Screen Readers</h2>
+<p>
+  Screen readers copy TK.
+</p>
+<dl>
+  {%- for screenreader in resources.screenReaders %}
+  <dt id="{{ screenreader.title | slug }}">
+    <a rel="external noopener" href="{{ screenreader.url }}">{{ screenreader.title }}</a>
+  </dt>
+  <dd>{{ screenreader.platforms }}</dd>
+  <dd>{{ screenreader.developer }}</dd>
+  <dd>{{ screenreader.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="screen-reader-help">Screen Reader Help</h2>
+<p>
+  Screen reader help copy TK.
+</p>
+<dl>
+  {%- for help in resources.screenReaderHelp %}
+  <dt id="{{ help.title | slug }}">
+    <a rel="external noopener" href="{{ help.url }}">{{ help.title }}</a>
+  </dt>
+  <dd>{{ help.source }}</dd>
+  <dd>{{ help.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="talks">Talks</h2>
+<p>
+  Talks copy TK.
+</p>
+<dl>
+  {%- for talk in resources.talks %}
+  <dt id="{{ talk.title | slug }}">
+    <a rel="external noopener" href="{{ talk.url }}">{{ talk.title }}</a>
+  </dt>
+  <dd>{{ talk.source }}</dd>
+  <dd>{{ talk.type }}</dd>
+  <dd>{{ talk.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="typography">Typography</h2>
+<p>
+  Typography copy TK.
+</p>
+<dl>
+  {%- for type in resources.typography %}
+  <dt id="{{ type.title | slug }}">
+    <a rel="external noopener" href="{{ type.url }}">{{ type.title }}</a>
+  </dt>
+  <dd>{{ type.source }}</dd>
+  <dd>{{ type.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="vision-simulators">Vision Simulators</h2>
+<p>
+  Vision simulators copy TK.
+</p>
+<dl>
+  {%- for simulator in resources.visionSimulators %}
+  <dt id="{{ simulator.title | slug }}">
+    <a rel="external noopener" href="{{ simulator.url }}">{{ simulator.title }}</a>
+  </dt>
+  <dd>{{ simulator.platforms }}</dd>
+  <dd>{{ simulator.developer }}</dd>
+  <dd>{{ simulator.description }}</dd>
+  {%- endfor -%}
+</dl>
+
+<h2 id="additional-resources">Additional Resources</h2>
+<p>
+  Additional resources copy TK.
+</p>
+<dl>
+  {%- for resource in resources.additionalResources %}
+  <dt id="{{ resource.title | slug }}">
+    <a rel="external noopener" href="{{ resource.url }}">{{ resource.title }}</a>
+  </dt>
+  <dd>{{ resource.source }}</dd>
+  <dd>{{ resource.description }}</dd>
+  {%- endfor -%}
+</dl>
