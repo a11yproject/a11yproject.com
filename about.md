@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Accessibility is hard :(
+title: About
 description: The A11Y Project aims to make accessibility easier
 permalink: about.html
 ---
