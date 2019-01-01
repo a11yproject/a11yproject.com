@@ -35,7 +35,7 @@ further_reading:
     year: 2017
 ---
 
-A touch target is the total area a user can click or tap on to activate an interactive element such as a link, input, or button.
+A touch target is the total area a person can click or tap on to activate an interactive element such as a link, input, or button.
 
 ## Background
 
