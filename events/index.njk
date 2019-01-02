@@ -12,7 +12,23 @@ subtitle: Local and remote accessibility events.
   {{ subtitle }}
 </p>
 <p>
-  <a rel="external noopener" href="https://github.com/a11yproject/a11yproject.com/issues/new">Let us know if you are hosting an event</a> and want it listed here. Please be sure to include a brief event description (2-4 sentences), as well as links to pertinent information. <a rel="external noopener" href="https://a11yproject.com/follow#meetups">Meetups</a> might also be happening in your area, be sure to check!
+  <a rel="external noopener" href="https://github.com/a11yproject/a11yproject.com/issues/new">Let us know if you are hosting an event</a> and want it listed here. Please be sure to include a brief event description (2-4 sentences), as well as links to pertinent information. <a rel="external noopener" href="follow#meetups">Meetups</a> might also be happening in your area, be sure to check!
 </p>
-<h2>Upcoming events</h2>
-<h2>Past events</h2>
+
+<h2 id="event-list">Event list</h2>
+
+{%- for event in events.events %}
+<h3 id="{{ event.title | slug }}">
+  <a rel="external noopener" href="{{ event.url }}">{{ event.title }}</a> <span>{{ event.type }}</span>
+</h3>
+<dl>
+  <dt>Event date:</dt>
+  <dd datetime="{{ event.date }}">{{ event.date }}</dd> {# TODO: Human-friendly date #}
+  {% if event.address %}
+  <dt>Event address:</dt>
+  <dd><a rel="external noopener" href="{{ event.map }}">{{ event.address }}</a></dd>
+  {% endif %}
+  <dt>Event description:</dt>
+  <dd>{{ event.description | safe }}{% if event.hashtag %} <a href="https://twitter.com/hashtag/{{ event.hashtag }}">#{{ event.hashtag }}</a>{% endif %}</dd>
+</dl>
+{%- endfor -%}
