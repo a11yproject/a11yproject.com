@@ -23,7 +23,7 @@ subtitle: Local and remote accessibility events.
 </h3>
 <dl>
   <dt>Event date:</dt>
-  <dd datetime="{{ event.date }}">{{ event.date }}</dd> {# TODO: Human-friendly date #}
+  <dd datetime="{{ event.date.datetime }}">{{ event.date.human }}</dd>
   {% if event.address %}
   <dt>Event address:</dt>
   <dd><a rel="external noopener" href="{{ event.map }}">{{ event.address }}</a></dd>

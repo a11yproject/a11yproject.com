@@ -5,14 +5,20 @@
       "description": "This webinar is geared towards those who have been recently tasked with accessibility, are starting to think about how to automate accessibility testing, or are curious about different ways to implement testing into their organization. Noah Mashni, Solutions Architect at Deque, will answer common questions people have when they’re curious about how accessibility will impact their current organization and developers.",
       "url": "https://accessibility.deque.com/tips-for-management-how-accessibility-testing-actually-impacts-your-development-process",
       "type": "Webinar",
-      "date": "2018-12-17"
+      "date": {
+        "datetime": "2018-12-17",
+        "human" : "December 17th, 2018"
+      }
     },
     {
       "title": "Chicago Digital Accessibility and Inclusive Design meetup Lighting Talks",
       "description": "The Chicago Digital Accessibility and Inclusive Design meetup presents a Lightning Talk event on Tuesday, December 11th at 6pm CT. <a href='https://www.youtube.com/watch?v=mQbPiv0dAZk'>A live stream will be available</a> for those who can't attend in person.",
       "url": "https://www.meetup.com/a11ychi/events/256749111/",
       "type": "Regional and Webinar",
-      "date": "2018-12-11",
+      "date": {
+        "datetime": "2018-12-11",
+        "human" : "December 12th, 2018"
+      },
       "address": "The Nerdery 1033 W Van Buren #700 Chicago, IL",
       "map": "https://www.google.com/maps/search/?api=1&query=41.876230%2C-87.653206"
     },
@@ -21,14 +27,20 @@
       "description": "Join part two of our live webinar series on accessibility and compliance.  Glenda Sims, Director of Consulting at Deque Systems, will discuss how organizations can measure accessibility via the Web Content Accessibility Guidelines (WCAG) 2.0 A & AA in order to stay compliant and accessible.",
       "url": "https://accessibility.deque.com/accessibility-and-compliance-how-to-measure-digital-accessibility",
       "type": "Webinar",
-      "date": "2018-12-11"
+      "date": {
+        "datetime": "2018-12-11",
+        "human" : "December 11th, 2018"
+      }
     },
     {
       "title": "A11y Nottingham Event",
       "description": "Do you want to learn how to make what you’re creating accessible and/or just keen to network with other like-minded people looking to make a difference to users with different abilities? <br><br> We will predominantly be covering digital topics to gain as much insight into the technology that is assisting people every day. This will include hints and tips on website accessibility from organisers, HeX Productions.",
       "url": "https://www.horlix.com/accessibility-nottingham-meet-up/",
       "type": "Regional",
-      "date": "2018-12-10",
+      "date": {
+        "datetime": "2018-12-10",
+        "human" : "December 10th, 2018"
+      },
       "address": "Nottingham City Centre, United Kingdom",
       "map": "https://www.google.com/maps/search/Nottingham+City+Centre,+United+Kingdom/",
       "hashtag": "Nottingham"
@@ -38,21 +50,30 @@
       "description": "Join Denis Boudreau and Aparna Pasi, two of our UX accessibility experts for a live webinar on Thursday, December 6th at 1PM EST. They will walk you through the fundamentals of a design review process for accessibility, based on the set of accessibility-focused heuristics introduced in the previous webinar session.",
       "url": "https://accessibility.deque.com/applying-accessibility-heuristics-to-a-wireframe-part-3",
       "type": "Webinar",
-      "date": "2018-12-06"
+      "date": {
+        "datetime": "2018-12-06",
+        "human" : "December 6th, 2018"
+      }
     },
     {
       "title": "Inspirational stories of strength building and sustainable lifestyles for people with disabilities",
       "description": "To commemorate International Persons with Disabilities Day, Deque is proud to partner with Adaptive Training Foundation and their athletes for this virtual panel.<p>The theme for this year's International Persons With Disabilities Day (IDPD) is 'Empowering persons with disabilities and ensuring inclusiveness and equality. Persons with disabilities, as both beneficiaries and agents of change, can fast track the process towards inclusive and sustainable development and promote a resilient society for all.</p>",
       "url": "https://accessibility.deque.com/inspirational-stories-people-with-disabilities",
       "type": "Webinar",
-      "date": "2018-12-03"
+      "date": {
+        "datetime": "2018-12-03",
+        "human" : "December 3rd, 2018"
+      }
     },
     {
       "title": "Virtual Panel: Inclusion and equality for people with disabilities in education and employment",
       "description": "To commemorate International Persons with Disabilities Day, our panelists will discuss the experiences they've had in academic institutions and while seeking employment. This webinar is intended to create awareness common barriers, opportunities, or resources for people with disabilities encounter at academic institutions or while seeking employment. This panel is a great introduction for people who are new to accessibility but want to learn more.",
       "url": "https://accessibility.deque.com/inclusion-for-people-with-disabilities-education-employment",
       "type": "Webinar",
-      "date": "2018-12-03"
+      "date": {
+        "datetime": "2018-12-03",
+        "human" : "December 3rd, 2018"
+      }
     }
   ]
 }
