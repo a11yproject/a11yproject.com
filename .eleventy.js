@@ -28,15 +28,15 @@ module.exports = function(eleventyConfig) {
 
   // only content in the `posts/` directory
   eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getFilteredByGlob("./posts/*").sort(function(a, b) {
+    return collection.getFilteredByGlob("./src/posts/*").sort(function(a, b) {
       return a.date - b.date;
     });
   });
 
-  eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
+  eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/css");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
@@ -75,10 +75,10 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
     dir: {
-      input: ".",
+      input: "./src",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "dist"
     }
   };
 };
