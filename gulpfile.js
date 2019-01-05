@@ -48,7 +48,6 @@ var del = require('del');
 var flatmap = require('gulp-flatmap');
 var lazypipe = require('lazypipe');
 var rename = require('gulp-rename');
-var header = require('gulp-header');
 
 // Scripts
 var jshint = require('gulp-jshint');
