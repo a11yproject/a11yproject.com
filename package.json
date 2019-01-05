@@ -18,9 +18,12 @@
     "Tiffany Tse <hello@a11yproject.com> (https://github.com/tiffanytse)"
   ],
   "scripts": {
-    "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "a11yproject": "npx eleventy --watch | gulp watch",
+    "eleventy-build": "npx eleventy",
+    "eleventy-watch": "npx eleventy --watch",
+    "eleventy-debug": "DEBUG=* npx eleventy",
+    "gulp-build": "gulp",
+    "gulp-watch": "gulp watch"
   },
   "keywords": [
     "a11y",
@@ -53,7 +56,6 @@
     "gulp-optimize-js": "1.1.0",
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
-    "gulp-shell": "^0.6.5",
     "gulp-svgmin": "2.1.0",
     "gulp-uglify": "3.0.1",
     "jshint": "2.9.6",
