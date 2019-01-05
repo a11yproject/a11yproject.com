@@ -17,6 +17,11 @@
     "Scott Vinkle <scott.vinkle@shopify.com> (https://svinkle.me/)",
     "Tiffany Tse <hello@a11yproject.com> (https://github.com/tiffanytse)"
   ],
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
   "keywords": [
     "a11y",
     "accessibility",
@@ -30,11 +35,6 @@
   "bugs": {
     "url": "https://github.com/a11yproject/a11yproject.com/issues",
     "email": "hello@a11yproject.com"
-  },
-  "scripts": {
-    "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {},
   "devDependencies": {
