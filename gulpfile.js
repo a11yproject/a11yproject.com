@@ -36,10 +36,6 @@ var paths = {
     input: 'src/img/**/*.svg',
     output: 'dist/img/'
   },
-  copy: {
-    input: 'src/copy/**/*', // TODO: Turn this into an array
-    output: 'dist/'
-  },
   reload: './dist/'
 };
 
@@ -153,7 +149,7 @@ var buildStyles = function (done) {
       sourceComments: true
     }))
     .pipe(prefix({
-      browsers: ['last 2 version', '> 0.25%'],
+      browsers: ['last 2 version', '> 0.25%'], // TODO: Check if this covers IE
       cascade: true,
       remove: true
     }))
@@ -180,18 +176,7 @@ var buildSVGs = function (done) {
   // Signal completion
   done();
 };
-/*
-// Copy static files into output folder
-var copyFiles = function (done) {
-  // Make sure this feature is activated before running
-  if (!settings.copy) return done();
-  // Copy static files
-  src(paths.copy.input)
-    .pipe(dest(paths.copy.output));
-  // Signal completion
-  done();
-};
-*/
+
 // Watch for changes to the src directory
 var startServer = function (done) {
   // Make sure this feature is activated before running
@@ -224,14 +209,12 @@ var watchSource = function (done) {
 
 // Default task: `gulp`
 exports.default = series(
-  // cleanDist,
   cleanScss,
   parallel(
     buildScripts,
     lintScripts,
     buildStyles,
     buildSVGs,
-    // copyFiles
 	)
 );
 
