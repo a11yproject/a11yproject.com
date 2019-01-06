@@ -27,7 +27,7 @@ further_reading:
 Your future self, coworkers, and most importantly customers and clients will thank you for developing with accessibility in mind.
 
 
-## Tech deb goes down when accessibility goes up
+## Tech debt goes down when accessibility goes up
 
 The best way to future proof your accessibility efforts is to ensure websites and applications are built with a foundation in [proper HTML semantics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML). We can help ensure we are future-proofing our project by following two rules from [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/#robust) (WCAG): **Parsing** and **Name, Role, Value**.
 
