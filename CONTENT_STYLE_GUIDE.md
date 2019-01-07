@@ -312,7 +312,7 @@ These terms are commonly used on the site, or in the accessibility community.
 
 - [Cascading Style Sheets](https://www.w3.org/Style/CSS/Overview.en.html) (CSS)
 - [Document Object Model](https://www.w3.org/DOM/) (DOM)
-- [High Contrast Mode](https://support.microsoft.com/en-us/help/13862/windows-use-high-contrast-mode)
+- [High Contrast Mode](https://support.microsoft.com/en-us/help/13862/windows-use-high-contrast-mode) (HCM)
 - [Hypertext Markup Language](https://www.w3.org/html/) (HTML)
 - [JavaScript](https://www.w3.org/standards/techs/js) (JS)
 - [JavaScript Object Notation](https://www.json.org/) (JSON)
@@ -323,4 +323,3 @@ These terms are commonly used on the site, or in the accessibility community.
 - [World Wide Web Consortium](https://www.w3.org/) (W3C)
 - [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG)
 - [Webinar](https://en.m.wikipedia.org/wiki/Web_conferencing)
-- [YAML](http://yaml.org/) (YAML Ain't Markup Language)

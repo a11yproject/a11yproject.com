@@ -38,6 +38,8 @@ Please make sure your preferred code editor supports stylelint, and to install s
 
 Use Sass-style comments (`//`). When writing comments that speak to the selector's overall purpose, keep them on their own line. 
 
+Please keep comments no more than 80 characters long. If you need more room, please use a line break to help keep things legible.
+
 #### Exceptions
 
 Mark any declaration that overrides the styleguide with an exception comment (`// EXCEPTION:`). This will help us identify and codify areas where the styleguide is weak and could be improved.
@@ -46,11 +48,21 @@ Mark any declaration that overrides the styleguide with an exception comment (`/
 
 Place a hack comment (`// HACK:`) after values when the declaration is atypical or isn't immediately self-evident (ex: browser compatibility hacks, z-index, etc. ).
 
+### Imports
+
+Please use Sass to handle importing partials. Using CSS's [`@import`](https://developer.mozilla.org/en-US/docs/Web/CSS/@import) rule is considered an anti-pattern, as it generates extra HTTP requests. It's better to let Sass stitch files together. 
+
 ### Selectors
 
 #### IDs
 
 Do not use [ID](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)s as selectors. They create a high level of [specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) that makes it difficult to work with.
+
+#### !important
+
+Only use `!important` to [force immutability](https://csswizardry.com/2016/05/the-importance-of-important/). A good example of this would be for styling the `hidden` attribute, where you want to guarantee that hidden content stays that way.
+
+If you are using it to override something in the cascade, it signals an opportunity to re-write your CSS and lessen the specificity. 
 
 #### JavaScript hooks
 
