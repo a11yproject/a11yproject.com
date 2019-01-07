@@ -56,6 +56,7 @@
     "gulp-optimize-js": "1.1.0",
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
+    "gulp-stylelint": "^8.0.0",
     "gulp-svgmin": "2.1.0",
     "gulp-uglify": "3.0.1",
     "jshint": "2.9.6",
@@ -64,6 +65,7 @@
     "lazypipe": "1.0.1",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^5.0.2"
+    "markdown-it-anchor": "^5.0.2",
+    "stylelint": "^9.9.0"
   }
 }
