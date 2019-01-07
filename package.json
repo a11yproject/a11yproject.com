@@ -39,7 +39,9 @@
     "url": "https://github.com/a11yproject/a11yproject.com/issues",
     "email": "hello@a11yproject.com"
   },
-  "dependencies": {},
+  "dependencies": {
+    "kss": "^3.0.0-beta.23"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.6.0",
     "@11ty/eleventy-plugin-rss": "^1.0.3",
