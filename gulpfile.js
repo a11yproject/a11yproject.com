@@ -13,6 +13,7 @@ var settings = {
   scripts: true,
   polyfills: true,
   styles: true,
+  lint: true,
   svgs: true,
   copy: true,
   reload: true,
@@ -62,6 +63,7 @@ var optimizejs = require('gulp-optimize-js');
 var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var minify = require('gulp-cssnano');
+var gulpStylelint = require('gulp-stylelint');
 
 // SVGs
 var svgmin = require('gulp-svgmin');
@@ -130,7 +132,7 @@ var buildScripts = function (done) {
 // Lint scripts
 var lintScripts = function (done) {
   // Make sure this feature is activated before running
-  if (!settings.scripts) return done();
+  if (!settings.lint) return done();
   // Lint scripts
   src(paths.scripts.input)
     .pipe(jshint())
@@ -162,6 +164,21 @@ var buildStyles = function (done) {
       }
     }))
     .pipe(dest(paths.styles.output));
+  // Signal completion
+  done();
+};
+
+// Lint styles
+var lintStyles = function (done) {
+  // Make sure this feature is activated before running
+  if (!settings.lint) return done();
+  // Lint scripts
+  src(paths.styles.input)
+    .pipe(gulpStylelint({
+      reporters: [
+        { formatter: 'string', console: true }
+      ]
+    }));
   // Signal completion
   done();
 };
@@ -230,6 +247,7 @@ exports.default = series(
   parallel(
     buildScripts,
     lintScripts,
+    // lintStyles,
     buildStyles,
     buildSVGs,
     buildStyleguide
