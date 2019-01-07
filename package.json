@@ -40,7 +40,6 @@
     "email": "hello@a11yproject.com"
   },
   "dependencies": {
-    "kss": "^3.0.0-beta.23"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.6.0",
@@ -62,6 +61,7 @@
     "gulp-uglify": "3.0.1",
     "jshint": "2.9.6",
     "jshint-stylish": "2.2.1",
+    "kss": "^3.0.0-beta.23",
     "lazypipe": "1.0.1",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
