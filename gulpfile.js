@@ -15,7 +15,8 @@ var settings = {
   styles: true,
   svgs: true,
   copy: true,
-  reload: true
+  reload: true,
+  styleguide: true
 };
 
 
@@ -47,6 +48,7 @@ var {gulp, src, dest, watch, series, parallel} = require('gulp');
 var del = require('del');
 var flatmap = require('gulp-flatmap');
 var lazypipe = require('lazypipe');
+var kss = require('kss');
 var rename = require('gulp-rename');
 
 // Scripts
@@ -176,6 +178,22 @@ var buildSVGs = function (done) {
   done();
 };
 
+// Build styleguide
+var buildStyleguide = function (done) {
+  // Make sure this feature is activated before running
+  if (!settings.styleguide) return done();
+  // Generate styleguide with these congig options
+  return kss({
+    css: '../css/screen.min.css',
+    destination: 'dist/styleguide',
+    placeholder: "[modifier]",
+    source: 'src/css',
+    title: "The A11Y Project Styleguide"
+  });
+  // Signal completion
+  done();
+};
+
 // Watch for changes to the src directory
 var startServer = function (done) {
   // Make sure this feature is activated before running
@@ -214,6 +232,7 @@ exports.default = series(
     lintScripts,
     buildStyles,
     buildSVGs,
+    buildStyleguide
 	)
 );
 
