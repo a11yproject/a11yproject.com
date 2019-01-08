@@ -22,7 +22,7 @@ Why this exists.
 
 ## Why Sass?
 
-Internet Explorer is still a [very popular desktop browser](https://netmarketshare.com/browser-market-share.aspx?options=%7B%22filter%22%3A%7B%22%24and%22%3A%5B%7B%22deviceType%22%3A%7B%22%24in%22%3A%5B%22Desktop%2Flaptop%22%5D%7D%7D%5D%7D%2C%22dateLabel%22%3A%22Custom%22%2C%22attributes%22%3A%22share%22%2C%22group%22%3A%22browser%22%2C%22sort%22%3A%7B%22share%22%3A-1%7D%2C%22id%22%3A%22browsersDesktop%22%2C%22dateInterval%22%3A%22Monthly%22%2C%22dateStart%22%3A%222017-11%22%2C%22dateEnd%22%3A%222018-11%22%2C%22plotKeys%22%3A%5B%7B%22browser%22%3A%22Chrome%22%7D%2C%7B%22browser%22%3A%22Internet%20Explorer%22%7D%2C%7B%22browser%22%3A%22Firefox%22%7D%2C%7B%22browser%22%3A%22Edge%22%7D%2C%7B%22browser%22%3A%22Safari%22%7D%5D%2C%22segments%22%3A%22-1000%22%7D). The pre-processed logic Sass offers helps us ensure the site will look and perform well on this browser.
+Internet Explorer is still a [very popular desktop browser](https://netmarketshare.com/browser-market-share.aspx?options=%7B%22filter%22%3A%7B%22%24and%22%3A%5B%7B%22deviceType%22%3A%7B%22%24in%22%3A%5B%22Desktop%2Flaptop%22%5D%7D%7D%5D%7D%2C%22dateLabel%22%3A%22Custom%22%2C%22attributes%22%3A%22share%22%2C%22group%22%3A%22browser%22%2C%22sort%22%3A%7B%22share%22%3A-1%7D%2C%22id%22%3A%22browsersDesktop%22%2C%22dateInterval%22%3A%22Monthly%22%2C%22dateStart%22%3A%222017-11%22%2C%22dateEnd%22%3A%222018-11%22%2C%22plotKeys%22%3A%5B%7B%22browser%22%3A%22Chrome%22%7D%2C%7B%22browser%22%3A%22Internet%20Explorer%22%7D%2C%7B%22browser%22%3A%22Firefox%22%7D%2C%7B%22browser%22%3A%22Edge%22%7D%2C%7B%22browser%22%3A%22Safari%22%7D%5D%2C%22segments%22%3A%22-1000%22%7D). The pre-processed logic Sass offers helps us ensure the site will look and perform well on this browser, as well as other less popular or less feature-rich devices.
 
 ## Style authoring
 
@@ -30,7 +30,7 @@ Please follow these following guidelines when writing  styles for this site:
 
 ### stylelint
 
-This site uses [stylelint](https://github.com/stylelint/stylelint) to help ensure consistent formatting. stylelint is a linter for Sass, much like how [JSHint](https://jshint.com/) is a linter for JavaScript. Linters are sets of rules that help you watch out for potential errors in your code. 
+This site uses [stylelint](https://github.com/stylelint/stylelint) to help ensure consistent formatting. stylelint is a linter for Sass, much like how [JSHint](https://jshint.com/) is a linter for JavaScript. Linters are sets of rules that help you watch out for potential formatting discrepancies and errors in your code. 
 
 Please make sure your preferred code editor supports stylelint, and to install support for it. This will help make Pull Requests easier for the site maintainers.
 
@@ -67,6 +67,10 @@ If you are using it to override something in the cascade, it signals an opportun
 #### JavaScript hooks
 
 Use either [HTML data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) or CSS classes with a prefix of `js-` as a hook for JavaScript. For ease of maintenance, do not include visual styling with attributes or classes that are used for logic.
+
+#### Custom Properties
+
+Prefer using Sass variables over CSS custom properties, as they are [not supported in IE 11](https://caniuse.com/#feat=css-variables).
 
 #### Nesting
 
