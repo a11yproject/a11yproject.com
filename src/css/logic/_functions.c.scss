@@ -1,0 +1,20 @@
+// c
+//
+// Calls a color value from the colors map. Used to create a terse,
+// yet managed system of color declarations.
+//
+// $color-name    - The name of the color value you want to use. See TODO: link this
+// $color-variant - Optionally calls a sub-color. Used for colors organized by component.
+//
+// Styleguide Logic.Functions.c
+@function c($color-name, $color-variant:null) {
+  // Color variant is optional
+  @if ($color-variant != null) {
+  // Return `map-get` for cleaner declaration
+    @return map-get(map-get($colors, $color-name), $color-variant);
+  }
+  // Color with color variant
+  @else if ($color-variant == null) {
+    @return map-get($colors, $color-name);
+  }
+}

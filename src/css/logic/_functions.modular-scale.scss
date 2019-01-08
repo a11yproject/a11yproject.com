@@ -1,0 +1,21 @@
+// ms
+//
+// Generates a size value from a modular scale. Defaults to the base type size
+// and ratio.
+//
+// $increment - The number to multiply the modular scale by.
+// $base-size - The base type size to multiply the modular scale by. Defaults to `$base-type-size`.
+// $ratio     - The number used to construct the modular scale. Defaults to `$type-scale`.
+//
+// Styleguide Logic.Functions.modular-scale
+@function ms($increment, $base-size: $base-type-size, $ratio: $type-scale) {
+  @for $i from 1 through $increment {
+    @if $increment > 0 {
+      $base-size: $base-size * $ratio;
+    } @else {
+      $base-size: $base-size / $ratio;
+    }
+  }
+  // Returns font size in rems, rounded to `$precision`'s length
+  @return round($base-size / $base-type-size * $precision) / $precision * 1rem;
+}

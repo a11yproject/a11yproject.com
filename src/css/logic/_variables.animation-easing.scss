@@ -1,0 +1,37 @@
+// Animation Easing
+//
+// Controls how animations accelerate and decelerate. The easing terms
+// communicate how elements on the page relate to each other.
+//
+// Styleguide Logic.Variables.animation-easing
+
+
+// animation-easing-character
+//
+// Weight: 1
+//
+// The main focus of the animated element.
+//
+// Styleguide Logic.Variables.animation-easing.animation-easing-character
+$animation-easing-character: ease-in-out;
+
+
+// animation-easing-dialogue
+//
+// Weight: 2
+//
+// Sub-items the character may be animating.
+//
+// Styleguide Logic.Variables.animation-easing.animation-easing-dialogue
+$animation-easing-dialogue: ease-out;
+
+
+// animation-easing-background
+//
+// Weight: 3
+//
+// The background which a character is placed on. Can also apply to background
+// elements and layout.
+//
+// Styleguide Logic.Variables.animation-easing.animation-easing-background
+$animation-easing-background: linear;

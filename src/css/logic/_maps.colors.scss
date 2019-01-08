@@ -1,0 +1,19 @@
+// colors
+//
+// Organizes the site's palette. Color values should be managed on a
+// per-component-basis, to keep color values from being misused.
+//
+// Styleguide Logic.Maps.colors
+$colors: (
+  black:  #000000,
+  white:  #ffffff,
+
+  alerts: (
+    warning-background: #f8e71c,
+    warning-text:       #111111,
+    error-background:   #f52323,
+    error-text:         #ffffff,
+    success-background: #23f571,
+    success-text:       #ffffff,
+  ),
+);

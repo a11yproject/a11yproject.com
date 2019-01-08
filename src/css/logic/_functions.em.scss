@@ -1,0 +1,18 @@
+// em
+//
+// Generates an `em` value from a pixel measurement, derived from the base type
+// size.
+//
+// $pixels  - The desired pixel value.
+// $context - The font size to derive the `em` value from. Defaults to `$base-type-size`.
+//
+// Styleguide Logic.Functions.em
+@function em($pixels, $context: $base-type-size) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+  @return $pixels / $context * 1em;
+}
