@@ -1,11 +1,16 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "What to look for in an accessibility vendor"
+      description: "Join our live webinar: Reference and apply these key business requirements when evaluating accessibility vendors. Without accessibility expertise, evaluating accessibility vendors can be a difficult task. Who can you trust? Sachin Gupta, Director of Development Services at Deque, will review key characteristics organizations should evaluate when looking for an accessibility partner and basics they should have in mind when evaluating tools and services."
+      url: "https://accessibility.deque.com/what-to-look-for-in-an-accessibility-vendor?hsCtaTracking=4a4292ff-4750-4a51-875d-07870402e873%7C96b89eae-ef33-4abd-a691-8c355fd19695"
+      type: "Webinar"
+      date: 2019-01-29
     - title: "role=drinks San Diego Accessibility Kickoff!"
       description: "Join us for our role=drinks San Diego kickoff event. Whether you're an accessibility guru or are just curious about what exactly web accessibility and inclusive design are, this meetup is for you. This group is for designers, developers, project managers, execs… really anyone involved in building web products. Let's get together, network, collaborate and learn from one another!"
       url: "https://www.meetup.com/role-drinks-SD/events/257721676/"
       type: "Regional"
-      date: 2018-01-29
+      date: 2019-01-29
       address: "Mission Brewery, 1441 L Street, San Diego, CA"
       map: "https://goo.gl/maps/aU5xbrr8gJ22"
       hashtag: "roledrinks"
