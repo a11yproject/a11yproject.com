@@ -12,7 +12,3 @@
       content: "\200B"; // Zero width space
   }
 }
-
-.u-preserve-list-semantics {
-  @include preserve-list-semantics();
-}

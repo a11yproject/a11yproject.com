@@ -21,11 +21,3 @@
     @error "`#{$add-or-remove}` + is an invalid argument. Please use either `add` or `remove`.";
   }
 }
-
-.u-clearfix-add {
-  @include clearfix(add);
- }
-
-.u-clearfix-remove {
-  @include clearfix(remove);
-}

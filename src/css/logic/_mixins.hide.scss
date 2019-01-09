@@ -43,19 +43,3 @@
     @error "`#{$how}` + is an invalid argument. Please use `visually`, `invisible`, `hidden`, or `remove`";
   }
 }
-
-.u-hide-visually {
-  @include hide(visually);
-}
-
-.u-hide-invisible {
-  @include hide(invisible);
-}
-
-.u-hide-hidden {
-  @include hide(hidden);
-}
-
-.u-hide-remove {
-  @include hide(remove);
-}

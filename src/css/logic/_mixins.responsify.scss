@@ -1,14 +1,10 @@
 // responsify
 //
-// Creates a basic full-width responsive component whose aspect ratio scales
+// Creates a basic full-width responsive element whose aspect ratio scales
 // proportionately.
 //
 // Styleguide Logic.Mixins.responsify
 @mixin responsify() {
   height: auto;
   width: 100%;
-}
-
-.u-responsify {
-  @include responsify();
 }

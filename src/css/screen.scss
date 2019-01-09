@@ -66,43 +66,49 @@
   "logic/mixins.responsify";
 
 
-// Utilities
-//
-// Weight: 5
-//
-// TODO: Describe utilities
-//
-// Styleguide utilities
-// @import
-//   "media/utilities";
-
-
-// Components
-//
-// Weight: 6
-//
-// TODO: Describe components
-//
-// Styleguide components
-// @import
-//   "media/components";
-
 // Layout
 //
-// Weight: 7
+// Weight: 5
 //
 // Classes that control [the overall arrangement of main site landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html).
 //
 // Styleguide Layout
 // @import
-//   "media/layout";
+//   "layout/";
+
+
+// Utilities
+//
+// Weight: 6
+//
+// Utility classes are small, single-purpose classes.
+//
+// Styleguide Utilities
+@import
+  "utilities/clearfix",
+  "utilities/hide",
+  "utilities/preserve-list-semantics",
+  "utilities/remove-margin-padding",
+  "utilities/responsify";
+
+
+// Components
+//
+// Weight: 7
+//
+// Components are collections of classes used to construct a user interface
+// element.
+//
+// Styleguide components
+// @import
+//   "media/components";
 
 
 // Media
 //
 // Weight: 8
 //
-// Stylesheets for alternate modes of presentation, such as printed pages.
+// Stylesheets for alternate modes of presentation.
 //
 // Styleguide Media
 @import
@@ -110,11 +116,4 @@
 
 
 // Shame
-//
-// Weight: 9
-//
-// These are styles that override other styles, and should be used very
-// sparingly. Strive to refactor when time permits. [More information about shame.css](https://csswizardry.com/2013/04/shame-css/).
-//
-// Styleguide Shame
 @import "shame";

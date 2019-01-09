@@ -1,0 +1,17 @@
+// u-preserve-list-semantics
+//
+// Ensures that [VoiceOver will declare the presence of list items](https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/),
+// even if the list bullet has been removed. Apply to the `ul`, `ol`, `dl`
+// element.
+//
+// Markup:
+// <ul class="u-preserve-list-semantics">
+//   <li>This</li>
+//   <li>That</li>
+//   <li>The other thing</li>
+// </ul>
+//
+// Styleguide Utilities.u-preserve-list-semantics
+.u-preserve-list-semantics {
+  @include preserve-list-semantics();
+}
