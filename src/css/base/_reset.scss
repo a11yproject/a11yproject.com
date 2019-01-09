@@ -1,0 +1,48 @@
+// reset
+//
+// Opinionated overrides of browser fallbacks.
+//
+// Styleguide Base.reset
+a img {
+  border: none; // Removes borders from linked images
+}
+
+abbr[title],
+dfn[title] {
+  cursor: help; // Give a help cursor to elements that give extra info on `:hover`.
+}
+
+
+// Remove default table spacing
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+// Selects all content in a read-only input field
+input:not([type="button"]):not([type="checkbox"]):not([type="radio"]),
+textarea {
+  &:read-only {
+    user-select: all;
+  }
+}
+
+
+// Prevent zooming on mobile viewports when tapped
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input datalist,
+select,
+textarea {
+  font-size: 1rem;
+}

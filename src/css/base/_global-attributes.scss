@@ -1,0 +1,21 @@
+// global-attributes
+//
+// Styleguide Base.global-attributes
+
+
+[aria-disabled],
+[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+[hidden] {
+  @include hide(remove);
+}
+
+
+[tabindex="-1"] {
+  &:focus {
+    outline: none; // Remove outline from non-interactive elements that get focus assigned to them
+  }
+}

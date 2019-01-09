@@ -66,9 +66,24 @@
   "logic/mixins.responsify";
 
 
-// Layout
+// Base
 //
 // Weight: 5
+//
+// Sets the initial, document-level cascade.
+//
+// Styleguide Base
+@import
+  "base/all",
+  "base/html",
+  "base/body",
+  "base/global-attributes",
+  "base/reset";
+
+
+// Layout
+//
+// Weight: 6
 //
 // Classes that control [the overall arrangement of main site landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html).
 //
@@ -79,7 +94,7 @@
 
 // Utilities
 //
-// Weight: 6
+// Weight: 7
 //
 // Utility classes are small, single-purpose classes.
 //
@@ -94,7 +109,7 @@
 
 // Components
 //
-// Weight: 7
+// Weight: 8
 //
 // Components are collections of classes used to construct a user interface
 // element.
@@ -106,7 +121,7 @@
 
 // Media
 //
-// Weight: 8
+// Weight: 9
 //
 // Stylesheets for alternate modes of presentation.
 //
