@@ -205,7 +205,7 @@ var buildStyleguide = function (done) {
     destination: 'dist/styleguide',
     placeholder: "[modifier]",
     source: 'src/css',
-    title: "The A11Y Project Styleguide"
+    title: "Styleguide - The A11Y Project"
   });
   // Signal completion
   done();
