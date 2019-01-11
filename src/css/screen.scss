@@ -19,7 +19,8 @@
   "logic/variables.animation-easing",
   "logic/variables.font-families",
   "logic/variables.font-tracking",
-  "logic/variables.font-weights";
+  "logic/variables.font-weights",
+  "logic/variables.line-heights";
 
 
 // Maps
@@ -78,7 +79,10 @@
   "base/html",
   "base/body",
   "base/global-attributes",
-  "base/reset";
+  "base/reset",
+  "base/code",
+  "base/links",
+  "base/tables";
 
 
 // Layout
@@ -104,7 +108,8 @@
   "utilities/hide",
   "utilities/preserve-list-semantics",
   "utilities/remove-margin-padding",
-  "utilities/responsify";
+  "utilities/responsify",
+  "utilities/tables";
 
 
 // Components

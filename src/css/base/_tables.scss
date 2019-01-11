@@ -1,0 +1,76 @@
+// table
+//
+// Styles applied to the `table` element. Largely used to ensure sensible cell
+// text alignment.
+//
+// Styleguide Base.table
+table {
+  width: 100%;
+
+  caption {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+
+  // Styles all table rows
+  tr {
+  }
+
+  // Styles all table cells
+  col,
+  th,
+  td {
+    padding: 0.25em;
+    text-align: left;
+
+    &[colspan] {
+      text-align: center;
+    }
+
+    &[colspan="1"] {
+      text-align: left;
+    }
+
+    &[rowspan] {
+      vertical-align: middle;
+    }
+
+    &[rowspan="1"] {
+      vertical-align: top;
+    }
+  }
+
+  colgroup {
+
+    col {
+    }
+  }
+
+  thead {
+
+    tr {
+
+      th {
+      }
+    }
+  }
+
+  tbody {
+    tr {
+
+      td {
+        border-top: 1px solid currentColor;
+      }
+    }
+  }
+
+  tfoot {
+
+    tr {
+
+      td {
+        border-top: 1px solid currentColor;
+      }
+    }
+  }
+}

@@ -1,19 +1,38 @@
-// global-attributes
+// Global Attributes
 //
-// Styleguide Base.global-attributes
+// These attributes can be applied to any HTML element to control its behavior.
+//
+// Styleguide Base.Global Attributes
 
 
+// Disabled
+//
+// Used for interactive element whose functionality has been conditionally
+// turned off.
+//
+// Styleguide Base.Global Attributes.disabled
 [aria-disabled],
 [disabled] {
   cursor: not-allowed;
   pointer-events: none;
 }
 
+
+// Hidden
+//
+// Used for any element who should be completely removed from the document
+//
+// Styleguide Base.Global Attributes.hidden
 [hidden] {
   @include hide(remove);
 }
 
 
+// tabindex="-1"
+//
+// Used for any element that should programatically recieve keyboard focus.
+//
+// Styleguide Base.Global Attributes.tabindex
 [tabindex="-1"] {
   &:focus {
     outline: none; // Remove outline from non-interactive elements that get focus assigned to them

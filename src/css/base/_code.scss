@@ -1,0 +1,23 @@
+// code
+//
+// Styles applied to the `code`, `kbd`, `pre`, `samp`, and `var` elements.
+// Used to set up consistent typography and prevent word breaks that would
+// affect code compilation.
+//
+// Styleguide Base.code
+
+
+// [1] Ensures hyphenation won't interfere with code
+code,
+kbd,
+pre,
+samp,
+var {
+  font-family: $font-family-code;
+  font-feature-settings: normal;
+  // line-height: TODO: Var this;
+  overflow: auto; // [1]
+  white-space: pre-wrap; // [1]
+  word-break: break-all; // [1]
+  word-wrap: break-word; // [1]
+}

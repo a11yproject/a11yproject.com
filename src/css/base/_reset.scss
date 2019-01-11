@@ -1,11 +1,14 @@
-// reset
+// Reset
 //
 // Opinionated overrides of browser fallbacks.
 //
-// Styleguide Base.reset
+// Styleguide Base.Reset
+
+
 a img {
   border: none; // Removes borders from linked images
 }
+
 
 abbr[title],
 dfn[title] {
@@ -13,10 +16,74 @@ dfn[title] {
 }
 
 
-// Remove default table spacing
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+b,
+strong {
+  font-weight: $font-weight-bold;
+
+  b,
+  strong {
+    font-weight: $font-weight-regular;
+  }
+}
+
+
+button,
+input[type="button"] {
+  border: 0;
+
+  // Vendor
+  &::-moz-focus-inner,
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}
+
+
+em,
+cite,
+i {
+  font-style: italic;
+
+  // Cites within italicized text
+  em,
+  cite,
+  i {
+    font-style: normal;
+  }
+}
+
+
+iframe,
+object,
+audio,
+video,
+canvas {
+  @include responsify();
+}
+
+
+img,
+figure,
+picture {
+  border: 0;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; // Removes the whitespace that appears under `img` elements
+
+  &[height],
+  &[width] {
+    max-width: none; // Fixed-size, non-fluid images if `height` and/or `width` attributes are declared
+  }
+
+  // TODO: Broken images fallback: https://bitsofco.de/styling-broken-images/
+}
+
+
+ins {
+  border-bottom: 3px double;
+  text-decoration: none;
 }
 
 
@@ -26,6 +93,11 @@ textarea {
   &:read-only {
     user-select: all;
   }
+}
+
+
+label {
+  cursor: pointer;
 }
 
 
@@ -45,4 +117,92 @@ input datalist,
 select,
 textarea {
   font-size: 1rem;
+  line-height: 1;
+}
+
+mark {
+  // TODO: Uncomment padding: em(2);
+  background-color: #f8e71c;
+}
+
+
+sub {
+  text-transform: lowercase;
+  font-size: inherit;
+  font-variant-position: sub;
+
+  @supports not (font-variant-position: sub) {
+    -webkit-font-feature-settings: "subs", "subs";
+    font-feature-settings: "subs", "subs";
+
+    @supports ((-webkit-font-feature-settings: "subs") or (font-feature-settings: "subs")) {
+      vertical-align: baseline;
+    }
+
+    @supports (overflow: -webkit-marquee) and (justify-content: inherit) {
+      vertical-align: sub;
+      font-size: smaller;
+    }
+  }
+}
+
+sup {
+  text-transform: lowercase;
+  font-variant-position: super;
+
+  @supports not (font-variant-position: sup) {
+    -webkit-font-feature-settings: "sups", "sups";
+    font-feature-settings: "sups", "sups";
+
+    @supports ((-webkit-font-feature-settings: "sups") or (font-feature-settings: "sups")) {
+      vertical-align: baseline;
+    }
+
+    @supports (overflow: -webkit-marquee) and (justify-content: inherit) {
+      vertical-align: super;
+    }
+  }
+}
+
+// Remove default table spacing
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+}
+
+
+time {
+  font-variant-numeric: tabular-nums;
+
+  @supports not (font-variant-numeric: tabular-nums) {
+    -webkit-font-feature-settings: "pnum" 0, "tnum", "tnum";
+    font-feature-settings: "pnum" 0, "tnum", "tnum";
+  }
+
+  font-variant-numeric: oldstyle-nums;
+
+  @supports not (font-variant-numeric: oldstyle-nums) {
+    -webkit-font-feature-settings: "lnum" 0, "onum", "onum";
+    font-feature-settings: "lnum" 0, "onum", "onum";
+  }
+
+  -ms-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+
+  @supports not ((-webkit-font-feature-settings: "onum" inherit) or (font-feature-settings: "onum" inherit)) {
+    -webkit-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+    font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+  }
+
+  -ms-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+
+  @supports not ((-webkit-font-feature-settings: "onum" inherit) or (font-feature-settings: "onum" inherit)) {
+    -webkit-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+    font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+  }
 }
