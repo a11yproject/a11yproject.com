@@ -16,8 +16,8 @@
 // Styleguide Base.Global Attributes.disabled
 [aria-disabled],
 [disabled] {
-  cursor: not-allowed;
-  pointer-events: none;
+  cursor: not-allowed !important;
+  pointer-events: none !important;
 }
 
 
@@ -30,7 +30,7 @@
 //
 // Styleguide Base.Global Attributes.hidden
 [hidden] {
-  @include hide(remove);
+  @include hide(remove) !important;
 }
 
 
