@@ -1,7 +1,8 @@
 // Imports
 @import
   "../../node_modules/normalize.css/normalize",
-  "../../node_modules/mappy-breakpoints/mappy-breakpoints";
+  "../../node_modules/mappy-breakpoints/mappy-breakpoints",
+  "imports/fonts";
 
 
 // Variables
@@ -67,6 +68,13 @@
   "logic/mixins.responsify";
 
 
+// TODO: Refactor this
+@import
+  "brand/colors",
+  "brand/logos",
+  "brand/typefaces";
+
+
 // Base
 //
 // Weight: 5
@@ -105,11 +113,13 @@
 // Styleguide Utilities
 @import
   "utilities/clearfix",
+  "utilities/font-families",
   "utilities/hide",
   "utilities/preserve-list-semantics",
   "utilities/remove-margin-padding",
   "utilities/responsify",
-  "utilities/tables";
+  "utilities/tables",
+  "utilities/type-align";
 
 
 // Components

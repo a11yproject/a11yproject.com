@@ -30,9 +30,13 @@ var paths = {
     polyfills: '.polyfill.js',
     output: 'dist/js/'
   },
+  fonts: {
+    input: 'src/static/fonts/**/*',
+    output: 'dist/static/fonts/'
+  },
   styles: {
     input: 'src/css/**/*.scss',
-	output: 'dist/css/'
+    output: 'dist/css/'
   },
   svgs: {
     input: 'src/img/**/*.svg',
@@ -183,6 +187,16 @@ var lintStyles = function (done) {
   done();
 };
 
+// Copy static assets
+var copyAssets = function (done) {
+  // Make sure this feature is activated before running
+  if (!settings.copy) return done();
+  src(paths.fonts.input)
+    .pipe(dest(paths.fonts.output));
+  // Signal completion
+  done();
+};
+
 // Optimize SVG files
 var buildSVGs = function (done) {
   // Make sure this feature is activated before running
@@ -245,6 +259,7 @@ var watchSource = function (done) {
 exports.default = series(
   cleanScss,
   parallel(
+    copyAssets,
     buildScripts,
     lintScripts,
     // lintStyles,
