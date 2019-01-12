@@ -30,7 +30,7 @@
 //
 // Styleguide Base.Global Attributes.hidden
 [hidden] {
-  @include hide(remove) !important;
+  @include hide(remove);
 }
 
 

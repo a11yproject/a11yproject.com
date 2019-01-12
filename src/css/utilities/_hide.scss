@@ -14,7 +14,7 @@
 //
 // Styleguide Utilities.Hide.u-hide-visually
 .u-hide-visually {
-  @include hide(visually) !important;
+  @include hide(visually);
 }
 
 
@@ -27,7 +27,7 @@
 //
 // Styleguide Utilities.Hide.u-hide-hidden
 .u-hide-hidden {
-  @include hide(hidden) !important;
+  @include hide(hidden);
 }
 
 
@@ -40,7 +40,7 @@
 //
 // Styleguide Utilities.Hide.u-hide-invisible
 .u-hide-invisible {
-  @include hide(invisible) !important;
+  @include hide(invisible);
 }
 
 
@@ -53,5 +53,5 @@
 //
 // Styleguide Utilities.Hide.u-hide-remove
 .u-hide-remove {
-  @include hide(remove) !important;
+  @include hide(remove);
 }

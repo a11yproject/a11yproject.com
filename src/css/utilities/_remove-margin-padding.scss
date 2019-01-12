@@ -8,5 +8,5 @@
 //
 // Styleguide Utilities.u-remove-margin-padding
 .u-remove-margin-padding {
-  @include remove-margin-padding() !important;
+  @include remove-margin-padding();
 }
