@@ -1,3 +1,10 @@
+// Clearfix
+//
+// TODO: Describe a clearfix
+//
+// Styleguide Utilities.Clearfix
+
+
 // u-clearfix-add
 //
 // Applies a clearfix to an element.
@@ -5,7 +12,7 @@
 // Markup:
 // <div class="u-clearfix-add">…</div>
 //
-// Styleguide Utilities.u-clearfix-add
+// Styleguide Utilities.Clearfix.u-clearfix-add
 .u-clearfix-add {
   @include clearfix(add);
  }
@@ -18,7 +25,7 @@
 // Markup:
 // <div class="u-clearfix-remove">…</div>
 //
-// Styleguide Utilities.u-clearfix-remove
+// Styleguide Utilities.Clearfix.u-clearfix-remove
 .u-clearfix-remove {
   @include clearfix(remove);
 }

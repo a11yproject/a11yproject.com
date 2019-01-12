@@ -1,3 +1,10 @@
+// Hide
+//
+// TODO: Describe hide
+//
+// Styleguide Utilities.Hide
+
+
 // u-hide-visually
 //
 // Hides content visually, but still makes it available for screen readers.
@@ -5,7 +12,7 @@
 // Markup:
 // <a href="https://en.m.wikipedia.org/wiki/Cat">Read more <span class="u-hide-visually">about cats.</span></a>
 //
-// Styleguide Utilities.u-hide-visually
+// Styleguide Utilities.Hide.u-hide-visually
 .u-hide-visually {
   @include hide(visually);
 }
@@ -18,7 +25,7 @@
 // Markup:
 // <div class="u-hide-hidden">…</div>
 //
-// Styleguide Utilities.u-hide-hidden
+// Styleguide Utilities.Hide.u-hide-hidden
 .u-hide-hidden {
   @include hide(hidden);
 }
@@ -31,7 +38,7 @@
 // Markup:
 // <div class="u-hide-invisible">…</div>
 //
-// Styleguide Utilities.u-hide-invisible
+// Styleguide Utilities.Hide.u-hide-invisible
 .u-hide-invisible {
   @include hide(invisible);
 }
@@ -44,7 +51,7 @@
 // Markup:
 // <div class="u-hide-remove">…</div>
 //
-// Styleguide Utilities.u-hide-remove
+// Styleguide Utilities.Hide.u-hide-remove
 .u-hide-remove {
   @include hide(remove);
 }
