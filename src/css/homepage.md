@@ -2,6 +2,8 @@
 
 This styleguide is a living styleguide, a reference that automatically stays up-to-date with the live website. This ensures that everyone working on the site always has a shared understanding of how the component parts that make up the site should look and behave.
 
+Please familiarize yourself with the Styleguide's setup before doing work with it, including its underlying logic code style. If you have questions or run into issues while working with it, please don't hesitate to [file an Issue on GitHub](https://github.com/a11yproject/a11yproject.com/issues).
+
 The styleguide is organized into the following sections:
 
 ## Overview
