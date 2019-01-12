@@ -10,6 +10,9 @@
 // Used for interactive element whose functionality has been conditionally
 // turned off.
 //
+// Markup:
+// <button disabled>Send</button>
+//
 // Styleguide Base.Global Attributes.disabled
 [aria-disabled],
 [disabled] {
@@ -22,6 +25,9 @@
 //
 // Used for any element who should be completely removed from the document
 //
+// Markup:
+// <div hidden>You shouldn't be able to see me!</div>
+//
 // Styleguide Base.Global Attributes.hidden
 [hidden] {
   @include hide(remove);
@@ -31,6 +37,9 @@
 // tabindex="-1"
 //
 // Used for any element that should programatically recieve keyboard focus.
+//
+// Markup:
+// <h2 tabindex="-1">An element that can be tabbed to</h2>
 //
 // Styleguide Base.Global Attributes.tabindex
 [tabindex="-1"] {

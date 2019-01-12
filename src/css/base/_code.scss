@@ -1,12 +1,13 @@
-// code
+// Code
 //
 // Styles applied to the `code`, `kbd`, `pre`, `samp`, and `var` elements.
 // Used to set up consistent typography and prevent word breaks that would
 // affect code compilation.
 //
-// Styleguide Base.code
+// Styleguide Base.Code
 
 
+// Shared styles
 // [1] Ensures hyphenation won't interfere with code
 code,
 kbd,
@@ -15,9 +16,59 @@ samp,
 var {
   font-family: $font-family-code;
   font-feature-settings: normal;
-  // line-height: TODO: Var this;
+  line-height: $line-height-tight;
   overflow: auto; // [1]
   white-space: pre-wrap; // [1]
   word-break: break-all; // [1]
   word-wrap: break-word; // [1]
 }
+
+
+// code
+//
+// Initial styles applied to the `code` element without a class applied to it.
+//
+// Markup:
+// <code>npm run a11yproject</code>
+//
+// Styleguide Base.Code.code
+
+
+// kbd
+//
+// Initial styles applied to the `kbd` element without a class applied to it.
+//
+// Markup:
+// <kbd>Command</kbd> + <kbd>s</kbd>
+//
+// Styleguide Base.Code.kbd
+
+
+// pre
+//
+// Initial styles applied to the `pre` element without a class applied to it.
+//
+// Markup:
+// <pre>FREEZE FRAME on Sue, with a confused expression on their face.</pre>
+//
+// Styleguide Base.Code.pre
+
+
+// samp
+//
+// Initial styles applied to the `samp` element without a class applied to it.
+//
+// Markup:
+// <samp>348</samp>
+//
+// Styleguide Base.Code.samp
+
+
+// var
+//
+// Initial styles applied to the `var` element without a class applied to it.
+//
+// Markup:
+// <var>$font-family-code</var>
+//
+// Styleguide Base.Code.var

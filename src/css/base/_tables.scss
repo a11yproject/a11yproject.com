@@ -3,6 +3,50 @@
 // Styles applied to the `table` element. Largely used to ensure sensible cell
 // text alignment.
 //
+// Markup:
+// <table>
+//   <caption>Academy Awards for Best Picture</caption>
+//   <colgroup>
+//     <col>
+//     <col>
+//     <col span="2">
+//   </colgroup>
+//   <thead>
+//     <tr>
+//       <th scope="col">Film</th>
+//       <th scope="col">Year</th>
+//       <th scope="col">Production Company(s)</th>
+//       <th scope="col">Producer(s)</th>
+//     </tr>
+//   </thead>
+//   <tbody>
+//     <tr>
+//       <th scope="row">Ordinary People</th>
+//       <td>1980</td>
+//       <td>Paramount</td>
+//       <td>Ronald L. Schwary</td>
+//     </tr>
+//     <tr>
+//       <th scope="row">Chariots of Fire</th>
+//       <td>1981</td>
+//       <td>Enigma Film Productions</td>
+//       <td>David Puttnam</td>
+//     </tr>
+//     <tr>
+//       <th scope="row">Gandhi</th>
+//       <td>1982</td>
+//       <td>Columbia</td>
+//       <td>Richard Attenborough</td>
+//     </tr>
+//     <tr>
+//       <th scope="row">Terms of Endearment</th>
+//       <td>1983</td>
+//       <td>Paramount</td>
+//       <td>James L. Brooks</td>
+//     </tr>
+//   </tbody>
+// </table>
+//
 // Styleguide Base.table
 table {
   width: 100%;
