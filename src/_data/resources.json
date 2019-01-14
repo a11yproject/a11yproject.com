@@ -350,6 +350,38 @@
       "url": "https://www.udacity.com/course/web-accessibility--ud891"
     }
   ],
+  "designUserExperience" : [
+    {
+      "title": "7 Things Every Designer Needs to Know about Accessibility",
+      "description": "Accessibility enables people with disabilities to perceive, understand, navigate, interact with, and contribute to the web. Imagine a world where developers know everything there is to know about accessibility. You design it and they build it… perfectly. In this world, only the design itself can cause people with disabilities to have trouble using a product.",
+      "source": "Jesse Hausler",
+      "url": "https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b"
+    },
+    {
+      "title": "Accessible UI Components For The Web",
+      "description": "To be accessible, UI components need to work across multiple devices with varying screen-sizes and different kinds of input. Moreover, components should be usable by the broadest group of users, including those with disabilities.",
+      "source": "Addy Osmani",
+      "url": "https://medium.com/@addyosmani/accessible-ui-components-for-the-web-39e727101a67"
+    },
+    {
+      "title": "Accessibility guidelines for UX Designers",
+      "description": "As a UX designer, it is important to build empathy and celebrate accessibility requirements as a set of design constraints to build a better product.",
+      "source": "Avinash Kaur",
+      "url": "https://uxdesign.cc/accessibility-guidelines-for-a-ux-designer-c3ba775539be"
+    },
+    {
+      "title": "Designing for accessibility is not that hard",
+      "description": "Seven easy-to-implement guidelines to design a more accessible web.",
+      "source": "Pablo Stanley",
+      "url": "https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94"
+    },
+    {
+      "title": "UX Myths",
+      "description": "UX Myths collects the most frequent user experience misconceptions and explains why they don't hold true.",
+      "source": "Zoltán Gócza and Zoltán Kollin",
+      "url": "https://uxmyths.com/"
+    }
+  ],
   "developmentTools" : [
     {
       "title": "Accessify",
@@ -424,6 +456,44 @@
       "url": "https://packagecontrol.io/packages/WAI-ARIA"
     }
   ],
+  "email" : [
+    {
+      "title": "accessible-email.org",
+      "description": "It is the mission of Accessible-email.org to promote email marketing accessibility and usability.",
+      "source": "accessible-email.org",
+      "url": "https://www.accessible-email.org/"
+    },
+    {
+      "title": "Accessibility and Inclusion with the World’s Most Popular Communication Tool: Email",
+      "description": "Some best practices on creating more accessible and inclusive email campaigns, routinely ranked as one of the world’s most valuable marketing channels, yet very little work has been done to make it more accessible for under-represented groups.",
+      "source": "24 Accessibility",
+      "url": "https://www.24a11y.com/2018/accessibility-and-inclusion-with-email/"
+    },
+    {
+      "title": "Accessibility in Email Marketing",
+      "description": "Accessibility is a term that gets thrown around a lot in web design, but what does it mean for email marketing? It comes down to some simple changes you can make in your content to remove barriers for subscribers with disabilities.",
+      "source": "MailChimp",
+      "url": "https://mailchimp.com/help/accessibility-in-email-marketing/"
+    },
+    {
+      "title": "A Beginner’s Guide to Email Accessibility (Checklist + Resources)",
+      "description": "This guide will walk you through a checklist of over thirty improvements you can make to your emails to make sure they’re as accessible as possible.",
+      "source": "Envato Tuts+",
+      "url": "https://webdesign.tutsplus.com/tutorials/a-beginners-guide-to-email-accessibility--cms-31240"
+    },
+    {
+      "title": "Email Accessibility Best Practices",
+      "description": "We’re passionate about helping email developers and marketers create and send emails that every subscriber can read and understand, regardless of whether they have a visual impairment or disability.",
+      "source": "Email on Acid",
+      "url": "https://www.emailonacid.com/blog/article/email-development/email-accessibilty-in-2017/"
+    },
+    {
+      "title": "The Ultimate Guide to Accessible Emails ",
+      "description": "It only takes a few small steps to make your emails more accessible for all of your subscribers. In this post, we’ll discuss what those steps are and how they can make email better for everyone.",
+      "source": "Litmus",
+      "url": "https://litmus.com/blog/ultimate-guide-accessible-emails"
+    }
+  ],
   "htmlAndAria" : [
     {
       "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
@@ -454,6 +524,62 @@
       "description": "This collection of tutorials shows you how to develop web content that is accessible to people with disabilities, and that provides a better user experience for everyone.",
       "source": "W3C",
       "url": "https://www.w3.org/WAI/tutorials/"
+    }
+  ],
+  "imagesIcons" : [
+    {
+      "title": "Accessible SVGs",
+      "description": "Scalable Vector Graphic (SVG) is emerging as the preferred graphic format to use on the web today. Are you abandoning the icon font or replacing old pg, gif and png graphics for the well-supported SVG, too? Let’s see how this will impact users of assistive technology (AT) and what is needed in order to ensure a great user experience for everyone.",
+      "source": "CSS-Tricks",
+      "url": "https://css-tricks.com/accessible-svgs/"
+    },
+    {
+      "title": "Accessible SVG Icons with Inline Sprites",
+      "description": "Marco Hengstenberg visits the practice of using SVG icons with inline sprites, and how to ensure these icons are accessible.",
+      "source": "24 Accessibility",
+      "url": "https://www.24a11y.com/2018/accessible-svg-icons-with-inline-sprites/"
+    },
+    {
+      "title": "Alternative Text",
+      "description": "Adding alternative text for images is the first principle of web accessibility. It is also one of the most difficult to properly implement.",
+      "source": "WebAIM",
+      "url": "https://webaim.org/techniques/alttext/"
+    },
+    {
+      "title": "Alt-texts: The Ultimate Guide",
+      "description": "This post contains everything you need to know about alt-texts! When to use them and how to perfectly craft them.",
+      "source": "Axxess Lab",
+      "url": "https://axesslab.com/alt-texts/"
+    },
+    {
+      "title": "An alt Decision Tree",
+      "description": "This decision tree describes how to use the <code>alt</code> attribute of the <code>&lt;img&gt;</code> element in various situations. For some types of images, there are alternative approaches, such as using CSS background images for decorative images or web fonts instead of images of text.",
+      "source": "W3C",
+      "url": "https://www.w3.org/WAI/tutorials/images/decision-tree/"
+    },
+    {
+      "title": "An Alt Text Primer",
+      "description": "An image, they say, is worth a thousand words. Unless you can’t perceive images. This is why the alt attribute for images on the web is so important.",
+      "source": "Knowbility",
+      "url": "https://knowbility.org/blog/2019/an-alt-text-primer/"
+    },
+    {
+      "title": "Considerations when writing alt text",
+      "description": "Find out what alt text is, why it’s so important, and how to write content for your images.",
+      "source": "Scott Vinkle",
+      "url": "https://ux.shopify.com/considerations-when-writing-alt-text-a9c1985a8204"
+    },
+    {
+      "title": "Creating Accessible SVGs",
+      "description": "Scalable Vector Graphics (SVGs) have been around since 1999, but they have seen a real resurgence in use as design interactions have become more complex and CSS/JavaScript have replaced antiquated animation programs such as Adobe Flash.",
+      "source": "Deque",
+      "url": "https://www.deque.com/blog/creating-accessible-svgs/"
+    },
+    {
+      "title": "How To Describe Images",
+      "description": "The Poet Training Tool is a web based image description resource that helps people learn when and how to describe various types of images frequently found in educational books.",
+      "source": "Poet Training Tool",
+      "url": "https://poet.diagramcenter.org/how.html"
     }
   ],
   "newsletters" : [
@@ -506,6 +632,12 @@
       "description": "Acrobat tools make it easy to create accessible PDFs and check the accessibility of existing PDFs. You can create PDFs to meet common accessibility standards, such as Web Content Accessibility Guidelines (WCAG) 2.0 and PDF/UA (Universal Access, or ISO 14289).",
       "source": "Adobe",
       "url": "https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html"
+    },
+    {
+      "title": "PDF Tagging and Reading Order (eight-part series on PDF accessibility)",
+      "description": "Making sure that PDFs are accessible to everyone, including those using assistive technologies like screen readers, refreshable braille displays, screen magnifiers, etc., can be a daunting technical process. In this article, we’ll address two basic PDF accessibility concepts – tagging and reading order. Then, in subsequent articles, we’ll address more specific topics in PDF accessibility.",
+      "source": "CommonLook",
+      "url": "https://commonlook.com/pdf-tagging-and-reading-order/"
     },
     {
       "title": "WebAIM: PDF Accessibility",
@@ -820,6 +952,12 @@
       "description": "PDF accessibility checklist.",
       "source": "Cameron Moll",
       "url": "http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/"
+    },
+    {
+      "title": "Disability is a spectrum, not a binary",
+      "description": "When we look at disability as a spectrum instead of a binary, we can see that a lot more people struggle to use our stuff than we might think. The good news is that making things accessible helps even more people than we might realise.",
+      "source": "24 Accessibility",
+      "url": "https://www.24a11y.com/2018/disability-is-a-spectrum-not-a-binary/"
     },
     {
       "title": "Empathy Prompts",
