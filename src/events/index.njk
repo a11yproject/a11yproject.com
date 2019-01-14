@@ -22,6 +22,13 @@ subtitle: Local and remote accessibility events.
   <h3 id="{{ event.title | slug }}">
     <a rel="external noopener" href="{{ event.url }}">{{ event.title }}</a> <span>{{ event.type }}</span>
   </h3>
+  <!--
+    TODO:
+    Point of discussion: should descriptions be pulled out of dl and instead
+    come before/after it, thus using the dl more for meta / specific data
+    and less for long form content (descriptions).  Especially note worth due
+    to dls being treated so differently between screen readers.
+  -->
   <dl>
     <dt>Event date:</dt>
     <dd datetime="{{ event.date.datetime }}">{{ event.date.human }}</dd>
