@@ -14,6 +14,7 @@ var settings = {
   polyfills: true,
   styles: true,
   lint: true,
+  images: true,
   svgs: true,
   copy: true,
   reload: true,
@@ -37,6 +38,10 @@ var paths = {
   styles: {
     input: 'src/css/**/*.scss',
     output: 'dist/css/'
+  },
+  images: {
+    input: 'src/img/**/*.{jpg,jpeg,gif,webm,webp,png}',
+    output: 'dist/img/'
   },
   svgs: {
     input: 'src/img/**/*.svg',
@@ -185,6 +190,16 @@ var copyAssets = function (done) {
   done();
 };
 
+// Process images
+var processImages = function (done) {
+  // Make sure this feature is activated before running
+  if (!settings.images) return done();
+  src(paths.images.input)
+    .pipe(dest(paths.images.output));
+  // Signal completion
+  done();
+};
+
 // Optimize SVG files
 var buildSVGs = function (done) {
   // Make sure this feature is activated before running
@@ -252,6 +267,7 @@ exports.default = series(
     lintScripts,
     // lintStyles,
     buildStyles,
+    processImages,
     buildSVGs,
     buildStyleguide
 	)
