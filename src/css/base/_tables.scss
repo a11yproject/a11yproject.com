@@ -49,11 +49,8 @@
 //
 // Styleguide Base.table
 table {
-  width: 100%;
 
   caption {
-    text-align: left;
-    margin-bottom: 1em;
   }
 
   // Styles all table rows
@@ -64,24 +61,6 @@ table {
   col,
   th,
   td {
-    padding: 0.25em;
-    text-align: left;
-
-    &[colspan] {
-      text-align: center;
-    }
-
-    &[colspan="1"] {
-      text-align: left;
-    }
-
-    &[rowspan] {
-      vertical-align: middle;
-    }
-
-    &[rowspan="1"] {
-      vertical-align: top;
-    }
   }
 
   colgroup {
@@ -100,7 +79,11 @@ table {
   }
 
   tbody {
+
     tr {
+      th {
+        border-top: 1px solid currentColor;
+      }
 
       td {
         border-top: 1px solid currentColor;

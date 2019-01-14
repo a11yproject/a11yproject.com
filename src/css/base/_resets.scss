@@ -176,6 +176,64 @@ sup {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  width: 100%;
+
+  caption {
+    text-align: left;
+    margin-bottom: 1em;
+  }
+
+  col,
+  th,
+  td {
+    padding: 0.25em;
+    text-align: left;
+
+    &[colspan] {
+      text-align: center;
+    }
+
+    &[colspan="1"] {
+      text-align: left;
+    }
+
+    &[rowspan] {
+      vertical-align: middle;
+    }
+
+    &[rowspan="1"] {
+      vertical-align: top;
+    }
+  }
+
+  thead {
+    tr {
+      th {
+        font-weight: $font-weight-regular;
+      }
+    }
+  }
+
+  tbody {
+
+    tr {
+      th {
+        font-weight: $font-weight-regular;
+      }
+
+      td {
+        border-top: 1px solid currentColor;
+      }
+    }
+  }
+
+
+
+
+
+
+
+
 }
 
 
