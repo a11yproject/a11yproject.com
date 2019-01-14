@@ -47,7 +47,10 @@
     "@11ty/eleventy": "^0.7.1",
     "@11ty/eleventy-plugin-rss": "^1.0.3",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
-    "browser-sync": "2.26.3",
+    "debug": "^4.1.1",
+    "luxon": "^1.0.0",
+    "markdown-it": "^8.4.1",
+    "markdown-it-anchor": "^5.0.2",
     "del": "3.0.0",
     "gulp": "4.0.0",
     "gulp-autoprefixer": "6.0.0",
@@ -66,9 +69,6 @@
     "jshint-stylish": "2.2.1",
     "kss": "^3.0.0-beta.23",
     "lazypipe": "1.0.1",
-    "luxon": "^1.0.0",
-    "markdown-it": "^8.4.1",
-    "markdown-it-anchor": "^5.0.2",
     "stylelint": "^9.9.0"
   }
 }
