@@ -18,11 +18,10 @@
   </head>
   <body>
     <!-- Current page: {{ page.url | url }} -->
-    {% include "skipnav.njk" %}
 
     {% include "header.njk" %}
 
-    <main id="main"{% if templateClass %} class="{{ templateClass }}"{% endif %} tabindex="-1">
+    <main id="main"{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
 

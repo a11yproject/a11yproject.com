@@ -1,4 +1,5 @@
 <header>
+  {% include "skipnav.njk" %}
   {# TODO: Replace with logo, use `h1` for the page title #}
   <h1>
     <a rel="index" href="{{ '/' | url }}">{{ metadata.title }}</a>
@@ -8,7 +9,9 @@
     <h2>Site navigation</h2>
     <ul>
       {%- for nav in collections.nav -%}
-      <li><a href="{{ nav.url | url }}" {% if nav.url == page.url %}aria-current="page"{% endif %}>{{ nav.data.navtitle }}</a></li>
+      <li>
+        <a href="{{ nav.url | url }}" {% if nav.url == page.url %}aria-current="page"{% endif %}>{{ nav.data.navtitle }}</a>
+      </li>
       {%- endfor -%}
     </ul>
   </nav>
