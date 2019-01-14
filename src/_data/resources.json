@@ -840,6 +840,12 @@
       "url": "http://dmoztools.net/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/"
     },
     {
+      "title": "Tips For Online Shopping With Disabilities: A Website Accessibility Guide",
+      "description": "In-person shopping can be difficult and stressful for disabled people for many reasons, from tall checkout counters to non-navigable spaces, but meanwhile, disabled Americans are more likely to never use the Internet compared to the total population.",
+      "source": "Coupon Follow",
+      "url": "https://couponfollow.com/research/online-shopping-with-disabilities"
+    },
+    {
       "title": "Van11y: Accessibility and Vanilla JavaScript - ES2015",
       "description": "A collection of accessible scripts for rich interfaces elements, built using progressive enhancement and customisable.",
       "source": "Nicolas Hoffmann",
