@@ -80,6 +80,14 @@ picture {
   // TODO: Broken images fallback: https://bitsofco.de/styling-broken-images/
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-regular;
+}
 
 ins {
   border-bottom: 3px double;
