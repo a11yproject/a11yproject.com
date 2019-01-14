@@ -78,18 +78,6 @@ var browserSync = require('browser-sync');
 
 // Tasks //////////////////////////////////////////////////////////////////////
 
-// Keep the `dist/css` folder tidy
-var cleanScss = function (done) {
-  // Make sure this feature is activated before running
-  if (!settings.clean) return done();
-  // Clean Sass files out of dist
-  del.sync([
-    paths.styles.output + '**/*.scss'
-  ]);
-  // Signal completion
-  return done();
-};
-
 // Repeated JavaScript tasks
 var jsTasks = lazypipe()
   .pipe(optimizejs)
@@ -257,7 +245,7 @@ var watchSource = function (done) {
 
 // Default task: `gulp`
 exports.default = series(
-  cleanScss,
+  // cleanScss,
   parallel(
     copyAssets,
     buildScripts,
