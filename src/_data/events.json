@@ -1,13 +1,23 @@
 {
   "events" : [
     {
+      "title": "Mobile Office Hours: Deque mobile updates with dedicated time for Q&A",
+      "description": "Join our live, open office hours on February 12th from 1:00-2:00PM EST to stay up-to-date on all things Deque mobile (iOS & Android) and come prepared with your outstanding mobile accessibility questions! This session will be hosted by our mobile expert, Chris McMeeking. Chris has 5+ years of mobile application development experience and has worked with the Android Open Source Project. Currently, he is the Senior Software Engineer at Deque Systems, architect of Deque's Native Accessibility analysis solutions. Lastly, Chris is an active member of the W3C (World Wide Web Consortium) mobile working group that is defining international standards for accessibility.",
+      "url": "https://accessibility.deque.com/mobile-office-hours-webinar",
+      "type": "Webinar",
+      "date": {
+        "datetime": "2019-02-12",
+        "human" : "February 12th, 2019"
+      }
+    },
+    {
       "title": "What to look for in an accessibility vendor",
       "description": "Join our live webinar: Reference and apply these key business requirements when evaluating accessibility vendors. Without accessibility expertise, evaluating accessibility vendors can be a difficult task. Who can you trust? Sachin Gupta, Director of Development Services at Deque, will review key characteristics organizations should evaluate when looking for an accessibility partner and basics they should have in mind when evaluating tools and services.",
       "url": "https://accessibility.deque.com/what-to-look-for-in-an-accessibility-vendor?hsCtaTracking=4a4292ff-4750-4a51-875d-07870402e873%7C96b89eae-ef33-4abd-a691-8c355fd19695",
       "type": "Webinar",
       "date": {
         "datetime": "2019-01-29",
-        "human" : "January 29, 2019"
+        "human" : "January 29th, 2019"
       }
     },
     {
@@ -17,7 +27,7 @@
       "type": "Regional",
       "date": {
         "datetime": "2019-01-29",
-        "human" : "January 29, 2019"
+        "human" : "January 29th, 2019"
       },
       "address": "Mission Brewery, 1441 L Street, San Diego, CA ",
       "map": "https://goo.gl/maps/aU5xbrr8gJ22",

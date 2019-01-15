@@ -84,8 +84,6 @@ Exceptions to this are nesting pseudo classes and elements, media queries, and o
 
 Prefer using [semantic selectors for state](https://css-tricks.com/user-facing-state/) in place of CSS classes. For example, use `[disabled] { … }` in place of `.is-disabled { … }`.
 
+### Units
 
-
-
-
-
+Prefer using relative units such as `em`s, `rem`s, percentages, and viewport units over static units such as pixels (`px`).

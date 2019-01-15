@@ -37,3 +37,7 @@ There are a number of online tools to help those without color blindness visuali
 - [I want to see like the colour blind Chrome extension](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia)
 
 These tools are free, simple to use, and can quickly help you make color-accessible choices.
+
+## Terminology
+
+OpticianCertification.org maintains [a list of eye-related terminology](https://opticiancertification.org/glossary/), including links to additional resources.
