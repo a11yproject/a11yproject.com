@@ -1,7 +1,10 @@
 // breakpoints
 //
 // Organizes the site breakpoints. Breakpoints are declared with pixel values
-// to work with the Mappy Breakpoints mixin.
+// to work with the [Mappy Breakpoints mixin](https://github.com/zellwk/mappy-breakpoints).
+//
+// Breakpoint names are based on the ergonomics of how people position
+// themselves around their devices, to help keep usability top-of-mind.
 //
 // Styleguide Logic.Maps.breakpoints
 $breakpoints: (

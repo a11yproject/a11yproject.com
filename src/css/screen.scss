@@ -7,6 +7,13 @@
   "imports/fonts";
 
 
+// Logic
+//
+// Weight: 1
+//
+// Styleguide Logic
+
+
 // Variables
 //
 // Weight: 1
@@ -23,7 +30,8 @@
   "logic/variables.font-families",
   "logic/variables.font-tracking",
   "logic/variables.font-weights",
-  "logic/variables.line-heights";
+  "logic/variables.line-heights",
+  "logic/variables.global";
 
 
 // Maps
@@ -70,7 +78,13 @@
   "logic/mixins.responsify";
 
 
-// TODO: Refactor this
+// Brand
+//
+// Weight: 1
+//
+// The visual assets that set the overall tone and aesthetic for the site.
+//
+// Styleguide Brand
 @import
   "brand/colors",
   "brand/logos",
@@ -79,7 +93,7 @@
 
 // Base
 //
-// Weight: 5
+// Weight: 2
 //
 // Sets the initial, document-level cascade.
 //
@@ -99,7 +113,7 @@
 
 // Layout
 //
-// Weight: 6
+// Weight: 3
 //
 // Classes that control [the overall arrangement of main site landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html).
 //
@@ -110,7 +124,7 @@
 
 // Utilities
 //
-// Weight: 7
+// Weight: 4
 //
 // Utility classes are small, single-purpose classes.
 //
@@ -128,7 +142,7 @@
 
 // Components
 //
-// Weight: 8
+// Weight: 5
 //
 // Components are collections of classes used to construct a user interface
 // element.
@@ -140,7 +154,7 @@
 
 // Media
 //
-// Weight: 9
+// Weight: 6
 //
 // Stylesheets for alternate modes of presentation.
 //

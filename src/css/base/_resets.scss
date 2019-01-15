@@ -129,7 +129,7 @@ textarea {
 }
 
 mark {
-  // TODO: Uncomment padding: em(2);
+  padding: em(2);
   background-color: #f8e71c;
 }
 
@@ -220,20 +220,8 @@ table {
       th {
         font-weight: $font-weight-regular;
       }
-
-      td {
-        border-top: 1px solid currentColor;
-      }
     }
   }
-
-
-
-
-
-
-
-
 }
 
 

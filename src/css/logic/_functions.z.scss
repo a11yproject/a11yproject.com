@@ -3,7 +3,7 @@
 // Calls a z-index value from the z-index map. Used to create a terse,
 // yet managed system of z-index declarations.
 //
-// $index - The name of the z-index value you want to use. See TODO: link this
+// $index - The name of the z-index value you want to use. See [`maps.z-index`](section-logic.html#kssref-logic-maps-z-index)
 //
 // Styleguide Logic.Functions.z
 @function z($index) {

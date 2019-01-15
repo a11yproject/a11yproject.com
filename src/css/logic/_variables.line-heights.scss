@@ -2,6 +2,14 @@
 //
 // Controls how far apart lines of text are.
 //
+// For body text, the [WCAG requires a line height percentage of 150](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html)
+// or higher. This aids with legibility and covers a large degree of
+// accessibility concerns, including low vision conditions, cognitive
+// considerations such as dyslexia, and language and learning disabilities.
+//
+// It is improtant to keep line heights unitless, so the ratio they describe
+// will be maintained if a person increases the font size.
+//
 // Styleguide Logic.Variables.line-heights
 
 

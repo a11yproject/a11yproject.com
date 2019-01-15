@@ -1,6 +1,9 @@
 // Animation Duration
 //
-// Controls how long animations play for.
+// Controls how long animations play for. Make sure that your animations aren't
+// a trigger for seizure and photosensitive disorders, vertigo, and cognitive
+// concerns such as ADHD. You may also want to use a [`prefers-reduced-motion` media query](https://css-tricks.com/introduction-reduced-motion-media-query/)
+// for people who have expressed a desire for less animation.
 //
 // Styleguide Logic.Variables.animation-duration
 

@@ -23,7 +23,8 @@
 
 // Hidden
 //
-// Used for any element who should be completely removed from the document
+// Used for any element who should be completely removed from the document.
+// See [`mixins.hide`](section-logic.html#kssref-logic-mixins-hide).
 //
 // Markup:
 // <div hidden>You shouldn't be able to see me!</div>

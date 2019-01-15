@@ -1,22 +1,28 @@
 // links
 //
 // Initial styles applied to anchor elements without a class applied to them.
+// Link colors should be distinct for each state, and have a good color contrast
+// ratio.
 //
 // Styleguide Base.link
 a {
-  // color: TODO: Var this;
+  color: c(links, resting);
 
   // States
   &:hover {
+    color: c(links, hover);
   }
 
   &:focus {
+    color: c(links, focus);
   }
 
   &:active {
+    color: c(links, active);
   }
 
   &:visited {
+    color: c(links, visited);
   }
 
   // Styles links that don't have a class declared on them

@@ -8,7 +8,7 @@ html {
   background-color: c(white);
   color: c(black);
   font-family: $font-family-primary;
-  font-size: 20px; // TODO: Var this;
+  font-size: $base-type-size;
   font-weight: $font-weight-regular;
   line-height: $line-height-loose;
   margin: 0;

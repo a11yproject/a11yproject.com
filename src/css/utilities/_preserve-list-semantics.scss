@@ -2,7 +2,7 @@
 //
 // Ensures that [VoiceOver will declare the presence of list items](https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/),
 // even if the list bullet has been removed. Apply to the `ul`, `ol`, `dl`
-// element.
+// element. See [mixins.preserve-list-semantics](section-logic.html#kssref-logic-mixins-preserve-list-semantics).
 //
 // Markup:
 // <ul class="u-preserve-list-semantics">

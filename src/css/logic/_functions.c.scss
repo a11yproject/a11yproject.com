@@ -3,8 +3,8 @@
 // Calls a color value from the colors map. Used to create a terse,
 // yet managed system of color declarations.
 //
-// $color-name    - The name of the color value you want to use. See TODO: link this
-// $color-variant - Optionally calls a sub-color. Used for colors organized by component.
+// $color-name    - The name of the color value you want to use. See [`maps.colors`](section-logic.html#kssref-logic-maps-colors).
+// $color-variant - Optionally calls a sub-color. Used for colors organized by component. See [`maps.colors`](section-logic.html#kssref-logic-maps-colors).
 //
 // Styleguide Logic.Functions.c
 @function c($color-name, $color-variant:null) {

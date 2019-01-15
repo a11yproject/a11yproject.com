@@ -1,12 +1,20 @@
 // colors
 //
 // Organizes the site's palette. Color values should be managed on a
-// per-component-basis, to keep color values from being misused.
+// per-component-basis, to keep color values from being misused. See [`functions.c`](section-logic.html#kssref-logic-functions-c).
 //
 // Styleguide Logic.Maps.colors
 $colors: (
   black:  #000000,
   white:  #ffffff,
+
+  links: (
+    resting: #188CB0,
+    active:  #4BBFE3,
+    hover:   #4BBFE3,
+    focus:   #147A99,
+    visited: #806ED2
+  ),
 
   alerts: (
     warning-background: #f8e71c,
