@@ -4,10 +4,10 @@
 // size.
 //
 // $pixels  - The desired pixel value.
-// $context - The font size to derive the `em` value from. Defaults to `$base-type-size`.
+// $context - The font size to derive the `em` value from. Defaults to `$global-type-size`.
 //
 // Styleguide Logic.Functions.rem
-@function rem($pixels, $context: $base-type-size) {
+@function rem($pixels, $context: $global-type-size) {
   @if (unitless($pixels)) {
     $pixels: $pixels * 1px;
   }
