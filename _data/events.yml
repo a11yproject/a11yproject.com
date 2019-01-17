@@ -1,7 +1,7 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
-    - title: ""
+    - title: "4th Annual Axe-Hackathon"
       description: "Contribute to making the web accessible to people with disabilities at the 4th Annual axe-Hackathon on March 16th, 2019. The Hackathon will be led by Wilco Fiers and other members of the axe team. We will be testing open source component libraries and logging accessibility issues, building new axe integrations, sharing knowledge and solutions with our fellow accessibility devotees, working on personal accessibility projects, and anging out with awesome people and making the web a better place."
       url: "https://www.eventbrite.com/e/axe-hackathon-2019-tickets-54988465982"
       type: "Regional"
