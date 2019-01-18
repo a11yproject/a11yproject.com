@@ -26,6 +26,11 @@
       url: "https://accessibility.deque.com/what-to-look-for-in-an-accessibility-vendor?hsCtaTracking=4a4292ff-4750-4a51-875d-07870402e873%7C96b89eae-ef33-4abd-a691-8c355fd19695"
       type: "Webinar"
       date: 2019-01-29
+    - title: "A11Y Talks: Live Demo of Auto-Captioning in Presentations!"
+      description: "Google Slides, Skype, and Microsoft recently rolled out with automatic captioning of video presentations. Catharine McNally happened upon the Closed Captioning icon just minutes before a company-wide meeting at Phase2 Technology. Raising her hand for her colleagues to 'turn on' the button, and what followed was a riveting display of speed and accuracy of dialogue across speakers in multiple rooms between Washington, DC, Portland, Oregon, and New York City.<br>Everyone was truly excited about the captioning and the possibilities that may follow: transcriptions for notes, more equal access, and ability to search for captions for bits of meeting notes. The best part was it was 'ready' out of the box for users of Google Slides and compatible for display within the Zoom and/or BlueJeans platform. Since then, reports of similarly positive experiences have cropped up for live-captioning for Skype and Microsoft products."
+      url: "https://groups.drupal.org/node/534682"
+      type: "Webinar"
+      date: 2019-01-30      
     - title: "Digital Accessibility 101 - The Basics"
       description: "Digital accessibility means that your website, mobile app, or electronic documents like PDF files can be navigated and understood by all users, including those with visual, auditory, motor, or cognitive disabilities. This presentation will cover the fundamentals of inclusive design and digital accessibility."
       url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/257287270/"
