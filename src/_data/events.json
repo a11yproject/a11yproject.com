@@ -1,6 +1,31 @@
 {
   "events" : [
     {
+      "title": "4th Annual Axe-Hackathon",
+      "description": "Contribute to making the web accessible to people with disabilities at the 4th Annual axe-Hackathon on March 16th, 2019. The Hackathon will be led by Wilco Fiers and other members of the axe team. We will be testing open source component libraries and logging accessibility issues, building new axe integrations, sharing knowledge and solutions with our fellow accessibility devotees, working on personal accessibility projects, and anging out with awesome people and making the web a better place.",
+      "url": "https://www.eventbrite.com/e/axe-hackathon-2019-tickets-54988465982",
+      "type": "Regional",
+      "date": {
+        "datetime": "2019-03-16",
+        "human" : "March 3rd, 2019"
+      },
+      "address": "Anaheim Marriott, Anaheim, CA, USA, 700 West Convention Way, Anaheim, CA 92802",
+      "map": "https://goo.gl/maps/G25Dp2PDqYC2"
+    },
+    {
+      "title": "Local Accessibility Projects and Assistive Technologies",
+      "description": "Local accessibility experts discuss successful accessibility projects and introduce you to assistive technologies for people with vision loss.",
+      "url": "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/258068572/",
+      "type": "Regional",
+      "date": {
+        "datetime": "2019-02-21",
+        "human" : "February 2nd, 2019"
+      },
+      "address": "4415 Northfield Rd, Warrensville Heights, OH 44128",
+      "map": "https://goo.gl/maps/DBnxj7RvscK2",
+      "hashtag": "A11yCLE"
+    },
+    {
       "title": "Mobile Office Hours: Deque mobile updates with dedicated time for Q&A",
       "description": "Join our live, open office hours on February 12th from 1:00-2:00PM EST to stay up-to-date on all things Deque mobile (iOS & Android) and come prepared with your outstanding mobile accessibility questions! This session will be hosted by our mobile expert, Chris McMeeking. Chris has 5+ years of mobile application development experience and has worked with the Android Open Source Project. Currently, he is the Senior Software Engineer at Deque Systems, architect of Deque's Native Accessibility analysis solutions. Lastly, Chris is an active member of the W3C (World Wide Web Consortium) mobile working group that is defining international standards for accessibility.",
       "url": "https://accessibility.deque.com/mobile-office-hours-webinar",
@@ -29,9 +54,34 @@
         "datetime": "2019-01-29",
         "human" : "January 29th, 2019"
       },
-      "address": "Mission Brewery, 1441 L Street, San Diego, CA ",
+      "address": "Mission Brewery, 1441 L Street, San Diego, CA",
       "map": "https://goo.gl/maps/aU5xbrr8gJ22",
       "hashtag": "RoleDrinks"
+    },
+    {
+      "title": "Digital Accessibility 101 - The Basics",
+      "description": "Digital accessibility means that your website, mobile app, or electronic documents like PDF files can be navigated and understood by all users, including those with visual, auditory, motor, or cognitive disabilities. This presentation will cover the fundamentals of inclusive design and digital accessibility.",
+      "url": "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/257287270/",
+      "type": "Regional",
+      "date": {
+        "datetime": "2019-01-24",
+        "human" : "January 24th, 2019"
+      },
+      "address": "31975 Chagrin Blvd, Pepper Pike, OH 44124",
+      "map": "https://goo.gl/maps/NPev8RkdLVN2"
+    },
+    {
+      "title": "Nurturing a Neurodiverse Workplace",
+      "description": "Join us for a talk about growing a neurodiverse work team! Amy Johnson will share her experiences in using her self-awareness as a tool in her work and approaching design from a different direction. She'll cover topics including: The benefits of hiring those with atypical brains, how to best collaborate with individuals who have ADD, ADHD, Autism, and more, and how to make your work environment healthier and more flexible for all, both neurotypical and atypical.",
+      "url": "https://www.meetup.com/a11ychi/events/257913463/",
+      "type": "Regional",
+      "date": {
+        "datetime": "2019-01-23",
+        "human" : "January 23rd, 2019"
+      },
+      "address": "Sprout Social HQ, 131 S Dearborn St Suite 700, Chicago, IL 60603",
+      "map": "https://goo.gl/maps/XompLy5zGSG2",
+      "hashtag": "a11ychi"
     },
     {
       "title": "Tips for management: how accessibility testing actually impacts your development process",
