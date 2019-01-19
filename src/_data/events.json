@@ -36,6 +36,17 @@
       }
     },
     {
+      "title": "A11Y Talks: Live Demo of Auto-Captioning in Presentations!",
+      "description": "oogle Slides, Skype, and Microsoft recently rolled out with automatic captioning of video presentations. Catharine McNally happened upon the Closed Captioning icon just minutes before a company-wide meeting at Phase2 Technology. Raising her hand for her colleagues to 'turn on' the button, and what followed was a riveting display of speed and accuracy of dialogue across speakers in multiple rooms between Washington, DC, Portland, Oregon, and New York City.<br>Everyone was truly excited about the captioning and the possibilities that may follow: transcriptions for notes, more equal access, and ability to search for captions for bits of meeting notes. The best part was it was 'ready' out of the box for users of Google Slides and compatible for display within the Zoom and/or BlueJeans platform. Since then, reports of similarly positive experiences have cropped up for live-captioning for Skype and Microsoft products.",
+      "url": "https://groups.drupal.org/node/534682",
+      "type": "Webinar",
+      "date": {
+        "datetime": "2019-01-30",
+        "human" : "January 30th, 2019"
+      },
+      "hashtag": "A11yTalks"
+    },
+    {
       "title": "What to look for in an accessibility vendor",
       "description": "Join our live webinar: Reference and apply these key business requirements when evaluating accessibility vendors. Without accessibility expertise, evaluating accessibility vendors can be a difficult task. Who can you trust? Sachin Gupta, Director of Development Services at Deque, will review key characteristics organizations should evaluate when looking for an accessibility partner and basics they should have in mind when evaluating tools and services.",
       "url": "https://accessibility.deque.com/what-to-look-for-in-an-accessibility-vendor?hsCtaTracking=4a4292ff-4750-4a51-875d-07870402e873%7C96b89eae-ef33-4abd-a691-8c355fd19695",
@@ -89,8 +100,8 @@
       "url": "https://accessibility.deque.com/tips-for-management-how-accessibility-testing-actually-impacts-your-development-process",
       "type": "Webinar",
       "date": {
-        "datetime": "2018-12-17",
-        "human" : "December 17th, 2018"
+        "datetime": "2018-01-17",
+        "human" : "January 17th, 2019"
       }
     },
     {
