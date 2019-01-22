@@ -209,6 +209,9 @@
     - url: https://a11y.nicolas-hoffmann.net/
       title: "jQuery accessible plugins for rich interfaces elements (tabpanel, hide-show system, etc.), using ARIA"
       description: "By Nicolas Hoffmann"
+    - url: https://couponfollow.com/research/online-shopping-with-disabilities
+      title: "Tips For Online Shopping With Disabilities: A Website Accessibility Guide"
+      description: "Coupon Follow"
     - url: https://van11y.net/
       title: "Van11y (for Vanilla-Accessibility), a collection of accessible scripts for rich interfaces elements"
       description: "By Nicolas Hoffmann"
