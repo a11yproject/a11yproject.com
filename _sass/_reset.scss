@@ -73,12 +73,3 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-%focus {
-    outline: 2px solid #177960;
-    outline-offset: 2px;
-}
-
-a:focus {
-    @extend %focus;
-}
