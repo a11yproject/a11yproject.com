@@ -8,6 +8,13 @@
       date: 2019-03-16
       address: "Anaheim Marriott, Anaheim, CA, USA, 700 West Convention Way, Anaheim, CA 92802 "
       map: "https://goo.gl/maps/G25Dp2PDqYC2"
+    - title: "World IA Day 2019"
+      description: "Get your tickets now for World IA Day in Kent, Ohio. This full-day event features amazing speakers from Northeast Ohio's top companies and surrounding states. Inclusive Design and A11y topics are on the agenda. Tickets are free for this event. Reserve your spot now."
+      url: "https://www.eventbrite.com/e/world-ia-day-2019-kent-oh-tickets-54812055333"
+      type: "Regional"
+      date: 2019-02-23
+      address: "Kent State University Library, 1125 Risman Dr. Kent, OH 44242"
+      map: "https://goo.gl/maps/P8YV7nEiyb52"
     - title: "Local Accessibility Projects and Assistive Technologies"
       description: "Local accessibility experts discuss successful accessibility projects and introduce you to assistive technologies for people with vision loss."
       url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/258068572/"
