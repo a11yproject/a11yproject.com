@@ -19,16 +19,15 @@ The anchor element is often cited as the main building block of the World Wide W
 
 ## Start with valid HTML
 
-In order for the `<a>` element to be valid HTML it must have:
+To be a valid link it must have:
 
 - **an `href` attribute** - the location of the anchor, page or resource
-- **link content** - text describing where the link is going, this could be plain text or the <a href="https://a11yproject.com/posts/alt-text/
-">`alt`</a> attribute of an image
+- **link content** - text describing where the link is going, this could be plain text or the [alt attribute](/posts/alt-text) of an image
 - **opening and closing tags**
 
 ## Write helpful link text
 
-Common unhelpful link texts are 'click here', 'read more' and 'link'. These are problematic because when a person using a screen-reader is navigating using links alone these will be read out of context. Where would you expect any of those three links to go if you heard them? It's impossible to know.
+Common unhelpful link texts are 'click here', 'read more' and 'link'. These are problematic because when a person using a screen reader is navigating using links alone these will be read out of context. Where would you expect any of those three links to go if you heard them? It's impossible to know.
 
 Think about restructuring your sentence to remove 'click here' or 'link' and then surround the meaningful part with the link:
 
@@ -40,7 +39,7 @@ To see our documentation <a href="/README.md">click here</a>.
 We have made our <a href="/README.md">documentation</a> available.
 ```
 
-'Read more' can be fixed by post-fixing what we will be reading more about:
+'Read more' can be fixed by including what we will be reading more about:
 
 ```
 // bad
@@ -52,21 +51,20 @@ We have made our <a href="/README.md">documentation</a> available.
 
 ## What about the `title` attribute?
 
-The `title` attribute is not exposed by browsers in an accessible way meaning that people using keyboards and touch-only devices will never see that information.
+The `title` attribute is not exposed by all browsers in an accessible way meaning that people using keyboards and touch-only devices will likely never see that information.
 
 > &ldquo;If you want to hide content from mobile and tablet users as well as assistive tech users and keyboard only users, use the title attribute.&rdquo; - <a href="https://developer.paciellogroup.com/blog/2010/11/using-the-html-title-attribute/
 ">Using the HTML title attribute - The Paciello Group</a>
 
-Ultimately, do not use the `title` attribute on `<a>` elements.
+It is therefore not recommended to use the `title` attribute on `<a>` elements. If you do use it don't double up on the accessible name of the link, this will likely produce unnecessary duplicate announcements to some screen readers.
 
 ## Focus state and keyboard
 
-Some developers/designers see the focus outline of links as ugly and remove them.
-People navigating using the keyboard require this focus state to keep track of where they are. Best practice is to <a href="https://a11yproject.com/posts/never-remove-css-outlines/">never remove CSS outlines</a> however there are accessible solutions to styling.
+Some developers/designers see the focus outline of links as ugly and remove them. People navigating using the keyboard require this focus state to keep track of where they are. Best practice is to never remove focus outlines but there are accessible solutions to styling, which are set out in the [Quick tip: Never remove CSS outlines](posts/never-remove-css-outlines/).
 
-The `<a>` element as standard can be activated by pressing the <kbd>Enter</kbd> key, so be mindful if you are attaching scripting not to override this functionality.
+By default an `<a>` element with an `href` can be activated by the <kbd>Enter</kbd> key. Be mindful to not override this functionality if attaching other custom scripting.  Additionally, it is **not** expected for the <kbd>Space</kbd> key to activate links.
 
-## When an `<a>` is not suitable
+## When should you use a `button` instead?
 
 If you have an `<a>` element that has:
 
