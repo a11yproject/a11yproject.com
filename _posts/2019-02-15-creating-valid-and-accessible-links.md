@@ -22,7 +22,7 @@ The anchor element is often cited as the main building block of the World Wide W
 To be a valid link it must have:
 
 - **an `href` attribute** - the location of the anchor, page or resource
-- **link content** - text describing where the link is going, this could be plain text or the [alt attribute](/posts/alt-text) of an image
+- **link content** - text describing where the link is going, this could be plain text or the [`alt` attribute](/posts/alt-text) of an image
 - **opening and closing tags**
 
 ## Write helpful link text
@@ -31,21 +31,21 @@ Common unhelpful link texts are 'click here', 'read more' and 'link'. These are 
 
 Think about restructuring your sentence to remove 'click here' or 'link' and then surround the meaningful part with the link:
 
-```
-// bad
+```html
+<!-- bad -->
 To see our documentation <a href="/README.md">click here</a>.
 
-// better
+<!-- better -->
 We have made our <a href="/README.md">documentation</a> available.
 ```
 
 'Read more' can be fixed by including what we will be reading more about:
 
-```
-// bad
+```html
+<!-- bad -->
 <a href="/full-article">Read more</a>.
 
-// better
+<!-- better -->
 <a href="/full-article">Read more - Accessible Landmarks</a>
 ```
 
@@ -56,7 +56,7 @@ The `title` attribute is not exposed by all browsers in an accessible way meanin
 > &ldquo;If you want to hide content from mobile and tablet users as well as assistive tech users and keyboard only users, use the title attribute.&rdquo; - <a href="https://developer.paciellogroup.com/blog/2010/11/using-the-html-title-attribute/
 ">Using the HTML title attribute - The Paciello Group</a>
 
-It is therefore not recommended to use the `title` attribute on `<a>` elements. If you do use it don't double up on the accessible name of the link, this will likely produce unnecessary duplicate announcements to some screen readers.
+It is therefore not recommended to use the `title` attribute on `<a>` elements. If you do use it don't double up on the accessible name of the link, this can produce unnecessary duplicate announcements to some screen readers.
 
 ## Focus state and keyboard
 
