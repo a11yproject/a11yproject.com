@@ -8,7 +8,7 @@ categories:
   - Quick Tips
 further_reading:
   - url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
-    title: "<a>: The Anchor element"
+    title: "&lt;a>: The Anchor element"
     source: MDN web docs
   - url: http://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html
     title: "Links, Buttons, Submits, and Divs, Oh Hell"
