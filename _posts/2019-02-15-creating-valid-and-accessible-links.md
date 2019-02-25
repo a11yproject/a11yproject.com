@@ -60,7 +60,7 @@ It is therefore not recommended to use the `title` attribute on `<a>` elements. 
 
 ## Focus state and keyboard
 
-Some developers/designers see the focus outline of links as ugly and remove them. People navigating using the keyboard require this focus state to keep track of where they are. Best practice is to never remove focus outlines but there are accessible solutions to styling, which are set out in the [Quick tip: Never remove CSS outlines](posts/never-remove-css-outlines/).
+Some developers/designers see the focus outline of links as ugly and remove them. People navigating using the keyboard require this focus state to keep track of where they are. Best practice is to never remove focus outlines but there are accessible solutions to styling, which are set out in the [Quick tip: Never remove CSS outlines](/posts/never-remove-css-outlines/).
 
 By default an `<a>` element with an `href` can be activated by the <kbd>Enter</kbd> key. Be mindful to not override this functionality if attaching other custom scripting.  Additionally, it is **not** expected for the <kbd>Space</kbd> key to activate links.
 
