@@ -1062,6 +1062,12 @@
       "url": "https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8"
     },
     {
+      "title": "Word and PowerPoint Accessibility Evaluation Checklist",
+      "description": "Provides advice for how to review and repair accessibility issues for Microsoft Office.",
+      "source": "WebAIM",
+      "url": "https://webaim.org/resources/evaloffice/"
+    },
+    {
       "title": "The Web Accessibility Introduction I Wish I Had",
       "description": "This post aims to tell you a few key things about accessibility. I can't cover everything, but I can cover: why accessibility matters, how to make a website accessible, and how to test for accessibility.",
       "source": "Max Antonucci",
