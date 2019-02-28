@@ -1,16 +1,38 @@
 {
   "events" : [
     {
+      "title": "Cleveland Accessibility March Get-Together... and Book Club!",
+      "description": "Cleveland Accessibility March 21, 2019 Meetup will be a social/networking gathering to discuss the Book 'A Web for Everyone' by Sarah Horton & Whitney Quesenbery. This book gives practical advice and examples of how to create sites that everyone can use, and uses individual personas to focus attention on the essential idea that accessibility begins and ends with people.",
+      "url": "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/259335332/",
+      "type": "Regional",
+      "date": {
+        "datetime": "2019-03-27",
+        "human" : "March 27th, 2019"
+      },
+      "address": "Market Garden Brewery, 1947 W 25th St., Cleveland, OH",
+      "map": "https://goo.gl/maps/wHoyyL3PLqz"
+    },
+    {
       "title": "4th Annual Axe-Hackathon",
       "description": "Contribute to making the web accessible to people with disabilities at the 4th Annual axe-Hackathon on March 16th, 2019. The Hackathon will be led by Wilco Fiers and other members of the axe team. We will be testing open source component libraries and logging accessibility issues, building new axe integrations, sharing knowledge and solutions with our fellow accessibility devotees, working on personal accessibility projects, and anging out with awesome people and making the web a better place.",
       "url": "https://www.eventbrite.com/e/axe-hackathon-2019-tickets-54988465982",
       "type": "Regional",
       "date": {
         "datetime": "2019-03-16",
-        "human" : "March 3rd, 2019"
+        "human" : "March 16th, 2019"
       },
       "address": "Anaheim Marriott, Anaheim, CA, USA, 700 West Convention Way, Anaheim, CA 92802",
       "map": "https://goo.gl/maps/G25Dp2PDqYC2"
+    },
+    {
+      "title": "How to convince your boss to care about accessibility",
+      "description": "Join our live webinar](https://accessibility.deque.com/how-to-convince-boss-care-about-accessibility) to learn about best practices and real-life examples of how to convince your boss to care and prioritize accessibility at your organization. Before accessibility is prioritized at an organization, there is oftentimes a lone developer or small group that cares about creating websites or applications that are accessible for all users. However, advocating for accessibility without having funding can be a frustrating battle.",
+      "url": "https://accessibility.deque.com/how-to-convince-boss-care-about-accessibility",
+      "type": "Webinar",
+      "date": {
+        "datetime": "2019-03-07",
+        "human" : "March 3rd, 2019"
+      }
     },
     {
       "title": "How Accessibility Testing Actually Impacts Developers",
