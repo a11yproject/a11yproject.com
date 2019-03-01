@@ -1072,6 +1072,12 @@
       "description": "This post aims to tell you a few key things about accessibility. I can't cover everything, but I can cover: why accessibility matters, how to make a website accessible, and how to test for accessibility.",
       "source": "Max Antonucci",
       "url": "https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope"
+    },
+    {
+      "title": "Web Accessibility Guide",
+      "description": "A curated collection of web accessibility tips, tricks, and best practices. Let's make the web a better place for everyone.",
+      "source": "Stefan Feješ",
+      "url": "https://webaccessibility.guide/"
     }
   ]
 }
