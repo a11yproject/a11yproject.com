@@ -269,6 +269,9 @@
     - url: https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope
       title: "The Web Accessibility Introduction I Wish I Had"
       description: "by Max Antonucci"
+    - url: https://webaccessibility.guide/
+      title: "Web Accessibility Guide"
+      description: "by Stefan Feješ"
 
 - resource-category: Professional Help
   section-id: professional-help
