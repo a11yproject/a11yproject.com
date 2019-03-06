@@ -297,6 +297,9 @@
     - url: https://tenon.io/
       title: "Tenon.io"
       #description: ""
+    - url: https://equidox.co/
+      title: "Eqiodox"
+      #description: ""
 
 - resource-category: Online Tools
   section-id: online-tools
@@ -469,6 +472,8 @@
       title: "Adobe: Create and verify PDF accessibility, Acrobat Pro"
     - url: https://www.pdf-accessible.com/en/
       title: "AcceDe PDF Project"
+    - url: https://equidox.co/equidox-briefs/
+      title: "Equidox: PDF remediation tools"
 
 - resource-category: Newsletters
   section-id: newsletters
