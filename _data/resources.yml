@@ -140,6 +140,9 @@
     - url: https://hubs.ly/H0cSQZk0
       title: "Web and App Accessibility: Your Roadmap to Digital Inclusion"
       description: "by Jason C. Taylor"
+    - url: https://pressbooks.library.ryerson.ca/wafd/
+      title: "Web Accessibility for Developers – Open Textbook"
+      description: "by The Chang School, Ryerson University"
 
 - resource-category: Blogs
   section-id: blogs
