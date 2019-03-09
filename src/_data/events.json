@@ -1,6 +1,16 @@
 {
   "events" : [
     {
+      "title": "What to expect from an accessibility audit",
+      "description": "Join our live webinar to learn the scope of an accessibility audit and how it can jumpstart your organization’s accessibility journey. If your organization is just starting to learn about accessibility, it can be difficult to know where to start. Free automated testing tools, such as axe, or training are a great starting point. However, if you want to be confident that your website or application is accessible, consulting with an accessibility partner for an accessibility audit is essential.",
+      "url": "https://accessibility.deque.com/what-to-expect-from-an-accessibility-audit",
+      "type": "Webinar",
+      "date": {
+        "datetime": "2019-04-09",
+        "human" : "April 9th, 2019"
+      }
+    },
+    {
       "title": "Cleveland Accessibility March Get-Together... and Book Club!",
       "description": "Cleveland Accessibility March 21, 2019 Meetup will be a social/networking gathering to discuss the Book 'A Web for Everyone' by Sarah Horton & Whitney Quesenbery. This book gives practical advice and examples of how to create sites that everyone can use, and uses individual personas to focus attention on the essential idea that accessibility begins and ends with people.",
       "url": "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/259335332/",
