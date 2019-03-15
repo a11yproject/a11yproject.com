@@ -109,6 +109,8 @@
       title: "Able Player"
     - url: "https://github.com/paypal/accessible-html5-video-player/"
       title: "Accessible HTML5 Video Player"
+    - url: "https://plyr.io"
+      title: "Plyr Player"
 
 - pattern-category: Other
   section-id: other
