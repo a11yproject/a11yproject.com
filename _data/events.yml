@@ -1,6 +1,21 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Web Accessibility for Developers: Essential Tools for Inclusive Coding (Pixel Pioneers Workshop)"
+      description: "In this one-day workshop, led by Tiffany Tse and Scott Vinkle of Shopify, you will explore the core concepts of web accessibility, what it is and why writing inclusive code is so important. Throughout the workshop, you’ll learn best practices, how to use and test with a screen reader, and how to fix common accessibility issues."
+      url: "https://pixelpioneers.co/events/bristol-2019"
+      type: "Regional"
+      date: 2019-06-06
+      address: "The Waterfront, Welsh Back, Bristol BS1 4SB, United Kingdom"
+      map: "https://goo.gl/maps/QYR4p1xN7Tx"
+    - title: "Web Accessibility Summit"
+      description: "A one-day conference about all things website accessibility in higher education and beyond. We invite web, digital and accessibility professionals to attend. We also welcome faculty and instructional designers."
+      url: "https://2019.webaccessibilitysummit.org"
+      type: "Regional"
+      date: 2019-05-29
+      address: "Missouri State University Glass Hall, 851 S. John Q. Hammons Parkway, Springfield, MO 65897"
+      map: "https://www.google.com/maps/d/viewer?mid=1ttoeovP4EwFXqV5V7Q3Idg9EwZbuDp1E&hl=en&usp=sharing"
+      hashtag: "A11ySummit"
     - title: "What to expect from an accessibility audit"
       description: "Join our live webinar to learn the scope of an accessibility audit and how it can jumpstart your organization’s accessibility journey. If your organization is just starting to learn about accessibility, it can be difficult to know where to start. Free automated testing tools, such as axe, or training are a great starting point. However, if you want to be confident that your website or application is accessible, consulting with an accessibility partner for an accessibility audit is essential."
       url: "https://accessibility.deque.com/what-to-expect-from-an-accessibility-audit"
