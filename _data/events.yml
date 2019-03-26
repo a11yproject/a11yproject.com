@@ -16,6 +16,12 @@
       address: "Missouri State University Glass Hall, 851 S. John Q. Hammons Parkway, Springfield, MO 65897"
       map: "https://www.google.com/maps/d/viewer?mid=1ttoeovP4EwFXqV5V7Q3Idg9EwZbuDp1E&hl=en&usp=sharing"
       hashtag: "A11ySummit"
+    - title: "A11Y Talks April: Accessibility Newbie to Ninja - 10 Steps"
+      description: "Like a lot of people, you have come to realize that accessibility is an important part of everyone’s job if you work on the web. Whether you’re in design, development, QA, or account management, you’re interested in being part of the solution, right? So now you’re ready to move it up a notch, and looking for ideas to help you get it done. In this talk, Abby will talk about some tools and actions that she's used in the past year to help her improve her accessibility game. Participants will walk away with a punch list of actionable ideas, many of which can be implemented on a day-to-day basis without disrupting your workflow. Before you know it, you’ll be making a difference every day! It's a long and winding road, so pack a lunch and enjoy the journey!"
+      url: "https://groups.drupal.org/node/534935"
+      type: "Webinar"
+      date: 2019-04-16
+      hashtag: "A11yTalks"
     - title: "What to expect from an accessibility audit"
       description: "Join our live webinar to learn the scope of an accessibility audit and how it can jumpstart your organization’s accessibility journey. If your organization is just starting to learn about accessibility, it can be difficult to know where to start. Free automated testing tools, such as axe, or training are a great starting point. However, if you want to be confident that your website or application is accessible, consulting with an accessibility partner for an accessibility audit is essential."
       url: "https://accessibility.deque.com/what-to-expect-from-an-accessibility-audit"
