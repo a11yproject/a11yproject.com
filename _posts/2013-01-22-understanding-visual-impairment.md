@@ -25,9 +25,9 @@ According to The United States Bureau of the Census:
 
 <blockquote>
   <p>The question about about “significant vision loss” encompasses both total or near-total blindness and “trouble seeing, even > when wearing glasses or contact lenses.” and [...] There are no generally accepted definitions for “visually impaired,” “low > vision,” or “vision loss.”</p>
-<footer>
-  <cite><a href="https://nfb.org/blindness-statistics">Statistical Facts about Blindness in the United States - National Federation of the Blind</a></cite>
-<footer>
+  <footer>
+    <cite><a href="https://nfb.org/blindness-statistics">Statistical Facts about Blindness in the United States - National Federation of the Blind</a></cite>
+  </footer>
 </blockquote>
 
 ## Who is at risk?
