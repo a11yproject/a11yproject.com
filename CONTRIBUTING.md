@@ -16,6 +16,7 @@ Want to help? Here's how. Please be sure to check our [Content Style Guide](http
     - [Events](#events)
     - [Patterns](#patterns)
     - [Resources](#resources)
+    - [Promotions, partnership deals, and SEO scams](#promotions-partnership-seals-and-seo-scams)
     - [Rejection](#rejection)
 1. [Fixing things](#fixing-things)
     - [Reporting Issues](#reporting-issues)
@@ -132,6 +133,12 @@ If you'd like to submit a [Pattern](https://a11yproject.com/patterns) make sure 
 ### Resources
 
 Did you create or find a great accessibility-related resource that you think other people would find useful? Add it to the [Resources](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/resources.yml) file under the appropriate category. Please be sure to include the resource's title, description, and a URL where it can be accessed.
+
+### Promotions, partnership deals, and SEO scams
+
+We are not interested in quid pro quo schemes to boost your site's SEO ranking. We are also not interested in partnership or affiliate linking programs.
+
+Acceptance of content suggestions such as resources are weighed on the quality of the actual content, the accessibility of the site it is hosted on, the organization's status in the industry, and the organization's mission.
 
 ### Rejection
 
