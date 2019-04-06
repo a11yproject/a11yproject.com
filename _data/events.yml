@@ -8,6 +8,13 @@
       date: 2019-06-06
       address: "The Waterfront, Welsh Back, Bristol BS1 4SB, United Kingdom"
       map: "https://goo.gl/maps/QYR4p1xN7Tx"
+    - title: "T12t meetup - Global Accessibility Awareness Day"
+      description: "Spotify will host us for our Global Accessibility Awareness Day (GAAD) meetup in their new headquarters in Stockholm. We have a great lineup of speakers – including international keynote speaker Molly Watt, flying in from the UK."
+      url: "https://www.meetup.com/t12t-Stockholm/events/260048922/"
+      type: "Regional"
+      date: 2019-05-16
+      address: "Spotify, Regeringsgatan 19, Stockholm"
+      map: "https://goo.gl/maps/RtFeft3AkH72"
     - title: "Web Accessibility Summit"
       description: "A one-day conference about all things website accessibility in higher education and beyond. We invite web, digital and accessibility professionals to attend. We also welcome faculty and instructional designers."
       url: "https://2019.webaccessibilitysummit.org"
@@ -16,6 +23,13 @@
       address: "Missouri State University Glass Hall, 851 S. John Q. Hammons Parkway, Springfield, MO 65897"
       map: "https://www.google.com/maps/d/viewer?mid=1ttoeovP4EwFXqV5V7Q3Idg9EwZbuDp1E&hl=en&usp=sharing"
       hashtag: "A11ySummit"
+    - title: "A11yCLE April 29 Meetup: CSUN Assistive Technology Conference Recap 2019"
+      description: "The CSUN Assistive Technology Conference is the largest conference in the world to focus on the field of assistive technology. The conference was held in Anaheim, California, March 11 to March 15, 2019. Over 350 presentations were on the agenda, and more than 500 speakers representing a wealth of expertise on all facets of living with disabilities and using assistive technologies were in attendance."
+      url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/260263110/"
+      type: "Regional"
+      date: 2019-04-29
+      address: "Independence Branch of Cuyahoga County Public Library, 6361 Selig Dr, Independence, OH"
+      map: "https://goo.gl/maps/yPpCtCTnywC2"
     - title: "A11Y Talks April: Accessibility Newbie to Ninja - 10 Steps"
       description: "Like a lot of people, you have come to realize that accessibility is an important part of everyone’s job if you work on the web. Whether you’re in design, development, QA, or account management, you’re interested in being part of the solution, right? So now you’re ready to move it up a notch, and looking for ideas to help you get it done. In this talk, Abby will talk about some tools and actions that she's used in the past year to help her improve her accessibility game. Participants will walk away with a punch list of actionable ideas, many of which can be implemented on a day-to-day basis without disrupting your workflow. Before you know it, you’ll be making a difference every day! It's a long and winding road, so pack a lunch and enjoy the journey!"
       url: "https://groups.drupal.org/node/534935"
