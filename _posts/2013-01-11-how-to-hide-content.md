@@ -29,6 +29,7 @@ There are real world situations where you might need to hide elements visually (
 
 It is possible to apply the `.visually-hidden` class to content that contains natively focusable elements (such as `a`, `button`, `input`, etc). It's important to show these elements visually when they receive focus, otherwise a keyboard-only user might not know which element currently has focus. CSS for this might look something like:
 
+    .visually-hidden:focus,
     .visually-hidden a:focus,
     .visually-hidden input:focus,
     .visually-hidden button:focus {
