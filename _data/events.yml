@@ -30,6 +30,11 @@
       date: 2019-04-29
       address: "Independence Branch of Cuyahoga County Public Library, 6361 Selig Dr, Independence, OH"
       map: "https://goo.gl/maps/yPpCtCTnywC2"
+    - title: "Deque: 2018 Accessibility Trends"
+      description: "Major tech and retail companies are showing up to (and sponsoring) accessibility conferences. More and more companies seem to have an interest in accessibility and in sustainable accessibility. From year to year, it is becoming abundantly clear that accessibility is growing and changing. This webinar is great for those who were unable to attend CSUN, missed this session at the show, or are curious about current accessibility trends."
+      url: "https://accessibility.deque.com/2018-accessibility-trends"
+      type: "Webinar"
+      date: 2019-04-25
     - title: "A11Y Talks April: Accessibility Newbie to Ninja - 10 Steps"
       description: "Like a lot of people, you have come to realize that accessibility is an important part of everyone’s job if you work on the web. Whether you’re in design, development, QA, or account management, you’re interested in being part of the solution, right? So now you’re ready to move it up a notch, and looking for ideas to help you get it done. In this talk, Abby will talk about some tools and actions that she's used in the past year to help her improve her accessibility game. Participants will walk away with a punch list of actionable ideas, many of which can be implemented on a day-to-day basis without disrupting your workflow. Before you know it, you’ll be making a difference every day! It's a long and winding road, so pack a lunch and enjoy the journey!"
       url: "https://groups.drupal.org/node/534935"
