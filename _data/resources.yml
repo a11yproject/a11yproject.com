@@ -1,12 +1,12 @@
 - resource-category: Software
   section-id: software
   resources:
-    - url: https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en
-      title: "Chrome Accessibility Tools"
-      description: "Chrome Extension (Mac/Win)"
-    - url: https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll/related
+    - url: https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd
+      title: "Axe Accessibility Testing"
+      description: "Chrome Extension (Mac/Win/Linux)"
+    - url: https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll
       title: "Color Contrast Analyzer"
-      description: "Chrome Extension (Mac/Win)"
+      description: "Chrome Extension (Mac/Win/Linux)"
     - url: http://colororacle.org/
       title: "Color Oracle"
       description: "App (Mac/Win/Linux)"
@@ -18,7 +18,7 @@
       description: "By The Paciello Group, Desktop App (Mac/Win)"
     - url: https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl
       title: "NoCoffee"
-      description: "Chrome Extension (Mac/Win)"
+      description: "Chrome Extension (Mac/Win/Linux)"
     - url: https://michelf.ca/projects/sim-daltonism/
       title: "Sim Daltonism"
       description: "Desktop App (Mac/iOS)"
@@ -27,10 +27,10 @@
       description: "By The Paciello Group, IE Extension (Win only)"
     - url: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
       title: "WAVE Toolbar"
-      description: "Chrome Extension (Mac/Win)"
+      description: "Chrome Extension (Mac/Win/Linux)"
     - url: https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia
       title: "I want to see like the colour blind"
-      description: "Chrome Extension (Mac/Win)"
+      description: "Chrome Extension (Mac/Win/Linux)"
 
 - resource-category: Screen Readers
   section-id: screen-readers
