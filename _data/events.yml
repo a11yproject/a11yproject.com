@@ -23,6 +23,18 @@
       address: "Missouri State University Glass Hall, 851 S. John Q. Hammons Parkway, Springfield, MO 65897"
       map: "https://www.google.com/maps/d/viewer?mid=1ttoeovP4EwFXqV5V7Q3Idg9EwZbuDp1E&hl=en&usp=sharing"
       hashtag: "A11ySummit"
+    - title: "Munich Accessibility Meetup"
+      description: "Together with Microsoft, A11y MUC will be celebrating the eighth Global Accessibility Awareness Day (GAAD) in Munich! The purpose of the GAAD is to get everyone talking, thinking and learning about (digital) accessibility and inclusion. More and more people are interested in in the topic of making technology accessible and user-friendly, unfortunately they often just do not know where or how to start. That’s why awareness comes first!"
+      url: "http://bit.ly/gaad-muc-19"
+      type: "Regional"
+      date: 2019-05-16
+      address: "Microsoft, Walter-Gropius-Straße 5, 80807 München"
+      map: "https://goo.gl/maps/AL4FHRHprgL8ddTU6"
+    - title: "Mobile Office Hours: Accessible Carousels"
+      description: "Join this technical discussion on Monday, April 29th from 2:00-3:00PM EST about our learnings from implementing an Accessible Android Carousel and why user empathy was our biggest challenge. This session is hosted by our mobile expert, Chris McMeeking. Chris has 5+ years of mobile application development experience and has worked with the Android Open Source Project. Currently, he is a Senior Software Engineer at Deque Systems, architect of Deque's Native Accessibility analysis solutions. Lastly, Chris is an active member of the W3C (World Wide Web Consortium) mobile working group that is defining international standards for accessibility."
+      url: "https://accessibility.deque.com/mobile-office-hours-accessible-carousels"
+      type: "Webinar"
+      date: 2019-04-29
     - title: "A11yCLE April 29 Meetup: CSUN Assistive Technology Conference Recap 2019"
       description: "The CSUN Assistive Technology Conference is the largest conference in the world to focus on the field of assistive technology. The conference was held in Anaheim, California, March 11 to March 15, 2019. Over 350 presentations were on the agenda, and more than 500 speakers representing a wealth of expertise on all facets of living with disabilities and using assistive technologies were in attendance."
       url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/260263110/"
