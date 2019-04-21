@@ -4,6 +4,8 @@ title: "How-to: Using captions with HTML5 video"
 description: "How to implement captions on HTML5 video (and audio) elements."
 published: true
 author: greg_tarnoff
+updated_by: alex_brenon
+last_updated: 2019-04-21
 categories:
   - How-tos
 further_reading:
@@ -16,6 +18,7 @@ further_reading:
   - url: https://www.speechpad.com/captions/ttml
     title: TTML (Timed Text Markup Language)
     source: Speechpad
+    
 ---
 
 One of the great things about the internet is the ability to share video. With HTML5 we can now use video without the use of Flash. This makes video more accessible as the controls are located in the DOM. However, to do accessible video right, you need to include captions and transcripts.
