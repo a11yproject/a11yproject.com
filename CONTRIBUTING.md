@@ -23,7 +23,7 @@ Want to help? Here's how. Please be sure to check our [Content Style Guide](http
     - [Submitting Pull Requests](#submitting-pull-requests)
     - [Stale Issues and Pull Requests](#stale-issues-and-pull-requests)
     - [Labels](#labels)
-    - [Editing Articles](#editing-articles)
+    - [Updating Articles](#editing-articles)
 1. [License](#license)
 
 
@@ -195,9 +195,9 @@ A Pull Request (PR) is considered to be in a "stale" state when the following co
 
 [Labels](https://github.com/a11yproject/a11yproject.com/labels) allow the project maintainers to quickly sort filter and site [Issues](#reporting-issues) and [Pull Requests](#submitting-pull-requests). They will be added and removed as needed.
 
-### Editing Articles
+### Updating Articles
 
-When editing articles, leave the original publish date and author as-is. Add the following to the front matter:
+When updating articles, leave the original publish date and author as-is. Add the following to the front matter:
 
 ```
 updated_by: editor_name
