@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How-to: Using captions with HTML5 video"
-description: "How to implement captions on HTML5 video (and audio) elements."
+title: "How-to: Using captions with HTML's video element"
+description: "How to implement captions for HTML video element."
 published: true
 author: greg_tarnoff
 updated_by: alex_brenon
