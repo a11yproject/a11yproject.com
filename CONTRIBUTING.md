@@ -23,7 +23,7 @@ Want to help? Here's how. Please be sure to check our [Content Style Guide](http
     - [Submitting Pull Requests](#submitting-pull-requests)
     - [Stale Issues and Pull Requests](#stale-issues-and-pull-requests)
     - [Labels](#labels)
-    - [Updating Articles](#editing-articles)
+    - [Updating Articles](#updating-articles)
 1. [License](#license)
 
 
