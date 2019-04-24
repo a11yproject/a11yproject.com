@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "How Accessibility Testing Actually Impacts Quality Assurance (QA)"
+      description: "In this live webinar, you'll learn about the scope of accessibility and its potential impact on your day to day job as a QA tester or manager. QA teams that are tasked with accessibility may be unfamiliar with the topic and unsure where to start. To achieve compliance and test for accessibility requirements, QA testers should understand the scope of accessibility and what tools and methodologies are available."
+      url: "https://accessibility.deque.com/how-accessibility-testing-actually-impacts-quality-assurance"
+      type: "Webinar"
+      date: 2019-05-14
     - title: "Web Accessibility for Developers: Essential Tools for Inclusive Coding (Pixel Pioneers Workshop)"
       description: "In this one-day workshop, led by Tiffany Tse and Scott Vinkle of Shopify, you will explore the core concepts of web accessibility, what it is and why writing inclusive code is so important. Throughout the workshop, you’ll learn best practices, how to use and test with a screen reader, and how to fix common accessibility issues."
       url: "https://pixelpioneers.co/events/bristol-2019"
