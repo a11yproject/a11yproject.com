@@ -1,0 +1,52 @@
+.checklist-introduction {
+  background-color: #F8F8F8;
+  border: 1px solid #E4E4E4;
+  margin-top: 2em;
+  padding: 1.5rem;
+
+  h2 {
+    font-size: 1.75em;
+    margin-bottom: 0.75em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 1.25em;
+  }
+
+  h4 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0.25em;
+  }
+}
+
+.checklist-section {
+  h2 {
+    margin-top: 1em;
+  }
+
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+  }
+
+  h4 {
+    margin-top: 1em;
+  }
+}
+
+.checklist {
+  dt {
+    margin-top: 1.75em;
+  }
+
+  dd {
+    padding-left: 0;
+  }
+}
