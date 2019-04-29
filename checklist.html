@@ -27,9 +27,8 @@ permalink: checklist.html
 
 <section class="resources-section checklist-introduction" id="section-introduction" aria-labelledby="label-introduction">
   <h2 id="label-introduction">Introduction</h2>
-  <h3 id="where-this-checklist-comes-from">Where this checklist comes from</h3>
   <p>
-    The <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">The Web Content Accessibility Guidelines <abbr>WCAG</abbr></a> is a shared standard for web content accessibility that meets the needs of individuals, organizations, and governments. There are three levels of compliance for the WCAG, <strong>A</strong>, <strong>AA</strong>, and <strong>AAA</strong>. These reflect the priority of support:
+    This checklist is build using the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">The Web Content Accessibility Guidelines <abbr>WCAG</abbr></a>, a shared standard for web content accessibility that meets the needs of individuals, organizations, and governments. There are three levels of compliance within WCAG, <strong>A</strong>, <strong>AA</strong>, and <strong>AAA</strong>. These reflect the priority of support:
   </p>
   <ol>
     <li><strong>A</strong>: Must support.</li>
@@ -37,12 +36,12 @@ permalink: checklist.html
     <li><strong>AAA</strong>: May support.</li>
   </ol>
   <p>
-    While <strong>A</strong> support is mandatory, most websites should have a level of <strong>AA</strong> support to best guarantee support. <strong>AAA</strong> level compliance is typically reserved for sites that serve a specialized audience.
+    While <strong>A</strong> support is mandatory, most websites should have a level of <strong>AA</strong> support to best guarantee support. <strong>AAA</strong> level compliance is typically reserved for sites that serve a specialized audience. It should also be noted that the different levels of WCAG support do not necessarily indicate an increased level of difficulty to implement.
   </p>
   <p>
     This checklist is built using WCAG as a reference point. It targets many, but not all level <strong>AA</strong> issues.
   </p>
-  <h3 id="">Success criteria</h3>
+  <h3 id="success-criteria">Success criteria</h3>
   <p>
     Each item on this checklist corresponds to what is known as a "success criterion," which is a specific rule in the WCAG. Each success criterion is assigned a number and a short title. For example, the rule about text resizing is called <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4 Resize text</a>.
   </p>
@@ -51,19 +50,16 @@ permalink: checklist.html
   </p>
   <h3 id="does-this-checklist-guarantee-my-site-is-accessible">Does this checklist guarantee my site is accessible?</h3>
   <p>
-    No. However, this does not mean you should not use it.
+    No. However, working through this checklist will help greatly improve the experience for everyone who uses your site. The issues it prompts you to check for covers a wide range of disability conditions.
   </p>
   <p>
-    Working through this checklist will help greatly improve the experience for everyone who uses your site, as the issues it prompts you to check for covers a wide range of disability conditions.
-  </p>
-  <p>
-    Removing the issues on this checklist helps ensure your site stays flexible and fault-tolerant. There is no such thing as "perfect accessibility" or a site being "100% accessible," and you should be wary of companies and services that promise it.
+    Following along with this checklist will help ensure your site stays flexible and fault-tolerant. There is no such thing as "perfect accessibility" or a site being "100% accessible," and you should be wary of companies and services that promise it.
   </p>
   <p>
     Need professional accessibility help? Use <a href="resources#professional-help">professional accessibility services</a>.
   </p>
 </section>
-
+<!--
 <section class="resources-section checklist-introduction" id="section-required-software" aria-labelledby="label-required-software">
   <h2 id="label-required-software">Required software</h2>
   <p>
@@ -71,7 +67,7 @@ permalink: checklist.html
   </p>
   <h3 id="automated-testing-tools">Automated testing</h3>
   <p>
-    Automated tests can check your code for common accessibility issues. Be sure to run <a href="https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/">two or more automated testing tools</a> to ensure comprehensive results, as one automated testing tool may not know to check for some kinds of code that another one does.
+    Automated tests can check your code for common accessibility issues. Be sure to run <a href="https://www.smashingmagazine.com/2018/09/importance-manual-accessibility-testing/">two or more automated testing tools</a> to ensure comprehensive results, as one automated testing tool may not be setup to check for some kinds of code that another one does.
   </p>
   <ul>
     <li><a href="https://www.deque.com/axe/">aXe</a>, by Deque</li>
@@ -95,23 +91,41 @@ permalink: checklist.html
     <li><a href="https://developer.paciellogroup.com/blog/2017/11/mobile-accessibility-testing-guide-for-android-and-ios-free/">VoiceOver</a>, with Safari on iOS</li>
   </ul>
 </section>
-
+-->
 <section class="article-section resources-section checklist-section" id="section-content" aria-labelledby="label-content">
   <h2 id="label-content">Content</h2>
   <p>
     Content is the most important part of your site.
   </p>
-  <dl class="checklist">
-    <dt id="section-content-01">Use plain language and avoid relying on figures of speech, idioms, and complicated metaphors.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html">3.1.2 Language of Parts</a></dd>
-    <dd>Write content at <a href="https://datayze.com/readability-analyzer.php">an 8th grade reading level</a>.</dd>
-    <dt id="section-content-02">Ensure that <code>button</code>, <code>a</code>, and <code>label</code> element content is unique and descriptive.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>Terms like "click here" and "read more" do not provide enough context, especially to someone who is navigating using a list of all buttons or links on a page or view.</dd>
-    <dt id="section-content-03">Use left-aligned text for left-to-right languages, and right-aligned text for right-to-left languages.</dt>
-    <dd><a href="https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html">1.4.12 Text Spacing</a></dd>
-    <dd>Centered-aligned or justified text is difficult to read.</dd>
-  </dl>
+  <div class="checklist">
+    <details id="section-content-01">
+      <summary>
+        Use plain language and avoid relying on figures of speech, idioms, and complicated metaphors.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html">3.1.2 Language of Parts</a></p>
+        <p class="checklist-description">Write content at <a href="https://datayze.com/readability-analyzer.php">an 8th grade reading level</a>.</p>
+      </div>
+    </details>
+    <details id="section-content-02">
+      <summary>
+        Ensure that <code>button</code>, <code>a</code>, and <code>label</code> element content is unique and descriptive.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">Terms like "click here" and "read more" do not provide enough context, especially to someone who is navigating using a list of all buttons or links on a page or view.</p>
+      </div>
+    </details>
+    <details id="section-content-03">
+      <summary>
+        Use left-aligned text for left-to-right languages, and right-aligned text for right-to-left languages.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">Centered-aligned or justified text is difficult to read.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-global-code" aria-labelledby="label-global-code">
@@ -119,29 +133,71 @@ permalink: checklist.html
   <p>
     Global code is code that affects your entire website.
   </p>
-  <dl class="checklist">
-    <dt id="section-global-code-01"><a href="https://validator.w3.org/nu/">Validate the HTML</a> you generate.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1 Parsing</a></dd>
-    <dd>Valid HTML helps ensure a consistent experience across all browsers and assistive technology.</dd>
-    <dt id="section-global-code-02">Use a <code>lang</code> attribute on the <code>html</code> element.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1 Language of Page</a></dd>
-    <dd>This helps to ensure that screen readers will pronounce all website content correctly.</dd>
-    <dt id="section-global-code-03">Provide a unique <code>title</code> for each page or view.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2 Page Titled</a></dd>
-    <dd>The <code>title</code> element's content, contained in the document's <code>head</code>, is often the first piece of information announced by assistive technology. This helps inform people what screen or view they are going to start navigating.</dd>
-    <dt id="section-global-code-04">Ensure that viewport zoom is not disabled.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4 Resize text</a></dd>
-    <dd>Preventing people from zooming their screen keeps them from being able to increase the size of content on the screen to a point where they can read it.</dd>
-    <dt id="section-global-code-05">Use <a href="https://www.w3.org/TR/wai-aria-practices/examples/landmarks/index.html">landmark elements</a> to describe the large sections of content on a page.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></dd>
-    <dd>Use the <code>nav</code> element to wrap site navigation, <code>main</code> for the primary content of the page, etc. This helps to communicate the overall layout of the page, as well as providing quick navigation access.</dd>
-    <dt id="section-global-code-06">Ensure a linear content flow.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a></dd>
-    <dd>Remove <code>tabindex</code> attribute values that aren't either <code>0</code> or <code>-1</code>. Remove the use of the <code>autofocus</code> attribute.</dd>
-    <dt id="section-global-code-07">Remove session timeouts.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html">2.2.1 Timing Adjustable</a></dd>
-    <dd>If you cannot, let the person using your site know the timeout exists ahead of time, and provide significant notice before the timer runs out.</dd>
-  </dl>
+  <div class="checklist">
+    <details id="section-global-code-01">
+      <summary>
+        Validate the HTML you generate.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1 Parsing</a></p>
+        <p class="checklist-description"><a href="https://validator.w3.org/nu/">Valid HTML</a> helps ensure a consistent experience across all browsers and assistive technology.</p>
+      </div>
+    </details>
+    <details id="section-global-code-02">
+      <summary>
+        Use a <code>lang</code> attribute on the <code>html</code> element.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1 Language of Page</a></p>
+        <p class="checklist-description">This helps to ensure that screen readers will pronounce all website content correctly.</p>
+      </div>
+    </details>
+    <details id="section-global-code-03">
+      <summary>
+        Provide a unique <code>title</code> for each page or view.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2 Page Titled</a></p>
+        <p class="checklist-description">The <code>title</code> element's content, contained in the document's <code>head</code>, is often the first piece of information announced by assistive technology. This helps inform people what screen or view they are going to start navigating.</p>
+      </div>
+    </details>
+    <details id="section-global-code-04">
+      <summary>
+        Ensure that viewport zoom is not disabled.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4 Resize text</a></p>
+        <p class="checklist-description">Preventing people from zooming their screen keeps them from being able to increase the size of content on the screen to a point where they can read it.</p>
+      </div>
+    </details>
+    <details id="section-global-code-05">
+      <summary>
+        Use landmark elements to describe the large sections of content on a page.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></p>
+        <p class="checklist-description">Use the <code>nav</code> element to wrap site navigation, <code>main</code> for the primary content of the page, etc. These <a href="https://www.w3.org/TR/wai-aria-practices/examples/landmarks/index.html">landmark elements</a> help to communicate the overall layout of the page, as well as providing quick navigation access.</p>
+      </div>
+    </details>
+    <details id="section-global-code-06">
+      <summary>
+        Ensure a linear content flow.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a></p>
+        <p class="checklist-description">Remove <code>tabindex</code> attribute values that aren't either <code>0</code> or <code>-1</code>. Remove the use of the <code>autofocus</code> attribute.</p>
+      </div>
+    </details>
+    <details id="section-global-code-07">
+      <summary>
+        Remove session timeouts.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html">2.2.1 Timing Adjustable</a></p>
+        <p class="checklist-description">If you cannot, let the person using your site know the timeout exists ahead of time, and provide significant notice before the timer runs out.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-keyboard" aria-labelledby="label-keyboard">
@@ -149,17 +205,36 @@ permalink: checklist.html
   <p>
     Ensuring that your site can be used by operated with a keyboard is a very important aspect to making your site accessible.
   </p>
-  <dl class="checklist">
-    <dt id="section-keyboard-01">Ensure there is a visible focus style on interactive elements when they are navigated to via keyboard.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">2.4.7 Focus Visible</a></dd>
-    <dd>Can a person navigating with a keyboard or screen reader see where they currently are on the page?</dd>
-    <dt id="section-keyboard-02">Check to see that keyboard focus order matches the visual layout.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html">1.3.2 Meaningful Sequence</a></dd>
-    <dd>Can a person navigating with a keyboard or screen reader move around the page in a predictable way?</dd>
-    <dt id="section-keyboard-03">Remove invisible focusable elements.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a></dd>
-    <dd>Remove the ability to focus on elements that are not visible on the page. This includes things like inactive menus or modals.</dd>
-  </dl>
+  <div class="checklist">
+
+    <details id="section-keyboard-01">
+      <summary>
+        Ensure there is a visible focus style on interactive elements when they are navigated to via keyboard.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">2.4.7 Focus Visible</a></p>
+        <p class="checklist-description">Can a person navigating with a keyboard or screen reader see where they currently are on the page?</p>
+      </div>
+    </details>
+    <details id="section-keyboard-02">
+      <summary>
+        Check to see that keyboard focus order matches the visual layout.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html">1.3.2 Meaningful Sequence</a></p>
+        <p class="checklist-description">Can a person navigating with a keyboard or screen reader move around the page in a predictable way?</p>
+      </div>
+    </details>
+    <details id="section-keyboard-03">
+      <summary>
+        Remove invisible focusable elements.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a></p>
+        <p class="checklist-description">Remove the ability to focus on elements that are not visible on the page. This includes things like inactive menus or modals.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-images" aria-labelledby="label-images">
@@ -168,38 +243,90 @@ permalink: checklist.html
     Images are a very common part of most websites. There are techniques you can use to help ensure they're enjoyable by all.
   </p>
   <h3 id="all-images">All images</h3>
-  <dl class="checklist">
-    <dt id="section-images-01">Ensure that all <code>img</code> elements have an <code>alt</code> attribute.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content.</a></dd>
-    <dd><code>alt</code> attributes provide a description of an image for people who may not be able to view them. When an <code>alt</code> attribute isn't present on an image, a screen readers may announce the image's file name and path instead.</dd>
-    <dt id="section-images-02">Make sure that decorative images have empty <code>alt</code> attribute values. Empty <code>alt</code> attributes are also sometimes known as null <code>alt</code> attributes.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></dd>
-    <dd>Decorative images do not communicate information that is required to understanding the website's content. Historically they were used for flourishes and <a href="https://en.m.wikipedia.org/wiki/Spacer_GIF">spacer gif images</a>, but are less relevant for modern websites.</dd>
-    <dt id="section-images-03">Provide a text alternative for complex images such as charts, graphs, and maps.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></dd>
-    <dd>Is there a plain text listing points on the map or sections of a flowchart? Describe all visible information, including graph axes, data points and labels, and the overall learnings the graphic is communicating.</dd>
-    <dt id="section-images-04">For images containing text, ensure the <code>alt</code> description includes the image's text.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></dd>
-    <dd>For example, <a href="https://en.m.wikipedia.org/wiki/Wikipedia_logo#/media/File%3AWikipedia_wordmark.svg">the Wikipedia logo</a> should have an <code>alt</code> value of "Wikipedia."</dd>
-  </dl>
+  <div class="checklist">
+
+
+    <details id="section-images-01">
+      <summary>
+        Ensure that all <code>img</code> elements have an <code>alt</code> attribute.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content.</a></p>
+        <p class="checklist-description"><code>alt</code> attributes provide a description of an image for people who may not be able to view them. When an <code>alt</code> attribute isn't present on an image, a screen readers may announce the image's file name and path instead.</p>
+      </div>
+    </details>
+    <details id="section-images-02">
+      <summary>
+        Make sure that decorative images have empty <code>alt</code> attribute values. Empty <code>alt</code> attributes are also sometimes known as null <code>alt</code> attributes.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></p>
+        <p class="checklist-description">Decorative images do not communicate information that is required to understanding the website's content. Historically they were used for flourishes and <a href="https://en.m.wikipedia.org/wiki/Spacer_GIF">spacer gif images</a>, but are less relevant for modern websites.</p>
+      </div>
+    </details>
+    <details id="section-images-03">
+      <summary>
+        Provide a text alternative for complex images such as charts, graphs, and maps.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></p>
+        <p class="checklist-description">Is there a plain text listing points on the map or sections of a flowchart? Describe all visible information, including graph axes, data points and labels, and the overall learnings the graphic is communicating.</p>
+      </div>
+    </details>
+    <details id="section-images-04">
+      <summary>
+        For images containing text, ensure the <code>alt</code> description includes the image's text.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></p>
+        <p class="checklist-description">For example, <a href="https://en.m.wikipedia.org/wiki/Wikipedia_logo#/media/File%3AWikipedia_wordmark.svg">the Wikipedia logo</a> should have an <code>alt</code> value of "Wikipedia."</p>
+      </div>
+    </details>
+  </div>
   <h3 id="svg-images">SVG Images</h3>
   <p>
     SVG images are images described using markup.
   </p>
-  <dl class="checklist">
-    <dt id="section-images-05">Ensure that <code>svg</code> elements include the code <code>focusable="false"</code> when they are the child element of a focusable element.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>This prevents a duplicate announcement of focusable items in Internet Explorer.</dd>
-    <dt id="section-images-06">Add <code>aria-hidden="true"</code> to <code>svg</code> images that are decorative.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></dd>
-    <dd>This is the equivalent of an empty/null <code>alt</code> value on a non-<code>svg</code> image.</dd>
-    <dt id="section-images-07">Ensure that <code>svg</code> images that utilize the <code>use</code> element have whitespace between the <code>svg</code> and <code>use</code> elements.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html">2.1.2 No Keyboard Trap</a></dd>
-    <dd>This solves a bug in Safari which interferes with VoiceOver describing <code>svg</code> images that contain the <code>use</code> element.</dd>
-    <dt id="section-images-08">Ensure that <code>img</code> elements with a <code>svg</code> source includes the <code>role="img"</code> attribute.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></dd>
-    <dd>This code is used to convey image semantics correctly for VoiceOver on iOS.</dd>
-  </dl>
+  <div class="checklist">
+
+
+    <details id="section-images-05">
+      <summary>
+        Ensure that <code>svg</code> elements include the code <code>focusable="false"</code> when they are the child element of a focusable element.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">This prevents a duplicate announcement of focusable items in Internet Explorer.</p>
+      </div>
+    </details>
+    <details id="section-images-06">
+      <summary>
+        Add <code>aria-hidden="true"</code> to <code>svg</code> images that are decorative.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></p>
+        <p class="checklist-description">This is the equivalent of an empty/null <code>alt</code> value on a non-<code>svg</code> image.</p>
+      </div>
+    </details>
+    <details id="section-images-07">
+      <summary>
+        Ensure that <code>svg</code> images that utilize the <code>use</code> element have whitespace between the <code>svg</code> and <code>use</code> elements.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html">2.1.2 No Keyboard Trap</a></p>
+        <p class="checklist-description">This solves a bug in Safari which interferes with VoiceOver describing <code>svg</code> images that contain the <code>use</code> element.</p>
+      </div>
+    </details>
+    <details id="section-images-08">
+      <summary>
+        Ensure that <code>img</code> elements with a <code>svg</code> source includes the <code>role="img"</code> attribute.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a></p>
+        <p class="checklist-description">This code is used to convey image semantics correctly for VoiceOver on iOS.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-headings" aria-labelledby="label-headings">
@@ -207,20 +334,45 @@ permalink: checklist.html
   <p>
     Headings elements (<code>h1</code>, <code>h2</code>, <code>h3</code>, etc.) help break up the content of the page into related "chunks" of information.
   </p>
-  <dl class="checklist">
-    <dt id="section-headings-01">Use headings elements to describe headings.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></dd>
-    <dd>Heading elements should construct a document outline, and not just be used for visual design.</dd>
-    <dt id="section-headings-02">Use only one <code>h1</code> element per page or view.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></dd>
-    <dd>The <code>h1</code> element should be used to communicate the high-level purpose of the page or view. Do not use the <code>h1</code> element for a title that does not change between pages or views (for example, being used for the site's name).</dd>
-    <dt id="section-headings-03">Headings elements should be written in a logical sequence.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></dd>
-    <dd><a href="https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753">The order of heading elements</a> should descend, based on the "depth" of the content. For example, a <code>h4</code> element should not appear on a page before a <code>h3</code> element.</dd>
-    <dt id="section-headings-04">Don't skip heading levels.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></dd>
-    <dd>For example, don't jump from a <code>h2</code> to a <code>h4</code>, skipping a <code>h3</code> element. If heading levels are being skipped to get a specific visual treatment, use CSS classes instead of styling the heading elements directly.</dd>
-  </dl>
+  <div class="checklist">
+
+    <details id="section-headings-01">
+      <summary>
+        Use headings elements to describe headings.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></p>
+        <p class="checklist-description">Heading elements should construct a document outline, and not just be used for visual design.</p>
+      </div>
+    </details>
+    <details id="section-headings-02">
+      <summary>
+        Use only one <code>h1</code> element per page or view.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></p>
+        <p class="checklist-description">The <code>h1</code> element should be used to communicate the high-level purpose of the page or view. Do not use the <code>h1</code> element for a title that does not change between pages or views (for example, being used for the site's name).</p>
+      </div>
+    </details>
+    <details id="section-headings-03">
+      <summary>
+        Headings elements should be written in a logical sequence.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></p>
+        <p class="checklist-description"><a href="https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753">The order of heading elements</a> should descend, based on the "depth" of the content. For example, a <code>h4</code> element should not appear on a page before a <code>h3</code> element.</p>
+      </div>
+    </details>
+    <details id="section-headings-04">
+      <summary>
+        Don't skip heading levels.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></p>
+        <p class="checklist-description">For example, don't jump from a <code>h2</code> to a <code>h4</code>, skipping a <code>h3</code> element. If heading levels are being skipped to get a specific visual treatment, use CSS classes instead of styling the heading elements directly.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-lists" aria-labelledby="label-lists">
@@ -228,11 +380,17 @@ permalink: checklist.html
   <p>
     Lists let people know the content is related, and how many items are included in the grouping.
   </p>
-  <dl class="checklist">
-    <dt id="section-lists-01">Use list elements (<code>ol</code>, <code>ul</code>, and <code>dl</code>) for list content.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>This includes sections of related content, items displayed in a grid, or sibling <code>a</code> elements.</dd>
-  </dl>
+  <div class="checklist">
+    <details id="section-lists-01">
+      <summary>
+        Use list elements (<code>ol</code>, <code>ul</code>, and <code>dl</code>) for list content.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">This includes sections of related content, items displayed in a grid, or sibling <code>a</code> elements.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-controls" aria-labelledby="label-controls">
@@ -241,19 +399,44 @@ permalink: checklist.html
     Controls are interactive elements such as links and buttons that let a person navigate somewhere, or take action on a page or view.
   </p>
   <dl class="checklist">
-    <dt id="section-controls-01">Use the <code>a</code> element for links.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>Links are used for loading a new page, or shifting keyboard focus from one element to another.</dd>
-    <dt id="section-controls-02">Use the <code>button</code> element for buttons.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>Buttons are used to submit data or perform an on-screen action which does not shift keyboard focus.</dd>
-    <dt id="section-controls-03">Provide a <a href="/posts/skip-nav-links/">skip link</a> and ensure that it is visible when focused.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1 Bypass Blocks</a></dd>
-    <dd>Skip links provide quick access the main page content, allowing a person to quickly and easily bypass repeated content such as a site's main navigation.</dd>
-    <dt id="section-controls-04">Identify links that open in a new window, or links that navigate to external sites.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2 On Input</a></dd>
-    <dd>Doing so will help people not be surprised by the result of activating the link.</dd>
-  </dl>
+
+    <details id="section-controls-01">
+      <summary>
+        Use the <code>a</code> element for links.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">Links are used for loading a new page, or shifting keyboard focus from one element to another.</p>
+      </div>
+    </details>
+    <details id="section-controls-02">
+      <summary>
+        Use the <code>button</code> element for buttons.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">Buttons are used to submit data or perform an on-screen action which does not shift keyboard focus.</p>
+      </div>
+    </details>
+    <details id="section-controls-03">
+      <summary>
+        Provide a skip link and ensure that it is visible when focused.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1 Bypass Blocks</a></p>
+        <p class="checklist-description"><a href="/posts/skip-nav-links/">Skip links</a> provide quick access the main page content, allowing a person to quickly and easily bypass repeated content such as a site's main navigation.</p>
+      </div>
+    </details>
+    <details id="section-controls-04">
+      <summary>
+        Identify links that open in a new window, or links that navigate to external sites.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2 On Input</a></p>
+        <p class="checklist-description">Doing so will help people not be surprised by the result of activating the link.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-tables" aria-labelledby="label-tables">
@@ -261,47 +444,109 @@ permalink: checklist.html
   <p>
     Tables are a structured set of data that help you understand the relationships between different types of information.
   </p>
-  <dl class="checklist">
-    <dt id="section-tables-01">Use the <code>table</code> element to describe tabular data.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>Does this content look like a table? Use the <code>table</code> element.</dd>
-    <dt id="section-tables-02">Use <code>th</code> for table headers (with appropriate <code>scope</code> attributes).</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1 Parsing</a></dd>
-    <dd>Depending on <a href="https://www.w3.org/WAI/tutorials/tables/">how complex your table is</a>, you may also consider using <code>scope="col"</code> for column headers, <code>scope="row"</code> for row headers. Many different kinds of assistive technology still use the <code>scope</code> attribute to help them understand and describe the structure of a table.</dd>
-    <dt id="section-tables-03">Use the <code>caption</code> element to provide a title for the table.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></dd>
-    <dd>The table's <code>caption</code> should describe what kind of information the table contains.</dd>
-  </dl>
+  <div class="checklist">
+
+    <details id="section-tables-01">
+      <summary>
+        Use the <code>table</code> element to describe tabular data.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">Does this content look like a table? Use the <code>table</code> element.</p>
+      </div>
+    </details>
+    <details id="section-tables-02">
+      <summary>
+        Use <code>th</code> for table headers (with appropriate <code>scope</code> attributes).
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1 Parsing</a></p>
+        <p class="checklist-description">Depending on <a href="https://www.w3.org/WAI/tutorials/tables/">how complex your table is</a>, you may also consider using <code>scope="col"</code> for column headers, <code>scope="row"</code> for row headers. Many different kinds of assistive technology still use the <code>scope</code> attribute to help them understand and describe the structure of a table.</p>
+      </div>
+    </details>
+    <details id="section-tables-03">
+      <summary>
+        Use the <code>caption</code> element to provide a title for the table.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a></p>
+        <p class="checklist-description">The table's <code>caption</code> should describe what kind of information the table contains.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-forms" aria-labelledby="label-forms">
   <h2 id="label-forms">Forms</h2>
   <p>
-    Forms allow people to enter information into a site for processing and manipulation. This includes things like making reservations, placing ordering, and sending messages.
+    Forms allow people to enter information into a site for processing and manipulation. This includes things like sending messages and placing orders.
   </p>
-  <dl class="checklist">
-    <dt id="section-forms-01">All inputs in a form are associated with a corresponding <code>label</code> element.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2 On Input</a></dd>
-    <dd>Use a <code>for</code>/<code>id</code> pairing to guarantee the highest degree of browser/assistive technology support.</dd>
-    <dt id="section-forms-02">Use <code>fieldset</code> and <code>legend</code> elements where appropriate.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>Does your form contain multiple sections of related inputs? Use <code>fieldset</code> to group them, and <code>legend</code> to provide a label for what this section is for.</dd>
-    <dt id="section-forms-03">Inputs use <code><a href="https://www.w3.org/TR/html52/sec-forms.html#sec-autofill">autocomplete</a></code> where appropriate.</dt>
-    <dd><a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">1.3.5 Identify Input Purpose</a></dd>
-    <dd>Providing a mechanism to help people more quickly, easily, and accurately fill in form fields that ask for commonly asked-for information (name, address, phone number, etc.) can be helpful for many kinds of disability conditions.</dd>
-    <dt id="section-forms-04">Ensure that form input errors are displayed in list above the <code>form</code> after the form is submitted.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html">3.3.1 Error Identification</a></dd>
-    <dd>This provides a way for assistive technology users to quickly have a high-level understanding of what issues are present in the form, especially for larger forms with many inputs. Make sure that each reported error also has a link to the corresponding field with invalid input.</dd>
-    <dt id="section-forms-05">Associate input error messaging with the input it corresponds to.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html">3.3.1 Error Identification</a></dd>
-    <dd>Techniques such as <a href="https://developer.paciellogroup.com/blog/2018/09/describing-aria-describedby/">using <code>aria-describedby</code></a> allow people who use assistive technology to more easily understand the difference between the input and the error message associated with it.</dd>
-    <dt id="section-forms-06">Ensure that error, warning, and success states are not visually communicated via color alone.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Color</a></dd>
-    <dd>People who are color blind, or who have other low vision conditions may not see the state change, or understand what kind of feedback the state represents if color is the only indicator.</dd>
-    <dt id="section-forms-07">Update the page or view's <code>title</code> to include high-level form feedback.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>The <code>title</code> element's content is often the first content announced. Adding feedback about the presence of things like errors or warnings allows people to know there are items on the page or view that need their attention.</dd>
-  </dl>
+  <div class="checklist">
+
+    <details id="section-forms-01">
+      <summary>
+        All inputs in a form are associated with a corresponding <code>label</code> element.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2 On Input</a></p>
+        <p class="checklist-description">Use a <code>for</code>/<code>id</code> pairing to guarantee the highest degree of browser/assistive technology support.</p>
+      </div>
+    </details>
+    <details id="section-forms-02">
+      <summary>
+        Use <code>fieldset</code> and <code>legend</code> elements where appropriate.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">Does your form contain multiple sections of related inputs? Use <code>fieldset</code> to group them, and <code>legend</code> to provide a label for what this section is for.</p>
+      </div>
+    </details>
+    <details id="section-forms-03">
+      <summary>
+        Inputs use <code>autocomplete</code> where appropriate.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">1.3.5 Identify Input Purpose</a></p>
+        <p class="checklist-description"><a href="https://www.w3.org/TR/html52/sec-forms.html#sec-autofill">Providing a mechanism</a> to help people more quickly, easily, and accurately fill in form fields that ask for commonly asked-for information (name, address, phone number, etc.) can be helpful for many kinds of disability conditions.</p>
+      </div>
+    </details>
+    <details id="section-forms-04">
+      <summary>
+        Ensure that form input errors are displayed in list above the <code>form</code> after the form is submitted.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html">3.3.1 Error Identification</a></p>
+        <p class="checklist-description">This provides a way for assistive technology users to quickly have a high-level understanding of what issues are present in the form, especially for larger forms with many inputs. Make sure that each reported error also has a link to the corresponding field with invalid input.</p>
+      </div>
+    </details>
+    <details id="section-forms-05">
+      <summary>
+        Associate input error messaging with the input it corresponds to.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html">3.3.1 Error Identification</a></p>
+        <p class="checklist-description">Techniques such as <a href="https://developer.paciellogroup.com/blog/2018/09/describing-aria-describedby/">using <code>aria-describedby</code></a> allow people who use assistive technology to more easily understand the difference between the input and the error message associated with it.</p>
+      </div>
+    </details>
+    <details id="section-forms-06">
+      <summary>
+        Ensure that error, warning, and success states are not visually communicated by just color.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Color</a></p>
+        <p class="checklist-description">People who are color blind, who have other low vision conditions, or different cultural understandings for color may not see the state change, or understand what kind of feedback the state represents if color is the only indicator.</p>
+      </div>
+    </details>
+    <details id="section-forms-07">
+      <summary>
+        Update the page or view's <code>title</code> to include high-level form feedback.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">The <code>title</code> element's content is often the first content announced. Adding feedback about the presence of things like errors or warnings allows people to know there are items on the page or view that need their attention.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-media" aria-labelledby="label-media">
@@ -309,32 +554,73 @@ permalink: checklist.html
   <p>
     Media includes content such as pre-recorded and live audio and video.
   </p>
-  <dl class="checklist">
-    <dt id="section-media-01">Make sure that media does not autoplay.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html">1.4.2 Audio Control</a></dd>
-    <dd>Unexpected video and audio can be distracting and disruptive, especially for certain kinds of cognitive disability such as ADHD. Certain kinds of autoplaying video and animation can be a trigger for vestibular and seizure disorders.</dd>
-    <dt id="section-media-02">Ensure that media controls are use appropriate markup.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></dd>
-    <dd>Examples include ensuring a video play button has a pressed toggle state when active, or that a volume slider uses <code>&lt;input type=&quot;range&quot;&gt;</code>.</dd>
-    <dt id="section-media-03">Check to see that all media can be paused.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">2.1.1 Keyboard</a></dd>
-    <dd>Provide a global pause function on any media control. If the device has a keyboard, ensure that pressing the <kbd>Space</kbd> key can pause playback.</dd>
-  </dl>
+  <div class="checklist">
+
+
+
+    <details id="section-media-01">
+      <summary>
+        Make sure that media does not autoplay.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html">1.4.2 Audio Control</a></p>
+        <p class="checklist-description">Unexpected video and audio can be distracting and disruptive, especially for certain kinds of cognitive disability such as ADHD. Certain kinds of autoplaying video and animation can be a trigger for vestibular and seizure disorders.</p>
+      </div>
+    </details>
+    <details id="section-media-02">
+      <summary>
+        Ensure that media controls use appropriate markup.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a></p>
+        <p class="checklist-description">Examples include ensuring a video play button has a pressed toggle state when active, or that a volume slider uses <code>&lt;input type=&quot;range&quot;&gt;</code>.</p>
+      </div>
+    </details>
+    <details id="section-media-03">
+      <summary>
+        Check to see that all media can be paused.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">2.1.1 Keyboard</a></p>
+        <p class="checklist-description">Provide a global pause function on any media control. If the device has a keyboard, ensure that pressing the <kbd>Space</kbd> key can pause playback.</p>
+      </div>
+    </details>
+  </div>
   <h3 id="video">Video</h3>
   <dl class="checklist">
-    <dt id="section-media-04">Confirm the presence of captions.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html">1.2.2 Captions</a></dd>
-    <dd>Captions allow a person who cannot hear the audio content of a video to still understand its content.</dd>
-    <dt id="section-media-05">Remove seizure triggers.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">2.3.1 Three Flashes or Below Threshold</a></dd>
-    <dd>Certain kinds of strobing or flashing animations will trigger seizures.</dd>
-  </dl>
+
+
+    <details id="section-media-04">
+      <summary>
+        Confirm the presence of captions.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html">1.2.2 Captions</a></p>
+        <p class="checklist-description">Captions allow a person who cannot hear the audio content of a video to still understand its content.</p>
+      </div>
+    </details>
+    <details id="section-media-05">
+      <summary>
+        Remove seizure triggers.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">2.3.1 Three Flashes or Below Threshold</a></p>
+        <p class="checklist-description">Certain kinds of strobing or flashing animations will trigger seizures.</p>
+      </div>
+    </details>
+  </div>
   <h3 id="audio">Audio</h3>
-  <dl class="checklist">
-    <dt id="section-media-06">Confirm that transcripts are available.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></dd>
-    <dd>Transcripts allow people who cannot hear to still understand the audio content. It also allows people to digest audio content at a pace that is comfortable to them.</dd>
-  </dl>
+  <div class="checklist">
+    <details id="section-media-06">
+      <summary>
+        Confirm that transcripts are available.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html">1.1.1 Non-text Content</a></p>
+        <p class="checklist-description">Transcripts allow people who cannot hear to still understand the audio content. It also allows people to digest audio content at a pace that is comfortable to them.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-appearance" aria-labelledby="label-appearance">
@@ -342,23 +628,53 @@ permalink: checklist.html
   <p>
     How your site content looks in any given situation.
   </p>
-  <dl class="checklist">
-    <dt id="section-appearance-01">Check your content when using browsing modes such as <a href="https://support.microsoft.com/en-us/help/13862/windows-use-high-contrast-mode">Windows High Contrast Mode</a> or <a href="https://9to5mac.com/2017/06/09/ios-11-dark-mode-smart-invert-colors-how-to-enable/">inverted colors</a>.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Color</a></dd>
-    <dd>Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?</dd>
-    <dt id="section-appearance-02">Increase text size to 200%.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4 Resize text</a></dd>
-    <dd>Is the content still readable? Does increasing the text size cause content to overlap?</dd>
-    <dt id="section-appearance-03">Double-check that good proximity between content is maintained.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html">1.3.3 Sensory Characteristics</a></dd>
-    <dd>Use <a href="https://www.youtube.com/watch?v=S1j6CYT3kWA&feature=youtu.be">the straw test</a> to ensure people who depend on screen zoom software can still easily discover all content.</dd>
-    <dt id="section-appearance-04">Make sure color isn't the only way information is conveyed.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Color</a></dd>
-    <dd>Can you still see where links are among body content if everything is grayscale?</dd>
-    <dt id="section-appearance-05">Use a simple, straightforward, and consistent layout.</dt>
-    <dd><a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html">1.4.10 Reflow</a></dd>
-    <dd>A complicated layout can be confusing to understand and use.</dd>
-  </dl>
+  <div class="checklist">
+    <details id="section-appearance-01">
+      <summary>
+        Check your content when using specialized browsing modes.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Color</a></p>
+        <p class="checklist-description">Activate modes such as <a href="https://support.microsoft.com/en-us/help/13862/windows-use-high-contrast-mode">Windows High Contrast</a> or <a href="https://9to5mac.com/2017/06/09/ios-11-dark-mode-smart-invert-colors-how-to-enable/">inverted colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?</p>
+      </div>
+    </details>
+    <details id="section-appearance-02">
+      <summary>
+        Increase text size to 200%.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4 Resize text</a></p>
+        <p class="checklist-description">Is the content still readable? Does increasing the text size cause content to overlap?</p>
+      </div>
+    </details>
+    <details id="section-appearance-03">
+      <summary>
+        Double-check that good proximity between content is maintained.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html">1.3.3 Sensory Characteristics</a></p>
+        <p class="checklist-description">Use <a href="https://www.youtube.com/watch?v=S1j6CYT3kWA&feature=youtu.be">the straw test</a> to ensure people who depend on screen zoom software can still easily discover all content.</p>
+      </div>
+    </details>
+    <details id="section-appearance-04">
+      <summary>
+        Make sure color isn't the only way information is conveyed.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Color</a></p>
+        <p class="checklist-description">Can you still see where links are among body content if everything is grayscale?</p>
+      </div>
+    </details>
+    <details id="section-appearance-05">
+      <summary>
+        Use a simple, straightforward, and consistent layout.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html">1.4.10 Reflow</a></p>
+        <p class="checklist-description">A complicated layout can be confusing to understand and use.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-animation" aria-labelledby="label-animation">
@@ -366,17 +682,35 @@ permalink: checklist.html
   <p>
     Content that moves, either on its own, or when triggerd by a person activating a control.
   </p>
-  <dl class="checklist">
-    <dt id="section-animation-01">Ensure animations are subtle and not too flashy.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">2.3.1 Three Flashes or Below Threshold</a></dd>
-    <dd>Certain kinds of strobing or flashing animations will trigger seizures. Others may be distracting and disruptive, especially for certain kinds of cognitive disability such as ADHD.</dd>
-    <dt id="section-animation-02">Provide a mechanism to pause background video.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">2.2.2 Pause, Stop, Hide</a></dd>
-    <dd>Background video can be distracting, especially if content is placed over it.</dd>
-    <dt id="section-animation-03">Make sure all animation obeys the <code>prefers-reduced-motion</code> media query.</dt>
-    <dd><a href="https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html">2.3.3 Animation from Interactions</a></dd>
-    <dd>Remove animations when the "reduce motion" setting is activated. If an animation is necessary to communicating meaning for a concept, slow its duration down.</dd>
-  </dl>
+  <div class="checklist">
+    <details id="section-animation-01">
+      <summary>
+        Ensure animations are subtle and not too flashy.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html">2.3.1 Three Flashes or Below Threshold</a></p>
+        <p class="checklist-description">Certain kinds of strobing or flashing animations will trigger seizures. Others may be distracting and disruptive, especially for certain kinds of cognitive disability such as ADHD.</p>
+      </div>
+    </details>
+    <details id="section-animation-02">
+      <summary>
+        Provide a mechanism to pause background video.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html">2.2.2 Pause, Stop, Hide</a></p>
+        <p class="checklist-description">Background video can be distracting, especially if content is placed over it.</p>
+      </div>
+    </details>
+    <details id="section-animation-03">
+      <summary>
+        Make sure all animation obeys the <code>prefers-reduced-motion</code> media query.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html">2.3.3 Animation from Interactions</a></p>
+        <p class="checklist-description">Remove animations when the "reduce motion" setting is activated. If an animation is necessary to communicating meaning for a concept, slow its duration down.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-color-contrast" aria-labelledby="label-color-contrast">
@@ -384,26 +718,62 @@ permalink: checklist.html
   <p>
     <a href="posts/what-is-color-contrast/">Color contrast</a> is how legible colors are when placed next to, and on top of each other.
   </p>
-  <dl class="checklist">
-    <dt id="section-color-contrast-01">Check the contrast for all normal-sized text.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast</a></dd>
-    <dd>Level <strong>AA</strong> compliance requires contrast ratio of <code>4.5:1</code>.</dd>
-    <dt id="section-color-contrast-02">Check the contrast for all large-sized text.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast</a></dd>
-    <dd>Level <strong>AA</strong> compliance requires contrast ratio of <code>3.0:1</code>.</dd>
-    <dt id="section-color-contrast-03">Check the contrast for all icons.</dt>
-    <dd><a href="AA requires contrast ratio of 3.0:1.">1.4.11 Non-text Contrast</a></dd>
-    <dd>Level <strong>AA</strong> compliance requires contrast ratio of <code>3.0:1</code>.</dd>
-    <dt id="section-color-contrast-04">Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.).</dt>
-    <dd><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">1.4.11 Non-text Contrast</a></dd>
-    <dd>Level <strong>AA</strong> compliance requires contrast ratio of <code>3.0:1</code>.</dd>
-    <dt id="section-color-contrast-05">Check text that overlaps images or video.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast</a></dd>
-    <dd>Is text still legible?</dd>
-    <dt id="section-color-contrast-06">Check custom <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::selection"><code>::selection</code></a> colors.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast</a></dd>
-    <dd>Is the contrast sufficient? Otherwise someone may not be able read it if they highlight it.</dd>
-  </dl>
+  <div class="checklist">
+    <details id="section-color-contrast-01">
+      <summary>
+        Check the contrast for all normal-sized text.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast</a></p>
+        <p class="checklist-description">Level <strong>AA</strong> compliance requires contrast ratio of <code>4.5:1</code>.</p>
+      </div>
+    </details>
+    <details id="section-color-contrast-02">
+      <summary>
+        Check the contrast for all large-sized text.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast</a></p>
+        <p class="checklist-description">Level <strong>AA</strong> compliance requires contrast ratio of <code>3.0:1</code>.</p>
+      </div>
+    </details>
+    <details id="section-color-contrast-03">
+      <summary>
+        Check the contrast for all icons.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="AA requires contrast ratio of 3.0:1.">1.4.11 Non-text Contrast</a></p>
+        <p class="checklist-description">Level <strong>AA</strong> compliance requires contrast ratio of <code>3.0:1</code>.</p>
+      </div>
+    </details>
+    <details id="section-color-contrast-04">
+      <summary>
+        Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.).
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">1.4.11 Non-text Contrast</a></p>
+        <p class="checklist-description">Level <strong>AA</strong> compliance requires contrast ratio of <code>3.0:1</code>.</p>
+      </div>
+    </details>
+    <details id="section-color-contrast-05">
+      <summary>
+        Check text that overlaps images or video.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast</a></p>
+        <p class="checklist-description">Is text still legible?</p>
+      </div>
+    </details>
+    <details id="section-color-contrast-06">
+      <summary>
+        Check custom <code>::selection</code> colors.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">1.4.3 Contrast</a></p>
+        <p class="checklist-description">Is the color contrast you set in your <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::selection"><code>::selection</code></a> CSS declaration sufficient? Otherwise someone may not be able read it if they highlight it.</p>
+      </div>
+    </details>
+  </div>
 </section>
 
 <section class="article-section resources-section checklist-section" id="section-mobile-touch" aria-labelledby="label-mobile-touch">
@@ -411,18 +781,42 @@ permalink: checklist.html
   <p>
     Things to check to best support different device form factors.
   </p>
-  <dl class="checklist">
-    <dt id="section-mobile-touch-01">Check that the site can be rotated to any orientation.</dt>
-    <dd><a href="https://www.w3.org/WAI/WCAG21/Understanding/orientation.html">1.3.4 Orientation</a></dd>
-    <dd>Does the site only allow portrait orientation?</dd>
-    <dt id="section-mobile-touch-02">Remove horizontal scrolling.</dt>
-    <dd><a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html">1.4.10 Reflow</a></dd>
-    <dd>Requiring someone to scroll horizontally can be difficult for some, irritating for all.</dd>
-    <dt id="section-mobile-touch-03">Button and link icons can be activated with ease.</dt>
-    <dd><a href="https://www.w3.org/WAI/WCAG21/Understanding/target-size.html">2.5.5 Target Size</a></dd>
-    <dd>It's good to make sure things like hamburger menus, social icons, gallery viewers, and other touch controls are usable by a wide range of hand and stylus sizes.</dd>
-    <dt id="section-mobile-touch-04">Ensure sufficient space between clickable items in order to provide a scroll area.</dt>
-    <dd><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1 Bypass Blocks</a></dd>
-    <dd>Some people who experience <a href="https://axesslab.com/hand-tremors/">hand tremors</a> have a very difficult time scrolling past clickable items which feature zero spacing.</dd>
-  </dl>
+  <div class="checklist">
+    <details id="section-mobile-touch-01">
+      <summary>
+        Check that the site can be rotated to any orientation.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/WAI/WCAG21/Understanding/orientation.html">1.3.4 Orientation</a></p>
+        <p class="checklist-description">Does the site only allow portrait orientation?</p>
+      </div>
+    </details>
+    <details id="section-mobile-touch-02">
+      <summary>
+        Remove horizontal scrolling.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/WAI/WCAG21/Understanding/reflow.html">1.4.10 Reflow</a></p>
+        <p class="checklist-description">Requiring someone to scroll horizontally can be difficult for some, irritating for all.</p>
+      </div>
+    </details>
+    <details id="section-mobile-touch-03">
+      <summary>
+        Button and link icons can be activated with ease.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/WAI/WCAG21/Understanding/target-size.html">2.5.5 Target Size</a></p>
+        <p class="checklist-description">It's good to make sure things like hamburger menus, social icons, gallery viewers, and other touch controls are usable by a wide range of hand and stylus sizes.</p>
+      </div>
+    </details>
+    <details id="section-mobile-touch-04">
+      <summary>
+        Ensure sufficient space between clickable items in order to provide a scroll area.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion"><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1 Bypass Blocks</a></p>
+        <p class="checklist-description">Some people who experience <a href="https://axesslab.com/hand-tremors/">hand tremors</a> have a very difficult time scrolling past clickable items which feature zero spacing.</p>
+      </div>
+    </details>
+  </div>
 </section>
