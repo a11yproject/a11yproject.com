@@ -42,13 +42,38 @@
 }
 
 .checklist {
-  dt {
+  details {
     border-top: 1px solid #E4E4E4;
     margin-top: 1em;
     padding-top: 1em;
   }
 
-  dd {
+  summary {
+    cursor: pointer;
+    margin-left: 1.3em;
+    text-indent: -1.3em;
+
+    @media (min-width: $desktop + 20em) {
+      margin-left: 0;
+    }
+  }
+}
+
+.checklist-criterion {
+  font-size: 90%;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+}
+
+.checklist-details {
+  margin-top: 1rem;
+  padding-left: 1.3em;
+
+  @media (min-width: $desktop + 20em) {
     padding-left: 0;
   }
+}
+
+.checklist-description {
+  margin-bottom: 1.5rem;
 }
