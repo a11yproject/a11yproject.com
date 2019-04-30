@@ -13,6 +13,14 @@
       date: 2019-06-06
       address: "The Waterfront, Welsh Back, Bristol BS1 4SB, United Kingdom"
       map: "https://goo.gl/maps/QYR4p1xN7Tx"
+    - title: "Web Accessibility Summit"
+      description: "A one-day conference about all things website accessibility in higher education and beyond. We invite web, digital and accessibility professionals to attend. We also welcome faculty and instructional designers."
+      url: "https://2019.webaccessibilitysummit.org"
+      type: "Regional"
+      date: 2019-05-29
+      address: "Missouri State University Glass Hall, 851 S. John Q. Hammons Parkway, Springfield, MO 65897"
+      map: "https://www.google.com/maps/d/viewer?mid=1ttoeovP4EwFXqV5V7Q3Idg9EwZbuDp1E&hl=en&usp=sharing"
+      hashtag: "A11ySummit"
     - title: "Philly Content Strategy: Digital Accessibility, A Panel"
       description: "Creating accessible digital products (websites, apps, intranets, etc.) that are inclusive and open to everyone is the responsibility of all of us. In the words of Marcy Sutton, 'We have the power to improve lives through technology — we should use our passion for the craft to build a more accessible web.''"
       url: "https://www.meetup.com/Philly-Content-Strategy/events/260704984/"
@@ -27,14 +35,13 @@
       date: 2019-05-16
       address: "Spotify, Regeringsgatan 19, Stockholm"
       map: "https://goo.gl/maps/RtFeft3AkH72"
-    - title: "Web Accessibility Summit"
-      description: "A one-day conference about all things website accessibility in higher education and beyond. We invite web, digital and accessibility professionals to attend. We also welcome faculty and instructional designers."
-      url: "https://2019.webaccessibilitysummit.org"
+    - title: "Cleveland Accessibility #GAAD Meetup"
+      description: "Join us on May 16th as we celebrate Global Accessibility Awareness Day! This is a co-hosted Meetup with <a href='https://www.meetup.com/Cleveland-Accessibility-Meetup/events/260995280/'>Cleveland Accessibility</a> and UX Akron. The purpose of #GAAD is to encourage people to talk, think, and learn more about digital accessibility and inclusion. UX Researchers, UX designers, front-end developers, back-end developers, programmers, and other digital professionals can work to ensure that websites, mobile apps, and other digital experiences (VR, AR) are inclusive and accessible to everyone."
+      url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/260995280/"
       type: "Regional"
-      date: 2019-05-29
-      address: "Missouri State University Glass Hall, 851 S. John Q. Hammons Parkway, Springfield, MO 65897"
-      map: "https://www.google.com/maps/d/viewer?mid=1ttoeovP4EwFXqV5V7Q3Idg9EwZbuDp1E&hl=en&usp=sharing"
-      hashtag: "A11ySummit"
+      date: 2019-05-16
+      address: "Twinsburg Public Library, 10050 Ravenna Rd., Twinsburg, OH"
+      map: "https://goo.gl/maps/MSwpJAUMC7KPn1Bc6"
     - title: "Munich Accessibility Meetup"
       description: "Together with Microsoft, A11y MUC will be celebrating the eighth Global Accessibility Awareness Day (GAAD) in Munich! The purpose of the GAAD is to get everyone talking, thinking and learning about (digital) accessibility and inclusion. More and more people are interested in in the topic of making technology accessible and user-friendly, unfortunately they often just do not know where or how to start. That’s why awareness comes first!"
       url: "http://bit.ly/gaad-muc-19"
@@ -42,6 +49,14 @@
       date: 2019-05-16
       address: "Microsoft, Walter-Gropius-Straße 5, 80807 München"
       map: "https://goo.gl/maps/AL4FHRHprgL8ddTU6"
+    - title: "Budapest Accessibility Meetup"
+      description: "This is going to be the first event of the Budapest Accessibility Meetup. The language of this meetup is Hungarian.."
+      url: "https://www.meetup.com/Budapest-Accessibility-Meetup/events/260887655/"
+      type: "Regional"
+      date: 2019-05-13
+      address: "Nem Adom Fel Cafe & Bar, 1086 Budapest, Magdolna utca 1., Hungary"
+      map: "https://goo.gl/maps/dyebRCCqezCP1XLy9"
+      hashtag: "a11ybudapest"
     - title: "Mobile Office Hours: Accessible Carousels"
       description: "Join this technical discussion on Monday, April 29th from 2:00-3:00PM EST about our learnings from implementing an Accessible Android Carousel and why user empathy was our biggest challenge. This session is hosted by our mobile expert, Chris McMeeking. Chris has 5+ years of mobile application development experience and has worked with the Android Open Source Project. Currently, he is a Senior Software Engineer at Deque Systems, architect of Deque's Native Accessibility analysis solutions. Lastly, Chris is an active member of the W3C (World Wide Web Consortium) mobile working group that is defining international standards for accessibility."
       url: "https://accessibility.deque.com/mobile-office-hours-accessible-carousels"

@@ -393,6 +393,9 @@
   - url: https://twitter.com/buffa11y
     username: "@buffa11y"
     name: "Buffa11y"
+  - url: https://www.meetup.com/Budapest-Accessibility-Meetup/
+    username: "#a11ybudapest"
+    name: "Budapest Accessibility Meetup"
   - url: https://www.meetup.com/de-DE/Munich-Accessibility-Meetup/
     name: "Munich Accessibility Meetup"
   - url: https://twitter.com/openmcr
@@ -414,4 +417,5 @@
     username: "@hya11y"
     name: "HackerYou Web Accessibility Club"
   - url: https://www.meetup.com/Cleveland-Accessibility-Meetup
+    username: "#A11yCLE"
     name: "A11yCLE, Cleveland Accessibility Meetup"
