@@ -9,15 +9,15 @@ published: true
 categories:
   - How-tos
 ---
-**Short answer:** Use skip nav links in conjunction with a coherent heading outline and [ARIA landmarks](https://a11yproject.com/posts/aria-landmark-roles/).
+**Short answer:** Use skip navigation links in conjunction with a coherent heading outline and [ARIA landmarks](/posts/aria-landmark-roles/).
 
 ---
 
 It can be frustrating and fatiguing for folks with limited mobility to have to have to repeatedly tab through navigation links to get to the main content of a page. People who use screen readers face similar frustration when the page outline is not well defined. In order to address this issue, WCAG 2.0 has specified a [guideline for bypassing repetitive blocks of content](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html). One technique [recommended by the W3C](https://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G1) is to include a skip navigation link at the beginning of the page, that changes focus to the first element after the repeated content.
 
-Skip nav links are useful for users who use keyboard navigation only, but screen readers now support more sophisticated ways of navigating regions. Specifically, they support [heading navigation](https://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H69) and [ARIA landmarks](https://www.w3.org/WAI/intro/aria). You should take advantage of these features by using a clear heading outline and defining page regions, as illustrated in [Quick Tip: ARIA Landmark Roles](https://a11yproject.com/posts/aria-landmark-roles/).
-
 ### Example
+The A11Y Project has prepared more robust [CSS and HTML code for your own skip navigation link](https://codepen.io/joe-watkins/pen/rjhiK), available on codepen.
+
 ```html
 <body>
   <a href="#main">Skip to main content</a>
@@ -33,6 +33,10 @@ Skip nav links are useful for users who use keyboard navigation only, but screen
   </main>
 </body>
 ```
+
+A live implementation of this is available on this page by pressing <kbd>F5</kbd> to refresh the page, then <kbd>Tab</kbd> to put the skip navigation link into focus.
+
+Skip nav links are useful for users who use keyboard navigation only, but screen readers now support more sophisticated ways of navigating regions. Specifically, they support [heading navigation](https://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H69) and [ARIA landmarks](https://www.w3.org/WAI/intro/aria). You should take advantage of these features by using a clear heading outline and defining page regions, as illustrated in [Quick Tip: ARIA Landmark Roles](https://a11yproject.com/posts/aria-landmark-roles/).
 
 ### Notes
 * Jim Thatcher pioneered skip navigation links [as early as 1998](https://www.jimthatcher.com/skipnavold.htm)
