@@ -13,7 +13,19 @@ categories:
 
 ---
 
-It can be frustrating and fatiguing for folks with limited mobility to have to have to repeatedly tab through navigation links to get to the main content of a page. People who use screen readers face similar frustration when the page outline is not well defined. In order to address this issue, WCAG 2.0 has specified a [guideline for bypassing repetitive blocks of content](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html). One technique [recommended by the W3C](https://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G1) is to include a skip navigation link at the beginning of the page, that changes focus to the first element after the repeated content.
+People who navigate by keyboard have to tab through many links to get past repeated content.  People using screen readers are stuck listening to navigation links on every page of your site. This causes frustration and fatigue. Use skip navigation links to upgrade user experience for keyboard and screen reader navigators.
+
+## When to use
+Skip navigation links are useful on pages with a lot of links and repeated content. WCAG 2.0 specified a [guideline for bypassing repetitive blocks of content](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html). One technique [recommended by the W3C](https://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G1) is to include a skip navigation link at the beginning of the page. 
+
+## How to use
+Skip navigation links should: 
+- be visible only when focused by a keyboard or screen reader
+- be the first focusable element on the page
+- communicate that it links to the main content or skips navigation
+- bring focus to the main content of the page when activated
+
+Place an `a` element with an `href` pointing to the main content in the body of your HTML.
 
 ### Example
 The A11Y Project has prepared more robust [CSS and HTML code for your own skip navigation link](https://codepen.io/joe-watkins/pen/rjhiK), available on codepen.
@@ -36,7 +48,7 @@ The A11Y Project has prepared more robust [CSS and HTML code for your own skip n
 
 A live implementation of this is available on this page by pressing <kbd>F5</kbd> to refresh the page, then <kbd>Tab</kbd> to put the skip navigation link into focus.
 
-Skip nav links are useful for users who use keyboard navigation only, but screen readers now support more sophisticated ways of navigating regions. Specifically, they support [heading navigation](https://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H69) and [ARIA landmarks](https://www.w3.org/WAI/intro/aria). You should take advantage of these features by using a clear heading outline and defining page regions, as illustrated in [Quick Tip: ARIA Landmark Roles](https://a11yproject.com/posts/aria-landmark-roles/).
+Skip navigation links aid people who navigate primarily by keyboard, but screen readers now support more sophisticated ways of navigating regions. Specifically, they support [heading navigation](https://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H69) and ARIA landmarks. You should take advantage of these features by using a [clear heading outline and defining page regions](/posts/aria-landmark-roles/).
 
 ### Notes
 * Jim Thatcher pioneered skip navigation links [as early as 1998](https://www.jimthatcher.com/skipnavold.htm)
