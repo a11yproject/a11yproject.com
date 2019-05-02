@@ -1,0 +1,119 @@
+{
+  "groups" : [
+    {
+      "name": "#a11yTO",
+      "social": "https://twitter.com/a11yTO",
+      "url": "https://a11yto.com/"
+    },
+    {
+      "name": "Accessibility Chicago",
+      "social": "https://twitter.com/A11YChi",
+      "url": "https://www.meetup.com/a11ychi/"
+    },
+    {
+      "name": "A11Y RTP",
+      "social": "https://twitter.com/A11yRtp",
+      "url": "https://www.meetup.com/a11yrtp/"
+    },
+    {
+      "name": "A11y Meetup Berlin",
+      "social": "https://twitter.com/a11yberlin",
+      "url": "https://a11y-meetup-berlin.de/"
+    },
+    {
+      "name": "Cleveland Accessibility Meetup",
+      "social": "#A11yCLE",
+      "url": "https://www.meetup.com/Cleveland-Accessibility-Meetup/"
+    },
+    {
+      "name": "A11ySEA",
+      "url": "https://twitter.com/a11ysea"
+    },
+    {
+      "name": "A11YTalks",
+      "social": "https://twitter.com/a11ytalks",
+      "url": "https://www.youtube.com/channel/UC__nH6oZrFXcUevljYJKbsw/about"
+    },
+    {
+      "name": "Accessibility Club",
+      "social": "https://twitter.com/a11yclub",
+      "url": "https://accessibility-club.org/"
+    },
+    {
+      "name": "Accessibility Ottawa",
+      "social": "https://twitter.com/a11yYOW",
+      "url": "http://a11yyow.ca/"
+    },
+    {
+      "name": "Bay Area Accessibility and Inclusive Design",
+      "social": "https://twitter.com/a11ybay",
+      "url": "https://www.meetup.com/a11ybay/"
+    },
+    {
+      "name": "Accessibility DC",
+      "social": "https://twitter.com/AccessibilityDC",
+      "url": "http://www.accessibilitydc.org/"
+    },
+    {
+      "name": "A11yNYC - Accessibility New York City",
+      "social": "https://www.meetup.com/a11ynyc/",
+      "url": "https://twitter.com/a11yNYC"
+    },
+    {
+      "name": "AnnArborA11y",
+      "url": "https://twitter.com/annarbora11y"
+    },
+    {
+      "name": "Budapest Accessibility Meetup",
+      "url": "https://www.meetup.com/Budapest-Accessibility-Meetup/"
+    },
+    {
+      "name": "Buffalo Accessibility Meetup",
+      "social": "https://twitter.com/buffa11y",
+      "url": "https://www.meetup.com/buffa11y/"
+    },
+    {
+      "name": "Munich Accessibility Meetup",
+      "url": "https://www.meetup.com/Munich-Accessibility-Meetup/"
+    },
+    {
+      "name": "Open",
+      "url": "https://twitter.com/openmcr"
+    },
+    {
+      "name": "Portland Accessibility and User Experience Meetup",
+      "social": "https://twitter.com/pdxa11yux",
+      "url": "https://www.meetup.com/Portland-Accessibility-and-User-Experience-Meetup/"
+    },
+    {
+      "name": "WebA11y.jp［エーイレブンワイ］",
+      "social": "https://twitter.com/weba11y",
+      "url": "https://weba11y.jp/"
+    },
+    {
+      "name": "A11y Bytes",
+      "social": "https://twitter.com/a11ybytes",
+      "url": "https://a11ybytes.org/"
+    },
+    {
+      "name": "A11Y Edinburgh",
+      "social": "https://twitter.com/a11yedinburgh/",
+      "url": "https://www.meetup.com/a11yScotland-Meetups/"
+    },
+    {
+      "name": "London Accessibility",
+      "social": "https://twitter.com/a11yLondon",
+      "url": "https://www.meetup.com/London-Accessibility-Meetup/"
+    },
+    {
+      "name": "a11yMTL",
+      "social": "https://twitter.com/a11yMTL",
+      "url": "https://www.meetup.com/a11yMTL/"
+    },
+    {
+      "name": "role=drinks",
+      "social": "https://twitter.com/roledrinks",
+      "url": "https://www.roledrinks.com/"
+    }
+  ]
+}
