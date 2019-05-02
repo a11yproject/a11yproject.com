@@ -414,8 +414,20 @@
       "url": "http://pauljadam.com/extension.html"
     },
     {
+      "title": "Accessibility Management Platform (AMP)",
+      "description": "AMP’s powerful testing engine and work flow, accessible development best practices and extensive training course library allow organizations to quickly and efficiently incorporate accessibility compliance into existing development processes.",
+      "developer": "Level Access",
+      "url": "https://www.levelaccess.com/solutions/software/amp/"
+    },
+    {
+      "title": "ARC",
+      "description": "Automated testing that looks for machine-detectable accessibility defects within digital content.",
+      "developer": "The Paciello Group",
+      "url": "https://www.paciellogroup.com/products/accessibility-resource-center-arc/"
+    },
+    {
       "title": "axe-core",
-      "description": "Accessibility engine for automated Web UI testing .",
+      "description": "Accessibility engine for automated Web UI testing.",
       "developer": "Deque Labs",
       "url": "https://github.com/dequelabs/axe-core"
     },
