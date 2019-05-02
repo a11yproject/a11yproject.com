@@ -18,22 +18,21 @@ It can be frustrating and fatiguing for folks with limited mobility to have to h
 Skip nav links are useful for users who use keyboard navigation only, but screen readers now support more sophisticated ways of navigating regions. Specifically, they support [heading navigation](https://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/H69) and [ARIA landmarks](https://www.w3.org/WAI/intro/aria). You should take advantage of these features by using a clear heading outline and defining page regions, as illustrated in [Quick Tip: ARIA Landmark Roles](https://a11yproject.com/posts/aria-landmark-roles/).
 
 ### Example
-
-{% highlight html %}
+```html
 <body>
   <a href="#main">Skip to main content</a>
-  <nav role="navigation">
+  <nav>
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/blog">Blog</a></li>
     </ul>
   </nav>
-  <main id="main" role="main">
+  <main id="main">
     <!-- page specific content -->
   </main>
 </body>
-{% endhighlight %}
+```
 
 ### Notes
 * Jim Thatcher pioneered skip navigation links [as early as 1998](https://www.jimthatcher.com/skipnavold.htm)
