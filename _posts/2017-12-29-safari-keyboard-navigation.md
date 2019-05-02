@@ -55,6 +55,16 @@ Additionally for Safari, you can enable the **"highlighting of each item"** sett
 
 With these changed settings in place you should now be able to use the <kbd>Tab</kbd> key to navigate around web pages as expected.
 
+## Highlight each item in Chrome
+
+Just like in Safari, a similar setting is available in Chrome. Verify that this feature is enabled by going to Chrome's:
+
+1. Settings
+2. Appearance
+3. Check "Pressing Tab on a webpage highlights links, as well as form fields" (switch)
+
+![The Chrome Settings page. The screenshot is highlighting the selection of the 'Pressing Tab on a webpage highlights links, as well as form fields' switch.](https://user-images.githubusercontent.com/324617/56978092-1b870c80-6b4d-11e9-8618-3cd8eea58246.png)
+
 ## Enable via Terminal
 
 Run the following command in [Terminal](https://en.m.wikipedia.org/wiki/Terminal_(macOS)) to enable keyboard control at the macOS level. This command can be helpful if your organization uses a config script for new employee machines!
