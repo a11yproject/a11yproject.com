@@ -28,11 +28,11 @@ permalink: checklist.html
 <section class="resources-section checklist-introduction" id="section-introduction" aria-labelledby="label-introduction">
   <h2 id="label-introduction">Introduction</h2>
   <p>
-    This checklist uses the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">The Web Content Accessibility Guidelines (<abbr>WCAG</abbr>)</a>, , a shared standard for web content accessibility for individuals, organizations, and governments. There are three levels of compliance which reflect the priority of accessibility support:
+    This checklist uses the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">The Web Content Accessibility Guidelines (<abbr>WCAG</abbr>)</a>, a shared standard for web content accessibility for individuals, organizations, and governments. There are three levels of compliance which reflect the priority of accessibility support:
   </p>
   <ol>
     <li><strong>A</strong>: Essential. If this isn't met, assistive technology cannot read, understand, or operate the technology.</li>
-    <li><strong>AA</strong>: Good support. Now required for EU government and public body websites.</li>
+    <li><strong>AA</strong>: Ideal support. Now required for EU government and public body websites.</li>
     <li><strong>AAA</strong>: High level support. This is typically reserved for sites that serve a specialized audience.</li>
   </ol>
   <p>
@@ -133,7 +133,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html">3.1.1 Language of Page</a>
         </p>
         <p class="checklist-description">
-          This helps screen readers to pronounce all website content correctly.
+          This helps screen readers to <a href="https://github.com/FreedomScientific/VFO-standards-support/issues/188">pronounce content correctly</a>.
         </p>
       </div>
     </details>
@@ -159,20 +159,20 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4 Resize text</a>
         </p>
         <p class="checklist-description">
-          Some people need to increase the size of text to a point where they can read it. Do not stop them from doing this, even for sites with an app-like experience.
+          Some people need to increase the size of text to a point where they can read it. Do not stop them from doing this, even for sites with a native app-like experience.
         </p>
       </div>
     </details>
     <details id="section-global-code-05">
       <summary>
-        Use landmark elements to describe the large sections of content on a page.
+        Use landmark elements to describe the large regions of content on a page.
       </summary>
       <div class="checklist-details">
         <p class="checklist-criterion">
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a>
         </p>
         <p class="checklist-description">
-          Landmark elements help to communicate the overall layout of the page, and provide quick navigation access. For example, use the <code>nav</code> element to wrap site navigation, or the <code>main</code> element to contain the primary content of the page.
+          Landmark regions help communicate the layout and important areas of a page, and can allow quick access to these regions. For example, use the <code>nav</code> element to wrap a site's navigation, or the <code>main</code> element to contain the primary content of a page.
         </p>
       </div>
     </details>
@@ -246,7 +246,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a>
         </p>
         <p class="checklist-description">
-          Remove the ability to focus on elements that are not visible on the page. This includes things like inactive menus or modals.
+          Remove the ability to focus on elements that are not presently meant to be discoverable. This includes things like inactive drop down menus, off screen navigations, or modals.
         </p>
       </div>
     </details>
@@ -327,7 +327,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a>
         </p>
         <p class="checklist-description">
-          This prevents a duplicate announcement of focusable items in Internet Explorer.
+          This prevents a Internet Explorer from allowing focus to navigate through the child elements of an SVG that is meant to be decorative.
         </p>
       </div>
     </details>
@@ -366,7 +366,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a>
         </p>
         <p class="checklist-description">
-          This code is used to convey image semantics correctly for VoiceOver on iOS.
+          This code is used to convey image semantics correctly for VoiceOver on macOS and iOS.
         </p>
       </div>
     </details>
@@ -381,7 +381,7 @@ permalink: checklist.html
   <div class="checklist">
     <details id="section-headings-01">
       <summary>
-        Use heading elements to describe headings.
+        Use heading elements to introduce content.
       </summary>
       <div class="checklist-details">
         <p class="checklist-criterion">
@@ -497,7 +497,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html">2.4.1 Bypass Blocks</a>
         </p>
         <p class="checklist-description">
-          <a href="/posts/skip-nav-links/">Skip links</a> provide quick access to the main page content. This allows a person to quickly and easily bypass repeated content such as a site's main navigation.
+          A <a href="/posts/skip-nav-links/">skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget.
         </p>
       </div>
     </details>
@@ -510,7 +510,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html">3.2.2 On Input</a>
         </p>
         <p class="checklist-description">
-          Doing this will help people understand what will happen when activating the link.
+          Doing this will help people understand what will happen when activating the link. Ideally this information should be communicated in a way that is available to all users.
         </p>
       </div>
     </details>
@@ -658,7 +658,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a>
         </p>
         <p class="checklist-description">
-          The <code>title</code> element's content is often the first content announced by a screen reader. Adding feedback about the presence of things like errors or warnings allows people to know there are items on the page or view that need their attention.
+          The <code>title</code> element's content is often the first content announced by a screen reader. Adding feedback about the presence of things like errors or warnings after form submission allows people to know there are items on the page or view that need their attention.
         </p>
       </div>
     </details>
