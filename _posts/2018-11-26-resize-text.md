@@ -27,18 +27,26 @@ When someone resizes text, any of the following can break the page:
 * content is lost or truncated
 * interactive elements overlapping each other
 
+The importance is that *relative units* (_em_, _rem_, _%_, _vw_) are used for text.
+
 ## How to test
 
 Testing is pretty straight forward.
 
-1. Choose the right browser
+1. Initial test in multiple browsers
+1. Resize text
+1. Confirm relative font usage
+1. Choose a browser to do further testing in
 1. Resize text
 1. Check everything
 
 ### Choosing a browser
 
-Firefox is the best browser for testing [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
+Testing text-resize needs initial testing in multiple browsers to confirm functionality - that relative units are used correctly in order to conform with [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
 
+*Testing text-resizing can fail in _Chrome_ but pass in _Firefox_* since text-zoom in Firefox resizes regardless of usage of relative units. Suggested setup is to use Chrome and Firefox in initial testing.
+
+Firefox is an easy browser for testing further:
 * It makes resizing text really easy
 * It informs you of the current zoom level
 * It's available on all popular Operating Systems
@@ -86,6 +94,7 @@ To do a more thorough job, you should check the page at each of the zoom steps t
 
 * Images of text won't resize
 * Captions over videos likely won't resize
+* Using the incorrect html lang code will result in no text-zoom
 
 ## Can I zoom everything instead of resizing text only?
 
