@@ -54,13 +54,7 @@ q:before, q:after {
 blockquote, q {
     quotes: "" "";
 }
-a:focus {
-    outline: thin dotted;
-}
-a:hover,
-a:active { /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
-    outline: 0;
-}
+
 a img {
     border: 0;
 }
@@ -69,7 +63,7 @@ dd{
     padding-left: 1em;
 }
 dt{
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 html {
@@ -78,18 +72,4 @@ html {
 
 *, *:before, *:after {
     box-sizing: inherit;
-}
-
-%focus {
-  outline: 1px dotted #212121;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-a:focus {
-    @extend %focus;
-}
-
-// add focus to images
-a:focus img {
-    @extend %focus;
 }
