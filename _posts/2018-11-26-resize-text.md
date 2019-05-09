@@ -27,7 +27,7 @@ When someone resizes text, any of the following can break the page:
 * content is lost or truncated
 * interactive elements overlapping each other
 
-The importance is that *relative units* (_em_, _rem_, _%_, _vw_) are used for text.
+The importance is that [relative length units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Units) (**em**, **rem**, **%**, **vw**) are used for text. 
 
 ## How to test
 
@@ -42,9 +42,9 @@ Testing is pretty straight forward.
 
 ### Choosing a browser
 
-Testing text-resize needs initial testing in multiple browsers to confirm functionality - that relative units are used correctly in order to conform with [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
+Testing text-resize needs initial testing in multiple browsers to confirm that relative units are used correctly in order to conform with [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
 
-*Testing text-resizing can fail in _Chrome_ but pass in _Firefox_* since text-zoom in Firefox resizes regardless of usage of relative units. Suggested setup is to use Chrome and Firefox in initial testing.
+Testing text-resizing can fail in Chrome but pass in Firefox since text-zoom in Firefox resizes regardless of usage of relative units. Suggested setup is to use Chrome and Firefox in initial testing.
 
 Firefox is an easy browser for testing further:
 * It makes resizing text really easy
@@ -94,7 +94,7 @@ To do a more thorough job, you should check the page at each of the zoom steps t
 
 * Images of text won't resize
 * Captions over videos likely won't resize
-* Using the incorrect html lang code will result in no text-zoom
+* Using the incorrect html `lang` code will result in no text-zoom
 
 ## Can I zoom everything instead of resizing text only?
 
