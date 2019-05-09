@@ -3,7 +3,7 @@
   events:
     - title: "CMS vs. Headless CMS A11y Throwdown"
       description: "Join us for a live discussion of how accessibility is impacted by using a CMS vs. a headless CMS and what are the pros/cons of each when it comes to creating accessible sites and applications. We have Rachel Cherry from WPCampus, Preston So from Gatsby, Carie Fisher from Deque Systems, and Mike Gifford from Open Concept participating with Caitlin Cashin from Deque Systems, moderating."
-      url: "https://groups.drupal.org/node/535055"
+      url: "http://bit.ly/CMSA11yTalks"
       type: "Webinar"
       date: 2019-05-09
       hashtag: "CMSa11ytalk"
