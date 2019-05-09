@@ -8,7 +8,7 @@
       date: 2019-05-09
       hashtag: "CMSa11ytalk"
     - title: "Time Control in Web Accessibility"
-      description: "The time of plain web pages and dial-up internet is gone forever. We live in the world where our devices are able to simultaneously operate with tons of data. Tweets, notifications, alert messages, progress bars — all these components appear on the web page asynchronously, which makes the user experience more convenient than ever. Being a developer in 2019 means being able to make beautiful, fast and fully accessible user interfaces. In this talk, you will learn how to apply the best accessibility practices when making "asynchronous" components and how to test these components with modern assistive technologies."
+      description: "The time of plain web pages and dial-up internet is gone forever. We live in the world where our devices are able to simultaneously operate with tons of data. Tweets, notifications, alert messages, progress bars — all these components appear on the web page asynchronously, which makes the user experience more convenient than ever. Being a developer in 2019 means being able to make beautiful, fast and fully accessible user interfaces. In this talk, you will learn how to apply the best accessibility practices when making asynchronous components and how to test these components with modern assistive technologies."
       url: "https://groups.drupal.org/node/535003"
       type: "Webinar"
       date: 2019-05-21
