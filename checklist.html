@@ -34,12 +34,12 @@ permalink: checklist.html
     There are three levels of accessibility compliance in the WCAG, which reflect the priority of support:
   </p>
   <ol>
-    <li><strong>A</strong>: Essential. If this isn't met, assistive technology cannot read, understand, or operate the technology.</li>
+    <li><strong>A</strong>: Essential. If this isn't met, assistive technology may not be able to read, understand, or fully operate the page or view.</li>
     <li><strong>AA</strong>: Ideal support. Now required for EU government and public body websites.</li>
     <li><strong>AAA</strong>: High-level support. This is typically reserved for sites that serve a specialized audience.</li>
   </ol>
   <p>
-    This checklist targets many, but not all level AA concerns. Note that the different levels of WCAG support do not necessarily indicate an increased level of difficulty to implement.
+    This checklist targets many, but not all level A and AA concerns. Note that the different levels of WCAG support do not necessarily indicate an increased level of difficulty to implement.
   </p>
   <h3 id="success-criteria">Success criteria</h3>
   <p>
@@ -50,10 +50,10 @@ permalink: checklist.html
   </p>
   <h3 id="does-this-checklist-guarantee-my-site-is-accessible">Does this checklist guarantee my site is accessible?</h3>
   <p>
-    No. However, going through and fixing issues for every item this checklist will help greatly improve the experience for everyone who uses your site.
+    No. However, addressing the issues called out in this checklist will help improve the experience for everyone who uses your site.
   </p>
   <p>
-    The issues this checklist prompts you to check for covers a wide range of disability conditions. There is no such thing as "perfect accessibility" or a site being "100% accessible". You should be wary of companies and services that promise this. If you need professional accessibility help, use <a href="resources#professional-help">professional accessibility services</a>.
+    The issues this checklist prompts you to check for covers a wide range of disability conditions. There is no such thing as "perfect accessibility" or a site being "100% accessible". You should be wary of companies and services that make such promises. If you need professional accessibility help, use <a href="resources#professional-help">professional accessibility services</a>.
   </p>
 </section>
 
@@ -63,7 +63,7 @@ permalink: checklist.html
     Content is the most important part of your site.
   </p>
   <div class="checklist">
-    <details id="section-content-01">
+    <details id="use-plain-language-and-avoid-figures-idioms-and-complicated-metaphors">
       <summary>
         Use plain language and avoid figures of speech, idioms, and complicated metaphors.
       </summary>
@@ -76,7 +76,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-content-02">
+    <details id="make-sure-that-button-a-and-label-element-content-is-unique-and-descriptive">
       <summary>
         Make sure that <code>button</code>, <code>a</code>, and <code>label</code> element content is unique and descriptive.
       </summary>
@@ -89,7 +89,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-content-03">
+    <details id="use-left-aligned-text-for-left-to-right-languages-and-right-aligned-text-for-right-to-left-languages">
       <summary>
         Use left-aligned text for left-to-right languages, and right-aligned text for right-to-left languages.
       </summary>
@@ -111,20 +111,20 @@ permalink: checklist.html
     Global code is code that affects your entire website.
   </p>
   <div class="checklist">
-    <details id="section-global-code-01">
+    <details id="validate-your-html">
       <summary>
-        Validate the HTML you generate.
+        Validate your HTML.
       </summary>
       <div class="checklist-details">
         <p class="checklist-criterion">
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html">4.1.1 Parsing</a>
         </p>
         <p class="checklist-description">
-          <a href="https://validator.w3.org/nu/">Valid HTML</a> helps give a consistent experience across all browsers and assistive technology.
+          <a href="https://validator.w3.org/nu/">Valid HTML</a> helps to provide an consistent, expected experience across all browsers and assistive technology.
         </p>
       </div>
     </details>
-    <details id="section-global-code-02">
+    <details id="use-a-lang-attribute-on-the-html-element">
       <summary>
         Use a <code>lang</code> attribute on the <code>html</code> element.
       </summary>
@@ -137,7 +137,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-global-code-03">
+    <details id="provide-a-unique-title-for-each-page-or-view">
       <summary>
         Provide a unique <code>title</code> for each page or view.
       </summary>
@@ -146,11 +146,11 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html">2.4.2 Page Titled</a>
         </p>
         <p class="checklist-description">
-          The <code>title</code> element, contained in the document's <code>head</code> element, is often the first piece of information announced by assistive technology. This helps tell people what screen or view they are going to start navigating.
+          The <code>title</code> element, contained in the document's <code>head</code> element, is often the first piece of information announced by assistive technology. This helps tell people what page or view they are going to start navigating.
         </p>
       </div>
     </details>
-    <details id="section-global-code-04">
+    <details id="ensure-that-viewport-zoom-is-not-disabled">
       <summary>
         Ensure that viewport zoom is not disabled.
       </summary>
@@ -159,24 +159,24 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4 Resize text</a>
         </p>
         <p class="checklist-description">
-          Some people need to increase the size of text to a point where they can read it. Do not stop them from doing this, even for sites with a native app-like experience.
+          Some people need to increase the size of text to a point where they can read it. Do not stop them from doing this, even for sites with a native app-like experience (even native apps should respect Operating System settings for resizing text).
         </p>
       </div>
     </details>
-    <details id="section-global-code-05">
+    <details id="use-landmark-elements-to-indicate-important-content-regions">
       <summary>
-        Use landmark elements to describe the large regions of content on a page.
+        Use landmark elements to indicate important content regions.
       </summary>
       <div class="checklist-details">
         <p class="checklist-criterion">
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a>
         </p>
         <p class="checklist-description">
-          Landmark regions help communicate the layout and important areas of a page, and can allow quick access to these regions. For example, use the <code>nav</code> element to wrap a site's navigation, or the <code>main</code> element to contain the primary content of a page.
+          Landmark regions help communicate the layout and important areas of a page or view, and can allow quick access to these regions. For example, use the <code>nav</code> element to wrap a site's navigation, or the <code>main</code> element to contain the primary content of a page.
         </p>
       </div>
     </details>
-    <details id="section-global-code-06">
+    <details id="ensure-a-linear-content-flow">
       <summary>
         Ensure a linear content flow.
       </summary>
@@ -185,11 +185,24 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a>
         </p>
         <p class="checklist-description">
-          Remove <code>tabindex</code> attribute values that aren't either <code>0</code> or <code>-1</code>. Remove the use of the <code>autofocus</code> attribute.
+          Remove <code>tabindex</code> attribute values that aren't either <code>0</code> or <code>-1</code>. Elements that are inherently focusable, such as links or buttons, do not require a <code>tabindex</code>. Elements that are not inherently focusable should not have a <code>tabindex</code> applied to them outside of very specific use cases.
         </p>
       </div>
     </details>
-    <details id="section-global-code-07">
+    <details id="avoid-using-the-autofocus-attribute">
+      <summary>
+        Avoid using the <code>autofocus</code> attribute.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion">
+          <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html">2.4.3 Focus Order</a>
+        </p>
+        <p class="checklist-description">
+          People who are blind or who have low vision may be disoriented when focus is moved without their permission. Additionally, <code>autofocus</code> can be problematic for people with motor control disabilities, as it may create extra work for them to navigate out from the autofocused area and to other locationso on the page/view.
+        </p>
+      </div>
+    </details>
+    <details id="remove-session-timeouts">
       <summary>
         Remove session timeouts.
       </summary>
@@ -208,10 +221,10 @@ permalink: checklist.html
 <section class="article-section resources-section checklist-section" id="section-keyboard" aria-labelledby="label-keyboard">
   <h2 id="label-keyboard">Keyboard</h2>
   <p>
-    It is important that your site can be operated through the keyboard. Some people cannot use a mouse, or use other assistive technologies.
+    It is important that your interface and content can be operated, and navigated by use of a keyboard. Some people cannot use a mouse, or may be using other assistive technologies that may not allow for "hovering" or precise clicking.
   </p>
   <div class="checklist">
-    <details id="section-keyboard-01">
+    <details id="make-sure-there-is-a-visible-focus-style-for-interactive-elements-that-are-navigated-to-via-keyboard-input">
       <summary>
         Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.
       </summary>
@@ -224,7 +237,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-keyboard-02">
+    <details id="check-to-see-that-keyboard-focus-order-matches-the-visual-layout">
       <summary>
         Check to see that keyboard focus order matches the visual layout.
       </summary>
@@ -237,7 +250,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-keyboard-03">
+    <details id="remove-invisible-focusable-elements">
       <summary>
         Remove invisible focusable elements.
       </summary>
@@ -260,7 +273,7 @@ permalink: checklist.html
   </p>
   <h3 id="all-images">All images</h3>
   <div class="checklist">
-    <details id="section-images-01">
+    <details id="make-sure-that-all-img-elements-have-an-alt-attribute">
       <summary>
         Make sure that all <code>img</code> elements have an <code>alt</code> attribute.
       </summary>
@@ -273,7 +286,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-images-02">
+    <details id="make-sure-that-decorative-images-have-empty-alt-attribute-values">
       <summary>
        Make sure that decorative images have empty <code>alt</code> attribute values.
       </summary>
@@ -286,7 +299,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-images-03">
+    <details id="provide-a-text-alternative-for-complex-images-such-as-charts-graphs-and-maps">
       <summary>
         Provide a text alternative for complex images such as charts, graphs, and maps.
       </summary>
@@ -299,7 +312,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-images-04">
+    <details id="for-images-containing-text-make-sure-the-alt-description-includes-the-images-text">
       <summary>
         For images containing text, make sure the <code>alt</code> description includes the image's text.
       </summary>
@@ -313,12 +326,12 @@ permalink: checklist.html
       </div>
     </details>
   </div>
-  <h3 id="svg-images">SVG Images</h3>
+  <h3 id="svgs">SVGs</h3>
   <p>
-    SVG images are images described using markup.
+    SVGs are images described using markup.
   </p>
   <div class="checklist">
-    <details id="section-images-05">
+    <details id="make-sure-that-svg-elements-include-the-code-focusable-false-when-they-are-the-child-element-of-a-focusable-element">
       <summary>
         Make sure that <code>svg</code> elements include the code <code>focusable="false"</code> when they are the child element of a focusable element.
       </summary>
@@ -331,22 +344,22 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-images-06">
+    <details id="add-aria-hidden-true-to-svg-that-is-decorative">
       <summary>
-        Add <code>aria-hidden="true"</code> to <code>svg</code> images that are decorative.
+        Add <code>aria-hidden="true"</code> to <code>svg</code> that is decorative.
       </summary>
       <div class="checklist-details">
         <p class="checklist-criterion">
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a>
         </p>
         <p class="checklist-description">
-          Equivalent to an empty/null <code>alt</code> value on a non-svg image.
+          This is equivalent to an empty/null <code>alt</code> value on a non-<code>svg</code> image.
         </p>
       </div>
     </details>
-    <details id="section-images-07">
+    <details id="make-sure-that-svg-utilizing-the-use-element-has-whitespace-between-the-svg-and-use-elements">
       <summary>
-        Make sure that <code>svg</code> images which utilize the <code>use</code> element have whitespace between the <code>svg</code> and <code>use</code> elements.
+        Make sure that <code>svg</code> utilizing the <code>use</code> element has whitespace between the <code>svg</code> and <code>use</code> elements.
       </summary>
       <div class="checklist-details">
         <p class="checklist-criterion">
@@ -357,7 +370,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-images-08">
+    <details id="ensure-that-img-elements-with-an-svg-source-includes-the-role-img-attribute">
       <summary>
         Ensure that <code>img</code> elements with an <code>svg</code> source includes the <code>role="img"</code> attribute.
       </summary>
@@ -366,7 +379,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html">4.1.2 Name, Role, Value</a>
         </p>
         <p class="checklist-description">
-          This code is used to convey image semantics correctly for VoiceOver on macOS and iOS.
+          VoiceOver on macOS and iOS will not correctly convey the element as an image if <code>role="img"</code> is not present.
         </p>
       </div>
     </details>
@@ -379,7 +392,7 @@ permalink: checklist.html
     Heading elements (<code>h1</code>, <code>h2</code>, <code>h3</code>, etc.) help break up the content of the page into related "chunks" of information.
   </p>
   <div class="checklist">
-    <details id="section-headings-01">
+    <details id="use-heading-elements-to-introduce-content">
       <summary>
         Use heading elements to introduce content.
       </summary>
@@ -388,11 +401,11 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a>
         </p>
         <p class="checklist-description">
-          Heading elements should construct a document outline, and not just be used for visual design.
+          Heading elements construct a document outline, and should not be used for purely visual design.
         </p>
       </div>
     </details>
-    <details id="section-headings-02">
+    <details id="use-only-one-h1-element-per-page-or-view">
       <summary>
         Use only one <code>h1</code> element per page or view.
       </summary>
@@ -401,11 +414,11 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html">2.4.6 Headings or Labels</a>
         </p>
         <p class="checklist-description">
-          The <code>h1</code> element should be used to communicate the high-level purpose of the page or view. Do not use the <code>h1</code> element for a title that does not change between pages or views (for example, the site's name).
+          The <code>h1</code> element should be used to communicate the high-level purpose of the page or view. Do not use the <code>h1</code> element for a heading that does not change between pages or views (for example, the site's name).
         </p>
       </div>
     </details>
-    <details id="section-headings-03">
+    <details id="heading-elements-should-be-written-in-a-logical-sequence">
       <summary>
         Heading elements should be written in a logical sequence.
       </summary>
@@ -418,7 +431,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-headings-04">
+    <details id="dont-skip-heading-levels">
       <summary>
         Don't skip heading levels.
       </summary>
@@ -440,7 +453,7 @@ permalink: checklist.html
     Lists let people know the content is related, and how many items are included in the grouping.
   </p>
   <div class="checklist">
-    <details id="section-lists-01">
+    <details id="use-list-elements-for-list-content">
       <summary>
         Use list elements (<code>ol</code>, <code>ul</code>, and <code>dl</code>) for list content.
       </summary>
@@ -449,7 +462,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a>
         </p>
         <p class="checklist-description">
-          This includes sections of related content, items displayed in a grid, or sibling <code>a</code> elements.
+          This may include sections of related content, items visually displayed in a grid-like layout, or sibling <code>a</code> elements.
         </p>
       </div>
     </details>
@@ -459,10 +472,10 @@ permalink: checklist.html
 <section class="article-section resources-section checklist-section" id="section-controls" aria-labelledby="label-controls">
   <h2 id="label-controls">Controls</h2>
   <p>
-    Controls are interactive elements such as links and buttons that let a person navigate somewhere or take action.
+    Controls are interactive elements such as links and buttons that let a person navigate to a destination or perform an action.
   </p>
   <div class="checklist">
-    <details id="section-controls-01">
+    <details id="use-the-a-element-for-links">
       <summary>
         Use the <code>a</code> element for links.
       </summary>
@@ -471,11 +484,11 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a>
         </p>
         <p class="checklist-description">
-          Links are used to load a new page, or shift keyboard focus from one element to another.
+          Links should always have a <code>href</code> attribute, even when used in Single Page Applications. Without a <code>href</code> attribute, the link will not be properly exposed to assistive technology. An example of this would be a link that uses an <code>onclick</code> event, in place of a <code>href</code> attribute.
         </p>
       </div>
     </details>
-    <details id="section-controls-02">
+    <details id="ensure-that-links-are-recognizable">
       <summary>
         Ensure that links are recognizable.
       </summary>
@@ -488,7 +501,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-controls-03">
+    <details id="ensure-that-controls-have-focus-states">
       <summary>
         Ensure that controls have <code>:focus</code> states.
       </summary>
@@ -501,7 +514,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-controls-04">
+    <details id="use-the-button-element-for-buttons">
       <summary>
         Use the <code>button</code> element for buttons.
       </summary>
@@ -514,7 +527,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-controls-05">
+    <details id="provide-a-skip-link-and-make-sure-that-it-is-visible-when-focused">
       <summary>
         Provide a skip link and make sure that it is visible when focused.
       </summary>
@@ -527,7 +540,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-controls-06">
+    <details id="identify-links-that-open-in-a-new-window-or-links-that-navigate-to-external-sites">
       <summary>
         Identify links that open in a new window, or links that navigate to external sites.
       </summary>
@@ -549,7 +562,7 @@ permalink: checklist.html
     Tables are a structured set of data that help people understand the relationships between different types of information.
   </p>
   <div class="checklist">
-    <details id="section-tables-01">
+    <details id="use-the-table-element-to-describe-tabular-data">
       <summary>
         Use the <code>table</code> element to describe tabular data.
       </summary>
@@ -562,7 +575,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-tables-02">
+    <details id="use-th-for-table-headers">
       <summary>
         Use <code>th</code> for table headers (with appropriate scope attributes).
       </summary>
@@ -575,7 +588,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-tables-03">
+    <details id="use-the-caption-element-to-provide-a-title-for-the-table">
       <summary>
         Use the <code>caption</code> element to provide a title for the table.
       </summary>
@@ -597,7 +610,7 @@ permalink: checklist.html
     Forms allow people to enter information into a site for processing and manipulation. This includes things like sending messages and placing orders.
   </p>
   <div class="checklist">
-    <details id="section-forms-01">
+    <details id="all-inputs-in-a-form-are-associated-with-a-corresponding-label-element">
       <summary>
         All inputs in a form are associated with a corresponding <code>label</code> element.
       </summary>
@@ -610,7 +623,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-forms-02">
+    <details id="use-fieldset-and-legend-elements-where-appropriate">
       <summary>
         Use <code>fieldset</code> and <code>legend</code> elements where appropriate.
       </summary>
@@ -623,7 +636,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-forms-03">
+    <details id="inputs-use-autocomplete-where-appropriate">
       <summary>
         Inputs use <code>autocomplete</code> where appropriate.
       </summary>
@@ -636,7 +649,7 @@ permalink: checklist.html
         ted.
       </div>
     </details>
-    <details id="section-forms-04">
+    <details id="make-sure-that-form-input-errors-are-displayed-in-list-above-the-form-after-submission">
       <summary>
         Make sure that form input errors are displayed in list above the <code>form</code> after submission.
       </summary>
@@ -649,7 +662,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-forms-05">
+    <details id="associate-input-error-messaging-with-the-input-it-corresponds-to">
       <summary>
         Associate input error messaging with the input it corresponds to.
       </summary>
@@ -662,7 +675,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-forms-06">
+    <details id="make-sure-that-error-warning-and-success-states-are-not-visually-communicated-by-just-color">
       <summary>
         Make sure that error, warning, and success states are not visually communicated by just color.
       </summary>
@@ -675,7 +688,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-forms-07">
+    <details id="update-the-page-or-views-title-to-include-high-level-form-feedback">
       <summary>
         Update the page or view's <code>title</code> to include high-level form feedback.
       </summary>
@@ -684,7 +697,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a>
         </p>
         <p class="checklist-description">
-          The <code>title</code> element's content is often the first content announced by a screen reader. Adding feedback about the presence of things like errors or warnings after form submission allows people to know there are items on the page or view that need their attention.
+          The text of the <code>title</code> element is typically one of the first announcements made by a screen reader when a new page loads. Adding concise feedback about the presence of errors or warnings after a form submission has taken place can help alert people that there are form fields that need attention. Note that dynamically updating the text of a <code>title</code> element will not be announced to screen readers. Single Page Applications will need to employ other methods to ensure such updates are announced.
         </p>
       </div>
     </details>
@@ -697,7 +710,7 @@ permalink: checklist.html
     Media includes content such as pre-recorded and live audio and video.
   </p>
   <div class="checklist">
-    <details id="section-media-01">
+    <details id="make-sure-that-media-does-not-autoplay">
       <summary>
         Make sure that media does not autoplay.
       </summary>
@@ -710,7 +723,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-media-02">
+    <details id="ensure-that-media-controls-use-appropriate-markup">
       <summary>
         Ensure that media controls use appropriate markup.
       </summary>
@@ -719,11 +732,11 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a>
         </p>
         <p class="checklist-description">
-          Examples include making sure a video play button has a pressed toggle state when active, or that a volume slider uses <code>&#x3C;input type=&#x22;range&#x22;&#x3E;</code>.
+          Examples include making sure an audio mute button has a pressed toggle state when active, or that a volume slider uses <code>&#x3C;input type=&#x22;range&#x22;&#x3E;</code>.
         </p>
       </div>
     </details>
-    <details id="section-media-03">
+    <details id="check-to-see-that-all-media-can-be-paused">
       <summary>
         Check to see that all media can be paused.
       </summary>
@@ -732,14 +745,14 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html">2.1.1 Keyboard</a>
         </p>
         <p class="checklist-description">
-          Provide a global pause function on any media control. If the device has a keyboard, ensure that pressing the <kbd>Space</kbd> key can pause playback.
+          Provide a global pause function on any media control. If the device has a keyboard, ensure that pressing the <kbd>Space</kbd> key can pause playback. Make sure you also don't interfere with the <kbd>Space</kbd> key's ability to scroll the page/view when not focusing on a form control.
         </p>
       </div>
     </details>
   </div>
   <h3 id="video">Video</h3>
   <div class="checklist">
-    <details id="section-media-04">
+    <details id="confirm-the-presence-of-captions">
       <summary>
         Confirm the presence of captions.
       </summary>
@@ -752,7 +765,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-media-05">
+    <details id="remove-seizure-triggers">
       <summary>
         Remove seizure triggers.
       </summary>
@@ -768,7 +781,7 @@ permalink: checklist.html
   </div>
   <h3 id="audio">Audio</h3>
   <div class="checklist">
-    <details id="section-media-06">
+    <details id="confirm-that-transcripts-are-available">
       <summary>
         Confirm that transcripts are available.
       </summary>
@@ -790,7 +803,7 @@ permalink: checklist.html
     How your site content looks in any given situation.
   </p>
   <div class="checklist">
-    <details id="section-appearance-01">
+    <details id="check-your-content-in-specialized-browsing-modes">
       <summary>
         Check your content in specialized browsing modes.
       </summary>
@@ -803,7 +816,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-appearance-02">
+    <details id="increase-text-size-to-200">
       <summary>
         Increase text size to 200%.
       </summary>
@@ -816,7 +829,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-appearance-03">
+    <details id="double-check-that-good-proximity-between-content-is-maintained">
       <summary>
         Double-check that good proximity between content is maintained.
       </summary>
@@ -829,7 +842,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-appearance-04">
+    <details id="make-sure-color-isnt-the-only-way-information-is-conveyed">
       <summary>
         Make sure color isn't the only way information is conveyed.
       </summary>
@@ -842,7 +855,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-appearance-05">
+    <details id="use-a-simple-straightforward-and-consistent-layout">
       <summary>
         Use a simple, straightforward, and consistent layout.
       </summary>
@@ -864,7 +877,7 @@ permalink: checklist.html
     Content that moves, either on its own, or when triggered by a person activating a control.
   </p>
   <div class="checklist">
-    <details id="section-animation-01">
+    <details id="ensure-animations-are-subtle-and-not-do-not-flash-too-much">
       <summary>
         Ensure animations are subtle and not do not flash too much.
       </summary>
@@ -877,7 +890,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-animation-02">
+    <details id="provide-a-mechanism-to-pause-background-video">
       <summary>
         Provide a mechanism to pause background video.
       </summary>
@@ -890,7 +903,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-animation-03">
+    <details id="make-sure-all-animation-obeys-the-prefers-reduced-motion-media-query">
       <summary>
         Make sure all animation obeys the <code>prefers-reduced-motion</code> media query.
       </summary>
@@ -912,7 +925,7 @@ permalink: checklist.html
     <a href="posts/what-is-color-contrast/">Color contrast</a> is how legible colors are when placed next to, and on top of each other.
   </p>
   <div class="checklist">
-    <details id="section-color-contrast-01">
+    <details id="check-the-contrast-for-all-normal-sized-text">
       <summary>
         Check the contrast for all normal-sized text.
       </summary>
@@ -925,7 +938,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-color-contrast-02">
+    <details id="check-the-contrast-for-all-large-sized-text">
       <summary>
         Check the contrast for all large-sized text.
       </summary>
@@ -938,7 +951,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-color-contrast-03">
+    <details id="check-the-contrast-for-all-icons">
       <summary>
         Check the contrast for all icons.
       </summary>
@@ -951,7 +964,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-color-contrast-04">
+    <details id="check-the-contrast-of-borders-for-input-elements">
       <summary>
         Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.).
       </summary>
@@ -964,7 +977,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-color-contrast-05">
+    <details id="check-text-that-overlaps-images-or-video">
       <summary>
         Check text that overlaps images or video.
       </summary>
@@ -977,7 +990,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-color-contrast-06">
+    <details id="check-custom-selection-colors">
       <summary>
         Check custom <code>::selection</code> colors.
       </summary>
@@ -999,7 +1012,7 @@ permalink: checklist.html
     Things to check to best support different device form factors.
   </p>
   <div class="checklist">
-    <details id="section-mobile-touch-01">
+    <details id="check-that-the-site-can-be-rotated-to-any-orientation">
       <summary>
         Check that the site can be rotated to any orientation.
       </summary>
@@ -1012,7 +1025,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-mobile-touch-02">
+    <details id="remove-horizontal-scrolling">
       <summary>
         Remove horizontal scrolling.
       </summary>
@@ -1025,7 +1038,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-mobile-touch-03">
+    <details id="button-and-link-icons-can-be-activated-with-ease">
       <summary>
         Button and link icons can be activated with ease.
       </summary>
@@ -1038,7 +1051,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-mobile-touch-04">
+    <details id="ensure-sufficient-space-between-clickable-items-in-order-to-provide-a-scroll-area">
       <summary>
         Ensure sufficient space between clickable items in order to provide a scroll area.
       </summary>
