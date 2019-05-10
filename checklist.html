@@ -327,7 +327,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html">1.3.1 Info and Relationships</a>
         </p>
         <p class="checklist-description">
-          This prevents a Internet Explorer from allowing focus to navigate through the child elements of an SVG that is meant to be decorative.
+          This prevents Internet Explorer from allowing focus to navigate through the child elements of an SVG that is meant to be decorative.
         </p>
       </div>
     </details>
@@ -353,7 +353,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html">2.1.2 No Keyboard Trap</a>
         </p>
         <p class="checklist-description">
-          This solves a bug in Safari which interferes with VoiceOver describing <code>svg</code> images that contain the <code>use</code> element.
+          This solves a bug in Safari which sometimes creates hidden tab-stops when navigating.
         </p>
       </div>
     </details>
@@ -477,6 +477,32 @@ permalink: checklist.html
     </details>
     <details id="section-controls-02">
       <summary>
+        Ensure that links are recognizable.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion">
+          <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html">1.4.1 Use of Color</a>
+        </p>
+        <p class="checklist-description">
+          Color alone is not sufficient to indicate the presence of a link. Underlines are a popular and commonly-understood way to communicate the presence of link content.
+        </p>
+      </div>
+    </details>
+    <details id="section-controls-03">
+      <summary>
+        Ensure that controls have <code>:focus</code> states.
+      </summary>
+      <div class="checklist-details">
+        <p class="checklist-criterion">
+          <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html">2.4.7 Focus Visible</a>
+        </p>
+        <p class="checklist-description">
+          Visible focus styles help people determine wihch interactive element has keyboard focus. This lets them know that they can perform actions like activating a button or navigating to a link's destination.
+        </p>
+      </div>
+    </details>
+    <details id="section-controls-04">
+      <summary>
         Use the <code>button</code> element for buttons.
       </summary>
       <div class="checklist-details">
@@ -488,7 +514,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-controls-03">
+    <details id="section-controls-05">
       <summary>
         Provide a skip link and make sure that it is visible when focused.
       </summary>
@@ -501,7 +527,7 @@ permalink: checklist.html
         </p>
       </div>
     </details>
-    <details id="section-controls-04">
+    <details id="section-controls-06">
       <summary>
         Identify links that open in a new window, or links that navigate to external sites.
       </summary>
@@ -606,7 +632,7 @@ permalink: checklist.html
           <a href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html">1.3.5 Identify Input Purpose</a>
         </p>
         <p class="checklist-description">
-          <a href="https://www.w3.org/TR/html52/sec-forms.html#sec-autofill">Providing a mechanism</a> to help people more quickly, easily, and accurately fill in form fields that ask for common information (for example, name, address, phone number). Ensure that form input errors are displayed in a list above the form after the form is submit
+          <a href="https://www.w3.org/TR/html52/sec-forms.html#sec-autofill">Providing a mechanism</a> to help people more quickly, easily, and accurately fill in form fields that ask for common information (for example, name, address, phone number).
         ted.
       </div>
     </details>
