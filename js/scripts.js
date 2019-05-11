@@ -8,8 +8,6 @@ $(document).ready(function(){
 
   "use strict";
 
-  $('form').garlic(); // persistent checkboxes for checklist section
-
   function setupWaypoints(element, offset) {
     // waypoint classes that need to be added
     $(element).addClass('waypoint-section');
