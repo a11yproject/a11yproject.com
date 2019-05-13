@@ -33,6 +33,7 @@ google_analytics:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 feed:
   path: atom.xml
