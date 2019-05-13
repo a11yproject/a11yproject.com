@@ -7,7 +7,7 @@ last_updated: 2014-09-26
 categories:
   - Myths
 redirect_from:
-  - "/posts/2013-04-21-myth-screen-readers-dont-use-javascript"
+  - /posts/2013-04-21-myth-screen-readers-dont-use-javascript
 further_reading:
   - url: https://www.w3.org/TR/WCAG20-TECHS/client-side-script.html
     title: "Client-side Scripting Techniques for WCAG 2.0"
