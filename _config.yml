@@ -32,7 +32,6 @@ google_analytics:
 
 plugins:
   - jekyll-feed
-  - jekyll-redirect-from
   - jekyll-sitemap
 
 feed:
