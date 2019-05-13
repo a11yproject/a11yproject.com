@@ -31,8 +31,8 @@ google_analytics:
 #   id: disqusid
 
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sitemap
 
 feed:
   path: atom.xml
