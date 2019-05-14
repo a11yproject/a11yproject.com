@@ -32,7 +32,10 @@ further_reading:
   - url: https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/elements/computed
     title: "Microsoft Edge DevTools - Elements - Computed"
     source: Microsoft Edge Development
-    year: 2017
+  - url: https://www.nngroup.com/articles/touch-target-size/
+    title: "Touch Targets on Touchscreens"
+    source: Nielsen Norman Group
+    year: 2019
 ---
 
 A touch target is the total area a person can click or tap on to activate an interactive element such as a link, input, or button.
