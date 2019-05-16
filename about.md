@@ -2,7 +2,7 @@
 layout: post
 title: About
 description: The A11Y Project aims to make accessibility easier
-permalink: about.html
+permalink: about/
 ---
 
 Accessibility can be a complex and difficult topic. The Accessibility Project understands this and wants to help make it easier to implement on the web. Our goal is to accomplish this with three principles in mind:
