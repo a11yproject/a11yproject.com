@@ -1,6 +1,9 @@
 - resource-category: Software
   section-id: software
   resources:
+    - url: https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce
+      title: "ARC Toolkit"
+      description: "By The Paciello Group, Chrome Extension (Mac/Win/Linux)"
     - url: https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd
       title: "Axe Accessibility Testing"
       description: "Chrome Extension (Mac/Win/Linux)"
