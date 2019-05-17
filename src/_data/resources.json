@@ -175,6 +175,20 @@
   ],
   "browserExtensions" : [
     {
+      "title": "Accessibility Insights",
+      "description": "Solve accessibility issues before they reach your customers.",
+      "developer": "Microsoft",
+      "url": "https://accessibilityinsights.io/",
+      "browsers": [ "Chrome" ]
+    },
+    {
+      "title": "ARC Toolkit",
+      "description": "ARC Toolkit is a professional-level accessibility testing tool that gives you the power to quickly and efficiently evaluate screens for accessibility and uncover issues related to the WCAG 2.1 Level A and AA guidelines.",
+      "developer": "The Paciello Group",
+      "url": "https://www.paciellogroup.com/toolkit/",
+      "browsers": [ "Chrome" ]
+    },
+    {
       "title": "ChromeVox (Classic)",
       "description": "The ChromeVox (Classic) screen reader is an extension to Chrome that brings the speed, versatility, and security of Chrome to visually impaired users.",
       "developer": "Google",
