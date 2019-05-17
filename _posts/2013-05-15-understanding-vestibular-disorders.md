@@ -33,21 +33,33 @@ The cause may be from illness, injury, or a genetic condition, but anyone can su
 
 Don't make animations, sliders, videos, or rapid movement start automatically. Give an indicator of what movement will happen on the site when someone takes action. Allow the option to turn off any animation and movement at any point in the process.
 
-Also, with the CSS [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) media query you can write conditional CSS animations and transitions based on the user's preference. For example, you may want to enable [smooth scrolling](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior), but disable it and all other potential animations and transitions for users who explicitly prefers reduced motion:
+Also, with the CSS [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) media query you can write conditional CSS animations and transitions based on the user's preference exposed from the browser settings. For example, you can disable all animations and transitions for users who explicitly prefers reduced motion:
 
 ```
-html {
- scroll-behavior: smooth;
+img {
+  animation: slidein 3s;
 }
 
-/* More animation and transition styles here. */
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+button:focus,
+button:hover { 
+  transform: scale(1.5); 
+}
 
 @media (prefers-reduced-motion: reduce) {
-  
+
   *,
   ::before,
   ::after {
-    scroll-behavior: auto !important;
     animation-duration: 0.001s !important;
     transition-duration: 0.001s !important;
   }
