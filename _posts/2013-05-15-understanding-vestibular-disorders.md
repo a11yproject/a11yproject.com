@@ -50,9 +50,13 @@ img {
   }
 }
 
+button {
+  transition: rotate 1s;
+}
+
 button:focus,
 button:hover { 
-  transform: scale(1.5); 
+  transform: rotate(360deg);
 }
 
 @media (prefers-reduced-motion: reduce) {
