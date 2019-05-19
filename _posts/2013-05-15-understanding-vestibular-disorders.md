@@ -51,7 +51,7 @@ img {
 }
 
 button {
-  transition: rotate 1s;
+  transition: transform 1s;
 }
 
 button:focus,
