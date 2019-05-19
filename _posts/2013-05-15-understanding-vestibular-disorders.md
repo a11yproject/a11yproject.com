@@ -31,4 +31,44 @@ The cause may be from illness, injury, or a genetic condition, but anyone can su
 
 ## What should you consider?
 
-Don't make animations, sliders, or rapid movement start automatically. Give an indicator of what movement will happen on the site when someone takes action. Allow the option to turn off any animation and movement at any point in the process.
+Don't make animations, sliders, videos, or rapid movement start automatically. Give an indicator of what movement will happen on the site when someone takes action. Allow the option to turn off any animation and movement at any point in the process.
+
+Also, with the CSS [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) media query you can write conditional CSS animations and transitions based on the user's preference exposed from the browser settings. For example, you can disable all animations and transitions for users who explicitly prefers reduced motion:
+
+```
+img {
+  animation: slidein 3s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+button {
+  transition: transform 1s;
+}
+
+button:focus,
+button:hover { 
+  transform: rotate(360deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.001s !important;
+    transition-duration: 0.001s !important;
+  }
+  
+}
+```
+
+Note that rather than setting `animation: none` and `transition: none`, we instead set the `animation-duration` and `transition-duration` properties to a short enough duration that the motion itself is no longer noticable. This is to prevent issues in any case there is a dependency on the animation to run (such as when listening to the [`animationend` event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)).
