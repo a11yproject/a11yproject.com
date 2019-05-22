@@ -57,7 +57,7 @@ layout: default
 
   {%if page.path %}
     <a class="button-edit" href="//github.com/a11yproject/a11yproject.com/tree/gh-pages/{{ page.path }}">
-      <svg class="icon" style="height:1em; width: 1em;"><use xlink:href="#icon-github"></use></svg>
+      <svg class="icon" focusable="false" aria-hidden="true" style="height:1em; width: 1em;"><use xlink:href="#icon-github"></use></svg>
       Edit on GitHub
     </a>
   {% endif %}
