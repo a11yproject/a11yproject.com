@@ -30,7 +30,7 @@ If you do not like the default focus outline that is displayed when a user click
 
 1. Style the outline. Webkit browsers have a more prominent glow so you could try [styling it](https://developer.mozilla.org/en-US/docs/CSS/outline) to make it less obtrusive. Consider the use of `a:focus { outline: thin dotted; }` to normalize the look of the outline across browsers.
 
-2. Style the element itself. You can remove the outline as long as you style the focused element differently (using a combination of `color`, `background-color`, `border` or `text-decoration: underline` for example). When using this approach, [avoid using color alone](https://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color) as the only visual means of determining focus, as colorblind people may not be able to distinguish the focus state from the inactive state.
+2. Style the element itself. You can remove the outline as long as you style the focused element differently (using a combination of `color`, `background-color`, `border` or `text-decoration: underline` for example). When using this approach, [avoid using color alone](https://www.w3.org/TR/WCAG21/#use-of-color) as the only visual means of determining focus, as colorblind people may not be able to distinguish the focus state from the inactive state.
 
 3. Remove outlines for mouse users only, if you truly *must* do so. Start without applying any `outline: none` rules. If a mouse event is detected apply those rules using JavaScript. Remove the rules again if keyboard interaction is detected. Here are 2 examples of accessible outline removal scripts:
 
