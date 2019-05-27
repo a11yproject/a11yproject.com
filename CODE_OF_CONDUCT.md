@@ -1,5 +1,6 @@
 # The A11Y Project Code of Conduct
 
+Last updated on May 27th, 2019.
 
 ## Purpose
 
