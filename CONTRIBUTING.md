@@ -1,6 +1,6 @@
 # Contributing to The A11Y Project
 
-Want to help? Here's how. Please be sure to check our [Content Style Guide](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md) before contributing. Questions or concerns about contributing can be addressed in the site's [Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues).
+Want to help? Here's how. Please be sure to check our [Code of Conduct](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CODE_OF_CONDUCT.md) and [Content Style Guide](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md) before contributing. Questions or concerns about contributing can be addressed in the site's [Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues).
 
 
 ## Table of Contents
