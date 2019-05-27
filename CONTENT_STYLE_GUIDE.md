@@ -1,6 +1,6 @@
 # Content Style Guide
 
-A consistent writing style will help site content feel unified and aid with comprehension. Please check our [Contributing Guidelines](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md) before submitting. Questions or concerns about the Content Style Guide can be addressed in the site's [Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues).
+A consistent writing style will help site content feel unified and aid with comprehension. Please check our [Code of Conduct](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md) before submitting. Questions or concerns about the Content Style Guide can be addressed in the site's [Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues).
 
 
 ## Table of Contents
