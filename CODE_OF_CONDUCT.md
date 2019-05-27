@@ -45,7 +45,7 @@ This list of examples does not define the entire range of unacceptable behavior.
 
 ### Reporting
 
-If you have experienced behavior that violates our code of conduct, please make us aware of it. Reports go directly to The A11Y Project team and will be investigated immediately to determine next steps. 
+If you have experienced behavior that violates our code of conduct, please make us aware of it. Reports go directly to [The A11Y Project team](https://a11yproject.com/purpose.html) and will be investigated immediately to determine next steps. 
 
 When describing an incident, please include as much pertinent information as you feel comfortable sharing. While we understand that revisiting this information can be unpleasant, doing so will help provide a better context for the report and a more informed response.
 
@@ -87,7 +87,7 @@ This code of conduct applies to:
 
 ## Modifications
 
-This code of conduct is a living document used to help facilitate a shared understanding of our common environment and goals. We expect it to be followed in spirit as much as in the letter. Because of this, the code of conduct will be updated as The A11Y Project continues to grow. The history of this document, including reasoning for updates, is kept in GitHub. 
+This code of conduct is a living document used to help facilitate a shared understanding of our common environment and goals. We expect it to be followed in spirit as much as in the letter. Because of this, the code of conduct will be updated as The A11Y Project continues to grow. The history of this document, including reasoning for updates, [is kept in GitHub](https://github.com/a11yproject/a11yproject.com/commits/gh-pages/CODE_OF_CONDUCT.md). 
 
 
 ## Also see
