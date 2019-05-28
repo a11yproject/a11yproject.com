@@ -22,7 +22,7 @@ Fostering this environment means pledging to make our project and our community 
 - Sexual identity.
 - Socioeconomic status.
 
-Discrimination is not limited to the preceding list. The list serves as an example the kinds of criteria we take into consideration when considering what constitutes discrimination.
+Discrimination is not limited to the preceding list. The list serves as an example of the kinds of criteria we take into consideration when considering what constitutes discrimination.
 
 ## Unacceptable behavior
 
