@@ -33,6 +33,13 @@
       address: "Missouri State University Glass Hall, 851 S. John Q. Hammons Parkway, Springfield, MO 65897"
       map: "https://www.google.com/maps/d/viewer?mid=1ttoeovP4EwFXqV5V7Q3Idg9EwZbuDp1E&hl=en&usp=sharing"
       hashtag: "A11ySummit"
+    - title: "Utah Inclusive Design and Digital Accessibility Meetup"
+      description: "The Utah Inclusive Design and Digital Accessibility Meetup is designed to bring together web and mobile app developers and engineers, instructional designers, higher ed IT professionals, disability service providers, user experience, design, and other digital professionals together to share, learn, and network around the topic of digital and web accessibility for individuals with disabilities."
+      url: "https://www.meetup.com/UtahA11y/events/261077544/"
+      type: "Regional"
+      date: 2019-05-29
+      address: "Instructure Offices, 6330 S 3000 E · Salt Lake City, UT"
+      map: "https://www.google.com/maps/search/?api=1&query=40.635315%2C-111.807590"
     - title: "Philly Content Strategy: Digital Accessibility, A Panel"
       description: "Creating accessible digital products (websites, apps, intranets, etc.) that are inclusive and open to everyone is the responsibility of all of us. In the words of Marcy Sutton, 'We have the power to improve lives through technology — we should use our passion for the craft to build a more accessible web.''"
       url: "https://www.meetup.com/Philly-Content-Strategy/events/260704984/"
@@ -233,8 +240,3 @@
       url: "https://accessibility.deque.com/inclusion-for-people-with-disabilities-education-employment"
       type: "Webinar"
       date: 2018-12-03
-    - title: "Utah Inclusive Design and Digital Accessibility Meetup"
-      description: "The Utah Inclusive Design and Digital Accessibility Meetup is designed to bring together web and mobile app developers and engineers, instructional designers, higher ed IT professionals, disability service providers, user experience, design, and other digital professionals together to share, learn, and network around the topic of digital and web accessibility for individuals with disabilities."
-      url: "https://www.meetup.com/UtahA11y/events/261077544/"
-      type: "Regional"
-      date: 2019-05-29      
