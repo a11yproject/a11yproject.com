@@ -1,6 +1,6 @@
 # The A11Y Project Code of Conduct
 
-Last updated on May 27th, 2019.
+Last updated on May 28th, 2019.
 
 ## Purpose
 
@@ -10,7 +10,7 @@ Fostering this environment means pledging to make our project and our community 
 
 - Age.
 - Body size.
-- Permanent and conditional disability.
+- Permanent disability and temporary impairments.
 - Ethnicity.
 - Gender identity and expression.
 - Level of experience and education.
