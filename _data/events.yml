@@ -233,3 +233,8 @@
       url: "https://accessibility.deque.com/inclusion-for-people-with-disabilities-education-employment"
       type: "Webinar"
       date: 2018-12-03
+    - title: "Utah Inclusive Design and Digital Accessibility Meetup"
+      description: "The Utah Inclusive Design and Digital Accessibility Meetup is designed to bring together web and mobile app developers and engineers, instructional designers, higher ed IT professionals, disability service providers, user experience, design, and other digital professionals together to share, learn, and network around the topic of digital and web accessibility for individuals with disabilities."
+      url: "https://www.meetup.com/UtahA11y/events/261077544/"
+      type: "Regional"
+      date: 2019-05-29      
