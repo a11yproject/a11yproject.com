@@ -1,6 +1,12 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "What's Dyslexia Got To Do With It?!"
+      description: "A high incident of dyslexic traits are found in computer programmers. These special traits and abilities are commonly depicted as disabilities. In the same vein, one-fifth of the estimated global population possesses disabilities. Join me as we deploy the narratives that exist at the intersection of ability and access. Let’s steer the strengths, park the misconceptions and drive hacks meant to empower programmers who exhibit special traits and abilities.<br><br>Speaker: Jeannette Washington, M.Ed. (https://twitter.com/bearlyartic)<br>Meeting link: https://bit.ly/June2019A11yTalks"
+      url: "https://groups.drupal.org/node/535124"
+      type: "Webinar"
+      date: 2019-06-26
+      hashtag: "A11yTalks"
     - title: "CMS vs. Headless CMS A11y Throwdown"
       description: "Join us for a live discussion of how accessibility is impacted by using a CMS vs. a headless CMS and what are the pros/cons of each when it comes to creating accessible sites and applications. We have Rachel Cherry from WPCampus, Preston So from Gatsby, Carie Fisher from Deque Systems, and Mike Gifford from Open Concept participating with Caitlin Cashin from Deque Systems, moderating."
       url: "http://bit.ly/CMSA11yTalks"
