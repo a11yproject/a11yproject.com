@@ -18,19 +18,34 @@
 
         li {
             display: inline-block;
-            margin-right: 1.1em;
+            font-size: 90%;
+            margin-right: 0.8em;
 
             @media (min-width: $tablet) {
-                margin-right: 1.4em;
+                font-size: 95%;
+                margin-right: 1em;
             }
 
             &:last-child {
                 margin-right: 0;
             }
+            &.active a {
+              text-decoration: underline;
+              color: #333;
+            }
         }
 
         a {
             text-decoration: none;
+
+            &:hover,
+            &:focus {
+                text-decoration: underline;
+            }
+
+            &:active {
+                text-decoration: none;
+            }
         }
 
         .logo {
@@ -47,6 +62,7 @@
             .oldie-logo-navbar,
             .icon-logo {
                 width: 1.4em;
+                height: 1.4em;
                 position: relative;
                 top: .3em;
             }
@@ -69,7 +85,7 @@
 
     @media (min-width: $tablet ) {
         padding-bottom: 5em;
-        margin-bottom: 5em;
+        margin-bottom: 3em;
     }
 
     .icon-logo-hero {
@@ -95,13 +111,5 @@
             margin: 0 .6em 1.6em;
         }
 
-        a {
-            background: $link;
-            color: #fff;
-            border-bottom: 3px solid darken($link, 10%);
-            padding: .6em 1.2em .5em;
-            text-decoration: none;
-            line-height: 1;
-        }
     }
 }

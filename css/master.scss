@@ -3,10 +3,33 @@
 ---
 
 @import "reset";
-@import "base";
 @import "colors";
+@import "base";
 @import "layout";
 @import "typography";
 @import "header";
 @import "footer";
+@import "notification";
+@import "purpose";
+@import "checklist";
 @import "print";
+@import "vendor/_highlight";
+
+.notification {
+  background-color: #FFF8A6;
+  border: 2px solid #FBE900;
+  border-radius: 7px;
+  margin-bottom: 2rem;
+  padding: 1.75rem;
+  text-align: left;
+
+  &__title {
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+
+  p {
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}

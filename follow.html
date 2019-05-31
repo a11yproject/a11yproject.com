@@ -1,0 +1,35 @@
+---
+layout: page
+title: Who to follow
+description: A list of people, companies, and meetup groups to follow in web standards and accessibility.
+permalink: follow/
+---
+
+<nav class="toc-wrap toc-long" aria-labelledby="toc_title">
+    <h2 id="toc_title" class="toc-title">Categories</h2>
+    <ul class="toc">
+        {% for category in site.data.follow %}
+        <li>
+            <a class="{{ category.section-id }}" href="#{{category.section-id}}">
+            {{ category.category }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
+
+{% for category in site.data.follow %}
+<section id="{{category.section-id}}" class="article-section resources-section" tabindex="-1">
+    <h2 class="article-section__title">{{ category.category }}</h2>
+    <ul class="article-section__content">
+    {% assign sorted_links = category.links | sort: 'name' %}
+    {% for link in sorted_links %}
+      <li>
+        <a href="{{ link.url }}" rel="external">
+          {{ link.name }} ({{link.username}})
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+</section>
+{% endfor %}

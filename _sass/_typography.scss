@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic);
 
 body {
     font: 1em/1.8 'Source Sans Pro', sans-serif;
@@ -11,6 +11,21 @@ body {
 
 a {
     color: $link;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-skip: ink;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:active {
+        color: $umber;
+        text-decoration: underline;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,11 +52,13 @@ h3 {
     font-size: 1.66em;
 }
 
-h4 {
+h4,
+.txt-up-2 {
     font-size: 1.33em;
 }
 
-h5 {
+h5,
+.txt-up-1 {
     font-size: 1.125em;
 }
 
@@ -77,6 +94,7 @@ ol {
 
 pre {
     background: $grayLighter;
+    line-height: 1.6;
     padding: 1em;
     white-space: pre-wrap;       /* CSS 3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -85,9 +103,14 @@ pre {
     word-wrap: break-word;
     margin-bottom: 1.4em;
 }
+pre code {
+  background: none;
+}
 
 code {
     background: $grayLighter;
+    font-family: 'Source Code Pro', Consolas, Monaco, 'Courier New', monospace;
+    font-size: 80%;
     padding: 0.1em 0.25em;
 }
 
@@ -104,6 +127,20 @@ strong {
 em {
     font-style: italic;
 }
+
+.btn {
+    background: $link;
+    color: #fff;
+    border-bottom: 3px solid darken($link, 10%);
+    padding: .6em 1.2em .5em;
+    text-decoration: none;
+    line-height: 1;
+
+    &:focus {
+        @extend %focus;
+    }
+}
+
 .post {
     @extend %row-narrow;
 
@@ -143,11 +180,22 @@ em {
         }
 
         &:hover {
+            text-decoration: underline;
+        }
+
+        &:focus,
+        &:hover {
             background: darken($grayLighter, 10%);
+        }
+
+        &:active {
+            background: darken($grayLighter, 50%);
+            color: #fff;
+            text-decoration: none;
         }
     }
 
-    img {
+    img:not(.article-section__follow-image) {
         display: block;
         max-width: 100%;
         margin: 1.6em auto;

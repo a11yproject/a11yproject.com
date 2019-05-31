@@ -1,13 +1,18 @@
 # standard jekyll configuration
 
 permalink: /posts/:title/
-exclude: ['Rakefile', 'README.md', 'config.rb']
+exclude: ['Rakefile', 'README.md', 'config.rb', "Gemfile", "Gemfile.lock", "vendor"]
 markdown: kramdown
+url: http://a11yproject.com
 
 # configuration required for some pages
 
 domain: a11yproject.com
 title: The A11Y Project
+description: A community-driven effort to make web accessibility easier.
+url: http://a11yproject.com
+avatar: /img/avatar.png
+social: /img/social.png
 author: Dave Rupert
 email: dave@paravelinc.com
 
@@ -24,3 +29,14 @@ google_analytics:
 
 # disqus:
 #   id: disqusid
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+feed:
+  path: atom.xml
+
+sass:
+  style: :compressed

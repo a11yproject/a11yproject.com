@@ -3,11 +3,73 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-translate-customization" content="2799b63e9872a422-144b0a71179bc4c5-gbc0bb0558eb2f07b-f"></meta>
+
+    <!-- search -->
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
+      <meta name="description" content="{{ page.description }}">
+    {% else %}
+      <meta name="description" content="{{ site.description }}">
     {% endif %}
+    <meta name="image" content="{{ site.url }}{{ site.social }}">
+
+    <!-- google schema.org -->
+    {% if page.title %}
+      <meta itemprop="name" content="{{ page.title }}">
+    {% else %}
+      <meta itemprop="name" content="{{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+      <meta itemprop="description" content="{{ page.description }}">
+    {% else %}
+      <meta itemprop="description" content="{{ site.description }}">
+    {% endif %}
+    <meta itemprop="image" content="{{ site.url }}{{ site.social }}">
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary">
+    {% if page.title %}
+      <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+      <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+      <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    <meta name="twitter:site" content="@A11YProject">
+    <meta name="twitter:creator" content="@davatron5000">
+    <meta name="twitter:image:src" content="{{ site.url }}{{ site.social }}">
+
+    <!-- open graph/twitter article -->
+    {% if page.title %}
+      <meta name="og:title" content="{{ page.title }}">
+    {% else %}
+      <meta name="og:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+      <meta name="og:description" content="{{ page.description }}">
+    {% else %}
+      <meta name="og:description" content="{{ site.description }}">
+    {% endif %}
+    <meta name="og:image" content="{{ site.url }}{{ site.social }}">
+    <meta name="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta name="og:site_name" content="{{ site.title }}">
+    <meta name="og:locale" content="en_US">
+    {% if page.categories %}
+      <meta name="og:type" content="article">
+      {% for category in page.categories limit:1 %}
+        <meta name="article:section" content="{{ category | downcase }}">
+      {% endfor %}
+    {% endif %}
+    {% if page.date %}
+      <meta name="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% endif %}
+    {% if page.author %}
+      <meta name="article:author" content="{{ page.author }}">
+    {% endif %}
+
     <link rel="stylesheet" href="/css/master.css">
     {% if site.feedburner %}
     <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{{ site.title }}" type="application/atom+xml">
@@ -38,34 +100,36 @@
     <header role="banner" class="banner">
       <a id="skip-navigation" class="screen-reader-text" href="#content">Skip Navigation</a>
 
-      <nav role="navigation" class="row">
+      <nav role="navigation" class="row" id="main-navigation">
           <ul class="nav">
             <li class="logo"><a class="home-logo-link" href="/">
               <!-- We'll need to update the image color after colors have been finalized. Right now the IE8 logo image is white.-->
               <!--[if lte IE 8]><img src="/img/logo.png" class="oldie-logo-navbar icon-logo" alt=""><![endif]-->
               <!--[if gte IE 9]><!-->
-              <svg class="icon-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="-3627 353 1024 1024" style="enable-background:new -3627 353 1024 1024;" xml:space="preserve">
+              <svg class="icon-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-3627 353 1024 1024" style="enable-background:new -3627 353 1024 1024;" xml:space="preserve">
                 <path d="M-3116.4 353c-282 0-510.6 228.6-510.6 510.6s228.6 510.6 510.6 510.6s510.6-228.6 510.6-510.6S-2834.4 353-3116.4 353z M-3124.1 454.4c36.6 0 66.2 29.6 66.2 65.9c0 36.6-29.6 66.2-66.2 66.2c-36.3 0-65.9-29.6-65.9-66.2 C-3190.1 484-3160.5 454.4-3124.1 454.4L-3124.1 454.4z M-2838 667.7l-196.4 24.8l0.1 196.6l95.2 317.7c5 20.1-7 40.1-26.9 45.1 c-19.8 5-40.1-6-45.1-26l-97.5-289.2h-30l-89.7 295.2c-7.5 19.3-29 28.1-48.2 20.6c-19.1-7.4-30.7-29.1-23.2-48.4l82.4-311.8V692.5 l-181-24.6c-18.6-1.5-31.2-17.8-29.7-36.4c1.4-18.7 18.3-32.6 36.8-31.1l219.9 18.9h96.4l234.1-19.3c18.6-0.7 34.4 13.7 35 32.5 C-2805 651-2819.4 666.9-2838 667.7L-2838 667.7z"/>
               </svg>
               <!--<![endif]-->The A11Y Project
               </a>
             </li>
-            <li><a href="/patterns/">Patterns</a></li>
-            <li><a href="/checklist.html">Checklist</a></li>
-            <li><a href="/resources.html">Resources</a></li>
-            <li><a href="/about.html">About</a></li>
+            <li><a href="/patterns">Patterns</a></li>
+            <li><a href="/checklist">Checklist</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/follow">Follow</a></li>
+            <li><a href="/about">About</a></li>
           </ul>
       </nav>
     </header>
 
-    <main role="main" id="content" class="section" tabindex="0">
+    <main role="main" id="content" class="section">
     {{ content }}
     </main>
 
     <footer role="contentinfo" class="section footer">
       <div class="row">
         <div class="join-us">
-          <h3 class="join-us-title">Join us on <a href="https://github.com/a11yproject/a11yproject.com">GitHub</a></h3>
+          <h2 class="join-us-title">Join us on <a href="https://github.com/a11yproject/a11yproject.com">GitHub</a></h2>
           <ul class="join-us-buttons github-data inline-list">
             <li><a class="join-us-btn" href="https://github.com/a11yproject/a11yproject.com/graphs/contributors"><span class="data contributors">&nbsp;</span>Contributors</a></li>
             <li><a class="join-us-btn" href="https://github.com/a11yproject/a11yproject.com"><span class="data stars">&nbsp;</span>Stars</a></li>
@@ -79,28 +143,31 @@
         <div class="colophon">
 
           <h5 class="screen-reader-text">Colophon</h5>
-          <p><a href="https://twitter.com/A11YProject">@A11YProject</a> | <a href="/atom.xml">Subscribe</a></p>
-          <div id="google_translate_element"></div>
+          <ul>
+            <li>
+              <a href="https://twitter.com/A11YProject">@A11YProject</a>
+            </li>
+            <li>
+              <a href="mailto:hello@a11yproject.com">hello@a11yproject.com</a>
+            </li>
+            <li>
+              <a href="/atom.xml">RSS Feed</a>
+            </li>
+          </ul>
 
-          <p class="notice">Notice an issue or want to help? <a href="http://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
-
-          <p>&copy; <span class="a11y-copyright"></span> The Accessibility Project<br />
-            Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a></p>
+          <p class="notice">Notice an issue or want to help? <a href="https://github.com/a11yproject/a11yproject.com">Please contribute</a>.</p>
+          <p style="margin-bottom: 0;">&copy; <span class="a11y-copyright"></span> The Accessibility Project</p>
+          <p>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a></p>
+          <p style="margin-bottom: 0;"><a href="purpose.html">Our purpose</a></p>
+          <p><a href="https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CODE_OF_CONDUCT.md#the-a11y-project-code-of-conduct">Code of Conduct</a></p>
         </div>
       </div>
 
     </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/garlic.js/1.2.2/garlic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/jquery.waypoints.min.js"></script>
 
     <script src="/js/scripts.js"></script>
-    <script>
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-    }
-    </script>
-    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
 </html>

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+script/branding
+
+export PATH=/usr/share/rbenv/shims:$PATH RBENV_VERSION=$(cat .ruby-version)
+
+bundle exec rake test

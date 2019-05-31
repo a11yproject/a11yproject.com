@@ -8,8 +8,6 @@ $(document).ready(function(){
 
   "use strict";
 
-  $('form').garlic(); // persistent checkboxes for checklist section
-
   function setupWaypoints(element, offset) {
     // waypoint classes that need to be added
     $(element).addClass('waypoint-section');
@@ -30,11 +28,6 @@ $(document).ready(function(){
   }
 
   function removeWaypoints(element) {
-    // waypoint classes that need to be added
-    $(element).removeClass('waypoint-section');
-
-    // get the ID of the section
-    var id = $(element).attr('id');
     // destroys all active waypoints
     Waypoint.destroyAll();
   }
@@ -59,8 +52,9 @@ $(document).ready(function(){
     var windowWidth = $(window).width() / parseFloat($("html").css("font-size"));
 
     if(windowWidth < 53) { // accordion view
+
       // remove waypoints and waypoint semantics
-      removeWaypoints(element);
+      removeWaypoints();
 
     } else { // desktop view
 
@@ -73,6 +67,7 @@ $(document).ready(function(){
         } else {
           offset = '20%'; // this offset feels right for short TOC lists
         }
+
         // add waypoints and waypoint classes
         setupWaypoints(element, offset);
 
@@ -109,7 +104,6 @@ $(document).ready(function(){
 
           // add the accordion / waypoints semantics
           tocPageSemantics();
-
 
           if($('.post-content').length) {
             var tocWrapElem = $('.post-content');
@@ -151,7 +145,38 @@ $(document).ready(function(){
         }
       }, // toc
 
+      lazyLoadFooter : function(target,offset){
+
+        var $target = $(target),
+            targetLoc = $target.offset().top,
+            contribsHaveLoaded = localStorage.getItem("contribsLoaded"),
+            footerLazyLoadTriggered = false,
+            $window = $(window);
+
+            if(!contribsHaveLoaded){
+
+              $window.on('scroll.lazyLoadFooter', function(e){
+
+                var scrollPos = $window.scrollTop(),
+                    targetScroll = targetLoc - offset;
+
+                    if(targetScroll <= scrollPos && !footerLazyLoadTriggered){
+                      localStorage.setItem("hasLoadedFooter",true);
+                      Engine.ui.footerContributors(); // run custom footer
+                      //footerLazyLoadTriggered = true;
+                      $window.off('scroll.lazyLoadFooter');
+                    }
+
+              });
+
+            }else{
+              Engine.ui.footerContributors(); // run custom footer
+            }
+
+      }, // lazyLoadFooter()
+
       footerContributors : function(){
+
         function gitHubContributors(){
 
           var
@@ -382,12 +407,67 @@ $(document).ready(function(){
         $('.a11y-copyright').text(new Date().getFullYear())
       }, // footerCopyright
 
+      activeNav : function(el,activeClass){
+        /* Loops over nav and adds .active class to parent + visually hidden current page text */
+        $(el).find("li:not('.logo') a").each(function(){
+          var path = document.location.pathname,
+              current_href = this.getAttribute("href");
+              if (path == current_href) {
+                $(this).html($(this).text()+"<span class='screen-reader-text-inline'>, current page</span>");
+                $(this)
+                  .addClass(activeClass)
+                  .parents("li").addClass(activeClass);
+              }
+        });
+      }, // activeNav
+
+      pastEvents : function(){
+        /* Make the current time Jekyll friendly */
+        var now = Date.now() / 1000;
+
+        function findPastEvents() {
+          /* Snag everything with a `data-date` attribute, puts it into a node list */
+          var events = [].slice.call(document.querySelectorAll('[data-date]'));
+          /* Loops through event array, returns past that occured after current date */
+          var eventTimes = events.filter(function (el) {
+            return el.dataset.date < now - 86400; // `86400` is 24 hours in Unix time (60 * 60 * 24)
+          })
+          return eventTimes;
+      }
+
+      // Reverses past event list so oldest is placed last
+      var pastEventList = findPastEvents();
+      pastEventList = pastEventList.reverse();
+
+      // Moves an event list to the targeted container
+      function moveEventsList(container, arr) {
+        arr.map(function (el) {
+          container.appendChild(el);
+        })
+      }
+      moveEventsList(document.querySelector('#past-events'), pastEventList);
+
+      // Reveal ToC and past events once filled
+      function unhide(el) {
+        if (el) {
+          el.removeAttribute("hidden");
+        }
+      }
+      unhide(document.querySelector('#past-events'));
+      unhide(document.querySelector('#toc-events'));
+
+      if (document.querySelector('#event-list')) {
+        document.querySelector('#event-list').textContent = "Upcoming";
+      }
+    } // pastEvents
     } // ui
 
   } // Engine
 
   Engine.ui.toc();
-  Engine.ui.footerContributors();
+  Engine.ui.lazyLoadFooter("footer[role='contentinfo']",800);
   Engine.ui.footerCopyright();
+  Engine.ui.activeNav("#main-navigation","active");
+  Engine.ui.pastEvents();
 
 });
