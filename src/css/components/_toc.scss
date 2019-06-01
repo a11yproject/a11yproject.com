@@ -1,0 +1,62 @@
+// c-toc
+//
+// TODO: Write description.
+//
+// Markup:
+// TODO: Write markup
+//
+// Style guide: Components.c-toc
+.c-toc {
+  text-align: right;
+  list-style-type: none;
+}
+
+
+.c-toc__list-item {
+  @include preserve-list-semantics();
+
+  margin-top: 0.5rem;
+}
+
+
+.c-toc__link {
+  color: c(toc, link-resting);
+  font-family: $font-family-secondary;
+  letter-spacing: 0.15ch;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &::before {
+    content: ""; // Keeps text from shifting when the horizontal bar is shown on hover/focus
+    border-top: 1ch solid c(base, background); // Provides a border-color to transition
+    transition: $animation-duration-short $animation-easing-character border;
+  }
+
+  // Supports
+  @supports #{$supports-grid} {
+    align-items: center;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  @media screen and (prefers-reduced-motion: reduce) {
+    &::before {
+      transition: none;
+    }
+  }
+
+  // States
+  &:hover,
+  &:focus {
+    &::before {
+      border-top: 1ch solid #f1cbe6;
+    }
+  }
+
+  &[aria-current] {
+    &::before {
+      border-top: 1ch solid c(themes, homepage);
+    }
+  }
+}

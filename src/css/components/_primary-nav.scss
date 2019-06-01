@@ -1,0 +1,55 @@
+// c-primary-nav
+//
+// TODO: Write description.
+//
+// Markup:
+// TODO: Write markup
+//
+// Style guide: Components.Navigation.c-primary-nav
+.c-primary-nav {
+  background-color: c(primary-nav, background);
+  padding: 1.25rem 2rem;
+
+  // Contexts
+  .l-home & {
+    background-color: c(hero, homepage);
+  }
+
+  // Supports
+  @supports #{$supports-flex} {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+
+.c-primary-nav__list-item {
+  @include preserve-list-semantics();
+
+  // Supports
+  @supports #{$supports-flex} {
+    display: inline-block;
+  }
+}
+
+
+.c-primary-nav__link {
+  color: c(primary-nav, link-resting);
+  font-family: $font-family-secondary;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+
+  // States
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+
+.c-primary-nav__link--contribute {
+  background-color: c(primary-nav, link-resting);
+  color: c(primary-nav, background);
+}

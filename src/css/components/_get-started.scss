@@ -1,0 +1,39 @@
+// c-get-started
+//
+// TODO: Write description.
+//
+// Markup:
+// TODO: Write markup
+//
+// Style guide: Components.get-started
+.c-get-started {
+  position: relative;
+    bottom: 2.5rem;
+
+  // Supports
+  @supports #{$supports-grid} {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      ". get-started .";
+  }
+}
+
+
+.c-get-started__link {
+  background-color: c(a11y, accent);
+  border: 0.5rem solid c(base, background);
+  color: c(a11y, text);
+  font-family: $font-family-secondary;
+  font-size: 1.25rem;
+  letter-spacing: 0.15ch;
+  padding: 1rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: get-started;
+  }
+}

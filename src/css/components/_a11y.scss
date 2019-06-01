@@ -1,0 +1,38 @@
+// c-a11y
+//
+// TODO: Write description.
+//
+// Markup:
+// TODO: Write markup
+//
+// Style guide: Components.a11y
+.c-a11y {
+  background-color: c(a11y, background);
+  border-top: 0.5rem solid c(a11y, accent);
+  padding: 3rem 5rem;
+
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: a11y;
+  }
+}
+
+
+.c-a11y__explanation {
+  font-size: 2.25rem;
+}
+
+
+.c-a11y__accessibility {
+  display: block;
+  font-family: $font-family-secondary;
+  letter-spacing: 0.5ch;
+  text-transform: uppercase;
+}
+
+
+.c-a11y-explanation__mission {
+  font-family: $font-family-secondary;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}

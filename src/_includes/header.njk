@@ -1,19 +1,30 @@
-<header>
-  {% include "skipnav.njk" %}
-  {# TODO: Replace with logo, use `h1` for the page title #}
+{# {% include "skipnav.njk" %} #}
+<!--
   <h1>
     <a rel="index" href="{{ '/' | url }}">{{ metadata.title }}</a>
   </h1>
+-->
 
-  <nav id="primary-nav" aria-label="Site">
-    <h2>Site navigation</h2>
-    <ul>
-      {%- for nav in collections.nav -%}
-      <li>
-        <a href="{{ nav.url | url }}" {% if nav.url == page.url %}aria-current="page"{% endif %}>{{ nav.data.navtitle }}</a>
+<header id="header" class="l-header">
+  <nav id="nav-primary" class="c-primary-nav" aria-label="Primary">
+    <ul class="c-primary-nav__list">
+      <li class="c-primary-nav__list-item">
+        <a class="c-primary-nav__link" href="">Resources</a>
       </li>
-      {%- endfor -%}
+      <li class="c-primary-nav__list-item">
+        <a class="c-primary-nav__link" href="">Posts</a>
+      </li>
+      <li class="c-primary-nav__list-item">
+        <a class="c-primary-nav__link" href="">About</a>
+      </li>
+      <li class="c-primary-nav__list-item">
+        <a class="c-primary-nav__link c-primary-nav__link--contribute" href="">Contribute</a>
+      </li>
     </ul>
   </nav>
 
+  {% if templateClass == "l-home" %}
+    {% include "hero.njk" %}
+  {% endif %}
 </header>
+

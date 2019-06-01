@@ -7,9 +7,22 @@
   "imports/fonts";
 
 
-// Logic
+// Brand
 //
 // Weight: 1
+//
+// The visual assets that set the overall tone and aesthetic for the site.
+//
+// Styleguide Brand
+@import
+  "brand/colors",
+  "brand/logos",
+  "brand/typefaces";
+
+
+// Logic
+//
+// Weight: 2
 //
 // Styleguide Logic
 
@@ -25,6 +38,7 @@
 // Styleguide Logic.Variables
 @import
   "logic/variables.paths",
+  "logic/variables.supports",
   "logic/variables.animation-duration",
   "logic/variables.animation-easing",
   "logic/variables.font-families",
@@ -78,22 +92,9 @@
   "logic/mixins.responsify";
 
 
-// Brand
-//
-// Weight: 1
-//
-// The visual assets that set the overall tone and aesthetic for the site.
-//
-// Styleguide Brand
-@import
-  "brand/colors",
-  "brand/logos",
-  "brand/typefaces";
-
-
 // Base
 //
-// Weight: 2
+// Weight: 3
 //
 // Sets the initial, document-level cascade.
 //
@@ -113,18 +114,21 @@
 
 // Layout
 //
-// Weight: 3
+// Weight: 4
 //
 // Classes that control [the overall arrangement of main site landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html).
 //
 // Styleguide Layout
-// @import
-//   "layout/";
+@import
+  "layout/header",
+  "layout/hero",
+  "layout/main",
+  "layout/toc";
 
 
 // Utilities
 //
-// Weight: 4
+// Weight: 5
 //
 // Utility classes are small, single-purpose classes.
 //
@@ -142,19 +146,23 @@
 
 // Components
 //
-// Weight: 5
+// Weight: 6
 //
 // Components are collections of classes used to construct a user interface
 // element.
 //
 // Styleguide Components
 @import
-  "components/headings";
+  "components/a11y",
+  "components/get-started",
+  "components/headings",
+  "components/toc",
+  "components/primary-nav";
 
 
 // Media
 //
-// Weight: 6
+// Weight: 7
 //
 // Stylesheets for alternate modes of presentation.
 //
@@ -165,8 +173,3 @@
 
 // Shame
 @import "shame";
-
-
-// Tatiana
-// Ensures her styles are final. To be refactored when set.
-@import "tatiana";

@@ -139,6 +139,7 @@ sub {
   font-size: inherit;
   font-variant-position: sub;
 
+  // Supports
   @supports not (font-variant-position: sub) {
     -webkit-font-feature-settings: "subs", "subs";
     font-feature-settings: "subs", "subs";
@@ -158,6 +159,7 @@ sup {
   text-transform: lowercase;
   font-variant-position: super;
 
+  // Supports
   @supports not (font-variant-position: sup) {
     -webkit-font-feature-settings: "sups", "sups";
     font-feature-settings: "sups", "sups";
@@ -234,6 +236,7 @@ textarea {
 time {
   font-variant-numeric: tabular-nums;
 
+  // Supports
   @supports not (font-variant-numeric: tabular-nums) {
     -webkit-font-feature-settings: "pnum" 0, "tnum", "tnum";
     font-feature-settings: "pnum" 0, "tnum", "tnum";

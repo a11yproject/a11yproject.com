@@ -1,0 +1,6 @@
+.l-toc {
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: zzzzz;
+  }
+}

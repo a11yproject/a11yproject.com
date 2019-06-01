@@ -5,8 +5,20 @@
 //
 // Styleguide Base.body
 body {
-  background-color: c(white); // Extends background color to full width on an iPhone X in landscape mode: http://stephenradford.me/removing-the-white-bars-in-safari-on-iphone-x/
+  background-color: c(base, background); // Extends background color to full width on an iPhone X in landscape mode: http://stephenradford.me/removing-the-white-bars-in-safari-on-iphone-x/
   font-size: 1em;
   min-height: 100%; // Ensure the page always fills at least the entire height of the viewport
   overflow-x: hidden;
+
+  // Supports
+  @supports #{$supports-grid} {
+    // display: grid;
+    // grid-template-columns: 200px 1fr 200px;
+    // grid-template-rows: auto;
+    // grid-template-areas:
+    //   "header header header"
+    //   "hero   hero   hero"
+    //   "toc    body   body"
+    //   "footer footer footer";
+  }
 }

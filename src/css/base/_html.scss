@@ -5,8 +5,8 @@
 //
 // Styleguide Base.html
 html {
-  background-color: c(white);
-  color: c(black);
+  background-color: c(base, background);
+  color: c(base, text);
   font-family: $font-family-primary;
   font-size: $global-type-size;
   font-weight: $font-weight-regular;
@@ -34,7 +34,7 @@ html {
   }
 
   // Supports
-  @supports (hanging-punctuation: first) {
+  @supports #{$supports-hanging-punctuation} {
     hanging-punctuation: first;
   }
 
@@ -49,4 +49,3 @@ html {
     width: device-width; // https://msdn.microsoft.com/en-us/library/hh869615(v=vs.85).aspx
   }
 }
-
