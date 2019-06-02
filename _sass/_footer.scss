@@ -5,6 +5,10 @@
 
     .colophon {
         margin-top: .5em;
+
+        .no-lead {
+            margin-bottom: 0;
+        }
     }
 
     @media (min-width: $desktop) {
@@ -79,8 +83,7 @@
         }
     }
 
-
-    #contributors-list {
+    .contributors-list {
         @extend %no-list-style;
         margin-bottom: 0;
 
@@ -105,11 +108,9 @@
             height: 50px;
             width: 50px;
         }
-
     }
 
     .contributors-pagination {
-
         a {
             font-size: .8em;
             padding: .4em .8em;
