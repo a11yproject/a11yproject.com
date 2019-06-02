@@ -21,12 +21,12 @@
 
 
 .c-get-started__link {
-  background-color: c(a11y, accent);
-  border: 0.5rem solid c(base, background);
-  color: c(a11y, text);
+  background-color: $color-pink-tint;
+  border: $border-thick solid $color-sand;
+  color: $color-black;
   font-family: $font-family-secondary;
   font-size: 1.25rem;
-  letter-spacing: 0.15ch;
+  letter-spacing: $font-tracking-slight;
   padding: 1rem 0;
   text-align: center;
   text-transform: uppercase;
@@ -35,5 +35,11 @@
   // Supports
   @supports #{$supports-grid} {
     grid-area: get-started;
+  }
+
+  // States
+  &:hover,
+  &:focus {
+    text-decoration: underline;
   }
 }

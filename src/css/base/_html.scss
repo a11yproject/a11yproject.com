@@ -5,8 +5,8 @@
 //
 // Styleguide Base.html
 html {
-  background-color: c(base, background);
-  color: c(base, text);
+  background-color: $color-sand;
+  color: $color-black;
   font-family: $font-family-primary;
   font-size: $global-type-size;
   font-weight: $font-weight-regular;

@@ -55,7 +55,7 @@
 
   pre,
   blockquote {
-    border: border(thinnest) solid #000000;
+    border: $border-thinnest solid #000000;
     page-break-inside: avoid;
   }
 

@@ -7,8 +7,8 @@
 //
 // Style guide: Components.a11y
 .c-a11y {
-  background-color: c(a11y, background);
-  border-top: 0.5rem solid c(a11y, accent);
+  background-color: $color-white;
+  border-top: $border-thick solid $color-pink-tint;
   padding: 3rem 5rem;
 
   // Supports
@@ -26,7 +26,7 @@
 .c-a11y__accessibility {
   display: block;
   font-family: $font-family-secondary;
-  letter-spacing: 0.5ch;
+  letter-spacing: $font-tracking-loose;
   text-transform: uppercase;
 }
 

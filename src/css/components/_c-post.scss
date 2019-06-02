@@ -1,0 +1,51 @@
+// c-post
+//
+// TODO: Write description.
+//
+// Markup:
+// TODO: Write markup
+//
+// Style guide: Components.c-post
+.c-post__category {
+background-color: blueviolet;
+    // Supports
+    @supports #{$supports-grid} {
+      grid-area: category;
+    }
+}
+
+
+.c-post__title {
+background-color: teal;
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: title;
+  }
+}
+
+
+.c-post__metadata {
+background-color: tomato;
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: metadata;
+  }
+}
+
+
+.c-post__content {
+background-color: yellow;
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: post;
+  }
+}
+
+
+.c-post__toc {
+background-color: orange;
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: toc;
+  }
+}

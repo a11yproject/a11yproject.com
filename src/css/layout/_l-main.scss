@@ -1,0 +1,8 @@
+.l-main {
+  // Supports
+  @supports #{$supports-grid} {
+    display: grid;
+    grid-template-columns: 14rem 4rem 12fr 2rem;
+    grid-template-areas: "toc . content .";
+  }
+}

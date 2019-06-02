@@ -7,8 +7,8 @@
 //
 // Style guide: Components.c-toc
 .c-toc {
-  text-align: right;
   list-style-type: none;
+  text-align: right;
 }
 
 
@@ -20,15 +20,15 @@
 
 
 .c-toc__link {
-  color: c(toc, link-resting);
+  color: $color-black;
   font-family: $font-family-secondary;
-  letter-spacing: 0.15ch;
+  letter-spacing: $font-tracking-slight;
   text-decoration: none;
   text-transform: uppercase;
 
   &::before {
     content: ""; // Keeps text from shifting when the horizontal bar is shown on hover/focus
-    border-top: 1ch solid c(base, background); // Provides a border-color to transition
+    border-top: $border-thick solid $color-sand; // Provides a border-color to transition
     transition: $animation-duration-short $animation-easing-character border;
   }
 
@@ -47,16 +47,18 @@
   }
 
   // States
-  &:hover,
-  &:focus {
-    &::before {
-      border-top: 1ch solid #f1cbe6;
+  @supports #{$supports-grid} {
+    &:hover,
+    &:focus {
+      &::before {
+        border-top: $border-thick solid $color-pink-tint;
+      }
     }
-  }
 
-  &[aria-current] {
-    &::before {
-      border-top: 1ch solid c(themes, homepage);
+    &[aria-current] {
+      &::before {
+        border-top: $border-thick solid $color-pink;
+      }
     }
   }
 }

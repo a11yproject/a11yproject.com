@@ -1,0 +1,6 @@
+.l-sponsors {
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: sponsors;
+  }
+}

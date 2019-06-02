@@ -1,0 +1,14 @@
+.l-post {
+  // Supports
+  @supports #{$supports-grid} {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1rem 1fr;
+    grid-template-rows: auto 7rem 2rem 30rem auto;
+    grid-template-areas:
+      "header   header   header   header   header"
+      "category title    title    .        ."
+      ".        metadata metadata .        ."
+      ".        post     post     .        toc"
+      "sponsors sponsors sponsors sponsors sponsors";
+  }
+}

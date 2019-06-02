@@ -1,11 +1,33 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-post
+templateClass: l-post
 ---
-<article>
-  <h1 id="main_heading">{{ title }}</h1>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <aside class="c-post__category">
+    <p>{{ categories }}</p>
+  </aside>
 
-  {{ content | safe }}
+  <header>
+    <h1 id="title" class="c-post__title" itemprop="name headline">
+      {{ title }}
+    </h1>
 
-    <p><a href="{{ '/' | url }}">← Home</a></p>
+    <ul id="metadata" class="c-post__metadata">
+      <li class="c-post__author"><small>{{ author }}</small>
+      <li class="c-post__year"><small>{{ year }}</small>
+    </ul>
+  </header>
+
+  <nav id="table-of-contents" class="c-post__toc" aria-label="Table of contents">
+    <ol class="c-toc">
+      <li class="c-toc__list-item">
+        <a class="c-toc__link"href="">Short answer</a>
+      </li>
+    </ol>
+  </nav>
+
+  <div class="c-post__content" itemprop="articleBody">
+    {# {{ content | safe }} #}
+  </div>
 </article>
+

@@ -41,6 +41,7 @@
   "logic/variables.supports",
   "logic/variables.animation-duration",
   "logic/variables.animation-easing",
+  "logic/variables.borders",
   "logic/variables.font-families",
   "logic/variables.font-tracking",
   "logic/variables.font-weights",
@@ -57,7 +58,6 @@
 // Styleguide Logic.Maps
 @import
   "logic/maps.breakpoints",
-  "logic/maps.colors",
   "logic/maps.z-index";
 
 // Functions
@@ -69,7 +69,6 @@
 // Styleguide Logic.Functions
 @import
   "logic/functions.strip-unit",
-  "logic/functions.c",
   "logic/functions.em",
   "logic/functions.rem",
   "logic/functions.modular-scale",
@@ -120,10 +119,12 @@
 //
 // Styleguide Layout
 @import
-  "layout/header",
-  "layout/hero",
-  "layout/main",
-  "layout/toc";
+  "layout/l-header",
+  "layout/l-hero",
+  "layout/l-main",
+  "layout/l-post",
+  "layout/l-sponsors",
+  "layout/l-toc";
 
 
 // Utilities
@@ -153,11 +154,13 @@
 //
 // Styleguide Components
 @import
-  "components/a11y",
-  "components/get-started",
-  "components/headings",
-  "components/toc",
-  "components/primary-nav";
+  "components/c-a11y",
+  "components/c-get-started",
+  "components/c-headings",
+  "components/c-home",
+  "components/c-post",
+  "components/c-toc",
+  "components/c-primary-nav";
 
 
 // Media

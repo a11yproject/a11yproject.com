@@ -1,0 +1,14 @@
+// c-home
+//
+// TODO: Write description.
+//
+// Markup:
+// TODO: Write markup
+//
+// Style guide: Components.c-home
+.c-home__content {
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: content;
+  }
+}

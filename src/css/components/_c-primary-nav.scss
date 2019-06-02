@@ -7,12 +7,12 @@
 //
 // Style guide: Components.Navigation.c-primary-nav
 .c-primary-nav {
-  background-color: c(primary-nav, background);
+  background-color: $color-black;
   padding: 1.25rem 2rem;
 
   // Contexts
   .l-home & {
-    background-color: c(hero, homepage);
+    background-color: $color-green-shade;
   }
 
   // Supports
@@ -35,7 +35,7 @@
 
 
 .c-primary-nav__link {
-  color: c(primary-nav, link-resting);
+  color: $color-white;
   font-family: $font-family-secondary;
   margin-right: 1rem;
   padding: 0.5rem 1rem;
@@ -50,6 +50,6 @@
 
 
 .c-primary-nav__link--contribute {
-  background-color: c(primary-nav, link-resting);
-  color: c(primary-nav, background);
+  background-color: $color-white;
+  color: $color-black;
 }

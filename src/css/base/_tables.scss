@@ -82,11 +82,11 @@ table {
 
     tr {
       th {
-        border-top: 1px solid currentColor;
+        border-top: $border-thinnest solid currentColor;
       }
 
       td {
-        border-top: 1px solid currentColor;
+        border-top: $border-thinnest solid currentColor;
       }
     }
   }
@@ -96,7 +96,7 @@ table {
     tr {
 
       td {
-        border-top: 1px solid currentColor;
+        border-top: $border-thinnest solid currentColor;
       }
     }
   }
