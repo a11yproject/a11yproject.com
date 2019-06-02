@@ -182,7 +182,7 @@ $(document).ready(function(){
           var
             howMany = 18,
             baseUrl = 'https://api.github.com/repos/a11yproject/a11yproject.com/contributors?per_page='+howMany+'&callback=?',
-            $contributorsOutput = $("#contributors-list"),
+            $contributorsOutput = $(".contributors-list"),
             $paginationOutput = $(".contributors-pagination"),
             paginationClass = "contributors-pagination-link",
             $pager = $(".pager");
