@@ -9,6 +9,6 @@
 .c-home__content {
   // Supports
   @supports #{$supports-grid} {
-    grid-area: content;
+    // grid-area: content;
   }
 }

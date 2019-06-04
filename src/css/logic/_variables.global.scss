@@ -5,6 +5,14 @@
 // Styleguide Logic.Variables.Global
 
 
+// global-bleed
+//
+// Sets the outermost spacing area for content and the browser viewport.
+//
+// Styleguide Logic.Variables.Global.global-bleed
+$global-bleed: 2rem;
+
+
 // global-type-size
 //
 // Sets the initial document font size in pixels. Used for things like `em`
@@ -28,4 +36,4 @@ $global-type-scale: 1.333;
 // Sets the maximum width for large amounts of text content.
 //
 // Styleguide Logic.Variables.Global.global-type-measure
-$global-type-measure: 70ex;
+$global-type-measure: 66ex;

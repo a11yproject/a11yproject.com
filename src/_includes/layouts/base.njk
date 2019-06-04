@@ -1,6 +1,6 @@
-<!doctype html>
+<!doctype html class="no-js">
+<!-- Current page: {{ page.url | url }} -->
 <html lang="en" itemscope itemtype="http://schema.org/Webpage">
-  <!-- Current page: {{ page.url | url }} -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -22,16 +22,14 @@
     {# TODO: Perf: https://github.com/ericwbailey/enchilada/tree/master/source/meta/performance #}
   </head>
   <body {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-
     {% include "header.njk" %}
 
-    <main id="main">
+    <main id="main" class="l-main">
       {{ content | safe }}
     </main>
 
     {% include "sponsors.njk" %}
 
     {% include "footer.njk" %}
-
   </body>
 </html>

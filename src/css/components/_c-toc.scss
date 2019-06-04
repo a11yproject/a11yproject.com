@@ -7,29 +7,40 @@
 //
 // Style guide: Components.c-toc
 .c-toc {
-  list-style-type: none;
+  @include preserve-list-semantics();
+
   text-align: right;
 }
 
 
 .c-toc__list-item {
-  @include preserve-list-semantics();
-
-  margin-top: 0.5rem;
+  font-family: $font-family-secondary;
+  letter-spacing: $font-tracking-slight;
+  line-height: $line-height-tight;
+  text-transform: uppercase;
 }
 
 
 .c-toc__link {
-  color: $color-black;
-  font-family: $font-family-secondary;
-  letter-spacing: $font-tracking-slight;
   text-decoration: none;
-  text-transform: uppercase;
 
-  &::before {
-    content: ""; // Keeps text from shifting when the horizontal bar is shown on hover/focus
-    border-top: $border-thick solid $color-sand; // Provides a border-color to transition
-    transition: $animation-duration-short $animation-easing-character border;
+  // Contexts
+  .c-toc--home & {
+    color: $color-black;
+
+    &::before {
+      content: ""; // Keeps text from shifting when the horizontal bar is shown on hover/focus
+      border-width: $border-thick;
+      border-block-style: solid;
+      border-color: $color-sand; // Provides a border-color to transition
+      transition: $animation-duration-short $animation-easing-character border;
+    }
+  }
+
+  // Contexts
+  .c-toc--post & {
+    color: $color-gray-shade;
+    transition: $animation-duration-short $animation-easing-character color;
   }
 
   // Supports
@@ -44,20 +55,45 @@
     &::before {
       transition: none;
     }
+
+    // Contexts
+    .c-toc--post & {
+      transition: none;
+    }
   }
 
   // States
   @supports #{$supports-grid} {
     &:hover,
     &:focus {
-      &::before {
-        border-top: $border-thick solid $color-pink-tint;
+      // Contexts
+      .c-toc--home & {
+        &::before {
+          border-color: $color-pink-tint;
+        }
+      }
+
+      .c-toc--post & {
+        color: $color-black;
+      }
+    }
+
+    &:active {
+      // Contexts
+      .c-toc--home & {
+        color: $color-pink-tint;
       }
     }
 
     &[aria-current] {
-      &::before {
-        border-top: $border-thick solid $color-pink;
+      // Contexts
+      .c-toc--home & {
+        &::before {
+          border-color:$color-pink;
+        }
+      }
+
+      .c-toc--post & {
       }
     }
   }

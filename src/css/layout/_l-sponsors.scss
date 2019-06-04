@@ -1,4 +1,6 @@
 .l-sponsors {
+  margin-top: 8rem;
+
   // Supports
   @supports #{$supports-grid} {
     grid-area: sponsors;

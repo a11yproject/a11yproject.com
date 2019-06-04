@@ -1,33 +1,43 @@
 ---
 layout: layouts/base.njk
-templateClass: l-post
+templateClass: template-post
 ---
-<article itemscope itemtype="http://schema.org/BlogPosting">
-  <aside class="c-post__category">
-    <p>{{ categories }}</p>
-  </aside>
+<article class="l-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="l-post__header">
+    <div class="l-post__category c-post__category">
+      <p>{{ categories }}</p>
+    </div>
 
-  <header>
-    <h1 id="title" class="c-post__title" itemprop="name headline">
+    <h1 id="title" class="l-post__title c-post__title" itemprop="name headline">
       {{ title }}
     </h1>
 
-    <ul id="metadata" class="c-post__metadata">
-      <li class="c-post__author"><small>{{ author }}</small>
-      <li class="c-post__year"><small>{{ year }}</small>
-    </ul>
+    <p id="metadata" class="l-post__metadata c-post__metadata">
+      <span class="c-post__metadata--author">{{ author }}</span>
+      {% if year %}<span class="c-post__metadata--published">{{ year }}</span>{% endif %}
+      {% if last_updated %}<span class="c-post__metadata--updated">{{ last_updated }}</span>{% endif %}
+    </p>
+
+    <nav id="table-of-contents" class="l-post__toc c-post__toc" aria-label="Table of contents">
+      <ol class="c-toc c-toc--post">
+        <li class="c-toc__list-item">
+          <a class="c-toc__link" href="">Short answer</a>
+        </li>
+        <li class="c-toc__list-item">
+          <a class="c-toc__link" href="">Example</a>
+        </li>
+        <li class="c-toc__list-item">
+          <a class="c-toc__link" href="">Notes</a>
+        </li>
+        <li class="c-toc__list-item">
+          <a class="c-toc__link" href="">Related posts</a>
+        </li>
+      </ol>
+    </nav>
   </header>
 
-  <nav id="table-of-contents" class="c-post__toc" aria-label="Table of contents">
-    <ol class="c-toc">
-      <li class="c-toc__list-item">
-        <a class="c-toc__link"href="">Short answer</a>
-      </li>
-    </ol>
-  </nav>
-
-  <div class="c-post__content" itemprop="articleBody">
-    {# {{ content | safe }} #}
+  <div id="short-answer" class="l-post__content c-post__content" itemprop="articleBody">
+    {{ content | safe }}
   </div>
 </article>
 

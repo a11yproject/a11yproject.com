@@ -1,9 +1,6 @@
 .l-toc {
-  margin-top: 2rem;
-
   // Supports
   @supports #{$supports-grid} {
     grid-area: toc;
-    margin-top: 0;
   }
 }

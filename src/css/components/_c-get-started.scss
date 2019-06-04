@@ -13,7 +13,7 @@
   // Supports
   @supports #{$supports-grid} {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr minmax(0, 51vw) 1fr;
     grid-template-areas:
       ". get-started .";
   }

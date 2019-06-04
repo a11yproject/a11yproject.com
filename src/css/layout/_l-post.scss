@@ -1,14 +1,72 @@
+$_l-post-content-start: 2rem;
+
+
 .l-post {
+  margin-top: 4rem;
+
   // Supports
   @supports #{$supports-grid} {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1rem 1fr;
-    grid-template-rows: auto 7rem 2rem 30rem auto;
+    grid-template-columns: 10rem 0.5rem 2fr 0.5fr 10rem;
     grid-template-areas:
-      "header   header   header   header   header"
-      "category title    title    .        ."
-      ".        metadata metadata .        ."
-      ".        post     post     .        toc"
-      "sponsors sponsors sponsors sponsors sponsors";
+      "header header header header header"
+      "header header header header header"
+      ". post post . .";
+  }
+}
+
+
+.l-post__category {
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: category;
+  }
+}
+
+
+.l-post__header {
+  // Supports
+  @supports #{$supports-grid} {
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 10rem 0.5rem 2fr 0.5fr 10rem;
+    grid-template-areas:
+      "category . title    .    ."
+      ".        . metadata . ."
+      ".        . .        .        toc";
+  }
+}
+
+.l-post__title {
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: title;
+  }
+}
+
+.l-post__metadata {
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: metadata;
+  }
+}
+
+.l-post__toc {
+  margin-top: $_l-post-content-start;
+
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: toc;
+  }
+}
+
+
+.l-post__content {
+  margin-top: $_l-post-content-start;
+
+  // Supports
+  @supports #{$supports-grid} {
+    grid-column: 3 / 4;
+    grid-row: 2 / span 3; // Allows the start of the post to sit flush with the ToC
   }
 }

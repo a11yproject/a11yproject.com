@@ -1,0 +1,8 @@
+.l-content {
+  max-width: $global-type-measure;
+
+  // Supports
+  @supports #{$supports-grid} {
+    grid-area: content;
+  }
+}
