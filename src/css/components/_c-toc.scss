@@ -51,6 +51,7 @@
     grid-template-columns: minmax(0, 1fr) auto;
   }
 
+  // User Queries
   @media screen and (prefers-reduced-motion: reduce) {
     &::before {
       transition: none;
@@ -75,6 +76,13 @@
 
       .c-toc--post & {
         color: $color-black;
+
+        &::before {
+          content: "|";
+          color: $color-green;
+          position: absolute;
+          right: 1ex;
+        }
       }
     }
 
