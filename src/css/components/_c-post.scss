@@ -1,4 +1,6 @@
 $_c-post-content-inset: 1rem;
+$_c-post-content-inset-palm-medium: 3rem;
+$_c-post-content-inset-lap-small: 10rem;
 $_c-post-breathing-room: 6ex;
 $_c-post-vertical-spacing: 4ex;
 
@@ -17,19 +19,36 @@ $_c-post-vertical-spacing: 4ex;
   p {
     border-bottom: $border-thinnest solid $color-green;
     color: $color-green;
-    font-size: 1.25rem;
-    padding: 1rem $_c-post-content-inset 1rem 0;
-    text-align: right;
+    font-size: 1rem;
+    padding: 0.5rem 0 0.5rem $_c-post-content-inset;
     text-transform: uppercase;
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      padding-left: $_c-post-content-inset-palm-medium;
+    }
+
+    @include mappy-bp(lap-small) {
+      font-size: 1.25rem;
+    }
   }
 }
 
 
 .c-post__title {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: $line-height-tight;
   margin: 0.75rem 0 2rem $_c-post-content-inset;
-  max-width: $global-type-measure;
+
+  // Breakpoints
+  @include mappy-bp(palm-medium) {
+    margin-left: $_c-post-content-inset-palm-medium;
+  }
+
+  @include mappy-bp(lap-small) {
+    font-size: 3rem;
+    max-width: $global-type-measure;
+  }
 }
 
 
@@ -38,13 +57,21 @@ $_c-post-vertical-spacing: 4ex;
   border-bottom: $border-thick solid $color-green;
   font-size: 0.8rem;
   list-style-type: none;
-  padding: 0.75rem 0 0.75rem $_c-post-content-inset;
+  padding: 0.75rem $_c-post-content-inset;
   text-transform: uppercase;
+
+  // Breakpoints
+  @include mappy-bp(palm-medium) {
+    padding-left: $_c-post-content-inset-palm-medium;
+  }
 
   // Supports
   @supports #{$supports-flex} {
-    display: flex;
-    flex-direction: row;
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      display: flex;
+      flex-direction: row;
+    }
   }
 }
 
@@ -55,24 +82,53 @@ $_c-post-vertical-spacing: 4ex;
 }
 
 .c-post__metadata--author {
-  flex-grow: 2;
+  margin-bottom: 0.75rem;
+
+  // Supports
+  @supports #{$supports-flex} {
+    flex-grow: 2;
+
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      flex-grow: 4;
+      margin-bottom: 0;
+    }
+  }
 }
 
 .c-post__metadata--published,
 .c-post__metadata--updated {
-  flex-grow: 1;
+  // Supports
+  @supports #{$supports-flex} {
+    flex-grow: 1;
+  }
 }
 
 
 .c-post__list-item {
-  flex-grow: 1;
   text-transform: uppercase;
+
+  // Supports
+  @supports #{$supports-flex} {
+    flex-grow: 1;
+  }
 }
 
 
 .c-post__content {
   line-height: $line-height-double;
   margin-left: $_c-post-content-inset;
+  margin-right: $_c-post-content-inset;
+
+  // Breakpoints
+  @include mappy-bp(palm-medium) {
+    margin-left: $_c-post-content-inset-palm-medium;
+  }
+
+  @include mappy-bp(lap-small) {
+    margin-left: $_c-post-content-inset-lap-small;
+    margin-right: 0;
+  }
 
   // Measure
   dl,
@@ -200,15 +256,28 @@ $_c-post-vertical-spacing: 4ex;
 
   h2,
   h3 {
-    margin-left: -$_c-post-content-inset;
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      margin-left: -$_c-post-content-inset;
+    }
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
+
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      font-size: 2rem;
+    }
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      font-size: 1.5rem;
+    }
   }
 
   ol {
@@ -236,10 +305,16 @@ $_c-post-vertical-spacing: 4ex;
   p {
     &:first-of-type {
       font-family: $font-family-secondary;
-      font-size: 1.25rem;
+      font-size: 1.15rem;
       line-height: $line-height-looser;
       margin-top: 0;
-      margin-bottom: $_c-post-vertical-spacing * 2;
+      margin-bottom: $_c-post-vertical-spacing * 1.25;
+
+      // Breakpoints
+      @include mappy-bp(lap-small) {
+        font-size: 1.25rem;
+        margin-bottom: $_c-post-vertical-spacing * 1.5;
+      }
 
       code,
       kbd {
@@ -252,6 +327,13 @@ $_c-post-vertical-spacing: 4ex;
     @include preserve-list-semantics();
 
     li {
+      margin-left: 1.75rem;
+
+      // Breakpoints
+      @include mappy-bp(lap-small) {
+        margin-left: 0;
+      }
+
       &::before {
         content: "─";
         display: block;
@@ -260,7 +342,7 @@ $_c-post-vertical-spacing: 4ex;
         height: 1rem;
         position: relative;
           top: rem(20);
-          right: 2rem;
+          right: rem(36);
         width: 1rem;
       }
     }

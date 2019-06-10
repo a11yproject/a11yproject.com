@@ -13,9 +13,21 @@ templateClass: template-post
     </h1>
 
     <p id="metadata" class="l-post__metadata c-post__metadata">
-      <span class="c-post__metadata--author">{{ author }}</span>
-      {% if year %}<span class="c-post__metadata--published">{{ year }}</span>{% endif %}
-      {% if last_updated %}<span class="c-post__metadata--updated">{{ last_updated }}</span>{% endif %}
+      {% if author %}
+        <span class="c-post__metadata--author">
+          By:&#8194;{{ author }}<span class="u-hide-visually">.</span>
+        </span>
+      {% endif %}
+      {% if date %}
+        <span class="c-post__metadata--published">
+          Published:&#8194;<time datetime="{{ page.date | htmlDateString }}">{{ page.date | htmlDateString }}</time><span class="u-hide-visually">.</span>
+        </span>
+      {% endif %}
+      {% if last_updated %}
+        <span class="c-post__metadata--updated">
+          Updated:&#8194;<time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | htmlDateString }}</time><span class="u-hide-visually">.</span>
+        </span>
+      {% endif %}
     </p>
 
     <nav id="table-of-contents" class="l-post__toc c-post__toc" aria-label="Table of contents">
@@ -38,6 +50,7 @@ templateClass: template-post
 
   <div id="short-answer" class="l-post__content c-post__content" itemprop="articleBody">
     {{ content | safe }}
+    {# hey #}
   </div>
 </article>
 

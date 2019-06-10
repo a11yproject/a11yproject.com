@@ -4,17 +4,22 @@ $_l-post-grid-toc: 10rem;
 
 
 .l-post {
-  margin-top: 4rem;
+  margin-top: 2rem;
+
+  // Breakpoints
+  @include mappy-bp(lap-small) {
+    margin-top: 4rem;
+  }
 
   // Supports
-  @supports #{$supports-grid} {
-    display: grid;
-    grid-template-columns: $_l-post-grid-category $_l-post-grid-gutter 2fr 0.5fr $_l-post-grid-toc;
-    grid-template-areas:
-      "header header header header header"
-      "header header header header header"
-      ".      post   post   .      .";
-  }
+  // @supports #{$supports-grid} {
+  //   display: grid;
+  //   grid-template-columns: $_l-post-grid-category $_l-post-grid-gutter 2fr 0.5fr $_l-post-grid-toc;
+  //   grid-template-areas:
+  //     "header header header header header"
+  //     "header header header header header"
+  //     ".      post   post   .      .";
+  // }
 }
 
 
@@ -28,15 +33,15 @@ $_l-post-grid-toc: 10rem;
 
 .l-post__header {
   // Supports
-  @supports #{$supports-grid} {
-    display: grid;
-    grid-area: header;
-    grid-template-columns: $_l-post-grid-category $_l-post-grid-gutter 2fr 0.5fr $_l-post-grid-toc;
-    grid-template-areas:
-      "category . title    title ."
-      ".        . metadata .     ."
-      ".        . .        .     toc";
-  }
+  // @supports #{$supports-grid} {
+  //   display: grid;
+  //   grid-area: header;
+  //   grid-template-columns: $_l-post-grid-category $_l-post-grid-gutter 2fr 0.5fr $_l-post-grid-toc;
+  //   grid-template-areas:
+  //     "category . title    title ."
+  //     ".        . metadata .     ."
+  //     ".        . .        .     toc";
+  // }
 }
 
 .l-post__title {
@@ -47,7 +52,12 @@ $_l-post-grid-toc: 10rem;
 }
 
 .l-post__metadata {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+
+  // Breakpoints
+  @include mappy-bp(lap-small) {
+    margin-bottom: 4rem;
+  }
 
   // Supports
   @supports #{$supports-grid} {
@@ -69,8 +79,8 @@ $_l-post-grid-toc: 10rem;
  margin-top: 2.5rem; // Tweak to align baselines. See: `l-post__toc`
 
   // Supports
-  @supports #{$supports-grid} {
-    grid-column: 3 / 4;
-    grid-row: 2 / span 3; // Allows the start of the post to sit flush with the ToC
-  }
+  // @supports #{$supports-grid} {
+  //   grid-column: 3 / 4;
+  //   grid-row: 2 / span 3; // Allows the start of the post to sit flush with the ToC
+  // }
 }

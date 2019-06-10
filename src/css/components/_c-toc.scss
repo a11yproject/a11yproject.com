@@ -9,7 +9,16 @@
 .c-toc {
   @include preserve-list-semantics();
 
-  text-align: right;
+  margin-left: 0.5rem;
+
+  // Breakpoints
+  @include mappy-bp(palm-medium) {
+    margin-left: 2.5rem;
+  }
+
+  @include mappy-bp(lap-small) {
+    margin-left: 9.5rem;
+  }
 }
 
 
@@ -17,6 +26,7 @@
   font-family: $font-family-secondary;
   letter-spacing: $font-tracking-slight;
   line-height: $line-height-tight;
+  margin-top: 1rem;
   text-transform: uppercase;
 }
 
@@ -28,42 +38,74 @@
   .c-toc--home & {
     color: $color-black;
 
-    &::before {
-      content: ""; // Keeps text from shifting when the horizontal bar is shown on hover/focus
-      border-width: $border-thick;
-      border-block-style: solid;
-      border-color: $color-sand; // Provides a border-color to transition
-      transition: $animation-duration-short $animation-easing-character border;
-    }
+    // &::before {
+    //   content: ""; // Keeps text from shifting when the horizontal bar is shown on hover/focus
+    //   border-width: $border-thick;
+    //   border-block-style: solid;
+    //   border-color: $color-sand; // Provides a border-color to transition
+    //   transition: $animation-duration-short $animation-easing-character border;
+    // }
+
+    // User Queries
+    @media screen and (prefers-reduced-motion: reduce) {
+    // &::before {
+    //   transition: none;
+    // }
+  }
   }
 
-  // Contexts
   .c-toc--post & {
+    border-bottom: $border-thinnest solid $color-sand;
     color: $color-gray-shade;
-    transition: $animation-duration-short $animation-easing-character color;
+    transition:
+      $animation-duration-short $animation-easing-character color,
+      $animation-duration-short $animation-easing-character border;
+
+    // States
+    &:hover,
+    &:focus {
+      border-bottom-color: $color-green;
+      color: $color-black;
+    }
+
+    // User Queries
+    @media screen and (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
   }
 
   // Supports
-  @supports #{$supports-grid} {
-    align-items: center;
-    display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: minmax(0, 1fr) auto;
-  }
-
-  // User Queries
-  @media screen and (prefers-reduced-motion: reduce) {
-    &::before {
-      transition: none;
-    }
-
-    // Contexts
-    .c-toc--post & {
-      transition: none;
-    }
-  }
+  // @supports #{$supports-grid} {
+  //   align-items: center;
+  //   display: grid;
+  //   grid-gap: 1rem;
+  //   grid-template-columns: minmax(0, 1fr) auto;
+  // }
 
   // States
+  // &:hover,
+  // &:focus {
+  //   .c-toc--post & {
+  //     color: $color-black;
+
+  //     &::before,
+  //     &::after {
+  //       color: $color-green;
+  //     }
+
+  //     &::before {
+  //       content: "|";
+  //       position: absolute;
+  //         right: 2.5rem;
+
+  //       // Breakpoints
+  //       @include mappy-bp(palm-medium) {
+  //         left: 2.5rem;
+  //       }
+  //     }
+  //   }
+  // }
+
   @supports #{$supports-grid} {
     &:hover,
     &:focus {
@@ -74,16 +116,16 @@
         }
       }
 
-      .c-toc--post & {
-        color: $color-black;
+      // .c-toc--post & {
+      //   color: $color-black;
 
-        &::before {
-          content: "|";
-          color: $color-green;
-          position: absolute;
-          right: 1ex;
-        }
-      }
+      //   &::before {
+      //     content: "|";
+      //     color: $color-green;
+      //     position: absolute;
+      //     right: 1ex;
+      //   }
+      // }
     }
 
     &:active {
