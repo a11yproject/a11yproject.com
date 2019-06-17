@@ -1,0 +1,22 @@
+.l-primary-nav {
+  // Supports
+  @supports #{$supports-flex} {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.l-primary-nav__logo {
+
+}
+
+.l-primary-nav__sections {
+  margin-top: 1rem;
+
+  // Supports
+  @supports #{$supports-flex} {
+    margin-top: 0;
+  }
+}

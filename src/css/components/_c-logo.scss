@@ -1,0 +1,35 @@
+// c-logo
+//
+// TODO: Write description.
+//
+// Markup:
+// TODO: Write markup
+//
+// Style guide: Components.c-logo
+.c-logo {
+}
+
+
+.c-logo__link {
+  // States
+  &:hover,
+  &:focus {
+    &::before {
+      background-color: $color-gray-tint;
+      content: "";
+      display: block;
+      height: $border-thinner;
+      position: absolute;
+        top: rem(62);
+        left: rem(113);
+      width: rem(181);
+    }
+  }
+
+}
+
+
+.c-logo__graphic {
+  display: block;
+  fill: $color-white;
+}
