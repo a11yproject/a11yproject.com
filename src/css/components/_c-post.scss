@@ -1,6 +1,6 @@
 $_c-post-content-inset: 1rem;
-$_c-post-content-inset-palm-medium: 3rem;
-$_c-post-content-inset-lap-small: 10rem;
+$_c-post-content-inset-medium: 3rem;
+$_c-post-content-inset-large: 7rem;
 $_c-post-breathing-room: 6ex;
 $_c-post-vertical-spacing: 4ex;
 
@@ -18,19 +18,53 @@ $_c-post-vertical-spacing: 4ex;
 
   p {
     border-bottom: $border-thinnest solid $color-green;
-    color: $color-green;
     font-size: 1rem;
     padding: 0.5rem 0 0.5rem $_c-post-content-inset;
     text-transform: uppercase;
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
-      padding-left: $_c-post-content-inset-palm-medium;
+      padding-left: $_c-post-content-inset-medium;
     }
 
     @include mappy-bp(lap-small) {
       font-size: 1.25rem;
     }
+
+    // Supports
+    @supports #{$supports-grid} {
+      // Breakpoints
+      @include mappy-bp(lap-small) {
+        padding-left: 0;
+        padding-right: $_c-post-content-inset;
+        text-align: right;
+      }
+    }
+  }
+}
+
+.c-post__category__link {
+  color: $color-green;
+  text-decoration: none;
+
+  // States
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    background-color: $color-green;
+    color: $color-white;
+    outline: $border-thick solid $color-green;
+  }
+
+  &:active {
+    @include shift-click();
+
+    background-color: transparent;
+    color: $color-green;
+    outline: none;
+    text-decoration: none;
   }
 }
 
@@ -42,12 +76,20 @@ $_c-post-vertical-spacing: 4ex;
 
   // Breakpoints
   @include mappy-bp(palm-medium) {
-    margin-left: $_c-post-content-inset-palm-medium;
+    margin-left: $_c-post-content-inset-medium;
   }
 
   @include mappy-bp(lap-small) {
     font-size: 3rem;
     max-width: $global-type-measure;
+  }
+
+  // Supports
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      margin: 0.5rem 0 2rem $_c-post-content-inset;
+    }
   }
 }
 
@@ -62,7 +104,7 @@ $_c-post-vertical-spacing: 4ex;
 
   // Breakpoints
   @include mappy-bp(palm-medium) {
-    padding-left: $_c-post-content-inset-palm-medium;
+    padding-left: $_c-post-content-inset-medium;
   }
 
   // Supports
@@ -71,6 +113,14 @@ $_c-post-vertical-spacing: 4ex;
     @include mappy-bp(lap-small) {
       display: flex;
       flex-direction: row;
+    }
+  }
+
+  // Supports
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      padding: 0.75rem $_c-post-content-inset;
     }
   }
 }
@@ -122,300 +172,20 @@ $_c-post-vertical-spacing: 4ex;
 
   // Breakpoints
   @include mappy-bp(palm-medium) {
-    margin-left: $_c-post-content-inset-palm-medium;
+    margin-left: $_c-post-content-inset-medium;
   }
 
   @include mappy-bp(lap-small) {
-    margin-left: $_c-post-content-inset-lap-small;
+    margin-left: $_c-post-content-inset-large;
     margin-right: 0;
   }
 
-  // Measure
-  dl,
-  hr,
-  ol,
-  p,
-  ul {
-    max-width: $global-type-measure;
-  }
-
-  // Vertical spacing
-  blockquote,
-  dl,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  ol,
-  p,
-  pre,
-  table,
-  ul {
-    margin-top: $_c-post-vertical-spacing;
-  }
-
-  // Extra breathing room
-  blockquote,
-  figure,
-  pre,
-  table {
-    margin-bottom: $_c-post-breathing-room;
-  }
-
-  // Inline content
-  a {
-    color: $color-green;
-
-    // States
-    &:hover {
-      text-decoration: none;
-    }
-
-    &:focus {
-      background-color: $color-green;
-      color: $color-white;
-      outline: $border-thick solid $color-green;
-    }
-
-    &:active {
-      @include shift-click();
-
-      background-color: transparent;
-      outline: none;
-      color: $color-green;
-    }
-  }
-
-  blockquote,
-  figcaption,
-  li,
-  p {
-    code {
-      background-color: $color-gray-tint;
-      border: 4px solid $color-gray-tint;
-      font-size: 90%;
-      padding: 0 0.25ch;
-      word-break: normal;
-    }
-  }
-
-  kbd {
-    background-color: $color-white;
-    border: rem(4) solid $color-white;
-    border-radius: rem(4);
-    box-shadow: 0 2px 1px 0 $color-gray-shade;
-    margin-left: 0.25ch;
-    margin-right: 0.25ch;
-    padding: 0 0.5ch;
-    word-break: break-word;
-  }
-
-  samp {
-    background-color: $color-pink-tint;
-  }
-
-  // Content
-  blockquote {
-    background-color: $color-white;
-    margin-left: -$_c-post-content-inset * 2;
-    padding: 1rem ($_c-post-content-inset * 2);
-
-    p:first-of-type {
-      margin-bottom: 0;
-    }
-
-    footer {
-      font-size: 90%;
-      margin-top: $_c-post-vertical-spacing / 2;
-
-      cite {
-        font-style: normal;
-      }
-    }
-  }
-
-  dl {
-    @include preserve-list-semantics();
-
-    dt {
-      font-size: 90%;
-      font-weight: $font-weight-bold;
-      margin-top: 1.5rem;
-      margin-left: -$_c-post-content-inset;
-    }
-  }
-
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    line-height: $line-height-tight;
-  }
-
-  h2,
-  h3 {
+  // Supports
+  @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
-      margin-left: -$_c-post-content-inset;
+      margin-left: $_c-post-content-inset;
+      margin-right: 0;
     }
-  }
-
-  h2 {
-    font-size: 1.75rem;
-
-    // Breakpoints
-    @include mappy-bp(lap-small) {
-      font-size: 2rem;
-    }
-  }
-
-  h3 {
-    font-size: 1.25rem;
-
-    // Breakpoints
-    @include mappy-bp(lap-small) {
-      font-size: 1.5rem;
-    }
-  }
-
-  ol {
-    @include preserve-list-semantics();
-
-    counter-reset: ordered-list;
-
-    li {
-      counter-increment: ordered-list;
-
-      &::before {
-        content: counter(ordered-list);
-        display: block;
-        font-family: $font-family-secondary;
-        font-size: 3ex;
-        height: 1rem;
-        position: relative;
-          top: rem(9);
-          right: 1.75rem;
-        width: 1rem;
-      }
-    }
-  }
-
-  p {
-    &:first-of-type {
-      font-family: $font-family-secondary;
-      font-size: 1.15rem;
-      line-height: $line-height-looser;
-      margin-top: 0;
-      margin-bottom: $_c-post-vertical-spacing * 1.25;
-
-      // Breakpoints
-      @include mappy-bp(lap-small) {
-        font-size: 1.25rem;
-        margin-bottom: $_c-post-vertical-spacing * 1.5;
-      }
-
-      code,
-      kbd {
-        font-size: 80%;
-      }
-    }
-  }
-
-  ul {
-    @include preserve-list-semantics();
-
-    li {
-      margin-left: 1.75rem;
-
-      // Breakpoints
-      @include mappy-bp(lap-small) {
-        margin-left: 0;
-      }
-
-      &::before {
-        content: "─";
-        display: block;
-        font-family: $font-family-secondary;
-        font-size: 2ex;
-        height: 1rem;
-        position: relative;
-          top: rem(20);
-          right: rem(36);
-        width: 1rem;
-      }
-    }
-  }
-
-  pre {
-    background-color: $color-black;
-    color: $color-white;
-    padding: 1rem 2rem;
-    margin-left: -$_c-post-content-inset;
-
-    code {
-      line-height: $line-height-double;
-    }
-  }
-
-  table {
-    margin-left: -$_c-post-content-inset;
-
-    tr {
-      transition: $animation-duration-shorter $animation-easing-character background-color;
-
-      // States
-      &:hover {
-        background-color: $color-white;
-      }
-
-      // User Queries
-      @media screen and (prefers-reduced-motion: reduce) {
-        transition: none;
-      }
-    }
-
-    th,
-    td {
-      border-color: $color-gray-shade;
-      padding: 0.75rem;
-    }
-
-    th {
-      font-weight: $font-weight-bold;
-      vertical-align: bottom;
-    }
-
-    thead {
-      border-bottom: $border-thinner solid $color-black;
-    }
-  }
-
-  // CMS
-  .direct-link {
-    font-size: 75%;
-    margin-left: 0.25rem;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-
-    &:focus {
-      background-color: $color-green;
-      color: $color-white;
-      outline: $border-thick solid $color-green;
-    }
-  }
-
-  // Embedded content
-  .twitter-tweet {
-    margin-top: $_c-post-vertical-spacing !important;
-    margin-bottom: $_c-post-breathing-room !important;
-  }
-
-  .cp_embed_wrapper {
-    margin-top: $_c-post-vertical-spacing !important;
   }
 }
