@@ -156,14 +156,6 @@
   }
 
   h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    line-height: $line-height-tight;
-  }
-
-  h2,
   h3 {
     // Breakpoints
     @include mappy-bp(lap-small) {
@@ -172,7 +164,7 @@
   }
 
   h2 {
-    @include heading-beta()
+    @include heading-beta();
   }
 
   h3 {
