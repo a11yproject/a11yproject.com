@@ -70,6 +70,7 @@
 //
 // Style guide: Components.Headings.c-heading-beta
 .c-heading-beta {
+  @include heading-beta();
 }
 
 
@@ -82,6 +83,7 @@
 //
 // Style guide: Components.Headings.c-heading-gamma
 .c-heading-gamma {
+  @include heading-gamma();
 }
 
 
