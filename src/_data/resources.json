@@ -666,6 +666,12 @@
       "url": "https://commonlook.com/pdf-tagging-and-reading-order/"
     },
     {
+      "title": "PDF accessibility introduction",
+      "description": "Although web accessibility is most commonly thought of when talking about digital accessibility, document accessibility also plays an important role. Document formats such as Word, PowerPoint, Excel, ePub, and most commonly PDF, are quite common and are usually linked within web pages or sent via email. As such, it’s important to make sure that those documents are accessible as well.",
+      "source": "Pragmatic Access",
+      "url": "https://pragmaticaccess.com/articles/2019-05-30-pdf-accessibility-introduction"
+    },
+    {
       "title": "WebAIM: PDF Accessibility",
       "description": "Defining Acrobat PDF accessibility.",
       "source": "WebAIM",
