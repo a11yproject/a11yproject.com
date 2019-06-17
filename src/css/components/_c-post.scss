@@ -154,6 +154,16 @@ $_c-post-vertical-spacing: 4ex;
   }
 }
 
+.c-post__metadata-link {
+  color: $color-black;
+
+  // States
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
 
 .c-post__list-item {
   text-transform: uppercase;
