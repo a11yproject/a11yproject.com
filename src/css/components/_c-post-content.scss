@@ -209,6 +209,21 @@
       margin-top: 0;
       margin-bottom: $_c-post-vertical-spacing * 1.25;
 
+      &::before {
+        // Breakpoints
+        @include mappy-bp(lap-small) {
+          background: url("../img/post-section-short-answer.svg") no-repeat center;
+          background-size: cover;
+          content: "";
+          display: block;
+          height: rem(169);
+          margin-top: 1rem;
+          position: absolute;
+            left: 1rem;
+          width: rem(164);
+        }
+      }
+
       // Breakpoints
       @include mappy-bp(lap-small) {
         font-size: 1.25rem;
