@@ -7,8 +7,7 @@
 //
 // Style guide: Components.c-toc
 .c-toc {
-  @include preserve-list-semantics();
-
+  list-style-type: none;
   margin-left: 0.5rem;
 
   // Breakpoints
@@ -16,18 +15,49 @@
     margin-left: 2.5rem;
   }
 
-  @include mappy-bp(lap-small) {
-    margin-left: 9.5rem;
+  @include mappy-bp(lap-medium) {
+    margin-left: 6.5rem;
+  }
+
+  // Supports
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(lap-medium) {
+      margin-top: 1.5rem; // Aligns baseline of first list item with the baseline of the first line of the first paragraph
+      margin-left: 0;
+    }
   }
 }
 
 
+.c-toc--post {
+  padding-right: $global-bleed;
+}
+
 .c-toc__list-item {
   font-family: $font-family-secondary;
   letter-spacing: $font-tracking-slight;
-  line-height: $line-height-tight;
+  line-height: $line-height-loose;
   margin-top: 1rem;
   text-transform: uppercase;
+
+  // Contexts
+  .c-toc--post & {
+    margin-top: 1.25rem;
+
+    // HACK: Ensures that list item content is announced as a list.
+    // See: https://unfetteredthoughts.net/2017/09/26/voiceover-and-list-style-type-none/
+    &::before {
+      content: "-";
+      color: $color-sand;
+      position: absolute;
+      right: 0;
+    }
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
 }
 
 
@@ -74,38 +104,6 @@
     }
   }
 
-  // Supports
-  // @supports #{$supports-grid} {
-  //   align-items: center;
-  //   display: grid;
-  //   grid-gap: 1rem;
-  //   grid-template-columns: minmax(0, 1fr) auto;
-  // }
-
-  // States
-  // &:hover,
-  // &:focus {
-  //   .c-toc--post & {
-  //     color: $color-black;
-
-  //     &::before,
-  //     &::after {
-  //       color: $color-green;
-  //     }
-
-  //     &::before {
-  //       content: "|";
-  //       position: absolute;
-  //         right: 2.5rem;
-
-  //       // Breakpoints
-  //       @include mappy-bp(palm-medium) {
-  //         left: 2.5rem;
-  //       }
-  //     }
-  //   }
-  // }
-
   @supports #{$supports-grid} {
     &:hover,
     &:focus {
@@ -115,17 +113,6 @@
           border-color: $color-pink-tint;
         }
       }
-
-      // .c-toc--post & {
-      //   color: $color-black;
-
-      //   &::before {
-      //     content: "|";
-      //     color: $color-green;
-      //     position: absolute;
-      //     right: 1ex;
-      //   }
-      // }
     }
 
     &:active {
@@ -144,6 +131,7 @@
       }
 
       .c-toc--post & {
+        border-bottom-color: $color-green;
       }
     }
   }
