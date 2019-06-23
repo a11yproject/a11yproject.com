@@ -72,7 +72,6 @@ $_l-post-grid-toc: 1.5fr;
 }
 
 .l-post__toc {
-outline: 1px solid tomato;
   // Supports
   @supports #{$supports-grid} {
     grid-area: toc;
@@ -83,10 +82,13 @@ outline: 1px solid tomato;
 .l-post__content {
   // Supports
   @supports #{$supports-grid} {
+    margin-top: 2rem;
+
     // Breakpoints
     @include mappy-bp(lap-medium) {
       grid-column: 3 / 4;
       grid-row: 2 / span 3; // Allows the start of the post to sit flush with the ToC
+      margin-top: 0;
     }
   }
 }
