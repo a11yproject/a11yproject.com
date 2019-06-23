@@ -37,3 +37,17 @@ $global-type-scale: 1.333;
 //
 // Styleguide Logic.Variables.Global.global-type-measure
 $global-type-measure: 66ex;
+
+
+// global-post-content-inset
+//
+// Map that sets the distance of post content from the lefthand side of the
+// viewport.
+//
+// Styleguide Logic.Variables.Global.global-post-content-inset
+$global-post-content-inset: (
+  small: 1rem,
+  medium: 3rem,
+  large: 7rem
+);
+

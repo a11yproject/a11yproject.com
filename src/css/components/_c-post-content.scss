@@ -127,8 +127,8 @@
   // Content
   blockquote {
     background-color: $color-white;
-    margin-left: -$_c-post-content-inset * 2;
-    padding: 1rem ($_c-post-content-inset * 2);
+    margin-left: map-get($global-post-content-inset, small) * -2;
+    padding: 1rem (map-get($global-post-content-inset, small) * -2);
 
     p:first-of-type {
       margin-bottom: 0;
@@ -151,15 +151,17 @@
       font-size: 90%;
       font-weight: $font-weight-bold;
       margin-top: 1.5rem;
-      margin-left: -$_c-post-content-inset;
+      margin-left: map-get($global-post-content-inset, small) * -1;
     }
   }
 
   h2,
   h3 {
+    line-height: $line-height-tight;
+
     // Breakpoints
     @include mappy-bp(lap-medium) {
-      margin-left: -$_c-post-content-inset;
+      margin-left: map-get($global-post-content-inset, small) * -1;
     }
   }
 
@@ -263,7 +265,7 @@
     background-color: $color-black;
     color: $color-white;
     padding: 1rem 2rem;
-    margin-left: -$_c-post-content-inset;
+    margin-left: map-get($global-post-content-inset, small) * -1;
 
     code {
       line-height: $line-height-double;
@@ -271,10 +273,11 @@
   }
 
   table {
-    margin-left: -$_c-post-content-inset;
+    margin-left: map-get($global-post-content-inset, small) * -1;
 
     tr {
-      transition: $animation-duration-shorter $animation-easing-character background-color;
+      transition:
+        background-color $animation-duration-shorter $animation-easing-character;
 
       // States
       &:hover {
