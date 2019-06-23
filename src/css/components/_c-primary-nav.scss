@@ -40,21 +40,34 @@
 
 
 .c-primary-nav__link {
+  border-bottom: 1px solid $color-black;
   color: $color-white;
   font-family: $font-family-secondary;
   padding: 0.5rem 1rem;
   text-decoration: none;
+  transition: $animation-duration-short $animation-easing-character border-bottom-color;
 
   // States
-  &:hover,
-  &:focus {
-    text-decoration: underline;
+  &:hover {
+    border-bottom-color: $color-white;
   }
 
   &:focus {
     outline: $border-thinner solid $color-white;
   }
+
+  // Contexts
+  .template-home & {
+    border-bottom: 1px solid $color-green-shade;
+  }
+
+  // User Queries
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
 }
+
+
 
 
 .c-primary-nav__link--contribute {
