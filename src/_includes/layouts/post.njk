@@ -5,7 +5,7 @@ templateClass: template-post
 <article class="l-post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="l-post__header">
     <div class="l-post__category c-post__category">
-      <p>{{ categories }}</p>
+      <p><a class="c-post__category__link" href="">{{ categories }}</a></p>
     </div>
 
     <h1 id="title" class="l-post__title c-post__title" itemprop="name headline">
@@ -15,7 +15,7 @@ templateClass: template-post
     <p id="metadata" class="l-post__metadata c-post__metadata">
       {% if author %}
         <span class="c-post__metadata--author">
-          By:&#8194;{{ author }}<span class="u-hide-visually">.</span>
+          By:&#8194;<a class="c-post__metadata-link" href="">{{ author }}</a><span class="u-hide-visually">.</span>
         </span>
       {% endif %}
       {% if date %}
