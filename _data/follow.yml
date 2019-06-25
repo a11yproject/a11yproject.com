@@ -181,9 +181,6 @@
   - url: https://twitter.com/melaniersumner
     username: "@melaniersumner"
     name: "Melanie Sumner"
-  - url: https://twitter.com/MichielBijl
-    username: "@MichielBijl"
-    name: "Michiel Bijl"
   - url: https://twitter.com/mgifford
     username: "@mgifford"
     name: "Mike Gifford"
@@ -283,6 +280,9 @@
   - url: https://twitter.com/vick08
     username: "@vick08"
     name: "Victor Tsaran"
+  - url: https://twitter.com/ZoeBijl
+    username: "@ZoeBijl"
+    name: "Zoë Bijl"
 
 - category: Companies
   section-id: companies
