@@ -147,8 +147,6 @@ $_c-post-vertical-spacing: 4ex;
 }
 
 .c-post__metadata--author {
-  margin-bottom: 0.75rem;
-
   // Supports
   @supports #{$supports-flex} {
     flex-grow: 2;
