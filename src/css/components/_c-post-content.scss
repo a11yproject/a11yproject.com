@@ -267,6 +267,15 @@
     padding: 1rem 2rem;
     margin-left: map-get($global-post-content-inset, small) * -1;
 
+    // Supports
+    @supports #{$supports-grid} {
+      // Breakpoints
+      @include mappy-bp(lap-medium) {
+        position: relative;
+        width: 65vw;
+      }
+    }
+
     code {
       line-height: $line-height-double;
     }

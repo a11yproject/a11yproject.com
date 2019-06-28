@@ -80,6 +80,8 @@ $_l-post-grid-toc: 1.5fr;
 
 
 .l-post__content {
+  margin-top: 3rem;
+
   // Supports
   @supports #{$supports-grid} {
     margin-top: 2rem;

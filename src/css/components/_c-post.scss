@@ -26,7 +26,15 @@ $_c-post-vertical-spacing: 4ex;
 
     @include mappy-bp(lap-small) {
       font-size: 1.25rem;
-      padding-left: map-get($global-post-content-inset, small);
+    }
+
+    @include mappy-bp(lap-medium) {
+      font-size: 1.25rem;
+      padding-left: map-get($global-post-content-inset, medium);
+    }
+
+    @include mappy-bp(lap-large) {
+      padding-left: map-get($global-post-content-inset, large);
     }
 
     // Supports
@@ -87,7 +95,11 @@ $_c-post-vertical-spacing: 4ex;
   @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
-      margin: 0.5rem 0 2rem map-get($global-post-content-inset, small);
+      margin: 0.5rem 0 2rem map-get($global-post-content-inset, medium);
+    }
+
+    @include mappy-bp(lap-medium) {
+      margin-left: map-get($global-post-content-inset, small);
     }
   }
 }
@@ -119,7 +131,11 @@ $_c-post-vertical-spacing: 4ex;
   @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
-      padding: 0.75rem map-get($global-post-content-inset, small);
+      padding: 0.75rem map-get($global-post-content-inset, medium);
+    }
+
+    @include mappy-bp(lap-medium) {
+      padding-left: map-get($global-post-content-inset, small);
     }
   }
 }
@@ -193,8 +209,13 @@ $_c-post-vertical-spacing: 4ex;
   @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
-      margin-left: map-get($global-post-content-inset, small);
+      margin-left: map-get($global-post-content-inset, medium);
       margin-right: 0;
+    }
+
+    @include mappy-bp(lap-medium) {
+      margin-left: map-get($global-post-content-inset, small);
+      margin-right: map-get($global-post-content-inset, small);
     }
   }
 }

@@ -8,23 +8,34 @@
 // Style guide: Components.c-toc
 .c-toc {
   list-style-type: none;
-  margin-left: 0.5rem;
 
-  // Breakpoints
-  @include mappy-bp(palm-medium) {
-    margin-left: 2.5rem;
-  }
+  // Contexts
+  // [1] SEE: `.c-post__content` in `_c-post.scss`
+  .template-post & {
+    margin-left: map-get($global-post-content-inset, small); // [1]
 
-  @include mappy-bp(lap-medium) {
-    margin-left: 6.5rem;
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      margin-left: map-get($global-post-content-inset, medium); // [1]
+    }
+
+    @include mappy-bp(lap-small) {
+      margin-left: map-get($global-post-content-inset, large); // [1]
+    }
   }
 
   // Supports
   @supports #{$supports-grid} {
-    // Breakpoints
-    @include mappy-bp(lap-medium) {
-      margin-top: 1.5rem; // Aligns baseline of first list item with the baseline of the first line of the first paragraph
-      margin-left: 0;
+    // Contexts
+    .template-post & {
+      // Breakpoints
+      @include mappy-bp(lap-small) {
+        margin-left: map-get($global-post-content-inset, medium);
+      }
+
+      @include mappy-bp(lap-medium) {
+        margin-left: 0;
+      }
     }
   }
 }
@@ -42,7 +53,7 @@
   text-transform: uppercase;
 
   // Contexts
-  .c-toc--post & {
+  .template-post & {
     margin-top: 1.25rem;
 
     // HACK: Ensures that list item content is announced as a list.
@@ -65,7 +76,7 @@
   text-decoration: none;
 
   // Contexts
-  .c-toc--home & {
+  .template-home & {
     color: $color-black;
 
     // &::before {
@@ -73,7 +84,7 @@
     //   border-width: $border-thick;
     //   border-block-style: solid;
     //   border-color: $color-sand; // Provides a border-color to transition
-    //   transition: $animation-duration-short $animation-easing-character border;
+    //   transition: border $animation-duration-short $animation-easing-character;
     // }
 
     // User Queries
@@ -84,7 +95,7 @@
   }
   }
 
-  .c-toc--post & {
+  .template-post & {
     border-bottom: $border-thinnest solid $color-sand;
     color: $color-gray-shade;
     transition:
@@ -108,7 +119,7 @@
     &:hover,
     &:focus {
       // Contexts
-      .c-toc--home & {
+      .template-home & {
         &::before {
           border-color: $color-pink-tint;
         }
@@ -124,13 +135,13 @@
 
     &[aria-current] {
       // Contexts
-      .c-toc--home & {
+      .template-home & {
         &::before {
           border-color:$color-pink;
         }
       }
 
-      .c-toc--post & {
+      .template-post & {
         border-bottom-color: $color-green;
       }
     }
