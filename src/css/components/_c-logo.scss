@@ -11,26 +11,43 @@
 
 
 .c-logo__link {
+  display: block;
+
   // States
   &:hover,
   &:focus {
-    &::before {
-      background-color: $color-gray-tint;
-      content: "";
-      display: block;
-      height: $border-thinner;
-      position: absolute;
-        top: rem(62);
-        left: rem(113);
-      width: rem(181);
+    .c-logo__icon {
+      transform: scale(1.15);
     }
   }
 
+  // Supports
+  @supports #{$supports-flex} {
+    align-items: flex-end; // Uses `.c-logo__logotype`'s bottom margin
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 
-.c-logo__graphic {
-  display: block;
+.c-logo__icon {
   fill: $color-white;
-  width: rem(254);
+  transition: transform $animation-duration-shortest $animation-easing-character; // SEE: `.c-logo__link`'s hover/focus states
+
+  // User Queries
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+.c-logo__logotype {
+  @include hide(remove); // Allows more space for the primary nav list before we have to use a menu
+
+  // Breakpoints
+  @include mappy-bp(palm-large) {
+    display: unset !important;
+    fill: $color-white;
+    margin-left: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
 }
