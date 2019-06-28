@@ -266,13 +266,18 @@
     color: $color-white;
     padding: 1rem 2rem;
     margin-left: map-get($global-post-content-inset, small) * -1;
+    width: calc(100% + (#{map-get($global-post-content-inset, small) * 2)});
+
+    // Breakpoints
+    @include mappy-bp(palm-large) {
+      max-width: calc(#{$global-type-measure} * 1.5);
+    }
 
     // Supports
     @supports #{$supports-grid} {
       // Breakpoints
       @include mappy-bp(lap-medium) {
-        position: relative;
-        width: 65vw;
+        width: 60vw;
       }
     }
 
