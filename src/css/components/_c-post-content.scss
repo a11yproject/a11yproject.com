@@ -32,6 +32,28 @@
     margin-bottom: $_c-post-breathing-room;
   }
 
+  // Supports
+  @supports #{$supports-grid} {
+    // This selector targets only the first child paragraph of
+    // `.c-post__content`, allowing us to apply the tl;dr image
+    & > p:first-of-type {
+      &::before {
+        // Breakpoints
+        @include mappy-bp(lap-medium) {
+          background: url("../img/post-section-short-answer.svg") no-repeat center;
+          background-size: cover;
+          content: "";
+          display: block;
+          height: rem(169);
+          margin-top: 1rem;
+          position: absolute;
+            left: 1rem;
+          width: rem(164);
+        }
+      }
+    }
+  }
+
   // Inline content
   a {
     color: $color-green;
@@ -207,26 +229,6 @@
       @include mappy-bp(lap-medium) {
         font-size: 1.25rem;
         margin-bottom: $_c-post-vertical-spacing * 1.5;
-      }
-
-      // Supports
-      @supports #{$supports-grid} {
-        &:first-of-type {
-          &::before {
-            // Breakpoints
-            @include mappy-bp(lap-medium) {
-              background: url("../img/post-section-short-answer.svg") no-repeat center;
-              background-size: cover;
-              content: "";
-              display: block;
-              height: rem(169);
-              margin-top: 1rem;
-              position: absolute;
-                left: 1rem;
-              width: rem(164);
-            }
-          }
-        }
       }
 
       code,
