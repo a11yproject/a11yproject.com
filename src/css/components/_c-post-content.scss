@@ -148,12 +148,22 @@
 
   // Content
   blockquote {
-    background-color: $color-white;
-    margin-left: map-get($global-post-content-inset, small) * -2;
-    padding: 1rem (map-get($global-post-content-inset, small) * -2);
+    background: $color-white url("../img/post-blockquote.svg") no-repeat top 1rem left -0.25rem;
+    margin-left: map-get($global-post-content-inset, small) * -1;
+    padding: 1.5rem 1rem;
 
     p:first-of-type {
       margin-bottom: 0;
+    }
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      background-position: 1rem 1rem;
+      padding: 1.5rem 2rem;
+    }
+
+    @include mappy-bp(palm-large) {
+      max-width: calc(#{$global-type-measure} * 1.25);
     }
 
     footer {
@@ -270,8 +280,8 @@
   pre {
     background-color: $color-black;
     color: $color-white;
-    padding: 1rem 1.5rem;
     margin-left: map-get($global-post-content-inset, small) * -1;
+    padding: 1rem 1.5rem;
     width: calc(100% + (#{map-get($global-post-content-inset, small) * 2)});
 
     // Breakpoints
