@@ -189,6 +189,10 @@
 
   h2 {
     @include heading-beta();
+
+    code {
+      letter-spacing: $font-tracking-tighter;
+    }
   }
 
   h3 {
@@ -266,7 +270,7 @@
   pre {
     background-color: $color-black;
     color: $color-white;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     margin-left: map-get($global-post-content-inset, small) * -1;
     width: calc(100% + (#{map-get($global-post-content-inset, small) * 2)});
 
