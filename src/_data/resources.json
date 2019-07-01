@@ -972,6 +972,14 @@
       "platforms": [ "iOS", "macOS" ]
     }
   ],
+  "animation" : [
+    {
+      "title": "Photosensitive Epilepsy Analysis Tool",
+      "description": "The Trace Center's Photosensitive Epilepsy Analysis Tool (PEAT) is a free, downloadable resource for developers to identify seizure risks in their web content and software.",
+      "source": "University of Maryland Trace Research and Development Center",
+      "url": "https://trace.umd.edu/peat"
+    }
+  ],
   "additionalResources" : [
     {
       "title": "The Accessibility Cheatsheet",
