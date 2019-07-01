@@ -1,11 +1,22 @@
-// c-logo
+// Skipnav
 //
-// TODO: Write description.
+// A skipnav, sometimes known as a jumpnav, allows someone to skip sections of
+// content that are repeated from page to page. An example of this is skipping
+// the main navigation that is repeated on every page of this site.
+//
+// Skipnav is useful to people who use screen readers, as it allows them to
+// quickly get to the main point of the page. It is also useful to people with
+// motor control disabilities, as it lessens the amount of effort it takes to
+// navigate.
+//
+// A skipnav that links to the main content of the page should typically be the
+// first thing you put in the code for your page templates. For The A11Y
+// Project, it is the first piece of code used after the opening `body` element.
 //
 // Markup:
-// TODO: Write markup
+// <a class="c-skipnav" href="#title">Skip to content.</a>
 //
-// Style guide: Components.c-logo
+// Style guide: Components.skipnav
 .c-skipnav {
   @include hide(visually);
 

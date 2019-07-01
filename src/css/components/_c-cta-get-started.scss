@@ -1,12 +1,16 @@
-// c-get-started
+// Get Started
 //
-// TODO: Write description.
+// The Get Started call-to-action provides a large guiding prompt for a person
+// who is interested in learning about accessibility, but may not know where to
+// begin.
 //
 // Markup:
-// TODO: Write markup
+// <p class="c-cta-get-started">
+//   <a class="c-cta-get-started__link" href="">How do I get started?</a>
+// </p>
 //
 // Style guide: Components.get-started
-.c-get-started {
+.c-cta-get-started {
   position: relative;
     bottom: 2.5rem;
 
@@ -20,7 +24,7 @@
 }
 
 
-.c-get-started__link {
+.c-cta-get-started__link {
   background-color: $color-pink-tint;
   border: $border-thick solid $color-sand;
   color: $color-black;

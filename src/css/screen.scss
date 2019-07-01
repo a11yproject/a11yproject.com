@@ -90,7 +90,8 @@
   "logic/mixins.preserve-list-semantics",
   "logic/mixins.remove-margin-padding",
   "logic/mixins.responsify",
-  "logic/mixins.shift-click";
+  "logic/mixins.shift-click",
+  "logic/mixins.show";
 
 
 // Base
@@ -157,11 +158,10 @@
 //
 // Styleguide Components
 @import
-  "components/c-a11y",
-  "components/c-get-started",
+  "components/c-banner-a11y",
+  "components/c-cta-get-started",
   "components/c-headings",
   "components/c-hero",
-  "components/c-home",
   "components/c-logo",
   "components/c-post",
   "components/c-primary-nav",

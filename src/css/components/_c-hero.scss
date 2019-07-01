@@ -1,5 +1,18 @@
+// Hero
+//
+// The Hero is a large box area used to showcase something important. On the
+// homepage it displays the A11Y Banner component.
+//
+// Markup:
+// TODO: Make modification style for homepage and update context classes
+//
+// <div class="c-hero">
+//   <!-- Hero content goes here -->
+// </div>
+//
+// Style guide: Components.hero
 .c-hero {
-  background: $color-green-shade url("../img/hero-a11y.svg") no-repeat center;
+  background: $color-green-shade url("#{$path-to-img}/hero-a11y.svg") no-repeat center;
   background-size: cover;
   height: 80vh;
 

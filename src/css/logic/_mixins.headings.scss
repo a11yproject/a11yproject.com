@@ -12,7 +12,7 @@
 // Applies the fourth level heading style from a set of 8 heading styles.
 // Used for `h2` elements in blog posts.
 //
-// Styleguide Logic.Mixins.heading-beta
+// Styleguide Logic.Mixins.Headings.heading-beta
 @mixin heading-beta() {
   font-size: 1.75rem;
 
@@ -29,7 +29,7 @@
 // Applies the fifth level heading style from a set of 8 heading styles.
 // Used for `h3` elements in blog posts.
 //
-// Styleguide Logic.Mixins.heading-gamma
+// Styleguide Logic.Mixins.Headings.heading-gamma
 @mixin heading-gamma() {
   font-size: 1.25rem;
   line-height: $line-height-tight;

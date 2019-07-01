@@ -1,12 +1,14 @@
-// c-a11y
+// A11Y Banner
 //
-// TODO: Write description.
+// The A11Y Banner boldly and directly explains what the neuronym "A11Y" is, as
+// well as the site's mission. It is meant to be placed inside the homepage's
+// hero component.
 //
 // Markup:
 // TODO: Write markup
 //
-// Style guide: Components.a11y
-.c-a11y {
+// Style guide: Components.banner-a11y
+.c-banner-a11y {
   background-color: $color-white;
   border-top: $border-thicker solid $color-pink-tint;
   padding: 3rem 5rem;
@@ -18,12 +20,12 @@
 }
 
 
-.c-a11y__explanation {
+.c-banner-a11y__explanation {
   font-size: 2.25rem;
 }
 
 
-.c-a11y__accessibility {
+.c-banner-a11y__accessibility {
   display: block;
   font-family: $font-family-secondary;
   letter-spacing: $font-tracking-loose;
@@ -31,7 +33,7 @@
 }
 
 
-.c-a11y-explanation__mission {
+.c-banner-a11y-explanation__mission {
   font-family: $font-family-secondary;
   font-size: 1.2rem;
   margin-top: 1rem;

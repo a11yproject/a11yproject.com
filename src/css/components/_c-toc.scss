@@ -1,11 +1,22 @@
-// c-toc
+// Table of Contents
 //
-// TODO: Write description.
+// A Table of Contents (<abbr>ToC</abbr>) allows someone to quickly jump to
+// different areas of content on a page. It is considered good practice to link
+// to headings from the ToC, as heading elements should be used to describe
+// the structure of the page's content.
+//
+// Table of Contents should use an ordered list, as the order of the ToC's
+// content should reflect the order of the page's content.
+//
+// In addition, the Table of Contents should also be wrapped in a `nav` element,
+// as they allow you to navigate to different points on a page. Be sure to also
+// supply an accessible name for the ToC, so it will not be confused with other
+// navigation landmarks.
 //
 // Markup:
 // TODO: Write markup
 //
-// Style guide: Components.c-toc
+// Style guide: Components.toc
 .c-toc {
   list-style-type: none;
 

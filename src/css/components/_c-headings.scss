@@ -2,7 +2,7 @@
 //
 // Headings are used to identify sections of content. They are [incredibly important for assistive technology](https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753).
 // Heading component classes are used to control the visual presentation of
-// heading elements while maintaining an accessible document structure.
+// heading elements, while preserving an accessible document structure.
 //
 // Style guide: Components.Headings
 
@@ -22,7 +22,7 @@
 }
 
 
-// c-heading-giga
+// Giga Heading
 //
 // The largest of the headings. Used for big announcements and other
 // attention-grabbing content.
@@ -30,94 +30,110 @@
 // Weight: 1
 //
 // Markup:
-// <h2 class="c-heading-giga">Six javelins thrown by the quick savages whizzed forty paces beyond the mark</h2>
+// <h2 class="c-heading-giga">
+//   Six javelins thrown by the quick savages whizzed forty paces beyond the mark
+// </h2>
 //
-// Style guide: Components.Headings.c-heading-giga
+// Style guide: Components.Headings.heading-giga
 .c-heading-giga {
 }
 
 
-// c-heading-mega
+// Mega Heading
 //
 // Weight: 2
 //
 // Markup:
-// <h2 class="c-heading-mega">The explorer was frozen in his big kayak just after making queer discoveries</h2>
+// <h2 class="c-heading-mega">
+//   The explorer was frozen in his big kayak just after making queer discoveries
+// </h2>
 //
-// Style guide: Components.Headings.c-heading-mega
+// Style guide: Components.Headings.heading-mega
 .c-heading-mega {
 }
 
 
-// c-heading-alpha
+// Alpha Heading
 //
 // Weight: 3
 //
 // Markup:
-// <h2 class="c-heading-alpha">The July sun caused a fragment of black pine wax to ooze on the velvet quilt</h2>
+// <h2 class="c-heading-alpha">
+//   The July sun caused a fragment of black pine wax to ooze on the velvet quilt
+// </h2>
 //
-// Style guide: Components.Headings.c-heading-alpha
+// Style guide: Components.Headings.heading-alpha
 .c-heading-alpha {
 }
 
 
-// c-heading-beta
+// Beta Heading
 //
 // Weight: 4
 //
 // Markup:
-// <h2 class="c-heading-beta">The public was amazed to view the quickness and dexterity of the juggler</h2>
+// <h2 class="c-heading-beta">
+//   The public was amazed to view the quickness and dexterity of the juggler
+// </h2>
 //
-// Style guide: Components.Headings.c-heading-beta
+// Style guide: Components.Headings.heading-beta
 .c-heading-beta {
   @include heading-beta();
 }
 
 
-// c-heading-gamma
+// Gamma Heading
 //
 // Weight: 5
 //
 // Markup:
-// <h2 class="c-heading-gamma">While Suez sailors wax parquet decks, Afghan Jews vomit jauntily abaft</h2>
+// <h2 class="c-heading-gamma">
+//   While Suez sailors wax parquet decks, Afghan Jews vomit jauntily abaft
+// </h2>
 //
-// Style guide: Components.Headings.c-heading-gamma
+// Style guide: Components.Headings.heading-gamma
 .c-heading-gamma {
   @include heading-gamma();
 }
 
 
-// c-heading-delta
+// Delta Heading
 //
 // Weight: 6
 //
 // Markup:
-// <h2 class="c-heading-delta">We quickly seized the black axle and just saved it from going past him</h2>
+// <h2 class="c-heading-delta">
+//   We quickly seized the black axle and just saved it from going past him
+// </h2>
 //
-// Style guide: Components.Headings.c-heading-delta
+// Style guide: Components.Headings.heading-delta
 .c-heading-delta {
 }
 
 
-// c-heading-epsilon
+// Epsilon Heading
 //
 // Weight: 7
 //
 // Markup:
-// <h2 class="c-heading-epsilon">Six big juicy steaks sizzled in a pan as five workmen left the quarry</h2>
+// <h2 class="c-heading-epsilon">
+//   Six big juicy steaks sizzled in a pan as five workmen left the quarry
+// </h2>
 //
-// Style guide: Components.Headings.c-heading-epsilon
+// Style guide: Components.Headings.heading-epsilon
 .c-heading-epsilon {
 }
 
 
-// c-heading-zeta
+// Zeta Heading
 //
 // Weight: 8
 //
 // Markup:
-// <h2 class="c-heading-zeta">While making deep excavations we found some quaint bronze jewelry</h2>
+// <h2 class="c-heading-zeta">
+//   While making deep excavations we found some quaint bronze jewelry
+// </h2>
 //
-// Style guide: Components.Headings.c-heading-zeta
+// Style guide: Components.Headings.heading-zeta
 .c-heading-zeta {
 }

@@ -1,4 +1,6 @@
 .c-post__content {
+  // SPACING //////////////////////////////////////////////////////////////////
+
   // Measure
   dl,
   hr,
@@ -37,10 +39,27 @@
     // This selector targets only the first child paragraph of
     // `.c-post__content`, allowing us to apply the tl;dr image
     & > p:first-of-type {
+      font-family: $font-family-secondary;
+      font-size: 1.15rem;
+      line-height: $line-height-looser;
+      margin-top: 0;
+      margin-bottom: $_c-post-vertical-spacing * 1.25;
+
+      // Breakpoints
+      @include mappy-bp(lap-medium) {
+        font-size: 1.25rem;
+        margin-bottom: $_c-post-vertical-spacing * 1.5;
+      }
+
+      code,
+      kbd {
+        font-size: 80%;
+      }
+
       &::before {
         // Breakpoints
         @include mappy-bp(lap-medium) {
-          background: url("../img/post-section-short-answer.svg") no-repeat center;
+          background: url("#{$path-to-img}/post-section-short-answer.svg") no-repeat center;
           background-size: cover;
           content: "";
           display: block;
@@ -54,7 +73,19 @@
     }
   }
 
-  // Inline content
+  // INLINE CONTENT ///////////////////////////////////////////////////////////
+
+  // Links
+  //
+  // Links navigate to other pages, or parts of the current page. There are two
+  // visual treatments for links, depending on if someone is browsing with a
+  // expressed preference for a reduced motion experience or not.
+  // TODO: LINK TO PREFERS MOTION
+  //
+  // Markup:
+  // <a href="URL">Link text</a>
+  //
+  // Style guide: Components.post.links
   a {
     color: $color-green;
     border-bottom: $border-thinnest solid $color-green;
@@ -132,23 +163,23 @@
   }
 
   kbd {
-    background-color: $color-white;
-    border: rem(4) solid $color-white;
-    border-radius: rem(4);
-    box-shadow: 0 2px 1px 0 $color-gray-shade;
     margin-left: 0.25ch;
     margin-right: 0.25ch;
-    padding: 0 0.5ch;
-    word-break: break-word;
   }
 
-  samp {
-    background-color: $color-pink-tint;
-  }
 
-  // Content
+  // CONTENT //////////////////////////////////////////////////////////////////
+
+  // Blockquote
+  //
+  // TODO: Add a def A passage of text high
+  //
+  // Markup:
+  // TODO: Code example w/footer
+  //
+  // Style guide: Components.post.blockquote
   blockquote {
-    background: $color-white url("../img/post-blockquote.svg") no-repeat top 1rem left -0.25rem;
+    background: $color-white url("#{$path-to-img}/post-blockquote.svg") no-repeat top 1rem left -0.25rem;
     margin-left: map-get($global-post-content-inset, small) * -1;
     padding: 1.5rem 1rem;
 
@@ -197,6 +228,16 @@
     }
   }
 
+  // Second-level Heading
+  //
+  // This is the first content sectioning element to use, as the post's title
+  // uses a `h1` element. Second-level heading styling is controlled using the
+  // `heading-beta()` mixin.
+  //
+  // Markup:
+  // <h2>How to navigate a website with a keyboard</h2>
+  //
+  // Style guide: Components.post.h2
   h2 {
     @include heading-beta();
 
@@ -209,6 +250,14 @@
     @include heading-gamma();
   }
 
+  // Ordered List
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.ol
   ol {
     @include preserve-list-semantics();
 
@@ -231,27 +280,15 @@
     }
   }
 
-  p {
-    &:first-of-type {
-      font-family: $font-family-secondary;
-      font-size: 1.15rem;
-      line-height: $line-height-looser;
-      margin-top: 0;
-      margin-bottom: $_c-post-vertical-spacing * 1.25;
 
-      // Breakpoints
-      @include mappy-bp(lap-medium) {
-        font-size: 1.25rem;
-        margin-bottom: $_c-post-vertical-spacing * 1.5;
-      }
-
-      code,
-      kbd {
-        font-size: 80%;
-      }
-    }
-  }
-
+  // Unordered List
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.ul
   ul {
     @include preserve-list-semantics();
 
@@ -277,11 +314,16 @@
     }
   }
 
+  // Preformatted Text
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.pre
   pre {
-    background-color: $color-black;
-    color: $color-white;
     margin-left: map-get($global-post-content-inset, small) * -1;
-    padding: 1rem 1.5rem;
     width: calc(100% + (#{map-get($global-post-content-inset, small) * 2)});
 
     // Breakpoints
@@ -302,41 +344,29 @@
     }
   }
 
+  // Table
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.table
   table {
     margin-left: map-get($global-post-content-inset, small) * -1;
-
-    tr {
-      transition:
-        background-color $animation-duration-shorter $animation-easing-character;
-
-      // States
-      &:hover {
-        background-color: $color-white;
-      }
-
-      // User Queries
-      @media screen and (prefers-reduced-motion: reduce) {
-        transition: none;
-      }
-    }
-
-    th,
-    td {
-      border-color: $color-gray-shade;
-      padding: 0.75rem;
-    }
-
-    th {
-      font-weight: $font-weight-bold;
-      vertical-align: bottom;
-    }
-
-    thead {
-      border-bottom: $border-thinner solid $color-black;
-    }
   }
 
-  // CMS
+
+  // CMS //////////////////////////////////////////////////////////////////////
+
+  // Direct Link
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.direct-link
   .direct-link {
     font-size: 75%;
     margin-left: 0.15rem;
@@ -352,12 +382,30 @@
     }
   }
 
-  // Embedded content
+
+  // EMBEDDED CONTENT /////////////////////////////////////////////////////////
+
+  // Embedded Tweet
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.tweet
   .twitter-tweet {
     margin-top: $_c-post-vertical-spacing !important;
     margin-bottom: $_c-post-breathing-room !important;
   }
 
+  // Embedded CodePen
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.codepen
   .cp_embed_wrapper {
     margin-top: $_c-post-vertical-spacing !important;
   }

@@ -2,14 +2,30 @@ $_c-post-breathing-room: 6ex;
 $_c-post-vertical-spacing: 4ex;
 
 
-// c-post
+// Post
 //
-// TODO: Write description.
+// A post component contains all content and information used for The A11Y
+// project's blog posts.
+//
+// Eleventy, the software that is used to generate this site, uses Markdown to
+// convert blog post content into HTML code. Because of this, we use the class
+// `c-post` as namespace that allows to easily create blog content-specific
+// styling.
+//
+// This allows site authors to continue to write in Markdown without having to
+// worry about using both HTML markup and learning and applying site-specific
+// styling classes. It also ensures that future styling work is decoupled from
+// content.
 //
 // Markup:
-// TODO: Write markup
+// <div
+//   id="short-answer"
+//   class="l-post__content c-post__content"
+//   itemprop="articleBody">
+//   …
+// </div>
 //
-// Style guide: Components.c-post
+// Style guide: Components.post
 .c-post__category {
   border-top: $border-thick solid $color-green;
 
