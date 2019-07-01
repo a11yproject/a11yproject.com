@@ -163,6 +163,13 @@ $_c-post-vertical-spacing: 4ex;
 }
 
 .c-post__metadata--author {
+  margin-bottom: 0.5rem;
+
+  // Breakpoints
+  @include mappy-bp(lap-small) {
+    margin-bottom: 0;
+  }
+
   // Supports
   @supports #{$supports-flex} {
     flex-grow: 2;
