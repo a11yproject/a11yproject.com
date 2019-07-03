@@ -65,6 +65,7 @@ button:hover {
   ::before,
   ::after {
     animation-duration: 0.001s !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.001s !important;
   }
   
