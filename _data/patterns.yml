@@ -1,8 +1,6 @@
 - pattern-category: Menus
   section-id: menus
   patterns:
-    - url: "https://codepen.io/svinkle/pen/aEVwWd"
-      title: "Dropdown"
     - url: "https://adobe-accessibility.github.io/Accessible-Mega-Menu/"
       title: "Mega Dropdown"
     - url: "https://codepen.io/svinkle/pen/LDKwA"
@@ -53,8 +51,8 @@
       title: "Form Submission"
     - url: "https://codepen.io/svinkle/pen/FHGBh"
       title: "Single Toggle (anchor)"
-    - url: "https://scottaohara.github.io/aria-switch-button/"
-      title: "ARIA Switch Button"
+    - url: "https://github.com/scottaohara/aria-switch-control"
+      title: "ARIA Switch Control"
 
 - pattern-category: Anchors/Links
   section-id: anchors-links
