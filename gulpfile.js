@@ -80,6 +80,9 @@ var svgmin = require('gulp-svgmin');
 // BrowserSync
 var browserSync = require('browser-sync');
 
+// Error Handling
+var plumber = require('gulp-plumber');
+
 
 // Tasks //////////////////////////////////////////////////////////////////////
 
@@ -98,6 +101,7 @@ var buildScripts = function (done) {
   if (!settings.scripts) return done();
   // Run tasks on script files
   src(paths.scripts.input)
+    .pipe(plumber())
     .pipe(flatmap(function(stream, file) {
       // If the file is a directory
       if (file.isDirectory()) {
@@ -132,6 +136,7 @@ var lintScripts = function (done) {
   if (!settings.lint) return done();
   // Lint scripts
   src(paths.scripts.input)
+    .pipe(plumber())
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
   // Signal completion
@@ -144,6 +149,7 @@ var buildStyles = function (done) {
   if (!settings.styles) return done();
   // Run tasks on all Sass files
   src(paths.styles.input)
+    .pipe(plumber())
     .pipe(sass({
       outputStyle: 'expanded',
       sourceComments: true
@@ -171,6 +177,7 @@ var lintStyles = function (done) {
   if (!settings.lint) return done();
   // Lint scripts
   src(paths.styles.input)
+    .pipe(plumber())
     .pipe(gulpStylelint({
       reporters: [
         { formatter: 'string', console: true }
@@ -185,6 +192,7 @@ var copyAssets = function (done) {
   // Make sure this feature is activated before running
   if (!settings.copy) return done();
   src(paths.fonts.input)
+    .pipe(plumber())
     .pipe(dest(paths.fonts.output));
   // Signal completion
   done();
@@ -195,6 +203,7 @@ var processImages = function (done) {
   // Make sure this feature is activated before running
   if (!settings.images) return done();
   src(paths.images.input)
+    .pipe(plumber())
     .pipe(dest(paths.images.output));
   // Signal completion
   done();
@@ -206,6 +215,7 @@ var buildSVGs = function (done) {
   if (!settings.svgs) return done();
   // Optimize SVG files
   src(paths.svgs.input)
+    .pipe(plumber())
     .pipe(svgmin())
     .pipe(dest(paths.svgs.output));
   // Signal completion
