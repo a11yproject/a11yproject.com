@@ -8,6 +8,16 @@
       date: 2019-10-03
       address: "212 Northern Ave, Boston, MA 02210 "
       map: "https://goo.gl/maps/8YAn4tnJD6SjZGxv6"
+    - title: "The ROI of Digital Accessibility"
+      description: "By making your website accessible, your organization can capture a huge, overlooked market share, reduce your legal risk, lower call-center costs, and boost brand value."
+      url: "https://accessibility.deque.com/roi-digital-accessibility-webinar"
+      type: "Webinar"
+      date: 2019-08-20
+    - title: "What you need to report for the 21st Century Integrated Digital Experience Act (IDEA)"
+      description: "The 21st Century IDEA Act requires that public service agencies report their state of Section 508 compliance to Congress by December 20, 2019. While Section 508 was recently refreshed and the requirements have been around for a couple of decades, this brings a renewed focus on Section 508, requiring CIO's of agencies to submit a report of the baseline status to Congress, with annual updates on the progress."
+      url: "https://accessibility.deque.com/idea-act-webinar"
+      type: "Webinar"
+      date: 2019-08-06
     - title: "What's Dyslexia Got To Do With It?!"
       description: "A high incident of dyslexic traits are found in computer programmers. These special traits and abilities are commonly depicted as disabilities. In the same vein, one-fifth of the estimated global population possesses disabilities. Join me as we deploy the narratives that exist at the intersection of ability and access. Let’s steer the strengths, park the misconceptions and drive hacks meant to empower programmers who exhibit special traits and abilities.<br><br><strong>Speaker:</strong> Jeannette Washington, M.Ed. (<a href='https://twitter.com/bearlyartic'>https://twitter.com/bearlyartic</a>)<br><strong>Meeting link:</strong> <a href='https://bit.ly/June2019A11yTalks'>https://bit.ly/June2019A11yTalks</a><br>"
       url: "https://groups.drupal.org/node/535124"
