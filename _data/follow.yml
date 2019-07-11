@@ -1,8 +1,11 @@
 - category: People
   section-id: people
   links:
-  - url: https://twitter.com/aardrian
-    username: "@aardrian"
+  - url: https://twitter.com/
+    username: "@"
+    name: "Alex Umstead"
+  - url: https://twitter.com/mra11yx
+    username: "@mra11yx"
     name: "Adrian Roselli"
   - url: https://twitter.com/sundress
     username: "@sundress"
@@ -28,6 +31,9 @@
   - url: https://twitter.com/cariefisher
     username: "@cariefisher"
     name: "Carie Fisher"
+  - url: https://twitter.com/a11ycob
+    username: "@a11ycob"
+    name: "Chris O'Brien"
   - url: https://twitter.com/cordeliadillon
     username: "@cordeliadillon"
     name: "Cordelia McGee-Tubb"
@@ -148,6 +154,9 @@
   - url: https://twitter.com/karlgroves
     username: "@karlgroves"
     name: "Karl Groves"
+  - url: https://twitter.com/metageeky
+    username: "@metageeky"
+    name: "Kate Deibel"
   - url: https://twitter.com/wahlbin
     username: "@wahlbin"
     name: "Kathy Wahlbin"
@@ -299,6 +308,9 @@
   - url: https://twitter.com/3playmedia
     username: "@3playmedia"
     name: "3play Media"
+  - url: https://twitter.com/accessiblemedia
+    username: "@accessiblemedia"
+    name: "Accessible Media Inc."
   - url: https://twitter.com/accessibilityoz
     username: "@accessibilityoz"
     name: "AccessibilityOz"
