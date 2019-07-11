@@ -1,18 +1,24 @@
 - category: People
   section-id: people
   links:
-  - url: https://twitter.com/
-    username: "@"
-    name: "Alex Umstead"
+  - url: https://twitter.com/aardrian
+    username: "@aardrian"
+    name: "Adrian Roselli"
   - url: https://twitter.com/mra11yx
     username: "@mra11yx"
-    name: "Adrian Roselli"
+    name: "Alex Umstead"
   - url: https://twitter.com/sundress
     username: "@sundress"
     name: "Alice Boxhall"
   - url: https://twitter.com/dugboticus
     username: "@dugboticus"
     name: "Alistair Duggin"
+  - url: https://twitter.com/amitaxs
+    username: "@amitaxs"
+    name: "Amit Pandey"
+  - url: https://twitter.com/Amytdesign
+    username: "@Amytdesign"
+    name: "Amy Thornley"
   - url: https://twitter.com/Artistic_Abode
     username: "@Artistic_Abode"
     name: "Andrea Skeries"
@@ -22,15 +28,24 @@
   - url: https://twitter.com/handcoding
     username: "@handcoding"
     name: "Ashley Bischoff"
-  - url: https://twitter.com/becka11y
+  - url: https://twitter.com/bazzyh
+    username: "@bazzyh"
+    name: "Barry Hood"
+    - url: https://twitter.com/becka11y
     username: "@becka11y"
     name: "Becky Gibson"
   - url: https://twitter.com/thebillygregory
     username: "@thebillygregory"
     name: "Billy Gregory"
-  - url: https://twitter.com/cariefisher
+  - url: https://twitter.com/caitlynmayers
+    username: "@caitlynmayers"
+    name: "Caitlyn Mayers"
+    - url: https://twitter.com/cariefisher
     username: "@cariefisher"
     name: "Carie Fisher"
+  - url: https://twitter.com/cmuncharaz
+    username: "@cmuncharaz"
+    name: "Carlos Muncharaz"
   - url: https://twitter.com/a11ycob
     username: "@a11ycob"
     name: "Chris O'Brien"
@@ -46,7 +61,10 @@
   - url: https://twitter.com/davidakennedy
     username: "@davidakennedy"
     name: "David A. Kennedy"
-  - url: https://twitter.com/redcrew
+  - url: https://twitter.com/deanbirkett
+    username: "@deanbirkett"
+    name: "Dean Birkett"
+    - url: https://twitter.com/redcrew
     username: "@redcrew"
     name: "Deborah Edwards-Onoro"
   - url: https://twitter.com/debraruh
@@ -82,6 +100,9 @@
   - url: https://twitter.com/ericwbailey
     username: "@ericwbailey"
     name: "Eric Bailey"
+  - url: https://twitter.com/erikkroes
+    username: "@erikkroes"
+    name: "Erik Kroes"
   - url: https://twitter.com/estellevw
     username: "@estellevw"
     name: "Estelle Weyl"
@@ -103,7 +124,10 @@
   - url: https://twitter.com/heydonworks
     username: "@heydonworks"
     name: "Heydon Pickering"
-  - url: https://twitter.com/ireaderinokun
+  - url: https://twitter.com/hdv
+    username: "@hdv"
+    name: "Hidde de Vries"
+    - url: https://twitter.com/ireaderinokun
     username: "@ireaderinokun"
     name: "Ire Aderinokun"
   - url: https://twitter.com/JamieKnight
@@ -151,7 +175,10 @@
   - url: https://twitter.com/AccessibleJoe
     username: "@AccessibleJoe"
     name: "Joseph Karr O'Connor"
-  - url: https://twitter.com/karlgroves
+  - url: https://twitter.com/kara_bo_bara_
+    username: "@kara_bo_bara_"
+    name: "Kara Franco"
+    - url: https://twitter.com/karlgroves
     username: "@karlgroves"
     name: "Karl Groves"
   - url: https://twitter.com/metageeky
@@ -244,6 +271,9 @@
   - url: https://twitter.com/ryanflorence
     username: "@ryanflorence"
     name: "Ryan Florence"
+  - url: https://twitter.com/SabrinaHallnyc
+    username: "@SabrinaHallnyc"
+    name: "Sabrina Hall"
   - url: https://twitter.com/sarahtp
     username: "@sarahtp"
     name: "Sarah Pulis"
@@ -320,6 +350,9 @@
   - url: https://twitter.com/googleaccess
     username: "@googleaccess"
     name: "Google Accessibility"
+  - url: https://twitter.com/IAAPorg
+    username: "@IAAPorg"
+    name: "International Association of Accessibility Professionals (IAAP)"
   - url: https://twitter.com/IBMAccess
     username: "@IBMAccess"
     name: "IBMAccess"
@@ -341,6 +374,9 @@
   - url: https://twitter.com/openforaccess
     username: "@openforaccess"
     name: "Open Inclusion"
+  - url: https://twitter.com/AEM_Center
+    username: "@AEM_Center"
+    name: "National Center on Accessible Education Materials"
   - url: https://twitter.com/paciellogroup
     username: "@paciellogroup"
     name: "Paciello Group"
