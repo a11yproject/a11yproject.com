@@ -146,9 +146,6 @@
     - url: https://pressbooks.library.ryerson.ca/wafd/
       title: "Web Accessibility for Developers – Open Textbook"
       description: "by The Chang School, Ryerson University"
-    - url: https://silktide.com/resources/book
-      title: "Web Accessibility Made Easy"
-      description: "by Oliver Emberton"
 
 - resource-category: Blogs
   section-id: blogs
@@ -394,7 +391,7 @@
       description: "Web Rebels (2017)"
     - url: https://www.youtube.com/watch?v=guXNEcwg6os
       title: "Designing for Accessibility (Google I/O'19)"
-      description: "hear from people who are working to make the world an easier place for those with disabilities."
+      description: "Hear from people who are working to make the world an easier place for those with disabilities."
 
 - resource-category: Podcasts
   section-id: podcasts
