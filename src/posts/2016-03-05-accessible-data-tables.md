@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "How-to: Create accessible data tables"
+title: "Create accessible data tables"
 description: "What you need to create an accessible data table."
 published: true
 author: franklyn_roth
 categories:
-  - How-tos
+  - How-to
 ---
 
 The semantic purpose of a data table is to present tabular data. Sighted users can quickly scan the table but a screen reader goes through line by line. Proper markup must be added to help the screen reader make the correct associations that a sighted user would.
 
 ## Example of an accessible data table.
-{% highlight html %}
+
+```
 <table>
     <caption>Monthly Budget</caption>
     <thead>
@@ -37,13 +38,12 @@ The semantic purpose of a data table is to present tabular data. Sighted users c
         </tr>
     </tbody>
 </table>
-{% endhighlight %}
+```
 
 Making an accessible table isn’t hard and can be broken down into two main things.
 
 1. Add a table caption.
-
-2. Mark row and column headings using the 'scope' attribute
+1. Mark row and column headings using the 'scope' attribute
 
 ## Table captions
 Table captions are added right after the opening `<table>` tag with `<caption>Your caption goes here</caption>`.
