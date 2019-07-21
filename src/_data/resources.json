@@ -339,6 +339,11 @@
       "url": "http://www.meetup.com/find/?allMeetups=false&keywords=a11y&radius=Infinity&sort=recommended&eventFilter=mysugg"
     },
     {
+      "title": "Web Accessibility Guidebook for Developers - Telerik",
+      "description": "With this article, our goal is to introduce fellow engineers, regardless of level, to web accessibility and share our practical knowledge and best practices.",
+      "url": "https://www.telerik.com/blogs/web-accessibility-guidebook-for-developers"
+    },
+    {
       "title": "WebAIM Web Accessibility E-mail Discussion List",
       "description": "The WebAIM web accessibility mailing list is for anyone interested in discussing web accessibility issues. Individuals from all organizations and specialties are encouraged to join.",
       "url": "http://webaim.org/discussion/"
@@ -701,11 +706,46 @@
       "type": "Episode"
     },
     {
+      "title": "Accessibility a Developer's User Story",
+      "description": "On this episode of Eat Sleep Code, guest Elle Waters explains why accessibility is important in software development and what a developer’s responsibilities are when creating a product.",
+      "source": "Eat Sleep Code",
+      "url": "https://www.telerik.com/blogs/accessibility-developers-user-story",
+      "type": "Episode"
+    },
+    {
+      "title": "Accessibility with Heydon Pickering",
+      "description": "We're chatting with Heydon Pickering about accessibility, using pre-built solutions past their best before date, everyone's varying degrees of proficiency, and whether accessibility is becoming second nature to more people.",
+      "source": "ShopTalk",
+      "url": "https://shoptalkshow.com/episodes/355/",
+      "type": "Episode"
+    },
+    {
+      "title": "Accessibility with Nicolas Steenhout and Christopher Schmitt",
+      "description": "We're talking accessibility with Christopher and Nicolas from Knowbility. Does accessibility transcend the web? Is it discouraging how much work still needs to be done? How do we get people the skills needed to help with accessibility on the web? Should accessibility be a role in house? And is Javascript the enemy of accessibility?",
+      "source": "ShopTalk",
+      "url": "https://shoptalkshow.com/episodes/367/",
+      "type": "Episode"
+    },
+    {
+      "title": "Accessibility is not a 'nice to have' – with Derek Featherstone",
+      "description": "Why do companies de-prioritize accessibility? Making a digital map accessible to the blind. Pros and cons of the straw test. Why simulating a disability is not the same as working with disabled people.",
+      "source": "The Big Web Show",
+      "url": "http://5by5.tv/bigwebshow/184",
+      "type": "Episode"
+    },
+    {
       "title": "Accessible Podcast",
       "description": "Accessible is a fortnightly—episodes are released twice per month—podcast about accessibility in tech. Topics covered on the show are mostly Apple-centric but will span the tech industry at large where appropriate.",
       "source": "Steven Aquino and Timothy Buck",
       "url": "https://www.accessible.fm",
       "type": "Podcast"
+    },
+    {
+      "title": "Get Access with Aaron Cannon",
+      "description": "This week, we talk accessibility pitfalls with Aaron Canon.",
+      "source": "React Podcast",
+      "url": "https://reactpodcast.simplecast.fm/54",
+      "type": "Episode"
     },
     {
       "title": "Intro to Accessibility with Stephanie Slattery",
@@ -723,6 +763,11 @@
     }
   ],
   "professionalHelp" : [
+    {
+      "title": "Accessible360.com",
+      "description": "We help organizations large and small navigate their path to digital accessibility, giving more people access to their products and services.",
+      "url": "https://accessible360.com/"
+    },
     {
       "title": "Deque Systems",
       "description": "Deque Systems provides web and mobile accessibility solutions so you can meet compliance goals and help make the web accessible to all users.",
@@ -877,6 +922,13 @@
       "description": "Google I/O (2013)",
       "source": "YouTube",
       "url": "https://www.youtube.com/watch?v=YyWu9HB9QtU",
+      "type": "Talk"
+    },
+    {
+      "title": "Designing for Accessibility (Google I/O'19)",
+      "description": "Hear from people who are working to make the world an easier place for those with disabilities.",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/watch?v=guXNEcwg6os",
       "type": "Talk"
     },
     {
