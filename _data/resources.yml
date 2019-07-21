@@ -278,6 +278,9 @@
     - url: https://webaccessibility.guide/
       title: "Web Accessibility Guide"
       description: "by Stefan Feješ"
+    - url: https://www.telerik.com/blogs/web-accessibility-guidebook-for-developers
+      title: "Web Accessibility Guidebook for Developers"
+      description: "by Nikola Shekerev"
 
 - resource-category: Professional Help
   section-id: professional-help
@@ -302,6 +305,9 @@
       #description: ""
     - url: https://tenon.io/
       title: "Tenon.io"
+      #description: ""
+    - url: https://accessible360.com/
+      title: "Accessible360.com"
       #description: ""
 
 - resource-category: Online Tools
@@ -383,6 +389,9 @@
     - url: https://www.youtube.com/watch?v=hUCOA338jwk
       title: "JavaScript and Civil Rights (Marcy Sutton)"
       description: "Web Rebels (2017)"
+    - url: https://www.youtube.com/watch?v=guXNEcwg6os
+      title: "Designing for Accessibility (Google I/O'19)"
+      description: "Hear from people who are working to make the world an easier place for those with disabilities."
 
 - resource-category: Podcasts
   section-id: podcasts
@@ -405,6 +414,21 @@
     - url: https://www.codenewbie.org/podcast/intro-to-accessibility
       title: "Intro to Accessibility with Stephanie Slattery"
       description: "Stephanie Slattery explains the 5 categories of disabilities, shows us how to implement suggestions from the Web Content Accessibility Guidelines, and shares why she’s so passionate about accessibility."
+    - url: https://reactpodcast.simplecast.fm/54
+      title: "Get Access with Aaron Cannon"
+      description: "This week, we talk accessibility pitfalls with Aaron Canon."
+    - url: https://www.telerik.com/blogs/accessibility-developers-user-story
+      title: "Accessibility a Developer's User Story"
+      description: "On this episode of Eat Sleep Code, guest Elle Waters explains why accessibility is important in software development and what a developer’s responsibilities are when creating a product."
+    - url: https://shoptalkshow.com/episodes/355/
+      title: "Accessibility with Heydon Pickering"
+      description: "We're chatting with Heydon Pickering about accessibility, using pre-built solutions past their best before date, everyone's varying degrees of proficiency, and whether accessibility is becoming second nature to more people."
+    - url: https://shoptalkshow.com/episodes/367/
+      title: "Accessibility with Nicolas Steenhout and Christopher Schmitt"
+      description: "We're talking accessibility with Christopher and Nicolas from Knowbility. Does accessibility transcend the web? Is it discouraging how much work still needs to be done? How do we get people the skills needed to help with accessibility on the web? Should accessibility be a role in house? And is Javascript the enemy of accessibility?"
+    - url: http://5by5.tv/bigwebshow/184
+      title: "Accessibility is not a “nice to have” – with Derek Featherstone"
+      description: "Why do companies de-prioritize accessibility? Making a digital map accessible to the blind. Pros and cons of the straw test. Why simulating a disability is not the same as working with disabled people."
 
 - resource-category: Empathy Development
   section-id: empathy-development
