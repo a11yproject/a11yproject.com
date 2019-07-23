@@ -46,6 +46,9 @@
   - url: https://twitter.com/cmuncharaz
     username: "@cmuncharaz"
     name: "Carlos Muncharaz"
+  - url: https://twitter.com/hall_media
+    username: "@hall_media"
+    name: "Charles Hall"
   - url: https://twitter.com/a11ycob
     username: "@a11ycob"
     name: "Chris O'Brien"
@@ -205,9 +208,15 @@
   - url: https://twitter.com/LittleKope
     username: "@LittleKope"
     name: "Lindsey Kopacz"
+  - url: https://twitter.com/lizdavis__
+    username: "@lizdavis__"
+    name: "Liz Davis"
   - url: https://twitter.com/accessaces
     username: "@accessaces"
     name: "Lucy Greco"
+  - url: https://twitter.com/garcialo
+    username: "@garcialo"
+    name: "Luis Garcia"
   - url: https://twitter.com/lukejmcgrath
     username: "@lukejmcgrath"
     name: "Luke McGrath"
@@ -220,6 +229,9 @@
   - url: https://twitter.com/marcysutton
     username: "@marcysutton"
     name: "Marcy Sutton"
+  - url: https://twitter.com/soMelanieSaid
+    username: "@soMelanieSaid"
+    name: "Melanie Richards"
   - url: https://twitter.com/melaniersumner
     username: "@melaniersumner"
     name: "Melanie Sumner"
@@ -277,6 +289,9 @@
   - url: https://twitter.com/SabrinaHallnyc
     username: "@SabrinaHallnyc"
     name: "Sabrina Hall"
+  - url: https://twitter.com/codingchaos
+    username: "@codingchaos"
+    name: "Sarah Higley"
   - url: https://twitter.com/sarahtp
     username: "@sarahtp"
     name: "Sarah Pulis"
@@ -456,6 +471,9 @@
   - url: https://twitter.com/buffa11y
     username: "@buffa11y"
     name: "Buffa11y"
+  - url: https://twitter.com/idea11y
+    username: "@idea11y"
+    name: "Idea11y"
   - url: https://www.meetup.com/Budapest-Accessibility-Meetup/
     username: "#a11ybudapest"
     name: "Budapest Accessibility Meetup"
