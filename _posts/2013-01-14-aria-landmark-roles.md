@@ -5,7 +5,7 @@ description: "Use ARIA Landmark Roles to help assistive devices navigate the mar
 author: erik_runyon
 date: 2013-01-14
 updated_by: scott_ohara
-last_updated: 2018-07-22
+last_updated: 2019-07-28
 categories:
   - Quick Tips
 further_reading:
