@@ -5,7 +5,7 @@ description: "How-to hide content but still make it accessible to screen readers
 author: dave_rupert
 date: 2013-02-15
 updated_by: michael_fairchild
-last_updated: 2017-09-02
+last_updated: 2019-07-28
 categories:
   - How-tos
 further_reading:
@@ -13,40 +13,49 @@ further_reading:
     url: https://davidwalsh.name/html5-hidden
     source: David Walsh
     year: 2012
+  - title: "Inclusively Hidden"
+    url: https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html
+    source: Scott O'Hara
+    year: 2017/2019
 ---
 
-Developers commonly use `display: none` to hide content on the page. Unfortunately, this simple and common action can be problematic for users of screen readers.
+Developers commonly use `display: none` to hide content on the page. Unfortunately, this common action can be problematic for people who use screen readers, especially if the hidden content was *meant* to be for them to discover...
 
-There are real world situations where you might need to hide elements visually (e.g., a form `label`), but keep the element text available to be announced by a screen reader. The "clip pattern" accomplishes this task for you; hide the content visually, yet provide the content to screen readers. Unlike CSS positioning and negative text-indent techniques, the "clip pattern" also works with RTL (Right-to-left) languages for localization. See the article *[Hiding Content for Accessibility](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility)* for more information on the visually-hidden pattern.
+There are real world situations where visually hiding content may be appropriate, while the content should remain available to assistive technologies, such as screen readers. For instance, hiding a search field's `label` as a common magnifying glass icon is used in its stead. 
+
+The "clip pattern" accomplishes this task for you; hide the content visually, yet provide the content to screen readers. Unlike CSS positioning and negative text-indent techniques, the "clip pattern" also works with RTL (Right-to-Left) languages for localization. See the article *[Hiding Content for Accessibility](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility)* for more information on this visually-hidden pattern. Also read [Beware smushed off-screen accessible text](https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe) for information on the *added line* in the code snippet.
 
 ```css
-.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+.visually-hidden { 
     position: absolute !important;
-    height: 1px; width: 1px;
+    height: 1px; 
+    width: 1px;
     overflow: hidden;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
 }
 ```
 
-It is possible to apply the `.visually-hidden` class to content that contains natively focusable elements (such as `a`, `button`, `input`, etc). It's important to show these elements visually when they receive focus, otherwise a keyboard-only user might not know which element currently has focus. CSS for this might look something like:
+If the `.visually-hidden` class is applied to natively focusable elements (such as `a`, `button`, `input`, etc) they **must** become visible when they receive keyboard focus. Otherwise, a sighted keyboard user would have to try and figure out where their visible focus indicator had gone to. 
+
+With modern browsers and IE9 and up, the visually hidden selector can be written like so:
 
 ```css
-.visually-hidden a:focus,
-.visually-hidden input:focus,
-.visually-hidden button:focus {
-    position:static;
-    width:auto; height:auto;
+.visually-hidden:not(:focus):not(:active) { 
+  /* ... */
 }
 ```
 
-Consider adding these HTML classes and CSS rules to your base stylesheet and use them when applicable.
+This will ensure that if an interactive element receives focus, the styles of the .`visually-hidden` class will be undone and the focusable content will be exposed.
+
+
 
 ## Alternatives to `display: none`
 
-The `aria-hidden="true"` HTML attribute is the logical opposite of the `.visually-hidden` class. It hides content from assistive technology, but not visually. This can be helpful in cases where there are visual cues that screen readers do not need to announce, such as icons (although you should provide some form of alternative text for icons).
+The `aria-hidden="true"` attribute produces the opposite affect of the `.visually-hidden` class. It hides content from assistive technology, but not visually. This can be helpful in cases where there are visual cues that screen readers do not need to announce, such as decorative icons that accompany text labels.
 
-There may be cases where you want to use `aria-hidden` and also visually hide the content. This can be accomplished with some CSS like:
+There may be instances where content hidden by `aria-hidden` may also need to be visually hidden as well. Rather than toggling another class on the element, the `aria-hidden` attribute could be used as the selecor:
 
 ```css
 .my-component[aria-hidden="true"] {
@@ -54,8 +63,8 @@ There may be cases where you want to use `aria-hidden` and also visually hide th
 }
 ```
 
- Another way to hide content both visually and from assistive technology is the [HTML5 `hidden` attribute](https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute). To support older browsers like IE9, you might want to add the following css to your pages:
+Another way to hide content both visually and from assistive technology is the [HTML5 `hidden` attribute](https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute). To support older browsers like IE9, and to increase the specificity of the `hidden` attribute, you can add the following snippet to your CSS:
 
 ```css
-[hidden] { display: none; }
+[hidden] { display: none !important; }
 ```
