@@ -37,13 +37,13 @@ The following are common landmark roles that tend to be useful on many pages:
   <dt>banner</dt>
   <dd>
     <p>
-      Typically the “header” of your page, containing the name of the site/application along with other globally available content.
+      Typically the primary “header” of your page, containing the name of the site/application along with other globally available content. It MUST be scoped to the `body` element, and not within another sectioning element, or the <code>main</code> of the document.
     </p>
   </dd>
   <dt>search</dt>
   <dd>
     <p>
-      Use on the primary search form. Often, but not always, found within a `banner`.
+      Use on the primary search form. Often, but not always, found within a `banner`.  If you have multiple <code>search</code> landmarks in a document it would be good to provide them with unique accessible names to indicate how they differ.
     </p>
   </dd>
   <dt>main</dt>
@@ -67,7 +67,7 @@ The following are common landmark roles that tend to be useful on many pages:
 Implementing landmarks in your documents is a straight forward process. Simply add the <code>role</code> attribute referencing the appropriate landmark value. For example:
 
 ```html
-<footer role="contentinfo">...</footer>
+<div role="contentinfo">...</div>
 ```
 
 
@@ -96,7 +96,7 @@ The following table outlines the different <abbr>ARIA</abbr> landmarks, and the 
   <thead>
     <tr>
         <th scope="col">Landmark Role</th>
-        <th scope="col">HTML5 Structural Element</th>
+        <th scope="col">HTML Element</th>
     </tr>
   </thead>
   <tbody>
@@ -156,6 +156,6 @@ The following table outlines the different <abbr>ARIA</abbr> landmarks, and the 
   </tbody>
 </table>
 
-The majority of [modern browsers](http://www.html5accessibility.com/) (except <abbr title="Internet Explorer">IE</abbr>) support these mappings. But it's always beneficial to run your own tests to ensure the appropriate landmark role is being appropriately exposed to assistive technology.
+The majority of [modern browsers](https://www.html5accessibility.com/) (except <abbr title="Internet Explorer">IE</abbr>) support these mappings. But it's always beneficial to run your own tests to ensure the appropriate landmark role is being appropriately exposed to assistive technology.
 
-For example, as of July 2018, Safari and VoiceOver on macOS High Sierra do not properly expose the <code>contentinfo</code> role from a <code>footer</code> element. When presented with situations like this, ignoring conformance warnings, and adding a redundant role to an element, may be preferred to not exposing the correct landmark information.
+For example, there are [still support gaps in browsers and screen readers](https://www.scottohara.me/blog/2019/04/05/landmarks-exposed.html) for exposing some landmarks. When presented with situations like this, ignoring conformance warnings, and adding a redundant role to an element, may be preferred to not exposing the correct landmark information.
