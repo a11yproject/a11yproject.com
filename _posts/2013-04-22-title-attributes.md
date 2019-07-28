@@ -39,7 +39,7 @@ Based on the intended behavior for Text Alternative Computation the precedence f
 
 In cases where two or more of the above are used, whatever is highest in that list becomes what gets used. Consider the following example:
 
-```
+```html
 <img src="/path/to/image.png" alt="" title="some stuff that could be useful" />
 ```
 

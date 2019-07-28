@@ -65,43 +65,43 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
 * Landmark role
   The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](https://a11yproject.com/posts/aria-landmark-roles/) for more information.
 
-~~~~~~~~
-    <nav>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/contact">Contact Page</a>
-        </li>
-      </ul>
-    </nav>
-~~~~~~~~
+  ```html
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/contact">Contact Page</a>
+      </li>
+    </ul>
+  </nav>
+  ```
 
 * aria-labelledby
 
-~~~~~~~~
-<section aria-labelledby="KittensHeader">
-  <h2 id="KittensHeader">All Abbout Kittens</h2>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-</section>
-~~~~~~~~
+  ```html
+  <section aria-labelledby="KittensHeader">
+    <h2 id="KittensHeader">All Abbout Kittens</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+  </section>
+  ```
 
   The `<section>` element includes the ARIA property `aria-labelledby` which lists the ID of the section title. Screen readers will announce this title when they reach the `<section>` element, giving users a sense of the content contained in this portion.
 
 * Role, state, and property together in a Tab control
 
-~~~~~~~~
-<ul role="tablist">
-  <li>
-    <a href="#first-tab" role="tab" aria-selected="true" aria-controls="first-tab">Panel 1</a>
-  </li>
-  <li>
-    <a href="#second-tab" role="tab" aria-selected="false" aria-controls="second-tab">Panel 2</a>
-  </li>
-</ul>
-<div id="first-tab" role="tabpanel"></div>
-<div id="second-tab" role="tabpanel"></div>
-~~~~~~~~
+  ```html
+  <ul role="tablist">
+    <li>
+      <a href="#first-tab" role="tab" aria-selected="true" aria-controls="first-tab">Panel 1</a>
+    </li>
+    <li>
+      <a href="#second-tab" role="tab" aria-selected="false" aria-controls="second-tab">Panel 2</a>
+    </li>
+  </ul>
+  <div id="first-tab" role="tabpanel"></div>
+  <div id="second-tab" role="tabpanel"></div>
+  ```
 
   Each element has an ARIA role and attributes to create a complete tab widget. The relationship between a tab link and tab panel is now available to screen readers.
