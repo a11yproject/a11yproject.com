@@ -35,7 +35,7 @@ Don't make animations, sliders, videos, or rapid movement start automatically. G
 
 Also, with the CSS [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) media query you can write conditional CSS animations and transitions based on the user's preference exposed from the browser settings. For example, you can disable all animations and transitions for users who explicitly prefers reduced motion:
 
-```
+```css
 img {
   animation: slidein 3s;
 }
@@ -55,7 +55,7 @@ button {
 }
 
 button:focus,
-button:hover { 
+button:hover {
   transform: rotate(360deg);
 }
 
@@ -68,7 +68,7 @@ button:hover {
     animation-iteration-count: 1 !important;
     transition-duration: 0.001s !important;
   }
-  
+
 }
 ```
 

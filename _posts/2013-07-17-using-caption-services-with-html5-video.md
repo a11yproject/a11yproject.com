@@ -27,12 +27,14 @@ In addition to making video accessible to those with hearing issues, having a tr
 
 So how do we pull off putting captions into a video after the video has been produced? Fortunately, the video element has a solution for us. We have to provide a transcript file as a track element after the video source files.
 
-    <video class="span12 readable" poster="your-video-poster.jpg" controls title="My Movie">
-        <source  src="your-video.m4v" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-        <source  src="your-video.ogg" type='application/ogg' />
-        <source  src="your-video.webm" type='video/webm' />
-        <track src="your-video-transcript.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
-    </video>
+```html
+<video class="span12 readable" poster="your-video-poster.jpg" controls title="My Movie">
+    <source  src="your-video.m4v" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+    <source  src="your-video.ogg" type='application/ogg' />
+    <source  src="your-video.webm" type='video/webm' />
+    <track src="your-video-transcript.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
+</video>
+```
 
 Many frameworks built on top of the video element make it even simpler to add in captions, like [Video.js](https://videojs.com/).
 
@@ -63,19 +65,21 @@ In addition to the VTT file format, you can also use TTML (Time Text Markup Lang
 
 TTML files look a bit more complex:
 
-    <tt xmlns="http://www.w3.org/ns/ttml" xml:lang="en">
-        <body>
-            <div>
-                <p begin="00:00:9.00" end="00:00:11.00">
-                    Alice: Curiouser and curiouser.
-                </p>
+```xml
+<tt xmlns="http://www.w3.org/ns/ttml" xml:lang="en">
+    <body>
+        <div>
+            <p begin="00:00:9.00" end="00:00:11.00">
+                Alice: Curiouser and curiouser.
+            </p>
 
-                <p begin="00:00:17:00" end="00:00:18:00">
-                    Rabbit: I told you she was the right Alice!
-                </p>
-            </div>
-        </body>
-    </tt>
+            <p begin="00:00:17:00" end="00:00:18:00">
+                Rabbit: I told you she was the right Alice!
+            </p>
+        </div>
+    </body>
+</tt>
+```
 
 You may also see captions in formats like `.srt` or others that may work best for your needs.
 

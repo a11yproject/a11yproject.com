@@ -38,7 +38,7 @@ Make your forms accessible by using one of the following methods (in order of pr
 
 While we're paying attention to our placeholder text, let's review how to add better contrast:
 
-{% highlight css %}
+```css
 ::-webkit-input-placeholder {
   color: #626262;
 }
@@ -51,7 +51,7 @@ While we're paying attention to our placeholder text, let's review how to add be
 :-ms-input-placeholder {
   color: #626262;
 }
-{% endhighlight %}
+```
 
 The above CSS assumes that the background for the form controls are `#fff`. If we test `#fff` and `#626262` in a color contrast tool like [Tanaguru Contrast-Finder](http://contrast-finder.tanaguru.com/result.html;jsessionid=57DFFB6E8E217E7C92C55B7CE2629CF6?foreground=%23626262&background=%23ffffff&isBackgroundTested=false&ratio=4.5&algo=HSV), the results will approve these colors for valid contrast. You can use your own color for this, but be sure to read about [how conformance levels work](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head), and use a color contrast tool to confirm.
 
@@ -60,7 +60,8 @@ In the above CSS, each selector for placeholder text needs to be seperate in the
 Once we have sufficient color contrast in our placeholders, placeholders can be used in addition to labels. Here are two examples of forms where placeholders are used with labels to maintain accessibility.
 
 **Explicit labeling:**
-{% highlight html %}
+
+```html
 <form>
   <label for="your-name">
     Your Name:
@@ -68,10 +69,11 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
   <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
   <input type="submit" value="Submit Name">
 </form>
-{% endhighlight %}
+```
 
 **Implicit & explicit labeling combined:**
-{% highlight html %}
+
+```html
 <form>
   <label for="your-name">
     Your Name:
@@ -79,6 +81,6 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
   </label>
   <input type="submit" value="Submit Name">
 </form>
-{% endhighlight %}
+```
 
 Note that in the second example above, omitting the `for` attribute on the label is still valid, but still best practice to include. By keeping the `for` attribute in place, we're combining both explicit and implicit techniques. For more about explicit and implicit labeling, check out ["Labeled with Love"](https://www.aaron-gustafson.com/notebook/labeled-with-love/). By adding the `for` attribute to a label with the same value as the ID for the input element it corresponds to, the label becomes *explicitly* associated with that input element. Explicit labeling is great for screen reader users and when clicking/focusing that label, it will automatically focus the associated input element.

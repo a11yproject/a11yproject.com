@@ -18,13 +18,13 @@ By setting `maximum-scale=1.0`, you are disabling the functionality to use pinch
 
 ### The bad way:
 
-``` html
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 ```
 
 ### The good way:
 
-``` html
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 

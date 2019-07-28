@@ -17,7 +17,7 @@ Skip nav links are useful for users who use keyboard navigation only, but screen
 
 ### Example
 
-{% highlight html %}
+```html
 <body>
   <a href="#main">Skip to main content</a>
   <nav role="navigation">
@@ -31,7 +31,7 @@ Skip nav links are useful for users who use keyboard navigation only, but screen
     <!-- page specific content -->
   </main>
 </body>
-{% endhighlight %}
+```
 
 **Disclaimer**: The mechanism by which skip navigation links work had for some time been broken in Webkit based browsers and has only [recently been fixed](https://code.google.com/p/chromium/issues/detail?id=37721). Until these browsers release the fixes, you may need to use a JavaScript polyfill to make skip nav links work.
 
