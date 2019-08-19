@@ -1,6 +1,18 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "#a11yTO Conf"
+      description: "On October 24th and 25th we will open the doors at TELUS Digital in downtown Toronto to over 300 attendees for two full days of accessibility training! This two-day, one-track conference is a curated "playlist" of lectures, demos, and lightening talks. Our mix of presentations and learning styles provides a unique and immersive learning experience which is true to the level of quality expected from the #a11yTO brand."
+      url: "https://conf.a11yto.com/"
+      type: "Regional"
+      date: 2019-10-24
+      address: "Telus Digital, 25 York St, Toronto, ON M5J 2V5"
+      map: "https://goo.gl/maps/9eAwEt9WVkAm2PFB8"
+    - title: "Inclusive Design 24 (#id24)"
+      description: "Inclusive Design 24 (#id24) is a free 24-hour online event for the global community. It celebrates inclusive design and shares knowledge and ideas from analogue to digital, from design to development, from planners to practitioners, and everything and everyone in between."
+      url: "https://inclusivedesign24.org/2019/"
+      type: "Webinar"
+      date: 2019-10-10
     - title: "ACCESS 2019"
       description: " ACCESS is for the accessibility enthusiast. Attendees can hear from industry leaders on a11y laws, strategies, and use cases, get certified as a video accessibility expert, network, and get access to free food, swag, open bar at happy hour, and more!  Whether you already have a video accessibility initiative at your organization or not, you'll leave empowered, motivated, and prepared to create a more universe-ally accessible world."
       url: "https://www.eventbrite.com/e/access-2019-tickets-56415471193?discount=astronaut"
