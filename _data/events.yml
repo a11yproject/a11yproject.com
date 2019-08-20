@@ -20,6 +20,11 @@
       date: 2019-10-03
       address: "212 Northern Ave, Boston, MA 02210 "
       map: "https://goo.gl/maps/8YAn4tnJD6SjZGxv6"
+    - title: "IAAP & Deque Webinar: The Real Cost of Accessibility Complaints & Lawsuits"
+      description: "Has your company received an accessibility complaint or lawsuit? Awareness of the true dollar costs associated with inaccessible content is critical. Using this data you can build a case for sustained investment. Providing accessible content is the best way to avoid complaints and litigation. Handling accessibility complaints properly is critical to avoiding costly litigation. During this webinar, you'll gain insight into these events using real-world cost examples from Fortune 500 companies."
+      url: "https://accessibilityassociation.formstack.com/forms/registration_real_cost_webinar"
+      type: "Webinar"
+      date: 2019-09-12
     - title: "The ROI of Digital Accessibility"
       description: "By making your website accessible, your organization can capture a huge, overlooked market share, reduce your legal risk, lower call-center costs, and boost brand value."
       url: "https://accessibility.deque.com/roi-digital-accessibility-webinar"
