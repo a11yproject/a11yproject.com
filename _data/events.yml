@@ -20,6 +20,13 @@
       date: 2019-10-03
       address: "212 Northern Ave, Boston, MA 02210 "
       map: "https://goo.gl/maps/8YAn4tnJD6SjZGxv6"
+    - title: "Philly Accessibility Meetup: Disability Justice for Technologists"
+      description: "When you think of accessibility, do you immediately consider standards and requirements? Many technologists do. At this meetup, UX researcher and disability justice scholar Embry Wood Owen will present a different perspective: an exciting, radical history of activism. She will share stories from modern disability history and what we can learn from them to apply in our work in tech. You will leave with a firmer foundation for your accessibility work."
+      url: "https://www.meetup.com/a11yphl/events/kmnzfryzmbxb/"
+      type: "Regional"
+      date: 2019-09-18
+      address: "399 Market St #360, Philadelphia, PA 19106"
+      map: "https://g.page/indyhall?share"
     - title: "IAAP & Deque Webinar: The Real Cost of Accessibility Complaints & Lawsuits"
       description: "Has your company received an accessibility complaint or lawsuit? Awareness of the true dollar costs associated with inaccessible content is critical. Using this data you can build a case for sustained investment. Providing accessible content is the best way to avoid complaints and litigation. Handling accessibility complaints properly is critical to avoiding costly litigation. During this webinar, you'll gain insight into these events using real-world cost examples from Fortune 500 companies."
       url: "https://accessibilityassociation.formstack.com/forms/registration_real_cost_webinar"
