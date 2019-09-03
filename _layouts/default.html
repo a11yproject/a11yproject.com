@@ -9,6 +9,14 @@
     <link rel="apple-touch-icon" href="/img/logo-192x192.png">
     <meta name="theme-color" content="#000">
 
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
+
     <!-- search -->
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     {% if page.description %}
