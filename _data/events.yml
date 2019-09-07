@@ -37,6 +37,13 @@
       url: "https://accessibility.deque.com/roi-digital-accessibility-webinar"
       type: "Webinar"
       date: 2019-08-20
+    - title: "JAWS Inspect: An Inclusive Approach To Manual Accessibility Testing"
+      description: "This presentation will identify key obstacles that QA testers and developers encounter while manually testing their content for screen reader performance. This presentation identifies specific obstacles; offers strategies for addressing them, and provides an overview of the JAWS Inspect testing tool as an inclusive vehicle for conducting manual tests."
+      url: "https://www.meetup.com/Cleveland-Accessibility-Meetup/events/264002876/"
+      type: "Regional"
+      date: 2019-08-09
+      address: "Orange Branch of Cuyahoga County Public Library, 31975 Chagrin Blvd., Pepper Pike OH"
+      map: "https://goo.gl/maps/B9ZQS8qEjh94Y9xDA"
     - title: "What you need to report for the 21st Century Integrated Digital Experience Act (IDEA)"
       description: "The 21st Century IDEA Act requires that public service agencies report their state of Section 508 compliance to Congress by December 20, 2019. While Section 508 was recently refreshed and the requirements have been around for a couple of decades, this brings a renewed focus on Section 508, requiring CIO's of agencies to submit a report of the baseline status to Congress, with annual updates on the progress."
       url: "https://accessibility.deque.com/idea-act-webinar"
