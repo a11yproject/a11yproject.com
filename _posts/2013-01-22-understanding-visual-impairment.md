@@ -50,6 +50,6 @@ A greater dependence on what we might take for granted is also very important. E
 
 ## The future is bright
 
-[Louis Braille](http://braillebug.afb.org/louis_braille_bio.asp) invented the Braille system for reading and writing in 1824, giving access to previously inaccessible literature. Helen Keller overcame the institutionalized education system of the 19th century, becoming the first deafblind person to earn a Bachelor of Arts Degree. Bob Stepp  developed the first Braille editing program in 1980, and in the modern era we hold the key to accessibility for this generation and many more to come.
+[Louis Braille](https://en.wikipedia.org/wiki/Louis_Braille) invented the Braille system for reading and writing in 1824, giving access to previously inaccessible literature. Helen Keller overcame the institutionalized education system of the 19th century, becoming the first deafblind person to earn a Bachelor of Arts Degree. Bob Stepp  developed the first Braille editing program in 1980, and in the modern era we hold the key to accessibility for this generation and many more to come.
 
 > The challenges of yesterday are the opportunities of today.
