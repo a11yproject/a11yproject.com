@@ -39,7 +39,8 @@ The A11Y Project uses [Jekyll](https://jekyllrb.com/) to manage its content. Jek
 
 Once you have met [the prerequisites](#requirements), follow these steps to install the website on your computer:
 
-1. Clone this repository by entering this command into your command line application: `git clone https://github.com/a11yproject/a11yproject.com.git`. It will create a version controlled copy of the website in the directory you entered the command in.
+1. [Fork the repository](https://help.github.com/en/articles/fork-a-repo) to create a copy of the project you can work with.
+1. Clone a copy of the repository to your computer by entering this command into your command line application: `git clone https://github.com/your_github_username/a11yproject.com.git`, where `your_github_username` corresponds to the username you use to log into the site (for example, our username is `a11yproject`). This will create a version controlled copy of the website in the directory you entered the command in.
 1. Navigate into the project's [root directory](https://en.m.wikipedia.org/wiki/Root_directory) by typing `cd a11yproject.com` in your command line application.
 1. Install the project's Ruby Gems by typing `bundle install` into your command line application. A list of Ruby Gems will be displayed after they are downloaded and installed.
 
