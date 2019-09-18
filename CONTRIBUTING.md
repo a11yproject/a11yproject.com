@@ -40,7 +40,7 @@ People working on more sophisticated aspects of the site (new features, bug fixe
 If you are looking for a place to get started learning about Git and contributing to an Open Source project, [Egghead.io offers a great introductory course](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github).
 
 ### Forking
-To submit updates and changes to The A11Y Project, you will first need to [Fork the repository](https://help.github.com/en/articles/fork-a-repo).
+To submit updates and changes to The A11Y Project, you will first need to [Fork the repository](https://help.github.com/en/articles/fork-a-repo). 
 
 Forking will create a copy of the repository on your GitHub account. This will allow you to make changes on your copy and suggest incorporating them into The A11Y Project's repository in the form of a Pull Request.
 
@@ -106,6 +106,8 @@ Articles are written using [Markdown](#markdown), using a special formatting tec
 To get started writing an article, [create a feature branch](#important-branches) and create a new Markdown file in the [`_posts` directory](https://github.com/a11yproject/a11yproject.com/tree/gh-pages/_posts). The Markdown's file name should reflect the intended publishing date and the title of the article. For example, a post about accessible typography may have a filename along the lines of `2018-09-12-accessible-typography.md`
 
 Copying [our example post](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_posts/example-post.md), then updating its filename and front matter to match your article can be an easy way to help ensure everything is formatted properly.
+
+If you would like to write an article but do not feel comfortable working in Markdown or with GitHub, please contact us at `hello@a11yproject.com` and we can work something out.
 
 #### Submitting
 
