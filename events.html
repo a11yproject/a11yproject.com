@@ -12,7 +12,7 @@ redirect_from:
 </p>
 
 <nav hidden id="toc-events" class="toc-wrap toc-long" aria-labelledby="toc_title">
-    <h2 id="toc_title" class="toc-title">Categories</h2>
+    <h2 id="toc_title" class= "toc-title" > Categories </h2>
     <ul class="toc">
         {% for category in site.data.events %}
         <li>
@@ -36,7 +36,8 @@ redirect_from:
     {% for event in sorted_events %}
     <div class="waypoint-section event" data-date="{{event.date | date:"%s"}}" aria-labelledby="{{event.title | url_encode | downcase | replace_first:'%','' | replace:'+','-'}}">
       <h4 id="{{event.title | url_encode | downcase | replace_first:'%','' | replace:'+','-'}}">
-        <a href="{{ event.url }}" rel="external">{{event.title}}</a>{% if event.type %} <span class="event__type">{{event.type}}</span>{% endif %}
+        <a href="{{ event.url }}" rel="external">{{event.title}}</a>
+        {% if event.type %} <span class="event__type">{{event.type}}</span>{% endif %}
       </h4>
       <dl class="article-section__content">
         <dt class="screen-reader-text">
@@ -59,7 +60,7 @@ redirect_from:
           Event description:
         </dt>
         <dd>
-          {{event.description}} {% if event.hashtag %}<span class="screen-reader-text">Event hashtag: </span><a href="https://twitter.com/search?src=typd&q=%23{{event.hashtag}}" rel="external">#{{event.hashtag}}</a>{% endif %}
+          {{event.description}} {% if event.hashtag %} <span class="screen-reader-text">Event hashtag: </span><a href="https://twitter.com/search?src=typd&q=%23{{event.hashtag}}" rel="external">#{{event.hashtag}}</a>{% endif %}
         </dd>
       </div>
     {% endfor %}
