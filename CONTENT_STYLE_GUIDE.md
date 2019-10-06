@@ -147,6 +147,7 @@ Don't describe a person as having a disability unless it is relevant to the poin
 - [Choosing Words for Talking About Disability - American Psychological Association](https://www.apa.org/pi/disability/resources/choosing-words.aspx)
 - [Introduction to Disability Terminology - Disability in Kidlit](http://disabilityinkidlit.com/2016/07/08/introduction-to-disability-terminology/)
 - [Conscious Style Guide](https://consciousstyleguide.com/)
+- [The Dos and Don’ts of Writing About the Disabled | Literary Hub](https://lithub.com/the-dos-and-donts-of-writing-about-the-disabled/)
 
 #### Examples
 
