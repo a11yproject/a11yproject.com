@@ -1,7 +1,7 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
-  - title: "t12t meetup"
+    - title: "t12t meetup"
       description: "It's time for the fourth and last meetup about accessibility and inclusion in central Stockholm, Sweden.  With 500 attendees, this event will bring lightning talks about screen readers, accessible images and much more. It's a collaboration with the Swedish Post and Telecom Authority (PTS) to make this event possible."
       url: "https://www.meetup.com/t12t-Stockholm/events/265583734/"
       type: "Regional"
