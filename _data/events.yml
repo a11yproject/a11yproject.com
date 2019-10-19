@@ -1,6 +1,14 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+  - title: "t12t meetup"
+      description: "It's time for the fourth and last meetup about accessibility and inclusion in central Stockholm, Sweden.  With 500 attendees, this event will bring lightning talks about screen readers, accessible images and much more. It's a collaboration with the Swedish Post and Telecom Authority (PTS) to make this event possible."
+      url: "https://www.meetup.com/t12t-Stockholm/events/265583734/"
+      type: "Regional"
+      date: 2019-11-11
+      address: "Nils Ericsson Plan 4, 11 64 Stockholm"
+      hashtag: "t12t"
+      map: "https://goo.gl/maps/1WQMTnH759aunWop8"
     - title: "Accessibility in the Modern Digital Agency"
       description: "Digital agencies are often the source for companies (large and small) to create integrated and marketable products and platforms. In my time at Code and Theory, we’ve seen an accessibility awakening with not only ourselves but also with our clients. Accessibility deliverables are a clear value-add proposition to our clients, including creative technology and technical strategy integrations. I’ll be discussing how we’ve built an actionable awareness over multiple teams about accessible deliverables - from answering RFPs through QA and final launch. Also, I’ll be discussing the range of needs our clients are requesting when they’re building their digital products. Finally, I’ll be discussing our current needs within the agency regarding scaling skillsets, capacity planning, and follow-the-sun development/test strategy.<br><br><strong>Speaker:</strong> Sara Tabor (<a href='https://twitter.com/OneHotProcessor'>https://twitter.com/OneHotProcessor</a>)<br><strong>Meeting link:</strong> <a href='https://bit.ly/October2019A11yTalks'>https://bit.ly/October2019A11yTalks</a><br>"
       url: "https://groups.drupal.org/node/535436"
