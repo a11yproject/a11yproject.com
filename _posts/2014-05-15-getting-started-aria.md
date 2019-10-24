@@ -5,7 +5,7 @@ description: "Introduction to ARIA, describing Roles, States, and Properties and
 published: true
 author: monika_piotrowicz
 updated_by: scott_ohara
-last_updated: 2019-07-28
+last_updated: 2019-10-24
 categories:
   - Background
 ---
@@ -18,7 +18,7 @@ ARIA, by design, has no effect on how elements are displayed or behave in browse
 
 ### Links
 * [ARIA in HTML specification](https://www.w3.org/TR/html-aria/) - Defines how ARIA may be used within HTML.
-* [ARIA specificaiton](https://www.w3.org/TR/wai-aria/) - Defines ARIA 
+* [ARIA specification](https://www.w3.org/TR/wai-aria/) - Defines ARIA 
 
 ## ARIA attributes
 ARIA attributes are predefined in the spec and are divided into two categories, roles and states & properties. Both can be added directly in the markup or via JavaScript to progressively enhcance markup as necessary. The properties and states should be updated as needed based on user interactions. There are rules behind which elements may receive types of ARIA attributes, as well as design guidelines for how and when these should be updated in common interactive widgets.
@@ -30,7 +30,7 @@ ARIA attributes are predefined in the spec and are divided into two categories, 
 
 ## ARIA roles
 
-An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change for an element once set. There are four categories of ARIA roles.
+An ARIA role is added via a `role="<ROLE TYPE>"` attribute and does not change for an element once set. There are six categories of ARIA roles.
 
 * **Landmark**  
   Landmark roles identify large content areas and are used by screen readers for navigation. Ideally all content of a document would be placed within a landmark role. Doing so would ensure that all content could be navigated to by use of landmarks. E.g. `<footer role="contentinfo">`.
