@@ -1,6 +1,13 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Accessibility Club Summit 2019"
+      description: "This is the Accessibility Club's first ever 2-day community summit for developers, designers & accessibility enthusiasts, jointly run by several a11y meetups from all over Europe. We will have a full-day barcamp on Saturday, November 16th, with 5 pre-assigned international presentations and 10 additional spontaneous sessions. Sunday, November 17th, will be packed with 9 half- and full-day workshops around accessibility and disability topics, run by community members. The event is non-profit and open to anyone / any skill level."
+      url: "https://accessibility-club.org/event/accessibility-club-summit-2019"
+      type: "Regional"
+      date: 2019-11-16
+      address: "Microsoft Atrium, Charlottenstraße 46, 10117 Berlin"
+      hashtag: "a11yclubSummit"
     - title: "t12t meetup"
       description: "It's time for the fourth and last meetup about accessibility and inclusion in central Stockholm, Sweden.  With 500 attendees, this event will bring lightning talks about screen readers, accessible images and much more. It's a collaboration with the Swedish Post and Telecom Authority (PTS) to make this event possible."
       url: "https://www.meetup.com/t12t-Stockholm/events/265583734/"
