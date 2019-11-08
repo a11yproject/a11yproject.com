@@ -1,6 +1,21 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Translating Design Wireframes Into Accessible HTML/CSS"
+      description: "In this webinar, Harris will walk you through the process of analyzing a wireframe from an accessibility perspective, making coding decisions to optimize for accessibility, implementing that code, testing your code, and troubleshooting."
+      url: "https://www.smashingmagazine.com/smashing-tv/translating-design-wireframes-into-accessible-html-css/"
+      type: "Webinar"
+      date: 2019-11-20
+    - title: "Digital Compliance in the Healthcare Industry"
+      description: "Are you a health insurance provider or an organization that sells into the healthcare insurance industry? Join us for a webinar to hear leading industry experts discuss digital accessibility compliance for the healthcare industry."
+      url: "https://www.accessibilityassociation.org/content.asp?admin=Y&contentid=616"
+      type: "Webinar"
+      date: 2019-11-13
+    - title: "How does the recent SCOTUS decision impact the accessibility legal landscape?"
+      description: "Preety Kumar, CEO, Deque Systems is joined by one of the nation’s leading disability rights attorneys, Eve Hill, of Brown, Goldstein & Levy, to discuss the new legal state of accessibility.The Supreme Court of the United States (SCOTUS) recently refused to hear the appeal of a major US restaurant. Listen in as Preety and Eve discuss: A brief history of accessibility and compliance; A breakdown of the recent SCOTUS decision; What to legal compliance activity to expect in the near future; Advice on next steps"
+      url: "https://accessibility.deque.com/accessibility-impact-scotus-decision"
+      type: "Webinar"
+      date: 2019-11-11
     - title: "Accessibility Club Summit 2019"
       description: "This is the Accessibility Club's first ever 2-day community summit for developers, designers & accessibility enthusiasts, jointly run by several a11y meetups from all over Europe. We will have a full-day barcamp on Saturday, November 16th, with 5 pre-assigned international presentations and 10 additional spontaneous sessions. Sunday, November 17th, will be packed with 9 half- and full-day workshops around accessibility and disability topics, run by community members. The event is non-profit and open to anyone / any skill level."
       url: "https://accessibility-club.org/event/accessibility-club-summit-2019"
