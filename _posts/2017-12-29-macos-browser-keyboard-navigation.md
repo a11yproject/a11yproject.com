@@ -89,9 +89,21 @@ Just like in Safari, a similar setting is available in Chrome. Verify that this 
 
 ### Highlight each item in Firefox
 
-Unlike Safari and Chrome, Firefox does not have an option in the settings page for enabling full keyboard control. However, when the "All Controls" setting is enabled in macOS, Firefox may still not send focus to links using the tab key. There is a way to enable keyboard focus of links using advanced configuration options. To enable:
+Unlike Safari and Chrome, Firefox does not have an option in the settings page for enabling full keyboard control. However, when the "All Controls" setting is enabled in macOS, Firefox may still not send focus to links using the tab key. There is a way to enable keyboard focus of links using advanced configuration options.
+
+_Note: When accessibility.tabfocus is set, some forms created with non-semantic HTML elements can behave oddly. For example, the GitHub Gist code editor. If non-semantic HTML elements are inexplicably inaccessible, try resetting this option._
+
+To enable:
 
 1. Open a new tab and go to "about:config"
 2. Right Click and select New > Integer ![The Firefox about:config add config menu. The screenshot is highlighting the selection of the New Integer configuration.](/img/posts/2017-12-29-macos-browser-keyboard-navigation/firefox-add-config.png)
 3. Enter the preference name "accessibility.tabfocus". Click OK. ![The Firefox about:config add config menu. The screenshot is highlighting entering accessibility.tabfocus as a preference name.](/img/posts/2017-12-29-macos-browser-keyboard-navigation/firefox-config-name.png)
 4. Enter the number "7". Click OK. ![The Firefox about:config add config dialog. The screenshot is highlighting entering 7 as a preference value.](/img/posts/2017-12-29-macos-browser-keyboard-navigation/firefox-config-value.png)
+
+To reset:
+
+1. Open a new tab and go to "about:config"
+2. Find the accessibility.tabfocus preference row. (tip: use search field at top of page)
+3. Right Click on the row and select Reset
+   ![The Firefox about:config right click menu. The screenshot is highlighting the selection of the Reset menu itme.](/img/posts/2017-12-29-macos-browser-keyboard-navigation/firefox-config-reset.png)
+4. Restart Firefox
