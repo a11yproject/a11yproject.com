@@ -21,7 +21,7 @@ ARIA, by design, has no effect on how elements are displayed or behave in browse
 * [ARIA specification](https://www.w3.org/TR/wai-aria/) - Defines ARIA 
 
 ## ARIA attributes
-ARIA attributes are predefined in the spec and are divided into two categories, roles and states & properties. Both can be added directly in the markup or via JavaScript to progressively enhcance markup as necessary. The properties and states should be updated as needed based on user interactions. There are rules behind which elements may receive types of ARIA attributes, as well as design guidelines for how and when these should be updated in common interactive widgets.
+ARIA attributes are predefined in the spec and are divided into two categories, roles and states & properties. Both can be added directly in the markup or via JavaScript to progressively enhance markup as necessary. The properties and states should be updated as needed based on user interactions. There are rules behind which elements may receive types of ARIA attributes, as well as design guidelines for how and when these should be updated in common interactive widgets.
 
 ### Links
 * [ARIA Roles](https://www.w3.org/TR/wai-aria/#roles_categorization) - Section of the specification about roles.
