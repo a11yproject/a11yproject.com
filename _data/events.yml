@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "What to look for in an accessibility audit"
+      description: "Unfortunately, the majority of accessibility audits fail to see follow-through by the recipients. If your organization is new to accessibility, it is important to note that there are many types of accessibility audits. Join us for this live webinar to learn the key characteristics and processes that should be involved in a successful audit."
+      url: "https://accessibility.deque.com/what-to-look-for-in-an-accessibility-audit"
+      type: "Webinar"
+      date: 2019-12-05
     - title: "Translating Design Wireframes Into Accessible HTML/CSS"
       description: "In this webinar, Harris will walk you through the process of analyzing a wireframe from an accessibility perspective, making coding decisions to optimize for accessibility, implementing that code, testing your code, and troubleshooting."
       url: "https://www.smashingmagazine.com/smashing-tv/translating-design-wireframes-into-accessible-html-css/"
