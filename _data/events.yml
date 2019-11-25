@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Accessible Edtech: How Clever made accessibility changes that impact millions of K-12 students"
+      description: "<a href='https://github.com/a11yproject/a11yproject.com/issues/www.clever.com'>Clever</a>, the most widely used SSO platform for K-12 education, undertook accessibility changes that impacted millions of students, teachers and administrators country-wide. Hear from their Director of design, James Reffell, and Software Engineer, Anthony Fumagalli, on how they approached accessibility for their site, which has a far-reaching impact in US education. Hosted by <a href='https://github.com/a11yproject/a11yproject.com/issues/www.deque.com'>Deque</a>"
+      url: "https://accessibility.deque.com/clever-edtech-accessibility-webinar"
+      type: "Webinar"
+      date: 2019-12-10
     - title: "What to look for in an accessibility audit"
       description: "Unfortunately, the majority of accessibility audits fail to see follow-through by the recipients. If your organization is new to accessibility, it is important to note that there are many types of accessibility audits. Join us for this live webinar to learn the key characteristics and processes that should be involved in a successful audit."
       url: "https://accessibility.deque.com/what-to-look-for-in-an-accessibility-audit"
