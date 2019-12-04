@@ -103,6 +103,9 @@
     - url: https://github.com/mgifford/a11y-courses
       title: "Accessibility courses, and more"
       description: "List curated by Mike Gifford"
+    - url: https://www.edx.org/course/web-accessibility-introduction
+      title: "Introduction to Web Accessibility"
+      description: "By edX and the W3C"
 
 - resource-category: Books
   section-id: books
@@ -284,6 +287,9 @@
     - url: https://www.telerik.com/blogs/web-accessibility-guidebook-for-developers
       title: "Web Accessibility Guidebook for Developers"
       description: "by Nikola Shekerev"
+    - url: https://mobilea11y.com/
+      title: "Mobile A11y"
+      description: "by Rob Whitaker"
 
 - resource-category: Professional Help
   section-id: professional-help
@@ -358,8 +364,6 @@
     - url: https://www.aditus.io/button-contrast-checker/
       title: "Button Contrast Checker"
       description: "Checks if all the buttons of a page have enough text and non-text contrast."
-
-
 
 - resource-category: Talks (Video)
   section-id: talks
