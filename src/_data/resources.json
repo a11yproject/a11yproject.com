@@ -362,6 +362,12 @@
       "url": "https://github.com/mgifford/a11y-courses"
     },
     {
+      "title": "Introduction to Web Accessibility",
+      "description": "Get a strong foundation in digital accessibility to make your websites and apps work well for people with disabilities, meet international standards, and provide a better user experience for everyone.",
+      "developer": "edX and the W3C",
+      "url": "https://egghead.io/courses/start-building-accessible-web-applications-today"
+    },
+    {
       "title": "Start Building Accessible Web Applications Today",
       "description": "This course will introduce you to accessibility through hands-on, technical examples that are way more effective than reading 10-year-old static web content.",
       "developer": "egghead.io",
@@ -1316,6 +1322,14 @@
       "description": "Accessibility of the world wide web hasn’t always been a number one priority for web developers (much to detriment of internet users). Whilst very few people set out to design a website that is inaccessible, many studies have documented partially or completely inaccessible websites.",
       "source": "Amy Dickens",
       "url": "https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8"
+    },
+    {
+      "title": "Mobile A11y",
+      "description": "
+
+      Mobile A11y is a collection of blogs and resources about how we as mobile developers can improve accessibility on mobile devices.",
+      "source": "Rob Whitaker",
+      "url": "https://mobilea11y.com/"
     },
     {
       "title": "Word and PowerPoint Accessibility Evaluation Checklist",
