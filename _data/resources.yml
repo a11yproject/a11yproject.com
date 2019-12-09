@@ -364,6 +364,9 @@
     - url: https://www.aditus.io/button-contrast-checker/
       title: "Button Contrast Checker"
       description: "Checks if all the buttons of a page have enough text and non-text contrast."
+    - url: http://leonardocolor.io/
+      title: "Leonardo"
+      description: "Generate colors based on a desired contrast ratio"
 
 - resource-category: Talks (Video)
   section-id: talks
@@ -501,6 +504,9 @@
     - url: https://github.com/evcohen/eslint-plugin-jsx-a11y
       title: "eslint-plugin-jsx-a11y"
       description: "Static AST checker for a11y rules on JSX elements"
+    - url: http://www.github.com/adobe/leonardo/
+      title: "Leonardo"
+      description: "Generate colors based on a desired contrast ratio"
 
 - resource-category: PDFs
   section-id: pdfs
