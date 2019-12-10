@@ -364,6 +364,9 @@
     - url: https://www.aditus.io/button-contrast-checker/
       title: "Button Contrast Checker"
       description: "Checks if all the buttons of a page have enough text and non-text contrast."
+    - url: http://leonardocolor.io/
+      title: "Leonardo"
+      description: "Generate colors based on a desired contrast ratio"
 
 - resource-category: Talks (Video)
   section-id: talks
