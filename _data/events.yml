@@ -1,6 +1,12 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Accessibility is too hard - Developer Edition"
+      description: "In this panel we’ll dig into people’s misconceptions about the difficulty of accessibility  as well as some of the ways that accessibility is genuinely difficult. Join the live discussion with Aisha Blake, Kathleen McMahon, Scott O’Hara, Jared Smith, & Marcy Sutton with Caitlin Cashin as host.<br>"
+      url: "https://www.youtube.com/c/accessibilitytalks"
+      type: "Webinar"
+      date: 2019-12-13
+      hashtag: "A11yTalks"
     - title: "Accessible Edtech: How Clever made accessibility changes that impact millions of K-12 students"
       description: "<a href='https://github.com/a11yproject/a11yproject.com/issues/www.clever.com'>Clever</a>, the most widely used SSO platform for K-12 education, undertook accessibility changes that impacted millions of students, teachers and administrators country-wide. Hear from their Director of design, James Reffell, and Software Engineer, Anthony Fumagalli, on how they approached accessibility for their site, which has a far-reaching impact in US education. Hosted by <a href='https://github.com/a11yproject/a11yproject.com/issues/www.deque.com'>Deque</a>"
       url: "https://accessibility.deque.com/clever-edtech-accessibility-webinar"
