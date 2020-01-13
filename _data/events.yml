@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Build vs. Buy: Automated Accessibility Tools"
+      description: "In this live webinar, our presenters will review why in some cases it’s better to buy vs. build your own accessibility solution."
+      url: "https://accessibility.deque.com/build-vs-buy-webinar"
+      type: "Webinar"
+      date: 2020-01-14
     - title: "Accessibility is too hard - Developer Edition"
       description: "In this panel we’ll dig into people’s misconceptions about the difficulty of accessibility as well as some of the ways that accessibility is genuinely difficult. Join the live discussion with Aisha Blake, Kathleen McMahon, Scott O’Hara, Jared Smith, & Marcy Sutton with Caitlin Cashin as host."
       url: "https://www.youtube.com/c/accessibilitytalks"
