@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "React and Accessibility"
+      description: "React has developed a stigma within the accessibility community that web applications created in React are not accessible. The fact is though that React does, in fact, have a lot of accessibility that is built into the framework, and that it also has a large community of accessible add-ons that can help you achieve accessible components."
+      url: "https://accessibility.deque.com/react-accessibility-webinar"
+      type: "Webinar"
+      date: 2020-02-04
     - title: "Build vs. Buy: Automated Accessibility Tools"
       description: "In this live webinar, our presenters will review why in some cases it’s better to buy vs. build your own accessibility solution."
       url: "https://accessibility.deque.com/build-vs-buy-webinar"
