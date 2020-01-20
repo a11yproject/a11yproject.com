@@ -8,6 +8,7 @@ last_updated: 2019-11-15
 updated_by: erin_olmon
 redirect_from:
   - /posts/safari-keyboard-navigation
+  - https://a11yproject.com/posts/safari-keyboard-navigation/
 published: true
 categories:
   - Quick Tips
