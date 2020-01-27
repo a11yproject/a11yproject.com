@@ -14,23 +14,4 @@
 .c-hero {
   background: $color-green-shade url("#{$path-to-img}/hero-a11y.svg") no-repeat center;
   background-size: cover;
-  height: 80vh;
-
-  // Supports
-  @supports #{$supports-flex} {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  @supports #{$supports-grid} {
-    display: grid;
-    grid-template-columns: 1fr minmax(0, 50vw) 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-      ". .    ."
-      ". a11y ."
-      ". .    .";
-  }
 }

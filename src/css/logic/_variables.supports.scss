@@ -15,10 +15,16 @@ $supports-flex: "(display: flex)";
 // supports-grid
 //
 // Styleguide Logic.Variables.supports.supports-grid
-$supports-grid: "(display: grid)";
+$supports-grid: "(grid-template-columns: subgrid)";
 
 
 // supports-hanging-punctuation
 //
 // Styleguide Logic.Variables.supports.supports-hanging-punctuation
 $supports-hanging-punctuation: "(hanging-punctuation: first)";
+
+
+// supports-underlines
+//
+// Styleguide Logic.Variables.supports.supports-underlines
+$supports-underlines: "(text-underline-offset: 0.5rem)";

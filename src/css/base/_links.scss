@@ -6,23 +6,12 @@
 //
 // Styleguide Base.link
 a {
-  // color: c(links, resting);
+  color: $color-green;
 
   // States
-  &:hover {
-    // color: c(links, hover);
-  }
-
+  &:hover,
   &:focus {
-    // color: c(links, focus);
-  }
-
-  &:active {
-    // color: c(links, active);
-  }
-
-  &:visited {
-    // color: c(links, visited);
+    text-decoration: none;
   }
 
   // Styles links that don't have a class declared on them

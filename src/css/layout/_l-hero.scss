@@ -1,0 +1,21 @@
+.l-hero {
+  height: 80vh;
+
+  // Supports
+  @supports #{$supports-flex} {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @supports #{$supports-grid} {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 42vw) 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      ". .    ."
+      ". a11y ."
+      ". .    .";
+  }
+}

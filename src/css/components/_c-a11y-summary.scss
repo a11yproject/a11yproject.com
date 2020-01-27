@@ -8,10 +8,18 @@
 // TODO: Write markup
 //
 // Style guide: Components.banner-a11y
-.c-banner-a11y {
+.c-a11y-summary {
   background-color: $color-white;
   border-top: $border-thicker solid $color-pink-tint;
-  padding: 3rem 5rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+
+  // Supports
+  @supports #{$supports-grid} {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 
   // Supports
   @supports #{$supports-grid} {
@@ -20,21 +28,28 @@
 }
 
 
-.c-banner-a11y__explanation {
-  font-size: 2.25rem;
+.c-a11y-summary__explanation {
+  font-size: 2.75rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
-.c-banner-a11y__accessibility {
+.c-a11y-summary__accessibility {
   display: block;
   font-family: $font-family-secondary;
+  font-size: 2.5rem;
   letter-spacing: $font-tracking-loose;
   text-transform: uppercase;
 }
 
+.c-a11y-summary__11-characters {
+  margin-top: -0.25rem;
+}
 
-.c-banner-a11y-explanation__mission {
+.c-a11y-summary__mission {
   font-family: $font-family-secondary;
   font-size: 1.2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  max-width: 40ch;
 }

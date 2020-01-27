@@ -124,6 +124,7 @@
 @import
   "layout/l-content",
   "layout/l-header",
+  "layout/l-hero",
   "layout/l-main",
   "layout/l-post",
   "layout/l-primary-nav",
@@ -158,10 +159,13 @@
 //
 // Styleguide Components
 @import
-  "components/c-banner-a11y",
+  "components/c-a11y-summary",
   "components/c-cta-get-started",
   "components/c-headings",
   "components/c-hero",
+  "components/c-homepage-card",
+  "components/c-homepage-feature",
+  "components/c-linkroll",
   "components/c-logo",
   "components/c-post",
   "components/c-primary-nav",

@@ -1,5 +1,8 @@
 .l-content {
-  max-width: $global-type-measure;
+  // Contexts
+  .template-post & {
+    max-width: $global-type-measure;
+  }
 
   // Supports
   @supports #{$supports-grid} {

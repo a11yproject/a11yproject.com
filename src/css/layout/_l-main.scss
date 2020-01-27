@@ -1,10 +1,12 @@
 .l-main {
   .template-home & {
+    margin-top: 4rem;
+
     // Supports
     @supports #{$supports-grid} {
       display: grid;
-      grid-template-columns: 14rem 4rem 1fr $global-bleed;
-      grid-template-areas: "toc . content .";
+      grid-template-columns: $global-bleed 14rem 4rem 1fr $global-bleed;
+      grid-template-areas: ". toc . content .";
     }
   }
 }
