@@ -1318,16 +1318,14 @@
       "url": "https://accessuse.eu/en/"
     },
     {
-      "title": "Are you accessible?  —  A Primer on Web Accessibility",
+      "title": "Are you accessible? -  A Primer on Web Accessibility",
       "description": "Accessibility of the world wide web hasn’t always been a number one priority for web developers (much to detriment of internet users). Whilst very few people set out to design a website that is inaccessible, many studies have documented partially or completely inaccessible websites.",
       "source": "Amy Dickens",
       "url": "https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8"
     },
     {
       "title": "Mobile A11y",
-      "description": "
-
-      Mobile A11y is a collection of blogs and resources about how we as mobile developers can improve accessibility on mobile devices.",
+      "description": "Mobile A11y is a collection of blogs and resources about how we as mobile developers can improve accessibility on mobile devices.",
       "source": "Rob Whitaker",
       "url": "https://mobilea11y.com/"
     },
