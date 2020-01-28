@@ -349,7 +349,11 @@ An example of one of these conditions could be someone with cataracts who wants 
 
 ### What it affects
 
-High Contrast Mode is **only** available for Windows (versions 7 and up). For web content, it will **only** work with Internet Explorer (versions 10 and 11), as well as Edge (any version). It affects **all** UI elements of Windows, as well as apps developed by Microsoft. It will also work for most third party apps. Most websites will have at least **partial** support, with support depending on how they are coded.
+High Contrast Mode support is a little bit complicated. It is **only** available for Windows (versions 7 and up). It affects **all** UI elements of Windows, as well as apps developed by Microsoft. It will also work for most third party apps.
+
+For web content, High Contrast Mode will **only** work with Internet Explorer (versions 10 and 11) and Edge (any version) for Windows 7, 8, and 8.1. For Windows 10, High Contrast Mode will work with web content for any browser.
+
+Most websites will have at least **partial** support for High Contrast Mode, with support depending on how they are coded.
 
 ### How to enable it
 
@@ -364,9 +368,11 @@ Assumes the latest version of each Operating System or browser.
 
 ### How to target it in code
 
-High Contrast Mode will automatically be applied to web content described semantically in HTML, so long as you are using Internet Explorer versions 10 or 11. For example, paragraphs of text described using the `p` element will automatically update when High Contrast Mode is activated. It will also update the same way if you use the `a` element for links, the `button` element for actions, the `input` element for form controls, etc.
+High Contrast Mode will automatically be applied to web content described semantically in HTML. For example, paragraphs of text described using the `p` element will automatically update when High Contrast Mode is activated. It will also update the same way if you use the `a` element for links, the `button` element for actions, the `input` element for form controls, etc.
 
-In situations where the HTML cannot be modified, High Contrast Mode styling can be tweaked using the [`-ms-high-contrast` media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast) in CSS. In these situations, you should use a specialized subset of [CSS2 system color keywords](https://www.w3.org/TR/2018/REC-css-color-3-20180619/#css2-system), as High Contrast Mode theme colors are dynamic. `-ms-high-contrast` will eventually be replaced with an upcoming [`forced-colors` media query](https://www.w3.org/TR/css-color-adjust-1/#forced-colors-mode).
+In situations where the HTML cannot be modified, High Contrast Mode styling can be tweaked. For Internet Explorer versions 10 and 11, you can use the the [`-ms-high-contrast` media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast) in CSS. In these situations, you should use a specialized subset of [CSS2 system color keywords](https://www.w3.org/TR/2018/REC-css-color-3-20180619/#css2-system), as High Contrast Mode theme colors are dynamic.
+
+Current versions of Edge does not support `-ms-high-contrast`, but will eventually support the upcoming [`forced-colors` media query](https://www.w3.org/TR/css-color-adjust-1/#forced-colors-mode). Because of this, it is important to test using both Internet Explorer and Edge to make sure your High Contrast Mode styling work looks the way it is intended to.
 
 ## Multiple modes
 
