@@ -23,11 +23,11 @@ further_reading:
 
 Most computers, laptops, tablets, smartphones, and web browsers have specialized tools to help people read and take action on the content they display. Some of these tools are display modes, which are pre-defined display configurations you can tell your device to use.
 
-Five such modes are Dark Mode, Increased Contrast Mode, Inverted Colors Mode, Reduced Motion Mode, and High Contrast Mode. Following are explanations of what each of these modes is, who can benefit from it, how to enable it on your device or browser (if supported), and how to support it in code.
+Five such modes are Dark Mode, Increased Contrast Mode, Inverted Colors Mode, Reduced Motion Mode, and High Contrast Mode. Following is an explanations of each of these mode, who can benefit from it, how to enable it on your device or browser (if supported), and how to support it in code.
 
 ## Dark Mode
 
-The visuals that make up most Operating Systems (<abbr>OS</abbr>es) traditionally use lighter colors like white and light grays. Dark Mode is a toggle that instructs these visuals to use darker colors, typically black and dark grays.
+The User Interfaces (<abbr>UI</abbr>) that make up most Operating Systems (<abbr>OS</abbr>es) traditionally use lighter colors like white and light grays. Dark Mode is a toggle that instructs this UI to use darker colors, typically black and dark grays.
 
 It is helpful for:
 
@@ -38,7 +38,7 @@ An example of one of these conditions could be checking your phone in bed with t
 
 ### What it affects
 
-Dark Mode will update **all** User Interface (<abbr>UI</abbr>) elements of the OS that supports it. Most apps developed by the company that creates the operating system will also support Dark Mode. Third party apps, websites, and web apps support Dark Mode **only** if the people who make it use the special code required to enable it.
+Dark Mode will update **all** UI of the OS that supports it. Most apps developed by the company that creates the operating system will also support Dark Mode. Third party apps, websites, and web apps support Dark Mode **only** if the people who write the necessary code to enable it.
 
 <figure role="figure" aria-label="daverupert.com has support for Dark Mode.">
   <img alt="A side-by-side comparison of light and dark themes for the home page daverupert.com. The navigation, text, background, and link colors update, but the logo and illustration of Dave as a fantasy warrior remain the same." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/dark-mode.png">
@@ -106,7 +106,7 @@ An example of one of these conditions could be vision-related issues caused by G
 
 ### What it affects
 
-Increased Contrast Mode will update **all** User Interface (<abbr>UI</abbr>) elements of macOS and iOS. Most apps developed by Apple will also support this mode. Third party apps that use Apple’s interface library will also support this mode, but custom, nonstandard UI elements will **not** be supported. Websites and web apps do **not** support this mode.
+Increased Contrast Mode will update **all** UI elements for macOS and iOS. Most apps developed by Apple will also support this mode. Third party apps that use Apple’s interface library will also support this mode, but custom, nonstandard UI elements will **not** be supported. Websites and web apps do **not** support this mode.
 
 <figure role="figure" aria-label="Preview.app comparing regular and Increased Contrast Mode.">
   <img alt="A comparison of regular and Increased Contrast Mode UI. The bottom screenshot is Preview in regular mode. The buttons on the app’s toolbar are light gray gradient on a medium gray background. The top screenshot is Preview in Increased Contrast Mode. The buttons on the app’s toolbar are solid white with a black outline. A black outline has also been applied to the overall app window border. Preview is displaying a photo of a Mallard duck." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/increased-contrast-mode.png">
@@ -133,9 +133,9 @@ Assumes the latest version of each Operating System or browser.
 
 ## Inverted Colors Mode
 
-When Inverted Colors mode is activated, the color of every pixel on the screen is reversed. Black becomes white, red becomes turquoise, green becomes purple, etc.
+When Inverted Colors Mode is activated, the color of every pixel on the screen is reversed. Black becomes white, red becomes turquoise, green becomes purple, etc.
 
-Because it affects all content displayed on the screen, Inverted Colors mode can be very helpful in situations where a light-colored interface does not provide Dark Mode support. Here, Inverted Colors mode can force a bright UI into kind of jury-rigged Dark Mode. Keep in mind that the opposite also applies. A dark UI will turn light if Inverted Colors Mode is active.
+Because it affects all content displayed on the screen, Inverted Colors Mode can be very helpful in situations where a light-colored interface does not provide Dark Mode support. Here, Inverted Colors Mode can force a bright UI into kind of jury-rigged Dark Mode. Keep in mind that the opposite also applies. A dark UI will turn light if Inverted Colors Mode is active.
 
 This is helpful for:
 
@@ -146,7 +146,7 @@ An example of one of these conditions could be someone avoiding triggering a mig
 
 ### What it affects
 
-Inverted Colors mode affects **all** content displayed on the screen: Operating System UI, first and third party apps, and web content.
+Inverted Colors Mode affects **all** content displayed on the screen: Operating System UI, first and third party apps, and web content.
 
 <figure role="figure" aria-label="Safari will automatically invert images when Inverted Color Mode is activate.">
   <img alt="A side-by-side comparison of regular and Inverted Colors Mode. The left screenshot is a Washington Post review of a Hokusai exhibit, including a headline, feature image of Mount Fuji, author photo and intro paragraph. The article’s design uses black text on a white background. The right screenshot is the same article, but with Inverted Colors Mode activated. The article is now white text on a black background." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/inverted-colors.png">
@@ -188,7 +188,7 @@ Assumes the latest version of each Operating System or browser.
 
 ### How to target it in code
 
-You can use the [`inverted-colors` media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/inverted-colors) to to target Dark Mode in CSS. In the following example, we invert images and video when Inverted Colors mode is active. This keeps them looking the way they were intended, while allowing the rest of the UI to change:
+You can use the [`inverted-colors` media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/inverted-colors) to to target Dark Mode in CSS. In the following example, we invert images and video when Inverted Colors Mode is active. This keeps them looking the way they were intended, while allowing the rest of the UI to change:
 
 ``` css
 @media (inverted-colors: inverted) {
@@ -201,7 +201,7 @@ You can use the [`inverted-colors` media feature](https://developer.mozilla.org/
 
 ## Reader Mode
 
-This mode is a feature found in most web browsers. When activated, it takes the main part of a web page and converts it into a format that is easier to read.
+This mode is a feature found in most web browsers. When activated, it takes the content identified as the primary content of a web page and converts it into a format that is easier to read.
 
 Part of this easier reading experience involves removing most, if not all the surrounding content. This includes things like headers, footers, sidebars, comments, etc.
 
