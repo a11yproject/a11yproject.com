@@ -367,6 +367,9 @@
     - url: http://leonardocolor.io/
       title: "Leonardo"
       description: "Generate colors based on a desired contrast ratio"
+    - url: https://image-color.com/color-contrast.html
+      title: "Color Contrast Checker"
+      description: "Color Contrast Checker"
 
 - resource-category: Talks (Video)
   section-id: talks
