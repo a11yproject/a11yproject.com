@@ -23,7 +23,7 @@ further_reading:
 
 Most computers, laptops, tablets, smartphones, and web browsers have specialized tools to help people read and take action on the content they display. Some of these tools are display modes, which are pre-defined display configurations you can tell your device to use.
 
-Five such modes are Dark Mode, Increased Contrast Mode, Inverted Colors Mode, Reduced Motion Mode, and High Contrast Mode. Following is an explanations of each of these mode, who can benefit from it, how to enable it on your device or browser (if supported), and how to support it in code.
+Five such modes are Dark Mode, Increased Contrast Mode, Inverted Colors Mode, Reduced Motion Mode, and High Contrast Mode. Following is an explanation of each of these mode, who can benefit from it, how to enable it on your device or browser (if supported), and how to support it in code.
 
 ## Dark Mode
 
