@@ -364,7 +364,7 @@ Assumes the latest version of each Operating System or browser.
 
 ### How to target it in code
 
-High Contrast Mode will automatically be applied to web content described semantically in HTML, so long as you are using Internet Explorer versions 10 or 11, or any version of Microsoft Edge. For example, paragraphs of text described using the `p` element will automatically update when High Contrast Mode is activated. It will also update the same way if you use the `a` element for links, the `button` element for actions, the `input` element for form controls, etc.
+High Contrast Mode will automatically be applied to web content described semantically in HTML, so long as you are using Internet Explorer versions 10 or 11. For example, paragraphs of text described using the `p` element will automatically update when High Contrast Mode is activated. It will also update the same way if you use the `a` element for links, the `button` element for actions, the `input` element for form controls, etc.
 
 In situations where the HTML cannot be modified, High Contrast Mode styling can be tweaked using the [`-ms-high-contrast` media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast) in CSS. In these situations, you should use a specialized subset of [CSS2 system color keywords](https://www.w3.org/TR/2018/REC-css-color-3-20180619/#css2-system), as High Contrast Mode theme colors are dynamic. `-ms-high-contrast` will eventually be replaced with an upcoming [`forced-colors` media query](https://www.w3.org/TR/css-color-adjust-1/#forced-colors-mode).
 
