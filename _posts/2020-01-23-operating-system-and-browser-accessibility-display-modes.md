@@ -21,9 +21,9 @@ further_reading:
     source: Greg Whitworth
 ---
 
-Most computers, laptops, tablets, smartphones, and web browsers have specialized tools to help people read and take action on the content they display. Some of these tools are display modes, which are pre-defined display configurations you can tell your device to use.
+Most computers, laptops, tablets, smartphones, and web browsers have specialized tools to help people read and take action on the content they display. Some of these tools are display modes, which are pre-defined visual configurations you can tell your device to use.
 
-Five such modes are Dark Mode, Increased Contrast Mode, Inverted Colors Mode, Reduced Motion Mode, and High Contrast Mode. Following is an explanation of each of these mode, who can benefit from it, how to enable it on your device or browser (if supported), and how to support it in code.
+Five such modes are Dark Mode, Increased Contrast Mode, Inverted Colors Mode, Reduced Motion Mode, and High Contrast Mode. Following is an explanation of each of these mode, who can benefit from it, how to enable it on your device or browser (if supported), and how to work with it in code.
 
 ## Dark Mode
 
@@ -38,7 +38,7 @@ An example of a situation where Dark Mode could be useful is checking your phone
 
 ### What it affects
 
-Dark Mode will update **all** UI of the OS that supports it. Most apps developed by the company that creates the operating system will also support Dark Mode. Third party apps, websites, and web apps support Dark Mode **only** if the people who write the necessary code to enable it.
+Dark Mode will update **all** UI of the OS that supports it. **Most** apps developed by the company that creates the operating system will also support Dark Mode. Third party apps, websites, and web apps support Dark Mode **only** if the people who write the necessary code to enable it.
 
 <figure role="figure" aria-label="daverupert.com has support for Dark Mode.">
   <img alt="A side-by-side comparison of light and dark themes for the home page daverupert.com. The navigation, text, background, and link colors update, but the logo and illustration of Dave as a fantasy warrior remain the same." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/dark-mode.png">
@@ -100,13 +100,13 @@ This is helpful for:
 
 - People experiencing low vision conditions,
 - and/or who have lower quality displays,
-- and/or less technologically literate people, who may need the difference between different parts of the OS visuals to be more obvious.
+- and/or people who may need the difference between different parts of the OS visuals to be more obvious.
 
 An example of one of these conditions could be vision-related issues caused by Glaucoma. Here, the increased contrast and borders may help a person who has blurry central vision and a loss of peripheral vision understand the boundaries of different parts of the interface.
 
 ### What it affects
 
-Increased Contrast Mode will update **all** UI elements for macOS and iOS. Most apps developed by Apple will also support this mode. Third party apps that use Apple’s interface library will also support this mode, but custom, nonstandard UI elements will **not** be supported. Websites and web apps do **not** support this mode.
+Increased Contrast Mode will update **all** UI elements for macOS and iOS. **Most** apps developed by Apple will also support this mode. Third party apps that use Apple’s interface library will also support this mode, but custom, nonstandard UI elements will **not** be supported. Websites and web apps do **not** support this mode.
 
 <figure role="figure" aria-label="Preview.app comparing regular and Increased Contrast Mode.">
   <img alt="A comparison of regular and Increased Contrast Mode UI. The bottom screenshot is Preview in regular mode. The buttons on the app’s toolbar are light gray gradient on a medium gray background. The top screenshot is Preview in Increased Contrast Mode. The buttons on the app’s toolbar are solid white with a black outline. A black outline has also been applied to the overall app window border. Preview is displaying a photo of a Mallard duck." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/increased-contrast-mode.png">
@@ -135,7 +135,7 @@ Assumes the latest version of each Operating System or browser.
 
 When Inverted Colors Mode is activated, the color of every pixel on the screen is reversed. Black becomes white, red becomes turquoise, green becomes purple, etc.
 
-Because it affects all content displayed on the screen, Inverted Colors Mode can be very helpful in situations where a light-colored interface does not provide Dark Mode support. Here, Inverted Colors Mode can force a bright UI into kind of jury-rigged Dark Mode. Keep in mind that the opposite also applies. A dark UI will turn light if Inverted Colors Mode is active.
+Because it affects all content displayed on the screen, Inverted Colors Mode can be very helpful in situations where a light-colored interface does not provide Dark Mode support. Here, Inverted Colors Mode can force a bright UI into kind of jury-rigged Dark Mode. Keep in mind that the opposite also applies: A dark UI will turn light if Inverted Colors Mode is active.
 
 This is helpful for:
 
@@ -188,7 +188,7 @@ Assumes the latest version of each Operating System or browser.
 
 ### How to target it in code
 
-You can use the [`inverted-colors` media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/inverted-colors) to to target Dark Mode in CSS. In the following example, we invert images and video when Inverted Colors Mode is active. This keeps them looking the way they were intended, while allowing the rest of the UI to change:
+You can use the [`inverted-colors` media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/inverted-colors) to target Inverted Colors Mode in CSS. In the following example, we invert images and video when Inverted Colors Mode is active. This keeps them looking the way they were intended, while allowing the rest of the UI to change:
 
 ``` css
 @media (inverted-colors: inverted) {
@@ -276,7 +276,7 @@ An example of one of these conditions could be someone avoiding animations that 
 
 ### What it affects
 
-Reduced Motion mode affect **all** OS animations that support it. Most apps developed by the company that creates the operating system will also support Reduced Motion mode. Third party apps, websites, and web apps support this mode **only** if the people who make it elect to use the special code required to enable it.
+Reduced Motion mode affect **all** OS animations that support it. **Most** apps developed by the company that creates the operating system will also support Reduced Motion mode. Third party apps, websites, and web apps support this mode **only** if the people who make it elect to use the special code required to enable it.
 
 ### How to enable it
 
@@ -311,7 +311,7 @@ Assumes the latest version of each Operating System or browser.
 4. Set the **Show animations in Windows** toggle to the **on** position.
 
 #### Web browsers
-It is also possible to force most browser-based animations to stop playing via installing specialized browser extensions or JavaScript [bookmarklets](https://en.m.wikipedia.org/wiki/Bookmarklet). Scott Vinkle’s [Togglific](https://svinkle.github.io/togglific/) is one such way to go about doing this.
+It is also possible to force most browser-based animations to stop playing via installing specialized browser extensions or JavaScript [bookmarklets](https://en.m.wikipedia.org/wiki/Bookmarklet). Front end developer Scott Vinkle’s [Togglific](https://svinkle.github.io/togglific/) is one such way to go about doing this.
 
 ### How to target it in code
 
@@ -349,9 +349,9 @@ An example of one of these conditions could be someone with cataracts who wants 
 
 ### What it affects
 
-High Contrast Mode support is a little bit complicated. It is **only** available for Windows (versions 7 and up). It affects **all** UI elements of Windows, as well as apps developed by Microsoft. It will also work for most third party apps.
+High Contrast Mode support is a little bit complicated. It is **only** available for Windows (versions 7 and up). It affects **all** UI elements of Windows, as well as apps developed by Microsoft. It will also work for **most** third party apps.
 
-For web content, High Contrast Mode will **only** work with Internet Explorer (versions 10 and 11) and Edge (any version) for Windows 7, 8, and 8.1. For Windows 10, High Contrast Mode will work with web content for any browser.
+For web content, High Contrast Mode will **only** work with Internet Explorer (versions 10 and 11) and Edge (any version) for Windows 7, 8, and 8.1. For Windows 10, High Contrast Mode will work with web content for **any** browser.
 
 Most websites will have at least **partial** support for High Contrast Mode, with support depending on how they are coded.
 
@@ -372,7 +372,7 @@ High Contrast Mode will automatically be applied to web content described semant
 
 In situations where the HTML cannot be modified, High Contrast Mode styling can be tweaked. For Internet Explorer versions 10 and 11, you can use the the [`-ms-high-contrast` media feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast) in CSS. In these situations, you should use a specialized subset of [CSS2 system color keywords](https://www.w3.org/TR/2018/REC-css-color-3-20180619/#css2-system), as High Contrast Mode theme colors are dynamic.
 
-Current versions of Edge does not support `-ms-high-contrast`, but will eventually support the upcoming [`forced-colors` media query](https://www.w3.org/TR/css-color-adjust-1/#forced-colors-mode). Because of this, it is important to test using both Internet Explorer and Edge to make sure your High Contrast Mode styling work looks the way it is intended to.
+Edge does not fully support `-ms-high-contrast`. Instead, new [Chromium](https://www.chromium.org/)-based versions of Edge support the [`forced-colors` media query](https://www.w3.org/TR/css-color-adjust-1/#forced-colors-mode). Because of this, it is important to test using both Internet Explorer and Edge to make sure your High Contrast Mode styling work looks the way it is intended to.
 
 ## Multiple modes
 
