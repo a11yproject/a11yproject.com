@@ -15,7 +15,7 @@ $supports-flex: "(display: flex)";
 // supports-grid
 //
 // Styleguide Logic.Variables.supports.supports-grid
-$supports-grid: "(grid-template-columns: subgrid)";
+$supports-grid: "(display: grid)";
 
 
 // supports-hanging-punctuation
@@ -28,3 +28,9 @@ $supports-hanging-punctuation: "(hanging-punctuation: first)";
 //
 // Styleguide Logic.Variables.supports.supports-underlines
 $supports-underlines: "(text-underline-offset: 0.5rem)";
+
+
+// supports-subgrid
+//
+// Styleguide Logic.Variables.supports.supports-subgrid
+$supports-subgrid: "(grid-template-columns: subgrid)";
