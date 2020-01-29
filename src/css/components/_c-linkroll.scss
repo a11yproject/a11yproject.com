@@ -27,6 +27,9 @@
   // States
   &:hover,
   &:focus {
+    background-color: $color-gray-shade;
+
+    // Contexts
     .c-linkroll--myths & {
       background-color: $color-pink-shade;
     }
@@ -49,10 +52,16 @@
   @supports #{$supports-flex} {
     display: flex;
   }
+
+  // User Queries
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
 }
 
 
 .c-linkroll__count {
+  background-color: $color-gray-shade;
   padding: 1rem;
   min-width: 5rem;
   min-height: 7rem;
