@@ -5,6 +5,9 @@
   <nav class="l-footer__features c-footer__subnav" aria-labelledby="features">
     <h3 id="features" class="c-footer__heading">Features</h3>
     <ul class="c-footer__list">
+      <li>
+        <a class="c-footer__link" href="{{ '/posts/' | url }}">Posts</a>
+      </li>
       {%- for feature in collections.feature -%}
         <li>
           <a class="c-footer__link" href="{{ feature.url | url }}" {% if feature.url == page.url %}aria-current="page"{% endif %}>{{ feature.data.navtitle }}</a>
@@ -57,13 +60,16 @@
     <h3 id="support" class="c-footer__heading">Support</h3>
     <ul class="c-footer__list">
       <li>
-        <a class="c-footer__link" href="">Sponsor Us</a>
+        <a class="c-footer__link" href="">Sponsorship</a>
       </li>
       <li>
         <a class="c-footer__link" href="">Open Collective</a>
       </li>
       <li>
-        <a class="c-footer__link" href="">GitHub Sponsor</a>
+        <a class="c-footer__link" href="">Write For Us</a>
+      </li>
+      <li>
+        <a class="c-footer__link" href="https://github.com/a11yproject/a11yproject.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22%5BStatus%5D++Good+First+Issue%22">Good First Issues</a>
       </li>
     </ul>
   </nav>
@@ -90,50 +96,6 @@
     </ul>
   </nav>
 
-  <nav id="contact" aria-labelledby="footer-contact">
-    <h3 id="footer-contact">Contact</h3>
-    <p>
-      Here's how to stay in touch!
-    </p>
-    <ul>
-      <li><a rel="external noopener" href="https://twitter.com/a11yproject">@A11YProject</a></li>
-      <li id="email-address"><noscript>hello at a11yproject dot com</noscript></li>
-      {# TODO: Write for us #}
-      <li><a href="">RSS Feed</a></li>
-    </ul>
-  </nav>
-
-  <nav id="contact" aria-labelledby="footer-github">
-    <h3 id="footer-github">GitHub</h3>
-    <p>
-      GitHub is platform we use to host and manage the code that runs this website.
-    </p>
-    <ul>
-      <li><a rel="external noopener" href="https://github.com/a11yproject/a11yproject.com">Website code</a></li>
-      <li><a rel="external noopener" href="https://github.com/a11yproject/a11yproject.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22%5BStatus%5D++Good+First+Issue%22">Good first issues to get started</a></li>
-      <li><a rel="external noopener" href="https://github.com/a11yproject/a11yproject.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22%5BStatus%5D+Help+Wanted%22">Other issues we'd love help with</a></li>
-    </ul>
-  </nav>
-
-  <nav id="legal" aria-labelledby="footer-legal">
-    <h3 id="footer-legal">Legal</h3>
-    <p>
-      Disclosures and policies.
-    </p>
-    <ul>
-      <li><a href="/accessibility-statement/">Accessibility Statement</a></li>
-      <li><a href="/security-and-privacy/">Security and Privacy</a></li>
-      <li><a href="/code-of-conduct/">Code of Conduct</a></li>
-      <li><a rel="external noopener" href="https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md#contributing-to-the-a11y-project">Contributing guidelines</a></li>
-    </ul>
-  </nav>
-
-  <p>
-    &copy; <span id="copyright-year"></span> The Accessibility Project. <a rel="external noopener" href="https://www.apache.org/licenses/LICENSE-2.0">APLv2</a>.
-  </p>
-  <p>
-    <p><a href="">Sitemap</a>. Powered by <a rel="external noopener" href="https://www.11ty.io/">Eleventy</a></p>
-  </p>
 -->
   <script type="text/javascript">document.getElementById('copyright-year').innerHTML = '2013-' + new Date().getFullYear();</script>
   <script type="text/javascript">document.getElementById('email-address').innerHTML =

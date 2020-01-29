@@ -1,12 +1,25 @@
 .l-main {
   .template-home & {
     margin-top: 4rem;
+    margin-left: $global-bleed;
+    margin-right: $global-bleed;
 
     // Supports
     @supports #{$supports-grid} {
       display: grid;
-      grid-template-columns: $global-bleed 14rem 4rem 1fr $global-bleed;
-      grid-template-areas: ". toc . content .";
+      grid-template-columns: $global-bleed 1fr $global-bleed;
+      grid-template-areas:
+        ". toc     ."
+        ". content .";
+      margin-left: 0;
+      margin-right: 0;
+
+      // Breakpoints
+      @include mappy-bp(lap-medium) {
+        grid-template-columns: $global-bleed 14rem 4rem 1fr $global-bleed;
+        grid-template-areas: ". toc . content .";
+      }
+
     }
   }
 }

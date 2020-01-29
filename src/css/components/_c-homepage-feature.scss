@@ -26,7 +26,12 @@
 .c-homepage-feature--50-50 {
   // Supports
   @supports #{$supports-grid} {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+
+    // Breakpoints
+    @include mappy-bp(palm-large) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
 

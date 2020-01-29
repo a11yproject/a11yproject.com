@@ -54,9 +54,12 @@ $_l-footer-subnav-top-margin: 3rem;
 .l-footer__support {
   margin-top: $_l-footer-subnav-top-margin;
 
-  // Breakpoints
-  @include mappy-bp(palm-small) {
-    margin-top: 0;
+  // Supports
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(palm-small) {
+      margin-top: 0;
+    }
   }
 }
 
@@ -64,13 +67,16 @@ $_l-footer-subnav-top-margin: 3rem;
 .l-footer__utility,
 .l-footer__social,
 .l-footer__support {
-  // Breakpoints
-  @include mappy-bp(palm-small) {
-    margin-top: $_l-footer-subnav-top-margin;
-  }
+  // Supports
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(palm-small) {
+      margin-top: $_l-footer-subnav-top-margin;
+    }
 
-  @include mappy-bp(palm-medium) {
-    margin-top: 0;
+    @include mappy-bp(palm-medium) {
+      margin-top: 0;
+    }
   }
 }
 
@@ -79,22 +85,28 @@ $_l-footer-subnav-top-margin: 3rem;
 .l-footer__project,
 .l-footer__utility,
 .l-footer__social {
-  // Breakpoints
-  @include mappy-bp(palm-small) {
-    margin-right: 2rem;
+  // Supports
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(palm-small) {
+      margin-right: 2rem;
+    }
   }
 }
 
 
 .l-footer__social,
 .l-footer__support {
-  // Breakpoints
-  @include mappy-bp(palm-medium) {
-    margin-top: $_l-footer-subnav-top-margin;
-  }
+  // Supports
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      margin-top: $_l-footer-subnav-top-margin;
+    }
 
-  @include mappy-bp(lap-medium) {
-    margin-top: 0;
+    @include mappy-bp(lap-medium) {
+      margin-top: 0;
+    }
   }
 }
 

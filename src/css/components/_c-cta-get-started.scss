@@ -17,9 +17,14 @@
   // Supports
   @supports #{$supports-grid} {
     display: grid;
-    grid-template-columns: 1fr minmax(0, 42vw) 1fr;
-    grid-template-areas:
-      ". get-started .";
+    grid-template-columns: $global-bleed 1fr $global-bleed;
+    grid-template-areas: ". get-started .";
+
+    // Breakpoints
+    @include mappy-bp(palm-large) {
+      grid-template-columns: 1fr minmax(0, 42vw) 1fr;
+      grid-template-areas: ". get-started .";
+    }
   }
 }
 
@@ -31,11 +36,14 @@
   font-family: $font-family-secondary;
   font-size: 1.25rem;
   letter-spacing: $font-tracking-slight;
+  line-height: $line-height-tight;
   padding: 1rem 0;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  transition: background-color $animation-duration-shorter $animation-easing-character;
+  transition:
+    background-color $animation-duration-shorter $animation-easing-character,
+    color $animation-duration-shorter $animation-easing-character;
 
   // Supports
   @supports #{$supports-grid} {
@@ -46,5 +54,11 @@
   &:hover,
   &:focus {
     background-color: $color-pink;
+    color: $color-white;
+  }
+
+  // User Queries
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
   }
 }

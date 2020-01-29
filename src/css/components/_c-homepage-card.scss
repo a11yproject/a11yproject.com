@@ -25,8 +25,23 @@
 
 
 .c-homepage-card--spotlight {
-  justify-self: end;
   margin-right: 4rem;
+
+  // Supports
+  @supports #{$supports-flex} {
+
+    // Breakpoints
+    @include mappy-bp(palm-large) {
+      justify-self: end;
+    }
+  }
+}
+
+.c-homepage-card__image-link {
+  // States
+  &:focus {
+    outline: $border-thin solid $color-pink;
+  }
 }
 
 
@@ -60,7 +75,11 @@
 .c-homepage-card__description {
   font-family: $font-family-secondary;
   margin-top: 1rem;
-  max-width: 40ch;
+
+  // Supports
+  @supports #{$supports-grid} {
+    max-width: 40ch;
+  }
 }
 
 

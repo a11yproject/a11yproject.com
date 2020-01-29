@@ -51,10 +51,20 @@
   }
 }
 
+.c-toc--home {
+  margin-bottom: 3rem;
+
+  // Breakpoints
+  @include mappy-bp(lap-medium) {
+    text-align: right;
+  }
+}
+
 
 .c-toc--post {
   padding-right: $global-bleed;
 }
+
 
 .c-toc__list-item {
   font-family: $font-family-secondary;

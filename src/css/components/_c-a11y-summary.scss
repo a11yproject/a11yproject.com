@@ -11,19 +11,24 @@
 .c-a11y-summary {
   background-color: $color-white;
   border-top: $border-thicker solid $color-pink-tint;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+  margin-left: $global-bleed;
+  margin-right: $global-bleed;
+  padding: 3rem 2rem;
 
   // Supports
-  @supports #{$supports-grid} {
+  @supports #{$supports-flex} {
     align-items: center;
     display: flex;
     flex-direction: column;
   }
 
-  // Supports
   @supports #{$supports-grid} {
-    grid-area: a11y;
+    // grid-area: a11y;
+  }
+
+  // Breakpoints
+  @include mappy-bp(palm-large) {
+    padding-bottom: 4rem;
   }
 }
 

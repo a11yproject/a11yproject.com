@@ -9,13 +9,17 @@
     justify-content: center;
   }
 
-  @supports #{$supports-grid} {
-    display: grid;
-    grid-template-columns: 1fr minmax(0, 42vw) 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-      ". .    ."
-      ". a11y ."
-      ". .    .";
-  }
+  // @supports #{$supports-grid} {
+  //   display: grid;
+
+  //   // Breakpoints
+  //   @include mappy-bp(palm-large) {
+  //     grid-template-columns: 1fr minmax(0, 42vw) 1fr;
+  //     grid-template-rows: 1fr 1fr 1fr;
+  //     grid-template-areas:
+  //       ". .    ."
+  //       ". a11y ."
+  //       ". .    .";
+  //   }
+  // }
 }

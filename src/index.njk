@@ -5,7 +5,7 @@ tags:
 navtitle: Home
 ---
 <nav id="table-of-contents" class="l-toc" aria-label="Table of contents">
-  <ol class="c-toc c-toc--home u-type-align-right">
+  <ol class="c-toc c-toc--home">
     <li class="c-toc__list-item">
       <a class="c-toc__link" aria-current="location" href="#learn-the-fundamentals-and-principles-behind-accessible-design">Build basics</a>
     </li>
@@ -28,7 +28,7 @@ navtitle: Home
 
   <div class="c-homepage-feature c-homepage-feature--50-50">
     <div class="c-homepage-card">
-      <a href="">
+      <a class="c-homepage-card__image-link" href="">
         <img
           class="c-homepage-card__image"
           alt="Two stacked copies of Accessibility for Everyone."
@@ -49,7 +49,7 @@ navtitle: Home
     </div>
 
     <div class="c-homepage-card">
-      <a href="">
+      <a class="c-homepage-card__image-link" href="">
         <img
           class="c-homepage-card__image"
           alt="A video still of Reginé Gilbert sitting at a table and smiling at the camera."
@@ -132,49 +132,8 @@ navtitle: Home
     </div>
     <div class="c-homepage-card">
 
-      <article class="c-linkroll c-linkroll--quick-tip">
-        <a class="c-linkroll__link" href="">
-          <div class="c-linkroll__count">
-            <p class="c-linkroll__number">021<span class="u-hide-visually">. </span></p>
-          </div>
-          <div class="c-linkroll__content">
-            <h3 class="c-linkroll__title">
-              <span class="c-linkroll__category">Quick Tip<span class="u-hide-visually">: </span></span><br />Large touch targets
-            </h3>
-          </div>
-        </a>
-      </article>
-
-      <article class="c-linkroll c-linkroll--quick-tests">
-        <a class="c-linkroll__link" href="">
-          <div class="c-linkroll__count">
-            <p class="c-linkroll__number">22</p>
-          </div>
-          <div class="c-linkroll__content">
-            <h3 class="c-linkroll__title">
-              <span class="c-linkroll__category">Quick Tests<span class="u-hide-visually">: </span></span><br />Large touch targets
-            </h3>
-          </div>
-        </a>
-      </article>
-
-      <article class="c-linkroll c-linkroll--myths">
-        <a class="c-linkroll__link" href="">
-          <div class="c-linkroll__count">
-            <p class="c-linkroll__number">023</p>
-          </div>
-          <div class="c-linkroll__content">
-            <h3 class="c-linkroll__title">
-              <span class="c-linkroll__category">Myths<span class="u-hide-visually">: </span></span><br />Large touch targets a long title that goes to 2 lines
-            </h3>
-          </div>
-        </a>
-      </article>
-
-{% set postslist = collections.posts | head(-3) %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+      {% set postslist = collections.posts | head(-3) %}
+      {% include "linkroll.njk" %}
 
     </div>
   </div>
