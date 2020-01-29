@@ -300,6 +300,12 @@
       "url": "https://hexnaw.com/"
     },
     {
+      "title": "Image-Color: Color Contrast Checker",
+      "description": "Enter your colors in HEX format or click on the icon to use the color picker. Contrast ratio value will be updated automatically as you change color values.",
+      "developer": "image-color.com",
+      "url": "https://image-color.com/color-contrast.html"
+    },
+    {
       "title": "Tanaguru Contrast-finder",
       "description": "Find good constrast for web accessibility between two colors.",
       "developer": "Tanaguru",
@@ -310,6 +316,12 @@
       "description": "Making the world a better place for the colorblind.",
       "developer": "Tom van Beveren and Kim van den Brink",
       "url": "http://wearecolorblind.com/"
+    },
+    {
+      "title": "Who Can Use",
+      "description": "A tool that brings attention and understanding to how color contrast can affect different people with visual impairments.",
+      "developer": "Corey Ginnivan",
+      "url": "https://whocanuse.com/"
     }
   ],
   "communityHelp" : [
