@@ -116,7 +116,7 @@
 
 
 .c-homepage-card__checklist {
-  margin-right: -$global-bleed;
+  margin-right: map-get($global-bleed, small) * -1;
 }
 
 

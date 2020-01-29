@@ -36,7 +36,7 @@
   &:focus {
     position: absolute;
       top: 6rem;
-      left: $global-bleed;
+      left: map-get($global-bleed, large);
 
       &:hover {
         background-color: $color-black;

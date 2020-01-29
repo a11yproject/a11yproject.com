@@ -11,8 +11,8 @@
 .c-a11y-summary {
   background-color: $color-white;
   border-top: $border-thicker solid $color-pink-tint;
-  margin-left: $global-bleed;
-  margin-right: $global-bleed;
+  margin-left: map-get($global-bleed, small);
+  margin-right: map-get($global-bleed, small);
   padding: 3rem 2rem;
 
   // Supports

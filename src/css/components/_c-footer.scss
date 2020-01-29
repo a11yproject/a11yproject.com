@@ -1,7 +1,7 @@
 .c-footer {
   background-color: $color-white;
   font-family: $font-family-secondary;
-  padding: 4rem $global-bleed;
+  padding: 4rem map-get($global-bleed, large);
 
   // Supports
   @supports #{$supports-grid} {

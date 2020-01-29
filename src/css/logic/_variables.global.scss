@@ -10,7 +10,10 @@
 // Sets the outermost spacing area for content and the browser viewport.
 //
 // Styleguide Logic.Variables.Global.global-bleed
-$global-bleed: 2rem;
+$global-bleed: (
+  small: 0.81rem,
+  large: 2rem
+);
 
 
 // global-type-size

@@ -17,7 +17,7 @@
   // Supports
   @supports #{$supports-grid} {
     display: grid;
-    grid-template-columns: $global-bleed 1fr $global-bleed;
+    grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
     grid-template-areas: ". get-started .";
 
     // Breakpoints

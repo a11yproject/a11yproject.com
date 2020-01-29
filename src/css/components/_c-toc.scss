@@ -62,7 +62,7 @@
 
 
 .c-toc--post {
-  padding-right: $global-bleed;
+  padding-right: map-get($global-bleed, large);
 }
 
 

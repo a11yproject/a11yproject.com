@@ -1,13 +1,13 @@
 .l-main {
   .template-home & {
     margin-top: 4rem;
-    margin-left: $global-bleed;
-    margin-right: $global-bleed;
+    margin-left: map-get($global-bleed, small);
+    margin-right: map-get($global-bleed, small);
 
     // Supports
     @supports #{$supports-grid} {
       display: grid;
-      grid-template-columns: $global-bleed 1fr $global-bleed;
+      grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
       grid-template-areas:
         ". toc     ."
         ". content .";
@@ -16,7 +16,7 @@
 
       // Breakpoints
       @include mappy-bp(lap-medium) {
-        grid-template-columns: $global-bleed 14rem 4rem 1fr $global-bleed;
+        grid-template-columns: map-get($global-bleed, large) 14rem 4rem 1fr map-get($global-bleed, large);
         grid-template-areas: ". toc . content .";
       }
 

@@ -5,7 +5,7 @@ $_l-footer-subnav-top-margin: 3rem;
   // Supports
   @supports #{$supports-grid} {
     display: grid;
-    grid-template-columns: $global-bleed 1fr $global-bleed;
+    grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
     grid-template-areas:
       ". features  ."
       ". project   ."
@@ -18,7 +18,7 @@ $_l-footer-subnav-top-margin: 3rem;
 
     // Breakpoints
     @include mappy-bp(palm-small) {
-      grid-template-columns: $global-bleed 1.75fr 1fr $global-bleed;
+      grid-template-columns: map-get($global-bleed, large) 1.75fr 1fr map-get($global-bleed, large);
       grid-template-areas:
       ". features  project   ."
       ". utility   social    ."
@@ -29,7 +29,7 @@ $_l-footer-subnav-top-margin: 3rem;
     }
 
     @include mappy-bp(palm-medium) {
-      grid-template-columns: $global-bleed 0.75fr 0.75fr 1fr $global-bleed;
+      grid-template-columns: map-get($global-bleed, large) 0.75fr 0.75fr 1fr map-get($global-bleed, large);
       grid-template-areas:
       ". features  project   utility ."
       ". social    support   tagline       ."
@@ -37,7 +37,7 @@ $_l-footer-subnav-top-margin: 3rem;
     }
 
     @include mappy-bp(lap-medium) {
-      grid-template-columns: $global-bleed 0.75fr 0.75fr 1fr 0.75fr 1.5fr $global-bleed;
+      grid-template-columns: map-get($global-bleed, large) 0.75fr 0.75fr 1fr 0.75fr 1.5fr map-get($global-bleed, large);
       grid-template-rows: auto auto 3rem;
       grid-template-areas:
         ". features  project   utility   social support ."

@@ -8,7 +8,7 @@
 // Style guide: Components.Navigation.primary-nav
 .c-primary-nav {
   background-color: $color-black;
-  padding: 1rem $global-bleed;
+  padding: 1rem map-get($global-bleed, large);
 
   // Contexts
   .template-home & {
