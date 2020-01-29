@@ -1,15 +1,15 @@
-<title>{% if title %}{{ title }} - {% endif %}{{ metadata.title }}</title>
-<meta name="title" content="{% if title %}{{ title }} - {% endif %}{{ metadata.title }}">
+<title>{% if navtitle %}{{ navtitle }} - {% endif %}{{ metadata.title }}</title>
+<meta name="title" content="{% if navtitle %}{{ navtitle }} - {% endif %}{{ metadata.title }}">
 <meta name="description" content="{% if subtitle %}{{ subtitle }}{% else %}{{ metadata.feed.subtitle }}{% endif %}">
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ page.url | url }}">
-<meta property="og:title" content="{% if title %}{{ title }} - {% endif %}{{ metadata.title }}">
+<meta property="og:title" content="{% if navtitle %}{{ navtitle }} - {% endif %}{{ metadata.title }}">
 <meta property="og:description" content="{% if subtitle %}{{ subtitle }}{% else %}{{ metadata.feed.subtitle }}{% endif %}">
 <meta property="og:image" content="URL/path/to/img.png">
 
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{ page.url | url }}">
-<meta property="twitter:title" content="{% if title %}{{ title }} - {% endif %}{{ metadata.title }}">
+<meta property="twitter:title" content="{% if navtitle %}{{ navtitle }} - {% endif %}{{ metadata.title }}">
 <meta property="twitter:description" content="{% if subtitle %}{{ subtitle }}{% else %}{{ metadata.feed.subtitle }}{% endif %}">
 <meta property="twitter:image" content="URL/path/to/img.png">
