@@ -1,6 +1,11 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "Engaging People with Disabilities in Usability Studies"
+      description: "Kara VanRoekel will be talking about designing and conducting usability studies with participants who have a variety of disabilities and rely, in varying degrees, on assistive technology. She will talk about special considerations necessary when working with disabled participants, what participant populations can be most effectively recruited based on the development stage of the product, best practices for in-person vs remote studies, how to maximize recruitment and develop a database of potential participants, and more."
+      url: "https://www.meetup.com/a11yphl/events/268061372/"
+      type: "Webinar and Regional"
+      date: 2020-02-27
     - title: "Customer Service for People with Disabilities"
       description: "This webinar will provide you with the information you need to deliver a great customer service experience. Attendees will learn how to: Identify etiquette principles for respectful interactions. Recognize appropriate language to use. Effectively and respectfully respond when you are approached by customers with different types of disabilities. Develop strategies for providing equal access to customers with disabilities. Identify strategies and auxiliary aids for effective communication."
       url: "https://accessibility.deque.com/customer-service-for-people-with-disabilities"
