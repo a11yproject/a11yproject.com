@@ -13,7 +13,10 @@
   border-top: $border-thicker solid $color-pink-tint;
   margin-left: map-get($global-bleed, small);
   margin-right: map-get($global-bleed, small);
-  padding: 3rem 2rem;
+  padding: 1.5rem;
+  position: relative;
+    top: 50%;
+  transform: perspective(1px) translateY(-60%); // HACK: Keeps`perspective(1px)` keeps content from rendering blurry
 
   // Supports
   @supports #{$supports-flex} {
@@ -22,39 +25,99 @@
     flex-direction: column;
   }
 
-  @supports #{$supports-grid} {
-    // grid-area: a11y;
+  // Breakpoints
+  @include mappy-bp(palm-small) {
+    margin-left: map-get($global-bleed, large);
+    margin-right: map-get($global-bleed, large);
   }
 
-  // Breakpoints
   @include mappy-bp(palm-large) {
-    padding-bottom: 4rem;
+    margin: 0 15vw;
+    padding: 3rem 5rem 3.5rem 5rem;
+  }
+
+  @include mappy-bp(lap-small) {
+    margin: 0 20vw;
+  }
+
+  @supports #{$supports-grid} {
+    grid-area: a11y;
+
+    // Breakpoints
+    @include mappy-bp(palm-large) {
+      margin-top: 0;
+      margin-bottom: 0;
+      position: unset;
+      transform: none;
+    }
+
+    @include mappy-bp(lap-small) {
+      margin: 0;
+    }
   }
 }
 
 
 .c-a11y-summary__explanation {
-  font-size: 2.75rem;
+  font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
+
+  // Breakpoints
+  @include mappy-bp(wrist-large) {
+    font-size: 1.75rem;
+  }
+
+  @include mappy-bp(palm-medium) {
+    font-size: 2.25rem;
+  }
+
+  @include mappy-bp(palm-large) {
+    font-size: 2.75rem;
+    text-align: left;
+  }
 }
 
 
 .c-a11y-summary__accessibility {
+  background: url("#{$path-to-img}/11-characters.svg") no-repeat center bottom;
+  background-size: 75%;
   display: block;
   font-family: $font-family-secondary;
-  font-size: 2.5rem;
-  letter-spacing: $font-tracking-loose;
+  font-size: 1.75rem;
+  letter-spacing: $font-tracking-slight;
+  padding-bottom: 1rem;
   text-transform: uppercase;
+
+  // Breakpoints
+  @include mappy-bp(wrist-large) {
+    letter-spacing: $font-tracking-loose;
+  }
+
+  @include mappy-bp(palm-medium) {
+    font-size: 2.25rem;
+  }
+
+  @include mappy-bp(palm-large) {
+    font-size: 2.5rem;
+  }
+
+  // User Queries
+  @media (prefers-reduced-data: reduce) {
+    background-image: none;
+  }
 }
 
-.c-a11y-summary__11-characters {
-  margin-top: -0.25rem;
-}
 
 .c-a11y-summary__mission {
   font-family: $font-family-secondary;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 2rem;
   max-width: 40ch;
+
+  // Breakpoints
+  @include mappy-bp(palm-medium) {
+    font-size: 1.2rem;
+  }
 }

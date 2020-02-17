@@ -34,7 +34,8 @@
 
   // States
   &:hover,
-  &:focus {
+  &:focus,
+  &[aria-current="page"] {
     text-decoration: underline;
   }
 }

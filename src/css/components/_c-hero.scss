@@ -14,4 +14,9 @@
 .c-hero {
   background: $color-green-shade url("#{$path-to-img}/hero-a11y.svg") no-repeat center;
   background-size: cover;
+
+  // User Queries
+  @media (prefers-reduced-data: reduce) {
+    background-color: $color-green-shade;
+  }
 }

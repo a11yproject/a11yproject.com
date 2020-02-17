@@ -29,7 +29,7 @@
     grid-template-columns: 1fr;
 
     // Breakpoints
-    @include mappy-bp(palm-large) {
+    @include mappy-bp(palm-medium) {
       grid-template-columns: repeat(2, 1fr);
     }
   }
@@ -38,6 +38,12 @@
 .c-homepage-feature--60-40 {
   // Supports
   @supports #{$supports-grid} {
-    grid-template-columns: 1.25fr 1.75fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      grid-template-columns: 1.25fr 1.75fr;
+    }
   }
 }

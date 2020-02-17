@@ -40,7 +40,7 @@
 .c-homepage-card__image-link {
   // States
   &:focus {
-    outline: $border-thin solid $color-pink;
+    outline: $border-thin solid $color-black;
   }
 }
 
@@ -75,11 +75,7 @@
 .c-homepage-card__description {
   font-family: $font-family-secondary;
   margin-top: 1rem;
-
-  // Supports
-  @supports #{$supports-grid} {
-    max-width: 40ch;
-  }
+  max-width: 50ch;
 }
 
 
@@ -116,7 +112,7 @@
 
 
 .c-homepage-card__checklist {
-  margin-right: map-get($global-bleed, small) * -1;
+  margin-right: map-get($global-bleed, large) * -1;
 }
 
 
