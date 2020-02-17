@@ -1,5 +1,5 @@
 {
-  "blogs" : [
+  "blogs": [
     {
       "title": "#a11y tag on The Practical Dev",
       "description": "Where programmers share ideas and help each other grow.",
@@ -66,7 +66,7 @@
       "url": "http://www.webaxe.org/"
     }
   ],
-  "bookmarklets" : [
+  "bookmarklets": [
     {
       "title": "Akbar",
       "description": "A bookmarklet that simulates various types user experiences.",
@@ -104,7 +104,7 @@
       "url": "http://whatsock.com/training/matrices/visual-aria.htm"
     }
   ],
-  "books" : [
+  "books": [
     {
       "title": "Accessibility for Everyone",
       "description": "Get sure footing on the path to designing with accessibility.",
@@ -178,79 +178,101 @@
       "url": "https://rosenfeldmedia.com/books/a-web-for-everyone/"
     }
   ],
-  "browserExtensions" : [
+  "browserExtensions": [
     {
       "title": "Accessibility Insights",
       "description": "Solve accessibility issues before they reach your customers.",
       "developer": "Microsoft",
       "url": "https://accessibilityinsights.io/",
-      "browsers": [ "Chrome" ]
+      "browsers": [
+        "Chrome"
+      ]
     },
     {
       "title": "ARC Toolkit",
       "description": "ARC Toolkit is a professional-level accessibility testing tool that gives you the power to quickly and efficiently evaluate screens for accessibility and uncover issues related to the WCAG 2.1 Level A and AA guidelines.",
       "developer": "The Paciello Group",
       "url": "https://www.paciellogroup.com/toolkit/",
-      "browsers": [ "Chrome" ]
+      "browsers": [
+        "Chrome"
+      ]
     },
     {
       "title": "ChromeVox (Classic)",
       "description": "The ChromeVox (Classic) screen reader is an extension to Chrome that brings the speed, versatility, and security of Chrome to visually impaired users.",
       "developer": "Google",
       "url": "https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn",
-      "browsers": [ "Chrome" ]
+      "browsers": [
+        "Chrome"
+      ]
     },
     {
       "title": "Color Contrast Analyzer",
       "description": "Allows you to analyze text color contrast problems on a webpage according to the WCAG 2 text color contrast requirements.",
       "developer": "NC State IT Accessibility",
       "url": "https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll/related",
-      "browsers": [ "Chrome" ]
+      "browsers": [
+        "Chrome"
+      ]
     },
     {
       "title": "I want to see like the colour blind",
       "description": "Right-click on a page and select 'Experience Colour Blindness' from the context menu.",
       "developer": "artbek",
       "url": "https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia",
-      "browsers": [ "Chrome" ]
+      "browsers": [
+        "Chrome"
+      ]
     },
     {
       "title": "headingsMap",
       "description": "The extension generates a documentmap or index of any web document structured with headings (you can access directly to the content by clicking on any of its items), and now, it shows the HTML 5 outline.",
       "developer": "Rumoroso",
       "url": "https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en",
-      "browsers": [ "Chrome" ]
+      "browsers": [
+        "Chrome"
+      ]
     },
     {
       "title": "Landmarks",
       "description": "Allows you to navigate a web page via WAI-ARIA landmarks, using the keyboard or a pop-up menu.",
       "developer": "Matthew Tylee Atkinson",
       "url": "https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia",
-      "browsers": [ "Chrome", "Firefox", "Opera" ]
+      "browsers": [
+        "Chrome",
+        "Firefox",
+        "Opera"
+      ]
     },
     {
       "title": "NoCoffee",
       "description": "NoCoffee can be helpful for understanding the problems faced by people with slight to extreme vision problems.",
       "developer": "artbek",
       "url": "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl",
-      "browsers": [ "Chrome" ]
+      "browsers": [
+        "Chrome"
+      ]
     },
     {
       "title": "WAVE Evaluation Tool",
       "description": "WAVE is a web accessibility evaluation tool developed by WebAIM. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page.",
       "developer": "WebAIM",
       "url": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh",
-      "browsers": [ "Chrome" ]
+      "browsers": [
+        "Chrome"
+      ]
     },
     {
       "title": "Web Accessibility Toolbar",
       "description": "The Web Accessibility Toolbar (WAT) has been developed to aid manual examination of web pages for a variety of aspects of accessibility.",
       "developer": "The Paciello Group",
       "url": "https://developer.paciellogroup.com/resources/wat/",
-      "browsers": [ "Internet Explorer" ]
+      "browsers": [
+        "Internet Explorer"
+      ]
     }
   ],
-  "colors" : [
+  "colors": [
     {
       "title": "Accessibility Tester",
       "description": "Pick any color to generate an accessible palette.",
@@ -324,7 +346,7 @@
       "url": "https://whocanuse.com/"
     }
   ],
-  "communityHelp" : [
+  "communityHelp": [
     {
       "title": "Search for 'accessibility' on Accessify.com",
       "description": "Questions and Answers by Accessify: Browse through our database of popular questions to find the best answers ever posted by other people.",
@@ -366,7 +388,7 @@
       "url": "http://webaim.org/discussion/"
     }
   ],
-  "courses" : [
+  "courses": [
     {
       "title": "Accessibility Courses",
       "description": "Courses, webinars, educational videos, and more, offered in web accessibility.",
@@ -392,7 +414,7 @@
       "url": "https://www.udacity.com/course/web-accessibility--ud891"
     }
   ],
-  "designUserExperience" : [
+  "designUserExperience": [
     {
       "title": "7 Things Every Designer Needs to Know about Accessibility",
       "description": "Accessibility enables people with disabilities to perceive, understand, navigate, interact with, and contribute to the web. Imagine a world where developers know everything there is to know about accessibility. You design it and they build it… perfectly. In this world, only the design itself can cause people with disabilities to have trouble using a product.",
@@ -424,7 +446,7 @@
       "url": "https://uxmyths.com/"
     }
   ],
-  "developmentTools" : [
+  "developmentTools": [
     {
       "title": "Accessify",
       "description": "Run a free website performance test and get actionable tips on how to optimize it.",
@@ -510,7 +532,7 @@
       "url": "https://packagecontrol.io/packages/WAI-ARIA"
     }
   ],
-  "email" : [
+  "email": [
     {
       "title": "accessible-email.org",
       "description": "It is the mission of Accessible-email.org to promote email marketing accessibility and usability.",
@@ -548,7 +570,7 @@
       "url": "https://litmus.com/blog/ultimate-guide-accessible-emails"
     }
   ],
-  "htmlAndAria" : [
+  "htmlAndAria": [
     {
       "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
       "description": "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities.",
@@ -580,7 +602,7 @@
       "url": "https://www.w3.org/WAI/tutorials/"
     }
   ],
-  "imagesIcons" : [
+  "imagesIcons": [
     {
       "title": "Accessible SVGs",
       "description": "Scalable Vector Graphic (SVG) is emerging as the preferred graphic format to use on the web today. Are you abandoning the icon font or replacing old pg, gif and png graphics for the well-supported SVG, too? Let’s see how this will impact users of assistive technology (AT) and what is needed in order to ensure a great user experience for everyone.",
@@ -636,7 +658,7 @@
       "url": "https://poet.diagramcenter.org/how.html"
     }
   ],
-  "meetups" : [
+  "meetups": [
     {
       "title": "#a11yTO",
       "location": "Toronto, Canada",
@@ -740,6 +762,12 @@
       "url": "https://www.meetup.com/Munich-Accessibility-Meetup/"
     },
     {
+      "title": "Paris Web Accessibility",
+      "location": "Paris, France",
+      "description": "",
+      "url": "https://www.meetup.com/Paris-Web-Accessibility/"
+    },
+    {
       "title": "Portland Accessibility and User Experience Meetup",
       "location": "The Portland Accessibility and User Experience (PDX A11Y UX) Meetup addresses how to incorporate accessibility and universal design principles into project planning, user research, and UX evaluation.",
       "description": "Oregon, United States",
@@ -788,7 +816,15 @@
       "url": "https://www.roledrinks.com/"
     }
   ],
-  "newsletters" : [
+  "mobile-apps": [
+    {
+      "title": "iOS Accessibility: Getting Started",
+      "description": "In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector. ",
+      "source": "raywenderlich.com",
+      "url": "https://www.raywenderlich.com/6827616-ios-accessibility-getting-started"
+    }
+  ],
+  "newsletters": [
     {
       "title": "Accessibility Weekly",
       "description": "A weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday.",
@@ -826,7 +862,7 @@
       "url": "https://webaim.org/newsletter/"
     }
   ],
-  "pdfs" : [
+  "pdfs": [
     {
       "title": "AcceDe PDF Project",
       "description": "The aim of this guide is to provide all the practical information you need to learn how to tag a PDF document.",
@@ -858,7 +894,7 @@
       "url": "https://webaim.org/techniques/acrobat/"
     }
   ],
-  "podcasts" : [
+  "podcasts": [
     {
       "title": "061: Accessibility with Marcy Sutton",
       "description": "Marcy Sutton is going to be talking with us a little bit about accessibility, both in the large and the small.",
@@ -937,7 +973,7 @@
       "type": "Episode"
     }
   ],
-  "professionalHelp" : [
+  "professionalHelp": [
     {
       "title": "Accessible360.com",
       "description": "We help organizations large and small navigate their path to digital accessibility, giving more people access to their products and services.",
@@ -979,51 +1015,63 @@
       "url": "https://tenon.io/"
     }
   ],
-  "screenReaders" : [
+  "screenReaders": [
     {
       "title": "Android Accessibility Suite",
       "description": "Android Accessibility Suite is a collection of accessibility services that help you use your Android device eyes-free or with a switch device.",
       "developer": "Google",
       "url": "https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback",
-      "platforms": [ "Android" ]
+      "platforms": [
+        "Android"
+      ]
     },
     {
       "title": "Job Access With Speech (JAWS)",
       "description": "JAWS is the world's most popular screen reader, developed for computer users whose vision loss prevents them from seeing screen content or navigating with a mouse.",
       "developer": "Freedom Scientific",
       "url": "https://www.freedomscientific.com/Products/Blindness/JAWS",
-      "platforms": [ "Windows" ]
+      "platforms": [
+        "Windows"
+      ]
     },
     {
       "title": "NonVisual Desktop Access",
       "description": "NonVisual Desktop Access (NVDA) is a free, open-source, portable screen reader for Microsoft Windows.",
       "developer": "NV Access",
       "url": "https://www.nvaccess.org/",
-      "platforms": [ "Windows" ]
+      "platforms": [
+        "Windows"
+      ]
     },
     {
       "title": "Orca",
       "description": "Orca is a free and open-source, flexible, extensible screen reader from the GNOME project for individuals who are blind or visually impaired.",
       "developer": "The GNOME Project",
       "url": "https://wiki.gnome.org/Projects/Orca",
-      "platforms": [ "Linux" ]
+      "platforms": [
+        "Linux"
+      ]
     },
     {
       "title": "VoiceOver (iOS)",
       "description": "VoiceOver is a gesture-based screen reader that lets you enjoy using iPhone even if you don’t see the screen.",
       "developer": "Apple",
       "url": "https://www.apple.com/accessibility/iphone/vision/",
-      "platforms": [ "iOS" ]
+      "platforms": [
+        "iOS"
+      ]
     },
     {
       "title": "VoiceOver (macOS)",
       "description": "VoiceOver gives you auditory descriptions of each onscreen element and provides helpful hints along the way.",
       "developer": "Apple",
       "url": "https://www.apple.com/accessibility/mac/vision/",
-      "platforms": [ "macOS" ]
+      "platforms": [
+        "macOS"
+      ]
     }
   ],
-  "screenReaderHelp" : [
+  "screenReaderHelp": [
     {
       "title": "Basic screen reader commands for accessibility testing",
       "description": "When you test your website with a screen reader there are a few basic commands you should know.",
@@ -1049,7 +1097,7 @@
       "url": "https://webaim.org/articles/screenreader_testing/"
     }
   ],
-  "talks" : [
+  "talks": [
     {
       "title": "A11ycasts with Rob Dodson",
       "description": "The goal of A11ycasts is to teach developers how accessibility works all the way down at the platform level, while also demonstrating real world accessibility problems and solutions to fix them.",
@@ -1156,7 +1204,7 @@
       "type": "Talk"
     }
   ],
-  "typography" : [
+  "typography": [
     {
       "title": "Designing Accessible Content: Typography, Font Styling, and Structure",
       "description": "Creating and designing accessible content means more than just choosing accessible typography. Even with “perfect” font families in place on your website, people with low vision, cognitive, language, and learning disabilities may still struggle to process the text.",
@@ -1176,37 +1224,49 @@
       "url": "https://typography.guru/journal/letters-symbols-misrecognition/"
     }
   ],
-  "visionSimulators" : [
+  "visionSimulators": [
     {
       "title": "Color Oracle",
       "description": "Color Oracle takes the guesswork out of designing for color blindness by showing you in real time what people with common color vision impairments will see.",
       "developer": "Bernie Jenny",
       "url": "http://colororacle.org/",
-      "platforms": [ "Linux", "macOS", "Windows" ]
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Windows"
+      ]
     },
     {
       "title": "Contrast",
       "description": "A macOS app for quick access to WCAG color contrast ratios",
       "developer": "Nothing Magical, Inc.",
       "url": "https://usecontrast.com/",
-      "platforms": [ "macOS" ]
+      "platforms": [
+        "macOS"
+      ]
     },
     {
       "title": "Colour Contrast Analyser",
       "description": "The Colour Contrast Analyser (CCA) helps you determine the legibility of text and the contrast of visual elements, such as graphical controls and visual indicators.",
       "developer": "The Paciello Group",
       "url": "https://developer.paciellogroup.com/resources/contrastanalyser/",
-      "platforms": [ "macOS", "Windows" ]
+      "platforms": [
+        "macOS",
+        "Windows"
+      ]
     },
     {
       "title": "Sim Daltonism",
       "description": "Sim Daltonism lets you visualize colors as they are perceived with various types of color blindness.",
       "developer": "Michel Fortin",
       "url": "https://michelf.ca/projects/sim-daltonism/",
-      "platforms": [ "iOS", "macOS" ]
+      "platforms": [
+        "iOS",
+        "macOS"
+      ]
     }
   ],
-  "animation" : [
+  "animation": [
     {
       "title": "Photosensitive Epilepsy Analysis Tool",
       "description": "The Trace Center's Photosensitive Epilepsy Analysis Tool (PEAT) is a free, downloadable resource for developers to identify seizure risks in their web content and software.",
@@ -1214,7 +1274,7 @@
       "url": "https://trace.umd.edu/peat"
     }
   ],
-  "additionalResources" : [
+  "additionalResources": [
     {
       "title": "The Accessibility Cheatsheet",
       "description": "The WCAG contain some very useful information, and so I decided to condense the very extensive guidelines and highlight some practical examples of what we can do to implement them and make our websites more accessible.",
