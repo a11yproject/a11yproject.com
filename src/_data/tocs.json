@@ -1,0 +1,20 @@
+{
+  "home": {
+    "build-basics": {
+      "label": "Build basics",
+      "url": "#learn-the-fundamentals-and-principles-behind-accessible-design"
+    },
+    "conduct-an-audit": {
+      "label": "Conduct an audit",
+      "url": "#conduct-an-accessibility-audit"
+    },
+    "cultivate-community": {
+      "label": "Cultivate community",
+      "url": "#deep-dive-into-resources"
+    },
+    "explore-resources": {
+      "label": "Explore resources",
+      "url": "#cultivate-community"
+    }
+  }
+}
