@@ -4,7 +4,7 @@
     <a class="c-post-preview__title" href="{{ post.url | url }}">{{ post.data.title | safe }}</a>
   </h3>
   <p class="c-post-preview__date">
-    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateReadable }}</time>
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateReadable }}</time>{% if post.data.author%} by {{ post.data.author }}{% endif %}
   </p>
   <p class="c-post-preview__shortdesc">
     {{ post.data.description | safe }}
