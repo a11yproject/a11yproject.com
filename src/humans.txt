@@ -1,0 +1,28 @@
+/* TEAM */
+    Eric Bailey
+    Contact: eric.w.bailey [at] gmail.com
+    Twitter: @ericwbailey
+    From: Somerville, Massachusetts, USA
+
+    Firstname Lastname
+    Twitter: @account
+    From: City, State, Country
+
+
+/* THANKS */
+
+    Reason
+    Firstname Lastname
+    Twitter: @account
+    From: City, State, Country
+
+
+/* SITE */
+    Language: English
+    Doctype: HTML5
+    Code: Visual Studio Code
+    Design: Figma
+    Browsers: Chrome, Edge, Firefox, Internet Explorer, Safari
+    Operating Systems: macOS, Windows
+    Services: GitHub, Gmail
+    Software: iTerm,
