@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Getting started with NVDA"
+category: "How-to"
 description: "A quick overview of navigating a webpage using the NVDA screen reader."
 author: scott_vinkle
 published: true

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Quick tip: Never use <code>maximum-scale=1.0</code>"
+title: "Never use <code>maximum-scale=1.0</code>"
+category: "Quick tip"
 description: "Why you never ever should use <code>maximum-scale=1.0</code> in your viewport meta tag."
 author: thomas_sjogren
 date: 2013-01-14

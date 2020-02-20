@@ -1,5 +1,6 @@
 ---
-title: "Quick test: Check contrast with your mobile device"
+title: "Check contrast with your mobile device"
+category: "Quick test"
 description: "Using an ordinary mobile device you can check your site's readability."
 author: dave_rupert
 layout: post

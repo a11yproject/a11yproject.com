@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How-to: Hide content"
+category: "How-to"
 description: "How-to hide content but still make it accessible to screen readers."
 author: dave_rupert
 date: 2013-02-15

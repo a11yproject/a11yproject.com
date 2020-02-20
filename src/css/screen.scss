@@ -211,7 +211,7 @@ $_preview-width: 62ch;
   }
 
   &:focus-within {
-    background: linear-gradient(90deg, $color-pink-shade 3%, $color-white 0);
+    background: linear-gradient(90deg, $color-pink-shade 2.5%, $color-white 0);
     border-top: $border-thinnest solid $color-gray-shade;
     border-right: $border-thinnest solid $color-gray-shade;
     border-bottom: $border-thinnest solid $color-gray-shade;

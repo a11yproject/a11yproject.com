@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ARIA properties
+category: "Background"
 description: A quick introduction to ARIA's properties.
 author: alex_brenon
 categories:

@@ -1,8 +1,9 @@
 ---
-title: "Quick test: Check comprehension level"
+layout: post
+title: "Check comprehension level"
+category: "Quick test"
 description: "Using these tools you can check the reading level of your written content."
 author: greg_tarnoff
-layout: post
 last_updated: 2018-11-24
 categories:
     - Quick Tests

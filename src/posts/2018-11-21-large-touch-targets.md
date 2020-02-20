@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Quick test: Large touch targets"
+title: "Large touch targets"
+category: "Quick test"
 description: "How to determine if your touch targets are large enough to be used."
 author: eric_bailey
 published: true

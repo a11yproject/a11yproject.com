@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ARIA states
+category: "Background"
 description: A quick introduction to ARIA's states.
 author: alex_brenon
 categories:

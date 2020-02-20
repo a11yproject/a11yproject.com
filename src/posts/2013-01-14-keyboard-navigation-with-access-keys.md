@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "How-to: Add keyboard navigation with Access Keys"
+title: "Add keyboard navigation with Access Keys"
+category: "How-to"
 description: "Access Keys are simple shortcuts that allow for quick keyboard navigation."
 published: false
 editor_comment: Not recommended

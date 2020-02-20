@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "How-to: Future proof your accessibility efforts."
+title: "Future proof your accessibility efforts."
+category: "How-to"
 description: "Ways to make your accessibility effort as future proof as possible."
 author: thomas_sjogren
 date: 2013-01-22

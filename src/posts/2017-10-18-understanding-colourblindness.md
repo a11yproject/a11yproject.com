@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Understanding color blindness"
+category: "Background"
 description: "What is color blindness, and how can we design with it in mind?"
 author: matthew_higgins
 updated_by: emily_lane

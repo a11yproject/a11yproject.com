@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How-to: Use <code>role='application'</code>"
+category: "How-to"
 description: "<strong>Never</strong> use <code>role=application</code> on a widely containing element such as <code>&lt;body&gt;</code> if your page consists mostly of traditional widgets or page elements."
 author: gray_ghost
 # date:

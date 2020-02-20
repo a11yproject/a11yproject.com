@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "How-to: Use <code>title</code> attributes"
+title: "Use <code>title</code> attributes"
+category: "How-to"
 description: "Short answer: Avoid using title attributes except in a few special circumstances."
 author: dave_rupert
 published: true

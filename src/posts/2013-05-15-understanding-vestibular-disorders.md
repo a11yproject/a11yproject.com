@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A primer to vestibular disorders"
+category: "Background"
 description: "Key facts, definitions, demographics and causes of vestibular disorders."
 author: gray_ghost
 published: true

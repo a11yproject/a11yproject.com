@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Create accessible data tables"
+category: "How-to"
 description: "What you need to create an accessible data table."
 published: true
 author: franklyn_roth

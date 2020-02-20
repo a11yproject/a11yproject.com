@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Quick test: Resize text"
+title: "Resize text"
+category: "Quick test"
 description: "How to test the Resize Text WCAG Success Criterion"
 author: luis_garcia
 published: true

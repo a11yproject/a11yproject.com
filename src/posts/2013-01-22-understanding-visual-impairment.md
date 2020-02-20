@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A primer to visual impairment"
+category: "Background"
 description: "Key facts, definitions, demographics, causes, challenges and future of visual impairment."
 author: greg_tarnoff
 updated_by: emily_lane
