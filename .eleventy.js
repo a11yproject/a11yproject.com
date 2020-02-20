@@ -1,8 +1,10 @@
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const moment = require('moment');
+const slugify = require("slugify");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.setDataDeepMerge(true);
@@ -10,7 +12,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLL yyyy");
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
@@ -18,9 +20,13 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
   });
 
+  eleventyConfig.addFilter('dateReadable', date => {
+    return moment(date).format('LL'); // E.g. May 31, 2019
+  });
+
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
-    if( n < 0 ) {
+    if (n < 0) {
       return array.slice(n);
     }
 
@@ -33,9 +39,18 @@ module.exports = function(eleventyConfig) {
   });
 
   // only content in the `posts/` directory
-  eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getFilteredByGlob("./src/posts/*").sort(function(a, b) {
+  eleventyConfig.addCollection("posts", function (collection) {
+    return collection.getFilteredByGlob("./src/posts/*").sort(function (a, b) {
       return a.date - b.date;
+    });
+  });
+
+  // Universal slug filter strips unsafe chars from URLs
+  eleventyConfig.addFilter("slugify", function (str) {
+    return slugify(str, {
+      lower: true,
+      replacement: "-",
+      remove: /[*+~.·,()'"`´%!?¿:@]/g
     });
   });
 
