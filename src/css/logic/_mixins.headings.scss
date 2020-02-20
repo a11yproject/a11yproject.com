@@ -5,15 +5,15 @@
 // Styleguide Logic.Mixins.Headings
 
 
-// heading-beta
+// heading-large
 //
 // Weight: 4
 //
 // Applies the fourth level heading style from a set of 8 heading styles.
 // Used for `h2` elements in blog posts.
 //
-// Styleguide Logic.Mixins.Headings.heading-beta
-@mixin heading-beta() {
+// Styleguide Logic.Mixins.Headings.heading-large
+@mixin heading-large() {
   font-size: 1.75rem;
 
   // Breakpoints
@@ -22,15 +22,15 @@
   }
 }
 
-// heading-gamma
+// heading-medium
 //
 // Weight: 5
 //
 // Applies the fifth level heading style from a set of 8 heading styles.
 // Used for `h3` elements in blog posts.
 //
-// Styleguide Logic.Mixins.Headings.heading-gamma
-@mixin heading-gamma() {
+// Styleguide Logic.Mixins.Headings.heading-medium
+@mixin heading-medium() {
   font-size: 1.25rem;
   line-height: $line-height-tight;
 

@@ -100,19 +100,19 @@
   .template-home & {
     color: $color-black;
 
-    // &::before {
-    //   content: ""; // Keeps text from shifting when the horizontal bar is shown on hover/focus
-    //   border-width: $border-thick;
-    //   border-block-style: solid;
-    //   border-color: $color-sand; // Provides a border-color to transition
-    //   transition: border $animation-duration-short $animation-easing-character;
-    // }
+    &::before {
+      content: ""; // Keeps text from shifting when the horizontal bar is shown on hover/focus
+      border-width: $border-thick;
+      border-block-style: solid;
+      border-color: $color-sand; // Provides a border-color to transition
+      transition: border $animation-duration-short $animation-easing-character;
+    }
 
     // User Queries
     @media screen and (prefers-reduced-motion: reduce) {
-    // &::before {
-    //   transition: none;
-    // }
+    &::before {
+      transition: none;
+    }
   }
   }
 

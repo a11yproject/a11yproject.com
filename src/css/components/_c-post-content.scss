@@ -239,7 +239,7 @@
   //
   // Style guide: Components.post.h2
   h2 {
-    @include heading-beta();
+    @include heading-large();
 
     code {
       letter-spacing: $font-tracking-tighter;
@@ -247,7 +247,7 @@
   }
 
   h3 {
-    @include heading-gamma();
+    @include heading-medium();
   }
 
   // Ordered List

@@ -11,12 +11,27 @@
 // </div>
 //
 // Style guide: Components.hero
-.c-hero {
+.c-hero--home {
   background: $color-green-shade url("#{$path-to-img}/hero-a11y.svg") no-repeat center;
   background-size: cover;
 
   // User Queries
   @media (prefers-reduced-data: reduce) {
     background-color: $color-green-shade;
+  }
+}
+
+.c-hero--posts {
+  background: $color-pink-shade url("#{$path-to-img}/hero-posts.svg") no-repeat center;
+  background-size: cover;
+
+  // Breakpoints
+  @include mappy-bp(palm-medium) {
+    background-size: contain;
+  }
+
+  // User Queries
+  @media (prefers-reduced-data: reduce) {
+    background-color: $color-pink-shade;
   }
 }

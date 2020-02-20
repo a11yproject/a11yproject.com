@@ -11,49 +11,10 @@
 .c-a11y-summary {
   background-color: $color-white;
   border-top: $border-thicker solid $color-pink-tint;
-  margin-left: map-get($global-bleed, small);
-  margin-right: map-get($global-bleed, small);
   padding: 1.5rem;
-  position: relative;
-    top: 50%;
-  transform: perspective(1px) translateY(-60%); // HACK: Keeps`perspective(1px)` keeps content from rendering blurry
-
-  // Supports
-  @supports #{$supports-flex} {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  // Breakpoints
-  @include mappy-bp(palm-small) {
-    margin-left: map-get($global-bleed, large);
-    margin-right: map-get($global-bleed, large);
-  }
 
   @include mappy-bp(palm-large) {
-    margin: 0 15vw;
     padding: 3rem 5rem 3.5rem 5rem;
-  }
-
-  @include mappy-bp(lap-small) {
-    margin: 0 20vw;
-  }
-
-  @supports #{$supports-grid} {
-    grid-area: a11y;
-
-    // Breakpoints
-    @include mappy-bp(palm-large) {
-      margin-top: 0;
-      margin-bottom: 0;
-      position: unset;
-      transform: none;
-    }
-
-    @include mappy-bp(lap-small) {
-      margin: 0;
-    }
   }
 }
 

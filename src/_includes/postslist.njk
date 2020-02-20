@@ -1,5 +1,20 @@
-<ol reversed class="postlist" style="counter-reset: start-from {{ postslist.length + 1 }}">
-{% for post in postslist | reverse %}
+{% for post in postslist %}
+<article class="c-post-preview">
+  <h3>
+    <a class="c-post-preview__title" href="{{ post.url | url }}">{{ post.data.title | safe }}</a>
+  </h3>
+  <p class="c-post-preview__date">
+    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateReadable }}</time>
+  </p>
+  <p class="c-post-preview__shortdesc">
+    {{ post.data.description | safe }}
+  </p>
+</article>
+{% endfor %}
+
+{#
+<ol class="postlist">
+{% for post in postslist %}
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
     <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
     <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
@@ -11,4 +26,4 @@
     {% endfor %}
   </li>
 {% endfor %}
-</ol>
+</ol> #}

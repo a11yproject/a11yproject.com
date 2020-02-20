@@ -3,11 +3,39 @@ layout: layouts/home.njk
 date: 2019-01-02
 tags:
   - primarynav
+templateClass: template-posts
 navtitle: Posts
 permalink: /posts/
 ---
 
-<h1 id="main_heading">{{ navtitle }}</h1>
+{% include "nav/skipnav.njk" %}
+<nav id="table-of-contents" class="l-toc" aria-label="Table of contents">
+  <ol class="c-toc">
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" aria-current="location" href="">Myths</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="">Tests</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="">Tips</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="">Assistive Technology</a>
+    </li>
+  </ol>
+</nav>
+
+<article class="l-content">
+  <h2 class="u-hide-visually" id="main_heading">
+    {{ navtitle }}
+  </h2>
+
+<h2 class="c-heading-large" id="myths">
+  Myths
+</h2>
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
+
+</article>

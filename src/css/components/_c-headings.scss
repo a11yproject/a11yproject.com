@@ -8,21 +8,20 @@
 
 
 // Shared styles
-.c-heading-giga,
-.c-heading-mega,
-.c-heading-alpha,
-.c-heading-beta,
-.c-heading-gamma,
-.c-heading-delta,
-.c-heading-epsilon,
-.c-heading-zeta,
-.c-heading-eta {
+.c-heading-titanic,
+.c-heading-largest,
+.c-heading-larger,
+.c-heading-large,
+.c-heading-medium,
+.c-heading-smaller,
+.c-heading-small,
+.c-heading-smallest {
   font-family: $font-family-primary;
   font-weight: $font-weight-normal;
 }
 
 
-// Giga Heading
+// Titanic Heading
 //
 // The largest of the headings. Used for big announcements and other
 // attention-grabbing content.
@@ -30,113 +29,113 @@
 // Weight: 1
 //
 // Markup:
-// <h2 class="c-heading-giga">
+// <h2 class="c-heading-titanic">
 //   Six javelins thrown by the quick savages whizzed forty paces beyond the mark
 // </h2>
 //
-// Style guide: Components.Headings.heading-giga
-.c-heading-giga {
+// Style guide: Components.Headings.heading-titanic
+.c-heading-titanic {
 }
 
 
-// Mega Heading
+// Largest Heading
 //
 // Weight: 2
 //
 // Markup:
-// <h2 class="c-heading-mega">
+// <h2 class="c-heading-largest">
 //   The explorer was frozen in his big kayak just after making queer discoveries
 // </h2>
 //
-// Style guide: Components.Headings.heading-mega
-.c-heading-mega {
+// Style guide: Components.Headings.heading-largest
+.c-heading-largest {
 }
 
 
-// Alpha Heading
+// Larger Heading
 //
 // Weight: 3
 //
 // Markup:
-// <h2 class="c-heading-alpha">
+// <h2 class="c-heading-larger">
 //   The July sun caused a fragment of black pine wax to ooze on the velvet quilt
 // </h2>
 //
-// Style guide: Components.Headings.heading-alpha
-.c-heading-alpha {
+// Style guide: Components.Headings.heading-larger
+.c-heading-larger {
   font-size: 2.25rem;
   letter-spacing: $font-tracking-tight;
   line-height: $line-height-tight;
 }
 
 
-// Beta Heading
+// Large Heading
 //
 // Weight: 4
 //
 // Markup:
-// <h2 class="c-heading-beta">
+// <h2 class="c-heading-large">
 //   The public was amazed to view the quickness and dexterity of the juggler
 // </h2>
 //
-// Style guide: Components.Headings.heading-beta
-.c-heading-beta {
-  @include heading-beta();
+// Style guide: Components.Headings.heading-large
+.c-heading-large {
+  @include heading-large();
 }
 
 
-// Gamma Heading
+// Medium Heading
 //
 // Weight: 5
 //
 // Markup:
-// <h2 class="c-heading-gamma">
+// <h2 class="c-heading-medium">
 //   While Suez sailors wax parquet decks, Afghan Jews vomit jauntily abaft
 // </h2>
 //
-// Style guide: Components.Headings.heading-gamma
-.c-heading-gamma {
-  @include heading-gamma();
+// Style guide: Components.Headings.heading-medium
+.c-heading-medium {
+  @include heading-medium();
 }
 
 
-// Delta Heading
+// Smaller Heading
 //
 // Weight: 6
 //
 // Markup:
-// <h2 class="c-heading-delta">
+// <h2 class="c-heading-smaller">
 //   We quickly seized the black axle and just saved it from going past him
 // </h2>
 //
-// Style guide: Components.Headings.heading-delta
-.c-heading-delta {
+// Style guide: Components.Headings.heading-smaller
+.c-heading-smaller {
 }
 
 
-// Epsilon Heading
+// Small Heading
 //
 // Weight: 7
 //
 // Markup:
-// <h2 class="c-heading-epsilon">
+// <h2 class="c-heading-small">
 //   Six big juicy steaks sizzled in a pan as five workmen left the quarry
 // </h2>
 //
-// Style guide: Components.Headings.heading-epsilon
-.c-heading-epsilon {
+// Style guide: Components.Headings.heading-small
+.c-heading-small {
 }
 
 
-// Zeta Heading
+// Smallest Heading
 //
 // Weight: 8
 //
 // Markup:
-// <h2 class="c-heading-zeta">
+// <h2 class="c-heading-smallest">
 //   While making deep excavations we found some quaint bronze jewelry
 // </h2>
 //
-// Style guide: Components.Headings.heading-zeta
-.c-heading-zeta {
+// Style guide: Components.Headings.heading-smallest
+.c-heading-smallest {
 }
