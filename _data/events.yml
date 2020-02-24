@@ -8,6 +8,11 @@
       date: 2020-05-12
       address: "3001 South Congress Avenue, Austin, TX 78704"
       map: "https://g.page/StEds-AustinTX"
+    - title: "AccessU Online 2020"
+      description: "Knowbility brings together some of the Web's most notable experts in digital accessibility for an all-new, full-day online conference, the AccessU Online! Bring the experts to your desktop May 14, 2020 from 9AM to 4:30PM (CT)."
+      url: "https://knowbility.org/programs/accessu/2020/accessu-online/"
+      type: "Webinar"
+      date: 2020-05-14
     - title: "Engaging People with Disabilities in Usability Studies"
       description: "Kara VanRoekel will be talking about designing and conducting usability studies with participants who have a variety of disabilities and rely, in varying degrees, on assistive technology. She will talk about special considerations necessary when working with disabled participants, what participant populations can be most effectively recruited based on the development stage of the product, best practices for in-person vs remote studies, how to maximize recruitment and develop a database of potential participants, and more."
       url: "https://www.meetup.com/a11yphl/events/268061372/"
