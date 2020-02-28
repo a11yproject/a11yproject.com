@@ -1,6 +1,13 @@
 - event-category: Upcoming
   section-id: upcoming
   events:
+    - title: "ACCESS 2020"
+      description: "ACCESS is an event for individuals involved in accessibility. Whether you already have a video accessibility initiative at your organization or not, you'll leave empowered, motivated, and prepared to create a more universally accessible world."
+      url: "https://www.3playmedia.com/access/"
+      type: "Regional"
+      date: 2019-09-17
+      address: "Convene, 201 Washington St., Boston, MA 02108"
+      map: "https://goo.gl/maps/sxkqXSUKJDEz4Ro69"
     - title: "John Slatin AccessU"
       description: "AccessU is the only three-day, hands-on conference that provides tools that can immediately be put to use by designers, developers, project managers, administrators, and anyone who is responsible for online content and development. John Slatin AccessU teaches those skills in an interactive and communal environment where you will learn everything you need to know about integrating accessibility into your company."
       url: "https://knowbility.org/programs/accessu/2020/"
@@ -13,6 +20,21 @@
       url: "https://knowbility.org/programs/accessu/2020/accessu-online/"
       type: "Webinar"
       date: 2020-05-14
+    - title: "How to Create Accessible Presentations"
+      description: "In this webinar, we'll explore what makes a presentation accessible and why it matters for accessibility and engagement. This webinar is tailored to help you to design engaging and accessible online and in-person presentations."
+      url: "https://go.3playmedia.com/wbn-03-26-2020-accessible-presenting"
+      type: "Webinar"
+      date: 2020-03-26
+    - title: "Authoring Accessible Content Workshop"
+      description: "Learn how semantic HTML is the foundation for websites and an integral part of digital accessibility. By following semantic HTML and organizing content, your web presence will gain more users, allow for easier to maintain code, and support current accessibility requirements."
+      url: "https://knowbility.org/services/training/authoring-accessible-content/"
+      type: "Webinar"
+      date: 2020-03-26
+    - title: "Toolkit for Live Events"
+      description: "This webinar covers legal compliance, the creation of live captions, tips for the best audio quality, and video player compatibility, as well as an overview of post-event video accessibility tips."
+      url: "https://go.3playmedia.com/wbn-qslc"
+      type: "Webinar"
+      date: 2020-03-12
     - title: "Engaging People with Disabilities in Usability Studies"
       description: "Kara VanRoekel will be talking about designing and conducting usability studies with participants who have a variety of disabilities and rely, in varying degrees, on assistive technology. She will talk about special considerations necessary when working with disabled participants, what participant populations can be most effectively recruited based on the development stage of the product, best practices for in-person vs remote studies, how to maximize recruitment and develop a database of potential participants, and more."
       url: "https://www.meetup.com/a11yphl/events/268061372/"
