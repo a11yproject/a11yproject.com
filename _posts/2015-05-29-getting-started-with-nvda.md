@@ -61,3 +61,7 @@ If you’re used to using VoiceOver and miss the on-screen text description outp
 
 ## A note on styling
 One feature that other screen readers have that NVDA doesn’t is custom focus styles. Others like Apple’s VoiceOver or Google’s Chromevox have a custom focus style for links or for input controls that aid in navigation. NVDA does not have a custom focus style so it is very important to style page elements with the `:focus` pseudo-class. It’s good to make a habit of adding this whenever the `:hover` pseudo-class is used. Also, avoid using `outline: none` as this removes focus styles completely from view.
+
+## Resources
+- [NVDA keyboard shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
+- [NVDA tutorials](http://accessibilitycentral.net/nvda%20tutorials%20learning%20the%20basics.html)

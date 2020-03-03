@@ -24,6 +24,21 @@ There are two modes you can use when navigating with VoiceOver: by “grouping i
 
 *DOM Order* will flag that you are entering a list of items, and  drill down into those items automatically. This mode is based entirely on the page’s underlying markup. Navigating by DOM order allows you to shift focus between DOM elements with the left and right arrow keys. The up and down arrow keys are based on the last used navigation method in the “Web Item Rotor.”
 
+## Reading text
+Here are some basic interaction and navigation commands for VoiceOver.
+
+Command | Description
+--------|------------
+VO-Shift-Down Arrow | Interact with an item
+VO-Shift-Up Arrow | Stop interacting with an item
+VO-Space bar | Perform the default action for the item in the VoiceOver cursor
+VO-R | Read a row in a table
+VO-C-C | Read a column in a table
+VO-Up Arrow | Move up
+VO-Down Arrow | Move down
+VO-Left Arrow | Move to previous
+VO-Right Arrow | Move to next
+
 ## The Web Item rotor ##
 
 <img src="/img/rotor.png" alt="Screenshot of OS X VoiceOver’s Web Item Rotor listing navigational headings on a11yproject.com">
@@ -31,3 +46,7 @@ There are two modes you can use when navigating with VoiceOver: by “grouping i
 Open the rotor by pressing VO-U with VoiceOver enabled, and you’ll be presented with a list of navigational elements on the current page. You can use the rotor to jump directly to links, headings, form controls, tables, web spaces, and ARIA landmarks. You can switch between these navigation methods using the left and right arrow keys, navigate through the list using the up and down arrow keys, and select an item using the enter key or the spacebar.
 
 You can start getting a feel for VoiceOver right here on a11yproject.com. Try it out!
+
+## Resources
+- [VoiceOver commands and gestures](https://www.apple.com/voiceover/info/guide/_1131.html)
+- [VoiceOver Mac user guide](https://help.apple.com/voiceover/mac/10.15/)
