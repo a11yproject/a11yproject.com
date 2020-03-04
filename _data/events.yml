@@ -20,6 +20,11 @@
       url: "https://knowbility.org/programs/accessu/2020/accessu-online/"
       type: "Webinar"
       date: 2020-05-14
+    - title: "Hands on Training Accessibility Testing Workshop"
+      description: "Ensuring accessibility into our sites and apps should be seen as a challenge rather than a chore. By working on real-life sites, as well as some code snippets, this workshop will demonstrate an accessibility testing workflow, which can be integrated into your own coding workflow. Also, we will include a review of automated testing, and hands-on manual testing using a variety of tools, from using the keyboard to using a screen reader application."
+      url: "https://knowbility.org/services/training/hands-on-training-accessibility-testing-workshop/"
+      type: "Webinar"
+      date: 2020-04-02
     - title: "How to Create Accessible Presentations"
       description: "In this webinar, we'll explore what makes a presentation accessible and why it matters for accessibility and engagement. This webinar is tailored to help you to design engaging and accessible online and in-person presentations."
       url: "https://go.3playmedia.com/wbn-03-26-2020-accessible-presenting"
