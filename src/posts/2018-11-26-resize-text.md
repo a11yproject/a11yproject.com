@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Resize text"
-category: "Quick test"
-description: "How to test the Resize Text WCAG Success Criterion"
+title: Resize text
+description: How to test the Resize Text WCAG Success Criterion.
 author: luis_garcia
-published: true
-categories:
-  - Quick Tests
+category: Quick test
+eleventyNavigation:
+  key: Quick test
+  title: Resize text
+tags:
+  - quicktest
 ---
 
 Resize text and make sure everything on the page works. Repeat until you get to 200% zoom. Seems simple? It is.
@@ -60,7 +62,7 @@ Edge won't work:
 1. Zoom to 200%
   * <kbd>Ctrl</kbd> + <kbd>+</kbd>
   * <kbd>Ctrl</kbd> + Scroll Up
-  
+
 ### Resizing text in Chrome
 
 1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard

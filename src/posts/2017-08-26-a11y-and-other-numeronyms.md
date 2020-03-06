@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "a11y and a brief numeronyms primer"
-category: "Quick tip"
+title: a11y and a brief numeronyms primer
 description: The numeronym "a11y" is shorthand for "accessibility."
 author: scott_ohara
-date: 2017-08-26
-# last_updated:
-published: true
-categories:
-  - Quick Tips
+category: Quick tip
+eleventyNavigation:
+  key: Background
+  title: a11y and a brief numeronyms primer
+tags:
+  - background
 further_reading:
   - title: "a11y = Accessibility"
     year: 2016
@@ -28,7 +28,6 @@ further_reading:
     year: 2010
     url: https://58sound.com/2010/04/16/is-a11y-our-ally-thoughts-on-a-tag-for-web-accessibility/
     source: David Sloan
-
 ---
 You may have seen "a11y" used as a [hash tag on Twitter](https://twitter.com/search?q=%23a11y), or used in a comment, article, used in a comment thread, or written in an article. Since you're reading this right now, you've likely seen it in the name of a certain website about accessibility. ahem... But if you're unfamiliar with the term "[numeronym](https://en.wikipedia.org/wiki/Numeronym)", you may not have realized that a11y isn't just a hash tag, nor is it a hip way to spell <em>ally</em>. Rather a11y is a shorthand for <em>accessibility</em>.
 

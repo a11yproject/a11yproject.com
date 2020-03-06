@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Getting started with ARIA"
-category: "Background"
-description: "Introduction to ARIA, describing Roles, States, and Properties and when to use ARIA in HTML."
-published: true
+title: Getting started with ARIA
+description: Introduction to ARIA, describing Roles, States, and Properties and when to use ARIA in HTML
 author: monika_piotrowicz
-categories:
-  - Background
+category: Background
+eleventyNavigation:
+  key: Background
+  title: Getting started with ARIA
+tags:
+  - background
 ---
 
 ## What is ARIA?

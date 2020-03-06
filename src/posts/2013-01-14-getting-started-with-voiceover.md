@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "Getting started with OS X VoiceOver"
-category: "Background"
+title: Getting started with OS X VoiceOver
+description: How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in OS X.
 author: mat_marquis
-description: "How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in OS X."
-categories:
-  - Assistive Technology
+category: Background
+eleventyNavigation:
+  key: Background
+  title: Getting started with OS X VoiceOver
+tags:
+  - background
 ---
 
 VoiceOver is the assistive software built into OS X. It provides a richer set of keyboard shortcuts for navigating a website and reads sections of the page aloud based on the current focus. It’s a great way to test the accessibility of a project because it’s always readily at-hand: you can toggle VoiceOver on/off by:

@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "How-to: Hide content"
-category: "How-to"
-description: "How-to hide content but still make it accessible to screen readers."
+title: Hide content
+description: How-to hide content but still make it accessible to screen readers.
 author: dave_rupert
-date: 2013-02-15
+category: How-to
 updated_by: michael_fairchild
 last_updated: 2017-09-02
-categories:
-  - How-tos
+eleventyNavigation:
+  key: How-to
+  title: Hide content
+tags:
+  - howto
 further_reading:
   - title: "HTML5 Hidden Attribute"
     url: https://davidwalsh.name/html5-hidden

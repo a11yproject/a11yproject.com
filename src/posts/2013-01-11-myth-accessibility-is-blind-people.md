@@ -1,13 +1,16 @@
 ---
 layout: post
-title: "Accessibility is 'blind people'"
-category: "Myth"
-description: "Brief explanation of the four categories of accessibility."
+title: Accessibility is "blind people"
+description: Brief explanation of the four categories of accessibility.
 author: dave_rupert
+category: Myths
 date: 2013-01-11
 last_updated: 2018-11-23
-categories:
-  - Myths
+eleventyNavigation:
+  key: Myths
+  title: Accessibility is "blind people"
+tags:
+  - myths
 ---
 
 Accessibility is often viewed as making your site work on screen readers. In reality, web accessibility is a subset of User Experience (UX) focused on making your websites usable by the widest range of people possible, including those who have disabilities.

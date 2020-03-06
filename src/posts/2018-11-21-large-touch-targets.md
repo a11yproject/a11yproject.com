@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Large touch targets"
-category: "Quick test"
-description: "How to determine if your touch targets are large enough to be used."
+category: Quick test
+title: Large Touch Targets
+description: How to determine if your touch targets are large enough to be used.
 author: eric_bailey
-published: true
-categories:
-  - Quick Tests
+eleventyNavigation:
+  key: Quick Test
+  title: Large Touch Targets
+tags:
+  - quicktest
 further_reading:
   - url: https://webplatform.github.io/docs/tutorials/understanding-css-units/#On-CSS-pixels,-physical-units-and-scalability
     title: "Understanding pixels and other CSS units: On CSS pixels, physical units and scalability"

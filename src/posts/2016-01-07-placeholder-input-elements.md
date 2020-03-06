@@ -1,14 +1,17 @@
 ---
 layout: post
-title: "Use <code>placeholder</code> attributes"
-category: "How-to"
-description: "How-to use placeholders on input elements."
+title: Use <code>placeholder</code> attributes
+description: How-to use placeholders on input elements.
 author: rachel_vasquez
-date: 2016-01-07
 updated_by: scott_ohara
 last_updated: 2018-07-22
-categories:
-  - How-tos
+date: 2016-01-07
+category: How-to
+eleventyNavigation:
+  key: How-to
+  title: Use placeholder attributes
+tags:
+  - howto
 further_reading:
   - title: "Don’t Use The Placeholder Attribute"
     url: https://www.smashingmagazine.com/2018/06/placeholder-attribute/
@@ -34,8 +37,8 @@ Now, there's nothing wrong with using placeholders - they can still be used. How
 Make your forms accessible by using one of the following methods (in order of preference):
 
 1. Redesign to include a proper visible `label`
-1. Use `aria-label` or `aria-labelledby` to provide assistive text
-1. [Visually hide](https://a11yproject.com/posts/how-to-hide-content/) `label` elements (in an accessible manner)
+2. Use `aria-label` or `aria-labelledby` to provide assistive text
+3. [Visually hide](https://a11yproject.com/posts/how-to-hide-content/) `label` elements (in an accessible manner)
 
 While we're paying attention to our placeholder text, let's review how to add better contrast:
 

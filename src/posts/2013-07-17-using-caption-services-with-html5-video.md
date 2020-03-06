@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "How-to: Using caption services with HTML5 video"
-category: "How-to"
-description: "How to implement captions on HTML5 video (and audio) elements."
-published: true
+title: Using caption services with HTML5 video
+description: How to implement captions on HTML5 video (and audio) elements.
 author: greg_tarnoff
-categories:
-  - How-tos
+category: How-to
+eleventyNavigation:
+  key: How-to
+  title: Using caption services with HTML5 video
+tags:
+  - howto
 ---
 
 One of the great things about the internet is the ability to share video. With HTML5 we can now use video without the use of Flash. This makes video more accessible as the controls are located in the DOM. However, to do accessible video right, you need to include captions and transcripts.

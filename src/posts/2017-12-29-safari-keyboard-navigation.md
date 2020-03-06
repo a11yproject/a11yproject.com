@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "Safari keyboard navigation"
-category: "Quick tip"
-description: "How to enable full keyboard support in Safari, and other browsers on macOS."
+title: Safari keyboard navigation
+description: How to enable full keyboard support in Safari, and other browsers on macOS.
 author: scott_vinkle
+category: Quick tip
 date: 2017-12-29
 last_updated: 2018-11-24
-published: true
-categories:
-  - Quick Tips
+eleventyNavigation:
+  key: Quick tip
+  title: Safari keyboard navigation
+tags:
+  - quicktip
 further_reading:
   - url: http://www.weba11y.com/blog/2014/07/07/keyboard-navigation-in-mac-browsers/
     title: "Keyboard Navigation in Mac Browsers"

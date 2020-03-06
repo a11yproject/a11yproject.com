@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "A primer to vestibular disorders"
-category: "Background"
-description: "Key facts, definitions, demographics and causes of vestibular disorders."
+title: A primer to vestibular disorders
+description: Key facts, definitions, demographics and causes of vestibular disorders.
 author: gray_ghost
-published: true
-categories:
-  - Background
+category: Background
+eleventyNavigation:
+  key: Background
+  title: A primer to vestibular disorders
+tags:
+  - background
 further_reading:
-  - title: "Designing Safer Web Animation For Motion Sensitivity"
+  - title: Designing Safer Web Animation For Motion Sensitivity
     url: https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity
     source: Val Head
     year: 2015
@@ -16,7 +18,7 @@ further_reading:
 
 Your Vestibular system is the sensory mechanism in the inner ear that detects movement of the head and helps to control balance.
 
-Imagine a world where your internal gyroscope is not working properly. Very similar to being intoxicated, things seem to move of their own accord, your feet never quite seem to be stable underneath you, and your senses are moving faster or slower than the rest of syour body.
+Imagine a world where your internal gyroscope is not working properly. Very similar to being intoxicated, things seem to move of their own accord, your feet never quite seem to be stable underneath you, and your senses are moving faster or slower than the rest of your body.
 
 Your personal steady-cam is broken. Whatever you look at tends to move regardless of if you are moving. Let's take that feeling and check out that great new website with animations and parallax scrolling. Does your stomach want to jump out of your throat? Well for many people it does.
 

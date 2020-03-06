@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "What is color contrast?"
-category: "Background"
-description: "What is color contrast and why do we need it for web accessibility?"
+title: What is color contrast?
+description: What is color contrast and why do we need it for web accessibility?
 author: rachel_vasquez
+category: Background
 updated_by: emily_lane
 last_updated: 2018-11-17
-published: true
-categories:
-  - Background
+eleventyNavigation:
+  key: Background
+  title: What is color contrast?
+tags:
+  - background
 further_reading:
   - title: "Contrasting Colors"
     url: https://www.lifewire.com/contrasting-colors-in-design-1078274

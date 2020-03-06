@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Use skip navigation links"
-category: "How-to"
-description: "Use skip nav links to ease keyboard user fatigue and frustration."
+title: Use skip navigation links
+description: Use skip nav links to ease keyboard user fatigue and frustration.
 author: cameron_cundiff
-published: true
-categories:
-  - How-tos
+category: How-to
+eleventyNavigation:
+  key: How-to
+  title: Use skip navigation links
+tags:
+  - howto
 ---
 **Short answer:** Use skip nav links in conjunction with a coherent heading outline and [ARIA landmarks](https://a11yproject.com/posts/aria-landmark-roles/). You may need to also implement a JavaScript polyfill for Webkit based browsers.
 

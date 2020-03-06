@@ -1,20 +1,22 @@
 ---
 layout: post
-title: "A primer to visual impairment"
-category: "Background"
-description: "Key facts, definitions, demographics, causes, challenges and future of visual impairment."
+title: A primer to visual impairment
+description: Key facts, definitions, demographics, causes, challenges and future of visual impairment.
 author: greg_tarnoff
+category: Background
 updated_by: emily_lane
-published: true
-categories:
-  - Background
+eleventyNavigation:
+  key: Background
+  title: A primer to visual impairment
+tags:
+  - background
 ---
 
 Visual impairment is a condition that limits the visual capability of an individual to such a degree that additional support is needed.
 
 It is the result of trauma, disease, congenital, or degenerative conditions that cannot be corrected by medication, surgery or refractive correction. 90% of the world's visually impaired live in developing countries and 80% of all visual impairment can be avoided or cured by conventional means.
 
-According to the [National Federation for the Blind](https://nfb.org/), 7,297,100 people over the age of 16 were reported to have some level of visual impairment, as of a [2015 American Community Survey](https://nfb.org/blindness-statistics) interpreted by Cornell University's Employment and Disability Institute (EDI). 
+According to the [National Federation for the Blind](https://nfb.org/), 7,297,100 people over the age of 16 were reported to have some level of visual impairment, as of a [2015 American Community Survey](https://nfb.org/blindness-statistics) interpreted by Cornell University's Employment and Disability Institute (EDI).
 
 There are 3 levels of visual impairment:
 
@@ -33,7 +35,7 @@ According to The United States Bureau of the Census:
 
 ## Who is at risk?
 
-65% of visually impaired people are over 50 years old. With an ever increasing elderly population in many countries, more people will be at risk of age-related visual impairment. 
+65% of visually impaired people are over 50 years old. With an ever increasing elderly population in many countries, more people will be at risk of age-related visual impairment.
 
 An estimated 19,000,000 children under 15 years are visually impaired with 12,000,000 due to refractive errors that have not yet been diagnosed or corrected, while 1,400,000 are irreversibly blind.
 

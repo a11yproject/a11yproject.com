@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "Don't auto-play video, music and more"
-category: "Quick tip"
-description: "Why you shouldn't auto-play anything that could distract the user from their main task."
+title: Don't auto-play video, music and more
+description: Why you shouldn't auto-play anything that could distract the user from their main task.
 author: emma_patricios
-categories:
-  - Quick Tips
+category: Quick tip
+eleventyNavigation:
+  key: Quick tip
+  title: Don't auto-play video, music and more
+tags:
+  - quicktip
 further_reading:
   - url: https://docs.microsoft.com/en-us/windows/desktop/uxguide/vis-animations#accessibility
     title: "Accessibility of animations and transitions from Microsoft"
@@ -47,7 +50,7 @@ In [a note on audio control](https://www.w3.org/WAI/WCAG21/Understanding/audio-c
 
 Vision includes video and CSS/JavaScript animations like slide-shows and carousels.
 
-Some groups of people may have a problem with moving content on a web page that starts without warning. This includes people with certain types of learning difficulties who can find it hard to concentrate or focus on tasks when distractions are present. 
+Some groups of people may have a problem with moving content on a web page that starts without warning. This includes people with certain types of learning difficulties who can find it hard to concentrate or focus on tasks when distractions are present.
 
 ## In HTML5
 

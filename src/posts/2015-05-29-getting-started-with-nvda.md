@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Getting started with NVDA"
-category: "How-to"
-description: "A quick overview of navigating a webpage using the NVDA screen reader."
+title: Getting started with NVDA
+description: A quick overview of navigating a webpage using the NVDA screen reader
 author: scott_vinkle
-published: true
-categories:
-  - Assistive Technology
+category: How-to
+eleventyNavigation:
+  key: How-to
+  title: Getting started with NVDA
+tags:
+  - howto
 ---
 
 NVDA is a free and open source screen reader from [NVAccess](https://www.nvaccess.org/). It is available for the Windows operating system and officially supports Internet Explorer, Firefox, and Chrome web browsers. There is also a ton of [braille display support](https://www.nvaccess.org/files/nvda/documentation/userGuide.html?#SupportedBrailleDisplays)!
@@ -21,33 +23,33 @@ Each screen reader has a special key or key combination to perform tasks. NVDA�
 ## Reading text
 Here are some basic shortcuts to read text using NVDA.
 
-Command | Description
---------|------------
-Ctrl | Stop reading
-NVDA + down arrow | Start reading from current position
-NVDA + up arrow | Read current line
-Ctrl + left / right arrow | Read previous / next word
-Ctrl + up / down arrow | Read previous / next paragraph
-up / down arrow | Read previous / next line
-left / right arrow | Read previous / next character
+| Command                   | Description                         |
+| ------------------------- | ----------------------------------- |
+| Ctrl                      | Stop reading                        |
+| NVDA + down arrow         | Start reading from current position |
+| NVDA + up arrow           | Read current line                   |
+| Ctrl + left / right arrow | Read previous / next word           |
+| Ctrl + up / down arrow    | Read previous / next paragraph      |
+| up / down arrow           | Read previous / next line           |
+| left / right arrow        | Read previous / next character      |
 
 ## Shortcut keys
 These shortcut keys can be used to quickly jump between specific elements on a page. Elements can be cycled through backwards by holding `shift`, then press the shortcut key.
 
-Key | Description
---------|------------
-Tab | Move to next focusable element
-d | Navigate through landmarks
-k | Navigate through links
-h | Navigate through headings
-1 - 6 | Navigate through headings level 1 to 6
-f | Navigate through forms
-t | Navigate through tables
-Ctrl + Alt + up / down / left / right arrow | Navigate table content
-b | Navigate through buttons
-l | Navigate through lists
-i | Navigate through list items
-g | Navigate through graphics / images
+| Key                                         | Description                            |
+| ------------------------------------------- | -------------------------------------- |
+| Tab                                         | Move to next focusable element         |
+| d                                           | Navigate through landmarks             |
+| k                                           | Navigate through links                 |
+| h                                           | Navigate through headings              |
+| 1 - 6                                       | Navigate through headings level 1 to 6 |
+| f                                           | Navigate through forms                 |
+| t                                           | Navigate through tables                |
+| Ctrl + Alt + up / down / left / right arrow | Navigate table content                 |
+| b                                           | Navigate through buttons               |
+| l                                           | Navigate through lists                 |
+| i                                           | Navigate through list items            |
+| g                                           | Navigate through graphics / images     |
 
 ## Advanced navigation
 By pressing `NVDA + f7`, NVDA displays a listing of all elements on the page. This is helpful to quickly skip to a specific area or element on the page. It also helps with testing by gaining an understanding of what each element might sound like to the end user. Do those “read more” links give enough context to be useful?

@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Use <code>title</code> attributes"
-category: "How-to"
-description: "Short answer: Avoid using title attributes except in a few special circumstances."
+title: Use <code>title</code> attributes
+description: Avoid using title attributes except in a few special circumstances.
 author: dave_rupert
-published: true
-categories:
-  - How-tos
+category: How-to
+eleventyNavigation:
+  key: How-to
+  title: Use title attributes
+tags:
+  - howto
 further_reading:
   - title: "The Trials and Tribulations of the Title Attribute"
     url: https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/

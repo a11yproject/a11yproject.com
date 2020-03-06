@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "Understanding color blindness"
-category: "Background"
-description: "What is color blindness, and how can we design with it in mind?"
+title: Understanding color blindness
+description: What is color blindness, and how can we design with it in mind?
 author: matthew_higgins
+category: Background
 updated_by: emily_lane
 last_updated: 2018-09-27
-published: true
-categories:
-  - Background
+eleventyNavigation:
+  key: bBckground
+  title: Understanding color blindness
+tags:
+  - background
 ---
 
 Color blindness is a common genetic condition in which some peoples' eyes can't tell the difference between certain colors. That's not to say these people see the world in greyscale&mdash; just that many colors seem identical to one another. Total color blindness is very rare in humans.

@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "Screen readers don't use JavaScript"
-category: "Myth"
-description: "97.6% of all screen readers have JavaScript enabled."
+title: Screen readers don't use JavaScript
+category: Myths
+description: 97.6% of all screen readers have JavaScript enabled.
 author: dave_rupert
 last_updated: 2014-09-26
-categories:
-  - Myths
+eleventyNavigation:
+  key: Myths
+  title: Screen readers don't use JavaScript
+tags:
+  - myths
 further_reading:
   - url: https://www.w3.org/TR/WCAG20-TECHS/client-side-script.html
     title: "Client-side Scripting Techniques for WCAG 2.0"

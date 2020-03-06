@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "How-to: Use <code>role='application'</code>"
-category: "How-to"
-description: "<strong>Never</strong> use <code>role=application</code> on a widely containing element such as <code>&lt;body&gt;</code> if your page consists mostly of traditional widgets or page elements."
+title: Use <code>role="application"</code>
+description: <strong>Never</strong> use <code>role=application</code> on a widely containing element such as <code>&lt;body&gt;</code> if your page consists mostly of traditional widgets or page elements.
 author: gray_ghost
-# date:
-# last_updated:
-published: true
-categories:
-  - How-tos
+category: How-to
+eleventyNavigation:
+  key: How-to
+  title: Use role="application"
+tags:
+  - howto
 ---
 
 **NEVER** use `role="application"` on a widely containing element such as `<body>` if your page consists mostly of traditional widgets or page elements such as links that the user does not have to interact with in focus mode. Using `role="application"` unnecessarily can cause huge headaches for any assistive technology user trying to use your site/application. Only put it on the `<body>` element if your page consists solely of a widget or set of widgets that all need the focus mode[^focusmode] to be turned on.

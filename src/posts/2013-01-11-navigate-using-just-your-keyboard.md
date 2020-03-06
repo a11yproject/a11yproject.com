@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "Navigate using just your keyboard"
-category: "Quick test"
-description: "A quick accessibility test that you can run on your sites right now."
+title: Navigate using just your keyboard
+description: A quick accessibility test that you can run on your sites right now.
 author: dave_rupert
-date: 2013-01-11
+category: Quick test
 last_updated: 2018-08-24
-categories:
-  - Quick Tests
+eleventyNavigation:
+  key: Quick test
+  title: Navigate using just your keyboard
+tags:
+  - quicktest
 further_reading:
   - url: https://webaim.org/techniques/keyboard/
     title: "Keyboard Accessibility"

@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Create accessible data tables"
-category: "How-to"
-description: "What you need to create an accessible data table."
-published: true
+title: Create accessible data tables
+description: What you need to create an accessible data table.
 author: franklyn_roth
-categories:
-  - How-to
+category: How-to
+eleventyNavigation:
+  key: How-to
+  title: Create accessible data tables
+tags:
+  - howto
 ---
 
 The semantic purpose of a data table is to present tabular data. Sighted users can quickly scan the table but a screen reader goes through line by line. Proper markup must be added to help the screen reader make the correct associations that a sighted user would.
