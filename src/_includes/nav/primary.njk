@@ -10,22 +10,13 @@
     </a>
   </div>
 
+  {% set navPages = collections.navprimary | eleventyNavigation %}
   <ul class="l-primary-nav__sections c-primary-nav__list">
+  {%- for entry in navPages %}
     <li class="c-primary-nav__list-item">
-      <a class="c-primary-nav__link" href="/posts">Posts</a>
+      <a class="c-primary-nav__link" {% if entry.url == page.url %} aria-current="page"{% endif %} href="{{ entry.url | url }}">{{ entry.title }}</a>
     </li>
-    <li class="c-primary-nav__list-item">
-      <a class="c-primary-nav__link" href="">Checklist</a>
-    </li>
-    <li class="c-primary-nav__list-item">
-      <a class="c-primary-nav__link" href="">Resources</a>
-    </li>
-    <li class="c-primary-nav__list-item">
-      <a class="c-primary-nav__link" href="">About</a>
-    </li>
-    <li class="c-primary-nav__list-item">
-      <a class="c-primary-nav__link c-primary-nav__link--contribute" href="">Contribute</a>
-    </li>
+  {%- endfor %}
   </ul>
 
 </nav>
