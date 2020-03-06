@@ -1,24 +1,33 @@
 ---
 layout: layouts/home.njk
-date: 2019-01-02
-tags:
-  - primarynav
-templateClass: template-posts
-navtitle: Posts
+eleventyNavigation:
+  key: Primary
+  title: Posts
+  order: 1
 permalink: /posts/
+subtitle: Wisdom from the community
+tags:
+  - navprimary
+templateClass: template-posts
 ---
 
 {% include "nav/skipnav.njk" %}
 <nav id="table-of-contents" class="l-toc" aria-label="Table of contents">
   <ol class="c-toc">
     <li class="c-toc__list-item">
-      <a class="c-toc__link" aria-current="location" href="">Myths</a>
+      <a class="c-toc__link" aria-current="location" href="">Background</a>
     </li>
     <li class="c-toc__list-item">
-      <a class="c-toc__link" href="">Tests</a>
+      <a class="c-toc__link" href="">Myths</a>
     </li>
     <li class="c-toc__list-item">
-      <a class="c-toc__link" href="">Tips</a>
+      <a class="c-toc__link" href="">Quick Tests</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="">Quick Tips</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="">How-tos</a>
     </li>
     <li class="c-toc__list-item">
       <a class="c-toc__link" href="">Assistive Technology</a>
@@ -26,16 +35,96 @@ permalink: /posts/
   </ol>
 </nav>
 
+{# {% set postslist = collections.posts %}
+{% include "postslist.njk" %} #}
+
 <article class="l-content">
-  <h2 class="u-hide-visually" id="main-heading">
+  <h1 class="u-hide-visually" id="main-heading">
     {{ navtitle }}
-  </h2>
+  </h1>
+
+<h2 class="c-heading-large" id="background">
+  Background
+</h2>
+
+{% set postBackground = collections.background | eleventyNavigation %}
+{%- for entry in postBackground %}
+  {% include "postslist.njk" %}
+{%- endfor %}
+
+
+{# <ul>
+  {%- for entry in postBackground %}
+    <li>
+      <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+    </li>
+  {%- endfor %}
+</ul> #}
 
 <h2 class="c-heading-large" id="myths">
   Myths
 </h2>
 
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+{% set myths = collections.myths | eleventyNavigation %}
+<ul>
+  {%- for entry in myths %}
+    <li>
+      <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+    </li>
+  {%- endfor %}
+</ul>
+
+<h2 class="c-heading-large" id="quick-tests">
+  Quick tests
+</h2>
+
+{% set postQuickTests = collections.quicktest | eleventyNavigation %}
+<ul>
+  {%- for entry in postQuickTests %}
+    <li>
+      <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+    </li>
+  {%- endfor %}
+</ul>
+
+<h2 class="c-heading-large" id="quick-tips">
+  Quick tips
+</h2>
+
+{% set postQuickTips = collections.quicktip | eleventyNavigation %}
+<ul>
+  {%- for entry in postQuickTips %}
+    <li>
+      <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+    </li>
+  {%- endfor %}
+</ul>
+
+<h2 class="c-heading-large" id="how-to">
+  How-to
+</h2>
+
+{% set postHowto = collections.howto | eleventyNavigation %}
+<ul>
+  {%- for entry in postHowto %}
+    <li>
+      <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+    </li>
+  {%- endfor %}
+</ul>
+
+<h2 class="c-heading-large" id="assistive-technology">
+  Assistive technology
+</h2>
+
+{% set postAssistiveTechnology = collections.assistivetechnology | eleventyNavigation %}
+<ul>
+  {%- for entry in postAssistiveTechnology %}
+    <li>
+      <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+    </li>
+  {%- endfor %}
+</ul>
+
 
 </article>
