@@ -2,19 +2,25 @@
     Eric Bailey
     Contact: eric.w.bailey [at] gmail.com
     Twitter: @ericwbailey
-    From: Somerville, Massachusetts, USA
 
     Firstname Lastname
     Twitter: @account
-    From: City, State, Country
 
 
 /* THANKS */
 
-    Reason
     Firstname Lastname
+    Reason
     Twitter: @account
     From: City, State, Country
+
+    Andy Bell
+    Eleventy help
+    Twitter: @hankchizljaw
+
+    Zach Leatherman
+    Eleventy help
+    Twitter: @zachleat
 
 
 /* SITE */
