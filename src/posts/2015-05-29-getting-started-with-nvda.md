@@ -3,12 +3,12 @@ layout: post
 title: Getting started with NVDA
 description: A quick overview of navigating a webpage using the NVDA screen reader
 author: scott_vinkle
-category: How-to
+category: Assistive Technology
 eleventyNavigation:
-  key: How-to
+  key: Assistive Technology
   title: Getting started with NVDA
 tags:
-  - howto
+  - assistivetechnology
 ---
 
 NVDA is a free and open source screen reader from [NVAccess](https://www.nvaccess.org/). It is available for the Windows operating system and officially supports Internet Explorer, Firefox, and Chrome web browsers. There is also a ton of [braille display support](https://www.nvaccess.org/files/nvda/documentation/userGuide.html?#SupportedBrailleDisplays)!
