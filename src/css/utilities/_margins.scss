@@ -1,0 +1,104 @@
+// u-margins
+//
+// Creates a basic full-width responsive element whose aspect ratio scales
+// proportionately. See [`mixins.responsify`](section-logic.html#kssref-logic-mixins-responsify).
+//
+// Markup:
+// <div class="u-margin-long">…</div>
+//
+// Styleguide Utilities.u-margins
+.u-margin-none {
+  margin: 0;
+}
+
+.u-margin-shortest {
+  margin: 0.5rem;
+}
+
+.u-margin-shorter {
+  margin: 0.75rem;
+}
+
+.u-margin-short {
+  margin: 1rem;
+}
+
+.u-margin-medium {
+  margin: 1.25rem;
+}
+
+.u-margin-long {
+  margin: 1.5rem;
+}
+
+.u-margin-longer {
+  margin: 1.75rem;
+}
+
+.u-margin-longest {
+  margin: 2rem;
+}
+
+.u-margin-top-none {
+  margin-top: 0;
+}
+
+.u-margin-top-shortest {
+  margin-top: 0.5rem;
+}
+
+.u-margin-top-shorter {
+  margin-top: 0.75rem;
+}
+
+.u-margin-top-short {
+  margin-top: 1rem;
+}
+
+.u-margin-top-medium {
+  margin-top: 1.25rem;
+}
+
+.u-margin-top-long {
+  margin-top: 1.5rem;
+}
+
+.u-margin-top-longer {
+  margin-top: 1.75rem;
+}
+
+.u-margin-top-longest {
+  margin-top: 2rem;
+}
+
+.u-margin-bottom-none {
+  margin-bottom: 0;
+}
+
+.u-margin-bottom-shortest {
+  margin-bottom: 0.5rem;
+}
+
+.u-margin-bottom-shorter {
+  margin-bottom: 0.75rem;
+}
+
+.u-margin-bottom-short {
+  margin-bottom: 1rem;
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 1.25rem;
+}
+
+.u-margin-bottom-long {
+  margin-bottom: 1.5rem;
+}
+
+.u-margin-bottom-longer {
+  margin-bottom: 1.75rem;
+}
+
+.u-margin-bottom-longest {
+  margin-bottom: 2rem;
+}
