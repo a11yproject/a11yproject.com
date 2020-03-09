@@ -1,0 +1,44 @@
+$_preview-width: 62ch;
+
+.c-post-preview {
+  border: $border-thinnest solid $color-gray-shade;
+  padding: 1.5rem 2rem;
+  margin-top: 2rem;
+  max-width: $_preview-width * 1.25;
+  transition: $animation-duration-shorter $animation-easing-character background-color;
+
+  // States
+  &:hover {
+    background-color: $color-white;
+  }
+
+  &:focus-within {
+    background: linear-gradient(90deg, $color-pink-shade 2.5%, $color-white 0);
+    border-top: $border-thinnest solid $color-gray-shade;
+    border-right: $border-thinnest solid $color-gray-shade;
+    border-bottom: $border-thinnest solid $color-gray-shade;
+    border-left: $border-thinnest solid $color-pink-shade;
+  }
+
+  // User Queries
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+.c-post-preview__title {
+  color: $color-pink-shade;
+  letter-spacing: $font-tracking-tight;
+}
+
+.c-post-preview__date {
+  color: $color-gray-shade;
+  font-size: 0.8rem;
+}
+
+.c-post-preview__shortdesc {
+  font-family: $font-family-secondary;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  max-width: $_preview-width;
+}
