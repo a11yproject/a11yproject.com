@@ -4,7 +4,7 @@ title: "Quick tip: Browser Keyboard Navigation in macOS"
 description: "How to enable full keyboard support in browsers on macOS."
 author: scott_vinkle
 date: 2017-12-29
-last_updated: 2019-11-15
+last_updated: 2020-03-17
 updated_by: erin_olmon
 redirect_from:
   - /posts/safari-keyboard-navigation
@@ -90,7 +90,13 @@ Just like in Safari, a similar setting is available in Chrome. Verify that this 
 
 ### Highlight each item in Firefox
 
-Unlike Safari and Chrome, Firefox does not have an option in the settings page for enabling full keyboard control. However, when the "All Controls" setting is enabled in macOS, Firefox may still not send focus to links using the tab key. There is a way to enable keyboard focus of links using advanced configuration options.
+Unlike Safari and Chrome, Firefox does not have an option in the settings page for enabling full keyboard control. Firefox respects the "Use keyboard navigation to move focus between controls" or "All Controls" setting in macOS.
+
+### Troubleshooting Firefox
+
+In several older versions of Firefox, the browser may still not send focus to links using the tab key despite "Use keyboard navigation to move focus between controls" being set. If this occurs, please update to the latest version of Firefox. 
+
+If it is not possible to install the latest version of Firefox, there is a way to enable keyboard focus of links using advanced configuration options.
 
 _Note: When accessibility.tabfocus is set, some forms created with non-semantic HTML elements can behave oddly. For example, the GitHub Gist code editor. If non-semantic HTML elements are inexplicably inaccessible, try resetting this option._
 
