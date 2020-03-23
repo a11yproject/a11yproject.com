@@ -16,5 +16,31 @@
       "label": "Explore resources",
       "url": "#cultivate-community"
     }
+  },
+  "posts": {
+    "background": {
+      "label": "Background",
+      "url": "#background"
+    },
+    "myths": {
+      "label": "Myths",
+      "url": "#myths"
+    },
+    "quick-tests": {
+      "label": "Quick Tests",
+      "url": "#quick-tests"
+    },
+    "quick-tips": {
+      "label": "Quick Tips",
+      "url": "#quick-tips"
+    },
+    "how-tos": {
+      "label": "How-tos",
+      "url": "#how-tos"
+    },
+    "assistive-technologies": {
+      "label": "Assistive Technologies",
+      "url": "#assistive-technologies"
+    }
   }
 }
