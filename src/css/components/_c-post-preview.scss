@@ -1,24 +1,17 @@
-$_preview-width: 62ch;
+$_post-preview-content-width: 62ch;
+$_post-preview-triange-size: 1.49rem;
+
 
 .c-post-preview {
   border: $border-thinnest solid $color-gray-shade;
   padding: 1.5rem 2rem;
-  margin-top: 2rem;
-  max-width: $_preview-width * 1.25;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
   transition: $animation-duration-shorter $animation-easing-character background-color;
 
   // States
   &:hover {
     background-color: $color-white;
-  }
-
-  &:focus-within {
-    background: linear-gradient(90deg, $color-pink-shade 2.5%, $color-white 0);
-    border-top: $border-thinnest solid $color-gray-shade;
-    border-right: $border-thinnest solid $color-gray-shade;
-    border-bottom: $border-thinnest solid $color-gray-shade;
-    border-left: $border-thinnest solid $color-pink-shade;
-
   }
 
   // User Queries
@@ -27,19 +20,62 @@ $_preview-width: 62ch;
   }
 }
 
+.c-post-preview--preview {
+  background-color: $color-blue-tint;
+  border: none;
+  margin-top: 0;
+  padding-top: 0;
+
+  &::before {
+    content: "";
+    border-style: solid;
+    border-width: 0 $_post-preview-triange-size $_post-preview-triange-size 0;
+    border-color: transparent $color-blue-shade transparent transparent;
+    display: inline-block;
+    height: 0;
+    position: relative;
+      bottom: 0;
+      right: 3.48rem;
+    width: 0;
+  }
+
+  // States
+  &:hover {
+    background-color: $color-blue-tint;
+  }
+}
+
+.c-post-preview__banner {
+  background-color: $color-blue;
+  color: $color-white;
+  font-family: $font-family-secondary;
+  font-size: 1rem;
+  letter-spacing: $font-tracking-slight;
+  line-height: $line-height-single;
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+}
+
 .c-post-preview__title {
   color: $color-pink-shade;
   letter-spacing: $font-tracking-tight;
+  max-width: $_post-preview-content-width;
 }
 
 .c-post-preview__date {
   color: $color-gray-shade;
   font-size: 0.8rem;
+  max-width: $_post-preview-content-width;
 }
 
 .c-post-preview__shortdesc {
   font-family: $font-family-secondary;
   font-size: 0.9rem;
   margin-top: 1rem;
-  max-width: $_preview-width;
+  max-width: $_post-preview-content-width;
+}
+
+.c-post-preview__wrapper {
+  margin-bottom: 3rem;
+  max-width: $_post-preview-content-width * 1.15;
 }
