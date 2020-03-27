@@ -20,6 +20,11 @@
       url: "https://knowbility.org/programs/accessu/2020/accessu-online/"
       type: "Webinar"
       date: 2020-05-14
+    - title: "How to Act and Understand Accessibility Right Now"
+      description: "People with disabilities make up 26% of the US population. If your digital presence is inaccessible, they may not have any way to access your goods and services. There has never been a more crucial time to make your digital properties accessible, while COVID-19 continues to physically isolate us all."
+      url: "https://accessibility.deque.com/how-to-act-and-understand-accessibility-right-now"
+      type: "Webinar"
+      date: 2020-04-07
     - title: "Hands on Training Accessibility Testing Workshop"
       description: "Ensuring accessibility into our sites and apps should be seen as a challenge rather than a chore. By working on real-life sites, as well as some code snippets, this workshop will demonstrate an accessibility testing workflow, which can be integrated into your own coding workflow. Also, we will include a review of automated testing, and hands-on manual testing using a variety of tools, from using the keyboard to using a screen reader application."
       url: "https://knowbility.org/services/training/hands-on-training-accessibility-testing-workshop/"
