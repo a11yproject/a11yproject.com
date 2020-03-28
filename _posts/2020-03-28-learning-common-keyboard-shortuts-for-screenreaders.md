@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Learning common keyboard shortcuts for screen readers"
-description: "Keyboard shortcuts are hard to learn. Here's an alternative way of
-processing that information through a mindmap."
+description: "Keyboard shortcuts are hard to learn. Here are some other ways that can help that learning."
 author: anevins12
 published: true
 categories:
