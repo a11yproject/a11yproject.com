@@ -15,33 +15,27 @@ further_reading:
     source: Github
 ---
 
-Have you ever felt that keyboard shortcuts for assistive technology don't stick in your head? You're not alone, I've been trying to memorise them too. Keyboard shortcuts are often presented to us in a list or a table. Lists and tables are great ways of conveying information, but sometimes a more visual approach could help us learn those shortcuts.
-
-In an ideal World we would be using common screen readers daily to help us learn through experience. When that doesn't work out, here's an approach that worked for me.
-
-## Get comfortable seeing keyboard shortcuts
-
-Most keyboard shortcuts aren't fun to look at, but we need to be comfortable reading them before taking them in. 
-
-Start by reading the lists and tables of shortcuts that people have kindly put together already. Here are a few:
-- [Deque lists common screen reader shortcuts](https://dequeuniversity.com/screenreaders/)
-- [Getting started with NVDA on The A11y Project(https://a11yproject.com/posts/getting-started-with-nvda/)]
-- [Getting started with OS X VoiceOver](Getting started with OS X VoiceOver)
-
-## Found a cool shortcut? Look it up
-At some point you've found some keyboard shortcuts that you thought were exciting. The TalkBack and VoiceOver mobile shortcuts are quite fun to try out.
-
-Start looking up videos on how to do those shortcuts. Seeing the shortcut being acted out will help that information sink in.
-
-Trying it out yourself on a device is even better. We might all have a common screen reader to hand. Android devices have TalkBack, iOS and MacOS have VoiceOver and Microsoft has Narrator.
+Have you ever felt that keyboard shortcuts for assistive technology don't stick in your head? You're not alone. Keyboard shortcuts are often presented to us in a list or a table. Lists and tables are great for some people, while others may be overwhelmed from the sheer number of commands to learn. Sometimes a more visual approach could help us learn.
 
 ## Learning visually helps
-Sometimes there's too much information to try out and you need another way of learning the shortcuts. 
+Creating a mind map of keyboard shortcuts can help learn those shortcuts easier than lists and tables. 
 
-Mapping the keyboard shortcuts that you've learned so far to a graph or mind map can help that information sink in. 
+Here's a mind map of the common keyboard shortcuts in popular screen readers: ![Mind map of common keyboard shortcuts for screen readers](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/common-keyboard-shortcuts-mindmap.png.png)
 
-Go back and familiarize yourself with the lists and tables of shortcuts, then start creating a visual map of them.
+That mind map shows some shortcuts across screen readers by tasks but is not exhaustive. An example of one task is to 'list all landmarks'. This task then branches off into JAWS, NVDA, VoiceOver iOS, TalkBack and Narrator screen readers. Each then branches into their own shortcut:
+- List all landmarks -> JAWS -> R or ;
+- List all landmarks -> NVDA -> D
+- List all landmarks -> Narrator -> D
+- List all landmarks -> VoiceOver iOS -> Two finger twist (the rotor menu)
+- List all landmarks -> TalkBack -> Swipe right (the local context menu)
 
-Here's a mind map that I've created for the common keyboard shortcuts in popular screen readers: ![Mind map of common keyboard shortcuts for screen readers](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/common-keyboard-shortcuts-mindmap.png.png)
+The shortcuts are taken from (Deque on shortcuts and gestures)[https://dequeuniversity.com/screenreaders/].
 
-While all of this helped me, it may not be right for everyone. Learn the way that works bests for you.
+## Found a cool shortcut? Look it up
+Other great ways of learning is to try out some shortcut that you thought were exciting. The TalkBack and VoiceOver mobile shortcuts are quite fun to try out.
+
+Looking up videos on how to do those shortcuts. Seeing the shortcut being acted out will help that information sink in.
+
+Trying it out yourself on a device is even better. Android devices have TalkBack, iOS and MacOS have VoiceOver and Microsoft has Narrator.
+
+In an ideal world we would be using common screen readers daily to help us learn through experience. While these learning techniques can be helpful, they may not be right for everyone. Learn the way that works bests for you.
