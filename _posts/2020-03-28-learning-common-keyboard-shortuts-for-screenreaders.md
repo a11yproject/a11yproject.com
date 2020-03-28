@@ -15,7 +15,7 @@ further_reading:
     source: Github
 ---
 
-Have you ever felt that keyboard shortcuts for assistive technology don't stick in your head? You're not alone. Keyboard shortcuts are often presented to us in a list or a table. Lists and tables are great for some people, while others may be overwhelmed from the sheer number of commands to learn. Sometimes a more visual approach could help us learn.
+Keyboard shortcuts are often presented to us in a list or a table. Lists and tables are great for some people, while others may be overwhelmed from the sheer number of commands to learn. Sometimes a more visual approach could help us learn.
 
 ## Learning visually helps
 Creating a mind map of keyboard shortcuts can help learn those shortcuts easier than lists and tables. 
