@@ -20,7 +20,7 @@ Keyboard shortcuts are often presented to us in a list or a table. Lists and tab
 ## Learning visually helps
 Creating a mind map of keyboard shortcuts can help learn those shortcuts easier than lists and tables. 
 
-Here's a mind map of the common keyboard shortcuts in popular screen readers: ![Mind map of common keyboard shortcuts for screen readers](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/common-keyboard-shortcuts-mindmap.png.png)
+Here's a mind map of the common keyboard shortcuts in popular screen readers: ![Mind map of common keyboard shortcuts for screen readers](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/common-keyboard-shortcuts-mindmap.png)
 
 That mind map shows some shortcuts across screen readers by tasks but is not exhaustive. An example of one task is to 'list all landmarks'. This task then branches off into JAWS, NVDA, VoiceOver iOS, TalkBack and Narrator screen readers. Each then branches into their own shortcut:
 - List all landmarks -> JAWS -> R or ;
@@ -29,7 +29,7 @@ That mind map shows some shortcuts across screen readers by tasks but is not exh
 - List all landmarks -> VoiceOver iOS -> Two finger twist (the rotor menu)
 - List all landmarks -> TalkBack -> Swipe right (the local context menu)
 
-The shortcuts are taken from (Deque on shortcuts and gestures)[https://dequeuniversity.com/screenreaders/].
+The shortcuts are taken from [Deque on shortcuts and gestures](https://dequeuniversity.com/screenreaders/).
 
 ## Found a cool shortcut? Look it up
 Looking up videos on how to do those shortcuts can reinforce that learning. Trying out yourself on a device is even better. Android devices have TalkBack, iOS and MacOS have VoiceOver and Microsoft has Narrator.
