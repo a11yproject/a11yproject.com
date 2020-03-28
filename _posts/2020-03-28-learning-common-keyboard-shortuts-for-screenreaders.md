@@ -30,7 +30,7 @@ Start by reading the lists and tables of shortcuts that people have kindly put t
 - [Getting started with OS X VoiceOver](Getting started with OS X VoiceOver)
 
 ## Found a cool shortcut? Look it up
-At some point you've found some keyboard shortcuts that you've thought were exciting. The TalkBack and VoiceOver mobile shortcuts are quite fun to try out.
+At some point you've found some keyboard shortcuts that you thought were exciting. The TalkBack and VoiceOver mobile shortcuts are quite fun to try out.
 
 Start looking up videos on how to do those shortcuts. Seeing the shortcut being acted out will help that information sink in.
 
