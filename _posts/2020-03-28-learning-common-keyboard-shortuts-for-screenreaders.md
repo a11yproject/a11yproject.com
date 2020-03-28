@@ -39,7 +39,7 @@ Trying it out yourself on a device is even better. We might all have a common sc
 ## Learning visually helps
 Sometimes there's too much information to try out and you need another way of learning the shortcuts. 
 
-Mapping the keyboard shortcuts that you've learned so far to a graph or mind map can help that information sink on. 
+Mapping the keyboard shortcuts that you've learned so far to a graph or mind map can help that information sink in. 
 
 Go back and familiarize yourself with the lists and tables of shortcuts, then start creating a visual map of them.
 
