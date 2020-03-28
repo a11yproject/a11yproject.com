@@ -32,10 +32,6 @@ That mind map shows some shortcuts across screen readers by tasks but is not exh
 The shortcuts are taken from (Deque on shortcuts and gestures)[https://dequeuniversity.com/screenreaders/].
 
 ## Found a cool shortcut? Look it up
-Other great ways of learning is to try out some shortcut that you thought were exciting. The TalkBack and VoiceOver mobile shortcuts are quite fun to try out.
+Looking up videos on how to do those shortcuts can reinforce that learning. Trying out yourself on a device is even better. Android devices have TalkBack, iOS and MacOS have VoiceOver and Microsoft has Narrator.
 
-Looking up videos on how to do those shortcuts. Seeing the shortcut being acted out will help that information sink in.
-
-Trying it out yourself on a device is even better. Android devices have TalkBack, iOS and MacOS have VoiceOver and Microsoft has Narrator.
-
-In an ideal world we would be using common screen readers daily to help us learn through experience. While these learning techniques can be helpful, they may not be right for everyone. Learn the way that works bests for you.
+In an ideal world we would be using common screen readers daily to help us learn through experience. While these learning techniques can be helpful, they may not be right for everyone.
