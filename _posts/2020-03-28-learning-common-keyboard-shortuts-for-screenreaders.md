@@ -38,7 +38,7 @@ Looking up videos on how to do those shortcuts can reinforce that learning. Tryi
 
 An example of using the 'rotor' control with VoiceOver on iOS is illustrated the following YouTube video: https://www.youtube.com/watch?v=yzVHVJoIyKM
 
-The presenter demonstrates the common hand movements to bring up the rotor menu, as well as other interesting ways. Apple recommends placing two fingers on your device and then rotating them to show the rotor menu, but by watching the video we learn that you can also use other gestures that best suit you:
+The presenter demonstrates the common hand movements to bring up the rotor menu, as well as other interesting ways. [Apple recommends](https://support.apple.com/en-gb/guide/iphone/iph3e2e3a6d/ios#iphaeb063ca0) placing two fingers on your device and then rotating them to show the rotor menu, but by watching the video we learn that you can also use other gestures that best suit you:
 - Touching the screen with your thumb and then flicking with your index finger of the same hand, seen at [0:13] until [0:16] in the video
 - Touching the screen with one finger on one hand and then using a finger from the other hand to make a dialing movement, seen at [0:17] until [0:24] in the video
 - Touching the screen with one finger from each hand and making a virtual dialing movement with both fingers rotating in the same direction, seen at [0:25] until [0:30] in the video
