@@ -36,7 +36,7 @@ The shortcuts are taken from [Deque on shortcuts and gestures](https://dequeuniv
 ## Found a cool shortcut? Look it up
 Looking up videos on how to do those shortcuts can reinforce that learning. Trying out yourself on a device is even better. Android devices have TalkBack, iOS and macOS have VoiceOver and Microsoft has Narrator.
 
-An example of using the 'rotor' control with VoiceOver on iOS is illustrated the following YouTube video: https://www.youtube.com/watch?v=yzVHVJoIyKM
+An example of using the 'rotor' menu with VoiceOver on iOS is illustrated the following YouTube video: https://www.youtube.com/watch?v=yzVHVJoIyKM
 
 The presenter demonstrates the common hand movements to bring up the rotor menu, as well as other interesting ways. [Apple recommends](https://support.apple.com/en-gb/guide/iphone/iph3e2e3a6d/ios#iphaeb063ca0) placing two fingers on your device and then rotating them to show the rotor menu, but by watching the video we learn that you can also use other gestures that best suit you:
 - Touching the screen with your thumb and then flicking with your index finger of the same hand, seen at [0:13] until [0:16] in the video
