@@ -17,12 +17,14 @@ further_reading:
 
 Keyboard shortcuts are often presented to us in a list or a table. Lists and tables are great for some people, while others may be overwhelmed from the sheer number of commands to learn. Sometimes a more visual approach could help us learn.
 
-## Learning visually helps
-Creating a mind map of keyboard shortcuts can help learn those shortcuts easier than lists and tables. 
+## Learning with a mind map
+Creating a mind map of keyboard shortcuts can help people to learn those shortcuts easier than in lists and tables. 
 
-Here's a mind map of the common keyboard shortcuts in popular screen readers: ![Mind map of common keyboard shortcuts for screen readers](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/common-keyboard-shortcuts-mindmap.png)
+A mind map is a diagram that visually organises information into groups. Shortcuts that belong to one screen reader for example would be visually branched off into a smaller group. Learning groups of shortcuts can be easier than learning individual shortcuts.
 
-That mind map shows some shortcuts across screen readers by tasks but is not exhaustive. An example of one task is to 'list all landmarks'. This task then branches off into JAWS, NVDA, VoiceOver iOS, TalkBack and Narrator screen readers. Each then branches into their own shortcut:
+Here's a mind map of the common keyboard shortcuts in popular screen readers: ![A mind map of common screen reader commands, such as quick keys to navigate by elements, keys for reading content, and reviewing listings of certain elements.](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/common-keyboard-shortcuts-mindmap.png)
+
+The mind map is not an exhaustive listing of screen reader functionality, but shows many of the common commands to help you get a handle on starting out. For example, to learn more about how to 'list all landmarks', you can follow the mapping of branches to the different screen reader software, where the commands will be listed:
 - List all landmarks -> JAWS -> R or ;
 - List all landmarks -> NVDA -> D
 - List all landmarks -> Narrator -> D
@@ -32,6 +34,13 @@ That mind map shows some shortcuts across screen readers by tasks but is not exh
 The shortcuts are taken from [Deque on shortcuts and gestures](https://dequeuniversity.com/screenreaders/).
 
 ## Found a cool shortcut? Look it up
-Looking up videos on how to do those shortcuts can reinforce that learning. Trying out yourself on a device is even better. Android devices have TalkBack, iOS and MacOS have VoiceOver and Microsoft has Narrator.
+Looking up videos on how to do those shortcuts can reinforce that learning. Trying out yourself on a device is even better. Android devices have TalkBack, iOS and macOS have VoiceOver and Microsoft has Narrator.
+
+An example of using the 'rotor' control with VoiceOver on iOS is illustrated the following YouTube video: https://www.youtube.com/watch?v=yzVHVJoIyKM
+
+The presenter demonstrates the common hand movements to bring up the rotor menu, as well as other interesting ways. Apple recommends placing two fingers on your device and then rotating them to show the rotor menu, but by watching the video we learn that you can also use other gestures that best suit you:
+- Touching the screen with your thumb and then flicking with your index finger of the same hand, seen at [0:13] until [0:16] in the video
+- Touching the screen with one finger on one hand and then using a finger from the other hand to make a dialing movement, seen at [0:17] until [0:24] in the video
+- Touching the screen with one finger from each hand and making a virtual dialing movement with both fingers rotating in the same direction, seen at [0:25] until [0:30] in the video
 
 In an ideal world we would be using common screen readers daily to help us learn through experience. While these learning techniques can be helpful, they may not be right for everyone.
