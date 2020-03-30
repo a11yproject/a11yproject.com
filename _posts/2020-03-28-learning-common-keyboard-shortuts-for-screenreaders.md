@@ -15,7 +15,7 @@ further_reading:
     source: Github
 ---
 
-Keyboard shortcuts are often presented to us in a list or a table. Lists and tables are great for some people, while others may be overwhelmed from the sheer number of commands to learn. Sometimes a more visual approach could help us learn.
+Keyboard shortcuts are often presented to us in a list or a table. Lists and tables are great for some people, while others may be overwhelmed from the sheer number of commands to learn. Sometimes a more visual approach could help some people learn these commands.
 
 ## Learning with a mind map
 Creating a mind map of keyboard shortcuts can help people to learn those shortcuts easier than in lists and tables. 
