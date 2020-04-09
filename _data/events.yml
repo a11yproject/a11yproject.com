@@ -20,6 +20,16 @@
       url: "https://knowbility.org/programs/accessu/2020/accessu-online/"
       type: "Webinar"
       date: 2020-05-14
+    - title: "Intro to Accessible Online Learning"
+      description: "Whether you’re a part-time student, a professional continuing their education, or you prefer to be an online learner - the need for online learning is growing in K12 and Higher Education. Especially now, while COVID-19 has shifted all learning to virtual classrooms. Ensuring that Learning Management Systems (LMS) and teaching methodologies are accessible is critical for students with disabilities."
+      url: "https://accessibility.deque.com/intro-to-accessible-online-learning-0"
+      type: "Webinar"
+      date: 2020-04-21
+    - title: "Digital Accessibility Legal Update"
+      description: "In this live webinar, Kristina Launey, a Partner at Seyfarth Shaw LLP and accessibility specialist, will discuss the legal landscape of digital accessibility, including recent and important developments."
+      url: "https://accessibility.deque.com/digital-accessibility-legal-update"
+      type: "Webinar"
+      date: 2020-04-16
     - title: "How to Act and Understand Accessibility Right Now"
       description: "People with disabilities make up 26% of the US population. If your digital presence is inaccessible, they may not have any way to access your goods and services. There has never been a more crucial time to make your digital properties accessible, while COVID-19 continues to physically isolate us all."
       url: "https://accessibility.deque.com/how-to-act-and-understand-accessibility-right-now"
