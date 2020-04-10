@@ -354,7 +354,7 @@ An example of one of these conditions could be someone with cataracts who wants 
 
 High Contrast Mode support is a little bit complicated. It is **only** available for Windows (versions 7 and up). It affects **all** UI elements of Windows, as well as apps developed by Microsoft. It will also work for **most** third party apps.
 
-For web content, High Contrast Mode will **only** work with Internet Explorer (versions 10 and 11) and Edge (any version) for Windows 7, 8, and 8.1. For Windows 10, High Contrast Mode will work with web content for **any** browser.
+For web content, High Contrast Mode will **only** work with Internet Explorer (versions 10 and 11) and Edge (any version) for Windows 7, 8, and 8.1. For Windows 10, High Contrast Mode will work with web content on Internet Explorer and non-Chromium versions of Edge (versions 44.19041 and earlier).
 
 Most websites will have at least **partial** support for High Contrast Mode, with support depending on how they are coded.
 
