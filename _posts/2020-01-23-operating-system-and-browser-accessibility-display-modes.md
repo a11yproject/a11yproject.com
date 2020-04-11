@@ -95,6 +95,121 @@ body {
 }
 ```
 
+## Filtered Display Mode
+
+These modes are used to adjust the colors that come out of a device's display. There are two types of Filtered Display Mode: Night Mode and Filtered Colors Mode.
+
+### Night Mode
+
+One mode is commonly known as Night Mode. It swaps the intense blue light frequencies with warmer, dimmer colors when activated.
+
+Some people report that removing these frequencies at night helps them sleep because the blue light frequencies mimic the light of the sun. Other people find the colors more relaxing and cause less strain on their eyes. However, it is important to note that the scientific benefits of this kind of mode are [still being researched](https://www.theguardian.com/technology/shortcuts/2019/dec/17/not-such-a-bright-idea-why-your-phones-night-mode-may-be-keeping-you-awake). 
+
+It may be helpful for:
+
+- People who want to reduce eye strain,
+- and/or who have difficulty sleeping.
+
+An example of a situation where Night Mode could be useful is writing late at night.
+
+#### What it affects
+
+Night Mode will update **all** UI of the OS that supports it.
+
+#### How to enable it
+
+Assumes the latest version of each Operating System or browser.
+
+##### Android
+
+1. Go to **Settings**.
+1. Go to **Display**.
+1. Set the **Night Light** toggle to the **on** position.
+
+##### iOS
+
+1. Go to **Settings**.
+1. Go to **Display and Brightness**.
+1. Go to **Night Shift**.
+1. Set the **Manually Enable Until Tomorrow** toggle to the **on** position.
+
+##### macOS
+
+1. Go to **System Preferences**.
+1. Go to **Displays**.
+1. Go to the **Night Shift** tab.
+1. Check the **Turn on until tomorrow** checkbox.
+
+##### Windows
+
+1. Go to **Settings**.
+1. Go to **System**.
+1. Go to **Display**.
+1. Set the **Night Light** toggle to the **on** position.
+
+##### Other alternatives
+
+<a href="https://justgetflux.com/">f.lux</a> is a third party program available for Windows, Linux, iOS, macOS, and Android.
+
+### Filtered Colors Mode
+
+Filtered Colors Mode changes the colors output by the device's display. Colors can be shifted to use different palettes or removed entirely.
+
+It is helpful for:
+
+- People who are colorblind,
+- and/or who have difficulty reading text on the display,
+- and/or who want to reduce eye strain.
+
+An example of a situation where Night Mode could be useful is writing late at night.
+
+#### What it affects
+
+Filtered Colors Mode will update **all** UI of the OS that supports it.
+
+<figure role="figure" aria-label="iOS set to a grayscale Filtered Colors Mode.">
+  <img alt="iOS Safari showing a search for 'food art' on Pinterest.com. All color has been removed from the display. Screenshot." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/filtered-colors-mode.png">
+  <figcaption>iOS set to a grayscale Filtered Colors Mode.</figcaption>
+</figure>
+
+#### How to enable it
+
+Assumes the latest version of each Operating System or browser.
+
+##### Android
+
+1. Go to **Settings**.
+1. Go to **Accessibility**.
+1. Go to **Color Correction**.
+1. Set the **Use color correction** toggle to the **on** position.
+1. Select a color filter option from the list that appears. 
+
+##### iOS
+
+1. Go to **Settings**.
+1. Go to **Accessibility**.
+1. Go to **Display & Text Size**.
+1. Go to **Color Filters**.
+1. Set the **Color Filters** toggle to the **on** position.
+1. Select a color filter option from the list that appears. 
+
+##### macOS
+
+1. Go to **System Preferences**.
+1. Go to **Accessibility**.
+1. Go to **Display**.
+1. Go to the **Color Filters** tab.
+1. Check the **Enable Color Filters** checkbox.
+1. Select a color filter option from the select box. 
+
+##### Windows
+
+1. Go to **Settings**.
+1. Go to **Ease of Access**.
+1. Go to **Color Filters**.
+1. Set the **Turn on color filters** toggle to the **on** position.
+1. Select a color filter option from the select box. 
+
 ## Increased Contrast Mode
 
 This mode is only available on macOS and iOS. It will increase the difference in color values between the gray colors used for the OS visuals, as well as drawing more obvious borders between different UI elements.
