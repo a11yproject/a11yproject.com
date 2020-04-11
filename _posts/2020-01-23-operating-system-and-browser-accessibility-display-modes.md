@@ -168,7 +168,7 @@ An example of a situation where Night Mode could be useful is writing late at ni
 Filtered Colors Mode will update **all** UI of the OS that supports it.
 
 <figure role="figure" aria-label="iOS set to a grayscale Filtered Colors Mode.">
-  <img alt="iOS Safari showing a search for 'food art' on Pinterest.com. All color has been removed from the display. Screenshot." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/filtered-colors-mode.png">
+  <img alt="iOS Safari showing a search for food art on Pinterest.com. All color has been removed from the display. Screenshot." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/filtered-colors-mode.png">
   <figcaption>iOS set to a grayscale Filtered Colors Mode.</figcaption>
 </figure>
 
