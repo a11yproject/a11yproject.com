@@ -46,7 +46,7 @@ The presenter demonstrates the common hand movements to bring up the rotor menu,
 ## Learning with a quiz
 Other individuals may learn better testing their memory through a quiz. If creating a quiz may be too time consuming, there is a bookmark available below.
 
-Bookmarklet: [Quiz for Keyboard shortcuts on Deque](javascript:(() => {$('.data.shortcuts tr').each((i, v) => { const inputLabel = $('[scope="row"]', v).text(); const $input = `<input aria-label="${inputLabel}" type="text" />`; $('td:last-child', v).html($input); })})();) (drag to bookmarklets bar or right click and save as bookmark).
+Bookmarklet: [Quiz for Keyboard shortcuts on Deque](javascript:(() => %7B $('.data.shortcuts tr').each((i, v) => %7B const inputLabel = $('[scope="row"]', v).text(); const $input = `<input aria-label="$%7BinputLabel%7D" type="text" />`; $('td:last-child', v).html($input); %7D)%7D)();) (drag to bookmarklets bar or right click and save as bookmark).
 
 This quiz bookmarklet works on the [Deque screen reader shortcut pages](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts). It replaces shortcuts inside tables into input fields that are ready to fill in. You can use this bookmarklet on the following pages:
 - [JAWS Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts)
