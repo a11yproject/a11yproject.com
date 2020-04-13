@@ -33,8 +33,8 @@ The mind map is not an exhaustive listing of screen reader functionality, but sh
 
 The shortcuts are taken from [Deque on shortcuts and gestures](https://dequeuniversity.com/screenreaders/).
 
-## Found a cool shortcut? Look it up
-Looking up videos on how to do those shortcuts can reinforce that learning. Trying out yourself on a device is even better. Android devices have TalkBack, iOS and macOS have VoiceOver and Microsoft has Narrator.
+## Watching other people
+Looking up videos on how to do those shortcuts can reinforce that learning and trying them out yourself is even better.
 
 An example of using the 'rotor' menu with VoiceOver on iOS is illustrated the following YouTube video: [VoiceOver Rotor Gestures - Ballyland Rotor app](https://www.youtube.com/watch?v=yzVHVJoIyKM)
 
@@ -42,5 +42,20 @@ The presenter demonstrates the common hand movements to bring up the rotor menu,
 - Touching the screen with your thumb and then flicking with your index finger of the same hand, seen at [0:13] until [0:16] in the video
 - Touching the screen with one finger on one hand and then using a finger from the other hand to make a dialing movement, seen at [0:17] until [0:24] in the video
 - Touching the screen with one finger from each hand and making a virtual dialing movement with both fingers rotating in the same direction, seen at [0:25] until [0:30] in the video
+
+## Learning with a quiz
+Other individuals may learn better testing their memory through a quiz. There are bookmarklets available if creating a quiz may be too time consuming.
+
+Bookmarklet: [Quiz for Keyboard shortcuts on Deque](javascript:(() => {$('.data.shortcuts tr').each((i, v) => { const inputLabel = $('[scope="row"]', v).text(); const $input = `<input aria-label="${inputLabel}" type="text" />`; $('td:last-child', v).html($input); })})();) (drag to bookmarklets bar or right click and save as bookmark).
+
+This quiz bookmarklet works on the [Deque screen reader shortcut pages](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts). It replaces shortcuts inside tables into input fields that are ready to fill in. You can use this bookmarklet on the following pages:
+- [JAWS Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts)
+- [NVDA Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
+- [Narrator Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/narrator-keyboard-shortcuts)
+- [VoiceOver Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts)
+
+Demonstrating the quiz bookmarklet on the JAWS Deque screen reader shortcuts page:
+![A short demonstration of the quiz bookmarklet testing common shortcuts such as, 'Stop Reading' and 'Start reading continuously from this point.'](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/
+using-the-bookmarklet-to-quiz-yourself)
 
 In an ideal world we would be using common screen readers daily to help us learn through experience. While these learning techniques can be helpful, they may not be right for everyone.
