@@ -44,7 +44,7 @@ The presenter demonstrates the common hand movements to bring up the rotor menu,
 - Touching the screen with one finger from each hand and making a virtual dialing movement with both fingers rotating in the same direction, seen at [0:25] until [0:30] in the video
 
 ## Learning with a quiz
-Other individuals may learn better testing their memory through a quiz. There are bookmarklets available if creating a quiz may be too time consuming.
+Other individuals may learn better testing their memory through a quiz. If creating a quiz may be too time consuming, there is a bookmark available below.
 
 Bookmarklet: [Quiz for Keyboard shortcuts on Deque](javascript:(() => {$('.data.shortcuts tr').each((i, v) => { const inputLabel = $('[scope="row"]', v).text(); const $input = `<input aria-label="${inputLabel}" type="text" />`; $('td:last-child', v).html($input); })})();) (drag to bookmarklets bar or right click and save as bookmark).
 
