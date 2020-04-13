@@ -54,8 +54,9 @@ This quiz bookmarklet works on the [Deque screen reader shortcut pages](https://
 - [Narrator Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/narrator-keyboard-shortcuts)
 - [VoiceOver Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts)
 
-Demonstrating the quiz bookmarklet on the JAWS Deque screen reader shortcuts page:
-![A short demonstration of the quiz bookmarklet testing common shortcuts such as, 'Stop Reading' and 'Start reading continuously from this point.'](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/
-using-the-bookmarklet-to-quiz-yourself)
+Demonstrating the quiz bookmarklet on the [JAWS Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts) page:
+![](/img/posts/2020-03-28-learning-common-keyboard-shortuts-for-screenreader/
+quiz-bookmarklet-on-deque-with-jaws-shortcuts.png)
+Shortcuts
 
 In an ideal world we would be using common screen readers daily to help us learn through experience. While these learning techniques can be helpful, they may not be right for everyone.
