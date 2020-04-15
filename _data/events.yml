@@ -20,6 +20,11 @@
       url: "https://knowbility.org/programs/accessu/2020/accessu-online/"
       type: "Webinar"
       date: 2020-05-14
+    - title: "The Basics of Remediating an Inaccessible PDF"
+      description: "Making a PDF document accessible for people with disabilities can be a daunting task if you're completely new to the topic. In this webinar, we will walk through the workflow of converting a Word Document and fixing some basic tagging issues using Acrobat Pro DC. This webinar is designed for those who are new to PDF accessibility remediation or those who want a refresher. It will cover such subjects as:"
+      url: "https://knowbility.org/programs/accessu/2020/accessu-online/"
+      type: "Webinar"
+      date: 2020-05-12
     - title: "Intro to Accessible Online Learning"
       description: "Whether you’re a part-time student, a professional continuing their education, or you prefer to be an online learner - the need for online learning is growing in K12 and Higher Education. Especially now, while COVID-19 has shifted all learning to virtual classrooms. Ensuring that Learning Management Systems (LMS) and teaching methodologies are accessible is critical for students with disabilities."
       url: "https://accessibility.deque.com/intro-to-accessible-online-learning-0"
