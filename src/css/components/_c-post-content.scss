@@ -59,7 +59,7 @@
       &::before {
         // Breakpoints
         @include mappy-bp(lap-medium) {
-          background: url("#{$path-to-img}/post-section-short-answer.svg") no-repeat center;
+          background: url("#{$path-to-img}/posts/section-short-answer.svg") no-repeat center;
           background-size: cover;
           content: "";
           display: block;
@@ -179,7 +179,7 @@
   //
   // Style guide: Components.post.blockquote
   blockquote {
-    background: $color-white url("#{$path-to-img}/post-blockquote.svg") no-repeat top 1rem left -0.25rem;
+    background: $color-white url("#{$path-to-img}/posts/blockquote.svg") no-repeat top 1rem left -0.25rem;
     margin-left: map-get($global-post-content-inset, small) * -1;
     padding: 1.5rem 1rem;
 
