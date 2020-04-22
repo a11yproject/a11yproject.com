@@ -1,0 +1,22 @@
+{
+  "about": {
+    "title": "About",
+    "subtitle": "An Open Source, community-driven effort to make web accessibility easier"
+  },
+  "authors": {
+    "title": "Authors",
+    "subtitle": "A bit about our contributors"
+  },
+  "checklist": {
+    "title": "Checklist",
+    "subtitle": "Check your WCAG compliance"
+  },
+  "posts": {
+    "title": "Posts",
+    "subtitle": "Posts by category"
+  },
+  "resources": {
+    "title": "Resources",
+    "subtitle": "Software, books, blogs, online tools, etc."
+  }
+}
