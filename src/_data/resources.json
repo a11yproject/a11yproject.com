@@ -978,6 +978,13 @@
       "source": "Presentable",
       "url": "https://player.fm/series/presentable/presentable-30-accessibility-is-social-justice",
       "type": "Episode"
+    },
+    {
+      "title": "Thisten",
+      "description": "Thisten is an audio-to-text platform, where transcripts are created and aggregated from podcasts for people to search, reference and discover.",
+      "source": "Thisten",
+      "url": "https://thisten.co/",
+      "type": "Service"
     }
   ],
   "professionalHelp": [
@@ -1020,6 +1027,11 @@
       "title": "Tenon",
       "description": "We believe in a web accessible to everyone. Tenon.io exists because universal design is hard. We create software to help you reach beyond compliance and build superior experiences for everyone.",
       "url": "https://tenon.io/"
+    },
+    {
+      "title": "TetraLogical",
+      "description": "We're a company with inclusion at its heart. Our focus is on emerging as well as existing technologies, offering knowledge, experience, strategic, and development services.",
+      "url": "https://tetralogical.com/"
     }
   ],
   "screenReaders": [
