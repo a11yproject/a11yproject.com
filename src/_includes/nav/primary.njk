@@ -10,11 +10,21 @@
     </a>
   </div>
 
-  {% set navPages = collections.navprimary | eleventyNavigation %}
   <ul class="l-primary-nav__sections c-primary-nav__list">
-  {%- for entry in navPages %}
+  {% set navPages = collections.navprimary | eleventyNavigation %}
+  {%- for nav in navPages %}
     <li class="c-primary-nav__list-item">
-      <a class="c-primary-nav__link {% if entry.url == "/contribute/" %}c-primary-nav__link--contribute{% endif %}" {% if entry.url == page.url %} aria-current="page"{% endif %} href="{{ entry.url | url }}">{{ entry.title }}</a>
+      <a class="
+        c-primary-nav__link
+        {% if nav.url == "/contribute/" %}
+          c-primary-nav__link--contribute
+        {% endif %}"
+        {% if page.url == nav.url %}
+          aria-current="page"
+        {% endif %}
+        href="{{ nav.url | url }}">
+          {{ nav.title }}
+      </a>
     </li>
   {%- endfor %}
   </ul>
