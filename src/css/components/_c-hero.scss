@@ -4,44 +4,90 @@
 // homepage it displays the A11Y Banner component.
 //
 // Markup:
-// TODO: Make modification style for homepage and update context classes
+// TODO
 //
 // <div class="c-hero">
 //   <!-- Hero content goes here -->
 // </div>
 //
 // Style guide: Components.hero
-.c-hero--home {
-  background: $color-green-shade url("#{$path-to-img}/heroes/a11y.svg") no-repeat center;
-  background-size: cover;
+.c-hero {
+  // Contexts
+  .template-home {
+    background: $color-green-shade url("#{$path-to-img}/heroes/a11y.svg") no-repeat center;
+    background-size: cover;
 
-  // User Queries
-  @media (prefers-reduced-data: reduce) {
-    background-color: $color-green-shade;
+    // User Queries
+    @media (prefers-reduced-data: reduce) {
+      background-color: $color-green-shade;
+    }
   }
-}
 
-.c-hero--posts {
-  background: $color-pink-shade url("#{$path-to-img}/heroes/posts.svg") no-repeat center;
-  background-size: cover;
+  .template-posts & {
+    background: $color-pink-shade url("#{$path-to-img}/heroes/posts.svg") no-repeat center;
+    background-size: cover;
 
-  // Breakpoints
-  @include mappy-bp(palm-medium) {
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      background-size: contain;
+    }
+
+    // User Queries
+    @media (prefers-reduced-data: reduce) {
+      background-color: $color-pink-shade;
+    }
+  }
+
+  .template-checklist & {
+    background: $color-green url("#{$path-to-img}/heroes/checklist.svg") no-repeat center;
+    background-size: cover;
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      background-size: contain;
+    }
+
+    // User Queries
+    @media (prefers-reduced-data: reduce) {
+      background-color: $color-green;
+    }
+  }
+
+  .template-resources & {
+    background: $color-blue-shade url("#{$path-to-img}/heroes/resources.svg") no-repeat center;
     background-size: contain;
-  }
 
-  // User Queries
-  @media (prefers-reduced-data: reduce) {
-    background-color: $color-pink-shade;
+    // User Queries
+    @media (prefers-reduced-data: reduce) {
+      background-color: $color-blue-shade;
+    }
   }
 }
 
-.c-hero--resources {
-  background: $color-blue-shade url("#{$path-to-img}/heroes/resources.svg") no-repeat center;
-  background-size: contain;
+.c-hero-summary {
+  border-top-style: solid;
+  border-top-width: $border-thicker;
+  font-family: $font-family-secondary;
+  letter-spacing: $font-tracking-slight;
+  text-transform: uppercase;
+  padding: 0.75rem;
 
-  // User Queries
-  @media (prefers-reduced-data: reduce) {
+  // Contexts
+  .template-posts & {
+    color: $color-blue-tint;
+    background-color: $color-pink-shade;
+    border-top-color: $color-blue-tint;
+  }
+
+  .template-checklist & {
+    color: $color-blue-tint;
+    background-color: $color-green;
+    border-top-color: $color-blue-tint;
+  }
+
+  .template-resources & {
+    color: $color-green-tint;
     background-color: $color-blue-shade;
+    border-top-color: $color-green-tint;
   }
 }

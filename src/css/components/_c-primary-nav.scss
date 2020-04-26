@@ -20,7 +20,7 @@
   }
 
   .template-checklist & {
-    // background-color: ;
+    background-color: $color-green;
   }
 
   .template-resources & {
@@ -73,12 +73,12 @@
     border-bottom-color: $color-white;
   }
 
-  &[aria-current="page"] {
-    border-bottom-color: $color-white;
-  }
-
   &:focus {
     outline: $border-thinner solid $color-white;
+  }
+
+  &[aria-current="page"] {
+    border-bottom-color: $color-white;
   }
 
   // User Queries

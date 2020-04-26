@@ -29,8 +29,8 @@ $_post-preview-triange-size: 1.49rem;
   &::before {
     content: "";
     border-style: solid;
-    border-width: 0 $_post-preview-triange-size $_post-preview-triange-size 0;
     border-color: transparent $color-blue-shade transparent transparent;
+    border-width: 0 $_post-preview-triange-size $_post-preview-triange-size 0;
     display: inline-block;
     height: 0;
     position: relative;
@@ -52,8 +52,13 @@ $_post-preview-triange-size: 1.49rem;
   font-size: 1rem;
   letter-spacing: $font-tracking-slight;
   line-height: $line-height-single;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1.1rem;
   text-transform: uppercase;
+}
+
+.c-post-preview__icon {
+  height: 0.75rem;
+  width: auto;
 }
 
 .c-post-preview__title {
@@ -77,5 +82,5 @@ $_post-preview-triange-size: 1.49rem;
 
 .c-post-preview__wrapper {
   margin-bottom: 3rem;
-  max-width: $_post-preview-content-width * 1.15;
+  max-width: $_post-preview-content-width * 1.1;
 }

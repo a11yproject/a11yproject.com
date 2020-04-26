@@ -5,8 +5,32 @@
   {% include "nav/primary.njk" %}
 
   {% if templateClass == "template-home" %}
-    {% include "hero/home.njk" %}
-  {% elif templateClass == "template-posts" %}
-    {% include "hero/posts.njk" %}
+    {% include "heroes/home.njk" %}
   {% endif %}
+
+  {% if templateClass == "template-posts" %}
+    {% set hero = heroes.posts %}
+    {% include "heroes/primary-nav.njk" %}
+  {% endif %}
+
+  {% if templateClass == "template-checklist" %}
+    {% set hero = heroes.checklist %}
+    {% include "heroes/primary-nav.njk" %}
+  {% endif %}
+
+  {% if templateClass == "template-resources" %}
+    {% set hero = heroes.resources %}
+    {% include "heroes/primary-nav.njk" %}
+  {% endif %}
+
+  {% if templateClass == "template-about" %}
+    {% set hero = heroes.about %}
+    {% include "heroes/primary-nav.njk" %}
+  {% endif %}
+
+  {% if templateClass == "template-contribute" %}
+    {% set hero = heroes.contribute %}
+    {% include "heroes/primary-nav.njk" %}
+  {% endif %}
+
 </header>
