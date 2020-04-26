@@ -38,23 +38,10 @@ templateClass: template-posts
 
 <article class="l-content">
 
-<div class="c-post-preview__wrapper">
-  <h2 id="latest-post" class="c-post-preview__banner">
-    <svg class="c-post-preview__icon" width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.795 3.125h6.147c1.087 0 2.129.439 2.897 1.22a4.202 4.202 0 011.2 2.947v14.583c0-.829-.323-1.624-.9-2.21a3.048 3.048 0 00-2.173-.915h-7.17V3.125z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23.284 3.125h-6.147a4.064 4.064 0 00-2.897 1.22 4.203 4.203 0 00-1.2 2.947v14.583c0-.829.323-1.624.9-2.21a3.047 3.047 0 012.173-.915h7.17V3.125z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    Latest Post
-  </h2>
-  <div class="c-post-preview c-post-preview--preview">
-    <h3>
-      <a class="c-post-preview__title" href="">Quick test: Navigate using just your keyboard</a>
-    </h3>
-    <p class="c-post-preview__date">
-      <time datetime="">January 11, 2013</time> by Dave Rupert
-    </p>
-    <p class="c-post-preview__shortdesc">
-      A quick accessibility test that you can run on your sites right now.
-    </p>
-  </div>
-</div>
+  {# TODO: Add top latest post #}
+  {% for post in top_posts %}
+    {% include "posts/highlight.njk" %}
+  {% endfor %}
 
   {% set taglist = collections[ "featured" ] %}
   {% for post in taglist %}

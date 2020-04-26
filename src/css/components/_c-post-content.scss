@@ -57,17 +57,20 @@
       }
 
       &::before {
-        // Breakpoints
-        @include mappy-bp(lap-medium) {
-          background: url("#{$path-to-img}/posts/section-short-answer.svg") no-repeat center;
-          background-size: cover;
-          content: "";
-          display: block;
-          height: rem(169);
-          margin-top: 1rem;
-          position: absolute;
-            left: 1rem;
-          width: rem(164);
+        // Contexts
+        .template-post & {
+          // Breakpoints
+          @include mappy-bp(lap-medium) {
+            background: url("#{$path-to-img}/posts/section-short-answer.svg") no-repeat center;
+            background-size: cover;
+            content: "";
+            display: block;
+            height: rem(169);
+            margin-top: 1rem;
+            position: absolute;
+              left: 1rem;
+            width: rem(164);
+          }
         }
       }
     }

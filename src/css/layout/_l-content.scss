@@ -1,6 +1,7 @@
 .l-content {
   // Contexts
-  .template-post & {
+  .template-post &,
+  .template-about & {
     max-width: $global-type-measure;
   }
 
