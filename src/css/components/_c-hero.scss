@@ -13,7 +13,7 @@
 // Style guide: Components.hero
 .c-hero {
   // Contexts
-  .template-home {
+  .template-home & {
     background: $color-green-shade url("#{$path-to-img}/heroes/a11y.svg") no-repeat center;
     background-size: cover;
 
@@ -62,6 +62,16 @@
       background-color: $color-blue-shade;
     }
   }
+
+  .template-about & {
+    background: $color-blue-shade url("#{$path-to-img}/heroes/about.svg") no-repeat center;
+    background-size: contain;
+
+    // User Queries
+    @media (prefers-reduced-data: reduce) {
+      background-color: $color-blue-shade;
+    }
+  }
 }
 
 .c-hero-summary {
@@ -89,5 +99,11 @@
     color: $color-green-tint;
     background-color: $color-blue-shade;
     border-top-color: $color-green-tint;
+  }
+
+  .template-about & {
+    color: $color-yellow-tint;
+    background-color: $color-blue-shade;
+    border-top-color: $color-yellow-tint;
   }
 }
