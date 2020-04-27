@@ -1,9 +1,8 @@
-## Project-specific files and folders #########################################
+# Project-specific files and folders
 dist/
 
 
-
-## Generic files to ignore ####################################################
+# Generic files to ignore
 *~
 *.DS_Store
 ._*
@@ -14,12 +13,11 @@ dist/
 .LSOverride
 .Spotlight-V100
 .Trashes
-Icon?
 ehthumbs.db
 Thumbs.db
 
 
-## Project Files ##############################################################
+# Project Files
 *.project
 *.settings
 *.tmproj
@@ -35,7 +33,7 @@ node_modules
 npm-debug.log
 
 
-## Compiled source ############################################################
+# Compiled source
 *.com
 *.class
 *.dll
@@ -44,13 +42,13 @@ npm-debug.log
 *.so
 
 
-## Logs and databases #########################################################
+# Logs and databases
 *.log
 *.sql
 *.sqlite
 
 
-## Packages (better to unpack these files and commit the raw source) ##########
+# Packages (better to unpack these files and commit the raw source)
 *.7z
 *.dmg
 *.gz
