@@ -62,6 +62,7 @@
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
     "gulp-stylelint": "^8.0.0",
+    "gulp-svg-sprite": "^1.5.0",
     "gulp-svgmin": "2.1.0",
     "gulp-uglify": "3.0.1",
     "jshint": "2.9.6",

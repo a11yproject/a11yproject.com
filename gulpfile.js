@@ -15,6 +15,7 @@ var settings = {
   styles: true,
   lint: true,
   images: true,
+  icons: true,
   svgs: true,
   copy: true,
   reload: true,
@@ -43,6 +44,10 @@ var paths = {
     input: 'src/img/**/*.{jpg,jpeg,gif,webm,webp,png}',
     output: 'dist/img/'
   },
+  icons: {
+    input: 'src/img/icons/*.svg',
+    output: 'dist/'
+  },
   svgs: {
     input: 'src/img/**/*.svg',
     output: 'dist/img/'
@@ -54,7 +59,7 @@ var paths = {
 // Gulp Packages //////////////////////////////////////////////////////////////
 
 // General
-var {gulp, src, dest, watch, series, parallel} = require('gulp');
+var { gulp, src, dest, watch, series, parallel } = require('gulp');
 var del = require('del');
 var flatmap = require('gulp-flatmap');
 var lazypipe = require('lazypipe');
@@ -76,6 +81,7 @@ var gulpStylelint = require('gulp-stylelint');
 
 // SVGs
 var svgmin = require('gulp-svgmin');
+var svgSprite = require('gulp-svg-sprite');
 
 // BrowserSync
 var browserSync = require('browser-sync');
@@ -84,13 +90,29 @@ var browserSync = require('browser-sync');
 var plumber = require('gulp-plumber');
 
 
+// Package Config /////////////////////////////////////////////////////////////
+var configIcons = {
+  mode: {
+    symbol: {
+      dest: 'img',
+      sprite: 'icons.svg',
+      example: false
+    }
+  },
+  svg: {
+    xmlDeclaration: false,
+    doctypeDeclaration: false
+  }
+};
+
+
 // Tasks //////////////////////////////////////////////////////////////////////
 
 // Repeated JavaScript tasks
 var jsTasks = lazypipe()
   .pipe(optimizejs)
   .pipe(dest, paths.scripts.output)
-  .pipe(rename, {suffix: '.min'})
+  .pipe(rename, { suffix: '.min' })
   .pipe(uglify)
   .pipe(optimizejs)
   .pipe(dest, paths.scripts.output);
@@ -102,7 +124,7 @@ var buildScripts = function (done) {
   // Run tasks on script files
   src(paths.scripts.input)
     .pipe(plumber())
-    .pipe(flatmap(function(stream, file) {
+    .pipe(flatmap(function (stream, file) {
       // If the file is a directory
       if (file.isDirectory()) {
         // Setup a suffix variable
@@ -160,7 +182,7 @@ var buildStyles = function (done) {
       remove: true
     }))
     // .pipe(dest(paths.styles.output))
-    .pipe(rename({suffix: '.min'}))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(minify({
       discardComments: {
         removeAll: true
@@ -208,6 +230,31 @@ var processImages = function (done) {
   // Signal completion
   done();
 };
+
+// Process icons
+var processIcons = function (done) {
+  // Make sure this feature is activated before running
+  if (!settings.icons) return done();
+  src(paths.icons.input)
+    .pipe(plumber())
+    .pipe(svgSprite(configIcons))
+    .pipe(dest(paths.icons.output));
+  // Signal completion
+  done();
+};
+
+
+// mode: {
+//   symbol: {
+//     dest: 'foo',
+//     sprite: 'icons.svg',
+//     example: false
+//   }
+// },
+//   svg: {
+//   xmlDeclaration: false,
+//   doctypeDeclaration: false
+// }
 
 // Optimize SVG files
 var buildSVGs = function (done) {
@@ -261,8 +308,8 @@ var reloadBrowser = function (done) {
 
 // Watch for changes
 var watchSource = function (done) {
-	watch(paths.input, series(exports.default, reloadBrowser));
-	done();
+  watch(paths.input, series(exports.default, reloadBrowser));
+  done();
 };
 
 
@@ -278,9 +325,10 @@ exports.default = series(
     // lintStyles,
     buildStyles,
     processImages,
+    processIcons,
     buildSVGs,
     buildStyleguide
-	)
+  )
 );
 
 // Watch and reload: `gulp watch`
