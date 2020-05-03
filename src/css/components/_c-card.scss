@@ -1,0 +1,99 @@
+$_card-inset: 1.5rem;
+$_card-max-width: 62ch;
+
+
+.c-card {
+  padding: 0.5rem 2rem 1rem 2rem;
+  margin-left: $_card-inset;
+  transition: $animation-duration-shorter $animation-easing-character background-color;
+
+  // Contexts
+  &.c-card--post {
+    border: $border-thinnest solid $color-gray-shade;
+    margin-top: 1.5rem;
+
+    // States
+    &:hover {
+      background-color: $color-white;
+    }
+
+    // User Queries
+    @media screen and (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  .c-card--resource & {
+    border-right: $border-thinnest solid $color-gray-shade;
+    border-bottom: $border-thinnest solid $color-gray-shade;
+    border-left: $border-thinnest solid $color-gray-shade;
+    margin-right: 1.25rem;
+  }
+}
+
+.c-card--highlight {
+  // Contexts
+  .c-card {
+    margin-right: 0;
+
+    .template-posts & {
+      background-color: $color-blue-tint;
+    }
+
+    .template-resources & {
+      background-color: $color-green-tint;
+      border: none;
+    }
+  }
+}
+
+.c-card__wrapper {
+  margin-bottom: 3rem;
+  max-width: $_card-max-width * 1.1;
+}
+
+.c-card__preface {
+  color: $color-gray-shade;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  margin-left: $_card-inset;
+  max-width: $_card-max-width;
+}
+
+.c-card__title {
+  letter-spacing: $font-tracking-tight;
+  max-width: $_card-max-width;
+
+  // Contexts
+  .c-card--post & {
+    color: $color-blue-shade;
+  }
+
+  // Contexts
+  .c-card--resource & {
+    color: $color-green-shade;
+  }
+}
+
+.c-card__meta {
+  color: $color-gray-shade;
+  font-size: 0.8rem;
+  max-width: $_card-max-width;
+}
+
+.c-card__additional {
+  color: $color-gray-shade;
+  font-family: $font-family-secondary;
+  font-size: 0.9rem;
+  line-height: $line-height-tight;
+  margin-top: 0.25rem;
+  text-transform: uppercase;
+}
+
+.c-card__description {
+  font-family: $font-family-secondary;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  max-width: $_card-max-width;
+}
+

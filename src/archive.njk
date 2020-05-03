@@ -40,83 +40,72 @@ templateClass: template-posts
 
   {# TODO: Add top latest post #}
   {% for post in top_posts %}
-    {% include "posts/highlight.njk" %}
+    {% include "highlight.njk" %}
   {% endfor %}
 
   {% set taglist = collections[ "featured" ] %}
   {% for post in taglist %}
-    {% include "posts/highlight.njk" %}
+    {% include "highlight.njk" %}
   {% endfor %}
 
 
   <h2 id="background" class="c-heading-large">
     Background
   </h2>
-
-  <div class="c-post-preview__wrapper">
+  <div class="c-card__wrapper">
     {% set taglist = collections[ "background" ] %}
     {% for post in taglist | reverse %}
-      {% include "posts/postslist.njk" %}
+      {% include "post.njk" %}
     {% endfor %}
   </div>
-
 
   <h2 id="myths" class="c-heading-large">
     Myths
   </h2>
-
-  <div class="c-post-preview__wrapper">
+  <div class="c-card__wrapper">
     {% set taglist = collections[ "myths" ] %}
     {% for post in taglist | reverse %}
-      {% include "posts/postslist.njk" %}
+      {% include "post.njk" %}
     {% endfor %}
   </div>
-
 
   <h2 id="quick-tests" class="c-heading-large">
     Quick tests
   </h2>
-
-  <div class="c-post-preview__wrapper">
+  <div class="c-card__wrapper">
     {% set taglist = collections[ "quicktest" ] %}
     {% for post in taglist | reverse %}
-      {% include "posts/postslist.njk" %}
+      {% include "post.njk" %}
     {% endfor %}
   </div>
-
 
   <h2 id="quick-tips" class="c-heading-large">
     Quick tips
   </h2>
-
-  <div class="c-post-preview__wrapper">
+  <div class="c-card__wrapper">
     {% set taglist = collections[ "quicktip" ] %}
     {% for post in taglist | reverse %}
-      {% include "posts/postslist.njk" %}
+      {% include "post.njk" %}
     {% endfor %}
   </div>
-
 
   <h2 id="how-to" class="c-heading-large">
     How-to
   </h2>
-
-  <div class="c-post-preview__wrapper">
+  <div class="c-card__wrapper">
     {% set taglist = collections[ "howto" ] %}
     {% for post in taglist | reverse %}
-      {% include "posts/postslist.njk" %}
+      {% include "post.njk" %}
     {% endfor %}
   </div>
-
 
   <h2 id="assistive-technology" class="c-heading-large">
     Assistive technology
   </h2>
-
-  <div class="c-post-preview__wrapper">
+  <div class="c-card__wrapper">
     {% set taglist = collections[ "assistivetechnology" ] %}
     {% for post in taglist | reverse %}
-      {% include "posts/postslist.njk" %}
+      {% include "post.njk" %}
     {% endfor %}
   </div>
 

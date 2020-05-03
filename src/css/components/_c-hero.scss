@@ -14,63 +14,54 @@
 .c-hero {
   // Contexts
   .template-home & {
-    background: $color-green-shade url("#{$path-to-img}/heroes/a11y.svg") no-repeat center;
+    background-color: $color-green-shade;
+    background-image: url("#{$path-to-img}/heroes/a11y.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-
-    // User Queries
-    @media (prefers-reduced-data: reduce) {
-      background-color: $color-green-shade;
-    }
   }
 
   .template-posts & {
-    background: $color-pink-shade url("#{$path-to-img}/heroes/posts.svg") no-repeat center;
+    background-color: $color-pink-shade;
+    background-image: url("#{$path-to-img}/heroes/posts.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
       background-size: contain;
-    }
-
-    // User Queries
-    @media (prefers-reduced-data: reduce) {
-      background-color: $color-pink-shade;
     }
   }
 
   .template-checklist & {
-    background: $color-green url("#{$path-to-img}/heroes/checklist.svg") no-repeat center;
+    background-color: $color-green;
+    background-image: url("#{$path-to-img}/heroes/checklist.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 
     // Breakpoints
     @include mappy-bp(palm-medium) {
       background-size: contain;
     }
-
-    // User Queries
-    @media (prefers-reduced-data: reduce) {
-      background-color: $color-green;
-    }
   }
 
   .template-resources & {
-    background: $color-blue-shade url("#{$path-to-img}/heroes/resources.svg") no-repeat center;
+    background-color: $color-blue-shade;
     background-size: contain;
-
-    // User Queries
-    @media (prefers-reduced-data: reduce) {
-      background-color: $color-blue-shade;
-    }
+    background-image: url("#{$path-to-img}/heroes/resources.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .template-about & {
-    background: $color-blue-shade url("#{$path-to-img}/heroes/about.svg") no-repeat center;
+    background-color: $color-blue-shade;
+    background-image: url("#{$path-to-img}/heroes/about.svg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
-
-    // User Queries
-    @media (prefers-reduced-data: reduce) {
-      background-color: $color-blue-shade;
-    }
   }
 }
 

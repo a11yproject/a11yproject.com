@@ -52,7 +52,7 @@ module.exports = function (eleventyConfig) {
     return slugify(str, {
       lower: true,
       replacement: "-",
-      remove: /[*+~.·,()'"`´%!?¿:@]/g
+      remove: /[*+~.·,()'"`´%!?¿:@»]/g
     });
   });
 

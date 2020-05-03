@@ -1,0 +1,71 @@
+<div class="c-card--resource">
+  <p class="c-banner">
+    <svg aria-hidden="true" focusable="false" class="c-banner__icon" width="22" height="22">
+    {% if resourceType == "Featured" %}
+      <use xlink:href="/img/icons.svg#featured"></use>
+    {% elif resourceType == "Animation" %}
+      <use xlink:href="/img/icons.svg#animation"></use>
+    {% elif resourceType == "Blogs" %}
+      <use xlink:href="/img/icons.svg#books"></use>
+    {% elif resourceType == "Bookmarklets" %}
+      <use xlink:href="/img/icons.svg#bookmarklets"></use>
+    {% elif resourceType == "Books" %}
+      <use xlink:href="/img/icons.svg#books"></use>
+    {% elif resourceType == "Browser extensions" %}
+      <use xlink:href="/img/icons.svg#browser-extensions"></use>
+    {% elif resourceType == "Colors" %}
+      <use xlink:href="/img/icons.svg#color"></use>
+    {% elif resourceType == "Community help" %}
+      <use xlink:href="/img/icons.svg#community-help"></use>
+    {% elif resourceType == "Courses" %}
+      <use xlink:href="/img/icons.svg#courses"></use>
+    {% elif resourceType == "Design and user experience" %}
+      <use xlink:href="/img/icons.svg#design"></use>
+    {% elif resourceType == "Development tools" %}
+      <use xlink:href="/img/icons.svg#development"></use>
+    {% elif resourceType == "Email" %}
+      <use xlink:href="/img/icons.svg#email"></use>
+    {% elif resourceType == "HTML and ARIA" %}
+      <use xlink:href="/img/icons.svg#html-aria"></use>
+    {% elif resourceType == "Images and icons" %}
+      <use xlink:href="/img/icons.svg#images"></use>
+    {% elif resourceType == "Meetups" %}
+      <use xlink:href="/img/icons.svg#meetups"></use>
+    {% elif resourceType == "Mobile apps" %}
+      <use xlink:href="/img/icons.svg#mobile-apps"></use>
+    {% elif resourceType == "Newsletters" %}
+      <use xlink:href="/img/icons.svg#email"></use>
+    {% elif resourceType == "PDFs" %}
+      <use xlink:href="/img/icons.svg#pdfs"></use>
+    {% elif resourceType == "Podcasts" %}
+      <use xlink:href="/img/icons.svg#podcasts"></use>
+    {% elif resourceType == "Professional help" %}
+      <use xlink:href="/img/icons.svg#professional-help"></use>
+    {% elif resourceType == "Screen readers" %}
+      <use xlink:href="/img/icons.svg#screen-readers"></use>
+    {% elif resourceType == "Screen reader help" %}
+      <use xlink:href="/img/icons.svg#screen-reader-help"></use>
+    {% elif resourceType == "Talks" %}
+      <use xlink:href="/img/icons.svg#talks"></use>
+    {% elif resourceType == "Typography" %}
+      <use xlink:href="/img/icons.svg#typography"></use>
+    {% elif resourceType == "Vision simulators" %}
+      <use xlink:href="/img/icons.svg#vision-simulators"></use>
+    {% elif resourceType == "Additional resources" %}
+      <use xlink:href="/img/icons.svg#featured"></use>
+    {% endif %}
+    </svg>
+    {{ resourceType }}
+  </p>
+  <div class="c-card">
+    <h3 id="{{ resource.title | slugify }}">
+      <a class="c-card__title" href="{{ resource.url | url }}">{{ resource.title }}</a>
+    </h3>
+    <p class="c-card__additional">
+      {{ resource.additional }}
+    </p>
+    <p class="c-card__description">
+      {{ resource.description }}
+    </p>
+  </div>
+</div>

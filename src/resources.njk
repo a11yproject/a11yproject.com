@@ -11,297 +11,370 @@ tags:
 templateClass: template-resources
 ---
 
-<nav id="table-of-contents" aria-label="Table of Contents">
-  <h2>Table of Contents</h2>
-  <ol>
-    <li><a href="#blogs">Blogs</a></li>
-    <li><a href="#bookmarklets">Bookmarklets</a></li>
-    <li><a href="#books">Books</a></li>
-    <li><a href="#browser-extensions">Browser Extensions</a></li>
-    <li><a href="#color">Color</a></li>
-    <li><a href="#community-help">Community Help</a></li>
-    <li><a href="#courses">Courses</a></li>
-    <li><a href="#development-tools">Development Tools</a></li>
-    <li><a href="#html-and-aria">HTML and ARIA</a></li>
-    <li><a href="#newsletters">Newsletters</a></li>
-    <li><a href="#pdfs">PDFs</a></li>
-    <li><a href="#podcasts">Podcasts</a></li>
-    <li><a href="#professional-help">Professional Help</a></li>
-    <li><a href="#screen-readers">Screen Readers</a></li>
-    <li><a href="#screen-reader-help">Screen Reader Help</a></li>
-    <li><a href="#talks">Talks</a></li>
-    <li><a href="#typography">Typography</a></li>
-    <li><a href="#vision-simulators">Vision Simulators</a></li>
-    <li><a href="#additional-resources">Additional Resources</a></li>
+<nav id="table-of-contents" class="l-toc" aria-label="Table of contents">
+  <ol class="c-toc c-toc--home">
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" aria-current="location" href="#foo">foo</a>
+    </li>
   </ol>
 </nav>
 
-<!--
-<h2 id="blogs">Blogs</h2>
-<p>
-  Bookmarklets copy TK.
-</p>
-<dl>
-  {%- for blog in resources.blogs %}
-  <dt id="{{ blog.title | slug }}">
-    <a rel="external noopener" href="{{ blog.url }}">{{ blog.title }}</a>
-  </dt>
-  <dd>{{ blog.description }}</dd>
-  {%- endfor -%}
-</dl>
+<article class="l-content">
 
-<h2 id="bookmarklets">Bookmarklets</h2>
-<p>
-  Bookmarklets copy TK.
-</p>
-<dl>
-  {%- for bookmarklet in resources.bookmarklets %}
-  <dt id="{{ bookmarklet.title | slug }}">
-    <a rel="external noopener" href="{{ bookmarklet.url }}">{{ bookmarklet.title }}</a>
-  </dt>
-  <dd>{{ bookmarklet.developers }}</dd>
-  <dd>{{ bookmarklet.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resource = resources.featured %}
+  {% for featuredResource in resource %}
+    {% include "highlight.njk" %}
+  {% endfor %}
 
-<h2 id="books">Books</h2>
-<p>
-  Books copy TK.
-</p>
-<dl>
-  {%- for book in resources.books %}
-  <dt id="{{ book.title | slug }}">
-    <a rel="external noopener" href="{{ book.url }}">{{ book.title }}</a>
-  </dt>
-  <dd>{{ book.authors }}</dd>
-  <dd>{{ book.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Animation" %}
+  <h2 id="animation" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Responsible animation only starts when requested, can be paused, and avoids using known seizure and migraine triggers.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.animation %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="browser-extensions">Browser Extensions</h2>
-<p>
-  Browser extensions copy TK.
-</p>
-<dl>
-  {%- for extension in resources.browserExtensions %}
-  <dt id="{{ extension.title | slug }}">
-    <a rel="external noopener" href="{{ extension.url }}">{{ extension.title }}</a>
-  </dt>
-  <dd>{{ extension.browsers }}</dd>
-  <dd>{{ extension.developer }}</dd>
-  <dd>{{ extension.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Blogs" %}
+  <h2 id="blogs" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Other accessibility-focused websites to read and learn from.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.blogs %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="color">Color</h2>
-<p>
-  Color copy TK.
-</p>
-<dl>
-  {%- for color in resources.colors %}
-  <dt id="{{ color.title | slug }}">
-    <a rel="external noopener" href="{{ color.url }}">{{ color.title }}</a>
-  </dt>
-  <dd>{{ color.developer }}</dd>
-  <dd>{{ color.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Bookmarklets" %}
+  <h2 id="bookmarklets" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Small “micro apps” that live in your browser that you can activate to manipulate the current page or view.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.bookmarklets %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="community-help">Community Help</h2>
-<p>
-  Community help copy TK.
-</p>
-<dl>
-  {%- for help in resources.communityHelp %}
-  <dt id="{{ help.title | slug }}">
-    <a rel="external noopener" href="{{ help.url }}">{{ help.title }}</a>
-  </dt>
-  <dd>{{ help.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Books" %}
+  <h2 id="books" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Physical and eBooks written to discuss different accessibility topics.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.books %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="courses">Courses</h2>
-<p>
-  Course copy TK.
-</p>
-<dl>
-  {%- for course in resources.courses %}
-  <dt id="{{ course.title | slug }}">
-    <a rel="external noopener" href="{{ course.url }}">{{ course.title }}</a>
-  </dt>
-  <dd>{{ course.developer }}</dd>
-  <dd>{{ course.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Browser extensions" %}
+  <h2 id="browser-extensions" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Browser extensions are a micro apps that can can either run automatically in the background or that can be activated to manipulate the current page or view.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.browserExtensions %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="development-tools">Development Tools</h2>
-<p>
-  Development tools copy TK.
-</p>
-<dl>
-  {%- for tool in resources.developmentTools %}
-  <dt id="{{ tool.title | slug }}">
-    <a rel="external noopener" href="{{ tool.url }}">{{ tool.title }}</a>
-  </dt>
-  <dd>{{ tool.developer }}</dd>
-  <dd>{{ tool.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Colors" %}
+  <h2 id="colors" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    These tools help you create, test for, and maintain accessible color contrast ratios.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.colors %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="html-and-aria">HTML and ARIA</h2>
-<p>
-  HTML and ARIA copy TK.
-</p>
-<dl>
-  {%- for html in resources.htmlAndAria %}
-  <dt id="{{ html.title | slug }}">
-    <a rel="external noopener" href="{{ html.url }}">{{ html.title }}</a>
-  </dt>
-  <dd>{{ html.source }}</dd>
-  <dd>{{ html.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Community help" %}
+  <h2 id="community-help" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Other internet groups where you can find accessibility help and support.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.communityHelp %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="newsletters">Newsletters</h2>
-<p>
-  Newsletters copy TK.
-</p>
-<dl>
-  {%- for newsletter in resources.newsletters %}
-  <dt id="{{ newsletter.title | slug }}">
-    <a rel="external noopener" href="{{ newsletter.url }}">{{ newsletter.title }}</a>
-  </dt>
-  <dd>{{ newsletter.source }}</dd>
-  <dd>{{ newsletter.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Courses" %}
+  <h2 id="courses" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Classes you can take to learn all about accessibile digital design and development.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.courses %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="pdfs">PDFs</h2>
-<p>
-  PDFs copy TK.
-</p>
-<dl>
-  {%- for pdf in resources.pdfs %}
-  <dt id="{{ pdf.title | slug }}">
-    <a rel="external noopener" href="{{ pdf.url }}">{{ pdf.title }}</a>
-  </dt>
-  <dd>{{ pdf.source }}</dd>
-  <dd>{{ pdf.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Design and user experience" %}
+  <h2 id="design-and-user-experience" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Information for how to create accessible digital designs.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.designUserExperience %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="podcasts">Podcasts</h2>
-<p>
-  Podcasts copy TK.
-</p>
-<dl>
-  {%- for podcast in resources.podcasts %}
-  <dt id="{{ podcast.title | slug }}">
-    <a rel="external noopener" href="{{ podcast.url }}">{{ podcast.title }}</a>
-  </dt>
-  <dd>{{ podcast.source }}</dd>
-  <dd>{{ podcast.type }}</dd>
-  <dd>{{ podcast.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Development tools" %}
+  <h2 id="development-tools" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Tools and resources for helping to develop with an accessibile mindset.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.developmentTools %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="professional-help">Professional Help</h2>
-<p>
-  Professional help copy TK.
-</p>
-<dl>
-  {%- for company in resources.professionalHelp %}
-  <dt id="{{ company.title | slug }}">
-    <a rel="external noopener" href="{{ company.url }}">{{ company.title }}</a>
-  </dt>
-  <dd>{{ company.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Email" %}
+  <h2 id="email" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Learn about how to make your email accessibile.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.email %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="screen-readers">Screen Readers</h2>
-<p>
-  Screen readers copy TK.
-</p>
-<dl>
-  {%- for screenreader in resources.screenReaders %}
-  <dt id="{{ screenreader.title | slug }}">
-    <a rel="external noopener" href="{{ screenreader.url }}">{{ screenreader.title }}</a>
-  </dt>
-  <dd>{{ screenreader.platforms }}</dd>
-  <dd>{{ screenreader.developer }}</dd>
-  <dd>{{ screenreader.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "HTML and ARIA" %}
+  <h2 id="html-and-aria" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Well-structured, semantic HTML is the foundation of an accessibile web experience. ARIA can help to make these accessible web exinteractive interactive.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.htmlAndAria %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="screen-reader-help">Screen Reader Help</h2>
-<p>
-  Screen reader help copy TK.
-</p>
-<dl>
-  {%- for help in resources.screenReaderHelp %}
-  <dt id="{{ help.title | slug }}">
-    <a rel="external noopener" href="{{ help.url }}">{{ help.title }}</a>
-  </dt>
-  <dd>{{ help.source }}</dd>
-  <dd>{{ help.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Images and icons" %}
+  <h2 id="images-and-icons" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Images and icons can help draw a reader in and communicate
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.imagesAndIcons %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="talks">Talks</h2>
-<p>
-  Talks copy TK.
-</p>
-<dl>
-  {%- for talk in resources.talks %}
-  <dt id="{{ talk.title | slug }}">
-    <a rel="external noopener" href="{{ talk.url }}">{{ talk.title }}</a>
-  </dt>
-  <dd>{{ talk.source }}</dd>
-  <dd>{{ talk.type }}</dd>
-  <dd>{{ talk.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Meetups" %}
+  <h2 id="meetups" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Area groups dedicated to regularly meeting to discuss accessibility related topics.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.meetups %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="typography">Typography</h2>
-<p>
-  Typography copy TK.
-</p>
-<dl>
-  {%- for type in resources.typography %}
-  <dt id="{{ type.title | slug }}">
-    <a rel="external noopener" href="{{ type.url }}">{{ type.title }}</a>
-  </dt>
-  <dd>{{ type.source }}</dd>
-  <dd>{{ type.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Mobile apps" %}
+  <h2 id="mobile-apps" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Unlike websites and web apps, mobile apps need to be installed on the device they're used on. They have different considerations to ensure they're successful.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.mobileApps %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="vision-simulators">Vision Simulators</h2>
-<p>
-  Vision simulators copy TK.
-</p>
-<dl>
-  {%- for simulator in resources.visionSimulators %}
-  <dt id="{{ simulator.title | slug }}">
-    <a rel="external noopener" href="{{ simulator.url }}">{{ simulator.title }}</a>
-  </dt>
-  <dd>{{ simulator.platforms }}</dd>
-  <dd>{{ simulator.developer }}</dd>
-  <dd>{{ simulator.description }}</dd>
-  {%- endfor -%}
-</dl>
+  {% set resourceType = "Newsletters" %}
+  <h2 id="newsletters" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Get the latest accessibility-related news delivered to your inbox.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.newsletters %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
 
-<h2 id="additional-resources">Additional Resources</h2>
-<p>
-  Additional resources copy TK.
-</p>
-<dl>
-  {%- for resource in resources.additionalResources %}
-  <dt id="{{ resource.title | slug }}">
-    <a rel="external noopener" href="{{ resource.url }}">{{ resource.title }}</a>
-  </dt>
-  <dd>{{ resource.source }}</dd>
-  <dd>{{ resource.description }}</dd>
-  {%- endfor -%}
-</dl>
--->
+  {% set resourceType = "PDFs" %}
+  <h2 id="pdfs" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Adobe's PDF file format needs special considerations to ensure it can work with assistive technology.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.pdfs %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+  {% set resourceType = "Podcasts" %}
+  <h2 id="podcasts" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Listen to, or read the transcripts of people talking all about accessibility.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.podcasts %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+  {% set resourceType = "Professional help" %}
+  <h2 id="professional-help" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Well-respected professional companies who specialize in accessibility.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.professionalHelp %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+  {% set resourceType = "Screen readers" %}
+  <h2 id="screen-readers" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Information about screen reading assistive technology.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.screenReaders %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+  {% set resourceType = "Screen reader help" %}
+  <h2 id="screen-reader-help" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Help about screen reading assistive technology.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.screenReaderHelp %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+  {% set resourceType = "Talks" %}
+  <h2 id="talks" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Recorded conference talks.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.talks %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+  {% set resourceType = "Typography" %}
+  <h2 id="typography" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Good typography is an important part of an accessible digital experience.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.typography %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+  {% set resourceType = "Vision simulators" %}
+  <h2 id="vision-simulators" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Vision simulators can be used to help you get an idea of how a low vision situation may appear.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.visionSimulators %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+  {% set resourceType = "Additional resources" %}
+  <h2 id="additional=resources" class="c-heading-large">
+    {{ resourceType }}
+  </h2>
+  <p class="c-card__preface">
+    Miscellaneous accessibility-related resources.
+  </p>
+  <div class="c-card__wrapper">
+    {% set resource = resources.additionalResources %}
+    {% for resource in resource %}
+      {% include "resource.njk" %}
+    {% endfor %}
+  </div>
+
+</article>
+
