@@ -52,14 +52,6 @@ $_card-max-width: 62ch;
   max-width: $_card-max-width * 1.1;
 }
 
-.c-card__preface {
-  color: $color-gray-shade;
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
-  margin-left: $_card-inset;
-  max-width: $_card-max-width;
-}
-
 .c-card__title {
   letter-spacing: $font-tracking-tight;
   max-width: $_card-max-width;

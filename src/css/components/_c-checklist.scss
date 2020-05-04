@@ -1,0 +1,41 @@
+.c-checklist {
+  border-right: $border-thinnest solid $color-blue-shade;
+  border-bottom: $border-thinnest solid $color-blue-shade;
+  border-left: $border-thinnest solid $color-blue-shade;
+  padding: 1.5rem 1.5rem 1.5rem 4rem;
+
+  &:first-of-type {
+    border-top: $border-thinnest solid $color-blue-shade;
+  }
+
+  // Text-level formatting
+  code {
+    background-color: $color-blue-tint;
+    margin-left: 0.25ch;
+    margin-right: 0.25ch;
+    padding: 0.3ch 0.5ch;
+  }
+}
+
+.c-checklist__citation {
+  margin-top: 2rem;
+}
+
+.c-checklist__link {
+  color: $color-blue-shade;
+  font-family: $font-family-secondary;
+  letter-spacing: $font-tracking-slight;
+  text-decoration-thickness: $border-thinnest;
+  text-underline-offset: 0.3em;
+  text-transform: uppercase;
+}
+
+.c-checklist__description {
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+
+  // Text-level formatting
+  a {
+    color: $color-blue-shade;
+  }
+}

@@ -1,0 +1,11 @@
+<div class="c-checklist">
+  <h3 id="{{ checklist.title | slugify }}" class="c-checklist__title">
+    {{ checklist.title | safe }}
+  </h3>
+  <p class="c-checklist__citation">
+    <a class="c-checklist__link" href="{{ checklist.url }}">{{ checklist.wcag }}</a>
+  </p>
+  <p class="c-checklist__description">
+    {{ checklist.description | safe }}
+  </p>
+</div>

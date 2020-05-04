@@ -19,7 +19,7 @@ var {
   line-height: $line-height-tight;
   overflow: auto; // [1]
   white-space: pre-wrap; // [1]
-  word-break: break-all; // [1]
+  word-break: keep-all; // [1]
   word-wrap: break-word; // [1]
 }
 

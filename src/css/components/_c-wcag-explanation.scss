@@ -1,0 +1,51 @@
+$_wcag-explanation-icon-size: 7rem;
+
+.c-wcag-explanation {
+  background-color: $color-blue-tint;
+  font-family: $font-family-secondary;
+  margin-bottom: 1rem;
+  padding: 0.5rem 4rem 2rem 4rem;
+
+  // Text-level formatting
+  p {
+    margin-top: 1.5rem;
+  }
+
+  a {
+    color: $color-blue-shade;
+    text-decoration-color: $color-blue-shade;
+    text-decoration-thickness: $border-thinnest;
+    text-underline-offset: 0.3em;
+  }
+}
+
+.c-wcag-explanation__list {
+  @include preserve-list-semantics();
+
+  width: 62ch;
+}
+
+.c-wcag-explanation__list-item {
+  background-position: top 2rem left;
+  background-repeat: no-repeat;
+  background-size: $_wcag-explanation-icon-size auto;
+  min-height: 4rem;
+  padding-left: $_wcag-explanation-icon-size * 1.2;
+}
+
+.c-wcag-explanation__list-item--a {
+  background-image: url("#{$path-to-img}/wcag-level-a.svg");
+}
+
+.c-wcag-explanation__list-item--aa {
+  background-image: url("#{$path-to-img}/wcag-level-aa.svg");
+}
+
+.c-wcag-explanation__list-item--aaa {
+  background-image: url("#{$path-to-img}/wcag-level-aaa.svg");
+}
+
+.c-wcag-explanation__compliance-level {
+  display: block;
+  font-size: 1.15rem;
+}
