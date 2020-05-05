@@ -11,6 +11,30 @@ tags:
 templateClass: template-checklist
 ---
 
+{% include "nav/skipnav.njk" %}
+<nav id="table-of-contents" class="l-toc" aria-label="Table of contents">
+  <ol class="c-toc">
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" aria-current="location" href="#background">Background</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="#myths">Myths</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="#quick-tests">Quick Tests</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="#quick-tips">Quick Tips</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="#how-tos">How-tos</a>
+    </li>
+    <li class="c-toc__list-item">
+      <a class="c-toc__link" href="#assistive-technology">Assistive Technology</a>
+    </li>
+  </ol>
+</nav>
+
 <article class="l-content">
 
   <div class="c-wcag-explanation">
@@ -60,7 +84,7 @@ templateClass: template-checklist
     </p>
   </div>
 
-  <hr />
+  <hr class="c-wcag-explanation__divider" />
 
   <h2 id="content" class="c-heading-large">
     Content
@@ -206,10 +230,10 @@ templateClass: template-checklist
   </div>
 
   <h2 id="audio" class="c-heading-medium">
-    Audio-specific checks.
+    Audio
   </h2>
   <p class="c-preface">
-    Media includes content such as pre-recorded and live audio and video.
+    Audio-specific checks.
   </p>
   <div class="c-card__wrapper">
     {% set checklist = checklists.audio %}

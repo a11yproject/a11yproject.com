@@ -253,10 +253,10 @@
       "description": "Does your form contain multiple sections of related inputs? Use <code>fieldset</code> to group them, and <code>legend</code> to provide a label for what this section is for. "
     },
     {
-      "title": "Inputs use <code>autocomplete</code> where appropriate. ",
+      "title": "Inputs use <code>autocomplete</code> where appropriate.",
       "wcag": "1.3.5 Identify Input Purpose",
       "url": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html",
-      "description": "<a href='https://www.w3.org/TR/html52/sec-forms.html#sec-autofill'>Providing a mechanism</a> to help people more quickly, easily, and accurately fill in form fields that ask for common information (for example, name, address, phone number). ted. "
+      "description": "<a href='https://www.w3.org/TR/html52/sec-forms.html#sec-autofill'>Providing a mechanism</a> to help people more quickly, easily, and accurately fill in form fields that ask for common information (for example, name, address, phone number)."
     },
     {
       "title": "Make sure that form input errors are displayed in list above the form after submission.",

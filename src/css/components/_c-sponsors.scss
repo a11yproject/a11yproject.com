@@ -1,3 +1,13 @@
 .c-sponsors {
+  background-color: $color-green-tint;
 
+  // Contexts
+  .template-posts & {
+    background-color: $color-pink-tint;
+  }
+
+  .template-resources &,
+  .template-about & {
+    background-color: $color-blue-tint;
+  }
 }

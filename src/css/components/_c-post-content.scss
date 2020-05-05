@@ -36,14 +36,17 @@
 
   // Supports
   @supports #{$supports-grid} {
-    // This selector targets only the first child paragraph of
-    // `.c-post__content`, allowing us to apply the tl;dr image
-    & > p:first-of-type {
-      font-family: $font-family-secondary;
-      font-size: 1.15rem;
-      line-height: $line-height-looser;
-      margin-top: 0;
-      margin-bottom: $_c-post-vertical-spacing * 1.25;
+    // Contexts
+    .template-post & {
+      // This selector targets only the first child paragraph of
+      // `.c-post__content`, allowing us to apply the tl;dr image
+      & > p:first-of-type {
+        font-family: $font-family-secondary;
+        font-size: 1.15rem;
+        line-height: $line-height-looser;
+        margin-top: 0;
+        margin-bottom: $_c-post-vertical-spacing * 1.25;
+      }
 
       // Breakpoints
       @include mappy-bp(lap-medium) {
