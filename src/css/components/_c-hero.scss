@@ -63,6 +63,14 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
+
+  .template-authors & {
+    background-color: $color-blue-shade;
+    background-image: url("#{$path-to-img}/heroes/authors.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 .c-hero-summary {
@@ -93,6 +101,12 @@
   }
 
   .template-about & {
+    color: $color-yellow-tint;
+    background-color: $color-blue-shade;
+    border-top-color: $color-yellow-tint;
+  }
+
+  .template-authors & {
     color: $color-yellow-tint;
     background-color: $color-blue-shade;
     border-top-color: $color-yellow-tint;

@@ -6,7 +6,7 @@ about: Promote a live or digital accessibility event
 
 Please provide the following information to streamline adding your event to the site! Delete this boilerplate or any other information that doesn't apply to your event.
 
-Please review our Contributing guidelines:
+Please review our Contributing Guidelines:
 https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md#events
 
 ## Title

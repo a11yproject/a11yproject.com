@@ -33,4 +33,9 @@
     {% include "heroes/primary-nav.njk" %}
   {% endif %}
 
+  {% if templateClass == "template-authors" %}
+    {% set hero = heroes.authors %}
+    {% include "heroes/primary-nav.njk" %}
+  {% endif %}
+
 </header>

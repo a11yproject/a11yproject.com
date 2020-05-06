@@ -13,8 +13,8 @@
 .c-heading-larger,
 .c-heading-large,
 .c-heading-medium,
-.c-heading-smaller,
 .c-heading-small,
+.c-heading-smaller,
 .c-heading-smallest {
   font-family: $font-family-primary;
   font-weight: $font-weight-normal;
@@ -99,23 +99,9 @@
 }
 
 
-// Smaller Heading
-//
-// Weight: 6
-//
-// Markup:
-// <h2 class="c-heading-smaller">
-//   We quickly seized the black axle and just saved it from going past him
-// </h2>
-//
-// Style guide: Components.Headings.heading-smaller
-.c-heading-smaller {
-}
-
-
 // Small Heading
 //
-// Weight: 7
+// Weight: 6
 //
 // Markup:
 // <h2 class="c-heading-small">
@@ -124,6 +110,21 @@
 //
 // Style guide: Components.Headings.heading-small
 .c-heading-small {
+  @include heading-small();
+}
+
+
+// Smaller Heading
+//
+// Weight: 7
+//
+// Markup:
+// <h2 class="c-heading-smaller">
+//   We quickly seized the black axle and just saved it from going past him
+// </h2>
+//
+// Style guide: Components.Headings.heading-smaller
+.c-heading-smaller {
 }
 
 

@@ -39,3 +39,19 @@
     font-size: 1.5rem;
   }
 }
+
+// heading-small
+//
+// Weight: 6
+//
+// Applies the sixth level heading style from a set of 8 heading styles.
+// Used for `h4` elements in blog posts.
+//
+// Styleguide Logic.Mixins.Headings.heading-medium
+@mixin heading-small() {
+  font-size: 1rem;
+  font-weight: $font-weight-bold;
+  letter-spacing: $font-tracking-slight;
+  margin-bottom: -2ex;
+  text-transform: uppercase;
+}

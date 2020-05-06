@@ -27,7 +27,8 @@
     background-color: $color-blue-shade;
   }
 
-  .template-about & {
+  .template-about &,
+  .template-authors & {
     background-color: $color-blue-shade;
   }
 }

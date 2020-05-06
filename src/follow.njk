@@ -9,47 +9,19 @@ tags:
   - legacy
 ---
 
-<article>
-  <h1 id="main-heading">{{ title }}</h1>
+<article class="l-content c-post__content">
+
+  <h2 id="who-to-follow" class="c-heading-large">
+    Who to follow
+  </h2>
   <p>
-    {{ subtitle }}
+    <a rel="external noopener" href="https://joe-watkins.io/">Joe Watkins</a> maintains a list of notable <a rel="external noopener" href="https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility#people">people</a>, <a rel="external noopener" href="https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility#companies--organizations">companies and organizations</a>, and <a rel="external noopener" href="https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility#meetups">meetups</a> that contribute to digital accessibility and open standards.
+  </p>
+  <h2 id="follow-the-a11y-project" class="c-heading-large">
+    Follow The A11Y Project
+  </h2>
+  <p>
+    You can <a rel="external noopener" href="https://twitter.com/a11yproject">follow The A11Y Project on Twitter</a>. We also have <a href="">a RSS feed</a> to keep track of when we publish new posts. We also reccommend following our <a href="/authors/">authors</a>!
   </p>
 
-  <section>
-    <h2>Featured accessibility practitioner</h2>
-    <p>
-      TODO: Codfiy this
-    </p>
-  </section>
-
-  <h2>Who and what to follow</h2>
-  <p>
-    <a rel="external noopener" href="https://joe-watkins.io/">Joe Watkins</a> maintains a list of notable <a rel="external noopener" href="https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility#people">people</a>, <a rel="external noopener" href="https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility#companies--organizations">companies and organizations</a>, and <a rel="external noopener" href="https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility#meetups">meetups</a> that contribute to web accessibility and standards.
-  </p>
-
-  <h2>Follow The A11Y Project</h2>
-  <p>
-    You can <a rel="external noopener" href="https://twitter.com/a11yproject">follow The A11Y Project on Twitter</a>. We also have <a href="">a RSS feed</a> to keep track of when we publish new posts.
-  </p>
-
-  <section>
-    <h2>Authors</h2>
-    <p>
-      These people help make the site:
-    </p>
-    <ul>
-      {%- for author in people.authors %}
-      <li id="{{ author.name | slug }}">
-        {% if author.contact %}
-        <a rel="external noopener" href="{{author.contact}}">{{author.name}}</a>
-        {% else %}
-        {{author.name}}
-        {% endif %}
-      </li>
-      {%- endfor -%}
-    </ul>
-    <p>
-      Interested in being on this list? See what <a rel="external noopener" href="https://github.com/a11yproject/a11yproject.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22%5BStatus%5D+Help+Wanted%22">issues we'd love help with</a>.
-    </p>
-  </section>
 </article>
