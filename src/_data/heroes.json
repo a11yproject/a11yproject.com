@@ -18,5 +18,9 @@
   "resources": {
     "title": "Resources",
     "subtitle": "Software, books, blogs, online tools, etc."
+  },
+  "team": {
+    "title": "Team",
+    "subtitle": "The people who help make this all happen"
   }
 }

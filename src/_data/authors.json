@@ -1,0 +1,136 @@
+{
+  "author": [
+    {
+      "name": "Alex Brenon",
+      "website": "https://alexroseb.com/",
+      "photo": "https://pbs.twimg.com/profile_images/975451645462106112/_h6vsUym_400x400.jpg",
+      "biography": "Research Assistant for ESD and Classics at UMass Amherst. Creator of Pop-Up Astronomy."
+    },
+    {
+      "name": "Cameron Cundiff",
+      "website": "https://www.ckundo.com/",
+      "photo": "https://pbs.twimg.com/profile_images/1227394268282720258/J-E_OZFk_400x400.jpg",
+      "biography": "Cameron is a software development leader, immersive tech pioneer, and accessibility specialist."
+    },
+    {
+      "name": "Dave Rupert",
+      "website": "https://daverupert.com/",
+      "photo": "https://pbs.twimg.com/profile_images/477460555981025280/JUGkf8zv_400x400.jpeg",
+      "biography": "I'm Dave Rupert, lead developer at Paravel. I co-host ShopTalk, an award-winning sound effects podcast that also covers web development. I'm a dad to two wonderful kids. I live in Austin, TX; the best damn city, in the best damn state, in the best damn country, in the whole damn world."
+    },
+    {
+      "name": "Emily Lane",
+      "website": "https://emilymlane.io/",
+      "photo": "https://avatars0.githubusercontent.com/u/9734623?s=460&u=912c5074b761e62141f1c7173d8f73de1e3ea8e2&v=4",
+      "biography": "Hi! I’m a recent grad with design and UX experience and a killer sense of humor. I’m currently working on munch., helping to find healthy food for pets."
+    },
+    {
+      "name": "Emma Patricios",
+      "website": "https://twitter.com/emmasax",
+      "photo": "https://pbs.twimg.com/profile_images/466621063267250176/jhmUjqc0_400x400.jpeg",
+      "biography": "I develop dynamic and responsive websites that are easy to use and look fantastic on any device."
+    },
+    {
+      "name": "Eric Bailey",
+      "website": "https://ericwbailey.design/",
+      "photo": "https://avatars3.githubusercontent.com/u/634191?s=460&u=d63a740900d1af3ce4d52fdb69a8f8f265782d3c&v=4",
+      "biography": "I help create straightforward solutions that address a person’s practical, physical, cognitive, and emotional needs using accessible, performant, device-agnostic technology."
+    },
+    {
+      "name": "Erik Runyon",
+      "website": "https://erikrunyon.com/",
+      "photo": "https://pbs.twimg.com/profile_images/528499847209304064/QTQDxEz2_400x400.jpeg",
+      "biography": "I am the Technical Director and a web developer for Marketing Communications at the University of Notre Dame."
+    },
+    {
+      "name": "Franklyn Roth",
+      "website": "https://www.linkedin.com/in/franklynroth/",
+      "photo": "https://media-exp1.licdn.com/dms/image/C4E03AQESx66nmJTyVw/profile-displayphoto-shrink_800_800/0?e=1594252800&v=beta&t=v0F7HqarEiudzbM5OCeruCWwRfZ4bxq_SEX_qGJWA9E",
+      "biography": "Front-End developer focused on delivering rich web applications in the vue.js and node.js ecosystems."
+    },
+    {
+      "name": "Dennis Gaebel",
+      "website": "https://droidpinkman.io/",
+      "photo": "https://avatars1.githubusercontent.com/u/13485205?s=460&u=cfc094f4fde922425deb20a214ad0880058004f9&v=4",
+      "biography": "I'm Dennis. I specialize in SVG Animations, UI Prototyping, Visual Design, and building Modular Atomic Design Systems for the Web. I also consult and write about it."
+    },
+    {
+      "name": "Guilherme Simões",
+      "website": "https://guilhermesimoes.github.io",
+      "photo": "https://pbs.twimg.com/profile_images/1813540146/08-03-28_12-21_1_400x400.jpg",
+      "biography": "I'm a Software Engineer, currently working at Sky. I have a passion for technology, data visualization and open-source."
+    },
+    {
+      "name": "Mat Marquis",
+      "website": "https://hire.wil.to/",
+      "photo": "https://avatars1.githubusercontent.com/u/439942?s=460&v=4",
+      "biography": " My name is Mat “Wilto” Marquis, and I make websites. I’m an independent consultant. My specialization is inclusive web development."
+    },
+    {
+      "name": "Matthew Higgins",
+      "website": "http://www.matthewalanhiggins.com/",
+      "photo": "https://avatars1.githubusercontent.com/u/5384450?s=400&v=4",
+      "biography": "Software generalist. Avid coffee drinker. Sometimes runner."
+    },
+    {
+      "name": "Michael Fairchild",
+      "website": "https://github.com/mfairchild365",
+      "photo": "https://avatars0.githubusercontent.com/u/498678?s=460&v=4",
+      "biography": "Web Developer and forever a student."
+    },
+    {
+      "name": "Monika Piotrowicz",
+      "website": "https://twitter.com/monsika",
+      "photo": "https://avatars1.githubusercontent.com/u/882875?s=460&u=ee95409a6edcde041c98ffa9d161767c0eef35b9&v=4",
+      "biography": "Director of International UX at Shopify, leading a globally distributed team, localizing a product."
+    },
+    {
+      "name": "Greg Tarnoff",
+      "website": "http://tarnoff.info/",
+      "photo": "https://media-exp1.licdn.com/dms/image/C5603AQG5iKcezKnz8Q/profile-displayphoto-shrink_800_800/0?e=1594252800&v=beta&t=mKKozD5TuS8tCqJT5TBDMMbmmdQjG5e6XzdCckcOR8c",
+      "biography": "Founder of MadHackerHaus and Rolled Up Sleeves, LLC. Advocate for accessibility in developing the internet and mobile technology."
+    },
+    {
+      "name": "Rachel R. Vasquez",
+      "website": "http://rachievee.com",
+      "photo": "https://avatars0.githubusercontent.com/u/10246844?s=460&v=4",
+      "biography": "Senior WordPress Developer."
+    },
+    {
+      "name": "Scott O'Hara",
+      "website": "https://www.scottohara.me/",
+      "photo": "https://avatars2.githubusercontent.com/u/4152514?s=460&v=4",
+      "biography": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone."
+    },
+    {
+      "name": "Susan Robertson",
+      "website": "https://www.susanjeanrobertson.com/",
+      "photo": "https://pbs.twimg.com/profile_images/753022638725804032/x1JCSj_l_400x400.jpg",
+      "biography": "Hi. I'm Susan Robertson, a design implementer. I spend my days thinking about HTML, CSS, accessibility and design systems."
+    },
+    {
+      "name": "Scott Vinkle",
+      "website": "https://scottvinkle.me/",
+      "photo": "https://avatars1.githubusercontent.com/u/1392632?s=460&u=703b41be24a5fde23738489682f9cf5d642dd736&v=4",
+      "biography": "Hi, I'm Scott. Web accessibility consultant and front end engineer from Toronto, Canada."
+    },
+    {
+      "name": "Thomas Sjögren",
+      "website": "https://github.com/thomassjogren",
+      "photo": "https://avatars3.githubusercontent.com/u/3251254?s=460&v=4",
+      "biography": "UX focused front-end developer with passion for behaviour-driven design."
+    },
+    {
+      "name": "Luis Garcia",
+      "website": "https://www.garcialo.com/",
+      "photo": "https://pbs.twimg.com/profile_images/1181989762275528705/4ou0JnLG_400x400.jpg",
+      "biography": "Father, accessibility evangelist, video gamer, proof checker, and solver of problems."
+    },
+    {
+      "name": "…and maybe you!",
+      "website": "/contribute/",
+      "photo": "/img/logos/maintainer.png",
+      "biography": "Got an idea for an article? Get in touch!"
+    }
+  ]
+}

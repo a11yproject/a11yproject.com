@@ -38,4 +38,9 @@
     {% include "heroes/primary-nav.njk" %}
   {% endif %}
 
+  {% if templateClass == "template-team" %}
+    {% set hero = heroes.team %}
+    {% include "heroes/primary-nav.njk" %}
+  {% endif %}
+
 </header>

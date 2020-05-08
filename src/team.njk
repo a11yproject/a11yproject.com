@@ -8,36 +8,45 @@ eleventyNavigation:
   order: 3
 tags:
   - project
+templateClass: template-team
 ---
 
-<article class="l-content c-post__content">
+<article class="l-content">
 
-<p>
-  The people who help make this all happen. Interested in helping out? Check out our <a href="/contrubting-guidelines/">contributing guidelines</a>.
-</p>
+  <div class="c-post__content">
+    <p>
+      The people who help make this all happen. Interested in helping out? Check out our <a href="/contrubting-guidelines/">contributing guidelines</a>.
+    </p>
 
-<h2 id="out-contributors" class="c-heading-large">
-  Our contributors
-</h2>
-<p>
-  A special thank you to everyone who has helped to make this site better!
-</p>
+    <h2 id="out-contributors" class="c-heading-large">
+      Contributors
+    </h2>
+    <p>
+      A special thank you to <a href="https://github.com/a11yproject/a11yproject.com/graphs/contributors">everyone who has helped to make this site better</a>!
+    </p>
 
-<h2 id="creator" class="c-heading-large">
-  Creator
-</h2>
-<p>
-  The A11Y Project was <a href="https://github.com/a11yproject/a11yproject.com/commit/fcb20f28b3f9f32e9234fcc063ae6f5649ae2a0b">started on January 10, 2013</a>.
-</p>
-{% set person = team.creator %}
-{% for person in person %}
-  {% include "person.njk" %}
-{% endfor %}
+    <h2 id="creator" class="c-heading-large">
+      Creator
+    </h2>
+    <p>
+      The A11Y Project was <a href="https://github.com/a11yproject/a11yproject.com/commit/fcb20f28b3f9f32e9234fcc063ae6f5649ae2a0b">started on January 10, 2013</a>.
+    </p>
+  </div>
+  {% set personRole = "staff" %}
+  {% set person = team.creator %}
+  {% for person in person %}
+    {% include "person.njk" %}
+  {% endfor %}
 
-<h2 id="maintainers" class="c-heading-large">
-  Maintainers
-</h2>
-{% set person = team.maintainer %}
-{% for person in person %}
-  {% include "person.njk" %}
-{% endfor %}
+  <div class="c-post__content">
+    <h2 id="maintainers" class="c-heading-large">
+      Maintainers
+    </h2>
+  </div>
+  {% set personRole = "staff" %}
+  {% set person = team.maintainer %}
+  {% for person in person %}
+    {% include "person.njk" %}
+  {% endfor %}
+
+</article>

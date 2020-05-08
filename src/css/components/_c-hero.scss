@@ -64,12 +64,20 @@
     background-size: contain;
   }
 
-  .template-authors & {
+  .template-authors &,
+  .template-team & {
     background-color: $color-blue-shade;
-    background-image: url("#{$path-to-img}/heroes/authors.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+
+  .template-authors & {
+    background-image: url("#{$path-to-img}/heroes/authors.svg");
+  }
+
+  .template-team & {
+    background-image: url("#{$path-to-img}/heroes/team.svg");
   }
 }
 
@@ -106,7 +114,8 @@
     border-top-color: $color-yellow-tint;
   }
 
-  .template-authors & {
+  .template-authors &,
+  .template-team & {
     color: $color-yellow-tint;
     background-color: $color-blue-shade;
     border-top-color: $color-yellow-tint;
