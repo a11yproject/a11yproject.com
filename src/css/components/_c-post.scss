@@ -20,7 +20,7 @@ $_c-post-vertical-spacing: 4ex;
 // Markup:
 // <div
 //   id="short-answer"
-//   class="l-post__content c-post__content"
+//   class="l-post__content c-content"
 //   itemprop="articleBody">
 //   …
 // </div>
@@ -211,7 +211,7 @@ $_c-post-vertical-spacing: 4ex;
 }
 
 
-.c-post__content {
+.c-content {
   line-height: $line-height-double;
   margin-left: map-get($global-post-content-inset, small);
   margin-right: map-get($global-post-content-inset, small);

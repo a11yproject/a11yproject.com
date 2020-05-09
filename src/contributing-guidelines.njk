@@ -4,7 +4,7 @@ title: Contributing Guidelines
 subtitle: Want to help? Here's how.
 ---
 
-<article class="l-content c-post__content">
+<article class="l-content c-content">
 
   <p>
     Want to help? Here&#39;s how.
@@ -46,7 +46,10 @@ subtitle: Want to help? Here's how.
     Build process
   </h3>
   <p>
-    This project uses <a href="https://www.11ty.dev/">Eleventy</a> to convert project files into a website that a browser can read and display. You&#39;ll need to make sure you&#39;ve run all the commands in our <a href="https://github.com/a11yproject/a11yproject.com#local-development"><code>README</code></a> to get Jekyll working.
+    This project uses <a href="https://www.11ty.dev/">Eleventy</a> to convert project files into a website that a browser can read and display. You&#39;ll need to make sure you&#39;ve run all the commands in our <a href="https://github.com/a11yproject/a11yproject.com#local-development"><code>README</code></a> to get Eleventy working.
+  </p>
+  <p>
+    Tatiana Mac has <a href="https://tatianamac.com/posts/beginner-eleventy-tutorial-parti/">a great beginner's guide to Eleventy</a>, if you are looking for a good introduction.</a>.
   </p>
   <p>
     Any changes you save will cause the local version of the site to recompile. The browser tab that has your local instance of the site will automatically refresh, allowing you to preview your edits.
@@ -79,7 +82,7 @@ subtitle: Want to help? Here's how.
     Markdown
   </h4>
   <p>
-    <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> is a lightweight markup language that makes writing easier. We use it to organize our blog posts, as well as our main site pages. It uses <code>.md</code> files and compiles into HTML.
+    <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> is a lightweight markup language that makes writing easier. We use it mainly to organize our blog posts. It uses <code>.md</code> files and compiles into HTML.
   </p>
   <h4 id="yaml" class="c-heading-small">
     Nunjucks
@@ -105,6 +108,8 @@ subtitle: Want to help? Here's how.
   <p>
     <a href="http://yaml.org/">YAML Ain&#39;t Markup Language (<abbr>YAML</abbr>)</a> is a human-readable markup language that is good for writing structured data. This structured data is used specifically for posts and Eleventy page templates.
   </p>
+
+  <hr class="c-wcag-explanation__divider" />
 
   <h2 id="submitting-content" class="c-heading-large">
     Submitting content
@@ -156,10 +161,10 @@ subtitle: Want to help? Here's how.
     Once you are satisfied with your article&#39;s content, <a href="#submitting-pull-requests">submit a Pull Request</a> so it can be reviewed. Reviews will be conducted using <a href="https://github.com/features/code-review/">GitHub&#39;s review tools</a>. Project maintainers may request additional updates for clarification or technical accuracy.
   </p>
   <p>
-    Be sure to also add yourself to <a href="https://github.com/a11yproject/a11yproject.com/blob/gh-pages/_data/authors.yml"><code>authors.yml</code></a> so you can get credit for your work!
+    Be sure to also add yourself to <a href="TODO: Update link to authors.json"><code>authors.json</code></a> so you can get credit for your work!
   </p>
   <p>
-    Once both the project maintainers and author are satisfied with the article, it will be merged by a project maintainer and published automatically.
+    Once both the project maintainers and author are satisfied with the article, it will be merged by a project maintainer and published automatically. We will also notify you that publication has occured.
   </p>
   <h3 id="events" class="c-heading-medium">
     Events
@@ -194,6 +199,9 @@ subtitle: Want to help? Here's how.
   <p>
     Project maintainers may elect to not accept your submitted content if they feel it is not in line with the site&#39;s goals. This will be handled on a case-by-case basis.
   </p>
+
+  <hr class="c-wcag-explanation__divider" />
+
   <h2 id="fixing-things" class="c-heading-large">
     Fixing things
   </h2>
@@ -205,27 +213,28 @@ subtitle: Want to help? Here's how.
   </p>
   <ol>
     <li>File an <a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=a11yproject-com-bug-report.md">Issue</a>.</li>
-    <li>Preface your Issue title as an:<ul>
-    <li><strong>Inaccuracy</strong> for incorrect or inaccurate information (e.g. &quot;Inaccuracy: Visually hidden CSS missing property declaration&quot;).</li>
-    <li><strong>Inaccessibility</strong> for an accessibility issue (e.g. &quot;Inaccessibility: Low contrast link color&quot;).</li>
-    <li><strong>Bug</strong> for site issues (e.g. &quot;Bug: Link at archive not working&quot;).</li>
-  </ul>
+    <li>Preface your Issue title as an:
+    <ul>
+      <li><strong>Inaccuracy</strong> for incorrect or inaccurate information (e.g. &quot;Inaccuracy: Visually hidden CSS missing property declaration&quot;).</li>
+      <li><strong>Inaccessibility</strong> for an accessibility issue (e.g. &quot;Inaccessibility: Low contrast link color&quot;).</li>
+      <li><strong>Bug</strong> for site issues (e.g. &quot;Bug: Link at archive not working&quot;).</li>
+    </ul>
   </li>
   </ol>
-  <p>
-    <strong>Issues are not to be used for free accessibility help</strong>. Project maintainers may close reported Issues at their discretion.
+  <p id="no-free-help">
+    <strong>Issues are not to be used for free accessibility help</strong>. <a href="/maintainers/">Project maintainers</a> may close reported Issues at their discretion.
   </p>
   <h3 id="submitting-pull-requests" class="c-heading-medium">
     Submitting Pull Requests
   </h3>
   <p>
-    Creating a descriptive <a href="https://github.com/a11yproject/a11yproject.com/issues/new/choose">Issue</a> and assigning it to yourself before you send your Pull Request will help get it accepted. It will provide a better understanding of what your request entails and why it was made. It also helps to link the Issue to the Pull Request and vice-versa (eg. &quot;This Pull Request addresses Issue 213&quot;).
+    Creating a descriptive <a href="https://github.com/a11yproject/a11yproject.com/issues/new/choose">Issue</a> and assigning it to yourself before you send your Pull Request will help get it accepted. Doing so will provide a better understanding of what your request entails and why it was made. It also helps to link the Issue to the Pull Request and vice-versa (eg. &quot;This Pull Request addresses Issue <a href="https://github.com/a11yproject/a11yproject.com/issues/213">213</a>&quot;).
   </p>
   <p>
     Project maintainers may reject Pull Requests at their discretion.
   </p>
   <p>
-    When submitting your Pull Request, please include the text &quot;closes&quot; or &quot;fixes&quot; and then the issue number (e.g. <code>Fixes #101.</code>). This will help us automatically close the issue upon merging the Pull Request.
+    When submitting your Pull Request, please include the text &quot;closes&quot; or &quot;fixes&quot; and then the issue number (e.g. "Fixes #101."). This will help us automatically close the issue upon merging the Pull Request.
   </p>
   <h3 id="stale-issues-and-pull-requests" class="c-heading-medium">
     Stale Issues and Pull Requests

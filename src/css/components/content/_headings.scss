@@ -1,0 +1,34 @@
+// Namespace
+.c-content {
+  h2,
+  h3 {
+    line-height: $line-height-tight;
+
+    // Breakpoints
+    @include mappy-bp(lap-medium) {
+      margin-left: map-get($global-post-content-inset, small) * -1;
+    }
+  }
+
+  // Second-level Heading
+  //
+  // This is the first content sectioning element to use, as the post's title
+  // uses a `h1` element. Second-level heading styling is controlled using the
+  // `heading-beta()` mixin.
+  //
+  // Markup:
+  // <h2>How to navigate a website with a keyboard</h2>
+  //
+  // Style guide: Components.post.h2
+  h2 {
+    @include heading-large();
+
+    code {
+      letter-spacing: $font-tracking-tighter;
+    }
+  }
+
+  h3 {
+    @include heading-medium();
+  }
+}

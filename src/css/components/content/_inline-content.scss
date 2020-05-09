@@ -1,0 +1,104 @@
+// Namespace
+.c-content {
+  blockquote,
+  figcaption,
+  li,
+  p {
+    code {
+      background-color: $color-gray-tint;
+      border: 4px solid $color-gray-tint;
+      font-size: 90%;
+      padding: 0 0.25ch;
+      word-break: normal;
+    }
+  }
+
+  kbd {
+    margin-left: 0.25ch;
+    margin-right: 0.25ch;
+  }
+
+
+  // Blockquote
+  //
+  // TODO: Add a def A passage of text
+  //
+  // Markup:
+  // TODO: Code example w/footer
+  //
+  // Style guide: Components.post.blockquote
+  blockquote {
+    background: $color-white url("#{$path-to-img}/posts/blockquote.svg") no-repeat top 1rem left -0.25rem;
+    margin-left: map-get($global-post-content-inset, small) * -1;
+    padding: 1.5rem 1rem;
+
+    p:first-of-type {
+      margin-bottom: 0;
+    }
+
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      background-position: 1rem 1rem;
+      padding: 1.5rem 2rem;
+    }
+
+    @include mappy-bp(palm-large) {
+      max-width: calc(#{$global-type-measure} * 1.25);
+    }
+
+    footer {
+      font-size: 90%;
+      margin-top: $_c-post-vertical-spacing / 2;
+
+      cite {
+        font-style: normal;
+      }
+    }
+  }
+
+
+
+
+  // Preformatted Text
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.pre
+  pre {
+    margin-left: map-get($global-post-content-inset, small) * -1;
+    width: calc(100% + (#{map-get($global-post-content-inset, small) * 2)});
+
+    // Breakpoints
+    @include mappy-bp(palm-large) {
+      max-width: calc(#{$global-type-measure} * 1.5);
+    }
+
+    // Supports
+    @supports #{$supports-grid} {
+      // Breakpoints
+      @include mappy-bp(lap-medium) {
+        width: 60vw;
+      }
+    }
+
+    code {
+      line-height: $line-height-double;
+    }
+  }
+
+
+  // Table
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.table
+  table {
+    margin-left: map-get($global-post-content-inset, small) * -1;
+  }
+}

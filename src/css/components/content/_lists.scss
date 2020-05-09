@@ -1,0 +1,85 @@
+// Namespace
+.c-content {
+  // Ordered List
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.ol
+  ol {
+    @include preserve-list-semantics();
+
+    counter-reset: ordered-list;
+
+    li {
+      counter-increment: ordered-list;
+
+      &::before {
+        content: counter(ordered-list);
+        display: block;
+        font-family: $font-family-secondary;
+        font-size: 3ex;
+        height: 1rem;
+        position: relative;
+          top: rem(9);
+          right: 1.75rem;
+        width: 1rem;
+      }
+    }
+  }
+
+
+  // Unordered List
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.ul
+  ul {
+    @include preserve-list-semantics();
+
+    li {
+      margin-left: 1.75rem;
+
+      // Breakpoints
+      @include mappy-bp(lap-medium) {
+        margin-left: 0;
+      }
+
+      &::before {
+        content: "─";
+        display: block;
+        font-family: $font-family-secondary;
+        font-size: 2ex;
+        height: 1rem;
+        position: relative;
+          top: rem(20);
+          right: rem(36);
+        width: 1rem;
+      }
+    }
+  }
+
+  // Definition List
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.dl
+  dl {
+    @include preserve-list-semantics();
+
+    dt {
+      font-size: 90%;
+      font-weight: $font-weight-bold;
+      margin-top: 1.5rem;
+      margin-left: map-get($global-post-content-inset, small) * -1;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+// Namespace
+.c-content {
+  // Direct Link
+  //
+  // TODO: Write description.
+  //
+  // Markup:
+  // TODO: Write markup
+  //
+  // Style guide: Components.post.direct-link
+  .direct-link {
+    font-size: 75%;
+    margin-left: 0.15rem;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:focus {
+      // background-color: $color-green;
+      // color: $color-white;
+      // outline: $border-thick solid $color-green;
+    }
+  }
+}

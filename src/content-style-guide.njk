@@ -10,7 +10,7 @@ tags:
   - site
 ---
 
-<article class="l-content c-post__content">
+<article class="l-content c-content">
 
   <p>
     A consistent writing style will help site content feel unified and aid with comprehension. Please check our <a href="/code-of-conduct/">Code of Conduct</a> and <a href="/contributing-guidelines/">Contributing Guidelines</a> before submitting. Questions or concerns about the Content Style Guide can be addressed in the site&#39;s <a href="https://github.com/a11yproject/a11yproject.com/issues">Issue Tracker</a>.
@@ -91,7 +91,7 @@ tags:
     Capitalization
   </h3>
   <ul>
-    <li>Avoid writing in all caps. Some assistive technologies will announce all cap words as individual letters.</li>
+    <li>Avoid writing in all caps. Some assistive technologies will announce words set in all caps as individual letters.</li>
     <li>Capitalize words in a hashtag (e.g. #ThisReadsWell).</li>
   </ul>
   <h3 id="concepts-and-terminology" class="c-heading-medium">
@@ -229,13 +229,13 @@ tags:
     <li>Multimedia should be able to be paused, and should load in a paused state.</li>
     <li>Don&#39;t use multimedia that will automatically steal keyboard focus.</li>
     <li>Multimedia with audio should provide both subtitles and transcripts of any spoken dialog or important sounds.</li>
-    <li>Don&#39;t use multimedia that uses rapidly blinking, flashing, or strobing content. This may trigger photosensitive seizure disorders.</li>
+    <li>Don&#39;t use multimedia that uses <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-three-times.html">rapidly blinking, flashing, or strobing content</a>. This may trigger photosensitive seizure disorders.</li>
   </ul>
   <h3 id="spell-check" class="c-heading-medium">
     Spell-check
   </h3>
   <p>
-    Many code editors have spell checking extensions. Please check your spelling before submitting content. This is a courtesy to both your readers and the people who will review your contribution.
+    Please check your spelling before submitting content. Many code editors have spell checking extensions. This is a courtesy to both your readers and the people who will review your contribution.
   </p>
   <h2 id="markdown" class="c-heading-large">
     Markdown
@@ -288,14 +288,14 @@ tags:
   </h3>
   <ul>
     <li>Links should provide context for the content they link to. Avoid using ambiguous terms like &quot;click here&quot;.</li>
-    <li>Use Markdown-style links (<code>[link text](URL)</code>) instead of HTML.</li>
+    <li>Use Markdown-style links (<code>[link text](URL)</code>) instead of HTML for post content.</li>
     <li>Links should not open in new tabs or windows.</li>
   </ul>
   <h3 id="images" class="c-heading-medium">
     Images
   </h3>
   <ul>
-    <li>Use Markdown-style images (<code>![alternate description](image url)</code>) instead of HTML.</li>
+    <li>Use Markdown-style images (<code>![alternate description](image url)</code>) instead of HTML for post content.</li>
     <li>Provide <a href="https://a11yproject.com/posts/alt-text/">meaningful alternative (alt) descriptions for images</a>. Alt descriptions should concisely describe the image&#39;s content.</li>
     <li>Use complete sentences for your alt descriptions (e.g. <code>![A happy-looking Labrador Retriever puppy sitting in a clay flower pot.](image url)</code>). Including punctuation in your alt description will help some assistive technology pronounce it clearly.</li>
     <li>Do not use ambiguous terms like &quot;image&quot;, &quot;ScreenCapture at Wed Aug 22&quot;, &quot;post image&quot;, etc.</li>
@@ -305,23 +305,23 @@ tags:
     Code
   </h3>
   <ul>
-    <li>Use single backticks to enclose inline code (e.g. The <code>footer</code> element typically contains metadata about its section.).</li>
-    <li>Use triple backticks before and after a multi-line block of code.</li>
+    <li>Use single backticks to enclose inline code for post content (e.g. The <code>`footer`</code> element typically contains metadata about its section.).</li>
+    <li>Use triple backticks before and after a multi-line block of code for post content.</li>
     <li>Do not use multi-line blocks of code to create diagrams, flowcharts, or other illustrations.</li>
   </ul>
   <h3 id="horizontal-rules" class="c-heading-medium">
     Horizontal rules
   </h3>
   <ul>
-    <li>Use three hyphens (<code>---</code>) to create a horizontal rule.</li>
+    <li>Use three hyphens (<code>---</code>) to create a horizontal rule for post content.</li>
     <li>Use horizontal rules for breaks in paragraph content</li>
-    <li>Do not use horizontal rules for decoration.</li>
+    <li>Use horizontal rules for <a href="http://html5doctor.com/small-hr-element/">thematic breaks</a>, and not for decoration.</li>
   </ul>
   <h3 id="inline-html" class="c-heading-medium">
     Inline HTML
   </h3>
   <p>
-    Use HTML only when Markdown cannot accurately describe your content. Use <a href="https://alistapart.com/article/conversational-semantics">relevant, semantic HTML elements</a> and attributes. Examples of this would be:
+    Use HTML only when Markdown cannot accurately describe your post content. Use <a href="https://alistapart.com/article/conversational-semantics">relevant, semantic HTML elements</a> and attributes. Examples of this would be:
   </p>
   <ul>
     <li>A video embed.</li>

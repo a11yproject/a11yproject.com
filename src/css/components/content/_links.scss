@@ -1,0 +1,76 @@
+// Namespace
+.c-content {
+  // Links
+  //
+  // Links navigate to other pages, or parts of the current page. There are two
+  // visual treatments for links, depending on if someone is browsing with a
+  // expressed preference for a reduced motion experience or not.
+  // TODO: LINK TO PREFERS MOTION
+  //
+  // Markup:
+  // <a href="URL">Link text</a>
+  //
+  // Style guide: Components.post.links
+  a {
+    color: $color-green;
+    border-bottom: $border-thinnest solid $color-green;
+    background-image: linear-gradient(120deg, $color-green 0%, $color-green 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0rem;
+    background-position: 0 100%;
+    text-decoration: none;
+    transition:
+      background-size $animation-duration-shorter $animation-easing-character,
+      color $animation-duration-shorter $animation-easing-character,
+      outline $animation-duration-shorter $animation-easing-character;
+
+    // States
+    &:hover,
+    &:focus {
+      background-size: 100% 100%;
+      border-color: $color-green;
+      color: $color-white;
+      outline: $border-thick solid $color-green;
+    }
+
+    &:focus {
+      &:hover {
+        border-bottom-color: $color-white;
+      }
+    }
+
+    &:active {
+      @include shift-click();
+
+      border-bottom: none;
+      background-image: none;
+      color: $color-black;
+      outline: none;
+      transition: none;
+    }
+
+    // User Queries
+    @media screen and (prefers-reduced-motion: reduce) {
+      text-decoration: underline;
+      background: none;
+      border-bottom: none;
+      transition: none;
+
+      // States
+      &:hover {
+        color: $color-green;
+        outline: none;
+        text-decoration: none;
+      }
+
+      &:focus {
+        background-color: $color-green;
+        color: $color-white;
+
+        &:hover {
+          outline: $border-thick solid $color-green;
+        }
+      }
+    }
+  }
+}

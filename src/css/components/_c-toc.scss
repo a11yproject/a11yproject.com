@@ -21,7 +21,7 @@
   list-style-type: none;
 
   // Contexts
-  // [1] SEE: `.c-post__content` in `_c-post.scss`
+  // [1] SEE: `.c-content` in `_c-post.scss`
   .template-post & {
     margin-left: map-get($global-post-content-inset, small); // [1]
 
