@@ -1,44 +1,67 @@
 <nav class="l-footer__features c-footer__subnav" aria-labelledby="features">
-  <h3 id="features" class="c-footer__heading">Features</h3>
+  <h3 id="features" class="c-footer__heading">
+    Features
+  </h3>
   <ul class="c-footer__list">
-    <li>
-      <a class="c-footer__link" href="{{ '/posts/' | url }}">Posts</a>
-    </li>
-    {%- for feature in collections.feature -%}
+    {% set features = collections.all | eleventyNavigation("Feature") %}
+    {% for entry in features %}
       <li>
-        <a class="c-footer__link" href="{{ feature.url | url }}" {% if feature.url == page.url %}aria-current="page"{% endif %}>{{ feature.data.navtitle }}</a>
+        <a
+          class="c-footer__link"
+          href="{{ entry.url | url }}"
+          {% if entry.url == page.url %}aria-current="page"{% endif %}>
+            {{ entry.title }}
+        </a>
       </li>
-    {%- endfor -%}
+    {% endfor %}
   </ul>
 </nav>
 
 <nav class="l-footer__project c-footer__subnav" aria-labelledby="project">
-  <h3 id="project" class="c-footer__heading">Project</h3>
+  <h3 id="project" class="c-footer__heading">
+    Project
+  </h3>
   <ul class="c-footer__list">
-    {%- for project in collections.project -%}
+    {% set project = collections.all | eleventyNavigation("Project") %}
+    {% for entry in project %}
       <li>
-        <a class="c-footer__link" href="{{ project.url | url }}" {% if project.url == page.url %}aria-current="page"{% endif %}>{{ project.data.navtitle }}</a>
+        <a
+          class="c-footer__link"
+          href="{{ entry.url | url }}"
+          {% if entry.url == page.url %}aria-current="page"{% endif %}>
+            {{ entry.title }}
+        </a>
       </li>
-    {%- endfor -%}
+    {% endfor %}
   </ul>
 </nav>
 
-<nav class="l-footer__utility c-footer__subnav" aria-labelledby="utility">
-  <h3 id="utility" class="c-footer__heading">Utility</h3>
+<nav class="l-footer__utility c-footer__subnav" aria-labelledby="site">
+  <h3 id="site" class="c-footer__heading">
+    Site
+  </h3>
   <ul class="c-footer__list">
-    {%- for utility in collections.utility -%}
+    {% set utility = collections.all | eleventyNavigation("Site") %}
+    {% for entry in utility %}
       <li>
-        <a class="c-footer__link" href="{{ utility.url | url }}" {% if utility.url == page.url %}aria-current="page"{% endif %}>{{ utility.data.navtitle }}</a>
+        <a
+          class="c-footer__link"
+          href="{{ entry.url | url }}"
+          {% if entry.url == page.url %}aria-current="page"{% endif %}>
+            {{ entry.title }}
+        </a>
       </li>
-    {%- endfor -%}
+    {% endfor %}
   </ul>
 </nav>
 
 <nav class="l-footer__social c-footer__subnav" aria-labelledby="social">
-  <h3 id="social" class="c-footer__heading">Social</h3>
+  <h3 id="social" class="c-footer__heading">
+    Social
+  </h3>
   <ul class="c-footer__list">
     <li>
-      <a class="c-footer__link" href="">Email</a>
+      <a class="c-footer__link" href="mailto:hello@a11yproject.com">Email</a>
     </li>
     <li>
       <a class="c-footer__link" href="https://twitter.com/A11YProject">Twitter</a>
@@ -47,25 +70,27 @@
       <a class="c-footer__link" href=""><abbr>RSS</abbr></a>
     </li>
     <li>
-      <a class="c-footer__link" href="">Sitemap</a>
+      <a class="c-footer__link" href="/sitemap.xml">Sitemap</a>
     </li>
   </ul>
 </nav>
 
 <nav class="l-footer__support c-footer__subnav" aria-labelledby="support">
-  <h3 id="support" class="c-footer__heading">Support</h3>
+  <h3 id="support" class="c-footer__heading">
+    Support
+  </h3>
   <ul class="c-footer__list">
-    <li>
-      <a class="c-footer__link" href="">Sponsorship</a>
-    </li>
-    <li>
-      <a class="c-footer__link" href="">Open Collective</a>
-    </li>
-    <li>
-      <a class="c-footer__link" href="">Write For Us</a>
-    </li>
-    <li>
-      <a class="c-footer__link" href="https://github.com/a11yproject/a11yproject.com/issues?q=is%3Aissue+is%3Aopen+label%3A%22%5BStatus%5D++Good+First+Issue%22">Good First Issues</a>
-    </li>
+
+    {% set support = collections.all | eleventyNavigation("Support") %}
+    {% for entry in support %}
+      <li>
+        <a
+          class="c-footer__link"
+          href="{{ entry.url | url }}"
+          {% if entry.url == page.url %}aria-current="page"{% endif %}>
+            {{ entry.title }}
+        </a>
+      </li>
+    {% endfor %}
   </ul>
 </nav>
