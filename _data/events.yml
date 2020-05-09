@@ -8,6 +8,31 @@
       date: 2019-09-17
       address: "Convene, 201 Washington St., Boston, MA 02108"
       map: "https://goo.gl/maps/sxkqXSUKJDEz4Ro69"
+    - title: "Intro to Agile Accessibility"
+      description: "In celebration of this year's Global Accessibility Awareness Day (GAAD), Deque is excited to bring you this free webinar on agile accessibility."
+      url: "https://accessibility.deque.com/intro-to-agile-accessibility"
+      type: "Webinar"
+      date: 2020-05-21
+    - title: "Basic Accessibility Fundamentals Bootcamp"
+      description: "In celebration of this year's Global Accessibility Awareness Day (GAAD), Deque is offering free training of its basic accessibility fundamentals boot camp."
+      url: "https://accessibility.deque.com/basic-accessibility-fundamentals-bootcamp"
+      type: "Webinar"
+      date: 2020-05-21
+    - title: "Virtual Panel - Teleworking for People with Disabilities"
+      description: "In celebration of this year's Global Accessibility Awareness Day (GAAD), this virtual panel will discuss teleworking for people with disabilities."
+      url: "https://accessibility.deque.com/teleworking-people-with-disabilities"
+      type: "Webinar"
+      date: 2020-05-21
+    - title: "GAAD 2020: Digital Accessibility Legal Update"
+      description: "In celebration of this year’s Global Accessibility Awareness Day (GAAD), Deque is proud to have attorney Eve Hill, one of the nation’s leading disability rights attorneys from the law firm, Brown, Goldstein & Levy, join us for a digital accessibility legal update."
+      url: "https://accessibility.deque.com/gaad-2020-digital-a11y-legal-update"
+      type: "Webinar"
+      date: 2020-05-20
+    - title: "Accessible Images When It Matters Most"
+      description: "Carie Fisher, Senior Accessibility Consultant at Deque, will review: The different types of images - decorative vs informative (plus actionable, emotional, simple, and complex. Accessibility of informational images created during the COVID-19 pandemic. Which image elements we need to incorporate in our designs to make our images more inclusive to all."
+      url: "https://accessibility.deque.com/accessible-images-when-it-matters-most"
+      type: "Webinar"
+      date: 2020-05-14
     - title: "John Slatin AccessU"
       description: "AccessU is the only three-day, hands-on conference that provides tools that can immediately be put to use by designers, developers, project managers, administrators, and anyone who is responsible for online content and development. John Slatin AccessU teaches those skills in an interactive and communal environment where you will learn everything you need to know about integrating accessibility into your company."
       url: "https://knowbility.org/programs/accessu/2020/"
