@@ -2,11 +2,6 @@
 .c-content {
   // Ordered List
   //
-  // TODO: Write description.
-  //
-  // Markup:
-  // TODO: Write markup
-  //
   // Style guide: Components.post.ol
   ol {
     @include preserve-list-semantics();
@@ -33,11 +28,6 @@
 
   // Unordered List
   //
-  // TODO: Write description.
-  //
-  // Markup:
-  // TODO: Write markup
-  //
   // Style guide: Components.post.ul
   ul {
     @include preserve-list-semantics();
@@ -61,15 +51,15 @@
           right: rem(36);
         width: 1rem;
       }
+
+      ul {
+        margin-top: 0;
+        margin-left: 2rem;
+      }
     }
   }
 
   // Definition List
-  //
-  // TODO: Write description.
-  //
-  // Markup:
-  // TODO: Write markup
   //
   // Style guide: Components.post.dl
   dl {

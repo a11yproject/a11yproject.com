@@ -4,11 +4,10 @@
   //
   // Links navigate to other pages, or parts of the current page. There are two
   // visual treatments for links, depending on if someone is browsing with a
-  // expressed preference for a reduced motion experience or not.
-  // TODO: LINK TO PREFERS MOTION
+  // expressed preference for a <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion'>reduced motion experience or not</a>.
   //
   // Markup:
-  // <a href="URL">Link text</a>
+  // <a href="URL">Link text</.>
   //
   // Style guide: Components.post.links
   a {

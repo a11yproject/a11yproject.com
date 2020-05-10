@@ -5,9 +5,29 @@
 // Styleguide Logic.Mixins.Headings
 
 
-// heading-large
+// heading-largest
 //
 // Weight: 4
+//
+// Applies the third level heading style from a set of 8 heading styles.
+// Used for `h1` elements in generic page temlplates.
+//
+// Styleguide Logic.Mixins.Headings.heading-largest
+@mixin heading-largest() {
+  font-size: 3rem;
+  line-height: $line-height-single;
+  margin-bottom: 1rem;
+
+  // Breakpoints
+  @include mappy-bp(lap-small) {
+    font-size: 3.5rem;
+  }
+}
+
+
+// heading-large
+//
+// Weight: 5
 //
 // Applies the fourth level heading style from a set of 8 heading styles.
 // Used for `h2` elements in blog posts.
@@ -24,7 +44,7 @@
 
 // heading-medium
 //
-// Weight: 5
+// Weight: 6
 //
 // Applies the fifth level heading style from a set of 8 heading styles.
 // Used for `h3` elements in blog posts.
@@ -42,7 +62,7 @@
 
 // heading-small
 //
-// Weight: 6
+// Weight: 7
 //
 // Applies the sixth level heading style from a set of 8 heading styles.
 // Used for `h4` elements in blog posts.

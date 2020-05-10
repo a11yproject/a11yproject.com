@@ -21,11 +21,6 @@
 
   // Blockquote
   //
-  // TODO: Add a def A passage of text
-  //
-  // Markup:
-  // TODO: Code example w/footer
-  //
   // Style guide: Components.post.blockquote
   blockquote {
     background: $color-white url("#{$path-to-img}/posts/blockquote.svg") no-repeat top 1rem left -0.25rem;
@@ -61,11 +56,6 @@
 
   // Preformatted Text
   //
-  // TODO: Write description.
-  //
-  // Markup:
-  // TODO: Write markup
-  //
   // Style guide: Components.post.pre
   pre {
     margin-left: map-get($global-post-content-inset, small) * -1;
@@ -91,11 +81,6 @@
 
 
   // Table
-  //
-  // TODO: Write description.
-  //
-  // Markup:
-  // TODO: Write markup
   //
   // Style guide: Components.post.table
   table {

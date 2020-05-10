@@ -1,10 +1,5 @@
 // Primary Navigation
 //
-// TODO: Write description.
-//
-// Markup:
-// TODO: Write markup
-//
 // Style guide: Components.Navigation.primary-nav
 .c-primary-nav {
   background-color: $color-black;
@@ -31,6 +26,11 @@
   .template-authors &,
   .template-team & {
     background-color: $color-blue-shade;
+  }
+
+  .template-contribute &,
+  .template-generic & {
+    background-color: $color-black;
   }
 }
 

@@ -49,6 +49,17 @@
 //
 // Style guide: Components.Headings.heading-largest
 .c-heading-largest {
+  @include heading-largest();
+}
+
+.c-heading-largest--generic {
+  color: $color-blue-shade;
+
+  & ~ .c-subtitle {
+    font-family: $font-family-secondary;
+    font-size: 1.5rem;
+    line-height: $line-height-tight;
+  }
 }
 
 

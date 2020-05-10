@@ -47,29 +47,30 @@
     }
   }
 
-  .template-resources & {
-    background-color: $color-blue-shade;
-    background-size: contain;
-    background-image: url("#{$path-to-img}/heroes/resources.svg");
+  .template-resources &,
+  .template-about &,
+  .template-authors &,
+  .template-team &,
+  .template-contribute &,
+  .template-404 & {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+
+  .template-resources & {
+    background-color: $color-blue-shade;
+    background-image: url("#{$path-to-img}/heroes/resources.svg");
   }
 
   .template-about & {
     background-color: $color-blue-shade;
     background-image: url("#{$path-to-img}/heroes/about.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
 
   .template-authors &,
   .template-team & {
     background-color: $color-blue-shade;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
 
   .template-authors & {
@@ -78,6 +79,19 @@
 
   .template-team & {
     background-image: url("#{$path-to-img}/heroes/team.svg");
+  }
+
+  .template-contribute &,
+  .template-404 & {
+    background-color: $color-yellow;
+  }
+
+  .template-contribute & {
+    background-image: url("#{$path-to-img}/heroes/contribute.svg");
+  }
+
+  .template-404 & {
+    background-image: url("#{$path-to-img}/heroes/404.svg");
   }
 }
 
@@ -111,6 +125,12 @@
   .template-about & {
     color: $color-yellow-tint;
     background-color: $color-blue-shade;
+    border-top-color: $color-yellow-tint;
+  }
+
+  .template-contribute & {
+    color: $color-yellow-tint;
+    background-color: $color-black;
     border-top-color: $color-yellow-tint;
   }
 

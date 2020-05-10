@@ -2,13 +2,20 @@
 layout: layouts/home.njk
 title: Contributing Guidelines
 subtitle: Want to help? Here's how.
+tags:
+  - project
+templateClass: template-generic
 ---
 
 <article class="l-content c-content">
 
-  <p>
-    Want to help? Here&#39;s how.
+  <h1 id="title" class="c-heading-largest c-heading-largest--generic">
+    {{ title }}
+  </h1>
+  <p class="c-subtitle">
+    {{ subtitle }}
   </p>
+
   <p>
     Please be sure to check our <a href="https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CODE_OF_CONDUCT.md">Code of Conduct</a> and <a href="https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md">Content Style Guide</a> before contributing. Questions or concerns about contributing can be addressed in the site&#39;s <a href="https://github.com/a11yproject/a11yproject.com/issues">Issue Tracker</a>.
   </p>
@@ -109,7 +116,7 @@ subtitle: Want to help? Here's how.
     <a href="http://yaml.org/">YAML Ain&#39;t Markup Language (<abbr>YAML</abbr>)</a> is a human-readable markup language that is good for writing structured data. This structured data is used specifically for posts and Eleventy page templates.
   </p>
 
-  <hr class="c-wcag-explanation__divider" />
+  <hr class="c-divider" />
 
   <h2 id="submitting-content" class="c-heading-large">
     Submitting content
@@ -170,7 +177,7 @@ subtitle: Want to help? Here's how.
     Events
   </h3>
   <p>
-    The A11Y Project used to list regional events, meetups, and webinars. We no longer support this feature. If you are interested in finding an accessibility-related group near you, please check our <a href="/resources/#meetups">Meetups section in Resources</a>.
+    The A11Y Project used to list webinars, regional events, and meetups. We no longer support this feature. If you are interested in finding an accessibility-related group near you, please check our <a href="/resources/#meetups">Meetups section in Resources</a>.
   </p>
   <h3 id="patterns" class="c-heading-medium">
     Patterns
@@ -200,7 +207,7 @@ subtitle: Want to help? Here's how.
     Project maintainers may elect to not accept your submitted content if they feel it is not in line with the site&#39;s goals. This will be handled on a case-by-case basis.
   </p>
 
-  <hr class="c-wcag-explanation__divider" />
+  <hr class="c-divider" />
 
   <h2 id="fixing-things" class="c-heading-large">
     Fixing things

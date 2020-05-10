@@ -1,5 +1,6 @@
 $_wcag-explanation-icon-size: 7rem;
 
+
 .c-wcag-explanation {
   background-color: $color-blue-tint;
   font-family: $font-family-secondary;
@@ -63,10 +64,4 @@ $_wcag-explanation-icon-size: 7rem;
 .c-wcag-explanation__compliance-level {
   display: block;
   font-size: 1.15rem;
-}
-
-.c-wcag-explanation__divider {
-  border: $border-thin solid $color-blue-tint;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 }

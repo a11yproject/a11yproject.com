@@ -1,0 +1,30 @@
+---
+layout: layouts/home.njk
+title: Announcements
+subtitle: A11Y Project news.
+eleventyNavigation:
+  key: Announcements
+  parent: Project
+  order: 4
+tags:
+  - project
+templateClass: template-generic
+---
+
+<article class="l-content">
+
+  <h1 id="title" class="c-heading-largest c-heading-largest--generic">
+    {{ title }}
+  </h1>
+  <p class="c-subtitle">
+    {{ subtitle }}
+  </p>
+
+  <div class="c-card__wrapper">
+    {% set taglist = collections[ "announcement" ] %}
+    {% for post in taglist | reverse %}
+      {% include "post.njk" %}
+    {% endfor %}
+  </div>
+
+</article>
