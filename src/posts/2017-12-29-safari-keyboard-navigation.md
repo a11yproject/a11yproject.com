@@ -3,7 +3,7 @@ layout: post
 title: Safari keyboard navigation
 description: How to enable full keyboard support in Safari, and other browsers on macOS.
 author: scott_vinkle
-category: Quick tip
+category: Quick tips
 date: 2017-12-29
 last_updated: 2018-11-24
 eleventyNavigation:

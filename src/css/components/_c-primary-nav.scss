@@ -105,4 +105,8 @@
     background-color: $color-black;
     color: $color-white;
   }
+
+  &[aria-current="page"] {
+    text-decoration: underline;
+  }
 }

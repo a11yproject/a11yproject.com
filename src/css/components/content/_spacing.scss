@@ -40,10 +40,10 @@
       // This selector targets only the first child paragraph of
       // `.c-content`, allowing us to apply the tl;dr image
       & > p:first-of-type {
+outline: 2px solid tomato;
+        @include lede();
+
         font-family: $font-family-secondary;
-        font-size: 1.15rem;
-        line-height: $line-height-looser;
-        margin-top: 0;
         margin-bottom: $_c-post-vertical-spacing * 1.25;
       }
 

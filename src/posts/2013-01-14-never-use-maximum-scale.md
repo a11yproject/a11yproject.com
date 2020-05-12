@@ -3,7 +3,7 @@ layout: post
 title: Never use <code>maximum-scale=1.0</code>
 description: Why you never ever should use <code>maximum-scale=1.0</code> in your viewport meta tag.
 author: thomas_sjogren
-category: Quick tip
+category: Quick tips
 updated_by: eric_bailey
 last_updated: 2018-11-24
 eleventyNavigation:

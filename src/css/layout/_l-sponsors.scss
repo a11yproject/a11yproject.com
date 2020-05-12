@@ -1,8 +1,28 @@
 .l-sponsors {
   margin-top: 8rem;
+  padding-right: map-get($global-bleed, small);
+  padding-left: map-get($global-bleed, small);
+
+  // Breakpoints
+  @include mappy-bp(lap-medium) {
+    margin-top: 4rem;
+  }
 
   // Supports
   @supports #{$supports-grid} {
+    display: grid;
     grid-area: sponsors;
+    grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  // Breakpoints
+  @include mappy-bp(palm-medium) {
+    grid-template-columns: map-get($global-bleed, large) 1fr map-get($global-bleed, large);
+  }
+
+  @include mappy-bp(lap-medium) {
+    grid-template-columns: map-get($global-bleed, large) 14rem 4rem 1fr map-get($global-bleed, large);
   }
 }

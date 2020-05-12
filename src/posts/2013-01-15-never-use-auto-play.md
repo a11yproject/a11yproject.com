@@ -3,7 +3,7 @@ layout: post
 title: Don't auto-play video, music and more
 description: Why you shouldn't auto-play anything that could distract the user from their main task.
 author: emma_patricios
-category: Quick tip
+category: Quick tips
 eleventyNavigation:
   key: Quick tip
   title: Don't auto-play video, music and more

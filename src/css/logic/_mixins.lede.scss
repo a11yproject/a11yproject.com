@@ -1,0 +1,13 @@
+// lede
+//
+// The lede is the opening sentence or paragraph of a news article, summarizing
+// the most important aspects of the story. The `lede()` mixin allows us to
+// style paragraphs even if they are not the first `p` element present on the
+// page.
+//
+// Styleguide Logic.Mixins.lede
+@mixin lede() {
+  font-size: 1.15rem;
+  line-height: $line-height-double;
+  margin-top: 0;
+}

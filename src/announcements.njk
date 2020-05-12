@@ -21,7 +21,7 @@ templateClass: template-generic
   </p>
 
   <div class="c-card__wrapper">
-    {% set taglist = collections[ "announcement" ] %}
+    {% set taglist = collections[ "announcements" ] %}
     {% for post in taglist | reverse %}
       {% include "post.njk" %}
     {% endfor %}

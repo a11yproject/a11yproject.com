@@ -31,6 +31,10 @@
 
     {% include "footer.njk" %}
 
-    <script async src="{{ '/' | url }}js/main.min.js"></script>
+    {# <script async src="{{ '/' | url }}js/main.min.js"></script> #}
+    <script src="{{ '/' | url }}table-of-contents.js"></script>
+    <script>
+      tableOfContents('[data-toc]', '[data-content]');
+    </script>
   </body>
 </html>

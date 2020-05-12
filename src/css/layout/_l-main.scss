@@ -7,9 +7,9 @@
   .template-authors &,
   .template-team &,
   .template-generic & {
-    margin-left: map-get($global-bleed, small);
-    margin-right: map-get($global-bleed, small);
     margin-top: 2rem;
+    margin-right: map-get($global-bleed, small);
+    margin-left: map-get($global-bleed, small);
 
     // Breakpoints
     @include mappy-bp(lap-medium) {

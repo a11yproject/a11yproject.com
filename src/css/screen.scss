@@ -86,7 +86,9 @@
 @import
   "logic/mixins.clearfix",
   "logic/mixins.headings",
+  "logic/mixins.hero-columns",
   "logic/mixins.hide",
+  "logic/mixins.lede",
   "logic/mixins.preserve-list-semantics",
   "logic/mixins.remove-margin-padding",
   "logic/mixins.responsify",
@@ -174,6 +176,7 @@
   "components/c-homepage-card",
   "components/c-homepage-feature",
   "components/c-last-updated",
+  "components/c-lede",
   "components/c-linkroll",
   "components/c-logo",
   "components/c-person",

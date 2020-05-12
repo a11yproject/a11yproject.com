@@ -1,45 +1,45 @@
 {
   "home": {
     "build-basics": {
-      "label": "Build basics",
+      "title": "Build basics",
       "url": "#learn-the-fundamentals-and-principles-behind-accessible-design"
     },
     "conduct-an-audit": {
-      "label": "Conduct an audit",
+      "title": "Conduct an audit",
       "url": "#conduct-an-accessibility-audit"
     },
-    "cultivate-community": {
-      "label": "Cultivate community",
+    "create-community": {
+      "title": "Create community",
       "url": "#deep-dive-into-resources"
     },
     "explore-resources": {
-      "label": "Explore resources",
+      "title": "Explore resources",
       "url": "#cultivate-community"
     }
   },
   "posts": {
     "background": {
-      "label": "Background",
+      "title": "Background",
       "url": "#background"
     },
     "myths": {
-      "label": "Myths",
+      "title": "Myths",
       "url": "#myths"
     },
     "quick-tests": {
-      "label": "Quick Tests",
+      "title": "Quick Tests",
       "url": "#quick-tests"
     },
     "quick-tips": {
-      "label": "Quick Tips",
+      "title": "Quick Tips",
       "url": "#quick-tips"
     },
     "how-tos": {
-      "label": "How-tos",
+      "title": "How-tos",
       "url": "#how-tos"
     },
     "assistive-technologies": {
-      "label": "Assistive Technologies",
+      "title": "Assistive Technologies",
       "url": "#assistive-technologies"
     }
   }

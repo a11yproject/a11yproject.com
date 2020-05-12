@@ -12,7 +12,7 @@ $_l-post-grid-toc: 1.5fr;
   }
 
   // Supports
-  @supports #{$supports-grid} {
+  @supports #{$supports-subgrid} {
     // Breakpoints
     @include mappy-bp(lap-medium) {
       display: grid;
@@ -28,7 +28,7 @@ $_l-post-grid-toc: 1.5fr;
 
 .l-post__category {
   // Supports
-  @supports #{$supports-grid} {
+  @supports #{$supports-subgrid} {
     grid-area: category;
   }
 }
@@ -36,7 +36,7 @@ $_l-post-grid-toc: 1.5fr;
 
 .l-post__header {
   // Supports
-  @supports #{$supports-grid} {
+  @supports #{$supports-subgrid} {
     // Breakpoints
     @include mappy-bp(lap-medium) {
       display: grid;
@@ -52,7 +52,7 @@ $_l-post-grid-toc: 1.5fr;
 
 .l-post__title {
   // Supports
-  @supports #{$supports-grid} {
+  @supports #{$supports-subgrid} {
     grid-area: title;
   }
 }
@@ -66,14 +66,14 @@ $_l-post-grid-toc: 1.5fr;
   }
 
   // Supports
-  @supports #{$supports-grid} {
+  @supports #{$supports-subgrid} {
     grid-area: metadata;
   }
 }
 
 .l-post__toc {
   // Supports
-  @supports #{$supports-grid} {
+  @supports #{$supports-subgrid} {
     grid-area: toc;
   }
 }
@@ -83,7 +83,7 @@ $_l-post-grid-toc: 1.5fr;
   margin-top: 3rem;
 
   // Supports
-  @supports #{$supports-grid} {
+  @supports #{$supports-subgrid} {
     margin-top: 2rem;
 
     // Breakpoints

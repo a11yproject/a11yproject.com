@@ -1,5 +1,13 @@
 {% for post in postslist | reverse %}
-<article class="c-linkroll {% if post.data.categories == "Quick Tip" %}c-linkroll--quick-tip{% elif post.data.categories == "Quick Tests" %}c-linkroll--quick-tests{% elif post.data.categories == "Myths" %}c-linkroll--myths{% endif %}">
+<article
+  class="c-linkroll
+  {% if post.data.categories == "Quick Tip" %}
+    c-linkroll--quick-tip
+  {% elif post.data.categories == "Quick Tests" %}
+    c-linkroll--quick-tests
+  {% elif post.data.categories == "Myths" %}
+    c-linkroll--myths
+  {% endif %}">
   <a class="c-linkroll__link" {% if post.url == url %}aria-current="page"{% endif %} href="{{ post.url | url }}">
     <div class="c-linkroll__count">
       <p class="c-linkroll__number">021<span class="u-hide-visually">. </span></p>

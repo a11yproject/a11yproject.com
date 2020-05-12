@@ -243,19 +243,6 @@ var processIcons = function (done) {
   done();
 };
 
-
-// mode: {
-//   symbol: {
-//     dest: 'foo',
-//     sprite: 'icons.svg',
-//     example: false
-//   }
-// },
-//   svg: {
-//   xmlDeclaration: false,
-//   doctypeDeclaration: false
-// }
-
 // Optimize SVG files
 var buildSVGs = function (done) {
   // Make sure this feature is activated before running

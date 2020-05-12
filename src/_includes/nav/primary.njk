@@ -26,8 +26,12 @@
     </li>
   {% endfor %}
   <li class="c-primary-nav__list-item">
-    <a href="/contribute/" class="c-primary-nav__link c-primary-nav__link--contribute">
-    Contribute
+    <a class="c-primary-nav__link c-primary-nav__link--contribute"
+      {% if page.url == "/contribute/" %}
+        aria-current="page"
+      {% endif %}
+      href="/contribute/">
+      Contribute
     </a>
   </li>
   </ul>

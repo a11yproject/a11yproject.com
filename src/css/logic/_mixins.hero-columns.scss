@@ -1,0 +1,21 @@
+// hero-columns
+//
+// Used to coordinate column widths between the main hero area and its hero cap.
+//
+// Styleguide Logic.Mixins.hero-columns
+@mixin hero-columns() {
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      display: grid;
+      grid-template-columns: 1fr minmax(0, 60vw) 1fr;
+// grid-template-rows: 3rem;
+// grid-template-areas:
+//   "hollow lip lip";
+    }
+
+    @include mappy-bp(lap-medium) {
+      grid-template-columns: 1fr minmax(0, 45vw) 1fr;
+    }
+  }
+}
