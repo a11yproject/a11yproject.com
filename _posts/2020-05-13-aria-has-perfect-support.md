@@ -43,7 +43,7 @@ ARIA can also be used for interactive controls such as an accordions, tabs, and 
 
 Nearly all ARIA should be inserted and updated dynamically via JavaScript. Very little of it is “hard coded” into the HTML it is manipulating. There are many ways to write this JavaScript. You can use “vanilla” JavaScript, or specialized frameworks such as [Ember](https://emberjs.com/), [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/), [Svelte](https://svelte.dev/), etc. ARIA is compatible with all these frameworks because [it is a standard](https://w3c.github.io/aria/) they observe.
 
-## Support issues
+## Compatibility issues
 
 All web technology has compatibility issues. Compatibility issues are created when there is an interaction between:
 
