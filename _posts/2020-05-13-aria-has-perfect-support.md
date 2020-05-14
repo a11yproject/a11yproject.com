@@ -55,7 +55,7 @@ All web technology has compatibility issues. Compatibility issues are created wh
 
 Compatibility issues means there might be discrepancies in how web technology is understood and shown to the person using it. In many cases, it won’t be shown at all.
 
-ARIA is a web technology. In addition to the issues listed above, it can also have compatibility issues that come from:
+ARIA is a web technology. In addition to the issues listed previously, it can also have compatibility issues that come from:
 
 - The kind of assistive technology being used,
 - The version of the assistive technology being used. 
