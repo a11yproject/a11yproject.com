@@ -28,7 +28,7 @@ further_reading:
 
 ARIA works by supplementing, adding, removing, or overriding information the browser uses to communicate with assistive technology. For example, adding `aria-hidden="true"` to a HTML element will tell the browser not to report the element, or any of its children to assistive technology. 
 
-`aria-hidden="true"` can be useful for situations where you want to remove something that might normally get reported, such as a SVG icon inside a button. If the button already has a text label, removing the icon helps make sure that the experience is easy to understand:
+`aria-hidden="true"` can be useful for situations where you want to remove something that might normally get reported, such as a SVG icon inside a button. If the button already has a text label, removing the icon helps make sure that the experience is easy to understand by removing unnecessary information that would otherwise be exposed by the decorative icon:
 
 ``` html
 <button type="button">
@@ -39,9 +39,9 @@ ARIA works by supplementing, adding, removing, or overriding information the bro
 </button>
 ```
 
-ARIA can also be used for interactive controls such as accordions, tabs, and modals. A thoughtful, skilled application of ARIA can help communicate things like if an accordion is in an expanded state, which tab is currently being viewed, or what is and is not modal content.
+ARIA can also be used for interactive controls such as an accordions, tabs, and modals. A thoughtful, skilled application of ARIA can help communicate things like if an accordion panel is in an expanded state, which tab's corresponding tab panel is currently visible, or what is and is not modal content.
 
-Nearly all ARIA is inserted and updated dynamically via JavaScript. Very little of it is “hard coded” into the HTML it is manipulating. There are many ways to write this JavaScript. You can use “vanilla” JavaScript, or specialized frameworks such as [Ember](https://emberjs.com/), [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/), [Svelte](https://svelte.dev/), etc. ARIA is compatible with all these frameworks because [it is a standard](https://w3c.github.io/aria/) they observe.
+Nearly all ARIA should be inserted and updated dynamically via JavaScript. Very little of it is “hard coded” into the HTML it is manipulating. There are many ways to write this JavaScript. You can use “vanilla” JavaScript, or specialized frameworks such as [Ember](https://emberjs.com/), [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/), [Svelte](https://svelte.dev/), etc. ARIA is compatible with all these frameworks because [it is a standard](https://w3c.github.io/aria/) they observe.
 
 ## Support issues
 
@@ -57,7 +57,7 @@ Compatibility issues means there might be discrepancies in how web technology is
 
 ARIA is a web technology. In addition to the issues listed above, it can also have compatibility issues that come from:
 
-- The kind of assistive technology being used
+- The kind of assistive technology being used,
 - The version of the assistive technology being used. 
 
 Just because you write code that uses ARIA does not mean the ARIA declarations will work as intended. This is the same as expecting modern JavaScript to work on an old browser such as Internet Explorer 11.
