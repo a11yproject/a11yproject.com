@@ -41,7 +41,10 @@ ARIA works by supplementing, adding, removing, or overriding information the bro
 
 ARIA can also be used for interactive controls such as an accordions, tabs, and modals. A thoughtful, skilled application of ARIA can help communicate things like if an accordion panel is in an expanded state, which tab's corresponding tab panel is currently visible, or what is and is not modal content.
 
-Nearly all ARIA should be inserted and updated dynamically via JavaScript. Very little of it is “hard coded” into the HTML it is manipulating. There are many ways to write this JavaScript. You can use “vanilla” JavaScript, or specialized frameworks such as [Ember](https://emberjs.com/), [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/), [Svelte](https://svelte.dev/), etc. ARIA is compatible with all these frameworks because [it is a standard](https://w3c.github.io/aria/) they observe.
+Nearly all ARIA should be inserted and updated dynamically via JavaScript. Very little of it is “hard coded” into the HTML it is manipulating. 
+
+There are many ways to add ARIA to your website or web app using JavaScript. You can use “vanilla” JavaScript, or specialized frameworks such as [Ember](https://emberjs.com/), [Angular](https://angular.io/), [React](https://reactjs.org/), [Vue](https://vuejs.org/), [Svelte](https://svelte.dev/), etc. ARIA is compatible with all these frameworks because [it is a standard](https://w3c.github.io/aria/) they observe.
+
 
 ## Compatibility issues
 
@@ -51,7 +54,7 @@ All web technology has compatibility issues. Compatibility issues are created wh
 - The version of the operating system,
 - The kind of browser running on the operating system,
 - The version of browser running on the operating system,
-- Any modification a person has made to any of the preceding. 
+- Any modifications a person has made to any of the preceding. 
 
 Compatibility issues means there might be discrepancies in how web technology is understood and shown to the person using it. In many cases, it won’t be shown at all.
 
@@ -59,12 +62,15 @@ ARIA is a web technology. In addition to the issues listed previously, it can al
 
 - The kind of assistive technology being used,
 - The version of the assistive technology being used. 
+- Any modifications a person has made. 
 
-Just because you write code that uses ARIA does not mean the ARIA declarations will work as intended. This is the same as expecting modern JavaScript to work on an old browser such as Internet Explorer 11.
+Just because you write code that uses ARIA does not mean the ARIA declarations will work as intended. This is the same as expecting modern JavaScript to work on an older browser such as Internet Explorer 11.
 
 This problem is further complicated in situations where parts of your website or web app use ARIA that relies on different parts of your website or web app that also use ARIA. It can also be affected by [newer ARIA features](https://w3c.github.io/aria/#substantive-changes-since-the-last-public-working-draft) interacting with older features. 
 
-Another thing to keep in mind is that many people who use assistive technology [specifically use older versions of it](https://www.nfb.org/blog/firefox-57-and-screen-reader-compatibility). This helps to ensure compatibility issues are kept to a minimum. Unlike many other other forms of compatibility issues, assistive technology-related compatibility can completely lock a person out of a digital experience, instead of just annoying them.
+Another thing to keep in mind is that many people who use assistive technology [specifically use older versions of it](https://www.nfb.org/blog/firefox-57-and-screen-reader-compatibility). This helps to ensure compatibility issues are kept to a minimum. 
+
+Unlike many other other forms of compatibility issues, assistive technology-related compatibility can completely lock a person out of a digital experience, instead of just annoying them.
 
 
 ## What you can do about it
@@ -89,5 +95,5 @@ Another thing to keep in mind is that many people who use assistive technology [
 
 No. When used responsibly, ARIA helps people who use assistive technology understand the same experiences people browsing without assistive technology do. 
 
-ARIA should be be the last tool you pull out of your toolbox, not your first.
+ARIA should be the last tool you pull out of your toolbox, not your first.
 
