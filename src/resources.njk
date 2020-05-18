@@ -11,15 +11,9 @@ tags:
 templateClass: template-resources
 ---
 
-<nav id="table-of-contents" class="l-toc" aria-label="Table of contents">
-  <ol class="c-toc c-toc--home">
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" aria-current="location" href="#foo">foo</a>
-    </li>
-  </ol>
-</nav>
+{% include "nav/toc.njk" %}
 
-<article class="l-content">
+<article data-content class="l-content">
 
   {% set resource = resources.featured %}
   {% for featuredResource in resource %}
@@ -199,7 +193,7 @@ templateClass: template-resources
     {{ resourceType }}
   </h2>
   <p class="c-preface">
-    Images and icons can help draw a reader in and communicate
+    Images and icons can help draw a reader in and communicate functionality and abstract concepts.
   </p>
   <div class="c-card__wrapper">
     {% set resource = resources.imagesAndIcons %}
@@ -227,7 +221,7 @@ templateClass: template-resources
     {{ resourceType }}
   </h2>
   <p class="c-preface">
-    Unlike websites and web apps, mobile apps need to be installed on the device they're used on. They have different considerations to ensure they're successful.
+    Unlike websites and web apps, mobile apps need to be installed on the device they're used on. They have some different requirements to ensure they're accessibile.
   </p>
   <div class="c-card__wrapper">
     {% set resource = resources.mobileApps %}

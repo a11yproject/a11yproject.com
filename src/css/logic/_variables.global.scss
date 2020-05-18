@@ -16,6 +16,30 @@ $global-bleed: (
 );
 
 
+// global-grid-columns
+//
+// Controls the grid template column sizes of the main content area.
+//
+// Styleguide Logic.Variables.Global.global-bleed
+$global-grid-columns: (
+  small: 1fr minmax(0, 60vw) 1fr,
+  large: 1fr minmax(0, 45vw) 1fr
+);
+
+
+// global-post-content-inset
+//
+// Map that sets the distance of post content from the lefthand side of the
+// viewport.
+//
+// Styleguide Logic.Variables.Global.global-post-content-inset
+$global-post-content-inset: (
+  small: 1rem,
+  medium: 3rem,
+  large: 7rem
+);
+
+
 // global-type-size
 //
 // Sets the initial document font size in pixels. Used for things like `em`
@@ -40,17 +64,4 @@ $global-type-scale: 1.333;
 //
 // Styleguide Logic.Variables.Global.global-type-measure
 $global-type-measure: 68ex;
-
-
-// global-post-content-inset
-//
-// Map that sets the distance of post content from the lefthand side of the
-// viewport.
-//
-// Styleguide Logic.Variables.Global.global-post-content-inset
-$global-post-content-inset: (
-  small: 1rem,
-  medium: 3rem,
-  large: 7rem
-);
 

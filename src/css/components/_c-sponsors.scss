@@ -20,3 +20,16 @@
     background-color: $color-gray-tint;
   }
 }
+
+.c-sponsor__ad {
+  float: left;
+  width: $_sponsor-width;
+  margin-right: 1rem;
+
+  // Supports
+  @supports #{$supports-grid} {
+    float: none;
+    width: unset;
+    margin-left: 0;
+  }
+}

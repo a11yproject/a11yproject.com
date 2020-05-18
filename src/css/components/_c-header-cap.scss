@@ -1,0 +1,49 @@
+// Header Cap
+//
+// The Header cap provides a "lip" area that sticks out below the header,
+// provided the browser can support CSS Grid.
+//
+// <div aria-hidden="true" class="c-header-cap">
+//   <div class="c-header-cap__hollow"></div>
+//   <div class="c-header-cap__lip"></div>
+// </div>
+//
+// Style guide: Components.header-cap
+.c-header-cap {
+  display: none;
+
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      display: grid;
+    }
+  }
+}
+
+.c-header-cap__lip {
+  @supports #{$supports-grid} {
+    // Breakpoints
+    @include mappy-bp(lap-small) {
+      // Contexts
+      .template-posts & {
+        background-color: $color-pink-shade;
+      }
+
+      .template-checklist & {
+        background-color: $color-green;
+      }
+
+      .template-about &,
+      .template-resources &,
+      .template-team &,
+      .template-authors & {
+        background-color: $color-blue-shade;
+      }
+
+      .template-contribute & {
+        background-color: $color-yellow;
+      }
+    }
+  }
+}
+

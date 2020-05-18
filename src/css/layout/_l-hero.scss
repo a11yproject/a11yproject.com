@@ -1,7 +1,13 @@
-.l-hero {
-  @include hero-columns();
+$_hero-columns: (
+  small: 1fr minmax(0, 60vw) 1fr,
+  medium: 1fr minmax(0, 45vw) 1fr
+);
+// $_hero-columns-small: ;
+// map-get($_hero-columns, medium): ;
 
-  height: 80vh;
+
+.l-hero {
+  height: 75vh;
 
   // Supports
   @supports #{$supports-flex} {
@@ -17,8 +23,8 @@
   @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
-// display: grid;
-// grid-template-columns: 1fr minmax(0, 60vw) 1fr;
+      display: grid;
+      grid-template-columns: map-get($_hero-columns, small);
       grid-template-rows: 1fr 1fr 1fr 3rem;
       grid-template-areas:
         ". .    ."
@@ -26,9 +32,9 @@
         ". .    .";
     }
 
-    // @include mappy-bp(lap-medium) {
-    //   grid-template-columns: 1fr minmax(0, 45vw) 1fr;
-    // }
+    @include mappy-bp(lap-medium) {
+      grid-template-columns: map-get($_hero-columns, medium);
+    }
   }
 }
 
@@ -80,29 +86,27 @@
 
 
 
-.hi {
+.l-header__cap {
   @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
       display: grid;
-      grid-template-columns: 1fr minmax(0, 60vw) 1fr;
+      grid-template-columns: map-get($_hero-columns, small);
       grid-template-rows: 3rem;
       grid-template-areas:
         "hollow lip lip";
     }
 
     @include mappy-bp(lap-medium) {
-      grid-template-columns: 1fr minmax(0, 45vw) 1fr;
+      grid-template-columns: map-get($_hero-columns, medium);
     }
   }
 }
 
-.hollow {
+.l-header__hollow {
   grid-area: hollow;
-  background-color: thistle;
 }
 
-.lip {
+.l-header__lip {
   grid-area: lip;
-  background-color: tomato;
 }

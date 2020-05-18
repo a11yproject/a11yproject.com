@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="180px" viewBox="0 0 320 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>vanilla-js-academy</title>
+    <g id="vanilla-js-academy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="320" height="180"></rect>
+        <text id="Vanilla-JS-Academy" font-family="PTSerif-Bold, PT Serif" font-size="14" font-weight="bold" fill="#272727">
+            <tspan x="41" y="48">Vanilla JS Academy</tspan>
+        </text>
+        <text id="A-project-based-onli" font-family="PTSerif-Regular, PT Serif" font-size="16" font-weight="normal" fill="#272727">
+            <tspan x="41" y="72">A project-based online JavaScript </tspan>
+            <tspan x="41" y="92">training program for beginners.</tspan>
+        </text>
+        <rect id="Rectangle" fill="#E5E5E5" x="0" y="0" width="320" height="8"></rect>
+        <rect id="Rectangle" fill="#ED2F37" x="41" y="116" width="100" height="38"></rect>
+        <text id="Join-now-→" font-family="PTSerif-Regular, PT Serif" font-size="14" font-weight="normal" fill="#FFFFFF">
+            <tspan x="55" y="140">Join now </tspan>
+            <tspan x="113.1" y="140" font-family="Symbol">→</tspan>
+        </text>
+        <g id="Group" transform="translate(22.000000, 37.000000)" stroke="#272727" stroke-width="0.8">
+            <circle id="Oval" cx="6" cy="6" r="4.6"></circle>
+            <line x1="6" y1="6.36065275e-17" x2="6" y2="12" id="Line" stroke-linecap="round" stroke-linejoin="round"></line>
+            <line x1="6.14710744" y1="-0.0347107438" x2="6.21652893" y2="12.0347107" id="Line-Copy" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.181818, 6.000000) rotate(-45.000000) translate(-6.181818, -6.000000) "></line>
+            <line x1="6.5" y1="-4.50667607e-32" x2="6.5" y2="12" id="Line-Copy-2" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.500000, 6.000000) rotate(-90.000000) translate(-6.500000, -6.000000) "></line>
+            <line x1="6.21652893" y1="-0.0347107438" x2="6.14710744" y2="12.0347107" id="Line-Copy-3" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.181818, 6.000000) rotate(-135.000000) translate(-6.181818, -6.000000) "></line>
+        </g>
+    </g>
+</svg>

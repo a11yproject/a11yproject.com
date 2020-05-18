@@ -11,7 +11,9 @@ tags:
 templateClass: template-generic
 ---
 
-<article class="l-content c-content">
+{% include "nav/toc.njk" %}
+
+<article data-content class="l-content c-content">
 
   <h1 id="title" class="c-heading-largest c-heading-largest--generic">
     {{ title }}
@@ -30,8 +32,8 @@ templateClass: template-generic
     Themes
   </h3>
   <ul>
-    <li><strong>Short:</strong> Attention spans are limited. Aim for brief, succinct article lengths.</li>
-    <li><strong>Focused:</strong> Keep it digestible and to a single topic. Articles that span multiple areas and topics should be broken up.</li>
+    <li><strong>Short:</strong> Attention spans are limited. Aim for brief, succinct post lengths.</li>
+    <li><strong>Focused:</strong> Keep it digestible and to a single topic. Posts that span multiple areas and topics should be broken up.</li>
     <li><strong>Accessible:</strong> Use plain language and avoid jargon if possible. Explain complicated concepts by breaking them down.</li>
   </ul>
   <h3 id="tone" class="c-heading-medium">
@@ -106,7 +108,7 @@ templateClass: template-generic
     Concepts and terminology
   </h3>
   <p>
-    If possible, link to supporting articles when discussing new concepts and terminology, preferably sites with good accessibility support. This provides the reader with more detail on the subject without having to extend your article&#39;s length. It is also provides an alternate way of understanding the subject you introduce.
+    If possible, link to supporting articles when discussing new concepts and terminology, preferably sites with good accessibility support. This provides the reader with more detail on the subject without having to extend your post&#39;s length. It is also provides an alternate way of understanding the subject you introduce.
   </p>
   <p>
     Avoid analogies, similes, and metaphors that are too reliant on demographic, geography, religion, or culture.
@@ -272,7 +274,7 @@ templateClass: template-generic
     <li>Blog posts should use pound/hash signs (<code>#</code>), not underlines (<code>---</code> or <code>===</code>) to designate headings.</li>
     <li>For non-blog post content, use heading elements (e.g. <code>&lt;h2&gt;</code>).</li>
     <li>Use sentence case for headings (e.g. Don&#39;t auto-play video, music and more).</li>
-    <li>Try to not use headings level 4 through 6. If your content is that detailed, it may need to be broken into separate articles.</li>
+    <li>Try to not use headings level 4 through 6. If your content is that detailed, it may need to be broken into separate posts.</li>
   </ul>
   <h3 id="paragraphs" class="c-heading-medium">
     Paragraphs

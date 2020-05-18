@@ -10,7 +10,9 @@ tags:
 templateClass: template-generic
 ---
 
-<article class="l-content c-content">
+{% include "nav/toc.njk" %}
+
+<article data-content class="l-content c-content">
 
   <h1 id="title" class="c-heading-largest c-heading-largest--generic">
     {{ title }}

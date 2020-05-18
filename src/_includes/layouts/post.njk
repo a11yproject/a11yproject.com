@@ -34,25 +34,11 @@ templateClass: template-post
       {% endif %}
     </p>
 
-    <nav id="table-of-contents" class="l-post__toc c-post__toc" aria-label="Table of contents">
-      <ol class="c-toc c-toc--post">
-        <li class="c-toc__list-item">
-          <a class="c-toc__link" href="">Short answer</a>
-        </li>
-        <li class="c-toc__list-item">
-          <a class="c-toc__link" href="">Example</a>
-        </li>
-        <li class="c-toc__list-item">
-          <a class="c-toc__link" href="">Notes</a>
-        </li>
-        <li class="c-toc__list-item">
-          <a class="c-toc__link" href="">Related posts</a>
-        </li>
-      </ol>
-    </nav>
+    {% include "nav/toc.njk" %}
+
   </header>
 
-  <div id="short-answer" class="l-post__content c-content" itemprop="articleBody">
+  <div data-content id="short-answer" class="l-post__content c-content" itemprop="articleBody">
     {{ content | safe }}
   </div>
 </article>

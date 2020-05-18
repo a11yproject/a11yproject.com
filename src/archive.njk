@@ -12,31 +12,9 @@ tags:
 templateClass: template-posts
 ---
 
-{% include "nav/skipnav.njk" %}
-<nav id="table-of-contents" class="l-toc" aria-label="Table of contents">
-  <ol class="c-toc">
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" aria-current="location" href="#background">Background</a>
-    </li>
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" href="#myths">Myths</a>
-    </li>
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" href="#quick-tests">Quick Tests</a>
-    </li>
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" href="#quick-tips">Quick Tips</a>
-    </li>
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" href="#how-tos">How-tos</a>
-    </li>
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" href="#assistive-technology">Assistive Technology</a>
-    </li>
-  </ol>
-</nav>
+{% include "nav/toc.njk" %}
 
-<article class="l-content">
+<article data-content class="l-content">
 
   {# TODO: Add top latest post #}
   {% for post in top_posts %}

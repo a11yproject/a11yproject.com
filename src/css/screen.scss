@@ -86,7 +86,6 @@
 @import
   "logic/mixins.clearfix",
   "logic/mixins.headings",
-  "logic/mixins.hero-columns",
   "logic/mixins.hide",
   "logic/mixins.lede",
   "logic/mixins.preserve-list-semantics",
@@ -171,6 +170,7 @@
   "components/c-divider",
   "components/c-dos-donts",
   "components/c-footer",
+  "components/c-header-cap",
   "components/c-headings",
   "components/c-hero",
   "components/c-homepage-card",
@@ -197,9 +197,20 @@
   "components/content/embedded";
 
 
-// Media
+// Vendor
 //
 // Weight: 7
+//
+// Stylesheets that affect vendor and third party-supplied code.
+//
+// Styleguide Vendor
+@import
+  "vendor/vendor-toc";
+
+
+// Media
+//
+// Weight: 8
 //
 // Stylesheets for alternate modes of presentation.
 //

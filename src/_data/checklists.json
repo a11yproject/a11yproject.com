@@ -2,8 +2,8 @@
   "content": [
     {
       "title": "Use plain language and avoid figures of speech, idioms, and complicated metaphors.",
-      "wcag": "3.1.2 Language of Parts",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html",
+      "wcag": "3.1.5  Reading Level",
+      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html",
       "description": "Write content at <a href='https://datayze.com/readability-analyzer.php'>an 8th grade reading level</a>."
     },
     {
@@ -14,8 +14,8 @@
     },
     {
       "title": "Use left-aligned text for left-to-right (<abbr>LTR</abbr>) languages, and right-aligned text for right-to-left (<abbr>RTL</abbr>) languages.",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+      "wcag": "1.4.8 Visual Presentation",
+      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html",
       "description": "Centered-aligned or justified text is difficult to read."
     }
   ],
@@ -216,7 +216,7 @@
       "title": "Identify links that open in a new tab or window.",
       "wcag": "G201: Giving users advanced warning when opening a new window",
       "url": "https://www.w3.org/TR/WCAG20-TECHS/G201.html",
-      "description": "Ideally, avoid links that open in a new tab or window. If a link does, ensure the link's behavior will be communicated in a way that is apparent to all users. Doing this will help people understand what will happen before activating the link."
+      "description": "Ideally, avoid links that open in a new tab or window. If a link does, ensure the link's behavior will be communicated in a way that is apparent to all users. Doing this will help people understand what will happen before activating the link. While this technique is technically not required for compliance, it is an often-cited area of frustration for many different kinds of assistive technology users."
     }
   ],
   "tables": [

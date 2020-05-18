@@ -11,7 +11,9 @@ tags:
 templateClass: template-generic
 ---
 
-<article class="l-content c-content">
+{% include "nav/toc.njk" %}
+
+<article data-content class="l-content c-content">
 
   <h1 id="title" class="c-heading-largest c-heading-largest--generic">
     {{ title }}
@@ -20,6 +22,9 @@ templateClass: template-generic
     {{ subtitle }}
   </p>
 
+  <h2 id="privacy" class="c-heading-large">
+    Privacy
+  </h2>
   <p>
     We use <a rel="external noopener" href="https://analytics.google.com/">Google Analytics</a> to collect basic information, including data on pages visited, amount of time spent, generalized geographic information, and incoming and outgoing sites. This information is used to help make improvements to the website's content and design. If you wish to opt out of data collection, you can do so with <a rel="external noopener" href="https://tools.google.com/dlpage/gaoptout">the Google Analytics Opt-out Browser Add-on</a>.
   </p>

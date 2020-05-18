@@ -18,6 +18,10 @@
     Eleventy help
     Twitter: @hankchizljaw
 
+    Chris Ferdinandi
+    Table of Contents JavaScript help
+    Twitter: @ChrisFerdinandi
+
     Zach Leatherman
     Eleventy help
     Twitter: @zachleat

@@ -27,6 +27,16 @@ $_card-inset: 1.5rem;
     border-bottom: $border-thinnest solid $color-gray-shade;
     border-left: $border-thinnest solid $color-gray-shade;
     margin-right: 1.25rem;
+
+    // States
+    &:hover {
+      background-color: $color-white;
+    }
+
+    // User Queries
+    @media screen and (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
   }
 }
 
@@ -87,4 +97,3 @@ $_card-inset: 1.5rem;
   margin-top: 1rem;
   max-width: $global-type-measure;
 }
-

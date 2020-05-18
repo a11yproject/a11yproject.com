@@ -11,7 +11,9 @@ tags:
 templateClass: template-generic
 ---
 
-<article class="l-content c-content">
+{% include "nav/toc.njk" %}
+
+<article data-content class="l-content c-content">
 
   <h1 id="title" class="c-heading-largest c-heading-largest--generic">
     {{ title }}
@@ -59,7 +61,7 @@ templateClass: template-generic
     If you have a GitHub account
   </h3>
   <p>
-    <a href="https://github.com/a11yproject/a11yproject.com/issues">Submit an Issue</a> with a suitable subject line. For example, content about the JAWS screen reader could be, "New assistive technology article about JAWS" somewhere in the subject.
+    <a href="https://github.com/a11yproject/a11yproject.com/issues">Submit an Issue</a> with a suitable subject line. For example, content about the JAWS screen reader could be, "New assistive technology post about JAWS" somewhere in the subject.
   </p>
   <h3 id="if-you-do-not-have-a-github-account" class="c-heading-medium">
     If you do not have a GitHub account
@@ -85,7 +87,7 @@ templateClass: template-generic
   <ul>
     <li><strong>Polish.</strong> A thorough editorial process conducted by experienced digital accessibility practitioners will help your content shine.</li>
     <li>
-      <strong>Compensation.</strong> We value and respect your opinions and expertise. As such, we can offer payment for published content. Each article that has been reviewed and published will be paid $75.00 USD.
+      <strong>Compensation.</strong> We value and respect your opinions and expertise. As such, we can offer payment for published content. Each post that has been reviewed and published will be paid $75.00 USD.
       <ul>
         <li>Payment will be conducted via PayPal. We are also willing to use other services, should circumstances require it.</li>
         <li>If you prefer, payment can be issued to a nonprofit of your choice instead. </li>

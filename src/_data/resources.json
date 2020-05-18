@@ -593,6 +593,12 @@
   ],
   "htmlAndAria": [
     {
+      "title": "a11ysupport.io",
+      "description": "Will your code work with assistive technologies?",
+      "additional": "Michael Fairchild",
+      "url": "https://a11ysupport.io/"
+    },
+    {
       "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.1",
       "description": "Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities.",
       "additional": "W3C",

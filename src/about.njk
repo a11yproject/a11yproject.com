@@ -11,21 +11,9 @@ tags:
 templateClass: template-about
 ---
 
-<nav id="table-of-contents" class="l-toc" aria-label="Table of contents">
-  <ol class="c-toc c-toc--home">
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" aria-current="location" href="#why-accessibility-is-important">Why accessibility is important</a>
-    </li>
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" href="#what-does-the-term-a11y-mean?">What does the term A11Y mean?</a>
-    </li>
-    <li class="c-toc__list-item">
-      <a class="c-toc__link" href="#about-this-site">About this site</a>
-    </li>
-  </ol>
-</nav>
+{% include "nav/toc.njk" %}
 
-<article class="l-content c-content">
+<article data-content class="l-content c-content">
 
   <p class="c-lede">
     Accessibility can be a complex and difficult topic. The Accessibility Project understands this and wants to help make it easier to implement on the web. Our goal is to accomplish this with three principles in mind:
@@ -69,7 +57,7 @@ templateClass: template-about
     This site is built collaboratively on <a rel="external noopener" href="https://github.com/a11yproject/a11yproject.com/">GitHub</a> using <a rel="external noopener" href="https://www.11ty.io/">Eleventy</a>.
   </p>
   <p>
-    Through the power of Open Source we’re committed to incrementally improving our own site’s accessibility. If you are knowledgeable about accessibility and want to help, please consider contributing! We always welcome help with writing articles, editing, and providing information, resources, and feedback.
+    Through the power of Open Source we’re committed to incrementally improving our own site’s accessibility. If you are knowledgeable about accessibility and want to help, please consider contributing! We always welcome help with writing posts, editing, and providing information, resources, and feedback.
   </p>
 
 </article>

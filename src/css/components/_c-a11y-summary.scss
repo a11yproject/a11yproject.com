@@ -68,6 +68,7 @@
   font-size: 1rem;
   margin-top: 2rem;
   max-width: 40ch;
+  text-align: center;
 
   // Breakpoints
   @include mappy-bp(palm-medium) {

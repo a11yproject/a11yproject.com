@@ -19,8 +19,12 @@
     https://github.com/ericwbailey/enchilada/blob/master/source/meta/platform/microsoft.hbs
     https://github.com/ericwbailey/enchilada/blob/master/source/meta/platform/android.hbs #}
     {# TODO: Perf: https://github.com/ericwbailey/enchilada/tree/master/source/meta/performance #}
+
   </head>
   <body {% if templateClass %} class="{{ templateClass }}"{% endif %}>
+
+    {% include "nav/skipnav.njk" %}
+
     {% include "header.njk" %}
 
     <main id="main" class="l-main">
@@ -32,9 +36,16 @@
     {% include "footer.njk" %}
 
     {# <script async src="{{ '/' | url }}js/main.min.js"></script> #}
-    <script src="{{ '/' | url }}table-of-contents.js"></script>
-    <script>
-      tableOfContents('[data-toc]', '[data-content]');
-    </script>
+
+<script src="{{ '/' | url }}js/table-of-contents.js"></script>
+<script>
+  tableOfContents('[data-content]', '[data-toc]', {
+    levels: 'h2, h3'
+});
+</script>
+
+
+
+
   </body>
 </html>

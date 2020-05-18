@@ -1,7 +1,8 @@
 <aside id="sponsors" class="l-sponsors c-sponsors" aria-label="Sponsors">
 
-  <a href="https://www.invisionapp.com/design-forward-fund">
-    <img alt="InVision Design Forward Fund. Apply now." src="/img/sponsors/invision.svg" />
-  </a>
+  {% set sponsor = sponsors.sponsor %}
+  {% for sponsor in sponsor %}
+    {% include "ad.njk" %}
+  {% endfor %}
 
 </aside>

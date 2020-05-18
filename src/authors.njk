@@ -11,7 +11,9 @@ tags:
 templateClass: template-authors
 ---
 
-<article class="l-content">
+{% include "nav/toc.njk" %}
+
+<article data-content class="l-content">
 
   {% set personRole = "author" %}
   {% set person = authors.author %}

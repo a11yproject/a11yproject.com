@@ -1,0 +1,51 @@
+// tableOfContents.js
+// http://github.com/cferdinandi/table-of-contents
+.vendor-toc {
+  h2 {
+    @include hide("visually");
+  }
+
+  ol {
+    margin-right: 1.5rem;
+    margin-left: map-get($global-bleed, large);
+    padding-top: none;
+    list-style-type: none;
+
+    ol {
+      margin-left: 1.5rem;
+    }
+  }
+
+  li {
+    font-family: $font-family-secondary;
+    letter-spacing: $font-tracking-slight;
+    line-height: $line-height-tighter;
+    margin-top: 1.25rem;
+    text-transform: uppercase;
+
+    // Removing content
+    svg,
+    .direct-link {
+      display: none;
+    }
+
+    li {
+      text-transform: none;
+
+      &:last-of-type {
+        margin-bottom: map-get($global-bleed, large);
+      }
+
+      // Contexts
+      .template-posts &,
+      .template-resources & {
+        display: none;
+      }
+    }
+  }
+
+  a {
+    color: $color-black;
+    text-decoration: none;
+  }
+}
