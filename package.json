@@ -2,7 +2,7 @@
   "name": "the-a11y-project",
   "description": "A community-driven effort to make digital accessibility easier.",
   "homepage": "https://a11yproject.com/",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "Apache-2.0",
   "author": "Dave Rupert <hello@a11yproject.com> (https://daverupert.com/)",
   "contributors": [
