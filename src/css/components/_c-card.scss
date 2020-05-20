@@ -1,19 +1,33 @@
 $_card-inset: 1.5rem;
+$_card-outline: $border-thinner solid;
 
 
 .c-card {
   padding: 1.5rem 2rem;
   margin-left: $_card-inset;
-  transition: $animation-duration-shorter $animation-easing-character background-color;
+  transition:
+    $animation-duration-shorter $animation-easing-character background-color,
+    $animation-duration-shorter $animation-easing-character color;
 
   // Contexts
   &.c-card--post {
-    border: $border-thinnest solid $color-gray-shade;
+    background-color: $color-white;
     margin-top: 1.5rem;
 
     // States
     &:hover {
-      background-color: $color-white;
+      outline: $_card-outline $color-gray-tint;
+    }
+
+    &:focus-within {
+      background-color: $color-blue;
+      outline: $_card-outline $color-blue;
+
+      .c-card__title,
+      .c-card__meta,
+      .c-card__description {
+        color: $color-white;
+      }
     }
 
     // User Queries
@@ -31,6 +45,17 @@ $_card-inset: 1.5rem;
     // States
     &:hover {
       background-color: $color-white;
+    }
+
+    &:focus-within {
+      background-color: $color-green-shade;
+      border-color: $color-green-shade;
+
+      .c-card__title,
+      .c-card__additional,
+      .c-card__description {
+        color: $color-white;
+      }
     }
 
     // User Queries

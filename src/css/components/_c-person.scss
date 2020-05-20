@@ -83,6 +83,12 @@ $_person-photo: (
   min-height: 10rem;
   padding: 1.5rem 4rem 1.5rem 1.5rem;
   max-width: $global-type-measure;
+  transition: $animation-duration-shorter $animation-easing-character background-color;
+
+  // States
+  &:hover {
+    background-color: $color-white;
+  }
 
   // Breakpoints
   @include mappy-bp(palm-medium) {
@@ -96,6 +102,11 @@ $_person-photo: (
 
   @include mappy-bp(lap-medium) {
     padding: 2rem 6rem;
+  }
+
+  // User Queries
+  @media screen and (prefers-reduced-motion: reduce) {
+    transition: none;
   }
 }
 
