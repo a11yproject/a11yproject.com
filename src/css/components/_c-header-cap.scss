@@ -10,12 +10,14 @@
 //
 // Style guide: Components.header-cap
 .c-header-cap {
-  display: none;
+  height: 2rem;
 
+  // Supports
   @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
       display: grid;
+      height: unset;
     }
   }
 }

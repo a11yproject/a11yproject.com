@@ -40,16 +40,15 @@
       // This selector targets only the first child paragraph of
       // `.c-content`, allowing us to apply the tl;dr image
       & > p:first-of-type {
-outline: 2px solid tomato;
-        @include lede();
-
+        font-size: 1.25rem;
         font-family: $font-family-secondary;
+        line-height: $line-height-looser;
+        margin-top: 0;
         margin-bottom: $_c-post-vertical-spacing * 1.25;
       }
 
       // Breakpoints
       @include mappy-bp(lap-medium) {
-        font-size: 1.25rem;
         margin-bottom: $_c-post-vertical-spacing * 1.5;
       }
 

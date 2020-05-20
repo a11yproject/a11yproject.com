@@ -6,10 +6,14 @@
   }
 
   ol {
-    margin-right: 2rem;
-    margin-left: map-get($global-bleed, large);
     padding-top: none;
     list-style-type: none;
+
+    // Breakpoints
+    @include mappy-bp(lap-medium) {
+      margin-right: 2rem;
+      margin-left: map-get($global-bleed, large);
+    }
 
     ol {
       margin-left: 1.5rem;

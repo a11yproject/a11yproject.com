@@ -32,4 +32,8 @@
   h3 {
     @include heading-medium();
   }
+
+  h4 {
+    @include heading-small();
+  }
 }

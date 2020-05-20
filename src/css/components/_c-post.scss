@@ -40,12 +40,7 @@ $_c-post-vertical-spacing: 4ex;
       padding-left: map-get($global-post-content-inset, medium);
     }
 
-    @include mappy-bp(lap-small) {
-      font-size: 1.25rem;
-    }
-
     @include mappy-bp(lap-medium) {
-      font-size: 1.25rem;
       padding-left: map-get($global-post-content-inset, medium);
     }
 
