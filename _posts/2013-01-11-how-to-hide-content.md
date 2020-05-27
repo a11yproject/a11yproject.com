@@ -54,7 +54,7 @@ This will ensure that if an interactive element receives focus, the styles of th
 
 ## Alternatives to `display: none`
 
-The `aria-hidden="true"` attribute produces the opposite affect of the `.visually-hidden` class. It hides content from assistive technology, but not visually. This can be helpful in cases where there are visual cues that screen readers do not need to announce, such as decorative icons that accompany text labels.
+The `aria-hidden="true"` attribute produces the opposite effect of the `.visually-hidden` class. It hides content from assistive technology, but not visually. This can be helpful in cases where there are visual cues that screen readers do not need to announce, such as decorative icons that accompany text labels.
 
 There may be instances where content hidden by `aria-hidden` may also need to be visually hidden as well. Rather than toggling another class on the element, the `aria-hidden` attribute could be used as the selecor:
 
