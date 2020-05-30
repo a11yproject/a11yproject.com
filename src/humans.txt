@@ -1,38 +1,38 @@
 /* TEAM */
-    Eric Bailey
-    Contact: eric.w.bailey [at] gmail.com
-    Twitter: @ericwbailey
+	Eric Bailey
+	Contact: eric.w.bailey [at] gmail.com
+	Twitter: @ericwbailey
 
-    Firstname Lastname
-    Twitter: @account
+	Firstname Lastname
+	Twitter: @account
 
 
 /* THANKS */
 
-    Firstname Lastname
-    Reason
-    Twitter: @account
-    From: City, State, Country
+	Firstname Lastname
+	Reason
+	Twitter: @account
+	From: City, State, Country
 
-    Andy Bell
-    Eleventy help
-    Twitter: @hankchizljaw
+	Andy Bell
+	Eleventy help
+	Twitter: @hankchizljaw
 
-    Chris Ferdinandi
-    Table of Contents JavaScript help
-    Twitter: @ChrisFerdinandi
+	Chris Ferdinandi
+	Table of Contents JavaScript help
+	Twitter: @ChrisFerdinandi
 
-    Zach Leatherman
-    Eleventy help
-    Twitter: @zachleat
+	Zach Leatherman
+	Eleventy help
+	Twitter: @zachleat
 
 
 /* SITE */
-    Language: English
-    Doctype: HTML5
-    Code: Visual Studio Code
-    Design: Figma
-    Browsers: Chrome, Edge, Firefox, Internet Explorer, Safari
-    Operating Systems: macOS, Windows
-    Services: GitHub, Gmail
-    Software: iTerm,
+	Language: English
+	Doctype: HTML5
+	Code: Visual Studio Code
+	Design: Figma
+	Browsers: Chrome, Edge, Firefox, Internet Explorer, Safari
+	Operating Systems: macOS, Windows
+	Services: GitHub, Gmail
+	Software: iTerm,
