@@ -2,134 +2,134 @@
 //
 // Style guide: Components.linkroll
 .c-linkroll {
-  background-color: $color-white;
+	background-color: $color-white;
 
-  &:not(:first-of-type) {
-    margin-top: 1.25rem;
-  }
+	&:not(:first-of-type) {
+		margin-top: 1.25rem;
+	}
 }
 
 .c-linkroll__link {
-  text-decoration: none;
-  transition:
-    background-color $animation-duration-shorter $animation-easing-character,
-    color $animation-duration-shorter $animation-easing-character;
+	text-decoration: none;
+	transition:
+		background-color $animation-duration-shorter $animation-easing-character,
+		color $animation-duration-shorter $animation-easing-character;
 
-  // States
-  &:hover,
-  &:focus {
-    background-color: $color-gray-shade;
+	// States
+	&:hover,
+	&:focus {
+		background-color: $color-gray-shade;
 
-    // Contexts
-    .c-linkroll--myths & {
-      background-color: $color-pink-shade;
-    }
+		// Contexts
+		.c-linkroll--myths & {
+			background-color: $color-pink-shade;
+		}
 
-    .c-linkroll--quick-tests & {
-      background-color: $color-blue;
-    }
+		.c-linkroll--quick-tests & {
+			background-color: $color-blue;
+		}
 
-    .c-linkroll--quick-tip & {
-      background-color: $color-green;
-    }
+		.c-linkroll--quick-tip & {
+			background-color: $color-green;
+		}
 
-    .c-linkroll__title,
-    .c-linkroll__category {
-      color: $color-white;
-    }
-  }
+		.c-linkroll__title,
+		.c-linkroll__category {
+			color: $color-white;
+		}
+	}
 
-  // Supports
-  @supports #{$supports-flex} {
-    display: flex;
-  }
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+	}
 
-  // User Queries
-  @media screen and (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }
 
 
 .c-linkroll__count {
-  background-color: $color-gray-shade;
-  padding: 1rem;
-  min-width: 5rem;
-  min-height: 7rem;
+	background-color: $color-gray-shade;
+	padding: 1rem;
+	min-width: 5rem;
+	min-height: 7rem;
 
-  &::before {
-    content: "\2116";
-    color: $color-white;
-    line-height: $line-height-single;
-  }
+	&::before {
+		content: "\2116";
+		color: $color-white;
+		line-height: $line-height-single;
+	}
 
-  // Supports
-  @supports #{$supports-flex} {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 
-  // Contexts
-  .c-linkroll--myths & {
-    background-color: $color-pink-shade;
-  }
+	// Contexts
+	.c-linkroll--myths & {
+		background-color: $color-pink-shade;
+	}
 
-  .c-linkroll--quick-tests & {
-    background-color: $color-blue;
-  }
+	.c-linkroll--quick-tests & {
+		background-color: $color-blue;
+	}
 
-  .c-linkroll--quick-tip & {
-    background-color: $color-green;
-  }
+	.c-linkroll--quick-tip & {
+		background-color: $color-green;
+	}
 }
 
 
 .c-linkroll__number {
-  color: $color-white;
-  font-size: 2rem;
-  line-height: $line-height-single;
-  letter-spacing: $font-tracking-tight;
+	color: $color-white;
+	font-size: 2rem;
+	line-height: $line-height-single;
+	letter-spacing: $font-tracking-tight;
 }
 
 
 .c-linkroll__content {
-  padding: 1.25rem 1.75rem;
+	padding: 1.25rem 1.75rem;
 
-  // Supports
-  @supports #{$supports-flex} {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 }
 
 
 .c-linkroll__title {
-  color: $color-black;
-  border-bottom: $border-thinner solid transparent; // Prevents linkroll's height from shifting when hovered
-  font-size: 1.25rem;
-  line-height: $line-height-tight;
-  text-decoration: none;
+	color: $color-black;
+	border-bottom: $border-thinner solid transparent; // Prevents linkroll's height from shifting when hovered
+	font-size: 1.25rem;
+	line-height: $line-height-tight;
+	text-decoration: none;
 }
 
 
 .c-linkroll__category {
-  display: inline-block;
-  font-size: 0.75rem;
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
+	display: inline-block;
+	font-size: 0.75rem;
+	margin-bottom: 0.5rem;
+	text-transform: uppercase;
 
-  // Contexts
-  .c-linkroll--myths & {
-    color: $color-pink-shade;
-  }
+	// Contexts
+	.c-linkroll--myths & {
+		color: $color-pink-shade;
+	}
 
-  .c-linkroll--quick-tests & {
-    color: $color-blue;
-  }
+	.c-linkroll--quick-tests & {
+		color: $color-blue;
+	}
 
-  .c-linkroll--quick-tip & {
-    color: $color-green;
-  }
+	.c-linkroll--quick-tip & {
+		color: $color-green;
+	}
 }

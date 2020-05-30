@@ -10,22 +10,22 @@
 //
 // Styleguide Logic.Mixins.hide
 @mixin show($how: visually) {
-  // Hide only visually, but have it available for screen readers: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-  @if ($how == "visually") {
+	// Hide only visually, but have it available for screen readers: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+	@if ($how == "visually") {
 
-  }
-  // Hide visually and from screen readers, but maintain layout
-  @else if ($how == "hidden") {
-    visibility: hidden !important;
-  }
-  // Maintain layout, but make fully transparent
-  @else if ($how == "invisible") {
-    opacity: 0;
-  }
-  // Completely remove content
-  @else if ($how == "remove") {
-    display: none !important;
-  } @else {
-    @error "`#{$how}` + is an invalid argument. Please use `visually`, `invisible`, `hidden`, or `remove`";
-  }
+	}
+	// Hide visually and from screen readers, but maintain layout
+	@else if ($how == "hidden") {
+		visibility: hidden !important;
+	}
+	// Maintain layout, but make fully transparent
+	@else if ($how == "invisible") {
+		opacity: 0;
+	}
+	// Completely remove content
+	@else if ($how == "remove") {
+		display: none !important;
+	} @else {
+		@error "`#{$how}` + is an invalid argument. Please use `visually`, `invisible`, `hidden`, or `remove`";
+	}
 }

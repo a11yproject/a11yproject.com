@@ -50,76 +50,76 @@
 // Styleguide Base.table
 table {
 
-  caption {
-  }
+	caption {
+	}
 
-  // Styles all table rows
-  tr {
-    transition: background-color $animation-duration-shorter $animation-easing-character;
+	// Styles all table rows
+	tr {
+		transition: background-color $animation-duration-shorter $animation-easing-character;
 
-    // States
-    &:hover {
-      background-color: $color-white;
-    }
+		// States
+		&:hover {
+			background-color: $color-white;
+		}
 
-    // User Queries
-    @media screen and (prefers-reduced-motion: reduce) {
-      transition: none;
-    }
-  }
+		// User Queries
+		@media screen and (prefers-reduced-motion: reduce) {
+			transition: none;
+		}
+	}
 
-  // Styles all table cells
-  col,
-  th,
-  td {
-    border-color: $color-gray-shade;
-    padding: 0.75rem;
-  }
+	// Styles all table cells
+	col,
+	th,
+	td {
+		border-color: $color-gray-shade;
+		padding: 0.75rem;
+	}
 
-  th {
-    font-weight: $font-weight-bold;
-    vertical-align: bottom;
-  }
+	th {
+		font-weight: $font-weight-bold;
+		vertical-align: bottom;
+	}
 
-  colgroup {
+	colgroup {
 
-    col {
-    }
-  }
+		col {
+		}
+	}
 
-  thead {
-    border-bottom: $border-thinner solid $color-black;
+	thead {
+		border-bottom: $border-thinner solid $color-black;
 
-    tr {
+		tr {
 
-      th {
-        font-family: $font-family-secondary;
-        font-size: 1rem;
-        font-weight: $font-weight-bold;
-      }
-    }
-  }
+			th {
+				font-family: $font-family-secondary;
+				font-size: 1rem;
+				font-weight: $font-weight-bold;
+			}
+		}
+	}
 
-  tbody {
+	tbody {
 
-    tr {
-      th {
-        border-top: $border-thinnest solid currentColor;
-      }
+		tr {
+			th {
+				border-top: $border-thinnest solid currentColor;
+			}
 
-      td {
-        border-top: $border-thinnest solid currentColor;
-      }
-    }
-  }
+			td {
+				border-top: $border-thinnest solid currentColor;
+			}
+		}
+	}
 
-  tfoot {
+	tfoot {
 
-    tr {
+		tr {
 
-      td {
-        border-top: $border-thinnest solid currentColor;
-      }
-    }
-  }
+			td {
+				border-top: $border-thinnest solid currentColor;
+			}
+		}
+	}
 }

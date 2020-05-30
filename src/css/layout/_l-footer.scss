@@ -2,49 +2,49 @@ $_l-footer-subnav-top-margin: 3rem;
 
 
 .l-footer {
-  // Supports
-  @supports #{$supports-grid} {
-    display: grid;
-    grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
-    grid-template-areas:
-      ". features  ."
-      ". project   ."
-      ". utility   ."
-      ". social    ."
-      ". support   ."
-      ". tagline   ."
-      ". copyright ."
-      ". top       .";
+	// Supports
+	@supports #{$supports-grid} {
+		display: grid;
+		grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
+		grid-template-areas:
+			". features  ."
+			". project   ."
+			". utility   ."
+			". social    ."
+			". support   ."
+			". tagline   ."
+			". copyright ."
+			". top       .";
 
-    // Breakpoints
-    @include mappy-bp(palm-small) {
-      grid-template-columns: map-get($global-bleed, large) 1.75fr 1fr map-get($global-bleed, large);
-      grid-template-areas:
-      ". features  project   ."
-      ". utility   social    ."
-      ". support   support   ."
-      ". tagline   tagline   ."
-      ". copyright copyright ."
-      ". top       top       .";
-    }
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			grid-template-columns: map-get($global-bleed, large) 1.75fr 1fr map-get($global-bleed, large);
+			grid-template-areas:
+				". features  project   ."
+				". utility   social    ."
+				". support   support   ."
+				". tagline   tagline   ."
+				". copyright copyright ."
+				". top       top       .";
+		}
 
-    @include mappy-bp(palm-medium) {
-      grid-template-columns: map-get($global-bleed, large) 0.75fr 0.75fr 1fr map-get($global-bleed, large);
-      grid-template-areas:
-      ". features  project   utility ."
-      ". social    support   tagline       ."
-      ". copyright copyright top     .";
-    }
+		@include mappy-bp(palm-medium) {
+			grid-template-columns: map-get($global-bleed, large) 0.75fr 0.75fr 1fr map-get($global-bleed, large);
+			grid-template-areas:
+				". features  project   utility ."
+				". social    support   tagline       ."
+				". copyright copyright top     .";
+		}
 
-    @include mappy-bp(lap-medium) {
-      grid-template-columns: map-get($global-bleed, large) 0.75fr 0.75fr 1fr 0.75fr 1.5fr map-get($global-bleed, large);
-      grid-template-rows: auto auto 3rem;
-      grid-template-areas:
-        ". features  project   utility   social support ."
-        ". tagline   tagline   tagline   .      .       ."
-        ". copyright copyright copyright .      top     .";
-    }
-  }
+		@include mappy-bp(lap-medium) {
+			grid-template-columns: map-get($global-bleed, large) 0.75fr 0.75fr 1fr 0.75fr 1.5fr map-get($global-bleed, large);
+			grid-template-rows: auto auto 3rem;
+			grid-template-areas:
+				". features  project   utility   social support ."
+				". tagline   tagline   tagline   .      .       ."
+				". copyright copyright copyright .      top     .";
+		}
+	}
 }
 
 
@@ -52,32 +52,32 @@ $_l-footer-subnav-top-margin: 3rem;
 .l-footer__utility,
 .l-footer__social,
 .l-footer__support {
-  margin-top: $_l-footer-subnav-top-margin;
+	margin-top: $_l-footer-subnav-top-margin;
 
-  // Supports
-  @supports #{$supports-grid} {
-    // Breakpoints
-    @include mappy-bp(palm-small) {
-      margin-top: 0;
-    }
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			margin-top: 0;
+		}
+	}
 }
 
 
 .l-footer__utility,
 .l-footer__social,
 .l-footer__support {
-  // Supports
-  @supports #{$supports-grid} {
-    // Breakpoints
-    @include mappy-bp(palm-small) {
-      margin-top: $_l-footer-subnav-top-margin;
-    }
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			margin-top: $_l-footer-subnav-top-margin;
+		}
 
-    @include mappy-bp(palm-medium) {
-      margin-top: 0;
-    }
-  }
+		@include mappy-bp(palm-medium) {
+			margin-top: 0;
+		}
+	}
 }
 
 
@@ -85,93 +85,93 @@ $_l-footer-subnav-top-margin: 3rem;
 .l-footer__project,
 .l-footer__utility,
 .l-footer__social {
-  // Supports
-  @supports #{$supports-grid} {
-    // Breakpoints
-    @include mappy-bp(palm-small) {
-      margin-right: 2rem;
-    }
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			margin-right: 2rem;
+		}
+	}
 }
 
 
 .l-footer__social,
 .l-footer__support {
-  // Supports
-  @supports #{$supports-grid} {
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-      margin-top: $_l-footer-subnav-top-margin;
-    }
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			margin-top: $_l-footer-subnav-top-margin;
+		}
 
-    @include mappy-bp(lap-medium) {
-      margin-top: 0;
-    }
-  }
+		@include mappy-bp(lap-medium) {
+			margin-top: 0;
+		}
+	}
 }
 
 
 .l-footer__features {
-  // Supports
-  @supports #{$supports-grid} {
-    grid-area: features;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: features;
+	}
 }
 
 
 .l-footer__project {
-  // Supports
-  @supports #{$supports-grid} {
-    grid-area: project;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: project;
+	}
 }
 
 
 .l-footer__utility {
-  // Supports
-  @supports #{$supports-grid} {
-    grid-area: utility;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: utility;
+	}
 }
 
 
 .l-footer__social {
-  // Supports
-  @supports #{$supports-grid} {
-    grid-area: social;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: social;
+	}
 }
 
 
 .l-footer__support {
-  // Supports
-  @supports #{$supports-grid} {
-    grid-area: support;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: support;
+	}
 }
 
 
 .l-footer__tagline {
-  // Supports
-  @supports #{$supports-grid} {
-    grid-area: tagline;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: tagline;
+	}
 }
 
 
 .l-footer__copyright {
-  // Supports
-  @supports #{$supports-grid} {
-    align-self: end;
-    grid-area: copyright;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		align-self: end;
+		grid-area: copyright;
+	}
 }
 
 
 .l-footer__top {
-  // Supports
-  @supports #{$supports-grid} {
-    align-self: end;
-    grid-area: top;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		align-self: end;
+		grid-area: top;
+	}
 }

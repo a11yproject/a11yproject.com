@@ -1,128 +1,128 @@
 $_person-distance: (
-  small: 6rem,
-  large: 14rem
+	small: 6rem,
+	large: 14rem
 );
 
 $_person-photo: (
-  small: 8rem,
-  medium: 10rem,
-  large: 12rem
+	small: 8rem,
+	medium: 10rem,
+	large: 12rem
 );
 
 
 .c-person {
-  margin-top: 2rem;
+	margin-top: 2rem;
 
-  &:first-of-type {
-    margin-top: 0;
-  }
+	&:first-of-type {
+		margin-top: 0;
+	}
 }
 
 .c-person__photo-link {
-  // States
-  &:focus {
-    .c-person__photo {
-      transform: scale(1.05);
-    }
-  }
+	// States
+	&:focus {
+		.c-person__photo {
+			transform: scale(1.05);
+		}
+	}
 }
 
 // Photos use background images since we can't control the dimensions of
 // submitted avatars. This centers whatever is added, which hopefully creates a
 // good cropping effect.
 .c-person__photo {
-  background-position: center;
-  background-size: contain;
-  border-radius: map-get($_person-photo, small) * 2;
-  display: inline-block;
-  height: map-get($_person-photo, small);
-  position: absolute;
-    margin-top: -3.5rem;
-    right: 0.25rem;
-  transition: transform $animation-duration-shorter $animation-easing-character;
-  width: map-get($_person-photo, small);
+	background-position: center;
+	background-size: contain;
+	border-radius: map-get($_person-photo, small) * 2;
+	display: inline-block;
+	height: map-get($_person-photo, small);
+	position: absolute;
+		margin-top: -3.5rem;
+		right: 0.25rem;
+	transition: transform $animation-duration-shorter $animation-easing-character;
+	width: map-get($_person-photo, small);
 
-  // User Queries
-  @media screen and (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 
-  // Breakpoints
-  @include mappy-bp(wrist-large) {
-    right: 6vw;
-  }
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		right: 6vw;
+	}
 
-  @include mappy-bp(palm-small) {
-    right: 10vw;
-  }
+	@include mappy-bp(palm-small) {
+		right: 10vw;
+	}
 
-  @include mappy-bp(palm-medium) {
-    height: map-get($_person-photo, small);
-    left: 1rem;
-    margin-top: -2rem;
-    width: map-get($_person-photo, small);
-  }
+	@include mappy-bp(palm-medium) {
+		height: map-get($_person-photo, small);
+		left: 1rem;
+		margin-top: -2rem;
+		width: map-get($_person-photo, small);
+	}
 
-  @include mappy-bp(palm-large) {
-    left: 3rem;
-  }
+	@include mappy-bp(palm-large) {
+		left: 3rem;
+	}
 
-  @include mappy-bp(lap-medium) {
-    height: map-get($_person-photo, large);
-    left: initial;
-    margin-top: -3rem;
-    margin-left: -1rem;
-    right: initial;
-    width: map-get($_person-photo, large);
-  }
+	@include mappy-bp(lap-medium) {
+		height: map-get($_person-photo, large);
+		left: initial;
+		margin-top: -3rem;
+		margin-left: -1rem;
+		right: initial;
+		width: map-get($_person-photo, large);
+	}
 }
 
 .c-person__info {
-  border: $border-thinnest solid $color-black;
-  margin-top: 5rem;
-  min-height: 10rem;
-  padding: 1.5rem 4rem 1.5rem 1.5rem;
-  max-width: $global-type-measure;
-  transition: $animation-duration-shorter $animation-easing-character background-color;
+	border: $border-thinnest solid $color-black;
+	margin-top: 5rem;
+	min-height: 10rem;
+	padding: 1.5rem 4rem 1.5rem 1.5rem;
+	max-width: $global-type-measure;
+	transition: $animation-duration-shorter $animation-easing-character background-color;
 
-  // States
-  &:hover {
-    background-color: $color-white;
-  }
+	// States
+	&:hover {
+		background-color: $color-white;
+	}
 
-  // Breakpoints
-  @include mappy-bp(palm-medium) {
-    margin-left: 5rem;
-    padding-left: 3rem;
-  }
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		margin-left: 5rem;
+		padding-left: 3rem;
+	}
 
-  @include mappy-bp(palm-large) {
-    margin-left: 7rem;
-  }
+	@include mappy-bp(palm-large) {
+		margin-left: 7rem;
+	}
 
-  @include mappy-bp(lap-medium) {
-    padding: 2rem 6rem;
-  }
+	@include mappy-bp(lap-medium) {
+		padding: 2rem 6rem;
+	}
 
-  // User Queries
-  @media screen and (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }
 
 .c-person__link {
-  color: $color-blue-shade;
-  text-decoration-thickness: $border-thinner;
-  text-underline-offset: 0.3em;
+	color: $color-blue-shade;
+	text-decoration-thickness: $border-thinner;
+	text-underline-offset: 0.3em;
 }
 
 .c-person__name {
-  font-family: $font-family-secondary;
-  font-size: 1.5rem;
+	font-family: $font-family-secondary;
+	font-size: 1.5rem;
 }
 
 .c-person__biography {
-  font-family: $font-family-secondary;
-  margin-top: 1rem;
-  max-width: $global-type-measure;
+	font-family: $font-family-secondary;
+	margin-top: 1rem;
+	max-width: $global-type-measure;
 }

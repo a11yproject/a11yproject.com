@@ -14,13 +14,13 @@ kbd,
 pre,
 samp,
 var {
-  font-family: $font-family-code;
-  font-feature-settings: normal;
-  line-height: $line-height-tight;
-  overflow: auto; // [1]
-  white-space: pre-wrap; // [1]
-  word-break: keep-all; // [1]
-  word-wrap: break-word; // [1]
+	font-family: $font-family-code;
+	font-feature-settings: normal;
+	line-height: $line-height-tight;
+	overflow: auto; // [1]
+	white-space: pre-wrap; // [1]
+	word-break: keep-all; // [1]
+	word-wrap: break-word; // [1]
 }
 
 
@@ -44,12 +44,12 @@ var {
 //
 // Styleguide Base.Code.kbd
 kbd {
-  background-color: $color-white;
-  border: rem(4) solid $color-white;
-  border-radius: rem(4);
-  box-shadow: 0 2px 1px 0 $color-gray-shade;
-  padding: 0 0.5ch;
-  word-break: break-word;
+	background-color: $color-white;
+	border: rem(4) solid $color-white;
+	border-radius: rem(4);
+	box-shadow: 0 2px 1px 0 $color-gray-shade;
+	padding: 0 0.5ch;
+	word-break: break-word;
 }
 
 
@@ -62,9 +62,9 @@ kbd {
 //
 // Styleguide Base.Code.pre
 pre {
-  background-color: $color-black;
-  color: $color-white;
-  padding: 1rem 1.5rem;
+	background-color: $color-black;
+	color: $color-white;
+	padding: 1rem 1.5rem;
 }
 
 
@@ -82,7 +82,7 @@ pre {
 //
 // Styleguide Base.Code.samp
 samp {
-  background-color: $color-pink-tint;
+	background-color: $color-pink-tint;
 }
 
 // var

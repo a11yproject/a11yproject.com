@@ -2,56 +2,56 @@
 // http://github.com/cferdinandi/table-of-contents
 .vendor-toc {
 
-  h2 {
-    @include hide("visually");
-  }
+	h2 {
+		@include hide("visually");
+	}
 
-  ol {
-    padding-top: none;
-    list-style-type: none;
-    margin-left: map-get($global-bleed, small);
+	ol {
+		padding-top: none;
+		list-style-type: none;
+		margin-left: map-get($global-bleed, small);
 
-    // Breakpoints
-    @include mappy-bp(lap-medium) {
-      margin-right: 4rem;
-      margin-left: map-get($global-bleed, right);
-    }
+		// Breakpoints
+		@include mappy-bp(lap-medium) {
+			margin-right: 4rem;
+			margin-left: map-get($global-bleed, right);
+		}
 
-    ol {
-      margin-left: 1.5rem;
-    }
-  }
+		ol {
+			margin-left: 1.5rem;
+		}
+	}
 
-  li {
-    font-family: $font-family-secondary;
-    letter-spacing: $font-tracking-slight;
-    line-height: $line-height-tighter;
-    margin-bottom: 1.25rem; // EXCEPTION: Applying a bottom margin instead of top to ensure columns line up properly.
-    text-transform: uppercase;
+	li {
+		font-family: $font-family-secondary;
+		letter-spacing: $font-tracking-slight;
+		line-height: $line-height-tighter;
+		margin-bottom: 1.25rem; // EXCEPTION: Applying a bottom margin instead of top to ensure columns line up properly.
+		text-transform: uppercase;
 
-    // Removing content
-    svg,
-    .direct-link {
-      display: none;
-    }
+		// Removing content
+		svg,
+		.direct-link {
+			display: none;
+		}
 
-    li {
-      text-transform: none;
+		li {
+			text-transform: none;
 
-      &:last-of-type {
-        margin-bottom: map-get($global-bleed, large);
-      }
+			&:last-of-type {
+				margin-bottom: map-get($global-bleed, large);
+			}
 
-      // Contexts
-      .template-posts &,
-      .template-resources & {
-        display: none;
-      }
-    }
-  }
+			// Contexts
+			.template-posts &,
+			.template-resources & {
+				display: none;
+			}
+		}
+	}
 
-  a {
-    color: $color-black;
-    text-decoration: none;
-  }
+	a {
+		color: $color-black;
+		text-decoration: none;
+	}
 }

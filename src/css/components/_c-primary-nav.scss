@@ -2,36 +2,36 @@
 //
 // Style guide: Components.Navigation.primary-nav
 .c-primary-nav {
-  background-color: $color-black;
-  padding: 1rem map-get($global-bleed, large);
+	background-color: $color-black;
+	padding: 1rem map-get($global-bleed, large);
 
-  // Contexts
-  .template-home & {
-    background-color: $color-green-shade;
-  }
+	// Contexts
+	.template-home & {
+		background-color: $color-green-shade;
+	}
 
-  .template-posts & {
-    background-color: $color-pink-shade;
-  }
+	.template-posts & {
+		background-color: $color-pink-shade;
+	}
 
-  .template-checklist & {
-    background-color: $color-green;
-  }
+	.template-checklist & {
+		background-color: $color-green;
+	}
 
-  .template-resources & {
-    background-color: $color-blue-shade;
-  }
+	.template-resources & {
+		background-color: $color-blue-shade;
+	}
 
-  .template-about &,
-  .template-authors &,
-  .template-team & {
-    background-color: $color-blue-shade;
-  }
+	.template-about &,
+	.template-authors &,
+	.template-team & {
+		background-color: $color-blue-shade;
+	}
 
-  .template-contribute &,
-  .template-generic & {
-    background-color: $color-black;
-  }
+	.template-contribute &,
+	.template-generic & {
+		background-color: $color-black;
+	}
 }
 
 

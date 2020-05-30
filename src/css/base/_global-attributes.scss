@@ -16,8 +16,8 @@
 // Styleguide Base.Global Attributes.disabled
 [aria-disabled],
 [disabled] {
-  cursor: not-allowed !important;
-  pointer-events: none !important;
+	cursor: not-allowed !important;
+	pointer-events: none !important;
 }
 
 
@@ -31,7 +31,7 @@
 //
 // Styleguide Base.Global Attributes.hidden
 [hidden] {
-  @include hide(remove);
+	@include hide(remove);
 }
 
 
@@ -44,7 +44,7 @@
 //
 // Styleguide Base.Global Attributes.tabindex
 [tabindex="-1"] {
-  &:focus {
-    outline: none; // Remove outline from non-interactive elements that get focus assigned to them
-  }
+	&:focus {
+		outline: none; // Remove outline from non-interactive elements that get focus assigned to them
+	}
 }

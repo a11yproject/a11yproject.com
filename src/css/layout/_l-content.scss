@@ -1,16 +1,16 @@
 .l-content {
-  margin-top: 3rem;
+	margin-top: 3rem;
 
-  // Contexts
-  .template-post &,
-  .template-about &,
-  .template-resources &,
-  .template-generic & {
-    max-width: $global-type-measure;
-  }
+	// Contexts
+	.template-post &,
+	.template-about &,
+	.template-resources &,
+	.template-generic & {
+		max-width: $global-type-measure;
+	}
 
-  // Supports
-  @supports #{$supports-grid} {
-    grid-area: content;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: content;
+	}
 }

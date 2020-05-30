@@ -6,35 +6,35 @@
 //
 // Styleguide Base.link
 a {
-  color: $color-green;
+// color: $color-green;
 
-  // States
-  &:hover,
-  &:focus {
-    text-decoration: none;
-  }
+	// States
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
 
-  // Styles links that don't have a class declared on them
-  &[href]:not([class]) {
-  }
+	// Styles links that don't have a class declared on them
+	&[href]:not([class]) {
+	}
 
-  // Display links when the `<a>` element has no text value but the href
-  // attribute has a link
-  &[href^="http"]:empty::before {
-    content: attr(href);
-  }
+	// Display links when the `<a>` element has no text value but the href
+	// attribute has a link
+	&[href^="http"]:empty::before {
+		content: attr(href);
+	}
 
-  // External links
-  &[rel~="external"],
-  &[rel~="noopener"],
-  &[href^="http"] {
-  }
+	// External links
+	&[rel~="external"],
+	&[rel~="noopener"],
+	&[href^="http"] {
+	}
 
-  // Downloads
-  &[download] {
-  }
+	// Downloads
+	&[download] {
+	}
 
-  // Email
-  &[href^="mailto"] {
-  }
+	// Email
+	&[href^="mailto"] {
+	}
 }

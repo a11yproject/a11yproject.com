@@ -4,93 +4,93 @@ $_l-post-grid-toc: 1.5fr;
 
 
 .l-post {
-  margin-top: 2rem;
+	margin-top: 2rem;
 
-  // Breakpoints
-  @include mappy-bp(lap-medium) {
-    margin-top: 4rem;
-  }
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		margin-top: 4rem;
+	}
 
-  // Supports
-  @supports #{$supports-subgrid} {
-    // Breakpoints
-    @include mappy-bp(lap-medium) {
-      display: grid;
-      grid-template-columns: $_l-post-grid-category $_l-post-grid-gutter $global-type-measure 1fr $_l-post-grid-toc;
-      grid-template-areas:
-        "header header header header header"
-        "header header header header header"
-        ".      post   post   .      .";
-    }
-  }
+	// Supports
+	@supports #{$supports-subgrid} {
+		// Breakpoints
+		@include mappy-bp(lap-medium) {
+			display: grid;
+			grid-template-columns: $_l-post-grid-category $_l-post-grid-gutter $global-type-measure 1fr $_l-post-grid-toc;
+			grid-template-areas:
+				"header header header header header"
+				"header header header header header"
+				".      post   post   .      .";
+		}
+	}
 }
 
 
 .l-post__category {
-  // Supports
-  @supports #{$supports-subgrid} {
-    grid-area: category;
-  }
+	// Supports
+	@supports #{$supports-subgrid} {
+		grid-area: category;
+	}
 }
 
 
 .l-post__header {
-  // Supports
-  @supports #{$supports-subgrid} {
-    // Breakpoints
-    @include mappy-bp(lap-medium) {
-      display: grid;
-      grid-area: header;
-      grid-template-columns: $_l-post-grid-category $_l-post-grid-gutter $global-type-measure 1fr $_l-post-grid-toc;
-      grid-template-areas:
-        "category . title    . ."
-        ".        . metadata . ."
-        ".        . .        . toc";
-    }
-  }
+	// Supports
+	@supports #{$supports-subgrid} {
+		// Breakpoints
+		@include mappy-bp(lap-medium) {
+			display: grid;
+			grid-area: header;
+			grid-template-columns: $_l-post-grid-category $_l-post-grid-gutter $global-type-measure 1fr $_l-post-grid-toc;
+			grid-template-areas:
+				"category . title    . ."
+				".        . metadata . ."
+				".        . .        . toc";
+		}
+	}
 }
 
 .l-post__title {
-  // Supports
-  @supports #{$supports-subgrid} {
-    grid-area: title;
-  }
+	// Supports
+	@supports #{$supports-subgrid} {
+		grid-area: title;
+	}
 }
 
 .l-post__metadata {
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 
-  // Breakpoints
-  @include mappy-bp(lap-medium) {
-    margin-bottom: 4rem;
-  }
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		margin-bottom: 4rem;
+	}
 
-  // Supports
-  @supports #{$supports-subgrid} {
-    grid-area: metadata;
-  }
+	// Supports
+	@supports #{$supports-subgrid} {
+		grid-area: metadata;
+	}
 }
 
 .l-post__toc {
-  // Supports
-  @supports #{$supports-subgrid} {
-    grid-area: toc;
-  }
+	// Supports
+	@supports #{$supports-subgrid} {
+		grid-area: toc;
+	}
 }
 
 
 .l-post__content {
-  margin-top: 3rem;
+	margin-top: 3rem;
 
-  // Supports
-  @supports #{$supports-subgrid} {
-    margin-top: 2rem;
+	// Supports
+	@supports #{$supports-subgrid} {
+		margin-top: 2rem;
 
-    // Breakpoints
-    @include mappy-bp(lap-medium) {
-      grid-column: 3 / 4;
-      grid-row: 2 / span 3; // Allows the start of the post to sit flush with the ToC
-      margin-top: 0;
-    }
-  }
+		// Breakpoints
+		@include mappy-bp(lap-medium) {
+			grid-column: 3 / 4;
+			grid-row: 2 / span 3; // Allows the start of the post to sit flush with the ToC
+			margin-top: 0;
+		}
+	}
 }

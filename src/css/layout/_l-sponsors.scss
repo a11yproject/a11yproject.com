@@ -2,17 +2,17 @@ $_sponsor-width: rem(320);
 
 
 .l-sponsors {
-  @include clearfix(add);
+	@include clearfix(add);
 
-  margin-top: 8rem;
-  padding: map-get($global-bleed, small) map-get($global-bleed, large);
+	margin-top: 8rem;
+	padding: map-get($global-bleed, small) map-get($global-bleed, large);
 
-  // Supports
-  @supports #{$supports-grid} {
-    @include clearfix(remove);
+	// Supports
+	@supports #{$supports-grid} {
+		@include clearfix(remove);
 
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fill, $_sponsor-width);
-  }
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(auto-fill, $_sponsor-width);
+	}
 }

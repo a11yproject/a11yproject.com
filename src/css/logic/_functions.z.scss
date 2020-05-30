@@ -7,5 +7,5 @@
 //
 // Styleguide Logic.Functions.z
 @function z($index) {
-  @return map-get($z-index, $index);
+	@return map-get($z-index, $index);
 }

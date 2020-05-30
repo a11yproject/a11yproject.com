@@ -10,40 +10,40 @@
 //
 // Style guide: Components.lip
 .c-lip {
-  height: 2rem;
+	height: 2rem;
 
-  // Supports
-  @supports #{$supports-grid} {
-    // Breakpoints
-    @include mappy-bp(lap-small) {
-      height: unset;
-    }
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			height: unset;
+		}
+	}
 }
 
 .c-lip__fill {
-  @supports #{$supports-grid} {
-    // Breakpoints
-    @include mappy-bp(lap-small) {
-      // Contexts
-      .template-posts & {
-        background-color: $color-pink-shade;
-      }
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			// Contexts
+			.template-posts & {
+				background-color: $color-pink-shade;
+			}
 
-      .template-checklist & {
-        background-color: $color-green;
-      }
+			.template-checklist & {
+				background-color: $color-green;
+			}
 
-      .template-about &,
-      .template-resources &,
-      .template-team &,
-      .template-authors & {
-        background-color: $color-blue-shade;
-      }
+			.template-about &,
+			.template-resources &,
+			.template-team &,
+			.template-authors & {
+				background-color: $color-blue-shade;
+			}
 
-      .template-contribute & {
-        background-color: $color-yellow;
-      }
-    }
-  }
+			.template-contribute & {
+				background-color: $color-yellow;
+			}
+		}
+	}
 }

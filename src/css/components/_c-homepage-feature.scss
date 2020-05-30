@@ -2,39 +2,39 @@
 //
 // Style guide: Components.homepage-feature
 .c-homepage-feature {
-  // Contexts
-  &:not(:first-of-type) {
-    margin-top: 6rem;
-  }
+	// Contexts
+	&:not(:first-of-type) {
+		margin-top: 6rem;
+	}
 
-  // Supports
-  @supports #{$supports-grid} {
-    display: grid;
-    gap: 1.5rem;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		display: grid;
+		gap: 1.5rem;
+	}
 }
 
 .c-homepage-feature--50-50 {
-  // Supports
-  @supports #{$supports-grid} {
-    grid-template-columns: 1fr;
+	// Supports
+	@supports #{$supports-grid} {
+		grid-template-columns: 1fr;
 
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
 }
 
 .c-homepage-feature--60-40 {
-  // Supports
-  @supports #{$supports-grid} {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+	// Supports
+	@supports #{$supports-grid} {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto;
 
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-      grid-template-columns: 1.25fr 1.75fr;
-    }
-  }
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			grid-template-columns: 1.25fr 1.75fr;
+		}
+	}
 }

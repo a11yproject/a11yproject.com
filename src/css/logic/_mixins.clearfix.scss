@@ -6,18 +6,18 @@
 //
 // Styleguide Logic.Mixins.clearfix
 @mixin clearfix($add-or-remove) {
-  @if ($add-or-remove == "add") {
-    &::after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-  } @else if ($add-or-remove == "remove") {
-    &::after {
-      display: initial;
-      clear: none;
-    }
-  } @else {
-    @error "`#{$add-or-remove}` + is an invalid argument. Please use either `add` or `remove`.";
-  }
+	@if ($add-or-remove == "add") {
+		&::after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	} @else if ($add-or-remove == "remove") {
+		&::after {
+			display: initial;
+			clear: none;
+		}
+	} @else {
+		@error "`#{$add-or-remove}` + is an invalid argument. Please use either `add` or `remove`.";
+	}
 }

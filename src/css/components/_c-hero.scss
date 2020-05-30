@@ -9,132 +9,132 @@
 //
 // Style guide: Components.hero
 .c-hero {
-  // Contexts
-  .template-home & {
-    background-color: $color-green-shade;
-    background-image: url("#{$path-to-img}/heroes/a11y.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+	// Contexts
+	.template-home & {
+		background-color: $color-green-shade;
+		background-image: url("#{$path-to-img}/heroes/a11y.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-  .template-posts & {
-    background-color: $color-pink-shade;
-    background-image: url("#{$path-to-img}/heroes/posts.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	.template-posts & {
+		background-color: $color-pink-shade;
+		background-image: url("#{$path-to-img}/heroes/posts.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-      background-size: contain;
-    }
-  }
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			background-size: contain;
+		}
+	}
 
-  .template-checklist & {
-    background-color: $color-green;
-    background-image: url("#{$path-to-img}/heroes/checklist.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	.template-checklist & {
+		background-color: $color-green;
+		background-image: url("#{$path-to-img}/heroes/checklist.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-      background-size: contain;
-    }
-  }
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			background-size: contain;
+		}
+	}
 
-  .template-resources &,
-  .template-about &,
-  .template-authors &,
-  .template-team &,
-  .template-contribute &,
-  .template-404 & {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+	.template-resources &,
+	.template-about &,
+	.template-authors &,
+	.template-team &,
+	.template-contribute &,
+	.template-404 & {
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 
-  .template-resources & {
-    background-color: $color-blue-shade;
-    background-image: url("#{$path-to-img}/heroes/resources.svg");
-  }
+	.template-resources & {
+		background-color: $color-blue-shade;
+		background-image: url("#{$path-to-img}/heroes/resources.svg");
+	}
 
-  .template-about & {
-    background-color: $color-blue-shade;
-    background-image: url("#{$path-to-img}/heroes/about.svg");
-  }
+	.template-about & {
+		background-color: $color-blue-shade;
+		background-image: url("#{$path-to-img}/heroes/about.svg");
+	}
 
-  .template-authors &,
-  .template-team & {
-    background-color: $color-blue-shade;
-  }
+	.template-authors &,
+	.template-team & {
+		background-color: $color-blue-shade;
+	}
 
-  .template-authors & {
-    background-image: url("#{$path-to-img}/heroes/authors.svg");
-  }
+	.template-authors & {
+		background-image: url("#{$path-to-img}/heroes/authors.svg");
+	}
 
-  .template-team & {
-    background-image: url("#{$path-to-img}/heroes/team.svg");
-  }
+	.template-team & {
+		background-image: url("#{$path-to-img}/heroes/team.svg");
+	}
 
-  .template-contribute &,
-  .template-404 & {
-    background-color: $color-yellow;
-  }
+	.template-contribute &,
+	.template-404 & {
+		background-color: $color-yellow;
+	}
 
-  .template-contribute & {
-    background-image: url("#{$path-to-img}/heroes/contribute.svg");
-  }
+	.template-contribute & {
+		background-image: url("#{$path-to-img}/heroes/contribute.svg");
+	}
 
-  .template-404 & {
-    background-image: url("#{$path-to-img}/heroes/404.svg");
-  }
+	.template-404 & {
+		background-image: url("#{$path-to-img}/heroes/404.svg");
+	}
 }
 
 .c-hero-summary {
-  border-top-style: solid;
-  border-top-width: $border-thicker;
-  font-family: $font-family-secondary;
-  letter-spacing: $font-tracking-slight;
-  text-transform: uppercase;
-  padding: 0.75rem;
+	border-top-style: solid;
+	border-top-width: $border-thicker;
+	font-family: $font-family-secondary;
+	letter-spacing: $font-tracking-slight;
+	text-transform: uppercase;
+	padding: 0.75rem;
 
-  // Contexts
-  .template-posts & {
-    color: $color-blue-tint;
-    background-color: $color-pink-shade;
-    border-top-color: $color-blue-tint;
-  }
+	// Contexts
+	.template-posts & {
+		color: $color-blue-tint;
+		background-color: $color-pink-shade;
+		border-top-color: $color-blue-tint;
+	}
 
-  .template-checklist & {
-    color: $color-blue-tint;
-    background-color: $color-green;
-    border-top-color: $color-blue-tint;
-  }
+	.template-checklist & {
+		color: $color-blue-tint;
+		background-color: $color-green;
+		border-top-color: $color-blue-tint;
+	}
 
-  .template-resources & {
-    color: $color-green-tint;
-    background-color: $color-blue-shade;
-    border-top-color: $color-green-tint;
-  }
+	.template-resources & {
+		color: $color-green-tint;
+		background-color: $color-blue-shade;
+		border-top-color: $color-green-tint;
+	}
 
-  .template-about & {
-    color: $color-yellow-tint;
-    background-color: $color-blue-shade;
-    border-top-color: $color-yellow-tint;
-  }
+	.template-about & {
+		color: $color-yellow-tint;
+		background-color: $color-blue-shade;
+		border-top-color: $color-yellow-tint;
+	}
 
-  .template-contribute & {
-    color: $color-yellow-tint;
-    background-color: $color-black;
-    border-top-color: $color-yellow-tint;
-  }
+	.template-contribute & {
+		color: $color-yellow-tint;
+		background-color: $color-black;
+		border-top-color: $color-yellow-tint;
+	}
 
-  .template-authors &,
-  .template-team & {
-    color: $color-yellow-tint;
-    background-color: $color-blue-shade;
-    border-top-color: $color-yellow-tint;
-  }
+	.template-authors &,
+	.template-team & {
+		color: $color-yellow-tint;
+		background-color: $color-blue-shade;
+		border-top-color: $color-yellow-tint;
+	}
 }

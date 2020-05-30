@@ -11,65 +11,65 @@
 //
 // Style guide: Components.get-started
 .c-cta-get-started {
-  position: relative;
-    bottom: 2rem;
-  text-align: center;
+	position: relative;
+		bottom: 2rem;
+	text-align: center;
 
-  // Supports
-  @supports #{$supports-grid} {
-    display: grid;
-    grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
-    grid-template-areas: ". get-started .";
+	// Supports
+	@supports #{$supports-grid} {
+		display: grid;
+		grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
+		grid-template-areas: ". get-started .";
 
-    // Breakpoints
-    @include mappy-bp(palm-medium) {
-      grid-template-columns: 1fr minmax(0, 60vw) 1fr;
-      grid-template-areas: ". get-started .";
-    }
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			grid-template-columns: 1fr minmax(0, 60vw) 1fr;
+			grid-template-areas: ". get-started .";
+		}
 
-    @include mappy-bp(lap-medium) {
-      grid-template-columns: 1fr minmax(0, 45vw) 1fr;
-    }
-  }
+		@include mappy-bp(lap-medium) {
+			grid-template-columns: 1fr minmax(0, 45vw) 1fr;
+		}
+	}
 }
 
 
 .c-cta-get-started__link {
-  background-color: $color-pink-tint;
-  border: $border-thick solid $color-sand;
-  color: $color-black;
-  font-family: $font-family-secondary;
-  font-size: 1rem;
-  letter-spacing: $font-tracking-slight;
-  line-height: $line-height-tight;
-  padding: 0.75rem 1rem;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition:
-    background-color $animation-duration-shorter $animation-easing-character,
-    color $animation-duration-shorter $animation-easing-character;
+	background-color: $color-pink-tint;
+	border: $border-thick solid $color-sand;
+	color: $color-black;
+	font-family: $font-family-secondary;
+	font-size: 1rem;
+	letter-spacing: $font-tracking-slight;
+	line-height: $line-height-tight;
+	padding: 0.75rem 1rem;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition:
+		background-color $animation-duration-shorter $animation-easing-character,
+		color $animation-duration-shorter $animation-easing-character;
 
-  // States
-  &:hover,
-  &:focus {
-    background-color: $color-pink;
-    color: $color-white;
-  }
+	// States
+	&:hover,
+	&:focus {
+		background-color: $color-pink;
+		color: $color-white;
+	}
 
-  // Breakpoints
-  @include mappy-bp(wrist-large) {
-    font-size: 1.25rem;
-    padding: 1rem 2rem;
-  }
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		font-size: 1.25rem;
+		padding: 1rem 2rem;
+	}
 
-  // Supports
-  @supports #{$supports-grid} {
-    grid-area: get-started;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: get-started;
+	}
 
-  // User Queries
-  @media screen and (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }

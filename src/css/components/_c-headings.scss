@@ -16,8 +16,8 @@
 .c-heading-small,
 .c-heading-smaller,
 .c-heading-smallest {
-  font-family: $font-family-primary;
-  font-weight: $font-weight-normal;
+	font-family: $font-family-primary;
+	font-weight: $font-weight-normal;
 }
 
 
@@ -49,17 +49,17 @@
 //
 // Style guide: Components.Headings.heading-largest
 .c-heading-largest {
-  @include heading-largest();
+	@include heading-largest();
 }
 
 .c-heading-largest--generic {
-  color: $color-blue-shade;
+	color: $color-blue-shade;
 
-  & ~ .c-subtitle {
-    font-family: $font-family-secondary;
-    font-size: 1.5rem;
-    line-height: $line-height-tight;
-  }
+	& ~ .c-subtitle {
+		font-family: $font-family-secondary;
+		font-size: 1.5rem;
+		line-height: $line-height-tight;
+	}
 }
 
 
@@ -74,9 +74,9 @@
 //
 // Style guide: Components.Headings.heading-larger
 .c-heading-larger {
-  font-size: 2.25rem;
-  letter-spacing: $font-tracking-tight;
-  line-height: $line-height-tight;
+	font-size: 2.25rem;
+	letter-spacing: $font-tracking-tight;
+	line-height: $line-height-tight;
 }
 
 
@@ -91,7 +91,7 @@
 //
 // Style guide: Components.Headings.heading-large
 .c-heading-large {
-  @include heading-large();
+	@include heading-large();
 }
 
 
@@ -106,7 +106,7 @@
 //
 // Style guide: Components.Headings.heading-medium
 .c-heading-medium {
-  @include heading-medium();
+	@include heading-medium();
 }
 
 
@@ -121,7 +121,7 @@
 //
 // Style guide: Components.Headings.heading-small
 .c-heading-small {
-  @include heading-small();
+	@include heading-small();
 }
 
 

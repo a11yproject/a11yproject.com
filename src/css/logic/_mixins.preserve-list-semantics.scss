@@ -6,9 +6,9 @@
 //
 // Styleguide Logic.Mixins.preserve-list-semantics
 @mixin preserve-list-semantics() {
-  list-style-type: none;
+	list-style-type: none;
 
-  li::before {
-      content: "\200B"; // Zero width space
-  }
+	li::before {
+			content: "\200B"; // Zero width space
+	}
 }

@@ -16,6 +16,8 @@
 // Style guide: Components.toc
 .c-toc {
   list-style-type: none;
+outline: 2px solid tomato;
+  max-width: 20ch;
 
   // Contexts
   // [1] SEE: `.c-content` in `_c-post.scss`

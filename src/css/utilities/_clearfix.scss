@@ -15,11 +15,11 @@
 //
 // Styleguide Utilities.Clearfix.u-clearfix-add
 .u-clearfix-add {
-  @include clearfix(add);
+	@include clearfix(add);
  }
 
 
- // u-clearfix-remove
+// u-clearfix-remove
 //
 // Removes a clearfix from an element.
 //
@@ -28,5 +28,5 @@
 //
 // Styleguide Utilities.Clearfix.u-clearfix-remove
 .u-clearfix-remove {
-  @include clearfix(remove);
+	@include clearfix(remove);
 }

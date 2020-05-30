@@ -1,42 +1,42 @@
 .c-sponsors {
-  background-color: $color-green-tint;
+	background-color: $color-green-tint;
 
-  // Contexts
-  .template-posts & {
-    background-color: $color-pink-tint;
-  }
+	// Contexts
+	.template-posts & {
+		background-color: $color-pink-tint;
+	}
 
-  .template-about &,
-  .template-authors &,
-  .template-team & {
-    background-color: $color-blue-tint;
-  }
+	.template-about &,
+	.template-authors &,
+	.template-team & {
+		background-color: $color-blue-tint;
+	}
 
-  .template-contribute & {
-    background-color: $color-yellow-tint;
-  }
+	.template-contribute & {
+		background-color: $color-yellow-tint;
+	}
 
-  .template-generic & {
-    background-color: $color-gray-tint;
-  }
+	.template-generic & {
+		background-color: $color-gray-tint;
+	}
 }
 
 .c-sponsor__link {
-  // States
-  &:focus {
-    outline: $border-thin solid $color-black;
-  }
+	// States
+	&:focus {
+		outline: $border-thin solid $color-black;
+	}
 }
 
 .c-sponsor__ad {
-  float: left;
-  width: $_sponsor-width;
-  margin-right: 1rem;
+	float: left;
+	width: $_sponsor-width;
+	margin-right: 1rem;
 
-  // Supports
-  @supports #{$supports-grid} {
-    float: none;
-    width: unset;
-    margin-left: 0;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		float: none;
+		width: unset;
+		margin-left: 0;
+	}
 }

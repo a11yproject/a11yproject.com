@@ -1,64 +1,64 @@
 .c-footer {
-  background-color: $color-white;
-  font-family: $font-family-secondary;
-  padding: 4rem map-get($global-bleed, large);
+	background-color: $color-white;
+	font-family: $font-family-secondary;
+	padding: 4rem map-get($global-bleed, large);
 
-  // Supports
-  @supports #{$supports-grid} {
-    padding-left: 0;
-    padding-right: 0;
-  }
+	// Supports
+	@supports #{$supports-grid} {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 
 .c-footer__heading {
-  padding-left: 0.5ch;
-  text-transform: uppercase;
+	padding-left: 0.5ch;
+	text-transform: uppercase;
 }
 
 
 .c-footer__list {
-  @include preserve-list-semantics();
+	@include preserve-list-semantics();
 
-  margin-top: 1rem;
+	margin-top: 1rem;
 
-  li {
-    margin-top: 0.5rem;
-  }
+	li {
+		margin-top: 0.5rem;
+	}
 }
 
 
 .c-footer__link {
-  color: $color-black;
-  text-decoration: none;
+	color: $color-black;
+	text-decoration: none;
 
-  // States
-  &:hover,
-  &:focus,
-  &[aria-current="page"] {
-    text-decoration: underline;
-  }
+	// States
+	&:hover,
+	&:focus,
+	&[aria-current="page"] {
+		text-decoration: underline;
+	}
 }
 
 
 .c-footer__tagline {
-  color: $color-blue-shade;
-  font-family: $font-family-primary;
-  font-size: 2rem;
-  line-height: $line-height-single;
-  margin-top: 4rem;
-  max-width: 15ch;
+	color: $color-blue-shade;
+	font-family: $font-family-primary;
+	font-size: 2rem;
+	line-height: $line-height-single;
+	margin-top: 4rem;
+	max-width: 15ch;
 
-  // Breakpoints
-  @include mappy-bp(palm-medium) {
-    margin-top: 5rem;
-  }
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		margin-top: 5rem;
+	}
 
-  @include mappy-bp(lap-medium) {
-    font-size: 3rem;
-    margin-top: 4rem;
-    max-width: 15ch;
-  }
+	@include mappy-bp(lap-medium) {
+		font-size: 3rem;
+		margin-top: 4rem;
+		max-width: 15ch;
+	}
 }
 
 

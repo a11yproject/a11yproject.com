@@ -33,43 +33,43 @@
 //
 // Style guide: Components.logo
 .c-logo__link {
-  display: block;
+	display: block;
 
-  // States
-  &:hover,
-  &:focus {
-    .c-logo__icon {
-      transform: scale(1.15);
-    }
-  }
+	// States
+	&:hover,
+	&:focus {
+		.c-logo__icon {
+			transform: scale(1.15);
+		}
+	}
 
-  // Supports
-  @supports #{$supports-flex} {
-    align-items: flex-end; // Uses `.c-logo__logotype`'s bottom margin
-    display: flex;
-    flex-direction: row;
-  }
+	// Supports
+	@supports #{$supports-flex} {
+		align-items: flex-end; // Uses `.c-logo__logotype`'s bottom margin
+		display: flex;
+		flex-direction: row;
+	}
 }
 
 
 .c-logo__icon {
-  fill: $color-white;
-  transition: transform $animation-duration-shortest $animation-easing-character; // SEE: `.c-logo__link`'s hover/focus states
+	fill: $color-white;
+	transition: transform $animation-duration-shortest $animation-easing-character; // SEE: `.c-logo__link`'s hover/focus states
 
-  // User Queries
-  @media screen and (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }
 
 .c-logo__wordmark {
-  @include hide(remove); // Allows more space for the primary nav list before we have to use a menu
+	@include hide(remove); // Allows more space for the primary nav list before we have to use a menu
 
-  // Breakpoints
-  @include mappy-bp(palm-large) {
-    display: unset !important;
-    fill: $color-white;
-    margin-left: 0.75rem;
-    margin-bottom: 0.5rem;
-  }
+	// Breakpoints
+	@include mappy-bp(palm-large) {
+		display: unset !important;
+		fill: $color-white;
+		margin-left: 0.75rem;
+		margin-bottom: 0.5rem;
+	}
 }

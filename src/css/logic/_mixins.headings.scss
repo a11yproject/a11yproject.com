@@ -14,14 +14,14 @@
 //
 // Styleguide Logic.Mixins.Headings.heading-largest
 @mixin heading-largest() {
-  font-size: 3rem;
-  line-height: $line-height-single;
-  margin-bottom: 1rem;
+	font-size: 3rem;
+	line-height: $line-height-single;
+	margin-bottom: 1rem;
 
-  // Breakpoints
-  @include mappy-bp(lap-small) {
-    font-size: 3.5rem;
-  }
+	// Breakpoints
+	@include mappy-bp(lap-small) {
+		font-size: 3.5rem;
+	}
 }
 
 
@@ -34,12 +34,12 @@
 //
 // Styleguide Logic.Mixins.Headings.heading-large
 @mixin heading-large() {
-  font-size: 1.75rem;
+	font-size: 1.75rem;
 
-  // Breakpoints
-  @include mappy-bp(lap-small) {
-    font-size: 2rem;
-  }
+	// Breakpoints
+	@include mappy-bp(lap-small) {
+		font-size: 2rem;
+	}
 }
 
 // heading-medium
@@ -51,13 +51,13 @@
 //
 // Styleguide Logic.Mixins.Headings.heading-medium
 @mixin heading-medium() {
-  font-size: 1.25rem;
-  line-height: $line-height-tight;
+	font-size: 1.25rem;
+	line-height: $line-height-tight;
 
-  // Breakpoints
-  @include mappy-bp(lap-small) {
-    font-size: 1.5rem;
-  }
+	// Breakpoints
+	@include mappy-bp(lap-small) {
+		font-size: 1.5rem;
+	}
 }
 
 // heading-small
@@ -69,9 +69,9 @@
 //
 // Styleguide Logic.Mixins.Headings.heading-medium
 @mixin heading-small() {
-  font-size: 1rem;
-  font-weight: $font-weight-bold;
-  letter-spacing: $font-tracking-slight;
-  margin-bottom: -2ex;
-  text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: $font-weight-bold;
+	letter-spacing: $font-tracking-slight;
+	margin-bottom: -2ex;
+	text-transform: uppercase;
 }

@@ -2,66 +2,66 @@ $_wcag-explanation-icon-size: 7rem;
 
 
 .c-wcag-explanation {
-  background-color: $color-blue-tint;
-  font-family: $font-family-secondary;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1.5rem 2rem 1.5rem;
+	background-color: $color-blue-tint;
+	font-family: $font-family-secondary;
+	margin-bottom: 1rem;
+	padding: 0.5rem 1.5rem 2rem 1.5rem;
 
-  // Breakpoints
-  @include mappy-bp(palm-small) {
-    padding: 0.5rem 4rem 2rem 4rem;
-  }
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		padding: 0.5rem 4rem 2rem 4rem;
+	}
 
-  // Text-level formatting
-  p {
-    margin-top: 1.5rem;
-    max-width: $global-type-measure;
-  }
+	// Text-level formatting
+	p {
+		margin-top: 1.5rem;
+		max-width: $global-type-measure;
+	}
 
-  a {
-    color: $color-blue-shade;
-    text-decoration-color: $color-blue-shade;
-    text-decoration-thickness: $border-thinnest;
-    text-underline-offset: 0.3em;
-  }
+	a {
+		color: $color-blue-shade;
+		text-decoration-color: $color-blue-shade;
+		text-decoration-thickness: $border-thinnest;
+		text-underline-offset: 0.3em;
+	}
 }
 
 .c-wcag-explanation__list {
-  @include preserve-list-semantics();
+	@include preserve-list-semantics();
 
-  max-width: $global-type-measure;
+	max-width: $global-type-measure;
 }
 
 .c-wcag-explanation__list-item {
-  background-position: top center;
-  background-repeat: no-repeat;
-  margin-top: 2rem;
-  padding-top: $_wcag-explanation-icon-size / 0.9;
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 2rem;
+	padding-top: $_wcag-explanation-icon-size / 0.9;
 
-  // Breakpoints
-  @include mappy-bp(palm-small) {
-    margin-top: 0;
-    padding-left: $_wcag-explanation-icon-size * 1.2;
-    padding-top: 0;
-    background-position: top 2rem left;
-    background-size: $_wcag-explanation-icon-size auto;
-    min-height: 4rem;
-  }
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		margin-top: 0;
+		padding-left: $_wcag-explanation-icon-size * 1.2;
+		padding-top: 0;
+		background-position: top 2rem left;
+		background-size: $_wcag-explanation-icon-size auto;
+		min-height: 4rem;
+	}
 }
 
 .c-wcag-explanation__list-item--a {
-  background-image: url("#{$path-to-img}/wcag-level-a.svg");
+	background-image: url("#{$path-to-img}/wcag-level-a.svg");
 }
 
 .c-wcag-explanation__list-item--aa {
-  background-image: url("#{$path-to-img}/wcag-level-aa.svg");
+	background-image: url("#{$path-to-img}/wcag-level-aa.svg");
 }
 
 .c-wcag-explanation__list-item--aaa {
-  background-image: url("#{$path-to-img}/wcag-level-aaa.svg");
+	background-image: url("#{$path-to-img}/wcag-level-aaa.svg");
 }
 
 .c-wcag-explanation__compliance-level {
-  display: block;
-  font-size: 1.15rem;
+	display: block;
+	font-size: 1.15rem;
 }

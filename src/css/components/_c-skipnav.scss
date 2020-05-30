@@ -18,34 +18,34 @@
 //
 // Style guide: Components.skipnav
 .c-skipnav {
-  @include hide(visually);
+	@include hide(visually);
 
-  background-color: $color-white;
-  border: $border-thinner solid $color-black;
-  color: $color-black;
-  font-family: $font-family-secondary;
-  letter-spacing: $font-tracking-slight;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition:
-    background-color $animation-duration-short $animation-easing-character,
-    color $animation-duration-short $animation-easing-character;
+	background-color: $color-white;
+	border: $border-thinner solid $color-black;
+	color: $color-black;
+	font-family: $font-family-secondary;
+	letter-spacing: $font-tracking-slight;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition:
+		background-color $animation-duration-short $animation-easing-character,
+		color $animation-duration-short $animation-easing-character;
 
-  // States
-  &:focus {
-    position: absolute;
-      top: 6rem;
-      left: map-get($global-bleed, large);
+	// States
+	&:focus {
+		position: absolute;
+			top: 6rem;
+			left: map-get($global-bleed, large);
 
-      &:hover {
-        background-color: $color-black;
-        color: $color-white;
-      }
-  }
+			&:hover {
+				background-color: $color-black;
+				color: $color-white;
+			}
+	}
 
-  // User Queries
-  @media screen and (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }

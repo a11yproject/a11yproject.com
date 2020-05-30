@@ -9,13 +9,13 @@
 //
 // Styleguide Logic.Functions.modular-scale
 @function ms($increment, $base-size: $global-type-size, $ratio: $global-type-scale) {
-  @for $i from 1 through $increment {
-    @if $increment > 0 {
-      $base-size: $base-size * $ratio;
-    } @else {
-      $base-size: $base-size / $ratio;
-    }
-  }
-  // Returns font size in rems, rounded to `$precision`'s length
-  @return round($base-size / $global-type-size * $precision) / $precision * 1rem;
+	@for $i from 1 through $increment {
+		@if $increment > 0 {
+			$base-size: $base-size * $ratio;
+		} @else {
+			$base-size: $base-size / $ratio;
+		}
+	}
+	// Returns font size in rems, rounded to `$precision`'s length
+	@return round($base-size / $global-type-size * $precision) / $precision * 1rem;
 }
