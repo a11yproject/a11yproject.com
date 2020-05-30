@@ -12,5 +12,6 @@
 	// Supports
 	@supports #{$supports-grid} {
 		grid-area: content;
+		margin-top: 0;
 	}
 }

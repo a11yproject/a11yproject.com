@@ -32,6 +32,7 @@ $_banner-triangle-size: 1.49rem;
 		background-color: $color-green;
 		background-image: none;
 		color: $color-white;
+		margin-top: 0;
 
 		&::before {
 			border-color: transparent $color-green-shade transparent transparent;
@@ -42,6 +43,7 @@ $_banner-triangle-size: 1.49rem;
 		background-color: $color-blue;
 		background-image: none;
 		color: $color-white;
+		margin-top: 0;
 
 		&::before {
 			border-color: transparent $color-blue-shade transparent transparent;

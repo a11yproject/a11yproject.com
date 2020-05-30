@@ -1,6 +1,13 @@
 // tableOfContents.js
 // http://github.com/cferdinandi/table-of-contents
 .vendor-toc {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			// Contexts
+			.template-generic & {
+				margin-top: 4rem;
+			}
+		}
 
 	h2 {
 		@include hide("visually");
@@ -12,6 +19,10 @@
 		margin-left: map-get($global-bleed, small);
 
 		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-right: map-get($global-bleed, small);
+		}
+
 		@include mappy-bp(lap-medium) {
 			margin-right: 4rem;
 			margin-left: map-get($global-bleed, right);
