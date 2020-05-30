@@ -3,51 +3,52 @@ layout: layouts/home.njk
 title: Announcements
 subtitle: A11Y Project news.
 eleventyNavigation:
-  key: Announcements
-  parent: Project
-  order: 4
+	key: Announcements
+	parent: Project
+	order: 4
 tags:
-  - project
+	- project
 templateClass: template-generic
 ---
 
 <article class="l-content">
 
-  <h1 id="title" class="c-heading-largest c-heading-largest--generic">
-    {{ title }}
-  </h1>
-  <p class="c-subtitle">
-    {{ subtitle }}
-  </p>
+	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
+		{{ title }}
+	</h1>
+	<p class="c-subtitle">
+		{{ subtitle }}
+	</p>
 
-  <div class="c-card__wrapper">
-    {% set taglist = collections[ "announcements" ] %}
-    {% for post in taglist | reverse %}
-      {% include "post.njk" %}
-    {% endfor %}
-  </div>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "announcements" ] %}
+		{% for post in taglist | reverse %}
+			{% include "post.njk" %}
+		{% endfor %}
+	</div>
 
-  <h2 id="changelog" class="c-heading-large">
-    Changelog
-  </h2>
-  <p class="c-preface">
-    Notable updates to our website.
-  </p>
-  <div class="c-content">
-    <h3 id="" class="c-heading-medium">
-      <samp class="c-changelog__version">1.0.0</samp><span class="u-hide-visually">,</span> Redesign <time datetime="2020-xx-yy" class="c-changelog__date">mm/dd/yyyy</time>
-    </h3>
-    <ul>
-      <li>Add a <a href="/code-of-conduct/">Code of Conduct</a>.</li>
-      <li>Add an <a href="/accessibility-statement/">Accessibility Statement</a>.</li>
-      <li>Add an industry <a href="/spotlight/">Spotlight</a>.</li>
-      <li>Add <a href="/sponsorship/">Sponsorship</a> and <a href="https://opencollective.com/the-a11y-project">Open Collective</a>.</li>
-      <li>Replaced <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://jekyllrb.com/">Eleventy</a>.</li>
-      <li>Migrate content.</li>
-      <li>Convert data to JSON.</li>
-      <li>Migrate GitHub pages (<a href="/content-style-guide/">Content Style Guide</a>, <a href="code-of-conduct">Code of Conduct</a>, etc.) to the website.</li>
-      <li>Deprecate <a href="/follow/">Follow</a>, <a href="/patterns/">Patterns</a>, and <a href="/events/">Events</a>.</li>
-    </ul>
-  </div>
+	<h2 id="changelog" class="c-heading-large">
+		Changelog
+	</h2>
+	<p class="c-preface">
+		Notable updates to our website.
+	</p>
+	<div class="c-content">
+		<h3 id="" class="c-heading-medium">
+			<samp class="c-changelog__version">1.0.0</samp><span class="u-hide-visually">,</span> Redesign <time datetime="2020-xx-yy" class="c-changelog__date">mm/dd/yyyy</time>
+		</h3>
+		<ul>
+			<li>Add a <a href="/code-of-conduct/">Code of Conduct</a>.</li>
+			<li>Add an <a href="/accessibility-statement/">Accessibility Statement</a>.</li>
+			<li>Add an industry <a href="/spotlight/">Spotlight</a>.</li>
+			<li>Expanded and updated <a href="/spotlight/">Resources</a>.</li>
+			<li>Add <a href="/sponsorship/">Sponsorship</a> and <a href="https://opencollective.com/the-a11y-project">Open Collective</a>.</li>
+			<li>Replaced <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://jekyllrb.com/">Eleventy</a>.</li>
+			<li>Migrate content.</li>
+			<li>Convert data to JSON.</li>
+			<li>Migrate GitHub pages (<a href="/content-style-guide/">Content Style Guide</a>, <a href="code-of-conduct">Code of Conduct</a>, etc.) to the website.</li>
+			<li>Deprecate <a href="/follow/">Follow</a>, <a href="/patterns/">Patterns</a>, and <a href="/events/">Events</a>.</li>
+		</ul>
+	</div>
 
 </article>

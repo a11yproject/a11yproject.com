@@ -3,12 +3,12 @@ layout: layouts/home.njk
 title: Posts
 subtitle: Wisdom from the community.
 eleventyNavigation:
-  key: Posts
-  parent: Feature
-  order: 1
+	key: Posts
+	parent: Feature
+	order: 1
 permalink: /posts/
 tags:
-  - navprimary
+	- navprimary
 templateClass: template-posts
 ---
 
@@ -16,82 +16,82 @@ templateClass: template-posts
 
 <article data-content class="l-content">
 
-  {# TODO: Add top latest post #}
-  {% for post in top_posts %}
-    {% include "highlight.njk" %}
-  {% endfor %}
+	{# TODO: Add top latest post #}
+	{% for post in top_posts %}
+		{% include "highlight.njk" %}
+	{% endfor %}
 
-  {% set taglist = collections[ "featured" ] %}
-  {% for post in taglist %}
-    {% include "highlight.njk" %}
-  {% endfor %}
+	{% set taglist = collections[ "featured" ] %}
+	{% for post in taglist %}
+		{% include "highlight.njk" %}
+	{% endfor %}
 
 
-  <h2 id="background" class="c-heading-large">
-    Background
-  </h2>
-  <div class="c-card__wrapper">
-    {% set taglist = collections[ "background" ] %}
-    {% for post in taglist | reverse %}
-      {% include "post.njk" %}
-    {% endfor %}
-  </div>
+	<h2 id="background" class="c-heading-large">
+		Background
+	</h2>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "background" ] %}
+		{% for post in taglist | reverse %}
+			{% include "post.njk" %}
+		{% endfor %}
+	</div>
 
-  <h2 id="myths" class="c-heading-large">
-    Myths
-  </h2>
-  <div class="c-card__wrapper">
-    {% set taglist = collections[ "myths" ] %}
-    {% for post in taglist | reverse %}
-      {% include "post.njk" %}
-    {% endfor %}
-  </div>
+	<h2 id="myths" class="c-heading-large">
+		Myths
+	</h2>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "myths" ] %}
+		{% for post in taglist | reverse %}
+			{% include "post.njk" %}
+		{% endfor %}
+	</div>
 
-  <h2 id="quick-tests" class="c-heading-large">
-    Quick tests
-  </h2>
-  <div class="c-card__wrapper">
-    {% set taglist = collections[ "quicktest" ] %}
-    {% for post in taglist | reverse %}
-      {% include "post.njk" %}
-    {% endfor %}
-  </div>
+	<h2 id="quick-tests" class="c-heading-large">
+		Quick tests
+	</h2>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "quicktest" ] %}
+		{% for post in taglist | reverse %}
+			{% include "post.njk" %}
+		{% endfor %}
+	</div>
 
-  <h2 id="quick-tips" class="c-heading-large">
-    Quick tips
-  </h2>
-  <div class="c-card__wrapper">
-    {% set taglist = collections[ "quicktip" ] %}
-    {% for post in taglist | reverse %}
-      {% include "post.njk" %}
-    {% endfor %}
-  </div>
+	<h2 id="quick-tips" class="c-heading-large">
+		Quick tips
+	</h2>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "quicktip" ] %}
+		{% for post in taglist | reverse %}
+			{% include "post.njk" %}
+		{% endfor %}
+	</div>
 
-  <h2 id="how-to" class="c-heading-large">
-    How-to
-  </h2>
-  <div class="c-card__wrapper">
-    {% set taglist = collections[ "howto" ] %}
-    {% for post in taglist | reverse %}
-      {% include "post.njk" %}
-    {% endfor %}
-  </div>
+	<h2 id="how-to" class="c-heading-large">
+		How-to
+	</h2>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "howto" ] %}
+		{% for post in taglist | reverse %}
+			{% include "post.njk" %}
+		{% endfor %}
+	</div>
 
-  <h2 id="assistive-technology" class="c-heading-large">
-    Assistive technology
-  </h2>
-  <div class="c-card__wrapper">
-    {% set taglist = collections[ "assistivetechnology" ] %}
-    {% for post in taglist | reverse %}
-      {% include "post.njk" %}
-    {% endfor %}
-  </div>
+	<h2 id="assistive-technology" class="c-heading-large">
+		Assistive technology
+	</h2>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "assistivetechnology" ] %}
+		{% for post in taglist | reverse %}
+			{% include "post.njk" %}
+		{% endfor %}
+	</div>
 
-  <h2 id="write-for-us" class="c-heading-large">
-    Write for us
-  </h2>
-  <p class="c-preface">
-    We're always looking for people who want to <a href="/contribute/">share what they know</a> about accessibility.
-  </p>
+	<h2 id="write-for-us" class="c-heading-large">
+		Write for us
+	</h2>
+	<p class="c-preface">
+		We're always looking for people who want to <a href="/contribute/">share what they know</a> about accessibility.
+	</p>
 
 </article>
