@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://a11yproject.com/",
-  "twitterHandle": "A11YProject",
-  "defaultSocialImage": "https://path-to-image.jpg"
+	"baseUrl": "https://a11yproject.com/",
+	"twitterHandle": "A11YProject",
+	"defaultSocialImage": "https://path-to-image.jpg"
 }

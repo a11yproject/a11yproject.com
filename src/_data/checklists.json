@@ -1,438 +1,438 @@
 {
-  "content": [
-    {
-      "title": "Use plain language and avoid figures of speech, idioms, and complicated metaphors.",
-      "wcag": "3.1.5  Reading Level",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html",
-      "description": "Write content at <a href='https://datayze.com/readability-analyzer.php'>an 8th grade reading level</a>."
-    },
-    {
-      "title": "Make sure that <code>button</code>, <code>a</code>, and <code>label</code> element content is unique and descriptive. ",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
-      "description": "Terms like “click here” and “read more” do not provide any context. Some people navigate using a list of all buttons or links on a page or view. When using this mode, the terms indicate what will happen if navigated to or activated."
-    },
-    {
-      "title": "Use left-aligned text for left-to-right (<abbr>LTR</abbr>) languages, and right-aligned text for right-to-left (<abbr>RTL</abbr>) languages.",
-      "wcag": "1.4.8 Visual Presentation",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html",
-      "description": "Centered-aligned or justified text is difficult to read."
-    }
-  ],
-  "global": [
-    {
-      "title": "Validate your HTML.",
-      "wcag": "4.1.1 Parsing",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
-      "description": "<a href='https://validator.w3.org/nu/'>Valid HTML</a> helps to provide an consistent, expected experience across all browsers and assistive technology."
-    },
-    {
-      "title": "Use a <code>lang</code> attribute on the <code>html</code> element.",
-      "wcag": "3.1.1 Language of Page",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html",
-      "description": "This helps assistive technology such as screen readers to <a href='https://github.com/FreedomScientific/VFO-standards-support/issues/188'>pronounce content correctly</a>."
-    },
-    {
-      "title": "Provide a unique <code>title</code> for each page or view.",
-      "wcag": "2.4.2 Page Titled",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html",
-      "description": "The <code>title</code> element, contained in the document's <code>head</code> element, is often the first piece of information announced by assistive technology. This helps tell people what page or view they are going to start navigating."
-    },
-    {
-      "title": "Ensure that viewport zoom is not disabled.",
-      "wcag": "1.4.4 Resize text",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html",
-      "description": "Some people need to increase the size of text to a point where they can read it. Do not stop them from doing this, even for web apps with a native app-like experience. Even native apps should respect Operating System settings for resizing text."
-    },
-    {
-      "title": "Use landmark elements to indicate important content regions.",
-      "wcag": "4.1.2 Name, Role, Value",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
-      "description": "<a href='https://www.w3.org/TR/wai-aria-practices/examples/landmarks/HTML5.html'>Landmark regions</a> help communicate the layout and important areas of a page or view, and can allow quick access to these regions. For example, use the <code>nav</code> element to wrap a site's navigation, and the <code>main</code> element to contain the primary content of a page."
-    },
-    {
-      "title": "Ensure a linear content flow.",
-      "wcag": "2.4.3 Focus Order",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html",
-      "description": "Remove <code>tabindex</code> attribute values that aren't either <code>0</code> or <code>-1</code>. Elements that are inherently focusable, such as links or <code>button</code> elements, do not require a <code>tabindex</code>. Elements that are not inherently focusable should not have a <code>tabindex</code> applied to them outside of very specific use cases."
-    },
-    {
-      "title": "Avoid using the <code>autofocus</code> attribute.",
-      "wcag": "2.4.3 Focus Order",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html",
-      "description": " People who are blind or who have low vision may be disoriented when focus is moved without their permission. Additionally, <code>autofocus</code> can be problematic for people with motor control disabilities, as it may create extra work for them to navigate out from the autofocused area and to other locations on the page/view."
-    },
-    {
-      "title": "Remove session timeouts.",
-      "wcag": "2.2.1 Timing Adjustable",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html",
-      "description": "If you cannot, let the person using your site know the timeout exists ahead of time, and provide significant notice before the timer runs out."
-    },
-    {
-      "title": "Remove <code>title</code> attribute tooltips.",
-      "wcag": "4.1.2 Name, Role, Value",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
-      "description": "<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title#Accessibility_concerns'>The <code>title</code> attribute has numerous issues</a>, and should not be used if the information provided is important for all people to access. An acceptable use for the <code>title</code> attribute would be labeling an <code>iframe</code> element to indicate what content it contains."
-    }
-  ],
-  "keyboard": [
-    {
-      "title": "Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.",
-      "wcag": "2.4.7 Focus Visible",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html",
-      "description": "Can a person navigating with a keyboard, <a href='https://axesslab.com/switches/'>switch</a>, voice control, or screen reader see where they currently are on the page?"
-    },
-    {
-      "title": "Check to see that keyboard focus order matches the visual layout.",
-      "wcag": "1.3.2 Meaningful Sequence",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html",
-      "description": "Can a person navigating with a keyboard or screen reader move around the page in a predictable way?"
-    },
-    {
-      "title": "Remove invisible focusable elements.",
-      "wcag": "2.4.3 Focus Order",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html",
-      "description": "Remove the ability to focus on elements that are not presently meant to be discoverable. This includes things like inactive drop down menus, off screen navigations, or modals."
-    }
-  ],
-  "images": [
-    {
-      "title": "Make sure that all <code>img</code> elements have an <code>alt</code> attribute.",
-      "wcag": "1.1.1 Non-text Content",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
-      "description": "<code>alt</code> attributes (alt text) give a description of an image for people who may not be able to view them. When an <code>alt</code> attribute isn't present on an image, a screen reader may announce the image's file name and path instead. This fails to communicate the image’s content."
-    },
-    {
-      "title": "Make sure that decorative images use null <code>alt</code> (empty) attribute values.",
-      "wcag": "1.1.1 Non-text Content",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
-      "description": "Null <code>alt</code> attributes are also sometimes known as empty <code>alt</code> attributes. They are made by including no information between the opening and closing quotes of an <code>alt</code> attribute. Decorative images do not communicate information that is required to understand the website's overall meaning. Historically they were used for flourishes and <a href='https://en.m.wikipedia.org/wiki/Spacer_GIF'>spacer gif</a> images, but tend to be less relevant for modern websites and web apps."
-    },
-    {
-      "title": "Provide a text alternative for complex images such as charts, graphs, and maps.",
-      "wcag": "1.1.1 Non-text Content",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
-      "description": "Is there a plain text which lists points on the map or sections of a flowchart? Describe all visible information. This includes graph axes, data points and labels, and the overall point the graphic is communicating."
-    },
-    {
-      "title": "For images containing text, make sure the alt description includes the image's text.",
-      "wcag": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
-      "url": "1.1.1 Non-text Content",
-      "description": "For example, the FedEx logo should have an alt value of “FedEx.”"
-    }
-  ],
-  "svg": [
-    {
-      "title": "Make sure that <code>svg</code> elements include the code <code>focusable=\"false\"</code> when they are the child element of a focusable element.",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
-      "description": "This prevents Internet Explorer from allowing focus to navigate through the child elements of a SVG that is meant to be decorative."
-    },
-    {
-      "title": "Add <code>aria-hidden=\"true\"</code> to SVG that is decorative.",
-      "wcag": "4.1.2 Name, Role, Value",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
-      "description": "This is equivalent to an empty/null <code>alt</code> value on a non-svg image."
-    },
-    {
-      "title": "Make sure that SVG utilizing the <code>use</code> element has whitespace between the <code>svg</code> and <code>use</code> elements.",
-      "wcag": "2.1.2 No Keyboard Trap",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html",
-      "description": "This solves a bug in Safari which sometimes creates hidden, unanticipated tab-stops when navigating."
-    },
-    {
-      "title": "Ensure that <code>img</code> elements with an <code>svg</code> source includes the <code>role=\"img\"</code> attribute.",
-      "wcag": "4.1.2 Name, Role, Value",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
-      "description": "VoiceOver on macOS and iOS will not correctly convey the element as an image if <code>role=\"img\"</code> is not present."
-    }
-  ],
-  "headings": [
-    {
-      "title": "Use heading elements to introduce content.",
-      "wcag": "2.4.6 Headings or Labels",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
-      "description": "Heading elements construct a document outline, and should not be used for purely visual design."
-    },
-    {
-      "title": "Use only one <code>h1</code> element per page or view.",
-      "wcag": "2.4.6 Headings or Labels",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
-      "description": "The <code>h1</code> element should be used to communicate the high-level purpose of the page or view. Do not use the <code>h1</code> element for a heading that does not change between pages or views (for example, the site's name)."
-    },
-    {
-      "title": "Heading elements should be written in a logical sequence.",
-      "wcag": "2.4.6 Headings or Labels",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
-      "description": "<a href='https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753'>The order of heading elements</a> should descend, based on the “depth” of the content. For example, a <code>h4</code> element should not appear on a page before the first <code>h3</code> element declaration. A tool such as <a href='/resources/#headingsmap'>headingsMap</a> can help you evaluate this."
-    },
-    {
-      "title": "Don't skip heading levels.",
-      "wcag": "2.4.6 Headings or Labels",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
-      "description": "For example, don't jump from a <code>h2</code> to a <code>h4</code>, skipping a <code>h3</code> element. If heading levels are being skipped for a specific visual treatment, use CSS classes instead."
-    }
-  ],
-  "lists": [
-    {
-      "title": "Use list elements (<code>ol</code>, <code>ul</code>, and <code>dl</code> elements) for list content.",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
-      "description": "This may include sections of related content, items visually displayed in a grid-like layout, or sibling a elements."
-    }
-  ],
-  "controls": [
-    {
-      "title": "Use the <code>a</code> element for links.",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
-      "description": "Links should always have a <code>href</code> attribute, even when used in Single Page Applications (<abbr>SPA</abbr>s). Without a <code>href</code> attribute, the link will not be properly exposed to assistive technology. An example of this would be a link that uses an <code>onclick</code> event, in place of a <code>href</code> attribute. "
-    },
-    {
-      "title": "Ensure that links are recognizable as links.",
-      "wcag": "1.4.1 Use of Color",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
-      "description": "Color alone is not sufficient to indicate the presence of a link. Underlines are a popular and commonly-understood way to communicate the presence of link content."
-    },
-    {
-      "title": "Ensure that controls have <code>:focus</code> states.",
-      "wcag": "2.4.7 Focus Visible",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html",
-      "description": "Visible focus styles help people determine which interactive element has keyboard focus. This lets them know that they can perform actions like activating a button or navigating to a link's destination."
-    },
-    {
-      "title": "Use the <code>button</code> element for buttons.",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
-      "description": "Buttons are used to submit data or perform an on-screen action which does not shift keyboard focus. You can add <code>type=\"button\"</code> to a <code>button</code> element to prevent the browser from attempting to submit form information when activated."
-    },
-    {
-      "title": "Provide a skip link and make sure that it is visible when focused.",
-      "wcag": "2.4.1 Bypass Blocks",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html",
-      "description": "A <a href='/posts/skip-nav-links/'>skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget."
-    },
-    {
-      "title": "Identify links that open in a new tab or window.",
-      "wcag": "G201: Giving users advanced warning when opening a new window",
-      "url": "https://www.w3.org/TR/WCAG20-TECHS/G201.html",
-      "description": "Ideally, avoid links that open in a new tab or window. If a link does, ensure the link's behavior will be communicated in a way that is apparent to all users. Doing this will help people understand what will happen before activating the link. While this technique is technically not required for compliance, it is an often-cited area of frustration for many different kinds of assistive technology users."
-    }
-  ],
-  "tables": [
-    {
-      "title": "Use the <code>table</code> element to describe tabular data.",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
-      "description": "Do you need to display data in rows and columns? Use the <code>table</code> element."
-    },
-    {
-      "title": "Use the <code>th</code> element for table headers (with appropriate <code>scope</code> attributes). ",
-      "wcag": "4.1.1 Parsing",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
-      "description": "Depending on <a href='https://www.w3.org/WAI/tutorials/tables/'>how complex your table is</a>, you may also consider using <code>scope=\"col\"</code> for column headers, and <code>scope=\"row\"</code> for row headers. Many different kinds of assistive technology still use the <code>scope</code> attribute to help them understand and describe the structure of a table."
-    },
-    {
-      "title": "Use the <code>caption</code> element to provide a title for the table.",
-      "wcag": "4.1.1 Parsing",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
-      "description": "Depending on <a href='https://www.w3.org/WAI/tutorials/tables/'>how complex your table is</a>, you may also consider using <code>scope=\"col\"</code> for column headers, <code>scope=\"row\"</code> for row headers. Many different kinds of assistive technology still use the <code>scope</code> attribute to help them understand and describe the structure of a table."
-    }
-  ],
-  "forms": [
-    {
-      "title": "All inputs in a form are associated with a corresponding <code>label</code> element.",
-      "wcag": "3.2.2 On Input",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html",
-      "description": "Use a <code>for</code>/<code>id</code> pairing to guarantee the highest level of browser/assistive technology support. "
-    },
-    {
-      "title": "Use <code>fieldset</code> and <code>legend</code> elements where appropriate.",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
-      "description": "Does your form contain multiple sections of related inputs? Use <code>fieldset</code> to group them, and <code>legend</code> to provide a label for what this section is for. "
-    },
-    {
-      "title": "Inputs use <code>autocomplete</code> where appropriate.",
-      "wcag": "1.3.5 Identify Input Purpose",
-      "url": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html",
-      "description": "<a href='https://www.w3.org/TR/html52/sec-forms.html#sec-autofill'>Providing a mechanism</a> to help people more quickly, easily, and accurately fill in form fields that ask for common information (for example, name, address, phone number)."
-    },
-    {
-      "title": "Make sure that form input errors are displayed in list above the form after submission.",
-      "wcag": "3.3.1 Error Identification",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html",
-      "description": "This provides a way for assistive technology users to quickly have a high-level understanding of what issues are present in the form. This is especially important for larger forms with many inputs. Make sure that each reported error also has a link to the corresponding field with invalid input."
-    },
-    {
-      "title": "Associate input error messaging with the input it corresponds to.",
-      "wcag": "3.3.1 Error Identification",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html",
-      "description": "Techniques such as <a href='https://developer.paciellogroup.com/blog/2018/09/describing-aria-describedby/'>using <code>aria-describedby</code></a> allow people who use assistive technology to more easily understand the difference between the input and the error message associated with it."
-    },
-    {
-      "title": "Make sure that error, warning, and success states are not visually communicated by just color.",
-      "wcag": "1.4.1 Use of Color",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
-      "description": "People who are color blind, who have other low vision conditions, or different cultural understandings for color may not see the state change, or understand what kind of feedback the state represents if color is the only indicator. "
-    }
-  ],
-  "media": [
-    {
-      "title": "Make sure that media does not autoplay.",
-      "wcag": "1.4.2 Audio Control",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html",
-      "description": "Unexpected video and audio can be distracting and disruptive, especially for certain kinds of cognitive disability such as ADHD. Certain kinds of autoplaying video and animation can be a trigger for vestibular and seizure disorders."
-    },
-    {
-      "title": "Ensure that media controls use appropriate markup.",
-      "wcag": "1.3.1 Info and Relationships",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
-      "description": "Examples include making sure an audio mute button has <a href='https://www.w3.org/WAI/PF/aria/states_and_properties#aria-pressed'>a pressed toggle state</a> when active, or that a volume slider uses <code>&lt;input type=\"range\"&gt;</code>."
-    },
-    {
-      "title": "Check to see that all media can be paused.",
-      "wcag": "2.1.1 Keyboard",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html",
-      "description": "Provide a global pause function on any media element. If the device has a keyboard, ensure that pressing the <kbd>Space</kbd> key can pause playback. Make sure you also don't interfere with the <kbd>Space</kbd> key's ability to scroll the page/view when not focusing on a form control."
-    }
-  ],
-  "video": [
-    {
-      "title": "Confirm the presence of captions.",
-      "wcag": "1.2.2 Captions",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html",
-      "description": "Captions allow a person who cannot hear the audio content of a video to still understand its content."
-    },
-    {
-      "title": " Remove seizure triggers.",
-      "wcag": "2.3.1 Three Flashes or Below Threshold",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html",
-      "description": " Certain kinds of strobing or flashing animations will trigger seizures."
-    }
-  ],
-  "audio": [
-    {
-      "title": "Confirm that transcripts are available.",
-      "wcag": "1.1.1 Non-text Content",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
-      "description": " Transcripts allow people who cannot hear to still understand the audio content. It also allows people to digest audio content at a pace that is comfortable to them."
-    }
-  ],
-  "appearance": [
-    {
-      "title": "Check your content in specialized browsing modes.",
-      "wcag": "1.4.1 Use of Color",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
-      "description": "Activate <a href='posts/operating-system-and-browser-accessibility-display-modes/'>modes such as Windows High Contrast or Inverted Colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?"
-    },
-    {
-      "title": "Increase text size to 200%.",
-      "wcag": "1.4.4 Resize text",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html",
-      "description": "Is the content still readable? Does increasing the text size cause content to overlap?"
-    },
-    {
-      "title": "Double-check that good proximity between content is maintained.",
-      "wcag": "1.3.3 Sensory Characteristics",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html",
-      "description": "Use <a href='https://www.youtube.com/watch?v=S1j6CYT3kWA&feature=youtu.be'>the straw test</a> to ensure people who depend on screen zoom software can still easily discover all content. "
-    },
-    {
-      "title": "Make sure color isn't the only way information is conveyed.",
-      "wcag": "1.4.1 Use of Color",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
-      "description": "Can you still see where links are among body content if everything is grayscale?"
-    },
-    {
-      "title": " Use a simple, straightforward, and consistent layout.",
-      "wcag": "1.4.10 Reflow",
-      "url": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
-      "description": "A complicated layout can be confusing to understand and use."
-    }
-  ],
-  "animation": [
-    {
-      "title": "Ensure animations are subtle and not do not flash too much.",
-      "wcag": "2.3.1 Three Flashes or Below Threshold",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html",
-      "description": "Certain kinds of strobing or flashing animations will trigger seizures. Others may be distracting and disruptive, especially for certain kinds of cognitive disability such as ADHD."
-    },
-    {
-      "title": "Provide a mechanism to pause background video.",
-      "wcag": "2.2.2 Pause, Stop, Hide",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html",
-      "description": "Background video can be distracting, especially if content is placed over it."
-    },
-    {
-      "title": "Make sure all animation obeys the <code>prefers-reduced-motion</code> media query.",
-      "wcag": "2.3.3 Animation from Interactions",
-      "url": "https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html",
-      "description": "Remove animations when the “reduce motion” setting is activated. If an animation is necessary to communicate meaning for a concept, slow its duration down."
-    }
-  ],
-  "colorContrast": [
-    {
-      "title": "Check the contrast for all normal-sized text.",
-      "wcag": "1.4.3 Contrast",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
-      "description": "Level AA compliance requires a contrast ratio of 4.5:1."
-    },
-    {
-      "title": "Check the contrast for all large-sized text.",
-      "wcag": "1.4.3 Contrast",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
-      "description": "Level AA compliance requires a contrast ratio of 3:1."
-    },
-    {
-      "title": "Check the contrast for all icons.",
-      "wcag": "1.4.11 Non-text Contrast",
-      "url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
-      "description": "Level AA compliance requires a contrast ratio of 3.0:1."
-    },
-    {
-      "title": "Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.).",
-      "wcag": "1.4.11 Non-text Contrast",
-      "url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
-      "description": "Level AA compliance requires a contrast ratio of 3.0:1."
-    },
-    {
-      "title": "Check text that overlaps images or video.",
-      "wcag": "1.4.3 Contrast",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
-      "description": "Is text still legible?"
-    },
-    {
-      "title": "Check custom <code>::selection</code> colors.",
-      "wcag": "1.4.3 Contrast",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
-      "description": " Is the color contrast you set in your <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/::selection'><code>::selection</code> CSS declaration</a> sufficient? Otherwise someone may not be able read it if they highlight it. "
-    }
-  ],
-  "mobile": [
-    {
-      "title": "Check that the site can be rotated to any orientation.",
-      "wcag": "1.3.4 Orientation",
-      "url": "https://www.w3.org/WAI/WCAG21/Understanding/orientation.html",
-      "description": "Does the site only allow portrait orientation?"
-    },
-    {
-      "title": "Remove horizontal scrolling.",
-      "wcag": "1.4.10 Reflow",
-      "url": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
-      "description": "Requiring someone to scroll horizontally can be difficult for some, irritating for all."
-    },
-    {
-      "title": "Button and link icons can be activated with ease.",
-      "wcag": "2.5.5 Target Size",
-      "url": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html",
-      "description": "It's good to make sure things like hamburger menus, social icons, gallery viewers, and other touch controls are usable by a wide range of hand and stylus sizes."
-    },
-    {
-      "title": "Ensure sufficient space between clickable items in order to provide a scroll area.",
-      "wcag": "2.4.1 Bypass Blocks",
-      "url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html",
-      "description": "Some people who experience motor control issues such as <a href='https://axesslab.com/hand-tremors/'>hand tremors</a> may have a very difficult time scrolling past clickable items which feature zero spacing."
-    }
-  ]
+	"content": [
+		{
+			"title": "Use plain language and avoid figures of speech, idioms, and complicated metaphors.",
+			"wcag": "3.1.5 Reading Level",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-supplements.html",
+			"description": "Write content at <a href='https://datayze.com/readability-analyzer.php'>an 8th grade reading level</a>."
+		},
+		{
+			"title": "Make sure that <code>button</code>, <code>a</code>, and <code>label</code> element content is unique and descriptive. ",
+			"wcag": "1.3.1 Info and Relationships",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+			"description": "Terms like “click here” and “read more” do not provide any context. Some people navigate using a list of all buttons or links on a page or view. When using this mode, the terms indicate what will happen if navigated to or activated."
+		},
+		{
+			"title": "Use left-aligned text for left-to-right (<abbr>LTR</abbr>) languages, and right-aligned text for right-to-left (<abbr>RTL</abbr>) languages.",
+			"wcag": "1.4.8 Visual Presentation",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html",
+			"description": "Centered-aligned or justified text is difficult to read."
+		}
+	],
+	"global": [
+		{
+			"title": "Validate your HTML.",
+			"wcag": "4.1.1 Parsing",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
+			"description": "<a href='https://validator.w3.org/nu/'>Valid HTML</a> helps to provide an consistent, expected experience across all browsers and assistive technology."
+		},
+		{
+			"title": "Use a <code>lang</code> attribute on the <code>html</code> element.",
+			"wcag": "3.1.1 Language of Page",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html",
+			"description": "This helps assistive technology such as screen readers to <a href='https://github.com/FreedomScientific/VFO-standards-support/issues/188'>pronounce content correctly</a>."
+		},
+		{
+			"title": "Provide a unique <code>title</code> for each page or view.",
+			"wcag": "2.4.2 Page Titled",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html",
+			"description": "The <code>title</code> element, contained in the document's <code>head</code> element, is often the first piece of information announced by assistive technology. This helps tell people what page or view they are going to start navigating."
+		},
+		{
+			"title": "Ensure that viewport zoom is not disabled.",
+			"wcag": "1.4.4 Resize text",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html",
+			"description": "Some people need to increase the size of text to a point where they can read it. Do not stop them from doing this, even for web apps with a native app-like experience. Even native apps should respect Operating System settings for resizing text."
+		},
+		{
+			"title": "Use landmark elements to indicate important content regions.",
+			"wcag": "4.1.2 Name, Role, Value",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
+			"description": "<a href='https://www.w3.org/TR/wai-aria-practices/examples/landmarks/HTML5.html'>Landmark regions</a> help communicate the layout and important areas of a page or view, and can allow quick access to these regions. For example, use the <code>nav</code> element to wrap a site's navigation, and the <code>main</code> element to contain the primary content of a page."
+		},
+		{
+			"title": "Ensure a linear content flow.",
+			"wcag": "2.4.3 Focus Order",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html",
+			"description": "Remove <code>tabindex</code> attribute values that aren't either <code>0</code> or <code>-1</code>. Elements that are inherently focusable, such as links or <code>button</code> elements, do not require a <code>tabindex</code>. Elements that are not inherently focusable should not have a <code>tabindex</code> applied to them outside of very specific use cases."
+		},
+		{
+			"title": "Avoid using the <code>autofocus</code> attribute.",
+			"wcag": "2.4.3 Focus Order",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html",
+			"description": " People who are blind or who have low vision may be disoriented when focus is moved without their permission. Additionally, <code>autofocus</code> can be problematic for people with motor control disabilities, as it may create extra work for them to navigate out from the autofocused area and to other locations on the page/view."
+		},
+		{
+			"title": "Remove session timeouts.",
+			"wcag": "2.2.1 Timing Adjustable",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html",
+			"description": "If you cannot, let the person using your site know the timeout exists ahead of time, and provide significant notice before the timer runs out."
+		},
+		{
+			"title": "Remove <code>title</code> attribute tooltips.",
+			"wcag": "4.1.2 Name, Role, Value",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
+			"description": "<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title#Accessibility_concerns'>The <code>title</code> attribute has numerous issues</a>, and should not be used if the information provided is important for all people to access. An acceptable use for the <code>title</code> attribute would be labeling an <code>iframe</code> element to indicate what content it contains."
+		}
+	],
+	"keyboard": [
+		{
+			"title": "Make sure there is a visible focus style for interactive elements that are navigated to via keyboard input.",
+			"wcag": "2.4.7 Focus Visible",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html",
+			"description": "Can a person navigating with a keyboard, <a href='https://axesslab.com/switches/'>switch</a>, voice control, or screen reader see where they currently are on the page?"
+		},
+		{
+			"title": "Check to see that keyboard focus order matches the visual layout.",
+			"wcag": "1.3.2 Meaningful Sequence",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html",
+			"description": "Can a person navigating with a keyboard or screen reader move around the page in a predictable way?"
+		},
+		{
+			"title": "Remove invisible focusable elements.",
+			"wcag": "2.4.3 Focus Order",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html",
+			"description": "Remove the ability to focus on elements that are not presently meant to be discoverable. This includes things like inactive drop down menus, off screen navigations, or modals."
+		}
+	],
+	"images": [
+		{
+			"title": "Make sure that all <code>img</code> elements have an <code>alt</code> attribute.",
+			"wcag": "1.1.1 Non-text Content",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
+			"description": "<code>alt</code> attributes (alt text) give a description of an image for people who may not be able to view them. When an <code>alt</code> attribute isn't present on an image, a screen reader may announce the image's file name and path instead. This fails to communicate the image’s content."
+		},
+		{
+			"title": "Make sure that decorative images use null <code>alt</code> (empty) attribute values.",
+			"wcag": "1.1.1 Non-text Content",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
+			"description": "Null <code>alt</code> attributes are also sometimes known as empty <code>alt</code> attributes. They are made by including no information between the opening and closing quotes of an <code>alt</code> attribute. Decorative images do not communicate information that is required to understand the website's overall meaning. Historically they were used for flourishes and <a href='https://en.m.wikipedia.org/wiki/Spacer_GIF'>spacer gif</a> images, but tend to be less relevant for modern websites and web apps."
+		},
+		{
+			"title": "Provide a text alternative for complex images such as charts, graphs, and maps.",
+			"wcag": "1.1.1 Non-text Content",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
+			"description": "Is there a plain text which lists points on the map or sections of a flowchart? Describe all visible information. This includes graph axes, data points and labels, and the overall point the graphic is communicating."
+		},
+		{
+			"title": "For images containing text, make sure the alt description includes the image's text.",
+			"wcag": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
+			"url": "1.1.1 Non-text Content",
+			"description": "For example, the FedEx logo should have an alt value of “FedEx.”"
+		}
+	],
+	"svg": [
+		{
+			"title": "Make sure that <code>svg</code> elements include the code <code>focusable=\"false\"</code> when they are the child element of a focusable element.",
+			"wcag": "1.3.1 Info and Relationships",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+			"description": "This prevents Internet Explorer from allowing focus to navigate through the child elements of a SVG that is meant to be decorative."
+		},
+		{
+			"title": "Add <code>aria-hidden=\"true\"</code> to SVG that is decorative.",
+			"wcag": "4.1.2 Name, Role, Value",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
+			"description": "This is equivalent to an empty/null <code>alt</code> value on a non-svg image."
+		},
+		{
+			"title": "Make sure that SVG utilizing the <code>use</code> element has whitespace between the <code>svg</code> and <code>use</code> elements.",
+			"wcag": "2.1.2 No Keyboard Trap",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html",
+			"description": "This solves a bug in Safari which sometimes creates hidden, unanticipated tab-stops when navigating."
+		},
+		{
+			"title": "Ensure that <code>img</code> elements with an <code>svg</code> source includes the <code>role=\"img\"</code> attribute.",
+			"wcag": "4.1.2 Name, Role, Value",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
+			"description": "VoiceOver on macOS and iOS will not correctly convey the element as an image if <code>role=\"img\"</code> is not present."
+		}
+	],
+	"headings": [
+		{
+			"title": "Use heading elements to introduce content.",
+			"wcag": "2.4.6 Headings or Labels",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
+			"description": "Heading elements construct a document outline, and should not be used for purely visual design."
+		},
+		{
+			"title": "Use only one <code>h1</code> element per page or view.",
+			"wcag": "2.4.6 Headings or Labels",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
+			"description": "The <code>h1</code> element should be used to communicate the high-level purpose of the page or view. Do not use the <code>h1</code> element for a heading that does not change between pages or views (for example, the site's name)."
+		},
+		{
+			"title": "Heading elements should be written in a logical sequence.",
+			"wcag": "2.4.6 Headings or Labels",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
+			"description": "<a href='https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753'>The order of heading elements</a> should descend, based on the “depth” of the content. For example, a <code>h4</code> element should not appear on a page before the first <code>h3</code> element declaration. A tool such as <a href='/resources/#headingsmap'>headingsMap</a> can help you evaluate this."
+		},
+		{
+			"title": "Don't skip heading levels.",
+			"wcag": "2.4.6 Headings or Labels",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
+			"description": "For example, don't jump from a <code>h2</code> to a <code>h4</code>, skipping a <code>h3</code> element. If heading levels are being skipped for a specific visual treatment, use CSS classes instead."
+		}
+	],
+	"lists": [
+		{
+			"title": "Use list elements (<code>ol</code>, <code>ul</code>, and <code>dl</code> elements) for list content.",
+			"wcag": "1.3.1 Info and Relationships",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+			"description": "This may include sections of related content, items visually displayed in a grid-like layout, or sibling a elements."
+		}
+	],
+	"controls": [
+		{
+			"title": "Use the <code>a</code> element for links.",
+			"wcag": "1.3.1 Info and Relationships",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+			"description": "Links should always have a <code>href</code> attribute, even when used in Single Page Applications (<abbr>SPA</abbr>s). Without a <code>href</code> attribute, the link will not be properly exposed to assistive technology. An example of this would be a link that uses an <code>onclick</code> event, in place of a <code>href</code> attribute. "
+		},
+		{
+			"title": "Ensure that links are recognizable as links.",
+			"wcag": "1.4.1 Use of Color",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
+			"description": "Color alone is not sufficient to indicate the presence of a link. Underlines are a popular and commonly-understood way to communicate the presence of link content."
+		},
+		{
+			"title": "Ensure that controls have <code>:focus</code> states.",
+			"wcag": "2.4.7 Focus Visible",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html",
+			"description": "Visible focus styles help people determine which interactive element has keyboard focus. This lets them know that they can perform actions like activating a button or navigating to a link's destination."
+		},
+		{
+			"title": "Use the <code>button</code> element for buttons.",
+			"wcag": "1.3.1 Info and Relationships",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+			"description": "Buttons are used to submit data or perform an on-screen action which does not shift keyboard focus. You can add <code>type=\"button\"</code> to a <code>button</code> element to prevent the browser from attempting to submit form information when activated."
+		},
+		{
+			"title": "Provide a skip link and make sure that it is visible when focused.",
+			"wcag": "2.4.1 Bypass Blocks",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html",
+			"description": "A <a href='/posts/skip-nav-links/'>skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget."
+		},
+		{
+			"title": "Identify links that open in a new tab or window.",
+			"wcag": "G201: Giving users advanced warning when opening a new window",
+			"url": "https://www.w3.org/TR/WCAG20-TECHS/G201.html",
+			"description": "Ideally, avoid links that open in a new tab or window. If a link does, ensure the link's behavior will be communicated in a way that is apparent to all users. Doing this will help people understand what will happen before activating the link. While this technique is technically not required for compliance, it is an often-cited area of frustration for many different kinds of assistive technology users."
+		}
+	],
+	"tables": [
+		{
+			"title": "Use the <code>table</code> element to describe tabular data.",
+			"wcag": "1.3.1 Info and Relationships",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+			"description": "Do you need to display data in rows and columns? Use the <code>table</code> element."
+		},
+		{
+			"title": "Use the <code>th</code> element for table headers (with appropriate <code>scope</code> attributes). ",
+			"wcag": "4.1.1 Parsing",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
+			"description": "Depending on <a href='https://www.w3.org/WAI/tutorials/tables/'>how complex your table is</a>, you may also consider using <code>scope=\"col\"</code> for column headers, and <code>scope=\"row\"</code> for row headers. Many different kinds of assistive technology still use the <code>scope</code> attribute to help them understand and describe the structure of a table."
+		},
+		{
+			"title": "Use the <code>caption</code> element to provide a title for the table.",
+			"wcag": "4.1.1 Parsing",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
+			"description": "Depending on <a href='https://www.w3.org/WAI/tutorials/tables/'>how complex your table is</a>, you may also consider using <code>scope=\"col\"</code> for column headers, <code>scope=\"row\"</code> for row headers. Many different kinds of assistive technology still use the <code>scope</code> attribute to help them understand and describe the structure of a table."
+		}
+	],
+	"forms": [
+		{
+			"title": "All inputs in a form are associated with a corresponding <code>label</code> element.",
+			"wcag": "3.2.2 On Input",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html",
+			"description": "Use a <code>for</code>/<code>id</code> pairing to guarantee the highest level of browser/assistive technology support. "
+		},
+		{
+			"title": "Use <code>fieldset</code> and <code>legend</code> elements where appropriate.",
+			"wcag": "1.3.1 Info and Relationships",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+			"description": "Does your form contain multiple sections of related inputs? Use <code>fieldset</code> to group them, and <code>legend</code> to provide a label for what this section is for. "
+		},
+		{
+			"title": "Inputs use <code>autocomplete</code> where appropriate.",
+			"wcag": "1.3.5 Identify Input Purpose",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html",
+			"description": "<a href='https://www.w3.org/TR/html52/sec-forms.html#sec-autofill'>Providing a mechanism</a> to help people more quickly, easily, and accurately fill in form fields that ask for common information (for example, name, address, phone number)."
+		},
+		{
+			"title": "Make sure that form input errors are displayed in list above the form after submission.",
+			"wcag": "3.3.1 Error Identification",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html",
+			"description": "This provides a way for assistive technology users to quickly have a high-level understanding of what issues are present in the form. This is especially important for larger forms with many inputs. Make sure that each reported error also has a link to the corresponding field with invalid input."
+		},
+		{
+			"title": "Associate input error messaging with the input it corresponds to.",
+			"wcag": "3.3.1 Error Identification",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html",
+			"description": "Techniques such as <a href='https://developer.paciellogroup.com/blog/2018/09/describing-aria-describedby/'>using <code>aria-describedby</code></a> allow people who use assistive technology to more easily understand the difference between the input and the error message associated with it."
+		},
+		{
+			"title": "Make sure that error, warning, and success states are not visually communicated by just color.",
+			"wcag": "1.4.1 Use of Color",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
+			"description": "People who are color blind, who have other low vision conditions, or different cultural understandings for color may not see the state change, or understand what kind of feedback the state represents if color is the only indicator. "
+		}
+	],
+	"media": [
+		{
+			"title": "Make sure that media does not autoplay.",
+			"wcag": "1.4.2 Audio Control",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html",
+			"description": "Unexpected video and audio can be distracting and disruptive, especially for certain kinds of cognitive disability such as ADHD. Certain kinds of autoplaying video and animation can be a trigger for vestibular and seizure disorders."
+		},
+		{
+			"title": "Ensure that media controls use appropriate markup.",
+			"wcag": "1.3.1 Info and Relationships",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html",
+			"description": "Examples include making sure an audio mute button has <a href='https://www.w3.org/WAI/PF/aria/states_and_properties#aria-pressed'>a pressed toggle state</a> when active, or that a volume slider uses <code>&lt;input type=\"range\"&gt;</code>."
+		},
+		{
+			"title": "Check to see that all media can be paused.",
+			"wcag": "2.1.1 Keyboard",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html",
+			"description": "Provide a global pause function on any media element. If the device has a keyboard, ensure that pressing the <kbd>Space</kbd> key can pause playback. Make sure you also don't interfere with the <kbd>Space</kbd> key's ability to scroll the page/view when not focusing on a form control."
+		}
+	],
+	"video": [
+		{
+			"title": "Confirm the presence of captions.",
+			"wcag": "1.2.2 Captions",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html",
+			"description": "Captions allow a person who cannot hear the audio content of a video to still understand its content."
+		},
+		{
+			"title": " Remove seizure triggers.",
+			"wcag": "2.3.1 Three Flashes or Below Threshold",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html",
+			"description": " Certain kinds of strobing or flashing animations will trigger seizures."
+		}
+	],
+	"audio": [
+		{
+			"title": "Confirm that transcripts are available.",
+			"wcag": "1.1.1 Non-text Content",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
+			"description": " Transcripts allow people who cannot hear to still understand the audio content. It also allows people to digest audio content at a pace that is comfortable to them."
+		}
+	],
+	"appearance": [
+		{
+			"title": "Check your content in specialized browsing modes.",
+			"wcag": "1.4.1 Use of Color",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
+			"description": "Activate <a href='posts/operating-system-and-browser-accessibility-display-modes/'>modes such as Windows High Contrast or Inverted Colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?"
+		},
+		{
+			"title": "Increase text size to 200%.",
+			"wcag": "1.4.4 Resize text",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html",
+			"description": "Is the content still readable? Does increasing the text size cause content to overlap?"
+		},
+		{
+			"title": "Double-check that good proximity between content is maintained.",
+			"wcag": "1.3.3 Sensory Characteristics",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html",
+			"description": "Use <a href='https://www.youtube.com/watch?v=S1j6CYT3kWA&feature=youtu.be'>the straw test</a> to ensure people who depend on screen zoom software can still easily discover all content. "
+		},
+		{
+			"title": "Make sure color isn't the only way information is conveyed.",
+			"wcag": "1.4.1 Use of Color",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
+			"description": "Can you still see where links are among body content if everything is grayscale?"
+		},
+		{
+			"title": " Use a simple, straightforward, and consistent layout.",
+			"wcag": "1.4.10 Reflow",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
+			"description": "A complicated layout can be confusing to understand and use."
+		}
+	],
+	"animation": [
+		{
+			"title": "Ensure animations are subtle and not do not flash too much.",
+			"wcag": "2.3.1 Three Flashes or Below Threshold",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html",
+			"description": "Certain kinds of strobing or flashing animations will trigger seizures. Others may be distracting and disruptive, especially for certain kinds of cognitive disability such as ADHD."
+		},
+		{
+			"title": "Provide a mechanism to pause background video.",
+			"wcag": "2.2.2 Pause, Stop, Hide",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html",
+			"description": "Background video can be distracting, especially if content is placed over it."
+		},
+		{
+			"title": "Make sure all animation obeys the <code>prefers-reduced-motion</code> media query.",
+			"wcag": "2.3.3 Animation from Interactions",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html",
+			"description": "Remove animations when the “reduce motion” setting is activated. If an animation is necessary to communicate meaning for a concept, slow its duration down."
+		}
+	],
+	"colorContrast": [
+		{
+			"title": "Check the contrast for all normal-sized text.",
+			"wcag": "1.4.3 Contrast",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
+			"description": "Level AA compliance requires a contrast ratio of 4.5:1."
+		},
+		{
+			"title": "Check the contrast for all large-sized text.",
+			"wcag": "1.4.3 Contrast",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
+			"description": "Level AA compliance requires a contrast ratio of 3:1."
+		},
+		{
+			"title": "Check the contrast for all icons.",
+			"wcag": "1.4.11 Non-text Contrast",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
+			"description": "Level AA compliance requires a contrast ratio of 3.0:1."
+		},
+		{
+			"title": "Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.).",
+			"wcag": "1.4.11 Non-text Contrast",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
+			"description": "Level AA compliance requires a contrast ratio of 3.0:1."
+		},
+		{
+			"title": "Check text that overlaps images or video.",
+			"wcag": "1.4.3 Contrast",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
+			"description": "Is text still legible?"
+		},
+		{
+			"title": "Check custom <code>::selection</code> colors.",
+			"wcag": "1.4.3 Contrast",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
+			"description": " Is the color contrast you set in your <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/::selection'><code>::selection</code> CSS declaration</a> sufficient? Otherwise someone may not be able read it if they highlight it. "
+		}
+	],
+	"mobile": [
+		{
+			"title": "Check that the site can be rotated to any orientation.",
+			"wcag": "1.3.4 Orientation",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/orientation.html",
+			"description": "Does the site only allow portrait orientation?"
+		},
+		{
+			"title": "Remove horizontal scrolling.",
+			"wcag": "1.4.10 Reflow",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/reflow.html",
+			"description": "Requiring someone to scroll horizontally can be difficult for some, irritating for all."
+		},
+		{
+			"title": "Button and link icons can be activated with ease.",
+			"wcag": "2.5.5 Target Size",
+			"url": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html",
+			"description": "It's good to make sure things like hamburger menus, social icons, gallery viewers, and other touch controls are usable by a wide range of hand and stylus sizes."
+		},
+		{
+			"title": "Ensure sufficient space between clickable items in order to provide a scroll area.",
+			"wcag": "2.4.1 Bypass Blocks",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html",
+			"description": "Some people who experience motor control issues such as <a href='https://axesslab.com/hand-tremors/'>hand tremors</a> may have a very difficult time scrolling past clickable items which feature zero spacing."
+		}
+	]
 }

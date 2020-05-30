@@ -1,19 +1,19 @@
 {
-  "sponsor": [
-    {
-      "image": "/img/sponsors/invision-design-forward-fund.svg",
-      "url": "https://www.invisionapp.com/design-forward-fund",
-      "alt": "InVision Design Forward Fund. Apply now."
-    },
-    {
-      "image": "/img/sponsors/vanilla-js-academy.svg",
-      "url": "https://vanillajsacademy.com/",
-      "alt": "Vanilla JS Academy. A project-based online JavaScript training program for beginners. Join Now."
-    },
-    {
-      "image": "/img/sponsors/sponsor-the-a11y-project.svg",
-      "url": "/sponsorship/",
-      "alt": "Sponsor The A11Y Project. Learn how."
-    }
-  ]
+	"sponsor": [
+		{
+			"image": "/img/sponsors/invision-design-forward-fund.svg",
+			"url": "https://www.invisionapp.com/design-forward-fund",
+			"alt": "InVision Design Forward Fund. Apply now."
+		},
+		{
+			"image": "/img/sponsors/vanilla-js-academy.svg",
+			"url": "https://vanillajsacademy.com/",
+			"alt": "Vanilla JS Academy. A project-based online JavaScript training program for beginners. Join Now."
+		},
+		{
+			"image": "/img/sponsors/sponsor-the-a11y-project.svg",
+			"url": "/sponsorship/",
+			"alt": "Sponsor The A11Y Project. Learn how."
+		}
+	]
 }
