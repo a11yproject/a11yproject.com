@@ -3,43 +3,43 @@ layout: layouts/base.njk
 templateClass: template-post
 ---
 <article class="l-post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="l-post__header">
-    <div class="l-post__category c-post__category">
-      <p>
-        <a class="c-post__category__link" href="">
-          {{ category }}
-        </a>
-      </p>
-    </div>
+	<header class="l-post__header">
+		<div class="l-post__category c-post__category">
+			<p>
+				<a class="c-post__category__link" href="">
+					{{ category }}
+				</a>
+			</p>
+		</div>
 
-    <h1 id="title" class="l-post__title c-post__title" itemprop="name headline">
-      {{ title }}
-    </h1>
+		<h1 id="title" class="l-post__title c-post__title" itemprop="name headline">
+			{{ title }}
+		</h1>
 
-    <p id="metadata" class="l-post__metadata c-post__metadata">
-      {% if author %}
-        <span class="c-post__metadata--author">
-          By:&#8194;<a class="c-post__metadata-link" href="">{{ author }}</a><span class="u-hide-visually">.</span>
-        </span>
-      {% endif %}
-      {% if date %}
-        <span class="c-post__metadata--published">
-          Published:&#8194;<time datetime="{{ page.date | htmlDateString }}">{{ page.date | htmlDateString }}</time><span class="u-hide-visually">.</span>
-        </span>
-      {% endif %}
-      {% if last_updated %}
-        <span class="c-post__metadata--updated">
-          Updated:&#8194;<time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | htmlDateString }}</time><span class="u-hide-visually">.</span>
-        </span>
-      {% endif %}
-    </p>
+		<p id="metadata" class="l-post__metadata c-post__metadata">
+			{% if author %}
+				<span class="c-post__metadata--author">
+					By:&#8194;<a class="c-post__metadata-link" href="">{{ author }}</a><span class="u-hide-visually">.</span>
+				</span>
+			{% endif %}
+			{% if date %}
+				<span class="c-post__metadata--published">
+					Published:&#8194;<time datetime="{{ page.date | htmlDateString }}">{{ page.date | htmlDateString }}</time><span class="u-hide-visually">.</span>
+				</span>
+			{% endif %}
+			{% if last_updated %}
+				<span class="c-post__metadata--updated">
+					Updated:&#8194;<time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | htmlDateString }}</time><span class="u-hide-visually">.</span>
+				</span>
+			{% endif %}
+		</p>
 
-    {% include "nav/toc.njk" %}
+		{% include "nav/toc.njk" %}
 
-  </header>
+	</header>
 
-  <div data-content id="short-answer" class="l-post__content c-content" itemprop="articleBody">
-    {{ content | safe }}
-  </div>
+	<div data-content id="short-answer" class="l-post__content c-content" itemprop="articleBody">
+		{{ content | safe }}
+	</div>
 </article>
 

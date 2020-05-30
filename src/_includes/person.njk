@@ -1,45 +1,45 @@
 <div id="{{ person.name | slugify }}" class="c-person">
-  {% if person.photo and person.website %}
-    <a class="c-person__photo-link" href="{{ person.website }}">
-      <div aria-hidden="true" class="c-person__photo" style="background-image: url({{ person.photo }});"></div>
-    </a>
-  {% elif person.photo %}
-    <div aria-hidden="true" class="c-person__photo" style="background-image: {{ person.photo }};"></div>
-  {% endif %}
-  {% if personRole == "author" %}
-    <div class="c-person__info">
-      <h2 class="c-person__name">
-        {% if person.website %}
-          <a class="c-person__link" href="{{ person.website }}">
-            {{ person.name }}
-          </a>
-        {% else %}
-          {{ person.name }}
-        {% endif %}
-      </h2>
-      {% if person.biography %}
-        <p class="c-person__biography">
-          {{ person.biography }}
-        </p>
-      {% endif %}
-    </div>
-  {% endif %}
-  {% if personRole == "staff" %}
-    <div class="c-person__info">
-      <h3 class="c-person__name">
-        {% if person.website %}
-          <a class="c-person__link" href="{{ person.website }}">
-            {{ person.name }}
-          </a>
-        {% else %}
-          {{ person.name }}
-        {% endif %}
-      </h3>
-      {% if person.biography %}
-        <p class="c-person__biography">
-          {{ person.biography }}
-        </p>
-      {% endif %}
-    </div>
-  {% endif %}
+	{% if person.photo and person.website %}
+		<a class="c-person__photo-link" href="{{ person.website }}">
+			<div aria-hidden="true" class="c-person__photo" style="background-image: url({{ person.photo }});"></div>
+		</a>
+	{% elif person.photo %}
+		<div aria-hidden="true" class="c-person__photo" style="background-image: {{ person.photo }};"></div>
+	{% endif %}
+	{% if personRole == "author" %}
+		<div class="c-person__info">
+			<h2 class="c-person__name">
+				{% if person.website %}
+					<a class="c-person__link" href="{{ person.website }}">
+						{{ person.name }}
+					</a>
+				{% else %}
+					{{ person.name }}
+				{% endif %}
+			</h2>
+			{% if person.biography %}
+				<p class="c-person__biography">
+					{{ person.biography }}
+				</p>
+			{% endif %}
+		</div>
+	{% endif %}
+	{% if personRole == "staff" %}
+		<div class="c-person__info">
+			<h3 class="c-person__name">
+				{% if person.website %}
+					<a class="c-person__link" href="{{ person.website }}">
+						{{ person.name }}
+					</a>
+				{% else %}
+					{{ person.name }}
+				{% endif %}
+			</h3>
+			{% if person.biography %}
+				<p class="c-person__biography">
+					{{ person.biography }}
+				</p>
+			{% endif %}
+		</div>
+	{% endif %}
 </div>
