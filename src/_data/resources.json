@@ -547,6 +547,12 @@
       "url": "http://pa11y.org/"
     },
     {
+      "title": "Sa11y",
+      "description": "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y indicates errors or warnings at the source with a simple tooltip on how to fix.",
+      "additional": "Ryerson University",
+      "url": "https://ryersondmp.github.io/sa11y/"
+    },
+    {
       "title": "Sublime WAI-ARIA Package",
       "description": "WAI-ARIA Roles, States and Properties auto-completion for Sublime Text.",
       "additional": "Indrek Paas",
