@@ -11,6 +11,12 @@
     margin-right: map-get($global-bleed, small);
     margin-left: map-get($global-bleed, small);
 
+    // Breakpoints
+    @include mappy-bp(palm-medium) {
+      margin-right: map-get($global-bleed, large);
+      margin-left: map-get($global-bleed, large);
+    }
+
     // Supports
     @supports #{$supports-grid} {
       display: grid;
@@ -23,13 +29,14 @@
 
       // Breakpoints
       @include mappy-bp(palm-medium) {
-
-        grid-template-columns: map-get($global-grid-columns, small);
+        grid-template-columns: map-get($global-bleed, large) 1fr map-get($global-bleed, large);
       }
 
-      @include mappy-bp(lap-medium) {
-        grid-template-columns: map-get($global-bleed, large) map-get($global-grid-columns, large) map-get($global-bleed, large);
-        grid-template-areas: ". toc content content";
+      // Breakpoints
+      @include mappy-bp(lap-small) {
+        grid-template-columns: map-get($global-bleed, large) $global-grid-columns map-get($global-bleed, large);
+        grid-template-areas:
+          ". toc content ."
       }
     }
   }

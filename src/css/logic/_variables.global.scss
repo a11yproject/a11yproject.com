@@ -21,10 +21,7 @@ $global-bleed: (
 // Controls the grid template column sizes of the main content area.
 //
 // Styleguide Logic.Variables.Global.global-bleed
-$global-grid-columns: (
-  small: 1fr minmax(0, 60vw) 1fr,
-  large: 1fr minmax(0, 45vw) 1fr
-);
+$global-grid-columns: 1fr 2fr;
 
 
 // global-post-content-inset
@@ -64,4 +61,3 @@ $global-type-scale: 1.333;
 //
 // Styleguide Logic.Variables.Global.global-type-measure
 $global-type-measure: 68ex;
-

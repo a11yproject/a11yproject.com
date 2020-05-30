@@ -1,6 +1,7 @@
 // tableOfContents.js
 // http://github.com/cferdinandi/table-of-contents
 .vendor-toc {
+
   h2 {
     @include hide("visually");
   }
@@ -8,11 +9,12 @@
   ol {
     padding-top: none;
     list-style-type: none;
+    margin-left: map-get($global-bleed, small);
 
     // Breakpoints
     @include mappy-bp(lap-medium) {
-      margin-right: 2rem;
-      margin-left: map-get($global-bleed, large);
+      margin-right: 4rem;
+      margin-left: map-get($global-bleed, right);
     }
 
     ol {
@@ -24,7 +26,7 @@
     font-family: $font-family-secondary;
     letter-spacing: $font-tracking-slight;
     line-height: $line-height-tighter;
-    margin-top: 1.25rem;
+    margin-bottom: 1.25rem; // EXCEPTION: Applying a bottom margin instead of top to ensure columns line up properly.
     text-transform: uppercase;
 
     // Removing content

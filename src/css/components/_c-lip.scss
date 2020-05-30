@@ -3,26 +3,25 @@
 // The Header cap provides a "lip" area that sticks out below the header,
 // provided the browser can support CSS Grid.
 //
-// <div aria-hidden="true" class="c-header-cap">
-//   <div class="c-header-cap__hollow"></div>
-//   <div class="c-header-cap__lip"></div>
+// <div aria-hidden="true" class="c-lip">
+//   <div class="c-lip__hollow"></div>
+//   <div class="c-lip__fill"></div>
 // </div>
 //
-// Style guide: Components.header-cap
-.c-header-cap {
+// Style guide: Components.lip
+.c-lip {
   height: 2rem;
 
   // Supports
   @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
-      display: grid;
       height: unset;
     }
   }
 }
 
-.c-header-cap__lip {
+.c-lip__fill {
   @supports #{$supports-grid} {
     // Breakpoints
     @include mappy-bp(lap-small) {
@@ -48,4 +47,3 @@
     }
   }
 }
-

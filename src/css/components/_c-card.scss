@@ -90,12 +90,16 @@ $_card-outline: $border-thinner solid;
   letter-spacing: $font-tracking-tight;
   max-width: $global-type-measure;
 
+  // States
+  &:focus {
+    outline: $border-thin solid transparent;
+  }
+
   // Contexts
   .c-card--post & {
     color: $color-blue-shade;
   }
 
-  // Contexts
   .c-card--resource & {
     color: $color-green-shade;
   }
