@@ -45,7 +45,7 @@
 
 	// Supports
 	@supports #{$supports-flex} {
-		align-items: flex-end; // Uses `.c-logo__logotype`'s bottom margin
+		align-items: center; // Uses `.c-logo__logotype`'s bottom margin
 		display: flex;
 		flex-direction: row;
 	}
@@ -63,13 +63,7 @@
 }
 
 .c-logo__wordmark {
-	@include hide(remove); // Allows more space for the primary nav list before we have to use a menu
-
-	// Breakpoints
-	@include mappy-bp(palm-large) {
-		display: unset !important;
-		fill: $color-white;
-		margin-left: 0.75rem;
-		margin-bottom: 0.5rem;
-	}
+	fill: $color-white;
+	margin-top: 0.25rem;
+	margin-left: 0.5rem;
 }

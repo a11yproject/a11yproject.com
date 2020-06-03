@@ -3,11 +3,37 @@
 	@supports #{$supports-flex} {
 		align-items: center;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-between;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			flex-direction: row;
+		}
+	}
+
+	@supports #{$supports-grid} {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto 1fr;
+		grid-template-areas:
+			"logo     logo"
+			"sections sections";
+		justify-items: center;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			display: flex;
+		}
 	}
 }
 
+
+.l-primary-nav__logo {
+	@supports #{$supports-grid} {
+		grid-area: logo;
+	}
+}
 
 .l-primary-nav__sections {
 	margin-top: 1rem;
@@ -15,5 +41,9 @@
 	// Supports
 	@supports #{$supports-flex} {
 		margin-top: 0;
+	}
+
+	@supports #{$supports-grid} {
+		grid-area: sections;
 	}
 }

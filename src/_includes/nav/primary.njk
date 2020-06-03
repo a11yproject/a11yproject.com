@@ -11,8 +11,6 @@
 	</div>
 
 	<ul class="l-primary-nav__sections c-primary-nav__list">
-	{# {% set navPages = collections.navprimary | eleventyNavigation %}
-	{%- for entry in navPages %} #}
 	{% set features = collections.all | eleventyNavigation("Feature") %}
 	{% for entry in features %}
 		<li class="c-primary-nav__list-item">
@@ -25,15 +23,6 @@
 			</a>
 		</li>
 	{% endfor %}
-	<li class="c-primary-nav__list-item">
-		<a class="c-primary-nav__link c-primary-nav__link--contribute"
-			{% if page.url == "/contribute/" %}
-				aria-current="page"
-			{% endif %}
-			href="/contribute/">
-			Contribute
-		</a>
-	</li>
 	</ul>
 
 </nav>

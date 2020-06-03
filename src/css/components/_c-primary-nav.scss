@@ -36,77 +36,120 @@
 
 
 .c-primary-nav__list {
-  @include preserve-list-semantics();
+	@include preserve-list-semantics();
 
-  // Supports
-  @supports #{$supports-flex} {
-    display: flex;
-    flex-direction: row;
-  }
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
+
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			flex-direction: row;
+		}
+	}
+
+	@supports #{$supports-grid} {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, auto);
+
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			display: flex; // Prefer a single row of links when space allows
+		}
+	}
 }
 
 
 .c-primary-nav__list-item {
-  margin-top: 1rem;
+	margin-top: 1rem;
+	text-align: center;
 
-  // Supports
-  @supports #{$supports-flex} {
-    margin-top: 0;
-    margin-left: 1rem;
-  }
+	// Supports
+	@supports #{$supports-flex} {
+		margin-top: 1rem;
+		margin-left: 0;
+
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			margin-right: 0.5rem;
+		}
+
+		@include mappy-bp(palm-medium) {
+			margin-right: 1rem;
+		}
+
+		@include mappy-bp(lap-small) {
+			margin-top: 0;
+		}
+	}
+
+	&:last-of-type {
+		margin-right: 0;
+
+		// Supports
+		@supports #{$supports-grid} {
+			grid-area: 3 / 1 / 4 / 3;
+		}
+
+		.c-primary-nav__link {
+			background-color: $color-white;
+			border-bottom: none;
+			color: $color-black;
+
+			// States
+			&:hover {
+				border-bottom: none;
+				text-decoration: underline;
+			}
+
+			&:focus {
+				background-color: $color-black;
+				color: $color-white;
+			}
+
+			&[aria-current="page"] {
+				text-decoration: underline;
+			}
+		}
+	}
 }
 
 
 .c-primary-nav__link {
-  border-bottom: $border-thinner solid transparent;
-  color: $color-white;
-  font-family: $font-family-secondary;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  transition: $animation-duration-short $animation-easing-character border-bottom-color;
+	border-bottom: $border-thinner solid transparent;
+	color: $color-white;
+	font-family: $font-family-secondary;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	transition: $animation-duration-short $animation-easing-character border-bottom-color;
 
-  // Contexts
-  .template-home & {
-    border-bottom: 1px solid $color-green-shade;
-  }
+	// States
+	&:hover {
+		border-bottom-color: $color-white;
+	}
 
-  // States
-  &:hover {
-    border-bottom-color: $color-white;
-  }
+	&:focus {
+		outline: $border-thinner solid $color-white;
+	}
 
-  &:focus {
-    outline: $border-thinner solid $color-white;
-  }
+	&[aria-current="page"] {
+		border-bottom-color: $color-white;
+	}
 
-  &[aria-current="page"] {
-    border-bottom-color: $color-white;
-  }
+	// Breakpoints
+	@include mappy-bp(palm-large) {
+		padding: 0.5rem 1rem;
+	}
 
-  // User Queries
-  @media screen and (prefers-reduced-motion: reduce) {
-    transition: none;
-  }
-}
+	// Contexts
+	.template-home & {
+		border-bottom: 1px solid $color-green-shade;
+	}
 
-
-.c-primary-nav__link--contribute {
-  background-color: $color-white;
-  color: $color-black;
-  border-bottom: none;
-
-  // States
-  &:hover {
-    border-bottom: none;
-    text-decoration: underline;
-  }
-
-  &:focus {
-    background-color: $color-black;
-    color: $color-white;
-  }
-
-  &[aria-current="page"] {
-    text-decoration: underline;
-  }
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }
