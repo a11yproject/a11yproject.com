@@ -1,17 +1,14 @@
 a {
 
 	// Contexts
-	.c-content--contribute & {
-		@include content-link($color-yellow-shade);
-	}
-
 	.c-content--checklist &,
 	.c-content--post & {
 		@include content-link($color-green);
 	}
 
 	.c-content--about &,
-	.c-content--generic & {
+	.c-content--generic &,
+	.c-content--contribute & {
 		@include content-link($color-blue);
 	}
 }

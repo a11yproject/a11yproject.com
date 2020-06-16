@@ -1,7 +1,7 @@
 <div id="{{ person.name | slugify }}" class="c-person">
 	{% if person.photo and person.website %}
-		<a class="c-person__photo-link" href="{{ person.website }}">
-			<div aria-hidden="true" class="c-person__photo" style="background-image: url({{ person.photo }});"></div>
+		<a class="c-person__photo-link" aria-hidden="true" tabindex="-1" href="{{ person.website }}">
+			<div class="c-person__photo" style="background-image: url({{ person.photo }});"></div>
 		</a>
 	{% elif person.photo %}
 		<div aria-hidden="true" class="c-person__photo" style="background-image: {{ person.photo }};"></div>

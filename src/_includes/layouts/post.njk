@@ -33,7 +33,6 @@ templateClass: template-post
 				</span>
 			{% endif %}
 		</p>
-
 	</header>
 
 	<div data-content id="short-answer" class="l-post__body" itemprop="articleBody">
@@ -51,18 +50,12 @@ templateClass: template-post
 					{% for source in further_reading %}
 						<li>
 							<a href="{{ source.url }}">{{ source.title }}</a>
-							<span class="c-further-reading__source">{{ source.source }} <span class="c-further-reading__year">{{ source.year }}</span></span>
+							<span class="c-further-reading__source">{{ source.source }}{% if source.year %} <span class="c-further-reading__year">{{ source.year }}</span>{% endif %}</span>
 						</li>
 					{% endfor %}
 				</ul>
 			{% endif %}
 		<div>
-
-<article>
-	<a href="">
-
-	</a>
-</article>
 
 	</div>
 </article>
