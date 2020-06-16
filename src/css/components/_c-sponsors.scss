@@ -21,12 +21,14 @@
 	}
 }
 
+
 .c-sponsor__link {
 	// States
 	&:focus {
 		outline: $border-thin solid $color-black;
 	}
 }
+
 
 .c-sponsor__ad {
 	float: left;

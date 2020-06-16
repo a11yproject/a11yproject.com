@@ -12,6 +12,7 @@ $_l-post-toc: 1.25fr;
 	}
 }
 
+
 .l-post__header {
 	// Breakpoints
 	@include mappy-bp(lap-medium) {
@@ -26,6 +27,7 @@ $_l-post-toc: 1.25fr;
 		}
 	}
 }
+
 
 .l-post__body {
 	// Breakpoints
@@ -50,12 +52,14 @@ $_l-post-toc: 1.25fr;
 	}
 }
 
+
 .l-post__title {
 	// Supports
 	@supports #{$supports-grid} {
 		grid-area: title;
 	}
 }
+
 
 .l-post__metadata {
 	// Supports
@@ -64,12 +68,14 @@ $_l-post-toc: 1.25fr;
 	}
 }
 
+
 .l-post__content {
 	// Supports
 	@supports #{$supports-grid} {
 		grid-area: content;
 	}
 }
+
 
 .l-post__linkroll {
 	// Supports

@@ -60,6 +60,7 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
+
 .c-post__category__link {
 	font-size: 1rem;
 	color: $color-green;
@@ -152,11 +153,13 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
+
 .c-post__metadata--author,
 .c-post__metadata--published,
 .c-post__metadata--updated {
 	display: block;
 }
+
 
 .c-post__metadata--author {
 	margin-bottom: 0.5rem;
@@ -178,6 +181,7 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
+
 .c-post__metadata--published,
 .c-post__metadata--updated {
 	// Supports
@@ -185,6 +189,7 @@ $_c-post-vertical-spacing: 4ex;
 		flex-grow: 1;
 	}
 }
+
 
 .c-post__metadata-link {
 	color: $color-black;

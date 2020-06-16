@@ -18,6 +18,7 @@ $_person-photo: (
 	}
 }
 
+
 .c-person__photo-link {
 	// States
 	&:focus {
@@ -77,6 +78,7 @@ $_person-photo: (
 	}
 }
 
+
 .c-person__info {
 	border: $border-thinnest solid $color-black;
 	margin-top: 5rem;
@@ -110,16 +112,19 @@ $_person-photo: (
 	}
 }
 
+
 .c-person__link {
 	color: $color-blue-shade;
 	text-decoration-thickness: $border-thinner;
 	text-underline-offset: 0.3em;
 }
 
+
 .c-person__name {
 	font-family: $font-family-secondary;
 	font-size: 1.5rem;
 }
+
 
 .c-person__biography {
 	font-family: $font-family-secondary;

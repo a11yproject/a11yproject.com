@@ -19,6 +19,7 @@ $_wcag-explanation-icon-size: 7rem;
 	}
 }
 
+
 .c-wcag-explanation__link {
 	color: $color-blue-shade;
 	text-decoration-color: $color-blue-shade;
@@ -26,11 +27,13 @@ $_wcag-explanation-icon-size: 7rem;
 	text-underline-offset: 0.3em;
 }
 
+
 .c-wcag-explanation__list {
 	@include preserve-list-semantics();
 
 	max-width: $global-type-measure;
 }
+
 
 .c-wcag-explanation__list-item {
 	background-position: top center;
@@ -49,17 +52,21 @@ $_wcag-explanation-icon-size: 7rem;
 	}
 }
 
+
 .c-wcag-explanation__list-item--a {
 	background-image: url("#{$path-to-img}/wcag-level-a.svg");
 }
+
 
 .c-wcag-explanation__list-item--aa {
 	background-image: url("#{$path-to-img}/wcag-level-aa.svg");
 }
 
+
 .c-wcag-explanation__list-item--aaa {
 	background-image: url("#{$path-to-img}/wcag-level-aaa.svg");
 }
+
 
 .c-wcag-explanation__compliance-level {
 	display: block;

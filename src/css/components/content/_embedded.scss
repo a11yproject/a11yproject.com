@@ -1,17 +1,18 @@
 // Namespace
 .c-content {
-  // Embedded Tweet
-  //
-  // Style guide: Components.post.tweet
-  .twitter-tweet {
-    margin-top: $_c-post-vertical-spacing !important;
-    margin-bottom: $_c-post-breathing-room !important;
-  }
+	// Embedded Tweet
+	//
+	// Style guide: Components.post.tweet
+	.twitter-tweet {
+		margin-top: $_c-post-vertical-spacing !important;
+		margin-bottom: $_c-post-breathing-room !important;
+	}
 
-  // Embedded CodePen
-  //
-  // Style guide: Components.post.codepen
-  .cp_embed_wrapper {
-    margin-top: $_c-post-vertical-spacing !important;
-  }
+
+	// Embedded CodePen
+	//
+	// Style guide: Components.post.codepen
+	.cp_embed_wrapper {
+		margin-top: $_c-post-vertical-spacing !important;
+	}
 }

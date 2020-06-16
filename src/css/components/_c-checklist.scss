@@ -45,6 +45,7 @@ $_checklist-padding: 1.5rem;
 	}
 }
 
+
 .c-checklist__summary {
 	cursor: pointer;
 	padding: $_checklist-padding $_checklist-padding $_checklist-padding 1.5rem;
@@ -63,6 +64,7 @@ $_checklist-padding: 1.5rem;
 	}
 }
 
+
 .c-checklist__icon {
 	fill: $color-blue-shade;
 	height: $_checklist-icon-size;
@@ -80,13 +82,16 @@ $_checklist-padding: 1.5rem;
 	}
 }
 
+
 .c-checklist__title {
 	margin-left: 1rem;
 }
 
+
 .c-checklist__citation {
 	padding-left: $_checklist-inset;
 }
+
 
 .c-checklist__link {
 	color: $color-blue-shade;
@@ -96,6 +101,7 @@ $_checklist-padding: 1.5rem;
 	text-underline-offset: 0.3em;
 	text-transform: uppercase;
 }
+
 
 .c-checklist__description {
 	font-size: 0.9rem;

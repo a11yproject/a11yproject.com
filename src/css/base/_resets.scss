@@ -80,6 +80,7 @@ picture {
 	// TODO: Broken images fallback: https://bitsofco.de/styling-broken-images/
 }
 
+
 h1,
 h2,
 h3,
@@ -155,6 +156,7 @@ sub {
 	}
 }
 
+
 sup {
 	text-transform: lowercase;
 	font-variant-position: super;
@@ -173,6 +175,7 @@ sup {
 		}
 	}
 }
+
 
 // Remove default table spacing
 table {
@@ -263,6 +266,7 @@ time {
 		font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
 	}
 }
+
 
 var {
 	font-style: normal;

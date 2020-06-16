@@ -1,76 +1,77 @@
 // Namespace
 .c-content {
-  // Ordered List
-  //
-  // Style guide: Components.post.ol
-  ol {
-    @include preserve-list-semantics();
+	// Ordered List
+	//
+	// Style guide: Components.post.ol
+	ol {
+		@include preserve-list-semantics();
 
-    counter-reset: ordered-list;
+		counter-reset: ordered-list;
 
-    li {
-      counter-increment: ordered-list;
+		li {
+			counter-increment: ordered-list;
 
-      &::before {
-        content: counter(ordered-list);
-        display: block;
-        font-family: $font-family-secondary;
-        font-size: 3ex;
-        height: 1rem;
-        position: relative;
-          top: rem(9);
-          right: 1.75rem;
-        width: 1rem;
-      }
-    }
-  }
+			&::before {
+				content: counter(ordered-list);
+				display: block;
+				font-family: $font-family-secondary;
+				font-size: 3ex;
+				height: 1rem;
+				position: relative;
+					top: rem(9);
+					right: 1.75rem;
+				width: 1rem;
+			}
+		}
+	}
 
 
-  // Unordered List
-  //
-  // Style guide: Components.post.ul
-  ul {
-    @include preserve-list-semantics();
+	// Unordered List
+	//
+	// Style guide: Components.post.ul
+	ul {
+		@include preserve-list-semantics();
 
-    li {
-      margin-left: 1.75rem;
+		li {
+			margin-left: 1.75rem;
 
-      // Breakpoints
-      @include mappy-bp(lap-medium) {
-        margin-left: 0;
-      }
+			// Breakpoints
+			@include mappy-bp(lap-medium) {
+				margin-left: 0;
+			}
 
-      &::before {
-        content: "─";
-        display: block;
-        font-family: $font-family-secondary;
-        font-size: 2ex;
-        height: 1rem;
-        position: relative;
-          top: rem(20);
-          right: rem(36);
-        width: 1rem;
-      }
+			&::before {
+				content: "─";
+				display: block;
+				font-family: $font-family-secondary;
+				font-size: 2ex;
+				height: 1rem;
+				position: relative;
+					top: rem(20);
+					right: rem(36);
+				width: 1rem;
+			}
 
-      ul {
-        margin-top: 0;
-        margin-left: 2rem;
-      }
-    }
-  }
+			ul {
+				margin-top: 0;
+				margin-left: 2rem;
+			}
+		}
+	}
 
-  // Definition List
-  //
-  // Style guide: Components.post.dl
-  dl {
-    @include preserve-list-semantics();
 
-    dt {
-      font-family: $font-family-secondary;
-      margin-top: 1.5rem;
-      margin-left: map-get($global-post-content-inset, small) * -1;
-    }
-  }
+	// Definition List
+	//
+	// Style guide: Components.post.dl
+	dl {
+		@include preserve-list-semantics();
+
+		dt {
+			font-family: $font-family-secondary;
+			margin-top: 1.5rem;
+			margin-left: map-get($global-post-content-inset, small) * -1;
+		}
+	}
 }
 
 
