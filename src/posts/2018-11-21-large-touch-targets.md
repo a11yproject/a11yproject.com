@@ -10,7 +10,7 @@ eleventyNavigation:
 tags:
   - quicktest
 further_reading:
-  - url: https://webplatform.github.io/docs/tutorials/understanding-css-units/#On-CSS-pixels,-physical-units-and-scalability
+  - url: https://webplatform.github.io/docs/tutorials/understanding-css-units/On-CSS-pixels,-physical-units-and-scalability
     title: "Understanding pixels and other CSS units: On CSS pixels, physical units and scalability"
     source: WebPlatform
   - url: https://knowbility.org/blog/2018/WCAG21-255TargetSize/

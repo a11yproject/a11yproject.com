@@ -34,9 +34,14 @@
 
 	// States
 	&:hover,
-	&:focus,
 	&[aria-current="page"] {
 		text-decoration: underline;
+	}
+
+	&:focus {
+		background-color: $color-black;
+		color: $color-white;
+		outline: $border-thinner solid $color-black;
 	}
 }
 
@@ -70,7 +75,14 @@
 
 
 .c-footer__copyright-link {
-  color: $color-black;
+	color: $color-black;
+
+	// States
+	&:focus {
+		background-color: $color-black;
+		color: $color-white;
+		outline: $border-thinner solid $color-black;
+	}
 }
 
 

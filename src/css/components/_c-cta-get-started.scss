@@ -55,6 +55,7 @@
 	&:focus {
 		background-color: $color-pink;
 		color: $color-white;
+		outline: $border-thin solid transparent;
 	}
 
 	// Breakpoints

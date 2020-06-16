@@ -17,13 +17,13 @@ $_wcag-explanation-icon-size: 7rem;
 		margin-top: 1.5rem;
 		max-width: $global-type-measure;
 	}
+}
 
-	a {
-		color: $color-blue-shade;
-		text-decoration-color: $color-blue-shade;
-		text-decoration-thickness: $border-thinnest;
-		text-underline-offset: 0.3em;
-	}
+.c-wcag-explanation__link {
+	color: $color-blue-shade;
+	text-decoration-color: $color-blue-shade;
+	text-decoration-thickness: $border-thinnest;
+	text-underline-offset: 0.3em;
 }
 
 .c-wcag-explanation__list {

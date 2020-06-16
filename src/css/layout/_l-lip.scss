@@ -10,6 +10,11 @@
 				". hollow fill fill";
 		}
 	}
+	// Contexts
+	.template-home &,
+	.template-post & {
+		display: none;
+	}
 }
 
 .l-lip__hollow {

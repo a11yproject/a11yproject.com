@@ -45,7 +45,7 @@
 	color: $color-green;
 	font-family: $font-family-secondary;
 	font-size: 0.9rem;
-	letter-spacing: $font-tracking-loose;
+	letter-spacing: $font-tracking-slight;
 	margin-top: 1.5rem;
 	text-transform: uppercase;
 }
@@ -104,6 +104,18 @@
 
 .c-homepage-card__checklist {
 	margin-right: map-get($global-bleed, large) * -1;
+}
+
+
+.c-homepage-card__spotlight-link {
+	// States
+	&:focus {
+		outline: $border-thinner solid transparent;
+
+		.c-homepage-card__spotlight-photo {
+			transform: scale(1.05);
+		}
+	}
 }
 
 

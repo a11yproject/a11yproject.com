@@ -66,10 +66,16 @@
     @include preserve-list-semantics();
 
     dt {
-      font-size: 90%;
-      font-weight: $font-weight-bold;
+      font-family: $font-family-secondary;
       margin-top: 1.5rem;
       margin-left: map-get($global-post-content-inset, small) * -1;
     }
   }
+}
+
+
+.c-further-reading__source {
+	display: block;
+	font-family: $font-family-secondary;
+	margin-top: -0.25rem;
 }

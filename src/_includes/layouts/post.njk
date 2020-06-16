@@ -13,7 +13,7 @@ templateClass: template-post
 		</div>
 
 		<h1 id="title" class="l-post__title c-post__title" itemprop="name headline">
-			{{ title }}
+			{{ title | safe }}
 		</h1>
 
 		<p id="metadata" class="l-post__metadata c-post__metadata">
@@ -34,12 +34,36 @@ templateClass: template-post
 			{% endif %}
 		</p>
 
-		{% include "nav/toc.njk" %}
-
 	</header>
 
-	<div data-content id="short-answer" class="l-post__content c-content" itemprop="articleBody">
-		{{ content | safe }}
+	<div data-content id="short-answer" class="l-post__body" itemprop="articleBody">
+
+		{% include "nav/toc.njk" %}
+
+		<div class="l-post__content c-content c-content--post">
+			{{ content | safe }}
+
+			{% if further_reading %}
+				<h2 id="further-reading">
+					Further reading
+				</h2>
+				<ul class="c-further-reading">
+					{% for source in further_reading %}
+						<li>
+							<a href="{{ source.url }}">{{ source.title }}</a>
+							<span class="c-further-reading__source">{{ source.source }} <span class="c-further-reading__year">{{ source.year }}</span></span>
+						</li>
+					{% endfor %}
+				</ul>
+			{% endif %}
+		<div>
+
+<article>
+	<a href="">
+
+	</a>
+</article>
+
 	</div>
 </article>
 

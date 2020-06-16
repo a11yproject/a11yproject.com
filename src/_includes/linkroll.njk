@@ -1,22 +1,6 @@
-{% for post in postslist | reverse %}
-<article
-	class="c-linkroll
-	{% if post.data.categories == "Quick Tip" %}
-		c-linkroll--quick-tip
-	{% elif post.data.categories == "Quick Tests" %}
-		c-linkroll--quick-tests
-	{% elif post.data.categories == "Myths" %}
-		c-linkroll--myths
-	{% endif %}">
-	<a class="c-linkroll__link" {% if post.url == url %}aria-current="page"{% endif %} href="{{ post.url | url }}">
-		<div class="c-linkroll__count">
-			<p class="c-linkroll__number">021<span class="u-hide-visually">. </span></p>
-		</div>
-		<div class="c-linkroll__content">
-			<h3 class="c-linkroll__title">
-				<span class="c-linkroll__category">{{ post.data.categories }}<span class="u-hide-visually">: </span></span><br />{{ post.data.title }}
-			</h3>
-		</div>
+<li class="c-linkroll__entry c-linkroll__entry--{{ post.data.category | slugify }}">
+	<a class="c-linkroll__link" href="{{ post.url | url }}">
+		<span class="c-linkroll__category">{{ post.data.category }}<span class="u-hide-visually">: </span></span>
+		<span class="c-linkroll__title">{{ post.data.title }}</span>
 	</a>
-</article>
-{% endfor %}
+</li>

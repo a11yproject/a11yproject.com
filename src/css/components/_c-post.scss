@@ -188,6 +188,7 @@ $_c-post-vertical-spacing: 4ex;
 
 .c-post__metadata-link {
 	color: $color-black;
+	text-underline-offset: 0.2em;
 
 	// States
 	&:hover,

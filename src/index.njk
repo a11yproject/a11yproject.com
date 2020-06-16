@@ -96,7 +96,7 @@ tags:
 
 	<div class="c-homepage-feature c-homepage-feature--50-50">
 		<div class="c-homepage-card c-homepage-card--spotlight">
-			<a href="">
+			<a class="c-homepage-card__spotlight-link" href="">
 				<img
 					class="c-homepage-card__spotlight-photo"
 					alt="Photo of Amy Carney."
@@ -130,17 +130,22 @@ tags:
 				Explore resources
 			</h2>
 			<p class="c-homepage-card__description">
-				Tools, books, videos, podcasts, newsletters, even professional help! A lot of people have made a lot of great things to help you out. We collect them to help you discover them.
+				Tools, books, videos, podcasts, newsletters, even professional help! A lot of people have made a lot of great things to help you out. We collect them to help you discover and explore.
 			</p>
 			<p>
 				<a class="c-homepage-card__cta" href="">See all resources</a>
 			</p>
 		</div>
 		<div class="c-homepage-card">
-
-			{% set postslist = collections.posts | head(-3) %}
-			{% include "linkroll.njk" %}
-
+			{# {% set postlist = collections.posts | head(-1) %} #}
+			<h2 class="c-heading-larger" id="explore-resources">
+				Recent posts
+			</h2>
+			<ul class="c-linkroll">
+				{% for post in collections.posts | head(-3) %}
+					{% include "linkroll.njk" %}
+				{% endfor %}
+			</ul>
 		</div>
 	</div>
 

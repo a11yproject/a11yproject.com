@@ -1,13 +1,25 @@
 // tableOfContents.js
 // http://github.com/cferdinandi/table-of-contents
 .vendor-toc {
-		// Breakpoints
-		@include mappy-bp(lap-small) {
-			// Contexts
-			.template-generic & {
-				margin-top: 4rem;
-			}
+	margin-top: 1rem;
+
+	// Breakpoints
+	@include mappy-bp(lap-small) {
+		margin-top: 0;
+
+		// Contexts
+		.template-home & {
+			margin-top: 1.25rem;
 		}
+
+		.template-post & {
+			margin-top: 0.5rem;
+		}
+
+		.template-generic & {
+			margin-top: 5.25rem;
+		}
+	}
 
 	h2 {
 		@include hide("visually");
@@ -19,7 +31,23 @@
 		margin-left: map-get($global-bleed, small);
 
 		// Breakpoints
+		@include mappy-bp(palm-small) {
+			columns: 2;
+
+			// Contexts
+			.template-generic &,
+			.template-post &,
+			.template-team & {
+				columns: 1;
+			}
+		}
+
+		@include mappy-bp(palm-large) {
+			columns: 3;
+		}
+
 		@include mappy-bp(lap-small) {
+			columns: 1;
 			margin-right: map-get($global-bleed, small);
 		}
 
@@ -47,10 +75,15 @@
 		}
 
 		li {
+			letter-spacing: 0;
 			text-transform: none;
 
+			&:first-of-type {
+				margin-top: 1rem;
+			}
+
 			&:last-of-type {
-				margin-bottom: map-get($global-bleed, large);
+				margin-bottom: map-get($global-bleed, small);
 			}
 
 			// Contexts

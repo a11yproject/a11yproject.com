@@ -1,0 +1,17 @@
+// content-link
+//
+// Generates color and states for links placed inside of a `c-content` wrapper.
+//
+// $link-color - Specifies what color to use for link styling.
+//
+// Styleguide Logic.Mixins.hide
+@mixin content-link($link-color) {
+	color: $link-color;
+
+	// States
+	&:focus {
+		color: $color-white;
+		background-color: $link-color;
+		outline: $border-thin solid $link-color;
+	}
+}

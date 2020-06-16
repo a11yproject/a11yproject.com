@@ -1,7 +1,17 @@
 .l-content {
-	margin-top: 3rem;
-
 	// Contexts
+	.template-home &,
+	.template-posts &,
+	.template-checklist &,
+	.template-resources & {
+		padding-top: 3rem;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			padding-top: 0;
+		}
+	}
+
 	.template-post &,
 	.template-about &,
 	.template-resources &,
@@ -12,6 +22,5 @@
 	// Supports
 	@supports #{$supports-grid} {
 		grid-area: content;
-		margin-top: 0;
 	}
 }

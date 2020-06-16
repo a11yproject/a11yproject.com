@@ -40,6 +40,7 @@
 	&:focus {
 		.c-logo__icon {
 			transform: scale(1.15);
+			outline: $border-thin solid transparent;
 		}
 	}
 

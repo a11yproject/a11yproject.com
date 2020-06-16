@@ -723,12 +723,6 @@
 			"url": "https://accessibility-club.org/"
 		},
 		{
-			"title": "Bay Area Accessibility and Inclusive Design",
-			"location": "Bay Area, United States",
-			"description": "Calling all Bay Area developers, designers, accessibility, usability and any other high-tech professionals who have an interest in digital (web, mobile, etc.) accessibility and users with different disabilities.",
-			"url": "https://www.meetup.com/a11ybay/"
-		},
-		{
 			"title": "Accessibility DC",
 			"location": "Washington DC, United States",
 			"description": "Accessibility DC is a monthly meetup once every month and is a chance for people who are interested in Accessibility to get together and share information. Web Developers who are interested in Web Accessibility and Adaptive Technology Users who have a daily experience of accessibility issues are all welcome to attend.",
@@ -745,6 +739,18 @@
 			"location": "Michigan, United States",
 			"description": "Accessibility group based in Ann Arbor, Michigan.",
 			"url": "https://twitter.com/annarbora11y"
+		},
+		{
+			"title": "Bay Area Accessibility and Inclusive Design",
+			"location": "Bay Area, United States",
+			"description": "Calling all Bay Area developers, designers, accessibility, usability and any other high-tech professionals who have an interest in digital (web, mobile, etc.) accessibility and users with different disabilities.",
+			"url": "https://www.meetup.com/a11ybay/"
+		},
+		{
+			"title": "Bristol Inclusive Design & Development",
+			"location": "Bristol, United Kingdom",
+			"description": "A meetup for anyone involved in digital design and development, accessibility and inclusive design.",
+			"url": "https://twitter.com/BrisInclusive"
 		},
 		{
 			"title": "Budapest Accessibility Meetup",
