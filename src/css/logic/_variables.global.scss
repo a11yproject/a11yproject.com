@@ -37,6 +37,18 @@ $global-post-content-inset: (
 );
 
 
+// global-post-columns
+//
+// Map that sets the grid column widths for posts.
+//
+// Styleguide Logic.Variables.Global.global-post-columns
+$global-post-columns: (
+	category: 11rem,
+	gutter: 0.5rem,
+	toc: 1.25fr
+);
+
+
 // global-type-size
 //
 // Sets the initial document font size in pixels. Used for things like `em`

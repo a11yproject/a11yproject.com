@@ -487,6 +487,12 @@
 			"url": "https://www.accesslint.com/"
 		},
 		{
+			"title": "Ace, by DAISY",
+			"description": "Ace, the Accessibility Checker for EPUB, is a tool developed by the DAISY Consortium to assist with the evaluation of accessibility features of EPUB publications.",
+			"additional": "The DAISY Consortium",
+			"url": "https://daisy.github.io/ace/"
+		},
+		{
 			"title": "ally.js",
 			"description": "A JavaScript library to help modern web applications with accessibility concerns by making accessibility simpler.",
 			"additional": "Rodney Rehm",
@@ -698,6 +704,12 @@
 		}
 	],
 	"meetups": [
+		{
+			"title": "A11YChi/A11Y-Presentations",
+			"location": "Chicago, Illinois",
+			"description": "A guide to accessible presentations, for presenters, speakers.",
+			"url": "https://github.com/A11YChi/A11Y-Presentations"
+		},
 		{
 			"title": "#a11yTO",
 			"location": "Toronto, Canada",

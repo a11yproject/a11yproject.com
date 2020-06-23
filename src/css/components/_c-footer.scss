@@ -12,6 +12,7 @@
 
 
 .c-footer__heading {
+	font-size: 1.25rem;
 	padding-left: 0.5ch;
 	text-transform: uppercase;
 }
@@ -29,19 +30,14 @@
 
 
 .c-footer__link {
-	color: $color-black;
+	@include link-states($color-black);
+
 	text-decoration: none;
 
 	// States
 	&:hover,
 	&[aria-current="page"] {
 		text-decoration: underline;
-	}
-
-	&:focus {
-		background-color: $color-black;
-		color: $color-white;
-		outline: $border-thinner solid $color-black;
 	}
 }
 
@@ -75,14 +71,7 @@
 
 
 .c-footer__copyright-link {
-	color: $color-black;
-
-	// States
-	&:focus {
-		background-color: $color-black;
-		color: $color-white;
-		outline: $border-thinner solid $color-black;
-	}
+	@include link-states($color-black);
 }
 
 

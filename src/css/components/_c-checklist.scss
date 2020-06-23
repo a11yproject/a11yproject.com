@@ -89,12 +89,14 @@ $_checklist-padding: 1.5rem;
 
 
 .c-checklist__citation {
+	margin-top: 0.5rem;
 	padding-left: $_checklist-inset;
 }
 
 
 .c-checklist__link {
-	color: $color-blue-shade;
+	@include link-states($color-blue-shade);
+
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	text-decoration-thickness: $border-thinnest;

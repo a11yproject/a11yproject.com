@@ -56,12 +56,6 @@
 	font-size: 1.25rem;
 	color: $color-black;
 	text-decoration: none;
-
-	// States
-	&:hover,
-	&:focus {
-		text-decoration: underline;
-	}
 }
 
 
@@ -69,6 +63,11 @@
 	font-family: $font-family-secondary;
 	margin-top: 1rem;
 	max-width: 50ch;
+}
+
+
+.c-homepage-card__link {
+	@include link-states($color-blue);
 }
 
 

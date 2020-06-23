@@ -1,10 +1,10 @@
-<div id="{{ person.name | slugify }}" class="c-person">
+<div class="c-person">
 	{% if person.photo and person.website %}
-		<a class="c-person__photo-link" aria-hidden="true" tabindex="-1" href="{{ person.website }}">
-			<div class="c-person__photo" style="background-image: url({{ person.photo }});"></div>
+		<a aria-hidden="true" tabindex="-1" href="{{ person.website }}">
+			<div id="{{ person.name | slugify }}"  class="c-person__photo" style="background-image: url({{ person.photo }});"></div>
 		</a>
 	{% elif person.photo %}
-		<div aria-hidden="true" class="c-person__photo" style="background-image: {{ person.photo }};"></div>
+		<div id="{{ person.name | slugify }}" aria-hidden="true" class="c-person__photo" style="background-image: {{ person.photo }};"></div>
 	{% endif %}
 	{% if personRole == "author" %}
 		<div class="c-person__info">

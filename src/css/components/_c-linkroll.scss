@@ -1,3 +1,31 @@
+@mixin _generate-context-borders($border-direction) {
+	.c-linkroll__entry--assistive-technology & {
+		border-#{$border-direction}-color: $color-gray-shade;
+	}
+
+	.c-linkroll__entry--background & {
+		border-#{$border-direction}-color: $color-gray-shade;
+	}
+
+	.c-linkroll__entry--how-to & {
+		border-#{$border-direction}-color: $color-yellow;
+	}
+
+	.c-linkroll__entry--myths &,
+	.c-linkroll__entry--announcements & {
+		border-#{$border-direction}-color: $color-pink;
+	}
+
+	.c-linkroll__entry--quick-test & {
+		border-#{$border-direction}-color: $color-blue;
+	}
+
+	.c-linkroll__entry--quick-tip & {
+		border-#{$border-direction}-color: $color-green;
+	}
+}
+
+
 // Linkroll
 //
 // Style guide: Components.linkroll
@@ -29,8 +57,13 @@
 		outline: $border-thin solid transparent;
 
 		.c-linkroll__title,
-		.c-linkroll__category {
+		.c-linkroll__category,
+		.c-linkroll__featured {
 			color: $color-white;
+		}
+
+		.c-linkroll__featured {
+			border-bottom-color: $color-white;
 		}
 
 		// Contexts
@@ -67,35 +100,21 @@
 	}
 
 	// Contexts
-	.c-linkroll__entry--assistive-technology & {
-		border-left-color: $color-gray-shade;
-	}
-
-	.c-linkroll__entry--background & {
-		border-left-color: $color-gray-shade;
-	}
-
-	.c-linkroll__entry--how-to & {
-		border-left-color: $color-yellow;
-	}
-
-	.c-linkroll__entry--myths &,
-	.c-linkroll__entry--announcements & {
-		border-left-color: $color-pink;
-	}
-
-	.c-linkroll__entry--quick-test & {
-		border-left-color: $color-blue;
-	}
-
-	.c-linkroll__entry--quick-tip & {
-		border-left-color: $color-green;
-	}
+	@include _generate-context-borders("left");
 
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
 	}
+}
+
+
+.c-linkroll__link--featured {
+	border-top: $border-thicker solid transparent;
+	border-left: none;
+
+	// Contexts
+	@include _generate-context-borders("top");
 }
 
 
@@ -130,10 +149,25 @@
 	}
 }
 
+.c-linkroll__category--featured {
+	padding-top: 1rem;
+}
+
 
 .c-linkroll__title {
 	color: $color-black;
 	font-size: 1.25rem;
 	line-height: $line-height-tight;
 	text-decoration: none;
+}
+
+.c-linkroll__featured {
+	border-bottom: $border-thin dotted transparent;
+	color: $color-black;
+	font-family: $font-family-secondary;
+	font-size: 1.25rem;
+	padding-bottom: 0.75rem;
+
+	// Contexts
+	@include _generate-context-borders("bottom");
 }

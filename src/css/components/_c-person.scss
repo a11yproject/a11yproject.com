@@ -19,15 +19,6 @@ $_person-photo: (
 }
 
 
-.c-person__photo-link {
-	// States
-	&:focus {
-		.c-person__photo {
-			transform: scale(1.05);
-		}
-	}
-}
-
 // Photos use background images since we can't control the dimensions of
 // submitted avatars. This centers whatever is added, which hopefully creates a
 // good cropping effect.
@@ -40,13 +31,7 @@ $_person-photo: (
 	position: absolute;
 		margin-top: -3.5rem;
 		right: 0.25rem;
-	transition: transform $animation-duration-shorter $animation-easing-character;
 	width: map-get($_person-photo, small);
-
-	// User Queries
-	@media screen and (prefers-reduced-motion: reduce) {
-		transition: none;
-	}
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
@@ -68,13 +53,22 @@ $_person-photo: (
 		left: 3rem;
 	}
 
+	@include mappy-bp(lap-small) {
+		left: initial;
+		margin-left: 1rem;
+		right: initial;
+	}
+
 	@include mappy-bp(lap-medium) {
 		height: map-get($_person-photo, large);
-		left: initial;
 		margin-top: -3rem;
 		margin-left: -1rem;
-		right: initial;
 		width: map-get($_person-photo, large);
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
 	}
 }
 
@@ -114,7 +108,8 @@ $_person-photo: (
 
 
 .c-person__link {
-	color: $color-blue-shade;
+	@include link-states($color-blue-shade);
+
 	text-decoration-thickness: $border-thinner;
 	text-underline-offset: 0.3em;
 }

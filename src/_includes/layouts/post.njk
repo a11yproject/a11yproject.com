@@ -43,20 +43,25 @@ templateClass: template-post
 			{{ content | safe }}
 
 			{% if further_reading %}
-				<h2 id="further-reading">
-					Further reading
-				</h2>
-				<ul class="c-further-reading">
-					{% for source in further_reading %}
-						<li>
-							<a href="{{ source.url }}">{{ source.title }}</a>
-							<span class="c-further-reading__source">{{ source.source }}{% if source.year %} <span class="c-further-reading__year">{{ source.year }}</span>{% endif %}</span>
-						</li>
-					{% endfor %}
-				</ul>
+				{% include "further-reading.njk" %}
 			{% endif %}
 		<div>
 
 	</div>
 </article>
 
+<nav id="recommended-reading" class="l-recommended-reading" aria-label="Recommended reading">
+
+	<div class="l-recommended-reading__featured">
+		{% for post in collections.posts | head(-1) %}
+			{% include "featured.njk" %}
+		{% endfor %}
+	</div>
+
+	<ul class="l-recommended-reading__list c-linkroll">
+		{% for post in collections.posts | head(-2) %}
+			{% include "linkroll.njk" %}
+		{% endfor %}
+	</ul>
+
+</nav>

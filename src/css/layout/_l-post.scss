@@ -1,8 +1,3 @@
-$_l-post-category: 11rem;
-$_l-post-gutter: 0.5rem;
-$_l-post-toc: 1.25fr;
-
-
 .l-post {
 	margin-top: 2rem;
 
@@ -19,7 +14,7 @@ $_l-post-toc: 1.25fr;
 		// Supports
 		@supports #{$supports-grid} {
 			display: grid;
-			grid-template-columns: $_l-post-category $_l-post-gutter 2fr 2rem $_l-post-toc;
+			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 2fr 2rem map-get($global-post-columns, toc);
 			grid-template-rows: auto auto;
 			grid-template-areas:
 				"category . title    . ."
@@ -30,16 +25,18 @@ $_l-post-toc: 1.25fr;
 
 
 .l-post__body {
+	margin-top: 4ex;
+
 	// Breakpoints
 	@include mappy-bp(lap-medium) {
 		// Supports
 		@supports #{$supports-grid} {
 			margin-top: 6ex;
 			display: grid;
-			grid-template-columns: $_l-post-category $_l-post-gutter 2fr 2rem $_l-post-toc;
+			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 2fr 2rem map-get($global-post-columns, toc);
 			grid-template-rows: auto auto;
 			grid-template-areas:
-				". . content . toc";
+				". . content     . toc";
 		}
 	}
 }
@@ -70,9 +67,26 @@ $_l-post-toc: 1.25fr;
 
 
 .l-post__content {
+	// @include post-content-inset("small");
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		@include post-content-inset("medium");
+	}
+
+	@include mappy-bp(lap-small) {
+		@include post-content-inset("large");
+	}
+
 	// Supports
 	@supports #{$supports-grid} {
 		grid-area: content;
+
+		// Breakpoints
+		@include mappy-bp(lap-medium) {
+			margin-right: 0;
+			margin-left: map-get($global-bleed, small);
+		}
 	}
 }
 

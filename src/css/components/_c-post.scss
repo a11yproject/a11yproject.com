@@ -108,10 +108,11 @@ $_c-post-vertical-spacing: 4ex;
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin: 0 0 2rem map-get($global-post-content-inset, medium);
+			margin: 1rem 0 2rem map-get($global-post-content-inset, medium);
 		}
 
 		@include mappy-bp(lap-medium) {
+			margin-top: 0;
 			margin-left: map-get($global-post-content-inset, small);
 		}
 	}
@@ -214,17 +215,21 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-content {
+	// @include post-content-inset("small");
+
 	line-height: $line-height-double;
-	margin-left: map-get($global-post-content-inset, small);
-	margin-right: map-get($global-post-content-inset, small);
+// margin-left: map-get($global-post-content-inset, small);
+// margin-right: map-get($global-post-content-inset, small);
 
 	// Breakpoints
 	@include mappy-bp(palm-medium) {
-		margin-left: map-get($global-post-content-inset, medium);
+		// @include post-content-inset("medium");
+// margin-left: map-get($global-post-content-inset, medium);
 	}
 
 	@include mappy-bp(lap-small) {
-		margin-left: map-get($global-post-content-inset, large);
+		// @include post-content-inset("large");
+	// margin-left: map-get($global-post-content-inset, large);
 		margin-right: 0;
 	}
 
@@ -232,13 +237,13 @@ $_c-post-vertical-spacing: 4ex;
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin-left: map-get($global-post-content-inset, medium);
+// margin-left: map-get($global-post-content-inset, medium);
 			margin-right: 0;
 		}
 
 		@include mappy-bp(lap-medium) {
-			margin-left: map-get($global-post-content-inset, small);
-			margin-right: map-get($global-post-content-inset, small);
+// margin-left: map-get($global-post-content-inset, small);
+// margin-right: map-get($global-post-content-inset, small);
 		}
 	}
 }

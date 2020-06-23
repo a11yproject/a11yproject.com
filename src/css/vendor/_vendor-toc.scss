@@ -13,7 +13,16 @@
 		}
 
 		.template-post & {
-			margin-top: 0.5rem;
+			margin: 3rem map-get($global-post-content-inset, medium) 2rem map-get($global-post-content-inset, medium);
+
+			// Breakpoints
+			@include mappy-bp(lap-small) {
+				@include post-content-inset("large");
+			}
+
+			@include mappy-bp(lap-medium) {
+				margin: 0.5rem 0 0 map-get($global-bleed, small);
+			}
 		}
 
 		.template-generic & {
@@ -26,9 +35,10 @@
 	}
 
 	ol {
+		@include preserve-list-semantics();
+
 		padding-top: none;
 		list-style-type: none;
-		margin-left: map-get($global-bleed, small);
 
 		// Breakpoints
 		@include mappy-bp(palm-small) {
@@ -48,12 +58,12 @@
 
 		@include mappy-bp(lap-small) {
 			columns: 1;
-			margin-right: map-get($global-bleed, small);
+// margin-right: map-get($global-bleed, small);
 		}
 
 		@include mappy-bp(lap-medium) {
 			margin-right: 4rem;
-			margin-left: map-get($global-bleed, right);
+// margin-left: map-get($global-bleed, large);
 		}
 
 		ol {

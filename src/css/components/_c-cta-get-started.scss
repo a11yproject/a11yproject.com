@@ -48,7 +48,8 @@
 	text-decoration: none;
 	transition:
 		background-color $animation-duration-shorter $animation-easing-character,
-		color $animation-duration-shorter $animation-easing-character;
+		color $animation-duration-shorter $animation-easing-character,
+		letter-spacing $animation-duration-shorter $animation-easing-character;
 
 	// States
 	&:hover,
@@ -56,6 +57,10 @@
 		background-color: $color-pink;
 		color: $color-white;
 		outline: $border-thin solid transparent;
+	}
+
+	&:focus {
+		letter-spacing: $font-tracking-loose;
 	}
 
 	// Breakpoints

@@ -1,0 +1,36 @@
+.l-recommended-reading {
+	margin-top: 2rem;
+	margin-left: 1rem;
+
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		// Supports
+		@supports #{$supports-grid} {
+			display: grid;
+			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 1fr 1fr 2rem map-get($global-post-columns, toc);
+		}
+	}
+}
+
+
+.l-recommended-reading__featured {
+	margin-top: 2.25rem;
+	margin-right: 1.5rem;
+
+	// Supports
+	@supports #{$supports-grid} {
+		grid-column-start: 3;
+	}
+}
+
+
+.l-recommended-reading__list {
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		// Supports
+		@supports #{$supports-flex} {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}

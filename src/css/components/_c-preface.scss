@@ -8,5 +8,13 @@
 
 
 .c-preface__link {
-	color: $color-green;
+	// Contexts
+	.template-checklist &,
+	.template-resources & {
+		@include link-states($color-green);
+	}
+
+	.template-team & {
+		@include link-states($color-blue);
+	}
 }
