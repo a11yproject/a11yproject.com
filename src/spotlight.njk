@@ -1,24 +1,24 @@
 ---
 layout: layouts/home.njk
 title: Spotlight
-subtitle: Amazing people doing great accessibility work.
-templateClass: template-generic
+subtitle: People championing digital accessibility.
+eleventyNavigation:
+  key: Spotlight
+  parent: Project
+  order: 5
+tags:
+  - project
+templateClass: template-spotlight
 ---
 
-<article class="l-content c-content--generic">
+{% include "nav/toc.njk" %}
 
-	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
-		{{ title }}
-	</h1>
-	<p class="c-subtitle">
-		{{ subtitle }}
-	</p>
+<div data-content class="l-content c-content--authors">
 
-	<div class="c-card__wrapper">
-		{% set taglist = collections[ "spotlight" ] %}
-		{% for post in taglist | reverse %}
-			{% include "post.njk" %}
-		{% endfor %}
-	</div>
+	{% set personRole = "author" %}
+	{% set person = spotlight.spotlight %}
+	{% for person in person %}
+		{% include "person.njk" %}
+	{% endfor %}
 
-</article>
+</div>

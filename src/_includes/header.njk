@@ -41,6 +41,11 @@
 		{% include "heroes/primary-nav.njk" %}
 	{% endif %}
 
+	{% if templateClass == "template-spotlight" %}
+		{% set hero = heroes.spotlight %}
+		{% include "heroes/primary-nav.njk" %}
+	{% endif %}
+
 </header>
 
 <div class="l-lip c-lip">

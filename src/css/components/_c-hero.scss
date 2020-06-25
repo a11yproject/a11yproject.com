@@ -49,6 +49,7 @@
 	.template-authors &,
 	.template-team &,
 	.template-contribute &,
+	.template-spotlight &,
 	.template-404 & {
 		background-position: center;
 		background-repeat: no-repeat;
@@ -66,7 +67,8 @@
 	}
 
 	.template-authors &,
-	.template-team & {
+	.template-team &,
+	.template-spotlight & {
 		background-color: $color-blue-shade;
 	}
 
@@ -133,7 +135,8 @@
 	}
 
 	.template-authors &,
-	.template-team & {
+	.template-team &,
+	.template-spotlight & {
 		color: $color-yellow-tint;
 		background-color: $color-blue-shade;
 		border-top-color: $color-yellow-tint;
