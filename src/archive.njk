@@ -14,7 +14,7 @@ templateClass: template-posts
 
 {% include "nav/toc.njk" %}
 
-<article data-content class="l-content">
+<div data-content class="l-content">
 
 	{# TODO: Add top latest post #}
 	{% for post in top_posts %}
@@ -91,7 +91,7 @@ templateClass: template-posts
 		Write for us
 	</h2>
 	<p class="c-preface">
-		We're always looking for people who want to <a href="/contribute/">share what they know</a> about accessibility.
+		We're always looking for people who want to <a class="c-preface__link" href="/contribute/">share what they know</a> about accessibility.
 	</p>
 
-</article>
+</div>

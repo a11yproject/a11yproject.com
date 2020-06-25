@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 title: Authors
-subtitle: A bit about our contributors.
+subtitle: All our authors.
 eleventyNavigation:
   key: Authors
   parent: Project
@@ -13,7 +13,7 @@ templateClass: template-authors
 
 {% include "nav/toc.njk" %}
 
-<article data-content class="l-content c-content--authors">
+<div data-content class="l-content c-content--authors">
 
 	{% set personRole = "author" %}
 	{% set person = authors.author %}
@@ -21,4 +21,4 @@ templateClass: template-authors
 		{% include "person.njk" %}
 	{% endfor %}
 
-</article>
+</div>
