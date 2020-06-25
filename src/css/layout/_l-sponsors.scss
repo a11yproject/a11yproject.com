@@ -1,18 +1,25 @@
-$_sponsor-width: rem(320);
-
-
 .l-sponsors {
-	@include clearfix(add);
-
 	margin-top: 8rem;
-	padding: map-get($global-bleed, small) map-get($global-bleed, large);
+	padding: map-get($global-bleed, large);
 
 	// Supports
-	@supports #{$supports-grid} {
-		@include clearfix(remove);
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 
-		display: grid;
-		gap: 1rem;
-		grid-template-columns: repeat(auto-fill, $_sponsor-width);
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			flex-direction: row;
+		}
+	}
+
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			display: grid;
+			gap: 1rem;
+			grid-template-columns: repeat(auto-fill, $global-sponsor-width);
+		}
 	}
 }

@@ -23,22 +23,23 @@
 
 
 .c-sponsor__link {
+	width: $global-sponsor-width;
+	margin-bottom: 1rem;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
 	// States
 	&:focus {
 		outline: $border-thin solid $color-black;
 	}
-}
-
-
-.c-sponsor__ad {
-	float: left;
-	width: $_sponsor-width;
-	margin-right: 1rem;
 
 	// Supports
 	@supports #{$supports-grid} {
-		float: none;
-		width: unset;
-		margin-left: 0;
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			margin-bottom: 0;
+		}
 	}
 }

@@ -24,6 +24,18 @@ $global-bleed: (
 $global-grid-columns: 1fr 2fr;
 
 
+// global-post-columns
+//
+// Map that sets the grid column widths for posts.
+//
+// Styleguide Logic.Variables.Global.global-post-columns
+$global-post-columns: (
+	category: 11rem,
+	gutter: 0.5rem,
+	toc: 1.25fr
+);
+
+
 // global-post-content-inset
 //
 // Map that sets the distance of post content from the lefthand side of the
@@ -37,16 +49,12 @@ $global-post-content-inset: (
 );
 
 
-// global-post-columns
+// global-sponsor-width
 //
-// Map that sets the grid column widths for posts.
+// Sets the widths for sponsor ads.
 //
-// Styleguide Logic.Variables.Global.global-post-columns
-$global-post-columns: (
-	category: 11rem,
-	gutter: 0.5rem,
-	toc: 1.25fr
-);
+// Styleguide Logic.Variables.Global.global-sponsor-width
+$global-sponsor-width: 16rem;
 
 
 // global-type-size
