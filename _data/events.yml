@@ -8,6 +8,11 @@
       date: 2019-09-17
       address: "Convene, 201 Washington St., Boston, MA 02108"
       map: "https://goo.gl/maps/sxkqXSUKJDEz4Ro69"
+    - title: "Intro to Word Document Accessibility"
+      description: "In this live webinar, Karina Boycheva, Instructional Designer for Deque University, will review key topics such as: Headings, fonts, color contrast, and appearance, tables, charts, graphs, image alt text and long descriptions, using the Accessibility Checker, and exporting to other formats (HTML, PDF, EPUB)."
+      url: "https://accessibility.deque.com/intro-to-word-document-accessibility"
+      type: "Webinar"
+      date: 2020-07-21
     - title: "Intro to Agile Accessibility"
       description: "In celebration of this year's Global Accessibility Awareness Day (GAAD), Deque is excited to bring you this free webinar on agile accessibility."
       url: "https://accessibility.deque.com/intro-to-agile-accessibility"
