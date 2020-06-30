@@ -2,17 +2,21 @@
 
 	{% include "nav/footer.njk" %}
 
-	<p class="l-footer__tagline c-footer__tagline">
-		Accessibility helps everyone.
-	</p>
+	<div class="l-footer__meta--footer">
+		<p class="l-footer__tagline c-footer__tagline">
+			Accessibility helps everyone.
+		</p>
 
-	<p class="l-footer__copyright c-footer__copyright">
-		&copy; <span id="copyright-year"></span> The Accessibility Project. <a class="c-footer__copyright-link" href="https://www.apache.org/licenses/LICENSE-2.0"><abbr>APLv2</abbr></a>. Powered by <a class="c-footer__copyright-link" href="https://www.11ty.io/">Eleventy</a>.
-	</p>
+		<div class="l-footer__tagline-copyright">
+			<p class="l-footer__copyright c-footer__copyright">
+				&copy; <span id="copyright-year"></span> The Accessibility Project. <a class="c-footer__copyright-link" href="https://www.apache.org/licenses/LICENSE-2.0"><abbr>APLv2</abbr></a>. Powered by <a class="c-footer__copyright-link" href="https://www.11ty.io/">Eleventy</a>.
+			</p>
+			<p class="l-footer__top c-footer__top">
+				<a class="c-footer__copyright-link" href="#header">Back to top</a>
+			</p>
+		</div>
 
-	<p class="l-footer__top c-footer__top">
-		<a class="c-footer__copyright-link" href="#header">Back to top</a>
-	</p>
+	</div>
 
 	<script type="text/javascript">document.getElementById('copyright-year').innerHTML = '2013-' + new Date().getFullYear();</script>
 

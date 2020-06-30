@@ -89,6 +89,10 @@
 		background-image: url("#{$path-to-img}/heroes/contribute.svg");
 	}
 
+	.template-spotlight & {
+		background-image: url("#{$path-to-img}/heroes/spotlight.svg");
+	}
+
 	.template-404 & {
 		background-image: url("#{$path-to-img}/heroes/404.svg");
 	}

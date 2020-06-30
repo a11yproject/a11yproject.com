@@ -1,50 +1,91 @@
 .l-footer {
+	padding: 2rem map-get($global-bleed, small) 4rem map-get($global-bleed, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		padding-left: map-get($global-bleed, large);
+		padding-right: map-get($global-bleed, large);
+	}
+}
+
+
+// [1] Adds and removes the tagline from the footer nav lockup by toggling
+// its presence in the DOM. Nested CSS grids won't zoom properly and cause text
+// to not break, so we need to use this approach.
+.l-footer__meta--footer {
+	display: initial;
+	margin-top: 3rem;
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		@include hide(remove); // [1]
+	}
+
+	@include mappy-bp(lap-small) {
+		margin-top: 6rem;
+	}
+
+	@include mappy-bp(lap-small) {
+		display: unset;
+	}
+}
+
+
+.l-footer__meta--nav {
+	@include hide(remove); // [1]
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		// Supports
+		@supports #{$supports-flex} {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	@include mappy-bp(lap-small) {
+		@include hide(remove); // [1]
+	}
+}
+
+
+.l-footer__tagline-copyright {
 	// Supports
-	@supports #{$supports-grid} {
-		display: grid;
-		grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
-		grid-auto-rows: auto auto;
-		grid-template-areas:
-			". footer-nav ."
-			". tagline    ."
-			". copyright  ."
-			". top        .";
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
 
 		// Breakpoints
-		@include mappy-bp(palm-medium) {
-			grid-template-columns: map-get($global-bleed, large) 1.75fr 1fr map-get($global-bleed, large);
-			grid-template-areas:
-				". footer-nav footer-nav ."
-				". tagline    .          ."
-				". copyright  top        .";
+		@include mappy-bp(lap-small) {
+			flex-direction: row;
+			justify-content: space-between;
+			margin-top: 1rem;
 		}
 	}
 }
 
 
-.l-footer__tagline {
-	margin-top: 3rem;
-
-	// Supports
-	@supports #{$supports-grid} {
-		grid-area: tagline;
-	}
-}
-
-
 .l-footer__copyright {
+	margin-top: 2rem;
 	// Supports
-	@supports #{$supports-grid} {
-		align-self: end;
-		grid-area: copyright;
+	@supports #{$supports-flex} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-top: 0;
+		}
 	}
 }
 
 
 .l-footer__top {
-	// Supports
-	@supports #{$supports-grid} {
-		align-self: end;
-		grid-area: top;
+	margin-top: 1rem;
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		margin-top: auto;
+	}
+
+	@include mappy-bp(lap-small) {
+		margin-top: 0;
 	}
 }

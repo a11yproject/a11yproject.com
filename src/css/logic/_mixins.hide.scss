@@ -38,7 +38,7 @@
 	}
 	// Completely remove content
 	@else if ($how == "remove") {
-		display: none !important;
+		display: none;
 	} @else {
 		@error "`#{$how}` + is an invalid argument. Please use `visually`, `invisible`, `hidden`, or `remove`";
 	}
