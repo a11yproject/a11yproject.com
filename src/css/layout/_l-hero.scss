@@ -1,5 +1,9 @@
 .l-hero {
-	height: 75vh;
+	height: 40vh;
+
+	@include mappy-bp(lap-small) {
+		height: 75vh;
+	}
 
 	// Supports
 	@supports #{$supports-flex} {
