@@ -2,7 +2,7 @@
 	// Supports
 	@supports #{$supports-flex} {
 		// Breakpoints
-		@include mappy-bp(palm-medium) {
+		@include mappy-bp(palm-small) {
 			display: flex;
 			flex-direction: row;
 			flex-flow: row wrap;

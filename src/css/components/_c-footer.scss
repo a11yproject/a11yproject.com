@@ -9,6 +9,10 @@
 	// Supports
 	@supports #{$supports-flex} {
 		// Breakpoints
+		@include mappy-bp(palm-small) {
+			width: 50%;
+		}
+
 		@include mappy-bp(palm-medium) {
 			width: 33%;
 		}
@@ -65,7 +69,7 @@
 	margin-top: 2rem;
 
 	// Breakpoints
-	@include mappy-bp(palm-medium) {
+	@include mappy-bp(palm-small) {
 		font-size: 1.25rem;
 		margin-top: 0;
 	}

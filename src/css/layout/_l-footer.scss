@@ -17,7 +17,7 @@
 	margin-top: 3rem;
 
 	// Breakpoints
-	@include mappy-bp(palm-medium) {
+	@include mappy-bp(palm-small) {
 		@include hide(remove); // [1]
 	}
 
@@ -35,7 +35,7 @@
 	@include hide(remove); // [1]
 
 	// Breakpoints
-	@include mappy-bp(palm-medium) {
+	@include mappy-bp(palm-small) {
 		// Supports
 		@supports #{$supports-flex} {
 			display: flex;
@@ -81,7 +81,7 @@
 	margin-top: 1rem;
 
 	// Breakpoints
-	@include mappy-bp(palm-medium) {
+	@include mappy-bp(palm-small) {
 		margin-top: auto;
 	}
 
