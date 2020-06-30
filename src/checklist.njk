@@ -22,20 +22,40 @@ templateClass: template-checklist
 		<p>
 			There are three levels of accessibility compliance in the WCAG, which reflect the priority of support:
 		</p>
-		<ol class="c-wcag-explanation__list">
-			<li class="c-wcag-explanation__list-item c-wcag-explanation__list-item--a">
-				<strong class="c-wcag-explanation__compliance-level">A: Essential<span class="u-hide-visually">.</span></strong>
-				<span class="c-wcag-explanation__description">If this isn't met, assistive technology may not be able to read, understand, or fully operate the page or view.</span>
-			</li>
-			<li class="c-wcag-explanation__list-item c-wcag-explanation__list-item--aa">
-				<strong class="c-wcag-explanation__compliance-level">AA: Ideal Support<span class="u-hide-visually">.</span></strong>
-				<span class="c-wcag-explanation__description">Now required for EU government and public body websites. The A11Y Project strives for AA compliance.</span>
-			</li>
-			<li class="c-wcag-explanation__list-item c-wcag-explanation__list-item--aaa">
-				<strong class="c-wcag-explanation__compliance-level">AAA: High-level Support<span class="u-hide-visually">.</span></strong>
-				<span class="c-wcag-explanation__description">This is typically reserved for websites and web apps that serve a specialized audience.</span>
-			</li>
-		</ol>
+
+		<div class="c-wcag-explanation__compliance-level">
+			<picture aria-hidden="true" class="c-wcag-explanation__icon">
+				<source  srcset="/img/checklist/wcag-level-a-large.svg" media="(min-width: 900px)" />
+				<img alt="" src="/img/checklist/wcag-level-a-small.svg" />
+			</picture>
+			<p class="c-wcag-explanation__description">
+				<strong class="c-wcag-explanation__conformance-level">A: Essential</strong>
+				If this isn't met, assistive technology may not be able to read, understand, or fully operate the page or view.
+			</p>
+		</div>
+
+		<div class="c-wcag-explanation__compliance-level">
+			<picture aria-hidden="true" class="c-wcag-explanation__icon">
+				<source  srcset="/img/checklist/wcag-level-aa-large.svg" media="(min-width: 900px)" />
+				<img alt="" src="/img/checklist/wcag-level-aa-small.svg" />
+			</picture>
+			<p class="c-wcag-explanation__description">
+				<strong class="c-wcag-explanation__conformance-level">AA: Ideal Support</strong>
+				Required for European Union government and public body websites. The A11Y Project strives for AA compliance.
+			</p>
+		</div>
+
+		<div class="c-wcag-explanation__compliance-level">
+			<picture aria-hidden="true" class="c-wcag-explanation__icon">
+				<source  srcset="/img/checklist/wcag-level-aaa-large.svg" media="(min-width: 900px)" />
+				<img alt="" src="/img/checklist/wcag-level-aaa-small.svg" />
+			</picture>
+			<p class="c-wcag-explanation__description">
+				<strong class="c-wcag-explanation__conformance-level">AAA: Ideal Support</strong>
+				This is typically reserved for parts of websites and web apps that serve a specialized audience.
+			</p>
+		</div>
+
 		<p>
 			This checklist targets many, but not all level A and AA concerns. Note that the different levels of WCAG support do not necessarily indicate an increased level of difficulty to implement.
 		</p>
