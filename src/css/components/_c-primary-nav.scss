@@ -3,7 +3,6 @@
 // Style guide: Components.Navigation.primary-nav
 .c-primary-nav {
 	background-color: $color-black;
-	padding: 1rem map-get($global-bleed, large);
 
 	// Contexts
 	.template-home & {
@@ -38,28 +37,6 @@
 
 .c-primary-nav__list {
 	@include preserve-list-semantics();
-
-	// Supports
-	@supports #{$supports-flex} {
-		display: flex;
-		flex-direction: column;
-
-		// Breakpoints
-		@include mappy-bp(palm-small) {
-			flex-direction: row;
-		}
-	}
-
-	@supports #{$supports-grid} {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(3, auto);
-
-		// Breakpoints
-		@include mappy-bp(palm-small) {
-			display: flex; // Prefer a single row of links when space allows
-		}
-	}
 }
 
 
@@ -71,10 +48,13 @@
 	@supports #{$supports-flex} {
 		margin-top: 1rem;
 		margin-left: 0;
+		width: 33%;
 
 		// Breakpoints
 		@include mappy-bp(palm-small) {
 			margin-right: 0.5rem;
+			width: initial;
+			flex-grow: 1;
 		}
 
 		@include mappy-bp(palm-medium) {
@@ -88,11 +68,6 @@
 
 	&:last-of-type {
 		margin-right: 0;
-
-		// Supports
-		@supports #{$supports-grid} {
-			grid-area: 3 / 1 / 4 / 3;
-		}
 
 		.c-primary-nav__link {
 			background-color: $color-white;

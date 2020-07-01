@@ -1,4 +1,11 @@
 .l-primary-nav {
+	padding: 1rem map-get($global-bleed, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		padding: 1rem map-get($global-bleed, large);
+	}
+
 	// Supports
 	@supports #{$supports-flex} {
 		align-items: center;
@@ -11,40 +18,28 @@
 			flex-direction: row;
 		}
 	}
-
-	@supports #{$supports-grid} {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: auto auto auto 1fr;
-		grid-template-areas:
-			"logo     logo"
-			"sections sections";
-		justify-items: center;
-
-		// Breakpoints
-		@include mappy-bp(lap-small) {
-			display: flex;
-		}
-	}
-}
-
-
-.l-primary-nav__logo {
-	@supports #{$supports-grid} {
-		grid-area: logo;
-	}
 }
 
 
 .l-primary-nav__sections {
 	margin-top: 1rem;
+	width: 100%;
 
 	// Supports
 	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
+		flex-flow: row wrap;
 		margin-top: 0;
-	}
 
-	@supports #{$supports-grid} {
-		grid-area: sections;
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			flex-direction: row;
+			flex-flow: initial;
+		}
+
+		@include mappy-bp(lap-small) {
+			width: initial;
+		}
 	}
 }
