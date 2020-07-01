@@ -110,7 +110,11 @@ $_person-photo: (
 .c-person__link {
 	@include link-states($color-blue-shade);
 
-	text-decoration-thickness: $border-thinner;
+	font-family: $font-family-secondary;
+	font-size: 1rem;
+	letter-spacing: $font-tracking-slight;
+	text-decoration-thickness: $border-thinnest;
+	text-transform: uppercase;
 	text-underline-offset: 0.3em;
 }
 
@@ -118,6 +122,19 @@ $_person-photo: (
 .c-person__name {
 	font-family: $font-family-secondary;
 	font-size: 1.5rem;
+
+	&:target {
+		scroll-margin-top: 5rem;
+
+		// Breakpoints
+		@include mappy-bp(wrist-large) {
+			scroll-margin-top: 4rem;
+		}
+
+		@include mappy-bp(lap-medium) {
+			scroll-margin-top: 5rem;
+		}
+	}
 }
 
 
