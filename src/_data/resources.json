@@ -435,6 +435,12 @@
 			"url": "https://egghead.io/courses/start-building-accessible-web-applications-today"
 		},
 		{
+			"title": "Take 5 - Ethan Marcotte",
+			"description": "A series of five 5-minute tutorial videos hosted by Aquent Gymnasium that deal with introductory accessibility topics.",
+			"additional": "Aquent Gymnasium ",
+			"url": "https://ethanmarcotte.com/wrote/takin-five/"
+		},
+		{
 			"title": "Web Accessibility by Google",
 			"description": "In this course you’ll get hands-on experience making web applications accessible.",
 			"additional": "Udacity",
