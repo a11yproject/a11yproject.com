@@ -1,8 +1,22 @@
 .l-hero {
-	height: 40vh;
+	height: 75vh;
 
-	@include mappy-bp(lap-small) {
-		height: 75vh;
+	// Contexts
+	.template-posts &,
+	.template-checklist &,
+	.template-resources &,
+	.template-about &,
+	.template-contribute &,
+	.template-team &,
+	.template-authors &,
+	.template-spotlight &,
+	.template-404 & {
+		height: 40vh;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			height: 75vh;
+		}
 	}
 
 	// Supports
