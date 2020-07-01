@@ -43,7 +43,10 @@
 			outline: $border-thin solid transparent;
 		}
 	}
+}
 
+
+.c-logo__lockup {
 	// Supports
 	@supports #{$supports-flex} {
 		align-items: center; // Uses `.c-logo__logotype`'s bottom margin
