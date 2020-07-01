@@ -34,16 +34,12 @@
 		// Breakpoints
 		@include mappy-bp(lap-small) {
 			display: grid;
-			grid-template-columns: 1fr minmax(0, 45vw) 1fr;
+			grid-template-columns: 1fr minmax(0, 60vw) 1fr;
 			grid-template-rows: 1fr 1fr 1fr 3rem;
 			grid-template-areas:
 				". .    ."
 				". hero ."
 				". .    .";
-		}
-
-		@include mappy-bp(lap-medium) {
-			grid-template-columns: 1fr minmax(0, 60vw) 1fr;
 		}
 	}
 }
@@ -54,7 +50,7 @@
 	margin-right: map-get($global-bleed, small);
 	position: relative;
 		top: 50%;
-	transform: perspective(1px) translateY(-60%); // HACK: Keeps`perspective(1px)` keeps content from rendering blurry
+	transform: perspective(1px) translateY(-60%); // HACK: Keeps content from rendering blurry
 
 	// Supports
 	@supports #{$supports-flex} {
