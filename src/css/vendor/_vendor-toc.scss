@@ -3,30 +3,35 @@
 .vendor-toc {
 	margin-top: 1rem;
 
-	// Breakpoints
-	@include mappy-bp(lap-small) {
-		margin-top: 0;
-
-		// Contexts
-		.template-home & {
+	// Contexts
+	.template-home & {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
 			margin-top: 1.25rem;
 		}
+	}
 
-		.template-post & {
-			margin: 3rem map-get($global-post-content-inset, medium) 2rem map-get($global-post-content-inset, medium);
+	.template-generic & {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-top: 5.25rem;
+		}
+	}
 
-			// Breakpoints
-			@include mappy-bp(lap-small) {
-				@include post-content-inset("large");
-			}
+	.template-post & {
+		margin-left: map-get($global-post-content-inset, small);
 
-			@include mappy-bp(lap-medium) {
-				margin: 0.5rem 0 0 map-get($global-bleed, small);
-			}
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			@include post-content-inset("medium");
 		}
 
-		.template-generic & {
-			margin-top: 5.25rem;
+		@include mappy-bp(lap-small) {
+			@include post-content-inset("large");
+		}
+
+		@include mappy-bp(lap-medium) {
+			margin: 0.5rem 0 0 map-get($global-bleed, small);
 		}
 	}
 
@@ -59,12 +64,6 @@
 
 		@include mappy-bp(lap-small) {
 			columns: 1;
-// margin-right: map-get($global-bleed, small);
-		}
-
-		@include mappy-bp(lap-medium) {
-			margin-right: 4rem;
-// margin-left: map-get($global-bleed, large);
 		}
 
 		ol {
@@ -77,6 +76,7 @@
 		letter-spacing: $font-tracking-slight;
 		line-height: $line-height-tighter;
 		margin-bottom: 1.25rem; // EXCEPTION: Applying a bottom margin instead of top to ensure columns line up properly.
+		margin-right: 1rem;
 		text-transform: uppercase;
 
 		// Removing content

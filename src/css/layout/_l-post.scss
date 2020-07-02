@@ -25,13 +25,12 @@
 
 
 .l-post__body {
-	margin-top: 4ex;
+	margin-top: 6ex;
 
 	// Breakpoints
 	@include mappy-bp(lap-medium) {
 		// Supports
 		@supports #{$supports-grid} {
-			margin-top: 6ex;
 			display: grid;
 			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 2fr 2rem map-get($global-post-columns, toc);
 			grid-template-rows: auto auto;
@@ -67,7 +66,9 @@
 
 
 .l-post__content {
-	// @include post-content-inset("small");
+	@include post-content-inset("small");
+
+	margin-top: 6ex;
 
 	// Breakpoints
 	@include mappy-bp(palm-medium) {
@@ -86,6 +87,10 @@
 		@include mappy-bp(lap-medium) {
 			margin-right: 0;
 			margin-left: map-get($global-bleed, small);
+		}
+
+		@include mappy-bp(lap-small) {
+			margin-top: 0;
 		}
 	}
 }

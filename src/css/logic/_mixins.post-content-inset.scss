@@ -1,17 +1,11 @@
 // post-content-inset
 //
-// Generates color and states for links placed inside of a `c-content` wrapper.
+// Controls left and right margins for post content.
 //
-// $link-color - Specifies what color to use for link styling.
+// $size - Specifies the size of the left and right margins. Accepts `small`, `medium`, or `large`.
 //
-// Styleguide Logic.Mixins.hide
-@mixin content-link($link-color) {
-	color: $link-color;
-
-	// States
-	&:focus {
-		color: $color-white;
-		background-color: $link-color;
-		outline: $border-thin solid $link-color;
-	}
+// Styleguide Logic.Mixins.post-content-inset
+@mixin post-content-inset($size) {
+	margin-right: map-get($global-post-content-inset, $size);
+	margin-left: map-get($global-post-content-inset, $size);
 }
