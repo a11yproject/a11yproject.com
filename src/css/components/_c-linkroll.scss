@@ -38,6 +38,15 @@
 	@include preserve-list-semantics();
 
 	margin-top: 1.25rem;
+
+	// Contexts
+	.l-recommended-reading & {
+		margin-left: 0;
+
+		&::before {
+			display: none;
+		}
+	}
 }
 
 

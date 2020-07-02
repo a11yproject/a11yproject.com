@@ -34,6 +34,7 @@
 
 	// States
 	&:focus {
+		outline: none;
 		position: absolute;
 			top: 6rem;
 			left: map-get($global-bleed, large);
