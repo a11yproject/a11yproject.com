@@ -26,6 +26,7 @@ $_person-photo: (
 	background-position: center;
 	background-size: contain;
 	border-radius: map-get($_person-photo, small) * 2;
+	cursor: pointer;
 	display: inline-block;
 	height: map-get($_person-photo, small);
 	position: absolute;

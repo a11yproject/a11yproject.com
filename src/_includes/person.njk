@@ -1,8 +1,6 @@
 <div class="c-person">
 	{% if person.photo and person.website %}
-		<a aria-hidden="true" tabindex="-1" href="{{ person.website }}">
-			<div class="c-person__photo" style="background-image: url({{ person.photo }});"></div>
-		</a>
+		<div class="c-person__photo" style="background-image: url({{ person.photo }});" onclick="location.href='{{ person.website }}'"></div>
 	{% elif person.photo %}
 		<div aria-hidden="true" class="c-person__photo" style="background-image: {{ person.photo }};"></div>
 	{% endif %}
