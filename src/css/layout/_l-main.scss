@@ -20,24 +20,14 @@
 
 		// Supports
 		@supports #{$supports-grid} {
-			display: grid;
-			grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
-			grid-template-areas:
-				". toc     ."
-				". content .";
-			margin-left: 0;
-			margin-right: 0;
-
-			// Breakpoints
-			@include mappy-bp(palm-medium) {
-				grid-template-columns: map-get($global-bleed, large) 1fr map-get($global-bleed, large);
-			}
-
 			// Breakpoints
 			@include mappy-bp(lap-small) {
+				display: grid;
 				grid-template-columns: map-get($global-bleed, large) $global-grid-columns map-get($global-bleed, large);
 				grid-template-areas:
-					". toc content ."
+					". toc content .";
+				margin-left: 0;
+				margin-right: 0;
 			}
 		}
 	}

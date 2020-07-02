@@ -104,8 +104,14 @@
 	border-top-width: $border-thicker;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
+	text-align: center;
 	text-transform: uppercase;
 	padding: 0.75rem;
+
+	// Breakpoints
+	@include mappy-bp(palm-large) {
+		padding: 0.75rem 2rem;
+	}
 
 	// Contexts
 	.template-posts & {

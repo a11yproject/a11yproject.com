@@ -116,6 +116,6 @@ $_checklist-padding: 1.5rem;
 
 	// Text-level formatting
 	a {
-		color: $color-blue-shade;
+		@include link-states($color-blue-shade);
 	}
 }

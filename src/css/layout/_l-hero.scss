@@ -34,7 +34,6 @@
 		// Breakpoints
 		@include mappy-bp(lap-small) {
 			display: grid;
-			grid-template-columns: 1fr minmax(0, 60vw) 1fr;
 			grid-template-rows: 1fr 1fr 1fr 3rem;
 			grid-template-areas:
 				". .    ."
