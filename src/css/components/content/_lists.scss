@@ -1,5 +1,16 @@
 // Namespace
 .c-content {
+	dl,
+	ol,
+	ul {
+		margin-left: map-get($global-post-content-inset, small);
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			margin-left: 0;
+		}
+	}
+
 	// Ordered List
 	//
 	// Style guide: Components.post.ol
