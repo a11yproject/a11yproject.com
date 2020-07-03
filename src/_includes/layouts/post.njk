@@ -42,27 +42,12 @@ templateClass: template-post
 
 		<div class="l-post__content c-content c-content--post">
 			{{ content | safe }}
-
 			{% if further_reading %}
 				{% include "further-reading.njk" %}
 			{% endif %}
 		<div>
-
 	</div>
+
+	{% include "nav/recommended-reading.njk" %}
+
 </div>
-
-<nav id="recommended-reading" class="l-recommended-reading" aria-label="Recommended reading">
-
-	<div class="l-recommended-reading__featured">
-		{% for post in collections.posts | head(-1) %}
-			{% include "featured.njk" %}
-		{% endfor %}
-	</div>
-
-	<ul class="l-recommended-reading__list c-linkroll">
-		{% for post in collections.posts | head(-2) %}
-			{% include "linkroll.njk" %}
-		{% endfor %}
-	</ul>
-
-</nav>

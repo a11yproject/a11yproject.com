@@ -2,7 +2,7 @@
 	margin-top: 2rem;
 
 	// Breakpoints
-	@include mappy-bp(lap-small) {
+	@include mappy-bp(lap-medium) {
 		// Supports
 		@supports #{$supports-grid} {
 			display: grid;
@@ -18,25 +18,15 @@
 }
 
 
-.l-recommended-reading__featured {
-
-
-
-}
-
-
 .l-recommended-reading__list {
-
 	// Contexts
+	.c-content & {
+		margin-left: 0;
+	}
+
 	.c-linkroll__entry {
 		&:first-of-type {
 			margin-top: 0;
 		}
-	}
-
-
-	// Contexts
-	.c-content & {
-		margin-left: 0;
 	}
 }

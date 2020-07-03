@@ -1,0 +1,15 @@
+<nav id="recommended-reading" class="l-recommended-reading" aria-label="Recommended reading">
+
+	<div class="l-recommended-reading__featured">
+		{% for post in collections.posts | head(-1) %}
+			{% include "featured.njk" %}
+		{% endfor %}
+	</div>
+
+	<ul class="l-recommended-reading__list c-linkroll">
+		{% for post in collections.posts | head(-3) %}
+			{% include "linkroll.njk" %}
+		{% endfor %}
+	</ul>
+
+</nav>
