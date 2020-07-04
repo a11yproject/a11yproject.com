@@ -1,25 +1,24 @@
 ---
 layout: post
-title: Accessibility is "blind people"
-description: Brief explanation of the four categories of accessibility.
-author: dave_rupert
-category: Myths
+title: Accessibility is 'blind people'
+description: A brief explanation of the four categories of accessibility.
+category: Myth
+author: Dave Rupert
 date: 2013-01-11
 last_updated: 2018-11-23
 eleventyNavigation:
-  key: Myths
-  title: Accessibility is "blind people"
+  key: {{ category }}
+  title: {{ title }}
 tags:
-  - myths
+  - myth
 ---
 
 Accessibility is often viewed as making your site work on screen readers. In reality, web accessibility is a subset of User Experience (UX) focused on making your websites usable by the widest range of people possible, including those who have disabilities.
 
+
 ## Four categories of accessibility
 
 Accessibility can be broken down into four key categories[^fn1]:
-
-[^fn1]: [Simple Introduction to Web Accessibility](http://www.creativebloq.com/netmag/simple-introduction-web-accessibility-7116888) by Ian Hamilton (.net Magazine)
 
 ### Visual
 
@@ -70,3 +69,5 @@ Relates to the ease processing of information.
 While each of these disabilities is usually permanent, there are often situations in which even fully-abled people are "temporarily disabled". For instance, an arm or wrist injury may temporarily prevent you from being able to use a mouse.
 
 Robin Christopherson (an accessibility expert who is blind) once spoke about how people that are driving but use hands-free sets or have their phone connected to the car radio are temporarily disabled, as they use the phone differently to how they normally would. Of course, no one should browse websites while they are driving but it is important to understand different situations like that, where the user may not have special software installed that a disabled user might.
+
+[^fn1]: [Simple Introduction to Web Accessibility](http://www.creativebloq.com/netmag/simple-introduction-web-accessibility-7116888) by Ian Hamilton (.net Magazine)

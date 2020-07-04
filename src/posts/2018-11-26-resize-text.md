@@ -2,23 +2,26 @@
 layout: post
 title: Resize text
 description: How to test the Resize Text WCAG Success Criterion.
-author: luis_garcia
 category: Quick test
+author: Luis Garcia
+date: 2018-11-26
 eleventyNavigation:
-  key: Quick test
-  title: Resize text
+  key: {{ category }}
+  title: {{ title }}
 tags:
   - quicktest
 ---
 
 Resize text and make sure everything on the page works. Repeat until you get to 200% zoom. Seems simple? It is.
 
+
 ## Essential abilities
 
-* **Sight**: This method tests the visual appearance of content on the page
-* **Interact with content via a pointer**: This method tests mouse interactions
+- **Sight**: This method tests the visual appearance of content on the page.
+- **Interact with content via a pointer**: This method tests mouse interactions.
 
 If you know of a method that doesn't require either of these abilities, please update this Quick Test.
+
 
 ## Background
 
@@ -26,58 +29,69 @@ People with low vision may need to increase the size of text in order to use the
 
 When someone resizes text, any of the following can break the page:
 
-* text on the page is no longer readable
-* content is lost or truncated
-* interactive elements overlapping each other
+- Text on the page is no longer readable.
+- Content is lost or truncated.
+- Interactive elements overlapping each other.
+
+The importance is that [relative length units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Units) (`em`, `ex`, `rem`, `%`, `vw`) are used for text. 
+
 
 ## How to test
 
 Testing is pretty straight forward.
 
-1. Choose the right browser
+1. Initial test in multiple browsers
+1. Resize text
+1. Confirm relative font usage
+1. Choose a browser to do further testing in
 1. Resize text
 1. Check everything
 
+
 ### Choosing a browser
 
-Firefox is the best browser for testing [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
+Testing text-resize needs initial testing in multiple browsers to confirm that relative units are used correctly in order to conform with [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
 
-* It makes resizing text really easy
-* It informs you of the current zoom level
-* It's available on all popular Operating Systems
+Testing text-resizing can fail in Chrome but pass in Firefox since text-zoom in Firefox resizes regardless of usage of relative units. Suggested setup is to use Chrome and Firefox in initial testing.
+
+Firefox is an easy browser for testing further:
+
+- It makes resizing text really easy.
+- It informs you of the current zoom level.
+- It's available on all popular Operating Systems.
 
 Safari and Chrome work, but not as well:
 
-* Ability to resize text is not obvious
-* Does not display the current zoom level
-* Safari is only available on macOS
+- Ability to resize text is not obvious.
+- Does not display the current zoom level.
+- Safari is only available on macOS.
 
 Edge won't work:
 
-* Edge only supports text-only resize in Reading view
+- Edge only supports text-only resize in Reading view.
 
 ### Resizing text in Firefox
 
-1. Go to <strong>View > Zoom</strong> and select <strong>Zoom Text Only</strong>
-1. Zoom to 200%
-  * <kbd>Ctrl</kbd> + <kbd>+</kbd>
-  * <kbd>Ctrl</kbd> + Scroll Up
-
+1. Go to <strong>View > Zoom</strong> and select <strong>Zoom Text Only</strong>.
+1. Zoom to 200%.
+    - <kbd>Ctrl</kbd> + <kbd>+</kbd>.
+    - <kbd>Ctrl</kbd> + Scroll Up.
+  
 ### Resizing text in Chrome
 
-1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard
-1. Increase the **font size** to 32px (default is 16px)
+1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard.
+1. Increase the **font size** to 32px (default is 16px).
 
 ### Checking everything
 
 After doubling the size of text, verify the following:
 
-* All content on the page should still be readable
-  * Text shouldn't be too cut off
-  * Text needed for understanding shouldn't be truncated
-  * Text shouldn't overlap too much
-* Interactions still work
-  * Buttons, links, and inputs are still usable with mouse, touch, or similar
+- All content on the page should still be readable.
+    - Text shouldn't be too cut off.
+    - Text needed for understanding shouldn't be truncated.
+    - Text shouldn't overlap too much.
+- Interactions still work.
+    - Buttons, links, and inputs are still usable with mouse, touch, or similar.
 
 #### Thorough check
 
@@ -87,8 +101,10 @@ To do a more thorough job, you should check the page at each of the zoom steps t
 
 ### Exceptions
 
-* Images of text won't resize
-* Captions over videos likely won't resize
+- Images of text won't resize.
+- Captions over videos likely won't resize.
+- Using the incorrect html `lang` code will result in no text-zoom.
+
 
 ## Can I zoom everything instead of resizing text only?
 

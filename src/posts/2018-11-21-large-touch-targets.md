@@ -1,20 +1,16 @@
 ---
 layout: post
-category: Quick test
-title: Large Touch Targets
+title: Large touch targets
 description: How to determine if your touch targets are large enough to be used.
-author: eric_bailey
-eleventyNavigation:
-  key: Quick Test
-  title: Large Touch Targets
-tags:
-  - quicktest
+category: Quick test
+author: Eric Bailey
+date: 2018-11-21
 further_reading:
-  - url: https://webplatform.github.io/docs/tutorials/understanding-css-units/On-CSS-pixels,-physical-units-and-scalability
+  - url: https://webplatform.github.io/docs/tutorials/understanding-css-units/#On-CSS-pixels,-physical-units-and-scalability
     title: "Understanding pixels and other CSS units: On CSS pixels, physical units and scalability"
     source: WebPlatform
   - url: https://knowbility.org/blog/2018/WCAG21-255TargetSize/
-    title: "Exploring WCAG 2.1 — 2.5.5 Target Size"
+    title: Exploring WCAG 2.1 — 2.5.5 Target Size
     source: Knowbility
     year: 2018
   - url: https://www.smashingmagazine.com/2012/02/finger-friendly-design-ideal-mobile-touchscreen-target-sizes/
@@ -30,15 +26,24 @@ further_reading:
     source: MDN
     year: 2018
   - url: https://support.apple.com/guide/safari-developer/view-the-computed-css-dev56fdc8177/mac
-    title: "View the computed CSS"
+    title: View the computed CSS
     source: Apple Support
   - url: https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide/elements/computed
-    title: "Microsoft Edge DevTools - Elements - Computed"
+    title: Microsoft Edge DevTools - Elements - Computed
     source: Microsoft Edge Development
-    year: 2017
+  - url: https://www.nngroup.com/articles/touch-target-size/
+    title: Touch Targets on Touchscreens
+    source: Nielsen Norman Group
+    year: 2019
+eleventyNavigation:
+  key: {{ category }}
+  title: {{ title }}
+tags:
+  - quicktest
 ---
 
-A touch target is the total area a user can click or tap on to activate an interactive element such as a link, input, or button.
+A touch target is the total area a person can click or tap on to activate an interactive element such as a link, input, or button.
+
 
 ## Background
 

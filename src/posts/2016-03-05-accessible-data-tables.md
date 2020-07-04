@@ -2,20 +2,22 @@
 layout: post
 title: Create accessible data tables
 description: What you need to create an accessible data table.
-author: franklyn_roth
 category: How-to
+author: Franklyn Roth
+date: 2016-03-05
 eleventyNavigation:
-  key: How-to
-  title: Create accessible data tables
+  key: {{ category }}
+  title: {{ title }}
 tags:
   - howto
 ---
 
 The semantic purpose of a data table is to present tabular data. Sighted users can quickly scan the table but a screen reader goes through line by line. Proper markup must be added to help the screen reader make the correct associations that a sighted user would.
 
+
 ## Example of an accessible data table.
 
-```
+```html
 <table>
     <caption>Monthly Budget</caption>
     <thead>
@@ -46,18 +48,23 @@ The semantic purpose of a data table is to present tabular data. Sighted users c
 Making an accessible table isn’t hard and can be broken down into two main things.
 
 1. Add a table caption.
-1. Mark row and column headings using the 'scope' attribute
+2. Mark row and column headings using the 'scope' attribute
+
 
 ## Table captions
+
 Table captions are added right after the opening `<table>` tag with `<caption>Your caption goes here</caption>`.
 
 The screen reader will then say “Table with 3 rows and 4 columns, Monthly Budget” or something to that effect. Without this, the screen reader will just start reading off the values inside the table, which is going to be frustrating and not super useful. Imagine reading an entire table cell by cell and then piecing together what the table is trying to tell you.
 
-<p data-height="268" data-theme-id="0" data-slug-hash="zqOKvY" data-default-tab="result" data-user="franklynroth" class="codepen">See the Pen <a href="https://codepen.io/franklynroth/pen/zqOKvY/">Accessible Data Tables</a> by Franklyn (<a href="https://codepen.io/franklynroth">@franklynroth</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<iframe height="300" style="width: 100%;" scrolling="no" title="Accessible Data Tables - CodePen" src="https://codepen.io/franklynroth/embed/zqOKvY?height=300&theme-id=25574&default-tab=html,result&editable=true" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/franklynroth/pen/zqOKvY'>Accessible Data Tables</a> by Franklyn
+  (<a href='https://codepen.io/franklynroth'>@franklynroth</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 
 ## Row and column headings
+
 For sighted users, row and column headings of tables are often highlighted visually. The screen reader will need this information coded into the markup.
 
 Column headers should be marked using `scope="col"`. The `scope="col"` typically goes on the `<th>` element. If the `<th>` is a column like the <strong>"Amount Earned", "Amount Spent" and "Amount Saved"</strong> in my example, you would put them all as `scope="col"`. This lets the screen reader know that the `<th>`’s are column headers for that entire column. Column headers should be unique.

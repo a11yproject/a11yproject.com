@@ -2,18 +2,13 @@
 layout: post
 title: Use <code>placeholder</code> attributes
 description: How-to use placeholders on input elements.
-author: rachel_vasquez
-updated_by: scott_ohara
-last_updated: 2018-07-22
-date: 2016-01-07
 category: How-to
-eleventyNavigation:
-  key: How-to
-  title: Use placeholder attributes
-tags:
-  - howto
+author: Rachel Vasquez
+date: 2016-01-07
+updated_by: Scott O'Hara
+last_updated: 2018-07-22
 further_reading:
-  - title: "Don’t Use The Placeholder Attribute"
+  - title: Don’t Use The Placeholder Attribute
     url: https://www.smashingmagazine.com/2018/06/placeholder-attribute/
     source: Smashing Magazine
     year: 2018
@@ -21,14 +16,18 @@ further_reading:
     url: https://developer.paciellogroup.com/blog/2011/02/html5-accessibility-chops-the-placeholder-attribute/
     source: The Paciello Group
     year: 2011
-  - title: "Using @placeholder on Input"
+  - title: Using @placeholder on Input
     url: https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input
     source: W3C
     year: 2012
+eleventyNavigation:
+  key: {{ category }}
+  title: {{ title }}
+tags:
+  - howto
 ---
-**Short answer:** Don't replace a `label` with a `placeholder` attribute. If labels are visually hidden, confirm that placeholders have sufficient contrast.
 
----
+Don't replace a `label` with a `placeholder` attribute. If labels are visually hidden, confirm that placeholders have sufficient contrast.
 
 Form input `placeholder` attributes are helpful for providing hints to (sighted) users in forms. Often times, due to design decisions, a `placeholder` is used to replace a more semantic `label` element. Unfortunately, accessible `placeholder` browser support isn't complete and placeholders often lack sufficient color contrast by default.
 
@@ -37,12 +36,12 @@ Now, there's nothing wrong with using placeholders - they can still be used. How
 Make your forms accessible by using one of the following methods (in order of preference):
 
 1. Redesign to include a proper visible `label`
-2. Use `aria-label` or `aria-labelledby` to provide assistive text
-3. [Visually hide](https://a11yproject.com/posts/how-to-hide-content/) `label` elements (in an accessible manner)
+1. Use `aria-label` or `aria-labelledby` to provide assistive text
+1. [Visually hide](https://a11yproject.com/posts/how-to-hide-content/) `label` elements (in an accessible manner)
 
 While we're paying attention to our placeholder text, let's review how to add better contrast:
 
-{% highlight css %}
+```css
 ::-webkit-input-placeholder {
   color: #626262;
 }
@@ -55,7 +54,7 @@ While we're paying attention to our placeholder text, let's review how to add be
 :-ms-input-placeholder {
   color: #626262;
 }
-{% endhighlight %}
+```
 
 The above CSS assumes that the background for the form controls are `#fff`. If we test `#fff` and `#626262` in a color contrast tool like [Tanaguru Contrast-Finder](http://contrast-finder.tanaguru.com/result.html;jsessionid=57DFFB6E8E217E7C92C55B7CE2629CF6?foreground=%23626262&background=%23ffffff&isBackgroundTested=false&ratio=4.5&algo=HSV), the results will approve these colors for valid contrast. You can use your own color for this, but be sure to read about [how conformance levels work](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-levels-head), and use a color contrast tool to confirm.
 
@@ -63,8 +62,12 @@ In the above CSS, each selector for placeholder text needs to be seperate in the
 
 Once we have sufficient color contrast in our placeholders, placeholders can be used in addition to labels. Here are two examples of forms where placeholders are used with labels to maintain accessibility.
 
-**Explicit labeling:**
-{% highlight html %}
+
+## Labeling
+
+### Explicit labeling
+
+```html
 <form>
   <label for="your-name">
     Your Name:
@@ -72,10 +75,11 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
   <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
   <input type="submit" value="Submit Name">
 </form>
-{% endhighlight %}
+```
 
-**Implicit & explicit labeling combined:**
-{% highlight html %}
+### Implicit & explicit labeling combined
+
+```html
 <form>
   <label for="your-name">
     Your Name:
@@ -83,6 +87,6 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
   </label>
   <input type="submit" value="Submit Name">
 </form>
-{% endhighlight %}
+```
 
 Note that in the second example above, omitting the `for` attribute on the label is still valid, but still best practice to include. By keeping the `for` attribute in place, we're combining both explicit and implicit techniques. For more about explicit and implicit labeling, check out ["Labeled with Love"](https://www.aaron-gustafson.com/notebook/labeled-with-love/). By adding the `for` attribute to a label with the same value as the ID for the input element it corresponds to, the label becomes *explicitly* associated with that input element. Explicit labeling is great for screen reader users and when clicking/focusing that label, it will automatically focus the associated input element.

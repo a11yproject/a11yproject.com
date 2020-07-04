@@ -2,13 +2,14 @@
 layout: post
 title: Understanding color blindness
 description: What is color blindness, and how can we design with it in mind?
-author: matthew_higgins
 category: Background
-updated_by: emily_lane
+author: Matthew Higgins
+date: 2017-10-18
+updated_by: Emily Lane
 last_updated: 2018-09-27
 eleventyNavigation:
-  key: bBckground
-  title: Understanding color blindness
+  key: {{ category }}
+  title: {{ title }}
 tags:
   - background
 ---
@@ -21,6 +22,7 @@ Color blindness is less profound than many impairments, but people with color vi
 
 Though there are multiple types of color blindness, they are the same in principle. For more information, check out [Wikipedia's article on color blindness](https://en.wikipedia.org/wiki/Color_blindness), which has some excellent descriptions.
 
+
 ## What does this mean for accessibility on the web?
 
 To make sure your site is readable for individuals with color blindness, avoid relying on color alone to communicate.
@@ -31,6 +33,7 @@ In practice, you can achieve this by choosing colors that are easily distinguish
 
 There are cases where this isn't possible. The periodic table, for example, often color-codes the chemical symbols of the elements. When working with tables or other standardised layouts, adding more text or symbols might not be practical. 
 
+
 ## Available tools
 
 There are a number of online tools to help those without color blindness visualize how accessible their designs are:
@@ -40,6 +43,7 @@ There are a number of online tools to help those without color blindness visuali
 - [I want to see like the colour blind Chrome extension](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia)
 
 These tools are free, simple to use, and can quickly help you make color-accessible choices.
+
 
 ## Terminology
 

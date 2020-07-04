@@ -1,23 +1,25 @@
 ---
 layout: post
-title: Screen readers don't use JavaScript
-category: Myths
+title: People who use screen readers don't use JavaScript
 description: 97.6% of all screen readers have JavaScript enabled.
-author: dave_rupert
+category: Myth
+author: Dave Rupert
+date: 2013-04-21
 last_updated: 2014-09-26
-eleventyNavigation:
-  key: Myths
-  title: Screen readers don't use JavaScript
-tags:
-  - myths
 further_reading:
   - url: https://www.w3.org/TR/WCAG20-TECHS/client-side-script.html
-    title: "Client-side Scripting Techniques for WCAG 2.0"
+    title: Client-side Scripting Techniques for WCAG 2.0
     source: W3C
   - url: https://www.w3.org/TR/WCAG20-TECHS/failures.html#F42
     title: "WCAG 2.0 Failure: Scripting events to emulate links"
     source: W3C
+eleventyNavigation:
+  key: {{ category }}
+  title: {{ title }}
+tags:
+  - myth
 ---
+
 A common misconception among web developers is that screen readers only read the non-JavaScript page. Due to this misconception, we sometimes assume it's unnecessary to make JavaScript apps and other functionality accessible. **This is categorically false.**
 
 According to a January 2014 survey conducted by WebAIM, [97.6% of screen reader users have JavaScript enabled](https://webaim.org/projects/screenreadersurvey5/#javascript).

@@ -2,26 +2,28 @@
 layout: post
 title: Use <code>title</code> attributes
 description: Avoid using title attributes except in a few special circumstances.
-author: dave_rupert
 category: How-to
-eleventyNavigation:
-  key: How-to
-  title: Use title attributes
-tags:
-  - howto
+author: Dave Rupert
+date: 2013-04-22
 further_reading:
-  - title: "The Trials and Tribulations of the Title Attribute"
+  - title: The Trials and Tribulations of the Title Attribute
     url: https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/
     source: Scott O'Hara
     year: 2017
-  - title: "Using the HTML title attribute"
+  - title: Using the HTML title attribute
     url: https://developer.paciellogroup.com/blog/2013/01/using-the-html-title-attribute-updated/
     source: Steve Faulkner
     year: 2013
-  - title: "title attribute"
+  - title: "title - HTML: Hypertext Markup Language"
     url: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title
     source: MDN
+eleventyNavigation:
+  key: {{ category }}
+  title: {{ title }}
+tags:
+  - howto
 ---
+
 **Short answer:** Don't use them, except in special circumstances.
 
 HTML `title` attributes are often perceived as an accessibility (and SEO) bonus, but the opposite is true. For screen reader users the content included inside of the `title` attribute is typically unnecessary, redundant, and possibly not even used. Conversely, content being put in the `title` attribute is being hidden from the (probable) majority of your users. If information is being hidden from the majority of your users, then it's likely not necessary.
@@ -42,10 +44,10 @@ Based on the intended behavior for Text Alternative Computation the precedence f
 
 In cases where two or more of the above are used, whatever is highest in that list becomes what gets used. Consider the following example:
 
-```
+```html
 <img src="/path/to/image.png" alt="" title="some stuff that could be useful" />
 ```
 
 In this case, the `alt` actually becomes the alternative, because it is higher in precedence. So even though the `title` has useful content, it doesn't get used because the `alt` is there. For a universally reliable text alternative for images, the `alt` attribute should be the the preferred method. In cases where a `title` attribute is provided, it should have the same value as the `alt`.
 
-Rule of Thumb: Serve all users equal content.
+The long story short? Serve all users equal content.
