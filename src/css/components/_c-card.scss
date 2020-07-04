@@ -25,7 +25,8 @@ $_card-outline: $border-thinner solid;
 
 			.c-card__title,
 			.c-card__meta,
-			.c-card__description {
+			.c-card__author,
+			.c-card__description, {
 				color: $color-white;
 			}
 		}
@@ -113,6 +114,21 @@ $_card-outline: $border-thinner solid;
 	color: $color-gray-shade;
 	font-size: 0.8rem;
 	max-width: $global-type-measure;
+}
+
+
+.c-card__author {
+	color: $color-gray-shade;
+
+	// States
+	&:focus {
+		outline: $border-thin solid transparent;
+	}
+
+	// Contexts
+	.c-card--post & {
+
+	}
 }
 
 
