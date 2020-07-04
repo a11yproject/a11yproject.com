@@ -16,20 +16,17 @@ templateClass: template-posts
 
 <div data-content class="l-content">
 
-	{# TODO: Add top latest post #}
-	{% for post in top_posts %}
-		{% include "highlight.njk" %}
-	{% endfor %}
-
 	{% set taglist = collections[ "featured" ] %}
 	{% for post in taglist %}
 		{% include "highlight.njk" %}
 	{% endfor %}
 
-
 	<h2 id="background" class="c-heading-large">
 		Background
 	</h2>
+	<p class="c-preface">
+		General information for help in thinking about different parts of digital accessibility.
+	</p>
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "background" ] %}
 		{% for post in taglist | reverse %}
@@ -37,19 +34,25 @@ templateClass: template-posts
 		{% endfor %}
 	</div>
 
-	<h2 id="myths" class="c-heading-large">
+	<h2 id="myth" class="c-heading-large">
 		Myths
 	</h2>
+	<p class="c-preface">
+		Common misconceptions and falsehoods about accessibility.
+	</p>
 	<div class="c-card__wrapper">
-		{% set taglist = collections[ "myths" ] %}
+		{% set taglist = collections[ "myth" ] %}
 		{% for post in taglist | reverse %}
 			{% include "post.njk" %}
 		{% endfor %}
 	</div>
 
-	<h2 id="quick-tests" class="c-heading-large">
+	<h2 id="quick-test" class="c-heading-large">
 		Quick tests
 	</h2>
+	<p class="c-preface">
+		Things you can quickly try out to check for inacessible experiences.
+	</p>
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "quicktest" ] %}
 		{% for post in taglist | reverse %}
@@ -57,9 +60,12 @@ templateClass: template-posts
 		{% endfor %}
 	</div>
 
-	<h2 id="quick-tips" class="c-heading-large">
+	<h2 id="quick-tip" class="c-heading-large">
 		Quick tips
 	</h2>
+	<p class="c-preface">
+		Short, easy-to-digest and easy-to-implement accessibility-related information.
+	</p>
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "quicktip" ] %}
 		{% for post in taglist | reverse %}
@@ -70,6 +76,9 @@ templateClass: template-posts
 	<h2 id="how-to" class="c-heading-large">
 		How-to
 	</h2>
+	<p class="c-preface">
+		Guides to implementing accessible code.
+	</p>
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "howto" ] %}
 		{% for post in taglist | reverse %}
@@ -80,6 +89,9 @@ templateClass: template-posts
 	<h2 id="assistive-technology" class="c-heading-large">
 		Assistive technology
 	</h2>
+	<p class="c-preface">
+		Background information on the tools used by people who rely on them to navigate digital devices and interfaces.
+	</p>
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "assistivetechnology" ] %}
 		{% for post in taglist | reverse %}
