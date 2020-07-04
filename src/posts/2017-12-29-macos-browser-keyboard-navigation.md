@@ -35,28 +35,6 @@ tags:
   - quicktip
 ---
 
-
-
-
-
----
-layout: post
-title: "Quick tip: "
-description: ""
-author: 
-date: 
-last_updated: 
-updated_by: 
-redirect_from:
-  - /posts/safari-keyboard-navigation
-  - https://a11yproject.com/posts/safari-keyboard-navigation/
-published: true
-categories:
-  - Quick Tips
-further_reading:
-
----
-
 By default, Apple computers have an operating system (OS) level setting that limits the <kbd>Tab</kbd> key to "Text boxes and lists only". This can be confusing, if not frustrating, for those unaware of this setting and expect keyboard focus to be similar to navigating on a Windows machine.
 
 In order to allow for full keyboard navigation of all focusable interactive elements in macOS Safari and Firefox, you'll need to make sure the following keyboard settings are adjusted.
@@ -118,7 +96,7 @@ Unlike Safari and Chrome, Firefox does not have an option in the settings page f
 
 ### Troubleshooting Firefox
 
-In several older versions of Firefox, the browser may still not send focus to links using the tab key despite "Use keyboard navigation to move focus between controls" being set. If this occurs, please update to the latest version of Firefox. 
+In several older versions of Firefox, the browser may still not send focus to links using the tab key despite "Use keyboard navigation to move focus between controls" being set. If this occurs, please update to the latest version of Firefox.
 
 If it is not possible to install the latest version of Firefox, there is a way to enable keyboard focus of links using advanced configuration options.
 

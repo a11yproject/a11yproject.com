@@ -78,9 +78,13 @@
 		@include preserve-list-semantics();
 
 		dt {
-			font-family: $font-family-secondary;
+			font-weight: $font-weight-bold;
 			margin-top: 1.5rem;
 			margin-left: map-get($global-post-content-inset, small) * -1;
+		}
+
+		dd {
+			font-family: $font-family-secondary;
 		}
 	}
 }

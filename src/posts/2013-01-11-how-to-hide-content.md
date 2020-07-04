@@ -25,28 +25,28 @@ tags:
 
 Developers commonly use `display: none` to hide content on the page. Unfortunately, this common action can be problematic for people who use screen readers, especially if the hidden content was *meant* to be for them to discover...
 
-There are real world situations where visually hiding content may be appropriate, while the content should remain available to assistive technologies, such as screen readers. For instance, hiding a search field's `label` as a common magnifying glass icon is used in its stead. 
+There are real world situations where visually hiding content may be appropriate, while the content should remain available to assistive technologies, such as screen readers. For instance, hiding a search field's `label` as a common magnifying glass icon is used in its stead.
 
 The "clip pattern" accomplishes this task for you; hide the content visually, yet provide the content to screen readers. Unlike CSS positioning and negative text-indent techniques, the "clip pattern" also works with RTL (Right-to-Left) languages for localization. See the article *[Hiding Content for Accessibility](https://snook.ca/archives/html_and_css/hiding-content-for-accessibility)* for more information on this visually-hidden pattern. Also read [Beware smushed off-screen accessible text](https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe) for information on the *added line* in the code snippet.
 
 ```css
-.visually-hidden { 
-    position: absolute !important;
-    height: 1px; 
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-    white-space: nowrap; /* added line */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 ```
 
-If the `.visually-hidden` class is applied to natively focusable elements (such as `a`, `button`, `input`, etc) they **must** become visible when they receive keyboard focus. Otherwise, a sighted keyboard user would have to try and figure out where their visible focus indicator had gone to. 
+If the `.visually-hidden` class is applied to natively focusable elements (such as `a`, `button`, `input`, etc) they **must** become visible when they receive keyboard focus. Otherwise, a sighted keyboard user would have to try and figure out where their visible focus indicator had gone to.
 
 With modern browsers and IE9 and up, the visually hidden selector can be written like so:
 
 ```css
-.visually-hidden:not(:focus):not(:active) { 
+.visually-hidden:not(:focus):not(:active) {
   /* ... */
 }
 ```

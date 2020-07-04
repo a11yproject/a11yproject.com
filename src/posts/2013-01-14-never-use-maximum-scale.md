@@ -3,7 +3,7 @@ layout: post
 title: Never use <code>maximum-scale='1.0'</code>
 description: Why you never ever should use <code>maximum-scale='1.0'</code> in your viewport meta tag.
 category: Quick tip
-author: Thomas Sjogren
+author: Thomas Sjögren
 date: 2013-01-14
 updated_by: Eric Bailey
 last_updated: 2019-02-04
@@ -14,7 +14,7 @@ tags:
   - quicktip
 ---
 
-Using the viewport meta tag the wrong way can prevent people with low vision concerns from accessing your website or web app. 
+Using the viewport meta tag the wrong way can prevent people with low vision concerns from accessing your website or web app.
 
 
 ## About the `maximum-scale` attribute
@@ -42,7 +42,7 @@ However, other effects of the declarations remain, like their effect on whether 
 
 ## About the `user-scalable` attribute
 
-The `user-scalable` attribute can also [cause problems](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Viewport_scaling) for people who use the built-in zoom functionality of their web browser. 
+The `user-scalable` attribute can also [cause problems](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#Viewport_scaling) for people who use the built-in zoom functionality of their web browser.
 
 The attribute is set as `user-scalable="yes"` by default, which means that people are able to control the zoom setting for the page they're visiting. Changing it to `user-scalable="no"` would prevent zoom settings from working on both mobile and desktop devices.
 

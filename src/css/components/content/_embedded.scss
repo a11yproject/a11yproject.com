@@ -12,7 +12,8 @@
 	// Embedded CodePen
 	//
 	// Style guide: Components.post.codepen
-	.cp_embed_wrapper {
+	iframe[src^="https://codepen.io/"] {
 		margin-top: $_c-post-vertical-spacing !important;
+		height: 20rem;
 	}
 }

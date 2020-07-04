@@ -33,12 +33,12 @@ When someone resizes text, any of the following can break the page:
 - Content is lost or truncated.
 - Interactive elements overlapping each other.
 
-The importance is that [relative length units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Units) (`em`, `ex`, `rem`, `%`, `vw`) are used for text. 
+The importance is that [relative length units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Units) (`em`, `ex`, `rem`, `%`, `vw`) are used for text.
 
 
 ## How to test
 
-Testing is pretty straight forward.
+Testing is pretty straightforward.
 
 1. Initial test in multiple browsers
 1. Resize text
@@ -76,7 +76,7 @@ Edge won't work:
 1. Zoom to 200%.
     - <kbd>Ctrl</kbd> + <kbd>+</kbd>.
     - <kbd>Ctrl</kbd> + Scroll Up.
-  
+
 ### Resizing text in Chrome
 
 1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard.

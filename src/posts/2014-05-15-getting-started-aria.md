@@ -5,13 +5,7 @@ description: Introduction to ARIA, describing Roles, States, and Properties and 
 category: Background
 author: Monika Piotrowicz
 date: 2014-05-15
-updated_by: FIRSTNAME LASTNAME
 last_updated: 2014-05-15
-further_reading:
-  - title: TITLE
-    url: URL
-    source: SOURCE
-    year: YYYY
 eleventyNavigation:
   key: {{ category }}
   title: {{ title }}
@@ -19,23 +13,23 @@ tags:
   - background
 ---
 
-ARIA (Accessible Rich Internet Applications), is a specification from the W3C and created to improve accessibility of applications by providing extra information to assistive technologies, such as screen readers, via attributes which could be added to HTML. 
+ARIA (Accessible Rich Internet Applications), is a specification from the W3C and created to improve accessibility of applications by providing extra information to assistive technologies, such as screen readers, via attributes which could be added to HTML.
 
 Out of the box, screen readers will interpret HTML that conveys accessibility mapping information (e.g. a `button` but not a `div`). However, ARIA attributes can provide screen reader users with additional context and greater interactivity with content to correct misused HTML, or to convey information not available in HTML alone.
 
 ARIA, by design, has no effect on how elements are displayed or behave in browsers. It does not add new functionality and is meant to act only as an extra descriptive layer for screen readers. ARIA is also beholden to its host language and must adhere to the rules of what elements it can, and cannot, be used on.
 
-- [ARIA in HTML specification](https://www.w3.org/TR/html-aria/) - Defines how ARIA may be used within HTML.
-- [ARIA specification](https://www.w3.org/TR/wai-aria/) - Defines ARIA 
+- [ARIA in HTML specification](https://www.w3.org/TR/html-aria/): Defines how ARIA may be used within HTML.
+- [ARIA specification](https://www.w3.org/TR/wai-aria/): Defines ARIA.
 
 
 ## ARIA attributes
 
 ARIA attributes are predefined in the spec and are divided into two categories, roles and states & properties. Both can be added directly in the markup or via JavaScript to progressively enhance markup as necessary. The properties and states should be updated as needed based on user interactions. There are rules behind which elements may receive types of ARIA attributes, as well as design guidelines for how and when these should be updated in common interactive widgets.
 
-- [ARIA Roles](https://www.w3.org/TR/wai-aria/#roles_categorization) - Section of the specification about roles.
-- [ARIA States and Properties](https://www.w3.org/TR/wai-aria/#states_and_properties) - Section of the specification about states and properties.
-- [ARIA Authoring Practices note](https://www.w3.org/TR/wai-aria-practices/) - Provides guidance on how to use ARIA.
+- [ARIA Roles](https://www.w3.org/TR/wai-aria/#roles_categorization): Section of the specification about roles.
+- [ARIA States and Properties](https://www.w3.org/TR/wai-aria/#states_and_properties): Section of the specification about states and properties.
+- [ARIA Authoring Practices note](https://www.w3.org/TR/wai-aria-practices/): Provides guidance on how to use ARIA.
 
 
 ## ARIA roles
@@ -48,7 +42,7 @@ Landmark roles identify large content areas and are used by screen readers for n
 
 ### Document Structure
 
-Document Structure roles provide a structural description for a section and are typically non-interactive. Some document roles map onto existing HTML tags (E.g. `role="form"`) and are only meant for cases when using the native tag is not possible, or to bridge gaps in support. 
+Document Structure roles provide a structural description for a section and are typically non-interactive. Some document roles map onto existing HTML tags (E.g. `role="form"`) and are only meant for cases when using the native tag is not possible, or to bridge gaps in support.
 
 ### Widget
 
@@ -74,7 +68,7 @@ ARIA states and properties are often used to support ARIA roles that exist on a 
 
 ## When to use ARIA
 
-Native HTML semantics should still be used whenever possible, but ARIA is useful when certain design patterns or interactions make it impossible to do so. For example, a complex tabbed-interface has no semantic equivalent with HTML, but a `role="tablist"` and its related attributes can be added to provide this detail to screen readers. 
+Native HTML semantics should still be used whenever possible, but ARIA is useful when certain design patterns or interactions make it impossible to do so. For example, a complex tabbed-interface has no semantic equivalent with HTML, but a `role="tablist"` and its related attributes can be added to provide this detail to screen readers.
 
 ARIA is also useful to describe newer HTML elements that may not yet have full cross-browser support or be understood by screen readers.
 

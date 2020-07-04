@@ -52,6 +52,20 @@
 		}
 	}
 
+	// Figure
+	//
+	// Style guide: Components.post.figure
+	figure {
+		margin-top: 4ex;
+
+		figcaption {
+			background-color: $color-white;
+			border-bottom: $border-hairline solid $color-gray-shade;
+			font-family: $font-family-secondary;
+			padding: 0 1rem;
+		}
+	}
+
 
 	// Preformatted Text
 	//
@@ -74,8 +88,17 @@
 		}
 
 		code {
-			line-height: $line-height-double;
+ 			line-height: $line-height-double;
 		}
+	}
+
+	// Code Examples
+	//
+	// Style guide: Components.post.code-examples
+	pre[class^="language"] {
+		@include post-content-flourish("section-code.svg", 197, -0.5rem);
+
+		margin-top: 4ex;
 	}
 
 

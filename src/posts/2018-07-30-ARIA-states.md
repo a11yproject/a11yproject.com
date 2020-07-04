@@ -17,7 +17,7 @@ tags:
 States are inserted into elements as follows: `<element aria-state="value"></element>`. Example:
 
 ```html
-<span aria-busy="true">This element is currently being updated. </span>
+<span aria-busy="true">This element is currently being updated.</span>
 ```
 
 There are 10 states that can be used in ARIA. They fall into 3 categories as defined by the W3C. The categories are:

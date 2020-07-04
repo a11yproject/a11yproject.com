@@ -79,6 +79,10 @@
 		margin-right: 1rem;
 		text-transform: uppercase;
 
+		code {
+			text-transform: none;
+		}
+
 		// Removing content
 		svg,
 		.direct-link {

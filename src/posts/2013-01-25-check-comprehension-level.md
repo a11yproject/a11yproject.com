@@ -6,11 +6,6 @@ category: Quick test
 author: Greg Tarnoff
 date: 2013-01-25
 last_updated: 2018-11-24
-further_reading:
-  - title: TITLE
-    url: URL
-    source: SOURCE
-    year: YYYY
 eleventyNavigation:
   key: {{ category }}
   title: {{ title }}
@@ -18,7 +13,7 @@ tags:
   - quicktest
 ---
 
-People with cognitive disabilities often struggle with reading text on the Internet. When writing content, it is important to identify your target audience and write accordingly. 
+People with cognitive disabilities often struggle with reading text on the Internet. When writing content, it is important to identify your target audience and write accordingly.
 
 If you don't know who your audience is, target your content towards a reader between the ages of 12 and 15 years old.
 
@@ -30,6 +25,6 @@ Here are some tools to test your content:
 4. [Hemingway Editor](http://www.hemingwayapp.com/)
 5. [Choose your words carefully - plainlanguage.gov](https://plainlanguage.gov/guidelines/words/)
 6. [datayze Readability Analyzer](https://datayze.com/readability-analyzer.php)
-5. [xkcd Simple Writer](https://xkcd.com/simplewriter/)
+7. [xkcd Simple Writer](https://xkcd.com/simplewriter/)
 
 If your content isn't hitting the target audience, take some time and rewrite it.

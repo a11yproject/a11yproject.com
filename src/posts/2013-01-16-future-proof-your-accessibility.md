@@ -3,7 +3,7 @@ layout: post
 title: Future-proofing your accessibility efforts
 description: Ways to help make your accessibility efforts are as future proof as possible.
 category: How-to
-author: Thomas Sjogren
+author: Thomas Sjögren
 date: 2013-01-22
 updated_by: Scott O'Hara
 last_updated: 2019-01-06

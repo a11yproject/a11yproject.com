@@ -48,15 +48,15 @@ Here are some basic interaction and navigation commands for VoiceOver.
 
 Command | Description
 --------|------------
-VO-Shift-Down Arrow | Interact with an item
-VO-Shift-Up Arrow | Stop interacting with an item
-VO-Space bar | Perform the default action for the item in the VoiceOver cursor
-VO-R | Read a row in a table
-VO-C-C | Read a column in a table
-VO-Up Arrow | Move up
-VO-Down Arrow | Move down
-VO-Left Arrow | Move to previous
-VO-Right Arrow | Move to next
+<kbd>VO</kbd> + <kbd>Shift</kbd> + <kbd>Down arrow</kbd> | Interact with an item
+<kbd>VO</kbd> + <kbd>Shift</kbd> + <kbd>Up arrow</kbd> | Stop interacting with an item
+<kbd>VO</kbd> + <kbd>Spacebar</kbd> | Perform the default action for the item in the VoiceOver cursor
+<kbd>VO</kbd> + <kbd>R</kbd> | Read a row in a table
+<kbd>VO</kbd> + <kbd>C</kbd> + <kbd>C</kbd> | Read a column in a table
+<kbd>VO</kbd> + <kbd>Up arrow</kbd> | Move up
+<kbd>VO</kbd> + <kbd>Down arrow</kbd> | Move down
+<kbd>VO</kbd> + <kbd>Left arrow</kbd> | Move to previous
+<kbd>VO</kbd> + <kbd>Right arrow</kbd> | Move to next
 
 
 ## The Web Item rotor

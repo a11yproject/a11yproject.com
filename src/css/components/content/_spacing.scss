@@ -42,39 +42,18 @@
 			// This selector targets only the first child paragraph of
 			// `.c-content`, allowing us to apply the tl;dr image
 			& > p:first-of-type {
+				@include post-content-flourish("section-short-answer.svg", 169, 0.75rem);
+
 				font-size: 1.25rem;
 				font-family: $font-family-secondary;
 				line-height: $line-height-looser;
 				margin-top: 0;
-// margin-bottom: $_c-post-vertical-spacing * 1.25;
-			}
-
-			// Breakpoints
-			@include mappy-bp(lap-medium) {
-// margin-bottom: $_c-post-vertical-spacing * 1.5;
+				margin-bottom: $_c-post-vertical-spacing * 1.25;
 			}
 
 			code,
 			kbd {
 				font-size: 80%;
-			}
-
-			&::before {
-				// Contexts
-				.template-post & {
-					// Breakpoints
-					@include mappy-bp(lap-medium) {
-						background: url("#{$path-to-img}/posts/section-short-answer.svg") no-repeat center;
-						background-size: cover;
-						content: "";
-						display: block;
-						height: rem(169);
-						margin-top: 1rem;
-						position: absolute;
-							left: 1rem;
-						width: rem(164);
-					}
-				}
 			}
 		}
 	}
