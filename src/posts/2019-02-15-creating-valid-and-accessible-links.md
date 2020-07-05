@@ -39,20 +39,28 @@ Think about restructuring your sentence to remove 'click here' or 'link' and the
 
 ```html
 <!-- bad -->
-To see our documentation <a href="/README.md">click here</a>.
+<p>
+	To see our documentation <a href="/README.md">click here</a>.
+</p>
 
 <!-- better -->
-We have made our <a href="/README.md">documentation</a> available.
+<p>
+	We have made our <a href="/README.md">documentation</a> available.
+</p>
 ```
 
 "Read more" can be fixed by including what we will be reading more about:
 
 ```html
 <!-- bad -->
-<a href="/full-article">Read more</a>.
+<p>
+	<a href="/full-article">Read more</a>.
+</p>
 
 <!-- better -->
-<a href="/full-article">Read more - Accessible Landmarks</a>
+<p>
+	<a href="/full-article">Read more - Accessible Landmarks</a>
+</p>
 ```
 
 ## What about the `title` attribute?

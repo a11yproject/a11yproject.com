@@ -12,12 +12,14 @@ tags:
   - background
 ---
 
-[ARIA 1.1 defines multiple "states"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. States are likely to change as the user interacts with the page. 
+[ARIA 1.1 defines multiple "states"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. States are likely to change as the user interacts with the page.
 
 States are inserted into elements as follows: `<element aria-state="value"></element>`. Example:
 
 ```html
-<span aria-busy="true">This element is currently being updated.</span>
+<span aria-busy="true">
+	This element is currently being updated.
+</span>
 ```
 
 There are 10 states that can be used in ARIA. They fall into 3 categories as defined by the W3C. The categories are:

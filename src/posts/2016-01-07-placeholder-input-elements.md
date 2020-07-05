@@ -43,16 +43,16 @@ While we're paying attention to our placeholder text, let's review how to add be
 
 ```css
 ::-webkit-input-placeholder {
-  color: #626262;
+	color: #626262;
 }
 ::-moz-placeholder {
-  color: #626262;
+	color: #626262;
 }
-:-moz-placeholder {  /* Older versions of Firefox */
-  color: #626262;
+:-moz-placeholder { /* Older versions of Firefox */
+	color: #626262;
 }
 :-ms-input-placeholder {
-  color: #626262;
+	color: #626262;
 }
 ```
 
@@ -69,11 +69,11 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
 
 ```html
 <form>
-  <label for="your-name">
-    Your Name:
-  </label>
-  <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
-  <input type="submit" value="Submit Name">
+	<label for="your-name">
+		Your Name:
+	</label>
+	<input type="text" id="your-name" name="your-name" placeholder="What's your name?">
+	<input type="submit" value="Submit Name">
 </form>
 ```
 
@@ -81,11 +81,11 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
 
 ```html
 <form>
-  <label for="your-name">
-    Your Name:
-    <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
-  </label>
-  <input type="submit" value="Submit Name">
+	<label for="your-name">
+		Your Name:
+		<input type="text" id="your-name" name="your-name" placeholder="What's your name?">
+	</label>
+	<input type="submit" value="Submit Name">
 </form>
 ```
 

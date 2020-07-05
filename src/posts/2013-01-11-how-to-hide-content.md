@@ -31,13 +31,13 @@ The "clip pattern" accomplishes this task for you; hide the content visually, ye
 
 ```css
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }
 ```
 
@@ -47,7 +47,7 @@ With modern browsers and IE9 and up, the visually hidden selector can be written
 
 ```css
 .visually-hidden:not(:focus):not(:active) {
-  /* ... */
+	/* ... */
 }
 ```
 
@@ -62,12 +62,14 @@ There may be instances where content hidden by `aria-hidden` may also need to be
 
 ```css
 .my-component[aria-hidden="true"] {
-    display: none;
+	display: none;
 }
 ```
 
 Another way to hide content both visually and from assistive technology is the [HTML5 `hidden` attribute](https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute). To support older browsers like IE9, and to increase the specificity of the `hidden` attribute, you can add the following snippet to your CSS:
 
 ```css
-[hidden] { display: none !important; }
+[hidden] {
+	display: none !important;
+}
 ```

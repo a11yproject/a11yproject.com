@@ -19,29 +19,29 @@ The semantic purpose of a data table is to present tabular data. Sighted users c
 
 ```html
 <table>
-    <caption>Monthly Budget</caption>
-    <thead>
-        <tr>
-            <th scope="col">Month</th>
-            <th scope="col">Amount Earned</th>
-            <th scope="col">Amount Spent</th>
-            <th scope="col">Amount Saved</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th scope="row">January</th>
-            <td>$2500</td>
-            <td>$1500</td>
-            <td>$500</td>
-        </tr>
-        <tr>
-            <th scope="row">February</th>
-            <td>$2700</td>
-            <td>$1500</td>
-            <td>$700</td>
-        </tr>
-    </tbody>
+	<caption>Monthly Budget</caption>
+	<thead>
+		<tr>
+			<th scope="col">Month</th>
+			<th scope="col">Amount Earned</th>
+			<th scope="col">Amount Spent</th>
+			<th scope="col">Amount Saved</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">January</th>
+			<td>$2500</td>
+			<td>$1500</td>
+			<td>$500</td>
+		</tr>
+		<tr>
+			<th scope="row">February</th>
+			<td>$2700</td>
+			<td>$1500</td>
+			<td>$700</td>
+		</tr>
+	</tbody>
 </table>
 ```
 

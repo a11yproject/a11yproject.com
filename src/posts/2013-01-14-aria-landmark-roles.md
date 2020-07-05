@@ -64,7 +64,7 @@ Implementing landmarks in your documents is a straightforward process. Simply ad
 
 ```html
 <div role="contentinfo">
-  ...
+	...
 </div>
 ```
 
@@ -74,7 +74,7 @@ Before you start adding ARIA roles to your HTML elements, you should be aware th
 
 ```html
 <header role="banner" class="site-header">
-  ...
+	...
 </header>
 ```
 

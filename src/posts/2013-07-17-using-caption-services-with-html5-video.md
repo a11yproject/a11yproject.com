@@ -24,7 +24,7 @@ tags:
   - howto
 ---
 
-One of the great things about the internet is the ability to share video. 
+One of the great things about the internet is the ability to share video.
 
 With HTML we can now use video without the use of Flash. This makes video more accessible as the controls are located in the DOM. However, to do accessible video right, you need to include captions and transcripts.
 
@@ -34,10 +34,10 @@ So how do we pull off putting captions into a video after the video has been pro
 
 ```html
 <video class="span12 readable" poster="your-video-poster.jpg" controls title="My Movie">
-  <source  src="your-video.m4v" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-  <source  src="your-video.ogg" type='application/ogg' />
-  <source  src="your-video.webm" type='video/webm' />
-  <track src="your-video-transcript.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
+  <source src="your-video.m4v" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+	<source src="your-video.ogg" type='application/ogg' />
+	<source src="your-video.webm" type='video/webm' />
+	<track src="your-video-transcript.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
 </video>
 ```
 
@@ -71,22 +71,22 @@ WEBVTT
 
 ## Other formats
 
-In addition to the VTT file format, you can also use TTML (Time Text Markup Language) which is a specific XML format that is currently supported in Flash and used by some major properties on the Internet. If you are migrating from Flash, this may be the best choice as you may have the files already. 
+In addition to the VTT file format, you can also use TTML (Time Text Markup Language) which is a specific XML format that is currently supported in Flash and used by some major properties on the Internet. If you are migrating from Flash, this may be the best choice as you may have the files already.
 
 TTML files look a bit more complex:
 
 ```xml
 <tt xmlns="http://www.w3.org/ns/ttml" xml:lang="en">
-  <body>
-    <div>
-      <p begin="00:00:9.00" end="00:00:11.00">
-        Alice: Curiouser and curiouser.
-      </p>
-      <p begin="00:00:17:00" end="00:00:18:00">
-        Rabbit: I told you she was the right Alice!
-      </p>
-    </div>
-  </body>
+	<body>
+		<div>
+			<p begin="00:00:9.00" end="00:00:11.00">
+				Alice: Curiouser and curiouser.
+			</p>
+			<p begin="00:00:17:00" end="00:00:18:00">
+				Rabbit: I told you she was the right Alice!
+			</p>
+		</div>
+	</body>
 </tt>
 ```
 
@@ -95,7 +95,7 @@ You may also see captions in formats like `.srt` or others that may work best fo
 
 ## Transcribing
 
-Now that you know how to implement it, you need to transcribe all of your videos. You can watch, and rewatch, and rewatch them to capture all of the talking perfectly timed (I watched that Alice in Wonderland trailer 30 or 40 times and it is only a minute long). 
+Now that you know how to implement it, you need to transcribe all of your videos. You can watch, and rewatch, and rewatch them to capture all of the talking perfectly timed (I watched that Alice in Wonderland trailer 30 or 40 times and it is only a minute long).
 
 One way to simplify this process is to use YouTube's auto-generated captions. Simply upload your video to YouTube (you can set it to private) and choose the auto-caption feature. Once these have been created, it should only take one or two reviews of the video to make sure the captions match and correct things like spelling and proper nouns. YouTube then lets you download the caption file in many different formats, including WebVTT and SRT.
 

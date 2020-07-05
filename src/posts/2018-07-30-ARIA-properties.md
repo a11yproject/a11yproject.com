@@ -12,12 +12,14 @@ tags:
   - background
 ---
 
-[ARIA 1.1 defines multiple "properties"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. Unlike ARIA states, most properties are likely to stay static when a page is loaded instead of changing with user interaction. 
+[ARIA 1.1 defines multiple "properties"](https://www.w3.org/WAI/PF/aria-1.1/states_and_properties) that can be applied to elements. Unlike ARIA states, most properties are likely to stay static when a page is loaded instead of changing with user interaction.
 
 Properties are inserted into elements as follows: `<element aria-property="value"></element>` . Example:
 
 ```html
-<button aria-haspopup="true"> Options. </button>
+<button aria-haspopup="true">
+	Options.
+</button>
 ```
 
 A screenreader will announce this button with 'Options, button menu' or something similar.

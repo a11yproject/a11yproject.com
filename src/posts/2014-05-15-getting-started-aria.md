@@ -81,25 +81,29 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
 
 The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](https://a11yproject.com/posts/aria-landmark-roles/) for more information.
 
-  ```html
-  <nav>
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/contact">Contact Page</a>
-      </li>
-    </ul>
-  </nav>
-  ```
+```html
+<nav>
+	<ul>
+		<li>
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="/contact">Contact Page</a>
+		</li>
+	</ul>
+</nav>
+```
 
 ## `aria-labelledby`
 
 ```html
 <section aria-labelledby="KittensHeader">
-  <h2 id="KittensHeader">All Abbout Kittens</h2>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+	<h2 id="KittensHeader">
+		All Abbout Kittens
+	</h2>
+	<p>
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+	</p>
 </section>
 ```
 
@@ -110,11 +114,19 @@ The `<section>` element includes the ARIA property `aria-labelledby` which point
 
 ```html
 <div role="tablist">
-  <button role="tab" aria-selected="true" aria-controls="panel_1">Apples</button>
-  <button role="tab" aria-selected="false" aria-controls="panel_2" tabindex="-1">Oranges</button>
+	<button role="tab" aria-selected="true" aria-controls="panel_1">
+		Apples
+	</button>
+	<button role="tab" aria-selected="false" aria-controls="panel_2" tabindex="-1">
+		Oranges
+	</button>
 </div>
-<div id="panel_1" aria-label="Apples" role="tabpanel" tabindex="0">...</div>
-<div id="panel_2" aria-label="Oranges" role="tabpanel" hidden>...</div>
+<div id="panel_1" aria-label="Apples" role="tabpanel" tabindex="0">
+	...
+</div>
+<div id="panel_2" aria-label="Oranges" role="tabpanel" hidden>
+	...
+</div>
 ```
 
 Each element has an ARIA role and attributes to create a complete Tab Widget.  Note: as of June 2019 no screen readers support `aria-controls` by default.

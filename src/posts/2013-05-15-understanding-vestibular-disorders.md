@@ -44,36 +44,36 @@ Also, with the CSS [`prefers-reduced-motion`](https://developer.mozilla.org/en-U
 
 ```css
 img {
-  animation: slidein 3s;
+	animation: slidein 3s;
 }
 
 @keyframes slidein {
-  from {
-    margin-left: 100%;
-  }
+	from {
+		margin-left: 100%;
+	}
 
-  to {
-    margin-left: 0%;
-  }
+	to {
+		margin-left: 0%;
+	}
 }
 
 button {
-  transition: transform 1s;
+	transition: transform 1s;
 }
 
 button:focus,
 button:hover {
-  transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    animation-duration: 0.001s !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.001s !important;
-  }xw
+	*,
+	::before,
+	::after {
+		animation-duration: 0.001s !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.001s !important;
+	}
 }
 ```
 

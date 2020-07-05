@@ -88,15 +88,15 @@ You can use the [`prefers-color-scheme` media feature](https://developer.mozilla
 
 ``` css
 body {
-  background-color: #ffffff;
-  color: #000000;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: #000000;
-    color: #ffffff;
-  }
+	body {
+		background-color: #000000;
+		color: #ffffff;
+	}
 }
 ```
 
@@ -109,7 +109,7 @@ These modes are used to adjust the colors that come out of a device's display. T
 
 One mode is commonly known as Night Mode. It swaps the intense blue light frequencies with warmer, dimmer colors when activated.
 
-Some people report that removing these frequencies at night helps them sleep because the blue light frequencies mimic the light of the sun. Other people find the colors more relaxing and cause less strain on their eyes. However, it is important to note that the scientific benefits of this kind of mode are [still being researched](https://www.theguardian.com/technology/shortcuts/2019/dec/17/not-such-a-bright-idea-why-your-phones-night-mode-may-be-keeping-you-awake). 
+Some people report that removing these frequencies at night helps them sleep because the blue light frequencies mimic the light of the sun. Other people find the colors more relaxing and cause less strain on their eyes. However, it is important to note that the scientific benefits of this kind of mode are [still being researched](https://www.theguardian.com/technology/shortcuts/2019/dec/17/not-such-a-bright-idea-why-your-phones-night-mode-may-be-keeping-you-awake).
 
 It may be helpful for:
 
@@ -188,7 +188,7 @@ Assumes the latest version of each Operating System or browser.
 1. Go to **Accessibility**.
 1. Go to **Color Correction**.
 1. Set the **Use color correction** toggle to the **on** position.
-1. Select a color filter option from the list that appears. 
+1. Select a color filter option from the list that appears.
 
 ##### iOS
 
@@ -197,7 +197,7 @@ Assumes the latest version of each Operating System or browser.
 1. Go to **Display & Text Size**.
 1. Go to **Color Filters**.
 1. Set the **Color Filters** toggle to the **on** position.
-1. Select a color filter option from the list that appears. 
+1. Select a color filter option from the list that appears.
 
 ##### macOS
 
@@ -206,7 +206,7 @@ Assumes the latest version of each Operating System or browser.
 1. Go to **Display**.
 1. Go to the **Color Filters** tab.
 1. Check the **Enable Color Filters** checkbox.
-1. Select a color filter option from the select box. 
+1. Select a color filter option from the select box.
 
 ##### Windows
 
@@ -214,7 +214,7 @@ Assumes the latest version of each Operating System or browser.
 1. Go to **Ease of Access**.
 1. Go to **Color Filters**.
 1. Set the **Turn on color filters** toggle to the **on** position.
-1. Select a color filter option from the select box. 
+1. Select a color filter option from the select box.
 
 
 ## Increased Contrast Mode
@@ -318,10 +318,10 @@ You can use the [`inverted-colors` media feature](https://developer.mozilla.org/
 
 ``` css
 @media (inverted-colors: inverted) {
-  img,
-  video {
-    filter: invert(100%);
-  }
+	img,
+	video {
+		filter: invert(100%);
+	}
 }
 ```
 
@@ -447,15 +447,15 @@ You can use the [`prefers-reduced-motion` media feature](https://developer.mozil
 
 ``` css
 .my-animated-component {
-  animation-duration: 250ms;
-  animation-iteration-count: infinite;
-  animation-name: jump-and-bounce;
+	animation-duration: 250ms;
+	animation-iteration-count: infinite;
+	animation-name: jump-and-bounce;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .my-animated-component {
-    animation: none;
-  }
+	.my-animated-component {
+		animation: none;
+	}
 }
 ```
 
