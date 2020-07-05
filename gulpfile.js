@@ -10,16 +10,17 @@
 // Turn on/off build features
 var settings = {
 	clean: true,
-	scripts: true,
-	polyfills: true,
-	styles: true,
-	lint: true,
-	images: true,
+	favicons: true,
+	fonts: true,
 	icons: true,
-	svgs: true,
-	copy: true,
+	images: true,	lint: true,
+	misc: true,
+	polyfills: true,
 	reload: true,
-	styleguide: true
+	scripts: true,
+	styleguide: true,
+	styles: true,
+	svgs: true
 };
 
 
@@ -40,12 +41,20 @@ var paths = {
 		input: 'src/css/**/*.scss',
 		output: 'dist/css/'
 	},
+	favicons: {
+		input: ['src/apple-touch-icon.png', 'src/google-touch-icon.png', 'src/favicon.svg', 'src/safari-pinned-tab.svg', 'src/favicon.ico', 'src/manifest.json'],
+		output: 'dist/'
+	},
 	images: {
 		input: 'src/img/**/*.{jpg,jpeg,gif,webm,webp,png}',
 		output: 'dist/img/'
 	},
 	icons: {
 		input: 'src/img/icons/*.svg',
+		output: 'dist/'
+	},
+	misc: {
+		input: ['src/humans.txt', 'src/robots.txt'],
 		output: 'dist/'
 	},
 	svgs: {
@@ -117,6 +126,7 @@ var jsTasks = lazypipe()
 	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output);
 
+
 // Lint, minify, and concatenate scripts
 var buildScripts = function (done) {
 	// Make sure this feature is activated before running
@@ -152,6 +162,7 @@ var buildScripts = function (done) {
 	done();
 };
 
+
 // Lint scripts
 var lintScripts = function (done) {
 	// Make sure this feature is activated before running
@@ -164,6 +175,7 @@ var lintScripts = function (done) {
 	// Signal completion
 	done();
 };
+
 
 // Process, lint, and minify Sass files
 var buildStyles = function (done) {
@@ -193,6 +205,7 @@ var buildStyles = function (done) {
 	done();
 };
 
+
 // Lint styles
 var lintStyles = function (done) {
 	// Make sure this feature is activated before running
@@ -209,16 +222,42 @@ var lintStyles = function (done) {
 	done();
 };
 
-// Copy static assets
-var copyAssets = function (done) {
+
+// Copy fonts
+var copyFavicons = function (done) {
 	// Make sure this feature is activated before running
-	if (!settings.copy) return done();
+	if (!settings.favicons) return done();
+	src(paths.favicons.input)
+		.pipe(plumber())
+		.pipe(dest(paths.favicons.output));
+	// Signal completion
+	done();
+};
+
+
+// Copy fonts
+var copyFonts = function (done) {
+	// Make sure this feature is activated before running
+	if (!settings.fonts) return done();
 	src(paths.fonts.input)
 		.pipe(plumber())
 		.pipe(dest(paths.fonts.output));
 	// Signal completion
 	done();
 };
+
+
+// Copy fonts
+var copyMisc = function (done) {
+	// Make sure this feature is activated before running
+	if (!settings.misc) return done();
+	src(paths.misc.input)
+		.pipe(plumber())
+		.pipe(dest(paths.misc.output));
+	// Signal completion
+	done();
+};
+
 
 // Process images
 var processImages = function (done) {
@@ -230,6 +269,7 @@ var processImages = function (done) {
 	// Signal completion
 	done();
 };
+
 
 // Process icons
 var processIcons = function (done) {
@@ -243,6 +283,7 @@ var processIcons = function (done) {
 	done();
 };
 
+
 // Optimize SVG files
 var buildSVGs = function (done) {
 	// Make sure this feature is activated before running
@@ -255,6 +296,7 @@ var buildSVGs = function (done) {
 	// Signal completion
 	done();
 };
+
 
 // Build styleguide
 var buildStyleguide = function (done) {
@@ -272,6 +314,7 @@ var buildStyleguide = function (done) {
 	done();
 };
 
+
 // Watch for changes to the src directory
 var startServer = function (done) {
 	// Make sure this feature is activated before running
@@ -286,12 +329,14 @@ var startServer = function (done) {
 	done();
 };
 
+
 // Reload the browser when files change
 var reloadBrowser = function (done) {
 	if (!settings.reload) return done();
 	browserSync.reload();
 	done();
 };
+
 
 // Watch for changes
 var watchSource = function (done) {
@@ -306,7 +351,9 @@ var watchSource = function (done) {
 exports.default = series(
 	// cleanScss,
 	parallel(
-		copyAssets,
+		copyFavicons,
+		copyFonts,
+		copyMisc,
 		buildScripts,
 		lintScripts,
 		// lintStyles,
