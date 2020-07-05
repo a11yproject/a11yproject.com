@@ -40,11 +40,12 @@
 		"email": "hello@a11yproject.com"
 	},
 	"dependencies": {
+		"@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
 		"mappy-breakpoints": "^0.2.3",
 		"normalize.css": "^8.0.1"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^0.10.0",
+		"@11ty/eleventy": "^0.11.0",
 		"@11ty/eleventy-navigation": "^0.1.5",
 		"@11ty/eleventy-plugin-rss": "^1.0.7",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
