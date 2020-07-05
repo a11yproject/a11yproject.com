@@ -1,0 +1,18 @@
+.c-blm-banner {
+	background-color: #373a3c;
+	padding: 0.25rem;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+
+.c-blm-banner__link {
+	@include link-states($color-white);
+
+	font-family: $font-family-secondary;
+
+	// States
+	&:focus {
+		color: $color-black;
+	}
+}
