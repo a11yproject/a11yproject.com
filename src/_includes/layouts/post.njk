@@ -25,12 +25,12 @@ templateClass: template-post
 			{% endif %}
 			{% if date %}
 				<span class="c-post__metadata--published">
-					Published:&#8194;<time datetime="{{ page.date | htmlDateString }}">{{ page.date | htmlDateString }}</time><span class="u-hide-visually">.</span>
+					Published:&#8194;<time datetime="{{ page.date | htmlDateString }}">{{ page.date | dateReadable }}</time><span class="u-hide-visually">.</span>
 				</span>
 			{% endif %}
 			{% if last_updated %}
 				<span class="c-post__metadata--updated">
-					Updated:&#8194;<time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | htmlDateString }}</time><span class="u-hide-visually">.</span>
+					Updated:&#8194;<time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time><span class="u-hide-visually">.</span>
 				</span>
 			{% endif %}
 		</p>
