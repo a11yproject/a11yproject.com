@@ -81,11 +81,11 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
 
 ```html
 <form>
-	<label for="your-name">
-		Your Name:
-		<input type="text" id="your-name" name="your-name" placeholder="What's your name?">
-	</label>
-	<input type="submit" value="Submit Name">
+  <label for="your-name">
+    Your Name:
+    <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
+  </label>
+  <input type="submit" value="Submit Name">
 </form>
 ```
 

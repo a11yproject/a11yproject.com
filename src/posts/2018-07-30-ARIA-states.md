@@ -18,7 +18,7 @@ States are inserted into elements as follows: `<element aria-state="value"></ele
 
 ```html
 <span aria-busy="true">
-	This element is currently being updated.
+  This element is currently being updated.
 </span>
 ```
 

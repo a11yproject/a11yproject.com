@@ -36,10 +36,10 @@ ARIA works by supplementing, adding, removing, or overriding information the bro
 
 ``` html
 <button type="button">
-	<svg aria-hidden="true" focusable="false">
-		<!-- SVG code -->
-	</svg>
-	Save
+  <svg aria-hidden="true" focusable="false">
+    <!-- SVG code -->
+  </svg>
+  Save
 </button>
 ```
 

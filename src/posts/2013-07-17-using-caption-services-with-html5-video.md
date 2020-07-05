@@ -35,9 +35,9 @@ So how do we pull off putting captions into a video after the video has been pro
 ```html
 <video class="span12 readable" poster="your-video-poster.jpg" controls title="My Movie">
   <source src="your-video.m4v" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-	<source src="your-video.ogg" type='application/ogg' />
-	<source src="your-video.webm" type='video/webm' />
-	<track src="your-video-transcript.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
+  <source src="your-video.ogg" type='application/ogg' />
+  <source src="your-video.webm" type='video/webm' />
+  <track src="your-video-transcript.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
 </video>
 ```
 
@@ -77,16 +77,16 @@ TTML files look a bit more complex:
 
 ```xml
 <tt xmlns="http://www.w3.org/ns/ttml" xml:lang="en">
-	<body>
-		<div>
-			<p begin="00:00:9.00" end="00:00:11.00">
-				Alice: Curiouser and curiouser.
-			</p>
-			<p begin="00:00:17:00" end="00:00:18:00">
-				Rabbit: I told you she was the right Alice!
-			</p>
-		</div>
-	</body>
+  <body>
+    <div>
+      <p begin="00:00:9.00" end="00:00:11.00">
+        Alice: Curiouser and curiouser.
+      </p>
+      <p begin="00:00:17:00" end="00:00:18:00">
+        Rabbit: I told you she was the right Alice!
+      </p>
+    </div>
+  </body>
 </tt>
 ```
 

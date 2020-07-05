@@ -18,7 +18,7 @@ Properties are inserted into elements as follows: `<element aria-property="value
 
 ```html
 <button aria-haspopup="true">
-	Options.
+  Options.
 </button>
 ```
 

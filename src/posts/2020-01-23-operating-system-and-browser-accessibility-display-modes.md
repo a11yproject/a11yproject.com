@@ -88,15 +88,15 @@ You can use the [`prefers-color-scheme` media feature](https://developer.mozilla
 
 ``` css
 body {
-	background-color: #ffffff;
-	color: #000000;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
-	body {
-		background-color: #000000;
-		color: #ffffff;
-	}
+  body {
+    background-color: #000000;
+    color: #ffffff;
+  }
 }
 ```
 
@@ -318,10 +318,10 @@ You can use the [`inverted-colors` media feature](https://developer.mozilla.org/
 
 ``` css
 @media (inverted-colors: inverted) {
-	img,
-	video {
-		filter: invert(100%);
-	}
+  img,
+  video {
+    filter: invert(100%);
+  }
 }
 ```
 
@@ -447,15 +447,15 @@ You can use the [`prefers-reduced-motion` media feature](https://developer.mozil
 
 ``` css
 .my-animated-component {
-	animation-duration: 250ms;
-	animation-iteration-count: infinite;
-	animation-name: jump-and-bounce;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
+  animation-name: jump-and-bounce;
 }
 
 @media (prefers-reduced-motion: reduce) {
-	.my-animated-component {
-		animation: none;
-	}
+  .my-animated-component {
+    animation: none;
+  }
 }
 ```
 

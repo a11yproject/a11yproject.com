@@ -40,12 +40,12 @@ Think about restructuring your sentence to remove 'click here' or 'link' and the
 ```html
 <!-- bad -->
 <p>
-	To see our documentation <a href="/README.md">click here</a>.
+  To see our documentation <a href="/README.md">click here</a>.
 </p>
 
 <!-- better -->
 <p>
-	We have made our <a href="/README.md">documentation</a> available.
+  We have made our <a href="/README.md">documentation</a> available.
 </p>
 ```
 
@@ -54,12 +54,12 @@ Think about restructuring your sentence to remove 'click here' or 'link' and the
 ```html
 <!-- bad -->
 <p>
-	<a href="/full-article">Read more</a>.
+  <a href="/full-article">Read more</a>.
 </p>
 
 <!-- better -->
 <p>
-	<a href="/full-article">Read more - Accessible Landmarks</a>
+  <a href="/full-article">Read more - Accessible Landmarks</a>
 </p>
 ```
 
