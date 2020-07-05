@@ -1,0 +1,11 @@
+{
+  "name": "The A11Y Project",
+  "short_name": "A11Y",
+  "icons": [{
+    "src": "google-touch-icon.png",
+    "sizes": "512x512"
+  }],
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "browser"
+}
