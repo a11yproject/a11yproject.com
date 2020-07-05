@@ -11,5 +11,6 @@
 	"author": {
 		"name": "Dave Rupert",
 		"email": "hello@a11yproject.com"
-	}
+	},
+	"logo": "/google-touch-icon.png"
 }

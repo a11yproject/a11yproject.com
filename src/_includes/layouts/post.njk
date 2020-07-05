@@ -3,7 +3,7 @@ layout: layouts/base.njk
 templateClass: template-post
 ---
 
-<div class="l-post" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="l-post">
 	<header class="l-post__header">
 		<div class="l-post__category c-post__category">
 			<p>
@@ -13,30 +13,30 @@ templateClass: template-post
 			</p>
 		</div>
 
-		<h1 id="title" class="l-post__title c-post__title" itemprop="name headline">
+		<h1 id="title" class="l-post__title c-post__title">
 			{{ title | safe }}
 		</h1>
 
 		<p id="metadata" class="l-post__metadata c-post__metadata">
 			{% if author %}
 				<span class="c-post__metadata--author">
-					By:&#8194;<a class="c-post__metadata-link" href="/authors/#{{ author | slugify }}">{{ author }}</a><span class="u-hide-visually">.</span>
+					<span class="u-text-transform-uppercase">By:&#8194;</span><a class="c-post__metadata-link" href="/authors/#{{ author | slugify }}">{{ author }}</a><span class="u-hide-visually">.</span>
 				</span>
 			{% endif %}
 			{% if date %}
 				<span class="c-post__metadata--published">
-					Published:&#8194;<time datetime="{{ page.date | htmlDateString }}">{{ page.date | dateReadable }}</time><span class="u-hide-visually">.</span>
+					<span class="u-text-transform-uppercase">Published:&#8194;</span><time datetime="{{ page.date | htmlDateString }}">{{ page.date | dateReadable }}</time><span class="u-hide-visually">.</span>
 				</span>
 			{% endif %}
 			{% if last_updated %}
 				<span class="c-post__metadata--updated">
-					Updated:&#8194;<time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time><span class="u-hide-visually">.</span>
+					<span class="u-text-transform-uppercase">Updated:&#8194;</span><time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time><span class="u-hide-visually">.</span>
 				</span>
 			{% endif %}
 		</p>
 	</header>
 
-	<div data-content id="short-answer" class="l-post__body" itemprop="articleBody">
+	<div data-content id="short-answer" class="l-post__body">
 
 		{% include "nav/toc.njk" %}
 
@@ -56,3 +56,5 @@ templateClass: template-post
 	{% include "nav/recommended-reading.njk" %}
 
 </div>
+
+{% include "post-metadata.njk" %}

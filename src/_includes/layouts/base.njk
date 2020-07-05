@@ -15,7 +15,7 @@
 
 		{% include "nav/skipnav.njk" %}
 
-		{% include "blm-banner" %}
+		{% include "blm-banner.njk" %}
 
 		{% include "header.njk" %}
 
@@ -31,6 +31,7 @@
 
 		<script src="{{ '/' | url }}js/table-of-contents.js"></script>
 		<script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
+		<script type="text/javascript">document.querySelector('[data-copyright-year]').innerHTML = '2013-' + new Date().getFullYear();</script>
 
 	</body>
 </html>

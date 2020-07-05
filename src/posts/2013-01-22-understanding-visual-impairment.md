@@ -47,8 +47,8 @@ Disorders of the eye that lead to visual impairments can include:
 
 - [Retinal degeneration](http://ffb.ca/learn/eye-diseases/),
 - [Albinism](https://en.wikipedia.org/wiki/Albinism),
-- [cataracts](https://en.wikipedia.org/wiki/Cataract),
-- [glaucoma](https://en.wikipedia.org/wiki/Glaucoma),
+- [Cataracts](https://en.wikipedia.org/wiki/Cataract),
+- [Glaucoma](https://en.wikipedia.org/wiki/Glaucoma),
 - Muscular problems,
 - [Corneal disorders](https://www.nei.nih.gov/health/cornealdisease/),
 - [Diabetic retinopathy](https://en.wikipedia.org/wiki/Diabetic_retinopathy),

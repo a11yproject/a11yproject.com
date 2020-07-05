@@ -1,6 +1,8 @@
 .c-blm-banner {
-	background-color: #373a3c;
-	padding: 0.25rem;
+	background-color: #211009;
+	color: $color-sand;
+	font-family: $font-family-secondary;
+	padding: 0.25rem map-get($global-bleed, small);
 	font-size: 0.9rem;
 	text-align: center;
 }
@@ -9,7 +11,7 @@
 .c-blm-banner__link {
 	@include link-states($color-white);
 
-	font-family: $font-family-secondary;
+	color: $color-white;
 
 	// States
 	&:focus {

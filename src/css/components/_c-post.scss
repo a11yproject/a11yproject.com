@@ -125,7 +125,6 @@ $_c-post-vertical-spacing: 4ex;
 	font-size: 0.8rem;
 	list-style-type: none;
 	padding: 0.75rem map-get($global-post-content-inset, small);
-	text-transform: uppercase;
 
 	// Breakpoints
 	@include mappy-bp(palm-medium) {
@@ -188,25 +187,23 @@ $_c-post-vertical-spacing: 4ex;
 	// Supports
 	@supports #{$supports-flex} {
 		flex-grow: 1;
+
+		// Breakpokints
+		@include mappy-bp(lap-small) {
+			margin-left: 0.5rem;
+		}
 	}
 }
 
 
 .c-post__metadata-link {
-	color: $color-black;
-	text-underline-offset: 0.2em;
+	@include link-states($color-black);
 
-	// States
-	&:hover,
-	&:focus {
-		text-decoration: none;
-	}
+	text-underline-offset: 0.2em;
 }
 
 
 .c-post__list-item {
-	text-transform: uppercase;
-
 	// Supports
 	@supports #{$supports-flex} {
 		flex-grow: 1;

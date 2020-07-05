@@ -79,14 +79,6 @@
 			max-width: calc(#{$global-type-measure} * 1.5);
 		}
 
-		// Supports
-		@supports #{$supports-grid} {
-			// Breakpoints
-			@include mappy-bp(lap-medium) {
-				width: 60vw;
-			}
-		}
-
 		code {
  			line-height: $line-height-double;
 		}

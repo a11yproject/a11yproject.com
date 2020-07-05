@@ -52,8 +52,17 @@ $_checklist-padding: 1.5rem;
 
 	// States
 	&:focus {
-		box-shadow: 0 0 0 $border-thin $color-blue-shade;
+		background-color: $color-blue-shade;
+		color: $color-white;
 		outline: $border-thin solid transparent;
+
+		.c-checklist__icon {
+			fill: $color-white;
+		}
+
+		code {
+			color: $color-blue-shade;
+		}
 	}
 
 	// Supports
