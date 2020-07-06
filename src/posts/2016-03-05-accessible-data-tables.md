@@ -57,6 +57,9 @@ Table captions are added right after the opening `<table>` tag with `<caption>Yo
 
 The screen reader will then say “Table with 3 rows and 4 columns, Monthly Budget” or something to that effect. Without this, the screen reader will just start reading off the values inside the table, which is going to be frustrating and not super useful. Imagine reading an entire table cell by cell and then piecing together what the table is trying to tell you.
 
+<p class="u-hide-visually">
+	<a href="#row-and-column-headings">Skip CodePen embed.</a>
+</p>
 <iframe height="300" style="width: 100%;" scrolling="no" title="Accessible Data Tables - CodePen" src="https://codepen.io/franklynroth/embed/zqOKvY?height=300&theme-id=25574&default-tab=html,result&editable=true" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/franklynroth/pen/zqOKvY'>Accessible Data Tables</a> by Franklyn
   (<a href='https://codepen.io/franklynroth'>@franklynroth</a>) on <a href='https://codepen.io'>CodePen</a>.

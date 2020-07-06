@@ -33,7 +33,7 @@ tags:
 
 If you're unfamiliar with the term "[numeronym](https://en.wikipedia.org/wiki/Numeronym)", you may not have realized that a11y isn't just a hash tag, nor is it a hip way to spell <em>ally</em>. Rather a11y is a shorthand for <em>accessibility</em>.
 
-You may have seen "a11y" used as a [hash tag on Twitter](https://twitter.com/search?q=%23a11y), or used in a comment, article, used in a comment thread, or written in an article. Since you're reading this right now, you've likely seen it in the name of a certain website about accessibility. Ahem... 
+You may have seen "a11y" used as a [hash tag on Twitter](https://twitter.com/search?q=%23a11y), or used in a comment, article, used in a comment thread, or written in an article. Since you're reading this right now, you've likely seen it in the name of a certain website about accessibility. Ahem...
 
 
 ## How numeronyms work
@@ -44,7 +44,10 @@ For instance, "9-1-1" is synonymous with "help", "24/7" means "24 hours a day, 7
 
 As illustrated by the previous numeronyms, sometimes they're used to replace entire words with numbers, or they use a combination of letters and numbers to combine words. In the case of a11y, [Adrian Roselli](https://twitter.com/aardrian) explains:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tip: “a11y” is a numeronym for accessibility. Keep first &amp; last letter, between them put the count of letters removed — in this case eleven.</p>&mdash; aardrian (@aardrian) <a href="https://twitter.com/aardrian/status/801084161368920064?ref_src=twsrc%5Etfw">November 22, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<p class="u-hide-visually">
+	<a href="#other-numeronyms">Skip embedded Tweet.</a>
+</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Tip: “a11y” is a numeronym for accessibility. Keep first &amp; last letter, between them put the count of letters removed — in this case eleven.</p>&mdash; aardrian (@aardrian) <a href="https://twitter.com/aardrian/status/801084161368920064?ref_src=twsrc%5Etfw">November 22, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ### Other numeronyms
