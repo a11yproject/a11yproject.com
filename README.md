@@ -2,18 +2,14 @@
 
 # The A11Y Project
 
-The Accessibility [(A11Y)](https://a11yproject.com/posts/a11y-and-other-numeronyms/) Project is an Open-source, community-driven effort to make digital accessibility easier. We do this by leveraging a worldwide community of developer knowledge.
-
-The A11Y Project is guided by three principles:
-
-1. **Digestible.** Articles on accessibility tend to be in-depth, sometimes to their detriment. We prefer to feature short, digestible pieces of content.
-1. **Up-to-date.** We strive to keep information current with the latest standards and the realities of real-world technology support.
-1. **Forgiving.** People make mistakes and digital accessibility can be difficult, so we seek to be encouraging.
+The Accessibility [(A11Y)](https://a11yproject.com/posts/a11y-and-other-numeronyms/) Project is an Open-source, community-driven effort to make digital accessibility easier. 
 
 
 ## Contributing
 
 You can learn about helping this project by reading our [Contributor documentation](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md) and [Content Style Guide](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md). Please familiarize yourself with them before submitting content.
+
+This README is focused on the technical side of the project. If you are interested in contributing information like Posts or Resources, please refer to our FOO.
 
 
 ## Development
@@ -42,7 +38,7 @@ You'll need access to the following programs and technology in order to get the 
 
 Once you have met [the prerequisites](#requirements), follow these steps to install the website on your computer:
 
-1. Clone this repository by entering this command into your command line application: `https://github.com/a11yproject/a11yproject.com.git`. It will create a version controlled copy of the website in the directory you entered the command in.
+1. Clone this repository by entering this command into your command line application: ` git clone https://github.com/a11yproject/a11yproject.com.git`. It will create a version controlled copy of the website in the directory you entered the command in.
 1. Navigate into the project's [root directory](https://en.m.wikipedia.org/wiki/Root_directory) by typing `cd a11yproject.com` in your command line application.
 1. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
@@ -50,18 +46,20 @@ Once you have met [the prerequisites](#requirements), follow these steps to inst
 
 After cloning and installing project Node.js modules, type `npm run a11yproject` into your command line application. This will tell Node.js to compile the project and turn it into a website.
 
-Your command line application will then display some information about Jekyll, including a line that starts with `Local:`. You can copy the URL it points to (it should read something like `http://localhost:3000`) and paste it into a browser tab. This will load a local copy of the website that you can interact with to preview your changes.
+Your command line application will then display some information about Jekyll, including a line that starts with `Local:`. You can copy the URL it points to (it should read something like [`http://localhost:3000`](http://localhost:3000)) and paste it into a browser tab. This will load a local copy of the website that you can interact with to preview your changes.
 
 You can also use the `External` URL to preview the local copy on another device connected to the same network, which helps you check to see how the site looks and functions on things like smartphones. This is done via [Browsersync](https://www.browsersync.io/).
 
+### Updating the website
+
 Saving project files will make Node.js regenerate the website to reflect the changes you made. Your command line application will display some new messaging to reflect this, including any errors you might accidentally make. Don't worry! Since the site uses version control, you're not in danger of seriously breaking anything. If you fix the error, Node.js should continue to run.
+
+Make sure you edit the files in the `src/` subdirectory. Any edits made in the `dist` subdirectory will be overwritten by the next change to any file in `src/` and all your hard work will be lost!
+
+### Quitting
 
 You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd>C</kbd> keys at the same time in your command line application, or by closing the command line application window or tab.
 
-### Troubleshooting
+## Troubleshooting
 
-If you are experiencing issues that prevent you from compiling the website, try running this command: `rm -rf node_modules/ && npm install`. This will tell your command line application to delete your Node.js modules and reinstall a fresh copy. Be sure to type the `rm` command exactly as described, as it is a command that instantly and permanently deletes what you instruct it to.
-
-Removing Node.js modules can sometimes be helpful when you want to force the entire site to be regenerated from a "cold start".
-
-Other issues about installing and running the website can be addressed in the site's [Issue Tracker](https://github.com/a11yproject/a11yproject.com/issues).
+Please refer to our [Troubleshooting documentation]() for help with issues running the site.
