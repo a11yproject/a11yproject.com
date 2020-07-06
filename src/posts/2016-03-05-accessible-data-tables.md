@@ -15,7 +15,7 @@ tags:
 The semantic purpose of a data table is to present tabular data. Sighted users can quickly scan the table but a screen reader goes through line by line. Proper markup must be added to help the screen reader make the correct associations that a sighted user would.
 
 
-## Example of an accessible data table.
+## Example of an accessible data table
 
 ```html
 <table>

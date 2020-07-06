@@ -116,8 +116,8 @@
 		},
 		{
 			"title": "For images containing text, make sure the alt description includes the image's text.",
-			"wcag": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
-			"url": "1.1.1 Non-text Content",
+			"wcag": "1.1.1 Non-text Content",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
 			"description": "For example, the FedEx logo should have an alt value of “FedEx.”"
 		}
 	],

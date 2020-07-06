@@ -28,6 +28,8 @@
 
 		@include mappy-bp(lap-small) {
 			@include post-content-inset("large");
+
+			max-width: $global-type-measure / 2;
 		}
 
 		@include mappy-bp(lap-medium) {

@@ -110,22 +110,11 @@
 }
 
 
-.c-homepage-card__spotlight-link {
-	// States
-	&:focus {
-		outline: $border-thinner solid transparent;
-
-		.c-homepage-card__spotlight-photo {
-			transform: scale(1.05);
-		}
-	}
-}
-
-
 .c-homepage-card__spotlight-photo {
 	$_photo-size: 12rem;
 
 	border-radius: $_photo-size;
+	cursor: pointer;
 	display: inline-block;
 	width: $_photo-size;
 }

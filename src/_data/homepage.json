@@ -1,0 +1,31 @@
+{
+	"featuredResources": [
+		{
+			"title": "Accessibility for Everyone",
+			"author": "Laura Kalbag",
+			"description": "Laura gives an excellent primer on why accessibility matters, provides context for laws and guidelines, and gives insight on how to integrate accessible design into your process.",
+			"image": "accessibility-for-everyone.jpg",
+			"alt": "Two stacked copies of the book, Accessibility for Everyone.",
+			"cta": "Order audiobook, paperback, or eBook",
+			"url": "https://abookapart.com/products/accessibility-for-everyone"
+		},
+		{
+			"title": "Inclusive UX: Designing Websites ",
+			"author": "Reginé Gilbert",
+			"description": "UX designer and accessibility expert Reginé Gilbert walks you through the key principles you need to be aware of as you design for a universal audience.",
+			"image": "inclusive-ux-designing-websites.jpg",
+			"alt": "A video still of Reginé Gilbert smiling at the camera.",
+			"cta": "Watch on Skillshare",
+			"url": "https://www.skillshare.com/classes/Inclusive-UX-Designing-Websites-for-Everyone/297973484"
+		}
+	],
+	"spotlight": [
+		{
+			"name": "Amy Carney",
+			"role": "Web Developer",
+			"description": "Amy Carney is a web ‘devsigner’ and certified accessibility specialist. She founded <a href='https://twitter.com/search?q=%23100DaysofA11y'>#100DaysofA11y</a>, a project dedicated to focused exercises around accessibility.",
+			"image": "amy-carney.jpg",
+			"cta": "Meet Amy"
+		}
+	]
+}

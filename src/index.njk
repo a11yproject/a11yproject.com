@@ -33,47 +33,13 @@ tags:
 	</h2>
 
 	<div class="c-homepage-feature c-homepage-feature--50-50">
-		<div class="c-homepage-card">
-			<div class="c-homepage-card__image-link" onclick="location.href='https://abookapart.com/products/accessibility-for-everyone'">
-				<img
-					class="c-homepage-card__image"
-					alt="Two stacked copies of the book, Accessibility for Everyone."
-					src="img/home/accessibility-for-everyone.jpg" />
-			</div>
-			<p class="c-homepage-card__author">
-				Laura Kalbag
-			</p>
-			<h3 class="c-homepage-card__title" onclick="location.href='https://abookapart.com/products/accessibility-for-everyone'">
-				Accessibility for Everyone
-			</h3>
-			<p class="c-homepage-card__description">
-				Laura gives an excellent primer on why accessibility matters, provides context for laws and guidelines, and gives insight on how to integrate accessible design into your process.
-			</p>
-			<p>
-				<a class="c-homepage-card__cta" href="https://abookapart.com/products/accessibility-for-everyone">Order audiobook, paperback, or eBook</a>
-			</p>
-		</div>
 
-		<div class="c-homepage-card">
-			<div class="c-homepage-card__image-link" onclick="location.href='https://www.skillshare.com/classes/Inclusive-UX-Designing-Websites-for-Everyone/297973484'">
-				<img
-					class="c-homepage-card__image"
-					alt="A video still of Reginé Gilbert smiling at the camera."
-					src="img/home/inclusive-ux-designing-websites.jpg" />
-			</div>
-			<p class="c-homepage-card__author">
-				Reginé Gilbert
-			</p>
-			<h3 class="c-homepage-card__title" onclick="location.href='https://www.skillshare.com/classes/Inclusive-UX-Designing-Websites-for-Everyone/297973484'">
-				Inclusive UX: Designing Websites
-			</h3>
-			<p class="c-homepage-card__description">
-				UX designer and accessibility expert Reginé Gilbert walks you through the key principles you need to be aware of as you design for a universal audience.
-			</p>
-			<p>
-				<a class="c-homepage-card__cta" href="https://www.skillshare.com/classes/Inclusive-UX-Designing-Websites-for-Everyone/297973484">Watch on Skillshare</a>
-			</p>
-		</div>
+		{% set featuredResource = homepage.featuredResources[0] %}
+		{% include "homepage/featured-resource.njk" %}
+
+		{% set featuredResource = homepage.featuredResources[1] %}
+		{% include "homepage/featured-resource.njk" %}
+
 	</div>
 
 	<div class="c-homepage-feature c-homepage-feature--50-50">
@@ -95,33 +61,10 @@ tags:
 	</div>
 
 	<div class="c-homepage-feature c-homepage-feature--50-50">
-		<div class="c-homepage-card c-homepage-card--spotlight">
-			<a class="c-homepage-card__spotlight-link" href="">
-				<img
-					class="c-homepage-card__spotlight-photo"
-					alt="Photo of Amy Carney."
-					src="img/spotlight/amy-carney.jpg" />
-			</a>
-			<div class="c-homepage-card__spotlight__info">
-				<p class="c-homepage-card__spotlight-name">
-					Amy Carney
-				</p>
-				<p class="c-homepage-card__spotlight-role">
-					Web Developer
-				</p>
-			</div>
-		</div>
-		<div class="c-homepage-card">
-			<h2 class="c-heading-larger" id="meet-the-community">
-				Meet the community
-			</h2>
-			<p class="c-homepage-card__description">
-				Amy Carney is a web ‘devsigner’ and certified accessibility specialist. She founded <a class="c-homepage-card__link" href="https://twitter.com/search?q=%23100DaysofA11y">#100DaysofA11y</a>, a project dedicated to focused exercises around accessibility.
-			</p>
-			<p>
-				<a class="c-homepage-card__cta" href="/spotlight/amy-carney">Meet Amy</a>
-			</p>
-		</div>
+
+		{% set spotlight = homepage.spotlight[0] %}
+		{% include "homepage/spotlight.njk" %}
+
 	</div>
 
 	<div class="c-homepage-feature c-homepage-feature--60-40">
@@ -138,7 +81,7 @@ tags:
 		</div>
 		<div class="c-homepage-card">
 			{# {% set postlist = collections.posts | head(-1) %} #}
-			<h2 class="c-heading-larger" id="explore-resources">
+			<h2 class="c-heading-larger" id="recent-posts">
 				Recent posts
 			</h2>
 			<ul class="c-linkroll">
