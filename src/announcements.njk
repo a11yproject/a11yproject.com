@@ -20,6 +20,12 @@ templateClass: template-generic
 		{{ subtitle }}
 	</p>
 
+	<h2 id="changelog" class="c-heading-large u-spacing-top-longest">
+		News
+	</h2>
+	<p class="c-preface">
+		Detailed information about project news and updates.
+	</p>
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "announcements" ] %}
 		{% for post in taglist | reverse %}

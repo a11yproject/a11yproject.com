@@ -547,12 +547,6 @@
 			"url": "https://atom.io/packages/accessible-snippets"
 		},
 		{
-			"title": "Atom: accessibility-snippets",
-			"description": "Snippets that include all WAI-ARIA attributes and descriptions, for ease of use in building more accessible web content.",
-			"additional": "silviasusai",
-			"url": "https://atom.io/packages/accessible-snippets"
-		},
-		{
 			"title": "Bootstrap accessibility plugin",
 			"description": "Bootstrap Accessibility Plugin is an extension for the Bootstrap 3 web development framework that makes many of the components of this library accessible for keyboard and screen reader users.",
 			"additional": "PayPal",

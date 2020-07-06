@@ -41,6 +41,7 @@ templateClass: template-post
 		{% include "nav/toc.njk" %}
 
 		<div class="l-post__content c-content c-content--post">
+
 			{{ content | safe }}
 
 			{% if updated_by %}

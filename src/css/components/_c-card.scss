@@ -115,6 +115,11 @@ $_card-outline: $border-thinner solid;
 	color: $color-gray-shade;
 	font-size: 0.8rem;
 	max-width: $global-type-measure;
+
+	// Contexts
+	.c-card--highlight & {
+		color: $color-black;
+	}
 }
 
 
