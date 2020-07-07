@@ -11,8 +11,8 @@
 		border-#{$border-direction}-color: $color-yellow;
 	}
 
-	.c-linkroll__entry--myths &,
-	.c-linkroll__entry--announcements & {
+	.c-linkroll__entry--myth &,
+	.c-linkroll__entry--announcement & {
 		border-#{$border-direction}-color: $color-pink;
 	}
 
@@ -38,15 +38,6 @@
 	@include preserve-list-semantics();
 
 	margin-top: 1.25rem;
-
-	// Contexts
-	.l-recommended-reading & {
-		margin-left: 0;
-
-		&::before {
-			display: none;
-		}
-	}
 }
 
 
@@ -88,7 +79,7 @@
 			background-color: $color-yellow;
 		}
 
-		.c-linkroll__entry--myths &,
+		.c-linkroll__entry--myth &,
 		.c-linkroll__entry--announcements & {
 			background-color: $color-pink;
 		}
@@ -144,7 +135,7 @@
 		color: $color-yellow;
 	}
 
-	.c-linkroll__entry--myths &,
+	.c-linkroll__entry--myth &,
 	.c-linkroll__entry--announcements & {
 		color: $color-pink;
 	}

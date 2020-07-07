@@ -34,8 +34,8 @@ var paths = {
 		output: 'dist/js/'
 	},
 	fonts: {
-		input: 'src/static/fonts/**/*',
-		output: 'dist/static/fonts/'
+		input: 'src/fonts/**/*',
+		output: 'dist/fonts/'
 	},
 	styles: {
 		input: 'src/css/**/*.scss',
