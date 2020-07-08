@@ -9,6 +9,12 @@
 	],
 	"maintainer": [
 		{
+			"name": "Carie Fisher",
+			"website": "https://cariefisher.com/",
+			"photo": "https://avatars0.githubusercontent.com/u/15240149?s=460&u=f8078aeda9efd04ca638b635b509632dc913295a&v=4",
+			"biography": "Carie Fisher is an author, speaker, and developer who is passionate about the intersection of front-end code and UX, digital accessibility, and promoting diversity in the tech world."
+		},
+		{
 			"name": "Dennis Gaebel",
 			"website": "https://droidpinkman.io/",
 			"photo": "https://avatars1.githubusercontent.com/u/13485205?s=460&u=cfc094f4fde922425deb20a214ad0880058004f9&v=4",
@@ -57,12 +63,6 @@
 			"website": "https://alexroseb.com/",
 			"photo": "https://pbs.twimg.com/profile_images/975451645462106112/_h6vsUym_400x400.jpg",
 			"biography": "Research Assistant for ESD and Classics at UMass Amherst. Creator of Pop-Up Astronomy."
-		},
-		{
-			"name": "Carie Fisher",
-			"website": "https://cariefisher.com/",
-			"photo": "https://avatars0.githubusercontent.com/u/15240149?s=460&u=f8078aeda9efd04ca638b635b509632dc913295a&v=4",
-			"biography": "Carie Fisher is an author, speaker, and developer who is passionate about the intersection of front-end code and UX, digital accessibility, and promoting diversity in the tech world."
 		},
 		{
 			"name": "Emily Lane",
