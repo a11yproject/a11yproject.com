@@ -20,8 +20,7 @@
 	}
 
 	.template-post & {
-		// margin-left: map-get($global-post-content-inset, medium);
-		padding-left: 0.75rem;
+		margin: 0.65rem 0 0 map-get($global-bleed, small);
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
