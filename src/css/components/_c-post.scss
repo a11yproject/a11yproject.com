@@ -91,15 +91,17 @@ $_c-post-vertical-spacing: 4ex;
 .c-post__title {
 	font-size: 2rem;
 	line-height: $line-height-tight;
-	margin: 0.75rem 0 2rem map-get($global-post-content-inset, small);
+	margin: 0.75rem map-get($global-post-content-inset, small) 2rem map-get($global-post-content-inset, small);
 	padding-right: 1rem;
 
 	// Breakpoints
 	@include mappy-bp(palm-medium) {
+		margin-right: map-get($global-post-content-inset, small);
 		margin-left: map-get($global-post-content-inset, medium);
 	}
 
 	@include mappy-bp(lap-small) {
+
 		font-size: 3rem;
 		max-width: $global-type-measure;
 	}
