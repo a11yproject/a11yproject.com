@@ -137,7 +137,6 @@
 	"layout/l-main",
 	"layout/l-post",
 	"layout/l-primary-nav",
-	"layout/l-recommended-reading",
 	"layout/l-sponsors",
 	"layout/l-toc";
 
@@ -196,9 +195,9 @@
 	"components/c-post",
 	"components/c-preface",
 	"components/c-primary-nav",
+	"components/c-recommended-reading",
 	"components/c-skipnav",
 	"components/c-sponsors",
-	"components/c-toc",
 	"components/c-wcag-explanation",
 
 	"components/content/spacing",
@@ -218,8 +217,8 @@
 //
 // Styleguide Vendor
 @import
-	"vendor/prism-a11y-dark",
-	"vendor/vendor-toc";
+	"vendor/v-prism-a11y-dark",
+	"vendor/v-toc";
 
 
 // Media

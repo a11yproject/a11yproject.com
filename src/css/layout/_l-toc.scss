@@ -3,4 +3,40 @@
 	@supports #{$supports-grid} {
 		grid-area: toc;
 	}
+
+	// Contexts
+	.template-home & {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-top: 1.25rem;
+		}
+	}
+
+	.template-generic & {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-top: 5.25rem;
+		}
+	}
+
+	.template-post & {
+		// margin-left: map-get($global-post-content-inset, medium);
+		padding-left: 0.75rem;
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			@include post-content-inset("medium");
+			margin-bottom: 2rem;
+		}
+
+		@include mappy-bp(lap-small) {
+			@include post-content-inset("large");
+
+			max-width: $global-type-measure / 2;
+		}
+
+		@include mappy-bp(lap-medium) {
+			margin: 0.65rem 0 0 map-get($global-bleed, small);
+		}
+	}
 }

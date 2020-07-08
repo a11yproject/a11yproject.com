@@ -1,0 +1,192 @@
+// tableOfContents.js
+// http://github.com/cferdinandi/table-of-contents
+.v-toc {
+	// States
+	&[open] {
+		.v-toc__icon {
+			transform: rotate(90deg);
+		}
+	}
+
+	&:focus {
+		.v-toc__title {
+			padding-left: 1rem;
+		}
+	}
+
+	// Vendor
+	// [1] Removes default browser `details` element arrow
+	& > summary {
+		list-style: none; // [1]
+	}
+
+	& > summary::-webkit-details-marker {
+		display: none; // [1]
+	}
+}
+
+.v-toc__summary {
+	cursor: pointer;
+	font-family: $font-family-secondary;
+	letter-spacing: $font-tracking-slight;
+	text-transform: uppercase;
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	// States
+	&:focus {
+		outline: $border-thicker solid transparent;
+
+		.v-toc__title {
+			text-decoration: none;
+		}
+	}
+
+	// Contexts
+	.template-post &,
+	.template-resources & {
+		color: $color-green;
+	}
+
+	.template-checklist &,
+	.template-about &,
+	.template-team &,
+	.template-authors,
+	.template-spotlight & {
+		color: $color-blue-shade;
+	}
+
+	.template-posts &,
+	.template-contribute &,
+	.template-generic & {
+		color: $color-blue;
+	}
+}
+
+.v-toc__icon {
+	height: 1rem;
+	width: 1rem;
+
+	// Contexts
+	.template-post &,
+	.template-resources & {
+		fill: $color-green;
+	}
+
+	.template-checklist &,
+	.template-about &,
+	.template-team &,
+	.template-authors,
+	.template-spotlight & {
+		fill: $color-blue-shade;
+	}
+
+	.template-posts &,
+	.template-contribute &,
+	.template-generic & {
+		fill: $color-blue;
+	}
+}
+
+
+.v-toc__title {
+	display: block;
+	margin-left: 0.5rem;
+	text-decoration: underline;
+
+	// States
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+.v-toc_nav {
+	padding-top: 1rem;
+	padding-left: 1.55rem;
+
+	// Text-level formatting
+	h2 {
+		@include hide("visually");
+	}
+
+	ol {
+		@include preserve-list-semantics();
+
+		padding-top: none;
+		list-style-type: none;
+
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			columns: 2;
+
+			// Contexts
+			.template-generic &,
+			.template-post &,
+			.template-spotlight &,
+			.template-team & {
+				columns: 1;
+			}
+		}
+
+		@include mappy-bp(palm-large) {
+			columns: 3;
+		}
+
+		@include mappy-bp(lap-small) {
+			columns: 1;
+		}
+
+		ol {
+			padding-left: 1rem;
+		}
+	}
+
+	li {
+		font-family: $font-family-secondary;
+		letter-spacing: $font-tracking-slight;
+		line-height: $line-height-tighter;
+		margin-bottom: 1.25rem; // EXCEPTION: Applying a bottom margin instead of top to ensure columns line up properly.
+		margin-right: 1rem;
+		text-transform: uppercase;
+
+		code {
+			text-transform: none;
+		}
+
+		// Removing content
+		svg,
+		.direct-link {
+			display: none;
+		}
+
+		li {
+			letter-spacing: 0;
+			text-transform: none;
+
+			&:first-of-type {
+				margin-top: 1rem;
+			}
+
+			&:last-of-type {
+				margin-bottom: map-get($global-bleed, small);
+			}
+
+			// Contexts
+			.template-posts &,
+			.template-resources & {
+				display: none;
+			}
+		}
+	}
+
+	a {
+		color: $color-black;
+		text-decoration: none;
+	}
+}
