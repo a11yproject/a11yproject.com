@@ -1,5 +1,3 @@
-[![The A11Y Project logo. An abstract human silhouette with outstretched arms centered in a dark blue circle.](http://a11yproject.com/img/README-logo.svg)](http://a11yproject.com)
-
 # The A11Y Project
 
 The Accessibility [(A11Y)](https://a11yproject.com/posts/a11y-and-other-numeronyms/) Project is an Open-source, community-driven effort to make digital accessibility easier. 
