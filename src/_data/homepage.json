@@ -6,17 +6,15 @@
 			"description": "Laura gives an excellent primer on why accessibility matters, provides context for laws and guidelines, and gives insight on how to integrate accessible design into your process.",
 			"image": "accessibility-for-everyone.jpg",
 			"alt": "Two stacked copies of the book, Accessibility for Everyone.",
-			"cta": "Order audiobook, paperback, or eBook",
-			"url": "https://abookapart.com/products/accessibility-for-everyone"
+			"cta": "Learn more about Accessibility for Everyone"
 		},
 		{
-			"title": "Inclusive UX: Designing Websites ",
+			"title": "Inclusive UX: Designing Websites",
 			"author": "Reginé Gilbert",
 			"description": "UX designer and accessibility expert Reginé Gilbert walks you through the key principles you need to be aware of as you design for a universal audience.",
 			"image": "inclusive-ux-designing-websites.jpg",
 			"alt": "A video still of Reginé Gilbert smiling at the camera.",
-			"cta": "Watch on Skillshare",
-			"url": "https://www.skillshare.com/classes/Inclusive-UX-Designing-Websites-for-Everyone/297973484"
+			"cta": "Learn more about this Skillshare course"
 		}
 	],
 	"spotlight": [

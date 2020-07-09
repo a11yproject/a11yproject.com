@@ -1,8 +1,13 @@
 ---
-layout: post
+layout: layouts/featured
 title: Amy Carney
-description: Amy Carney is a web ‘devsigner’ and certified accessibility specialist. She founded \#100DaysofA11y, a project dedicated to focused exercises around accessibility.
+image: /spotlight/amy-carney.jpg
 category: Spotlight
+further_reading:
+  - title: 100 Days of A11y
+    url: https://100daysofa11y.com/
+  - title: Carney Develop It
+    url: https://carneydevelopit.wordpress.com/
 eleventyNavigation:
   key: Amy Carney
   parent: Spotlight
@@ -10,7 +15,7 @@ tags:
   - spotlight
 ---
 
-Hi, I’m [Amy Carney](), the web designer for the [Alaska State Libraries, Archives, & Museums](https://lam.alaska.gov/home). 👋
+Hi, I’m [Amy Carney](https://carneydevelopit.wordpress.com/), the web designer for the [Alaska State Libraries, Archives, & Museums](https://lam.alaska.gov/home). 👋
 
 Five days a week, I create our online and print presence, so that Alaskans can discover, explore, and use our services and collections. While spending time learning the general aspects of my job (design and development), I’ve honed in on  skills like graphic design, user experience, programming, and accessibility. Web accessibility, being my most recent endeavor, has been the most satisfying skill set I’ve acquired. It’s given me hope that we’re reaching out to more Alaskans, and setting an example for other Alaska state government agencies,
 
@@ -23,8 +28,3 @@ During my journey, I made cheat sheets, taught workshops, and chatted more with 
 If you’re interested in learning web accessibility, just do it. It’s easy. It’s hard. It’s frustrating, and yet so rewarding!
 
 [Find accessibility champions](https://github.com/joe-watkins/top-people-to-follow-in-web-accessibility). Ask people with disabilities about the frustrations they’ve encountered on the web, and what assistive tech or strategies they use. Get familiar with [WCAG 2.1](https://www.w3.org/TR/WCAG21/). Deepen your HTML knowledge. And, most importantly, get started today. Small steps forward pave the way to a better, more accessible web.
-
-More about Amy:
-
-- https://100daysofa11y.com/
-- https://carneydevelopit.wordpress.com/

@@ -2,9 +2,15 @@
 	"spotlight": [
 		{
 			"name": "Amy Carney",
-			"website": "https://100daysofa11y.com/",
+			"website": "/spotlight/amy-carney",
 			"photo": "/img/spotlight/amy-carney.jpg",
 			"biography": "Hi! My name is Amy and my craft is web design. The bulk of my background lies in psychology and libraries. I care about how people think, how they interact with others and technology, and how information is accessed by everyone."
+		},
+		{
+			"name": "Want to nominate someone?",
+			"website": " mailto:a@b.com?subject=Spotlight%20Nomination",
+			"photo": "/img/logos/maintainer.png",
+			"biography": "Know of someone doing amazing accessibility work? Tell us about them!"
 		}
 	]
 }

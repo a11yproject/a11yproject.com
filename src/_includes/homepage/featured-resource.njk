@@ -1,21 +1,21 @@
 <div class="c-homepage-card">
-	<div class="c-homepage-card__image-link" onclick="location.href='{{ featuredResource.url }}'">
+	<div class="c-homepage-card__image-link" onclick="location.href='/resources/{{ featuredResource.title | slugify }}'">
 		<img
 			class="c-homepage-card__image"
 			alt="{{ featuredResource.alt }}"
-			src="img/home/{{ featuredResource.image }}" />
+			src="img/resources/{{ featuredResource.image }}" />
 	</div>
 	<p class="c-homepage-card__author">
 		{{ featuredResource.author }}
 	</p>
-	<h3 class="c-homepage-card__title" onclick="location.href='{{ featuredResource.url }}'">
+	<h3 class="c-homepage-card__title" onclick="location.href='/resources/{{ featuredResource.title | slugify }}'">
 		{{ featuredResource.title }}
 	</h3>
 	<p class="c-homepage-card__description">
 		{{ featuredResource.description }}
 	</p>
 	<p>
-		<a class="c-homepage-card__cta" href="{{ featuredResource.url }}">
+		<a class="c-homepage-card__cta" href="/resources/{{ featuredResource.title | slugify }}">
 			{{ featuredResource.cta }}
 		</a>
 	</p>

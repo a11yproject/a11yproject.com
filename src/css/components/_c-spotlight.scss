@@ -1,0 +1,28 @@
+$_hero-photo-size: 14rem;
+
+.c-spotlight__hero {
+	background-size: cover;
+	border-radius: $_hero-photo-size;
+	height: $_hero-photo-size;
+	width: $_hero-photo-size;
+
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-left: auto;
+			margin-right: 3rem;
+		}
+	}
+}
+
+
+.c-spotlight__subheading {
+	color: $color-gray-shade;
+	display: block;
+	font-family: $font-family-secondary;
+	font-size: 1.25rem;
+	letter-spacing: $font-tracking-slight;
+	line-height: $line-height-single;
+	text-transform: uppercase;
+}

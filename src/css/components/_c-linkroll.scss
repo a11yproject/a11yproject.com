@@ -101,6 +101,11 @@
 
 	// Contexts
 	@include _generate-context-borders("left");
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }
 
 
