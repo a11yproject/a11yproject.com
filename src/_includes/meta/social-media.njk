@@ -1,15 +1,16 @@
 <title>{% if category %}{{ category }}: {% endif %}{% if title %}{{ title | striptags }} - {% endif %}{{ metadata.title }}</title>
-<meta name="title" content="{% if title %}{{ title }} - {% endif %}{{ metadata.title }}">
-<meta name="description" content="{% if subtitle %}{{ subtitle }}{% elif description %}{{ description }}{% else %}{{ metadata.feed.subtitle }}{% endif %}">
+<meta name="title" content="{% if title %}{{ title }} - {% endif %}{{ metadata.title }}" />
+<meta name="description" content="{% if subtitle %}{{ subtitle }}{% elif description %}{{ description }}{% else %}{{ metadata.feed.subtitle }}{% endif %}" />
 
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ page.url | url }}">
-<meta property="og:title" content="{% if category %}{{ category }}: {% endif %}{% if title %}{{ title | striptags }} - {% endif %}{{ metadata.title }}">
-<meta property="og:description" content="{% if subtitle %}{{ subtitle }}{% elif description %}{{ description }}{% else %}{{ metadata.feed.subtitle }}{% endif %}">
-<meta property="og:image" content="/img/social/og-image-{% if title == "Posts" %}posts{% elif title == "Checklist" %}checklist{% elif title == "About" %}about{% elif title == "Contribute" %}contribute{% elif title == "Team" %}team{% elif title == "Authors" %}authors{% elif title == "Spotlight" %}spotlight{% else %}a11y{% endif %}.png">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ page.url | url }}" />
+<meta property="og:title" content="{% if category %}{{ category }}: {% endif %}{% if title %}{{ title | striptags }} - {% endif %}{{ metadata.title }}" />
+<meta property="og:description" content="{% if subtitle %}{{ subtitle }}{% elif description %}{{ description }}{% else %}{{ metadata.feed.subtitle }}{% endif %}" />
+<meta property="og:image" content="/img/social/og-image-{% if title == "Posts" %}posts{% elif title == "Checklist" %}checklist{% elif title == "About" %}about{% elif title == "Contribute" %}contribute{% elif title == "Team" %}team{% elif title == "Authors" %}authors{% elif title == "Spotlight" %}spotlight{% else %}a11y{% endif %}.png" />
+<meta property="og:image:alt" content="" />
 
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{{ page.url | url }}">
-<meta property="twitter:title" content="{% if category %}{{ category }}: {% endif %}{% if title %}{{ title | striptags }} - {% endif %}{{ metadata.title }}">
-<meta property="twitter:description" content="{% if subtitle %}{{ subtitle }}{% else %}{{ metadata.feed.subtitle }}{% endif %}">
-<meta property="twitter:image" content="/img/social/og-image-{% if title == "Posts" %}posts{% elif title == "Checklist" %}checklist{% elif title == "About" %}about{% elif title == "Contribute" %}contribute{% elif title == "Team" %}team{% elif title == "Authors" %}authors{% elif title == "Spotlight" %}spotlight{% else %}a11y{% endif %}.png">
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="{{ page.url | url }}" />
+<meta property="twitter:title" content="{% if category %}{{ category }}: {% endif %}{% if title %}{{ title | striptags }} - {% endif %}{{ metadata.title }}" />
+<meta property="twitter:description" content="{% if subtitle %}{{ subtitle }}{% else %}{{ metadata.feed.subtitle }}{% endif %}" />
+<meta property="twitter:image" content="/img/social/og-image-{% if title == "Posts" %}posts{% elif title == "Checklist" %}checklist{% elif title == "About" %}about{% elif title == "Contribute" %}contribute{% elif title == "Team" %}team{% elif title == "Authors" %}authors{% elif title == "Spotlight" %}spotlight{% else %}a11y{% endif %}.png" />

@@ -12,7 +12,8 @@
 	}
 	// Contexts
 	.template-home &,
-	.template-post & {
+	.template-post &,
+	.template-404 & {
 		display: none;
 	}
 }

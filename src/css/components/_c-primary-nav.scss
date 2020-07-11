@@ -119,11 +119,6 @@
 		padding: 0.5rem 1rem;
 	}
 
-	// Contexts
-	.template-home & {
-		border-bottom: 1px solid $color-green-shade;
-	}
-
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;

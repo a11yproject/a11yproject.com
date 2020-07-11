@@ -1,0 +1,24 @@
+---
+layout: layouts/home.njk
+title: Page not found
+subtitle: We’re sorry, that page doesn’t seem to exist.
+eleventyNavigation:
+  key: Page not found
+tags:
+  - 404
+templateClass: template-404
+---
+
+<div class="l-404 c-404">
+	<div class="c-404__hero">
+		<h1 id="page-not-found" class="c-heading-large">
+			{{ title }}
+		</h1>
+		<p>
+			We’re sorry, that page doesn’t seem to exist. Please <a class="c-404__link" href="https://github.com/a11yproject/a11yproject.com/issues/new/choose">open an issue on our GitHub repository</a> or <a class="c-404__link" href=" mailto:hello@a11yproject.com?subject=404%20error">email us</a> to let us know what happened.
+		</p>
+		<p>
+			In your issue, please include the page you were trying to access as well as how you got there (e.g. Google search result, a11yproject.com link, link from different website).
+		</p>
+	</div>
+</div>

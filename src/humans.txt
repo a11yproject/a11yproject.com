@@ -1,38 +1,44 @@
 /* TEAM */
 	Eric Bailey
 	Contact: eric.w.bailey [at] gmail.com
+	Website: https://ericwbailey.design/
 	Twitter: @ericwbailey
 
-	Firstname Lastname
-	Twitter: @account
+	Tatiana Mac
+	Contact: inquiry [at] tatianamac.com
+	Website: https://tatianamac.com/
+	Twitter: @TatianaTMac
+
+	Scott O'Hara
+	Website: https://www.scottohara.me/
+	Twitter: @scottohara
 
 
 /* THANKS */
 
-	Firstname Lastname
-	Reason
-	Twitter: @account
-	From: City, State, Country
-
 	Andy Bell
-	Eleventy help
+	For: Eleventy help
+	Website: https://hankchizljaw.com/
 	Twitter: @hankchizljaw
 
 	Chris Ferdinandi
-	Table of Contents JavaScript help
+	For: Table of Contents JavaScript help
+	Website: https://gomakethings.com/
 	Twitter: @ChrisFerdinandi
 
 	Zach Leatherman
-	Eleventy help
+	For: Eleventy help
+	Website: https://www.zachleat.com/
 	Twitter: @zachleat
 
 
 /* SITE */
 	Language: English
 	Doctype: HTML5
+	Standards: HTML, CSS, JavaScript, ARIA, SVG
 	Code: Visual Studio Code
 	Design: Figma
-	Browsers: Chrome, Edge, Firefox, Internet Explorer, Safari
+	Browsers: Chrome, Edge, Firefox, Internet Explorer 11, Safari
 	Operating Systems: macOS, Windows
-	Services: GitHub, Gmail
-	Software: iTerm,
+	Services: GitHub, Gmail, Google Analytics
+	Software: iTerm, Tower, Obsidian, Todoist, Slack
