@@ -25,6 +25,11 @@ $_banner-triangle-size: 1.49rem;
 		position: relative;
 			top: 2.26rem; // [1]
 			right: 0.275rem; // [1]
+
+			// User Queries
+		@media screen and (-ms-high-contrast: active) {
+			display: none;
+		}
 	}
 
 	// Contexts
@@ -64,5 +69,10 @@ $_banner-triangle-size: 1.49rem;
 
 	.c-card--highlight & {
 		fill: $color-white;
+	}
+
+	// User Queries
+	@media screen and (-ms-high-contrast: active) {
+		display: none;
 	}
 }

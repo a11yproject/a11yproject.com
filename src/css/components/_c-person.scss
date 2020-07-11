@@ -71,6 +71,10 @@ $_person-photo: (
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
 	}
+
+	@media screen and (-ms-high-contrast: active) {
+		-ms-high-contrast-adjust: none;
+	}
 }
 
 

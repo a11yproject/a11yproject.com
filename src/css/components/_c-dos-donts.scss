@@ -27,6 +27,11 @@
 	p:nth-child(even) {
 		border-left: $border-thick solid $color-pink-tint;
 		margin-top: 1.25ex;
+
+		// User queries
+		@media screen and (-ms-high-contrast: active) {
+			border-left: $border-thick solid highlight;
+		}
 	}
 
 	// Breakpoints

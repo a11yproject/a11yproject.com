@@ -5,6 +5,12 @@
 	padding: 0.25rem map-get($global-bleed, small);
 	font-size: 0.9rem;
 	text-align: center;
+
+	// User Queries
+	@media screen and (-ms-high-contrast: active) {
+		background-color: windowText;
+		color: window;
+	}
 }
 
 
@@ -16,5 +22,10 @@
 	// States
 	&:focus {
 		color: $color-black;
+	}
+
+	// User Queries
+	@media screen and (-ms-high-contrast: active) {
+		color: window;
 	}
 }

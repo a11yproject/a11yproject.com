@@ -14,6 +14,11 @@ $_hero-photo-size: 14rem;
 			margin-right: 3rem;
 		}
 	}
+
+	// User queries
+	@media screen and (-ms-high-contrast: active) {
+		-ms-high-contrast-adjust: none;
+	}
 }
 
 

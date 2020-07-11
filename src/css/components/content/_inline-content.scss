@@ -10,6 +10,11 @@
 			font-size: 90%;
 			padding: 0 0.25ch;
 			word-break: normal;
+
+			// User queries
+			@media screen and (-ms-high-contrast: active) {
+				border: none;
+			}
 		}
 	}
 
