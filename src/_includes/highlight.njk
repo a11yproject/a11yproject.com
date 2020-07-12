@@ -3,7 +3,7 @@
 		id="latest"
 		class="c-banner {% if templateClass == "template-posts"%}c-banner--post{% else %}c-banner--resource{% endif %}">
 		<svg aria-hidden="true" focusable="false" class="c-banner__icon" width="22" height="22">
-			<use xlink:href="/img/icons.svg#featured"></use>
+			<use xlink:href="{{ '/img/icons.svg#featured' | url }}"></use>
 		</svg>
 		Featured {% if templateClass == "template-posts" %}Post{% elif templateClass == "template-resources" %}Resource{% endif %}
 	</h2>

@@ -3,7 +3,7 @@
 		<a class="c-card__title" href="{{ post.url | url }}">{{ post.data.title | safe }}</a>
 	</h3>
 	<p class="c-card__meta">
-		Published on <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateReadable }}</time>{% if post.data.author%} by <a class="c-card__author" href="/authors/#{{ post.data.author | slugify }}">{{ post.data.author }}</a>{% endif %}
+		Published on <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateReadable }}</time>{% if post.data.author%} by <a class="c-card__author" href="{{ '/authors/#{{ post.data.author | slugify }}' | url}}">{{ post.data.author }}</a>{% endif %}
 	</p>
 	<p class="c-card__description">
 		{{ post.data.description | safe }}

@@ -7,7 +7,7 @@ templateClass: template-post
 	<header class="l-post__header">
 		<div class="l-post__category c-post__category">
 			<p>
-				<a class="c-post__category__link" href="/posts/#{{ category | slugify }}">
+				<a class="c-post__category__link" href="/posts/#{{ category | slugify | url }}">
 					{{ category }}
 				</a>
 			</p>
@@ -20,7 +20,7 @@ templateClass: template-post
 		<p id="metadata" class="l-post__metadata c-post__metadata">
 			{% if author %}
 				<span class="c-post__metadata--author">
-					<span class="u-text-transform-uppercase">By:&#8194;</span><a class="c-post__metadata-link" href="/authors/#{{ author | slugify }}">{{ author }}</a><span class="u-hide-visually">.</span>
+					<span class="u-text-transform-uppercase">By:&#8194;</span><a class="c-post__metadata-link" href="/authors/#{{ author | slugify | url }}">{{ author }}</a><span class="u-hide-visually">.</span>
 				</span>
 			{% endif %}
 			{% if date %}
@@ -44,7 +44,7 @@ templateClass: template-post
 			{{ content | safe }}
 
 			{% if updated_by %}
-				<p class="c-last-updated__body">This post was last updated by <a href="/authors/#{{ updated_by | slugify }}">{{ updated_by }}</a>.
+				<p class="c-last-updated__body">This post was last updated by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
 			{% endif %}
 
 			{% if further_reading %}
