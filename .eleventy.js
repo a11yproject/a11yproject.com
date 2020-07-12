@@ -4,6 +4,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const moment = require('moment');
 const slugify = require("slugify");
+const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -74,7 +75,22 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
-  );
+	);
+
+	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
+    if (
+      outputPath &&
+      outputPath.endsWith(".html")
+    ) {
+      let minified = htmlmin.minify(content, {
+        removeComments: true,
+        collapseWhitespace: true,
+      });
+      return minified;
+    }
+
+    return content;
+});
 
   return {
     templateFormats: [
