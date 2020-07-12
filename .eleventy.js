@@ -59,10 +59,15 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("./src/fonts");
 	eleventyConfig.addPassthroughCopy("./src/apple-touch-icon.png");
-	eleventyConfig.addPassthroughCopy("./src/google-touch-icon.png");
+	eleventyConfig.addPassthroughCopy("./src/logo-100x100.png");
+	eleventyConfig.addPassthroughCopy("./src/logo-192x192.png");
+	eleventyConfig.addPassthroughCopy("./src/logo-192x192.png");
+	eleventyConfig.addPassthroughCopy("./src/logo-512x512.png");
+	eleventyConfig.addPassthroughCopy("./src/logo.svg");
 	eleventyConfig.addPassthroughCopy("./src/favicon.svg");
 	eleventyConfig.addPassthroughCopy("./src/safari-pinned-tab.svg");
 	eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+	eleventyConfig.addPassthroughCopy("./src/sw.js");
 	eleventyConfig.addPassthroughCopy("./src/manifest.json");
 	eleventyConfig.addPassthroughCopy("./src/humans.txt");
 	eleventyConfig.addPassthroughCopy("./src/robots.txt");
