@@ -55,7 +55,18 @@ module.exports = function (eleventyConfig) {
       replacement: "-",
       remove: /[*+~.·,()'"`´%!?¿:@»]/g
     });
-  });
+	});
+
+	eleventyConfig.addPassthroughCopy("./src/fonts");
+	eleventyConfig.addPassthroughCopy("./src/apple-touch-icon.png");
+	eleventyConfig.addPassthroughCopy("./src/google-touch-icon.png");
+	eleventyConfig.addPassthroughCopy("./src/favicon.svg");
+	eleventyConfig.addPassthroughCopy("./src/safari-pinned-tab.svg");
+	eleventyConfig.addPassthroughCopy("./src/favicon.ico");
+	eleventyConfig.addPassthroughCopy("./src/manifest.json");
+	eleventyConfig.addPassthroughCopy("./src/humans.txt");
+	eleventyConfig.addPassthroughCopy("./src/robots.txt");
+
 
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 

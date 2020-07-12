@@ -10,8 +10,7 @@
 // Turn on/off build features
 var settings = {
 	clean: true,
-	favicons: true,
-	fonts: true,
+	favicons: false,
 	icons: true,
 	images: true,	lint: true,
 	misc: true,
@@ -33,17 +32,9 @@ var paths = {
 		polyfills: '.polyfill.js',
 		output: 'dist/js/'
 	},
-	fonts: {
-		input: 'src/fonts/**/*',
-		output: 'dist/fonts/'
-	},
 	styles: {
 		input: 'src/css/**/*.scss',
 		output: 'dist/css/'
-	},
-	favicons: {
-		input: ['src/apple-touch-icon.png', 'src/google-touch-icon.png', 'src/favicon.svg', 'src/safari-pinned-tab.svg', 'src/favicon.ico', 'src/manifest.json'],
-		output: 'dist/'
 	},
 	images: {
 		input: 'src/img/**/*.{jpg,jpeg,gif,webm,webp,png}',
@@ -51,10 +42,6 @@ var paths = {
 	},
 	icons: {
 		input: 'src/img/icons/*.svg',
-		output: 'dist/'
-	},
-	misc: {
-		input: ['src/humans.txt', 'src/robots.txt'],
 		output: 'dist/'
 	},
 	svgs: {
@@ -223,42 +210,6 @@ var lintStyles = function (done) {
 };
 
 
-// Copy fonts
-var copyFavicons = function (done) {
-	// Make sure this feature is activated before running
-	if (!settings.favicons) return done();
-	src(paths.favicons.input)
-		.pipe(plumber())
-		.pipe(dest(paths.favicons.output));
-	// Signal completion
-	done();
-};
-
-
-// Copy fonts
-var copyFonts = function (done) {
-	// Make sure this feature is activated before running
-	if (!settings.fonts) return done();
-	src(paths.fonts.input)
-		.pipe(plumber())
-		.pipe(dest(paths.fonts.output));
-	// Signal completion
-	done();
-};
-
-
-// Copy fonts
-var copyMisc = function (done) {
-	// Make sure this feature is activated before running
-	if (!settings.misc) return done();
-	src(paths.misc.input)
-		.pipe(plumber())
-		.pipe(dest(paths.misc.output));
-	// Signal completion
-	done();
-};
-
-
 // Process images
 var processImages = function (done) {
 	// Make sure this feature is activated before running
@@ -351,9 +302,6 @@ var watchSource = function (done) {
 exports.default = series(
 	// cleanScss,
 	parallel(
-		copyFavicons,
-		copyFonts,
-		copyMisc,
 		buildScripts,
 		lintScripts,
 		// lintStyles,
