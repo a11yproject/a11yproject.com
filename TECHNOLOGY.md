@@ -14,13 +14,15 @@ The A11Y Project uses the following technology:
 - [Nunjucks](https://mozilla.github.io/nunjucks/)/HTML.
 - [Node.js](https://nodejs.org/en/).
 - [Sass](https://sass-lang.com/)/CSS.
+- SVG.
+- WAI-ARIA.
 
 This is a deliberate choice intended to balance:
 
 - Accessibility and interoperability.
 - Ease of set up.
 - Approachability for beginners.
-- Cross-Operating System support.
+- Cross-Operating System and browser support.
 - Local and end-user performance.
 
 When working on the website, please be sure to utilize these technology choices first, and stay with them if at all possible. Honoring these technology choices helps to keep the site easier to maintain.
