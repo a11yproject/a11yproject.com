@@ -24,6 +24,7 @@
 	blockquote::first-line,
 	li::first-line {
 		background: transparent !important;
+		border-color: $color-black !important;
 		color: $color-black !important; // Black prints faster: http://www.sanbeiji.com/archives/953
 		box-shadow: none !important;
 		text-shadow: none !important;
@@ -83,5 +84,22 @@
 	h2,
 	h3 {
 		page-break-after: avoid;
+	}
+
+	// Frameset
+	.c-blm-banner,
+	.l-header,
+	.l-lip,
+	.l-sponsors,
+	.l-footer,
+	.l-post__category,
+	.c-recommended-reading,
+	.l-toc {
+		display: none !important;
+	}
+
+	// Content tweaks
+	code {
+		border: none !important;
 	}
 }
