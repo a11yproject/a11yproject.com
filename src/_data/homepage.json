@@ -21,7 +21,7 @@
 		{
 			"name": "Amy Carney",
 			"role": "Web Developer",
-			"description": "Amy Carney is a web ‘devsigner’ and certified accessibility specialist. She founded <a href='https://twitter.com/search?q=%23100DaysofA11y'>#100DaysofA11y</a>, a project dedicated to focused exercises around accessibility.",
+			"description": "Amy Carney is a web ‘devsigner’ and certified accessibility specialist. She founded <a class='c-homepage-card__link' href='https://twitter.com/search?q=%23100DaysofA11y'>#100DaysofA11y</a>, a project dedicated to focused exercises around accessibility.",
 			"image": "amy-carney.jpg",
 			"cta": "Meet Amy"
 		}
