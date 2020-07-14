@@ -8,12 +8,6 @@
 		}
 	}
 
-	&:focus {
-		.v-toc__title {
-			padding-left: 1rem;
-		}
-	}
-
 	// Vendor
 	// [1] Removes default browser `details` element arrow
 	& > summary {
@@ -98,6 +92,8 @@
 	display: block;
 	margin-left: 0.5rem;
 	text-decoration: underline;
+	text-decoration-thickness: $border-thinnest;
+	text-underline-offset: 0.5em;
 
 	// States
 	&:hover {
@@ -108,7 +104,9 @@
 
 .v-toc_nav {
 	padding-top: 1rem;
+	padding-right: 1rem;
 	padding-left: 1.55rem;
+
 
 	// Text-level formatting
 	h2 {
