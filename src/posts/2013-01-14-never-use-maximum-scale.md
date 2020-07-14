@@ -21,13 +21,13 @@ Using the viewport meta tag the wrong way can prevent people with low vision con
 
 By setting `maximum-scale=1.0`, you are disabling the functionality to use pinch zoom on certain mobile devices, forcing people to view your page a certain way.
 
-### The bad way:
+### The bad way
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 ```
 
-### The good way:
+### The good way
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

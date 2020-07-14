@@ -41,6 +41,8 @@ Note: ARIA is constantly being updated by the W3C. [Read the latest working draf
 
 The properties are given below, along with their category, brief description, and allowed value lists or type of input allowed.
 
+## List of ARIA properties
+
 Property (links to WAI-ARIA 1.1 specs) | Category | Description | Allowed Values (**default values bolded**)
 ---|---|---|---
 [aria-activedescendant](https://www.w3.org/TR/wai-aria-1.1/#aria-activedescendant) | Relationship attributes | Currently active descendant of a composite widget | String - ID of descendant
