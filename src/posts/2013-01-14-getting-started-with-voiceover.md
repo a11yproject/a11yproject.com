@@ -61,7 +61,10 @@ Command | Description
 
 ## The Web Item rotor
 
-![Screenshot of macOS VoiceOver’s Web Item Rotor listing navigational headings on a11yproject.com](/img/rotor.png)
+<figure role="figure" aria-label="VoiceOver's Web Rotor.">
+  <img alt="macOS VoiceOver’s Web Item Rotor showing a list of headings on The A11Y Project's homepage." src="/img/posts/2013-01-14-getting-started-with-voiceover/voiceover-rotor.png">
+  <figcaption>VoiceOver's Web Item Rotor.</figcaption>
+</figure>
 
 Open the rotor by pressing <kbd>VO</kbd> + <kbd>U</kbd> with VoiceOver enabled, and you’ll be presented with a list of navigational elements on the current page. You can use the rotor to jump directly to links, headings, form controls, tables, web spaces, and ARIA landmarks. You can switch between these navigation methods using the left and right arrow keys, navigate through the list using the up and down arrow keys, and select an item using the enter key or the spacebar.
 
