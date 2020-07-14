@@ -29,8 +29,8 @@ $_person-photo: (
 	cursor: pointer;
 	display: inline-block;
 	height: map-get($_person-photo, small);
+	margin-top: -3.5rem;
 	position: absolute;
-		margin-top: -3.5rem;
 		right: 0.25rem;
 	width: map-get($_person-photo, small);
 

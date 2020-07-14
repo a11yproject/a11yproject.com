@@ -130,11 +130,6 @@ $_card-outline: $border-thinner solid;
 	&:focus {
 		outline: $border-thin solid transparent;
 	}
-
-	// Contexts
-	.c-card--post & {
-
-	}
 }
 
 

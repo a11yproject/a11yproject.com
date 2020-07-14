@@ -78,8 +78,6 @@ $_c-post-vertical-spacing: 4ex;
 	}
 
 	&:active {
-		@include shift-click();
-
 		background-color: transparent;
 		color: $color-green;
 		outline: none;
@@ -101,7 +99,6 @@ $_c-post-vertical-spacing: 4ex;
 	}
 
 	@include mappy-bp(lap-small) {
-
 		font-size: 3rem;
 		max-width: $global-type-measure;
 	}

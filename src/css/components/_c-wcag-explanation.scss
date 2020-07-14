@@ -60,9 +60,9 @@
 	@include mappy-bp(palm-large) {
 		// Supports
 		@supports #{$supports-flex} {
-			width: rem(320);
 			margin-top: 2rem;
 			margin-right: 1.5rem;
+			width: rem(320);
 		}
 	}
 }

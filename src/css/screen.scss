@@ -93,7 +93,6 @@
 	"logic/mixins.post-content-flourish",
 	"logic/mixins.post-content-inset",
 	"logic/mixins.preserve-list-semantics",
-	"logic/mixins.remove-margin-padding",
 	"logic/mixins.responsify",
 	"logic/mixins.shift-click",
 	"logic/mixins.show";
@@ -151,16 +150,10 @@
 //
 // Styleguide Utilities
 @import
-	"utilities/clearfix",
-	"utilities/font-families",
 	"utilities/hide",
 	"utilities/preserve-list-semantics",
-	"utilities/remove-margin-padding",
-	"utilities/responsify",
 	"utilities/spacing",
-	"utilities/tables",
-	"utilities/text-transform",
-	"utilities/type-align";
+	"utilities/text-transform";
 
 
 // Components

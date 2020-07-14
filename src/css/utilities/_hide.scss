@@ -28,9 +28,9 @@
 // <div class="u-hide-hidden">…</div>
 //
 // Styleguide Utilities.Hide.u-hide-hidden
-.u-hide-hidden {
-	@include hide(hidden);
-}
+// .u-hide-hidden {
+// 	@include hide(hidden);
+// }
 
 
 // u-hide-invisible
@@ -41,9 +41,9 @@
 // <div class="u-hide-invisible">…</div>
 //
 // Styleguide Utilities.Hide.u-hide-invisible
-.u-hide-invisible {
-	@include hide(invisible);
-}
+// .u-hide-invisible {
+// 	@include hide(invisible);
+// }
 
 
 // u-hide-remove
@@ -54,6 +54,6 @@
 // <div class="u-hide-remove">…</div>
 //
 // Styleguide Utilities.Hide.u-hide-remove
-.u-hide-remove {
-	@include hide(remove);
-}
+// .u-hide-remove {
+// 	@include hide(remove);
+// }

@@ -226,10 +226,10 @@
 			outline: $border-thin solid transparent;
 		}
 
-    &:hover,
-    &:focus {
-      border-bottom-color: $color-green;
-      color: $color-black;
+		&:hover,
+		&:focus {
+			border-bottom-color: $color-green;
+			color: $color-black;
 		}
 
 		// User Queries

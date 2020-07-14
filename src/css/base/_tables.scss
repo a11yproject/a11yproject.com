@@ -50,8 +50,8 @@
 // Styleguide Base.table
 table {
 
-	caption {
-	}
+	// caption {
+	// }
 
 	// Styles all table rows
 	tr {
@@ -81,11 +81,11 @@ table {
 		vertical-align: bottom;
 	}
 
-	colgroup {
+	// colgroup {
 
-		col {
-		}
-	}
+	// 	col {
+	// 	}
+	// }
 
 	thead {
 		border-bottom: $border-thinner solid $color-black;

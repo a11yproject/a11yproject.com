@@ -1,5 +1,4 @@
 a {
-
 	// Contexts
 	.c-content--checklist &,
 	.c-content--post & {
@@ -12,8 +11,6 @@ a {
 		@include link-states($color-blue);
 	}
 }
-
-
 
 
 // Namespace
@@ -29,7 +26,6 @@ a {
   //
 	// Style guide: Components.post.links
   a {
-
 		// States
 		&:focus {
 			// Text-level formatting

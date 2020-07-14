@@ -6,7 +6,6 @@
 //
 // Styleguide Base.link
 a {
-
 	// States
 	&:hover,
 	&:focus {
@@ -14,8 +13,8 @@ a {
 	}
 
 	// Styles links that don't have a class declared on them
-	&[href]:not([class]) {
-	}
+	// &[href]:not([class]) {
+	// }
 
 	// Display links when the `<a>` element has no text value but the href
 	// attribute has a link
@@ -24,16 +23,16 @@ a {
 	}
 
 	// External links
-	&[rel~="external"],
-	&[rel~="noopener"],
-	&[href^="http"] {
-	}
+	// &[rel~="external"],
+	// &[rel~="noopener"],
+	// &[href^="http"] {
+	// }
 
 	// Downloads
-	&[download] {
-	}
+	// &[download] {
+	// }
 
 	// Email
-	&[href^="mailto"] {
-	}
+	// &[href^="mailto"] {
+	// }
 }
