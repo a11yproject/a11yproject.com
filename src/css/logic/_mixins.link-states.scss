@@ -13,5 +13,9 @@
 		background-color: $link-color;
 		color: $color-white;
 		outline: $border-thin solid $link-color;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
