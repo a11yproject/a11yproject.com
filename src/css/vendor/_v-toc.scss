@@ -105,6 +105,11 @@
 .v-toc_nav {
 	padding: 2rem 1rem 1.55rem 2rem;
 
+	// Supports
+	@supports #{$supports-flex} {
+		padding-top: 0.5rem;
+	}
+
 	// Text-level formatting
 	h2 {
 		@include hide("visually");
@@ -148,8 +153,12 @@
 		letter-spacing: $font-tracking-slight;
 		line-height: $line-height-tighter;
 		margin-bottom: 1.25rem; // EXCEPTION: Applying a bottom margin instead of top to ensure columns line up properly.
-		margin-right: 1rem;
 		text-transform: uppercase;
+
+		// Supports
+		@supports #{$supports-flex} {
+			margin-bottom: 0;
+		}
 
 		code {
 			text-transform: none;
@@ -167,6 +176,11 @@
 
 			&:first-of-type {
 				margin-top: 1rem;
+
+				// Supports
+				@supports #{$supports-flex} {
+					margin-top: 0;
+				}
 			}
 
 			&:last-of-type {
@@ -181,7 +195,46 @@
 	}
 
 	a {
-		color: $color-black;
+		border-bottom: $border-thinnest solid $color-sand;
+		color: $color-gray-shade;
 		text-decoration: none;
+		transition:
+			$animation-duration-short $animation-easing-character color,
+			$animation-duration-short $animation-easing-character border;
+
+		// Supports
+		@supports #{$supports-flex} {
+			border-bottom: none;
+			display: flex;
+
+			&::after {
+				content: "";
+				flex: 1 1;
+				border-bottom: $border-thinner solid $color-sand;
+				margin: auto auto auto 0.5rem;
+			}
+
+			// States
+			&:hover::after,
+			&:focus::after {
+				border-bottom-color: $color-pink;
+			}
+		}
+
+		// States
+		&:focus {
+			outline: $border-thin solid transparent;
+		}
+
+    &:hover,
+    &:focus {
+      border-bottom-color: $color-green;
+      color: $color-black;
+		}
+
+		// User Queries
+		@media screen and (prefers-reduced-motion: reduce) {
+			transition: none;
+		}
 	}
 }
