@@ -18,8 +18,8 @@
 
 
 .c-wcag-explanation__link {
-	color: $color-blue-shade;
-	text-decoration-color: $color-blue-shade;
+	@include link-states($color-blue-shade);
+
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
 }
