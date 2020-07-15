@@ -11,6 +11,7 @@
 		<link rel="sitemap" type="application/xml" title="{{ metadata.title }}" href="{{ '/sitemap.xml' | url }}" />
 		<link rel="author" href="humans.txt" />
 		{# {% include "meta/service-worker.njk" %} #}
+		{# {% include "meta/analytics.njk" %} #}
 	</head>
 	<body {% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
@@ -29,10 +30,8 @@
 		{% include "footer.njk" %}
 
 		<script async src="{{ '/' | url }}js/main.min.js"></script>
-
 		<script src="{{ '/' | url }}js/table-of-contents.js"></script>
 		<script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
-		<script type="text/javascript">document.querySelector('[data-copyright-year]').innerHTML = '2013-' + new Date().getFullYear();</script>
 
 	</body>
 </html>

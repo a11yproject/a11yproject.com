@@ -1,6 +1,8 @@
 // tableOfContents.js
 // http://github.com/cferdinandi/table-of-contents
 .v-toc {
+	margin-right: 2rem;
+
 	// States
 	&[open] {
 		.v-toc__icon {
