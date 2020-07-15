@@ -1,13 +1,13 @@
 # The A11Y Project
 
-The Accessibility [(A11Y)](https://a11yproject.com/posts/a11y-and-other-numeronyms/) Project is an Open-source, community-driven effort to make digital accessibility easier. 
+The Accessibility [(A11Y)](https://a11yproject.com/posts/a11y-and-other-numeronyms/) Project is an Open-source, community-driven effort to make digital accessibility easier.
 
 
 ## Contributing
 
-You can learn about helping this project by reading our [Contributor documentation](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md) and [Content Style Guide](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTENT_STYLE_GUIDE.md). Please familiarize yourself with them before submitting content.
+You can learn about helping this project by reading our [Code of Conduct](/code-of-conduct/), [Contributor documentation](https://a11yproject.com/contributing-guidelines/), and [Content Style Guide](https://a11yproject.com//content-style-guide/). Please familiarize yourself with them before submitting content.
 
-This README is focused on the technical side of the project. If you are interested in contributing information like Posts or Resources, please refer to our FOO.
+This `README` is focused on the technical side of the project. If you are interested in contributing information like Posts or Resources, please refer to our FOO.
 
 
 ## Development
@@ -16,7 +16,7 @@ This README is focused on the technical side of the project. If you are interest
 
 The A11Y Project uses [Eleventy](https://www.11ty.io/) to manage its content. Eleventy relies on [Markdown](https://daringfireball.net/projects/markdown/syntax), [Sass](https://sass-lang.com/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [JSON](https://www.json.org/) to function.
 
-It may be helpful to familiarize yourself with these technologies, depending on what you want to do. For more information, check our our [Contributor documentation](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md).
+It may be helpful to familiarize yourself with these technologies, depending on what you want to do. For more information, check our our [Contributor documentation](https://a11yproject.com/contributing-guidelines/).
 
 ### Requirements
 

@@ -5,12 +5,12 @@ about: Find something that didn't work as you expected on the website?  Let us k
 ---
 
 Please review our Contributing guidelines:
-https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md#reporting-issues
+https://a11yproject.com/contributing-guidelines/
 
 ## Summary
 
 > Brief description of the issue. Please identify specific steps.
-> 
+>
 > Example:
 > 1. Turn on NVDA with Firefox.
 > 2. Go to a11yproject.com.
