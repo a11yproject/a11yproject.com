@@ -16,6 +16,7 @@
 	],
 	"scripts": {
 		"a11yproject": "npx eleventy --watch | gulp watch",
+		"publish": "npx eleventy",
 		"clean": "rm -rf ./dist",
 		"eleventy-build": "npx eleventy",
 		"eleventy-watch": "npx eleventy --watch",
