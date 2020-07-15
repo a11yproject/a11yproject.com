@@ -26,7 +26,7 @@
 		background-size: cover;
 
 		// Breakpoints
-		@include mappy-bp(palm-medium) {
+		@include mappy-bp(wrist-large) {
 			background-size: contain;
 		}
 	}
