@@ -1,0 +1,32 @@
+{
+  "name": "A11Y Project",
+  "short_name": "A11YProject",
+  "description": "A community-driven effort to make web accessibility easier.",
+  "start_url": "/",
+  "background_color": "#000",
+  "scope": "/",
+  "theme_color": "#000",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "src": "/img/logo.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "/img/logo-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/logo-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/logo.svg",
+      "type": "image/svg",
+      "sizes": "192x192 512x512"
+    }
+  ]
+}

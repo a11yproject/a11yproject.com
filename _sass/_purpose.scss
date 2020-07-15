@@ -1,0 +1,63 @@
+.value {
+  background-color: #F8F8F8;
+  border: 1px solid #E4E4E4;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+
+  &:last-of-type {
+    margin-bottom: 6rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.team-bio {
+  width: 100%;
+  margin-bottom: 4rem;
+
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  &__entry {
+    background-color: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 12rem;
+    float: left;
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  &__photo {
+    display: inline !important;
+    margin: 0 !important;
+    width: 10rem;
+  }
+
+  dt {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}

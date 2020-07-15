@@ -1,0 +1,79 @@
+.checklist-introduction {
+  background-color: #F8F8F8;
+  border: 1px solid #E4E4E4;
+  margin-top: 2em;
+  padding: 1.5rem;
+
+  h2 {
+    font-size: 1.75em;
+    margin-bottom: 0.75em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 1.25em;
+  }
+
+  h4 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0.25em;
+  }
+}
+
+.checklist-section {
+  h2 {
+    margin-top: 1em;
+  }
+
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+  }
+
+  h4 {
+    margin-top: 1em;
+  }
+}
+
+.checklist {
+  details {
+    border-top: 1px solid #E4E4E4;
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+  summary {
+    cursor: pointer;
+    margin-left: 1.3em;
+    text-indent: -1.3em;
+
+    @media (min-width: $desktop + 20em) {
+      margin-left: 0;
+    }
+  }
+}
+
+.checklist-criterion {
+  font-size: 90%;
+  font-weight: bold;
+  margin-bottom: 0.25em;
+}
+
+.checklist-details {
+  margin-top: 1rem;
+  padding-left: 1.3em;
+
+  @media (min-width: $desktop + 20em) {
+    padding-left: 0;
+  }
+}
+
+.checklist-description {
+  margin-bottom: 1.5rem;
+}
