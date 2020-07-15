@@ -261,8 +261,6 @@ var buildStyleguide = function (done) {
 		source: 'src/css',
 		title: "Styleguide - The A11Y Project"
 	});
-	// Signal completion
-	done();
 };
 
 
@@ -304,7 +302,7 @@ exports.default = series(
 	parallel(
 		buildScripts,
 		lintScripts,
-		// lintStyles,
+		lintStyles,
 		buildStyles,
 		processImages,
 		processIcons,
