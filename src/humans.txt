@@ -26,19 +26,12 @@
 	Website: https://gomakethings.com/
 	Twitter: @ChrisFerdinandi
 
+	Wayne Elgin
+	For: Email address copy button JavaScript help
+	Website: https://github.com/esjay
+	Twitter: @esjay
+
 	Zach Leatherman
 	For: Eleventy help
 	Website: https://www.zachleat.com/
 	Twitter: @zachleat
-
-
-/* SITE */
-	Language: English
-	Doctype: HTML5
-	Standards: HTML, CSS, JavaScript, ARIA, SVG
-	Code: Visual Studio Code
-	Design: Figma
-	Browsers: Chrome, Edge, Firefox, Internet Explorer 11, Safari
-	Operating Systems: macOS, Windows
-	Services: GitHub, Gmail, Google Analytics
-	Software: iTerm, Tower, Obsidian, Todoist, Slack
