@@ -176,7 +176,7 @@ var buildStyles = function (done) {
 			sourceComments: true
 		}))
 		.pipe(prefix({
-			browsers: ['last 2 version', '> 0.25%'], // TODO: Check if this covers IE
+			browsers: ['last 2 version', '> 0.25%', 'ie >= 11'],
 			cascade: true,
 			remove: true
 		}))
@@ -261,8 +261,6 @@ var buildStyleguide = function (done) {
 		source: 'src/css',
 		title: "Styleguide - The A11Y Project"
 	});
-	// Signal completion
-	done();
 };
 
 
@@ -304,7 +302,7 @@ exports.default = series(
 	parallel(
 		buildScripts,
 		lintScripts,
-		// lintStyles,
+		lintStyles,
 		buildStyles,
 		processImages,
 		processIcons,
