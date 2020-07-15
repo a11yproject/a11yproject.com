@@ -1,3 +1,5 @@
+/* jshint esversion: 5 */
+
 // Copy email address ----------------------------------------------------------
 function getEmailOnly(element) {
 	var emailRegex = /^(?:mailto:?)([a-zA-Z0-9_\-.]+@[a-zA-Z0-9-]+\.[a-zA-Z\-.]{2,})(?:\?subject\=.*)?$/;

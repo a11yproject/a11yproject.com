@@ -1,3 +1,4 @@
+/* jshint esversion: 5 */
 /*! tableOfContents.js v1.0.0 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/table-of-contents */
 /*
  * Automatically generate a table of contents from the headings on the page
