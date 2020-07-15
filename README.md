@@ -7,7 +7,7 @@ The Accessibility [(A11Y)](https://a11yproject.com/posts/a11y-and-other-numerony
 
 You can learn about helping this project by reading our [Code of Conduct](/code-of-conduct/), [Contributor documentation](https://a11yproject.com/contributing-guidelines/), and [Content Style Guide](https://a11yproject.com//content-style-guide/). Please familiarize yourself with them before submitting content.
 
-This `README` is focused on the technical side of the project. If you are interested in contributing information like Posts or Resources, please refer to our FOO.
+This `README` is focused on the technical side of the project. If you are interested in contributing information like Posts or Resources, please refer to our [Contributing Guidelines](https://a11yproject.com/contributing-guidelines/).
 
 
 ## Development
