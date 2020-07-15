@@ -1,0 +1,34 @@
+.l-main {
+	.template-home &,
+	.template-posts &,
+	.template-checklist &,
+	.template-resources &,
+	.template-about &,
+	.template-contribute &,
+	.template-authors &,
+	.template-team &,
+	.template-generic &,
+	.template-spotlight & {
+		margin-right: map-get($global-bleed, small);
+		margin-left: map-get($global-bleed, small);
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			margin-right: map-get($global-bleed, large);
+			margin-left: map-get($global-bleed, large);
+		}
+
+		// Supports
+		@supports #{$supports-grid} {
+			// Breakpoints
+			@include mappy-bp(lap-small) {
+				display: grid;
+				grid-template-columns: map-get($global-bleed, large) $global-grid-columns map-get($global-bleed, large);
+				grid-template-areas:
+					". toc content .";
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+	}
+}

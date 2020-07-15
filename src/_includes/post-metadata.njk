@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+{ "@context": "https://schema.org",
+	"@type": "BlogPosting",
+	"headline": "{{ title }}",
+	"description": "{{ description }}",
+	"author": {
+		"@type": "Person",
+		"name": "{{ author }}"
+	},
+	"publisher": {
+		"@type": "Organization",
+		"name": "The A11Y Project",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "/google-touch-icon.png"
+		}
+	},
+	"url": "http://www.example.com",
+	"image": "http://example.com/image.jpg",
+	"datePublished": "{{ date }}",
+	"dateCreated": "{{ date }}",
+	"dateModified": {% if last_updated %}"{{ last_updated }}"{% if else %}"{{ date }}"{% endif %}
+	{% endif %}
+}
+</script>

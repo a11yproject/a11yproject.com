@@ -1,0 +1,130 @@
+$_checklist-icon-size: 1.5rem;
+$_checklist-inset: 4rem;
+$_checklist-padding: 1.5rem;
+
+
+.c-checklist {
+	border-right: $border-thinnest solid $color-blue-shade;
+	border-bottom: $border-thinnest solid $color-blue-shade;
+	border-left: $border-thinnest solid $color-blue-shade;
+	list-style-image: none;
+
+	&:first-of-type {
+		border-top: $border-thinnest solid $color-blue-shade;
+	}
+
+	// States
+	&[open] {
+		.c-checklist__icon {
+			transform: rotate(90deg);
+		}
+	}
+
+	&:hover {
+		.c-checklist__icon {
+			fill: $color-blue-tint;
+		}
+	}
+
+	// Vendor
+	// [1] Removes default browser `details` element arrow
+	& > summary {
+		list-style: none; // [1]
+	}
+
+	& > summary::-webkit-details-marker {
+		display: none; // [1]
+	}
+
+	// Text-level formatting
+	code {
+		background-color: $color-blue-tint;
+		margin-left: 0.25ch;
+		margin-right: 0.25ch;
+		padding: 0.3ch 0.5ch;
+	}
+}
+
+
+.c-checklist__summary {
+	cursor: pointer;
+	padding: $_checklist-padding $_checklist-padding $_checklist-padding 1.5rem;
+
+	// States
+	&:focus {
+		background-color: $color-blue-shade;
+		color: $color-white;
+		outline: $border-thin solid transparent;
+
+		.c-checklist__icon {
+			fill: $color-white;
+		}
+
+		code {
+			color: $color-blue-shade;
+		}
+	}
+
+	// Supports
+	@supports #{$supports-flex} {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+
+.c-checklist__icon {
+	fill: $color-blue-shade;
+	height: $_checklist-icon-size;
+	width: $_checklist-icon-size;
+	transition: fill $animation-duration-shorter $animation-easing-character;
+
+	// Supports
+	@supports #{$supports-flex} {
+		flex-shrink: 0;
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+.c-checklist__title {
+	margin-left: 1rem;
+}
+
+
+.c-checklist__citation {
+	margin-top: 0.5rem;
+	padding-left: $_checklist-inset;
+}
+
+
+.c-checklist__link {
+	@include link-states($color-blue-shade);
+
+	font-family: $font-family-secondary;
+	letter-spacing: $font-tracking-slight;
+	text-decoration-thickness: $border-thinnest;
+	text-underline-offset: 0.3em;
+	text-transform: uppercase;
+}
+
+
+.c-checklist__description {
+	font-size: 0.9rem;
+	line-height: $line-height-looser;
+	margin-top: 0.75rem;
+	padding-right: $_checklist-padding;
+	padding-bottom: $_checklist-padding;
+	padding-left: $_checklist-inset;
+
+
+	// Text-level formatting
+	a {
+		@include link-states($color-blue-shade);
+	}
+}

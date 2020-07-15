@@ -1,0 +1,153 @@
+// Homepage Card
+//
+// Style guide: Components.homepage-card
+.c-homepage-card--checklist {
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+
+.c-homepage-card--resources {
+	margin-right: 2rem;
+}
+
+
+.c-homepage-card--spotlight {
+	margin-right: 4rem;
+
+	// Supports
+	@supports #{$supports-flex} {
+
+		// Breakpoints
+		@include mappy-bp(palm-large) {
+			justify-self: end;
+		}
+	}
+}
+
+
+.c-homepage-card__image-link {
+	// States
+	&:focus {
+		outline: $border-thin solid $color-black;
+	}
+}
+
+
+.c-homepage-card__image {
+	cursor: pointer;
+	margin-top: 3rem;
+}
+
+
+.c-homepage-card__author {
+	color: $color-green;
+	font-family: $font-family-secondary;
+	font-size: 0.9rem;
+	letter-spacing: $font-tracking-slight;
+	margin-top: 1.5rem;
+	text-transform: uppercase;
+}
+
+
+.c-homepage-card__title {
+	cursor: pointer;
+	font-size: 1.25rem;
+	color: $color-black;
+	text-decoration: none;
+}
+
+
+.c-homepage-card__description {
+	font-family: $font-family-secondary;
+	margin-top: 1rem;
+	max-width: 50ch;
+}
+
+
+.c-homepage-card__link {
+	@include link-states($color-blue);
+}
+
+
+.c-homepage-card__cta {
+	border-bottom: $border-thinnest solid $color-pink;
+	color: $color-black;
+	display: inline-block;
+	font-family: $font-family-secondary;
+	margin-top: 1rem;
+	text-decoration: none;
+
+	// States
+	&:hover,
+	&:focus {
+		border-bottom-color: transparent;
+		text-decoration-color: transparent;
+	}
+
+	&:focus {
+		background-color: $color-pink;
+		color: $color-white;
+		outline: $border-thin solid $color-pink;
+	}
+
+	// Supports
+	@supports #{$supports-underlines} {
+		border-bottom: none;
+		text-decoration: underline;
+		text-decoration-color: $color-pink;
+		text-decoration-thickness: $border-thinnest;
+		text-underline-offset: 0.5rem;
+	}
+}
+
+
+.c-homepage-card__checklist {
+	margin-right: map-get($global-bleed, large) * -1;
+}
+
+
+.c-homepage-card__spotlight-photo {
+	$_photo-size: 12rem;
+
+	border-radius: $_photo-size;
+	cursor: pointer;
+	display: inline-block;
+	width: $_photo-size;
+}
+
+
+.c-homepage-card__spotlight__info {
+	background-color: $color-blue-tint;
+	height: 13rem;
+	margin-top: -8rem;
+	margin-left: 4rem;
+	padding: 1rem;
+	text-align: right;
+	width: 12rem;
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+}
+
+
+.c-homepage-card__spotlight-name {
+	font-family: $font-family-secondary;
+	font-size: 1.25rem;
+}
+
+
+.c-homepage-card__spotlight-role {
+	color: $color-blue-shade;
+	font-family: $font-family-secondary;
+	font-size: 0.9rem;
+	letter-spacing: $font-tracking-slight;
+	text-transform: uppercase;
+}

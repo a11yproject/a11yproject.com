@@ -1,0 +1,11 @@
+// post-content-inset
+//
+// Controls left and right margins for post content.
+//
+// $size - Specifies the size of the left and right margins. Accepts `small`, `medium`, or `large`.
+//
+// Styleguide Logic.Mixins.post-content-inset
+@mixin post-content-inset($size) {
+	margin-right: map-get($global-post-content-inset, $size);
+	margin-left: map-get($global-post-content-inset, $size);
+}

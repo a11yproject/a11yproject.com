@@ -1,0 +1,12 @@
+// u-remove-margin-padding
+//
+// Removes the margin and padding values on a component, but leaves other
+// declarations intact. See [mixin.remove-margin-padding](section-logic.html#kssref-logic-mixins-remove-margin-padding).
+//
+// Markup:
+// <div class="u-remove-margin-padding">…</div>
+//
+// Styleguide Utilities.u-remove-margin-padding
+.u-remove-margin-padding {
+	@include remove-margin-padding();
+}

@@ -1,0 +1,446 @@
+---
+layout: layouts/home.njk
+title: Content Style Guide
+subtitle: A consistent writing style will help our content feel unified and aid in comprehension.
+eleventyNavigation:
+  key: Content Style Guide
+  parent: Site
+  order: 4
+tags:
+  - site
+templateClass: template-generic
+---
+
+{% include "nav/toc.njk" %}
+
+<div data-content class="l-content c-content c-content--generic">
+
+	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
+		{{ title }}
+	</h1>
+	<p class="c-subtitle">
+		{{ subtitle }}
+	</p>
+
+	<p>
+		A consistent writing style will help site content feel unified and aid with comprehension. Please check our <a href="{{ '/code-of-conduct/' | url }}">Code of Conduct</a> and <a href="{{ '/contributing-guidelines/' | url }}">Contributing Guidelines</a> before submitting. Questions or concerns about the Content Style Guide can be addressed in the site&#39;s <a href="https://github.com/a11yproject/a11yproject.com/issues">Issue Tracker</a>.
+	</p>
+	<h2 id="general-approach" class="c-heading-large">
+		General approach
+	</h2>
+	<h3 id="themes" class="c-heading-medium">
+		Themes
+	</h3>
+	<ul>
+		<li><strong>Short:</strong> Attention spans are limited. Aim for brief, succinct post lengths.</li>
+		<li><strong>Focused:</strong> Keep it digestible and to a single topic. Posts that span multiple areas and topics should be broken up.</li>
+		<li><strong>Accessible:</strong> Use plain language and avoid jargon if possible. Explain complicated concepts by breaking them down.</li>
+	</ul>
+	<h3 id="tone" class="c-heading-medium">
+		Tone
+	</h3>
+	<p>
+		We prefer an active tone, where the subject of the sentence performs the action.
+	</p>
+	<h4 id="example-tone" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p class="c-dos-donts__do">
+			<strong>Do:</strong> Some people navigate via keyboard.
+		</p>
+		<p class="c-dos-donts__dont">
+			<strong>Don&#39;t:</strong> It was discovered earlier that some people navigate using keyboard input.
+		</p>
+	</div>
+	<h2 id="authoring" class="c-heading-large">
+		Authoring
+	</h2>
+	<h3 id="written-language" class="c-heading-medium">
+		Written language
+	</h3>
+	<p>
+		Use American English spelling, unless quoting in context.
+	</p>
+	<h4 id="example-written-language" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			<strong>Do:</strong> color
+		</p>
+		<p>
+			<strong>Don&#39;t:</strong> colour
+		</p>
+	</div>
+	<h3 id="reading-level" class="c-heading-medium">
+		Reading level
+	</h3>
+	<p>
+		Try not to exceed a seventh grade reading level. Avoid unnecessary jargon and extended metaphors. There are resources that can help you <a href="http://www.hemingwayapp.com/">calculate how complex your writing is</a>.
+	</p>
+	<h3 id="punctuation" class="c-heading-medium">
+		Punctuation
+	</h3>
+	<ul>
+		<li>Use complete sentences.</li>
+		<li>Use exclamation points sparingly.</li>
+		<li>Avoid rhetorical questions.</li>
+		<li>Avoid trailing thoughts/ellipses.</li>
+		<li>Avoid comma splices, em dash phrases, and semicolons. Using them increases the cognitive load when parsing the sentence.</li>
+		<li>Use parentheses with care.</li>
+	</ul>
+	<h3 id="styling" class="c-heading-medium">
+		Styling
+	</h3>
+	<ul>
+		<li>Use bold and italic text styling sparingly, and when semantically appropriate. Long sections of text set with these text styles have been known to be a Dyslexia trigger.</li>
+		<li>Do not underline text. Underlined text should be reserved for links.</li>
+	</ul>
+	<h3 id="capitalization" class="c-heading-medium">
+		Capitalization
+	</h3>
+	<ul>
+		<li>Avoid writing in all caps. Some assistive technologies will announce words set in all caps as individual letters.</li>
+		<li>Capitalize words in a hashtag (e.g. #ThisReadsWell).</li>
+	</ul>
+	<h3 id="concepts-and-terminology" class="c-heading-medium">
+		Concepts and terminology
+	</h3>
+	<p>
+		If possible, link to supporting articles when discussing new concepts and terminology, preferably sites with good accessibility support. This provides the reader with more detail on the subject without having to extend your post&#39;s length. It is also provides an alternate way of understanding the subject you introduce.
+	</p>
+	<p>
+		Avoid analogies, similes, and metaphors that are too reliant on demographic, geography, religion, or culture.
+	</p>
+	<h4 id="example-concepts-and-terminology" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			<a href="https://alistapart.com/article/responsive-web-design">Responsive Web Design (RWD)</a> allows us to create flexible, accessible layouts. Content in RWD behaves like water, fitting whatever container it is placed in.
+		</p>
+	</div>
+	<h3 id="user-or-person-" class="c-heading-medium">
+		User or Person?
+	</h3>
+	<p>
+		Prefer the terms &quot;person&quot; or &quot;people&quot; over &quot;user&quot; or &quot;users&quot;.
+	</p>
+	<h4 id="example-user-or-person" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			<strong>Do:</strong> Some people prefer a large font size.
+		</p>
+	<p>
+		<strong>Don&#39;t:</strong> Most users have smartphones.
+	</p>
+	</div>
+	<h3 id="acronyms" class="c-heading-medium">
+		Acronyms
+	</h3>
+	<p>
+		Spell out an acronym in full before using the shorthand version, and wrap each usage of the acronym in the <code>&lt;abbr&gt;</code> element.
+	</p>
+	<h4 id="example-acronyms" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			A User Interface (<abbr>UI</abbr>) is the space where interaction between humans and machines occur. The goal of a UI is to make it easy, efficient, and enjoyable to operate a machine.
+		</p>
+	</div>
+	<h3 id="assumptive-phrases" class="c-heading-medium">
+		Assumptive phrases
+	</h3>
+	<p>
+		The reader may have a different level of experience than you on the topic you&#39;re writing about. Avoid using terms like &quot;just&quot;, &quot;simply&quot;, &quot;easily&quot;, &quot;obviously&quot;, etc.
+	</p>
+	<p>
+		If you make a statement about how a population behaves, please also make sure to cite a trustworthy source.
+	</p>
+	<h3 id="gender" class="c-heading-medium">
+		Gender
+	</h3>
+	<p>
+		Use &quot;they&quot; when discussing a person unless they have made their preferred gender known.
+	</p>
+	<h3 id="identity" class="c-heading-medium">
+		Identity
+	</h3>
+	<p>
+		Honor how an individual chooses to express themselves. Use <a href="https://thebodyisnotanapology.com/magazine/i-am-disabled-on-identity-first-versus-people-first-language/">identity-first language</a>.
+	</p>
+	<h3 id="ableist-language" class="c-heading-medium">
+		Ableist language
+	</h3>
+	<p>
+		Avoid using ableist language, unless quoting in context. Ableist language uses words or phrases that have a negative connotation for disabled people.
+	</p>
+	<p>
+		Don&#39;t describe a person as having a disability unless it is relevant to the point you are trying to make. When discussing an individual, use the term they choose to self-identify with.
+	</p>
+	<h4 id="further-reading" class="c-heading-small">
+		Further reading
+	</h4>
+	<ul>
+		<li><a href="https://www.autistichoya.com/p/ableist-words-and-terms-to-avoid.html">Autistic Hoya: Ableism/Language</a></li>
+		<li><a href="https://adata.org/factsheet/ADANN-writing">Guidelines for Writing About People With Disabilities</a></li>
+		<li><a href="https://www.apa.org/pi/disability/resources/choosing-words.aspx">Choosing Words for Talking About Disability - American Psychological Association</a></li>
+		<li><a href="http://disabilityinkidlit.com/2016/07/08/introduction-to-disability-terminology/">Introduction to Disability Terminology - Disability in Kidlit</a></li>
+		<li><a href="https://consciousstyleguide.com/">Conscious Style Guide</a></li>
+		<li><a href="https://lithub.com/the-dos-and-donts-of-writing-about-the-disabled/">The Dos and Don’ts of Writing About the Disabled | Literary Hub</a></li>
+	</ul>
+	<h4 id="examples" class="c-heading-small">
+		Examples
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			<strong>Do:</strong> This seems confusing!
+		</p>
+		<p>
+			<strong>Don&#39;t:</strong> This is crazy!
+		</p>
+		<p>
+			<strong>Do:</strong> They use a wheelchair.
+		</p>
+		<p>
+			<strong>Don&#39;t:</strong> They&#39;re bound to a wheelchair.
+		</p>
+		<p>
+			<strong>Do:</strong> Alice is blind.
+		</p>
+		<p>
+			<strong>Don&#39;t:</strong> She&#39;s handicapable.
+		</p>
+		<p>
+			<strong>Do:</strong> They do not have a disability.
+		</p>
+		<p>
+			<strong>Don&#39;t:</strong> They&#39;re able-bodied.
+		</p>
+	</div>
+	<h3 id="profanity">Profanity</h3 class="c-heading-medium">
+	<p>
+		Don&#39;t use profane terms unless quoting in context.
+	</p>
+	<h4 id="example-profanity" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			<strong>Do:</strong> Our project manager said, &quot;Ugh, accessibility. Not that shit again.&quot; Reader, it was time to act.
+		</p>
+		<p>
+			<strong>Don&#39;t:</strong> Writing transcripts is fucking tedious.
+		</p>
+	</div>
+	<h3 id="multimedia" class="c-heading-medium">
+		Multimedia
+	</h3>
+	<ul>
+		<li>Ensure interactive multimedia can be fully operated by keyboard input.</li>
+		<li>Multimedia should be able to be paused, and should load in a paused state.</li>
+		<li>Don&#39;t use multimedia that will automatically steal keyboard focus.</li>
+		<li>Multimedia with audio should provide both subtitles and transcripts of any spoken dialog or important sounds.</li>
+		<li>Don&#39;t use multimedia that uses <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-three-times.html">rapidly blinking, flashing, or strobing content</a>. This may trigger photosensitive seizure disorders.</li>
+	</ul>
+	<h3 id="spell-check" class="c-heading-medium">
+		Spell-check
+	</h3>
+	<p>
+		Please check your spelling before submitting content. Many code editors have spell checking extensions. This is a courtesy to both your readers and the people who will review your contribution.
+	</p>
+	<h2 id="markdown" class="c-heading-large">
+		Markdown
+	</h2>
+	<p>
+		The A11Y Project uses <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">GitHub-flavored Markdown</a>.
+	</p>
+	<h3 id="front-matter" class="c-heading-medium">
+		Front matter
+	</h3>
+	<p>
+		Eleventy uses front matter information to create things like author attribution, categories, and page layout. Copying an existing file, then updating its filename and front matter to can be an easy way to help ensure everything is formatted properly.
+	</p>
+	<h3 id="line-breaks" class="c-heading-medium">
+		Line breaks
+	</h3>
+	<p>
+		Use a single newline to separate block-level content like headings, lists, images, code blocks, etc. The exception is second-level headings, where it should be two newlines. This helps visualize the overall structure of content in a code editor.
+	</p>
+	<h3 id="headings" class="c-heading-medium">
+		Headings
+	</h3>
+	<ul>
+		<li>Use ordered headings to provide a meaningful high-level outline of your content.</li>
+		<li>There should be only one first-level heading per page. Blog posts don&#39;t need first level headings, as Eleventy will automatically convert the title section of your post&#39;s front matter into a first-level heading.</li>
+		<li>Blog posts should use pound/hash signs (<code>#</code>), not underlines (<code>---</code> or <code>===</code>) to designate headings.</li>
+		<li>For non-blog post content, use heading elements (e.g. <code>&lt;h2&gt;</code>).</li>
+		<li>Use sentence case for headings (e.g. Don&#39;t auto-play video, music and more).</li>
+		<li>Try to not use headings level 4 through 6. If your content is that detailed, it may need to be broken into separate posts.</li>
+	</ul>
+	<h3 id="paragraphs" class="c-heading-medium">
+		Paragraphs
+	</h3>
+	<ul>
+		<li>Try to keep your paragraphs on the shorter side. 5 to 6 sentences maximum.</li>
+		<li>Don&#39;t indent your first paragraph with space characters (e.g. <code>⋅⋅⋅Three spaces before a paragraph will indent it.</code>).</li>
+	</ul>
+	<h3 id="lists" class="c-heading-medium">
+		Lists
+	</h3>
+	<ul>
+		<li>Put a period at the end of every list item.</li>
+		<li>Uses dashes (<code>-</code>) for unordered lists.</li>
+		<li>Use the number one (<code>1.</code>) for ordered lists.</li>
+		<li>Use one space after a list item.</li>
+		<li>Indent nested lists with four spaces (e.g. <code>⋅⋅⋅⋅-</code>).</li>
+	</ul>
+	<h3 id="links" class="c-heading-medium">
+		Links
+	</h3>
+	<ul>
+		<li>Links should provide context for the content they link to. Avoid using ambiguous terms like &quot;click here&quot;.</li>
+		<li>Use Markdown-style links (<code>[link text](URL)</code>) instead of HTML for post content.</li>
+		<li>Links should not open in new tabs or windows.</li>
+	</ul>
+	<h3 id="images" class="c-heading-medium">
+		Images
+	</h3>
+	<ul>
+		<li>Use Markdown-style images (<code>![alternate description](image url)</code>) instead of HTML for post content.</li>
+		<li>Provide <a href="https://a11yproject.com/posts/alt-text/">meaningful alternative (alt) descriptions for images</a>. Alt descriptions should concisely describe the image&#39;s content.</li>
+		<li>Use complete sentences for your alt descriptions (e.g. <code>![A happy-looking Labrador Retriever puppy sitting in a clay flower pot.](image url)</code>). Including punctuation in your alt description will help some assistive technology pronounce it clearly.</li>
+		<li>Do not use ambiguous terms like &quot;image&quot;, &quot;ScreenCapture at Wed Aug 22&quot;, &quot;post image&quot;, etc.</li>
+		<li>Do not use <code>height</code> and <code>width</code> attributes.</li>
+	</ul>
+	<h3 id="code" class="c-heading-medium">
+		Code
+	</h3>
+	<ul>
+		<li>Use single backticks to enclose inline code for post content (e.g. The <code>`footer`</code> element typically contains metadata about its section.).</li>
+		<li>Use triple backticks before and after a multi-line block of code for post content.</li>
+		<li>Do not use multi-line blocks of code to create diagrams, flowcharts, or other illustrations.</li>
+	</ul>
+	<h3 id="horizontal-rules" class="c-heading-medium">
+		Horizontal rules
+	</h3>
+	<ul>
+		<li>Use three hyphens (<code>---</code>) to create a horizontal rule for post content.</li>
+		<li>Use horizontal rules for breaks in paragraph content</li>
+		<li>Use horizontal rules for <a href="http://html5doctor.com/small-hr-element/">thematic breaks</a>, and not for decoration.</li>
+	</ul>
+	<h3 id="inline-html" class="c-heading-medium">
+		Inline HTML
+	</h3>
+	<p>
+		Use HTML only when Markdown cannot accurately describe your post content. Use <a href="https://alistapart.com/article/conversational-semantics">relevant, semantic HTML elements</a> and attributes. Examples of this would be:
+	</p>
+	<ul>
+		<li>A video embed.</li>
+		<li>A definition list.</li>
+		<li>Elements like <code>&lt;kbd&gt;</code> and <code>&lt;samp&gt;</code>, which do not have Markdown equivalents.</li>
+	</ul>
+	<h2 id="important-terms" class="c-heading-large">
+		Important terms
+	</h2>
+	<h3 id="the-a11y-project" class="c-heading-medium">
+		The A11Y Project
+	</h3>
+	<p>
+		This website&#39;s name is spelled with a capital T, A, Y, and P.
+	</p>
+	<h4 id="example-the-a11y-project" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			<strong>Do:</strong> The A11Y Project
+		</p>
+		<p>
+			<strong>Don&#39;t:</strong> a11y Project
+		</p>
+	</div>
+	<p>
+		The A11Y Project also uses the following terms as proper nouns when discussing accessibility-related content:
+	</p>
+	<ul>
+		<li>How-tos</li>
+		<li>Myths</li>
+	</ul>
+	<h3 id="a11y-accessibility" class="c-heading-medium">
+		a11y/accessibility
+	</h3>
+	<p>
+		&quot;a11y&quot; is a <a href="https://a11yproject.com/posts/a11y-and-other-numeronyms/">numeronym</a> that is short for &quot;accessibility&quot;. The number 11 stands for the 11 letters between the first and last letters of the word.
+	</p>
+	<p>
+		The numeronym is to not be used in formal writing. Use the full word, unless quoting in context.
+	</p>
+	<h4 id="example-a11y-accessibility" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			<strong>Do:</strong> &quot;The number of developers interested in accessibility a11y (accessibility) is rising quickly.&quot;
+		</p>
+		<p>
+			<strong>Don&#39;t:</strong> When we talk about a11y, we are discussing...
+		</p>
+	</div>
+	<h3 id="github" class="c-heading-medium">
+		GitHub
+	</h3>
+	<p>
+		Capitalize the terms critical to using GitHub:
+	</p>
+	<ul>
+		<li>Branch</li>
+		<li>Clone</li>
+		<li>Fork</li>
+		<li>Git</li>
+		<li>Issue</li>
+		<li>Pull Request</li>
+		<li>Release</li>
+	</ul>
+	<h3 id="people-organizations-titles-and-honorifics" class="c-heading-medium">
+		People, organizations, titles, and honorifics
+	</h3>
+	<p>
+		Honor how someone or something chooses to officially spell their name.
+	</p>
+	<h4 id="example-people-organizations-titles-and-honorifics" class="c-heading-small">
+		Example
+	</h4>
+	<div class="c-dos-donts">
+		<p>
+			danah boyd is a technology and social media scholar. She is a Principal Researcher at Microsoft Research, the founder and president of Data &amp; Society Research Institute, and a Visiting Professor at New York University.
+		</p>
+	</div>
+	<h3 id="other-proper-nouns" class="c-heading-medium">
+		Other proper nouns
+	</h3>
+	<p>
+		These terms are commonly used on the site, or in the accessibility community.
+	</p>
+	<ul>
+		<li><a href="https://www.w3.org/Style/CSS/Overview.en.html">Cascading Style Sheets</a> (<abbr>CSS</abbr>)</li>
+		<li><a href="https://www.w3.org/DOM/">Document Object Model</a> (<abbr>DOM</abbr>)</li>
+		<li><a href="https://support.microsoft.com/en-us/help/13862/windows-use-high-contrast-mode">High Contrast Mode</a></li>
+		<li><a href="https://www.w3.org/html/">Hypertext Markup Language</a> (<abbr>HTML</abbr>)</li>
+		<li><a href="https://www.w3.org/standards/techs/js">JavaScript</a> (<abbr>JS</abbr>)</li>
+		<li><a href="https://www.json.org/">JavaScript Object Notation</a> (<abbr>JSON</abbr>)</li>
+		<li><a href="https://www.w3.org/WAI/PF/aria/roles#landmark_roles">Landmark</a></li>
+		<li><a href="https://www.meetup.com/">Meetup</a></li>
+		<li><a href="https://www.w3.org/Graphics/SVG/">Scalable Vector Graphics</a> (<abbr>SVG</abbr>)</li>
+		<li><a href="https://www.w3.org/WAI/standards-guidelines/aria/">Web Accessibility Initiative Accessible Rich Internet Applications</a> (<abbr>WAI-ARIA/ARIA</abbr>)</li>
+		<li><a href="https://www.w3.org/">World Wide Web Consortium</a> (<abbr>W3C</abbr>)</li>
+		<li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines</a> (<abbr>WCAG</abbr>)</li>
+		<li><a href="https://en.m.wikipedia.org/wiki/Web_conferencing">Webinar</a></li>
+		<li><a href="http://yaml.org/">YAML</a> (<abbr>YAML Ain&#39;t Markup Language</abbr>)</li>
+	</ul>
+
+</div>

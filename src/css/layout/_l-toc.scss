@@ -1,0 +1,41 @@
+.l-toc {
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: toc;
+	}
+
+	// Contexts
+	.template-home & {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-top: 1.25rem;
+		}
+	}
+
+	.template-generic & {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-top: 5.25rem;
+		}
+	}
+
+	.template-post & {
+		margin: 0.65rem 0 0 map-get($global-bleed, small);
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			margin-right: map-get($global-post-content-inset, "medium");
+			margin-bottom: 2rem;
+			margin-left: map-get($global-post-content-inset, "medium") / 2;
+		}
+
+		@include mappy-bp(lap-small) {
+			margin-right: map-get($global-post-content-inset, "large");
+			margin-left: 5.5rem;
+		}
+
+		@include mappy-bp(lap-medium) {
+			margin: 0.4rem 0 0 map-get($global-bleed, small);
+		}
+	}
+}

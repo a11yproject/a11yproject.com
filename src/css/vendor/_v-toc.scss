@@ -1,0 +1,242 @@
+// tableOfContents.js
+// http://github.com/cferdinandi/table-of-contents
+.v-toc {
+	margin-right: 2rem;
+
+	// States
+	&[open] {
+		.v-toc__icon {
+			transform: rotate(90deg);
+		}
+	}
+
+	// Vendor
+	// [1] Removes default browser `details` element arrow
+	& > summary {
+		list-style: none; // [1]
+	}
+
+	& > summary::-webkit-details-marker {
+		display: none; // [1]
+	}
+}
+
+.v-toc__summary {
+	cursor: pointer;
+	font-family: $font-family-secondary;
+	letter-spacing: $font-tracking-slight;
+	text-transform: uppercase;
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	// States
+	&:focus {
+		outline: $border-thicker solid transparent;
+
+		.v-toc__title {
+			text-decoration: none;
+		}
+	}
+
+	// Contexts
+	.template-post &,
+	.template-resources & {
+		color: $color-green;
+	}
+
+	.template-checklist &,
+	.template-about &,
+	.template-team &,
+	.template-authors,
+	.template-spotlight & {
+		color: $color-blue-shade;
+	}
+
+	.template-posts &,
+	.template-contribute &,
+	.template-generic & {
+		color: $color-blue;
+	}
+}
+
+.v-toc__icon {
+	height: 1rem;
+	width: 1rem;
+
+	// Contexts
+	.template-post &,
+	.template-resources & {
+		fill: $color-green;
+	}
+
+	.template-checklist &,
+	.template-about &,
+	.template-team &,
+	.template-authors,
+	.template-spotlight & {
+		fill: $color-blue-shade;
+	}
+
+	.template-posts &,
+	.template-contribute &,
+	.template-generic & {
+		fill: $color-blue;
+	}
+}
+
+
+.v-toc__title {
+	display: block;
+	margin-left: 0.5rem;
+	text-decoration: underline;
+	text-decoration-thickness: $border-thinnest;
+	text-underline-offset: 0.5em;
+
+	// States
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+.v-toc_nav {
+	padding: 2rem 1rem 1.55rem 2rem;
+
+	// Supports
+	@supports #{$supports-flex} {
+		padding-top: 0.5rem;
+	}
+
+	// Text-level formatting
+	h2 {
+		@include hide("visually");
+	}
+
+	ol {
+		@include preserve-list-semantics();
+
+		padding-top: none;
+		list-style-type: none;
+
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			columns: 2;
+
+			// Contexts
+			.template-generic &,
+			.template-resources &,
+			.template-post &,
+			.template-spotlight &,
+			.template-team & {
+				columns: 1;
+			}
+		}
+
+		@include mappy-bp(palm-large) {
+			columns: 3;
+		}
+
+		@include mappy-bp(lap-small) {
+			columns: 1;
+		}
+
+		ol {
+			padding-left: 1rem;
+		}
+	}
+
+	li {
+		font-family: $font-family-secondary;
+		letter-spacing: $font-tracking-slight;
+		line-height: $line-height-tighter;
+		margin-bottom: 1.25rem; // EXCEPTION: Applying a bottom margin instead of top to ensure columns line up properly.
+		text-transform: uppercase;
+
+		// Supports
+		@supports #{$supports-flex} {
+			margin-bottom: 0;
+		}
+
+		code {
+			text-transform: none;
+		}
+
+		// Removing content
+		svg,
+		.direct-link {
+			display: none;
+		}
+
+		li {
+			letter-spacing: 0;
+			text-transform: none;
+
+			&:first-of-type {
+				margin-top: 1rem;
+
+				// Supports
+				@supports #{$supports-flex} {
+					margin-top: 0;
+				}
+			}
+
+			&:last-of-type {
+				margin-bottom: map-get($global-bleed, small);
+			}
+
+			// Contexts
+			.template-posts & {
+				display: none;
+			}
+		}
+	}
+
+	a {
+		border-bottom: $border-thinnest solid $color-sand;
+		color: $color-gray-shade;
+		text-decoration: none;
+		transition:
+			$animation-duration-short $animation-easing-character color,
+			$animation-duration-short $animation-easing-character border;
+
+		// Supports
+		@supports #{$supports-flex} {
+			border-bottom: none;
+			display: flex;
+
+			&::after {
+				content: "";
+				flex: 1 1;
+				border-bottom: $border-thinner solid $color-sand;
+				margin: auto auto auto 0.5rem;
+			}
+
+			// States
+			&:hover::after,
+			&:focus::after {
+				border-bottom-color: $color-pink;
+			}
+		}
+
+		// States
+		&:focus {
+			outline: $border-thin solid transparent;
+		}
+
+		&:hover,
+		&:focus {
+			border-bottom-color: $color-green;
+			color: $color-black;
+		}
+
+		// User Queries
+		@media screen and (prefers-reduced-motion: reduce) {
+			transition: none;
+		}
+	}
+}

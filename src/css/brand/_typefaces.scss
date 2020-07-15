@@ -1,0 +1,101 @@
+// Typefaces
+//
+// [Good typography is accessible](https://webdesign.tutsplus.com/articles/designing-accessible-content-typography-font-styling-and-structure--cms-31934).
+// The typefaces we use for The A11Y Project have been selected because of
+// their acessibility-friendly qualities. These include distinct letterforms
+// with prominent ascenders and descenders, to help both Dyslexia concerns and
+// provide recognizable letter shapes for English as a second language
+// considerations.
+//
+// When it comes to accessible web typography, it is also important to remember
+// that [fonts don't matter](https://axesslab.com/fonts-dont-matter/). We
+// strive to make good design choices that aid in legibility and comprehension.
+// This includes a comfortable line length and height, and a good font size.
+// Most importantly, we use technolgies that allow a person to change the
+// typeface, color, and size if they need to.
+//
+// Performance is also a concern. We deliver the site's typefaces in a way
+// that's fast and friendly to modern browsers, without hampering or locking out
+// people using older or non-mainstream technology.
+//
+// Style guide: Brand.Typefaces
+
+
+// Primary
+//
+// Weight: 1
+//
+// Our primary typeface is [Noto Serif](https://fonts.google.com/specimen/Noto+Serif),
+// made by Google. The Noto type family is intended to be visually harmonious
+// across multiple languages, with compatible heights and stroke thicknesses.
+//
+// Markup:
+// <h2 class="u-font-family-primary">Jackdaws love my big sphinx of quartz</h2>
+// <h3 class="u-font-family-primary">Quick wafting zephyrs vex bold Jim.</h3>
+// <p class="u-font-family-primary">Bright vixens jump; dozy fowl quack. Both fickle dwarves jinx my pig quiz. Pack my box with five dozen liquor jugs. Few quips galvanized the mock jury box.</p>
+// <p class="u-font-family-primary">A B C D E F G H I J K L M<br/>N O P Q R S T U V W X Y Z</p>
+// <p class="u-font-family-primary">a b c d e f g h i j k l m<br/>n o p q r s t u v w x y z</p>
+// <p class="u-font-family-primary">1 2 3 4 5 6 7 8 9 0</p>
+// <p class="u-font-family-primary">! & @ % $ # ?</p>
+//
+// Styleguide Brand.Typefaces.Primary
+
+
+// Secondary
+//
+// Weight: 2
+//
+// Our secondary typeface is [Anaheim](https://fonts.google.com/specimen/Anaheim),
+// a sans-serif font made by Vernon Adams.
+//
+// Markup:
+// <h2 class="u-font-family-secondary">Jackdaws love my big sphinx of quartz</h2>
+// <h3 class="u-font-family-secondary">Quick wafting zephyrs vex bold Jim.</h3>
+// <p class="u-font-family-secondary">Bright vixens jump; dozy fowl quack. Both fickle dwarves jinx my pig quiz. Pack my box with five dozen liquor jugs. Few quips galvanized the mock jury box.</p>
+// <p class="u-font-family-secondary">A B C D E F G H I J K L M<br/>N O P Q R S T U V W X Y Z</p>
+// <p class="u-font-family-secondary">a b c d e f g h i j k l m<br/>n o p q r s t u v w x y z</p>
+// <p class="u-font-family-secondary">1 2 3 4 5 6 7 8 9 0</p>
+// <p class="u-font-family-secondary">! & @ % $ # ?</p>
+//
+// Styleguide Brand.Typefaces.Secondary
+
+
+// Code
+//
+// Weight: 3
+//
+// Our code typeface is [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro),
+// a monospace font made by Paul D. Hunt. It is adapted from the Source Sans to
+// provide a monospace treatment for coding applications.
+//
+// Markup:
+// <h2 class="u-font-family-code">Jackdaws love my big sphinx of quartz</h2>
+// <h3 class="u-font-family-code">Quick wafting zephyrs vex bold Jim.</h3>
+// <p class="u-font-family-code">Bright vixens jump; dozy fowl quack. Both fickle dwarves jinx my pig quiz. Pack my box with five dozen liquor jugs. Few quips galvanized the mock jury box.</p>
+// <p class="u-font-family-code">A B C D E F G H I J K L M<br/>N O P Q R S T U V W X Y Z</p>
+// <p class="u-font-family-code">a b c d e f g h i j k l m<br/>n o p q r s t u v w x y z</p>
+// <p class="u-font-family-code">1 2 3 4 5 6 7 8 9 0</p>
+// <p class="u-font-family-code">! & @ % $ # ?</p>
+//
+// Styleguide Brand.Typefaces.Code
+
+
+// Native
+//
+// Weight: 4
+//
+// The native typeface is a special declaration that tells the browser to use
+// the typeface it uses for things like menus and labels. For macOS, it is
+// [San Francisco](https://en.m.wikipedia.org/wiki/San_Francisco_(sans-serif_typeface)).
+// For Windows, it is [Segoe UI](https://en.m.wikipedia.org/wiki/Segoe).
+//
+// Markup:
+// <h2 class="u-font-family-native">Jackdaws love my big sphinx of quartz</h2>
+// <h3 class="u-font-family-native">Quick wafting zephyrs vex bold Jim.</h3>
+// <p class="u-font-family-native">Bright vixens jump; dozy fowl quack. Both fickle dwarves jinx my pig quiz. Pack my box with five dozen liquor jugs. Few quips galvanized the mock jury box.</p>
+// <p class="u-font-family-native">A B C D E F G H I J K L M<br/>N O P Q R S T U V W X Y Z</p>
+// <p class="u-font-family-native">a b c d e f g h i j k l m<br/>n o p q r s t u v w x y z</p>
+// <p class="u-font-family-native">1 2 3 4 5 6 7 8 9 0</p>
+// <p class="u-font-family-native">! & @ % $ # ?</p>
+//
+// Styleguide Brand.Typefaces.Native

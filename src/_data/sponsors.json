@@ -1,0 +1,19 @@
+{
+	"sponsor": [
+		{
+			"image": "invision-design-forward-fund.svg",
+			"url": "https://www.invisionapp.com/design-forward-fund",
+			"alt": "InVision Design Forward Fund. Apply now."
+		},
+		{
+			"image": "go-make-things.svg",
+			"url": "https://vanillajsacademy.com/",
+			"alt": "Go make things. Learn Vanilla JavaScript. Get daily developer tips."
+		},
+		{
+			"image": "sponsor-the-a11y-project.svg",
+			"url": "/sponsorship/",
+			"alt": "Sponsor The A11Y Project. Learn how."
+		}
+	]
+}

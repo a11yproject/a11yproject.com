@@ -1,0 +1,24 @@
+---
+layout: layouts/home.njk
+title: Authors
+subtitle: All our authors.
+eleventyNavigation:
+  key: Authors
+  parent: Project
+  order: 3
+tags:
+  - project
+templateClass: template-authors
+---
+
+{% include "nav/toc.njk" %}
+
+<div data-content class="l-content c-content--authors">
+
+	{% set personRole = "author" %}
+	{% set person = authors.author %}
+	{% for person in person %}
+		{% include "person.njk" %}
+	{% endfor %}
+
+</div>

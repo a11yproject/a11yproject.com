@@ -1,0 +1,104 @@
+.l-post {
+	margin-top: 2rem;
+
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		margin-top: 4rem;
+	}
+}
+
+
+.l-post__header {
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		// Supports
+		@supports #{$supports-grid} {
+			display: grid;
+			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 2fr 2rem map-get($global-post-columns, toc);
+			grid-template-rows: auto auto;
+			grid-template-areas:
+				"category . title    . ."
+				".        . metadata . .";
+		}
+	}
+}
+
+
+.l-post__body {
+	margin-top: 6ex;
+
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		// Supports
+		@supports #{$supports-grid} {
+			display: grid;
+			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 2fr 2rem map-get($global-post-columns, toc);
+			grid-template-rows: auto auto;
+			grid-template-areas:
+				". . content     . toc";
+		}
+	}
+}
+
+
+.l-post__category {
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: category;
+	}
+}
+
+
+.l-post__title {
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: title;
+	}
+}
+
+
+.l-post__metadata {
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: metadata;
+	}
+}
+
+
+.l-post__content {
+	@include post-content-inset("small");
+
+	margin-top: 6ex;
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		@include post-content-inset("medium");
+	}
+
+	@include mappy-bp(lap-small) {
+		@include post-content-inset("large");
+	}
+
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: content;
+
+		// Breakpoints
+		@include mappy-bp(lap-medium) {
+			margin-right: 0;
+			margin-left: map-get($global-bleed, small);
+		}
+
+		@include mappy-bp(lap-small) {
+			margin-top: 0;
+		}
+	}
+}
+
+
+.l-post__linkroll {
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: linkroll;
+	}
+}

@@ -1,0 +1,19 @@
+// Namespace
+.c-content {
+	// Embedded Tweet
+	//
+	// Style guide: Components.post.tweet
+	.twitter-tweet {
+		margin-top: $_c-post-vertical-spacing !important;
+		margin-bottom: $_c-post-breathing-room !important;
+	}
+
+
+	// Embedded CodePen
+	//
+	// Style guide: Components.post.codepen
+	iframe[src^="https://codepen.io/"] {
+		margin-top: $_c-post-vertical-spacing !important;
+		height: 20rem;
+	}
+}

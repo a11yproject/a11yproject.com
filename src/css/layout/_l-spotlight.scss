@@ -1,0 +1,6 @@
+.l-spotlight__hero {
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: toc; // HACK: This is to get spotlight hero images positioned correctly until a better way of laying out the page can be done
+	}
+}

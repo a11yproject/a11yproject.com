@@ -1,0 +1,32 @@
+{
+  "name": "The A11Y Project",
+	"short_name": "A11Y",
+	"description": "A community-driven effort to make digital accessibility easier.",
+	"start_url": "/",
+	"scope": "/",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "/logo-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/logo-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/logo.svg",
+      "type": "image/svg",
+      "sizes": "192x192 512x512"
+    }
+	],
+  "background_color": "#fb37ff",
+  "theme_color": "#00260f",
+  "display": "minimal-ui"
+}

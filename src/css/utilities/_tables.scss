@@ -1,0 +1,18 @@
+$table-widths: (
+	5, 10, 12, 15, 20, 25, 30, 33, 35, 37, 40, 45, 50, 55, 60, 62, 65, 66, 70, 75, 80, 85, 87, 90, 95
+);
+
+// u-table-col-width
+//
+// Sets a column width as a percentage. Be sure to keep at least one column free
+// of a width declaration to absorb width rounding errors.
+//
+// Markup:
+// <td class="u-table-col-width">…</td>
+//
+// Styleguide Utilities.u-table-col-width
+@each $width in $table-widths {
+	.u-table-col-width-#{$width} {
+		width: #{$width} + "%";
+	}
+}

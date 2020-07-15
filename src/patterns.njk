@@ -1,0 +1,29 @@
+---
+layout: layouts/home.njk
+title: Patterns
+subtitle: Where to find accessible implementations of common user interface components.
+eleventyNavigation:
+  key: Patterns
+  parent: Legacy
+tags:
+  - legacy
+templateClass: template-generic
+---
+
+<div class="l-content c-content c-content--generic">
+
+	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
+		{{ title }}
+	</h1>
+	<p class="c-subtitle">
+		{{ subtitle }}
+	</p>
+
+	<p>
+		If you are interested in learning about accessible implimentations of common User Interface (<abbr>UI</abbr>) elements, please consult the <a href="https://www.w3.org/TR/wai-aria-practices-1.1/">WAI-ARIA Authoring Practices</a>.
+	</p>
+	<p>
+		The WAI-ARIA Authoring Practices offers examples of many common UI elements, including Radio Groups, Listboxes, Breadcrumbs, Sliders, etc. It it also worth mentioning that these patterns are suggestions for an approach, and not reccomendations. Be sure to <a href="{{ '/checklist/' | url }}">test your UI</a> with people who use assistive technology to verify it works as intended.
+	</p>
+
+</div>
