@@ -74,6 +74,7 @@ var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var minify = require('gulp-cssnano');
 var gulpStylelint = require('gulp-stylelint');
+var purgeCSS = require('gulp-purgecss');
 
 // SVGs
 var svgmin = require('gulp-svgmin');
@@ -186,6 +187,9 @@ var buildStyles = function (done) {
 			discardComments: {
 				removeAll: true
 			}
+		}))
+		.pipe(purgeCSS({
+			content: ['src/**/*.njk']
 		}))
 		.pipe(dest(paths.styles.output));
 	// Signal completion

@@ -59,6 +59,7 @@
 		"gulp-jshint": "2.1.0",
 		"gulp-optimize-js": "1.1.0",
 		"gulp-plumber": "^1.2.1",
+		"gulp-purgecss": "^2.3.0",
 		"gulp-rename": "1.4.0",
 		"gulp-sass": "4.0.2",
 		"gulp-stylelint": "^8.0.0",
