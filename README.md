@@ -60,6 +60,10 @@ Make sure you edit the files in the `src/` subdirectory. Any edits made in the `
 
 You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd>C</kbd> keys at the same time in your command line application, or by closing the command line application window or tab.
 
+### Code Tour
+
+If you use [Visual Studio Code](vscode) as your code editor, you can take an introductory tour of the repository via the [CodeTour extension](codetour).
+
 ## Troubleshooting
 
 Please refer to our [Troubleshooting documentation](https://github.com/a11yproject/a11yproject.com/blob/main/TROUBLESHOOTING.md) for help with issues running the site.
@@ -84,3 +88,5 @@ Please refer to our [Troubleshooting documentation](https://github.com/a11yproje
 [root]: https://en.m.wikipedia.org/wiki/Root_directory
 [localhost]: http://localhost:3000
 [browsersync]: https://www.browsersync.io/
+[vscode]: https://code.visualstudio.com/
+[codetour]: https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour
