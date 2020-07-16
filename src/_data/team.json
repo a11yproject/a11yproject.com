@@ -33,12 +33,6 @@
 			"biography": "I’m a generalist web developer at Automattic living simply in rural Missouri with my wife and three kids."
 		},
 		{
-			"name": "Scott O'Hara",
-			"website": "https://www.scottohara.me/",
-			"photo": "https://avatars2.githubusercontent.com/u/4152514?s=460&v=4",
-			"biography": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone."
-		},
-		{
 			"name": "Scott Vinkle",
 			"website": "https://scottvinkle.me/",
 			"photo": "https://avatars1.githubusercontent.com/u/1392632?s=460&u=703b41be24a5fde23738489682f9cf5d642dd736&v=4",
@@ -75,6 +69,12 @@
 			"website": "https://joe-watkins.io/",
 			"photo": "https://avatars1.githubusercontent.com/u/3695795?s=460&v=4",
 			"biography": "Front-end web developer and web accessibility advocate."
+		},
+		{
+			"name": "Scott O'Hara",
+			"website": "https://www.scottohara.me/",
+			"photo": "https://avatars2.githubusercontent.com/u/4152514?s=460&v=4",
+			"biography": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone."
 		},
 		{
 			"name": "Jordan Foreman",
