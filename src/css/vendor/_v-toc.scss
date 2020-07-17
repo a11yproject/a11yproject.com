@@ -96,6 +96,7 @@
 	display: block;
 	margin-left: 0.5rem;
 	text-decoration: underline;
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.5em;
 

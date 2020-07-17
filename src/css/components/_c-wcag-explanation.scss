@@ -20,6 +20,7 @@
 .c-wcag-explanation__link {
 	@include link-states($color-blue-shade);
 
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
 }

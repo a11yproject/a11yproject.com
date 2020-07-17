@@ -109,6 +109,7 @@ $_checklist-padding: 1.5rem;
 
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
 	text-transform: uppercase;
