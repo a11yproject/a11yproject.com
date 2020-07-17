@@ -69,7 +69,7 @@ If you use [Visual Studio Code](vscode) as your code editor, you can take an int
 Please refer to our [Troubleshooting documentation](https://github.com/a11yproject/a11yproject.com/blob/main/TROUBLESHOOTING.md) for help with issues running the site.
 
 
-[numeronyms]: https://a11yproject.com/posts/a11y-and-other-numeronyms/
+[numeronyms]: https://a11yproject.com/posts/2017-08-26-a11y-and-other-numeronyms/
 [coc]: https://a11yproject.com/code-of-conduct/
 [contributing-guidelines]: https://a11yproject.com/contributing-guidelines/
 [content-style-guide]: https://a11yproject.com/content-style-guide/

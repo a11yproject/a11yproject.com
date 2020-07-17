@@ -44,6 +44,6 @@ Additional keyboard shortcuts are described here: [WebAIM - Keyboard Accessibili
 It is not enough to simply tab through a webpage from start to end. While navigating the site, keep these things in mind:
 
 - Interactive elements should be functional using only keyboard input.
-- The focused element should be visible and have an obvious focus style. See article: ["Quick Tip: Never remove CSS outlines"](/posts/never-remove-css-outlines/).
+- The focused element should be visible and have an obvious focus style. See article: ["Quick Tip: Never remove CSS outlines"](/posts/2013-01-25-never-remove-css-outlines/).
 - Focus should move between elements as they appear on the page and not jump back and forth.
-- There should be a way to skip past lengthy spans of content, like global navigation menus. See article: ["How–to: Use Skip Navigation links"](/posts/skip-nav-links/).
+- There should be a way to skip past lengthy spans of content, like global navigation menus. See article: ["How–to: Use Skip Navigation links"](/posts/2013-05-11-skip-nav-links/).
