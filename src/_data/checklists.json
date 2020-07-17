@@ -234,9 +234,9 @@
 		},
 		{
 			"title": "Use the <code>caption</code> element to provide a title for the table.",
-			"wcag": "4.1.1 Parsing",
-			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
-			"description": "Depending on <a href='https://www.w3.org/WAI/tutorials/tables/'>how complex your table is</a>, you may also consider using <code>scope=\"col\"</code> for column headers, <code>scope=\"row\"</code> for row headers. Many different kinds of assistive technology still use the <code>scope</code> attribute to help them understand and describe the structure of a table."
+			"wcag": "2.4.6 Headings or Labels",
+			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html",
+			"description": "The table's <code>caption</code> should describe what kind of information the table contains."
 		}
 	],
 	"forms": [
