@@ -106,7 +106,7 @@
 			"title": "Make sure that decorative images use null <code>alt</code> (empty) attribute values.",
 			"wcag": "1.1.1 Non-text Content",
 			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html",
-			"description": "Null <code>alt</code> attributes are also sometimes known as empty <code>alt</code> attributes. They are made by including no information between the opening and closing quotes of an <code>alt</code> attribute. Decorative images do not communicate information that is required to understand the website's overall meaning. Historically they were used for flourishes and <a href='https://en.m.wikipedia.org/wiki/Spacer_GIF'>spacer gif</a> images, but tend to be less relevant for modern websites and web apps."
+			"description": "Null <code>alt</code> attributes are also sometimes known as empty <code>alt</code> attributes. They are made by including no information between the opening and closing quotes of an <code>alt</code> attribute. Decorative images do not communicate information that is required to understand the website's overall meaning. Historically they were used for flourishes and <a href='https://en.wikipedia.org/wiki/Spacer_GIF'>spacer gif</a> images, but tend to be less relevant for modern websites and web apps."
 		},
 		{
 			"title": "Provide a text alternative for complex images such as charts, graphs, and maps.",
