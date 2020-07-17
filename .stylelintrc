@@ -90,7 +90,7 @@
 		"media-query-list-comma-space-after": "always",
 		"media-query-list-comma-space-before": "never",
 		"at-rule-name-case": "lower",
-		"at-rule-name-space-after": "always",
+		"at-rule-name-space-after": "always-single-line",
 		"at-rule-semicolon-newline-after": "always",
 		"at-rule-semicolon-space-before": "never",
 		"comment-whitespace-inside": "always",
