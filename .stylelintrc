@@ -19,13 +19,15 @@
 		"no-duplicate-selectors": true,
 		"no-extra-semicolons": true,
 		"color-named": ["never", {
-			"ignore": "inside-function"
+			"ignore": ["inside-function"]
 		}],
 		"function-url-no-scheme-relative": true,
 		"shorthand-property-no-redundant-values": true,
 		"value-no-vendor-prefix": true,
 		"property-no-vendor-prefix": true,
-		"declaration-block-no-redundant-longhand-properties": true,
+		"declaration-block-no-redundant-longhand-properties": [true, {
+			"ignoreShorthands": ["/grid/"]
+		}],
 		"selector-max-id": 0,
 		"selector-no-vendor-prefix": true,
 		"at-rule-no-vendor-prefix": true,
