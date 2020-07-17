@@ -28,14 +28,13 @@
 	// Supports
 	@supports #{$supports-flex} {
 		display: flex;
-		flex-direction: column;
 		flex-flow: row wrap;
 		margin-top: 0;
 
 		// Breakpoints
 		@include mappy-bp(palm-small) {
-			flex-direction: row;
 			flex-flow: initial;
+			flex-direction: row;
 		}
 
 		@include mappy-bp(lap-small) {
