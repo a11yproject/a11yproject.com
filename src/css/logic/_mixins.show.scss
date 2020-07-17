@@ -11,6 +11,7 @@
 // Styleguide Logic.Mixins.hide
 @mixin show($how: visually) {
 	// Hide only visually, but have it available for screen readers: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+	/* stylelint-disable-next-line block-no-empty */
 	@if ($how == "visually") {
 
 	}

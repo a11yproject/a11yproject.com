@@ -16,13 +16,13 @@ pre[class*="language-"] {
 	word-wrap: normal;
 	line-height: 1.5;
 
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
+	-moz-tab-size: 4; /* stylelint-disable-line property-no-vendor-prefix */
+	-o-tab-size: 4; /* stylelint-disable-line property-no-vendor-prefix */
 	tab-size: 4;
 
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
+	-webkit-hyphens: none; /* stylelint-disable-line property-no-vendor-prefix */
+	-moz-hyphens: none; /* stylelint-disable-line property-no-vendor-prefix */
+	-ms-hyphens: none; /* stylelint-disable-line property-no-vendor-prefix */
 	hyphens: none;
 }
 

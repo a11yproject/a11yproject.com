@@ -19,13 +19,13 @@ html {
 
 	// Typography
 	-ms-overflow-style: scrollbar;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%; /* stylelint-disable-line property-no-vendor-prefix */
+	-webkit-text-size-adjust: 100%; /* stylelint-disable-line property-no-vendor-prefix */
 
 	font-kerning: normal;
-	-moz-font-feature-settings: "kern";
-	-ms-font-feature-settings: "kern";
-	-webkit-font-feature-settings: "kern";
+	-moz-font-feature-settings: "kern"; /* stylelint-disable-line property-no-vendor-prefix */
+	-ms-font-feature-settings: "kern"; /* stylelint-disable-line property-no-vendor-prefix */
+	-webkit-font-feature-settings: "kern"; /* stylelint-disable-line property-no-vendor-prefix */
 	font-feature-settings: "kern";
 
 	&:lang(en-US) {
@@ -46,6 +46,7 @@ html {
 	}
 
 	// Vendor
+	/* stylelint-disable-next-line at-rule-no-vendor-prefix */
 	@-ms-viewport {
 		width: device-width; // https://msdn.microsoft.com/en-us/library/hh869615(v=vs.85).aspx
 	}
