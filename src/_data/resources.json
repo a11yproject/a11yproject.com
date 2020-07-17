@@ -180,6 +180,13 @@
 			"additional": "Kat Holmes",
 			"url": "https://mitpress.mit.edu/books/mismatch"
 		},
+		
+		{
+			"title": "Practical Web Inclusion & Accessibility",
+			"description": "This book will guide you through a broad range of access needs, the barriers users often face, and provide practical advice on how your sites can help rather than hinder. Going beyond advice tailored solely for developers, this book offers potential improvements for designers, developers, user experience professionals, QA and testers, so that everyone involved in building a website can benefit.",
+			"additional": "Ashley Firth",
+			"url": "https://learna11y.com"
+		},
 		{
 			"title": "Pro HTML5 Accessibility",
 			"description": "Pro HTML5 Accessibility helps designers come to grips with building exciting, accessible and usable web sites and applications with HTML5. The book covers how to use HTML5 in order to serve the needs of people with disabilities and older persons using assistive technology (AT).",
