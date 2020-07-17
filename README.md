@@ -67,26 +67,3 @@ If you use [Visual Studio Code](https://code.visualstudio.com/) as your code edi
 ## Troubleshooting
 
 Please refer to our [Troubleshooting documentation](https://github.com/a11yproject/a11yproject.com/blob/main/TROUBLESHOOTING.md) for help with issues running the site.
-
-
-[numeronyms]: https://a11yproject.com/posts/a11y-and-other-numeronyms/
-[coc]: https://a11yproject.com/code-of-conduct/
-[contributing-guidelines]: https://a11yproject.com/contributing-guidelines/
-[content-style-guide]: https://a11yproject.com/content-style-guide/
-[11ty]: https://www.11ty.io/
-[markdown]: https://daringfireball.net/projects/markdown/syntax
-[sass]: https://sass-lang.com/
-[nunjucks]: https://mozilla.github.io/nunjucks/
-[json]: https://www.json.org/
-[terminal]: https://commandlinepoweruser.com/
-[hyper]: https://hyper.is/
-[git]: https://git-scm.com/
-[github]: https://github.com/
-[github-app]: https://desktop.github.com
-[node]: https://nodejs.org/en/
-[nvm]: https://github.com/creationix/nvm
-[root]: https://en.m.wikipedia.org/wiki/Root_directory
-[localhost]: http://localhost:3000
-[browsersync]: https://www.browsersync.io/
-[vscode]: https://code.visualstudio.com/
-[codetour]: https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour
