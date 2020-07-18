@@ -324,7 +324,7 @@
 			"title": "Check your content in specialized browsing modes.",
 			"wcag": "1.4.1 Use of Color",
 			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
-			"description": "Activate <a href='posts/operating-system-and-browser-accessibility-display-modes/'>modes such as Windows High Contrast or Inverted Colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?"
+			"description": "Activate <a href='/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/'>modes such as Windows High Contrast or Inverted Colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?"
 		},
 		{
 			"title": "Increase text size to 200%.",
