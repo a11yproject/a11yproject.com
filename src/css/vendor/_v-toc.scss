@@ -166,12 +166,6 @@
 			text-transform: none;
 		}
 
-		// Removing content
-		svg,
-		.direct-link {
-			display: none;
-		}
-
 		li {
 			letter-spacing: 0;
 			text-transform: none;
@@ -237,6 +231,28 @@
 		// User Queries
 		@media screen and (prefers-reduced-motion: reduce) {
 			transition: none;
+		}
+	}
+
+	// Removing content
+	svg,
+	a.direct-link {
+		display: none !important;
+outline: 10px solid red !important;
+	}
+}
+
+// Hide content
+.l-toc {
+	.c-banner__icon {
+		display: none;
+	}
+
+	a + a {
+		display: none; // Removes `.direct-link` links. Class selectors won't work for some reason
+
+		.template-resources & {
+			display: inline; // Restores the featured resource name
 		}
 	}
 }
