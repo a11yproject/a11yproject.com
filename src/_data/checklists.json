@@ -210,7 +210,7 @@
 			"title": "Provide a skip link and make sure that it is visible when focused.",
 			"wcag": "2.4.1 Bypass Blocks",
 			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html",
-			"description": "A <a href='/posts/skip-nav-links/'>skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget."
+			"description": "A <a href='/posts/2013-05-11-skip-nav-links/'>skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget."
 		},
 		{
 			"title": "Identify links that open in a new tab or window.",
