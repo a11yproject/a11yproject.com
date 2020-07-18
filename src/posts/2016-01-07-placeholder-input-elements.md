@@ -37,7 +37,7 @@ Make your forms accessible by using one of the following methods (in order of pr
 
 1. Redesign to include a proper visible `label`
 1. Use `aria-label` or `aria-labelledby` to provide assistive text
-1. [Visually hide](https://a11yproject.com/posts/how-to-hide-content/) `label` elements (in an accessible manner)
+1. [Visually hide](/posts/2013-01-11-how-to-hide-content/) `label` elements (in an accessible manner)
 
 While we're paying attention to our placeholder text, let's review how to add better contrast:
 
