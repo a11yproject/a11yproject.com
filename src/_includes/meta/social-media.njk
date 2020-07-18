@@ -6,7 +6,7 @@
 <meta property="og:url" content="{{ page.url | url }}" />
 <meta property="og:title" content="{% if category %}{{ category }}: {% endif %}{% if title %}{{ title | striptags }} - {% endif %}{{ metadata.title }}" />
 <meta property="og:description" content="{% if subtitle %}{{ subtitle }}{% elif description %}{{ description }}{% else %}{{ metadata.feed.subtitle }}{% endif %}" />
-<meta property="og:image" content="/img/social/og-image-{% if title == "Home" %}home{% elif title == "Posts" %}posts{% elif title == "Checklist" %}checklist{% elif title == "About" %}about{% elif title == "Contribute" %}contribute{% elif title == "Team" %}team{% elif title == "Authors" %}authors{% elif title == "Spotlight" %}spotlight{% else %}home{% endif %}.png" />
+<meta property="og:image" content="{{ page.url | url | absoluteUrl(metadata.url) }}img/social/og-image-{% if title == "Home" %}home{% elif title == "Posts" %}posts{% elif title == "Checklist" %}checklist{% elif title == "About" %}about{% elif title == "Contribute" %}contribute{% elif title == "Team" %}team{% elif title == "Authors" %}authors{% elif title == "Spotlight" %}spotlight{% else %}home{% endif %}.png" />
 <meta property="og:image:alt" content="" />
 
 <meta property="twitter:card" content="summary_large_image" />
