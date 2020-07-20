@@ -34,7 +34,7 @@ As a bonus, sites that can be navigated with a keyboard are more likely to be na
 
 Generally, pressing <kbd>Tab</kbd> moves focus between interactive elements and pressing <kbd>Enter</kbd> will interact with them.
 
-If you are using Safari, <kbd>Option</kbd> + <kbd>Tab</kbd> is the default keyboard shortcut to move focus between elements. You can update your settings to make <kbd>Tab</kbd> the default navigation key by following the instructions in this article: [Quick Tip: Safari Keyboard Navigation](/posts/safari-keyboard-navigation/)
+If you are using Safari, <kbd>Option</kbd> + <kbd>Tab</kbd> is the default keyboard shortcut to move focus between elements. You can update your settings to make <kbd>Tab</kbd> the default navigation key by following the instructions in this article: [Quick Tip: Safari Keyboard Navigation](/posts/2013-01-11-navigate-using-just-your-keyboard/)
 
 Additional keyboard shortcuts are described here: [WebAIM - Keyboard Accessibility](https://webaim.org/techniques/keyboard/)
 
