@@ -10,6 +10,10 @@ $_person-photo: (
 	large: 12rem
 );
 
+@mixin _person-photo-size($size: tiny) {
+	height: map-get($_person-photo, $size);
+	width: map-get($_person-photo, $size);
+}
 
 .c-person {
 	margin-top: 2rem;
@@ -19,17 +23,11 @@ $_person-photo: (
 	}
 }
 
-@mixin photo($size: tiny) {
-	height: map-get($_person-photo, $size);
-	width: map-get($_person-photo, $size);
-}
-
-
 // Photos use background images since we can't control the dimensions of
 // submitted avatars. This centers whatever is added, which hopefully creates a
 // good cropping effect.
 .c-person__photo {
-	@include photo(tiny);
+	@include _person-photo-size(tiny);
 
 	background-position: center;
 	background-size: contain;
@@ -42,18 +40,21 @@ $_person-photo: (
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
-		@include photo(small);
+		@include _person-photo-size(small);
+
 		right: 2rem;
 	}
 
 	@include mappy-bp(palm-small) {
-		@include photo(medium);
+		@include _person-photo-size(medium);
+
 		margin-top: -3.5rem;
 		right: 3rem;
 	}
 
 	@include mappy-bp(palm-medium) {
-		@include photo(medium);
+		@include _person-photo-size(medium);
+
 		left: 1rem;
 		margin-top: -2rem;
 	}
@@ -63,14 +64,16 @@ $_person-photo: (
 	}
 
 	@include mappy-bp(lap-small) {
-		@include photo(medium);
+		@include _person-photo-size(medium);
+
 		left: initial;
 		margin-left: 1rem;
 		right: initial;
 	}
 
 	@include mappy-bp(lap-medium) {
-		@include photo(large);
+		@include _person-photo-size(large);
+
 		margin-top: -3rem;
 		margin-left: -1rem;
 	}
