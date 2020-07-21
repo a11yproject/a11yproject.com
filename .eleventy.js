@@ -74,7 +74,6 @@ module.exports = function (eleventyConfig) {
 	// Config
 	eleventyConfig.addPassthroughCopy("./src/humans.txt");
 	eleventyConfig.addPassthroughCopy("./src/manifest.json");
-	eleventyConfig.addPassthroughCopy("./src/netlify.toml");
 	eleventyConfig.addPassthroughCopy("./src/robots.txt");
 	eleventyConfig.addPassthroughCopy("./src/sw.js");
 
