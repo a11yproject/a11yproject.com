@@ -851,9 +851,21 @@
 		},
 		{
 			"title": "A11y Bytes",
-			"location": "Sydney, Australia",
-			"description": "A11y Bytes is a dynamic fast-paced evening of lightning talks about digital accessibility and the needs and preferences of users with disabilities.",
+			"location": "Australia",
+			"description": "A11y Bytes is a dynamic fast-paced evening of lightning talks about digital accessibility and the needs and preferences of users with disabilities, run in multiple cities across Australia.",
 			"url": "https://a11ybytes.org/"
+		},
+		{
+			"title": "Melbourne Web Accessibility and Inclusive Design",
+			"location": "Melbourne, Australia",
+			"description": "Based in Melbourne, Australia, this group is for web practitioners and other professionals who are interested in web accessibility and inclusive design practices.",
+			"url": "https://www.meetup.com/en-AU/Melbourne-Web-Accessibility-Inclusive-Design/"
+		},
+		{
+			"title": "Sydney Web Accessibility and Inclusive Design",
+			"location": "Sydney, Australia",
+			"description": "This Sydney group is for anyone interested in inclusive research, design and development practices. This includes accessible design and development, user research that involves people with disabilities in a holistic, integrated fashion as well as compliance with international standards such as the Web Content Accessibility Guidelines.",
+			"url": "https://www.meetup.com/en-AU/Sydney-Web-Accessibility-Inclusive-Design/"
 		},
 		{
 			"title": "Accessibility Scotland",
