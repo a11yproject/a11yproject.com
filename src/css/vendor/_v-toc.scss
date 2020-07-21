@@ -27,13 +27,6 @@
 	letter-spacing: $font-tracking-slight;
 	text-transform: uppercase;
 
-	// Supports
-	@supports #{$supports-flex} {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-	}
-
 	// States
 	&:focus {
 		outline: $border-thicker solid transparent;
@@ -61,6 +54,15 @@
 	.template-contribute &,
 	.template-generic & {
 		color: $color-blue;
+	}
+}
+
+.v-toc__summary-inner {
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
 	}
 }
 
