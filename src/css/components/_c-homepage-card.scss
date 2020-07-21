@@ -16,7 +16,10 @@
 
 
 .c-homepage-card--spotlight {
-	margin-right: 4rem;
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		margin-right: 4rem;
+	}
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -64,6 +67,7 @@
 .c-homepage-card__description {
 	font-family: $font-family-secondary;
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 	max-width: 50ch;
 }
 
@@ -76,7 +80,6 @@
 .c-homepage-card__cta {
 	border-bottom: $border-thinnest solid $color-pink;
 	color: $color-black;
-	display: inline-block;
 	font-family: $font-family-secondary;
 	margin-top: 1rem;
 	text-decoration: none;
@@ -106,7 +109,19 @@
 
 
 .c-homepage-card__checklist {
-	margin-right: map-get($global-bleed, large) * -1;
+	height: auto;
+	position: relative;
+		left: map-get($global-bleed, small);
+
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		left: map-get($global-bleed, large);
+		width: rem(400);
+	}
+
+	@include mappy-bp(palm-medium) {
+		width: rem(340);
+	}
 }
 
 

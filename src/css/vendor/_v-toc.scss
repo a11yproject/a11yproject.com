@@ -106,7 +106,7 @@
 }
 
 
-.v-toc_nav {
+.v-toc__nav {
 	padding: 2rem 1rem 1.55rem 2rem;
 
 	// Supports
@@ -168,12 +168,6 @@
 			text-transform: none;
 		}
 
-		// Removing content
-		svg,
-		.direct-link {
-			display: none;
-		}
-
 		li {
 			letter-spacing: 0;
 			text-transform: none;
@@ -214,7 +208,7 @@
 			&::after {
 				content: "";
 				flex: 1 1;
-				border-bottom: $border-thinner solid $color-sand;
+				border-bottom: $border-thick solid $color-sand;
 				margin: auto auto auto 0.5rem;
 			}
 
@@ -239,6 +233,28 @@
 		// User Queries
 		@media screen and (prefers-reduced-motion: reduce) {
 			transition: none;
+		}
+	}
+
+	// Removing content
+	svg,
+	a.direct-link {
+		display: none !important;
+outline: 10px solid red !important;
+	}
+}
+
+// Hide content
+.l-toc {
+	.c-banner__icon {
+		display: none;
+	}
+
+	a + a {
+		display: none; // Removes `.direct-link` links. Class selectors won't work for some reason
+
+		.template-resources & {
+			display: inline; // Restores the featured resource name
 		}
 	}
 }
