@@ -3,9 +3,4 @@
 	@supports #{$supports-grid} {
 		grid-area: header;
 	}
-
-	@supports #{$supports-flex} {
-		display: flex;
-		flex-direction: column;
-	}
 }
