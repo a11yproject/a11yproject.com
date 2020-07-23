@@ -1,0 +1,124 @@
+---
+layout: layouts/home.njk
+title: Accessibility Statement
+subtitle: The A11Y Project strives to be AA WCAG compliant.
+eleventyNavigation:
+  key: Accessibility Statement
+  parent: Site
+  order: 2
+tags:
+  - site
+templateClass: template-generic
+---
+
+{% include "nav/toc.njk" %}
+
+<div data-content class="l-content c-content c-content--generic">
+
+	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
+		{{ title }}
+	</h1>
+	<p class="c-subtitle">
+		{{ subtitle }}
+	</p>
+
+	<p>
+		The A11Y Project is committed to creating and maintaining an accessible, inclusive environment. It is a resource that is intended to be able to be used by everyone. This includes our audience, and also our <a href="{{ '/team/' | url }}">contributors</a>.
+	</p>
+	<h2 id="the-standard-we-adhere-to" class="c-heading-large">
+		The standard we adhere to
+	</h2>
+	<p>
+		The A11Y Project strives to be <strong><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines 2.1 (<abbr>WCAG</abbr>)</a> AA compliant</strong>. The WCAG is an open standard for determining accessibility. AA compliance is considered good support for a website geared towards a global audience.
+	</p>
+	<h2 id="what-we-are-doing" class="c-heading-large">
+		What we are doing
+	</h2>
+	<p>
+		The following initiatives are how The A11Y Project goes about doing this. We are:
+	</p>
+	<ul>
+		<li>Guided by a <a href="{{ '/code-of-conduct/' | url }}">Code of Conduct</a> that outlines expected behaviors.</li>
+		<li>Capable of responding to Code of Conduct breaches, should they occur, via an incident response guide.</li>
+		<li>Using time-tested, stable and interoperable technology based on <a href="#technical-specifications">open standards</a> to help ensure our content can be accessed by the widest range of devices as possible.</li>
+		<li>Running automated and manual checks to test for accessibility issues.</li>
+		<li>Working with daily assistive technology users to help verify our content works as intended.</li>
+		<li><a href="https://twitter.com/A11YProject">Promoting and attributing resources and knowledge</a> about digital accessibility.</li>
+		<li>Providing a free <a href="{{ '/checklist/' | url }}">checklist</a> to help others audit their content for accessibility issues.</li>
+		<li>Using <a href="{{ '/content-style-guide/' | url }}">clear, person-first, non-abelist language</a> for our messaging.</li>
+		<li>Hosting our code on <a href="https://github.com/a11yproject/a11yproject.com/">a public repository</a>, allowing anyone with the interest and capability to inspect and modify it.</li>
+		<li>Striving to keep our interactions and user interface unambiguous and easy to understand.</li>
+		<li>Striving to keep our download size small and memory footprint light.</li>
+		<li>Supporting magnified and zoomed displays, as well as custom typefaces and themes potentially set by someone in their browser.</li>
+		<li>Maintaining a color palette with high contrast ratios values to keep content legible.</li>
+		<li>Using distinct, obvious focus states for all interactive elements.</li>
+		<li>Respecting expressed preferences for a reduced animation experience.</li>
+		<li>Providing open, structured guidance on <a href="{{ '/contributing-guidelines/' | url }}">how to contribute</a>, with provisions for individuals who may be unwilling or unable to use our preferred workflows.</li>
+	</ul>
+	<h3 id="accessibility-features" class="c-heading-medium">
+		Accessibility features
+	</h3>
+	<p>
+		In addition to semantic HTML, these features are set up specifically to work with assistive technology:
+	</p>
+	<ul>
+		<li>Distinct, descriptive page titles.</li>
+		<li>Ordered headings to construct a logical document flow.</li>
+		<li><a href="{{ '/posts/2013-01-14-aria-landmark-roles/' | url }}">Landmark areas</a> to describe overall sections of the page.</li>
+		<li>Unique, descriptive names for links, buttons, and other interactive controls.
+		<li><a href="{{ '/posts/2013-05-11-skip-nav-links/' | url }}">Skiplinks</a> have been placed to help people navigate past content that repeats from page to page.</li>
+		<li><a href="{{ '/posts/2013-01-14-alt-text/' | url }}">Alternative descriptions</a> for non-text content.</li>
+		<li>Titles for content embedded via <code>iframe</code> elements.</li>
+		<li>Removing repetive, redundant links to the same destination from the Accessibility Tree.</li>
+		<li>Small amounts of ARIA to help address gaps in assistive technology support.</li>
+	</ul>
+	<h3 id="technical-specifications" class="c-heading-medium">
+		Technical specifications
+	</h3>
+	<p>
+		We rely on the following technologies to work with the particular combination of web browser and any assistive technologies or plugins installed on your computer:
+	</p>
+	<ul>
+		<li><a href="https://html.spec.whatwg.org/multipage/">HTML</a>.</li>
+		<li><a href="https://www.w3.org/WAI/standards-guidelines/aria/">ARIA</a>.</li>
+		<li><a href="https://www.w3.org/Style/CSS/">CSS</a>.</li>
+		<li><a href="https://www.w3.org/standards/webdesign/script.html">JavaScript</a>.</li>
+	</ul>
+	<p>
+		These technologies are relied upon for conformance with the accessibility standards used.
+	</p>
+	<h2 id="we-ask" class="c-heading-large">
+		We ask
+	</h2>
+	<p>
+		If you discover an accessibility-related issue, please let us know. We take these issues extremely seriously and will fix them as fast as possible. We will also include you in the process, if desired.
+	<p>
+		You can submit an accessibility issue by:
+	</p>
+	<ul>
+		<li><a data-mailto href="mailto:hello@a11yproject.com?subject=Accessibility%20issue%3A">Emailing us</a>.</li>
+		<li><a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=a11yproject-com-bug-report.md">Submitting an Issue on GitHub</a>.</li>
+		<li><a href="https://forms.gle/Lf8r58vJRVWsGsoP9">Filling out an anonymous form</a>.</li>
+	</ul>
+	<h2 id="how-you-can-help" class="c-heading-large">
+		How you can help
+	</h2>
+	<p>
+		We'd love it if you got involved! Here's what you can do:
+	</p>
+	<ul>
+		<li>Let us know if you have an accessibility need that hasn’t been addressed.</li>
+		<li>Let us know if you have a constructive idea for how to improve something.</li>
+		<li>Volunteer your time to help address <a href="https://github.com/a11yproject/a11yproject.com/issues">known issues</a>.</li>
+	</ul>
+	<h2 id="formal-complaints" class="c-heading-large">
+		Formal complaints
+	</h2>
+	<p>
+		The A11Y Project is hosted in the United States of America. You are entitled to escalate a complaint to the national authority, should you be dissatisfied with our response. We ask you notify us if doing so.
+	</p>
+	<p class="c-last-updated">
+		Last updated on <time datetime="2020-07-15">July 15th, 2020</time>.
+	</p>
+
+</div>

@@ -1,0 +1,31 @@
+// show
+//
+// Reveals hidden content using four different techniques. This mixin is useful
+// for revealing content that has been hidden on a different breakpoint.
+//
+// If you have to hide content, make sure that its message or functionality is
+// still preserved.
+//
+// $how - Specifies which kind of technique used to hide content. Accepts `visually`, `invisible`, `hidden`, or `remove` as an argument. Defaults to `visually`.
+//
+// Styleguide Logic.Mixins.hide
+@mixin show($how: visually) {
+	// Hide only visually, but have it available for screen readers: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+	@if ($how == "visually") {
+
+	}
+	// Hide visually and from screen readers, but maintain layout
+	@else if ($how == "hidden") {
+		visibility: hidden !important;
+	}
+	// Maintain layout, but make fully transparent
+	@else if ($how == "invisible") {
+		opacity: 0;
+	}
+	// Completely remove content
+	@else if ($how == "remove") {
+		display: none !important;
+	} @else {
+		@error "`#{$how}` + is an invalid argument. Please use `visually`, `invisible`, `hidden`, or `remove`";
+	}
+}

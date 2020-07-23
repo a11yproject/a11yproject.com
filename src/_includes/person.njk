@@ -1,0 +1,43 @@
+<div class="c-person">
+	{% if person.photo and person.website %}
+		<div class="c-person__photo" style="background-image: url({{ person.photo }});" onclick="location.href='{{ person.website }}'"></div>
+	{% elif person.photo %}
+		<div aria-hidden="true" class="c-person__photo" style="background-image: {{ person.photo }};"></div>
+	{% endif %}
+	<div class="c-person__info">
+	{% if personRole == "author" %}
+		<h2 id="{{ person.name | slugify }}" class="c-person__name">
+			{{ person.name }}
+		</h2>
+		{% if person.website %}
+			<p>
+				<a class="c-person__link" href="{{ person.website }}">
+					<span class="u-hide-visually">{{ person.name }}'s </span>website
+				</a>
+			</p>
+		{% endif %}
+		{% if person.biography %}
+			<p class="c-person__biography">
+				{{ person.biography }}
+			</p>
+		{% endif %}
+	{% endif %}
+	{% if personRole == "staff" %}
+		<h3 id="{{ person.name | slugify }}" class="c-person__name">
+			{{ person.name }}
+		</h3>
+		{% if person.website %}
+			<p>
+				<a class="c-person__link" href="{{ person.website }}">
+					<span class="u-hide-visually">{{ person.name }}'s </span>website
+				</a>
+			</p>
+		{% endif %}
+		{% if person.biography %}
+			<p class="c-person__biography">
+				{{ person.biography }}
+			</p>
+		{% endif %}
+	{% endif %}
+	</div>
+</div>

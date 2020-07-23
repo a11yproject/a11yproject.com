@@ -1,0 +1,61 @@
+// Font Tracking
+//
+// Controls the spacing between letters, based off the set global type size.
+//
+// Styleguide Logic.Variables.font-tracking
+
+
+// font-tracking-tightest
+//
+// Weight: 1
+//
+// Styleguide Logic.Variables.font-tracking.font-tracking-tightest
+$font-tracking-tightest: -0.075em;
+
+
+// font-tracking-tighter
+//
+// Weight: 2
+//
+// Styleguide Logic.Variables.font-tracking.font-tracking-tighter
+$font-tracking-tighter: -0.05em;
+
+
+// font-tracking-tight
+//
+// Weight: 3
+//
+// Styleguide Logic.Variables.font-tracking.font-tracking-tight
+$font-tracking-tight: -0.025em;
+
+
+// font-tracking-slight
+//
+// Weight: 4
+//
+// Styleguide Logic.Variables.font-tracking.font-tracking-slight
+$font-tracking-slight: 0.15ch;
+
+
+// font-tracking-loose
+//
+// Weight: 5
+//
+// Styleguide Logic.Variables.font-tracking.font-tracking-loose
+$font-tracking-loose: 0.5ch;
+
+
+// font-tracking-looser
+//
+// Weight: 6
+//
+// Styleguide Logic.Variables.font-tracking.font-tracking-looser
+$font-tracking-looser: 1ch;
+
+
+// font-tracking-loosest
+//
+// Weight: 7
+//
+// Styleguide Logic.Variables.font-tracking.font-tracking-loosest
+$font-tracking-loosest: 2ch;

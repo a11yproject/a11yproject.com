@@ -1,0 +1,22 @@
+.l-404 {
+	height: 80vh;
+	padding-right: map-get($global-bleed, small);
+	padding-left: map-get($global-bleed, small);
+
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		padding-right: map-get($global-bleed, large);
+		padding-left: map-get($global-bleed, large);
+	}
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		align-items: center;
+
+		// Breakpoints
+		@include mappy-bp(palm-large) {
+			justify-content: center;
+		}
+	}
+}

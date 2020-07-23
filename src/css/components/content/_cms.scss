@@ -1,0 +1,14 @@
+// Namespace
+.c-content {
+	// Direct Link
+	//
+	// Style guide: Components.post.direct-link
+	.direct-link {
+		font-size: 75%;
+		margin-left: 0.15rem;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

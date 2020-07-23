@@ -1,0 +1,16 @@
+// strip-unit
+//
+// Removes the unit from a measurement, transforming it into a number.
+//
+// $number - The measurement value that will have its unit stripped. Must include a valid CSS unit.
+//
+// Styleguide Logic.Functions.strip-unit
+@function strip-unit($number) {
+	@if (type-of($number) == 'number')
+	and not unitless($number) {
+		@return $number / ($number * 0 + 1);
+	} @else {
+		@error "`#{$number}` is an invalid argument. Please provide a number with a valid unit suffix (ex: `12rem`).";
+	}
+	@return $number;
+}

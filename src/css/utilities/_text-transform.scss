@@ -1,0 +1,44 @@
+// Text Transform
+//
+// Use these utility classes to control text casing.
+//
+// Styleguide Utilities.Text Transform
+
+
+// u-text-transform-none
+//
+// Removes text-transform formatting.
+//
+// Markup:
+// <p class="u-text-transform-none">I am cased as typed.</p>
+//
+// Styleguide Utilities.Type Alignment.u-text-transform-none
+// .u-text-transform-none {
+// 	text-transform: none;
+// }
+
+
+// u-text-transform-uppercase
+//
+// Makes text all caps.
+//
+// Markup:
+// <p class="u-text-transform-uppercase">I will look set in all caps.</p>
+//
+// Styleguide Utilities.Type Alignment.u-text-transform-uppercase
+.u-text-transform-uppercase {
+	text-transform: uppercase;
+}
+
+
+// u-text-transform-initial
+//
+// Capitalizes the first letter in each word.
+//
+// Markup:
+// <p class="u-text-transform-initial">The first letter in each word in this sentence will be capitalized.</p>
+//
+// Styleguide Utilities.Type Alignment.u-text-transform-initial
+// .u-text-transform-initial {
+// 	text-transform: initial;
+// }

@@ -1,0 +1,14 @@
+// Contribute
+//
+// Style guide: Components.contribute
+.c-contribute__cta {
+	background-color: $color-yellow-tint;
+	outline: $border-thicker solid $color-yellow-tint;
+	display: inline-block;
+	font-family: $font-family-secondary;
+	font-size: 1.25rem;
+	line-height: $line-height-tight;
+	padding: 0.25rem 1rem;
+	margin-left: -1rem;
+	width: $global-type-measure / 2;
+}

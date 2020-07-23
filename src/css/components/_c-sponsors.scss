@@ -1,0 +1,45 @@
+.c-sponsors {
+	background-color: $color-green-tint;
+
+	// Contexts
+	.template-posts & {
+		background-color: $color-pink-tint;
+	}
+
+	.template-about &,
+	.template-authors &,
+	.template-team & {
+		background-color: $color-blue-tint;
+	}
+
+	.template-contribute & {
+		background-color: $color-yellow-tint;
+	}
+
+	.template-generic & {
+		background-color: $color-gray-tint;
+	}
+}
+
+
+.c-sponsor__link {
+	width: $global-sponsor-width;
+	margin-bottom: 1rem;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	// States
+	&:focus {
+		outline: $border-thin solid $color-black;
+	}
+
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			margin-bottom: 0;
+		}
+	}
+}

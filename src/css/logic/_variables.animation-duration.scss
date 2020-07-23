@@ -1,0 +1,56 @@
+// Animation Duration
+//
+// Controls how long animations play for. Make sure that your animations aren't
+// a trigger for seizure and photosensitive disorders, vertigo, and cognitive
+// concerns such as ADHD. You may also want to use a [`prefers-reduced-motion` media query](https://css-tricks.com/introduction-reduced-motion-media-query/)
+// for people who have expressed a desire for less animation.
+//
+// Styleguide Logic.Variables.animation-duration
+
+
+// animation-duration-shortest
+//
+// Weight: 1
+//
+// Styleguide Logic.Variables.animation-duration.animation-duration-shortest
+$animation-duration-shortest: 100ms;
+
+
+// animation-duration-shorter
+//
+// Weight: 2
+//
+// Styleguide Logic.Variables.animation-duration.animation-duration-shorter
+$animation-duration-shorter: 200ms;
+
+
+// animation-duration-short
+//
+// Weight: 3
+//
+// Styleguide Logic.Variables.animation-duration.animation-duration-short
+$animation-duration-short: 300ms;
+
+
+// animation-duration-long
+//
+// Weight: 4
+//
+// Styleguide Logic.Variables.animation-duration.animation-duration-long
+$animation-duration-long: 500ms;
+
+
+// animation-duration-longer
+//
+// Weight: 5
+//
+// Styleguide Logic.Variables.animation-duration.animation-duration-longer
+$animation-duration-longer: 700ms;
+
+
+// animation-duration-longest
+//
+// Weight: 6
+//
+// Styleguide Logic.Variables.animation-duration.animation-duration-longest
+$animation-duration-longest: 900ms;

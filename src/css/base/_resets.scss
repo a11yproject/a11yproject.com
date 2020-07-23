@@ -1,0 +1,273 @@
+// resets
+//
+// Opinionated overrides of browser fallbacks.
+//
+// Styleguide Base.resets
+
+
+a img {
+	border: none; // Removes borders from linked images
+}
+
+
+abbr[title],
+dfn[title] {
+	cursor: help; // Give a help cursor to elements that give extra info on `:hover`.
+}
+
+
+b,
+strong {
+	font-weight: $font-weight-bold;
+
+	b,
+	strong {
+		font-weight: $font-weight-regular;
+	}
+}
+
+
+button,
+input[type="button"] {
+	border: 0;
+
+	// Vendor
+	&::-moz-focus-inner,
+	&::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+}
+
+
+em,
+cite,
+i {
+	font-style: italic;
+
+	// Cites within italicized text
+	em,
+	cite,
+	i {
+		font-style: normal;
+	}
+}
+
+
+iframe,
+object,
+audio,
+video,
+canvas {
+	@include responsify();
+}
+
+
+img,
+figure,
+picture {
+	border: 0;
+	display: block;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle; // Removes the whitespace that appears under `img` elements
+
+	&[height],
+	&[width] {
+		max-width: none; // Fixed-size, non-fluid images if `height` and/or `width` attributes are declared
+	}
+
+	// TODO: Broken images fallback: https://bitsofco.de/styling-broken-images/
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: $font-weight-regular;
+}
+
+ins {
+	border-bottom: $border-thin double;
+	text-decoration: none;
+}
+
+
+// Selects all content in a read-only input field
+input:not([type="button"]):not([type="checkbox"]):not([type="radio"]),
+textarea {
+	&:read-only {
+		user-select: all;
+	}
+}
+
+
+label {
+	cursor: pointer;
+}
+
+
+// Prevent zooming on mobile viewports when tapped
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input datalist,
+select,
+textarea {
+	font-size: 1rem;
+	line-height: 1;
+}
+
+mark {
+	padding: em(2);
+	background-color: $color-yellow;
+}
+
+
+sub {
+	text-transform: lowercase;
+	font-size: inherit;
+	font-variant-position: sub;
+
+	// Supports
+	@supports not (font-variant-position: sub) {
+		-webkit-font-feature-settings: "subs", "subs";
+		font-feature-settings: "subs", "subs";
+
+		@supports ((-webkit-font-feature-settings: "subs") or (font-feature-settings: "subs")) {
+			vertical-align: baseline;
+		}
+
+		@supports (overflow: -webkit-marquee) and (justify-content: inherit) {
+			vertical-align: sub;
+			font-size: smaller;
+		}
+	}
+}
+
+
+sup {
+	text-transform: lowercase;
+	font-variant-position: super;
+
+	// Supports
+	@supports not (font-variant-position: sup) {
+		-webkit-font-feature-settings: "sups", "sups";
+		font-feature-settings: "sups", "sups";
+
+		@supports ((-webkit-font-feature-settings: "sups") or (font-feature-settings: "sups")) {
+			vertical-align: baseline;
+		}
+
+		@supports (overflow: -webkit-marquee) and (justify-content: inherit) {
+			vertical-align: super;
+		}
+	}
+}
+
+
+// Remove default table spacing
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+
+	caption {
+		text-align: left;
+		margin-bottom: 1em;
+	}
+
+	col,
+	th,
+	td {
+		padding: 0.25em;
+		text-align: left;
+
+		&[colspan] {
+			text-align: center;
+		}
+
+		&[colspan="1"] {
+			text-align: left;
+		}
+
+		&[rowspan] {
+			vertical-align: middle;
+		}
+
+		&[rowspan="1"] {
+			vertical-align: top;
+		}
+	}
+
+	thead {
+		tr {
+			th {
+				font-weight: $font-weight-regular;
+			}
+		}
+	}
+
+	tbody {
+
+		tr {
+			th {
+				font-weight: $font-weight-regular;
+			}
+		}
+	}
+}
+
+
+textarea {
+	overflow: auto;
+	resize: vertical;
+}
+
+
+time {
+	font-variant-numeric: tabular-nums;
+
+	// Supports
+	@supports not (font-variant-numeric: tabular-nums) {
+		-webkit-font-feature-settings: "pnum" 0, "tnum", "tnum";
+		font-feature-settings: "pnum" 0, "tnum", "tnum";
+	}
+
+	font-variant-numeric: oldstyle-nums;
+
+	@supports not (font-variant-numeric: oldstyle-nums) {
+		-webkit-font-feature-settings: "lnum" 0, "onum", "onum";
+		font-feature-settings: "lnum" 0, "onum", "onum";
+	}
+
+	-ms-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+
+	@supports not ((-webkit-font-feature-settings: "onum" inherit) or (font-feature-settings: "onum" inherit)) {
+		-webkit-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+		font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+	}
+
+	-ms-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+
+	@supports not ((-webkit-font-feature-settings: "onum" inherit) or (font-feature-settings: "onum" inherit)) {
+		-webkit-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+		font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
+	}
+}
+
+
+var {
+	font-style: normal;
+}

@@ -1,0 +1,37 @@
+/* TEAM */
+	Eric Bailey
+	Contact: eric.w.bailey [at] gmail.com
+	Website: https://ericwbailey.design/
+	Twitter: @ericwbailey
+
+	Tatiana Mac
+	Contact: inquiry [at] tatianamac.com
+	Website: https://tatianamac.com/
+	Twitter: @TatianaTMac
+
+	Scott O'Hara
+	Website: https://www.scottohara.me/
+	Twitter: @scottohara
+
+
+/* THANKS */
+
+	Andy Bell
+	For: Eleventy help
+	Website: https://hankchizljaw.com/
+	Twitter: @hankchizljaw
+
+	Chris Ferdinandi
+	For: Table of Contents JavaScript help
+	Website: https://gomakethings.com/
+	Twitter: @ChrisFerdinandi
+
+	Wayne Elgin
+	For: Email address copy button JavaScript help
+	Website: https://github.com/esjay
+	Twitter: @esjay
+
+	Zach Leatherman
+	For: Eleventy help
+	Website: https://www.zachleat.com/
+	Twitter: @zachleat

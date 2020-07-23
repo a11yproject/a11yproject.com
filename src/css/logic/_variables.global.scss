@@ -1,0 +1,83 @@
+// Global
+//
+// Variables used to control initial, document-level settings.
+//
+// Styleguide Logic.Variables.Global
+
+
+// global-bleed
+//
+// Sets the outermost spacing area for content and the browser viewport.
+//
+// Styleguide Logic.Variables.Global.global-bleed
+$global-bleed: (
+	small: 0.81rem,
+	large: 2rem
+);
+
+
+// global-grid-columns
+//
+// Controls the grid template column sizes of the main content area.
+//
+// Styleguide Logic.Variables.Global.global-bleed
+$global-grid-columns: 1fr 2fr;
+
+
+// global-post-columns
+//
+// Map that sets the grid column widths for posts.
+//
+// Styleguide Logic.Variables.Global.global-post-columns
+$global-post-columns: (
+	category: 11rem,
+	gutter: 0.5rem,
+	toc: 1.25fr
+);
+
+
+// global-post-content-inset
+//
+// Map that sets the distance of post content from the lefthand side of the
+// viewport.
+//
+// Styleguide Logic.Variables.Global.global-post-content-inset
+$global-post-content-inset: (
+	small: 1rem,
+	medium: 3rem,
+	large: 7rem
+);
+
+
+// global-sponsor-width
+//
+// Sets the widths for sponsor ads.
+//
+// Styleguide Logic.Variables.Global.global-sponsor-width
+$global-sponsor-width: 16rem;
+
+
+// global-type-size
+//
+// Sets the initial document font size in pixels. Used for things like `em`
+// and `rem` calculation. See [`functions.em`](section-logic.html#kssref-logic-functions-em)
+// and [`functions.rem`](section-logic.html#kssref-logic-functions-rem).
+//
+// Styleguide Logic.Variables.Global.global-type-size
+$global-type-size: 20px;
+
+
+// global-type-scale
+//
+// Sets the ratio used for modular scale calculation. See [`functions.ms`](section-logic.html#kssref-logic-functions-modular-scale).
+//
+// Styleguide Logic.Variables.Global.global-type-scale
+$global-type-scale: 1.333;
+
+
+// global-type-measure
+//
+// Sets the maximum width for large amounts of text content.
+//
+// Styleguide Logic.Variables.Global.global-type-measure
+$global-type-measure: 68ex;

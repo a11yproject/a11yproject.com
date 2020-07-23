@@ -1,0 +1,322 @@
+---
+layout: layouts/home.njk
+title: Contributing Guidelines
+subtitle: Want to help? Here's how.
+eleventyNavigation:
+  key: Contributing Guidelines
+  parent: Site
+  order: 3
+tags:
+  - site
+templateClass: template-generic
+---
+
+{% include "nav/toc.njk" %}
+
+<div data-content class="l-content c-content c-content--generic">
+
+	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
+		{{ title }}
+	</h1>
+	<p class="c-subtitle">
+		{{ subtitle }}
+	</p>
+
+	<p>
+		Please be sure to check our <a href="https://a11yproject.com/code-of-conduct/">Code of Conduct</a> and <a href="https://a11yproject.com/content-style-guide/">Content Style Guide</a> before contributing. Questions or concerns about contributing can be addressed in the site&#39;s <a href="https://github.com/a11yproject/a11yproject.com/issues">Issue Tracker</a>.
+	</p>
+	<h2 id="about-this-site" class="c-heading-large">
+		About this site
+	</h2>
+	<p>
+		Following is information about how the site operates. Instructions on how to get the site running locally on your computer can be found in the <a href="https://github.com/a11yproject/a11yproject.com/blob/main/README.md"><code>README</code></a>.
+	</p>
+	<h3 id="git-and-github" class="c-heading-medium">
+		Git and GitHub
+	</h3>
+	<p>
+		The A11Y Project is an <a href="https://en.wikipedia.org/wiki/Open-source_software">Open Source</a> project. It uses <a href="https://git-scm.com/">Git</a> and <a href="https://github.com/">GitHub</a> to handle publishing new content and features, as well as coordinating maintenance.
+	</p>
+	<p>
+		People working on more sophisticated aspects of the site (new features, bug fixes, etc.) are expected to have at least some familiarity with version control, GitHub&#39;s key functionality, and <a href="#set-up-locally">using feature branches to work locally</a>.
+	</p>
+	<p>
+		If you are looking for a place to get started learning about Git and contributing to an Open Source project, <a href="https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github">Egghead.io offers a great introductory course</a>.
+	</p>
+	<h3 id="forking" class="c-heading-medium">
+		Forking
+	</h3>
+	<p>
+		To submit updates and changes to The A11Y Project, you will first need to <a href="https://help.github.com/en/articles/fork-a-repo">Fork the repository</a>.
+	</p>
+	<p>
+		Forking will create a copy of the repository on your GitHub account. This will allow you to make changes on your copy and suggest incorporating them into The A11Y Project&#39;s repository in the form of a Pull Request.
+	</p>
+	<p>
+		If you do not plan on working on The A11Y Project for an extended period of time you can <a href="https://help.github.com/en/articles/deleting-a-repository">delete your Fork of the repository</a> after your Pull Request has been merged without endangering our copy.
+	</p>
+	<h3 id="build-process" class="c-heading-medium">
+		Build process
+	</h3>
+	<p>
+		This project uses <a href="https://www.11ty.dev/">Eleventy</a> to convert project files into a website that a browser can read and display. You&#39;ll need to make sure you&#39;ve run all the commands in our <a href="https://github.com/a11yproject/a11yproject.com/blob/main/README.md#development"><code>README</code></a> to get Eleventy working.
+	</p>
+	<p>
+		Tatiana Mac has <a href="https://tatianamac.com/posts/beginner-eleventy-tutorial-parti/">a great beginner's guide to Eleventy</a>, if you are looking for a good introduction.
+	</p>
+	<p>
+		Any changes you save will cause the local version of the site to recompile. The browser tab that has your local instance of the site will automatically refresh, allowing you to preview your edits.
+	</p>
+	<h3 id="important-branches" class="c-heading-medium">
+		Important branches
+	</h3>
+	<p>
+		<code>main</code> is the <a href="https://www.atlassian.com/git/tutorials/using-branches">production branch</a>. This is the live website.
+	</p>
+	<p>
+		If you have a feature request, we suggest first <a href="https://github.com/a11yproject/a11yproject.com/issues/new">filing an Issue</a> to discuss it (please read <a href="#reporting-issues">how to report an issue first</a>). Once that feature has been approved you can start coding! Create a new <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow">feature branch</a> from <code>main</code>, and name it something that references the feature you&#39;ll be working on. For example a feature to increase the site&#39;s type size could be: <code>increase-font-size</code>.
+	</p>
+	<p>
+		A list of <a href="https://github.com/a11yproject/a11yproject.com/branches">all active branches is available</a>.
+	</p>
+	<h3 id="editing-files" class="c-heading-medium">
+		Editing files
+	</h3>
+	<p>
+		This site uses specific kinds of files to help run the site efficiently. <a href="https://www.11ty.dev/">Eleventy</a> will take these files and compile them into HTML, CSS, and other browser-friendly code.
+	</p>
+	<p>
+		Please make all edits in these files, and <strong>not</strong> the compiled code. If you edit the compiled code it will be overwritten the next time any file is saved and all your hard work will be lost!
+	</p>
+	<p>
+		Some of the main files this site uses are:
+	</p>
+	<h4 id="markdown" class="c-heading-small">
+		Markdown
+	</h4>
+	<p>
+		<a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> is a lightweight markup language that makes writing easier. We use it mainly to organize our blog posts. It uses <code>.md</code> files and compiles into HTML.
+	</p>
+	<h4 id="nunjucks" class="c-heading-small">
+		Nunjucks
+	</h4>
+	<p>
+		Nunjucks is a templating language for HTML that uses JavaScript. We use it to create the templates used to build the site. It uses <code>.njk</code> files and compiles into HTML.
+	</p>
+	<h4 id="sass" class="c-heading-small">
+		Sass
+	</h4>
+	<p>
+		<a href="https://sass-lang.com/">Syntactically Awesome Style Sheets (<abbr>Sass</abbr>)</a> is an extension of the CSS language that adds many helpful features. Using it helps keep our site&#39;s visual presentation consistent. It uses <code>.scss</code> files and compiles into CSS.
+	</p>
+	<h4 id="yaml" class="c-heading-small">
+		JSON
+	</h4>
+	<p>
+		<a href="https://www.json.org/json-en.html">JavaScript Object Notation (<abbr>JSON</abbr>)</a> is a human-readable way to store structured data. We use it to store information such as resources and commonly-repeated information. It uses <code>.json</code> files.
+	</p>
+	<h4 id="yaml" class="c-heading-small">
+		YAML
+	</h4>
+	<p>
+		<a href="http://yaml.org/">YAML Ain&#39;t Markup Language (<abbr>YAML</abbr>)</a> is a human-readable markup language that is good for writing structured data. This structured data is used specifically for posts and Eleventy page templates.
+	</p>
+
+	<hr class="c-divider" />
+
+	<h2 id="submitting-content" class="c-heading-large">
+		Submitting content
+	</h2>
+	<p>
+		In the spirit of Open Source, The A11Y Project tries to only promote content that is free, or has a low barrier to entry. We&#39;re not too keen on partnership deals or promotions.
+	</p>
+	<h3 id="content-style-guide" class="c-heading-medium">
+		Content style guide
+	</h3>
+	<p>
+		The A11Y Project has a <a href="{{ '/content-style-guide/' | url }}">Content Style Guide</a> to help our content have a consistent voice and tone. Please take a moment to familiarize yourself with it.
+	</p>
+	<h3 id="posts" class="c-heading-medium">
+		Posts
+	</h3>
+	<h4 id="pitching" class="c-heading-small">
+		Pitching
+	</h4>
+	<p>
+		Have an idea for a post? We&#39;d love to know what you want to contribute!
+	</p>
+	<ol>
+		<li>Search to make sure someone hasn&#39;t claimed the post already.</li>
+		<li>Claim a post by starting a new Issue with &quot;Post: Your title&quot; as the Issue title. This will help us keep track of who is working on what. The final, published title can be different from the Issue name.</li>
+	</ol>
+	<p>
+		We also have a <a href="https://github.com/a11yproject/a11yproject.com/issues/12">list of posts</a> we&#39;d love to see written!
+	</p>
+	<h4 id="writing" class="c-heading-small">
+		Writing
+	</h4>
+	<p>
+		Posts are written using <a href="#markdown">Markdown</a>, using a special formatting technique called <a href="https://www.11ty.dev/docs/data-frontmatter/">front matter</a>. Eleventy uses front matter information to create things like author attribution, categories, and page layout.
+	</p>
+	<p>
+		To get started writing a post, <a href="#important-branches">create a feature branch</a> and create a new Markdown file in the <a href="https://github.com/a11yproject/a11yproject.com/tree/main/src/posts"><code>posts</code> directory</a>. The Markdown&#39;s file name should reflect the intended publishing date and the title of the post. For example, a post about accessible typography may have a filename along the lines of <code>2018-09-12-accessible-typography.md</code>.
+	</p>
+	<p>
+		Copying <a href="https://github.com/a11yproject/a11yproject.com/tree/main/src/posts">an existing post</a>, then updating its filename and front matter to match your post can be an easy way to help ensure everything is formatted properly.
+	</p>
+	<p>
+		If you would like to write an post but do not feel comfortable working in Markdown or with GitHub, please contact us at <a data-mailto href="mailto:hello@a11yproject.com?subject=Writing%20submission">hello@a11yproject.com</a> and we can work something out.
+	</p>
+	<h4 id="submitting" class="c-heading-small">
+		Submitting
+	</h4>
+	<p>
+		Once you are satisfied with your post&#39;s content, <a href="#submitting-pull-requests">submit a Pull Request</a> so it can be reviewed. Reviews will be conducted using <a href="https://github.com/features/code-review/">GitHub&#39;s review tools</a>. Project maintainers may request additional updates for clarification or technical accuracy.
+	</p>
+	<p>
+		Be sure to also add yourself to <a href="https://github.com/a11yproject/a11yproject.com/blob/main/src/_data/authors.json"><code>authors.json</code></a> so you can get credit for your work!
+	</p>
+	<p>
+		Once both the project maintainers and author are satisfied with the post, it will be merged by a project maintainer and published automatically. We will also notify you that publication has occured.
+	</p>
+	<h4 id="compensation" class="c-heading-small">
+		Compensation
+	</h4>
+	<p>
+		Each published post will recieve $75 USD. We also will feature you on <a href="{{ '/authors/' | url }}">our authors page</a> and promote the post on <a href="https://twitter.com/A11YProject">social media</a>.
+	</p>
+	<h3 id="resources" class="c-heading-medium">
+		Resources
+	</h3>
+	<p>
+		Did you create or find a great accessibility-related resource that you think other people would find useful? Add it to the <a href="https://github.com/a11yproject/a11yproject.com/blob/main/src/_data/resources.json">Resources</a> file under the appropriate category.
+	</p>
+	<p>
+		Please be sure to include the resource&#39;s title, description, and a URL where it can be accessed.
+	</p>
+	<p>
+		Acceptance of resource content suggestions are weighed on the quality of the actual content, the accessibility of the site it is hosted on, the organization&#39;s status in the industry, and the organization&#39;s mission.
+	</p>
+	<h3 id="events" class="c-heading-medium">
+		Events
+	</h3>
+	<p>
+		The A11Y Project used to list webinars, regional events, and meetups. We no longer support this feature. If you are interested in finding an accessibility-related group near you, please check our <a href="{{ '/resources/#meetups' | url }}">Meetups section in Resources</a>.
+	</p>
+	<h3 id="patterns" class="c-heading-medium">
+		Patterns
+	</h3>
+	<p>
+		The A11Y Project used to list code patterns. We no longer support this feature. If you are interested in learning about accessible implimentations of common User Interface elements, please consult the <a href="https://www.w3.org/TR/wai-aria-practices-1.1/">WAI-ARIA Authoring Practices</a>.
+	</p>
+	<h3 id="promotions-partnership-deals-and-seo-scams" class="c-heading-medium">
+		Promotions, partnership deals, and SEO scams
+	</h3>
+	<p>
+		We are not interested in quid pro quo schemes to boost your site&#39;s SEO ranking. We are also not interested in backlink, partnership, and affiliate linking programs.
+	</p>
+	<h3 id="rejection" class="c-heading-medium">
+		Rejection
+	</h3>
+	<p>
+		Project maintainers may elect to not accept your submission if they feel it is not in line with the site&#39;s goals. This will be handled on a case-by-case basis.
+	</p>
+
+	<hr class="c-divider" />
+
+	<h2 id="submitting-new-features" class="c-heading-large">
+		Submitting new features
+	</h2>
+	<p>
+		New features typically represent significant changes to the website. We ask that before you begin work on adding functionality or features that you <a href="https://github.com/a11yproject/a11yproject.com/issues">bring up your proposed changes as a GitHub Issue first</a>.
+	</p>
+	<p>
+		This helps the site maintainers anticipate and plan for incorporating large-scale changes, and how they'll affect the website. It will also allow us to see how your proposed changes align with <a href="https://github.com/a11yproject/a11yproject.com/projects/1">our roadmap</a>, as well as discuss accessibility implications.
+	</p>
+
+	<hr class="c-divider" />
+
+	<h2 id="fixing-things" class="c-heading-large">
+		Fixing things
+	</h2>
+	<h3 id="reporting-issues" class="c-heading-medium">
+		Reporting Issues
+	</h3>
+	<p>
+		Have you noticed something inaccurate or inaccessible? You can help make it better!
+	</p>
+	<ol>
+		<li>File an <a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=a11yproject-com-bug-report.md">Issue</a>.</li>
+		<li>Preface your Issue title as an:
+		<ul>
+			<li><strong>Inaccuracy</strong> for incorrect or inaccurate information (e.g. &quot;Inaccuracy: Visually hidden CSS missing property declaration&quot;).</li>
+			<li><strong>Inaccessibility</strong> for an accessibility issue (e.g. &quot;Inaccessibility: Low contrast link color&quot;).</li>
+			<li><strong>Bug</strong> for site issues (e.g. &quot;Bug: Link at archive not working&quot;).</li>
+		</ul>
+	</li>
+	</ol>
+	<p id="no-free-help">
+		<strong>Issues are not to be used for free accessibility help</strong>. Project maintainers may close reported Issues at their discretion.
+	</p>
+	<h3 id="submitting-pull-requests" class="c-heading-medium">
+		Submitting Pull Requests
+	</h3>
+	<p>
+		Creating a descriptive <a href="https://github.com/a11yproject/a11yproject.com/issues/new/choose">Issue</a> and assigning it to yourself before you send your Pull Request will help get it accepted. Doing so will provide a better understanding of what your request entails and why it was made. It also helps to link the Issue to the Pull Request and vice-versa (eg. &quot;This Pull Request addresses Issue <a href="https://github.com/a11yproject/a11yproject.com/issues/213">213</a>&quot;).
+	</p>
+	<p>
+		Project maintainers may reject Pull Requests at their discretion.
+	</p>
+	<p>
+		When submitting your Pull Request, please include the text &quot;closes&quot; or &quot;fixes&quot; and then the issue number (e.g. "Fixes #101."). This will help us automatically close the issue upon merging the Pull Request.
+	</p>
+	<h3 id="stale-issues-and-pull-requests" class="c-heading-medium">
+		Stale Issues and Pull Requests
+	</h3>
+	<p>
+		Project maintainers will close Issues and Pull Requests if they become stale, leaving a note for the author as to why. This keeps our Issue tracker and code work clean and up-to-date, and helps project maintainers focus their attention where it is needed.
+	</p>
+	<h4 id="stale-issues" class="c-heading-small">
+		Stale Issues
+	</h4>
+	<p>
+		An Issue is considered to be in a &quot;stale&quot; state when any of the following conditions are met:
+	</p>
+	<ol>
+		<li>The last comment was made over three months ago.</li>
+		<li>There has been no activity since.</li>
+		<li>Someone has attempted to address the Issue, no with no followup participation from the author.</li>
+	</ol>
+	<h4 id="stale-pull-requests" class="c-heading-small">
+		Stale Pull Requests
+	</h4>
+	<p>
+		A Pull Request (<abbr>PR</abbr>) is considered to be in a &quot;stale&quot; state when the following conditions are met:
+	</p>
+	<ol>
+		<li>The last comment was made over three months ago.</li>
+		<li>There has been no activity since.</li>
+		<li>Someone has attempted to move the PR along with no followup from the author.</li>
+	</ol>
+	<h3 id="labels" class="c-heading-medium">
+		Labels
+	</h3>
+	<p>
+		<a href="https://github.com/a11yproject/a11yproject.com/labels">Labels</a> allow the project maintainers to quickly sort and filter site <a href="#reporting-issues">Issues</a> and <a href="#submitting-pull-requests">Pull Requests</a>. They will be added and removed as needed.
+	</p>
+	<h3 id="updating-posts" class="c-heading-medium">
+		Updating Posts
+	</h3>
+	<p>
+		When updating posts, leave the original publish date and author as-is. Add the following to the front matter:
+	</p>
+	<pre><code>updated_by: editor_name
+last_updated: yyyy-mm-dd</code></pre>
+	<h2 id="license" class="c-heading-large">
+		License
+	</h2>
+	<p>
+		By contributing your code and content, you agree to license your contribution under the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">APLv2</a>.
+	</p>
+
+</div>

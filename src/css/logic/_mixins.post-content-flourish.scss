@@ -1,0 +1,25 @@
+// post-content-flourish
+//
+// Adds images to specific section s of post content
+//
+// $image - Specifies the background image to use.
+// $height - Specifies the height of the background image container in pixels. Converted to `rem`.
+// $top-margin - Sets the amount of top margin.
+//
+// Styleguide Logic.Mixins.post-content-inset
+@mixin post-content-flourish($image, $height, $top-margin) {
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		&::before {
+			background: url("#{$path-to-img}/posts/#{$image}") no-repeat center;
+			background-size: cover;
+			content: "";
+			display: block;
+			height: rem($height);
+			margin-top: $top-margin;
+			position: absolute;
+				left: 1rem;
+			width: rem(164);
+		}
+	}
+}

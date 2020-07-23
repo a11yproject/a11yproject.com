@@ -1,0 +1,90 @@
+.l-hero {
+	height: 75vh;
+
+	// Contexts
+	.template-posts &,
+	.template-checklist &,
+	.template-resources &,
+	.template-about &,
+	.template-contribute &,
+	.template-team &,
+	.template-authors &,
+	.template-spotlight &,
+	.template-404 & {
+		height: 40vh;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			height: 75vh;
+		}
+	}
+
+	// Supports
+	@supports #{$supports-flex} {
+		// Breakpoints
+		@include mappy-bp(palm-large) {
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			display: grid;
+			grid-template-rows: 1fr 1fr 1fr 3rem;
+			grid-template-areas:
+				". .    ."
+				". hero ."
+				". .    .";
+		}
+	}
+}
+
+
+.l-hero__promo {
+	margin-left: map-get($global-bleed, small);
+	margin-right: map-get($global-bleed, small);
+	position: relative;
+		top: 50%;
+	transform: perspective(1px) translateY(-60%); // HACK: Keeps content from rendering blurry
+
+	// Supports
+	@supports #{$supports-flex} {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		margin-left: map-get($global-bleed, large);
+		margin-right: map-get($global-bleed, large);
+	}
+
+	@include mappy-bp(palm-large) {
+		margin: 0 15vw;
+	}
+
+	@include mappy-bp(lap-small) {
+		margin: 0 20vw;
+	}
+
+	@supports #{$supports-grid} {
+		grid-area: hero;
+
+		// Breakpoints
+		@include mappy-bp(palm-large) {
+			margin-top: 0;
+			margin-bottom: 0;
+			position: unset;
+			transform: none;
+		}
+
+		@include mappy-bp(lap-small) {
+			margin: 0;
+		}
+	}
+}

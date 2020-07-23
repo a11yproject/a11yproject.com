@@ -1,0 +1,36 @@
+// Copy Email Button
+//
+// Style guide: Components.copy-email-button
+.c-copy-email-button {
+	background-color: $color-black;
+	border-radius: 0.2rem;
+	color: $color-white;
+	font-family: $font-family-secondary;
+	font-size: 0.75rem;
+	letter-spacing: $font-tracking-slight;
+	margin-left: 1ch;
+	padding: 0.2rem 0.4rem 0.1rem 0.4rem;
+	text-transform: uppercase;
+	transition: background-color $animation-duration-shorter $animation-easing-character;
+
+	// States
+	&:hover {
+		background-color: $color-blue-shade;
+	}
+
+	&:focus {
+		box-shadow:
+			0 0 0 em(2) $color-sand,
+			0 0 0 em(4) $color-black;
+		outline: $border-thin solid transparent;
+	}
+
+	&:active {
+		@include shift-click();
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"name": "the-a11y-project",
+	"description": "A community-driven effort to make digital accessibility easier.",
+	"homepage": "https://a11yproject.com/",
+	"version": "1.1.2",
+	"license": "Apache-2.0",
+	"author": "Dave Rupert <hello@a11yproject.com> (https://daverupert.com/)",
+	"contributors": [
+		"Carie Fisher <hello@a11yproject.com> (https://www.linkedin.com/in/cehfisher/)",
+		"Dennis Gaebel <dennisgaebel@gmail.com> (https://droidpinkman.io/)",
+		"Eric Bailey <eric.w.bailey@gmail.com> (https://ericwbailey.design/)",
+		"Jerry Jones <hello@a11yproject.com> (http://jeremyjon.es/)",
+		"Scott O'Hara <scottaohara@gmail.com> (https://www.scottohara.me/)",
+		"Scott Vinkle <scott.vinkle@shopify.com> (https://svinkle.me/)",
+		"Tatiana Mac <hello@a11yproject.com> (https://tatianamac.com/)"
+	],
+	"scripts": {
+		"a11yproject": "npx eleventy --watch | gulp watch",
+		"publish": "npx gulp && npx eleventy",
+		"clean": "rm -rf ./dist",
+		"eleventy-build": "npx eleventy",
+		"eleventy-watch": "npx eleventy --watch",
+		"eleventy-debug": "DEBUG=* npx eleventy",
+		"gulp-build": "gulp",
+		"gulp-watch": "gulp watch"
+	},
+	"keywords": [
+		"a11y",
+		"accessibility",
+		"community",
+		"inclusive-design"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/a11yproject/a11yproject.com"
+	},
+	"bugs": {
+		"url": "https://github.com/a11yproject/a11yproject.com/issues",
+		"email": "hello@a11yproject.com"
+	},
+	"dependencies": {
+		"@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
+		"mappy-breakpoints": "^0.2.3",
+		"normalize.css": "^8.0.1"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^0.11.0",
+		"@11ty/eleventy-navigation": "^0.1.5",
+		"@11ty/eleventy-plugin-rss": "^1.0.7",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+		"debug": "^4.1.1",
+		"del": "3.0.0",
+		"gulp": "4.0.0",
+		"gulp-autoprefixer": "6.0.0",
+		"gulp-concat": "2.6.1",
+		"gulp-cssnano": "2.1.3",
+		"gulp-flatmap": "1.0.2",
+		"gulp-header": "2.0.5",
+		"gulp-jshint": "2.1.0",
+		"gulp-optimize-js": "1.1.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-purgecss": "^2.3.0",
+		"gulp-rename": "1.4.0",
+		"gulp-sass": "4.0.2",
+		"gulp-stylelint": "^8.0.0",
+		"gulp-svg-sprite": "^1.5.0",
+		"gulp-svgmin": "2.1.0",
+		"gulp-uglify": "3.0.1",
+		"html-minifier": "^4.0.0",
+		"jshint": "2.9.6",
+		"jshint-stylish": "2.2.1",
+		"kss": "^3.0.0-beta.23",
+		"lazypipe": "1.0.1",
+		"luxon": "^1.0.0",
+		"markdown-it": "^8.4.1",
+		"markdown-it-anchor": "^5.0.2",
+		"moment": "^2.24.0",
+		"stylelint": "^9.9.0"
+	}
+}

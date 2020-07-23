@@ -1,0 +1,25 @@
+.l-sponsors {
+	margin-top: 8rem;
+	padding: map-get($global-bleed, large);
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			flex-direction: row;
+		}
+	}
+
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			display: grid;
+			gap: 1rem;
+			grid-template-columns: repeat(auto-fill, $global-sponsor-width);
+		}
+	}
+}

@@ -1,0 +1,153 @@
+// Headings
+//
+// Headings are used to identify sections of content. They are [incredibly important for assistive technology](https://webdesign.tutsplus.com/articles/the-importance-of-heading-levels-for-assistive-technology--cms-31753).
+// Heading component classes are used to control the visual presentation of
+// heading elements, while preserving an accessible document structure.
+//
+// Style guide: Components.Headings
+
+
+// Shared styles
+.c-heading-titanic,
+.c-heading-largest,
+.c-heading-larger,
+.c-heading-large,
+.c-heading-medium,
+.c-heading-small,
+.c-heading-smaller,
+.c-heading-smallest {
+	font-family: $font-family-primary;
+	font-weight: $font-weight-normal;
+}
+
+
+// Titanic Heading
+//
+// The largest of the headings. Used for big announcements and other
+// attention-grabbing content.
+//
+// Weight: 1
+//
+// Markup:
+// <h2 class="c-heading-titanic">
+//   Six javelins thrown by the quick savages whizzed forty paces beyond the mark
+// </h2>
+//
+// Style guide: Components.Headings.heading-titanic
+// .c-heading-titanic {
+// }
+
+
+// Largest Heading
+//
+// Weight: 2
+//
+// Markup:
+// <h2 class="c-heading-largest">
+//   The explorer was frozen in his big kayak just after making queer discoveries
+// </h2>
+//
+// Style guide: Components.Headings.heading-largest
+.c-heading-largest {
+	@include heading-largest();
+}
+
+.c-heading-largest--generic {
+	color: $color-blue-shade;
+
+	& ~ .c-subtitle {
+		font-family: $font-family-secondary;
+		font-size: 1.5rem;
+		line-height: $line-height-tight;
+	}
+}
+
+
+// Larger Heading
+//
+// Weight: 3
+//
+// Markup:
+// <h2 class="c-heading-larger">
+//   The July sun caused a fragment of black pine wax to ooze on the velvet quilt
+// </h2>
+//
+// Style guide: Components.Headings.heading-larger
+.c-heading-larger {
+	font-size: 2.25rem;
+	letter-spacing: $font-tracking-tight;
+	line-height: $line-height-tight;
+}
+
+
+// Large Heading
+//
+// Weight: 4
+//
+// Markup:
+// <h2 class="c-heading-large">
+//   The public was amazed to view the quickness and dexterity of the juggler
+// </h2>
+//
+// Style guide: Components.Headings.heading-large
+.c-heading-large {
+	@include heading-large();
+}
+
+
+// Medium Heading
+//
+// Weight: 5
+//
+// Markup:
+// <h2 class="c-heading-medium">
+//   While Suez sailors wax parquet decks, Afghan Jews vomit jauntily abaft
+// </h2>
+//
+// Style guide: Components.Headings.heading-medium
+.c-heading-medium {
+	@include heading-medium();
+}
+
+
+// Small Heading
+//
+// Weight: 6
+//
+// Markup:
+// <h2 class="c-heading-small">
+//   Six big juicy steaks sizzled in a pan as five workmen left the quarry
+// </h2>
+//
+// Style guide: Components.Headings.heading-small
+.c-heading-small {
+	@include heading-small();
+}
+
+
+// Smaller Heading
+//
+// Weight: 7
+//
+// Markup:
+// <h2 class="c-heading-smaller">
+//   We quickly seized the black axle and just saved it from going past him
+// </h2>
+//
+// Style guide: Components.Headings.heading-smaller
+// .c-heading-smaller {
+// }
+
+
+// Smallest Heading
+//
+// Weight: 8
+//
+// Markup:
+// <h2 class="c-heading-smallest">
+//   While making deep excavations we found some quaint bronze jewelry
+// </h2>
+//
+// Style guide: Components.Headings.heading-smallest
+// .c-heading-smallest {
+// }

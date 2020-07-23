@@ -1,0 +1,59 @@
+// Font Families
+//
+// Font family classes are used to associate an imported typefaces with an
+// abstract name. This allows us to be able to control and change typefaces
+// quickly and easily. See [font family variables](section-logic.html#kssref-logic-variables-font-families).
+//
+// Styleguide Utilities.Font Families
+
+
+// u-font-family-primary
+//
+// Weight: 1
+//
+// Markup:
+// <p class="u-font-family-primary">Jackdaws love my big sphinx of quartz.</p>
+//
+// Styleguide Utilities.Font Families.u-font-family-primary
+.u-font-family-primary {
+	font-family: $font-family-primary;
+}
+
+
+// u-font-family-secondary
+//
+// Weight: 2
+//
+// Markup:
+// <p class="u-font-family-secondary">Quick wafting zephyrs vex bold Jim.</p>
+//
+// Styleguide Utilities.Font Families.u-font-family-secondary
+.u-font-family-secondary {
+	font-family: $font-family-secondary;
+}
+
+
+// u-font-family-code
+//
+// Weight: 3
+//
+// Markup:
+// <p class="u-font-family-code">The five boxing wizards jump quickly.</p>
+//
+// Styleguide Utilities.Font Families.u-font-family-code
+.u-font-family-code {
+	font-family: $font-family-code;
+}
+
+
+// u-font-family-native
+//
+// Weight: 4
+//
+// Markup:
+// <p class="u-font-family-native">Pack my box with five dozen liquor jugs.</p>
+//
+// Styleguide Utilities.Font Families.u-font-family-native
+.u-font-family-native {
+	font-family: $font-family-native;
+}

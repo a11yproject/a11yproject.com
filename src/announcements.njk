@@ -1,0 +1,67 @@
+---
+layout: layouts/home.njk
+title: Announcements
+subtitle: A11Y Project news.
+eleventyNavigation:
+  key: Announcements
+  parent: Project
+  order: 4
+tags:
+  - project
+templateClass: template-generic
+---
+
+<div class="l-content c-content--generic">
+
+	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
+		{{ title }}
+	</h1>
+	<p class="c-subtitle">
+		{{ subtitle }}
+	</p>
+
+	<h2 id="changelog" class="c-heading-large u-spacing-top-longest">
+		News
+	</h2>
+	<p class="c-preface">
+		Detailed information about project news and updates.
+	</p>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "announcements" ] %}
+		{% for post in taglist | reverse %}
+			{% include "post.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="changelog" class="c-heading-large">
+		Changelog
+	</h2>
+	<p class="c-preface">
+		Notable updates to our website.
+	</p>
+	<div class="c-content">
+		<h3 id="" class="c-heading-medium">
+			<samp class="c-changelog__version">1.1.0</samp><span class="u-hide-visually">,</span> CodeTour <time datetime="2020-07-16" class="c-changelog__date">7/16/2020</time>
+		</h3>
+		<ul>
+			<li>Add a <a href="https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour">CodeTour</a>.</li>
+			<li>Post-launch content tweaks and fixes.</li>
+		</ul>
+		<h3 id="" class="c-heading-medium">
+			<samp class="c-changelog__version">1.0.0</samp><span class="u-hide-visually">,</span> Redesign <time datetime="2020-07-15" class="c-changelog__date">7/15/2020</time>
+		</h3>
+		<ul>
+			<li>Add a <a href="{{ '/code-of-conduct/' | url }}">Code of Conduct</a>.</li>
+			<li>Add an <a href="{{ '/accessibility-statement/' | url }}">Accessibility Statement</a>.</li>
+			<li>Add an industry <a href="{{ '/spotlight/' | url }}">Spotlight</a>.</li>
+			<li>Expanded and updated <a href="{{ '/resources/' | url }}">Resources</a>.</li>
+			<li>Add <a href="{{ '/sponsorship/' | url }}">Sponsorship</a> and <a href="https://opencollective.com/the-a11y-project">Open Collective</a>.</li>
+			<li>Replaced <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://www.11ty.dev/">Eleventy</a>.</li>
+			<li>Migrate content.</li>
+			<li>Convert data to JSON.</li>
+			<li>Migrate GitHub pages (<a href="{{ '/content-style-guide/' | url }}">Content Style Guide</a>, <a href="{{ '/code-of-conduct/' | url }}">Code of Conduct</a>, etc.) to the website.</li>
+			<li>Deprecate <a href="{{ '/follow/' | url }}">Follow</a>, <a href="{{ '/patterns/' | url }}">Patterns</a>, and <a href="{{ '/events/' | url }}">Events</a>.</li>
+		</ul>
+	</div>
+
+</div>

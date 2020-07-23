@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+templateClass: template-generic
+---
+
+{% include "spotlight/hero.njk" %}
+
+<div data-content class="l-content c-content c-content--generic">
+
+	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
+		<span class="c-spotlight__subheading">{{ category }}<span class="u-hide-visually">:</span></span>
+		{{ title }}
+	</h1>
+
+	{{ content | safe }}
+
+	{% if further_reading %}
+		<h2 id="more-about-{{ title | slugify }}" class="c-heading-medium">
+			More about {{ title }}:
+		</h2>
+		<ul>
+			{% for source in further_reading %}
+				<li>
+					<a href="{{ source.url }}">{{ source.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+</div>

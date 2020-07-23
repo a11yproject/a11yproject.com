@@ -1,0 +1,11 @@
+<h2 class="c-further-reading__title" id="further-reading">
+	Further reading
+</h2>
+<ul class="c-further-reading">
+	{% for source in further_reading %}
+		<li>
+			<a href="{{ source.url }}">{{ source.title }}</a>
+			<span class="c-further-reading__source">{{ source.source }}{% if source.year %} <span class="c-further-reading__year">{{ source.year }}</span>{% endif %}</span>
+		</li>
+	{% endfor %}
+</ul>

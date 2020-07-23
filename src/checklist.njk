@@ -1,0 +1,302 @@
+---
+layout: layouts/home.njk
+title: Checklist
+subtitle: A beginner's guide to digital accessibility.
+eleventyNavigation:
+  key: Checklist
+  parent: Feature
+  order: 2
+tags:
+  - navprimary
+templateClass: template-checklist
+---
+
+{% include "nav/toc.njk" %}
+
+<div data-content class="l-content">
+
+	<div class="c-wcag-explanation">
+		<p>
+			This checklist uses <a class="c-wcag-explanation__link" href="https://www.w3.org/WAI/standards-guidelines/wcag/">The Web Content Accessibility Guidelines (<abbr>WCAG</abbr>)</a> as a reference point. The WCAG is a shared standard for web content accessibility for individuals, organizations, and governments.
+		</p>
+		<p>
+			There are three levels of accessibility compliance in the WCAG, which reflect the priority of support:
+		</p>
+
+		<div class="c-wcag-explanation__compliance-level">
+			<picture aria-hidden="true" class="c-wcag-explanation__icon">
+				<source  srcset="/img/checklist/wcag-level-a-large.svg" media="(min-width: 900px)" />
+				<img alt="" src="/img/checklist/wcag-level-a-small.svg" />
+			</picture>
+			<p class="c-wcag-explanation__description">
+				<strong class="c-wcag-explanation__conformance-level">A: Essential</strong>
+				If this isn't met, assistive technology may not be able to read, understand, or fully operate the page or view.
+			</p>
+		</div>
+
+		<div class="c-wcag-explanation__compliance-level">
+			<picture aria-hidden="true" class="c-wcag-explanation__icon">
+				<source  srcset="/img/checklist/wcag-level-aa-large.svg" media="(min-width: 900px)" />
+				<img alt="" src="/img/checklist/wcag-level-aa-small.svg" />
+			</picture>
+			<p class="c-wcag-explanation__description">
+				<strong class="c-wcag-explanation__conformance-level">AA: Ideal Support</strong>
+				Required for European Union government and public body websites. The A11Y Project strives for AA compliance.
+			</p>
+		</div>
+
+		<div class="c-wcag-explanation__compliance-level">
+			<picture aria-hidden="true" class="c-wcag-explanation__icon">
+				<source  srcset="/img/checklist/wcag-level-aaa-large.svg" media="(min-width: 900px)" />
+				<img alt="" src="/img/checklist/wcag-level-aaa-small.svg" />
+			</picture>
+			<p class="c-wcag-explanation__description">
+				<strong class="c-wcag-explanation__conformance-level">AAA: Ideal Support</strong>
+				This is typically reserved for parts of websites and web apps that serve a specialized audience.
+			</p>
+		</div>
+
+		<p>
+			This checklist targets many, but not all level A and AA concerns. Note that the different levels of WCAG support do not necessarily indicate an increased level of difficulty to implement.
+		</p>
+	</div>
+
+	<div class="c-content  c-content--checklist">
+		<h2>
+			Success criteria
+		</h2>
+		<p>
+			Each item on this checklist has a corresponding WCAG “success criterion.” Success criterion are the specific, testable rules that power the WCAG, described by a reference number and short title. For example, the rule about text resizing is called <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html">1.4.4 Resize text</a>.
+		</p>
+		<p>
+			Some accessibility issues may have multiple success criterion apply to them. We have identified the one most relevant for each checklist item.
+		</p>
+		<h2>
+			Does this checklist guarantee my site is accessible?
+		</h2>
+		<p>
+			No. However, addressing the issues called out in this checklist will help improve the experience for everyone who uses your site.
+		</p>
+		<p>
+			The issues this checklist prompts you to check for covers a wide range of disability conditions. There is no such thing as “perfect accessibility” or a site being “100% accessible.” You should be wary of companies and services that make such promises. If you need professional accessibility help, use <a href="{{ '/resources/#professional-help' | url }}">professional accessibility services</a>.
+		</p>
+	</div>
+
+	<hr class="c-divider" />
+
+	<h2 id="content" class="c-heading-large">
+		Content
+	</h2>
+	<p class="c-preface">
+		Content is the most important part of your site.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.content %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="global-code" class="c-heading-large">
+		Global code
+	</h2>
+	<p class="c-preface">
+		Global code is code that affects your entire website or web app.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.global %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="keyboard" class="c-heading-large">
+		Keyboard
+	</h2>
+	<p class="c-preface">
+		It is important that your interface and content can be operated, and navigated by use of a keyboard. Some people cannot use a mouse, or may be using other assistive technologies that may not allow for hovering or precise clicking.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.keyboard %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="images" class="c-heading-large">
+		Images
+	</h2>
+	<p class="c-preface">
+		Images are a very common part of most websites. Help make sure they can be enjoyed by all.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.images %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="headings" class="c-heading-large">
+		Headings
+	</h2>
+	<p class="c-preface">
+		Heading elements (<code>h1</code>, <code>h2</code>, <code>h3</code>, etc.) help break up the content of the page into related “chunks” of information. They are incredibly important for helping people who use assistive technology to understand the meaning of a page or view.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.headings %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="lists" class="c-heading-large">
+		Lists
+	</h2>
+	<p class="c-preface">
+		Lists elements let people know a collection of items are related and if they are sequential, and how many items are present in the list grouping.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.lists %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="controls" class="c-heading-large">
+		Controls
+	</h2>
+	<p class="c-preface">
+		Controls are interactive elements such as links and buttons that let a person navigate to a destination or perform an action.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.controls %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="tables" class="c-heading-large">
+		Tables
+	</h2>
+	<p class="c-preface">
+		Tables are a structured set of data that help people understand the relationships between different types of information.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.tables %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="forms" class="c-heading-large">
+		Forms
+	</h2>
+	<p class="c-preface">
+		Forms allow people to enter information into a site for processing and manipulation. This includes things like sending messages and placing orders.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.forms %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="media" class="c-heading-large">
+		Media
+	</h2>
+	<p class="c-preface">
+		Media includes content such as pre-recorded and live audio and video.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.media %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="video" class="c-heading-medium">
+		Video
+	</h2>
+	<p class="c-preface">
+		Video-specific checks.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.video %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="audio" class="c-heading-medium">
+		Audio
+	</h2>
+	<p class="c-preface">
+		Audio-specific checks.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.audio %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="appearance" class="c-heading-large">
+		Appearance
+	</h2>
+	<p class="c-preface">
+		How your website app content looks in any given situation.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.appearance %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="animation" class="c-heading-large">
+		Animation
+	</h2>
+	<p class="c-preface">
+		Content that moves, either on its own, or when triggered by a person activating a control.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.animation %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="color-contrast" class="c-heading-large">
+		Color Contrast
+	</h2>
+	<p class="c-preface">
+		<a class="c-preface__link" href="{{ '/posts/2015-01-05-what-is-color-contrast/' | url }}">Color contrast</a> is how legible colors are when placed next to, and on top of each other.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.colorContrast %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="mobile-touch" class="c-heading-large">
+		Mobile&#8202;/&#8202;Touch
+	</h2>
+	<p class="c-preface">
+		Things to check mobile experiences for.
+	</p>
+	<div class="c-card__wrapper">
+		{% set checklist = checklists.mobile %}
+		{% for checklist in checklist %}
+			{% include "checklist.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="further-reading" class="c-heading-large">
+		Further reading
+	</h2>
+	<p class="c-preface">
+		TetraLogical has a good in-depth, yet still <a class="c-preface__link" href="https://tetralogical.com/articles/wcag-primer/">high-level explanation of the <abbr>WCAG</abbr></a>. Check it out if you want to learn more about its history and principles.
+	</p>
+
+</div>

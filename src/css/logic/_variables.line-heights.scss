@@ -1,0 +1,69 @@
+// Line Heights
+//
+// Controls how far apart lines of text are.
+//
+// For body text, the [WCAG requires a line height percentage of 150](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html)
+// or higher. This aids with legibility and covers a large degree of
+// accessibility concerns, including low vision conditions, cognitive
+// considerations such as dyslexia, and language and learning disabilities.
+//
+// It is improtant to keep line heights unitless, so the ratio they describe
+// will be maintained if a person increases the font size.
+//
+// Styleguide Logic.Variables.line-heights
+
+
+// line-height-none
+//
+// Weight: 1
+//
+// Styleguide Logic.Variables.line-heights.line-height-none
+$line-height-none: 0;
+
+
+// line-height-single
+//
+// Weight: 2
+//
+// Styleguide Logic.Variables.line-heights.line-height-single
+$line-height-single: 1;
+
+
+// line-height-tighter
+//
+// Weight: 3
+//
+// Styleguide Logic.Variables.line-heights.line-height-tighter
+$line-height-tighter: 1.1;
+
+
+// line-height-tight
+//
+// Weight: 4
+//
+// Styleguide Logic.Variables.line-heights.line-height-tight
+$line-height-tight: 1.3;
+
+
+// line-height-loose
+//
+// Weight: 5
+//
+// Styleguide Logic.Variables.line-heights.line-height-loose
+$line-height-loose: 1.5;
+
+
+// line-height-looser
+//
+// Weight: 6
+//
+// Styleguide Logic.Variables.line-heights.line-height-looser
+$line-height-looser: 1.7;
+
+
+// line-height-double
+//
+// Weight: 7
+//
+// Styleguide Logic.Variables.line-heights.line-height-double
+$line-height-double: 2;

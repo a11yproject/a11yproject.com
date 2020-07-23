@@ -1,0 +1,78 @@
+$_banner-triangle-size: 1.49rem;
+
+
+.c-banner {
+	background-color: $color-green-tint;
+	background-image: url("#{$path-to-img}/resource-banner-inset.svg");
+	background-position: center right;
+	background-repeat: no-repeat;
+	color: $color-black;
+	font-family: $font-family-secondary;
+	font-size: 1rem;
+	letter-spacing: $font-tracking-slight;
+	line-height: $line-height-single;
+	margin-top: 1.5rem;
+	padding: 0.1rem 1rem 0.6rem 0.3rem;
+	text-transform: uppercase;
+
+	// [1] Magic number to position the triangle
+	&::before {
+		content: "";
+		border-style: solid;
+		border-color: transparent $color-green transparent transparent;
+		border-width: 0 $_banner-triangle-size $_banner-triangle-size 0;
+		display: inline-block;
+		position: relative;
+			top: 2.26rem; // [1]
+			right: 0.275rem; // [1]
+
+			// User Queries
+		@media screen and (-ms-high-contrast: active) {
+			display: none;
+		}
+	}
+
+	// Contexts
+	&.c-banner--resource {
+		background-color: $color-green;
+		background-image: none;
+		color: $color-white;
+		margin-top: 0;
+
+		&::before {
+			border-color: transparent $color-green-shade transparent transparent;
+		}
+	}
+
+	&.c-banner--post {
+		background-color: $color-blue;
+		background-image: none;
+		color: $color-white;
+		margin-top: 0;
+
+		&::before {
+			border-color: transparent $color-blue-shade transparent transparent;
+		}
+	}
+}
+
+
+.c-banner__icon {
+	fill: $color-white;
+	height: 0.75rem;
+	width: auto;
+
+	// Contexts
+	.c-card--resource & {
+		fill: $color-black;
+	}
+
+	.c-card--highlight & {
+		fill: $color-white;
+	}
+
+	// User Queries
+	@media screen and (-ms-high-contrast: active) {
+		display: none;
+	}
+}

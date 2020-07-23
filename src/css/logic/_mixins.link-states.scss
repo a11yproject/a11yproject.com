@@ -1,0 +1,21 @@
+// link-states
+//
+	// Generates link color and hover and focus states.
+//
+// $link-color - Specifies what color to use for link styling.
+//
+// Styleguide Logic.Mixins.link-states
+@mixin link-states($link-color) {
+	color: $link-color;
+
+	// States
+	&:focus {
+		background-color: $link-color;
+		color: $color-white;
+		outline: $border-thin solid $link-color;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
