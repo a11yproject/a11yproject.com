@@ -1,5 +1,3 @@
-var { version } = require('./package.json');
-
 // This file is used to collect and process all the site's assets, to help
 // generate the live website. You can read more about Gulp here:
 // https://gulpjs.com/
@@ -7,8 +5,6 @@ var { version } = require('./package.json');
 // This setup is based on Chris Ferdinandi's excellent Gulp Boilerplate
 // project: https://gomakethings.com/a-new-gulp-boilerplate/
 
-
-var currentVersion = '.' + version;
 
 // Settings ///////////////////////////////////////////////////////////////////
 // Turn on/off build features
@@ -112,7 +108,7 @@ var configIcons = {
 var jsTasks = lazypipe()
 	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output)
-	.pipe(rename, { suffix: '.min' + currentVersion })
+	.pipe(rename, { suffix: '.min'})
 	.pipe(uglify)
 	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output);
@@ -185,7 +181,7 @@ var buildStyles = function (done) {
 			remove: true
 		}))
 		// .pipe(dest(paths.styles.output))
-		.pipe(rename({ suffix: '.min' + currentVersion}))
+		.pipe(rename({ suffix: '.min'}))
 		.pipe(minify({
 			discardComments: {
 				removeAll: true
