@@ -1,7 +1,7 @@
 {
   "name": "A11Y Project",
   "short_name": "A11YProject",
-  "description": "A community-driven effort to make web accessibility easier.",
+  "description": "A community-driven effort to make digital accessibility easier.",
   "start_url": "/",
   "background_color": "#000",
   "scope": "/",
