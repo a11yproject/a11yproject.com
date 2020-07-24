@@ -44,7 +44,7 @@ The presenter demonstrates the common hand movements to bring up the rotor menu,
 - Touching the screen with one finger from each hand and making a virtual dialing movement with both fingers rotating in the same direction, seen at [0:25] until [0:30] in the video
 
 ## Learning with a quiz
-Other individuals may learn better testing their memory through a quiz. If creating a quiz may be too time consuming, there is a bookmark available on [CodePen](https://codepen.io/anevins12/pen/xxwwdya).
+Other individuals may learn better testing their memory through a quiz. If creating a quiz may be too time consuming, there is a bookmark available on [CodePen](https://codepen.io/anevins12/details/xxwwdya).
 
 This quiz bookmarklet works on the [Deque screen reader shortcut pages](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts). It replaces shortcuts inside tables into input fields that are ready to fill in. There is no way to submit the quiz to find out the answers, but opening the same page in a new tab can help validate your answers. This bookmarklet can be used on the following pages:
 - [JAWS Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts)
