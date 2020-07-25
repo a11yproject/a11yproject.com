@@ -109,7 +109,7 @@ var configIcons = {
 var jsTasks = lazypipe()
 	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output)
-	.pipe(rename, { suffix: '.min' })
+	.pipe(rename, { suffix: '.min'})
 	.pipe(uglify)
 	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output);
@@ -182,7 +182,7 @@ var buildStyles = function (done) {
 			remove: true
 		}))
 		// .pipe(dest(paths.styles.output))
-		.pipe(rename({ suffix: '.min' }))
+		.pipe(rename({ suffix: '.min'}))
 		.pipe(minify({
 			discardComments: {
 				removeAll: true
