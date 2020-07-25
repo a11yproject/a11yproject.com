@@ -1,7 +1,6 @@
 <!DOCTYPE html class="no-js">
 <html lang="en" itemscope itemtype="http://schema.org/Webpage">
 	<head>
-		{% include "meta/analytics.njk" %}
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +9,7 @@
 		<link rel="stylesheet" as="style" href="{{ '/css/screen.min.css?v=' + getCurrentVersion.version  | url }}" />
 		<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}" />
 		<link rel="sitemap" type="application/xml" title="{{ metadata.title }}" href="{{ '/sitemap.xml' | url }}" />
-		<link rel="author" href="humans.txt" />
+		<link rel="author" href="/humans.txt" />
 		{% include "meta/service-worker.njk" %}
 
 	</head>
@@ -31,7 +30,8 @@
 		{% include "footer.njk" %}
 
 		<script async src="{{ '/' | url }}js/main.min.js?v={{getCurrentVersion.version}}"></script>
-		<script src="{{ '/' | url }}js/table-of-contents.js"></script>
+    <script src="{{ '/' | url }}js/details-element-polyfill/details-element-polyfill.polyfil.min.js"></script>
+		<script src="{{ '/' | url }}js/table-of-contents/table-of-contents.min.js"></script>
 		<script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
 
 	</body>
