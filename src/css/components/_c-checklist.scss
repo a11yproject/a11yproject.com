@@ -64,7 +64,9 @@ $_checklist-padding: 1.5rem;
 			color: $color-blue-shade;
 		}
 	}
+}
 
+.c-checklist__summary-inner {
 	// Supports
 	@supports #{$supports-flex} {
 		align-items: center;
@@ -72,7 +74,6 @@ $_checklist-padding: 1.5rem;
 		flex-direction: row;
 	}
 }
-
 
 .c-checklist__icon {
 	fill: $color-blue-shade;

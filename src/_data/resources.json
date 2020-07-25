@@ -180,7 +180,6 @@
 			"additional": "Kat Holmes",
 			"url": "https://mitpress.mit.edu/books/mismatch"
 		},
-		
 		{
 			"title": "Practical Web Inclusion & Accessibility",
 			"description": "This book will guide you through a broad range of access needs, the barriers users often face, and provide practical advice on how your sites can help rather than hinder. Going beyond advice tailored solely for developers, this book offers potential improvements for designers, developers, user experience professionals, QA and testers, so that everyone involved in building a website can benefit.",
@@ -713,170 +712,182 @@
 	"meetups": [
 		{
 			"title": "A11YChi/A11Y-Presentations",
-			"location": "Chicago, Illinois",
 			"description": "A guide to accessible presentations, for presenters, speakers.",
+			"additional": "Chicago, Illinois",
 			"url": "https://github.com/A11YChi/A11Y-Presentations"
 		},
 		{
 			"title": "#a11yTO",
-			"location": "Toronto, Canada",
 			"description": "#a11yTO actively promotes digital inclusion for the design and development communities in and around the Greater Toronto Area.",
+			"additional": "Toronto, Canada",
 			"url": "https://twitter.com/a11yTO"
 		},
 		{
 			"title": "Accessibility Chicago",
-			"location": "Chicago, United States",
 			"description": "A community of digital professionals passionate about making the world more accessible and inclusive.",
+			"additional": "Chicago, United States",
 			"url": "https://www.meetup.com/a11ychi/"
 		},
 		{
 			"title": "A11yPHL - Philly Accessibility Meetup",
-			"location": "Philladelphia, United States",
 			"description": "The Philly Accessibility Meetup exists to connect and elevate the local accessibility community.",
+			"additional": "Philladelphia, United States",
 			"url": "https://www.meetup.com/a11yphl/"
 		},
 		{
 			"title": "A11ySEA",
-			"location": "Seattle, United States",
 			"description": "Accessibility Seattle is dedicated to the simple premise that 'digital inclusion' is fundamental.",
+			"additional": "Seattle, United States",
 			"url": "https://twitter.com/a11ysea"
 		},
 		{
 			"title": "Accessibility Club",
-			"location": "Nürnberg, Germany",
 			"description": "The Accessibility Club gives you the chance to get some real-world experience with assistive technology, deepen your knowledge about web accessibilty and get in touch with like-minded webworkers.",
+			"additional": "Nürnberg, Germany",
 			"url": "https://accessibility-club.org/"
 		},
 		{
 			"title": "Accessibility DC",
-			"location": "Washington DC, United States",
 			"description": "Accessibility DC is a monthly meetup once every month and is a chance for people who are interested in Accessibility to get together and share information. Web Developers who are interested in Web Accessibility and Adaptive Technology Users who have a daily experience of accessibility issues are all welcome to attend.",
+			"additional": "Washington DC, United States",
 			"url": "http://www.accessibilitydc.org/"
 		},
 		{
 			"title": "A11yNYC - Accessibility New York City",
-			"location": "New York, United States",
 			"description": "Our group exists to advance accessibility and inclusive design. Our goal is to bring together NYC's accessibility community to share ideas, best practices, and our experiences.",
+			"additional": "New York, United States",
 			"url": "https://www.meetup.com/a11ynyc/"
 		},
 		{
 			"title": "AnnArborA11y",
-			"location": "Michigan, United States",
 			"description": "Accessibility group based in Ann Arbor, Michigan.",
+			"additional": "Michigan, United States",
 			"url": "https://twitter.com/annarbora11y"
 		},
 		{
 			"title": "Bay Area Accessibility and Inclusive Design",
-			"location": "Bay Area, United States",
 			"description": "Calling all Bay Area developers, designers, accessibility, usability and any other high-tech professionals who have an interest in digital (web, mobile, etc.) accessibility and users with different disabilities.",
+			"additional": "Bay Area, United States",
 			"url": "https://www.meetup.com/a11ybay/"
 		},
 		{
 			"title": "Bristol Inclusive Design & Development",
-			"location": "Bristol, United Kingdom",
 			"description": "A meetup for anyone involved in digital design and development, accessibility and inclusive design.",
+			"additional": "Bristol, United Kingdom",
 			"url": "https://twitter.com/BrisInclusive"
 		},
 		{
 			"title": "Budapest Accessibility Meetup",
-			"location": "Budapest, Hungary",
 			"description": "A meetup for Hungarian developers and designers.",
+			"additional": "Budapest, Hungary",
 			"url": "https://www.meetup.com/Budapest-Accessibility-Meetup/"
 		},
 		{
 			"title": "Buffalo Accessibility Meetup",
-			"location": "New York, United States",
 			"description": "This is a venue for developers, designers, UX professionals, copywriters, QA professionals, and so on, to get together to learn from and share with others everything we can about accessibility and inclusiveness.",
+			"additional": "New York, United States",
 			"url": "https://www.meetup.com/buffa11y/"
 		},
 		{
 			"title": "Open Mcr",
-			"location": "Manchester, United Kingdom",
 			"description": "A meetup in Manchester focussing on making digital services accessible and inclusive to everyone.",
+			"additional": "Manchester, United Kingdom",
 			"url": "https://www.eventbrite.com/o/open-mcr-14856364651"
 		},
 		{
 			"title": "a11yRTP",
-			"location": "North Carolina, United States",
 			"description": "Are you interested in digital accessibility? Join this group of practitioners and inquirers as we explore how to make all aspects of digital life accessible to all people. ",
+			"additional": "North Carolina, United States",
 			"url": "https://www.meetup.com/a11yRTP/"
 		},
 		{
 			"title": "A11y Berlin",
-			"location": "Berlin, Germany",
 			"description": "A11y Meetup Berlin is designed to bring together the accessibility, web performance, and inclusive design community to share and discuss ideas, best practices, and experiences.",
+			"additional": "Berlin, Germany",
 			"url": "https://a11y-meetup-berlin.de/"
 		},
 		{
 			"title": "Cleveland Accessibility Meetup",
-			"location": "Ohio, United States",
 			"description": "Accessibility is for everyone. We seek to increase awareness of digital accessibility, inclusive design, and assistive technologies in Northeast Ohio in a setting of sharing, learning, and networking.",
+			"additional": "Ohio, United States",
 			"url": "https://www.meetup.com/Cleveland-Accessibility-Meetup/"
 		},
 		{
 			"title": "Inclusive Design & Accessibility",
-			"location": "Utrecht, Netherlands",
 			"description": "We like to come together to talk about inclusive design and accessibility. Be it UX design, UI design, EU law changes, web accessibility, product design, user research, what have you.",
+			"additional": "Utrecht, Netherlands",
 			"url": "https://www.meetup.com/Inclusive-Design-Accessibility/"
 		},
 		{
 			"title": "Munich Accessibility Meetup",
-			"location": "Munich, Germany",
 			"description": "Munich Accessibility Meetup is a hub to bring together Munich's accessibility and inclusive design community.",
+			"additional": "Munich, Germany",
 			"url": "https://www.meetup.com/Munich-Accessibility-Meetup/"
 		},
 		{
 			"title": "Paris Web Accessibility",
-			"location": "Paris, France",
 			"description": "Ce groupe s'adresse à toutes personnes étant intéressée à rendre le web plus accessible allant du développeur au designer en passant par le product owner.",
+			"additional": "Paris, France",
 			"url": "https://www.meetup.com/Paris-Web-Accessibility/"
 		},
 		{
 			"title": "Portland Accessibility and User Experience Meetup",
-			"location": "The Portland Accessibility and User Experience (PDX A11Y UX) Meetup addresses how to incorporate accessibility and universal design principles into project planning, user research, and UX evaluation.",
 			"description": "Oregon, United States",
+			"additional": "The Portland Accessibility and User Experience (PDX A11Y UX) Meetup addresses how to incorporate accessibility and universal design principles into project planning, user research, and UX evaluation.",
 			"url": "https://www.meetup.com/Portland-Accessibility-and-User-Experience-Meetup/"
 		},
 		{
 			"title": "OZeWAI - Australian Web Adaptability Initiative",
-			"location": "Perth, Australia",
 			"description": "OZeWAI is an association of volunteers working to make the information world more inclusive. It was the first such organisation in Australia and has been a leading initiative in the field for more than 20 years.",
+			"additional": "Perth, Australia",
 			"url": "https://www.ozewai.org/"
 		},
 		{
 			"title": "WebA11y.jp",
-			"location": "Tokyo, Japan",
 			"description": "",
+			"additional": "Tokyo, Japan",
 			"url": "https://weba11y.jp/"
 		},
 		{
 			"title": "A11y Bytes",
-			"location": "Sydney, Australia",
-			"description": "A11y Bytes is a dynamic fast-paced evening of lightning talks about digital accessibility and the needs and preferences of users with disabilities.",
+			"description": "A11y Bytes is a dynamic fast-paced evening of lightning talks about digital accessibility and the needs and preferences of users with disabilities, run in multiple cities across Australia.",
+			"additional": "Australia",
 			"url": "https://a11ybytes.org/"
 		},
 		{
+			"title": "Melbourne Web Accessibility and Inclusive Design",
+			"description": "Based in Melbourne, Australia, this group is for web practitioners and other professionals who are interested in web accessibility and inclusive design practices.",
+			"additional": "Melbourne, Australia",
+			"url": "https://www.meetup.com/en-AU/Melbourne-Web-Accessibility-Inclusive-Design/"
+		},
+		{
+			"title": "Sydney Web Accessibility and Inclusive Design",
+			"description": "This Sydney group is for anyone interested in inclusive research, design and development practices. This includes accessible design and development, user research that involves people with disabilities in a holistic, integrated fashion as well as compliance with international standards such as the Web Content Accessibility Guidelines.",
+			"additional": "Sydney, Australia",
+			"url": "https://www.meetup.com/en-AU/Sydney-Web-Accessibility-Inclusive-Design/"
+		},
+		{
 			"title": "Accessibility Scotland",
-			"location": "Edinburgh, Scotland",
 			"description": "Accessibility Scotland’s focus is on providing a friendly, affordable, and informative day focused on digital accessibility and inclusion.",
+			"additional": "Edinburgh, Scotland",
 			"url": "https://www.meetup.com/a11yScotland-Meetups/"
 		},
 		{
 			"title": "London Accessibility Meetup",
-			"location": "London, United Kingdom",
 			"description": "We are the UK's largest accessibility community, a welcoming and friendly group of people focussed on digital products, digital services and the built environment across the public, private and charitable sectors.",
+			"additional": "London, United Kingdom",
 			"url": "https://www.meetup.com/London-Accessibility-Meetup/"
 		},
 		{
 			"title": "a11yMTL meetup - web accessibility & inclusive design",
-			"location": "Montréal, Canada",
 			"description": "a11yMTL is a bilingual interest group for anyone passionate about web accessibility, universal design, and digital inclusion.",
+			"additional": "Montréal, Canada",
 			"url": "https://www.meetup.com/a11yMTL/"
 		},
 		{
 			"title": "role=drinks",
-			"location": "Amsterdam, Netherlands",
 			"description": "What on Earth is a role=drinks? It’s an accessibility meetup! The event features lightning talks by accessibility specialist, time to talk to the speakers and fellow attendees, and more than enough time to grab a drink.",
+			"additional": "Amsterdam, Netherlands",
 			"url": "https://www.roledrinks.com/"
 		}
 	],
@@ -1061,6 +1072,11 @@
 			"title": "Deque Systems",
 			"description": "Deque Systems provides web and mobile accessibility solutions so you can meet compliance goals and help make the web accessible to all users.",
 			"url": "https://www.deque.com/"
+		},
+		{
+			"title": "Intopia",
+			"description": "We help organisations be more inclusive and accessible by providing digital accessibility audits, training, strategy, usability testing, and consulting.",
+			"url": "https://intopia.digital/"
 		},
 		{
 			"title": "Knowbility",

@@ -16,7 +16,10 @@
 
 
 .c-homepage-card--spotlight {
-	margin-right: 4rem;
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		margin-right: 4rem;
+	}
 
 	// Supports
 	@supports #{$supports-flex} {
