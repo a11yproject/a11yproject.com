@@ -60,6 +60,11 @@ $_checklist-padding: 1.5rem;
 			fill: $color-white;
 		}
 
+		.c-checklist__checkbox input[type="checkbox"]:checked + label:before {
+			border-color: $color-white;
+			background: url('/img/checklist/checkmark-white.svg') center/20px no-repeat;
+		}
+
 		code {
 			color: $color-blue-shade;
 		}
@@ -95,6 +100,46 @@ $_checklist-padding: 1.5rem;
 
 .c-checklist__title {
 	margin-left: 1rem;
+	flex: 1;
+}
+
+
+
+
+
+.c-checklist__checkbox {
+	input[type="checkbox"] {
+		display: none;
+	}
+
+	input[type="checkbox"] + label .sr-only {
+		position: absolute;
+		clip: rect(1px, 1px, 1px, 1px);
+		padding: 0;
+		border: 0;
+		height: 1px;
+		width: 1px;
+		overflow: hidden;
+	}
+
+	input[type="checkbox"] + label:before {
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		width: 20px;
+		height: 20px;
+		border: 2px solid #c5c5c5;
+		margin: 0 8px;
+	}
+
+	input[type="checkbox"]:checked + label:before {
+		border-color: $color-blue-shade;
+		background: url('/img/checklist/checkmark.svg') center/20px no-repeat;
+	}
+
+	input[type="checkbox"]:focus + label::before {
+		outline: $color-blue-tint auto 2px;
+	}
 }
 
 

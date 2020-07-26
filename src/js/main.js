@@ -66,5 +66,48 @@ function openLinkedCheckListItem() {
 		}
 	});
 }
+// Store checklist status ---------------------------------------------------
+function storeChecklistItems(item) {
+	localStorage.setItem(item, 'checked');
+}
+
+function removeChecklistItems(item) {
+	localStorage.removeItem(item);
+}
+
+function getChecklistItemVal(item) {
+	return localStorage.getItem(item);
+}
+
+function checkChecklistExists(item) {
+	return getChecklistItemVal(item) === 'checked';
+}
+
+function processChecklistClick(items) {
+	items.forEach(function(element){
+		element.addEventListener('change', function(event) {
+			if (checkChecklistExists(event.target.id)) {
+				removeChecklistItems(event.target.id)
+			} else {
+				storeChecklistItems(event.target.id);
+			}
+		});
+	});
+}
+
+function renderLocalStorageItems(items) {
+	items.forEach(function(element){
+		if (checkChecklistExists(element.id)) {
+			element.checked = true;
+		}
+	});
+}
 
 openLinkedCheckListItem();
+function processChecklist() {
+	var checklistItems = document.querySelectorAll('.c-checklist__checkbox input[type="checkbox"]');
+	renderLocalStorageItems(checklistItems);
+	processChecklistClick(checklistItems);
+}
+
+processChecklist();
