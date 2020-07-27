@@ -17,22 +17,22 @@
 
 
 .c-a11y-summary__explanation {
-	font-size: 1.5rem;
+	font-size: $font-size-body-large;
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
-		font-size: 1.75rem;
+		font-size: $font-size-heading-tiny;
 	}
 
 	@include mappy-bp(palm-medium) {
-		font-size: 2.25rem;
+		font-size: $font-size-heading-medium;
 	}
 
 	@include mappy-bp(palm-large) {
-		font-size: 2.75rem;
+		font-size: $font-size-heading-larger;
 	}
 }
 
@@ -42,7 +42,7 @@
 	background-size: 75%;
 	display: block;
 	font-family: $font-family-secondary;
-	font-size: 1.75rem;
+	font-size: $font-size-heading-tiny;
 	letter-spacing: $font-tracking-slight;
 	padding-bottom: 1rem;
 	text-transform: uppercase;
@@ -53,24 +53,24 @@
 	}
 
 	@include mappy-bp(palm-medium) {
-		font-size: 2.25rem;
+		font-size: $font-size-heading-medium;
 	}
 
 	@include mappy-bp(palm-large) {
-		font-size: 2.5rem;
+		font-size: $font-size-heading-large;
 	}
 }
 
 
 .c-a11y-summary__mission {
 	font-family: $font-family-secondary;
-	font-size: 1rem;
+	font-size: $font-size-body;
 	margin-top: 2rem;
 	max-width: 40ch;
 	text-align: center;
 
 	// Breakpoints
 	@include mappy-bp(palm-medium) {
-		font-size: 1.2rem;
+		font-size: $font-size-body-medium;
 	}
 }
