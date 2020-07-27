@@ -31,7 +31,7 @@ $_c-post-vertical-spacing: 4ex;
 
 	p {
 		border-bottom: $border-thinnest solid $color-green;
-		font-size: 1rem;
+		font-size: $font-size-body;
 		padding: 0.5rem 0 0.5rem map-get($global-post-content-inset, small);
 		text-transform: uppercase;
 
@@ -62,7 +62,7 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__category__link {
-	font-size: 1rem;
+	font-size: $font-size-body;
 	color: $color-green;
 	text-decoration: none;
 
@@ -87,7 +87,7 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__title {
-	font-size: 2rem;
+	font-size: $font-size-heading-small;
 	line-height: $line-height-tight;
 	margin: 0.75rem map-get($global-post-content-inset, small) 2rem map-get($global-post-content-inset, small);
 	padding-right: 1rem;
@@ -99,7 +99,7 @@ $_c-post-vertical-spacing: 4ex;
 	}
 
 	@include mappy-bp(lap-small) {
-		font-size: 3rem;
+		font-size: $font-size-heading-largest;
 		max-width: $global-type-measure;
 	}
 
@@ -121,7 +121,7 @@ $_c-post-vertical-spacing: 4ex;
 .c-post__metadata {
 	border-top: $border-thinnest solid $color-green;
 	border-bottom: $border-thick solid $color-green;
-	font-size: 0.8rem;
+	font-size: $font-size-body-small;
 	list-style-type: none;
 	padding: 0.75rem map-get($global-post-content-inset, small);
 
