@@ -116,7 +116,7 @@ $_checklist-padding: 1.5rem;
 
 
 .c-checklist__description {
-	font-size: 0.9rem;
+	font-size: $font-size-body-small;
 	line-height: $line-height-looser;
 	margin-top: 0.75rem;
 	padding-right: $_checklist-padding;
