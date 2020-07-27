@@ -57,7 +57,7 @@
 
 	& ~ .c-subtitle {
 		font-family: $font-family-secondary;
-		font-size: 1.5rem;
+		font-size: $font-size-body-large;
 		line-height: $line-height-tight;
 	}
 }
@@ -74,7 +74,7 @@
 //
 // Style guide: Components.Headings.heading-larger
 .c-heading-larger {
-	font-size: 2.25rem;
+	font-size: $font-size-heading-medium;
 	letter-spacing: $font-tracking-tight;
 	line-height: $line-height-tight;
 }
