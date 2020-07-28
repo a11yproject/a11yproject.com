@@ -2,7 +2,6 @@ $_checklist-icon-size: 1.5rem;
 $_checklist-inset: 4rem;
 $_checklist-padding: 1.5rem;
 
-
 .c-checklist {
 	border-right: $border-thinnest solid $color-blue-shade;
 	border-bottom: $border-thinnest solid $color-blue-shade;
@@ -104,12 +103,13 @@ $_checklist-padding: 1.5rem;
 }
 
 
-
-
-
 .c-checklist__checkbox {
+	float: right;
+	margin-top: 1.5rem;
+	margin-right: 1.5rem;
+
 	input[type="checkbox"] {
-		display: none;
+		opacity: 0;
 	}
 
 	input[type="checkbox"] + label .sr-only {
@@ -138,7 +138,7 @@ $_checklist-padding: 1.5rem;
 	}
 
 	input[type="checkbox"]:focus + label::before {
-		outline: $color-blue-tint auto 2px;
+		outline: $color-blue-tint auto 5px;
 	}
 }
 

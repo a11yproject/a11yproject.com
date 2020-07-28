@@ -4,6 +4,13 @@
 {% set url = checklist.url %}
 {% set wcag = checklist.wcag %}
 
+<div class="c-checklist__checkbox">
+	<input type="checkbox" id="checkbox-{{ checklist.title | slugify }}">
+	<label for="checkbox-{{ checklist.title | slugify }}">
+		<span class="sr-only">Check Item: {{ checklist.title | safe }}</span>
+	</label>
+</div>
+
 <details class="c-checklist" data-checklist-item-id="{{ slugifiedTitle }}">
 	<summary id="{{ slugifiedTitle }}" class="c-checklist__summary">
 		<span class="c-checklist__summary-inner">
