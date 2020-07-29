@@ -113,7 +113,7 @@ $_card-outline: $border-thinner solid;
 
 .c-card__meta {
 	color: $color-gray-shade;
-	font-size: 0.8rem;
+	font-size: $font-size-body-small;
 	max-width: $global-type-measure;
 
 	// Contexts
@@ -136,7 +136,7 @@ $_card-outline: $border-thinner solid;
 .c-card__additional {
 	color: $color-gray-shade;
 	font-family: $font-family-secondary;
-	font-size: 0.9rem;
+	font-size: $font-size-body-small;
 	line-height: $line-height-tight;
 	margin-top: 0.25rem;
 	text-transform: uppercase;
@@ -145,7 +145,7 @@ $_card-outline: $border-thinner solid;
 
 .c-card__description {
 	font-family: $font-family-secondary;
-	font-size: 0.9rem;
+	font-size: $font-size-body-small;
 	margin-top: 1rem;
 	max-width: $global-type-measure;
 }

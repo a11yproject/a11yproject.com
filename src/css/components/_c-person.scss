@@ -131,7 +131,7 @@ $_person-photo: (
 	@include link-states($color-blue-shade);
 
 	font-family: $font-family-secondary;
-	font-size: 1rem;
+	font-size: $font-size-body;
 	letter-spacing: $font-tracking-slight;
 	text-decoration-thickness: $border-thinnest;
 	text-transform: uppercase;
@@ -141,7 +141,7 @@ $_person-photo: (
 
 .c-person__name {
 	font-family: $font-family-secondary;
-	font-size: 1.5rem;
+	font-size: $font-size-body-large;
 
 	&:target {
 		scroll-margin-top: 5rem;

@@ -49,7 +49,7 @@
 .c-homepage-card__author {
 	color: $color-green;
 	font-family: $font-family-secondary;
-	font-size: 0.9rem;
+	font-size: $font-size-body-small;
 	letter-spacing: $font-tracking-slight;
 	margin-top: 1.5rem;
 	text-transform: uppercase;
@@ -58,7 +58,7 @@
 
 .c-homepage-card__title {
 	cursor: pointer;
-	font-size: 1.25rem;
+	font-size: $font-size-body-medium;
 	color: $color-black;
 	text-decoration: none;
 }
@@ -155,14 +155,14 @@
 
 .c-homepage-card__spotlight-name {
 	font-family: $font-family-secondary;
-	font-size: 1.25rem;
+	font-size: $font-size-body-medium;
 }
 
 
 .c-homepage-card__spotlight-role {
 	color: $color-blue-shade;
 	font-family: $font-family-secondary;
-	font-size: 0.9rem;
+	font-size: $font-size-body-small;
 	letter-spacing: $font-tracking-slight;
 	text-transform: uppercase;
 }
