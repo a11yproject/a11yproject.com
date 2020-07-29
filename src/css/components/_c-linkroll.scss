@@ -119,7 +119,7 @@
 
 
 .c-linkroll__category {
-	font-size: 0.75rem;
+	font-size: $font-size-body-tiny;
 	text-transform: uppercase;
 
 	// Contexts
@@ -156,7 +156,7 @@
 
 .c-linkroll__title {
 	color: $color-black;
-	font-size: 1.25rem;
+	font-size: $font-size-body-medium;
 	line-height: $line-height-tight;
 	text-decoration: none;
 }
@@ -165,7 +165,7 @@
 	border-bottom: $border-thin dotted transparent;
 	color: $color-black;
 	font-family: $font-family-secondary;
-	font-size: 1.25rem;
+	font-size: $font-size-body-medium;
 	padding-bottom: 0.75rem;
 
 	// Contexts

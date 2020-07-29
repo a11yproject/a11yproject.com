@@ -3,7 +3,7 @@
 	color: $color-sand;
 	font-family: $font-family-secondary;
 	padding: 0.25rem map-get($global-bleed, small);
-	font-size: 0.9rem;
+	font-size: $font-size-body-small;
 	text-align: center;
 
 	// User Queries
