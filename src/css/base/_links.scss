@@ -6,15 +6,14 @@
 //
 // Styleguide Base.link
 a {
-	// States
-	&:hover,
-	&:focus {
-		text-decoration: none;
+	// Style links that don't have a class declared on them
+	&[href]:not([class]) {
+		// States
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
 	}
-
-	// Styles links that don't have a class declared on them
-	// &[href]:not([class]) {
-	// }
 
 	// Display links when the `<a>` element has no text value but the href
 	// attribute has a link
