@@ -11,4 +11,7 @@
 	<p class="c-checklist__description">
 		{{ checklist.description | safe }}
 	</p>
+	<p class="c-checklist__permalink">
+		<a aria-describedby="{{ checklist.title | slugify }}" class="c-checklist__link" href="#{{ checklist.title | slugify }}">Permalink</a>
+	</p>
 </details>
