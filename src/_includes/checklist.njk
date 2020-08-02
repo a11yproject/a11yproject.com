@@ -12,6 +12,9 @@
 		{{ checklist.description | safe }}
 	</p>
 	<p class="c-checklist__share-link">
-		<a aria-describedby="{{ checklist.title | slugify }}" class="c-checklist__link" href="#{{ checklist.title | slugify }}">Share Link</a>
+		<a class="c-checklist__link" href="#{{ checklist.title | slugify }}">
+			Share Link
+			<span class="u-hide-visually">to checklist item: {{ checklist.title | safe }}</span>
+		</a>
 	</p>
 </details>
