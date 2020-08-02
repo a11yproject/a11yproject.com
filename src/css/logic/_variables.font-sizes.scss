@@ -1,15 +1,103 @@
-// Font Sizes
+// Font Families
+//
+// Font family variables are used to control and keep a specific set of font
+// sizes consistent. Font sizes are split into two type: body font sizes and
+// heading font sizes.
+//
+// Styleguide Logic.Variables.font-sizes
 
-$font-size-body-tiny: 0.75rem; // 12px
-$font-size-body-small: 0.875rem; // 14px
-$font-size-body: 1rem; // 16px
-$font-size-body-medium: 1.25rem; // 20px
-$font-size-body-large: 1.5rem; // 24px
 
-$font-size-heading-tiny: 1.75rem; // 28px
-$font-size-heading-small: 2rem; // 32px
-$font-size-heading-medium: 2.25rem; // 36px
-$font-size-heading-large: 2.5rem; // 40px
-$font-size-heading-larger: 2.75rem; // 44px
-$font-size-heading-largest: 3rem; // 48px
-$font-size-heading-huge: 3.5rem; // 56px
+// font-size-body-tiny
+//
+// Weight: 1
+//
+// Styleguide Logic.Variables.font-families.font-size-body-tiny
+$font-size-body-tiny: 0.75rem;
+
+
+// font-size-body-small
+//
+// Weight: 2
+//
+// Styleguide Logic.Variables.font-families.font-size-body-small
+$font-size-body-small: 0.875rem;
+
+
+// font-size-body-body
+//
+// Weight: 3
+//
+// Styleguide Logic.Variables.font-families.font-size-body-body
+$font-size-body: 1rem;
+
+
+// font-size-body-medium
+//
+// Weight: 4
+//
+// Styleguide Logic.Variables.font-families.font-size-body-medium
+$font-size-body-medium: 1.25rem;
+
+
+// font-size-body-large
+//
+// Weight: 5
+//
+// Styleguide Logic.Variables.font-families.font-size-body-large
+$font-size-body-large: 1.5rem;
+
+
+// font-size-heading-tiny
+//
+// Weight: 6
+//
+// Styleguide Logic.Variables.font-families.font-size-heading-tiny
+$font-size-heading-tiny: 1.75rem;
+
+
+// font-size-heading-small
+//
+// Weight: 7
+//
+// Styleguide Logic.Variables.font-families.font-size-heading-small
+$font-size-heading-small: 2rem;
+
+
+// font-size-heading-medium
+//
+// Weight: 8
+//
+// Styleguide Logic.Variables.font-families.font-size-heading-medium
+$font-size-heading-medium: 2.25rem;
+
+
+// font-size-heading-large
+//
+// Weight: 9
+//
+// Styleguide Logic.Variables.font-families.font-size-heading-large
+$font-size-heading-large: 2.5rem;
+
+
+// font-size-heading-larger
+//
+// Weight: 10
+//
+// Styleguide Logic.Variables.font-families.font-size-heading-larger
+$font-size-heading-larger: 2.75rem;
+
+
+// font-size-heading-largest
+//
+// Weight: 11
+//
+// Styleguide Logic.Variables.font-families.font-size-heading-largest
+$font-size-heading-largest: 3rem;
+
+
+// font-size-heading-huge
+//
+// Weight: 12
+//
+// Styleguide Logic.Variables.font-families.font-size-heading-huge
+$font-size-heading-huge: 3.5rem;
