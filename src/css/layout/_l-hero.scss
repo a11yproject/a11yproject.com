@@ -1,5 +1,12 @@
 .l-hero {
-	height: 75vh;
+	position: relative;
+	height: auto;
+	padding: map-get($global-bleed, small) 0;
+
+	@include mappy-bp(lap-large) {
+		height: 75vh;
+		min-height: rem(425);
+	}
 
 	// Contexts
 	.template-posts &,
@@ -29,18 +36,6 @@
 			justify-content: center;
 		}
 	}
-
-	@supports #{$supports-grid} {
-		// Breakpoints
-		@include mappy-bp(lap-small) {
-			display: grid;
-			grid-template-rows: 1fr 1fr 1fr 3rem;
-			grid-template-areas:
-				". .    ."
-				". hero ."
-				". .    .";
-		}
-	}
 }
 
 
@@ -48,8 +43,8 @@
 	margin-left: map-get($global-bleed, small);
 	margin-right: map-get($global-bleed, small);
 	position: relative;
-		top: 50%;
-	transform: perspective(1px) translateY(-60%); // HACK: Keeps content from rendering blurry
+	top: unset;
+	transform: perspective(1px) translateY(0); // HACK: Keeps content from rendering blurry
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -85,6 +80,10 @@
 
 		@include mappy-bp(lap-small) {
 			margin: 0;
+		}
+
+		@include mappy-bp(lap-large) {
+			margin-bottom: rem(50);
 		}
 	}
 }
