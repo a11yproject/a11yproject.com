@@ -189,7 +189,7 @@ var buildStyles = function (done) {
 			}
 		}))
 		.pipe(purgeCSS({
-			content: ['src/**/*.njk']
+			content: ['src/**/*.njk', 'src/**/*.md']
 		}))
 		.pipe(dest(paths.styles.output));
 	// Signal completion
