@@ -3,7 +3,7 @@
 		{
 			"name": "Dave Rupert",
 			"website": "https://daverupert.com/",
-			"photo": "https://pbs.twimg.com/profile_images/477460555981025280/JUGkf8zv_400x400.jpeg",
+			"photo": "https://www.a11yproject.com/img/team/dave-rupert.jpg",
 			"biography": " I'm Dave Rupert, lead developer at Paravel. I co-host ShopTalk, an award-winning sound effects podcast that also covers web development. I'm a dad to two wonderful kids. I live in Austin, TX; the best damn city, in the best damn state, in the best damn country, in the whole damn world."
 		}
 	],
@@ -11,49 +11,49 @@
 		{
 			"name": "Carie Fisher",
 			"website": "https://cariefisher.com/",
-			"photo": "https://avatars0.githubusercontent.com/u/15240149?s=460&u=f8078aeda9efd04ca638b635b509632dc913295a&v=4",
+			"photo": "https://www.a11yproject.com/img/team/carie-fisher.jpg",
 			"biography": "Carie Fisher is an author, speaker, and developer who is passionate about the intersection of front-end code and UX, digital accessibility, and promoting diversity in the tech world."
 		},
 		{
 			"name": "Dennis Gaebel",
 			"website": "https://droidpinkman.io/",
-			"photo": "https://avatars1.githubusercontent.com/u/13485205?s=460&u=cfc094f4fde922425deb20a214ad0880058004f9&v=4",
+			"photo": "https://www.a11yproject.com/img/team/dennis-gaebel.jpg",
 			"biography": "I'm Dennis. I specialize in SVG Animations, UI Prototyping, Visual Design, and building Modular Atomic Design Systems for the Web. I also consult and write about it."
 		},
 		{
 			"name": "Eric Bailey",
 			"website": "https://ericwbailey.design/",
-			"photo": "https://avatars3.githubusercontent.com/u/634191?s=460&u=d63a740900d1af3ce4d52fdb69a8f8f265782d3c&v=4",
+			"photo": "https://www.a11yproject.com/img/team/eric-bailey.jpg",
 			"biography": "I help create straightforward solutions that address a person’s practical, physical, cognitive, and emotional needs using accessible, performant, device-agnostic technology."
 		},
 		{
 			"name": "Jerry Jones",
 			"website": "https://jeremyjon.es/",
-			"photo": "http://1.gravatar.com/avatar/a7fe348d2f6c4fc5189a823574d95d3c?s=360&d=mm&r=g",
+			"photo": "https://www.a11yproject.com/img/team/jerry-jones.jpg",
 			"biography": "I’m a generalist web developer at Automattic living simply in rural Missouri with my wife and three kids."
 		},
 		{
 			"name": "Scott Vinkle",
 			"website": "https://scottvinkle.me/",
-			"photo": "https://avatars1.githubusercontent.com/u/1392632?s=460&u=703b41be24a5fde23738489682f9cf5d642dd736&v=4",
+			"photo": "https://www.a11yproject.com/img/team/scott-vinkle.jpg",
 			"biography": "Hi, I'm Scott. Web accessibility consultant and front end engineer from Toronto, Canada."
 		},
 		{
 			"name": "Soren Hamby",
 			"website": "http://linktr.ee/uxicorn",
-			"photo": "img/team/soren.jpg",
+			"photo": "https://www.a11yproject.com/img/team/soren-hamby.jpg",
 			"biography": "Soren is a UXer living in the NYC metro. They are currently doing design community outreach as InVision’s Design Advocate. They also host a livestream about UX, accessibility, and inclusion called Feature Disabled and write about UX for Modus, UX Planet, and UX Collective. Otherwise, you can find them eating large amounts of plants and making poems about space, loss, and inequality."
 		},
 		{
 			"name": "Tatiana Mac",
 			"website": "https://tatianamac.com/",
-			"photo": "https://avatars3.githubusercontent.com/u/7484549?s=460&u=f802cd233fd30c7a1feeb9594a0a2d62ffe2c4ed&v=4",
+			"photo": "https://www.a11yproject.com/img/team/tatiana-mac.jpg",
 			"biography": "Tatiana Mac is an American designer who builds inclusive, accessible, and ethical products with thoughtful practices."
 		},
 		{
 			"name": "Wayne Elgin",
 			"website": "https://twitter.com/esjay",
-			"photo": "https://avatars0.githubusercontent.com/u/56677?s=400&u=21112220ae060e43c856c42f367bc6afc34c8a2d&v=4",
+			"photo": "https://www.a11yproject.com/img/team/wayne-elgin.jpg",
 			"biography": "Wayne is a jack-of-many-trades developer, especially UX web technologies. He's been making websites since 1997. He values clean, semantic markup paired with creative, accessible styles. He likes Marx Brothers movies and biking with his kids."
 		},
 		{
@@ -67,49 +67,49 @@
 		{
 			"name": "Alex Brenon",
 			"website": "https://alexroseb.com/",
-			"photo": "https://pbs.twimg.com/profile_images/975451645462106112/_h6vsUym_400x400.jpg",
+			"photo": "https://www.a11yproject.com/img/team/alex-brenon.jpg",
 			"biography": "Research Assistant for ESD and Classics at UMass Amherst. Creator of Pop-Up Astronomy."
 		},
 		{
 			"name": "Emily Lane",
 			"website": "https://emilymlane.io/",
-			"photo": "https://avatars0.githubusercontent.com/u/9734623?s=460&u=912c5074b761e62141f1c7173d8f73de1e3ea8e2&v=4",
+			"photo": "https://www.a11yproject.com/img/team/emily-lane.jpg",
 			"biography": "Hi! I’m a recent grad with design and UX experience and a killer sense of humor. I’m currently working on munch., helping to find healthy food for pets."
 		},
 		{
 			"name": "Joe Watkins",
 			"website": "https://joe-watkins.io/",
-			"photo": "https://avatars1.githubusercontent.com/u/3695795?s=460&v=4",
+			"photo": "https://www.a11yproject.com/img/team/joe-watkins",
 			"biography": "Front-end web developer and web accessibility advocate."
 		},
 		{
 			"name": "Scott O'Hara",
 			"website": "https://www.scottohara.me/",
-			"photo": "https://avatars2.githubusercontent.com/u/4152514?s=460&v=4",
+			"photo": "https://www.a11yproject.com/img/team/scott-ohara",
 			"biography": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone."
 		},
 		{
 			"name": "Jordan Foreman",
 			"website": "https://jordanforeman.com/",
-			"photo": "https://jordanforeman.com/assets/images/maggi-and-jordan.jpg#img-profile",
+			"photo": "https://www.a11yproject.com/img/team/jordan-foreman.jpg",
 			"biography": "My name is Jordan Foreman, and I build things! My days are typically spent solving cool problems for John Deere as part of the Intelligent Solutions Group. My spare time is spent cycling, reading, doing yardwork, relaxing with my (amazing) fiancé Maggi, or working on Poddify."
 		},
 		{
 			"name": "Mat Marquis",
 			"website": "https://matmarquis.com/",
-			"photo": "https://avatars1.githubusercontent.com/u/439942?s=460&v=4",
+			"photo": "https://www.a11yproject.com/img/team/mat-marquis.png",
 			"biography": " My name is Mat “Wilto” Marquis, and I make websites. I’m an independent consultant. My specialization is inclusive web development."
 		},
 		{
 			"name": "Monika Piotrowicz",
 			"website": "https://github.com/mpiotrowicz",
-			"photo": "https://avatars1.githubusercontent.com/u/882875?s=460&u=ee95409a6edcde041c98ffa9d161767c0eef35b9&v=4",
+			"photo": "https://www.a11yproject.com/img/team/monika-piotrowicz.jpg",
 			"biography": "Director of International UX at Shopify, leading a globally distributed team, localizing a product."
 		},
 		{
 			"name": "Tiffany Tse",
 			"website": "https://github.com/tiffanytse",
-			"photo": "https://avatars2.githubusercontent.com/u/1638215?s=460&v=4"
+			"photo": "https://www.a11yproject.com/img/team/tiffany-tse.jpg"
 		}
 	]
 }
