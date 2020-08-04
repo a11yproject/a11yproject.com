@@ -9,9 +9,10 @@
 	background-color: $color-white;
 	border-top: $border-thicker solid $color-pink-tint;
 	padding: 1.5rem;
+	margin: 2rem 0;
 
 	@include mappy-bp(palm-large) {
-		padding: 2rem 7rem 2.75rem 7rem;
+		padding: 2rem 7rem 2.75rem;
 	}
 }
 

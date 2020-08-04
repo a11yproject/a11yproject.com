@@ -11,7 +11,7 @@
 	background-color: $color-white;
 	border-top: $border-thicker solid $color-pink-shade;
 	margin-top: 2rem;
-	padding: 1rem 2rem 2rem 2rem;
+	padding: 1rem 2rem 2rem;
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -28,7 +28,7 @@
 	}
 
 	@include mappy-bp(lap-small) {
-		padding: 1rem 4rem 2rem 4rem;
+		padding: 1rem 4rem 2rem;
 	}
 
 	// Text-level formatting
@@ -42,6 +42,7 @@
 .c-404__link {
 	@include link-states($color-pink-shade);
 
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinner;
 	text-underline-offset: 0.25em;
 }

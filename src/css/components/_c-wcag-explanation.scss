@@ -2,11 +2,11 @@
 	background-color: $color-blue-tint;
 	font-family: $font-family-secondary;
 	margin-bottom: 1rem;
-	padding: 0.5rem 1.5rem 2rem 1.5rem;
+	padding: 0.5rem 1.5rem 2rem;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
-		padding: 0.5rem 4rem 2rem 4rem;
+		padding: 0.5rem 4rem 2rem;
 	}
 
 	// Text-level formatting
@@ -20,6 +20,7 @@
 .c-wcag-explanation__link {
 	@include link-states($color-blue-shade);
 
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
 }
