@@ -1,1 +1,1 @@
-src/js/details-element-polyfill/details-element-polyfill.polyfil.js
+src/**/*.polyfill.js
