@@ -33,8 +33,7 @@
 
 		// Breakpoints
 		@include mappy-bp(palm-small) {
-			flex-flow: initial;
-			flex-direction: row;
+			flex-flow: row initial;
 		}
 
 		@include mappy-bp(lap-small) {
