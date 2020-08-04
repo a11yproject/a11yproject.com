@@ -96,6 +96,7 @@
 	display: block;
 	margin-left: 0.5rem;
 	text-decoration: underline;
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.5em;
 
@@ -240,7 +241,7 @@
 	svg,
 	a.direct-link {
 		display: none !important;
-outline: 10px solid red !important;
+		outline: 10px solid #ff0000 !important;
 	}
 }
 

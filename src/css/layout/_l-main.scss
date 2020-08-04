@@ -24,8 +24,7 @@
 			@include mappy-bp(lap-small) {
 				display: grid;
 				grid-template-columns: map-get($global-bleed, large) $global-grid-columns map-get($global-bleed, large);
-				grid-template-areas:
-					". toc content .";
+				grid-template-areas: ". toc content .";
 				margin-left: 0;
 				margin-right: 0;
 			}

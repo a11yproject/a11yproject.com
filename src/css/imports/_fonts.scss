@@ -1,56 +1,66 @@
 // Anaheim
 @font-face {
 	font-display: swap;
-	font-family: "Anaheim";
+	font-family: Anaheim;
 	font-style: normal;
 	font-weight: 400;
-	src: local('Anaheim'), local('Anaheim-Regular'),
-			 url("../fonts/anaheim-v7-latin-regular.woff") format("woff"),
-			 url("../fonts/anaheim-v7-latin-regular.woff2") format("woff2");
+	src:
+		local("Anaheim"),
+		local("Anaheim-Regular"),
+		url("../fonts/anaheim-v7-latin-regular.woff") format("woff"),
+		url("../fonts/anaheim-v7-latin-regular.woff2") format("woff2");
 }
 
 
 // Noto Serif Regular
 @font-face {
-	font-family: 'Noto Serif';
+	font-family: "Noto Serif";
 	font-style: normal;
 	font-weight: 400;
-	src: local('Noto Serif'), local('NotoSerif'),
-			 url('../fonts/noto-serif-v8-latin-regular.woff2') format('woff2'),
-			 url('../fonts/noto-serif-v8-latin-regular.woff') format('woff');
+	src:
+		local("Noto Serif"),
+		local("NotoSerif"),
+		url("../fonts/noto-serif-v8-latin-regular.woff2") format("woff2"),
+		url("../fonts/noto-serif-v8-latin-regular.woff") format("woff");
 }
 
 
 // Noto Serif Italic
 @font-face {
-	font-family: 'Noto Serif';
+	font-family: "Noto Serif";
 	font-style: italic;
 	font-weight: 400;
-	src: local('Noto Serif Italic'), local('NotoSerif-Italic'),
-			 url('../fonts/noto-serif-v8-latin-italic.woff2') format('woff2'),
-			 url('../fonts/noto-serif-v8-latin-italic.woff') format('woff');
+	src:
+		local("Noto Serif Italic"),
+		local("NotoSerif-Italic"),
+		url("../fonts/noto-serif-v8-latin-italic.woff2") format("woff2"),
+		url("../fonts/noto-serif-v8-latin-italic.woff") format("woff");
 }
 
 
 // Noto Serif Bold
 @font-face {
-	font-family: 'Noto Serif';
+	font-family: "Noto Serif";
 	font-style: normal;
 	font-weight: 700;
-	src: local('Noto Serif Bold'), local('NotoSerif-Bold'),
-			 url('../fonts/noto-serif-v8-latin-700.woff2') format('woff2'),
-			 url('../fonts/noto-serif-v8-latin-700.woff') format('woff');
+	src:
+		local("Noto Serif Bold"),
+		local("NotoSerif-Bold"),
+		url("../fonts/noto-serif-v8-latin-700.woff2") format("woff2"),
+		url("../fonts/noto-serif-v8-latin-700.woff") format("woff");
 }
 
 
 // Noto Serif Bold Italic
 @font-face {
-	font-family: 'Noto Serif';
+	font-family: "Noto Serif";
 	font-style: italic;
 	font-weight: 700;
-	src: local('Noto Serif Bold Italic'), local('NotoSerif-BoldItalic'),
-			 url('../fonts/noto-serif-v8-latin-700italic.woff2') format('woff2'),
-			 url('../fonts/noto-serif-v8-latin-700italic.woff') format('woff');
+	src:
+		local("Noto Serif Bold Italic"),
+		local("NotoSerif-BoldItalic"),
+		url("../fonts/noto-serif-v8-latin-700italic.woff2") format("woff2"),
+		url("../fonts/noto-serif-v8-latin-700italic.woff") format("woff");
 }
 
 
@@ -60,7 +70,9 @@
 	font-family: "Source Code Pro";
 	font-style: normal;
 	font-weight: 400;
-	src: local("Source Code Pro Regular"), local("SourceCodePro-Regular"),
-			 url("../fonts/source-code-pro-v11-latin-regular.woff") format("woff"),
-			 url("../fonts/source-code-pro-v11-latin-regular.woff2") format("woff2");
+	src:
+		local("Source Code Pro Regular"),
+		local("SourceCodePro-Regular"),
+		url("../fonts/source-code-pro-v11-latin-regular.woff") format("woff"),
+		url("../fonts/source-code-pro-v11-latin-regular.woff2") format("woff2");
 }

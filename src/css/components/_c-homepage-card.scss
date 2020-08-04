@@ -102,6 +102,7 @@
 		border-bottom: none;
 		text-decoration: underline;
 		text-decoration-color: $color-pink;
+		/* stylelint-disable-next-line property-no-unknown */
 		text-decoration-thickness: $border-thinnest;
 		text-underline-offset: 0.5rem;
 	}

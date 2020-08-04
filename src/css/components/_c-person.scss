@@ -133,6 +133,7 @@ $_person-photo: (
 	font-family: $font-family-secondary;
 	font-size: $font-size-body;
 	letter-spacing: $font-tracking-slight;
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-transform: uppercase;
 	text-underline-offset: 0.3em;

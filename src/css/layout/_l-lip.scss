@@ -6,8 +6,7 @@
 			display: grid;
 			grid-template-columns: map-get($global-bleed, large) $global-grid-columns map-get($global-bleed, large);
 			grid-template-rows: 3rem;
-			grid-template-areas:
-				". hollow fill fill";
+			grid-template-areas: ". hollow fill fill";
 		}
 	}
 	// Contexts
