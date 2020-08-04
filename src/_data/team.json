@@ -45,6 +45,12 @@
 			"biography": "Tatiana Mac is an American designer who builds inclusive, accessible, and ethical products with thoughtful practices."
 		},
 		{
+			"name": "Wayne Elgin",
+			"website": "https://twitter.com/esjay",
+			"photo": "https://avatars0.githubusercontent.com/u/56677?s=400&u=21112220ae060e43c856c42f367bc6afc34c8a2d&v=4",
+			"biography": "Wayne is a jack-of-many-trades developer, especially UX web technologies. He's been making websites since 1997. He values clean, semantic markup paired with creative, accessible styles. He likes Marx Brothers movies and biking with his kids."
+		},
+		{
 			"name": "…and maybe you!",
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
