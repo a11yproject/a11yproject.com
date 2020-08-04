@@ -39,6 +39,12 @@
 			"biography": "Hi, I'm Scott. Web accessibility consultant and front end engineer from Toronto, Canada."
 		},
 		{
+			"name": "Soren Hamby",
+			"website": "http://linktr.ee/uxicorn",
+			"photo": "img/team/soren.jpg",
+			"biography": "Soren is a UXer living in the NYC metro. They are currently doing design community outreach as InVision’s Design Advocate. They also host a livestream about UX, accessibility, and inclusion called Feature Disabled and write about UX for Modus, UX Planet, and UX Collective. Otherwise, you can find them eating large amounts of plants and making poems about space, loss, and inequality."
+		},
+		{
 			"name": "Tatiana Mac",
 			"website": "https://tatianamac.com/",
 			"photo": "https://avatars3.githubusercontent.com/u/7484549?s=460&u=f802cd233fd30c7a1feeb9594a0a2d62ffe2c4ed&v=4",
