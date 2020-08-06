@@ -1,0 +1,86 @@
+// https://buttondown.email/
+.v-newsletter {
+	margin-top: 1rem;
+}
+
+
+.v-newsletter__label {
+	display: inline-block;
+	font-weight: $font-weight-bold;
+	margin-top: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+
+.v-newsletter__input {
+	background-color: $color-sand;
+	border: $border-thinner solid $color-gray-shade;
+	padding: 0.5rem;
+	transition: background-color $animation-duration-shorter $animation-easing-character;
+	width: 100%;
+
+	&:hover,
+	&:active {
+		background-color: $color-white;
+	}
+
+	&:focus {
+		border-color: $color-black;
+		outline: $border-thinner solid $color-black;
+	}
+
+	&:active {
+		transition: none;
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+.v-newsletter__button {
+	background-color: $color-pink-shade;
+	border: none;
+	border-radius: 0.25rem;
+	color: $color-white;
+	cursor: pointer;
+	font-family: $font-family-secondary;
+	margin-top: 1.25rem;
+	padding: 0.75rem 1.25rem;
+	text-transform: uppercase;
+	transition: background-color $animation-duration-shorter $animation-easing-character;
+
+	// States
+	&:hover {
+		background-color: $color-black;
+	}
+
+	&:focus {
+		box-shadow:
+			0 0 0 em(2) $color-sand,
+			0 0 0 em(4) $color-pink-shade;
+		outline: $border-thin solid transparent;
+	}
+
+	&:active {
+		@include shift-click();
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+.v-newsletter__vendor {
+	color: $color-black;
+	font-size: $font-size-body-small;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
