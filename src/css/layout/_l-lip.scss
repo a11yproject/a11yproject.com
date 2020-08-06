@@ -12,7 +12,8 @@
 	// Contexts
 	.template-home &,
 	.template-post &,
-	.template-404 & {
+	.template-404 &,
+	.template-newsletter & {
 		display: none;
 	}
 }
