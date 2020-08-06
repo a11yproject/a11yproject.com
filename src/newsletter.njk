@@ -1,0 +1,37 @@
+---
+layout: layouts/home.njk
+title: Newsletter
+subtitle: A weekly collection of accessibility-related links we share on Twitter.
+tags:
+  - newsletter
+templateClass: template-newsletter
+eleventyExcludeFromCollections: true
+---
+
+<div class="l-404 c-newsletter">
+	<div class="c-404__hero">
+		<h1 id="page-not-found" class="c-heading-large">
+			{{ title }}
+		</h1>
+		<p>
+			{{ subtitle }}
+		</p>
+
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/the-a11y-project"
+  method="post"
+  target="_self"
+  onsubmit="window.open('https://buttondown.email/the-a11y-project', 'popupwindow')"
+  class="v-newsletter embeddable-buttondown-form"
+>
+  <label class="v-newsletter__label" for="bd-email">Your email address</label>
+  <input class="v-newsletter__input" type="email" name="email" id="bd-email">
+  <input type="hidden" value="1" name="embed"></input>
+  <input class="v-newsletter__button" type="submit" value="Subscribe (Opens in a new tab)"></input>
+  <p>
+    <a class="v-newsletter__vendor" href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
+  </p>
+</form>
+
+	</div>
+</div>
