@@ -1,0 +1,20 @@
+---
+layout: layouts/home.njk
+title: You have been unsubscribed
+subtitle: Thank you for reading.
+tags:
+  - newsletter
+templateClass: template-newsletter
+eleventyExcludeFromCollections: true
+---
+
+<div class="l-404 c-newsletter">
+	<div class="c-404__hero">
+		<h1 id="page-not-found" class="c-heading-large">
+			{{ title }}
+		</h1>
+		<p>
+			{{ subtitle }} You can <a href="{{ '/newsletter/' | url }}">resubscribe</a> at any time.
+		</p>
+	</div>
+</div>

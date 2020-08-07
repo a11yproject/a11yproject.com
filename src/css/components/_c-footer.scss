@@ -90,4 +90,9 @@
 
 .c-footer__copyright-link {
 	@include link-states($color-black);
+
+	// States
+	&:hover {
+		text-decoration: none;
+	}
 }

@@ -130,3 +130,8 @@ $_checklist-padding: 1.5rem;
 		@include link-states($color-blue-shade);
 	}
 }
+
+.c-checklist__share-link {
+	padding-bottom: $_checklist-padding;
+	padding-left: $_checklist-inset;
+}
