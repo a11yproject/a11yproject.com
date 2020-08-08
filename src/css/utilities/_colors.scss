@@ -31,4 +31,8 @@ $text-colors: (
   .u-background-#{$name} {
     background-color: $var;
   }
+
+  .u-fill-#{$name} {
+    fill: $var;
+  }
 }
