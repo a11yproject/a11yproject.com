@@ -27,4 +27,8 @@ $text-colors: (
   .u-text-#{$name} {
     color: $var;
   }
+
+  .u-background-#{$name} {
+    background-color: $var;
+  }
 }
