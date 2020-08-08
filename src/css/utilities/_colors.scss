@@ -1,0 +1,30 @@
+// Color Utilities
+//
+// Styleguide Utilities.Colors
+
+$text-colors: (
+"black": $color-black,
+"gray-tint": $color-gray-tint,
+"gray-shade": $color-gray-shade,
+"white": $color-white,
+"green-tint": $color-green-tint,
+"green": $color-green,
+"green-shade": $color-green-shade,
+"blue-tint": $color-blue-tint,
+"blue": $color-blue,
+"blue-shade": $color-blue-shade,
+"pink-tint": $color-pink-tint,
+"pink": $color-pink,
+"pink-shade": $color-pink-shade,
+"sand": $color-sand,
+"red": $color-red,
+"yellow-tint": $color-yellow-tint,
+"yellow": $color-yellow,
+"yellow-shade": $color-yellow-shade
+);
+
+@each $name, $var in $text-colors {
+  .u-text-#{$name} {
+    color: $var;
+  }
+}
