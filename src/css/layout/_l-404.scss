@@ -1,7 +1,6 @@
 .l-404 {
-	height: 80vh;
-	padding-right: map-get($global-bleed, small);
-	padding-left: map-get($global-bleed, small);
+	min-height: 80vh;
+	padding: map-get($global-bleed, large) map-get($global-bleed, small);
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
