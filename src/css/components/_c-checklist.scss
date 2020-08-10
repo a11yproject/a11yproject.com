@@ -257,6 +257,12 @@ flex: 1;
 }
 
 .c-checklist__share-link {
-	padding-bottom: $_checklist-padding;
-	padding-left: $_checklist-inset;
+	padding-bottom: map-get($_checklist-padding, small);
+	padding-left: map-get($_checklist-inset, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		padding-bottom: map-get($_checklist-padding, large);
+		padding-left: map-get($_checklist-inset, large);
+	}
 }
