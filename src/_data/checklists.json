@@ -407,7 +407,7 @@
 	],
 	"animation": [
 		{
-			"title": "Ensure animations are subtle and not do not flash too much.",
+			"title": "Ensure animations are subtle and do not flash too much.",
 			"checkboxId": "avoid-flashes",
 			"wcag": "2.3.1 Three Flashes or Below Threshold",
 			"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html",
