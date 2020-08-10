@@ -36,6 +36,10 @@
 	to = "/posts/2016-01-07-placeholder-input-elements"
 
 [[redirects]]
+	from = "/posts/a11y-and-other-numeronyms/"
+	to = "/posts/2017-08-26-a11y-and-other-numeronyms/"
+
+[[redirects]]
 	from = "/posts/safari-keyboard-navigation"
 	to = "/posts/2017-12-29-macos-browser-keyboard-navigation/"
 
