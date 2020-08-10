@@ -1,0 +1,56 @@
+---
+layout: layouts/home.njk
+title: Contact
+subtitle: Send us a message.
+tags:
+  - contact
+templateClass: template-newsletter
+eleventyExcludeFromCollections: true
+---
+
+<div class="l-404 c-newsletter">
+	<div class="c-404__hero">
+		<h1 id="page-not-found" class="c-heading-large">
+			{{ title }}
+		</h1>
+		<p>
+			{{ subtitle }}
+		</p>
+
+		<form
+			class="c-form"
+			name="contact"
+			method="POST"
+			data-netlify="true">
+			<label for="your-name" class="c-form__label">
+				Your name
+			</label>
+			<input
+				id="your-name"
+				class="c-form__input"
+				autocomplete="name"
+				autocorrect="off"
+				spellcheck="false"
+				type="text"
+				name="name" />
+			<label for="your-email" class="c-form__label">
+				Your email address
+			</label>
+			<input
+				id="your-email"
+				class="c-form__input"
+				autocomplete="email"
+				autocapitalize="off"
+				autocorrect="off"
+				spellcheck="false"
+				type="email"
+				name="email" />
+			<label for="your-message" class="c-form__label">
+				Your message
+			</label>
+			<textarea id="your-message" class="c-form__input c-form__input--multiline" name="message"></textarea>
+			<button class="c-form__button" type="submit">Send</button>
+		</form>
+
+	</div>
+</div>
