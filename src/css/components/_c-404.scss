@@ -23,12 +23,9 @@
 		margin-top: 0;
 
 		// Breakpoints
-		@include mappy-bp(palm-large) {
-			width: 50%;
-		}
 
-		@include mappy-bp(lap-medium) {
-			width: 40%;
+		@include mappy-bp(palm-large) {
+			width: 60%;
 		}
 	}
 
