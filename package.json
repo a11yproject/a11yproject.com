@@ -27,7 +27,13 @@
 		"eleventy-watch": "npx eleventy --watch",
 		"eleventy-debug": "DEBUG=* npx eleventy",
 		"gulp-build": "gulp",
-		"gulp-watch": "gulp watch"
+		"gulp-watch": "gulp watch",
+		"style": "npm run style-sass && npm run style-autoprefix && npm run style-purge && npm run style-minify",
+		"style-autoprefix": "npx postcss dist/css/screen.css --use autoprefixer -d dist/css/autoprefix",
+		"style-sass": "node-sass src/css/screen.scss dist/css/screen.css",
+		"style-minify": "npx postcss dist/css/purge/screen.css > dist/css/screen.min.css --use cssnano",
+		"style-purge": "mkdir -p dist/css/purge && purgecss --css dist/css/autoprefix/screen.css --content \"src/**/*.njk\",\"src/**/*.md\" -o dist/css/purge",
+		"styleguide": "kss --source src/css --css ../css/screen.min.css --destination dist/styleguide --placeholder [modifier] --title 'Styleguide - The A11Y Project'"
 	},
 	"keywords": [
 		"a11y",
@@ -53,6 +59,8 @@
 		"@11ty/eleventy-navigation": "^0.1.5",
 		"@11ty/eleventy-plugin-rss": "^1.0.7",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+		"autoprefixer": "^9.8.6",
+		"cssnano": "^4.1.10",
 		"debug": "^4.1.1",
 		"del": "3.0.0",
 		"gulp": "4.0.0",
@@ -80,6 +88,8 @@
 		"markdown-it": "^8.4.1",
 		"markdown-it-anchor": "^5.0.2",
 		"moment": "^2.24.0",
+		"node-sass": "^4.14.1",
+		"postcss-cli": "^7.1.1",
 		"stylelint": "^9.9.0"
 	}
 }
