@@ -5,24 +5,6 @@
 // This setup is based on Chris Ferdinandi's excellent Gulp Boilerplate
 // project: https://gomakethings.com/a-new-gulp-boilerplate/
 
-
-// Settings ///////////////////////////////////////////////////////////////////
-// Turn on/off build features
-var settings = {
-	clean: true,
-	favicons: false,
-	icons: true,
-	images: true,	lint: true,
-	misc: true,
-	polyfills: true,
-	reload: true,
-	scripts: true,
-	styleguide: true,
-	styles: true,
-	svgs: true
-};
-
-
 // Paths to project folders ///////////////////////////////////////////////////
 var paths = {
 	input: 'src/',
