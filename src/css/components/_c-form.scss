@@ -43,6 +43,12 @@ $_c-input-margin-top: 1.5rem;
 }
 
 
+.c-form__input--multiline {
+	line-height: $line-height-loose;
+	min-height: 15rem;
+}
+
+
 .c-form__button {
 	background-color: $color-pink-shade;
 	border: none;
@@ -90,7 +96,8 @@ $_c-input-margin-top: 1.5rem;
 }
 
 
-.c-form__input--multiline {
-	line-height: $line-height-loose;
-	min-height: 15rem;
+.c-form__instructions {
+	font-size: $font-size-body-small;
+	position: relative;
+		bottom: 1rem;
 }
