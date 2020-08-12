@@ -1,20 +1,23 @@
-// https://buttondown.email/
-.v-newsletter {
+$_c-input-margin-top: 1.5rem;
+
+
+.c-form {
 	margin-top: 1rem;
 }
 
 
-.v-newsletter__label {
+.c-form__label {
 	display: inline-block;
 	font-weight: $font-weight-bold;
-	margin-top: 1rem;
-	padding-bottom: 0.5rem;
+	margin-top: $_c-input-margin-top;
+	padding-bottom: 0.25rem;
 }
 
 
-.v-newsletter__input {
+.c-form__input {
 	background-color: $color-sand;
-	border: $border-thinner solid $color-gray-shade;
+	border: $border-thinnest solid $color-gray-shade;
+	line-height: $line-height-single;
 	padding: 0.5rem;
 	transition: background-color $animation-duration-shorter $animation-easing-character;
 	width: 100%;
@@ -25,8 +28,8 @@
 	}
 
 	&:focus {
-		border-color: $color-black;
-		outline: $border-thinner solid $color-black;
+		border-color: $color-pink-shade;
+		outline: $border-thinner solid $color-pink-shade;
 	}
 
 	&:active {
@@ -40,14 +43,21 @@
 }
 
 
-.v-newsletter__button {
+.c-form__input--multiline {
+	line-height: $line-height-loose;
+	min-height: 15rem;
+}
+
+
+.c-form__button {
 	background-color: $color-pink-shade;
 	border: none;
 	border-radius: 0.25rem;
 	color: $color-white;
 	cursor: pointer;
 	font-family: $font-family-secondary;
-	margin-top: 1.25rem;
+	margin-top: $_c-input-margin-top * 1.5;
+	min-width: 20ch;
 	padding: 0.75rem 1.25rem;
 	text-transform: uppercase;
 	transition: background-color $animation-duration-shorter $animation-easing-character;
@@ -75,7 +85,7 @@
 }
 
 
-.v-newsletter__vendor {
+.c-form__vendor {
 	color: $color-black;
 	font-size: $font-size-body-small;
 
@@ -83,4 +93,11 @@
 	&:focus {
 		text-decoration: none;
 	}
+}
+
+
+.c-form__instructions {
+	font-size: $font-size-body-small;
+	position: relative;
+		bottom: 1rem;
 }
