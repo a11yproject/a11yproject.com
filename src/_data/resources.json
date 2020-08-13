@@ -107,6 +107,12 @@
 			"url": "https://squizlabs.github.io/HTML_CodeSniffer/"
 		},
 		{
+			"title": "Inaccessible Twitter",
+			"description": "Check how accessible your Twitter media posts are.",
+			"additional": "Chris Johnson",
+			"url": "https://defaced.dev/tools/inaccessible-twitter/"
+		},
+		{
 			"title": "Nu Markup Validation Service Bookmarklets",
 			"description": "The W3C Nu Markup Validator checks the markup validity of Web documents, but instead uses the backend from the Validator.nu engine.",
 			"additional": "The Paciello Group",
