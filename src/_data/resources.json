@@ -1120,6 +1120,33 @@
 			"url": "https://tetralogical.com/"
 		}
 	],
+	"professionalTesters": [
+		{
+			"title": "Accessible360",
+			"description": "Through audits, training, support and monitoring A360 helps organizations navigate their path to digital accessibility.",
+			"url": "https://accessible360.com/"
+		},
+		{
+			"title": "AccessWorks (by Knowbility)",
+			"description": "Access Works offers usability and accessibility testing that connects businesses with users with disabilities.",
+			"url": "https://access-works.com/"
+		},
+		{
+			"title": "Fable Tech Labs",
+			"description": "Web accessibility testing services to reach your compliance goals faster. Connect with real users online and on-demand, through crowdtesting!",
+			"url": "https://www.makeitfable.com/"
+		},
+		{
+			"title": "Loop11",
+			"description": "Loop11 is a website user testing tool that enables you to identify navigational and usability issues of any website.",
+			"url": "https://www.loop11.com/"
+		},
+		{
+			"title": "Perkins School For The Blind",
+			"description": "Perkins is so much more than a school. Our services help make the world a better place for people who are blind or visually impaired – from independent evaluations to assess a student's needs and strengths, to our Outreach Short Courses, which offer adventures and opportunities to practice skills to support independence and self-advocacy.",
+			"url": "https://www.perkins.org/services/other"
+		}
+	],
 	"screenReaders": [
 		{
 			"title": "Android Accessibility Suite",
