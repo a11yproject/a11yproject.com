@@ -368,6 +368,21 @@ templateClass: template-resources
 	</div>
 
 
+	{% set resourceType = "Professional testers" %}
+	<h3 id="professional-testers" class="c-heading-medium">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		It's important to test your website or web app with disabled people to learn how it actually works.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.professionalTesters %}
+		{% for resource in resource %}
+			{% include "resource.njk" %}
+		{% endfor %}
+	</div>
+
+
 	<h2 id="everything-else" class="c-heading-large">
 		Everything else
 	</h2>
