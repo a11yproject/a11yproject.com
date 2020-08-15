@@ -101,3 +101,17 @@ $_c-input-margin-top: 1.5rem;
 	position: relative;
 		bottom: 1rem;
 }
+
+
+.c-form__error-wrapper {
+	border: 4px solid $color-red;
+	padding: 0.5rem;
+
+	.c-form__error-list {
+		padding: 0 1rem;
+	}
+
+	.c-form__error-message {
+		font-size: 0.75rem;
+	}
+}

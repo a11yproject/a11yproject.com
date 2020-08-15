@@ -33,9 +33,11 @@ eleventyExcludeFromCollections: true
 				spellcheck="false"
 				class="c-form__input"
 				type="email"
-				name="email">
+				name="email"
+				oninvalid="handleInvalidField(event)"
+				required />
 			<input type="hidden" value="1" name="embed"></input>
-			<input class="c-form__button" type="submit" value="Subscribe (Opens in a new tab)"></input>
+			<input onclick="handleFormSubmit(event)" class="c-form__button" type="submit" value="Subscribe (Opens in a new tab)"></input>
 			<p>
 				<a class="c-form__vendor" href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
 			</p>

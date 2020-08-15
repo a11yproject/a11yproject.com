@@ -24,7 +24,7 @@ eleventyExcludeFromCollections: true
 			method="POST"
 			data-netlify="true">
 			<div class="c-form__input-wrapper">
-				<label for="your-name" class="c-form__label">
+				<label id="your-name__label" for="your-name" class="c-form__label">
 					Your name
 				</label>
 				<input
@@ -35,10 +35,11 @@ eleventyExcludeFromCollections: true
 					spellcheck="false"
 					type="text"
 					name="name"
+					oninvalid="handleInvalidField(event)"
 					required />
 			</div>
 			<div class="c-form__input-wrapper">
-				<label for="your-email" class="c-form__label">
+				<label id="your-email__label" for="your-email" class="c-form__label">
 					Your email address
 				</label>
 				<input
@@ -50,18 +51,20 @@ eleventyExcludeFromCollections: true
 					spellcheck="false"
 					type="email"
 					name="email"
+					oninvalid="handleInvalidField(event)"
 					required />
 				<p class="c-form__instructions">
 					We value your privacy and will not share this information with third parties.
 				</p>
 			</div>
 			<div class="c-form__input-wrapper">
-				<label for="your-message" class="c-form__label">
+				<label id="your-message__label" for="your-message" class="c-form__label">
 					Your message
 				</label>
-				<textarea id="your-message" class="c-form__input c-form__input--multiline" name="message" required></textarea>
+				<textarea id="your-message" class="c-form__input c-form__input--multiline" name="message" oninvalid="handleInvalidField(event)" required></textarea>
 			</div>
-			<button class="c-form__button" type="submit">Send</button>
+			<button
+			onclick="handleFormSubmit(event)" class="c-form__button" type="submit">Send</button>
 		</form>
 
 	</div>
