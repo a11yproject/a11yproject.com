@@ -66,7 +66,7 @@ var rename = require('gulp-rename');
 var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
 var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
+var uglify = require('gulp-uglify-es').default;
 var optimizejs = require('gulp-optimize-js');
 
 // Styles
@@ -189,7 +189,8 @@ var buildStyles = function (done) {
 			}
 		}))
 		.pipe(purgeCSS({
-			content: ['src/**/*.njk', 'src/**/*.md']
+			content: ['src/**/*.njk', 'src/**/*.md'],
+			whitelistPatterns: [/^c-form__error/],
 		}))
 		.pipe(dest(paths.styles.output));
 	// Signal completion

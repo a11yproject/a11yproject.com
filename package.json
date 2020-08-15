@@ -66,6 +66,7 @@
 		"gulp-svg-sprite": "^1.5.0",
 		"gulp-svgmin": "2.1.0",
 		"gulp-uglify": "3.0.1",
+		"gulp-uglify-es": "^2.0.0",
 		"html-minifier": "^4.0.0",
 		"jshint": "2.9.6",
 		"jshint-stylish": "2.2.1",
