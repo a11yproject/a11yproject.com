@@ -1,0 +1,190 @@
+---
+layout: post
+title: An in-depth guide to ARIA roles
+description: ARIA roles are one half of the predefined categories of attributes used to describe elements that may not exist natively in browsers or may not be understood by screen readers and other assistive technologies.
+category: Background
+author: Duncan Jimbo
+date: 2020-08-20
+eleventyNavigation:
+  key: {{ category }}
+  title: {{ title }}
+tags:
+  - background
+---
+
+Thes ARIA specification is divided into predefined categories of attributes, one of which is Roles, and the other being States & Properties. ARIA roles, which are covered in this article, are generally used to describe elements that may not exist natively within current HTML standards, have full cross-browser support, or be understood by screen readers and other assistive technologies. They are also useful in situations where existing HTML markup is written in older HTML standards that do not include newer, more semantic tags.
+
+## Usage
+
+ARIA roles are added to elements using the `role="<ROLE_TYPE>` attribute, where `ROLE_TYPE` represents the specific role being added. Once an ARIA role is set on an element, it should not be changed, regardless of the state of the element. In some cases, roles have to be paired with the appropriate ARIA state or property. However, this article's examples have reduced markup to limit the scope to just ARIA roles.
+
+ARIA roles are broken down into six categories:
+
+1. Abstract Roles
+2. Document Structure Roles
+3. Landmark Roles
+4. Live Region Roles
+5. Widget Roles
+6. Window Roles
+
+### Abstract roles
+
+Abstract roles are only intended for use by browsers to help organize and streamline a document. They should not be used by developers writing HTML markup. Doing so will not result in any meaningful information being conveyed to assistive technologies or to users.
+
+### Document Structure roles
+
+Document roles are used to provide a structural description for a section of content. A majority of the available roles in this category resemble available semantic HTML tags and it is recommended to only use them when an appropriate native tag is not available. The roles in this category are also not typically interactive in nature, but may be used to contain other roles that are interactive. The `toolbar"` and `tooltip"` roles, demonstrated below, serve as good examples of when to use Document Structure roles to provide information to assistive technologies when the equivalent native HTML tag is not available.
+
+#### Toolbar example
+
+```html
+<div role="toolbar">
+  <div class="text-characteristics">
+    <button>Bold</button>
+    <button>Italic</button>
+    <button>Underline</button>
+  </div>
+
+  <div class="text-alignment">
+    <button>Left</button>
+    <button>Middle</button>
+    <button>Right</button>
+  </div>
+</div>
+```
+
+#### Tooltip example
+
+```html
+<button>Show Tooltip</button>  
+<div role="tooltip">Notifications</div>  
+```
+
+- View the [full list of Document Structure roles](https://www.w3.org/TR/wai-aria/#document_structure_roles).
+
+### Landmark Roles
+
+Landmark roles identify content areas within a page, and as the name implies serve as navigational landmarks for the types of content areas that users may be interested in. These content areas include the page's primary content, collections of navigation links, and search functions to name a few.
+
+Most Landmark roles may also be reasonably associated with native HTML tags. For example:
+
+- The `banner` role can be associated with the `<header>` tag
+- The `complementary` role can be associated with the `<aside>` tag
+- The `contentinfo` role can be associated with the `<footer>` tag
+
+Because the support for some of the above native HTML elements may not be supported in older browsers or some screen readers, it is recommended that the role and native element be paired whenever possible.
+
+#### Navigation role example
+
+```html
+<nav role="navigation">
+  <ul>
+    <li><a href="#a">Dexter</a></li>
+    <li><a href="#b">Doctor Who</a></li>
+    <li><a href="#c">Futurama</a></li>
+  </ul>  
+</nav>
+```
+
+#### Form role example
+
+```html
+<form role="search">
+  <input type="text" name="search" />
+  <input type="submit" name="button" value="Search" />
+</form>
+```
+
+#### Footer role example
+
+```html
+<footer role="contentinfo">
+  <p>&copy; 2020 Sum Business Ltd. All rights reserved.</p>
+</footer>
+```
+
+- View the [full list of Landmark roles](https://www.w3.org/TR/wai-aria/#landmark_roles).
+
+### Live Region Roles
+
+Live Region roles are used to alert screen readers and assistive technologies of dynamic changes to the contents of a page so that they can be announced to users. The reason for this is that dynamic changes may be visually noticeable, but that may not be the case for screen reader users for .
+
+#### Alert role example
+
+The most commonly used Live Region role is the `alert` role.
+
+```html
+<div role="alert">
+  <h3>Error</h3>
+  <p>Autosave failed.</p>
+</div>
+```
+
+When using the `alert` role, keep in mind that it should not be a focusable element and it should not require users to close it.
+
+- View the [full list of Live Region roles](https://www.w3.org/TR/wai-aria/#live_region_roles).
+
+### Widget Roles
+
+Widget roles are used to describe common interactive patterns or those that currently lack semantic equivalents in HTML. In most cases, these interactive patterns will be Javascript-driven. Widget roles should not be confused with `role="widget"` which is itself an abstract role.
+
+#### Tabs role example
+
+A common interactive pattern that relies on Widget roles is the very familiar Tabs pattern. Tabs rely on three Widget roles, namely `tab`, `tabpanel`, and `tablist`.
+
+```html
+<div>
+  <div role="tablist">
+    <button role="tab">Apples</button>
+    <button role="tab">Oranges</button>
+  </div>
+
+  <div role="tabpanel">
+    <p>Apples tab content</p>
+  </div>
+
+  <div role="tabpanel">
+    <p>Oranges tab content</p>
+  </div>
+</div>
+```
+
+The `tablist` role is a composite Widget role, which means it is a container used to manage other contained widgets. It is used to contain the list of `tab` elements, each of which is an interactive element. When a `tab` element is activated, it will cause its associated `tabpanel` container to display.
+
+- View the [full list of Widget roles](https://www.w3.org/TR/wai-aria/#widget_roles).
+
+### Window Roles
+
+Window roles are used when creating sub-windows to the primary application or document. A typical example is a modal dialog. The available Window roles are `alertdialog` and `dialog`.
+
+#### Alertdialog role example
+
+An `alertdialog` is a dialog that contains an alert message and focus is initially set to an element within the dialog. While the dialog is visible, keyboard and mouse interactions are limited to the elements within the dialog.
+
+```html
+<div role="alertdialog">
+  <h2>Confirmation</h2>
+
+  <p>Are you sure you want to discard all of your notes?</p>
+
+  <div>
+    <button type="button">No</button>
+    <button type="button">Yes</button>
+  </div>
+</div>
+```
+
+#### Dialog role example
+
+A `dialog` is an application window that separates certain content or UI from the rest of the page. Like the `alertdialog` role, elements within the `dialog` can receive focus. Unlike the `alertdialog` however, `dialog`s may or may not allow interaction with content outside the dialog i.e. modal or non-modal.
+
+```html
+<div role="dialog">
+  <h2>Dialog Title</h2>
+  <p>This is the dialog content.</p>
+
+  <button>Close Dialog</button>
+</div>
+```
+
+- View the [full list of Window roles](https://www.w3.org/TR/wai-aria/#window_roles).
