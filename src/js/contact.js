@@ -19,20 +19,20 @@ function handleInvalidField(event) {
 		return false;
 	}
 
-	// Create error wrapper & list if it doesn't exist & prepend it to the form,
-	// otherwise find the existing error wrapper in the form:
-  let errorWrapper;
-  let errorList;
+	// Create error wrapper & list if wrapper doesn't exist, then prepend it to the form.
+	// Otherwise find the existing error wrapper & list in the form:
+	let errorWrapper;
+	let errorList;
 	if (!form.querySelector(".c-form__error-wrapper")) {
 		errorWrapper = document.createElement("div");
-    errorWrapper.classList = "c-form__error-wrapper";
-    errorList = document.createElement("ul");
+		errorWrapper.classList = "c-form__error-wrapper";
+		errorList = document.createElement("ul");
 		errorList.classList = "c-form__error-list";
 		errorWrapper.prepend(errorList);
 		form.prepend(errorWrapper);
 	} else {
-    errorWrapper = form.querySelector(".c-form__error-wrapper");
-    errorList = errorWrapper.querySelector(".c-form__error-list");
+		errorWrapper = form.querySelector(".c-form__error-wrapper");
+		errorList = errorWrapper.querySelector(".c-form__error-list");
 	}
 
 	// Create error summary if it doesn't exist & prepend it to the error wrapper,
@@ -50,17 +50,20 @@ function handleInvalidField(event) {
 	var label = form.querySelector(`label[for="${inputID}"]`);
 	var labelID = label.getAttribute("id");
 
-  var error = document.createElement("li");
+	var error = document.createElement("li");
+	var errorLink = document.createElement("a");
 
 	if (input.value.length === 0) {
-		error.innerHTML = `Please provide ${label.textContent}.`;
+		errorLink.innerHTML = `Please provide ${label.textContent.toLowerCase()}.`;
 	} else {
-		error.innerHTML = `Please provide a valid entry for ${label.textContent}.`;
+		errorLink.innerHTML = `Please provide a valid entry for ${label.textContent.toLowerCase()}.`;
 	}
 
 	error.classList = "c-form__error-message";
-	error.setAttribute("id", errorID);
-	error.setAttribute("aria-describedby", labelID);
+	errorLink.setAttribute("id", errorID);
+	errorLink.setAttribute("aria-describedby", labelID);
+	errorLink.setAttribute("href", `#${inputID}`);
+	error.appendChild(errorLink);
 	errorList.appendChild(error);
 
 	input.setAttribute("aria-describedby", errorID);
@@ -68,7 +71,7 @@ function handleInvalidField(event) {
 }
 
 /**
- * Given a form ent, find and clean up any
+ * Given a form element, find and clean up any
  * error-related ARIA attributes that may
  * exist from a previous submit.
  */
@@ -90,7 +93,7 @@ function cleanUpErrorAttributes(form) {
 
 /**
  * When the form is submitted,
- * clear the error summary ent.
+ * clear the error summary element.
  */
 function handleFormSubmit(event) {
 	var form = event.target.closest("form");
