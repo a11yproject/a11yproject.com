@@ -57,6 +57,12 @@
 			"biography": "Wayne is a jack-of-many-trades developer, especially UX web technologies. He's been making websites since 1997. He values clean, semantic markup paired with creative, accessible styles. He likes Marx Brothers movies and biking with his kids."
 		},
 		{
+			"name": "Jen Downs",
+			"website": "https://jen.dev",
+			"photo": "https://www.a11yproject.com/img/team/jen-downs.jpg",
+			"biography": "Jen is a developer who loves building accessible user interfaces and JavaScript applications, skateboarding, and playing video games."
+		},
+		{
 			"name": "…and maybe you!",
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
