@@ -54,3 +54,7 @@
 [[redirects]]
 	from = "/posts/aria-has-perfect-support/"
 	to = "/posts/2020-05-13-aria-has-perfect-support/"
+
+[[redirects]]
+	from = "/authors/#greg-tarnoff"
+	to = "/authors/#nat-tarnoff"
