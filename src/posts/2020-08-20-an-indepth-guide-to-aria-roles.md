@@ -60,7 +60,7 @@ Document roles are used to provide a structural description for a section of con
 <div role="tooltip">Notifications</div>  
 ```
 
-- View the [full list of Document Structure roles](https://www.w3.org/TR/wai-aria/#document_structure_roles).
+- View the [full list of available Document Structure roles](https://www.w3.org/TR/wai-aria/#document_structure_roles).
 
 ### Landmark Roles
 
@@ -99,11 +99,11 @@ Because the support for some of the above native HTML elements may not be suppor
 
 ```html
 <footer role="contentinfo">
-  <p>&copy; 2020 Sum Business Ltd. All rights reserved.</p>
+  <p>&copy; 2020 Small Business Ltd. All rights reserved.</p>
 </footer>
 ```
 
-- View the [full list of Landmark roles](https://www.w3.org/TR/wai-aria/#landmark_roles).
+- View the [full list of available Landmark roles](https://www.w3.org/TR/wai-aria/#landmark_roles).
 
 ### Live Region Roles
 
@@ -122,7 +122,7 @@ The most commonly used Live Region role is the `alert` role.
 
 When using the `alert` role, keep in mind that it should not be a focusable element and it should not require users to close it.
 
-- View the [full list of Live Region roles](https://www.w3.org/TR/wai-aria/#live_region_roles).
+- View the [full list of available Live Region roles](https://www.w3.org/TR/wai-aria/#live_region_roles).
 
 ### Widget Roles
 
@@ -151,7 +151,7 @@ A common interactive pattern that relies on Widget roles is the very familiar Ta
 
 The `tablist` role is a composite Widget role, which means it is a container used to manage other contained widgets. It is used to contain the list of `tab` elements, each of which is an interactive element. When a `tab` element is activated, it will cause its associated `tabpanel` container to display.
 
-- View the [full list of Widget roles](https://www.w3.org/TR/wai-aria/#widget_roles).
+- View the [full list of available Widget roles](https://www.w3.org/TR/wai-aria/#widget_roles).
 
 ### Window Roles
 
@@ -187,4 +187,4 @@ A `dialog` is an application window that separates certain content or UI from th
 </div>
 ```
 
-- View the [full list of Window roles](https://www.w3.org/TR/wai-aria/#window_roles).
+- View the [full list of available Window roles](https://www.w3.org/TR/wai-aria/#window_roles).

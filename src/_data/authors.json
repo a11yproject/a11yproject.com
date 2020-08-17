@@ -133,6 +133,12 @@
 			"biography": "Father, accessibility evangelist, video gamer, proof checker, and solver of problems."
 		},
 		{
+			"name": "Duncan Jimbo",
+			"website": "https://simplydano.com",
+			"photo": "https://avatars1.githubusercontent.com/u/1507672?s=460&u=bc8cff324d5739f946ad5dd15b5857e653de7ab8&v=4",
+			"biography": "Howdy! I'm Duncan, a front-end developer focused on design systems."
+		},
+		{
 			"name": "…and maybe you!",
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
