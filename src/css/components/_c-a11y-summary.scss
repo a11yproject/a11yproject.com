@@ -18,7 +18,6 @@
 
 
 .c-a11y-summary__explanation {
-	font-size: $font-size-body-large;
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
@@ -46,7 +45,6 @@
 	font-size: $font-size-heading-tiny;
 	letter-spacing: $font-tracking-slight;
 	padding-bottom: 1rem;
-	text-transform: uppercase;
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
