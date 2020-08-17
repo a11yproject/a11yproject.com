@@ -63,6 +63,12 @@
 			"biography": "Jen is a developer who loves building accessible user interfaces and JavaScript applications, skateboarding, and playing video games."
 		},
 		{
+			"name": "Saptak Sengupta",
+			"website": "https://saptaks.website",
+			"photo": "https://www.a11yproject.com/img/team/saptaks.jpg",
+			"biography": "Saptak is a web developer trying to contribute in making websites more accessible, inclusive and privacy focused"
+		},
+		{
 			"name": "…and maybe you!",
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
