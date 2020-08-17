@@ -1,10 +1,4 @@
-.c-newsletter,
-.c-404 {
-	background-color: $color-yellow;
-}
-
-
-.c-404 {
+.c-simple--404 {
 	background-image: url("#{$path-to-img}/heroes/404.svg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -12,7 +6,7 @@
 }
 
 
-.c-404__hero {
+.c-simple__hero {
 	background-color: $color-white;
 	border-top: $border-thicker solid $color-pink-shade;
 	margin-top: 2rem;
@@ -23,12 +17,9 @@
 		margin-top: 0;
 
 		// Breakpoints
-		@include mappy-bp(palm-large) {
-			width: 50%;
-		}
 
-		@include mappy-bp(lap-medium) {
-			width: 40%;
+		@include mappy-bp(palm-large) {
+			width: 60%;
 		}
 	}
 
@@ -44,7 +35,7 @@
 }
 
 
-.c-404__link {
+.c-simple__link {
 	@include link-states($color-pink-shade);
 
 	/* stylelint-disable-next-line property-no-unknown */

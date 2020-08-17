@@ -229,14 +229,13 @@ flex: 1;
 
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
+	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
-	text-transform: uppercase;
 }
 
 
 .c-checklist__description {
-	font-size: $font-size-body-small;
 	line-height: $line-height-looser;
 	margin-top: 0.75rem;
 	padding-right: map-get($_checklist-padding, small);

@@ -8,7 +8,7 @@
 		},
 		{
 			"name": "Want to nominate someone?",
-			"website": " mailto:hello@a11yproject.com?subject=Spotlight%20Nomination",
+			"website": "{{ '/contact/' | url }}",
 			"photo": "/img/logos/maintainer.png",
 			"biography": "Know of someone doing amazing accessibility work? Tell us about them!"
 		}

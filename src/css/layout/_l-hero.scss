@@ -1,7 +1,7 @@
 .l-hero {
 	position: relative;
 	height: auto;
-	padding: map-get($global-bleed, small) 0;
+	padding: map-get($global-bleed, small) 0 (map-get($global-bleed, large) * 1.5) 0;
 
 	@include mappy-bp(lap-large) {
 		height: 75vh;

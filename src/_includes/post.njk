@@ -2,10 +2,10 @@
 	<h3 id="{{ post.data.title | slugify }}">
 		<a class="c-card__title" href="{{ post.url | url }}">{{ post.data.title | safe }}</a>
 	</h3>
-	<p class="c-card__meta">
+	<p class="u-font-size-body-small c-card__meta">
 		Published on <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateReadable }}</time>{% if post.data.author%} by <a class="c-card__author" href="{{ '/authors/#' + post.data.author | slugify | url}}">{{ post.data.author }}</a>{% endif %}
 	</p>
-	<p class="c-card__description">
+	<p class="u-font-size-body-small c-card__description">
 		{{ post.data.description | safe }}
 	</p>
 </div>
