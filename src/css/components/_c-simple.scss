@@ -1,5 +1,4 @@
-.c-simple {
-	background-color: $color-yellow;
+.c-simple--404 {
 	background-image: url("#{$path-to-img}/heroes/404.svg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -8,7 +7,6 @@
 
 
 .c-simple__hero {
-outline: 5px solid red;
 	background-color: $color-white;
 	border-top: $border-thicker solid $color-pink-shade;
 	margin-top: 2rem;
