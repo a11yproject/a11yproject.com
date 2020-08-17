@@ -5,10 +5,10 @@
 			alt="{{ featuredResource.alt }}"
 			src="img/resources/{{ featuredResource.image }}" />
 	</div>
-	<p class="c-homepage-card__author">
+	<p class="u-font-size-body-small u-text-transform-uppercase c-homepage-card__author">
 		{{ featuredResource.author }}
 	</p>
-	<h3 class="c-homepage-card__title" onclick="location.href='/resources/{{ featuredResource.title | slugify | url }}'">
+	<h3 class="u-font-size-body-medium c-homepage-card__title" onclick="location.href='/resources/{{ featuredResource.title | slugify | url }}'">
 		{{ featuredResource.title }}
 	</h3>
 	<p class="c-homepage-card__description">

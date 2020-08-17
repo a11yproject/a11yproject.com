@@ -31,7 +31,6 @@ $_c-post-vertical-spacing: 4ex;
 
 	p {
 		border-bottom: $border-thinnest solid $color-green;
-		font-size: $font-size-body;
 		padding: 0.5rem 0 0.5rem map-get($global-post-content-inset, small);
 		text-transform: uppercase;
 
@@ -62,7 +61,6 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__category__link {
-	font-size: $font-size-body;
 	color: $color-green;
 	text-decoration: none;
 
@@ -121,7 +119,6 @@ $_c-post-vertical-spacing: 4ex;
 .c-post__metadata {
 	border-top: $border-thinnest solid $color-green;
 	border-bottom: $border-thick solid $color-green;
-	font-size: $font-size-body-small;
 	list-style-type: none;
 	padding: 0.75rem map-get($global-post-content-inset, small);
 
