@@ -85,13 +85,13 @@
 		{
 			"name": "Joe Watkins",
 			"website": "https://joe-watkins.io/",
-			"photo": "https://www.a11yproject.com/img/team/joe-watkins",
+			"photo": "https://www.a11yproject.com/img/team/joe-watkins.jpg",
 			"biography": "Front-end web developer and web accessibility advocate."
 		},
 		{
 			"name": "Scott O'Hara",
 			"website": "https://www.scottohara.me/",
-			"photo": "https://www.a11yproject.com/img/team/scott-ohara",
+			"photo": "https://www.a11yproject.com/img/team/scott-ohara.jpg",
 			"biography": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone."
 		},
 		{
