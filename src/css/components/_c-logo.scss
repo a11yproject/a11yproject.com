@@ -57,7 +57,6 @@
 
 
 .c-logo__icon {
-	fill: $color-white;
 	transition: transform $animation-duration-shortest $animation-easing-character; // SEE: `.c-logo__link`'s hover/focus states
 
 	// User Queries
