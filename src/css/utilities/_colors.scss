@@ -40,7 +40,7 @@ $utility-colors: (
   //
   // Styleguide Utilities.Colors.u-color-text-[color]
   //
-	.u-text-color-#{$name} {
+	.u-color-text-#{$name} {
 		color: $var;
 	}
 
