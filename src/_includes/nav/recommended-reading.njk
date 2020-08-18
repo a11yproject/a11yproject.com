@@ -4,7 +4,7 @@
 		{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 		{% if previousPost %}
 			<a class="c-recommended-reading__link" href="{{ previousPost.url }}">
-				<span class="u-font-size-body-small u-text-transform-uppercase c-recommended-reading__category">Previous Post<span class="u-hide-visually">:</span></span>
+				<span class="[ u-font-size-body-small u-text-transform-uppercase ] [ c-recommended-reading__category ]">Previous Post<span class="u-hide-visually">:</span></span>
 				<span class="c-recommended-reading__title">{{ previousPost.data.category }}: {{ previousPost.data.title | safe }}</span>
 			</a>
 		{% endif %}
@@ -14,7 +14,7 @@
 		{% set nextPost = collections.posts | getNextCollectionItem(page) %}
 		{% if nextPost %}
 			<a class="c-recommended-reading__link" href="{{ nextPost.url }}">
-				<span class="u-font-size-body-small u-text-transform-uppercase c-recommended-reading__category">Next Post<span class="u-hide-visually">:</span></span>
+				<span class="[ u-font-size-body-small u-text-transform-uppercase ] [ c-recommended-reading__category ]">Next Post<span class="u-hide-visually">:</span></span>
 				<span class="c-recommended-reading__title">{{ nextPost.data.category }}: {{ nextPost.data.title | safe }}</span>
 			</a>
 		{% endif %}

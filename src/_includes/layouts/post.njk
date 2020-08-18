@@ -7,7 +7,7 @@ templateClass: template-post
 	<header class="l-post__header">
 		<div class="l-post__category c-post__category">
 			<p class="u-font-size-body u-text-transform-uppercase">
-				<a class="u-font-size-body c-post__category__link" href="/posts/#{{ category | slugify | url }}">
+				<a class="[ u-font-size-body ] [ c-post__category__link ]" href="/posts/#{{ category | slugify | url }}">
 					{{ category }}
 				</a>
 			</p>
@@ -17,7 +17,7 @@ templateClass: template-post
 			{{ title | safe }}
 		</h1>
 
-		<p id="metadata" class="u-font-size-body-small l-post__metadata c-post__metadata">
+		<p id="metadata" class="[ u-font-size-body-small ] [ l-post__metadata ] [ c-post__metadata ]">
 			{% if author %}
 				<span class="c-post__metadata--author">
 					<span class="u-text-transform-uppercase">By:&#8194;</span><a class="c-post__metadata-link" href="/authors/#{{ author | slugify | url }}">{{ author }}</a><span class="u-hide-visually">.</span>
