@@ -12,15 +12,14 @@ tags:
 
 [HTML's `inert` attribute](https://html.spec.whatwg.org/multipage/interaction.html#inert) has great potential to make the web more accessible. Declaring `inert` on an element will remove its interactivity and make it unable to be focused.
 
-The short explanation:
+## The short version
 
-- `inert`  would make it dramatically easier to make interactive web experiences accessible.
 - Browser manufacturers often don’t prioritize accessibility-focused features. This includes supporting `inert`.
 - [Igalia](https://www.igalia.com/) is a company that makes features for browsers.
 - Igalia is [trying an experiment](https://www.igalia.com/open-prioritization/) in crowd-funding to let the community prioritize new feature work.
 - `inert` is [one of the features they’re considering](https://www.igalia.com/open-prioritization/#inertwebkit).
 - The A11Y Project is [matching up to <strong>$1,000 USD</strong> in donations](https://opencollective.com/html-inert-in-webkit-safari) for `inert`.
-- We encourage you to also do donation matching.
+- We encourage you to share this announcement and ask your employer if they’ll help.
 
 
 ## The long version
@@ -42,7 +41,7 @@ This is a rare moment where we as a community can make a meaningful contribution
 
 ### Donate
 
-A little goes a long way. With donation matching, your money will be incredibly effective in helping move funding along. $5, $10, $25. <strong>Your donation doesn’t have to be a lot</strong>. Every little bit compounds to help move things forward.
+With donation matching, your money will be incredibly effective in helping move funding along. $5, $10, $25. <strong>Your donation doesn’t have to be a lot</strong>. Every little bit adds up and helps move things forward.
 
 When you have made a donation, <strong>let us know via  [our contact form](https://www.a11yproject.com/contact/) and we’ll match it</strong>.
 
