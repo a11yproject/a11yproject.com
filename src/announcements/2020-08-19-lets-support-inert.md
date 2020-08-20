@@ -68,3 +68,12 @@ Thank you for considering this initiative, and for your generosity.
 <p class="c-contribute__cta">
 	Contact us to <a href="{{ /contact/ | url }}">tell us about your donation</a>.
 </p>
+
+## Thank you
+
+Thank you to the following people for their generous donations:
+
+- [Djame Goldston](https://www.linkedin.com/in/djame/)
+- Nick Colley
+- [Yakim van Zuijlen](http://yakim.nl/)
+- …and all our other amazing community supporters!
