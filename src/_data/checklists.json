@@ -488,7 +488,7 @@
 			"description": "Requiring someone to scroll horizontally can be difficult for some, irritating for all."
 		},
 		{
-			"title": "Button and link icons can be activated with ease.",
+			"title": "Ensure that button and link icons can be activated with ease.",
 			"checkboxId": "easy-activation",
 			"wcag": "2.5.5 Target Size",
 			"url": "https://www.w3.org/WAI/WCAG21/Understanding/target-size.html",

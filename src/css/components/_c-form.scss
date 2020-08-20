@@ -99,3 +99,31 @@ $_c-input-margin-top: 1.5rem;
 	position: relative;
 		bottom: 1rem;
 }
+
+
+.c-form__progress {
+	background-color: $color-black;
+	min-height: 2rem;
+	margin-bottom: 3rem;
+	max-width: 68ch;
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+
+.c-form__progress-fill {
+	background-color: $color-yellow;
+}
+
+
+.c-form__progress-label {
+	background-color: $color-sand;
+	font-family: $font-family-secondary;
+	margin-top: 0;
+	padding-left: 1rem;
+}

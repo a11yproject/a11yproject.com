@@ -10,6 +10,11 @@ tags:
   - announcements
 ---
 
+<div class="c-form__progress">
+	<div class="c-form__progress-fill" aria-hidden="true" style="width: 32.5%;"></div>
+	<span class="c-form__progress-label"><span class="u-hide-visually">Status: </span>$325 matched!</span>
+</div>
+
 [HTML's `inert` attribute](https://html.spec.whatwg.org/multipage/interaction.html#inert) has great potential to make the web more accessible. Declaring `inert` on an element will remove its interactivity and make it unable to be focused.
 
 ## The short version
@@ -18,8 +23,13 @@ tags:
 - [Igalia](https://www.igalia.com/) is a company that makes features for browsers.
 - Igalia is [trying an experiment](https://www.igalia.com/open-prioritization/) in crowd-funding to let the community prioritize new feature work.
 - `inert` is [one of the features they’re considering](https://www.igalia.com/open-prioritization/#inertwebkit).
-- The A11Y Project is [matching up to <strong>$1,000 USD</strong> in donations](https://opencollective.com/html-inert-in-webkit-safari) for `inert`.
+- The A11Y Project is [matching up to <strong>$1,000 USD</strong> in pledges](https://opencollective.com/html-inert-in-webkit-safari) for `inert`.
+- You can make a pledge using an [an Open Collective account](https://opencollective.com/create-account). Pledged funds will be collected when the goal is met.
 - We encourage you to share this announcement and ask your employer if they’ll help.
+
+<p class="c-contribute__cta">
+	<a href="https://opencollective.com/html-inert-in-webkit-safari">Support <code>inert</code> with a pledge!</a>
+</p>
 
 
 ## The long version
@@ -39,23 +49,23 @@ At the time of this post, `inert` has a little over $13k USD raised for its $48k
 
 This is a rare moment where we as a community can make a meaningful contribution to a significant feature that will have <strong>longterm positive effects</strong> for web accessibility. If you have wanted to help out with accessibility but have been unsure of how to go about it, this is a great way to do so.
 
-### Donate
+### Pledge
 
-With donation matching, your money will be incredibly effective in helping move funding along. $5, $10, $25. <strong>Your donation doesn’t have to be a lot</strong>. Every little bit adds up and helps move things forward.
+With pledge matching, your money will be incredibly effective in helping move funding along. $5, $10, $25. <strong>Your pledge doesn’t have to be a lot</strong>. Every little bit adds up and helps move things forward.
 
-When you have made a donation, <strong>let us know via  [our contact form](https://www.a11yproject.com/contact/) and we’ll match it</strong>.
+When you have made a pledge, <strong>let us know via  [our contact form](https://www.a11yproject.com/contact/) and we’ll match it</strong>.
 
-A maintainer will reply via email to request a receipt as proof, and send you one back as proof that we matched the amount you donated. If you want, the A11Y Project will also add your name and contact information to this post listing you as a supporter.
+A [maintainer](https://www.a11yproject.com/team/#maintainers) will reply via email to confirm we matched the amount you pledged. If you want, the A11Y Project will also add your name and contact information to this post listing you as a supporter.
 
-Also consider offering to match the amount you donate. This gesture will help spread awareness.
+If Igalia’s goal of $48k is met your pledged amount will be debited. Also consider offering to match the amount you pledge. This gesture will help spread awareness.
 
 ### Organization matching
 
-Consider asking your employer if they’ll match your donation as well. This will be a force multiplier for reaching Igalia’s goal.
+Consider asking your employer if they’ll match your pledge as well. This will be a force multiplier for reaching Igalia’s goal.
 
-Also consider asking your employer if they’ll match The A11Y Project’s $1,000 donation. Being able to use `inert` means developing accessible interactive experiences becomes significantly cheaper and easier to make. <strong>A $1,000 donation could translate to hundreds of thousands of dollars of saved development time</strong> down the line.
+Also consider asking your employer if they’ll match The A11Y Project’s $1,000 pledge. Being able to use `inert` means developing accessible interactive experiences becomes significantly cheaper and easier to make. <strong>A $1,000 pledge could translate to hundreds of thousands of dollars of saved development time</strong> down the line.
 
-The A11Y Project will also publicly thank organizations who match our donation via our [Twitter](https://twitter.com/A11YProject) and [LinkedIn](https://www.linkedin.com/company/the-a11y-project/) accounts, as well as list them in this post.
+The A11Y Project will also publicly thank organizations who match our pledge via our [Twitter](https://twitter.com/A11YProject) and [LinkedIn](https://www.linkedin.com/company/the-a11y-project/) accounts, as well as list them in this post.
 
 ### Share
 
@@ -77,3 +87,4 @@ Thank you to the following people for their generous donations:
 - Nick Colley
 - [Yakim van Zuijlen](http://yakim.nl/)
 - …and all our other amazing community supporters!
+	Contact us to <a href="{{ /contact/ | url }}">tell us about your pledge</a>.
