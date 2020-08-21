@@ -87,4 +87,3 @@ Thank you to the following people for their generous donations:
 - Nick Colley
 - [Yakim van Zuijlen](http://yakim.nl/)
 - …and all our other amazing community supporters!
-
