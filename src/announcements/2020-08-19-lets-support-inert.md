@@ -83,7 +83,9 @@ Thank you for considering this initiative, and for your generosity.
 
 Thank you to the following people for their generous donations:
 
+- Claudio Luís Vera
 - [Djame Goldston](https://www.linkedin.com/in/djame/)
 - Nick Colley
+- [Wil Hall](https://wilhall.com/)
 - [Yakim van Zuijlen](http://yakim.nl/)
 - …and all our other amazing community supporters!
