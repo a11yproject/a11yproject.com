@@ -11,8 +11,8 @@ tags:
 ---
 
 <div class="c-form__progress">
-	<div class="c-form__progress-fill" aria-hidden="true" style="width: 32.5%;"></div>
-	<span class="c-form__progress-label"><span class="u-hide-visually">Status: </span>$325 matched!</span>
+	<div class="c-form__progress-fill" aria-hidden="true" style="width: 70%;"></div>
+	<span class="c-form__progress-label"><span class="u-hide-visually">Status: </span>$700 matched!</span>
 </div>
 
 [HTML's `inert` attribute](https://html.spec.whatwg.org/multipage/interaction.html#inert) has great potential to make the web more accessible. Declaring `inert` on an element will remove its interactivity and make it unable to be focused.
@@ -76,15 +76,16 @@ We understand that money is tight for many communities and companies right now. 
 Thank you for considering this initiative, and for your generosity.
 
 <p class="c-contribute__cta">
-	Contact us to <a href="{{ /contact/ | url }}">tell us about your donation</a>.
+	Contact us to <a href="{{ /contact/ | url }}">tell us about your pledge</a>.
 </p>
 
 ## Thank you
 
 Thank you to the following people for their generous donations:
 
+- Claudio Luís Vera
 - [Djame Goldston](https://www.linkedin.com/in/djame/)
 - Nick Colley
+- [Wil Hall](https://wilhall.com/)
 - [Yakim van Zuijlen](http://yakim.nl/)
 - …and all our other amazing community supporters!
-	Contact us to <a href="{{ /contact/ | url }}">tell us about your pledge</a>.
