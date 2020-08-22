@@ -11,8 +11,8 @@ tags:
 ---
 
 <div class="c-form__progress">
-	<div class="c-form__progress-fill" aria-hidden="true" style="width: 32.5%;"></div>
-	<span class="c-form__progress-label"><span class="u-hide-visually">Status: </span>$325 matched!</span>
+	<div class="c-form__progress-fill" aria-hidden="true" style="width: 70%;"></div>
+	<span class="c-form__progress-label"><span class="u-hide-visually">Status: </span>$700 matched!</span>
 </div>
 
 [HTML's `inert` attribute](https://html.spec.whatwg.org/multipage/interaction.html#inert) has great potential to make the web more accessible. Declaring `inert` on an element will remove its interactivity and make it unable to be focused.
@@ -83,7 +83,9 @@ Thank you for considering this initiative, and for your generosity.
 
 Thank you to the following people for their generous donations:
 
+- Claudio Luís Vera
 - [Djame Goldston](https://www.linkedin.com/in/djame/)
 - Nick Colley
+- [Wil Hall](https://wilhall.com/)
 - [Yakim van Zuijlen](http://yakim.nl/)
 - …and all our other amazing community supporters!
