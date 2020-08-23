@@ -68,9 +68,9 @@ Landmark roles identify content areas within a page, and as the name implies ser
 
 Most Landmark roles are also implicitly exposed via specific Grouping and Sectioning HTML elements. For example:
 
-- The `banner` role can be associated with the `<header>` tag
-- The `complementary` role can be associated with the `<aside>` tag
-- The `contentinfo` role can be associated with the `<footer>` tag
+- The `banner` role can be associated with the `<header>` element
+- The `complementary` role can be associated with the `<aside>` element
+- The `contentinfo` role can be associated with the `<footer>` element
 
 Because the support for some of the above native HTML elements may not be supported in older browsers or some screen readers, it is recommended that the role and native element be paired whenever possible.
 
@@ -86,12 +86,13 @@ Because the support for some of the above native HTML elements may not be suppor
 </nav>
 ```
 
-#### Form role example
+#### Search role example
 
 ```html
 <form role="search">
-  <input type="text" name="search" />
-  <input type="submit" name="button" value="Search" />
+  <label for="search-input">Search this site</label>
+  <input type="text" id="search-input" name="search">
+  <input type="submit" name="submit-btn" value="Search" />
 </form>
 ```
 
