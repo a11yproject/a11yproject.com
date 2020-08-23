@@ -176,7 +176,7 @@ An `alertdialog` is a dialog that contains an alert message and focus is initial
 
 #### Dialog role example
 
-A `dialog` is an application window that separates certain content or UI from the rest of the page. Like the `alertdialog` role, elements within the `dialog` can receive focus. Unlike the `alertdialog` however, `dialog`s may or may not allow interaction with content outside the dialog i.e. modal or non-modal.
+A `dialog` is a window that separates certain content or UI from the rest of the page. Like the `alertdialog` role, elements within the `dialog` can receive focus. While `alertdialog`s are more often than not modal (confining a user's interaction to the contents of the alert dialog until it is dismissed), a standard `dialog` can be modal or not.  When not modal, people may be able to interact with the contents of the dialog, as well as the primary content of the page, freely.
 
 ```html
 <div role="dialog">
