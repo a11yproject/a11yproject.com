@@ -66,7 +66,7 @@ Document roles are used to provide a structural description for a section of con
 
 Landmark roles identify content areas within a page, and as the name implies serve as navigational landmarks for the types of content areas that users may be interested in. These content areas include the page's primary content, collections of navigation links, and search functions to name a few.
 
-Most Landmark roles may also be reasonably associated with native HTML tags. For example:
+Most Landmark roles are also implicitly exposed via specific Grouping and Sectioning HTML elements. For example:
 
 - The `banner` role can be associated with the `<header>` tag
 - The `complementary` role can be associated with the `<aside>` tag
