@@ -116,7 +116,6 @@ The most commonly used Live Region role is the `alert` role.
 
 ```html
 <div role="alert">
-  <h3>Error</h3>
   <p>Autosave failed.</p>
 </div>
 ```
