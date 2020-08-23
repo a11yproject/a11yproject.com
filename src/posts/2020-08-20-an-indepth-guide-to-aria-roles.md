@@ -134,16 +134,16 @@ A common interactive pattern that relies on Widget roles is the very familiar Ta
 
 ```html
 <div>
-  <div role="tablist">
-    <button role="tab">Apples</button>
-    <button role="tab">Oranges</button>
+  <div role="tablist" aria-label="Fruits">
+    <button role="tab" aria-selected="true" aria-controls="apples-tab" id="apples">Apples</button>
+    <button role="tab" aria-selected="false" aria-controls="oranges-tab" id="oranges">Oranges</button>
   </div>
 
-  <div role="tabpanel">
+  <div role="tabpanel" id="apples-tab" aria-labelledby="apples">
     <p>Apples tab content</p>
   </div>
 
-  <div role="tabpanel">
+  <div role="tabpanel" id="oranges-tab" aria-labelledby="oranges">
     <p>Oranges tab content</p>
   </div>
 </div>
