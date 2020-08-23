@@ -126,7 +126,7 @@ When using the `alert` role, keep in mind that it should not be a focusable elem
 
 ### Widget Roles
 
-Widget roles are used to describe common interactive patterns or those that currently lack semantic equivalents in HTML. In most cases, these interactive patterns will be Javascript-driven. Widget roles should not be confused with `role="widget"` which is itself an abstract role.
+Widget roles are used to describe common interactive patterns or those that currently lack semantic equivalents in HTML. In most cases, these interactive patterns will be JavaScript-driven. Widget roles should not be confused with `role="widget"` which is itself an abstract role.
 
 #### Tabs role example
 
