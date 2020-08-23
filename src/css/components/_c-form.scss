@@ -87,7 +87,6 @@ $_c-input-margin-top: 1.5rem;
 
 .c-form__vendor {
 	color: $color-black;
-	font-size: $font-size-body-small;
 
 	&:hover,
 	&:focus {
@@ -97,7 +96,6 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__instructions {
-	font-size: $font-size-body-small;
 	position: relative;
 		bottom: 1rem;
 }
@@ -122,4 +120,31 @@ $_c-input-margin-top: 1.5rem;
 
 .c-form__input[aria-invalid]{
 	border: 2px solid $color-red;
+}
+
+.c-form__progress {
+	background-color: $color-black;
+	min-height: 2rem;
+	margin-bottom: 3rem;
+	max-width: 68ch;
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+
+.c-form__progress-fill {
+	background-color: $color-yellow;
+}
+
+
+.c-form__progress-label {
+	background-color: $color-sand;
+	font-family: $font-family-secondary;
+	margin-top: 0;
+	padding-left: 1rem;
 }

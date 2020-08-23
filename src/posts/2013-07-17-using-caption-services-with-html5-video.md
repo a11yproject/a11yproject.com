@@ -3,7 +3,7 @@ layout: post
 title: Using captions with HTML's video element
 description: How to implement captions for HTML video element.
 category: How-to
-author: Greg Tarnoff
+author: Nat Tarnoff
 date: 2013-07-17
 updated_by: Alex Brenon
 last_updated: 2019-04-21

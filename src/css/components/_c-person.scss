@@ -131,18 +131,15 @@ $_person-photo: (
 	@include link-states($color-blue-shade);
 
 	font-family: $font-family-secondary;
-	font-size: $font-size-body;
 	letter-spacing: $font-tracking-slight;
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
-	text-transform: uppercase;
 	text-underline-offset: 0.3em;
 }
 
 
 .c-person__name {
 	font-family: $font-family-secondary;
-	font-size: $font-size-body-large;
 
 	&:target {
 		scroll-margin-top: 5rem;

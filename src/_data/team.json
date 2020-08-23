@@ -57,6 +57,18 @@
 			"biography": "Wayne is a jack-of-many-trades developer, especially UX web technologies. He's been making websites since 1997. He values clean, semantic markup paired with creative, accessible styles. He likes Marx Brothers movies and biking with his kids."
 		},
 		{
+			"name": "Jen Downs",
+			"website": "https://jen.dev",
+			"photo": "https://www.a11yproject.com/img/team/jen-downs.jpg",
+			"biography": "Jen is a developer who loves building accessible user interfaces and JavaScript applications, skateboarding, and playing video games."
+		},
+		{
+			"name": "Saptak Sengupta",
+			"website": "https://saptaks.website",
+			"photo": "https://www.a11yproject.com/img/team/saptaks.jpg",
+			"biography": "Saptak is a web developer trying to contribute in making websites more accessible, inclusive and privacy focused"
+		},
+		{
 			"name": "…and maybe you!",
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
@@ -79,13 +91,13 @@
 		{
 			"name": "Joe Watkins",
 			"website": "https://joe-watkins.io/",
-			"photo": "https://www.a11yproject.com/img/team/joe-watkins",
+			"photo": "https://www.a11yproject.com/img/team/joe-watkins.jpg",
 			"biography": "Front-end web developer and web accessibility advocate."
 		},
 		{
 			"name": "Scott O'Hara",
 			"website": "https://www.scottohara.me/",
-			"photo": "https://www.a11yproject.com/img/team/scott-ohara",
+			"photo": "https://www.a11yproject.com/img/team/scott-ohara.jpg",
 			"biography": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone."
 		},
 		{
