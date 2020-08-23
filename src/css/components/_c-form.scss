@@ -113,5 +113,13 @@ $_c-input-margin-top: 1.5rem;
 
 	.c-form__error-message {
 		font-size: 0.75rem;
+
+		a:focus {
+			outline: 2px solid $color-red;
+		}
 	}
+}
+
+.c-form__input[aria-invalid]{
+	border: 2px solid $color-red;
 }

@@ -190,7 +190,7 @@ var buildStyles = function (done) {
 		}))
 		.pipe(purgeCSS({
 			content: ['src/**/*.njk', 'src/**/*.md'],
-			whitelistPatterns: [/^c-form__error/],
+			whitelistPatterns: [/^c-form/],
 		}))
 		.pipe(dest(paths.styles.output));
 	// Signal completion

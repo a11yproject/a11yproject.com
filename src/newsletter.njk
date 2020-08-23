@@ -21,6 +21,7 @@ eleventyExcludeFromCollections: true
 			action="https://buttondown.email/api/emails/embed-subscribe/the-a11y-project"
 			method="post"
 			target="_self"
+			novalidate
 			onsubmit="window.open('https://buttondown.email/the-a11y-project', 'popupwindow')"
 			class="c-form embeddable-buttondown-form">
 			<label id="bd-email__label" class="c-form__label" for="bd-email">
@@ -34,7 +35,6 @@ eleventyExcludeFromCollections: true
 				class="c-form__input"
 				type="email"
 				name="email"
-				oninvalid="handleInvalidField(event)"
 				required />
 			<input type="hidden" value="1" name="embed"></input>
 			<input onclick="handleFormSubmit(event)" class="c-form__button" type="submit" value="Subscribe (Opens in a new tab)"></input>
