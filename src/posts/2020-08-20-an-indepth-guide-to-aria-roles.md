@@ -107,7 +107,7 @@ Because the support for some of the above native HTML elements may not be suppor
 
 ### Live Region Roles
 
-Live Region roles are used to alert screen readers and assistive technologies of dynamic changes to the contents of a page so that they can be announced to users. The reason for this is that dynamic changes may be visually noticeable, but that may not be the case for screen reader users for .
+Live Region roles are used to inform assistive technologies, such as screen readers, of dynamic changes to page content, so that they can be announced to users. The reason for this is that dynamic changes may be visually noticeable, but likely will be missed by users with low or no vision.
 
 #### Alert role example
 
