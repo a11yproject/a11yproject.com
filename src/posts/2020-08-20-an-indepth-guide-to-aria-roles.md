@@ -72,7 +72,7 @@ Most Landmark roles are also implicitly exposed via specific Grouping and Sectio
 - The `complementary` role can be associated with the `<aside>` element
 - The `contentinfo` role can be associated with the `<footer>` element
 
-Because the support for some of the above native HTML elements may not be supported in older browsers or some screen readers, it is recommended that the role and native element be paired whenever possible.
+Refer to [Quick Tip: ARIA Landmark roles and HTML5 implicit mapping](https://www.a11yproject.com/posts/2013-01-14-aria-landmark-roles/#toc_HTML5-implicit-mappings-of-Landmark-roles) for more details on the above mappings and browser support for them.
 
 #### Navigation role example
 
