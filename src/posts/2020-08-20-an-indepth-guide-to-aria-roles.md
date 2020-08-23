@@ -56,8 +56,8 @@ Document roles are used to provide a structural description for a section of con
 #### Tooltip example
 
 ```html
-<button>Show Tooltip</button>  
-<div role="tooltip">Notifications</div>  
+<button aria-describedby="notifications-desc">Notifications</button>  
+<div role="tooltip" id="notifications-desc">View and manage notifications</div>  
 ```
 
 - View the [full list of available Document Structure roles](https://www.w3.org/TR/wai-aria/#document_structure_roles).
