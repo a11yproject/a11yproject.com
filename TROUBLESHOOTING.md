@@ -16,9 +16,9 @@ Modules are collections of code that help to do one specific task. They are comb
 
 ### Installing
 
-The site will not run if you don't install the modules Node.js needs to build the website. 
+The site will not run if you don't install the modules Node.js needs to build the website.
 
-You can install the Node.js modules The A11Y Project needs to run by typing `npm install` into your command line application. 
+You can install the Node.js modules The A11Y Project needs to run by typing `npm install` into your command line application.
 
 ### Removing and reinstalling
 
@@ -33,7 +33,7 @@ On a network, a localhost is a shorthand way for a computer to identify itself. 
 
 Sometimes another program will use the space on localhost that The A11Y Project tries to occupy, causing the project to be unable to run. This is like trying to call a phone number and getting a busy signal.
 
-To fix this issue, try quitting your command line application and restarting it, then re-running `npm run a11yproject` in the root directory of The A11Y Project. You may also need to reboot your computer.
+To fix this issue, try quitting your command line application and restarting it, then re-running `npm start` in the root directory of The A11Y Project. You may also need to reboot your computer.
 
 
 ## Other issues
