@@ -151,10 +151,28 @@
 			"url": "https://shop.smashingmagazine.com/products/apps-for-all"
 		},
 		{
+			"title": "Building Access: Universal Design and the Politics of Disability",
+			"description": "Building Access investigates twentieth-century strategies for designing the world with disability in mind.",
+			"additional": "Aimi Hamraie",
+			"url": "https://www.upress.umn.edu/book-division/books/building-access"
+		},
+		{
 			"title": "Color Accessibility Workflows",
 			"description": "Make sure accessibility and aesthetics go hand-in-hand with every design.",
 			"additional": "Geri Coady",
 			"url": "https://abookapart.com/products/color-accessibility-workflows"
+		},
+		{
+			"title": "Cross-Cultural Design",
+			"description": "Explore how to create culturally relevant and responsible experiences that reach a truly global audience.",
+			"additional": "Senongo Akpem",
+			"url": "https://abookapart.com/products/color-accessibility-workflows"
+		},
+		{
+			"title": "Design for Cognitive Bias",
+			"description": " In Design for Cognitive Bias, David Dylan Thomas lays bare the irrational forces that shape our everyday decisions and, inevitably, inform the experiences we craft. Once we grasp the logic powering these forces, we stand a fighting chance of confronting them, tempering them, and even harnessing them for good.",
+			"additional": "David Dylan Thomas",
+			"url": "https://abookapart.com/products/design-for-cognitive-bias"
 		},
 		{
 			"title": "Design for Real Life",
@@ -173,6 +191,12 @@
 			"description": "Designing with Web Standards remains your essential guide to creating sites that load faster, reach more users, and cost less to design and maintain.",
 			"additional": "Jeffrey Zeldman",
 			"url": "http://a.co/d/f0aNSFO"
+		},
+		{
+			"title": "Disability Visibility: First-Person Stories from the Twenty-First Century",
+			"description": "Activist Alice Wong brings together this urgent, galvanizing collection of contemporary essays by disabled people.",
+			"additional": "Alice Wong",
+			"url": "https://www.penguinrandomhouse.com/books/617802/disability-visibility-by-alice-wong/"
 		},
 		{
 			"title": "Inclusive Design Patterns",
@@ -215,6 +239,12 @@
 			"description": "If you are in charge of the user experience, development, or strategy for a web site, A Web for Everyone will help you make your site accessible without sacrificing design or innovation. Rooted in universal design principles, this book provides solutions: practical advice and examples of how to create sites that everyone can use.",
 			"additional": "Sarah Horton and Whitney Quesenbery",
 			"url": "https://rosenfeldmedia.com/books/a-web-for-everyone/"
+		},
+		{
+			"title": "What Can a Body Do? How We Meet the Built World",
+			"description": "A fascinating and provocative new way of looking at the things we use and the spaces we inhabit, and a call to imagine a better-designed world for us all.",
+			"additional": "Sara Hendren",
+			"url": "https://www.penguinrandomhouse.com/books/561049/what-can-a-body-do-by-sara-hendren/"
 		}
 	],
 	"browserExtensions": [
@@ -906,6 +936,12 @@
 		}
 	],
 	"newsletters": [
+		{
+			"title": "The A11Y Project",
+			"description": "A summary of the links The A11Y Project shares on Twitter throughout the week. Shared weekly on Fridays.",
+			"additional": "The A11Y Project",
+			"url": "https://www.a11yproject.com/newsletter/"
+		},
 		{
 			"title": "Accessibility Weekly",
 			"description": "A weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday.",
