@@ -27,10 +27,22 @@
 			"biography": "I help create straightforward solutions that address a person’s practical, physical, cognitive, and emotional needs using accessible, performant, device-agnostic technology."
 		},
 		{
+			"name": "Jen Downs",
+			"website": "https://jen.dev",
+			"photo": "https://www.a11yproject.com/img/team/jen-downs.jpg",
+			"biography": "Jen is a developer who loves building accessible user interfaces and JavaScript applications, skateboarding, and playing video games."
+		},
+		{
 			"name": "Jerry Jones",
 			"website": "https://jeremyjon.es/",
 			"photo": "https://www.a11yproject.com/img/team/jerry-jones.jpg",
 			"biography": "I’m a generalist web developer at Automattic living simply in rural Missouri with my wife and three kids."
+		},
+		{
+			"name": "Saptak Sengupta",
+			"website": "https://saptaks.website",
+			"photo": "https://www.a11yproject.com/img/team/saptaks.jpg",
+			"biography": "Saptak is a web developer trying to contribute in making websites more accessible, inclusive and privacy focused"
 		},
 		{
 			"name": "Scott Vinkle",
@@ -55,18 +67,6 @@
 			"website": "https://twitter.com/esjay",
 			"photo": "https://www.a11yproject.com/img/team/wayne-elgin.jpg",
 			"biography": "Wayne is a jack-of-many-trades developer, especially UX web technologies. He's been making websites since 1997. He values clean, semantic markup paired with creative, accessible styles. He likes Marx Brothers movies and biking with his kids."
-		},
-		{
-			"name": "Jen Downs",
-			"website": "https://jen.dev",
-			"photo": "https://www.a11yproject.com/img/team/jen-downs.jpg",
-			"biography": "Jen is a developer who loves building accessible user interfaces and JavaScript applications, skateboarding, and playing video games."
-		},
-		{
-			"name": "Saptak Sengupta",
-			"website": "https://saptaks.website",
-			"photo": "https://www.a11yproject.com/img/team/saptaks.jpg",
-			"biography": "Saptak is a web developer trying to contribute in making websites more accessible, inclusive and privacy focused"
 		},
 		{
 			"name": "…and maybe you!",
