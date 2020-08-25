@@ -19,7 +19,8 @@
 		"Wayne Elgin (https://twitter.com/esjay)"
 	],
 	"scripts": {
-		"a11yproject": "npx eleventy --watch | gulp watch",
+		"start": "npx eleventy --watch | gulp watch",
+		"a11yproject": "npm start",
 		"publish": "npx gulp && npx eleventy",
 		"clean": "rm -rf ./dist",
 		"eleventy-build": "npx eleventy",

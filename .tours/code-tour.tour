@@ -28,7 +28,7 @@
     {
       "file": "package.json",
       "line": 17,
-      "description": "These are the scripts you can runn in your command line application. `npm run a11yproject` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
+      "description": "These are the scripts you can runn in your command line application. `npm start` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
     },
     {
       "file": "package.json",
