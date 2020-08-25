@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="c-form__progress">
-	<div class="c-form__progress-fill" aria-hidden="true" style="width: 70%;"></div>
+	<div class="c-form__progress-fill" aria-hidden="true" style="width: 73%;"></div>
 	<span class="c-form__progress-label"><span class="u-hide-visually">Status: </span>$700 matched!</span>
 </div>
 
@@ -86,6 +86,7 @@ Thank you to the following people for their generous donations:
 - Claudio Luís Vera
 - [Djame Goldston](https://www.linkedin.com/in/djame/)
 - Nick Colley
+- [Ollie Boermans](https://twitter.com/ollicle/)
 - [Wil Hall](https://wilhall.com/)
 - [Yakim van Zuijlen](http://yakim.nl/)
 - …and all our other amazing community supporters!
