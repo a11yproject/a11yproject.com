@@ -4,15 +4,19 @@
 	"homepage": "https://a11yproject.com/",
 	"version": "1.2.0",
 	"license": "Apache-2.0",
-	"author": "Dave Rupert <hello@a11yproject.com> (https://daverupert.com/)",
+	"author": "Dave Rupert (https://daverupert.com/)",
 	"contributors": [
-		"Carie Fisher <hello@a11yproject.com> (https://www.linkedin.com/in/cehfisher/)",
+		"Carie Fisher (https://www.linkedin.com/in/cehfisher/)",
 		"Dennis Gaebel <dennisgaebel@gmail.com> (https://droidpinkman.io/)",
 		"Eric Bailey <eric.w.bailey@gmail.com> (https://ericwbailey.design/)",
-		"Jerry Jones <hello@a11yproject.com> (http://jeremyjon.es/)",
+		"Jen Downs (https://jen.dev/)",
+		"Jerry Jones (http://jeremyjon.es/)",
+		"Saptak Sengupta (https://saptaks.website/)",
 		"Scott O'Hara <scottaohara@gmail.com> (https://www.scottohara.me/)",
 		"Scott Vinkle <scott.vinkle@shopify.com> (https://svinkle.me/)",
-		"Tatiana Mac <hello@a11yproject.com> (https://tatianamac.com/)"
+		"Soren Hamby <scott.vinkle@shopify.com> (https://svinkle.me/)",
+		"Tatiana Mac (https://tatianamac.com/)",
+		"Wayne Elgin (https://twitter.com/esjay)"
 	],
 	"scripts": {
 		"a11yproject": "npx eleventy --watch | gulp watch",
