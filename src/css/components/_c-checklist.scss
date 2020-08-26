@@ -131,7 +131,10 @@ $_checklist-padding: (
 
 .c-checklist__title {
 margin-left: 1rem;
-flex: 1;
+	// Supports
+	@supports #{$supports-flex} {
+		flex: 1;
+	}
 }
 
 
@@ -141,6 +144,11 @@ flex: 1;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+
+	input[type="checkbox"] {
+		position: relative;
+			left: 0.2rem; // HACK: Ensures iOS checkboxes are tucked fully under the generated checkbox
 	}
 
 	// SEE: https://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html
