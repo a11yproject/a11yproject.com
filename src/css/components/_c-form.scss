@@ -102,7 +102,7 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__error-wrapper {
-	border: 4px solid $color-red;
+	border: $border-thin solid $color-red;
 	padding: 0.5rem;
 
 	.c-form__error-list {
@@ -111,6 +111,7 @@ $_c-input-margin-top: 1.5rem;
 
 	.c-form__error-message {
 		font-size: 0.75rem;
+		padding-top: 0.25rem;
 
 		a {
 			@include link-states($color-black);
@@ -119,7 +120,7 @@ $_c-input-margin-top: 1.5rem;
 }
 
 .c-form__input[aria-invalid]{
-	border: 2px solid $color-red;
+	border: $border-thinner solid $color-red;
 }
 
 .c-form__progress {
