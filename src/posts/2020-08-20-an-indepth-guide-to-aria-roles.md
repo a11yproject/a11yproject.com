@@ -12,13 +12,13 @@ tags:
   - background
 ---
 
-Thes [ARIA specification](https://www.w3.org/TR/wai-aria-1.1/) is divided into predefined categories of attributes, one of which is Roles, and the other being States & Properties. ARIA roles, which are covered in this article, are generally used to describe elements:
+The [ARIA specification](https://www.w3.org/TR/wai-aria-1.1/) is divided into categories of attributes, one of which is Roles, and the other being States & Properties. ARIA roles, which are covered in this article, are generally used to describe elements:
 
 - that may not exist within HTML,
 - which may not have full cross-browser support,
 - which may have implementation gaps in screen readers and other assistive technologies.
 
-They are also useful in situations where existing HTML markup is written in older HTML standards that do not include newer, more semantic tags.
+For instance, ARIA roles can be useful in situations where native HTML semantics are not understood in legacy user agents (e.g., browsers).
 
 ## Usage
 
