@@ -39,7 +39,7 @@ Abstract roles are only intended for use by browsers to help organize and stream
 
 ### Document Structure roles
 
-Document roles are used to provide a structural description for a section of content. A majority of the available roles in this category resemble available semantic HTML tags and it is recommended to only use them when an appropriate native tag is not available. The roles in this category are also not typically interactive in nature. However, they may be used to contain other roles that are interactive. The `toolbar` and `tooltip` roles, demonstrated below, serve as good examples of when to use Document Structure roles to provide information to assistive technologies when the equivalent native HTML tag is not available.
+Document roles are used to provide a structural description for a section of content. A majority of the available roles in this category resemble available semantic HTML tags and it is recommended to only use them when an appropriate native tag is not available. The roles in this category are also not typically interactive in nature. However, they may be used to contain other roles that are interactive. The following examples of `toolbar` and `tooltip` roles, serve as good examples of when to use Document Structure roles to provide information to assistive technologies when the equivalent native HTML tag is not available.
 
 #### Toolbar example
 
