@@ -11,7 +11,7 @@ tags:
 ---
 
 <div class="c-form__progress">
-	<div class="c-form__progress-fill" aria-hidden="true" style="width: 83%;"></div>
+	<div class="c-form__progress-fill" aria-hidden="true" style="width: 76%;"></div>
 	<span class="c-form__progress-label"><span class="u-hide-visually">Status: </span>$830 matched!</span>
 </div>
 
