@@ -20,9 +20,10 @@ templateClass: template-simple
 			action="https://buttondown.email/api/emails/embed-subscribe/the-a11y-project"
 			method="post"
 			target="_self"
+			novalidate
 			onsubmit="window.open('https://buttondown.email/the-a11y-project', 'popupwindow')"
 			class="c-form embeddable-buttondown-form">
-			<label class="c-form__label" for="bd-email">
+			<label id="bd-email__label" class="c-form__label" for="bd-email">
 				Your email address
 			</label>
 			<input
@@ -32,9 +33,10 @@ templateClass: template-simple
 				spellcheck="false"
 				class="c-form__input"
 				type="email"
-				name="email">
+				name="email"
+				required />
 			<input type="hidden" value="1" name="embed"></input>
-			<input class="c-form__button" type="submit" value="Subscribe (Opens in a new tab)"></input>
+			<input onclick="handleFormSubmit(event)" class="c-form__button" type="submit" value="Subscribe (Opens in a new tab)"></input>
 			<p>
 				<a class="u-font-size-body-small c-form__vendor" href="https://buttondown.email">Powered by Buttondown.</a>
 			</p>

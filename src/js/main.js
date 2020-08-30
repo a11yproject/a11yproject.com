@@ -87,7 +87,7 @@ function processChecklistClick(items) {
 	items.forEach(function(element){
 		element.addEventListener('change', function(event) {
 			if (checkChecklistExists(event.target.id)) {
-				removeChecklistItems(event.target.id)
+				removeChecklistItems(event.target.id);
 			} else {
 				storeChecklistItems(event.target.id);
 			}
