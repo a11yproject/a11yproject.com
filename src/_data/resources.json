@@ -465,6 +465,12 @@
 			"url": "https://github.com/mgifford/a11y-courses"
 		},
 		{
+			"title": "Accessibility fundamentals",
+			"description": "Technology can empower people to achieve more, help strengthen education opportunities, and make the workplace more inviting and inclusive for people with disabilities.",
+			"additional": "Microsoft",
+			"url": "https://docs.microsoft.com/en-us/learn/paths/accessibility-fundamentals/"
+		},
+		{
 			"title": "Introduction to Web Accessibility",
 			"description": "Get a strong foundation in digital accessibility to make your websites and apps work well for people with disabilities, meet international standards, and provide a better user experience for everyone.",
 			"additional": "edX and the W3C",
@@ -953,6 +959,12 @@
 			"description": "Get notified when we write new stuff",
 			"additional": "Axess Lab",
 			"url": "https://axesslab.com/alt-texts#thanks-for-making-the-web-better"
+		},
+		{
+			"title": "Microassist",
+			"description": "Stay up to date on learning and development, training opportunities, and accessibility news.",
+			"additional": "Microassist",
+			"url": "https://www.microassist.com/about/newsletter-subscriptions/"
 		},
 		{
 			"title": "Skip Links",
