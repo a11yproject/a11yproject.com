@@ -27,6 +27,11 @@
 			"url": "https://www.24a11y.com/"
 		},
 		{
+			"title": "Deque Blog",
+			"description": "Stay up to date on all things accessibility",
+			"url": "https://www.deque.com/blog/"
+		},
+		{
 			"title": "456 Berea Street",
 			"description": "Articles and news on web standards, accessibility, and usability.",
 			"url": "https://www.456bereastreet.com/"
@@ -143,6 +148,11 @@
 			"description": "Building an elegant, functional website requires more than just knowing how to code. In Adaptive Web Design, Second Edition, you’ll learn how to use progressive enhancement to build websites that won’t break, work anywhere, are accessible by anyone—on any device, and are designed to work well into the future.",
 			"additional": "Aaron Gustafson",
 			"url": "http://a.co/d/7aVobuX"
+		},
+				{
+			"title": "Agile Accessibility Handbook",
+			"description": "Free ebook: A Practical Guide to Accessible Software Development at Scale": "Dylan Barrell",
+			"url": "https://accessibility.deque.com/agile-accessibility-handbook"
 		},
 		{
 			"title": "Apps For All: Coding Accessible Web Applications",
@@ -264,6 +274,27 @@
 			"url": "https://www.paciellogroup.com/toolkit/",
 			"browsers": [
 				"Chrome"
+			]
+		},
+				{
+			"title": "axe",
+			"description": "Chosen by Microsoft, Google, development and testing teams everywhere, axe is the World’s leading digital accessibility toolkit.",
+			"additional": "Deque",
+			"url": "https://www.deque.com/axe/",
+			"browsers": [
+				"Chrome",
+				"Firefox",
+				"Edge",
+			]
+		},
+				},
+				{
+			"title": "axe beta",
+			"description": "Automatically catch tons of accessibility bugs with axe. Catch even more with axe beta.",
+			"additional": "Deque",
+			"url": "https://www.deque.com/axe/beta/",
+			"browsers": [
+				"Chrome",
 			]
 		},
 		{
@@ -805,6 +836,12 @@
 			"description": "Accessibility group based in Ann Arbor, Michigan.",
 			"additional": "Michigan, United States",
 			"url": "https://twitter.com/annarbora11y"
+		},
+		{
+			"title": "axe-con",
+			"description": "free, virtual digital accessibility conference with tracks for design, develoopers, business leaders, and compliance",
+			"additional": "Online",
+			"url": "https://www.deque.com/axe-con/"
 		},
 		{
 			"title": "Bay Area Accessibility and Inclusive Design",
