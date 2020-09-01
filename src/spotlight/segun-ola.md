@@ -4,10 +4,12 @@ title: Segun Ola
 image: /spotlight/segun-ola.png
 category: Spotlight
 further_reading:
-  - title: 100 Days of A11y
-    url: https://100daysofa11y.com/
-  - title: Carney Develop It
-    url: https://carneydevelopit.wordpress.com/
+  - title: segunolalive.com
+    url: https://blog.segunolalive.com/
+  - title: Front-End Weekly
+    url: https://frontendweekly.dev/
+  - title: Segun Ola on GitHub
+    url: https://github.com/segunolalive
 eleventyNavigation:
   key: Segun Ola
   parent: Spotlight
@@ -15,7 +17,7 @@ tags:
   - spotlight
 ---
 
-I’m a frontend web developer working with Andela Nigeria. I work with Andela partners to build highly interactive and accessible web applications.
+I’m a frontend web developer working with [Andela Nigeria](https://andela.com/). I work with Andela partners to build highly interactive and accessible web applications.
 
 Learning about accessibility has given me greater perspective to my job. I am in the business of User Experience, not just visual appearance. The reason we make software is so people, not some people, can have easy access to the information they need and do the things they care about.
 
