@@ -40,58 +40,7 @@ templateClass: template-generic
 		Notable updates to our website.
 	</p>
 	<div class="c-content">
-		<h3 id="1-2-0" class="c-heading-medium">
-			<samp class="c-changelog__version">1.2.0</samp><span class="u-hide-visually">,</span> Post-launch improvements <time datetime="2020-08-18" class="c-changelog__date">8/18/2020</time>
-		</h3>
-		<ul>
-			<li>Add Wayne, Soren, Jen, and Saptak.</li>
-			<li>Add checklist items and permalinks to our Checklist.</li>
-			<li>Adds font size variables and utility classes.</li>
-			<li>Adds color utility classes.</li>
-			<li>Add a custom 404 page.</li>
-			<li>Add a contact form.</li>
-			<li>Add new resources.</li>
-			<li>Add redirects.</li>
-			<li>Remove unused CSS when the site compiles.</li>
-			<li>Remove anchor links for post headings.</li>
-			<li>Use the site's version to bust cached assets.</li>
-			<li>Replaces Google Analytics in favor of <a href="https://www.netlify.com/products/analytics/">Netlify Analytics</a>.</li>
-			<li>Restore missing posts.</li>
-			<li>Fixes Stylelint errors.</li>
-			<li>Fixes broken links.</li>
-			<li>Fixes broken Open Graph share images.</li>
-			<li>Fixes duplicated authors.</li>
-			<li>Fixes CSS layout bugs.</li>
-		</ul>
-		<h3 id="1-1-0" class="c-heading-medium">
-			<samp class="c-changelog__version">1.1.0</samp><span class="u-hide-visually">,</span> Post-launch updates <time datetime="2020-07-16" class="c-changelog__date">7/16/2020</time>
-		</h3>
-		<ul>
-			<li>Add a <a href="https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour">CodeTour</a>.</li>
-			<li>Resolve JavaScript and Sass linting issues.</li>
-			<li>Update Open Graph preview images.</li>
-			<li>Re-introduce missing post.</li>
-			<li>Fix broken links.</li>
-			<li>Fix text overflow issues.</li>
-			<li>Fix avatar sizes.</li>
-			<li>Remove Google Analytics</li>
-			<li>Post-launch content tweaks and fixes.</li>
-		</ul>
-		<h3 id="1-0-0" class="c-heading-medium">
-			<samp class="c-changelog__version">1.0.0</samp><span class="u-hide-visually">,</span> Redesign <time datetime="2020-07-15" class="c-changelog__date">7/15/2020</time>
-		</h3>
-		<ul>
-			<li>Add a <a href="{{ '/code-of-conduct/' | url }}">Code of Conduct</a>.</li>
-			<li>Add an <a href="{{ '/accessibility-statement/' | url }}">Accessibility Statement</a>.</li>
-			<li>Add an industry <a href="{{ '/spotlight/' | url }}">Spotlight</a>.</li>
-			<li>Expanded and updated <a href="{{ '/resources/' | url }}">Resources</a>.</li>
-			<li>Add <a href="{{ '/sponsorship/' | url }}">Sponsorship</a> and <a href="https://opencollective.com/the-a11y-project">Open Collective</a>.</li>
-			<li>Replaced <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://www.11ty.dev/">Eleventy</a>.</li>
-			<li>Migrate content.</li>
-			<li>Convert data to JSON.</li>
-			<li>Migrate GitHub pages (<a href="{{ '/content-style-guide/' | url }}">Content Style Guide</a>, <a href="{{ '/code-of-conduct/' | url }}">Code of Conduct</a>, etc.) to the website.</li>
-			<li>Deprecate <a href="{{ '/follow/' | url }}">Follow</a>, <a href="{{ '/patterns/' | url }}">Patterns</a>, and <a href="{{ '/events/' | url }}">Events</a>.</li>
-		</ul>
+		{% include "changelog.njk" %}
 	</div>
 
 </div>
