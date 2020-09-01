@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Amy Carney",
-			"role": "Web Developer",
-			"description": "Amy Carney is a web ‘devsigner’ and certified accessibility specialist. She founded <a class='c-homepage-card__link' href='https://twitter.com/search?q=%23100DaysofA11y'>#100DaysofA11y</a>, a project dedicated to focused exercises around accessibility.",
-			"image": "amy-carney.jpg",
-			"cta": "Meet Amy"
+			"name": "Segun Ola",
+			"role": "Frontend Web Developer",
+			"description": "Segun is a frontend web developer working with Andela Nigeria. They work with Andela partners to build highly interactive and accessible web applications.",
+			"image": "segun-ola.png",
+			"cta": "Meet Segun"
 		}
 	]
 }
