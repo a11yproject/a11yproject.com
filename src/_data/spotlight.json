@@ -7,6 +7,12 @@
 			"biography": "Hi! My name is Amy and my craft is web design. The bulk of my background lies in psychology and libraries. I care about how people think, how they interact with others and technology, and how information is accessed by everyone."
 		},
 		{
+			"name": "Segun Ola",
+			"website": "/spotlight/segun-ola",
+			"photo": "/img/spotlight/segun-ola.png",
+			"biography": "I’m a frontend web developer working with Andela Nigeria. I work with Andela partners to build highly interactive and accessible web applications."
+		},
+		{
 			"name": "Want to nominate someone?",
 			"website": "{{ '/contact/' | url }}",
 			"photo": "/img/logos/maintainer.png",
