@@ -27,11 +27,6 @@
 			"url": "https://www.24a11y.com/"
 		},
 		{
-			"title": "Deque Blog",
-			"description": "Stay up to date on all things accessibility",
-			"url": "https://www.deque.com/blog/"
-		},
-		{
 			"title": "456 Berea Street",
 			"description": "Articles and news on web standards, accessibility, and usability.",
 			"url": "https://www.456bereastreet.com/"
@@ -70,6 +65,11 @@
 			"title": "Inclusive Components",
 			"description": "A blog trying to be a pattern library. All about designing inclusive web interfaces, piece by piece.",
 			"url": "https://inclusive-components.design/"
+		},
+				{
+			"title": "Deque Blog",
+			"description": "Stay up to date on all things accessibility",
+			"url": "https://www.deque.com/blog/"
 		},
 		{
 			"title": "Low Visionary",
@@ -151,7 +151,7 @@
 		},
 				{
 			"title": "Agile Accessibility Handbook",
-			"description": "Free ebook: A Practical Guide to Accessible Software Development at Scale": "Dylan Barrell",
+			"description": "Free ebook: A Practical Guide to Accessible Software Development at Scale, by Dylan Barrell.",
 			"url": "https://accessibility.deque.com/agile-accessibility-handbook"
 		},
 		{
@@ -276,9 +276,9 @@
 				"Chrome"
 			]
 		},
-				{
+		{
 			"title": "axe",
-			"description": "Chosen by Microsoft, Google, development and testing teams everywhere, axe is the World’s leading digital accessibility toolkit.",
+			"description": "The world's leading digital accessibility toolkit - download as a browser extenion or on NPM. Chosen by Microsoft, Google, development and testing teams everywhere.",
 			"additional": "Deque",
 			"url": "https://www.deque.com/axe/",
 			"browsers": [
@@ -287,8 +287,7 @@
 				"Edge",
 			]
 		},
-				},
-				{
+		{
 			"title": "axe beta",
 			"description": "Automatically catch tons of accessibility bugs with axe. Catch even more with axe beta.",
 			"additional": "Deque",
@@ -839,7 +838,7 @@
 		},
 		{
 			"title": "axe-con",
-			"description": "free, virtual digital accessibility conference with tracks for design, develoopers, business leaders, and compliance",
+			"description": "Free, virtual digital accessibility conference with tracks for design, develoopers, business leaders, and compliance.",
 			"additional": "Online",
 			"url": "https://www.deque.com/axe-con/"
 		},
