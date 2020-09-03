@@ -284,7 +284,7 @@
 			"browsers": [
 				"Chrome",
 				"Firefox",
-				"Edge",
+				"Edge"
 			]
 		},
 		{
@@ -293,7 +293,7 @@
 			"additional": "Deque",
 			"url": "https://www.deque.com/axe/beta/",
 			"browsers": [
-				"Chrome",
+				"Chrome"
 			]
 		},
 		{
