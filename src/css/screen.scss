@@ -151,6 +151,7 @@
 //
 // Styleguide Utilities
 @import
+	"utilities/avatar-size",
 	"utilities/colors",
 	"utilities/font-sizes",
 	"utilities/hide",
@@ -169,6 +170,7 @@
 @import
 	"components/c-simple",
 	"components/c-a11y-summary",
+	"components/c-avatar",
 	"components/c-banner",
 	"components/c-blm-banner",
 	"components/c-card",
