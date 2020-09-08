@@ -3,7 +3,14 @@ layout: layouts/base.njk
 templateClass: template-generic
 ---
 
-{% include "spotlight/hero.njk" %}
+{%
+	set avatar = {
+		cssClass: "l-spotlight__hero c-spotlight__hero",
+		image: '/img' + image,
+		name: ''
+	}
+%}
+{% include "avatar.njk" %}
 
 <div data-content class="l-content c-content c-content--generic">
 
