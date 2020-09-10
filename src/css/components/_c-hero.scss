@@ -57,12 +57,12 @@
 	}
 
 	.template-resources & {
-		background-color: $color-blue-shade;
+		background-color: $color-green-shade;
 		background-image: url("#{$path-to-img}/heroes/resources.svg");
 	}
 
 	.template-about & {
-		background-color: $color-blue-shade;
+		background-color: $color-green-shade;
 		background-image: url("#{$path-to-img}/heroes/about.svg");
 	}
 
@@ -80,7 +80,10 @@
 		background-image: url("#{$path-to-img}/heroes/team.svg");
 	}
 
-	.template-contribute &,
+	.template-contribute & {
+		background-color: $color-yellow-tint;
+	}
+
 	.template-simple & {
 		background-color: $color-yellow;
 	}
@@ -127,7 +130,7 @@
 
 	.template-resources & {
 		color: $color-green-tint;
-		background-color: $color-blue-shade;
+		background-color: $color-green-shade;
 		border-top-color: $color-green-tint;
 	}
 
@@ -140,7 +143,7 @@
 	.template-contribute & {
 		color: $color-yellow-tint;
 		background-color: $color-black;
-		border-top-color: $color-yellow-tint;
+		border-top-color: $color-white;
 	}
 
 	.template-authors &,

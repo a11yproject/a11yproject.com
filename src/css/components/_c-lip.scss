@@ -35,8 +35,11 @@
 				background-color: $color-blue;
 			}
 
+			.template-resources & {
+				background-color: $color-green-shade;
+			}
+
 			.template-about &,
-			.template-resources &,
 			.template-team &,
 			.template-authors &,
 			.template-spotlight & {
@@ -44,7 +47,7 @@
 			}
 
 			.template-contribute & {
-				background-color: $color-yellow;
+				background-color: $color-yellow-tint;
 			}
 		}
 	}
