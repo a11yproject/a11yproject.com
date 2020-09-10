@@ -32,7 +32,7 @@
 	}
 
 	.template-checklist & {
-		background-color: $color-green;
+		background-color: $color-blue;
 		background-image: url("#{$path-to-img}/heroes/checklist.svg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -121,8 +121,8 @@
 
 	.template-checklist & {
 		color: $color-white;
-		background-color: $color-green;
-		border-top-color: $color-blue-tint;
+		background-color: $color-blue;
+		border-top-color: $color-white;
 	}
 
 	.template-resources & {

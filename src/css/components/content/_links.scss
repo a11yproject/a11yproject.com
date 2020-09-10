@@ -1,12 +1,12 @@
 a {
 	// Contexts
-	.c-content--checklist &,
 	.c-content--post & {
 		@include link-states($color-green);
 	}
 
 	.c-content--about &,
 	.c-content--generic &,
+	.c-content--checklist &,
 	.c-content--contribute & {
 		@include link-states($color-blue);
 	}
