@@ -94,6 +94,12 @@
 	],
 	"bookmarklets": [
 		{
+			"title": "44x44 Pixel Cursor Bookmarklet",
+			"description": "A bookmarklet to make it easier to test WCAG’s Target Size and proposed Pointer Target Spacing requirements.",
+			"additional": "Jared Smith",
+			"url": "https://codepen.io/jared_w_smith/full/vYGXeMy"
+		},
+		{
 			"title": "Akbar",
 			"description": "A bookmarklet that simulates various types user experiences.",
 			"additional": "Hao Luo",
@@ -1434,6 +1440,12 @@
 			"url": "https://axesslab.com/fonts-dont-matter/"
 		},
 		{
+			"title": "Information on different types of people for graphic communication, website and information designers including free reusable infographic",
+			"description": "How can we include as many people as possible when designing graphic communication and information, and how do we not unnecessarily exclude people?",
+			"additional": "Thomas Bohm",
+			"url": "https://medium.com/@user_design/information-on-different-types-of-people-for-graphic-communication-website-and-information-4b6454905bb1"
+		},
+		{
 			"title": "Letter and symbol misrecognition in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers",
 			"description": "This paper identifies easily misrecognised letters and symbols in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers. It can also be considered as a review of related research in this area.",
 			"additional": "Typography.Guru",
@@ -1488,6 +1500,12 @@
 			"description": "The WCAG contain some very useful information, and so I decided to condense the very extensive guidelines and highlight some practical examples of what we can do to implement them and make our websites more accessible.",
 			"additional": "Ire Aderinokun",
 			"url": "https://bitsofco.de/the-accessibility-cheatsheet/"
+		},
+		{
+			"title": "Accessibility for teams",
+			"description": "This is a starter guide for teams about delivering accessible websites. Each person on your team has their own responsibilities, this guide tells you what everybody needs to do.",
+			"additional": "Peter van Grieken",
+			"url": "https://accessibility-for-teams.com/"
 		},
 		{
 			"title": "Aaron Cannon’s Web Accessibility Checklist",
