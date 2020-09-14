@@ -561,6 +561,12 @@
 			"description": "UX Myths collects the most frequent user experience misconceptions and explains why they don't hold true.",
 			"additional": "Zoltán Gócza and Zoltán Kollin",
 			"url": "https://uxmyths.com/"
+		},
+		{
+			"title": "WCAG for designers",
+			"description": "Here's a checklist I'm working on to help ensure the products I design comply with the Web Content Accessibility Guidelines (WCAG).",
+			"additional": "Geri Reid",
+			"url": "https://gerireid.com/wcag-for-designers.html"
 		}
 	],
 	"developmentTools": [
@@ -1384,6 +1390,13 @@
 			"type": "Talk"
 		},
 		{
+			"title": "Garbage Pail Components: Marcy Sutton",
+			"description": "Clarity (2019)",
+			"additional": "YouTube",
+			"url": "https://youtu.be/MVzihFS1UQU",
+			"type": "Talk"
+		},
+		{
 			"title": "HTML5 Accessibility (Steve Faulkner)",
 			"description": "Paris Web (2013)",
 			"additional": "Vimeo",
@@ -1391,17 +1404,17 @@
 			"type": "Talk"
 		},
 		{
-			"title": "Make Your Widgets Sing With ARIA",
-			"description": "WDCNZ (2013)",
-			"additional": "Vimeo",
-			"url": "http://vimeo.com/73427435",
-			"type": "Talk"
-		},
-		{
 			"title": "JavaScript and Civil Rights (Marcy Sutton)",
 			"description": "Web Rebels (2017)",
 			"additional": "YouTube",
 			"url": "https://www.youtube.com/watch?v=hUCOA338jwk",
+			"type": "Talk"
+		},
+		{
+			"title": "Make Your Widgets Sing With ARIA",
+			"description": "WDCNZ (2013)",
+			"additional": "Vimeo",
+			"url": "http://vimeo.com/73427435",
 			"type": "Talk"
 		},
 		{
@@ -1496,6 +1509,12 @@
 	],
 	"additionalResources": [
 		{
+			"title": "Aaron Cannon’s Web Accessibility Checklist",
+			"description": "PDF accessibility checklist.",
+			"additional": "Cameron Moll",
+			"url": "http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/"
+		},
+		{
 			"title": "The Accessibility Cheatsheet",
 			"description": "The WCAG contain some very useful information, and so I decided to condense the very extensive guidelines and highlight some practical examples of what we can do to implement them and make our websites more accessible.",
 			"additional": "Ire Aderinokun",
@@ -1508,10 +1527,10 @@
 			"url": "https://accessibility-for-teams.com/"
 		},
 		{
-			"title": "Aaron Cannon’s Web Accessibility Checklist",
-			"description": "PDF accessibility checklist.",
-			"additional": "Cameron Moll",
-			"url": "http://cameronmoll.com/archives/2008/06/web_accessibility_checklist/"
+			"title": "Adobe Inclusive Design Workshop",
+			"description": "Content for a full-day workshop on inclusive design, including workbook modules, and exercises.",
+			"additional": "Matt May",
+			"url": "https://github.com/adobe-inclusive-design/id-workshop"
 		},
 		{
 			"title": "Disability is a spectrum, not a binary",
@@ -1542,6 +1561,12 @@
 			"description": "In-person shopping can be difficult and stressful for disabled people for many reasons, from tall checkout counters to non-navigable spaces, but meanwhile, disabled Americans are more likely to never use the Internet compared to the total population.",
 			"additional": "Coupon Follow",
 			"url": "https://couponfollow.com/research/online-shopping-with-disabilities"
+		},
+		{
+			"title": "Home: Up Your A11y",
+			"description": "Tutorials and resources for developers seeking to build accessible web experiences.",
+			"additional": "Suzanne Aitchison",
+			"url": "https://www.upyoura11y.com/"
 		},
 		{
 			"title": "Van11y: Accessibility and Vanilla JavaScript - ES2015",
