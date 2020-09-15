@@ -64,15 +64,14 @@
 }
 
 
-// Source Code Pro Regular
+// Recursive Sans Linear Static Regular
 @font-face {
 	font-display: swap;
-	font-family: "Source Code Pro";
+	font-family: "Recursive Mono Linear Static";
 	font-style: normal;
 	font-weight: 400;
 	src:
-		local("Source Code Pro Regular"),
-		local("SourceCodePro-Regular"),
-		url("../fonts/source-code-pro-v11-latin-regular.woff") format("woff"),
-		url("../fonts/source-code-pro-v11-latin-regular.woff2") format("woff2");
+		local("Recursive Mn Lnr St"),
+		local("RecursiveMonoLnrSt-Regular"),
+		url("../fonts/RecursiveMonoLnrSt-Regular.woff2") format("woff2");
 }

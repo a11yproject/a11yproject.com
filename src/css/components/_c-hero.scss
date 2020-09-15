@@ -82,14 +82,11 @@
 
 	.template-contribute & {
 		background-color: $color-yellow-tint;
+		background-image: url("#{$path-to-img}/heroes/contribute.svg");
 	}
 
 	.template-simple & {
 		background-color: $color-yellow;
-	}
-
-	.template-contribute & {
-		background-image: url("#{$path-to-img}/heroes/contribute.svg");
 	}
 
 	.template-spotlight & {
