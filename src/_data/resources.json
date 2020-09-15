@@ -501,12 +501,6 @@
 			"url": "https://docs.microsoft.com/en-us/learn/paths/accessibility-fundamentals/"
 		},
 		{
-			"title": "An e-learning platform on Web Accessibility",
-			"description": "The A11Y Collective is the e-learning platform for anyone who wants to learn more about web accessibility. The courses focus mostly on knowledge and skills that are valuable for web designers, developers, webmasters, product owners and web editors.",
-			"additional": "The A11Y Collective",
-			"url": "https://a11y-collective.com/"
-		},
-		{
 			"title": "Introduction to Web Accessibility",
 			"description": "Get a strong foundation in digital accessibility to make your websites and apps work well for people with disabilities, meet international standards, and provide a better user experience for everyone.",
 			"additional": "edX and the W3C",
@@ -523,6 +517,12 @@
 			"description": "A series of five 5-minute tutorial videos hosted by Aquent Gymnasium that deal with introductory accessibility topics.",
 			"additional": "Aquent Gymnasium ",
 			"url": "https://ethanmarcotte.com/wrote/takin-five/"
+		},
+		{
+			"title": "The A11Y Collective",
+			"description": "The A11Y Collective is the e-learning platform for anyone who wants to learn more about web accessibility. The courses focus mostly on knowledge and skills that are valuable for web designers, developers, webmasters, product owners and web editors.",
+			"additional": "a11y-collective.com",
+			"url": "https://a11y-collective.com/"
 		},
 		{
 			"title": "Web Accessibility by Google",
