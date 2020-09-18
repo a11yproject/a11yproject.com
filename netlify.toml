@@ -28,6 +28,10 @@
 	to = "/posts/2013-05-11-skip-nav-links/"
 
 [[redirects]]
+	from = "/posts/posts/understanding-vestibular-disorders/"
+	to = "/posts/2013-05-15-understanding-vestibular-disorders/"
+
+[[redirects]]
 	from = "/posts/getting-started-aria/"
 	to = "/posts/2014-05-15-getting-started-aria/"
 
