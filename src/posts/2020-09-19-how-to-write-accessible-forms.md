@@ -83,15 +83,10 @@ input:focus{
 
 ## Break long forms into smaller sections
 
-<<<<<<< HEAD
-Filling long forms can be stressful. This is largely true for almost everyone but particularity  for people  with [AD/HD](https://www.cdc.gov/ncbddd/adhd/facts.html). Such forms can lead to an increase in [Bounce rate](https://en.wikipedia.org/wiki/Bounce_rate) which isin't what anyone wants. A simple solution is to break them into smaller sections. 
-This helps make long forms less daunting and easier to understand as it is provided in bits.
-=======
 Filling long forms can be stressful. This is largely true for almost everyone but particularity for people  with [AD/HD](https://www.cdc.gov/ncbddd/adhd/facts.html). Such forms can lead to an increase in [Bounce rate](https://en.wikipedia.org/wiki/Bounce_rate) which isn't what anyone wants. A simple solution is to break them into smaller sections. 
 
 This helps make long forms less daunting and easier to understand as it is provided in bits.
 
->>>>>>> 521ed917407d07184b662c61ddc59dd9681a64aa
 
 The following principles apply for multi-step forms:
 - Repeat overall instruction on every page.
@@ -102,12 +97,8 @@ The following principles apply for multi-step forms:
 ## Provide error messages if any
 
 If your site has forms, validation messaging and errors are inevitable.
-<<<<<<< HEAD
-When people encounter errors, they may need help to determine what's wrong and why. A common way forms indicate invalid fields is to change the `<input>` border color to red which is not ideal. The reason for this is because a change in color alone is not exposed to assistive technologies, so indicating errors in such ways will not inform the person of the error.
-=======
 
 When people encounter errors, clearly they need more help. Some people, like the visually impaired, may not even be aware that an error has occurred. It is common practice to change `<input>` color to red which is not ideal. This is because assistive devices will not catch the error, hence not informing the person of the error.
->>>>>>> 521ed917407d07184b662c61ddc59dd9681a64aa
 
 
 The following are ways to effectively and accessibly communicate form errors:
@@ -117,10 +108,6 @@ The following are ways to effectively and accessibly communicate form errors:
 
 
 In the code below, there is an empty [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) which report errors to assistive technologies. Additionally, each field is followed by a _hint_ which is hidden by default but shown if that field does not validate.
-<<<<<<< HEAD
-=======
-
->>>>>>> 521ed917407d07184b662c61ddc59dd9681a64aa
 
 ```html
 <form>
