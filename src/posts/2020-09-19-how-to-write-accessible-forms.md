@@ -96,7 +96,8 @@ The following principles apply for multi-step forms:
 
 ## Provide error messages if any
 
-If your site has forms, validation errors are inevitable.
+If your site has forms, validation messaging and errors are inevitable.
+
 When people encounter errors, clearly they need more help. Some people, like the visually impaired, may not even be aware that an error has occurred. It is common practice to change `<input>` color to red which is not ideal. This is because assistive devices will not catch the error, hence not informing the person of the error.
 
 
