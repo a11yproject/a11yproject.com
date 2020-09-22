@@ -107,7 +107,8 @@ The following are ways to effectively and accessibly communicate form errors:
 - Allow the person re-submit the form.
 
 
-In the code below, there is an empty [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) which report errors to assistive devices. Additionally, each field is followed by a _hint_ which is hidden by default but shown if that field does not validate.
+In the code below, there is an empty [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) which report errors to assistive technologies. Additionally, each field is followed by a _hint_ which is hidden by default but shown if that field does not validate.
+
 
 ```html
 <form>
