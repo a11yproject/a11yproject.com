@@ -85,7 +85,8 @@ input:focus{
 
 Filling long forms can be stressful. This is largely true for almost everyone but particularity for people  with [AD/HD](https://www.cdc.gov/ncbddd/adhd/facts.html). Such forms can lead to an increase in [Bounce rate](https://en.wikipedia.org/wiki/Bounce_rate) which isn't what anyone wants. A simple solution is to break them into smaller sections. 
 
-This helps make long forms less dauting and easier to understand as it is provided in bits.
+This helps make long forms less daunting and easier to understand as it is provided in bits.
+
 
 The following principles apply for multi-step forms:
 - Repeat overall instruction on every page.
