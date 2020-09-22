@@ -100,7 +100,6 @@ If your site has forms, validation messaging and errors are inevitable.
 
 When people encounter errors, clearly they need more help. Some people, like the visually impaired, may not even be aware that an error has occurred. It is common practice to change `<input>` color to red which is not ideal. This is because assistive devices will not catch the error, hence not informing the person of the error.
 
-
 The following are ways to effectively and accessibly communicate form errors:
 - Let the person know there is an error.
 - Let the person access the error, and provide instructions on how to fix it.
