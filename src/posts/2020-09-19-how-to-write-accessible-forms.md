@@ -83,8 +83,8 @@ input:focus{
 
 ## Break long forms into smaller sections
 
-Filling long forms can be stressful. This is largely true for almost everyone but perculiarly for people  with [AD/HD](https://www.cdc.gov/ncbddd/adhd/facts.html). Such forms can lead to an increase in [Bounce rate](https://en.wikipedia.org/wiki/Bounce_rate) which isin't what anyone wants. A simple solution is to break them into smaller sections. 
-This helps make long forms less dauting and easier to understand as it is provided in bits.
+Filling long forms can be stressful. This is largely true for almost everyone but particularity  for people  with [AD/HD](https://www.cdc.gov/ncbddd/adhd/facts.html). Such forms can lead to an increase in [Bounce rate](https://en.wikipedia.org/wiki/Bounce_rate) which isin't what anyone wants. A simple solution is to break them into smaller sections. 
+This helps make long forms less daunting and easier to understand as it is provided in bits.
 
 The following principles apply for multi-step forms:
 - Repeat overall instruction on every page.
@@ -94,8 +94,8 @@ The following principles apply for multi-step forms:
 
 ## Provide error messages if any
 
-If your site has forms, validation errors are inevitable.
-When people encounter errors, clearly they need more help. Some people, like the visually impaired, may not even be aware that an error has occurred. It is common practice to change `<input>` color to red which is not ideal. This is because assistive devices will not catch the error, hence not informing the person of the error.
+If your site has forms, validation messaging and errors are inevitable.
+When people encounter errors, they may need help to determine what's wrong and why. A common way forms indicate invalid fields is to change the `<input>` border color to red which is not ideal. The reason for this is because a change in color alone is not exposed to assistive technologies, so indicating errors in such ways will not inform the person of the error.
 
 
 The following are ways to effectively and accessibly communicate form errors:
@@ -104,35 +104,31 @@ The following are ways to effectively and accessibly communicate form errors:
 - Allow the person re-submit the form.
 
 
-In the code below, there is an empty [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) which report errors to assistive devices. Additionally, each field is followed by a _hint_ which is hidden by default but shown if that field does not validate.
+In the code below, there is an empty [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) which report errors to assistive technologies. Additionally, each field is followed by a _hint_ which is hidden by default but shown if that field does not validate.
 
 ```html
 <form>
-  <fieldset>
-    <legend>Create a free account</legend>
-    <label for="username">Enter a username</label>
-    <input type="text" id="username">
-    <p class="hint hidden" id="usernameHint" >Your username cannot contain punctuation</p>
+  <label for="username">Enter a username</label>
+  <input type="text" id="username">
+  <p class="hint hidden" id="usernameHint" >Your username cannot contain punctuation</p>
 
-    <label for="email">Enter your email address</label>
-    <input type="text" id="email">
-    <p class="hint hidden" id="emailHint">Please enter a valid email address</p>
+  <label for="email">Enter your email address</label>
+  <input type="text" id="email">
+  <p class="hint hidden" id="emailHint">Please enter a valid email address</p>
 
-    <label for="password">Enter a password</label>
-    <input type="password" id="password">
-    <p class="hint hidden" id="passwordHint">Your password must be at least 6 characters</p>
-  </fieldset>
+  <label for="password">Enter a password</label>
+  <input type="password" id="password">
+  <p class="hint hidden" id="passwordHint">Your password must be at least 6 characters</p>
 
   <div aria-live="assertive" id="message"></div>
  
   <button type="submit">Submit</button>
-  
 </form>
 ```
 
 ```css
 .hidden{
-  text-indent: -5000px;
+  display: none
 }
 
 .hint{
@@ -140,7 +136,7 @@ In the code below, there is an empty [live region](https://developer.mozilla.org
 }
 ```
 If validation errors occur, two things happen:
-- First, the [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) is populated, announcing to assistive devices that there are errors.
+- First, the [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) is populated upon form submission, announcing to assistive devices that there are errors.
 
 - Second, each invalid `<input>` is given an [aria-invalid="true"](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-invalid_attribute) attribute and connected to a __hint__ using  an [aria-describedby](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute) attribute.
 
