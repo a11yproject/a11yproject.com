@@ -9,6 +9,12 @@
 	],
 	"maintainer": [
 		{
+			"name": "Alicia Jarvis",
+			"website": "https://aliciajarvis.github.io/",
+			"photo": "https://www.a11yproject.com/img/logos/maintainer.png",
+			"biography": "Alicia is a creative force for change and thought-leader in Accessibility and Inclusive Design, offering a positive perspective and innovative solutions to complex problems relating to universal usability. A proven track record of matching business goals with all users needs to lead the way in client experience."
+		},
+		{
 			"name": "Carie Fisher",
 			"website": "https://cariefisher.com/",
 			"photo": "https://www.a11yproject.com/img/team/carie-fisher.jpg",
