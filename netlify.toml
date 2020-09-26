@@ -16,6 +16,10 @@
 	to = "/posts/2013-01-14-aria-landmark-roles/"
 
 [[redirects]]
+	from = "/posts/future-proof-your-accessibility/"
+	to = "/posts/2013-01-16-future-proof-your-accessibility/"
+
+[[redirects]]
 	from = "/posts/never-remove-css-outlines/"
 	to = "/posts/2013-01-25-never-remove-css-outlines/"
 
