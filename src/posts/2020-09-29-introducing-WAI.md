@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Web Accessibility Initiative
+title: Introduction to Web Accessibility Initiative.
 description: Key facts about web accessibility initiative, what it is, and why it exists.
 category: Background
 author: Hamsa Harcourt
@@ -26,7 +26,7 @@ The advent of the web brought infinite possibilities. It changed the way we lear
 
 ## Introduction
 
-The **Web Accessibility Initiative**(WAI) is one of the initiatives created by the **[World Wide Web Consortium**(W3C)](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web.
+WAI is one of the initiatives created by the [World Wide Web Consortium(W3C)](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web.
 
 According to Tim Bernes-Lee, Director of the W3C and inventor of the World Wide Web:
 
