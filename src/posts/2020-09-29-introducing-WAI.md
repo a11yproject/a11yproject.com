@@ -8,9 +8,9 @@ further_reading:
 	- title: About W3C WAI
 		url: https://www.w3.org/WAI/about/
 		source: W3C Web Accessibility Initiative
-	- title: What is Web Accessibility Initiative (WAI)?
+	- title: "What is Web Accessibility Initiative (WAI)?"
 		url: https://www.washington.edu/doit/what-web-accessibility-initiative-wai
-		source: DO-IT - Disabilities, Opportunities, Internetworking, and Technology
+		source: "DO-IT - Disabilities, Opportunities, Internetworking, and Technology"
 	- title: Web Accessibility Initiative
 		url: https://en.wikipedia.org/wiki/Web_Accessibility_Initiative
 		source: Wikipedia
@@ -24,7 +24,6 @@ tags:
 
 The advent of the web brought infinite possibilities. It changed the way we learn, work and socialize because we were no longer limited by borders; real or imagined. However there was a problem: Lack of standard guidelines and proper structure. Due to the lack of standard guidelines and the divergence of individual initiatives that provided no real solution to people, the **Web Accessibility Initiative**(WAI) was created.
 
-## Introduction
 
 The **Web Accessibility Initiative**(WAI) is one of the initiatives created by the **[World Wide Web Consortium**(W3C)](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web.
 
@@ -45,7 +44,7 @@ WAI pursues accessibility through the following ways:
 
 ## Organization
 
-WAI consists of several [working groups](https://en.wikipedia.org/wiki/Working_group) and [special interest groups](https://en.wikipedia.org/wiki/Special_Interest_Group).  Each working together for a common goal: improve accessibility on the web. The following are the working and special interest groups :
+WAI consists of several [working groups](https://en.wikipedia.org/wiki/Working_group) and [special interest groups](https://en.wikipedia.org/wiki/Special_Interest_Group). Each working together for a common goal: improve accessibility on the web. The following are the working and special interest groups :
 
 - [Accessibility Guideline Working Group (formerly the Web Content Accessibility Guidelines Working Group)](https://www.w3.org/WAI/GL/).
 - [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/).
