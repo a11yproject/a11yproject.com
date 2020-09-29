@@ -24,6 +24,7 @@ tags:
 
 The advent of the web brought infinite possibilities. It changed the way we learn, work and socialize because we were no longer limited by borders; real or imagined. However there was a problem: Lack of standard guidelines and proper structure. Due to the lack of standard guidelines and the divergence of individual initiatives that provided no real solution to people, the **Web Accessibility Initiative**(WAI) was created.
 
+## Introduction
 
 The **Web Accessibility Initiative**(WAI) is one of the initiatives created by the **[World Wide Web Consortium**(W3C)](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web.
 
