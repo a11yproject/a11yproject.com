@@ -5,19 +5,19 @@ description: Key facts about web accessibility initiative, what it is, and why i
 category: Background
 author: Hamsa Harcourt
 further_reading:
-	- title: About W3C WAI
-		url: https://www.w3.org/WAI/about/
-		source: W3C Web Accessibility Initiative
-	- title: "What is Web Accessibility Initiative (WAI)?"
-		url: https://www.washington.edu/doit/what-web-accessibility-initiative-wai
-		source: "DO-IT - Disabilities, Opportunities, Internetworking, and Technology"
-	- title: Web Accessibility Initiative
-		url: https://en.wikipedia.org/wiki/Web_Accessibility_Initiative
-		source: Wikipedia
+  - title: About W3C WAI
+  url: https://www.w3.org/WAI/about/
+  source: W3C Web Accessibility Initiative
+  - title: "What is Web Accessibility Initiative (WAI)?"
+  url: https://www.washington.edu/doit/what-web-accessibility-initiative-wai
+  source: "DO-IT - Disabilities, Opportunities, Internetworking, and Technology"
+  - title: Web Accessibility Initiative
+  url: https://en.wikipedia.org/wiki/Web_Accessibility_Initiative
+  source: Wikipedia
 date: 2020-09-29
 eleventyNavigation:
-	key: {{ category }}
-	title: {{ title }}
+  key: {{ category }}
+  title: {{ title }}
 tags:
 	- background
 ---
