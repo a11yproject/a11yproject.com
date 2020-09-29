@@ -41,7 +41,7 @@ WAI pursues accessibility through the following ways:
 - Developing tools to evaluate and facilitate accessibility.
 - Supporting education and outreach on web accessibility.
 - Co-ordinating with research and development that may impact the future of accessibility on the web.
-- Promoting harmonized international uptake of web accessibility of web accessibility standards.
+- Promoting harmonized international uptake of web accessibility standards.
 
 ## Organization
 
