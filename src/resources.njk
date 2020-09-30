@@ -100,6 +100,20 @@ templateClass: template-resources
 		{% endfor %}
 	</div>
 
+	{% set resourceType = "Browser extensions" %}
+	<h3 id="browser-extensions" class="c-heading-medium u-spacing-top-long">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Specialized tools that augment your browser to augment and enhance your experience.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.browserExtensions %}
+		{% for resource in resource %}
+			{% include "resource.njk" %}
+		{% endfor %}
+	</div>
+
 	{% set resourceType = "Colors" %}
 	<h3 id="colors" class="c-heading-medium">
 		{{ resourceType }}
