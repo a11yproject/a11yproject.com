@@ -42,7 +42,7 @@ With the world becoming data reliant, it's no surprise how data is the new gold.
 Here are some  practical tips on how to write accessible forms.
 
 
-## Always label your forms
+## Always label your form inputs
 
 Labels are a great way to get started with writing accessible forms. They are vital for helping people who use [screen readers](https://en.wikipedia.org/wiki/Screen_reader) and other kinds of assistive technology determine what label text go with what input field.
 
@@ -55,7 +55,7 @@ To associate a `<label>` with an `<input>`, set the identifier(ID) in the `<inpu
 ```
 
 
-**Note**: It is adviceful not to nest `<input>` directly inside `<label>` because some assistive devices (such as [Dragon NaturallySpeaking](https://en.wikipedia.org/wiki/Dragon_NaturallySpeaking)) do not support it.
+**Note**: Do not to nest `<input>` inside of `<label>` because some assistive technology (such as [Dragon NaturallySpeaking](https://en.wikipedia.org/wiki/Dragon_NaturallySpeaking)) do not support it.
 
 
 ## Highlight input element on focus
@@ -85,7 +85,7 @@ The following principles apply for multi-step forms:
 
 ## Provide error messages
 
-When people encounter errors, they may need help to determine what's wrong and why. A common way forms indicate invalid fields is to change the `<input>` border color to red which is not ideal. The reason for this is because a change in color alone is not exposed to assistive technologies, so indicating errors in such ways will not inform the person of the error.
+When people encounter errors, they may need help to determine what's wrong and why. A common way forms indicate invalid fields is to change the `<input>` border color to red which is not ideal. The reason for this is because a change in color alone is not exposed to assistive technologies, so indicating errors in such ways will not inform the person of the error. Also, relying on color alone may also not work for someone who is red/green colorblind.
 
 The following are ways to effectively and accessibly communicate form errors:
 
@@ -127,17 +127,17 @@ In the code below, there is an empty [live region](https://developer.mozilla.org
 If validation errors occur, two things happen:
 
 1. The [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) is populated upon form submission, announcing to assistive devices that there are errors.
-
-2. Each invalid `<input>` is given an [aria-invalid="true"](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-invalid_attribute) attribute and connected to a __hint__ using  an [aria-describedby](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute) attribute.
+2. Each invalid `<input>` is given an [`aria-invalid="true"`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-invalid_attribute) attribute and connected to a __hint__ using  an [`aria-describedby`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute) attribute.
 
 Here's the markup for the email field in its invalid state:
+
 ```html
 <label for="email">Your email</label>
 <input type="text" id="email" aria-invalid="true" aria-describedby="emailHint">
 <p class="hint" id="emailHint">Invalid email address.</p>
 ```
 
-## Avoid horizontal layout forms unless neccessary
+## Avoid horizontal form layout unless necessary
 
 Layout attributes a great deal  to the usability of a site. With CSS, changing a form's visual layout is possible. However, changing the visual layout create problems for people who rely on the structural layout of the page. Because of this, your forms should have a meaningful and logical sequence. If possible, avoid making your form inputs next to each other. This is because people have to spend a little more time correlating the labels with their elements, resulting in slower form completion.
 
