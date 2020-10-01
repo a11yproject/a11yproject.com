@@ -22,7 +22,7 @@ tags:
   - background
 ---
 
-The advent of the web brought infinite possibilities. It changed the way we learn, work and socialize because we were no longer limited by borders; real or imagined. However there was a problem: Lack of standard guidelines and proper structure. Due to the lack of standard guidelines and the divergence of individual initiatives that provided no real solution to people, the **Web Accessibility Initiative**(WAI) was created.
+The advent of the web brought infinite possibilities. It changed the way we learn, work and socialize because we were no longer limited by borders; real or imagined. However there was a problem: Lack of standard guidelines and proper structure. Due to the divergence of individual initiatives the [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/) was created.
 
 ## Introduction
 
@@ -36,12 +36,12 @@ According to Tim Bernes-Lee, Director of the W3C and inventor of the World Wide 
 
 WAI pursues accessibility through the following ways:
 
-- Ensuring that the web technology support accessibility.
-- Developing guidelines for web content and application, browsers ad authoring tools.
+- Ensuring that web technologies support accessibility.
+- Developing guidelines for web content, applications, browsers, and authoring tools.
 - Developing tools to evaluate and facilitate accessibility.
-- Supporting education and outreach on web accessibility.
-- Co-ordinating with research and development that may impact the future of accessibility on the web.
-- Promoting harmonized international uptake of web accessibility standards.
+- Supporting education and outreach for web accessibility.
+- Coordinating with research and development that may impact the future of accessibility on the web.
+- Promoting harmonized international uptake of web accessibility of web accessibility standards.
 
 ## Organization
 

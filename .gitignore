@@ -1,6 +1,11 @@
 # Project-specific files and folders
 dist/
 
+# removing the following files from the PR
+_data/authors.json
+package-lock.json
+
+
 
 # Generic files to ignore
 *~
