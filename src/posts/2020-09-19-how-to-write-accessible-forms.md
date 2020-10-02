@@ -147,7 +147,7 @@ Accessible forms are important because they help both individuals and businesses
 
  The following are tips on how to create accessible forms:
 
-- Always label your forms.
+- Always label your inputs.
 - Highlight input element on focus.
 - Break long forms into smaller sections.
 - Provide error messages.
