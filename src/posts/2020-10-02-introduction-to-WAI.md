@@ -5,21 +5,21 @@ description: Key facts about web accessibility initiative, what it is, and why i
 category: Backgrounds
 author: Hamsa Harcourt
 further_reading:
-	- title: About W3C WAI
-		url: https://www.w3.org/WAI/about/
-		source: W3C Web Accessibility Initiative
-	- title: "What is Web Accessibility Initiative (WAI)?"
-		url: https://www.washington.edu/doit/what-web-accessibility-initiative-wai
-		source: "DO-IT - Disabilities, Opportunities, Internetworking, and Technology"
-	- title: Web Accessibility Initiative
-		url: https://en.wikipedia.org/wiki/Web_Accessibility_Initiative
-		source: Wikipedia
-date: 2020-09-29
+  - title: About W3C WAI
+    url: https://www.w3.org/WAI/about/
+	source: W3C Web Accessibility Initiative
+  - title: "What is Web Accessibility Initiative (WAI)?"
+	url: https://www.washington.edu/doit/what-web-accessibility-initiative-wai
+	source: "DO-IT - Disabilities, Opportunities, Internetworking, and Technology"
+  - title: Web Accessibility Initiative
+	url: https://en.wikipedia.org/wiki/Web_Accessibility_Initiative
+	source: Wikipedia
+date: 2020-10-02
 eleventyNavigation:
-	key: {{ category }}
-	title: {{ title }}
+  key: {{ category }}
+  title: {{ title }}
 tags:
-	- background
+  - background
 ---
 
 The advent of the web brought infinite possibilities. It changed the way we learn, work and socialize because we were no longer limited by borders; real or imagined. However there was a problem: Lack of standard guidelines and proper structure. Due to the divergence of individual initiatives the [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/) was created.
