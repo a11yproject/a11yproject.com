@@ -8,7 +8,7 @@ date: 2020-09-16
 further_reading:
   - title: Error Messages
     url: https://www.w3.org/WAI/EO/Drafts/tutorials/forms/error-messages/
-    source:  Web accessibility tutorials 
+    source:  Web accessibility tutorials
     year: 2014
   - title: Provide helpful error messages
     url: https://accessibility.huit.harvard.edu/provide-helpful-error-messages
@@ -54,13 +54,12 @@ To associate a `<label>` with an `<input>`, set the identifier(ID) in the `<inpu
 </form>
 ```
 
-
-**Note**: Do not to nest `<input>` inside of `<label>` because some assistive technology (such as [Dragon NaturallySpeaking](https://en.wikipedia.org/wiki/Dragon_NaturallySpeaking)) do not support it.
+**Note:** Do not to nest `<input>` inside of `<label>` because some assistive technology (such as [Dragon NaturallySpeaking](https://en.wikipedia.org/wiki/Dragon_NaturallySpeaking)) do not support it.
 
 
 ## Highlight input element on focus
 
-Form insertion [carets](https://developer.mozilla.org/en-US/docs/Glossary/caret#:~:text=A%20caret%20sometimes%20called%20a,is%20called%20the%20insertion%20point.) can be difficult to track. A simple solution is to highlight `<input>` on [focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus). This way, people do not have to guess where they are on the form. 
+Form insertion [carets](https://developer.mozilla.org/en-US/docs/Glossary/caret#:~:text=A%20caret%20sometimes%20called%20a,is%20called%20the%20insertion%20point.) can be difficult to track. A simple solution is to highlight `<input>` on [focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus). This way, people do not have to guess where they are on the form.
 
 ![A form with an input field highlighted in blue.](../img/posts/2020-09-19-how-to-write-accessible-forms/form-field-on-focus.png)
 
@@ -81,7 +80,7 @@ The following principles apply for multi-step forms:
 - The forms should be split into logical groups.
 - The forms should inform the person about the progress thay are making.
 
-**Note**: There are no hard rules that defines a long form. However, you should consider if the form can be broken down into different logical sections.
+**Note:** There are no hard rules that defines a long form. However, you should consider if the form can be broken down into different logical sections.
 
 ## Provide error messages
 
@@ -110,7 +109,7 @@ In the code below, there is an empty [live region](https://developer.mozilla.org
   <p class="hint hidden" id="passwordHint">Your password must be at least 6 characters</p>
 
   <div aria-live="assertive" id="message"></div>
- 
+
   <button type="submit">Submit</button>
 </form>
 ```
@@ -151,4 +150,4 @@ Accessible forms are important because they help both individuals and businesses
 - Highlight input element on focus.
 - Break long forms into smaller sections.
 - Provide error messages.
-- Avoid horizontal layout forms unless neccessary.
+- Avoid horizontal layout forms unless necessary.
