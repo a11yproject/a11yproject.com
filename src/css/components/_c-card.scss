@@ -96,6 +96,10 @@ $_card-outline: $border-thinner solid;
 	max-width: $global-type-measure;
 
 	// States
+	&:hover {
+		text-decoration: none;
+	}
+
 	&:focus {
 		outline: $border-thin solid transparent;
 	}
