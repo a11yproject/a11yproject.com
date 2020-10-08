@@ -1,0 +1,5 @@
+<p class="c-featured-resource">
+	{% for source in featured_resource %}
+		<a class="c-featured-resource__link" href="{{ source.url }}">{{ source.title }}</a>
+	{% endfor %}
+</p>

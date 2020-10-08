@@ -1,0 +1,14 @@
+.c-featured-resource {
+	background-color: $color-white;
+	border-left: $border-thickest solid $color-blue;
+	line-height: $line-height-tight;
+	padding: 1.25rem 1.5rem;
+}
+
+
+.c-featured-resource__link {
+	// States
+	&:hover {
+		text-decoration: none;
+	}
+}
