@@ -85,7 +85,8 @@
 		}
 
 		code {
- 			line-height: $line-height-double;
+			 line-height: $line-height-double;
+			 white-space: pre;
 		}
 	}
 
