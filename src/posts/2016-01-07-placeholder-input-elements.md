@@ -3,7 +3,7 @@ layout: post
 title: Use <code>placeholder</code> attributes
 description: How-to use placeholders on input elements.
 category: How-to
-author: Rachel Vasquez
+author: Rachel R. Vasquez
 date: 2016-01-07
 updated_by: Scott O'Hara
 last_updated: 2018-07-22
@@ -69,11 +69,11 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
 
 ```html
 <form>
-	<label for="your-name">
-		Your Name:
-	</label>
-	<input type="text" id="your-name" name="your-name" placeholder="What's your name?">
-	<input type="submit" value="Submit Name">
+  <label for="your-name">
+    Your Name:
+  </label>
+  <input type="text" id="your-name" name="your-name" placeholder="What's your name?">
+  <input type="submit" value="Submit Name">
 </form>
 ```
 
@@ -89,4 +89,6 @@ Once we have sufficient color contrast in our placeholders, placeholders can be 
 </form>
 ```
 
-Note that in the second example above, omitting the `for` attribute on the label is still valid, but still best practice to include. By keeping the `for` attribute in place, we're combining both explicit and implicit techniques. For more about explicit and implicit labeling, check out ["Labeled with Love"](https://www.aaron-gustafson.com/notebook/labeled-with-love/). By adding the `for` attribute to a label with the same value as the ID for the input element it corresponds to, the label becomes *explicitly* associated with that input element. Explicit labeling is great for screen reader users and when clicking/focusing that label, it will automatically focus the associated input element.
+Note that in the second example above, omitting the `for` attribute on the label is still valid, but still best practice to include. By keeping the `for` attribute in place, we're combining both explicit and implicit techniques.
+
+For more about explicit and implicit labeling, check out ["Labeled with Love"](https://www.aaron-gustafson.com/notebook/labeled-with-love/). By adding the `for` attribute to a label with the same value as the ID for the input element it corresponds to, the label becomes *explicitly* associated with that input element. Explicit labeling is great for screen reader users and when clicking/focusing that label, it will automatically focus the associated input element.

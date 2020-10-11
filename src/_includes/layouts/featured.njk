@@ -12,6 +12,10 @@ templateClass: template-generic
 		{{ title }}
 	</h1>
 
+	{% if featured_resource %}
+		{% include "featured-resource.njk" %}
+	{% endif %}
+
 	{{ content | safe }}
 
 	{% if further_reading %}

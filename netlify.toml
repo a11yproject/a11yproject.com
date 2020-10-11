@@ -56,6 +56,10 @@
 	to = "/posts/2017-12-29-macos-browser-keyboard-navigation/"
 
 [[redirects]]
+	from = "/posts/macos-browser-keyboard-navigation/"
+	to = "/posts/2017-12-29-macos-browser-keyboard-navigation/"
+
+[[redirects]]
 	from = "/posts/operating-system-and-browser-accessibility-display-modes/"
 	to = "/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/"
 

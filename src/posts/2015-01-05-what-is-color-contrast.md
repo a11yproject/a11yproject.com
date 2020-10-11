@@ -3,7 +3,7 @@ layout: post
 title: What is color contrast?
 description: What is color contrast and why do we need it for web accessibility?
 category: Background
-author: Rachel Vasquez
+author: Rachel R. Vasquez
 date: 2015-01-05
 updated_by: Emily Lane
 last_updated: 2018-11-17
@@ -42,7 +42,7 @@ Oftentimes companies implement complementary colors to provide the most contrast
 
 ## What does this mean for web accessibility?
 
-On the web, the use of complementary colors is about finding shades that provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](/posts/2013-01-22-understanding-visual-impairment/). 
+On the web, the use of complementary colors is about finding shades that provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](/posts/2013-01-22-understanding-visual-impairment/).
 
 This doesn't mean colors should only be limited to contrasting colors, but instead that care should be taken to ensure a level of contrast in body text, logos, and essential diagrams or other pieces of content. There are a number of tools to help designers and developers check color contrast, including these listed below:
 
@@ -51,7 +51,7 @@ This doesn't mean colors should only be limited to contrasting colors, but inste
 - [Colour Contrast Analyzer by Paciello Group](https://developer.paciellogroup.com/resources/contrastanalyser/)
 - [Color Contrast Checker by WebAIM](https://webaim.org/resources/contrastchecker/)
 
-These tools test your colors against a contrast ratio. 
+These tools test your colors against a contrast ratio.
 
 A contrast ratio of 4.5:1 is the minimum Web Content Accessibility Guideline (WCAG) 2 standard for regular sized text. For more information on how these ratios are calculated, there is a link to an article by W3C called "The Contrast Minimum" included in the Further Reading section following the article.
 

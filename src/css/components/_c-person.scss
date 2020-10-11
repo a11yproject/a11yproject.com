@@ -135,6 +135,11 @@ $_person-photo: (
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
+
+	// States
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 

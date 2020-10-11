@@ -9,7 +9,12 @@
 	background-color: $color-white;
 	border-top: $border-thicker solid $color-pink-tint;
 	padding: 1.5rem;
-	margin: 2rem 0;
+	margin: 1rem 0;
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		margin: 3rem 0;
+	}
 
 	@include mappy-bp(palm-large) {
 		padding: 2rem 7rem 2.75rem;
@@ -38,25 +43,33 @@
 
 
 .c-a11y-summary__accessibility {
-	background: url("#{$path-to-img}/heroes/11-characters.svg") no-repeat center bottom;
-	background-size: 75%;
 	display: block;
 	font-family: $font-family-secondary;
-	font-size: $font-size-heading-tiny;
+	font-size: $font-size-heading-medium;
 	letter-spacing: $font-tracking-slight;
-	padding-bottom: 1rem;
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
 		letter-spacing: $font-tracking-loose;
 	}
 
-	@include mappy-bp(palm-medium) {
-		font-size: $font-size-heading-medium;
-	}
-
 	@include mappy-bp(palm-large) {
 		font-size: $font-size-heading-large;
+	}
+}
+
+
+.c-a11y-summary__11-characters {
+	font-size: $font-size-heading-tiny;
+	width: 11rem;
+
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		width: 15.25rem;
+	}
+
+	@include mappy-bp(palm-medium) {
+		width: 17rem;
 	}
 }
 

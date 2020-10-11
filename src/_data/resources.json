@@ -130,6 +130,12 @@
 			"url": "https://developer.paciellogroup.com/blog/2012/06/nu-markup-validation-service-bookmarklets/"
 		},
 		{
+			"title": "text spacing bookmarklet",
+			"description": "Quick and dirty testing of WCAG 2.1 Success Criterion 1.4.12 Text Spacing.",
+			"additional": "Steve Faulkner",
+			"url": "https://cdpn.io/stevef/debug/YLMqbo"
+		},
+		{
 			"title": "tota11y",
 			"description": "An accessibility visualization toolkit.",
 			"additional": "Khan Academy",
@@ -1515,6 +1521,12 @@
 	],
 	"additionalResources": [
 		{
+			"title": "a11y_styled_form_controls",
+			"description": "A repository of styled and “styled” form control elements and markup patterns, and how they are announced by screen readers.",
+			"additional": "Scott O'Hara",
+			"url": "https://scottaohara.github.io/a11y_styled_form_controls/"
+		},
+		{
 			"title": "Aaron Cannon’s Web Accessibility Checklist",
 			"description": "PDF accessibility checklist.",
 			"additional": "Cameron Moll",
@@ -1525,6 +1537,12 @@
 			"description": "The WCAG contain some very useful information, and so I decided to condense the very extensive guidelines and highlight some practical examples of what we can do to implement them and make our websites more accessible.",
 			"additional": "Ire Aderinokun",
 			"url": "https://bitsofco.de/the-accessibility-cheatsheet/"
+		},
+		{
+			"title": "Accessibility Interview Questions",
+			"description": "These questions try to act as conversation starters, to gain insight into how someone solves problems, and interprets accessible, inclusive user experiences.",
+			"additional": "Scott O'Hara",
+			"url": "https://scottaohara.github.io/accessibility_interview_questions/"
 		},
 		{
 			"title": "Accessibility for teams",
