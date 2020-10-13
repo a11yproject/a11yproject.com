@@ -569,6 +569,12 @@
 			"url": "https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94"
 		},
 		{
+			"title": "The Ultimate Guide to Web Accessibility",
+			"description": "Learn about all things web accessibility. Understand what web accessibility is, why it's important, and how to apply web accessibility within your business.",
+			"additional": "Internetrix",
+			"url": "https://www.internetrix.com.au/web-accessibility/"
+		},
+		{
 			"title": "UX Myths",
 			"description": "UX Myths collects the most frequent user experience misconceptions and explains why they don't hold true.",
 			"additional": "Zoltán Gócza and Zoltán Kollin",
@@ -1243,6 +1249,11 @@
 			"title": "Fable Tech Labs",
 			"description": "Web accessibility testing services to reach your compliance goals faster. Connect with real users online and on-demand, through crowdtesting!",
 			"url": "https://www.makeitfable.com/"
+		},
+		{
+			"title": "Internetrix",
+			"description": "Internetrix provides Web Accessibility audits, reports, consulting, training, and web design. We are trusted professional accessibility provider for 30+ private organisations and Australian Government entities.",
+			"url": "https://www.internetrix.com.au/web-accessibility-audits/"
 		},
 		{
 			"title": "Loop11",
