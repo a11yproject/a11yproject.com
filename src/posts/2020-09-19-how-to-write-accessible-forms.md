@@ -12,7 +12,7 @@ further_reading:
     year: 2014
   - title: Provide helpful error messages
     url: https://accessibility.huit.harvard.edu/provide-helpful-error-messages
-    source:  Havard university
+    source:  Harvard university
     year: 2014
   - title: HTML label element reference
     url: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
