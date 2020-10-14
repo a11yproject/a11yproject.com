@@ -81,6 +81,17 @@ $_card-outline: $border-thinner solid;
 			background-color: $color-green-tint;
 			border: none;
 		}
+
+		.template-resources &:focus-within {
+
+			.c-card__title,
+			.c-card__meta,
+			.c-card__author,
+			.c-card__description, {
+				color: $color-black;
+			}
+		}
+
 	}
 }
 
