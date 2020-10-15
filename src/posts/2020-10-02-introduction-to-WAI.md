@@ -55,5 +55,5 @@ WAI consists of several [working groups](https://en.wikipedia.org/wiki/Working_g
 
 ## Summary
 
-WAI was created by the [W3C](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web. They develop accessibility standards and offer implementation guidance. WAI is made up of several working groups and special interest groups working together for a common goal: improving accessibility.
+WAI was created by the [W3C](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web. They develop accessibility standards and offer implementation guidance. WAI is made up of several working groups and special interest groups working together for a common goal: improving accessibility on the web for people with disabilities.
 
