@@ -22,11 +22,11 @@ tags:
   - background
 ---
 
-The advent of the web brought infinite possibilities. It changed the way we learn, work and socialize because we were no longer limited by borders; real or imagined. However there was a problem: Lack of standard guidelines and proper structure. Due to the divergence of individual initiatives the [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/) was created.
+The advent of the web brought infinite possibilities. It changed the way we learn, work and socialize because we were no longer limited by real or imagined borders. However there was a problem: Lack of standard guidelines and proper structure. Due to the divergence of individual initiatives the [Web Accessibility Initiative (<abbr>WAI</abbr>)](https://www.w3.org/WAI/) was created.
 
 ## Introduction
 
-WAI is one of the initiatives created by the [World Wide Web Consortium(W3C)](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web.
+WAI is one of the initiatives created by the [World Wide Web Consortium (<abbr>W3C</abbr>)](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web.
 
 According to Tim Bernes-Lee, Director of the W3C and inventor of the World Wide Web:
 
@@ -45,7 +45,7 @@ WAI pursues accessibility through the following ways:
 
 ## Organization
 
-WAI consists of several [working groups](https://en.wikipedia.org/wiki/Working_group) and [special interest groups](https://en.wikipedia.org/wiki/Special_Interest_Group). Each working together for a common goal: improve accessibility on the web. The following are the working and special interest groups :
+WAI consists of several [working groups](https://en.wikipedia.org/wiki/Working_group) and [special interest groups](https://en.wikipedia.org/wiki/Special_Interest_Group). Each group works on a specific subject, but they are all in the pursuit of a common goal: improving accessibility on the web. The following are the working and special interest groups :
 
 - [Accessibility Guideline Working Group (formerly the Web Content Accessibility Guidelines Working Group)](https://www.w3.org/WAI/GL/).
 - [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/).
@@ -55,5 +55,5 @@ WAI consists of several [working groups](https://en.wikipedia.org/wiki/Working_g
 
 ## Summary
 
-WAI was created by the [W3C](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web. They develop accessibility standards and offer implementation guidance. WAI is made up of several working groups and special interest groups working together for a common goal: improve accessibility.
+WAI was created by the [W3C](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web. They develop accessibility standards and offer implementation guidance. WAI is made up of several working groups and special interest groups working together for a common goal: improving accessibility.
 
