@@ -145,6 +145,12 @@
 			"biography": "Howdy! I'm Duncan, a front-end developer focused on design systems."
 		},
 		{
+			"name": "Marcy Sutton",
+			"website": "https://marcysutton.com",
+			"photo": "https://pbs.twimg.com/profile_images/1277450365005295617/x8IsW7zX_400x400.jpg",
+			"biography": "Independent web developer and accessibility specialist. Camera-toting hiker, biker, pie baker."
+		},
+		{
 			"name": "…and maybe you!",
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
