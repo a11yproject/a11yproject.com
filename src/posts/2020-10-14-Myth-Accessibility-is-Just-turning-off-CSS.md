@@ -100,6 +100,6 @@ Lastly…<br>
  You no longer need to verify that pages are readable and accessible by turning off CSS,however it can be useful as a technique for ensuring correct data reading order.<br>
  
  ## Further Reading<br>
-* CSS and JavaScript best practices(https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)
-* How To Make Your Website Accessible to People with Disabilities (https://www.whoishostingthis.com/resources/website-accessibility/)
-* Introduction to Web Accessibility https://www.w3.org/WAI/fundamentals/accessibility-intro/)
+* CSS and JavaScript best practices https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript.diff
+* How To Make Your Website Accessible to People with Disabilities https://www.whoishostingthis.com/resources/website-accessibility/.diff
+* Introduction to Web Accessibility https://www.w3.org/WAI/fundamentals/accessibility-intro/.diff
