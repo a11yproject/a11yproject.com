@@ -397,6 +397,12 @@
 			"url": "https://toolness.github.io/accessible-color-matrix/"
 		},
 		{
+			"title": "Accessible Colors",
+			"description": "Check the contrast between different color pairings and also check for color perceptions (color blindness) against WCAG standards.",
+			"additional": "WHR",
+			"url": "https://www.websitehostingrating.com/color-contrast-perception-checker/"
+		},
+		{
 			"title": "Colorable",
 			"description": "Color palette combination contrast tester",
 			"additional": "Brent Jackson",
