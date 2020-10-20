@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Introduction to Web Accessibility Initiative.
+title: Introduction to the Web Accessibility Initiative.
 description: Key facts about web accessibility initiative, what it is, and why it exists.
-category: Backgrounds
+category: Background
 author: Hamsa Harcourt
 further_reading:
-  - url: https://www.w3.org/WAI/about/ 
+  - url: https://www.w3.org/WAI/about/
     title:  About W3C WAI
     source: W3C Web Accessibility Initiative
   - url:  https://www.washington.edu/doit/what-web-accessibility-initiative-wai
@@ -34,7 +34,7 @@ According to Tim Bernes-Lee, Director of the W3C and inventor of the World Wide 
 	<p>Worldwide, there are more than 750 million people with disabilities. As we move towards a highly connected world, it is critical that the web be usable by anyone, regardless of individual capabilities and disabilities.</p>
 </blockquote>
 
-WAI pursues accessibility through the following ways:
+<abbr>WAI</abbr> pursues accessibility through the following ways:
 
 - Ensuring that web technologies support accessibility.
 - Developing guidelines for web content, applications, browsers, and authoring tools.
@@ -55,5 +55,5 @@ WAI consists of several [working groups](https://en.wikipedia.org/wiki/Working_g
 
 ## Summary
 
-WAI was created by the [W3C](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web. They develop accessibility standards and offer implementation guidance. WAI is made up of several working groups and special interest groups working together for a common goal: improving accessibility for people with disabilities.
+WAI was created by the [W3C](https://www.w3.org/Consortium/) as an effort to improve accessibility on the web. They develop accessibility standards and offer implementation guidance. WAI is made up of several working groups and special interest groups working together for a common goal: improving accessibility for disabled people.
 
