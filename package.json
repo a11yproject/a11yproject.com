@@ -28,6 +28,7 @@
 		"eleventy-debug": "DEBUG=* npx eleventy",
 		"gulp-build": "gulp",
 		"gulp-watch": "gulp watch",
+		"icons": "svg-sprite -s --symbol-dest=dist/img --symbol-sprite=icons.svg --svg-xmldecl=false --svg-doctype=false \"src/img/icons/*.svg\"",
 		"style": "npm run style-0-lint && npm run style-1-sass && npm run style-2-autoprefix && npm run style-3-purge && npm run style-4-minify && npm run style-5-cleanup",
 		"style-0-lint": "stylelint \"src/css/**/*.scss\" --syntax scss",
 		"style-1-sass": "node-sass src/css/screen.scss dist/css/temp/screen.css",
@@ -92,6 +93,7 @@
 		"moment": "^2.24.0",
 		"node-sass": "^4.14.1",
 		"postcss-cli": "^7.1.1",
-		"stylelint": "^9.9.0"
+		"stylelint": "^9.9.0",
+		"svg-sprite": "^1.5.0"
 	}
 }
