@@ -25,6 +25,12 @@
 			"biography": "I'm Dave Rupert, lead developer at Paravel. I co-host ShopTalk, an award-winning sound effects podcast that also covers web development. I'm a dad to two wonderful kids. I live in Austin, TX; the best damn city, in the best damn state, in the best damn country, in the whole damn world."
 		},
 		{
+			"name": "Duncan Jimbo",
+			"website": "https://simplydano.com",
+			"photo": "https://avatars1.githubusercontent.com/u/1507672?s=460&u=bc8cff324d5739f946ad5dd15b5857e653de7ab8&v=4",
+			"biography": "Howdy! I'm Duncan, a front-end developer focused on design systems."
+		},
+		{
 			"name": "Emily Lane",
 			"website": "https://emilymlane.io/",
 			"photo": "https://avatars0.githubusercontent.com/u/9734623?s=460&u=912c5074b761e62141f1c7173d8f73de1e3ea8e2&v=4",
@@ -71,6 +77,18 @@
 			"website": "https://hamsaharcourt.netlify.com",
 			"photo": "https://res.cloudinary.com/dgn6edv1k/image/upload/v1599473117/swt0ieahohbrohlmwshd.jpg",
 			"biography": "Hi, Hamsa Harcourt here, currently juggling the reins of Electrical & Electronics Engineering, Technical Writing & Software Development."
+		},
+		{
+			"name": "Luis Garcia",
+			"website": "https://www.garcialo.com/",
+			"photo": "https://pbs.twimg.com/profile_images/1181989762275528705/4ou0JnLG_400x400.jpg",
+			"biography": "Father, accessibility evangelist, video gamer, proof checker, and solver of problems."
+		},
+		{
+			"name": "Marcy Sutton",
+			"website": "https://marcysutton.com",
+			"photo": "https://pbs.twimg.com/profile_images/1277450365005295617/x8IsW7zX_400x400.jpg",
+			"biography": "Independent web developer and accessibility specialist. Camera-toting hiker, biker, pie baker."
 		},
 		{
 			"name": "Mat Marquis",
@@ -131,24 +149,6 @@
 			"website": "https://github.com/thomassjogren",
 			"photo": "https://avatars3.githubusercontent.com/u/3251254?s=460&v=4",
 			"biography": "UX focused front-end developer with passion for behaviour-driven design."
-		},
-		{
-			"name": "Luis Garcia",
-			"website": "https://www.garcialo.com/",
-			"photo": "https://pbs.twimg.com/profile_images/1181989762275528705/4ou0JnLG_400x400.jpg",
-			"biography": "Father, accessibility evangelist, video gamer, proof checker, and solver of problems."
-		},
-		{
-			"name": "Duncan Jimbo",
-			"website": "https://simplydano.com",
-			"photo": "https://avatars1.githubusercontent.com/u/1507672?s=460&u=bc8cff324d5739f946ad5dd15b5857e653de7ab8&v=4",
-			"biography": "Howdy! I'm Duncan, a front-end developer focused on design systems."
-		},
-		{
-			"name": "Marcy Sutton",
-			"website": "https://marcysutton.com",
-			"photo": "https://pbs.twimg.com/profile_images/1277450365005295617/x8IsW7zX_400x400.jpg",
-			"biography": "Independent web developer and accessibility specialist. Camera-toting hiker, biker, pie baker."
 		},
 		{
 			"name": "…and maybe you!",

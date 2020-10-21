@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to the Web Accessibility Initiative.
+title: Introduction to the Web Accessibility Initiative
 description: Key facts about web accessibility initiative, what it is, and why it exists.
 category: Background
 author: Hamsa Harcourt
