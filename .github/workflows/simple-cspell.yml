@@ -1,5 +1,7 @@
 name: simple-cspell
 
+on: pull_request
+
 uses: zwaldowski/cspell-action@1.0.0
 
 with:
