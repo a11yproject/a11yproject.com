@@ -1,0 +1,7 @@
+name: simple-cspell
+
+uses: zwaldowski/cspell-action@1.0.0
+
+with:
+	paths: "**/*.{md,njk}"
+	config: .github/workflows/cspell.json
