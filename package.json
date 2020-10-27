@@ -21,6 +21,7 @@
 	"scripts": {
 		"start": "npx eleventy --watch | gulp watch",
 		"a11yproject": "npm start",
+		"build": "npm run images && npm run style && npm run javascript && npm run eleventy-build",
 		"publish": "npx gulp && npx eleventy",
 		"clean": "rm -rf ./dist",
 		"eleventy-build": "npx eleventy",
