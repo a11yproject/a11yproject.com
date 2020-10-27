@@ -19,27 +19,28 @@
 		"Wayne Elgin (https://twitter.com/esjay)"
 	],
 	"scripts": {
-		"start": "npx eleventy --serve --watch",
+		"start": "run-p eleventy-serve watch:*",
 		"a11yproject": "npm start",
-		"build": "npm run images && npm run styles && npm run scripts && npm run eleventy-build",
+		"build": "run-p -r images styles scripts eleventy-build",
 		"publish": "npx gulp && npx eleventy",
 		"clean": "rm -rf ./dist",
 		"eleventy-build": "npx eleventy",
 		"eleventy-watch": "npx eleventy --watch",
+		"eleventy-serve": "npx eleventy --serve",
 		"eleventy-debug": "DEBUG=* npx eleventy",
 		"gulp-build": "gulp",
 		"gulp-watch": "gulp watch",
-		"images": "npm run images-0-copy-images && npm run images-1-build-icons && npm run images-2-build-svg",
+		"images": "run-s images:*",
 		"images:0-copy-images": "cpx \"src/img/**/*.{jpg,jpeg,gif,webm,webp,png,svg}\" \"dist/img/\"",
 		"images:1-build-icons": "svg-sprite -s --symbol-dest=dist/img --symbol-sprite=icons.svg --svg-xmldecl=false --svg-doctype=false \"src/img/icons/*.svg\"",
 		"images:2-build-svg": "svgo dist/img/**/*.svg",
-		"scripts": "npm run scripts-0-lint && npm run scripts-1-concat && npm run scripts-2-optimize && npm run scripts-3-minify",
+		"scripts": "run-s scripts:*",
 		"scripts:0-lint": "jshint --reporter=node_modules/jshint-stylish src/js/",
 		"scripts:1-concat": "mkdir -p dist/js && concat-glob 'src/js/**/*.js' -o 'dist/js/main.js'",
 		"scripts:2-optimize": "mv dist/js/main.js dist/js/main.temp.js && optimize-js dist/js/main.temp.js > dist/js/main.js && rm dist/js/main.temp.js",
 		"scripts:3-minify": "uglifyjs --compress --mangle -o 'dist/js/main.min.js' -- 'dist/js/main.js' ",
 		"styleguide": "kss --source src/css --css ../css/screen.min.css --destination dist/styleguide --placeholder [modifier] --title 'Styleguide - The A11Y Project'",
-		"styles": "npm run styles-0-lint && npm run styles-1-sass && npm run styles-2-autoprefix && npm run styles-3-purge && npm run styles-4-minify && npm run styles-5-cleanup",
+		"styles": "run-s styles:*",
 		"styles:0-lint": "stylelint \"src/css/**/*.scss\" --syntax scss",
 		"styles:1-sass": "node-sass src/css/screen.scss dist/css/temp/screen.css",
 		"styles:2-autoprefix": "npx postcss dist/css/temp/screen.css --use autoprefixer -d dist/css/temp/autoprefix",
@@ -112,6 +113,7 @@
 		"stylelint": "^9.9.0",
 		"svg-sprite": "^1.5.0",
 		"svgo": "^1.3.2",
-		"uglify-es": "^3.3.9"
+		"uglify-es": "^3.3.9",
+		"watch-cli": "^0.2.3"
 	}
 }

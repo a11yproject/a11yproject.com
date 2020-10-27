@@ -102,7 +102,11 @@ module.exports = function (eleventyConfig) {
     }
 
     return content;
-});
+	});
+
+	eleventyConfig.addWatchTarget("./dist/css/");
+	eleventyConfig.addWatchTarget("./dist/img/");
+	eleventyConfig.addWatchTarget("./dist/js/");
 
   return {
     templateFormats: [
