@@ -34,8 +34,8 @@
 		"images-2-build-svg": "svgo dist/img/**/*.svg",
 		"javascript": "",
 		"javascript-0-jshint": "jshint --reporter=node_modules/jshint-stylish src/js/",
-		"javascript-1-concat": "",
-		"javascript-2-uglify": "",
+		"javascript-1-concat": "concat-glob 'src/js/**/*.js' -o 'dist/js/main.js'",
+		"javascript-2-uglify": "uglifyjs --compress --mangle -o 'dist/js/main.min.js' -- 'dist/js/main.js' ",
 		"javascript-3-optimize": "",
 		"style": "npm run style-0-lint && npm run style-1-sass && npm run style-2-autoprefix && npm run style-3-purge && npm run style-4-minify && npm run style-5-cleanup",
 		"style-0-lint": "stylelint \"src/css/**/*.scss\" --syntax scss",
@@ -70,6 +70,7 @@
 		"@11ty/eleventy-navigation": "^0.1.5",
 		"@11ty/eleventy-plugin-rss": "^1.0.7",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+		"@bristolinfotech/concat-glob": "0.0.2",
 		"autoprefixer": "^9.8.6",
 		"cpx": "^1.5.0",
 		"cssnano": "^4.1.10",
@@ -104,6 +105,7 @@
 		"postcss-cli": "^7.1.1",
 		"stylelint": "^9.9.0",
 		"svg-sprite": "^1.5.0",
-		"svgo": "^1.3.2"
+		"svgo": "^1.3.2",
+		"uglify-es": "^3.3.9"
 	}
 }
