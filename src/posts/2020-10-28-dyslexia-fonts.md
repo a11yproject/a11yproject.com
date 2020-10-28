@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dyslexia fonts
-description: An introductive guide to dyslexia fonts.
+description: Introducing special fonts made for people with dyslexia.
 category: Assistive Technology
 author: Hamsa Harcourt
 date: 2020-10-28
@@ -11,6 +11,7 @@ eleventyNavigation:
 tags:
   - assistivetechnology
 ---
+
 According to Oxford Advanced Learner's Dictionary:
 
 > Dyslexia is a slight disorder of the brain that causes difficulty in reading and spelling, for example, but does not affect intelligence
