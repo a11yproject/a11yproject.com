@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dyslexia fonts
-description: Introducing special fonts made for people with dyslexia.
-category: Assistive Technology
+description: A quick overview of dyslexia fonts.
+category: Assistive technology
 author: Hamsa Harcourt
 date: 2020-10-28
 eleventyNavigation:
