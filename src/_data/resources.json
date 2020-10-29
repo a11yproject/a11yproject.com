@@ -385,6 +385,12 @@
 	],
 	"colors": [
 		{
+			"title": "a11y-contrast",
+			"description": "A CLI utility to calculate/verify accessible magic numbers for a color palette.",
+			"additional": "Darek Kay",
+			"url": "https://github.com/darekkay/a11y-contrast"
+		},
+		{
 			"title": "Accessibility Tester",
 			"description": "Pick any color to generate an accessible palette.",
 			"additional": "Confrere",
