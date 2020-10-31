@@ -37,7 +37,7 @@ However, according to recent studies, it has been proven that dyslexia fonts do 
 
 The following are general font tips that improves the overall quality of a website:
 
-- Font size should be 12-14pt or its equivalent.
+- Font size should be at least 12-14pt or its equivalent.
 - Larger line spacing improves readability.
 - Use a small number of fonts, ideally 1 or 2.
 - Use **bold** to add emphasis rather than *italics* or UPPERCASE.
