@@ -11,6 +11,11 @@
 			"alt": "Go make things. Learn Vanilla JavaScript. Get daily developer tips."
 		},
 		{
+			"image": "assistiv-labs.svg",
+			"url": "https://assistivlabs.com/?utm_source=the_a11y_project&utm_medium=sponsored_ad",
+			"alt": "Assistiv Labs. Instantly test with real screen readers and more. Get started."
+		},
+		{
 			"image": "sponsor-the-a11y-project.svg",
 			"url": "/sponsorship/",
 			"alt": "Sponsor The A11Y Project. Learn how."
