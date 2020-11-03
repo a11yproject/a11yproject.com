@@ -595,6 +595,12 @@
 			"url": "https://www.accessify.com/"
 		},
 		{
+			"title": "Accessibility stats experiment",
+			"description": "Find accessibility stats by github repository.",
+			"additional": "Sarah Higley",
+			"url": "https://github-a11y-stats.netlify.app/"
+		},
+		{
 			"title": "AccessLint",
 			"description": "AccessLint is a GitHub App that finds accessibility issues in your pull requests.",
 			"additional": "AccessLint",
@@ -1681,6 +1687,12 @@
 			"description": "Mobile A11y is a collection of blogs and resources about how we as mobile developers can improve accessibility on mobile devices.",
 			"additional": "Rob Whitaker",
 			"url": "https://mobilea11y.com/"
+		},
+		{
+			"title": "Solid Start",
+			"description": "Are you a person that makes digital things for other people? Awesome—because this page is all about making things for people.",
+			"additional": "Erik Kroes",
+			"url": "https://www.solidstart.info/"
 		},
 		{
 			"title": "Word and PowerPoint Accessibility Evaluation Checklist",
