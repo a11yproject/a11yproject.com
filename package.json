@@ -19,7 +19,7 @@
 		"Wayne Elgin (https://twitter.com/esjay)"
 	],
 	"scripts": {
-		"start": "run-p eleventy-serve watch:*",
+		"start": "run-s images scripts styles && run-p eleventy-serve watch:*",
 		"a11yproject": "npm start",
 		"publish": "run-p -r images styles scripts eleventy-build",
 		"clean": "rm -rf ./dist",
@@ -41,7 +41,7 @@
 		"styles:0-lint": "stylelint \"src/css/**/*.scss\" --syntax scss",
 		"styles:1-sass": "node-sass src/css/screen.scss dist/css/temp/screen.css",
 		"styles:2-autoprefix": "npx postcss dist/css/temp/screen.css --use autoprefixer -d dist/css/temp/autoprefix",
-		"styles:3-purge": "mkdir -p dist/css/temp/purge && purgecss --css dist/css/temp/autoprefix/screen.css --content \"src/**/*.njk\",\"src/**/*.md\" -o dist/css/temp/purge",
+		"styles:3-purge": "mkdir -p dist/css/temp/purge && purgecss --css dist/css/temp/autoprefix/screen.css --content \"src/**/*.{njk,md}\" -o dist/css/temp/purge/",
 		"styles:4-minify": "npx postcss dist/css/temp/purge/screen.css > dist/css/screen.min.css --use cssnano",
 		"styles:5-cleanup": "rm -rf dist/css/temp/",
 		"watch:images": "watch -p \"src/img/**/*.{jpg,jpeg,gif,webm,webp,png,svg}\" -c \"npm run images\"",
@@ -91,6 +91,7 @@
 		"npm-run-all": "^4.1.5",
 		"optimize-js": "^1.0.3",
 		"postcss-cli": "^7.1.1",
+		"purgecss": "^3.0.0",
 		"stylelint": "^9.9.0",
 		"svg-sprite": "^1.5.0",
 		"svgo": "^1.3.2",
