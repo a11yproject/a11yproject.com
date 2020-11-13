@@ -167,6 +167,7 @@
 
 		code {
 			text-transform: none;
+			margin: 0 0.5rem;
 		}
 
 		li {
@@ -205,6 +206,7 @@
 		@supports #{$supports-flex} {
 			border-bottom: none;
 			display: flex;
+			flex-wrap: wrap;
 
 			&::after {
 				content: "";
