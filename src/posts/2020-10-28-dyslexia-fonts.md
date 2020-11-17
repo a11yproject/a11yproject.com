@@ -8,7 +8,7 @@ further_reading:
   - url: https://accessibility.huit.harvard.edu/design-readability
     title: Design for readability
     source: Havard University
-	- url: https://eyeondesign.aiga.org/sad-but-true-comic-sans-might-just-be-the-best-font-for-dyslexics/
+  - url: https://eyeondesign.aiga.org/sad-but-true-comic-sans-might-just-be-the-best-font-for-dyslexics/
     title: Comic Sans Might Just be the Best Font for People with Dyslexia
     source: AIGA Eye on Design
 date: 2020-10-28
