@@ -21,8 +21,9 @@
 	"scripts": {
 		"start": "run-s images scripts styles && run-p eleventy-serve watch:*",
 		"a11yproject": "npm start",
-		"publish": "run-p -r images styles scripts eleventy-build",
+		"publish": "run-p -r images styles scripts eleventy-build && npm run copy-dist",
 		"clean": "rm -rf ./dist",
+		"copy-dist": "cp -r tmp/_dist/ dist/",
 		"eleventy-build": "npx eleventy",
 		"eleventy-watch": "npx eleventy --watch",
 		"eleventy-serve": "npx eleventy --serve",
