@@ -167,6 +167,11 @@
 
 		code {
 			text-transform: none;
+			line-height: 1.1;
+
+			@supports not (gap: 0.5rem) {
+				margin: 0 0.5rem;
+			}
 		}
 
 		li {
@@ -205,6 +210,8 @@
 		@supports #{$supports-flex} {
 			border-bottom: none;
 			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
 
 			&::after {
 				content: "";
