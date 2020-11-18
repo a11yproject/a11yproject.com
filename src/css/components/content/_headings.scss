@@ -40,7 +40,9 @@
 		@include heading-small();
 	}
 
+	/* purgecss ignore */
 	h5 {
+outline: 10px solid $color-red !important;
 		color: $color-gray-shade;
 		font-weight: $font-weight-bold;
 		margin-bottom: -4ch;

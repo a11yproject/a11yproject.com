@@ -221,7 +221,8 @@ var buildStyles = function (done) {
 			'tag',
 			'token',
 			'url',
-			'variable'
+			'variable',
+			'c-content h5'
 		],
 			whitelistPatterns: [/^c-form/],
 		}))
