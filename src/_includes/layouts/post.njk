@@ -28,11 +28,6 @@ templateClass: template-post
 					<span class="u-text-transform-uppercase">Published:&#8194;</span><time datetime="{{ page.date | htmlDateString }}">{{ page.date | dateReadable }}</time><span class="u-hide-visually">.</span>
 				</span>
 			{% endif %}
-			{% if last_updated %}
-				<span class="c-post__metadata--updated">
-					<span class="u-text-transform-uppercase">Updated:&#8194;</span><time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time><span class="u-hide-visually">.</span>
-				</span>
-			{% endif %}
 		</p>
 	</header>
 
@@ -44,7 +39,7 @@ templateClass: template-post
 			{{ content | safe }}
 
 			{% if updated_by %}
-				<p class="c-last-updated__body">This post was last updated by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+				<p class="c-last-updated__body">This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
 			{% endif %}
 
 			{% if further_reading %}
