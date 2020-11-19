@@ -176,18 +176,6 @@ var buildStyles = function (done) {
 			outputStyle: 'expanded',
 			sourceComments: true
 		}))
-		.pipe(prefix({
-			browsers: ['last 2 version', '> 0.25%', 'ie >= 11'],
-			cascade: true,
-			remove: true
-		}))
-		// .pipe(dest(paths.styles.output))
-		.pipe(rename({ suffix: '.min'}))
-		.pipe(minify({
-			discardComments: {
-				removeAll: true
-			}
-		}))
 		.pipe(purgeCSS({
 			content: ['src/**/*.njk', 'src/**/*.md'],
 			whitelist: [
@@ -223,7 +211,20 @@ var buildStyles = function (done) {
 			'url',
 			'variable'
 		],
-			whitelistPatterns: [/^c-form/],
+			whitelistPatterns: [/^c-form/, /h5/],
+			whitelistPatternsChildren: [/^c-content/],
+		}))
+		.pipe(prefix({
+			browsers: ['last 2 version', '> 0.25%', 'ie >= 11'],
+			cascade: true,
+			remove: true
+		}))
+		// .pipe(dest(paths.styles.output))
+		.pipe(rename({ suffix: '.min'}))
+		.pipe(minify({
+			discardComments: {
+				removeAll: true
+			}
 		}))
 		.pipe(dest(paths.styles.output));
 	// Signal completion

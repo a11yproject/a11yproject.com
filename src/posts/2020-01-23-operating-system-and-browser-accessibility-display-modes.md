@@ -116,7 +116,7 @@ It may be helpful for:
 - People who want to reduce eye strain,
 - and/or who have difficulty sleeping.
 
-An example of a situation where Night Mode could be useful is writing late at night.
+An example of a situation where Night Mode could be useful is checking your email while walking home at night.
 
 #### What it affects
 
@@ -167,7 +167,7 @@ It is helpful for:
 - and/or who have difficulty reading text on the display,
 - and/or who want to reduce eye strain.
 
-An example of a situation where Night Mode could be useful is writing late at night.
+An example of a situation where Filtered Colors Mode could be useful is writing late at night.
 
 #### What it affects
 

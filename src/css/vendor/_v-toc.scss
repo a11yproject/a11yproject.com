@@ -25,7 +25,6 @@
 	cursor: pointer;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
-	text-transform: uppercase;
 
 	// States
 	&:focus {
@@ -94,8 +93,8 @@
 
 .v-toc__title {
 	display: block;
+	font-weight: 700;
 	margin-left: 0.5rem;
-	text-decoration: underline;
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.5em;
@@ -155,10 +154,10 @@
 
 	li {
 		font-family: $font-family-secondary;
+		font-weight: 700;
 		letter-spacing: $font-tracking-slight;
 		line-height: $line-height-tighter;
 		margin-bottom: 1.25rem; // EXCEPTION: Applying a bottom margin instead of top to ensure columns line up properly.
-		text-transform: uppercase;
 
 		// Supports
 		@supports #{$supports-flex} {
@@ -175,6 +174,7 @@
 		}
 
 		li {
+			font-weight: 400;
 			letter-spacing: 0;
 			text-transform: none;
 
