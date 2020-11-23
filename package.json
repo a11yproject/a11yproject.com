@@ -46,7 +46,6 @@
 	"dependencies": {
 		"@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
 		"mappy-breakpoints": "^0.2.3",
-		"node-sass": "^5.0.0",
 		"normalize.css": "^8.0.1"
 	},
 	"devDependencies": {
