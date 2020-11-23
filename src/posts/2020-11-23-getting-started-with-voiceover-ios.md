@@ -32,10 +32,11 @@ On an iPhone, VoiceOver responds to gestures (single tap, double tap, et cetera)
 ## How to start using VoiceOver on iOS
 
 The easiest way to turn on VoiceOver on your iPhone is to:
-- Open Settings app on your iPhone.
-- Select Accessibility.
-- Under Vision, select VoiceOver.
-- Turn on VoiceOver.
+
+1. Open Settings app on your iPhone.
+1. Select Accessibility.
+1. Under Vision, select VoiceOver.
+1. Turn on VoiceOver.
 
 You can also make it easier to activate/deactivate VoiceOver and use it frequently, by adding an Accessibility Shortcut:
 - Open Settings app on your iPhone.
