@@ -39,10 +39,11 @@ The easiest way to turn on VoiceOver on your iPhone is to:
 1. Turn on VoiceOver.
 
 You can also make it easier to activate/deactivate VoiceOver and use it frequently, by adding an Accessibility Shortcut:
-- Open Settings app on your iPhone.
-- Select Accessibility.
-- Under General, select Accessibility Shortcut.
-- Select VoiceOver.
+
+1. Open Settings app on your iPhone.
+1. Select Accessibility.
+1. Under General, select Accessibility Shortcut.
+1. Select VoiceOver.
 
 Then you can toggle VoiceOver feature on or off by triple clicking the side button (on iPhone X or later). If it is an earlier version of iPhone, triple click the Home button.
 
