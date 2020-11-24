@@ -19,15 +19,13 @@ tags:
   - assistivetechnology
 ---
 
-## What is VoiceOver?
-
 VoiceOver is a screen-reading tool built into Apple Inc.'s iOS. It helps people navigate and use their iPhone without needing to see the screen. First introduced in 2009 with the iPod Shuffle and iPhone 3GS, VoiceOver has been in the picture in every Apple's iOS release ever since.
 
 For developers, it is always a good idea to test out VoiceOver with your project on your chosen testing device.
 
 There is also VoiceOver for macOS - a separate screen reader from VoiceOver iOS. If interested, you can check out [Mat Marquis's detailed guide to macOS VoiceOver](https://www.a11yproject.com/posts/2013-01-14-getting-started-with-voiceover/)!
 
-## How does it work?
+## How does VoiceOver work?
 
 On an iPhone, VoiceOver responds to gestures (single tap, double tap, et cetera) and audibly communicates to us all the information we need to know (for example, what we have selected or done, the hints, values and traits of the items).
 
@@ -63,7 +61,7 @@ Quickly flick left or right with one finger | Locate items or apps
 Double tap | Select and activate app, link or button
 Triple tap | Double tap items
 Tap once with two fingers | Pause VoiceOver
-Swipe up from bottom edge (ends with a haptic response and sound) | Return to Home 
+Swipe up from bottom edge (ends with a haptic response and sound) | Return to Home
 Swipe up from bottom edge and keep dragging upward (ends with a second haptic response and higher pitched sound)  | Bring up App Switcher
 Flick left or right with three fingers | Move through pages in App Switcher
 Flick up with three fingers | Force close an app while in App Switcher
@@ -81,7 +79,7 @@ VoiceOver Rotor helps us change how VoiceOver works to suit our needs, whether i
   <figcaption>VoiceOver Rotor on iOS</figcaption>
 </figure>
 
-1. When VoiceOver is on, you can open VoiceOver Rotor by rotating two fingers on the screen as if you are turning a dial. Alternatively, you can drag up one finger from one hand and drag down another finger from the other hand. 
+1. When VoiceOver is on, you can open VoiceOver Rotor by rotating two fingers on the screen as if you are turning a dial. Alternatively, you can drag up one finger from one hand and drag down another finger from the other hand.
 1. Keep rotating the Rotor and hear the settings being read aloud until you get the one you want.
 1. Finally, swipe one finger up or down to use the setting.
 
