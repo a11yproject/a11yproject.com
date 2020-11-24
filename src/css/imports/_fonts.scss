@@ -1,14 +1,13 @@
 // Anaheim
 @font-face {
-	font-display: swap;
-	font-family: recursive;
+	font-family: anaheim;
 	font-style: normal;
 	font-weight: 400;
 	src:
 		local("Anaheim"),
-		local("Anaheim-Regular"),
-		url("../fonts/recursive-v21-latin-regular.woff") format("woff"),
-		url("../fonts/recursive-v21-latin-regular.woff2") format("woff2");
+		local("Anaheim"),
+		url("../fonts/Anaheim-Regular.woff2") format("woff2"),
+		url("../fonts/Anaheim-Regular.woff") format("woff");
 }
 
 
@@ -64,14 +63,14 @@
 }
 
 
-// Recursive Sans Linear Static Regular
+// Source Code Pro Regular
 @font-face {
-	font-display: swap;
-	font-family: "Recursive Mono Linear Static";
+	font-family: sourcecodepro;
 	font-style: normal;
 	font-weight: 400;
 	src:
-		local("Recursive Mn Lnr St"),
-		local("RecursiveMonoLnrSt-Regular"),
-		url("../fonts/RecursiveMonoLnrSt-Regular.woff2") format("woff2");
+		local("Source Code Pro"),
+		local("SourceCodePro-Regular"),
+		url("../fonts/source-code-pro-v11-latin-regular.woff2") format("woff2"),
+		url("../fonts/source-code-pro-v11-latin-regular.woff") format("woff");
 }

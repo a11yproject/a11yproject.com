@@ -191,7 +191,7 @@ var tableOfContents = function (content, target, options) {
         html +=
           '<li>' +
           '<a href="#' + heading.id + '">' +
-          heading.innerHTML.trim() +
+          '<span>' + heading.innerHTML.trim() + '</span>' +
           '</a>';
         // If the last item, close it all out
         if (index === len) {
