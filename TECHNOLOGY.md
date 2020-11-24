@@ -8,7 +8,6 @@ Technology decisions for The A11Y Project.
 The A11Y Project uses the following technology:
 
 - [Eleventy](https://www.11ty.dev/).
-- [gulp.js](https://gulpjs.com/).
 - JavaScript.
 - JSON.
 - Markdown.

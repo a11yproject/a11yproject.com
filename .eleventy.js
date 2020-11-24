@@ -59,6 +59,10 @@ module.exports = function (eleventyConfig) {
 
 	// Directories
 	eleventyConfig.addPassthroughCopy("./src/fonts");
+	eleventyConfig.addPassthroughCopy({
+		"./tmp/_dist/css": "css",
+		"./tmp/_dist/js": "js",
+	});
 
 	// Social Media
 	eleventyConfig.addPassthroughCopy("./src/apple-touch-icon.png");
@@ -102,7 +106,9 @@ module.exports = function (eleventyConfig) {
     }
 
     return content;
-});
+	});
+
+	eleventyConfig.setUseGitIgnore(false);
 
   return {
     templateFormats: [
