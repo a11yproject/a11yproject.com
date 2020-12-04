@@ -563,6 +563,12 @@
 			"url": "https://medium.com/@addyosmani/accessible-ui-components-for-the-web-39e727101a67"
 		},
 		{
+			"title": "Accessible Usability Scale (AUS)",
+			"description": "The Accessible Usability Scale (AUS) is a free tool to measure the usability of a digital product for assistive technology users. Inspired by the System Usability Scale (SUS), the Accessible Usability Scale consists of ten questions administered at the end of a user experience to calculate a score.",
+			"additional": "Fable",
+			"url": "https://makeitfable.com/accessible-usability-scale/"
+		},
+		{
 			"title": "Accessibility guidelines for UX Designers",
 			"description": "As a UX designer, it is important to build empathy and celebrate accessibility requirements as a set of design constraints to build a better product.",
 			"additional": "Avinash Kaur",
