@@ -1,0 +1,28 @@
+labelPRBasedOnFilePath:
+  # Add 'label1' to any changes within 'example' folder or any subfolders
+  Checklist:
+    - src/checklist.njk
+  Data:
+    - src/**/*.json
+  Eleventy:
+    - .eleventy.js
+  Gulp:
+    - gulpfile.js
+  JavaScript:
+    - src/**/*.js
+  Markup:
+    - src/**/*.njk
+  Netlify:
+    - netlify.toml
+  Node:
+    - package.json
+  Post:
+    - src/posts/*
+  Resource:
+    - src/_data/resources.json
+  Styling:
+    - src/css/*
+firstPRWelcomeComment: >
+  Thank you for opening this Pull Request! Please make sure you've read our [Code of Conduct](https://www.a11yproject.com/code-of-conduct/) and [Contributing guidelines](https://www.a11yproject.com/contributing-guidelines/).
+firstIssueWelcomeComment: >
+  Thanks for opening your first Issue! Please make sure you've read our [Code of Conduct](https://www.a11yproject.com/code-of-conduct/) and [Contributing guidelines](https://www.a11yproject.com/contributing-guidelines/).
