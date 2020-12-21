@@ -38,7 +38,7 @@ You'll need access to the following programs and technology in order to get the 
 
 Once you have met [the prerequisites](#requirements), follow these steps to install the website on your computer:
 
-1. Clone this repository by entering this command into your command line application: ` git clone https://github.com/a11yproject/a11yproject.com.git`. It will create a version controlled copy of the website in the directory you entered the command in.
+1. Clone this repository by entering this command into your command line application: `git clone https://github.com/a11yproject/a11yproject.com.git`. It will create a version controlled copy of the website in the directory you entered the command in.
 1. Navigate into the project's [root directory](https://en.m.wikipedia.org/wiki/Root_directory) by typing `cd a11yproject.com` in your command line application.
 1. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
