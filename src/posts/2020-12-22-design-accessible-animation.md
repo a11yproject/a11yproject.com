@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Designing accessible animation
-description: How-to guide to the basics of navigating around on an iPhone using Apple’s VoiceOver screen reader, included in iOS.
+description: A general guide to designing more inclusive animation and what to avoid along the away.
 category: How-to
 author: Kelly Gillit
 date: 2020-12-22
