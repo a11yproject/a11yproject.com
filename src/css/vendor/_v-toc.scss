@@ -33,12 +33,21 @@
 		.v-toc__title {
 			text-decoration: none;
 		}
+
+		.v-toc__icon {
+			fill: $color-white;
+		}
 	}
 
 	// Contexts
 	.template-post &,
 	.template-resources & {
 		color: $color-green;
+
+		&:focus {
+			background-color: $color-green;
+			color: $color-white;
+		}
 	}
 
 	.template-checklist &,
@@ -47,12 +56,22 @@
 	.template-authors,
 	.template-spotlight & {
 		color: $color-blue-shade;
+
+		&:focus {
+			background-color: $color-blue-shade;
+			color: $color-white;
+		}
 	}
 
 	.template-posts &,
 	.template-contribute &,
 	.template-generic & {
 		color: $color-blue;
+
+		&:focus {
+			background-color: $color-blue;
+			color: $color-white;
+		}
 	}
 }
 
