@@ -1,0 +1,133 @@
+{
+  "title": "Code Tour",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "Welcome! This will walk you through the important parts of the repository."
+    },
+    {
+      "file": "package.json",
+      "line": 1,
+      "description": "This is `package.json`. It stores information about the project, including its name, people who work on it, dependencies it needs to run, and tasks it can run for you via Node.js.",
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 2
+        }
+      }
+    },
+    {
+      "file": "package.json",
+      "line": 41,
+      "description": "These are the dependencies that the project requires to work. Run `npm install` in your command line application before doing anything else. \n\nThere will be a new folder created called `node_modules/` after the install task completes. This is where all the dependencies are stores."
+    },
+    {
+      "file": "package.json",
+      "line": 17,
+      "description": "These are the scripts you can runn in your command line application. `npm start` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
+    },
+    {
+      "file": "package.json",
+      "line": 8,
+      "description": "These are Contributors, people who help run the site. People who can make a dedicated commitment to running The A11Y Project are considered Contributors. \n\nYou will probably interact with one of them if you submit an Issue or Pull Request to GitHub."
+    },
+    {
+      "file": ".editorconfig",
+      "line": 1,
+      "description": "`.editorconfig` files help set a standard for how code is formatted. Please install a plugin for it for your code editor before working on this project, if you haven't already: https://editorconfig.org/#download\n\nWe prefer using tabs over spaces to make it easier for developers who use screen readers."
+    },
+    {
+      "file": "TECHNOLOGY.md",
+      "line": 1,
+      "description": "This document outlines the technology choices we have made. What we have elected to use is just as important as what we've dliberately chosen not to use."
+    },
+    {
+      "file": "gulpfile.js",
+      "line": 1,
+      "description": "This is a Gulp file. It stores a series of instructions to automate repetitive tasks. Gulp allows your computer to watch the code you instruct it to, and then will execute these tasks automatically for you."
+    },
+    {
+      "file": "gulpfile.js",
+      "line": 297,
+      "description": "This is how you instruct Gulp to execute what tasks in which order."
+    },
+    {
+      "file": "gulpfile.js",
+      "line": 105,
+      "description": "These are the tasks. The previous code is configuration options for it."
+    },
+    {
+      "directory": "src",
+      "description": "This is the folder that contains all the files you will be editing."
+    },
+    {
+      "directory": "src/_data",
+      "description": "This contains the JSON information we use to add information to the site. Eleventy can loop over the data in a JSON file and generate lists of it automatically."
+    },
+    {
+      "directory": "src/_includes",
+      "description": "This folder contains snippets of code that Eleventy can add to the file it is referenced in. This helps keeps files easier to work thorugh, as well as letting you pass JSON data through them to keep repetition down."
+    },
+    {
+      "directory": "src/_includes/layouts",
+      "description": "Layouts is a special subdirectory that Eleventy uses to build the overall design of each website's page. Think of it as templates for overall design."
+    },
+    {
+      "directory": "src/_includes/meta",
+      "description": "This is for content that someone visiting the site wouldn't necessarily be aware of. This includes things like analytics and social media sharing titles."
+    },
+    {
+      "directory": "src/announcements",
+      "description": "This folder stores blog posts that specifically deal with new site features and initiatives. It is purposefully separated from posts to keep them from being included in things like the previous/next blog post navigation."
+    },
+    {
+      "file": "src/css/screen.scss",
+      "line": 1,
+      "description": "This is how the website's CSS is generated. This file imports various Sass partials for Gulp to stitch together into the stylesheet the website will use.\n\nThe `//` comments are for kss-node, which uses structured comment blocks to make a living styleguide."
+    },
+    {
+      "file": "src/css/homepage.md",
+      "line": 1,
+      "description": "This is the homepage of the kss-node living styleguide. It describes our coding standards and style."
+    },
+    {
+      "directory": "src/js",
+      "description": "This stores all the JavaScript used by the website. While JavaScript is used to build the site, it isn't included in what gets published. Only JavaScript included here will be.\n\nWe write our JavaScript in ECMAScript version 5 (ES5) due to Internet Explorer 11 and niche assistive technology support."
+    },
+    {
+      "directory": "src/posts",
+      "description": "Our posts are stored here. When creating a new post, please be sure to match the file name and metadata convention used by the other posts. Duplicating a post and updating it is a good way to start!"
+    },
+    {
+      "file": "src/_data/authors.json",
+      "line": 1,
+      "description": "Please add your information to this file if you write a blog post. A name will be required, but all other information is optional."
+    },
+    {
+      "directory": "src/resources",
+      "description": "Resources are a lot like announcements, in that they're a special post format kept out of the normal post queue."
+    },
+    {
+      "directory": "src/spotlight",
+      "description": "Spotlight is a collection of people we feature."
+    },
+    {
+      "file": "src/sw.js",
+      "line": 1,
+      "description": "This is our service worker, which allows the website to be navigated even if no internet connection is present."
+    },
+    {
+      "file": "TROUBLESHOOTING.md",
+      "line": 1,
+      "description": "These are solutions to common problems you may experience working on the site. Please read through this if you are experiencing issues. If your issue is not documented here, please consider creating a Pull Request to capture it."
+    },
+    {
+      "directory": "src",
+      "description": "This concludes a high-level explanation of this project's code! If you have any feedback or suggestions, please file an Issue or Pull Request.\n\nThank you for helping to make The A11Y Project better!"
+    }
+  ]
+}

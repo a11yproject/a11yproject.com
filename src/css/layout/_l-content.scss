@@ -1,0 +1,26 @@
+.l-content {
+	// Contexts
+	.template-home &,
+	.template-posts &,
+	.template-checklist &,
+	.template-resources & {
+		padding-top: 3rem;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			padding-top: 0;
+		}
+	}
+
+	.template-post &,
+	.template-about &,
+	.template-resources &,
+	.template-generic & {
+		max-width: $global-type-measure;
+	}
+
+	// Supports
+	@supports #{$supports-grid} {
+		grid-area: content;
+	}
+}

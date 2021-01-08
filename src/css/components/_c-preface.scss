@@ -1,0 +1,21 @@
+.c-preface {
+	color: $color-gray-shade;
+	margin-top: 0.5rem;
+	margin-bottom: 2rem;
+	margin-left: $_card-inset;
+	max-width: $global-type-measure;
+}
+
+
+.c-preface__link {
+	// Contexts
+	.template-checklist &,
+	.template-resources & {
+		@include link-states($color-green);
+	}
+
+	.template-posts &,
+	.template-team & {
+		@include link-states($color-blue);
+	}
+}

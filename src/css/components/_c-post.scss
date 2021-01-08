@@ -1,0 +1,225 @@
+$_c-post-breathing-room: 6ex;
+$_c-post-vertical-spacing: 4ex;
+
+
+// Post
+//
+// A post component contains all content and information used for The A11Y
+// project's blog posts.
+//
+// Eleventy, the software that is used to generate this site, uses Markdown to
+// convert blog post content into HTML code. Because of this, we use the class
+// `c-post` as namespace that allows to easily create blog content-specific
+// styling.
+//
+// This allows site authors to continue to write in Markdown without having to
+// worry about using both HTML markup and learning and applying site-specific
+// styling classes. It also ensures that future styling work is decoupled from
+// content.
+//
+// Markup:
+// <div
+//   id="short-answer"
+//   class="l-post__content c-content"
+//   itemprop="articleBody">
+//   …
+// </div>
+//
+// Style guide: Components.post
+.c-post__category {
+	border-top: $border-thick solid $color-green;
+
+	p {
+		border-bottom: $border-thinnest solid $color-green;
+		padding: 0.5rem 0 0.5rem map-get($global-post-content-inset, small);
+		text-transform: uppercase;
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			padding-left: map-get($global-post-content-inset, medium);
+		}
+
+		@include mappy-bp(lap-medium) {
+			padding-left: map-get($global-post-content-inset, medium);
+		}
+
+		@include mappy-bp(lap-large) {
+			padding-left: map-get($global-post-content-inset, large);
+		}
+
+		// Supports
+		@supports #{$supports-grid} {
+			// Breakpoints
+			@include mappy-bp(lap-medium) {
+				padding-left: 0;
+				padding-right: map-get($global-post-content-inset, small);
+				text-align: right;
+			}
+		}
+	}
+}
+
+
+.c-post__category__link {
+	color: $color-green;
+	text-decoration: none;
+
+	// States
+	&:hover {
+		text-decoration: underline;
+	}
+
+	&:focus {
+		background-color: $color-green;
+		color: $color-white;
+		outline: $border-thick solid $color-green;
+	}
+
+	&:active {
+		background-color: transparent;
+		color: $color-green;
+		outline: none;
+		text-decoration: none;
+	}
+}
+
+
+.c-post__title {
+	font-size: $font-size-heading-small;
+	line-height: $line-height-tight;
+	margin: 0.75rem map-get($global-post-content-inset, small) 2rem map-get($global-post-content-inset, small);
+	padding-right: 1rem;
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		margin-right: map-get($global-post-content-inset, small);
+		margin-left: map-get($global-post-content-inset, medium);
+	}
+
+	@include mappy-bp(lap-small) {
+		font-size: $font-size-heading-largest;
+		max-width: $global-type-measure;
+	}
+
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin: 1rem 0 2rem map-get($global-post-content-inset, medium);
+		}
+
+		@include mappy-bp(lap-medium) {
+			margin-top: 0;
+			margin-left: map-get($global-post-content-inset, small);
+		}
+	}
+}
+
+
+.c-post__metadata {
+	border-top: $border-thinnest solid $color-green;
+	border-bottom: $border-thick solid $color-green;
+	list-style-type: none;
+	padding: 0.75rem map-get($global-post-content-inset, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		padding-left: map-get($global-post-content-inset, medium);
+	}
+
+	// Supports
+	@supports #{$supports-flex} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			display: flex;
+			flex-direction: row;
+		}
+	}
+
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			padding: 0.75rem map-get($global-post-content-inset, medium);
+		}
+
+		@include mappy-bp(lap-medium) {
+			padding-left: map-get($global-post-content-inset, small);
+		}
+	}
+}
+
+
+.c-post__metadata--author,
+.c-post__metadata--published,
+.c-post__metadata--updated {
+	display: block;
+}
+
+
+.c-post__metadata--author {
+	margin-bottom: 0.5rem;
+
+	// Breakpoints
+	@include mappy-bp(lap-small) {
+		margin-bottom: 0;
+	}
+
+	// Supports
+	@supports #{$supports-flex} {
+		flex-grow: 2;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			flex-grow: 4;
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+.c-post__metadata--published,
+.c-post__metadata--updated {
+	// Supports
+	@supports #{$supports-flex} {
+		flex-grow: 1;
+
+		// Breakpokints
+		@include mappy-bp(lap-small) {
+			margin-left: 0.5rem;
+		}
+	}
+}
+
+
+.c-post__metadata-link {
+	@include link-states($color-black);
+
+	text-underline-offset: 0.2em;
+}
+
+
+.c-post__list-item {
+	// Supports
+	@supports #{$supports-flex} {
+		flex-grow: 1;
+	}
+}
+
+
+.c-content {
+	line-height: $line-height-double;
+
+	// Breakpoints
+	@include mappy-bp(lap-small) {
+		margin-right: 0;
+	}
+
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			margin-right: 0;
+		}
+	}
+}

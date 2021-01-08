@@ -1,0 +1,18 @@
+// rem
+//
+// Generates a `rem` value from a pixel measurement, derived from the base type
+// size.
+//
+// $pixels  - The desired pixel value.
+// $context - The font size to derive the `em` value from. Defaults to `$global-type-size`.
+//
+// Styleguide Logic.Functions.rem
+@function rem($pixels, $context: $global-type-size) {
+	@if (unitless($pixels)) {
+		$pixels: $pixels * 1px;
+	}
+	@if (unitless($context)) {
+		$context: $context * 1px;
+	}
+	@return $pixels / $context * 1rem;
+}

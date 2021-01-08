@@ -1,0 +1,54 @@
+---
+layout: layouts/base.njk
+templateClass: template-post
+---
+
+<div class="l-post">
+	<header class="l-post__header">
+		<div class="l-post__category c-post__category">
+			<p class="u-font-size-body u-text-transform-uppercase">
+				<a class="u-font-size-body c-post__category__link" href="/posts/#{{ category | slugify | url }}">
+					{{ category }}
+				</a>
+			</p>
+		</div>
+
+		<h1 id="title" class="l-post__title c-post__title">
+			{{ title | safe }}
+		</h1>
+
+		<p id="metadata" class="u-font-size-body-small l-post__metadata c-post__metadata">
+			{% if author %}
+				<span class="c-post__metadata--author">
+					<span class="u-text-transform-uppercase">By:&#8194;</span><a class="c-post__metadata-link" href="/authors/#{{ author | slugify | url }}">{{ author }}</a><span class="u-hide-visually">.</span>
+				</span>
+			{% endif %}
+			{% if date %}
+				<span class="c-post__metadata--published">
+					<span class="u-text-transform-uppercase">Published:&#8194;</span><time datetime="{{ page.date | htmlDateString }}">{{ page.date | dateReadable }}</time><span class="u-hide-visually">.</span>
+				</span>
+			{% endif %}
+		</p>
+	</header>
+
+	<div data-content id="short-answer" class="l-post__body">
+		{% include "nav/toc.njk" %}
+
+		<div class="l-post__content c-content c-content--post">
+
+			{{ content | safe }}
+
+			{% if updated_by %}
+				<p class="c-last-updated__body">This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+			{% endif %}
+
+			{% if further_reading %}
+				{% include "further-reading.njk" %}
+			{% endif %}
+		<div>
+	</div>
+
+	{% include "nav/recommended-reading.njk" %}
+</div>
+
+{% include "post-metadata.njk" %}

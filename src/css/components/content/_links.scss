@@ -1,0 +1,37 @@
+a {
+	// Contexts
+	.c-content--post & {
+		@include link-states($color-green);
+	}
+
+	.c-content--about &,
+	.c-content--generic &,
+	.c-content--checklist &,
+	.c-content--contribute & {
+		@include link-states($color-blue);
+	}
+}
+
+
+// Namespace
+.c-content {
+  // Links
+  //
+  // Links navigate to other pages, or parts of the current page. There are two
+  // visual treatments for links, depending on if someone is browsing with a
+  // expressed preference for a <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion'>reduced motion experience or not</a>.
+  //
+  // Markup:
+  // <a href="URL">Link text</.>
+  //
+	// Style guide: Components.post.links
+  a {
+		// States
+		&:focus {
+			// Text-level formatting
+			code {
+				color: $color-black !important;
+			}
+		}
+	}
+}

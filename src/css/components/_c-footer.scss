@@ -1,0 +1,90 @@
+.c-footer {
+	font-family: $font-family-secondary;
+}
+
+
+.c-footer__subnav {
+	margin-top: 2rem;
+
+	// Supports
+	@supports #{$supports-flex} {
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			width: 50%;
+		}
+
+		@include mappy-bp(palm-medium) {
+			width: 33%;
+		}
+
+		@include mappy-bp(lap-small) {
+			width: initial;
+			margin-right: 2rem;
+		}
+
+		@include mappy-bp(lap-medium) {
+			margin-right: 5rem;
+		}
+	}
+}
+
+
+.c-footer__heading {
+	padding-left: 0.5ch;
+}
+
+
+.c-footer__list {
+	@include preserve-list-semantics();
+
+	margin-top: 1rem;
+	margin-left: 0.4rem;
+
+	// Text-level formatting
+	li {
+		margin-top: 0.5rem;
+	}
+}
+
+
+.c-footer__link {
+	@include link-states($color-black);
+
+	text-decoration: none;
+
+	// States
+	&:hover,
+	&[aria-current="page"] {
+		text-decoration: underline;
+	}
+}
+
+
+.c-footer__tagline {
+	color: $color-blue-shade;
+	font-family: $font-family-primary;
+	font-size: $font-size-heading-small;
+	line-height: $line-height-single;
+	margin-top: 2rem;
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		font-size: $font-size-body-medium;
+		margin-top: 0;
+	}
+
+	@include mappy-bp(lap-small) {
+		font-size: $font-size-heading-medium;
+		margin-top: 3.5rem;
+	}
+}
+
+
+.c-footer__copyright-link {
+	@include link-states($color-black);
+
+	// States
+	&:hover {
+		text-decoration: none;
+	}
+}

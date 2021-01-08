@@ -1,0 +1,95 @@
+// Code
+//
+// Styles applied to the `code`, `kbd`, `pre`, `samp`, and `var` elements.
+// Used to set up consistent typography and prevent word breaks that would
+// affect code compilation.
+//
+// Styleguide Base.Code
+
+
+// Shared styles
+// [1] Ensures hyphenation won't interfere with code
+code,
+kbd,
+pre,
+samp,
+var {
+	font-family: $font-family-code;
+	font-feature-settings: normal;
+	line-height: $line-height-tight;
+	overflow: auto; // [1]
+	white-space: pre-wrap; // [1]
+	word-break: keep-all; // [1]
+	word-wrap: break-word; // [1]
+}
+
+
+// code
+//
+// Initial styles applied to the `code` element without a class applied to it.
+//
+// Markup:
+// <code>npm start</code>
+//
+// Styleguide Base.Code.code
+
+
+// kbd
+//
+// Initial styles applied to the `kbd` element without a class applied to it.
+// The `kbd` element is helpful for describing things like keyboard shortcuts.
+//
+// Markup:
+// <kbd>Command</kbd> + <kbd>s</kbd>
+//
+// Styleguide Base.Code.kbd
+kbd {
+	background-color: $color-white;
+	border: rem(4) solid $color-white;
+	border-radius: rem(4);
+	box-shadow: 0 2px 1px 0 $color-gray-shade;
+	padding: 0 0.5ch;
+	word-break: break-word;
+}
+
+
+// pre
+//
+// Initial styles applied to the `pre` element without a class applied to it.
+//
+// Markup:
+// <pre>FREEZE FRAME on Sue, with a confused expression on their face.</pre>
+//
+// Styleguide Base.Code.pre
+pre {
+	background-color: $color-black;
+	color: $color-white;
+	padding: 1rem 1.5rem;
+}
+
+
+// samp
+//
+// Initial styles applied to the `samp` element without a class applied to it.
+// `samp` is used to describe sample output from a program.
+//
+// Markup:
+// Markup:
+// <code>
+//   $ echo woof
+//   <samp>woof</samp>
+// </code>
+//
+// Styleguide Base.Code.samp
+samp {
+	background-color: $color-pink-tint;
+}
+
+// var
+//
+// Initial styles applied to the `var` element without a class applied to it.
+//
+// Markup:
+// <var>$font-family-code</var>
+//
+// Styleguide Base.Code.var

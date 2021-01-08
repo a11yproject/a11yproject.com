@@ -1,0 +1,151 @@
+$_c-input-margin-top: 1.5rem;
+
+
+.c-form {
+	margin-top: 1rem;
+}
+
+
+.c-form__label {
+	display: inline-block;
+	font-weight: $font-weight-bold;
+	margin-top: $_c-input-margin-top;
+	padding-bottom: 0.25rem;
+}
+
+
+.c-form__input {
+	background-color: $color-sand;
+	border: $border-thinnest solid $color-gray-shade;
+	line-height: $line-height-single;
+	padding: 0.5rem;
+	transition: background-color $animation-duration-shorter $animation-easing-character;
+	width: 100%;
+
+	&:hover,
+	&:active {
+		background-color: $color-white;
+	}
+
+	&:focus {
+		border-color: $color-pink-shade;
+		outline: $border-thinner solid $color-pink-shade;
+	}
+
+	&:active {
+		transition: none;
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+.c-form__input--multiline {
+	line-height: $line-height-loose;
+	min-height: 15rem;
+}
+
+
+.c-form__button {
+	background-color: $color-pink-shade;
+	border: none;
+	border-radius: 0.25rem;
+	color: $color-white;
+	cursor: pointer;
+	font-family: $font-family-secondary;
+	margin-top: $_c-input-margin-top * 1.5;
+	min-width: 20ch;
+	padding: 0.75rem 1.25rem;
+	text-transform: uppercase;
+	transition: background-color $animation-duration-shorter $animation-easing-character;
+
+	// States
+	&:hover {
+		background-color: $color-black;
+	}
+
+	&:focus {
+		box-shadow:
+			0 0 0 em(2) $color-sand,
+			0 0 0 em(4) $color-pink-shade;
+		outline: $border-thin solid transparent;
+	}
+
+	&:active {
+		@include shift-click();
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+.c-form__vendor {
+	color: $color-black;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+
+.c-form__instructions {
+	position: relative;
+		bottom: 1rem;
+}
+
+
+.c-form__error-wrapper {
+	border: $border-thin solid $color-red;
+	padding: 0.5rem;
+
+	.c-form__error-list {
+		padding: 0 1rem;
+	}
+
+	.c-form__error-message {
+		font-size: 0.75rem;
+		padding-top: 0.25rem;
+
+		a {
+			@include link-states($color-black);
+		}
+	}
+}
+
+.c-form__input[aria-invalid]{
+	border: $border-thinner solid $color-red;
+}
+
+.c-form__progress {
+	background-color: $color-black;
+	min-height: 2rem;
+	margin-bottom: 3rem;
+	max-width: 68ch;
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+
+.c-form__progress-fill {
+	background-color: $color-yellow;
+}
+
+
+.c-form__progress-label {
+	background-color: $color-sand;
+	font-family: $font-family-secondary;
+	margin-top: 0;
+	padding-left: 1rem;
+}

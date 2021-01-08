@@ -1,0 +1,43 @@
+// Animation Easing
+//
+// Controls how animations accelerate and decelerate. The easing terms
+// communicate how elements on the page relate to each other.
+//
+// Make sure that your animations don't flash, strobe, or have too great a
+// contrast between the static elements they are placed next to, so as to not
+// be a trigger for conditions such as vertigo and ADHD. You may also want to
+// use a [`prefers-reduced-motion` media query](https://css-tricks.com/introduction-reduced-motion-media-query/)
+// for people who have expressed a desire for less animation.
+//
+// Styleguide Logic.Variables.animation-easing
+
+
+// animation-easing-character
+//
+// Weight: 1
+//
+// The main focus of the animated element.
+//
+// Styleguide Logic.Variables.animation-easing.animation-easing-character
+$animation-easing-character: ease-in-out;
+
+
+// animation-easing-dialogue
+//
+// Weight: 2
+//
+// Sub-items the character may be animating.
+//
+// Styleguide Logic.Variables.animation-easing.animation-easing-dialogue
+$animation-easing-dialogue: ease-out;
+
+
+// animation-easing-background
+//
+// Weight: 3
+//
+// The background which a character is placed on. Can also apply to background
+// elements and layout.
+//
+// Styleguide Logic.Variables.animation-easing.animation-easing-background
+$animation-easing-background: linear;

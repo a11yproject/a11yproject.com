@@ -1,0 +1,18 @@
+.l-footer-nav {
+	// Supports
+	@supports #{$supports-flex} {
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			display: flex;
+			flex-flow: row wrap;
+		}
+
+		@include mappy-bp(lap-small) {
+			justify-content: space-between;
+		}
+
+		@include mappy-bp(lap-medium) {
+			justify-content: flex-start;
+		}
+	}
+}

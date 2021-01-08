@@ -1,0 +1,34 @@
+{
+	"about": {
+		"title": "About",
+		"subtitle": "All about this project"
+	},
+	"authors": {
+		"title": "Authors",
+		"subtitle": "A bit about our contributors"
+	},
+	"checklist": {
+		"title": "Checklist",
+		"subtitle": "Check your WCAG compliance"
+	},
+	"contribute": {
+		"title": "Checklist",
+		"subtitle": "We'd love your help"
+	},
+	"posts": {
+		"title": "Posts",
+		"subtitle": "Posts by category"
+	},
+	"resources": {
+		"title": "Resources",
+		"subtitle": "Software, books, blogs, online tools, etc."
+	},
+	"spotlight": {
+		"title": "Spotlight",
+		"subtitle": "People championing digital accessibility"
+	},
+	"team": {
+		"title": "Team",
+		"subtitle": "The people who help make this all happen"
+	}
+}

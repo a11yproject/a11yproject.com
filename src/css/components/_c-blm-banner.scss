@@ -1,0 +1,30 @@
+.c-blm-banner {
+	background-color: #211009;
+	color: $color-sand;
+	font-family: $font-family-secondary;
+	padding: 0.25rem map-get($global-bleed, small);
+	text-align: center;
+
+	// User Queries
+	@media screen and (-ms-high-contrast: active) {
+		background-color: windowText;
+		color: window;
+	}
+}
+
+
+.c-blm-banner__link {
+	@include link-states($color-white);
+
+	color: $color-white;
+
+	// States
+	&:focus {
+		color: $color-black;
+	}
+
+	// User Queries
+	@media screen and (-ms-high-contrast: active) {
+		color: window;
+	}
+}

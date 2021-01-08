@@ -1,0 +1,60 @@
+// Namespace
+.c-content {
+	// Measure
+	dl,
+	hr,
+	ol,
+	p,
+	ul {
+		max-width: $global-type-measure;
+	}
+
+
+	// Vertical spacing
+	blockquote,
+	dl,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	ol,
+	p,
+	pre,
+	table,
+	ul {
+		margin-top: $_c-post-vertical-spacing;
+	}
+
+
+	// Extra breathing room
+	blockquote,
+	figure,
+	pre,
+	table {
+		margin-bottom: $_c-post-breathing-room;
+	}
+
+	// Supports
+	@supports #{$supports-grid} {
+		// Contexts
+		.template-post & {
+			// This selector targets only the first child paragraph of
+			// `.c-content`, allowing us to apply the tl;dr image
+			& > p:first-of-type {
+				@include post-content-flourish("section-short-answer.svg", 169, 0.75rem);
+
+				font-size: 1.25rem;
+				font-family: $font-family-secondary;
+				line-height: $line-height-looser;
+				margin-top: 0;
+				margin-bottom: $_c-post-vertical-spacing * 1.25;
+			}
+
+			code,
+			kbd {
+				font-size: 80%;
+			}
+		}
+	}
+}

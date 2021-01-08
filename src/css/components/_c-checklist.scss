@@ -1,0 +1,280 @@
+$_checklist-checkbox-size: (
+	small: 1.25rem,
+	large: 1.5rem
+);
+$_checklist-icon-size: (
+	small: 1rem,
+	large: 1.5rem
+);
+$_checklist-inset: (
+	small: 3rem,
+	large: 4rem
+);
+$_checklist-padding: (
+	small: 1rem,
+	large: 1.5rem
+);
+
+
+.c-checklist__wrapper {
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+
+.c-card__wrapper .c-checklist__wrapper:first-of-type .c-checklist {
+	border-top: $border-thinnest solid $color-blue-shade;
+}
+
+
+.c-checklist {
+	border-bottom: $border-thinnest solid $color-blue-shade;
+	border-right: $border-thinnest solid $color-blue-shade;
+	border-left: $border-thinnest solid $color-blue-shade;
+	list-style-image: none;
+	width: 100%;
+
+	// States
+	&[open] {
+		.c-checklist__icon {
+			transform: rotate(90deg);
+		}
+	}
+
+	&:hover {
+		.c-checklist__icon {
+			fill: $color-blue-tint;
+		}
+	}
+
+	// Vendor
+	// [1] Removes default browser `details` element arrow
+	& > summary {
+		list-style: none; // [1]
+	}
+
+	& > summary::-webkit-details-marker {
+		display: none; // [1]
+	}
+
+	// Text-level formatting
+	code {
+		background-color: $color-blue-tint;
+		margin-left: 0.25ch;
+		margin-right: 0.25ch;
+		padding: 0.3ch 0.5ch;
+	}
+}
+
+
+.c-checklist__summary {
+	cursor: pointer;
+	padding: map-get($_checklist-padding, small) map-get($_checklist-padding, small) map-get($_checklist-padding, small) 1rem;
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		padding: map-get($_checklist-padding, large) map-get($_checklist-padding, large) map-get($_checklist-padding, large) 1.5rem;
+	}
+
+	// States
+	&:focus {
+		background-color: $color-blue-shade;
+		color: $color-white;
+		outline: $border-thin solid transparent;
+
+		.c-checklist__icon {
+			fill: $color-white;
+		}
+
+		// Text-level formatting
+		code {
+			color: $color-blue-shade;
+		}
+	}
+}
+
+.c-checklist__summary-inner {
+	// Supports
+	@supports #{$supports-flex} {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+.c-checklist__icon {
+	fill: $color-blue-shade;
+	height: map-get($_checklist-icon-size, small);
+	width: map-get($_checklist-icon-size, small);
+	transition: fill $animation-duration-shorter $animation-easing-character;
+
+	// Supports
+	@supports #{$supports-flex} {
+		flex-shrink: 0;
+	}
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			height: map-get($_checklist-icon-size, large);
+			width: map-get($_checklist-icon-size, large);
+		}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+.c-checklist__title {
+margin-left: 1rem;
+	// Supports
+	@supports #{$supports-flex} {
+		flex: 1;
+	}
+}
+
+
+.c-checklist__checkbox {
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	input[type="checkbox"] {
+		position: relative;
+			left: 0.2rem; // HACK: Ensures iOS checkboxes are tucked fully under the generated checkbox
+	}
+
+	// SEE: https://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html
+	// Sets up the checkbox box
+	input[type="checkbox"] + label::before {
+		background-color: $color-sand;
+		border: $border-thinner solid $color-blue-shade;
+		box-sizing: border-box;
+		content: "";
+		cursor: pointer;
+		display: block;
+		float: left;
+		height: map-get($_checklist-checkbox-size, small);
+		margin-right: map-get($_checklist-checkbox-size, small) / 1.5;
+		margin-left: map-get($_checklist-checkbox-size, small) / -2; // This covers the native checkbox element
+		position: relative;
+		width: map-get($_checklist-checkbox-size, small);
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			height: map-get($_checklist-checkbox-size, large);
+			margin-right: map-get($_checklist-checkbox-size, large) / 1.5;
+			margin-left: map-get($_checklist-checkbox-size, large) / -2; // This covers the native checkbox element
+			width: map-get($_checklist-checkbox-size, large);
+		}
+	}
+
+	input[type="checkbox"]:focus + label::before {
+		box-shadow:
+			0 0 0 em(2) $color-sand,
+			0 0 0 em(4) $color-blue-shade;
+		outline: $border-thin solid transparent;
+	}
+
+	// Positions the checkmark
+	input[type="checkbox"] + label::after {
+		content: "";
+		display: block;
+		height: map-get($_checklist-checkbox-size, small);
+		position: relative;
+			top: 0.5em;
+			left: 0.5em;
+		transform: rotate(0deg);
+		width: map-get($_checklist-checkbox-size, small);
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			height: map-get($_checklist-checkbox-size, large);
+			width: map-get($_checklist-checkbox-size, large);
+		}
+	}
+
+	// Checked checkmark styling
+	input[type="checkbox"]:checked + label::after {
+		border-right: 0.15rem solid $color-blue-shade;
+		border-bottom: 0.15rem solid $color-blue-shade;
+		height: 0.6rem;
+		left: -0.225rem;
+		top: 0.2rem;
+		width: 0.3rem;
+		transform: rotate(45deg);
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			height: 0.8rem;
+			left: -0.25rem;
+			width: 0.4rem;
+		}
+	}
+}
+
+
+.c-checklist__citation {
+	margin-top: 0.5rem;
+	padding-left: map-get($_checklist-inset, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		padding-left: map-get($_checklist-inset, large);
+	}
+}
+
+
+.c-checklist__link {
+	@include link-states($color-blue-shade);
+
+	font-family: $font-family-secondary;
+	letter-spacing: $font-tracking-slight;
+	/* stylelint-disable-next-line property-no-unknown */
+	text-decoration-thickness: $border-thinnest;
+	text-underline-offset: 0.3em;
+
+	// States
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+.c-checklist__description {
+	line-height: $line-height-looser;
+	margin-top: 0.75rem;
+	padding-right: map-get($_checklist-padding, small);
+	padding-bottom: map-get($_checklist-padding, small);
+	padding-left: map-get($_checklist-inset, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		padding-right: map-get($_checklist-padding, large);
+		padding-bottom: map-get($_checklist-padding, large);
+		padding-left: map-get($_checklist-inset, large);
+	}
+
+	// Text-level formatting
+	a {
+		@include link-states($color-blue-shade);
+	}
+}
+
+.c-checklist__share-link {
+	padding-bottom: map-get($_checklist-padding, small);
+	padding-left: map-get($_checklist-inset, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		padding-bottom: map-get($_checklist-padding, large);
+		padding-left: map-get($_checklist-inset, large);
+	}
+}

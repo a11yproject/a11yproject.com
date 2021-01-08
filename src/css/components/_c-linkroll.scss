@@ -1,0 +1,168 @@
+@mixin _generate-context-borders($border-direction) {
+	.c-linkroll__entry--background & {
+		border-#{$border-direction}-color: $color-gray-shade;
+	}
+
+	.c-linkroll__entry--assistive-technology &,
+	.c-linkroll__entry--how-to & {
+		border-#{$border-direction}-color: $color-yellow;
+	}
+
+	.c-linkroll__entry--myth &,
+	.c-linkroll__entry--announcement & {
+		border-#{$border-direction}-color: $color-pink;
+	}
+
+	.c-linkroll__entry--quick-test & {
+		border-#{$border-direction}-color: $color-blue;
+	}
+
+	.c-linkroll__entry--quick-tip & {
+		border-#{$border-direction}-color: $color-green;
+	}
+}
+
+
+@mixin _generate-interactive-backgrounds() {
+	background-color: $color-white;
+
+	// States
+	&:hover,
+	&:focus {
+		background-color: $color-gray-shade;
+		outline: $border-thin solid transparent;
+
+		.c-linkroll__title,
+		.c-linkroll__category,
+		.c-linkroll__featured {
+			color: $color-white;
+		}
+
+		.c-linkroll__featured {
+			border-bottom-color: $color-white;
+		}
+
+		// Contexts
+		.c-linkroll__entry--background & {
+			background-color: $color-gray-shade;
+		}
+
+		.c-linkroll__entry--assistive-technology &,
+		.c-linkroll__entry--how-to & {
+			background-color: $color-yellow;
+		}
+
+		.c-linkroll__entry--myth &,
+		.c-linkroll__entry--announcements & {
+			background-color: $color-pink;
+		}
+
+		.c-linkroll__entry--quick-test & {
+			background-color: $color-blue;
+		}
+
+		.c-linkroll__entry--quick-tip & {
+			background-color: $color-green;
+		}
+	}
+}
+
+
+// Linkroll
+//
+// Style guide: Components.linkroll
+.c-linkroll {
+	margin-top: 1rem;
+}
+
+
+.c-linkroll__entry {
+	@include preserve-list-semantics();
+
+	margin-top: 1.25rem;
+}
+
+
+.c-linkroll__link {
+	@include _generate-interactive-backgrounds();
+
+	border-left: $border-thickest solid transparent;
+	padding: 1.25rem 1.75rem;
+	text-decoration: none;
+	transition:
+		background-color $animation-duration-shorter $animation-easing-character,
+		color $animation-duration-shorter $animation-easing-character;
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-direction: column;
+	}
+
+	// Contexts
+	@include _generate-context-borders("left");
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+.c-linkroll__link--featured {
+	border-top: $border-thicker solid transparent;
+	border-left: none;
+
+	// Contexts
+	@include _generate-context-borders("top");
+}
+
+
+.c-linkroll__category {
+	// Contexts
+	.c-linkroll__entry--assistive-technology & {
+		color: $color-gray-shade;
+	}
+
+	.c-linkroll__entry--background & {
+		color: $color-gray-shade;
+	}
+
+	.c-linkroll__entry--how-to & {
+		color: $color-yellow;
+	}
+
+	.c-linkroll__entry--myth &,
+	.c-linkroll__entry--announcements & {
+		color: $color-pink;
+	}
+
+	.c-linkroll__entry--quick-test & {
+		color: $color-blue;
+	}
+
+	.c-linkroll__entry--quick-tip & {
+		color: $color-green;
+	}
+}
+
+.c-linkroll__category--featured {
+	padding-top: 1rem;
+}
+
+
+.c-linkroll__title {
+	color: $color-black;
+	line-height: $line-height-tight;
+	text-decoration: none;
+}
+
+.c-linkroll__featured {
+	border-bottom: $border-thin dotted transparent;
+	color: $color-black;
+	font-family: $font-family-secondary;
+	padding-bottom: 0.75rem;
+
+	// Contexts
+	@include _generate-context-borders("bottom");
+}

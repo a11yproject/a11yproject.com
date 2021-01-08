@@ -1,0 +1,88 @@
+// A11Y Banner
+//
+// The A11Y Banner boldly and directly explains what the neuronym "A11Y" is, as
+// well as the site's mission. It is meant to be placed inside the homepage's
+// hero component.
+//
+// Style guide: Components.banner-a11y
+.c-a11y-summary {
+	background-color: $color-white;
+	border-top: $border-thicker solid $color-pink-tint;
+	padding: 1.5rem;
+	margin: 1rem 0;
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		margin: 3rem 0;
+	}
+
+	@include mappy-bp(palm-large) {
+		padding: 2rem 7rem 2.75rem;
+	}
+}
+
+
+.c-a11y-summary__explanation {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		font-size: $font-size-heading-tiny;
+	}
+
+	@include mappy-bp(palm-medium) {
+		font-size: $font-size-heading-medium;
+	}
+
+	@include mappy-bp(palm-large) {
+		font-size: $font-size-heading-larger;
+	}
+}
+
+
+.c-a11y-summary__accessibility {
+	display: block;
+	font-family: $font-family-secondary;
+	font-size: $font-size-heading-medium;
+	letter-spacing: $font-tracking-slight;
+
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		letter-spacing: $font-tracking-loose;
+	}
+
+	@include mappy-bp(palm-large) {
+		font-size: $font-size-heading-large;
+	}
+}
+
+
+.c-a11y-summary__11-characters {
+	font-size: $font-size-heading-tiny;
+	width: 11rem;
+
+	// Breakpoints
+	@include mappy-bp(wrist-large) {
+		width: 15.25rem;
+	}
+
+	@include mappy-bp(palm-medium) {
+		width: 17rem;
+	}
+}
+
+
+.c-a11y-summary__mission {
+	font-family: $font-family-secondary;
+	font-size: $font-size-body;
+	margin-top: 2rem;
+	max-width: 40ch;
+	text-align: center;
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		font-size: $font-size-body-medium;
+	}
+}

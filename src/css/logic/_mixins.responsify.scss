@@ -1,0 +1,10 @@
+// responsify
+//
+// Creates a basic full-width responsive element whose aspect ratio scales
+// proportionately. See [`u-responsify`](section-utilities.html#kssref-utilities-u-responsify).
+//
+// Styleguide Logic.Mixins.responsify
+@mixin responsify() {
+	height: auto;
+	width: 100%;
+}

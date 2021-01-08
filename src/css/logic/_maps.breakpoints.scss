@@ -1,0 +1,26 @@
+// breakpoints
+//
+// Organizes the site breakpoints. Breakpoints are declared with pixel values
+// to work with the [Mappy Breakpoints mixin](https://github.com/zellwk/mappy-breakpoints).
+//
+// Breakpoint names are based on the ergonomics of how people position
+// themselves around their devices, to help keep usability top-of-mind.
+//
+// Styleguide Logic.Maps.breakpoints
+$breakpoints: (
+	"wrist-small":  320px,
+	"wrist-medium": 400px,
+	"wrist-large":  480px,
+	"palm-small":   600px,
+	"palm-medium":  720px,
+	"palm-large":   900px,
+	"lap-small":    1080px,
+	"lap-medium":   1350px,
+	"lap-large":    1620px,
+	"desk-small":   2025px,
+	"desk-medium":  2430px,
+	"desk-large":   3038px,
+	"wall-small":   3646px,
+	"wall-medium":  4558px,
+	"wall-large":   5698px
+);

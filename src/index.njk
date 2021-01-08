@@ -1,0 +1,95 @@
+---
+layout: layouts/home.njk
+title: Home
+subtitle: The A11Y Project is a community-driven effort to make digital accessibility easier.
+tags:
+  - navprimary
+  - home
+---
+
+<nav class="l-toc v-toc__nav" aria-label="Table of Contents">
+	<h2 id="table-of-contents" class="u-hide-visually">
+		Table of Contents
+	</h2>
+	<ol>
+		<li>
+			<a href="#learn-the-fundamentals-and-principles-behind-accessible-design">Build basics</a>
+		</li>
+		<li>
+			<a href="#conduct-an-accessibility-audit">Conduct an audit</a>
+		</li>
+		<li>
+			<a href="#meet-the-community">Cultivate community</a>
+		</li>
+		<li>
+			<a href="#explore-resources">Explore resources</a>
+		</li>
+	</ol>
+</nav>
+
+<div class="l-content">
+	<h2 class="c-heading-larger" id="learn-the-fundamentals-and-principles-behind-accessible-design">
+		Learn the fundamentals and principles behind accessible design
+	</h2>
+
+	<div class="c-homepage-feature c-homepage-feature--50-50">
+
+		{% set featuredResource = homepage.featuredResources[0] %}
+		{% include "homepage/featured-resource.njk" %}
+
+		{% set featuredResource = homepage.featuredResources[1] %}
+		{% include "homepage/featured-resource.njk" %}
+
+	</div>
+
+	<div class="c-homepage-feature c-homepage-feature--50-50">
+		<div class="c-homepage-card">
+			<h2 class="c-heading-larger" id="conduct-an-accessibility-audit">
+				Conduct an accessibility audit
+			</h2>
+			<p class="c-homepage-card__description">
+				This checklist uses the The Web Content Accessibility Guidelines (<abbr>WCAG</abbr>) as a reference point. This checklist targets many, but not all level A and AA concerns.
+			</p>
+			<p>
+				<a class="c-homepage-card__cta" href="{{ '/checklist/' | url }}">Review the checklist</a>
+			</p>
+		</div>
+
+		<div class="c-homepage-card c-homepage-card--checklist">
+			<svg class="c-homepage-card__checklist" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="280px" height="220px" viewBox="0 0 407 320"><title>The letters AAA in pink and teal.</title><defs><style>.cls-2{fill:#fb37ff}.cls-3{fill:#2f7851}</style></defs><path d="M157.92 150.59H155q-6.49 0-10.11-2.46c-2.25-1.65-4.18-4.78-5.82-9.41L88.48.07H71L21.32 133.12q-4 10.74-7.39 14.11-3.13 3.38-9.64 3.37H0v9.4h54.65v-9.41h-5.14q-14.8 0-14.79-10.94a28.14 28.14 0 012-9.63l8.52-23.52h58.94l9 25.09a35 35 0 011.35 4.48 17.39 17.39 0 01.45 3.8q0 10.75-13.48 10.76h-5.18V160h61.15v-9.41zM49.51 95.27l15.22-41.22Q68.56 43.52 71 36.13a124.51 124.51 0 004-15.46 169.7 169.7 0 004.71 16.85q2.9 8.71 6.49 18.59l13.89 39.2z" fill="#f1cbe6"/><path class="cls-2" d="M312.42 150.59a25.8 25.8 0 01-5.68-.54 11.88 11.88 0 01-4.26-1.87 13.42 13.42 0 01-3.29-3.71 42.05 42.05 0 01-2.63-5.8L246 .09h-17.5l-49.69 133a90.37 90.37 0 01-3.83 8.74 21.17 21.17 0 01-3.5 5.36 10 10 0 01-4.16 2.74 20.51 20.51 0 01-5.57.65h-3.82V160h54.24v-9.41H207q-7.58 0-11.27-2.62c-2.41-1.75-3.61-4.53-3.61-8.32a20.83 20.83 0 01.55-4.37 37.08 37.08 0 011.53-5.25l8.53-23.51h58.85l9 25a43.54 43.54 0 011.31 4.49 14.51 14.51 0 01.55 3.82q0 10.74-13.48 10.72h-5.13V160h61.57v-9.41zM207 95.25L222.15 54q2-5.24 3.5-9.52t2.81-8.26c.84-2.62 1.53-5.18 2.18-7.65s1.35-5.18 1.87-7.88q1.85 8.1 4.69 16.84t6.46 18.6l13.89 39.16z"/><path class="cls-2" d="M157.47 150.59h.45V160h-.45zM365 95.25L380.16 54q2-5.24 3.5-9.52c1-2.85 1.94-5.6 2.74-8.26s1.52-5.18 2.18-7.65 1.35-5.18 1.86-7.88q1.86 8.1 4.7 16.84t6.46 18.6l4.82 13.6V7L403.9.09h-17.5l-49.68 133a93 93 0 01-3.84 8.74 21.31 21.31 0 01-3.49 5.36 10.1 10.1 0 01-4.16 2.74 20.58 20.58 0 01-5.58.65h-4.26V160h54.68v-9.41h-5.14q-7.57 0-11.26-2.62c-2.41-1.75-3.62-4.53-3.62-8.32a21.51 21.51 0 01.55-4.37 35.84 35.84 0 011.54-5.25l8.53-23.51h45.73V95.25z"/><path class="cls-3" d="M155 310.59a25.89 25.89 0 01-5.69-.54 12 12 0 01-4.26-1.87 13.22 13.22 0 01-3.28-3.71 39.81 39.81 0 01-2.63-5.8L88.49 160.09H71L21.3 293.1a94.38 94.38 0 01-3.83 8.74A21.21 21.21 0 0114 307.2a10 10 0 01-4.15 2.74 20.51 20.51 0 01-5.57.65H0V320h54.69v-9.41h-5.14q-7.57 0-11.27-2.62c-2.41-1.75-3.61-4.53-3.61-8.32a20.83 20.83 0 01.55-4.37 37.08 37.08 0 011.53-5.28l8.53-23.51h58.85l9 25a43.54 43.54 0 011.31 4.49 14.51 14.51 0 01.55 3.82q0 10.72-13.48 10.72h-5.16V320h61.57v-9.41zM49.55 255.25L64.71 214q2-5.25 3.5-9.52c1-2.85 2-5.6 2.77-8.26s1.53-5.17 2.19-7.65 1.35-5.18 1.86-7.88q1.86 8.1 4.7 16.84t6.46 18.6l13.89 39.16z"/><path class="cls-3" d="M312.93 310.59a26 26 0 01-5.7-.54 12 12 0 01-4.26-1.87 13.38 13.38 0 01-3.28-3.71 39.81 39.81 0 01-2.63-5.8l-50.63-138.58h-17.5l-49.69 133a89.3 89.3 0 01-3.83 8.74 21.59 21.59 0 01-3.49 5.36 10.1 10.1 0 01-4.16 2.74 20.58 20.58 0 01-5.58.65h-4.27V320h54.69v-9.41h-5.14q-7.58 0-11.27-2.62c-2.4-1.75-3.61-4.53-3.61-8.32a20.83 20.83 0 01.55-4.37 37.08 37.08 0 011.53-5.25l8.53-23.51h58.87l9 25a43.59 43.59 0 011.32 4.49 14.5 14.5 0 01.54 3.82q0 10.72-13.47 10.72h-5.1V320h61.55v-9.41zm-105.44-55.34l15.2-41.25q2-5.25 3.5-9.52t2.74-8.31c.8-2.63 1.52-5.17 2.18-7.65s1.35-5.18 1.86-7.88q1.86 8.1 4.7 16.84t6.46 18.6L258 255.23z"/><path class="cls-3" d="M365.42 255.25l15.2-41.25q2-5.25 3.51-9.52t2.73-8.26c.84-2.63 1.53-5.17 2.18-7.65s1.36-5.18 1.86-7.88q1.88 8.1 4.71 16.84t6.45 18.6l4.36 12.28v-62.67l-2.06-5.65h-17.5l-49.68 133a94.38 94.38 0 01-3.83 8.74 21.35 21.35 0 01-3.5 5.36 10 10 0 01-4.16 2.74 20.51 20.51 0 01-5.57.65h-4.25V320h54.66v-9.41h-5.14c-5.05 0-8.78-.84-11.27-2.62s-3.61-4.53-3.61-8.32a20.83 20.83 0 01.55-4.37 35.8 35.8 0 011.53-5.25l8.53-23.51h45.27v-11.27z"/></svg>
+		</div>
+	</div>
+
+	<div class="c-homepage-feature c-homepage-feature--50-50">
+
+		{% set spotlight = homepage.spotlight[0] %}
+		{% include "homepage/spotlight.njk" %}
+
+	</div>
+
+	<div class="c-homepage-feature c-homepage-feature--60-40">
+		<div class="c-homepage-card c-homepage-card--resources">
+			<h2 class="c-heading-larger" id="explore-resources">
+				Explore resources
+			</h2>
+			<p class="c-homepage-card__description">
+				Tools, books, videos, podcasts, newsletters, even professional help! A lot of people have made a lot of great things to help you out. We collect them to help you discover and explore.
+			</p>
+			<p>
+				<a class="c-homepage-card__cta" href="{{ '/resources/' | url }}">See all resources</a>
+			</p>
+		</div>
+		<div class="c-homepage-card">
+			{# {% set postlist = collections.posts | head(-1) %} #}
+			<h2 class="c-heading-larger" id="recent-posts">
+				Recent posts
+			</h2>
+			<ul class="c-linkroll">
+				{% for post in collections.posts | head(-3) %}
+					{% include "linkroll.njk" %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,53 @@
+// html
+//
+// Styles applied to the `HTML` element. Largely used to set initial cascade for
+// site typography.
+//
+// Styleguide Base.html
+html {
+	background-color: $color-sand;
+	color: $color-black;
+	font-family: $font-family-primary;
+	font-size: $global-type-size;
+	font-weight: $font-weight-regular;
+	line-height: $line-height-loose;
+	margin: 0;
+	min-height: 100%;
+	overflow-y: scroll;
+	padding: 0;
+	text-size-adjust: 100%;
+
+	// Typography
+	-ms-overflow-style: scrollbar;
+	-ms-text-size-adjust: 100%; /* stylelint-disable-line property-no-vendor-prefix */
+	-webkit-text-size-adjust: 100%; /* stylelint-disable-line property-no-vendor-prefix */
+
+	font-kerning: normal;
+	-moz-font-feature-settings: "kern"; /* stylelint-disable-line property-no-vendor-prefix */
+	-ms-font-feature-settings: "kern"; /* stylelint-disable-line property-no-vendor-prefix */
+	-webkit-font-feature-settings: "kern"; /* stylelint-disable-line property-no-vendor-prefix */
+	font-feature-settings: "kern";
+
+	&:lang(en-US) {
+		hyphens: auto;
+		word-break: break-word;
+	}
+
+	// Supports
+	@supports #{$supports-hanging-punctuation} {
+		hanging-punctuation: first;
+	}
+
+	// Media Queries
+	@media screen and (-webkit-min-device-pixel-ratio: 2),
+	screen and (min-resolution: 2dppx) {
+		/* stylelint-disable-next-line property-no-unknown */
+		font-smoothing: subpixel-antialiased; // Only apply to devices that support font smoothing: https://www.zachleat.com/web/font-smooth/
+	}
+
+	// Vendor
+	/* stylelint-disable-next-line at-rule-no-vendor-prefix */
+	@-ms-viewport {
+		width: device-width; // https://msdn.microsoft.com/en-us/library/hh869615(v=vs.85).aspx
+	}
+}

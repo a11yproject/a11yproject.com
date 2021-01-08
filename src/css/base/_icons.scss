@@ -1,0 +1,40 @@
+// Icons
+//
+// Controls site iconography. It is important to ensure that your icons purpose
+// is clear and is properly announced by assistive technology. Make sure that
+// icon imagery is universal, and can be understood regardless of location or
+// level of technological literacy.
+//
+// Styleguide Base.Icons
+
+
+// icon-sprite
+//
+// Ensures icon sprites don't affect layout.
+//
+// Styleguide Base.Icons.icon-sprite
+.icon-sprite {
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+	visibility: hidden;
+	width: 0;
+}
+
+
+// icon-
+//
+// Applies formatting to any class that contains `icon-`.
+//
+// Styleguide Base.Icons.icon-
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline-block;
+	fill: currentColor;
+	height: 1em;
+	pointer-events: none;
+	speak: none;
+	stroke: currentColor;
+	stroke-width: 0;
+	width: 1em;
+}

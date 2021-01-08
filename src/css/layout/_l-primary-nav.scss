@@ -1,0 +1,43 @@
+.l-primary-nav {
+	padding: 1rem map-get($global-bleed, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		padding: 1rem map-get($global-bleed, large);
+	}
+
+	// Supports
+	@supports #{$supports-flex} {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			flex-direction: row;
+		}
+	}
+}
+
+
+.l-primary-nav__sections {
+	margin-top: 1rem;
+	width: 100%;
+
+	// Supports
+	@supports #{$supports-flex} {
+		display: flex;
+		flex-flow: row wrap;
+		margin-top: 0;
+
+		// Breakpoints
+		@include mappy-bp(palm-small) {
+			flex-flow: row initial;
+		}
+
+		@include mappy-bp(lap-small) {
+			width: initial;
+		}
+	}
+}

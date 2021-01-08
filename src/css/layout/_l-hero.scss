@@ -1,0 +1,89 @@
+.l-hero {
+	position: relative;
+	height: auto;
+	padding: map-get($global-bleed, small) 0 (map-get($global-bleed, large) * 1.5) 0;
+
+	@include mappy-bp(lap-large) {
+		height: 75vh;
+		min-height: rem(425);
+	}
+
+	// Contexts
+	.template-posts &,
+	.template-checklist &,
+	.template-resources &,
+	.template-about &,
+	.template-contribute &,
+	.template-team &,
+	.template-authors &,
+	.template-spotlight &,
+	.template-404 & {
+		height: 40vh;
+
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			height: 75vh;
+		}
+	}
+
+	// Supports
+	@supports #{$supports-flex} {
+		// Breakpoints
+		@include mappy-bp(palm-large) {
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+}
+
+
+.l-hero__promo {
+	margin-left: map-get($global-bleed, small);
+	margin-right: map-get($global-bleed, small);
+	position: relative;
+	top: unset;
+	transform: perspective(1px) translateY(0); // HACK: Keeps content from rendering blurry
+
+	// Supports
+	@supports #{$supports-flex} {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		margin-left: map-get($global-bleed, large);
+		margin-right: map-get($global-bleed, large);
+	}
+
+	@include mappy-bp(palm-large) {
+		margin: 0 15vw;
+	}
+
+	@include mappy-bp(lap-small) {
+		margin: 0 20vw;
+	}
+
+	@supports #{$supports-grid} {
+		grid-area: hero;
+
+		// Breakpoints
+		@include mappy-bp(palm-large) {
+			margin-top: 0;
+			margin-bottom: 0;
+			position: unset;
+			transform: none;
+		}
+
+		@include mappy-bp(lap-small) {
+			margin: 0;
+		}
+
+		@include mappy-bp(lap-large) {
+			margin-bottom: rem(50);
+		}
+	}
+}

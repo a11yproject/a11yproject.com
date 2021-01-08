@@ -1,0 +1,76 @@
+.l-generic-title {
+background-color: #ffc2cc;
+	// Supports
+	@supports #{$supports-flex} {
+		// Breakpoints
+		@include mappy-bp(palm-large) {
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			display: grid;
+			grid-template-columns: 1fr minmax(0, 60vw) 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-areas:
+				". .    ."
+				". hero ."
+				". .    .";
+		}
+
+		@include mappy-bp(lap-medium) {
+			grid-template-columns: 1fr minmax(0, 45vw) 1fr;
+		}
+	}
+}
+
+
+.l-hero__promo {
+	margin-left: map-get($global-bleed, small);
+	margin-right: map-get($global-bleed, small);
+	position: relative;
+		top: 50%;
+	transform: perspective(1px) translateY(-60%); // HACK: Keeps`perspective(1px)` keeps content from rendering blurry
+
+	// Supports
+	@supports #{$supports-flex} {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		margin-left: map-get($global-bleed, large);
+		margin-right: map-get($global-bleed, large);
+	}
+
+	@include mappy-bp(palm-large) {
+		margin: 0 15vw;
+	}
+
+	@include mappy-bp(lap-small) {
+		margin: 0 20vw;
+	}
+
+	@supports #{$supports-grid} {
+		grid-area: hero;
+
+		// Breakpoints
+		@include mappy-bp(palm-large) {
+			margin-top: 0;
+			margin-bottom: 0;
+			position: unset;
+			transform: none;
+		}
+
+		@include mappy-bp(lap-small) {
+			margin: 0;
+		}
+	}
+}

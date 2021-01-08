@@ -1,57 +1,69 @@
-[![http://simplea11y.com](http://a11yproject.com/img/README-logo.svg)](http://a11yproject.com)
+![A11Y.](https://github.com/a11yproject/a11yproject.com/blob/main/src/img/social/og-image-home.png?raw=true)
 
-A11Y Project
-==========
+# The A11Y Project
 
-Making *#A11Y* tips and tricks easier to digest and leveraging the community into the cloud. The Accessibility Project is a community&ndash;driven effort to make web accessibility easier.
+The Accessibility [(A11Y)](https://a11yproject.com/posts/2017-08-26-a11y-and-other-numeronyms/) Project is an Open-source, community-driven effort to make digital accessibility easier.
 
-This site is the product of a community of people who want to help to make web accessibility&hellip;well, accessible. Our goal is to accomplish this with 3 tennets in mind:
 
-1. **Digestible.** Articles on accessibilty tend to be in-depth. We feature short, digestible pieces of content.
-2. **Up-to-date.** The project is hosted on Github so information can be current with the latest standards.
-3. **Forgiving.** People make mistakes and web accessiblity is hard, so we seek to be encouraging.
+## Contributing
 
-##Requirements
-========
-In order to contribute you'll need to know a bit about [Jekyll](https://github.com/mojombo/jekyll), [Compass](http://compass-style.org), [Sass](http://sass-lang.com), [Twitter Bootstrap](http://twitter.github.com/bootstrap), [Bash](http://www.gnu.org/software/bash/manual/bashref.html#What-is-Bash_003f) and [Markdown](http://daringfireball.net/projects/markdown/). You'll also need to know how to install *[Ruby Gems](https://rvm.io)* and of course have *[Ruby](http://www.ruby-lang.org/en/downloads/)* installed on your machine.
+You can learn about helping this project by reading our [Code of Conduct](https://a11yproject.com/code-of-conduct/), [Contributor documentation](https://a11yproject.com/contributing-guidelines/), and [Content Style Guide](https://a11yproject.com/content-style-guide/). Please familiarize yourself with them before submitting content.
 
-###Gems
+This `README` is focused on the technical side of the project. If you are interested in contributing information like Posts or Resources, please refer to our [Contributing Guidelines](https://a11yproject.com/contributing-guidelines/).
 
-Run the following to install the necessary gems for **A11Y Project**. (**Hint**: All the cool kids use [ruby version manager](https://rvm.io) to organize ``gemset`` dependencies):
 
-    gem install jekyll rdiscount compass
+## Development
 
-##Contributing
-========
-[Contributors Docs](https://github.com/a11yproject/a11yproject.com/blob/gh-pages/CONTRIBUTING.md)
+### Technology
 
-##Under the Hood
-========
-###Markup
+The A11Y Project uses [Eleventy](https://www.11ty.io/) to manage its content. Eleventy relies on [Markdown](https://daringfireball.net/projects/markdown/syntax), [Sass](https://sass-lang.com/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [JSON](https://www.json.org/) to function.
 
-Posts are all written in [Markdown](http://daringfireball.net/projects/markdown).
+It may be helpful to familiarize yourself with these technologies, depending on what you want to do. For more information, check our our [Contributor documentation](https://a11yproject.com/contributing-guidelines/).
 
-###Stylesheets
-Authored with [Compass](http://compass-style.org) and [Sass](http://sass-lang.com).
+### Requirements
 
-###Framework
+You'll need access to the following programs and technology in order to get the website running on your computer to work on:
 
-The site is built on a customized [Compass](http://compass-style.org/) port of [Twitter Bootstrap](http://twitter.github.com/bootstrap). [Jekyll](https://github.com/mojombo/jekyll) is used for templating and posts.
+1. A command line application such as Terminal.
+    - If you want to learn more about working in the command line, Wes Bos offers [a great free course](https://commandlinepoweruser.com/).
+    - If you are using Windows, [Hyper](https://hyper.is/) is a good, free command-line application you can download, install, and run.
+1. [Git](https://git-scm.com/) version control and a [GitHub account](https://github.com/).
+    - You can check to see if Git is already installed on your computer by typing `git --version` into your command line application. If it is installed it will list the currently installed version (e.g. `git version 2.18.0`).
+    - If you prefer to use a GUI to work with version control, GitHub offers a [free desktop app](https://desktop.github.com).
+1. [Node.js](https://nodejs.org/en/), a programming environment powered by JavaScript.
+    - You can check to see if Node.js is already installed on your computer by typing `node -v` into your command line application. If it is installed it will list the currently installed version (e.g. `v10.2.1`). The A11Y Project requires a minimum version of `10.14.2`.
+    - It may also be helpful to use a program such as [nvm](https://github.com/creationix/nvm) to help manage your Node.js versions. This will ensure that the version of Node.js your computer uses to run various things won't conflict with an updated version.
 
-##Local Development
-========
-The following are tasks which can be run from your shell of choice. Some of us use [iTerm](http://iterm.sourceforge.net/downloads.shtml) for Mac but whatevs.
+### Installation
 
-###Rake Commands
+Once you have met [the prerequisites](#requirements), follow these steps to install the website on your computer:
 
-The following ``rake`` tasks are available and are used for testing the site locally, on your own machine (use `rake -T` to list them):
+1. Clone this repository by entering this command into your command line application: `git clone https://github.com/a11yproject/a11yproject.com.git`. It will create a version controlled copy of the website in the directory you entered the command in.
+1. Navigate into the project's [root directory](https://en.m.wikipedia.org/wiki/Root_directory) by typing `cd a11yproject.com` in your command line application.
+1. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
-    rake build        # Build site with Jekyll
-    rake check_links  # Check links for site already running on localhost:4000
-    rake clean        # Clean up generated site
-    rake server       # Start server with --auto
-    rake check        # Check if site will run on Github pages
-    
-**Local Server**
+### Running the website
 
-Trigger the local server by executing the ``rake server`` task. Your local copy will now be accessible at `http://localhost:4000`. You should see a message thats says ``INFO  WEBrick::HTTPServer#start: pid=62675 port=4000`` which means your local copy can now be found at ``port 4000 ``.
+After cloning and installing project Node.js modules, type `npm start` into your command line application. This will tell Node.js to compile the project and turn it into a website.
+
+Your command line application will then display some information about Jekyll, including a line that starts with `Local:`. You can copy the URL it points to (it should read something like [`http://localhost:3000`](http://localhost:3000)) and paste it into a browser tab. This will load a local copy of the website that you can interact with to preview your changes.
+
+You can also use the `External` URL to preview the local copy on another device connected to the same network, which helps you check to see how the site looks and functions on things like smartphones. This is done via [Browsersync](https://www.browsersync.io/).
+
+### Updating the website
+
+Saving project files will make Node.js regenerate the website to reflect the changes you made. Your command line application will display some new messaging to reflect this, including any errors you might accidentally make. Don't worry! Since the site uses version control, you're not in danger of seriously breaking anything. If you fix the error, Node.js should continue to run.
+
+Make sure you edit the files in the `src/` subdirectory. Any edits made in the `dist` subdirectory will be overwritten by the next change to any file in `src/` and all your hard work will be lost!
+
+### Quitting
+
+You can tell Node.js to stop running by pressing the <kbd>Control</kbd> and <kbd>C</kbd> keys at the same time in your command line application, or by closing the command line application window or tab.
+
+### Code Tour
+
+If you use [Visual Studio Code](https://code.visualstudio.com/) as your code editor, you can take an introductory tour of the repository via the [CodeTour extension](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour).
+
+## Troubleshooting
+
+Please refer to our [Troubleshooting documentation](https://github.com/a11yproject/a11yproject.com/blob/main/TROUBLESHOOTING.md) for help with issues running the site.

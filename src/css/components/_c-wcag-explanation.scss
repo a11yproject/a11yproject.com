@@ -1,0 +1,80 @@
+.c-wcag-explanation {
+	background-color: $color-blue-tint;
+	font-family: $font-family-secondary;
+	margin-bottom: 1rem;
+	padding: 0.5rem 1.5rem 2rem;
+
+	// Breakpoints
+	@include mappy-bp(palm-small) {
+		padding: 0.5rem 4rem 2rem;
+	}
+
+	// Text-level formatting
+	p {
+		margin-top: 1.5rem;
+		max-width: $global-type-measure;
+	}
+}
+
+
+.c-wcag-explanation__link {
+	@include link-states($color-blue-shade);
+
+	/* stylelint-disable-next-line property-no-unknown */
+	text-decoration-thickness: $border-thinnest;
+	text-underline-offset: 0.3em;
+}
+
+
+.c-wcag-explanation__compliance-level {
+	margin-top: 2rem;
+	max-width: $global-type-measure;
+
+	// Breakpoints
+	@include mappy-bp(palm-large) {
+		margin-top: 0.5rem;
+
+		// Supports
+		@supports #{$supports-flex} {
+			display: flex;
+
+			// HACK: There's some weird flexbox layout thing happening here.
+			// This knocks it back into position.
+			&:last-of-type {
+				position: relative;
+					right: 1rem;
+			}
+		}
+	}
+}
+
+
+.c-wcag-explanation__icon {
+	width: 65%;
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		width: 45%;
+	}
+
+	// Breakpoints
+	@include mappy-bp(palm-large) {
+		// Supports
+		@supports #{$supports-flex} {
+			margin-top: 2rem;
+			margin-right: 1.5rem;
+			width: rem(320);
+		}
+	}
+}
+
+
+.c-wcag-explanation__conformance-level {
+	display: block;
+	font-weight: $font-weight-bold;
+
+	// Breakpoints
+	@include mappy-bp(palm-large) {
+		margin-top: 0;
+	}
+}

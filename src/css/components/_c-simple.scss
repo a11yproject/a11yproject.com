@@ -1,0 +1,44 @@
+.c-simple--404 {
+	background-image: url("#{$path-to-img}/heroes/404.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+.c-simple__hero {
+	background-color: $color-white;
+	border-top: $border-thicker solid $color-pink-shade;
+	margin-top: 2rem;
+	padding: 1rem 2rem 2rem;
+
+	// Supports
+	@supports #{$supports-flex} {
+		margin-top: 0;
+
+		// Breakpoints
+
+		@include mappy-bp(palm-large) {
+			width: 60%;
+		}
+	}
+
+	@include mappy-bp(lap-small) {
+		padding: 1rem 4rem 2rem;
+	}
+
+	// Text-level formatting
+	p {
+		font-family: $font-family-secondary;
+		margin-top: 1.5rem;
+	}
+}
+
+
+.c-simple__link {
+	@include link-states($color-pink-shade);
+
+	/* stylelint-disable-next-line property-no-unknown */
+	text-decoration-thickness: $border-thinner;
+	text-underline-offset: 0.25em;
+}

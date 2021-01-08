@@ -1,0 +1,13 @@
+.c-further-reading {
+	@include post-content-flourish("section-further-reading.svg", 132, 1.7rem);
+}
+
+
+.c-further-reading__title {
+	@include heading-large();
+
+	// Breakpoints
+	@include mappy-bp(lap-medium) {
+		@include hide("visually");
+	}
+}

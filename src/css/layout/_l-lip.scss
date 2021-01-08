@@ -1,0 +1,28 @@
+.l-lip {
+	// Supports
+	@supports #{$supports-grid} {
+		// Breakpoints
+		@include mappy-bp(lap-small) {
+			display: grid;
+			grid-template-columns: map-get($global-bleed, large) $global-grid-columns map-get($global-bleed, large);
+			grid-template-rows: 3rem;
+			grid-template-areas: ". hollow fill fill";
+		}
+	}
+	// Contexts
+	.template-home &,
+	.template-post &,
+	.template-simple & {
+		display: none;
+	}
+}
+
+
+.l-lip__hollow {
+	grid-area: hollow;
+}
+
+
+.l-lip__fill {
+	grid-area: fill;
+}

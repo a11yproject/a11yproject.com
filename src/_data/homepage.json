@@ -1,0 +1,29 @@
+{
+	"featuredResources": [
+		{
+			"title": "Accessibility for Everyone",
+			"author": "Laura Kalbag",
+			"description": "Laura gives an excellent primer on why accessibility matters, provides context for laws and guidelines, and gives insight on how to integrate accessible design into your process.",
+			"image": "accessibility-for-everyone.jpg",
+			"alt": "Two stacked copies of the book, Accessibility for Everyone.",
+			"cta": "Learn more about Accessibility for Everyone"
+		},
+		{
+			"title": "Introduction to Web Accessibility",
+			"author": "Michele Williams",
+			"description": "Understanding how people use their computing devices is vital to understanding the diversity of disability in technology. In this video, Michele explains what “making technology accessible” means.",
+			"image": "introduction-to-web-accessibility.jpg",
+			"alt": "Photo of Michele Williams.",
+			"cta": "Learn more about this video"
+		}
+	],
+	"spotlight": [
+		{
+			"name": "Segun Ola",
+			"role": "Frontend Web Developer",
+			"description": "Segun is a frontend web developer working with Andela Nigeria. They work with Andela partners to build highly interactive and accessible web applications.",
+			"image": "segun-ola.png",
+			"cta": "Meet Segun"
+		}
+	]
+}

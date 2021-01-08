@@ -1,6 +1,0 @@
-# Guarantee correct Ruby/Jekyll compatibility, for RVM users.
-# If you don't specify using > 1.9.3 globally with RVM, jekyll
-# commands don't work until you first type:
-# rvm use 1.9.3
-# Having the .rvmrc file just does this for you.
-rvm use 1.9.3
