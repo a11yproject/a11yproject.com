@@ -50,6 +50,7 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
 		"debug": "^4.1.1",
 		"del": "3.0.0",
+		"dotenv": "^8.2.0",
 		"gulp": "4.0.0",
 		"gulp-autoprefixer": "6.0.0",
 		"gulp-concat": "2.6.1",
