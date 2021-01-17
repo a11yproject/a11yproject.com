@@ -34,7 +34,7 @@ As a bonus, sites that can be navigated with a keyboard are more likely to be na
 
 Generally, pressing <kbd>Tab</kbd> moves focus between interactive elements and pressing <kbd>Enter</kbd> will interact with them.
 
-If you are using Safari, <kbd>Option</kbd> + <kbd>Tab</kbd> is the default keyboard shortcut to move focus between elements. You can update your settings to make <kbd>Tab</kbd> the default navigation key by following the instructions in this article: [Quick Tip: Safari Keyboard Navigation](/posts/safari-keyboard-navigation/)
+If you are using Safari, <kbd>Option</kbd> + <kbd>Tab</kbd> is the default keyboard shortcut to move focus between elements. You can update your settings to make <kbd>Tab</kbd> the default navigation key by following the instructions in this article: [Quick Tip: Safari Keyboard Navigation](/posts/2013-01-11-navigate-using-just-your-keyboard/)
 
 Additional keyboard shortcuts are described here: [WebAIM - Keyboard Accessibility](https://webaim.org/techniques/keyboard/)
 
@@ -44,6 +44,6 @@ Additional keyboard shortcuts are described here: [WebAIM - Keyboard Accessibili
 It is not enough to simply tab through a webpage from start to end. While navigating the site, keep these things in mind:
 
 - Interactive elements should be functional using only keyboard input.
-- The focused element should be visible and have an obvious focus style. See article: ["Quick Tip: Never remove CSS outlines"](/posts/never-remove-css-outlines/).
+- The focused element should be visible and have an obvious focus style. See article: ["Quick Tip: Never remove CSS outlines"](/posts/2013-01-25-never-remove-css-outlines/).
 - Focus should move between elements as they appear on the page and not jump back and forth.
-- There should be a way to skip past lengthy spans of content, like global navigation menus. See article: ["How–to: Use Skip Navigation links"](/posts/skip-nav-links/).
+- There should be a way to skip past lengthy spans of content, like global navigation menus. See article: ["How–to: Use Skip Navigation links"](/posts/2013-05-11-skip-nav-links/).

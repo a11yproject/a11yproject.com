@@ -25,33 +25,33 @@ templateClass: template-checklist
 
 		<div class="c-wcag-explanation__compliance-level">
 			<picture aria-hidden="true" class="c-wcag-explanation__icon">
-				<source  srcset="/img/checklist/wcag-level-a-large.svg" media="(min-width: 900px)" />
+				<source srcset="/img/checklist/wcag-level-a-large.svg" media="(min-width: 900px)" />
 				<img alt="" src="/img/checklist/wcag-level-a-small.svg" />
 			</picture>
 			<p class="c-wcag-explanation__description">
-				<strong class="c-wcag-explanation__conformance-level">A: Essential</strong>
+				<strong class="u-font-size-body-medium c-wcag-explanation__conformance-level">A: Essential</strong>
 				If this isn't met, assistive technology may not be able to read, understand, or fully operate the page or view.
 			</p>
 		</div>
 
 		<div class="c-wcag-explanation__compliance-level">
 			<picture aria-hidden="true" class="c-wcag-explanation__icon">
-				<source  srcset="/img/checklist/wcag-level-aa-large.svg" media="(min-width: 900px)" />
+				<source srcset="/img/checklist/wcag-level-aa-large.svg" media="(min-width: 900px)" />
 				<img alt="" src="/img/checklist/wcag-level-aa-small.svg" />
 			</picture>
 			<p class="c-wcag-explanation__description">
-				<strong class="c-wcag-explanation__conformance-level">AA: Ideal Support</strong>
-				Required for European Union government and public body websites. The A11Y Project strives for AA compliance.
+				<strong class="u-font-size-body-medium c-wcag-explanation__conformance-level">AA: Ideal Support</strong>
+				Required for <a class="c-wcag-explanation__link" href="https://www.w3.org/WAI/policies/">multiple government and public body websites</a>. The A11Y Project strives for AA compliance.
 			</p>
 		</div>
 
 		<div class="c-wcag-explanation__compliance-level">
 			<picture aria-hidden="true" class="c-wcag-explanation__icon">
-				<source  srcset="/img/checklist/wcag-level-aaa-large.svg" media="(min-width: 900px)" />
+				<source srcset="/img/checklist/wcag-level-aaa-large.svg" media="(min-width: 900px)" />
 				<img alt="" src="/img/checklist/wcag-level-aaa-small.svg" />
 			</picture>
 			<p class="c-wcag-explanation__description">
-				<strong class="c-wcag-explanation__conformance-level">AAA: Ideal Support</strong>
+				<strong class="u-font-size-body-medium c-wcag-explanation__conformance-level">AAA: Ideal Support</strong>
 				This is typically reserved for parts of websites and web apps that serve a specialized audience.
 			</p>
 		</div>
@@ -61,7 +61,7 @@ templateClass: template-checklist
 		</p>
 	</div>
 
-	<div class="c-content  c-content--checklist">
+	<div class="c-content c-content--checklist">
 		<h2>
 			Success criteria
 		</h2>
@@ -291,6 +291,13 @@ templateClass: template-checklist
 			{% include "checklist.njk" %}
 		{% endfor %}
 	</div>
+
+	<h2 id="next-steps" class="c-heading-large">
+		Next steps
+	</h2>
+	<p class="c-preface">
+		Remember to periodically check your site to ensure it is still accessible. The A11Y Project also strongly encourages you to verify your testing by <a class="c-preface__link" href="{{ '/resources/#professional-testers' | url }}">hiring a professional tester</a>.
+	</p>
 
 	<h2 id="further-reading" class="c-heading-large">
 		Further reading

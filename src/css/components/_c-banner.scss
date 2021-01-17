@@ -8,12 +8,10 @@ $_banner-triangle-size: 1.49rem;
 	background-repeat: no-repeat;
 	color: $color-black;
 	font-family: $font-family-secondary;
-	font-size: 1rem;
 	letter-spacing: $font-tracking-slight;
 	line-height: $line-height-single;
 	margin-top: 1.5rem;
 	padding: 0.1rem 1rem 0.6rem 0.3rem;
-	text-transform: uppercase;
 
 	// [1] Magic number to position the triangle
 	&::before {

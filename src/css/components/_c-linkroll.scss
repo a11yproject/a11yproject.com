@@ -119,9 +119,6 @@
 
 
 .c-linkroll__category {
-	font-size: 0.75rem;
-	text-transform: uppercase;
-
 	// Contexts
 	.c-linkroll__entry--assistive-technology & {
 		color: $color-gray-shade;
@@ -156,7 +153,6 @@
 
 .c-linkroll__title {
 	color: $color-black;
-	font-size: 1.25rem;
 	line-height: $line-height-tight;
 	text-decoration: none;
 }
@@ -165,7 +161,6 @@
 	border-bottom: $border-thin dotted transparent;
 	color: $color-black;
 	font-family: $font-family-secondary;
-	font-size: 1.25rem;
 	padding-bottom: 0.75rem;
 
 	// Contexts

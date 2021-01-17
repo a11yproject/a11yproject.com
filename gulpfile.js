@@ -66,7 +66,7 @@ var rename = require('gulp-rename');
 var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
 var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
+var uglify = require('gulp-uglify-es').default;
 var optimizejs = require('gulp-optimize-js');
 
 // Styles
@@ -74,6 +74,7 @@ var sass = require('gulp-sass');
 var prefix = require('gulp-autoprefixer');
 var minify = require('gulp-cssnano');
 var gulpStylelint = require('gulp-stylelint');
+var purgeCSS = require('gulp-purgecss');
 
 // SVGs
 var svgmin = require('gulp-svgmin');
@@ -108,7 +109,7 @@ var configIcons = {
 var jsTasks = lazypipe()
 	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output)
-	.pipe(rename, { suffix: '.min' })
+	.pipe(rename, { suffix: '.min'})
 	.pipe(uglify)
 	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output);
@@ -175,13 +176,51 @@ var buildStyles = function (done) {
 			outputStyle: 'expanded',
 			sourceComments: true
 		}))
+		.pipe(purgeCSS({
+			content: ['src/**/*.njk', 'src/**/*.md'],
+			whitelist: [
+			'atrule',
+			'attr-name',
+			'attr-value',
+			'bold',
+			'boolean',
+			'builtin',
+			'cdata',
+			'char',
+			'comment',
+			'constant',
+			'deleted',
+			'doctype',
+			'entity',
+			'function',
+			'important',
+			'inserted',
+			'italic',
+			'keyword',
+			'number',
+			'operator',
+			'prolog',
+			'property',
+			'punctuation',
+			'regex',
+			'selector',
+			'string',
+			'symbol',
+			'tag',
+			'token',
+			'url',
+			'variable'
+		],
+			whitelistPatterns: [/^c-form/, /h5/],
+			whitelistPatternsChildren: [/^c-content/],
+		}))
 		.pipe(prefix({
 			browsers: ['last 2 version', '> 0.25%', 'ie >= 11'],
 			cascade: true,
 			remove: true
 		}))
 		// .pipe(dest(paths.styles.output))
-		.pipe(rename({ suffix: '.min' }))
+		.pipe(rename({ suffix: '.min'}))
 		.pipe(minify({
 			discardComments: {
 				removeAll: true

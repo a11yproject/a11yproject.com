@@ -21,7 +21,7 @@ templateClass: template-resources
 	{% endfor %}
 
 
-	<h2 id="animation" class="c-heading-large">
+	<h2 id="media" class="c-heading-large">
 		Media
 	</h2>
 
@@ -100,6 +100,20 @@ templateClass: template-resources
 		{% endfor %}
 	</div>
 
+	{% set resourceType = "Browser extensions" %}
+	<h3 id="browser-extensions" class="c-heading-medium u-spacing-top-long">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Specialized tools that augment your browser to augment and enhance your experience.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.browserExtensions %}
+		{% for resource in resource %}
+			{% include "resource.njk" %}
+		{% endfor %}
+	</div>
+
 	{% set resourceType = "Colors" %}
 	<h3 id="colors" class="c-heading-medium">
 		{{ resourceType }}
@@ -119,7 +133,7 @@ templateClass: template-resources
 		{{ resourceType }}
 	</h3>
 	<p class="c-preface">
-		Tools and resources for helping to develop with an accessibile mindset.
+		Tools and resources for helping to develop with an accessible mindset.
 	</p>
 	<div class="c-card__wrapper">
 		{% set resource = resources.developmentTools %}
@@ -194,7 +208,7 @@ templateClass: template-resources
 		{{ resourceType }}
 	</h3>
 	<p class="c-preface">
-		Classes you can take to learn all about accessibile digital design and development.
+		Classes you can take to learn all about accessible digital design and development.
 	</p>
 	<div class="c-card__wrapper">
 		{% set resource = resources.courses %}
@@ -269,7 +283,7 @@ templateClass: template-resources
 		{{ resourceType }}
 	</h3>
 	<p class="c-preface">
-		Learn about how to make your email accessibile.
+		Learn about how to make your email accessible.
 	</p>
 	<div class="c-card__wrapper">
 		{% set resource = resources.email %}
@@ -283,7 +297,7 @@ templateClass: template-resources
 		{{ resourceType }}
 	</h3>
 	<p class="c-preface">
-		Well-structured, semantic HTML is the foundation of an accessibile web experience. ARIA can help make interactive web experiences accessible.
+		Well-structured, semantic HTML is the foundation of an accessible web experience. ARIA can help make interactive web experiences accessible.
 	</p>
 	<div class="c-card__wrapper">
 		{% set resource = resources.htmlAndAria %}
@@ -311,7 +325,7 @@ templateClass: template-resources
 		{{ resourceType }}
 	</h3>
 	<p class="c-preface">
-		Unlike websites and web apps, mobile apps need to be installed on the device they're used on. They have some different requirements to ensure they're accessibile.
+		Unlike websites and web apps, mobile apps need to be installed on the device they're used on. They have some different requirements to ensure they're accessible.
 	</p>
 	<div class="c-card__wrapper">
 		{% set resource = resources.mobileApps %}
@@ -362,6 +376,21 @@ templateClass: template-resources
 	</p>
 	<div class="c-card__wrapper">
 		{% set resource = resources.professionalHelp %}
+		{% for resource in resource %}
+			{% include "resource.njk" %}
+		{% endfor %}
+	</div>
+
+
+	{% set resourceType = "Professional testers" %}
+	<h3 id="professional-testers" class="c-heading-medium">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		It's important to test your website or web app with disabled people to learn how it actually works.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.professionalTesters %}
 		{% for resource in resource %}
 			{% include "resource.njk" %}
 		{% endfor %}

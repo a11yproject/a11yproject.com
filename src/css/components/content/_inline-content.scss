@@ -77,7 +77,7 @@
 	// Style guide: Components.post.pre
 	pre {
 		margin-left: map-get($global-post-content-inset, small) * -1;
-		width: calc(100% + (#{map-get($global-post-content-inset, small) * 2)});
+		width: calc(100% + (#{map-get($global-post-content-inset, small) * 2)}));
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {
@@ -85,7 +85,8 @@
 		}
 
 		code {
- 			line-height: $line-height-double;
+			 line-height: $line-height-double;
+			 white-space: pre;
 		}
 	}
 

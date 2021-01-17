@@ -30,9 +30,7 @@
 
 
 .c-footer__heading {
-	font-size: 1.25rem;
 	padding-left: 0.5ch;
-	text-transform: uppercase;
 }
 
 
@@ -65,29 +63,28 @@
 .c-footer__tagline {
 	color: $color-blue-shade;
 	font-family: $font-family-primary;
-	font-size: 2rem;
+	font-size: $font-size-heading-small;
 	line-height: $line-height-single;
 	margin-top: 2rem;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
-		font-size: 1.25rem;
+		font-size: $font-size-body-medium;
 		margin-top: 0;
 	}
 
 	@include mappy-bp(lap-small) {
-		font-size: 2.25rem;
+		font-size: $font-size-heading-medium;
 		margin-top: 3.5rem;
 	}
 }
 
 
-.c-footer__copyright,
-.c-footer__top {
-  font-size: 0.85rem;
-}
-
-
 .c-footer__copyright-link {
 	@include link-states($color-black);
+
+	// States
+	&:hover {
+		text-decoration: none;
+	}
 }

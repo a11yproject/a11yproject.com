@@ -1,5 +1,5 @@
 <div class="c-card--resource">
-	<p aria-hidden="true" class="c-banner">
+	<p aria-hidden="true" class="u-font-size-body u-text-transform-uppercase c-banner">
 		<svg aria-hidden="true" focusable="false" class="c-banner__icon" width="22" height="22">
 		{% if resourceType == "Featured" %}
 			<use xlink:href="{{ '/img/icons.svg#featured' | url }}"></use>
@@ -61,10 +61,10 @@
 		<h4 id="{{ resource.title | slugify }}">
 			<a class="c-card__title" href="{{ resource.url | url }}">{{ resource.title }}</a>
 		</h4>
-		<p class="c-card__additional">
+		<p class="u-font-size-body-small u-text-transform-uppercase c-card__additional">
 			{{ resource.additional }}
 		</p>
-		<p class="c-card__description">
+		<p class="u-font-size-body-small c-card__description">
 			{{ resource.description }}
 		</p>
 	</div>

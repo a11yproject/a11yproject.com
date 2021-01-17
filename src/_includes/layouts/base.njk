@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		{% include "meta/social-media.njk" %}
 		{% include "meta/icons.njk" %}
-		<link rel="stylesheet" as="style" href="{{ '/css/screen.min.css?v=20200715a' | url }}" />
+		<link rel="stylesheet" as="style" href="{{ '/css/screen.min.css?v=' + getCurrentVersion.version  | url }}" />
 		<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}" />
 		<link rel="sitemap" type="application/xml" title="{{ metadata.title }}" href="{{ '/sitemap.xml' | url }}" />
 		<link rel="author" href="humans.txt" />
@@ -34,8 +34,10 @@
 
 		{% include "footer.njk" %}
 
-		<script async src="{{ '/' | url }}js/main.min.js"></script>
-		<script src="{{ '/' | url }}js/table-of-contents.js"></script>
+		<script async src="{{ '/' | url }}js/main.min.js?v={{getCurrentVersion.version}}"></script>
+    <script src="{{ '/' | url }}js/details-element-polyfill/details-element-polyfill.polyfill.min.js"></script>
+		<script src="{{ '/' | url }}js/table-of-contents/table-of-contents.min.js"></script>
+		<script src="{{ '/' | url }}js/contact.min.js"></script>
 		<script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
 
 	</body>

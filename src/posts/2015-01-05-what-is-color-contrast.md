@@ -3,7 +3,7 @@ layout: post
 title: What is color contrast?
 description: What is color contrast and why do we need it for web accessibility?
 category: Background
-author: Rachel Vasquez
+author: Rachel R. Vasquez
 date: 2015-01-05
 updated_by: Emily Lane
 last_updated: 2018-11-17
@@ -42,7 +42,7 @@ Oftentimes companies implement complementary colors to provide the most contrast
 
 ## What does this mean for web accessibility?
 
-On the web, the use of complementary colors is about finding shades that provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](https://a11yproject.com/posts/understanding-visual-impairment/). 
+On the web, the use of complementary colors is about finding shades that provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](/posts/2013-01-22-understanding-visual-impairment/).
 
 This doesn't mean colors should only be limited to contrasting colors, but instead that care should be taken to ensure a level of contrast in body text, logos, and essential diagrams or other pieces of content. There are a number of tools to help designers and developers check color contrast, including these listed below:
 
@@ -51,7 +51,7 @@ This doesn't mean colors should only be limited to contrasting colors, but inste
 - [Colour Contrast Analyzer by Paciello Group](https://developer.paciellogroup.com/resources/contrastanalyser/)
 - [Color Contrast Checker by WebAIM](https://webaim.org/resources/contrastchecker/)
 
-These tools test your colors against a contrast ratio. 
+These tools test your colors against a contrast ratio.
 
 A contrast ratio of 4.5:1 is the minimum Web Content Accessibility Guideline (WCAG) 2 standard for regular sized text. For more information on how these ratios are calculated, there is a link to an article by W3C called "The Contrast Minimum" included in the Further Reading section following the article.
 
@@ -64,5 +64,5 @@ Aside from using color contrast tools to determine your site's colors, there are
 
 - The larger the font and wider the stroke, the more legible it will be with lower contrast. Therefore the contrast requirement for larger font is lower. W3C recommends starting at 18pt regular weight or 14pt bold text.
 - Provide tools for users to adjust the foreground and background colors of your site on the front end. This is especially helpful for people that need to either switch to a low contrast or a high contrast mode. This gives them more control over the contrast ratio and covers everyone using your site regardless of what kind of vision loss or color deficiency they have.
-- Steer clear of text-based images and use text wherever possible. If that's not possible, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](https://a11yproject.com/posts/alt-text/).
+- Steer clear of text-based images and use text wherever possible. If that's not possible, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](/posts/2013-01-14-alt-text/).
 - Ensure that your placeholders in forms also have valid color contrast.

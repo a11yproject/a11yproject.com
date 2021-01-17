@@ -32,7 +32,7 @@
 	}
 
 	.template-checklist & {
-		background-color: $color-green;
+		background-color: $color-blue;
 		background-image: url("#{$path-to-img}/heroes/checklist.svg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -57,7 +57,7 @@
 	}
 
 	.template-resources & {
-		background-color: $color-blue-shade;
+		background-color: $color-green-shade;
 		background-image: url("#{$path-to-img}/heroes/resources.svg");
 	}
 
@@ -80,13 +80,13 @@
 		background-image: url("#{$path-to-img}/heroes/team.svg");
 	}
 
-	.template-contribute &,
-	.template-404 & {
-		background-color: $color-yellow;
+	.template-contribute & {
+		background-color: $color-yellow-tint;
+		background-image: url("#{$path-to-img}/heroes/contribute.svg");
 	}
 
-	.template-contribute & {
-		background-image: url("#{$path-to-img}/heroes/contribute.svg");
+	.template-simple & {
+		background-color: $color-yellow;
 	}
 
 	.template-spotlight & {
@@ -105,7 +105,6 @@
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	text-align: center;
-	text-transform: uppercase;
 	padding: 0.75rem;
 
 	// Breakpoints
@@ -122,13 +121,13 @@
 
 	.template-checklist & {
 		color: $color-white;
-		background-color: $color-green;
-		border-top-color: $color-blue-tint;
+		background-color: $color-blue;
+		border-top-color: $color-white;
 	}
 
 	.template-resources & {
 		color: $color-green-tint;
-		background-color: $color-blue-shade;
+		background-color: $color-green-shade;
 		border-top-color: $color-green-tint;
 	}
 
@@ -141,7 +140,7 @@
 	.template-contribute & {
 		color: $color-yellow-tint;
 		background-color: $color-black;
-		border-top-color: $color-yellow-tint;
+		border-top-color: $color-white;
 	}
 
 	.template-authors &,

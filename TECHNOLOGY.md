@@ -9,6 +9,7 @@ The A11Y Project uses the following technology:
 
 - [Eleventy](https://www.11ty.dev/).
 - [gulp.js](https://gulpjs.com/).
+- JavaScript.
 - JSON.
 - Markdown.
 - [Nunjucks](https://mozilla.github.io/nunjucks/)/HTML.
@@ -34,7 +35,7 @@ These technologies were evaluated and purposefully not utilized. We are not inte
 
 ### Babel, webpack, etc.
 
-These module bundlers are complicated to set up and maintain and not a good fit for a site of this size and complexity. 
+These module bundlers are complicated to set up and maintain and not a good fit for a site of this size and complexity.
 
 ### CSS Custom Properties
 
@@ -42,7 +43,7 @@ We use Sass to control CSS-related variables to to maximize compatibility with o
 
 ### CSS-in-JS
 
-We consider this approach to CSS to be an industry [antipattern](https://en.m.wikipedia.org/wiki/Anti-pattern).
+We consider this approach to CSS to be an industry [antipattern](https://en.wikipedia.org/wiki/Anti-pattern).
 
 ### Docker and other containers
 

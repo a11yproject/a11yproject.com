@@ -125,7 +125,7 @@ input[type="week"],
 input datalist,
 select,
 textarea {
-	font-size: 1rem;
+	font-size: $font-size-body;
 	line-height: 1;
 }
 
@@ -142,6 +142,7 @@ sub {
 
 	// Supports
 	@supports not (font-variant-position: sub) {
+		/* stylelint-disable-next-line property-no-vendor-prefix */
 		-webkit-font-feature-settings: "subs", "subs";
 		font-feature-settings: "subs", "subs";
 
@@ -163,6 +164,7 @@ sup {
 
 	// Supports
 	@supports not (font-variant-position: sup) {
+		/* stylelint-disable-next-line property-no-vendor-prefix */
 		-webkit-font-feature-settings: "sups", "sups";
 		font-feature-settings: "sups", "sups";
 
@@ -241,27 +243,34 @@ time {
 
 	// Supports
 	@supports not (font-variant-numeric: tabular-nums) {
+		/* stylelint-disable-next-line property-no-vendor-prefix */
 		-webkit-font-feature-settings: "pnum" 0, "tnum", "tnum";
 		font-feature-settings: "pnum" 0, "tnum", "tnum";
 	}
 
+	/* stylelint-disable-next-line declaration-block-no-duplicate-properties */
 	font-variant-numeric: oldstyle-nums;
 
 	@supports not (font-variant-numeric: oldstyle-nums) {
+		/* stylelint-disable-next-line property-no-vendor-prefix */
 		-webkit-font-feature-settings: "lnum" 0, "onum", "onum";
 		font-feature-settings: "lnum" 0, "onum", "onum";
 	}
 
+	/* stylelint-disable-next-line property-no-vendor-prefix */
 	-ms-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
 
 	@supports not ((-webkit-font-feature-settings: "onum" inherit) or (font-feature-settings: "onum" inherit)) {
+		/* stylelint-disable-next-line property-no-vendor-prefix */
 		-webkit-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
 		font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
 	}
 
+	/* stylelint-disable-next-line property-no-vendor-prefix, declaration-block-no-duplicate-properties */
 	-ms-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
 
 	@supports not ((-webkit-font-feature-settings: "onum" inherit) or (font-feature-settings: "onum" inherit)) {
+		/* stylelint-disable-next-line property-no-vendor-prefix */
 		-webkit-font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
 		font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
 	}

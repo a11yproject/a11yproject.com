@@ -3,7 +3,7 @@ layout: layouts/featured
 title: Accessibility for Everyone
 image: /resources/accessibility-for-everyone.jpg
 category: Featured resource
-further_reading:
+featured_resource:
   - title: Order Accessibility for Everyone on audiobook, paperback, or eBook
     url: https://abookapart.com/products/accessibility-for-everyone
 eleventyNavigation:

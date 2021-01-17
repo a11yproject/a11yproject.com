@@ -34,8 +34,7 @@
 			display: grid;
 			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 2fr 2rem map-get($global-post-columns, toc);
 			grid-template-rows: auto auto;
-			grid-template-areas:
-				". . content     . toc";
+			grid-template-areas: ". . content     . toc";
 		}
 	}
 }

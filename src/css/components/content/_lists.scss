@@ -1,7 +1,6 @@
 // Namespace
 .c-content {
 	dl,
-	ol,
 	ul {
 		margin-left: map-get($global-post-content-inset, small);
 
@@ -18,6 +17,12 @@
 		@include preserve-list-semantics();
 
 		counter-reset: ordered-list;
+		margin-left: 1.75rem;
+
+		// Breakpoints
+		@include mappy-bp(palm-medium) {
+			margin-left: 0;
+		}
 
 		li {
 			counter-increment: ordered-list;

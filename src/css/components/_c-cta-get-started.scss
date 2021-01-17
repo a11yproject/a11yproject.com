@@ -15,6 +15,10 @@
 		bottom: 2rem;
 	text-align: center;
 
+	@include mappy-bp(lap-large) {
+		bottom: 2.25rem;
+	}
+
 	// Supports
 	@supports #{$supports-grid} {
 		display: grid;
@@ -39,12 +43,11 @@
 	border: $border-thick solid $color-sand;
 	color: $color-black;
 	font-family: $font-family-secondary;
-	font-size: 1rem;
+	font-size: $font-size-body;
 	letter-spacing: $font-tracking-slight;
 	line-height: $line-height-tight;
 	padding: 0.75rem 1rem;
 	text-align: center;
-	text-transform: uppercase;
 	text-decoration: none;
 	transition:
 		background-color $animation-duration-shorter $animation-easing-character,
@@ -65,7 +68,7 @@
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
-		font-size: 1.25rem;
+		font-size: $font-size-body-medium;
 		padding: 1rem 2rem;
 	}
 

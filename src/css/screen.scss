@@ -43,6 +43,7 @@
 	"logic/variables.animation-easing",
 	"logic/variables.borders",
 	"logic/variables.font-families",
+	"logic/variables.font-sizes",
 	"logic/variables.font-tracking",
 	"logic/variables.font-weights",
 	"logic/variables.line-heights",
@@ -126,7 +127,7 @@
 //
 // Styleguide Layout
 @import
-	"layout/l-404",
+	"layout/l-simple",
 	"layout/l-content",
 	"layout/l-footer",
 	"layout/l-footer-nav",
@@ -150,11 +151,12 @@
 //
 // Styleguide Utilities
 @import
+	"utilities/colors",
+	"utilities/font-sizes",
 	"utilities/hide",
 	"utilities/preserve-list-semantics",
 	"utilities/spacing",
 	"utilities/text-transform";
-
 
 // Components
 //
@@ -165,7 +167,7 @@
 //
 // Styleguide Components
 @import
-	"components/c-404",
+	"components/c-simple",
 	"components/c-a11y-summary",
 	"components/c-banner",
 	"components/c-blm-banner",
@@ -176,8 +178,9 @@
 	"components/c-cta-get-started",
 	"components/c-divider",
 	"components/c-dos-donts",
-	"components/c-copy-email-button",
+	"components/c-featured-resource",
 	"components/c-footer",
+	"components/c-form",
 	"components/c-further-reading",
 	"components/c-headings",
 	"components/c-hero",

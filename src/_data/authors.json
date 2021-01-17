@@ -7,6 +7,18 @@
 			"biography": "Research Assistant for ESD and Classics at UMass Amherst. Creator of Pop-Up Astronomy."
 		},
 		{
+			"name": "Andrew Nevins",
+			"website": "https://www.linkedin.com/in/andrew-nevins-cpwa-84a07712a/",
+			"photo": "https://avatars0.githubusercontent.com/u/2318561?s=460&u=3bb16a3922699c499f0eb3e94e13ba74c1c4d19f&v=4",
+			"biography": "I'm a front-end developer helping people remove barriers from the Web."
+		},
+		{
+			"name": "Anh Pham",
+			"website": "https://www.linkedin.com/in/anh-pham-aa483a149/",
+			"photo": "https://user-images.githubusercontent.com/35150672/99359408-e1cb4300-2863-11eb-82d1-b797acaf507d.JPG",
+			"biography": "Hi! I'm software engineer based in Vancouver, Canada. I care deeply about accessibility and technology for social good."
+		},
+		{
 			"name": "Cameron Cundiff",
 			"website": "https://www.ckundo.com/",
 			"photo": "https://pbs.twimg.com/profile_images/1227394268282720258/J-E_OZFk_400x400.jpg",
@@ -17,6 +29,12 @@
 			"website": "https://daverupert.com/",
 			"photo": "https://pbs.twimg.com/profile_images/477460555981025280/JUGkf8zv_400x400.jpeg",
 			"biography": "I'm Dave Rupert, lead developer at Paravel. I co-host ShopTalk, an award-winning sound effects podcast that also covers web development. I'm a dad to two wonderful kids. I live in Austin, TX; the best damn city, in the best damn state, in the best damn country, in the whole damn world."
+		},
+		{
+			"name": "Duncan Jimbo",
+			"website": "https://simplydano.com",
+			"photo": "https://avatars1.githubusercontent.com/u/1507672?s=460&u=bc8cff324d5739f946ad5dd15b5857e653de7ab8&v=4",
+			"biography": "Howdy! I'm Duncan, a front-end developer focused on design systems."
 		},
 		{
 			"name": "Emily Lane",
@@ -45,7 +63,7 @@
 		{
 			"name": "Franklyn Roth",
 			"website": "https://www.linkedin.com/in/franklynroth/",
-			"photo": "https://media-exp1.licdn.com/dms/image/C4E03AQESx66nmJTyVw/profile-displayphoto-shrink_800_800/0?e=1594252800&v=beta&t=v0F7HqarEiudzbM5OCeruCWwRfZ4bxq_SEX_qGJWA9E",
+			"photo": "https://www.a11yproject.com/img/authors/franklyn-roth.jpg",
 			"biography": "Front-End developer focused on delivering rich web applications in the vue.js and node.js ecosystems."
 		},
 		{
@@ -59,6 +77,30 @@
 			"website": "https://guilhermesimoes.github.io",
 			"photo": "https://pbs.twimg.com/profile_images/1813540146/08-03-28_12-21_1_400x400.jpg",
 			"biography": "I'm a Software Engineer, currently working at Sky. I have a passion for technology, data visualization and open-source."
+		},
+		{
+			"name": "Hamsa Harcourt",
+			"website": "https://hamsaharcourt.netlify.com",
+			"photo": "https://res.cloudinary.com/dgn6edv1k/image/upload/v1599473117/swt0ieahohbrohlmwshd.jpg",
+			"biography": "Hi, Hamsa Harcourt here, currently juggling the reins of Electrical & Electronics Engineering, Technical Writing & Software Development."
+		},
+		{
+			"name": "Kelly Gillit",
+			"website": "https://www.linkedin.com/in/kellygillit/",
+			"photo": "https://pbs.twimg.com/profile_images/1333513462794817536/JOxgHmi6_400x400.jpg",
+			"biography": "Digital designer and accessibility advocate. Skilled in leading teams across all industries and disciplines towards creating accessible design systems for all platforms."
+		},
+		{
+			"name": "Luis Garcia",
+			"website": "https://www.garcialo.com/",
+			"photo": "https://pbs.twimg.com/profile_images/1181989762275528705/4ou0JnLG_400x400.jpg",
+			"biography": "Father, accessibility evangelist, video gamer, proof checker, and solver of problems."
+		},
+		{
+			"name": "Marcy Sutton",
+			"website": "https://marcysutton.com",
+			"photo": "https://pbs.twimg.com/profile_images/1277450365005295617/x8IsW7zX_400x400.jpg",
+			"biography": "Independent web developer and accessibility specialist. Camera-toting hiker, biker, pie baker."
 		},
 		{
 			"name": "Mat Marquis",
@@ -85,9 +127,9 @@
 			"biography": "Director of International UX at Shopify, leading a globally distributed team, localizing a product."
 		},
 		{
-			"name": "Greg Tarnoff",
+			"name": "Nat Tarnoff",
 			"website": "http://tarnoff.info/",
-			"photo": "https://media-exp1.licdn.com/dms/image/C5603AQG5iKcezKnz8Q/profile-displayphoto-shrink_800_800/0?e=1594252800&v=beta&t=mKKozD5TuS8tCqJT5TBDMMbmmdQjG5e6XzdCckcOR8c",
+			"photo": "https://pbs.twimg.com/profile_images/855580021951537152/bS14U2d5_400x400.jpg",
 			"biography": "Founder of MadHackerHaus and Rolled Up Sleeves, LLC. Advocate for accessibility in developing the internet and mobile technology."
 		},
 		{
@@ -119,12 +161,6 @@
 			"website": "https://github.com/thomassjogren",
 			"photo": "https://avatars3.githubusercontent.com/u/3251254?s=460&v=4",
 			"biography": "UX focused front-end developer with passion for behaviour-driven design."
-		},
-		{
-			"name": "Luis Garcia",
-			"website": "https://www.garcialo.com/",
-			"photo": "https://pbs.twimg.com/profile_images/1181989762275528705/4ou0JnLG_400x400.jpg",
-			"biography": "Father, accessibility evangelist, video gamer, proof checker, and solver of problems."
 		},
 		{
 			"name": "…and maybe you!",

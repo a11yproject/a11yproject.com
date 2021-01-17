@@ -9,21 +9,21 @@
 			"cta": "Learn more about Accessibility for Everyone"
 		},
 		{
-			"title": "Inclusive UX: Designing Websites",
-			"author": "Reginé Gilbert",
-			"description": "UX designer and accessibility expert Reginé Gilbert walks you through the key principles you need to be aware of as you design for a universal audience.",
-			"image": "inclusive-ux-designing-websites.jpg",
-			"alt": "A video still of Reginé Gilbert smiling at the camera.",
-			"cta": "Learn more about this Skillshare course"
+			"title": "Introduction to Web Accessibility",
+			"author": "Michele Williams",
+			"description": "Understanding how people use their computing devices is vital to understanding the diversity of disability in technology. In this video, Michele explains what “making technology accessible” means.",
+			"image": "introduction-to-web-accessibility.jpg",
+			"alt": "Photo of Michele Williams.",
+			"cta": "Learn more about this video"
 		}
 	],
 	"spotlight": [
 		{
-			"name": "Amy Carney",
-			"role": "Web Developer",
-			"description": "Amy Carney is a web ‘devsigner’ and certified accessibility specialist. She founded <a class='c-homepage-card__link' href='https://twitter.com/search?q=%23100DaysofA11y'>#100DaysofA11y</a>, a project dedicated to focused exercises around accessibility.",
-			"image": "amy-carney.jpg",
-			"cta": "Meet Amy"
+			"name": "Segun Ola",
+			"role": "Frontend Web Developer",
+			"description": "Segun is a frontend web developer working with Andela Nigeria. They work with Andela partners to build highly interactive and accessible web applications.",
+			"image": "segun-ola.png",
+			"cta": "Meet Segun"
 		}
 	]
 }
