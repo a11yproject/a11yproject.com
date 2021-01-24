@@ -28,7 +28,7 @@ tags:
 	</footer>
 </blockquote>
 
-Dyslexia affects about 1 in 5 people worldwide. Its symptoms range in severity from mild to extreme. It transposes letters, numbers, punctuation, and other characters, which affects your ability to read. This makes selecting Dyslexic-friendly fonts an important thing to consider.
+Dyslexia affects about 1 in 5 people worldwide. Its symptoms range in severity from mild to extreme. It causes your brain to transpose letters, numbers, punctuation, and other characters, which affects your ability to read. This makes selecting Dyslexic-friendly fonts an important thing to consider.
 
 
 ## Background
