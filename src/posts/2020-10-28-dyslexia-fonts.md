@@ -42,16 +42,7 @@ However, this practice may cause problems for people with Dyslexia. It can make 
 
 Dyslexia fonts are typefaces designed so that each character is unique and distinguishable. Dyslexia fonts also make each character unique by using thicker lines in some parts of the letters, as well as slanting them a bit. They are intended to help people with Dyslexia.
 
-Some Dyslexia fonts include: 
-
-- [Dyslexie](https://www.dyslexiefont.com/en/home/), 
-- [Open Dyslexic](https://opendyslexic.org/), 
-- [Lexie Readable](http://www.k-type.com/fonts/lexie-readable/), and
-- [Read Regular](http://www.readregular.com/english/intro.html).
-
-![an example of Dyslexia fonts](../img/posts/2020-10-28-dyslexia-fonts/dyslexia-font.png)
- 
-According to recent studies, it has been proven that Dyslexia fonts do **not** help people **read faster and make fewer mistakes**. In fact, most people with Dyslexia prefer Comic Sans, Verdana and Helvetica to other fonts. For  a  detailed  review of the case study, see  [Good Fonts for Dyslexia (opens PDF)](http://dyslexiahelp.umich.edu/sites/default/files/good_fonts_for_dyslexia_study.pdf)
+According to recent studies, it has been proven that Dyslexia fonts do **not** help people **read faster and make fewer mistakes**. In fact, most people with Dyslexia prefer Comic Sans, Verdana, and Helvetica to other fonts. For a detailed  review of the research, see [Good Fonts for Dyslexia (PDF)](http://dyslexiahelp.umich.edu/sites/default/files/good_fonts_for_dyslexia_study.pdf)
 
 
 ## General font tips
