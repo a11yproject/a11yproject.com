@@ -28,7 +28,7 @@ tags:
 	</footer>
 </blockquote>
 
-Dyslexia affects about 1 in 5 people worldwide. Its symptoms range in severity from mild to extreme. It causes your brain to transpose letters, numbers, punctuation, and other characters, which affects your ability to read. This makes selecting Dyslexic-friendly fonts an important thing to consider.
+Dyslexia is a [Phonological Processing disorder](https://www.nicklauschildrens.org/conditions/phonological-process-disorders). This means it is an issue with language processing, not vision. Dyslexia affects about 1 in 5 people worldwide. Its symptoms range in severity from mild to extreme. It causes your brain to transpose letters, numbers, punctuation, and other characters, which affects your ability to read. This means that making Dyslexic-friendly fonts and typography choices are important things to consider.
 
 
 ## Background
@@ -50,7 +50,10 @@ According to recent studies, it has been proven that Dyslexia fonts do **not** h
 The following are general tips that improve the overall quality of your website's typography:
 
 - Font size should be at least 12-14pt or its equivalent. This help people with cognitive disabilities, language and learning disabilities, as well as people with low vision who may not be able to perceive the text.  
-- Larger line spacing improves readability. Proper line spacing makes [web content](https://en.wikipedia.org/wiki/Web_content) flow smoothly, and ensures that the visually rendered text is presented in such a manner that is perceived without its layout interfering with its readability. According to the [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) Line height (line spacing) should be at least 1.5 times the font size.
+- Larger line spacing improves readability. Proper line spacing makes [web content](https://en.wikipedia.org/wiki/Web_content) flow smoothly, and ensures that the visually rendered text is presented in such a manner that is perceived without its layout interfering with its readability. According to the [WCAGs Visual Presentation(level AAA) success criterion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html), Line height (line spacing) should be at least 1.5 times the font size. 
+
+**Note**: There are no hard rules that defines when the line spacing is too loose. However, when the lines of text seem to be visually floating from each other, it is a sign of excess line spacing.
+
 - Use a small number of fonts, ideally 1 or 2. This is because multiple fonts makes a website look unstructured and unprofessional. Also, multiple fonts obstructs the flow of content of the web page as people spend time adjusting to each new font. Hence, reducing readability. 
 - Use **bold** to add emphasis rather than *italics*. This is because large amounts of italicized text can be difficult to read. 
 - Avoid large amounts of UPPERCASE text. When words are written in all caps, they have a uniform rectangular shape, meaning some readers may not be able to identify words by their shape.
@@ -59,4 +62,9 @@ The following are general tips that improve the overall quality of your website'
 
 ## Summary
 
-Dyslexia is a [Phonological Processing disorder](https://www.nicklauschildrens.org/conditions/phonological-process-disorders). This means it is an issue with language processing, not vision. Hence using a specific font is not a treatment for Dyslexia. However, most people with Dyslexia prefer Verdana and Helvetica to other fonts.
+This article can be summarized into the folllowing:
+
+- Dyslexia affects your ability to read.
+- Dyslexic fonts may not be effective.
+- Good typography is more helpful.
+- Letting a user change their font and type size is important.
