@@ -35,7 +35,7 @@ Dyslexia affects about 1 in 5 people worldwide. Its symptoms range in severity f
 
 When designing fonts, some typographers flip and rotate one character to form other characters. Letters b, p, d and q are usually created using this method. This is because it makes it easier to make the font. 
 
-However, this practice causes problems for people with Dyslexia. This is because some letters, numbers, punctuation, and other characters become indistinguishable. This can make it easy to confuse one character for another. As a result, people with Dyslexia prefer fonts where all the characters are unique. 
+However, this practice may cause problems for people with Dyslexia. It can make some letters, numbers, punctuation, and other characters become indistinguishable. This can make it easy to confuse one character for another. As a result, people with Dyslexia may prefer fonts where all the characters are unique. 
 
 
 ## The questionable utility of Dyslexic fonts?
