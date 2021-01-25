@@ -16,9 +16,9 @@
 			"alt": "Assistiv Labs. Instantly test with real screen readers and more. Get started."
 		},
 		{
-			"image": "sponsor-the-a11y-project.svg",
-			"url": "/sponsorship/",
-			"alt": "Sponsor The A11Y Project. Learn how."
+			"image": "fable.png",
+			"url": "https://makeitfable.com/",
+			"alt": "Fable."
 		}
 	]
 }
