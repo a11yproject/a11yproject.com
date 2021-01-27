@@ -38,9 +38,14 @@ templateClass: template-post
 
 			{{ content | safe }}
 
-			{% if updated_by %}
-				<p class="c-last-updated__body">This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
-			{% endif %}
+			<p class="c-last-updated__body">
+				{% if updated_by %}
+					This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+				{% endif %}
+				{% if thanks %}
+					{{ thanks | safe }}
+				{% endif %}
+			</p>
 
 			{% if further_reading %}
 				{% include "further-reading.njk" %}
