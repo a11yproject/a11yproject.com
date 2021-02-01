@@ -2,7 +2,7 @@
 	"name": "the-a11y-project",
 	"description": "A community-driven effort to make digital accessibility easier.",
 	"homepage": "https://a11yproject.com/",
-	"version": "1.4.1",
+	"version": "1.5.0",
 	"license": "Apache-2.0",
 	"author": "Dave Rupert (https://daverupert.com/)",
 	"contributors": [
@@ -43,16 +43,20 @@
 		"url": "https://github.com/a11yproject/a11yproject.com/issues",
 		"email": "hello@a11yproject.com"
 	},
+	"browserslist": [
+		"defaults",
+		"last 2 versions",
+		"IE 11"
+	],
 	"dependencies": {
-		"@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
 		"mappy-breakpoints": "^0.2.3",
 		"normalize.css": "^8.0.1"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^0.11.0",
-		"@11ty/eleventy-navigation": "^0.1.5",
-		"@11ty/eleventy-plugin-rss": "^1.0.7",
-		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+		"@11ty/eleventy": "0.11.1",
+		"@11ty/eleventy-navigation": "0.1.6",
+		"@11ty/eleventy-plugin-rss": "1.1.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "3.0.6",
 		"debug": "^4.1.1",
 		"del": "3.0.0",
 		"gulp": "4.0.0",
