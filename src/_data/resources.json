@@ -1359,6 +1359,12 @@
 			"description": "Answers to common questions.",
 			"additional": "WebAIM",
 			"url": "https://webaim.org/articles/screenreader_testing/"
+		},
+		{
+			"title": "How to start testing screen reader support using VoiceOver",
+			"description": "This article explains why you should be testing your content with a screen reader. It also gives a visual guide on how to use VoiceOver on macOS",
+			"additional": "Yakim van Zuijlen",
+			"url": "https://yakim.nl/articles/voiceover-testing/"
 		}
 	],
 	"talks": [
