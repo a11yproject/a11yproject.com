@@ -12,6 +12,9 @@ further_reading:
   - title: VoiceOver Mac user guide
     url: https://help.apple.com/voiceover/mac/10.15/
     source: Apple
+  - title: How to start testing screen reader support using VoiceOver
+    url: https://yakim.nl/articles/voiceover-testing/
+    source: Yakim van Zuijlen
 eleventyNavigation:
   key: {{ category }}
   title: {{ title }}
