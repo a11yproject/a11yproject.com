@@ -445,6 +445,12 @@
 			"url": "https://image-color.com/color-contrast.html"
 		},
 		{
+			"title": "Pika",
+			"description": "An open-source colour picker app for macOS.",
+			"additional": "Super High Fives",
+			"url": "https://superhighfives.com/pika"
+		},
+		{
 			"title": "Tanaguru Contrast-finder",
 			"description": "Find good constrast for web accessibility between two colors.",
 			"additional": "Tanaguru",
@@ -1359,12 +1365,6 @@
 			"description": "Answers to common questions.",
 			"additional": "WebAIM",
 			"url": "https://webaim.org/articles/screenreader_testing/"
-		},
-		{
-			"title": "How to start testing screen reader support using VoiceOver",
-			"description": "This article explains why you should be testing your content with a screen reader. It also gives a visual guide on how to use VoiceOver on macOS",
-			"additional": "Yakim van Zuijlen",
-			"url": "https://yakim.nl/articles/voiceover-testing/"
 		}
 	],
 	"talks": [
