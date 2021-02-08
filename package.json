@@ -44,9 +44,9 @@
 		"email": "hello@a11yproject.com"
 	},
 	"browserslist": [
-		"defaults",
-		"last 2 versions",
-		"IE 11"
+		"last 2 version",
+		"> 0.25%",
+		"ie >= 11"
 	],
 	"dependencies": {
 		"mappy-breakpoints": "^0.2.3",
