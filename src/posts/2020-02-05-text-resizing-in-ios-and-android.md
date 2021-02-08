@@ -26,7 +26,7 @@ There are so many ways to view content on mobile devices, from zooming in to ori
 
 ## Considerations for iOS
 
-In iOS, users can use [Full Screen Zoom or Window Zoom](https://support.apple.com/guide/iphone/zoom-iph3e2e367e/ios) to magnify parts of the screen. To allow them to resize the type, use [dynamic type](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/#dynamic-type-sizes), which allows them to [resize the type](https://docs.google.com/spreadsheets/d/1B7UjuckBckAQtILeBCqoIUe3Ze3R8ow2KOQSM_JJI_w/edit#gid=0) in your app.
+In iOS, users can use [Full Screen Zoom or Window Zoom](https://support.apple.com/guide/iphone/zoom-iph3e2e367e/ios) to magnify parts of the screen. To allow them to resize the type, use [dynamic type](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/#dynamic-type-sizes), which allows them to resize the type in your app.
 
 If you manually limit how large your text scales it may cause issues for people who need a bigger font. 
 
