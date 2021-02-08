@@ -38,9 +38,10 @@ Again, users can only zoom in on specified areas, so you'll need to use [scale-i
 
 There isn't a tool like Dynamic Type in Android, so you'll need to scale the text at different sizes yourself. Material design [has a resource](https://material.io/design/typography/the-type-system.html#type-scale) that makes a good starting point.
 
-[Minimum font-size](https://uxdesign.cc/guide-for-designing-better-mobile-apps-typography-5796495ef86f) should be 16sp:
+[Minimum font-size](https://uxdesign.cc/guide-for-designing-better-mobile-apps-typography-5796495ef86f) for body text should be 16sp:
 
-`android: textSize=16sp`
+ ``` android: textSize=16sp
+ ```
 
 You'll also want to remember to make your [content container scrollable](https://medium.com/mesmerhq/designing-accessible-text-for-android-variable-font-and-screen-sizes-392fd386aea5). If it's not, you'll just cut off the extra content when a person zooms in.
 
