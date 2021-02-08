@@ -445,6 +445,12 @@
 			"url": "https://image-color.com/color-contrast.html"
 		},
 		{
+			"title": "Pika",
+			"description": "An open-source colour picker app for macOS.",
+			"additional": "Super High Fives",
+			"url": "https://superhighfives.com/pika"
+		},
+		{
 			"title": "Tanaguru Contrast-finder",
 			"description": "Find good constrast for web accessibility between two colors.",
 			"additional": "Tanaguru",
