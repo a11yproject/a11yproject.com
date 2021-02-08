@@ -41,12 +41,15 @@ There isn't a tool like Dynamic Type in Android, so you'll need to scale the tex
 [Minimum font-size](https://uxdesign.cc/guide-for-designing-better-mobile-apps-typography-5796495ef86f) for body text should be 16sp:
 
  ``` android: textSize=16sp
+ 
  ```
 
 You'll also want to remember to make your [content container scrollable](https://medium.com/mesmerhq/designing-accessible-text-for-android-variable-font-and-screen-sizes-392fd386aea5). If it's not, you'll just cut off the extra content when a person zooms in.
 
+Also consider that apps may contain HTML views. There are a couple things to keep in mind here for accessibility as well. 
+
 ## HTML
 
-In your HTML, make sure to use relative units for responsive design. 
+In your HTML, make sure to use relative units for responsive design. Here's [a resource from The CSS Layout Workshop](https://thecssworkshop.com/lessons/relative-units) for applying them to your HTML via CSS. If you don't use relative units, people could end up having to use horizontal and vertical scrolling to view content, [which violates WCAG 1.4.10](https://www.w3.org/TR/WCAG21/#reflow).
 
-Note that a person's pinch-to-zoom capability will be frustrated on mobile < iOS10 if you add `maximum-scale=1.0` to the `meta` element.
+Note that a person's pinch-to-zoom capability will be frustrated on mobile < iOS10 if you add `maximum-scale=1.0` to the `meta` element. This could [force a person to view your content without zooming](https://www.a11yproject.com/posts/2013-01-14-never-use-maximum-scale/), which could make that content unviewable to them. 
