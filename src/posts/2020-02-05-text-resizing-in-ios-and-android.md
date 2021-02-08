@@ -20,8 +20,9 @@ tags:
   - mobile
 ---
 
-When you're designing for mobile, it's important to remember that some people will need to change the size of the content
-to read it easily. There are so many ways to view content on mobile devices, from zooming in to orienting the screen differently, so a failure to design in a dynamic environment can lead to accessibility issues. There are different ways you can attend to this, whether you're writing an app for iOS or Android.
+When you're designing for mobile, it's important to remember that some people will need to change the size of the content to read it easily. 
+
+There are so many ways to view content on mobile devices, from zooming in to orienting the screen differently, so a failure to design in a dynamic environment can lead to accessibility issues. There are different ways you can attend to this, whether you're writing an app for iOS or Android.
 
 ## Considerations for iOS
 
