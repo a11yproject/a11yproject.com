@@ -215,7 +215,6 @@ var buildStyles = function (done) {
 			whitelistPatternsChildren: [/^c-content/],
 		}))
 		.pipe(prefix({
-			browsers: ['last 2 version', '> 0.25%', 'ie >= 11'],
 			cascade: true,
 			remove: true
 		}))
