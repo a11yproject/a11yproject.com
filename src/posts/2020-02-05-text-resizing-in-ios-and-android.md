@@ -33,6 +33,7 @@ If you manually limit how large your text scales it may cause issues for people 
 [Minimum font-size](https://uxdesign.cc/guide-for-designing-better-mobile-apps-typography-5796495ef86f) should be 17pt.
 
 ## Considerations for Android
+
 Again, users can only zoom in on specified areas, so you'll need to use [scale-independent pixels](https://www.pixel-ruler.net/android-scale-independent-pixel) to determine the size of your text.
 
 There isn't a tool like Dynamic Type in Android, so you'll need to scale the text at different sizes yourself. Material design [has a resource](https://material.io/design/typography/the-type-system.html#type-scale) that makes a good starting point.
