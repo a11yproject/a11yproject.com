@@ -1349,6 +1349,12 @@
 			"url": "https://developer.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/"
 		},
 		{
+			"title": "How to start testing screen reader support using VoiceOver",
+			"description": "This article explains why you should be testing your content with a screen reader. It also gives a visual guide on how to use VoiceOver on macOS",
+			"additional": "Yakim van Zuijlen",
+			"url": "https://yakim.nl/articles/voiceover-testing/"
+		},
+		{
 			"title": "The Importance Of Manual Accessibility Testing",
 			"description": "Automated accessibility tests are a great resource to have, but they can’t automatically make your site accessible. Use them as one step of a larger testing process.",
 			"additional": "Smashing Magazine",
