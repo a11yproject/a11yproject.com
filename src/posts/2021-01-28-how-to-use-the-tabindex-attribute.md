@@ -46,7 +46,7 @@ Unfortunately, the `tabindex`  attribute is often misunderstood and consequently
 
 ### Using a positive `tabindex` value
 
-Using `tabindex` with a value of `1`, `2`, `3`, etc. removes the element the `tabindex` is applied to out of the normal keyboard tabbing order. This can [create a confusing experience](https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html) for anyone who relies on the keyboard’s <kbd>Tab</kbd> key to navigate.
+Using `tabindex` with a value of `1`, `2`, `3`, etc. places the element the `tabindex` is applied first in the keyboard tabbing order. This can [create a confusing experience](https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html) for anyone who relies on the keyboard’s <kbd>Tab</kbd> key to navigate.
 
 ![Two code examples, one labeled “don't,” the other labeled “do.” The example labeled “don't” shows using a declaration of tabindex='16' on a paragraph containing 3 links. The example labeled “do” removes the tabindex declaration.](/img/posts/2021-01-28-how-to-use-the-tabindex-attribute/positive-value.png)
 
@@ -87,7 +87,7 @@ Following are some of the more common cases where you do need to use `tabindex`.
 
 ### Interactive JavaScript widgets and charts
 
-Declarations of `tabindex="-1"` can sometimes be found on interactive widgets and [components that manage focus internally](https://w3c.github.io/aria/#managingfocus), such as [comboboxes](https://www.w3.org/TR/2017/REC-wai-aria-1.1-20171214/#combobox) or [trees](https://www.w3.org/TR/2017/REC-wai-aria-1.1-20171214/#tree-0), as it allows JavaScript to focus on the element via [the `focus()` method](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus).
+Declarations of `tabindex="-1"` can sometimes be found on interactive widgets and [components that manage focus internally](https://w3c.github.io/aria/#managingfocus), such as [comboboxes](https://www.w3.org/TR/2017/REC-wai-aria-1.1-20171214/#combobox) or [trees](https://www.w3.org/TR/wai-aria/#tree), as it allows JavaScript to focus on the element via [the `focus()` method](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus).
 
 ![A basic line graph with a small circle to indicate each data point. One of the points has a larger circle and a label of “82.76%.”](/img/posts/2021-01-28-how-to-use-the-tabindex-attribute/interactive-chart.png)
 

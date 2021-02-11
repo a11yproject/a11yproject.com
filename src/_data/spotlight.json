@@ -13,6 +13,12 @@
 			"biography": "I’m a frontend web developer working with Andela Nigeria. I work with Andela partners to build highly interactive and accessible web applications."
 		},
 		{
+			"name": "Anna E. Cook",
+			"website": "/spotlight/anna-e-cook",
+			"photo": "/img/spotlight/anna-e-cook.jpg",
+			"biography": "I’m a Senior Product Designer at Recurly. I lead product design efforts within one of our Scrum teams."
+		},
+		{
 			"name": "Want to nominate someone?",
 			"website": "{{ '/contact/' | url }}",
 			"photo": "/img/logos/maintainer.png",
