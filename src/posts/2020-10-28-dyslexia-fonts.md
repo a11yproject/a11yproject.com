@@ -50,7 +50,7 @@ According to recent studies, it has been proven that Dyslexia fonts do **not** h
 The following are general tips that improve the overall quality of your website's typography:
 
 - Font size should be at least 12-14pt or its equivalent. This help people with cognitive disabilities, language and learning disabilities, as well as people with low vision who may not be able to perceive the text.  
-- Larger line spacing improves readability. Proper line spacing makes [web content](https://en.wikipedia.org/wiki/Web_content) flow smoothly, and ensures that the visually rendered text is presented in such a manner that is perceived without its layout interfering with its readability. According to the [WCAGs Visual Presentation(level AAA) success criterion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html), Line height (line spacing) should be at least 1.5 times the font size. 
+- Larger line spacing improves readability. Proper line spacing makes [web content](https://en.wikipedia.org/wiki/Web_content) flow smoothly, and ensures that the visually rendered text is presented in such a manner that is perceived without its layout interfering with its readability. According to the [WCAGs Visual Presentation(level AAA) success criterion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html), line height (line spacing) should be at least 1.5 times the font size. 
 
 **Note**: There are no hard rules that defines when the line spacing is too loose. However, when the lines of text seem to be visually floating from each other, it is a sign of excess line spacing.
 
