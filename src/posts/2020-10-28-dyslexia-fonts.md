@@ -2,7 +2,7 @@
 layout: post
 title: Dyslexia fonts
 description: A quick overview of dyslexia fonts
-category: Assistive technology
+category: Background
 author: Hamsa Harcourt
 further_reading:
   - url: https://accessibility.huit.harvard.edu/design-readability
