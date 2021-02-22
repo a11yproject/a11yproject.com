@@ -57,7 +57,7 @@ The following are general tips that improve the overall quality of your website'
 - Use a small number of fonts, ideally 1 or 2. This is because multiple fonts makes a website look unstructured and unprofessional. Also, multiple fonts obstructs the flow of content of the web page as people spend time adjusting to each new font. Hence, reducing readability. 
 - Use **bold** to add emphasis rather than *italics*. This is because large amounts of italicized text can be difficult to read. 
 - Avoid large amounts of UPPERCASE text. When words are written in all caps, they have a uniform rectangular shape, meaning some readers may not be able to identify words by their shape.
-- Animated text must be used sparingly and honor [reduced motion preferences](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion). This is because animations can be distracting, especially for a person with [AD/HD](https://www.cdc.gov/ncbddd/adhd/facts.html).
+- Animated text must be used sparingly and honor [reduced motion preferences](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion). This is because animations can be distracting, especially for a person with [ADHD](https://www.cdc.gov/ncbddd/adhd/facts.html).
 
 
 ## Summary
