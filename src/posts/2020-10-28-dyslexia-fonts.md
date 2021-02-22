@@ -23,8 +23,8 @@ tags:
   <p>
     Dyslexia is a slight disorder of the brain that causes difficulty in reading and spelling, for example, but does not affect intelligence.
   </p>
-		<footer>
-		<cite><a href="https://www.oxfordlearnersdictionaries.com/definition/english/dyslexia?q=dyslexia">Dyslexia - Oxford Advanced Learner's Dictionary</a></cite>
+    <footer>
+    <cite><a href="https://www.oxfordlearnersdictionaries.com/definition/english/dyslexia?q=dyslexia">Dyslexia - Oxford Advanced Learner's Dictionary</a></cite>
 	</footer>
 </blockquote>
 
