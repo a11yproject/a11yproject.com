@@ -64,7 +64,7 @@ The `title` attribute is not exposed by all browsers in an accessible way meanin
 <blockquote>
 	<p>If you want to hide content from mobile and tablet users as well as assistive tech users and keyboard only users, use the title attribute.</p>
 	<footer>
-		<cite><a href="https://developer.paciellogroup.com/blog/2010/11/using-the-html-title-attribute/">Using the HTML title attribute - The Paciello Group</a></cite>
+		<cite><a href="https://developer.paciellogroup.com/blog/2010/11/using-the-html-title-attribute/">Using the HTML title attribute - TTPGi</a></cite>
 	</footer>
 </blockquote>
 

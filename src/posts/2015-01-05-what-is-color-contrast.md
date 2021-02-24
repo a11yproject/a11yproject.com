@@ -48,7 +48,7 @@ This doesn't mean colors should only be limited to contrasting colors, but inste
 
 - [Tanaguru Contrast Finder](http://contrast-finder.tanaguru.com/)
 - [Contrast Ratio by Lea Verou](http://leaverou.github.io/contrast-ratio/)
-- [Colour Contrast Analyzer by Paciello Group](https://developer.paciellogroup.com/resources/contrastanalyser/)
+- [Colour Contrast Analyzer by TPGi](https://developer.paciellogroup.com/resources/contrastanalyser/)
 - [Color Contrast Checker by WebAIM](https://webaim.org/resources/contrastchecker/)
 
 These tools test your colors against a contrast ratio.

@@ -14,7 +14,7 @@ further_reading:
     source: PowerMapper Software
   - url: https://developer.paciellogroup.com/blog/2018/07/short-note-on-aria-support/
     title: Short note on ARIA support
-    source: The Paciello Group
+    source: TPGi
   - url: https://css-tricks.com/aria-spackle-not-rebar/
     title: ARIA is Spackle, Not Rebar
     source: CSS-Tricks

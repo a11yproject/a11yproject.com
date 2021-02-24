@@ -77,8 +77,8 @@
 			"url": "http://www.lowvisionary.com/"
 		},
 		{
-			"title": "The Paciello Group Blog",
-			"description": "A blog about accessibility written by the The Paciello Group's employees.",
+			"title": "TPGi Blog",
+			"description": "A blog about accessibility written by the TPGi's employees.",
 			"url": "https://developer.paciellogroup.com/blog/"
 		},
 		{
@@ -126,7 +126,7 @@
 		{
 			"title": "Nu Markup Validation Service Bookmarklets",
 			"description": "The W3C Nu Markup Validator checks the markup validity of Web documents, but instead uses the backend from the Validator.nu engine.",
-			"additional": "The Paciello Group",
+			"additional": "TPGi",
 			"url": "https://developer.paciellogroup.com/blog/2012/06/nu-markup-validation-service-bookmarklets/"
 		},
 		{
@@ -282,7 +282,7 @@
 		{
 			"title": "ARC Toolkit",
 			"description": "ARC Toolkit is a professional-level accessibility testing tool that gives you the power to quickly and efficiently evaluate screens for accessibility and uncover issues related to the WCAG 2.1 Level A and AA guidelines.",
-			"additional": "The Paciello Group",
+			"additional": "TPGi",
 			"url": "https://www.paciellogroup.com/toolkit/",
 			"browsers": [
 				"Chrome"
@@ -376,7 +376,7 @@
 		{
 			"title": "Web Accessibility Toolbar",
 			"description": "The Web Accessibility Toolbar (WAT) has been developed to aid manual examination of web pages for a variety of aspects of accessibility.",
-			"additional": "The Paciello Group",
+			"additional": "TPGi",
 			"url": "https://developer.paciellogroup.com/resources/wat/",
 			"browsers": [
 				"Internet Explorer"
@@ -651,7 +651,7 @@
 		{
 			"title": "ARC",
 			"description": "Automated testing that looks for machine-detectable accessibility defects within digital content.",
-			"additional": "The Paciello Group",
+			"additional": "TPGi",
 			"url": "https://www.paciellogroup.com/products/accessibility-resource-center-arc/"
 		},
 		{
@@ -1228,8 +1228,8 @@
 			"url": "https://knowbility.org/"
 		},
 		{
-			"title": "The Paciello Group",
-			"description": "The Paciello Group – Your Accessibility Partner (WCAG 2.0/508 audits, VPAT, usability and accessible user experience).",
+			"title": "TPGi",
+			"description": "TPGi – Your Accessibility Partner (WCAG 2.0/508 audits, VPAT, usability and accessible user experience).",
 			"url": "https://www.paciellogroup.com/"
 		},
 		{
@@ -1345,7 +1345,7 @@
 		{
 			"title": "Basic screen reader commands for accessibility testing",
 			"description": "When you test your website with a screen reader there are a few basic commands you should know.",
-			"additional": "The Paciello Group",
+			"additional": "TPGi",
 			"url": "https://developer.paciellogroup.com/blog/2015/01/basic-screen-reader-commands-for-accessibility-testing/"
 		},
 		{
@@ -1537,7 +1537,7 @@
 		{
 			"title": "Colour Contrast Analyser",
 			"description": "The Colour Contrast Analyser (CCA) helps you determine the legibility of text and the contrast of visual elements, such as graphical controls and visual indicators.",
-			"additional": "The Paciello Group",
+			"additional": "TPGi",
 			"url": "https://developer.paciellogroup.com/resources/contrastanalyser/",
 			"platforms": [
 				"macOS",
