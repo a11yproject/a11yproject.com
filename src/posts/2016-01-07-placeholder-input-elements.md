@@ -14,7 +14,7 @@ further_reading:
     year: 2018
   - title: "HTML5 Accessibility Chops: the placeholder attribute"
     url: https://developer.paciellogroup.com/blog/2011/02/html5-accessibility-chops-the-placeholder-attribute/
-    source: The Paciello Group
+    source: TPGi
     year: 2011
   - title: Using @placeholder on Input
     url: https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input

@@ -16,6 +16,10 @@ further_reading:
     url: https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html
     source: Scott O'Hara
     year: 2017/2019
+  - title: Hiding Content Responsibly
+    url: https://hugogiraudel.com/2021/02/17/hiding-content-responsibly/
+    source: Kitty Giraudel
+    year: 2021
 eleventyNavigation:
   key: {{ category }}
   title: {{ title }}

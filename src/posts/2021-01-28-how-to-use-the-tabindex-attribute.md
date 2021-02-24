@@ -14,7 +14,7 @@ further_reading:
     source: Google Developers
   - title: Using the tabindex attribute
     url: https://developer.paciellogroup.com/blog/2014/08/using-the-tabindex-attribute/
-    source: The Paciello Group
+    source: The TPGi
   - title: Don’t Use Tabindex Greater than 0
     url: https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html
     source: Adrian Roselli
@@ -23,7 +23,7 @@ further_reading:
     source: Scott O'Hara
   - title: Short note on improving usability of scrollable regions
     url: https://developer.paciellogroup.com/blog/2016/02/short-note-on-improving-usability-of-scrollable-regions/
-    source: The Paciello Group
+    source: The TPGi
   - title: The difference between keyboard and screen reader navigation
     url: https://tink.uk/the-difference-between-keyboard-and-screen-reader-navigation/
     source: Léonie Watson
