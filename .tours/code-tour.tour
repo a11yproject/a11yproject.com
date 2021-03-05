@@ -28,7 +28,7 @@
     {
       "file": "package.json",
       "line": 17,
-      "description": "These are the scripts you can runn in your command line application. `npm start` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
+      "description": "These are the scripts you can run in your command line application. `npm start` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
     },
     {
       "file": "package.json",
@@ -70,7 +70,7 @@
     },
     {
       "directory": "src/_includes",
-      "description": "This folder contains snippets of code that Eleventy can add to the file it is referenced in. This helps keeps files easier to work thorugh, as well as letting you pass JSON data through them to keep repetition down."
+      "description": "This folder contains snippets of code that Eleventy can add to the file it is referenced in. This helps keeps files easier to work through, as well as letting you pass JSON data through them to keep repetition down."
     },
     {
       "directory": "src/_includes/layouts",
