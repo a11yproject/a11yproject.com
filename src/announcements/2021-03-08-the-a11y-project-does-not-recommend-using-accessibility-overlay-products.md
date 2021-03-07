@@ -3,6 +3,7 @@ layout: post
 title: The A11Y Project does not recommend using accessibility overlay products
 description: These kinds of products are actively harmful, and a step backwards for digital accessibility efforts.
 category: Announcement
+author: The A11Y Project Team
 eleventyNavigation:
   key: Announcement
   title: The A11Y Project does not recommend using accessibility overlay products

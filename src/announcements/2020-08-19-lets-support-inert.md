@@ -3,6 +3,7 @@ layout: post
 title: Let’s support inert!
 description: Igalia working on HTML’s inert attribute represents a great opportunity to move web accessibility forward.
 category: Announcement
+author: The A11Y Project Team
 eleventyNavigation:
   key: Announcement
   title: Let’s support inert!
