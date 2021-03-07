@@ -1,6 +1,12 @@
 {
 	"author": [
 		{
+			"name": "The A11Y Project Team",
+			"website": "https://www.a11yproject.com/",
+			"photo": "https://a11yproject.com/img/authors/the-a11y-project-team.png",
+			"biography": "The maintainers who help run this site."
+		},
+		{
 			"name": "Alex Brenon",
 			"website": "https://alexroseb.com/",
 			"photo": "https://pbs.twimg.com/profile_images/975451645462106112/_h6vsUym_400x400.jpg",
