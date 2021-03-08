@@ -135,8 +135,6 @@ Broadly-speaking, there are two kinds of accessibility issues:
 
 An example of this is the alternate description of an image. Programming rules <strong>can</strong> check if an image has an `alt` attribute. However, programming rules <strong>cannot</strong> determine if the description is accurate, especially if the image is used for a thematic purpose.
 
-IMG
-
 Any permanent plugin that claims to automatically “fix” these kinds of issues cannot deliver on its promises. There are many [lawsuits filed against permanent plugin companies](https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit) reflecting this. Ironically, some permanent plugins actually introduce <strong>more</strong> accessibility issues when activated.
 
 ### Sustainability
