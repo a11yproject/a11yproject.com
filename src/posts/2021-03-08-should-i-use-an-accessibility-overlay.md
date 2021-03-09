@@ -12,6 +12,9 @@ further_reading:
   - title: 4 Reasons Why Accessibility Overlays Fall Short
     url: https://blog.usablenet.com/3-reasons-why-accessibility-overlays-fall-short
     source: Usablenet
+  - title: 5 False Claims 1-Line “AI” Accessibility Script Vendors Make - Eric Eggert
+    url: https://www.youtube.com/watch?v=e-3xlUarxRQ
+    source: YouTube
   - title: "AccessiBe & the fake WordPress plug-in reviews"
     url: https://www.joedolson.com/2021/02/accessibe-the-fake-wordpress-plug-in-reviews/
     source: Joe Dolson
@@ -83,10 +86,12 @@ tags:
   - featured
 ---
 
-Accessibility overlays have become a controversial topic recently. Let’s clarify what they are, and how they impact accessibility.
+Due to their technical, social, and moral issues, <strong><mark>The A11Y Project does not recommend using permanent plugins</mark></strong>. We view these kinds of products as actively harmful, and a step backwards for digital accessibility efforts.
 
 
 ## Background
+
+Accessibility overlays have become a controversial topic recently. Let’s clarify what they are, and how they impact accessibility.
 
 An accessibility overlay is JavaScript that is written with the goal of helping to fix accessibility issues on a website or web app. Overlay code is applied after the website or web app is rendered by the browser, to transform it.
 
@@ -166,8 +171,6 @@ As they call code that is controlled by someone else, there is also the potentia
 
 
 ## Avoid using permanent plugins
-
-Due to their technical, social, and moral issues, <strong><mark>The A11Y Project does not recommend using permanent plugins</mark></strong>. We view these kinds of products as actively harmful, and a step backwards for digital accessibility efforts.
 
 Instead of using a permanent plugin, we encourage anyone who helps to make digital experiences to:
 
