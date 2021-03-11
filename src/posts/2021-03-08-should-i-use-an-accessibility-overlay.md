@@ -159,7 +159,7 @@ Privacy and disability are closely related. There are many [concerns with being 
 ### Performance
 Due to ableism and the discrimination it creates, there is unfortunately a strong correlation between [disability, unemployment, and underemployment](https://www.forbes.com/sites/andrewpulrang/2020/01/13/5-ways-to-think-about-the-complicated-relationship-between-disability-and-work/). Because of this, there is a decent chance assistive technology may be used on a more inexpensive, lower power device.
 
-Permanent plugins run an extra “layer” of JavaScript over the experience. This slows down a website or web app, and in extreme cases may cause the entire thing crash. The chance of crashing, or being slowed down to the point of being unusable increases on lower powered devices.
+Permanent plugins run an extra “layer” of JavaScript over the experience. This slows down a website or web app, and in extreme cases may cause the entire thing to crash. The chance of crashing, or being slowed down to the point of being unusable increases on lower powered devices.
 
 ### Malware
 
