@@ -27,7 +27,7 @@ $_card-outline: $border-thinner solid;
 			.c-card__title,
 			.c-card__meta,
 			.c-card__author,
-			.c-card__description, {
+			.c-card__description {
 				color: $color-white;
 			}
 		}
@@ -83,15 +83,20 @@ $_card-outline: $border-thinner solid;
 		}
 
 		.template-resources &:focus-within {
+			background-color: $color-green-shade;
 
-			.c-card__title,
-			.c-card__meta,
+			.c-card__additional
 			.c-card__author,
-			.c-card__description, {
-				color: $color-black;
+			.c-card__description
+			.c-card__meta,
+			.c-card__title {
+				color: $color-white;
+			}
+
+			.c-card__title {
+				text-decoration: none;
 			}
 		}
-
 	}
 }
 
