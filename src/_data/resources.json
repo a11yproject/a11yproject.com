@@ -221,6 +221,12 @@
 			"url": "https://www.penguinrandomhouse.com/books/617802/disability-visibility-by-alice-wong/"
 		},
 		{
+			"title": "Inclusive Conversations: Fostering Equity, Empathy, and Belonging across Differences",
+			"description": "Effective dialogue across different dimensions of diversity, such as race, gender, age, religion, or sexual orientation, fosters a sense of belonging and inclusion, which in turn leads to greater productivity, performance, and innovation.",
+			"additional": "Mary-Frances Winters",
+			"url": "https://www.amazon.com/Inclusive-Conversations-Fostering-Belonging-Differences/dp/152308880X/"
+		},
+		{
 			"title": "Inclusive Design Patterns",
 			"description": "Inclusive Design Handbook gets to the bottom of it all: accessibility myths and rules of thumbs, WAI-ARIA roles, content accessibility guidelines, landmark roles, keyboard and touch accessibility, accessible markup and interaction patterns, accessible forms and widgets, multimedia accessibility and inclusive prototyping.",
 			"additional": "Heydon Pickering",
@@ -563,6 +569,12 @@
 			"url": "https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b"
 		},
 		{
+			"title": "A11y Annotation Kit",
+			"description": "We use this library at Indeed to help designers document accessibility considerations to share with developers when handing off designs.",
+			"additional": "Stephanie Hagadorn",
+			"url": "https://www.figma.com/community/file/953682768192596304"
+		},
+		{
 			"title": "Accessible UI Components For The Web",
 			"description": "To be accessible, UI components need to work across multiple devices with varying screen-sizes and different kinds of input. Moreover, components should be usable by the broadest group of users, including those with disabilities.",
 			"additional": "Addy Osmani",
@@ -585,6 +597,12 @@
 			"description": "Seven easy-to-implement guidelines to design a more accessible web.",
 			"additional": "Pablo Stanley",
 			"url": "https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94"
+		},
+		{
+			"title": "Ethical Design Guide",
+			"description": "Ethical Design Guide is made to share resources on how to create ethical products that don't cause harm.",
+			"additional": "Sarah Fossheim",
+			"url": "https://ethicaldesign.guide/"
 		},
 		{
 			"title": "UX Myths",
@@ -671,6 +689,12 @@
 			"description": "Snippets that include all WAI-ARIA attributes and descriptions, for ease of use in building more accessible web content.",
 			"additional": "silviasusai",
 			"url": "https://atom.io/packages/accessible-snippets"
+		},
+		{
+			"title": "Be Inclusive",
+			"description": "Be Inclusive is a web app that helps you define, track, and share web accessibility audits.",
+			"additional": "Be Inclusive",
+			"url": "https://beinclusive.app/"
 		},
 		{
 			"title": "Bootstrap accessibility plugin",
@@ -1023,6 +1047,12 @@
 			"description": "In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector. ",
 			"additional": "raywenderlich.com",
 			"url": "https://www.raywenderlich.com/6827616-ios-accessibility-getting-started"
+		},
+		{
+			"title": "Mobile A11y",
+			"description": "Mobile A11y is a collection of blogs and resources about how we as mobile developers can improve accessibility on mobile devices.",
+			"additional": "Rob Whitaker",
+			"url": "https://mobilea11y.com/"
 		}
 	],
 	"newsletters": [
@@ -1073,6 +1103,12 @@
 			"description": "The Web Design Update is a plain text email digest dedicated to disseminating news and information about web design and development with emphasis on elements of user experience, accessibility, web standards and more.",
 			"additional": "Laura L. Carlson",
 			"url": "http://www.d.umn.edu/itss/training/online/webdesign/webdev_listserv.html"
+		},
+		{
+			"title": "WCAG of the Day",
+			"description": "It's like those “Word of the Day” email services, but for the Web Content Accessibility Guidelines (WCAG) instead. Each day it sends out a short summary of a different success criterion.",
+			"additional": "Grunet",
+			"url": "https://dwcag.org/"
 		},
 		{
 			"title": "The WebAIM Newsletter",
@@ -1296,6 +1332,15 @@
 			]
 		},
 		{
+			"title": "Assistiv Labs",
+			"description": "Instantly test how accessible your experience is with the real assistive technologies your disabled users rely on — screen readers, magnifiers, and more — from any computer.",
+			"additional": "Weston Thayer",
+			"url": "https://assistivlabs.com/",
+			"platforms": [
+				"Windows"
+			]
+		},
+		{
 			"title": "Job Access With Speech (JAWS)",
 			"description": "JAWS is the world's most popular screen reader, developed for computer users whose vision loss prevents them from seeing screen content or navigating with a mouse.",
 			"additional": "Freedom Scientific",
@@ -1452,6 +1497,13 @@
 			"type": "Talk"
 		},
 		{
+			"title": "Introduction to Web Accessibility",
+			"description": "This brief introductory video geared towards technology professionals provides a baseline understanding of the topic of Web and digital accessibility: designing, coding, and testing with users with disabilities in mind, including the diverse assistive technology and tools they may be using to engage with their computing devices.",
+			"additional": "Dr. Michele A. Williams",
+			"url": "https://mawconsultingllc.com/webinars/webinar-intro-to-accessibility/",
+			"type": "Talk"
+		},
+		{
 			"title": "JavaScript and Civil Rights (Marcy Sutton)",
 			"description": "Web Rebels (2017)",
 			"additional": "YouTube",
@@ -1599,6 +1651,12 @@
 			"url": "https://www.24a11y.com/2018/disability-is-a-spectrum-not-a-binary/"
 		},
 		{
+			"title": "Disabled And Here Collection",
+			"description": " This stock collection is a disability-led effort to provide free and inclusive images from our own perspective, with photos and illustrations celebrating disabled Black, Indigenous, people of color (BIPOC).",
+			"additional": "Disabled and Here",
+			"url": "https://affecttheverb.com/collection/"
+		},
+		{
 			"title": "Empathy Prompts",
 			"description": "Prompts to consider when making things for others to use.",
 			"additional": "Eric Bailey",
@@ -1705,12 +1763,6 @@
 			"description": "Accessibility of the world wide web hasn’t always been a number one priority for web developers (much to detriment of internet users). Whilst very few people set out to design a website that is inaccessible, many studies have documented partially or completely inaccessible websites.",
 			"additional": "Amy Dickens",
 			"url": "https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8"
-		},
-		{
-			"title": "Mobile A11y",
-			"description": "Mobile A11y is a collection of blogs and resources about how we as mobile developers can improve accessibility on mobile devices.",
-			"additional": "Rob Whitaker",
-			"url": "https://mobilea11y.com/"
 		},
 		{
 			"title": "Solid Start",

@@ -57,6 +57,9 @@ further_reading:
   - title: Overlay Accessibility Solutions Fail ADA Website Compliance
     url: https://www.propellermediaworks.com/blog/avoid-web-accessibility-overlay-toolbars/
     source: Propeller Media Works
+  - title: "Overlay Fact Sheet: An open letter about accessibility overlays"
+    url: https://overlayfactsheet.com/
+    source: Overlay Fact Sheet
   - title: Overlays are not the solution to your accessibility problem
     url: https://sheribyrnehaber.medium.com/overlays-are-not-the-solution-to-your-accessibility-problem-c5ffe44bd61f
     source: Sheri Byrne-Haber
@@ -66,9 +69,15 @@ further_reading:
   - title: "Should Accessibility Overlays and Widgets Be Viewed As 'Separate but Equal'​ Solutions?"
     url: https://www.linkedin.com/pulse/should-accessibility-overlays-widgets-viewed-separate-springer/
     source: Timothy Springer
+  - title: "The Dangerous Path of the Accessibility Overlay"
+    url: https://www.joedolson.com/2021/03/the-dangerous-path-of-the-accessibility-overlay/
+    source: Joe Dolson
   - title: "The Death of Accessibility Overlays"
     url: https://medium.com/@krisrivenburgh/the-death-of-accessibility-overlays-5603515d8250
     source: Kris Rivenburgh
+  - title: "You Can’t Solve Accessibility with 1 Line of Code"
+    url: https://www.practicalecommerce.com/you-cant-solve-accessibility-with-1-line-of-code
+    source: Practical Ecommerce
   - title: "Web accessibility overlay tools: lies and gum balls"
     url: https://www.lalutineduweb.fr/en/web-accessibility-overlays-lies-gum-balls/
     source: La Lutine du Web
