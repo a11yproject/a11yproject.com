@@ -29,7 +29,7 @@ The WCAG's goal is to provide a single shared standard for web content accessibi
 
 WCAG 2.0 consists of 12 guidelines. It is organized around four principles which form the acronym "POUR". They include:
 
-## 1. Content must be Perceivable (P).
+### 1. Content must be Perceivable (P).
 
 - Provide a text alternative for all non-text content.
 - Provide synchronized alternatives for multimedia (such as captioned video, audio descriptions etc).
