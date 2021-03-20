@@ -65,7 +65,7 @@ The WCAG provides various ways to help authors meet its standard called ["layers
 
 ## Guidelines
 
-WCAG 2.0 guidelines are categorized into [3 levels of conformance](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels) in order to meet the needs of different groups and situations. Under each principle, there is a [list of guidelines](https://www.w3.org/TR/WCAG20/#guidelines) that addresses the principles. 
+WCAG 2.x guidelines are categorized into [3 levels of conformance](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels) in order to meet the needs of different groups and situations. Under each principle, there is a [list of guidelines](https://www.w3.org/TR/WCAG20/#guidelines) that addresses the principles. 
 
 
 ## Success criteria
