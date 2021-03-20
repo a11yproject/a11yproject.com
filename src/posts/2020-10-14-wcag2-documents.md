@@ -80,7 +80,7 @@ The techniques document provides guidance for web authors and evaluators on meet
 
 ## Common failures
 
-These are common mistakes that are considered failures of Success Criteria of WCAG 2.0. A [comprehensive list of  WCAG 2.0 common failures](https://www.w3.org/TR/WCAG20-TECHS/failures) is also provided.
+These are common mistakes that are considered failures of Success Criteria of WCAG 2.x. A [comprehensive list of  WCAG 2.x common failures](https://www.w3.org/TR/WCAG20-TECHS/failures) is also provided.
 
 
 ## What's new?
