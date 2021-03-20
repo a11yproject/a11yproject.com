@@ -49,7 +49,7 @@ WCAG 2.0 consists of 12 guidelines. It is organized around four principles which
 - Make the placement and functionality of content predictable.
 - Help users avoid and correct mistakes.
 
-## 4. Content must be Robust (R).
+### 4. Content must be Robust (R).
 
 - Support compatibility with current and future user agents.
 
