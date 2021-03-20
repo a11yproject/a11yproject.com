@@ -11,4 +11,32 @@
 			text-decoration: none;
 		}
 	}
+
+	.footnote-ref {
+		vertical-align: super;
+	}
+
+	.footnotes-sep {
+		display: none;
+	}
+
+	.footnotes {
+		@include post-content-flourish("section-footnotes.svg", 62, 1.75rem);
+
+		margin-top: 8ex;
+	}
+
+	.footnotes-list {
+		margin-top: 1rem;
+	}
+
+	.footnote-item {
+		p {
+			margin-top: 0;
+		}
+	}
+
+	.footnote-backref {
+		display: none;
+	}
 }
