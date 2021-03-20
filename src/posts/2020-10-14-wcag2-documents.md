@@ -5,8 +5,8 @@ description: A quick overview of WCAG 2 documents.
 category: Background
 author: Hamsa Harcourt
 further_reading:
-  - url: https://www.w3.org/TR/WCAG20/#intro-layers-guidance 
-    title:  Web Content Accessibility Guidelines (WCAG) 2.0
+  - url: https://www.w3.org/TR/WCAG22/#intro
+    title:  Web Content Accessibility Guidelines (WCAG) 2.2
     source: W3C 
   - url:  https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines
     title: Web Content Accessibility Guidelines
