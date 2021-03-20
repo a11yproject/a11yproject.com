@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to WCAG 2.x
-description: A quick overview of WCAG 2 documents.
+description: A quick overview of WCAG 2.x documents.
 category: Background
 author: Hamsa Harcourt
 further_reading:
