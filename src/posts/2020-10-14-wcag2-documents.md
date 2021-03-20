@@ -43,7 +43,7 @@ WCAG 2.0 consists of 12 guidelines. It is organized around four principles which
 - Do not design content in a way that is known to cause seizures.
 - Provide mechanisms for users to find content, orientate themselves and navigate through it.
 
-## 3. Content and controls must be Understandable (U).
+### 3. Content and controls must be Understandable (U).
 
 - Make text content readable and understandable.
 - Make the placement and functionality of content predictable.
