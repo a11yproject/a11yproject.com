@@ -25,7 +25,7 @@ The [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-
 The WCAG's goal is to provide a single shared standard for web content accessibility that meets the needs of individuals, organizations and governments internationally. Over time, WCAG has produced various versions of the [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-guidelines/wcag/). WCAG 2.0 was published on 11 December 2008, WCAG 2.1 was published on 5 June 2018. WCAG 2.2 is a W3C working draft as of 5 June 2020.
 
 
-## WCAG 2.0
+## WCAG 2.x
 
 WCAG 2.0 consists of 12 guidelines. It is organized around four principles which form the acronym "POUR". They include:
 
