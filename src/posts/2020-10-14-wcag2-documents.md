@@ -36,7 +36,7 @@ WCAG 2.0 consists of 12 guidelines. It is organized around four principles which
 - Information and structure must be separate from presentation.
 - Make it easy to distinguish foreground information from the background (for example: good color contrast).
 
-## 2. Interfaces must be Operable (O). 
+### 2. Interfaces must be Operable (O). 
 
 - All functionality must be operable via keyboard.
 - Provide users enough time to read and use content.
