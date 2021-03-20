@@ -20,7 +20,9 @@ tags:
 ---
 
 
-The [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-guidelines/wcag/) (<abbr>WCAG</abbr>) are web accessibility guidelines published by the **[Web Accessibility Initiative](https://www.w3.org/WAI/about/)** (<abbr>WAI</abbr>). The WCAG's goal is to provide a single shared standard for web content accessibility that meets the needs of individuals, organizations and governments internationally. Over time, WCAG has produced various versions of the [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-guidelines/wcag/). WCAG 2.0 was published on 11 December 2008. WCAG 2.1 was published on 5 June 2018. WCAG 2.2 is scheduled to be published in 2021.
+The [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-guidelines/wcag/) (<abbr>WCAG</abbr>) are web accessibility guidelines published by the [**Web Accessibility Initiative**](https://www.w3.org/WAI/about/) (<abbr>WAI</abbr>). 
+
+The WCAG's goal is to provide a single shared standard for web content accessibility that meets the needs of individuals, organizations and governments internationally. Over time, WCAG has produced various versions of the [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-guidelines/wcag/). WCAG 2.0 was published on 11 December 2008, WCAG 2.1 was published on 5 June 2018. WCAG 2.2 is a W3C working draft as of 5 June 2020.
 
 
 ## WCAG 2.0
