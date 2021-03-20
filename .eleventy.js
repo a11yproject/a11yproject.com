@@ -81,13 +81,15 @@ module.exports = function (eleventyConfig) {
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
+  let markdownItFootnote = require("markdown-it-footnote");
   let options = {
     html: true,
     breaks: true,
     linkify: true
   };
+	let markdownLib = markdownIt(options).use(markdownItFootnote);
 
-  eleventyConfig.setLibrary("md", markdownIt(options));
+  eleventyConfig.setLibrary("md", markdownLib);
 
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     if (
