@@ -333,15 +333,6 @@
 			]
 		},
 		{
-			"title": "I want to see like the colour blind",
-			"description": "Right-click on a page and select 'Experience Colour Blindness' from the context menu.",
-			"additional": "artbek",
-			"url": "https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia",
-			"browsers": [
-				"Chrome"
-			]
-		},
-		{
 			"title": "headingsMap",
 			"description": "The extension generates a documentmap or index of any web document structured with headings (you can access directly to the content by clicking on any of its items), and now, it shows the HTML 5 outline.",
 			"additional": "Rumoroso",
@@ -377,15 +368,6 @@
 			"url": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh",
 			"browsers": [
 				"Chrome"
-			]
-		},
-		{
-			"title": "Web Accessibility Toolbar",
-			"description": "The Web Accessibility Toolbar (WAT) has been developed to aid manual examination of web pages for a variety of aspects of accessibility.",
-			"additional": "TPGi",
-			"url": "https://developer.paciellogroup.com/resources/wat/",
-			"browsers": [
-				"Internet Explorer"
 			]
 		}
 	],
