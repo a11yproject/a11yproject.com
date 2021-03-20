@@ -75,7 +75,7 @@ Under each guideline, there are success criteria that describe specifically what
 
 ## Techniques
 
-The techniques document provides guidance for web authors and evaluators on meeting WCAG 2.0  success criteria. A convenient [list of the WCAG 2.0 techniques](https://www.w3.org/TR/WCAG20-TECHS/) can be found here.
+The techniques document provides guidance for web authors and evaluators on meeting WCAG 2.0 success criteria. A convenient [list of the WCAG 2.0 techniques](https://www.w3.org/TR/WCAG20-TECHS/) can be found here.
 
 
 ## Common failures
