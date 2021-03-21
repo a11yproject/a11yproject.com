@@ -91,7 +91,7 @@ WCAG 2.1 is the current standard. It was initiated with the aim of improving acc
 - People with low vision, and 
 - People with disabilities on mobile devices. 
 
-There are additional success criteria in WCAG 2.1 that are not in WCAG 2.0. They are introduced in [What’s New in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/). For a detailed  review of WCAG 2.1 , see  [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/).
+There are additional success criteria in WCAG 2.1 that are not in WCAG 2.0. They are introduced in [What’s New in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/). For a detailed  review of WCAG 2.1 , see [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/).
 
 <blockquote>
 	<p>While WCAG 2.0 remains a W3C recommendation, the W3C advises the use of WCAG 2.1 in order to maximize future applicability of accessibility efforts.</p>
