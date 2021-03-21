@@ -27,7 +27,7 @@ The WCAG's goal is to provide a single shared standard for web content accessibi
 
 ## WCAG 2.x
 
-WCAG 2.x consists of 12 guidelines. It is organized around four principles which form the acronym "POUR". They include:
+WCAG 2.x consists of 12 guidelines. It is organized around four principles which form the acronym "POUR". They include, but are not limited to:
 
 ### 1. Content must be Perceivable (P).
 
