@@ -55,7 +55,7 @@ WCAG 2.x consists of 12 guidelines. It is organized around four principles which
 
 ## Layers of guidance
 
-The WCAG provides various ways to help authors meet its standard called ["layers of guidance"](https://www.w3.org/TR/WCAG20/#intro-layers-guidance). They include the following :
+The WCAG provides various ways to help authors meet its standard called ["layers of guidance"](https://www.w3.org/TR/WCAG21/#wcag-2-layers-of-guidance). They include the following :
 
 - [Guidelines](https://www.w3.org/WAI/WCAG21/quickref/#text-alternatives).
 - [Success criteria](https://www.w3.org/WAI/WCAG21/quickref/#audio-only-and-video-only-prerecorded).
