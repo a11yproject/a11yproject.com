@@ -69,7 +69,7 @@ further_reading:
   - title: "People With Disabilities Say This AI Tool Is Making the Web Worse for Them"
     url: https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them
     source: VICE
-- title: "Reminder: Accessibility can’t be solved automatically"
+  - title: "Reminder: Accessibility can’t be solved automatically"
     url: https://www.joedolson.com/2020/06/reminder-accessibility-cant-be-solved-automatically/
     source: Joe Dolson
   - title: "Should Accessibility Overlays and Widgets Be Viewed As 'Separate but Equal'​ Solutions?"
