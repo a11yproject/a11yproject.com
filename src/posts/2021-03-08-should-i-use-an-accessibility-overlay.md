@@ -18,6 +18,9 @@ further_reading:
   - title: "AccessiBe & the fake WordPress plug-in reviews"
     url: https://www.joedolson.com/2021/02/accessibe-the-fake-wordpress-plug-in-reviews/
     source: Joe Dolson
+  - title: "AccessiByeBye"
+    url: https://www.accessibyebye.org/
+    source: Pneuma Solutions
   - title: Accessibility Overlays in Digital Content
     url: https://www.tpgi.com/accessibility-overlays-in-digital-content/
     source: TPGI
@@ -63,7 +66,10 @@ further_reading:
   - title: Overlays are not the solution to your accessibility problem
     url: https://sheribyrnehaber.medium.com/overlays-are-not-the-solution-to-your-accessibility-problem-c5ffe44bd61f
     source: Sheri Byrne-Haber
-  - title: "Reminder: Accessibility can’t be solved automatically"
+  - title: People With Disabilities Say This AI Tool Is Making the Web Worse for Them
+    url: https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them
+    source: VICE
+- title: "Reminder: Accessibility can’t be solved automatically"
     url: https://www.joedolson.com/2020/06/reminder-accessibility-cant-be-solved-automatically/
     source: Joe Dolson
   - title: "Should Accessibility Overlays and Widgets Be Viewed As 'Separate but Equal'​ Solutions?"
