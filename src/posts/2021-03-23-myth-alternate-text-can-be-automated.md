@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alternate text can be automated
-description: "There are two types of accessibility overlays: Temporary bandage solutions, and permanent plugins. The use of a permanent plugin is incredibly problematic."
+description: "Alternate (alt) text help people who use assistive technology understand images, and are a core part of the Web Content Accessibility Guidelines (WCAG). They require a human’s input to be effective."
 category: Myth
 author: Eric Bailey
 date: 2021-03-23
@@ -45,7 +45,7 @@ Assistive technology such as a screen reader will read the text provided inside 
 
 This allows a person to know an image is present, and what the image’s content contains. With this context, someone using assistive technology can understand the image’s purpose the same way someone who is not using assistive technology would.
 
-It’s up to the person writing the code to add an `alt` attribute. It’s also up to them to look at the image they’re using and write an accurate description. Many content management systems (CMS) allow the people who use them to include alt text by writing it in a dedicated input field.
+It’s up to the person writing the code to add an `alt` attribute. It’s also up to them to look at the image they’re using and write an accurate description. Many Content Management Systems (CMS) allow the people who use them to include alt text by writing it in a dedicated input field.
 
 <figure role="figure" aria-label="WordPress’ alt text input field for uploaded images.">
 	<img alt="A textarea with a label that reads, 'Image settings. Alt text (alternative text). Below the textarea is a sub-label that reads, 'Describe the purpose of the image. Leave empty if the image is purely decorative.' Screenshot." src="/img/posts/2021-03-23-myth-alternate-text-can-be-automated/wordpress-alt-field.png" />
@@ -56,7 +56,7 @@ It’s up to the person writing the code to add an `alt` attribute. It’s also 
 
 Technologies such as [machine learning](https://en.m.wikipedia.org/wiki/Machine_learning) and [computer vision](https://en.m.wikipedia.org/wiki/Computer_vision) allow us to guess at what an image is based on its arrangements of pixels. For example, we might show a computer hundreds of thousands of photos of fire hydrants to train it to understand what configurations of pixels look “fire hydrant-ish.”
 
-The idea is that you can take these technologies and apply them to a content management system (CMS) or other publishing system. The publishing system would ideally then be able to automatically apply alternate text to any image uploaded by an author.
+The idea is that you can take these technologies and apply them to a CMS or other publishing system. The publishing system would ideally then be able to automatically apply alternate text to any image uploaded by an author.
 
 The problem is that automated image description is not a perfect science.
 
