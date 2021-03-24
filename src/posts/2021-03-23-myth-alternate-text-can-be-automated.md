@@ -54,7 +54,7 @@ It’s up to the person writing the code to add an `alt` attribute. It’s also 
 
 ## Automation
 
-Technologies such as [machine learning](https://en.m.wikipedia.org/wiki/Machine_learning) and [computer vision](https://en.m.wikipedia.org/wiki/Computer_vision) allow us to guess at what an image is based on its arrangements of pixels. For example, we might show a computer tens of thousands of photos of fire hydrants to train it to understand what configurations of pixels look “fire hydrant-ish.”
+Technologies such as [machine learning](https://en.m.wikipedia.org/wiki/Machine_learning) and [computer vision](https://en.m.wikipedia.org/wiki/Computer_vision) allow us to guess at what an image is based on its arrangements of pixels. For example, we might show a computer hundreds of thousands of photos of fire hydrants to train it to understand what configurations of pixels look “fire hydrant-ish.”
 
 The idea is that you can take these technologies and apply them to a content management system (CMS) or other publishing system. The publishing system would ideally then be able to automatically apply alternate text to any image uploaded by an author.
 
@@ -97,7 +97,7 @@ Including relevant detail and abstract themes in alternate text is vital, as the
 
 ## Be wary of false promises
 
-Some companies promise to automatically add alternate text to your image content, either as part of the content creation process, or after the fact as an overlay solution. Because of the issues with automation discussed earlier, [they cannot deliver on this promise](https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/).
+Some companies promise to automatically add accurate alternate text to your image content, either as part of the content creation process, or after the fact as an overlay solution. Because of the issues with automation discussed earlier, [they cannot deliver on this promise](https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/).
 
 <figure role="figure" aria-label="Evidence from case Case 1:21-cv-00017-RAL demonstrating an overlay company’s inability to accurately automatically describe an image.">
 	<img alt="A photo of a Belkin car charger. Below is is text that reads: Car Chargers. Figure 9: Example from https://www.belkin.com/us/products/. Bulleted list that reads, 'Original text alterative: None provided. Text alternative with accessiBe's Blind User Profile active: belkin. Power electricity and addiction. Issues: accessiBe's machine-based description does not sufficiently communicate image content and purpose.' Case 1:21-cv-00017-RAL. Document 1-2. Filed 01/07/21. Page 17 of 35. Screenshot." src="/img/posts/2021-03-23-myth-alternate-text-can-be-automated/accessibe.png" />
