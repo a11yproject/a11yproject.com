@@ -78,3 +78,7 @@
 [[redirects]]
 	from = "/posts/2020-02-05-text-resizing-in-ios-and-android/"
 	to = "/posts/2021-02-05-text-resizing-in-ios-and-android/"
+
+[[redirects]]
+	from = "/posts/2021-03-23-myth-alternate-text-can-be-automated/"
+	to = "/posts/2021-03-23-alternate-text-and-automation/"
