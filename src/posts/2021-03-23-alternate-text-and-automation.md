@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Alternate text can be automated
+title: Alternate text and automation
 description: "Alternate (alt) text help people who use assistive technology understand images, and are a core part of the Web Content Accessibility Guidelines (WCAG). They require a human’s input to be effective."
 category: Myth
 author: Eric Bailey
