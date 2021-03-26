@@ -66,6 +66,10 @@ $_checklist-padding: (
 		margin-left: 0.25ch;
 		margin-right: 0.25ch;
 		padding: 0.3ch 0.5ch;
+
+		@include mappy-bp(wrist-small wrist-large) {
+			word-break: normal;
+		}
 	}
 }
 
