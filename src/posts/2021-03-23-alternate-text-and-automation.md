@@ -114,6 +114,19 @@ Some screen readers utilize image recognition technology. It is important to kno
 The image recognition technology used by some screen readers isn’t special. It is susceptible to all the potential issues described earlier. This means that human-authored alt text is still the best option.
 
 
+## What about an image link?
+
+The presence of a link will be announced much as how the presence of an image will. If a link wraps an image element, the image’s alt text will provide a clue for where the link will go. A human’s guidance helps for these circumstances.
+
+An automated description may report something along the lines of:
+
+> Link. Image. Map.
+
+While human-authored alt text provides better context:
+
+> Link. Image. Paraguay river system.
+
+
 ## What about social media and memes?
 
 [Every major social media platform includes the ability to add alt text to their images](https://blog.hootsuite.com/inclusive-design-social-media/). Some, like Facebook, use an automated image description if none is provided, but they are almost always insufficient.
