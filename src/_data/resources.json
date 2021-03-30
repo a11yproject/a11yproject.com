@@ -173,6 +173,18 @@
 			"url": "https://shop.smashingmagazine.com/products/apps-for-all"
 		},
 		{
+			"title": "Automating Inequality",
+			"description": "In Automating Inequality, Virginia Eubanks systematically investigates the impacts of data mining, policy algorithms, and predictive risk models on poor and working-class people in America.",
+			"additional": "Virginia Eubanks",
+			"url": "https://us.macmillan.com/books/9781250074317"
+		},
+		{
+			"title": "Branding and Designing Disability: Reconceptualising Disability Studies",
+			"description": "Given their potential to divide humans into categories and label their worth and value, design and branding can wield immense but currently unharnessed powers of social change. Groups designed as devalued can be undesigned, redesigned and rebranded to seamlessly and equivalently participate in community, work and civic life.",
+			"additional": "Elizabeth DePoy, Stephen Gilson",
+			"url": "https://www.routledge.com/Branding-and-Designing-Disability-Reconceptualising-Disability-Studies/DePoy-Gilson/p/book/9781138601161"
+		},
+		{
 			"title": "Building Access: Universal Design and the Politics of Disability",
 			"description": "Building Access investigates twentieth-century strategies for designing the world with disability in mind.",
 			"additional": "Aimi Hamraie",
@@ -185,6 +197,12 @@
 			"url": "https://abookapart.com/products/color-accessibility-workflows"
 		},
 		{
+			"title": "Crip Theory: Cultural Signs of Queerness and Disability",
+			"description": "A bold and contemporary discourse of the intersection of disability studies and queer studies.",
+			"additional": "Robert McRuer",
+			"url": "https://nyupress.org/9780814757130/crip-theory/"
+		},
+		{
 			"title": "Cross-Cultural Design",
 			"description": "Explore how to create culturally relevant and responsible experiences that reach a truly global audience.",
 			"additional": "Senongo Akpem",
@@ -192,15 +210,27 @@
 		},
 		{
 			"title": "Design for Cognitive Bias",
-			"description": " In Design for Cognitive Bias, David Dylan Thomas lays bare the irrational forces that shape our everyday decisions and, inevitably, inform the experiences we craft. Once we grasp the logic powering these forces, we stand a fighting chance of confronting them, tempering them, and even harnessing them for good.",
+			"description": "In Design for Cognitive Bias, David Dylan Thomas lays bare the irrational forces that shape our everyday decisions and, inevitably, inform the experiences we craft. Once we grasp the logic powering these forces, we stand a fighting chance of confronting them, tempering them, and even harnessing them for good.",
 			"additional": "David Dylan Thomas",
 			"url": "https://abookapart.com/products/design-for-cognitive-bias"
+		},
+		{
+			"title": "Design Meets Disability",
+			"description": "How design for disabled people and mainstream design could inspire, provoke, and radically change each other.",
+			"additional": "Graham Pullin",
+			"url": "https://mitpress.mit.edu/books/design-meets-disability"
 		},
 		{
 			"title": "Design for Real Life",
 			"description": "You can’t know every user, but you can develop inclusive practices to create experiences that support a wider range of people, more of the time.",
 			"additional": "Eric Meyer, Sara Wachter-Boettcher",
 			"url": "https://abookapart.com/products/design-for-real-life"
+		},
+		{
+			"title": "Designing with the Body: Somaesthetic Interaction Design",
+			"description": " Interaction design that entails a qualitative shift from a symbolic, language-oriented stance to an experiential stance that encompasses the entire design and use cycle.",
+			"additional": "Kristina Höök",
+			"url": "https://mitpress.mit.edu/books/designing-body"
 		},
 		{
 			"title": "Designing with Progressive Enhancement: Building the Web that Works for Everyone",
@@ -221,6 +251,36 @@
 			"url": "https://www.penguinrandomhouse.com/books/617802/disability-visibility-by-alice-wong/"
 		},
 		{
+			"title": "Inclusify: The Power of Uniqueness and Belonging to Build Innovative Teams",
+			"description": "How do we find that happy medium where workers can demonstrate their individuality while also feeling they belong?",
+			"additional": "Stefanie K. Johnson",
+			"url": "https://inclusifybook.com/"
+		},
+		{
+			"title": "Inclusive Design for a Digital World",
+			"description": "What is inclusive design? It is simple. It means that your product has been created with the intention of being accessible to as many different users as possible.",
+			"additional": "Regine Gilbert",
+			"url": "https://www.apress.com/gp/book/9781484250150"
+		},
+		{
+			"title": "Inclusive Design for Organisations",
+			"description": "In this book, award-winning international accessibility thought-leader Jonathan Hassell shows you how to transform your organisation to consistently and cost-efficiently create websites, mobile apps and other digital products that are usable for all of your customers.",
+			"additional": "Jonathan Hassell",
+			"url": "https://bookshop.org/books/inclusive-design-for-organisations-including-your-missing-20-by-embedding-web-and-mobile-accessibility/9781781333952"
+		},
+		{
+			"title": "Inclusion: Diversity, The New Workplace & The Will To Change",
+			"description": "The Inclusion Dividend provides a framework to tap the bottom line impact that results from an inclusive culture.",
+			"additional": "Jennifer Brown",
+			"url": "https://jenniferbrownconsulting.com/inclusion-the-book/"
+		},
+		{
+			"title": "The Inclusion Dividend: Why Investing in Diversity and Inclusion Pays Off",
+			"description": "The Inclusion Dividend provides a framework to tap the bottom line impact that results from an inclusive culture.",
+			"additional": "Mason Donovan, Mark Kaplan",
+			"url": "https://thedagobagroup.com/offerings/publications/the-inclusion-dividend/"
+		},
+		{
 			"title": "Inclusive Conversations: Fostering Equity, Empathy, and Belonging across Differences",
 			"description": "Effective dialogue across different dimensions of diversity, such as race, gender, age, religion, or sexual orientation, fosters a sense of belonging and inclusion, which in turn leads to greater productivity, performance, and innovation.",
 			"additional": "Mary-Frances Winters",
@@ -233,10 +293,28 @@
 			"url": "https://shop.smashingmagazine.com/products/inclusive-design-patterns"
 		},
 		{
+			"title": "Living in Information: Responsible Design for Digital Places",
+			"description": "Websites and apps are places where critical parts of our lives happen. We shop, bank, learn, gossip, and select our leaders there. But many of these places weren’t intended to support these activities. Instead, they’re designed to capture your attention and sell it to the highest bidder.",
+			"additional": "Jorge Arango",
+			"url": "https://rosenfeldmedia.com/books/living-in-information/"
+		},
+		{
+			"title": "Making Disability Modern",
+			"description": "Making Disability Modern: Design Histories brings together leading scholars from a range of disciplinary and national perspectives to examine how designed objects and spaces contributes to the meanings of ability and disability from the late 18th century to the present day, and in homes, offices, and schools to realms of national and international politics.",
+			"additional": "Bess Williamson, Elizabeth Guffey",
+			"url": "https://www.bloomsbury.com/us/making-disability-modern-9781350070448/"
+		},
+		{
 			"title": "Mismatch: How Inclusion Shapes Design",
 			"description": "How inclusive methods can build elegant design solutions that work for all.",
 			"additional": "Kat Holmes",
 			"url": "https://mitpress.mit.edu/books/mismatch"
+		},
+		{
+			"title": "No Right to Be Idle: The Invention of Disability",
+			"description": "During the late nineteenth and early twentieth centuries, Americans with all sorts of disabilities came to be labeled as “unproductive citizens.” Before that, disabled people had contributed as they were able in homes, on farms, and in the wage labor market, reflecting the fact that Americans had long viewed productivity as a spectrum that varied by age, gender, and ability.",
+			"additional": "Sarah F. Rose",
+			"url": "https://muse.jhu.edu/book/49914"
 		},
 		{
 			"title": "Practical Web Inclusion & Accessibility",
@@ -249,6 +327,12 @@
 			"description": "Pro HTML5 Accessibility helps designers come to grips with building exciting, accessible and usable web sites and applications with HTML5. The book covers how to use HTML5 in order to serve the needs of people with disabilities and older persons using assistive technology (AT).",
 			"additional": "Joshue O Connor",
 			"url": "http://a.co/d/4AX1wPY"
+		},
+		{
+			"title": "We Are Not Users: Dialogues, Diversity, and Design",
+			"description": " A call to reclaim and rethink the field of designing as a liberal art where diverse voices come together to shape the material world.",
+			"additional": "Eswaran Subrahmanian, Yoram Reich, Sruthi Krishnan",
+			"url": "https://mitpress.mit.edu/books/we-are-not-users"
 		},
 		{
 			"title": "Web and App Accessibility: Your Roadmap to Digital Inclusion",
@@ -393,6 +477,12 @@
 			"url": "https://toolness.github.io/accessible-color-matrix/"
 		},
 		{
+			"title": "Blindspot: Hidden Biases of Good People",
+			"description": "In Blindspot, Mahzarin Banaji and Anthony Greenwald explore hidden biases that we all carry from a lifetime of experiences with Blindspot approved.inddsocial groups – age, gender, race, ethnicity, religion, social class, sexuality, disability status, or nationality.",
+			"additional": "Mahzarin R. Banaji, Anthony G. Greenwald",
+			"url": "http://blindspot.fas.harvard.edu/Book"
+		},
+		{
 			"title": "Colorable",
 			"description": "Color palette combination contrast tester",
 			"additional": "Brent Jackson",
@@ -529,8 +619,14 @@
 		{
 			"title": "Take 5 - Ethan Marcotte",
 			"description": "A series of five 5-minute tutorial videos hosted by Aquent Gymnasium that deal with introductory accessibility topics.",
-			"additional": "Aquent Gymnasium ",
+			"additional": "Aquent Gymnasium",
 			"url": "https://ethanmarcotte.com/wrote/takin-five/"
+		},
+		{
+			"title": "Technically Wrong",
+			"description": "In Technically Wrong, Sara Wachter-Boettcher demystifies the tech industry, leaving those of us on the other side of the screen better prepared to make informed choices about the services we use—and to demand more from the companies behind them.",
+			"additional": "Sara Wachter-Boettcher",
+			"url": "https://wwnorton.com/books/Technically-Wrong/"
 		},
 		{
 			"title": "The A11Y Collective",
