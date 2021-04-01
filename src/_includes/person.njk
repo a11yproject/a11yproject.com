@@ -21,6 +21,12 @@
 				{{ person.biography }}
 			</p>
 		{% endif %}
+		{% set author_posts = collections.posts | getPostsByAuthor(person.name) %}
+		<ul>
+			{% for post in author_posts %}
+				<li><a class="c-person__link" href="{{post.url}}">{{post.data.title}}</a></li>
+			{% endfor %}
+		</ul>
 	{% endif %}
 	{% if personRole == "staff" %}
 		<h3 id="{{ person.name | slugify }}" class="u-font-size-body-large c-person__name">
