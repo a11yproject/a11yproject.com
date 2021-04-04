@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+templateClass: template-collection
+---
+{%- set collectionObject = collections.postCollections[page.fileSlug] -%}
+
+<div class="l-post">
+	<header class="l-post__header">
+		<h1 id="title" class="l-post__title c-post__title">
+			{{ title | safe }}
+		</h1>
+
+		<p id="metadata" class="u-font-size-body-small l-post__metadata c-post__metadata">
+			{% if author %}
+				<span class="c-post__metadata--author">
+					<span class="u-text-transform-uppercase">By:&#8194;</span><a class="c-post__metadata-link" href="/authors/#{{ author | slugify | url }}">{{ author }}</a><span class="u-hide-visually">.</span>
+				</span>
+			{% endif %}
+			<span class="c-post__metadata--published">
+				<span class="u-text-transform-uppercase">Published:&#8194;</span><time datetime="{{ collectionObject.collection.date | htmlDateString }}">{{ collectionObject.collection.date | dateReadable }}</time><span class="u-hide-visually">.</span>
+			</span>
+		</p>
+	</header>
+
+	<div	class="l-post__body">
+		<div class="l-post__content">
+			<div class="c-content c-content--post">
+				{{ content | safe }}
+			</div>
+			<ol class="c-collection__list">
+				{%- for post in collectionObject.posts -%}
+					<li>
+						{% include "post.njk" %}
+					</li>
+				{%- endfor -%}
+			</ol>
+		</div>
+		<div>
+	</div>
+</div>

@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("collection", "layouts/collection.njk");
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLL yyyy");
@@ -52,6 +53,45 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("./src/posts/*").sort(function (a, b) {
       return a.date - b.date;
     });
+  });
+
+  eleventyConfig.addCollection("postCollections", function (collection) {
+    // Grab our collections
+    const rawPostCollections = collection.getFilteredByGlob("./src/collections/*").sort(function (a, b) {
+      return a.title.localeCompare(b.title)
+    });
+
+    // Build up the content in the collection
+    const postCollections = {};
+
+    collection.getFilteredByGlob("./src/posts/*").forEach(function (item) {
+      if (item.data.collection) {
+        if (!postCollections[item.data.collection.slug]) {
+          postCollections[item.data.collection.slug] = {
+            posts: []
+          };
+        }
+        postCollections[item.data.collection.slug].posts.push(item);
+      }
+    });
+
+    // Sort by the order
+    for (const [slug, postCollection] of Object.entries(postCollections))  {
+      postCollection.posts.sort(function (a, b) {
+        return a.data.collection.order - b.data.collection.order;
+      });
+
+      // Attach collection object
+      postCollections[slug].collection = rawPostCollections.find(coll => coll.template.parsed.name === slug);
+    };
+
+    /* Return post collections in the following data format
+    [slug]: {
+      collection: Collection Object
+      posts: Array of Post Objects
+    }
+    */
+    return postCollections;
   });
 
   // Universal slug filter strips unsafe chars from URLs

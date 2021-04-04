@@ -31,25 +31,42 @@ templateClass: template-post
 		</p>
 	</header>
 
-	<div data-content id="short-answer" class="l-post__body">
+	<div id="short-answer" class="l-post__body">
 		{% include "nav/toc.njk" %}
 
-		<div class="l-post__content c-content c-content--post">
+		<div class="l-post__content">
+			<div  data-content class="c-content c-content--post">
+				{{ content | safe }}
 
-			{{ content | safe }}
+				<p class="c-last-updated__body">
+					{% if updated_by %}
+						This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+					{% endif %}
+					{% if thanks %}
+						{{ thanks | safe }}
+					{% endif %}
+				</p>
 
-			<p class="c-last-updated__body">
-				{% if updated_by %}
-					This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+				{% if further_reading %}
+					{% include "further-reading.njk" %}
 				{% endif %}
-				{% if thanks %}
-					{{ thanks | safe }}
-				{% endif %}
-			</p>
-
-			{% if further_reading %}
-				{% include "further-reading.njk" %}
-			{% endif %}
+			</div>
+			{%- if collection -%}
+				{%- set collectionObject = collections.postCollections[collection.slug] -%}
+				<h2>Collection: {{ collectionObject.collection.data.title }}</h2>
+				<ol class="c-collection__list">
+					{%- for post in collectionObject.posts -%}
+						{# Todo: Use this in styling #}
+						{%- set currentPost = false -%}
+						{%- if post.data.title == title -%}
+							{%- set currentPost = true -%}
+						{%- endif -%}
+						<li>
+							{% include "post.njk" %}
+						</li>
+					{%- endfor -%}
+				</ol>
+			{%- endif -%}
 		<div>
 	</div>
 
