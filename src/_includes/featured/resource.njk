@@ -1,0 +1,21 @@
+<div class="c-featured">
+	<h2 id="latest" class="u-font-size-body u-text-transform-uppercase c-banner c-banner--resource">
+		<svg aria-hidden="true" focusable="false" class="c-banner__icon" width="22" height="22">
+			<use xlink:href="{{ '/img/icons.svg#featured' | url }}"></use>
+		</svg>
+		Featured Resource
+	</h2>
+	<div class="c-featured__body c-featured__body--resource">
+		<h3>
+			<a class="c-featured__title c-featured__title--resource" href="{{ featuredResource.url | url }}">
+				{{ featuredResource.title | safe }}
+			</a>
+		</h3>
+		<p class="u-font-family-secondary u-font-size-body-small u-spacing-top-shortest u-text-transform-uppercase c-featured__meta">
+			{{ featuredResource.additional }}
+		</p>
+		<p class="u-font-family-secondary u-font-size-body-small u-spacing-top-medium c-featured__description">
+			{{ featuredResource.description }}
+		</p>
+	</div>
+</div>
