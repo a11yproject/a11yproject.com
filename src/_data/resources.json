@@ -163,7 +163,8 @@
 		},
 		{
 			"title": "Agile Accessibility Handbook",
-			"description": "Free ebook: A Practical Guide to Accessible Software Development at Scale, by Dylan Barrell.",
+			"description": "Free ebook: A Practical Guide to Accessible Software Development at Scale.",
+			"additional": "Dylan Barrell",
 			"url": "https://accessibility.deque.com/agile-accessibility-handbook"
 		},
 		{
