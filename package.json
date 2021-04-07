@@ -19,13 +19,13 @@
 		"Wayne Elgin (https://twitter.com/esjay)"
 	],
 	"scripts": {
-		"start": "npx eleventy --watch | gulp watch",
+		"start": "npx @11ty/eleventy --watch | gulp watch",
 		"a11yproject": "npm start",
-		"publish": "npx gulp && npx eleventy",
+		"publish": "npx gulp && npx @11ty/eleventy",
 		"clean": "rm -rf ./dist",
-		"eleventy-build": "npx eleventy",
-		"eleventy-watch": "npx eleventy --watch",
-		"eleventy-debug": "DEBUG=* npx eleventy",
+		"eleventy-build": "npx @11ty/eleventy",
+		"eleventy-watch": "npx @11ty/eleventy --watch",
+		"eleventy-debug": "DEBUG=* npx @11ty/eleventy",
 		"gulp-build": "gulp",
 		"gulp-watch": "gulp watch"
 	},
