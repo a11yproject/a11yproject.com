@@ -1,0 +1,63 @@
+.c-card-resource__body {
+	border-right: $border-thinnest solid $color-gray-shade;
+	border-bottom: $border-thinnest solid $color-gray-shade;
+	border-left: $border-thinnest solid $color-gray-shade;
+	margin-right: 1.25rem;
+	margin-left: 1.5rem;
+	padding: 1.5rem 2rem;
+	transition:
+		$animation-duration-shorter $animation-easing-character background-color,
+		$animation-duration-shorter $animation-easing-character border-color,
+		$animation-duration-shorter $animation-easing-character color;
+
+	// States
+	&:hover {
+		background-color: $color-white;
+	}
+
+	&:focus-within {
+		background-color: $color-green-shade;
+		border-right-color: $color-green-shade;
+		border-bottom-color: $color-green-shade;
+		border-left-color: $color-green-shade;
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+// Color the author link when the title link is focused
+.c-card-resource__title:focus ~ .c-card-resource__meta,
+.c-card-resource__title:focus ~ .c-card-resource__description {
+	color: $color-white;
+}
+
+
+.c-card-resource__title {
+	color: $color-green-shade;
+	letter-spacing: $font-tracking-tight;
+
+	// States
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+
+	&:focus {
+		color: $color-white;
+		outline: $border-thin solid transparent;
+	}
+}
+
+
+.c-card-resource__meta {
+	color: $color-gray-shade;
+	line-height: $line-height-tight;
+}
+
+
+.c-card-resource__description {
+	max-width: $global-type-measure;
+}
