@@ -17,9 +17,8 @@ templateClass: template-resources
 
 	{% set resource = resources.featured %}
 	{% for featuredResource in resource %}
-		{% include "highlight.njk" %}
+		{% include "featured/resource.njk" %}
 	{% endfor %}
-
 
 	<h2 id="media" class="c-heading-large">
 		Media
