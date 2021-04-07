@@ -41,6 +41,12 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
   });
 
+  eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
+    return posts.filter(a => {
+      return a.data.author === author
+    });
+  });
+
   // only content in the `posts/` directory
   eleventyConfig.addCollection("posts", function (collection) {
     return collection.getFilteredByGlob("./src/posts/*").sort(function (a, b) {

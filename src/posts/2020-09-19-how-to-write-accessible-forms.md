@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Create accessible forms
-description: Practial tips on how to create accessible forms.
+description: Practical tips on how to create accessible forms.
 category: How-to
 author: Hamsa Harcourt
 date: 2020-09-16
@@ -47,10 +47,11 @@ Here are some  practical tips on how to write accessible forms.
 Labels are a great way to get started with writing accessible forms. They are vital for helping people who use [screen readers](https://en.wikipedia.org/wiki/Screen_reader) and other kinds of assistive technology determine what label text go with what input field.
 
 To associate a `<label>` with an `<input>`, set the identifier(ID) in the `<input>` to correspond with the `for` attribute of the `<label>`. This is the generally accepted approach.
+
 ```html
 <form>
   <label for="firstName">First Name</label>
-  <input type="text" id="firstName" name="firtName"/>
+  <input type="text" id="firstName" name="firstName"/>
 </form>
 ```
 
@@ -61,7 +62,7 @@ To associate a `<label>` with an `<input>`, set the identifier(ID) in the `<inpu
 
 Form insertion [carets](https://developer.mozilla.org/en-US/docs/Glossary/caret#:~:text=A%20caret%20sometimes%20called%20a,is%20called%20the%20insertion%20point.) can be difficult to track. A simple solution is to highlight `<input>` on [focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus). This way, people do not have to guess where they are on the form.
 
-![A form with an input field highlighted in blue.](../img/posts/2020-09-19-how-to-write-accessible-forms/form-field-on-focus.png)
+![A form with an input field highlighted in blue.](/img/posts/2020-09-19-how-to-write-accessible-forms/form-field-on-focus.png)
 
 ```css
 input:focus {

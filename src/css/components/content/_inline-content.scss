@@ -57,6 +57,12 @@
 		}
 	}
 
+	// Image
+	// Style guide: Components.post.image
+	img {
+		margin-top: 4ex;
+	}
+
 	// Figure
 	//
 	// Style guide: Components.post.figure
@@ -67,7 +73,9 @@
 			background-color: $color-white;
 			border-bottom: $border-hairline solid $color-gray-shade;
 			font-family: $font-family-secondary;
-			padding: 0 1rem;
+			line-height: $line-height-tight;
+			margin-top: 0.75rem;
+			padding: 1rem;
 		}
 	}
 
@@ -85,8 +93,8 @@
 		}
 
 		code {
-			 line-height: $line-height-double;
-			 white-space: pre;
+			line-height: $line-height-double;
+			white-space: pre;
 		}
 	}
 
