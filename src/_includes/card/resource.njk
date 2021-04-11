@@ -1,4 +1,4 @@
-<div class="">
+<div class="c-card-resource">
 	<p aria-hidden="true" class="u-font-size-body u-text-transform-uppercase c-banner">
 		<svg aria-hidden="true" focusable="false" class="c-banner__icon" width="22" height="22">
 		{% if resourceType == "Featured" %}
@@ -6,7 +6,7 @@
 		{% elif resourceType == "Animation" %}
 			<use xlink:href="{{ '/img/icons.svg#animation' | url }}"></use>
 		{% elif resourceType == "Blogs" %}
-			<use xlink:href="{{ '/img/icons.svg#books' | url }}"></use>
+			<use xlink:href="{{ '/img/icons.svg#blog' | url }}"></use>
 		{% elif resourceType == "Bookmarklets" %}
 			<use xlink:href="{{ '/img/icons.svg#bookmarklets' | url }}"></use>
 		{% elif resourceType == "Books" %}
@@ -57,16 +57,16 @@
 		</svg>
 		{{ resourceType }}
 	</p>
-	<div class="foo">
+	<div class="c-card-resource__body">
 		<a class="c-card-resource__title" href="{{ resource.url | url }}">
 			<h4 id="{{ resource.title | slugify }}">
 				{{ resource.title }}
 			</h4>
 		</a>
-		<p class="u-font-size-body-small u-text-transform-uppercase c-card__additional">
+		<p class="u-font-family-secondary u-font-size-body-small u-spacing-top-shortest u-text-transform-uppercase c-card-resource__meta">
 			{{ resource.additional }}
 		</p>
-		<p class="u-font-size-body-small c-card__description">
+		<p class="u-font-family-secondary u-font-size-body-small u-spacing-top-medium c-card-resource__description">
 			{{ resource.description }}
 		</p>
 	</div>
