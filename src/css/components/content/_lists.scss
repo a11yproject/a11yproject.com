@@ -93,7 +93,6 @@
 		dt {
 			font-weight: $font-weight-bold;
 			margin-top: 1.5rem;
-			/* stylelint-disable-selector-list-comma-newline-after */
 			margin-left: map-get($global-post-content-inset, small) * -1;
 		}
 
