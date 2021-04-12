@@ -16,10 +16,12 @@ templateClass: template-posts
 
 <div data-content class="l-content">
 
-	{% set taglist = collections[ "featured" ] %}
-	{% for post in taglist %}
-		{% include "highlight.njk" %}
-	{% endfor %}
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "featured" ] %}
+		{% for post in taglist %}
+			{% include "featured/post.njk" %}
+		{% endfor %}
+	</div>
 
 	<h2 id="background" class="c-heading-large">
 		Background
@@ -30,7 +32,7 @@ templateClass: template-posts
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "background" ] %}
 		{% for post in taglist | reverse %}
-			{% include "post.njk" %}
+			{% include "card/post.njk" %}
 		{% endfor %}
 	</div>
 
@@ -43,7 +45,7 @@ templateClass: template-posts
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "myth" ] %}
 		{% for post in taglist | reverse %}
-			{% include "post.njk" %}
+			{% include "card/post.njk" %}
 		{% endfor %}
 	</div>
 
@@ -56,7 +58,7 @@ templateClass: template-posts
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "quicktest" ] %}
 		{% for post in taglist | reverse %}
-			{% include "post.njk" %}
+			{% include "card/post.njk" %}
 		{% endfor %}
 	</div>
 
@@ -69,7 +71,7 @@ templateClass: template-posts
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "quicktip" ] %}
 		{% for post in taglist | reverse %}
-			{% include "post.njk" %}
+			{% include "card/post.njk" %}
 		{% endfor %}
 	</div>
 
@@ -82,7 +84,7 @@ templateClass: template-posts
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "howto" ] %}
 		{% for post in taglist | reverse %}
-			{% include "post.njk" %}
+			{% include "card/post.njk" %}
 		{% endfor %}
 	</div>
 
@@ -95,7 +97,7 @@ templateClass: template-posts
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "assistivetechnology" ] %}
 		{% for post in taglist | reverse %}
-			{% include "post.njk" %}
+			{% include "card/post.njk" %}
 		{% endfor %}
 	</div>
 

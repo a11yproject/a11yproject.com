@@ -1,0 +1,13 @@
+<div class="u-spacing-top-long u-spacing-left-long c-card-post">
+	<a class="c-card-post__title" href="{{ post.url | url }}">
+		<h3 id="{{ post.data.title | slugify }}">
+			{{ post.data.title | safe }}</a>
+		</h3>
+	</a>
+	<p class="u-font-size-body-small c-card-post__meta">
+		Published on <time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateReadable }}</time>{% if post.data.author%} by <a class="c-card-post__author" href="{{ '/authors/#' + post.data.author | slugify | url}}">{{ post.data.author }}</a>{% endif %}
+	</p>
+	<p class="u-font-family-secondary u-font-size-body-small u-spacing-top-medium c-card-post__description">
+		{{ post.data.description | safe }}
+	</p>
+</div>

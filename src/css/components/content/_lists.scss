@@ -1,8 +1,9 @@
 // Namespace
-.c-content, 
+.c-content,
 .c-person {
 	dl,
 	ul {
+		/* stylelint-disable-selector-list-comma-newline-after */
 		margin-left: map-get($global-post-content-inset, small);
 
 		// Breakpoints

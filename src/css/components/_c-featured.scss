@@ -1,0 +1,93 @@
+.c-featured__body {
+	margin-right: 0;
+	margin-bottom: 2rem;
+	margin-left: 1.5rem;
+	padding: 1.5rem 2rem;
+	transition:
+		$animation-duration-shorter $animation-easing-character background-color,
+		$animation-duration-shorter $animation-easing-character border-color,
+		$animation-duration-shorter $animation-easing-character color;
+}
+
+
+.c-featured__body--post,
+.c-featured__body--resource {
+	// States
+	&:hover {
+		background-color: $color-white;
+	}
+
+	&:focus-within {
+		color: $color-white;
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+.c-featured__body--post {
+	background-color: $color-blue-tint;
+
+	// States
+	&:focus-within {
+		background-color: $color-blue-shade;
+		border-right-color: $color-blue-shade;
+		border-bottom-color: $color-blue-shade;
+		border-left-color: $color-blue-shade;
+	}
+}
+
+.c-featured__body--resource {
+	background-color: $color-green-tint;
+
+	// States
+	&:focus-within {
+		background-color: $color-green-shade;
+		border-right-color: $color-green-shade;
+		border-bottom-color: $color-green-shade;
+		border-left-color: $color-green-shade;
+	}
+}
+
+
+// Color the author link when the title link is focused
+.c-featured__title:focus ~ .c-featured__meta,
+.c-featured__title:focus ~ .c-featured__description {
+	color: $color-white;
+}
+
+
+.c-featured__title {
+	letter-spacing: $font-tracking-tight;
+	max-width: $global-type-measure;
+
+	// States
+	&:hover {
+		text-decoration: none;
+	}
+
+	&:focus {
+		color: $color-white;
+		outline: $border-thin solid transparent;
+	}
+}
+
+.c-featured__title--post {
+	color: $color-blue-shade;
+}
+
+.c-featured__title--resource {
+	color: $color-green-shade;
+}
+
+
+.c-featured__meta {
+	line-height: $line-height-tight;
+}
+
+
+.c-featured__description {
+	max-width: $global-type-measure;
+}

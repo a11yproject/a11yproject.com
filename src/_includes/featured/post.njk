@@ -1,0 +1,21 @@
+<div class="c-featured">
+	<h2 id="latest" class="u-font-size-body u-text-transform-uppercase c-banner c-banner--post">
+		<svg aria-hidden="true" focusable="false" class="c-banner__icon" width="22" height="22">
+			<use xlink:href="{{ '/img/icons.svg#featured' | url }}"></use>
+		</svg>
+		Featured Post
+	</h2>
+	<div class="c-featured__body c-featured__body--post">
+		<h3>
+			<a class="c-featured__title c-featured__title--post" href="{{ post.url | url }}">
+				{{ post.data.title | safe }}
+			</a>
+		</h3>
+		<p class="u-font-family-secondary u-font-size-body-small u-spacing-top-shortest u-text-transform-uppercase c-featured__meta">
+			<time datetime="{{ post.date | htmlDateString }}">{{ post.date | dateReadable }}</time> by {{ post.data.author }}
+		</p>
+		<p class="u-font-family-secondary u-font-size-body-small u-spacing-top-medium c-featured__description">
+			{{ post.data.description | safe }}
+		</p>
+	</div>
+</div>
