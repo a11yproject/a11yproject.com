@@ -49,7 +49,7 @@ further_reading:
     url: https://accessdefense.com/?p=5378
     source: ADA and FHA Defense
   - title: Lies, Damned Lies, Overlays and Widgets
-    url: https://www.linkedin.com/pulse/lies-damned-overlays-widgets-timothy-springer/?articleId=6681696134819266560
+    url: https://www.levelaccess.com/lies-damned-lies-overlays-and-widgets/
     source: Timothy Springer
   - title: More lawsuits filed against companies using accessibility plugin/overlays
     url: https://sheribyrnehaber.medium.com/more-lawsuits-filed-against-companies-using-accessibility-plugin-overlays-1cc539d493b2
