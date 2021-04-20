@@ -1,3 +1,7 @@
+[[headers]]
+	for = "/*"
+	[headers.values]
+		Permissions-Policy = "interest-cohort=()"
 
 [[redirects]]
 	from = "/posts/how-to-hide-content/"
