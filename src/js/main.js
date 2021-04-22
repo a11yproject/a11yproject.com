@@ -1,5 +1,10 @@
 /* jshint esversion: 5 */
 
+
+if (!Element.prototype.matches) {
+	Element.prototype.msMatchesSelector;
+}
+
 // Copy email address ----------------------------------------------------------
 function getEmailOnly(element) {
 	var emailRegex = /^(?:mailto:?)([a-zA-Z0-9_\-.]+@[a-zA-Z0-9-]+\.[a-zA-Z\-.]{2,})(?:\?subject\=.*)?$/;
@@ -50,11 +55,11 @@ if (navigator && navigator.clipboard && navigator.permissions) {
 	});
 }
 
-// When someone navigates directly to a checklist item using its "Share Link" 
+// When someone navigates directly to a checklist item using its "Share Link"
 // like a11yproject.com/checklist/#validate-your-html, the item with the
 // matching id attribute will be scrolled into view. Then, if JS is enabled,
-// this code will open its associated <details> element. 
-function openLinkedCheckListItem() {			
+// this code will open its associated <details> element.
+function openLinkedCheckListItem() {
 	var checklistItems = document.querySelectorAll("[data-checklist-item-id]");
 
 	checklistItems.forEach(function (item) {
@@ -83,15 +88,19 @@ function checkChecklistExists(item) {
 	return getChecklistItemVal(item) === 'checked';
 }
 
-function processChecklistClick(items) {
-	items.forEach(function(element){
-		element.addEventListener('change', function(event) {
-			if (checkChecklistExists(event.target.id)) {
-				removeChecklistItems(event.target.id);
-			} else {
-				storeChecklistItems(event.target.id);
-			}
-		});
+function processChecklistClick(selector) {
+	document.addEventListener("change", function (event) {
+		const target = event.target;
+
+		if (!target.matches(selector)) {
+			return;
+		}
+		const targetId = target.id;
+		if (checkChecklistExists(targetId)) {
+			removeChecklistItems(targetId);
+		} else {
+			storeChecklistItems(targetId);
+		}
 	});
 }
 
@@ -107,7 +116,7 @@ openLinkedCheckListItem();
 function processChecklist() {
 	var checklistItems = document.querySelectorAll('.c-checklist__checkbox input[type="checkbox"]');
 	renderLocalStorageItems(checklistItems);
-	processChecklistClick(checklistItems);
+	processChecklistClick('.c-checklist__checkbox input[type="checkbox"]');
 }
 
 processChecklist();
