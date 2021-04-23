@@ -76,8 +76,8 @@ function storeChecklistItem(checkboxId) {
 	localStorage.setItem(checkboxId, 'checked');
 }
 
-function removeChecklistItem(item) {
-	localStorage.removeItem(item);
+function removeChecklistItem(checkboxId) {
+	localStorage.removeItem(checkboxId);
 }
 
 function processChecklistClick(checkboxSelector) {
