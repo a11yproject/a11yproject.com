@@ -55,8 +55,7 @@ var paths = {
 // Gulp Packages //////////////////////////////////////////////////////////////
 
 // General
-var { gulp, src, dest, watch, series, parallel } = require('gulp');
-var del = require('del');
+var { src, dest, watch, series, parallel } = require('gulp');
 var flatmap = require('gulp-flatmap');
 var lazypipe = require('lazypipe');
 var kss = require('kss');
@@ -64,10 +63,8 @@ var rename = require('gulp-rename');
 
 // Scripts
 var jshint = require('gulp-jshint');
-var stylish = require('jshint-stylish');
 var concat = require('gulp-concat');
-var uglify = require('gulp-uglify-es').default;
-var optimizejs = require('gulp-optimize-js');
+var terser = require('gulp-terser');
 
 // Styles
 var sass = require('gulp-sass');
@@ -107,11 +104,9 @@ var configIcons = {
 
 // Repeated JavaScript tasks
 var jsTasks = lazypipe()
-	.pipe(optimizejs)
+  .pipe(terser)
 	.pipe(dest, paths.scripts.output)
 	.pipe(rename, { suffix: '.min'})
-	.pipe(uglify)
-	.pipe(optimizejs)
 	.pipe(dest, paths.scripts.output);
 
 
