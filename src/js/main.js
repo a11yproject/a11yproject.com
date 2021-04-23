@@ -1,8 +1,10 @@
 /* jshint esversion: 5 */
 
-// Used to check whether a given Element could be selected
-// by a DOM selector
-if (!Element.prototype.matches) {
+/** Used to check whether a given Element could match
+ * by a DOM selector.
+ * @see processChecklistClick
+ */
+ if (!Element.prototype.matches) {
 	Element.prototype.matches = Element.prototype.msMatchesSelector;
 }
 
@@ -60,11 +62,10 @@ if (navigator && navigator.clipboard && navigator.permissions) {
 // like a11yproject.com/checklist/#validate-your-html, the item with the
 // matching id attribute will be scrolled into view. Then, if JS is enabled,
 // this code will open its associated <details> element.
-function openLinkedCheckListItem() {
-	var hashValue = document.location.hash.substr(1);
-	var checklistItem =
-		hashValue.length > 0 &&
-		document.querySelector("[data-checklist-item-id=" + hashValue + "]");
+function openLinkedCheckListItem(itemId) {
+	var checklistItem = document.querySelector(
+		"[data-checklist-item-id=" + itemId + "]"
+	);
 
 	if (checklistItem) {
 		checklistItem.setAttribute("open", true);
@@ -79,11 +80,11 @@ function removeChecklistItem(item) {
 	localStorage.removeItem(item);
 }
 
-function processChecklistClick(selector) {
+function processChecklistClick(checkboxSelector) {
 	document.addEventListener("change", function (event) {
 		var target = event.target;
 
-		if (!target.matches(selector)) {
+		if (!target.matches(checkboxSelector)) {
 			return;
 		}
 
@@ -92,12 +93,11 @@ function processChecklistClick(selector) {
 		} else {
 			removeChecklistItem(target.id);
 		}
-
-		updateStorage(target.id);
 	});
 }
 
-function populateChecklistFromLocalStorage(items) {
+function populateChecklistFromLocalStorage(checkboxSelector) {
+	var items = document.querySelectorAll(checkboxSelector);
 	var length = items.length;
 	for (var i = 0; i < length; ++i) {
 		var checkboxElement = items[i];
@@ -105,17 +105,16 @@ function populateChecklistFromLocalStorage(items) {
 	}
 }
 
-openLinkedCheckListItem();
 function processChecklist() {
 	var checkboxSelector = '.c-checklist__checkbox input[type="checkbox"]';
-	var checklistItems = document.querySelectorAll(checkboxSelector);
 
-	if (checklistItems.length === 0) {
-		return;
-	}
-
-	populateChecklistFromLocalStorage(checklistItems);
+	populateChecklistFromLocalStorage(checkboxSelector);
 	processChecklistClick(checkboxSelector);
 }
 
-processChecklist();
+if (location.pathname === '/checklist/') {
+	var linkedCheckListItemId = window.location.hash.substr(1);
+	openLinkedCheckListItem(linkedCheckListItemId);
+	processChecklist();
+}
+
