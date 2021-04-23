@@ -61,16 +61,14 @@ if (navigator && navigator.clipboard && navigator.permissions) {
 // matching id attribute will be scrolled into view. Then, if JS is enabled,
 // this code will open its associated <details> element.
 function openLinkedCheckListItem() {
-	var checklistItems = document.querySelectorAll("[data-checklist-item-id]");
+	var hashValue = document.location.hash.substr(1);
+	var checklistItem =
+		hashValue.length > 0 &&
+		document.querySelector("[data-checklist-item-id=" + hashValue + "]");
 
-	checklistItems.forEach(function (item) {
-		var shareLink = "#" + item.getAttribute("data-checklist-item-id");
-		var isItemLinked = shareLink === document.location.hash;
-
-		if (isItemLinked) {
-			item.setAttribute("open", true);
-		}
-	});
+	if (checklistItem) {
+		checklistItem.setAttribute("open", true);
+	}
 }
 // Store checklist status ---------------------------------------------------
 function storeChecklistItem(checkboxId) {
