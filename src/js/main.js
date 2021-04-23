@@ -72,7 +72,7 @@ function openLinkedCheckListItem() {
 }
 // Store checklist status ---------------------------------------------------
 function storeChecklistItem(checkboxId) {
-	localStorage.setcheckboxId(checkboxId, 'checked');
+	localStorage.setItem(checkboxId, 'checked');
 }
 
 function removeChecklistItem(item) {
@@ -88,7 +88,7 @@ function processChecklistClick(selector) {
 		}
 
 		if (target.checked) {
-			storeChecklistItem(checkboxId);
+			storeChecklistItem(target.id);
 		} else {
 			removeChecklistItem(target.id);
 		}
