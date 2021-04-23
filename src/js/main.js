@@ -1,8 +1,9 @@
 /* jshint esversion: 5 */
 
-
+// Used to check whether a given Element could be selected
+// by a DOM selector
 if (!Element.prototype.matches) {
-	Element.prototype.msMatchesSelector;
+	Element.prototype.matches = Element.prototype.msMatchesSelector;
 }
 
 // Copy email address ----------------------------------------------------------
@@ -72,51 +73,51 @@ function openLinkedCheckListItem() {
 	});
 }
 // Store checklist status ---------------------------------------------------
-function storeChecklistItems(item) {
-	localStorage.setItem(item, 'checked');
+function storeChecklistItem(checkboxId) {
+	localStorage.setcheckboxId(checkboxId, 'checked');
 }
 
-function removeChecklistItems(item) {
+function removeChecklistItem(item) {
 	localStorage.removeItem(item);
-}
-
-function getChecklistItemVal(item) {
-	return localStorage.getItem(item);
-}
-
-function checkChecklistExists(item) {
-	return getChecklistItemVal(item) === 'checked';
 }
 
 function processChecklistClick(selector) {
 	document.addEventListener("change", function (event) {
-		const target = event.target;
+		var target = event.target;
 
 		if (!target.matches(selector)) {
 			return;
 		}
-		const targetId = target.id;
-		if (checkChecklistExists(targetId)) {
-			removeChecklistItems(targetId);
+
+		if (target.checked) {
+			storeChecklistItem(checkboxId);
 		} else {
-			storeChecklistItems(targetId);
+			removeChecklistItem(target.id);
 		}
+
+		updateStorage(target.id);
 	});
 }
 
-function renderLocalStorageItems(items) {
-	items.forEach(function(element){
-		if (checkChecklistExists(element.id)) {
-			element.checked = true;
-		}
-	});
+function populateChecklistFromLocalStorage(items) {
+	var length = items.length;
+	for (var i = 0; i < length; ++i) {
+		var checkboxElement = items[i];
+		checkboxElement.checked = localStorage[checkboxElement.id] === 'checked';
+	}
 }
 
 openLinkedCheckListItem();
 function processChecklist() {
-	var checklistItems = document.querySelectorAll('.c-checklist__checkbox input[type="checkbox"]');
-	renderLocalStorageItems(checklistItems);
-	processChecklistClick('.c-checklist__checkbox input[type="checkbox"]');
+	var checkboxSelector = '.c-checklist__checkbox input[type="checkbox"]';
+	var checklistItems = document.querySelectorAll(checkboxSelector);
+
+	if (checklistItems.length === 0) {
+		return;
+	}
+
+	populateChecklistFromLocalStorage(checklistItems);
+	processChecklistClick(checkboxSelector);
 }
 
 processChecklist();
