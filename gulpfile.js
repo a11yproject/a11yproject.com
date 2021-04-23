@@ -78,9 +78,6 @@ var svgSprite = require('gulp-svg-sprite');
 // BrowserSync
 var browserSync = require('browser-sync');
 
-// Error Handling
-var plumber = require('gulp-plumber');
-
 
 // Package Config /////////////////////////////////////////////////////////////
 var configIcons = {
@@ -110,7 +107,6 @@ var buildScripts = function (done) {
 		scriptSrc.push('!' + paths.scripts.polyfills);
 	}
 	return src(scriptSrc)
-		.pipe(plumber())
 		.pipe(terser())
 		.pipe(rename({ suffix: '.min'}))
 		.pipe(dest(paths.scripts.output));
@@ -123,7 +119,6 @@ var lintScripts = function (done) {
 	if (!settings.lint) return done();
 	// Lint scripts
 	src(paths.scripts.input)
-		.pipe(plumber())
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish'));
 	// Signal completion
@@ -137,7 +132,6 @@ var buildStyles = function (done) {
 	if (!settings.styles) return done();
 	// Run tasks on all Sass files
 	src(paths.styles.input)
-		.pipe(plumber())
 		.pipe(sass({
 			outputStyle: 'expanded',
 			sourceComments: true
@@ -203,7 +197,6 @@ var lintStyles = function (done) {
 	if (!settings.lint) return done();
 	// Lint scripts
 	src(paths.styles.input)
-		.pipe(plumber())
 		.pipe(gulpStylelint({
 			reporters: [
 				{ formatter: 'string', console: true }
@@ -219,7 +212,6 @@ var processImages = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.images) return done();
 	src(paths.images.input)
-		.pipe(plumber())
 		.pipe(dest(paths.images.output));
 	// Signal completion
 	done();
@@ -231,7 +223,6 @@ var processIcons = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.icons) return done();
 	src(paths.icons.input)
-		.pipe(plumber())
 		.pipe(svgSprite(configIcons))
 		.pipe(dest(paths.icons.output));
 	// Signal completion
@@ -245,7 +236,6 @@ var buildSVGs = function (done) {
 	if (!settings.svgs) return done();
 	// Optimize SVG files
 	src(paths.svgs.input)
-		.pipe(plumber())
 		.pipe(svgmin())
 		.pipe(dest(paths.svgs.output));
 	// Signal completion
