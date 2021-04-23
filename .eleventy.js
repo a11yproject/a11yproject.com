@@ -56,7 +56,7 @@ module.exports = function (eleventyConfig) {
 
   // Universal slug filter strips unsafe chars from URLs
   eleventyConfig.addFilter("slugify", function (str) {
-    return slugify(str, {
+    return slugify(str.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, ''), {
       lower: true,
       replacement: "-",
       remove: /[*+~.·,()'"`´%!?¿:@»]/g
