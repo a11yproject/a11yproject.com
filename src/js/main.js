@@ -58,13 +58,16 @@ if (navigator && navigator.clipboard && navigator.permissions) {
 	});
 }
 
-// When someone navigates directly to a checklist item using its "Share Link"
-// like a11yproject.com/checklist/#validate-your-html, the item with the
-// matching id attribute will be scrolled into view. Then, if JS is enabled,
-// this code will open its associated <details> element.
-function openLinkedCheckListItem(itemId) {
+/**
+ * If someone has opened the `checklist` page using one a checklist "Share link"
+ * (ex: a11yproject.com/checklist/#validate-your-html) the item with the
+ * corresponding id will scroll into view. Then, if JS is enabled,
+ * this function will open its associated <details> element.
+ */
+function openLinkedCheckListItem() {
+	var hash = window.location.hash.substr(1);
 	var checklistItem = document.querySelector(
-		"[data-checklist-item-id=" + itemId + "]"
+		"[data-checklist-item-id=" + hash + "]"
 	);
 
 	if (checklistItem) {
@@ -81,7 +84,7 @@ function removeChecklistItem(checkboxId) {
 }
 
 function processChecklistClick(checkboxSelector) {
-	document.addEventListener("change", function (event) {
+	document.addEventListener("change", function(event) {
 		var target = event.target;
 
 		if (!target.matches(checkboxSelector)) {
@@ -113,8 +116,7 @@ function processChecklist() {
 }
 
 if (location.pathname === '/checklist/') {
-	var linkedCheckListItemId = window.location.hash.substr(1);
-	openLinkedCheckListItem(linkedCheckListItemId);
+	openLinkedCheckListItem();
 	processChecklist();
 }
 
