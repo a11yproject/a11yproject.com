@@ -29,7 +29,7 @@ var paths = {
 	output: 'dist/',
 	scripts: {
 		input: 'src/js/**/*.js',
-		polyfills: '.polyfill.js',
+		polyfills: 'src/js/**/*.polyfill.js',
 		output: 'dist/js/'
 	},
 	styles: {
@@ -56,8 +56,6 @@ var paths = {
 
 // General
 var { src, dest, watch, series, parallel } = require('gulp');
-var flatmap = require('gulp-flatmap');
-var lazypipe = require('lazypipe');
 var kss = require('kss');
 var rename = require('gulp-rename');
 
@@ -102,47 +100,20 @@ var configIcons = {
 
 // Tasks //////////////////////////////////////////////////////////////////////
 
-// Repeated JavaScript tasks
-var jsTasks = lazypipe()
-  .pipe(terser)
-	.pipe(dest, paths.scripts.output)
-	.pipe(rename, { suffix: '.min'})
-	.pipe(dest, paths.scripts.output);
-
-
 // Lint, minify, and concatenate scripts
 var buildScripts = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.scripts) return done();
 	// Run tasks on script files
-	src(paths.scripts.input)
+	var scriptSrc = [paths.scripts.input];
+	if (!settings.polyfills) {
+		scriptSrc.push('!' + paths.scripts.polyfills);
+	}
+	return src(scriptSrc)
 		.pipe(plumber())
-		.pipe(flatmap(function (stream, file) {
-			// If the file is a directory
-			if (file.isDirectory()) {
-				// Setup a suffix variable
-				var suffix = '';
-				// If separate polyfill files enabled
-				if (settings.polyfills) {
-					// Update the suffix
-					suffix = '.polyfills';
-					// Grab files that aren't polyfills, concatenate them, and process them
-					src([file.path + '/*.js', '!' + file.path + '/*' + paths.scripts.polyfills])
-						.pipe(concat(file.relative + '.js'))
-						.pipe(jsTasks());
-				}
-				// Grab all files and concatenate them
-				// If separate polyfills enabled, this will have .polyfills in the filename
-				src(file.path + '/*.js')
-					.pipe(concat(file.relative + suffix + '.js'))
-					.pipe(jsTasks());
-				return stream;
-			}
-			// Otherwise, process the file
-			return stream.pipe(jsTasks());
-		}));
-	// Signal completion
-	done();
+		.pipe(terser())
+		.pipe(rename({ suffix: '.min'}))
+		.pipe(dest(paths.scripts.output));
 };
 
 
