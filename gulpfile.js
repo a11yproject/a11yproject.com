@@ -118,11 +118,9 @@ var lintScripts = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.lint) return done();
 	// Lint scripts
-	src(paths.scripts.input)
+	return src(paths.scripts.input)
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish'));
-	// Signal completion
-	done();
 };
 
 
@@ -131,7 +129,7 @@ var buildStyles = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.styles) return done();
 	// Run tasks on all Sass files
-	src(paths.styles.input)
+	return src(paths.styles.input)
 		.pipe(sass({
 			outputStyle: 'expanded',
 			sourceComments: true
@@ -186,8 +184,6 @@ var buildStyles = function (done) {
 			}
 		}))
 		.pipe(dest(paths.styles.output));
-	// Signal completion
-	done();
 };
 
 
@@ -211,10 +207,8 @@ var lintStyles = function (done) {
 var processImages = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.images) return done();
-	src(paths.images.input)
+	return src(paths.images.input)
 		.pipe(dest(paths.images.output));
-	// Signal completion
-	done();
 };
 
 
@@ -222,11 +216,9 @@ var processImages = function (done) {
 var processIcons = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.icons) return done();
-	src(paths.icons.input)
+	return src(paths.icons.input)
 		.pipe(svgSprite(configIcons))
 		.pipe(dest(paths.icons.output));
-	// Signal completion
-	done();
 };
 
 
@@ -235,11 +227,9 @@ var buildSVGs = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.svgs) return done();
 	// Optimize SVG files
-	src(paths.svgs.input)
+	return src(paths.svgs.input)
 		.pipe(svgmin())
 		.pipe(dest(paths.svgs.output));
-	// Signal completion
-	done();
 };
 
 
@@ -268,8 +258,6 @@ var startServer = function (done) {
 			baseDir: paths.reload
 		}
 	});
-	// Signal completion
-	done();
 };
 
 
