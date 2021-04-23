@@ -61,7 +61,6 @@ var rename = require('gulp-rename');
 
 // Scripts
 var jshint = require('gulp-jshint');
-var concat = require('gulp-concat');
 var terser = require('gulp-terser');
 
 // Styles
