@@ -53,19 +53,21 @@ templateClass: template-post
 			</div>
 			{%- if collection -%}
 				{%- set collectionObject = collections.postCollections[collection.slug] -%}
-				<h2>Collection: {{ collectionObject.collection.data.title }}</h2>
-				<ol class="c-collection__list">
-					{%- for post in collectionObject.posts -%}
-						{# Todo: Use this in styling #}
-						{%- set currentPost = false -%}
-						{%- if post.data.title == title -%}
-							{%- set currentPost = true -%}
-						{%- endif -%}
-						<li>
-							{% include "post.njk" %}
-						</li>
-					{%- endfor -%}
-				</ol>
+				<div class="c-post-collection">
+					<h2>Collection: {{ collectionObject.collection.data.title }}</h2>
+					<ol class="c-post-collection__list">
+						{%- for post in collectionObject.posts -%}
+							{# Todo: Use this in styling #}
+							{%- set currentPost = false -%}
+							{%- if post.data.title == title -%}
+								{%- set currentPost = true -%}
+							{%- endif -%}
+							<li class="c-post-collection__item">
+								<a class="c-post-collection__link" href="{{ post.url }}" {% if currentPost %}aria-current="page"{% endif %}>{{ post.data.title }}</a>
+							</li>
+						{%- endfor -%}
+					</ol>
+				</div>
 			{%- endif -%}
 		<div>
 	</div>
