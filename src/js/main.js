@@ -59,10 +59,7 @@ if (navigator && navigator.clipboard && navigator.permissions) {
 }
 
 /**
- * If someone has opened the `checklist` page using one a checklist "Share link"
- * (ex: a11yproject.com/checklist/#validate-your-html) the item with the
- * corresponding id will scroll into view. Then, if JS is enabled,
- * this function will open its associated <details> element.
+ * If someone opens the checklist page using a checklist item's "Share link" (ex: a11yproject.com/checklist/#validate-your-html) the item with the corresponding id will scroll into view. Then, if JS is enabled, this function will open its associated <details> element
  */
 function openLinkedCheckListItem() {
 	var hash = window.location.hash.substr(1);
