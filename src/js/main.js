@@ -101,7 +101,8 @@ function populateChecklistFromLocalStorage(checkboxSelector) {
 	var length = items.length;
 	for (var i = 0; i < length; ++i) {
 		var checkboxElement = items[i];
-		checkboxElement.checked = localStorage[checkboxElement.id] === 'checked';
+		checkboxElement.checked =
+			localStorage.getItem(checkboxElement.id) === "checked";
 	}
 }
 
