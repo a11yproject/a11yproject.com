@@ -1,0 +1,24 @@
+.c-collection__list {
+  @include preserve-list-semantics();
+  counter-reset: collection-list;
+
+  // Breakpoints
+  @include mappy-bp(palm-medium) {
+    margin-left: 0;
+  }
+
+  li {
+    position: relative;
+    counter-increment: collection-list;
+
+    &::before {
+      position: absolute;
+      content: counter(collection-list) ".";
+      display: block;
+      font-family: $font-family-secondary;
+      font-size: 3ex;
+      top: 1.25rem;
+      left: 0;
+    }
+  }
+}
