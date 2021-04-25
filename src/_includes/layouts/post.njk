@@ -40,7 +40,7 @@ templateClass: template-post
 
 			<p class="c-last-updated__body">
 				{% if updated_by %}
-					This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+					This post was last updated {% if last_updated %} on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> {% endif %} by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
 				{% endif %}
 				{% if thanks %}
 					{{ thanks | safe }}
