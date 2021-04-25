@@ -58,7 +58,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("postCollections", function (collection) {
     // Grab our collections
     const rawPostCollections = collection.getFilteredByGlob("./src/collections/*").sort(function (a, b) {
-      return a.title.localeCompare(b.title)
+      return a.data.title.localeCompare(b.data.title)
     });
 
     // Build up the content in the collection
