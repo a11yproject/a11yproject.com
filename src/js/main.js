@@ -63,9 +63,9 @@ if (navigator && navigator.clipboard && navigator.permissions) {
  */
 function openLinkedCheckListItem() {
 	var hash = window.location.hash.substr(1);
-	var checklistItem = document.querySelector(
-		"[data-checklist-item-id=" + hash + "]"
-	);
+	var checklistItem =
+		hash.length > 0 &&
+		document.querySelector("[data-checklist-item-id=" + hash + "]");
 
 	if (checklistItem) {
 		checklistItem.setAttribute("open", true);
