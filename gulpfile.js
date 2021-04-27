@@ -29,7 +29,7 @@ var paths = {
 	output: 'dist/',
 	scripts: {
 		input: 'src/js/**/*.js',
-		polyfills: '.polyfill.js',
+		polyfills: 'src/js/**/*.polyfill.js',
 		output: 'dist/js/'
 	},
 	styles: {
@@ -55,19 +55,13 @@ var paths = {
 // Gulp Packages //////////////////////////////////////////////////////////////
 
 // General
-var { gulp, src, dest, watch, series, parallel } = require('gulp');
-var del = require('del');
-var flatmap = require('gulp-flatmap');
-var lazypipe = require('lazypipe');
+var { src, dest, watch, series, parallel } = require('gulp');
 var kss = require('kss');
 var rename = require('gulp-rename');
 
 // Scripts
 var jshint = require('gulp-jshint');
-var stylish = require('jshint-stylish');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify-es').default;
-var optimizejs = require('gulp-optimize-js');
+var terser = require('gulp-terser');
 
 // Styles
 var sass = require('gulp-sass');
@@ -82,9 +76,6 @@ var svgSprite = require('gulp-svg-sprite');
 
 // BrowserSync
 var browserSync = require('browser-sync');
-
-// Error Handling
-var plumber = require('gulp-plumber');
 
 
 // Package Config /////////////////////////////////////////////////////////////
@@ -105,49 +96,19 @@ var configIcons = {
 
 // Tasks //////////////////////////////////////////////////////////////////////
 
-// Repeated JavaScript tasks
-var jsTasks = lazypipe()
-	.pipe(optimizejs)
-	.pipe(dest, paths.scripts.output)
-	.pipe(rename, { suffix: '.min'})
-	.pipe(uglify)
-	.pipe(optimizejs)
-	.pipe(dest, paths.scripts.output);
-
-
 // Lint, minify, and concatenate scripts
 var buildScripts = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.scripts) return done();
 	// Run tasks on script files
-	src(paths.scripts.input)
-		.pipe(plumber())
-		.pipe(flatmap(function (stream, file) {
-			// If the file is a directory
-			if (file.isDirectory()) {
-				// Setup a suffix variable
-				var suffix = '';
-				// If separate polyfill files enabled
-				if (settings.polyfills) {
-					// Update the suffix
-					suffix = '.polyfills';
-					// Grab files that aren't polyfills, concatenate them, and process them
-					src([file.path + '/*.js', '!' + file.path + '/*' + paths.scripts.polyfills])
-						.pipe(concat(file.relative + '.js'))
-						.pipe(jsTasks());
-				}
-				// Grab all files and concatenate them
-				// If separate polyfills enabled, this will have .polyfills in the filename
-				src(file.path + '/*.js')
-					.pipe(concat(file.relative + suffix + '.js'))
-					.pipe(jsTasks());
-				return stream;
-			}
-			// Otherwise, process the file
-			return stream.pipe(jsTasks());
-		}));
-	// Signal completion
-	done();
+	var scriptSrc = [paths.scripts.input];
+	if (!settings.polyfills) {
+		scriptSrc.push('!' + paths.scripts.polyfills);
+	}
+	return src(scriptSrc)
+		.pipe(terser())
+		.pipe(rename({ suffix: '.min'}))
+		.pipe(dest(paths.scripts.output));
 };
 
 
@@ -156,12 +117,9 @@ var lintScripts = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.lint) return done();
 	// Lint scripts
-	src(paths.scripts.input)
-		.pipe(plumber())
+	return src(paths.scripts.input)
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish'));
-	// Signal completion
-	done();
 };
 
 
@@ -170,8 +128,7 @@ var buildStyles = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.styles) return done();
 	// Run tasks on all Sass files
-	src(paths.styles.input)
-		.pipe(plumber())
+	return src(paths.styles.input)
 		.pipe(sass({
 			outputStyle: 'expanded',
 			sourceComments: true
@@ -226,8 +183,6 @@ var buildStyles = function (done) {
 			}
 		}))
 		.pipe(dest(paths.styles.output));
-	// Signal completion
-	done();
 };
 
 
@@ -237,7 +192,6 @@ var lintStyles = function (done) {
 	if (!settings.lint) return done();
 	// Lint scripts
 	src(paths.styles.input)
-		.pipe(plumber())
 		.pipe(gulpStylelint({
 			reporters: [
 				{ formatter: 'string', console: true }
@@ -252,11 +206,8 @@ var lintStyles = function (done) {
 var processImages = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.images) return done();
-	src(paths.images.input)
-		.pipe(plumber())
+	return src(paths.images.input)
 		.pipe(dest(paths.images.output));
-	// Signal completion
-	done();
 };
 
 
@@ -264,12 +215,9 @@ var processImages = function (done) {
 var processIcons = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.icons) return done();
-	src(paths.icons.input)
-		.pipe(plumber())
+	return src(paths.icons.input)
 		.pipe(svgSprite(configIcons))
 		.pipe(dest(paths.icons.output));
-	// Signal completion
-	done();
 };
 
 
@@ -278,12 +226,9 @@ var buildSVGs = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.svgs) return done();
 	// Optimize SVG files
-	src(paths.svgs.input)
-		.pipe(plumber())
+	return src(paths.svgs.input)
 		.pipe(svgmin())
 		.pipe(dest(paths.svgs.output));
-	// Signal completion
-	done();
 };
 
 
@@ -312,8 +257,6 @@ var startServer = function (done) {
 			baseDir: paths.reload
 		}
 	});
-	// Signal completion
-	done();
 };
 
 
