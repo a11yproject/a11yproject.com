@@ -1516,6 +1516,13 @@
 			"type": "Talk"
 		},
 		{
+			"title": "Accessibility in the Age of Components - Ayesha Mazumdar",
+			"description": "React Boston 2019",
+			"additional": "YouTube",
+			"url": "https://www.youtube.com/watch?v=U1th3Qs-E_A",
+			"type": "Talk"
+		},
+		{
 			"title": "Accessibility is My Favorite Part of the Platform",
 			"description": "Google I/O (2016)",
 			"additional": "YouTube",
