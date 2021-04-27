@@ -1,5 +1,13 @@
 /* jshint esversion: 5 */
 
+/** Used to check whether a given Element could match
+ * by a DOM selector.
+ * @see processChecklistClick
+ */
+ if (!Element.prototype.matches) {
+	Element.prototype.matches = Element.prototype.msMatchesSelector;
+}
+
 // Copy email address ----------------------------------------------------------
 function getEmailOnly(element) {
 	var emailRegex = /^(?:mailto:?)([a-zA-Z0-9_\-.]+@[a-zA-Z0-9-]+\.[a-zA-Z\-.]{2,})(?:\?subject\=.*)?$/;
@@ -50,64 +58,63 @@ if (navigator && navigator.clipboard && navigator.permissions) {
 	});
 }
 
-// When someone navigates directly to a checklist item using its "Share Link" 
-// like a11yproject.com/checklist/#validate-your-html, the item with the
-// matching id attribute will be scrolled into view. Then, if JS is enabled,
-// this code will open its associated <details> element. 
-function openLinkedCheckListItem() {			
-	var checklistItems = document.querySelectorAll("[data-checklist-item-id]");
+/**
+ * If someone opens the checklist page using a checklist item's "Share link" (ex: a11yproject.com/checklist/#validate-your-html) the item with the corresponding id will scroll into view. Then, if JS is enabled, this function will open its associated <details> element
+ */
+function openLinkedCheckListItem() {
+	var hash = window.location.hash.substr(1);
+	var checklistItem =
+		hash.length > 0 &&
+		document.querySelector("[data-checklist-item-id=" + hash + "]");
 
-	checklistItems.forEach(function (item) {
-		var shareLink = "#" + item.getAttribute("data-checklist-item-id");
-		var isItemLinked = shareLink === document.location.hash;
-
-		if (isItemLinked) {
-			item.setAttribute("open", true);
-		}
-	});
+	if (checklistItem) {
+		checklistItem.setAttribute("open", true);
+	}
 }
 // Store checklist status ---------------------------------------------------
-function storeChecklistItems(item) {
-	localStorage.setItem(item, 'checked');
+function storeChecklistItem(checkboxId) {
+	localStorage.setItem(checkboxId, 'checked');
 }
 
-function removeChecklistItems(item) {
-	localStorage.removeItem(item);
+function removeChecklistItem(checkboxId) {
+	localStorage.removeItem(checkboxId);
 }
 
-function getChecklistItemVal(item) {
-	return localStorage.getItem(item);
-}
+function processChecklistClick(checkboxSelector) {
+	document.addEventListener("change", function(event) {
+		var target = event.target;
 
-function checkChecklistExists(item) {
-	return getChecklistItemVal(item) === 'checked';
-}
+		if (!target.matches(checkboxSelector)) {
+			return;
+		}
 
-function processChecklistClick(items) {
-	items.forEach(function(element){
-		element.addEventListener('change', function(event) {
-			if (checkChecklistExists(event.target.id)) {
-				removeChecklistItems(event.target.id);
-			} else {
-				storeChecklistItems(event.target.id);
-			}
-		});
-	});
-}
-
-function renderLocalStorageItems(items) {
-	items.forEach(function(element){
-		if (checkChecklistExists(element.id)) {
-			element.checked = true;
+		if (target.checked) {
+			storeChecklistItem(target.id);
+		} else {
+			removeChecklistItem(target.id);
 		}
 	});
 }
 
-openLinkedCheckListItem();
-function processChecklist() {
-	var checklistItems = document.querySelectorAll('.c-checklist__checkbox input[type="checkbox"]');
-	renderLocalStorageItems(checklistItems);
-	processChecklistClick(checklistItems);
+function populateChecklistFromLocalStorage(checkboxSelector) {
+	var items = document.querySelectorAll(checkboxSelector);
+	var length = items.length;
+	for (var i = 0; i < length; ++i) {
+		var checkboxElement = items[i];
+		checkboxElement.checked =
+			localStorage.getItem(checkboxElement.id) === "checked";
+	}
 }
 
-processChecklist();
+function processChecklist() {
+	var checkboxSelector = '.c-checklist__checkbox input[type="checkbox"]';
+
+	populateChecklistFromLocalStorage(checkboxSelector);
+	processChecklistClick(checkboxSelector);
+}
+
+if (location.pathname === '/checklist/') {
+	openLinkedCheckListItem();
+	processChecklist();
+}
+

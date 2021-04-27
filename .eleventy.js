@@ -1,8 +1,6 @@
-const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const moment = require('moment');
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
 
@@ -14,18 +12,31 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLL yyyy");
-  });
-
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
+		return dateObj.toISOString();
   });
 
-  eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).format('LL'); // E.g. May 31, 2019
-  });
+	/**
+	 * Returns a humnan-readable date
+		E.g. May 31, 2019
+	 */
+
+  eleventyConfig.addFilter("dateReadable", (value) => {
+		const date = new Date(value);
+		const utcDate = new Date(
+			date.getUTCFullYear(),
+			date.getUTCMonth(),
+			date.getUTCDate()
+		);
+		const formatOpts = {
+			timezone: "UTC",
+			day: "numeric",
+			month: "long",
+			year: "numeric",
+		};
+		return new Intl.DateTimeFormat("en-US", formatOpts).format(utcDate);
+	});
 
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
@@ -34,11 +45,6 @@ module.exports = function (eleventyConfig) {
     }
 
     return array.slice(0, n);
-  });
-
-  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
   });
 
   eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
@@ -56,7 +62,7 @@ module.exports = function (eleventyConfig) {
 
   // Universal slug filter strips unsafe chars from URLs
   eleventyConfig.addFilter("slugify", function (str) {
-    return slugify(str, {
+    return slugify(str.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, ''), {
       lower: true,
       replacement: "-",
       remove: /[*+~.·,()'"`´%!?¿:@»]/g

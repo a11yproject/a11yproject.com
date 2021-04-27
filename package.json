@@ -9,6 +9,7 @@
 		"Carie Fisher (https://www.linkedin.com/in/cehfisher/)",
 		"Dennis Gaebel <dennisgaebel@gmail.com> (https://droidpinkman.io/)",
 		"Eric Bailey <eric.w.bailey@gmail.com> (https://ericwbailey.design/)",
+		"EJ Mason <hey@ejmason.com> (https://ejmason.com/)",
 		"Jen Downs (https://jen.dev/)",
 		"Jerry Jones (http://jeremyjon.es/)",
 		"Saptak Sengupta (https://saptaks.website/)",
@@ -73,11 +74,9 @@
 		"jshint": "2.12.0",
 		"jshint-stylish": "2.2.1",
 		"kss": "^3.0.1",
-		"luxon": "^1.26.0",
 		"markdown-it": "^12.0.6",
 		"markdown-it-anchor": "^7.1.0",
 		"markdown-it-footnote": "^3.0.2",
-		"moment": "^2.29.1",
 		"stylelint": "^13.12.0"
 	}
 }
