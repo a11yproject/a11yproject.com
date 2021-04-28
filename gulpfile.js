@@ -55,7 +55,7 @@ var paths = {
 // Gulp Packages //////////////////////////////////////////////////////////////
 
 // General
-var { src, dest, watch, series, parallel } = require('gulp');
+var { src, dest, watch, series, parallel, lastRun } = require('gulp');
 var kss = require('kss');
 var rename = require('gulp-rename');
 
@@ -75,8 +75,7 @@ var svgmin = require('gulp-svgmin');
 var svgSprite = require('gulp-svg-sprite');
 
 // BrowserSync
-var browserSync = require('browser-sync');
-var server = browserSync.create();
+var browserSync = require('browser-sync').create();
 
 
 // Package Config /////////////////////////////////////////////////////////////
@@ -106,7 +105,7 @@ var buildScripts = function (done) {
 	if (!settings.polyfills) {
 		scriptSrc.push('!' + paths.scripts.polyfills);
 	}
-	return src(scriptSrc)
+	return src(scriptSrc, { since: lastRun(buildScripts) })
 		.pipe(terser())
 		.pipe(rename({ suffix: '.min'}))
 		.pipe(dest(paths.scripts.output));
@@ -118,7 +117,7 @@ var lintScripts = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.lint) return done();
 	// Lint scripts
-	return src(paths.scripts.input)
+	return src(paths.scripts.input, { since: lastRun(lintScripts) })
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish'));
 };
@@ -182,7 +181,8 @@ var buildStyles = function (done) {
 				removeAll: true
 			}
 		}))
-		.pipe(dest(paths.styles.output));
+		.pipe(dest(paths.styles.output))
+		.pipe(browserSync.stream());
 };
 
 
@@ -191,14 +191,12 @@ var lintStyles = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.lint) return done();
 	// Lint scripts
-	src(paths.styles.input)
+	return src(paths.styles.input, { since: lastRun(lintStyles) })
 		.pipe(gulpStylelint({
 			reporters: [
 				{ formatter: 'string', console: true }
 			]
 		}));
-	// Signal completion
-	done();
 };
 
 
@@ -206,7 +204,7 @@ var lintStyles = function (done) {
 var processImages = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.images) return done();
-	return src(paths.images.input)
+	return src(paths.images.input, { since: lastRun(processImages) })
 		.pipe(dest(paths.images.output));
 };
 
@@ -226,7 +224,7 @@ var buildSVGs = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.svgs) return done();
 	// Optimize SVG files
-	return src(paths.svgs.input)
+	return src(paths.svgs.input, { since: lastRun(buildSVGs) })
 		.pipe(svgmin())
 		.pipe(dest(paths.svgs.output));
 };
@@ -268,10 +266,16 @@ var reloadBrowser = function (done) {
 	done();
 };
 
+var styles = parallel(lintStyles, buildStyles);
+var scripts = parallel(lintScripts, buildScripts);
 
 // Watch for changes
 var watchSource = function() {
-	return watch(paths.input, series(exports.default, reloadBrowser));
+	watch(paths.styles.input, styles);
+	watch(paths.scripts.input, series(scripts, reloadBrowser));
+	watch(paths.images.input, series(processImages, reloadBrowser));
+	watch(paths.icons.input, series(processIcons, reloadBrowser));
+	watch(paths.svgs.input, series(buildSVGs, reloadBrowser));
 };
 
 
@@ -279,10 +283,8 @@ var watchSource = function() {
 
 // Default task: `gulp`
 exports.default =  parallel(
-		buildScripts,
-		lintScripts,
-		lintStyles,
-		buildStyles,
+		styles,
+		scripts,
 		processImages,
 		processIcons,
 		buildSVGs,
