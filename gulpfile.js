@@ -76,6 +76,7 @@ var svgSprite = require('gulp-svg-sprite');
 
 // BrowserSync
 var browserSync = require('browser-sync');
+var server = browserSync.create();
 
 
 // Package Config /////////////////////////////////////////////////////////////
@@ -121,7 +122,6 @@ var lintScripts = function (done) {
 		.pipe(jshint())
 		.pipe(jshint.reporter('jshint-stylish'));
 };
-
 
 // Process, lint, and minify Sass files
 var buildStyles = function (done) {
@@ -257,6 +257,7 @@ var startServer = function (done) {
 			baseDir: paths.reload
 		}
 	});
+	done();
 };
 
 
@@ -269,18 +270,15 @@ var reloadBrowser = function (done) {
 
 
 // Watch for changes
-var watchSource = function (done) {
-	watch(paths.input, series(exports.default, reloadBrowser));
-	done();
+var watchSource = function() {
+	return watch(paths.input, series(exports.default, reloadBrowser));
 };
 
 
 // Export Tasks ///////////////////////////////////////////////////////////////
 
 // Default task: `gulp`
-exports.default = series(
-	// cleanScss,
-	parallel(
+exports.default =  parallel(
 		buildScripts,
 		lintScripts,
 		lintStyles,
@@ -290,7 +288,6 @@ exports.default = series(
 		buildSVGs,
 		buildStyleguide
 	)
-);
 
 // Watch and reload: `gulp watch`
 exports.watch = series(
