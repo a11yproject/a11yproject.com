@@ -91,9 +91,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
-	eleventyConfig.setBrowserSyncConfig({
-		files: './dist/css/**/*.css'
-});
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItFootnote = require("markdown-it-footnote");

@@ -276,6 +276,7 @@ var watchSource = function() {
 	watch(paths.images.input, series(processImages, reloadBrowser));
 	watch(paths.icons.input, series(processIcons, reloadBrowser));
 	watch(paths.svgs.input, series(buildSVGs, reloadBrowser));
+	watch('./dist/**/*.html', reloadBrowser);
 };
 
 
