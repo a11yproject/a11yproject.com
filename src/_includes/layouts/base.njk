@@ -34,7 +34,7 @@
 		<script async src="{{ '/' | url }}js/checklist.min.js?v={{getCurrentVersion.version}}"></script>
 		{% endif %}
 		{% if page.url === '/contact/' %}
-		<script src="{{ '/' | url }}js/contact.min.js"></script>
+		<script src="{{ '/' | url }}js/contact.min.js?v={{getCurrentVersion.version}}"></script>
 		{% endif %}
 		<script src="{{ '/' | url }}js/table-of-contents/table-of-contents.min.js"></script>
 		<script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
