@@ -30,7 +30,6 @@
 		{% include "footer.njk" %}
 
     <script async src="{{ '/' | url }}js/details-element-polyfill/details-element-polyfill.polyfill.min.js"></script>
-		<script async src="{{ '/' | url }}js/main.min.js?v={{getCurrentVersion.version}}"></script>
 		{% if page.url === '/checklist/' %}
 		<script async src="{{ '/' | url }}js/checklist.min.js?v={{getCurrentVersion.version}}"></script>
 		{% endif %}
