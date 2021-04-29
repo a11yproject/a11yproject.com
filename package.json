@@ -77,7 +77,7 @@
 		"markdown-it": "^12.0.6",
 		"markdown-it-anchor": "^7.1.0",
 		"markdown-it-footnote": "^3.0.2",
-		"node-sass": "^5.0.0",
+		"sass": "^1.32.12",
 		"stylelint": "^13.13.0"
 	}
 }
