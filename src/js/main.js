@@ -55,6 +55,16 @@ if (navigator && navigator.clipboard && navigator.permissions) {
 				processEmailHrefs();
 			}
 		};
+	}).catch(function(error) {
+		var isNameNotSupportedMsg =
+			error.message.indexOf(
+				"(value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+			) > 0;
+		/**
+		 * Firefox doesn't support the 'clipboard-write' permission.
+		 * This error is benign, so we can suppress it.
+		 */
+		if (isNameNotSupportedMsg) return;
 	});
 }
 
