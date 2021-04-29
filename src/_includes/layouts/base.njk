@@ -29,14 +29,14 @@
 
 		{% include "footer.njk" %}
 
-    <script async src="{{ '/' | url }}js/details-element-polyfill/details-element-polyfill.polyfill.min.js"></script>
+    <script async src="{{ '/js/details-element-polyfill/details-element-polyfill.polyfill.min.js' | url }}"></script>
 		{% if page.url === '/checklist/' %}
-		<script async src="{{ '/' | url }}js/checklist.min.js?v={{getCurrentVersion.version}}"></script>
+		<script src="{{ '/js/checklist.min.js?v=' + getCurrentVersion.version | url }}"></script>
 		{% endif %}
 		{% if page.url === '/contact/' %}
-		<script src="{{ '/' | url }}js/contact.min.js?v={{getCurrentVersion.version}}"></script>
+		<script src="{{ '/js/contact.min.js?v=' + getCurrentVersion.version | url }}"></script>
 		{% endif %}
-		<script src="{{ '/' | url }}js/table-of-contents/table-of-contents.min.js"></script>
+		<script src="{{ '/js/table-of-contents/table-of-contents.min.js' | url }}"></script>
 		<script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
 
 	</body>
