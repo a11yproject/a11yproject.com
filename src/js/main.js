@@ -55,6 +55,16 @@ if (navigator && navigator.clipboard && navigator.permissions) {
 				processEmailHrefs();
 			}
 		};
+	}).catch(function(error) {
+		var isNameNotSupportedMsg =
+			error.message.indexOf(
+				"(value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+			) > 0;
+		/**
+		 * Firefox doesn't support the 'clipboard-write' permission.
+		 * This error is benign, so we can suppress it.
+		 */
+		if (isNameNotSupportedMsg) return;
 	});
 }
 
@@ -65,7 +75,7 @@ function openLinkedCheckListItem() {
 	var hash = window.location.hash.substr(1);
 	var checklistItem =
 		hash.length > 0 &&
-		document.querySelector("[data-checklist-item-id=" + hash + "]");
+		document.querySelector('[data-checklist-item-id="' + hash + '"]');
 
 	if (checklistItem) {
 		checklistItem.setAttribute("open", true);
