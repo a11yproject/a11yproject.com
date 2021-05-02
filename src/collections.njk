@@ -15,9 +15,9 @@ templateClass: template-collections
 {% include "nav/toc.njk" %}
 
 <div data-content class="l-content">
-	<div class="c-card__wrapper">
-		{% set postCollections = collections[ "postCollections" ] %}
-		{% for handle, postCollection in postCollections %}
+	{% set postCollections = collections[ "postCollections" ] %}
+	{% for handle, postCollection in postCollections %}
+		<div class="c-card__wrapper">
 			<h2>{{ postCollection.collection.data.title }}</h2>
 			<div class="c-preface">{{ postCollection.collection.templateContent | safe }}</div>
 			<ol class="c-collection__list">
@@ -27,6 +27,6 @@ templateClass: template-collections
 					</li>
 				{%- endfor -%}
 			</ol>
-		{% endfor %}
-	</div>
+		</div>
+	{% endfor %}
 </div>
