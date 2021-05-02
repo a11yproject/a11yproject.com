@@ -50,14 +50,19 @@
 	.template-team &,
 	.template-contribute &,
 	.template-spotlight &,
-	.template-404 & {
+	.template-404 &,
+	.template-collections {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
 	}
 
-	.template-resources & {
+	.template-resources &,
+	.template-collections & {
 		background-color: $color-green-shade;
+	}
+
+	.template-resources & {
 		background-image: url("#{$path-to-img}/heroes/resources.svg");
 	}
 
@@ -125,7 +130,8 @@
 		border-top-color: $color-white;
 	}
 
-	.template-resources & {
+	.template-resources &,
+	.template-collections & {
 		color: $color-green-tint;
 		background-color: $color-green-shade;
 		border-top-color: $color-green-tint;

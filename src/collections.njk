@@ -1,0 +1,32 @@
+---
+layout: layouts/home.njk
+title: Collections
+subtitle: Posts organized by topic.
+eleventyNavigation:
+  key: Collections
+  parent: Feature
+  order: 2
+permalink: /collections/
+tags:
+  - navprimary
+templateClass: template-collections
+---
+
+{% include "nav/toc.njk" %}
+
+<div data-content class="l-content">
+	<div class="c-card__wrapper">
+		{% set postCollections = collections[ "postCollections" ] %}
+		{% for handle, postCollection in postCollections %}
+			<h2>{{ postCollection.collection.data.title }}</h2>
+			<div class="c-preface">{{ postCollection.collection.templateContent | safe }}</div>
+			<ol class="c-collection__list">
+				{%- for post in postCollection.posts -%}
+					<li>
+						{% include "post.njk" %}
+					</li>
+				{%- endfor -%}
+			</ol>
+		{% endfor %}
+	</div>
+</div>

@@ -208,7 +208,8 @@
 			}
 
 			// Contexts
-			.template-posts & {
+			.template-posts &,
+			.template-collections & {
 				display: none;
 			}
 		}
