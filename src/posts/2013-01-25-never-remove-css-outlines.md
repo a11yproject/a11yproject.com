@@ -3,7 +3,7 @@ layout: post
 title: Never remove CSS outlines
 description: Removing CSS outlines without proper fallbacks can make it impossible to navigate your site with a keyboard.
 category: Quick tip
-author: Guilherme Simoes
+author: Guilherme Simões
 date: 2013-01-25
 further_reading:
   - title: The plague of outline:0
@@ -25,7 +25,7 @@ tags:
   - quicktip
 ---
 
-Removing outlines in CSS creates issues for people navigating the web with a keyboard. 
+Removing outlines in CSS creates issues for people navigating the web with a keyboard.
 
 Using the CSS rule `:focus { outline: none; }` to remove an outline on an object causes the link or control to be focusable, but removes any visible indication of focus for keyboard users. Methods to remove it such as `onfocus="blur()"` result in keyboard users being unable to interact with the link or control.
 
