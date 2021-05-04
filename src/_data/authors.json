@@ -33,7 +33,7 @@
 		{
 			"name": "Dave Rupert",
 			"website": "https://daverupert.com/",
-			"photo": "https://pbs.twimg.com/profile_images/477460555981025280/JUGkf8zv_400x400.jpeg",
+			"photo": "https://www.a11yproject.com/img/team/dave-rupert.jpg",
 			"biography": "I'm Dave Rupert, lead developer at Paravel. I co-host ShopTalk, an award-winning sound effects podcast that also covers web development. I'm a dad to two wonderful kids. I live in Austin, TX; the best damn city, in the best damn state, in the best damn country, in the whole damn world."
 		},
 		{
@@ -41,12 +41,6 @@
 			"website": "https://simplydano.com",
 			"photo": "https://avatars1.githubusercontent.com/u/1507672?s=460&u=bc8cff324d5739f946ad5dd15b5857e653de7ab8&v=4",
 			"biography": "Howdy! I'm Duncan, a front-end developer focused on design systems."
-		},
-		{
-			"name": "Emily Lane",
-			"website": "https://emilymlane.io/",
-			"photo": "https://avatars0.githubusercontent.com/u/9734623?s=460&u=912c5074b761e62141f1c7173d8f73de1e3ea8e2&v=4",
-			"biography": "Hi! I’m a recent grad with design and UX experience and a killer sense of humor. I’m currently working on munch., helping to find healthy food for pets."
 		},
 		{
 			"name": "Emma Patricios",
@@ -125,12 +119,6 @@
 			"website": "http://www.matthewalanhiggins.com/",
 			"photo": "https://avatars1.githubusercontent.com/u/5384450?s=400&v=4",
 			"biography": "Software generalist. Avid coffee drinker. Sometimes runner."
-		},
-		{
-			"name": "Michael Fairchild",
-			"website": "https://github.com/mfairchild365",
-			"photo": "https://avatars0.githubusercontent.com/u/498678?s=460&v=4",
-			"biography": "Web Developer and forever a student."
 		},
 		{
 			"name": "Monika Piotrowicz",
