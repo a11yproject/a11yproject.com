@@ -87,9 +87,9 @@ templateClass: template-checklist
 	{% for category, content in checklists %}
 	{# 6 May 2021: We don't publish our guidelines about SVGs #}
 	{% if category !== 'svg' %}
-	<section>
+	<section data-checklist-category="{{ category | slug }}">
 	  	<h2 id="content" class="c-heading-large u-title-case">
-				{{category}}
+				{{ category }}
 			</h2>
 	<p class="c-preface">
 		{{ content.preface | safe }}
