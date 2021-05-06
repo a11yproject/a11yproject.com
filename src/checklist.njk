@@ -85,7 +85,7 @@ templateClass: template-checklist
 	<hr class="c-divider" />
 
 	{% for category, content in checklists %}
-	{# 6 May 2021: We don't publish our guidelines about SVGs#}
+	{# 6 May 2021: We don't publish our guidelines about SVGs #}
 	{% if category !== 'svg' %}
 	<section>
 	  	<h2 id="content" class="c-heading-large u-title-case">
@@ -97,12 +97,13 @@ templateClass: template-checklist
 	<div class="c-card__wrapper">
 		{% set tasks = content.tasks %}
 		{% for task in tasks %}
-			{% include "checklist.njk" %}
+			{% include "checklist__task.njk" %}
 		{% endfor %}
 	</div>
 	</section>
 	{% endif %}
 	{% endfor %}
+
 
 	<h2 id="next-steps" class="c-heading-large">
 		Next steps
