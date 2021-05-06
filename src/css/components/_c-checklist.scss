@@ -282,3 +282,11 @@ margin-left: 1rem;
 		padding-left: map-get($_checklist-inset, large);
 	}
 }
+
+.u-title-case {
+	text-transform: lowercase;
+}
+
+.u-title-case::first-letter {
+	text-transform: uppercase;
+}
