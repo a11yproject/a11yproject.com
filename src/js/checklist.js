@@ -4,14 +4,14 @@
  * by a DOM selector.
  * @see processChecklistClick
  */
- if (!Element.prototype.matches) {
+if (!Element.prototype.matches) {
 	Element.prototype.matches = Element.prototype.msMatchesSelector;
 }
 
 /**
  * If someone opens the checklist page using a checklist item's "Share link" (ex: a11yproject.com/checklist/#validate-your-html) the item with the corresponding id will scroll into view. Then, if JS is enabled, this function will open its associated <details> element
  */
- function openLinkedCheckListItem() {
+function openLinkedCheckListItem() {
 	var hash = window.location.hash.substr(1);
 	var checklistItem =
 		hash.length > 0 &&
@@ -23,7 +23,7 @@
 }
 // Store checklist status ---------------------------------------------------
 function storeChecklistItem(checkboxId) {
-	localStorage.setItem(checkboxId, 'checked');
+	localStorage.setItem(checkboxId, "checked");
 }
 
 function removeChecklistItem(checkboxId) {
@@ -31,7 +31,7 @@ function removeChecklistItem(checkboxId) {
 }
 
 function processChecklistClick(checkboxSelector) {
-	document.addEventListener("change", function(event) {
+	document.addEventListener("change", function (event) {
 		var target = event.target;
 
 		if (!target.matches(checkboxSelector)) {
@@ -42,7 +42,7 @@ function processChecklistClick(checkboxSelector) {
 			storeChecklistItem(target.id);
 		} else {
 			removeChecklistItem(target.id);
-	}
+		}
 	});
 }
 
@@ -65,3 +65,19 @@ function processChecklist() {
 
 openLinkedCheckListItem();
 processChecklist();
+
+function toggleChecklistGroup() {
+	var toggleContentButton = document.querySelector("#toggle-content");
+	var checkListItem =document.querySelector("[data-checklist-item-id='make-sure-that-button-a-and-label-element-content-is-unique-and-descriptive']");
+	toggleContentButton.addEventListener("click", function(event) {
+		var target = event.target;
+		 checkListItem.setAttribute("open", true);
+	});
+}
+
+/*Next Steps 
+	find a way to not hard code the selector for the items - 
+	find the parent that all the content details and then change the attribute for the details to open
+	best way to use a querySelector 
+*/
+toggleChecklistGroup();
