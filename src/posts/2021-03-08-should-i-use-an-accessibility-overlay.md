@@ -30,6 +30,9 @@ further_reading:
   - title: Bolt-on Accessibility – 5 gears in reverse
     url: https://www.tpgi.com/bolt-on-accessibility-5-gears-in-reverse/
     source: TPGI
+  - title: Do Accessibility Overlays and Widgets Provide Effective Communication?
+    url: https://www.levelaccess.com/do-accessibility-overlays-and-widgets-provide-effective-communication/
+    source: Level Access
   - title: "Do Accessibility Overlays and Widgets Provide 'Full and Equal Access'​ as Required Under the ADA's General Rule?"
     url: https://www.linkedin.com/pulse/do-accessibility-overlays-widgets-provide-full-equal-access-springer/
     source: Timothy Springer
@@ -90,6 +93,9 @@ further_reading:
   - title: What would an ethical overlay look like?
     url: https://blog.tenon.io/what-would-an-ethical-overlay-look-like/?utm_content=134281299
     source: Tenon.io
+  - title: What’s Wrong With Quick-Fix Products For Digital Accessibility
+    url: https://go.forrester.com/blogs/whats-wrong-with-quick-fix-products-for-digital-accessibility/
+    source: Forrester
   - title: "Why I blocked #AccessiBe"
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett
