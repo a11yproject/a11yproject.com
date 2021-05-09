@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	eleventyConfig.addPlugin(eleventyPluginTOC, {
 		wrapper: 'div',
-    tags: ['h2', 'h3'],
+		tags: ['h2', 'h3'],
 		wrapperClass: 'l-toc',
   });
   eleventyConfig.setDataDeepMerge(true);
