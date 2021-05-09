@@ -22,7 +22,12 @@
 		{% include "header.njk" %}
 
 		<main id="main" class="l-main">
-			{% include "nav/toc.njk" %}
+			{% set tocMarkup = content | toc | safe %}
+			{% set hasToc = tocMarkup.length > 0 %}
+
+			{% if hasToc %}
+				{% include "nav/toc.njk" %}
+			{% endif %}
 			{{ content | safe }}
 		</main>
 
