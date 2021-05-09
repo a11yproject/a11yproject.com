@@ -42,3 +42,11 @@
 // .u-text-transform-initial {
 // 	text-transform: initial;
 // }
+
+.u-text-transform-sentence-case {
+	text-transform: lowercase;
+
+	&::first-letter {
+		text-transform: uppercase;
+	}
+}
