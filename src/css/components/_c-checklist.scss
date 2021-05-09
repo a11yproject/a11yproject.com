@@ -251,6 +251,18 @@ margin-left: 1rem;
 	}
 }
 
+.c-checklist__wcag-levels {
+	line-height: $line-height-looser;
+	margin-top: 0.75rem;
+	padding-right: map-get($_checklist-padding, small);
+	padding-left: map-get($_checklist-inset, small);
+
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		padding-right: map-get($_checklist-padding, large);
+		padding-left: map-get($_checklist-inset, large);
+	}
+}
 
 .c-checklist__description {
 	line-height: $line-height-looser;
