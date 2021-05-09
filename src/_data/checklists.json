@@ -530,7 +530,57 @@
 		]
 	},
 	"color contrast": {
-		"preface": "<a class=\"c-preface__link\" href=\"{{ '/posts/2015-01-05-what-is-color-contrast/' | url }}\">Color contrast</a> is how legible colors are when placed next to, and on top of each other."
+		"preface": "<a class=\"c-preface__link\" href=\"{{ '/posts/2015-01-05-what-is-color-contrast/' | url }}\">Color contrast</a> is how legible colors are when placed next to, and on top of each other.",
+		"tasks": [
+			{
+				"title": "Check the contrast for all normal-sized text.",
+				"checkboxId": "normal-text-contrast",
+				"wcag": "1.4.3 Contrast",
+				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
+				"description": "Level AA compliance requires a contrast ratio of 4.5:1.",
+				"wcagLevel": "AA"
+			},
+			{
+				"title": "Check the contrast for all large-sized text.",
+				"checkboxId": "large-text-contrast",
+				"wcag": "1.4.3 Contrast",
+				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
+				"description": "Level AA compliance requires a contrast ratio of 3:1.",
+				"wcagLevel": "AA"
+			},
+			{
+				"title": "Check the contrast for all icons.",
+				"checkboxId": "icon-contrast",
+				"wcag": "1.4.11 Non-text Contrast",
+				"url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
+				"description": "Level AA compliance requires a contrast ratio of 3.0:1.",
+				"wcagLevel": "AA"
+			},
+			{
+				"title": "Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.).",
+				"checkboxId": "input-contrast",
+				"wcag": "1.4.11 Non-text Contrast",
+				"url": "https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html",
+				"description": "Level AA compliance requires a contrast ratio of 3.0:1.",
+				"wcagLevel": "AA"
+			},
+			{
+				"title": "Check text that overlaps images or video.",
+				"checkboxId": "overlap-contrast",
+				"wcag": "1.4.3 Contrast",
+				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
+				"description": "Is text still legible?",
+				"wcagLevel": "AA"
+			},
+			{
+				"title": "Check custom <code>::selection</code> colors.",
+				"checkboxId": "selection-contrast",
+				"wcag": "1.4.3 Contrast",
+				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html",
+				"description": " Is the color contrast you set in your <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/::selection'><code>::selection</code> CSS declaration</a> sufficient? Otherwise someone may not be able read it if they highlight it. ",
+				"wcagLevel": "AA"
+			}
+		]
 	},
 	"mobile": {
 		"preface": "Things to check mobile experiences for.",
