@@ -1,6 +1,8 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyPluginTOC = require('eleventy-plugin-toc');
+
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
 
@@ -8,6 +10,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	eleventyConfig.addPlugin(eleventyPluginTOC, {
+		wrapper: 'div',
+    tags: ['h2', 'h3'],
+		wrapperClass: 'l-toc',
+  });
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
@@ -93,13 +100,16 @@ module.exports = function (eleventyConfig) {
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
-  let markdownItFootnote = require("markdown-it-footnote");
-  let options = {
-    html: true,
-    breaks: true,
-    linkify: true
-  };
-	let markdownLib = markdownIt(options).use(markdownItFootnote);
+  let markdownItAnchor = require("markdown-it-anchor");
+	let markdownItFootnote = require("markdown-it-footnote");
+	let options = {
+		html: true,
+		breaks: true,
+		linkify: true,
+	};
+	let markdownLib = markdownIt(options)
+		.use(markdownItFootnote)
+		.use(markdownItAnchor);
 
   eleventyConfig.setLibrary("md", markdownLib);
 
