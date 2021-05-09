@@ -1,7 +1,7 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const eleventyPluginTOC = require('eleventy-plugin-toc');
+const eleventyPluginTOC = require('eleventy-plugin-nesting-toc');
 
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
