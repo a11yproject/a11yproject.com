@@ -1,18 +1,18 @@
-{% set slugifiedTitle = checklist.title | slugify %}
-{% set description = checklist.description | safe %}
-{% set title = checklist.title | safe %}
-{% set url = checklist.url %}
-{% set wcag = checklist.wcag %}
+{% set slugifiedTitle = task.title | slugify %}
+{% set description = task.description | safe %}
+{% set title = task.title | safe %}
+{% set url = task.url %}
+{% set wcag = task.wcag %}
 
 <div class="c-checklist__wrapper">
 
 	<div class="c-checklist__checkbox">
 		<input
 			type="checkbox"
-			name="{{ checklist.checkboxId }}"
-			id="{{ checklist.checkboxId }}">
-		<label for="{{ checklist.checkboxId }}">
-			<span class="u-hide-visually">Task: {{ checklist.title | safe }}</span>
+			name="{{ task.checkboxId }}"
+			id="{{ task.checkboxId }}">
+		<label for="{{ task.checkboxId }}">
+			<span class="u-hide-visually">Task: {{ task.title | safe }}</span>
 		</label>
 	</div>
 

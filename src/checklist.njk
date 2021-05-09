@@ -84,213 +84,26 @@ templateClass: template-checklist
 
 	<hr class="c-divider" />
 
-	<h2 id="content" class="c-heading-large">
-		Content
-	</h2>
+	{% for category, content in checklists %}
+	{# 6 May 2021: We don't publish our guidelines about SVGs #}
+	{% if category !== 'svg' %}
+	<section data-checklist-category="{{ category | slug }}">
+			<h2 id="content" class="c-heading-large u-text-transform-sentence-case">
+				{{ category }}
+			</h2>
 	<p class="c-preface">
-		Content is the most important part of your site.
+		{{ content.preface | safe }}
 	</p>
 	<div class="c-card__wrapper">
-		{% set checklist = checklists.content %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
+		{% set tasks = content.tasks %}
+		{% for task in tasks %}
+			{% include "checklist__task.njk" %}
 		{% endfor %}
 	</div>
+	</section>
+	{% endif %}
+	{% endfor %}
 
-	<h2 id="global-code" class="c-heading-large">
-		Global code
-	</h2>
-	<p class="c-preface">
-		Global code is code that affects your entire website or web app.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.global %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="keyboard" class="c-heading-large">
-		Keyboard
-	</h2>
-	<p class="c-preface">
-		It is important that your interface and content can be operated, and navigated by use of a keyboard. Some people cannot use a mouse, or may be using other assistive technologies that may not allow for hovering or precise clicking.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.keyboard %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="images" class="c-heading-large">
-		Images
-	</h2>
-	<p class="c-preface">
-		Images are a very common part of most websites. Help make sure they can be enjoyed by all.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.images %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="headings" class="c-heading-large">
-		Headings
-	</h2>
-	<p class="c-preface">
-		Heading elements (<code>h1</code>, <code>h2</code>, <code>h3</code>, etc.) help break up the content of the page into related “chunks” of information. They are incredibly important for helping people who use assistive technology to understand the meaning of a page or view.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.headings %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="lists" class="c-heading-large">
-		Lists
-	</h2>
-	<p class="c-preface">
-		Lists elements let people know a collection of items are related and if they are sequential, and how many items are present in the list grouping.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.lists %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="controls" class="c-heading-large">
-		Controls
-	</h2>
-	<p class="c-preface">
-		Controls are interactive elements such as links and buttons that let a person navigate to a destination or perform an action.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.controls %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="tables" class="c-heading-large">
-		Tables
-	</h2>
-	<p class="c-preface">
-		Tables are a structured set of data that help people understand the relationships between different types of information.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.tables %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="forms" class="c-heading-large">
-		Forms
-	</h2>
-	<p class="c-preface">
-		Forms allow people to enter information into a site for processing and manipulation. This includes things like sending messages and placing orders.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.forms %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="media" class="c-heading-large">
-		Media
-	</h2>
-	<p class="c-preface">
-		Media includes content such as pre-recorded and live audio and video.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.media %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="video" class="c-heading-medium">
-		Video
-	</h2>
-	<p class="c-preface">
-		Video-specific checks.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.video %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="audio" class="c-heading-medium">
-		Audio
-	</h2>
-	<p class="c-preface">
-		Audio-specific checks.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.audio %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="appearance" class="c-heading-large">
-		Appearance
-	</h2>
-	<p class="c-preface">
-		How your website app content looks in any given situation.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.appearance %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="animation" class="c-heading-large">
-		Animation
-	</h2>
-	<p class="c-preface">
-		Content that moves, either on its own, or when triggered by a person activating a control.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.animation %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="color-contrast" class="c-heading-large">
-		Color Contrast
-	</h2>
-	<p class="c-preface">
-		<a class="c-preface__link" href="{{ '/posts/2015-01-05-what-is-color-contrast/' | url }}">Color contrast</a> is how legible colors are when placed next to, and on top of each other.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.colorContrast %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
-
-	<h2 id="mobile-touch" class="c-heading-large">
-		Mobile&#8202;/&#8202;Touch
-	</h2>
-	<p class="c-preface">
-		Things to check mobile experiences for.
-	</p>
-	<div class="c-card__wrapper">
-		{% set checklist = checklists.mobile %}
-		{% for checklist in checklist %}
-			{% include "checklist.njk" %}
-		{% endfor %}
-	</div>
 
 	<h2 id="next-steps" class="c-heading-large">
 		Next steps
