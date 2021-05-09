@@ -1,3 +1,5 @@
+{% set tocMarkup = content | toc | safe %}
+{% if tocMarkup.length > 0 %}
 <div class="l-toc">
 	<details open class="v-toc">
 		<summary class="v-toc__summary">
@@ -9,7 +11,8 @@
 			</span>
 		</summary>
 		<nav class="v-toc__nav" data-toc aria-label="Table of Contents">
-			{{ content | toc | safe }}
+			{{ tocMarkup }}
 		</nav>
 	</details>
 </div>
+{% endif %)
