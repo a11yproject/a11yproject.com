@@ -22,6 +22,7 @@
 		{% include "header.njk" %}
 
 		<main id="main" class="l-main">
+			{% include "nav/toc.njk" %}
 			{{ content | safe }}
 		</main>
 
@@ -37,7 +38,5 @@
 		<script src="{{ '/js/contact.min.js?v=' + getCurrentVersion.version | url }}"></script>
 		{% endif %}
 		<script src="{{ '/js/table-of-contents/table-of-contents.min.js' | url }}"></script>
-		<script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
-
 	</body>
 </html>
