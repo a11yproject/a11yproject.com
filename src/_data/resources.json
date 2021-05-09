@@ -592,6 +592,79 @@
 			"url": "http://webaim.org/discussion/"
 		}
 	],
+	"conferences": [
+		{
+			"title": "#a11yTO Camp",
+			"description": "Opening the doors for a free day of accessibility learning.",
+			"url": "https://camp.a11yto.com/"
+		},
+		{
+			"title": "#a11yTO Conf",
+			"description": "A curated playlist of talks, focused on digital accessibility.",
+			"url": "https://conf.a11yto.com/"
+		},
+		{
+			"title": "ACCESS",
+			"description": "ACCESS is an annual conference by 3Play Media celebrating video, accessibility, & the people who make it happen.",
+			"url": "https://www.3playmedia.com/company/access-by-3play/"
+		},
+		{
+			"title": "Assistive Technology Industry Association (ATIA)",
+			"description": "Over the past 22 years, ATIA has been a community gathering for assistive technology practitioners, teachers, parents and caregivers, persons with disabilities and more to learn, network and share on the best in assistive technology.",
+			"url": "https://www.atia.org/conference/"
+		},
+		{
+			"title": "axe-con Digital Accessibility Conference",
+			"description": "Axe-con is an open and inclusive digital accessibility conference that welcomes developers, designers, business users, and accessibility professionals of all experience levels to a new kind of accessibility conference focused on building, testing, and maintaining accessible digital experiences.",
+			"additional": "March 10–11",
+			"url": "https://www.deque.com/axe-con/"
+		},
+		{
+			"title": "CSUN Assistive Technology Conference",
+			"description": "Known as a forum that showcases cutting edge technology and practical solutions that can be utilized to remove the barriers that prevent the full participation of persons with disabilities in educational, workplace and social settings, the conference is the largest of its kind in the world.",
+			"url": "https://www.csun.edu/cod/conference/"
+		},
+		{
+			"title": "The Digital Accessibility Legal Summit",
+			"description": "We bring together experts from the fields of accessibility and legal to discuss current trends, and to provide insights that will be helpful to practitioners in their work on digital accessibility.",
+			"url": "https://www.accessibility.legal/"
+		},
+		{
+			"title": "Funka Accessibility Days",
+			"description": "Funka Accessibility Days is northern Europe’s largest conference on accessible ICT. We are proud to welcome some of the world´s leading experts on web accessibility.",
+			"url": "https://www.funka.com/en/we-offer/funka-accessibility-days/"
+		},
+		{
+			"title": "Future Date",
+			"description": "Future Date is a free, volunteer-led, virtual accessibility conference. Our goal is to expose our audience to the pioneering work and lived experiences of disability and accessibility leaders.",
+			"url": "https://afuturedate.herokuapp.com/"
+		},
+		{
+			"title": "Global Accessibility Awareness Day",
+			"description": "The purpose of GAAD is to get everyone talking, thinking and learning about digital access and inclusion, and the more than One Billion people with disabilities/impairments.",
+			"url": "https://globalaccessibilityawarenessday.org/"
+		},
+		{
+			"title": "Inclusive Design 24 (#id24)",
+			"description": "A free 24-hour online event for the global community. It celebrates inclusive design and shares knowledge and ideas from analogue to digital, from design to development, from planners to practitioners, and everything and everyone in between.",
+			"url": "https://inclusivedesign24.org/"
+		},
+		{
+			"title": "John Slatin Virtual AccessU",
+			"description": "Whatever your role in digital accessibility, wherever you are on your journey, there is simply no better place to learn and connect to the global community than the annual John Slatin AccessU conference.",
+			"url": "https://knowbility.org/programs/accessu-2021"
+		},
+		{
+			"title": "Magnify Conference",
+			"description": "The Magnify Conference was created from a surge of inspiration when seeing so many talented people practicing inclusive design practices daily across the globe.",
+			"url": "https://www.magnifyconference.com/"
+		},
+		{
+			"title": "Web4All",
+			"description": "The conference focuses on all aspects of web accessibility. Areas of general interest include, but are not limited to the following: age, cognition, culture, education, emotions, dexterity, disability, diversity, health, hearing, income, infrastructure, language, learning, literacy, mobility, situation, society, and vision.",
+			"url": "http://www.w4a.info/2021/"
+		}
+	],
 	"courses": [
 		{
 			"title": "Accessibility Courses",
