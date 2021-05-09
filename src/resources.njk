@@ -352,6 +352,20 @@ templateClass: template-resources
 		Groups and organizations
 	</h2>
 
+	{% set resourceType = "Conferences" %}
+	<h3 id="conferences" class="c-heading-medium u-spacing-top-long">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Annual events about accessibility and inclusion.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.conferences %}
+		{% for resource in resource %}
+			{% include "card/resource.njk" %}
+		{% endfor %}
+	</div>
+
 	{% set resourceType = "Meetups" %}
 	<h3 id="meetups" class="c-heading-medium u-spacing-top-long">
 		{{ resourceType }}
