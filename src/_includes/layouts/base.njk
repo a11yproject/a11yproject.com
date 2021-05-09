@@ -22,11 +22,13 @@
 		{% include "header.njk" %}
 
 		<main id="main" class="l-main">
+			{% if page.url !== '/' %}
 			{% set tocMarkup = content | toc | safe %}
 			{% set hasToc = tocMarkup.length > 0 %}
 
-			{% if hasToc %}
-				{% include "nav/toc.njk" %}
+				{% if hasToc %}
+					{% include "nav/toc.njk" %}
+				{% endif %}
 			{% endif %}
 			{{ content | safe }}
 		</main>
@@ -36,12 +38,14 @@
 		{% include "footer.njk" %}
 
     <script async src="{{ '/js/details-element-polyfill/details-element-polyfill.polyfill.min.js' | url }}"></script>
+		{% if hasToc %}
+		<script async src="{{ '/js/lib/table-of-contents.min.js' | url }}"></script>
+		{% endif %}
 		{% if page.url === '/checklist/' %}
 		<script src="{{ '/js/checklist.min.js?v=' + getCurrentVersion.version | url }}"></script>
 		{% endif %}
 		{% if page.url === '/contact/' %}
 		<script src="{{ '/js/contact.min.js?v=' + getCurrentVersion.version | url }}"></script>
 		{% endif %}
-		<script src="{{ '/js/table-of-contents/table-of-contents.min.js' | url }}"></script>
 	</body>
 </html>
