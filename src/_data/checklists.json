@@ -582,7 +582,7 @@
 			}
 		]
 	},
-	"mobile": {
+	"mobile and touch": {
 		"preface": "Things to check mobile experiences for.",
 		"tasks": [
 			{
