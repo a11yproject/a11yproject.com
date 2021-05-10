@@ -83,10 +83,11 @@ templateClass: template-checklist
 	<hr class="c-divider" />
 
 	{% for category, content in checklists %}
+	{% set category = category | capitalize %}
 	{# 6 May 2021: We don't publish our guidelines about SVGs #}
 	{% if category !== 'svg' %}
 	<section data-checklist-category="{{ category | slug }}">
-			<h2 id="content" class="c-heading-large u-text-transform-sentence-case">
+			<h2 id="content" class="c-heading-large">
 				{{ category }}
 			</h2>
 	<p class="c-preface">
