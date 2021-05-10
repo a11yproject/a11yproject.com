@@ -27,6 +27,9 @@ further_reading:
   - title: Automated Lies, with one line of code
     url: https://karlgroves.com/2018/05/25/automated-lies-with-one-line-of-code
     source: Karl Groves
+  - title: Blind people, advocates slam company claiming to make websites ADA compliant
+    url: https://www.nbcnews.com/tech/innovation/blind-people-advocates-slam-company-claiming-make-websites-ada-compliant-n1266720
+    source: NBC News
   - title: Bolt-on Accessibility – 5 gears in reverse
     url: https://www.tpgi.com/bolt-on-accessibility-5-gears-in-reverse/
     source: TPGI
