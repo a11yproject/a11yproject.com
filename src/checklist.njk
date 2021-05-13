@@ -93,6 +93,7 @@ templateClass: template-checklist
 	<p class="c-preface">
 		{{ content.preface | safe }}
 	</p>
+	<button id="toggle-{{ category }}" >Toggle {{ category }}</button>
 	<div class="c-card__wrapper">
 		{% set tasks = content.tasks %}
 		{% for task in tasks %}

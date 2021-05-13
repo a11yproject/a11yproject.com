@@ -67,12 +67,18 @@ openLinkedCheckListItem();
 processChecklist();
 
 function toggleChecklistGroup() {
+	// to do make a button for each checklist group
 	var toggleContentButton = document.querySelector("#toggle-content");
-	var checkListItem =document.querySelector("[data-checklist-item-id='make-sure-that-button-a-and-label-element-content-is-unique-and-descriptive']");
-	// var checkListGreatGrandParent = checkListItem.parentElement.parentElement.parentElement;
-	toggleContentButton.addEventListener("click", function(event) {
-		var target = event.target;
-		 checkListItem.setAttribute("open", true);
+	var checkListItem = document.querySelector(
+		"[data-checklist-item-id='make-sure-that-button-a-and-label-element-content-is-unique-and-descriptive']"
+	);
+	var checkListGrandParent = checkListItem.parentElement.parentElement;
+
+	toggleContentButton.addEventListener("click", function (event) {
+		for (var i = 0; i < checkListGrandParent.children.length; i++) {
+			console.log(checkListGrandParent.children[i], "recent loop");
+			checkListGrandParent.children[i].lastChild.setAttribute("open", true);
+		}
 	});
 }
 
