@@ -80,5 +80,5 @@ function toggleChecklistGroup() {
 	find a way to not hard code the selector for the items - 
 	find the parent that all the content details and then change the attribute for the details to open
 	best way to use a querySelector 
-*/ 
+*/
 toggleChecklistGroup();
