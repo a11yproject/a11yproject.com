@@ -69,6 +69,7 @@ processChecklist();
 function toggleChecklistGroup() {
 	var toggleContentButton = document.querySelector("#toggle-content");
 	var checkListItem =document.querySelector("[data-checklist-item-id='make-sure-that-button-a-and-label-element-content-is-unique-and-descriptive']");
+	// var checkListGreatGrandParent = checkListItem.parentElement.parentElement.parentElement;
 	toggleContentButton.addEventListener("click", function(event) {
 		var target = event.target;
 		 checkListItem.setAttribute("open", true);
