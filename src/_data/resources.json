@@ -592,6 +592,104 @@
 			"url": "http://webaim.org/discussion/"
 		}
 	],
+	"conferences": [
+		{
+			"title": "#a11yTO Camp",
+			"description": "Opening the doors for a free day of accessibility learning.",
+			"url": "https://camp.a11yto.com/"
+		},
+		{
+			"title": "#a11yTO Conf",
+			"description": "A curated playlist of talks, focused on digital accessibility.",
+			"url": "https://conf.a11yto.com/"
+		},
+		{
+			"title": "Abilities Expo",
+			"description": "Where else can you conquer an all-inclusive climbing wall, show off your skills in adaptive sports, learn moves from pioneers of inclusive dance, find the perfect device to meet your needs and so much more?",
+			"url": "https://www.3playmedia.com/company/access-by-3play/"
+		},
+		{
+			"title": "ACCESS",
+			"description": "ACCESS is an annual conference by 3Play Media celebrating video, accessibility, & the people who make it happen.",
+			"url": "https://www.3playmedia.com/company/access-by-3play/"
+		},
+		{
+			"title": "Assistive Technology Industry Association (ATIA)",
+			"description": "Over the past 22 years, ATIA has been a community gathering for assistive technology practitioners, teachers, parents and caregivers, persons with disabilities and more to learn, network and share on the best in assistive technology.",
+			"url": "https://www.atia.org/conference/"
+		},
+		{
+			"title": "axe-con Digital Accessibility Conference",
+			"description": "Axe-con is an open and inclusive digital accessibility conference that welcomes developers, designers, business users, and accessibility professionals of all experience levels to a new kind of accessibility conference focused on building, testing, and maintaining accessible digital experiences.",
+			"additional": "March 10–11",
+			"url": "https://www.deque.com/axe-con/"
+		},
+		{
+			"title": "Closing the Gap",
+			"description": "Discover how AT can change lives and improve learning!",
+			"url": "https://www.closingthegap.com/conference/"
+		},
+		{
+			"title": "CSUN Assistive Technology Conference",
+			"description": "Known as a forum that showcases cutting edge technology and practical solutions that can be utilized to remove the barriers that prevent the full participation of persons with disabilities in educational, workplace and social settings, the conference is the largest of its kind in the world.",
+			"url": "https://www.csun.edu/cod/conference/"
+		},
+		{
+			"title": "The Digital Accessibility Legal Summit",
+			"description": "We bring together experts from the fields of accessibility and legal to discuss current trends, and to provide insights that will be helpful to practitioners in their work on digital accessibility.",
+			"url": "https://www.accessibility.legal/"
+		},
+		{
+			"title": "Funka Accessibility Days",
+			"description": "Funka Accessibility Days is northern Europe’s largest conference on accessible ICT. We are proud to welcome some of the world´s leading experts on web accessibility.",
+			"url": "https://www.funka.com/en/we-offer/funka-accessibility-days/"
+		},
+		{
+			"title": "Future Date",
+			"description": "Future Date is a free, volunteer-led, virtual accessibility conference. Our goal is to expose our audience to the pioneering work and lived experiences of disability and accessibility leaders.",
+			"url": "https://afuturedate.herokuapp.com/"
+		},
+		{
+			"title": "Global Accessibility Awareness Day",
+			"description": "The purpose of GAAD is to get everyone talking, thinking and learning about digital access and inclusion, and the more than One Billion people with disabilities/impairments.",
+			"url": "https://globalaccessibilityawarenessday.org/"
+		},
+		{
+			"title": "International Conference on Computers Helping People with Special Needs (ICCHP)",
+			"description": "ICCHP is a series of biannual scientific conferences in the field of ICT/AT for people with disabilities.",
+			"url": "https://www.ictaccessibilitytesting.org/"
+		},
+		{
+			"title": "ICT Accessibility Testing Symposium",
+			"description": "The annual ICT Accessibility Testing Symposium is a place for in-person knowledge sharing in ICT Accessibility Testing research and practice and for professional networking.",
+			"url": "https://www.ictaccessibilitytesting.org/"
+		},
+		{
+			"title": "Inclusive Design 24 (#id24)",
+			"description": "A free 24-hour online event for the global community. It celebrates inclusive design and shares knowledge and ideas from analogue to digital, from design to development, from planners to practitioners, and everything and everyone in between.",
+			"url": "https://inclusivedesign24.org/"
+		},
+		{
+			"title": "John Slatin Virtual AccessU",
+			"description": "Whatever your role in digital accessibility, wherever you are on your journey, there is simply no better place to learn and connect to the global community than the annual John Slatin AccessU conference.",
+			"url": "https://knowbility.org/programs/accessu-2021"
+		},
+		{
+			"title": "M-Enabling",
+			"description": "The M-Enabling Summit Conference and Showcase is dedicated to promoting accessible and assistive technology for senior citizens and users of all abilities.",
+			"url": "https://m-enabling.com/"
+		},
+		{
+			"title": "Magnify Conference",
+			"description": "The Magnify Conference was created from a surge of inspiration when seeing so many talented people practicing inclusive design practices daily across the globe.",
+			"url": "https://www.magnifyconference.com/"
+		},
+		{
+			"title": "Web4All",
+			"description": "The conference focuses on all aspects of web accessibility. Areas of general interest include, but are not limited to the following: age, cognition, culture, education, emotions, dexterity, disability, diversity, health, hearing, income, infrastructure, language, learning, literacy, mobility, situation, society, and vision.",
+			"url": "http://www.w4a.info/2021/"
+		}
+	],
 	"courses": [
 		{
 			"title": "Accessibility Courses",
@@ -684,6 +782,12 @@
 			"description": "Ethical Design Guide is made to share resources on how to create ethical products that don't cause harm.",
 			"additional": "Sarah Fossheim",
 			"url": "https://ethicaldesign.guide/"
+		},
+		{
+			"title": "Information on different types of people for graphic communication, website and information designers including free reusable infographic",
+			"description": "How can we include as many people as possible when designing graphic communication and information, and how do we not unnecessarily exclude people?",
+			"additional": "Thomas Bohm",
+			"url": "https://medium.com/@user_design/information-on-different-types-of-people-for-graphic-communication-website-and-information-4b6454905bb1"
 		},
 		{
 			"title": "UX Myths",
@@ -946,6 +1050,12 @@
 			"description": "#a11yTO actively promotes digital inclusion for the design and development communities in and around the Greater Toronto Area.",
 			"additional": "Toronto, Canada",
 			"url": "https://twitter.com/a11yTO"
+		},
+		{
+			"title": "Access + Equity",
+			"description": "Access + Equity is a brand-new series featuring some of the best minds in the field of disability rights and accessibility.",
+			"additional": "Florida, United States",
+			"url": "https://www.meetup.com/access-and-equity/"
 		},
 		{
 			"title": "Accessibility Chicago",
@@ -1635,15 +1745,9 @@
 			"url": "https://axesslab.com/fonts-dont-matter/"
 		},
 		{
-			"title": "Information on different types of people for graphic communication, website and information designers including free reusable infographic",
-			"description": "How can we include as many people as possible when designing graphic communication and information, and how do we not unnecessarily exclude people?",
-			"additional": "Thomas Bohm",
-			"url": "https://medium.com/@user_design/information-on-different-types-of-people-for-graphic-communication-website-and-information-4b6454905bb1"
-		},
-		{
 			"title": "Letter and symbol misrecognition in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers",
 			"description": "This paper identifies easily misrecognised letters and symbols in highly legible typefaces for general, children, dyslexic, visually impaired and ageing readers. It can also be considered as a review of related research in this area.",
-			"additional": "Typography.Guru",
+			"additional": "Thomas Bohm",
 			"url": "https://typography.guru/journal/letters-symbols-misrecognition/"
 		}
 	],
@@ -1863,12 +1967,6 @@
 			"description": "This post aims to tell you a few key things about accessibility. I can't cover everything, but I can cover: why accessibility matters, how to make a website accessible, and how to test for accessibility.",
 			"additional": "Max Antonucci",
 			"url": "https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope"
-		},
-		{
-			"title": "Web Accessibility Guide",
-			"description": "A curated collection of web accessibility tips, tricks, and best practices. Let's make the web a better place for everyone.",
-			"additional": "Stefan Feješ",
-			"url": "https://webaccessibility.guide/"
 		}
 	]
 }
