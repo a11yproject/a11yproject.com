@@ -11,8 +11,6 @@ tags:
 templateClass: template-checklist
 ---
 
-{% include "nav/toc.njk" %}
-
 <div data-content class="l-content">
 
 	<div class="c-wcag-explanation">
@@ -87,8 +85,9 @@ templateClass: template-checklist
 	{% for category, content in checklists %}
 	{# 6 May 2021: We don't publish our guidelines about SVGs #}
 	{% if category !== 'svg' %}
+	{% set category = category | capitalize %}
 	<section data-checklist-category="{{ category | slug }}">
-			<h2 id="content" class="c-heading-large u-text-transform-sentence-case">
+			<h2 id="{{ category | slug }}" class="c-heading-large">
 				{{ category }}
 			</h2>
 	<p class="c-preface">
