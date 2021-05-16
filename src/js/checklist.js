@@ -65,44 +65,38 @@ function processChecklist() {
 openLinkedCheckListItem();
 processChecklist();
 
-function toggleCheckList() {
-	var toggleAllButton = document.querySelector("#toggle-all");
-	var allDetails = document.querySelectorAll("details");
-	toggleAllButton.addEventListener("click", function (event) {
-		allDetails.forEach(function (checkListItem) {
-			if (checkListItem.hasAttribute("open") === true) {
-				checkListItem.removeAttribute("open");
-			} else {
-				checkListItem.setAttribute("open", true);
-			}
-		});
-	});
-}
-
-function toggleChecklistGroup() {
-	var toggleCategoryButtons = document.querySelectorAll(
-		"[data-toggle-category]"
-	);
-	toggleCategoryButtons.forEach(function (element) {
-		element.addEventListener("click", function (event) {
-			var parentSection = element.closest("section");
-			var detailsElements = parentSection.querySelectorAll("details");
-			detailsElements.forEach(function (checkListItem) {
-				if (checkListItem.hasAttribute("open") === true) {
-					checkListItem.removeAttribute("open");
+function registerToggleButton(buttonEl, parentEl) {
+	if (buttonEl && parentEl) {
+		var details = parentEl.querySelectorAll("details");
+		buttonEl.addEventListener("click", function (event) {
+			details.forEach(function (item) {
+				if (item.hasAttribute("open") === true) {
+					item.removeAttribute("open");
 				} else {
-					checkListItem.setAttribute("open", true);
+					item.setAttribute("open", true);
 				}
 			});
 		});
-	});
+	}
 }
 
-/*Next Steps 
-	loop for putting an event listener on all the toggle buttons 
-	loop inside the click event listener that sets open to true, or if true sets to false
-*/
+function renderToggleAll() {
+	var toggleAllButton = document.querySelector("#toggle-all");
+	registerToggleButton(toggleAllButton, document);
+}
 
-toggleChecklistGroup();
+renderToggleAll();
 
-toggleCheckList();
+
+function renderToggleCategories(){
+	var toggleCategoryButtons = document.querySelectorAll(
+		"[data-toggle-category]"
+	);
+	toggleCategoryButtons.forEach(function(button){
+		var parentSection = button.closest("section");
+		registerToggleButton(button, parentSection);
+	})
+}
+
+renderToggleCategories();
+
