@@ -58,7 +58,6 @@ function populateChecklistFromLocalStorage(checkboxSelector) {
 
 function processChecklist() {
 	var checkboxSelector = '.c-checklist__checkbox input[type="checkbox"]';
-
 	populateChecklistFromLocalStorage(checkboxSelector);
 	processChecklistClick(checkboxSelector);
 }
@@ -66,25 +65,44 @@ function processChecklist() {
 openLinkedCheckListItem();
 processChecklist();
 
-function toggleChecklistGroup() {
-	// to do make a button for each checklist group
-	var toggleContentButton = document.querySelector("#toggle-content");
-	var checkListItem = document.querySelector(
-		"[data-checklist-item-id='make-sure-that-button-a-and-label-element-content-is-unique-and-descriptive']"
-	);
-	var checkListGrandParent = checkListItem.parentElement.parentElement;
+function toggleCheckList() {
+	var toggleAllButton = document.querySelector("#toggle-all");
+	var allDetails = document.querySelectorAll("details");
+	toggleAllButton.addEventListener("click", function (event) {
+		allDetails.forEach(function (checkListItem) {
+			if (checkListItem.hasAttribute("open") === true) {
+				checkListItem.removeAttribute("open");
+			} else {
+				checkListItem.setAttribute("open", true);
+			}
+		});
+	});
+}
 
-	toggleContentButton.addEventListener("click", function (event) {
-		for (var i = 0; i < checkListGrandParent.children.length; i++) {
-			console.log(checkListGrandParent.children[i], "recent loop");
-			checkListGrandParent.children[i].lastChild.setAttribute("open", true);
-		}
+function toggleChecklistGroup() {
+	var toggleCategoryButtons = document.querySelectorAll(
+		"[data-toggle-category]"
+	);
+	toggleCategoryButtons.forEach(function (element) {
+		element.addEventListener("click", function (event) {
+			var parentSection = element.closest("section");
+			var detailsElements = parentSection.querySelectorAll("details");
+			detailsElements.forEach(function (checkListItem) {
+				if (checkListItem.hasAttribute("open") === true) {
+					checkListItem.removeAttribute("open");
+				} else {
+					checkListItem.setAttribute("open", true);
+				}
+			});
+		});
 	});
 }
 
 /*Next Steps 
-	find a way to not hard code the selector for the items - 
-	find the parent that all the content details and then change the attribute for the details to open
-	best way to use a querySelector 
+	loop for putting an event listener on all the toggle buttons 
+	loop inside the click event listener that sets open to true, or if true sets to false
 */
+
 toggleChecklistGroup();
+
+toggleCheckList();
