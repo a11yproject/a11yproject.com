@@ -87,7 +87,6 @@ function renderToggleAll() {
 
 renderToggleAll();
 
-
 function renderToggleCategories(){
 	var toggleCategoryButtons = document.querySelectorAll(
 		"[data-toggle-category]"
@@ -95,7 +94,7 @@ function renderToggleCategories(){
 	toggleCategoryButtons.forEach(function(button){
 		var parentSection = button.closest("section");
 		registerToggleButton(button, parentSection);
-	})
+	});
 }
 
 renderToggleCategories();
