@@ -1070,6 +1070,12 @@
 			"url": "https://www.meetup.com/a11yphl/"
 		},
 		{
+			"title": "a11ySD",
+			"description": "San Diego Accessibility & Inclusive Design meetup",
+			"additional": "San Diego, CA",
+			"url": "https://a11ysd.com/"
+		},
+		{
 			"title": "A11ySEA",
 			"description": "Accessibility Seattle is dedicated to the simple premise that 'digital inclusion' is fundamental.",
 			"additional": "Seattle, United States",
