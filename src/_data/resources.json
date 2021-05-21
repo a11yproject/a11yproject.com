@@ -1070,6 +1070,12 @@
 			"url": "https://www.meetup.com/a11yphl/"
 		},
 		{
+			"title": "a11ySD",
+			"description": "San Diego Accessibility & Inclusive Design meetup",
+			"additional": "San Diego, CA",
+			"url": "https://a11ysd.com/"
+		},
+		{
 			"title": "A11ySEA",
 			"description": "Accessibility Seattle is dedicated to the simple premise that 'digital inclusion' is fundamental.",
 			"additional": "Seattle, United States",
@@ -1230,12 +1236,6 @@
 			"description": "What on Earth is a role=drinks? It’s an accessibility meetup! The event features lightning talks by accessibility specialist, time to talk to the speakers and fellow attendees, and more than enough time to grab a drink.",
 			"additional": "Amsterdam, Netherlands",
 			"url": "https://www.roledrinks.com/"
-		},
-		{
-			"title": "a11ySD - San Diego Accessibility & Inclusive Design meetup",
-			"description": "This meetup is for anyone interested in anything related to accessibility and inclusive design. We usually have lightning talks by accessibility experts and plenty of time to chat with speakers and fellow attendees.",
-			"additional": "San Diego, CA",
-			"url": "https://a11ysd.com/"
 		}
 	],
 	"mobileApps": [
