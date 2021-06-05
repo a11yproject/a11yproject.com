@@ -81,7 +81,7 @@ We can fix our own sites, but what about _other people's websites_? After all, t
 
 I realized I could use the code I wrote to automatically fix websites instead. It doesn't make sense inside Polypane, but it would be really useful as a browser extension.
 
-That browser extension is called [Fix Contrast](https://fixa11y.com) and it freely available for Chrome, Edge, Vivaldi and Brave, and hopefully soon for Opera, Firefox and Safari too.
+That browser extension is called [Fix Contrast](https://fixa11y.com) and it freely available for Chrome, Edge, Firefox, Vivaldi and Brave, and hopefully soon for Opera and Safari too.
 
 After you install it, it will automatically fix any text with low contrast up to your preferred contrast ratio.
 
