@@ -32,7 +32,7 @@ Insufficient text contrast is the most common accessibility issue on websites to
 
 Text contrast issues can by and large be automatically found (and fixed, more on that later), so why do nearly 9 out of 10 sites have contrast issues?
 
-## Before we answer that, a quick intro on what text contrast is.
+## Before we answer that, a quick intro on what text contrast is
 
 When we talk about text contrast, what we mean is the difference between the color of the text and the color that's behind the text. To make sure the text is readable for everyone, you need a certain amount of difference between them.
 
