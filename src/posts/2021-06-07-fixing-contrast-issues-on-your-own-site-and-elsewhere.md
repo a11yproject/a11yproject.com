@@ -2,7 +2,7 @@
 layout: post
 title: Fixing contrast issues, on your own site and elsewhere
 description: "Insufficient text contrast is the most common accessibility issue on websites today, even though by and large be automatically found and fixed. The Fix Contrast browser extension fixes contrast issues for end users."
-category: Assistive technology
+category: Assistive Technology
 author: Kilian Valkhof
 date: 2021-06-07
 further_reading:
