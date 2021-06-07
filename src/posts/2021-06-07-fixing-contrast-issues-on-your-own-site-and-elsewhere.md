@@ -38,7 +38,7 @@ When we talk about text contrast, what we mean is the difference between the col
 
 This difference can be measured using a formula that yields a number between 1 (no contrast, white text on a white background) and 21 (the most contrast possible, black text on a white background). That number is called the "contrast ratio".
 
-The formula is part of WCAG, the Web Content Accessibility Guidelines. How the formula works is not that important, but there are a few numbers you should be aware of. For regular text, you need a contrast value of at least 4.5, and for large text just 3, to pass the text for sufficient contrast. (There are more strict rules available too).
+The formula is part of WCAG, the [Web Content Accessibility Guidelines](https://www.a11yproject.com/posts/2020-10-14-wcag2-documents/). How the formula works is not that important, but there are a few numbers you should be aware of. For regular text, you need a contrast value of at least 4.5, and for large text just 3, to pass the text for sufficient contrast. (There are more strict rules available too).
 
 Having to score a 4.5 out of 21 doesn't seem like a very high bar to clear, so why do 86% of websites still have contrast issues?
 
