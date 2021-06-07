@@ -68,7 +68,10 @@ You can also calculate the nearest color that does have enough contrast. So that
 
 Here's what that looks like:
 
-<video src="/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.mp4" loop="" controls="">Example of a contrast label in Polypane, which shows a failing score, a suggested color that gets applied when you hover over it, and copies that color when you click it.</video>
+<figure role="figure" aria-label="Example of a contrast label in Polypane, which shows a failing score, a suggested color that gets applied when you hover over it, and copies that color when you click it.">
+  <video src="/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.mp4" loop="" controls=""></video>
+  <figcaption>Example of a contrast label in Polypane, which shows a failing score, a suggested color that gets applied when you hover over it, and copies that color when you click it.</figcaption>
+</figure>
 
 This is a really useful feature that I didn't wanna keep it locked away in my own product, so it's also available online. When you enter two colors here, you'll get suggestions of similar colors with enough contrast: [color contrast checker](https://polypane.app/color-contrast/).
 
