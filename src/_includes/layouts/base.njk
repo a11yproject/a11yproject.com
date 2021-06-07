@@ -23,7 +23,7 @@
 
 		<main id="main" class="l-main">
 
-			{% if (page.url !== '/') or (post.data.layout == 'post') %}
+			{% if (layout !== 'post') and (page.url !== '/') %}
 			{% set tocMarkup = content | toc | safe %}
 			{% set hasToc = tocMarkup.length > 0 %}
 
