@@ -33,6 +33,12 @@ templateClass: template-post
 
 	<div data-content id="short-answer" class="l-post__body">
 
+		{% set tocMarkup = content | toc | safe %}
+		{% set hasToc = tocMarkup.length > 0 %}
+		{% if hasToc %}
+			{% include "nav/toc.njk" %}
+		{% endif %}
+
 		<div class="l-post__content c-content c-content--post">
 
 			{{ content | safe }}

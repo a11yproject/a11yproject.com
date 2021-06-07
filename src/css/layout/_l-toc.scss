@@ -16,6 +16,10 @@
 		// Breakpoints
 		@include mappy-bp(lap-small) {
 			margin-top: 5.25rem;
+
+			.l-toc {
+				margin-top: 0; // BUG: .v-toc is getting regenerated on some pages
+			}
 		}
 	}
 
