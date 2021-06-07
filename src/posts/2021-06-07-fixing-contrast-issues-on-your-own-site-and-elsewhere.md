@@ -87,7 +87,7 @@ That browser extension is called [Fix Contrast](https://fixa11y.com) and it free
 
 After you install it, it will automatically fix any text with low contrast up to your preferred contrast ratio.
 
-![The Fix Contrast settings](/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/ui.png)
+![The Fix Contrast settings where you can pick between "medium" and "high" contrast or set a custom minimum value and optionally add a background color](/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/ui.png)
 
 You can pick between two defaults, "medium" and "high" contrast, or pick your own minimum ratio for small and large text. You can also opt to add a background color when the text color can't be changed enough.
 
