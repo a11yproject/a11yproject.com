@@ -25,8 +25,7 @@ eleventyNavigation:
   key: { { category } }
   title: { { title } }
 tags:
-  - wcag
-  - contrast
+  - assistivetechnology
 ---
 
 Insufficient text contrast is the most common accessibility issue on websites today. According to the [WebAIM Million report for 2021](https://webaim.org/projects/million/#contrast), 86.4% of home pages world wide have low contrast text. What's worse, this number has been increasing the past three years.
