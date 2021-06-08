@@ -438,6 +438,13 @@
 				"description": "Can you still see where links are among body content if everything is grayscale?"
 			},
 			{
+				"title": "Make sure instructions are not visual or audio-only.",
+				"checkboxId": "sensory-characteristics",
+				"wcag": "1.3.3 Sensory Characteristics",
+				"url": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html",
+				"description": "Use a combination of characteristics to write cues, particularly the actual names of sections and elements, rather than just descriptions like location (“on the right”) or audio (“after the tone”)."
+			},
+			{
 				"title": " Use a simple, straightforward, and consistent layout.",
 				"checkboxId": "consistent-layout",
 				"wcag": "1.4.10 Reflow",
