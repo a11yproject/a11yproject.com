@@ -70,6 +70,8 @@ var minify = require('gulp-cssnano');
 var gulpStylelint = require('gulp-stylelint');
 var purgeCSS = require('gulp-purgecss');
 
+sass.compiler = require('sass');
+
 // SVGs
 var svgmin = require('gulp-svgmin');
 var svgSprite = require('gulp-svg-sprite');
