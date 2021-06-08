@@ -78,11 +78,11 @@
 				"description": " People who are blind or who have low vision may be disoriented when focus is moved without their permission. Additionally, <code>autofocus</code> can be problematic for people with motor control disabilities, as it may create extra work for them to navigate out from the autofocused area and to other locations on the page/view."
 			},
 			{
-				"title": "Remove session timeouts.",
-				"checkboxId": "remove-timeouts",
+				"title": "Allow extending session timeouts",
+				"checkboxId": "extend-timeouts",
 				"wcag": "2.2.1 Timing Adjustable",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html",
-				"description": "If you cannot, let the person using your site know the timeout exists ahead of time, and provide significant notice before the timer runs out."
+				"description": "If you cannot remove session timeouts altogether, then let the person using your site easily turn off, adjust, or extend their session well before it ends."
 			},
 			{
 				"title": "Remove <code>title</code> attribute tooltips.",
@@ -436,6 +436,13 @@
 				"wcag": "1.4.1 Use of Color",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
 				"description": "Can you still see where links are among body content if everything is grayscale?"
+			},
+			{
+				"title": "Make sure instructions are not visual or audio-only.",
+				"checkboxId": "sensory-characteristics",
+				"wcag": "1.3.3 Sensory Characteristics",
+				"url": "https://www.w3.org/WAI/WCAG21/Understanding/sensory-characteristics.html",
+				"description": "Use a combination of characteristics to write cues, particularly the actual names of sections and elements, rather than just descriptions like location (“on the right”) or audio (“after the tone”)."
 			},
 			{
 				"title": " Use a simple, straightforward, and consistent layout.",
