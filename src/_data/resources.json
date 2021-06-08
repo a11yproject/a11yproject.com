@@ -418,6 +418,19 @@
 			]
 		},
 		{
+			"title": "Fix Contrast",
+			"description": "Automatically fixes contrast issue on websites to a specifix contrast ratio.",
+			"additional": "Fixa11y",
+			"url": "https://fixa11y.com",
+			"browsers": [
+				"Chrome",
+				"Firefox",
+				"Edge",
+				"Brave",
+				"Vivaldi"
+			]
+		},
+		{
 			"title": "headingsMap",
 			"description": "The extension generates a documentmap or index of any web document structured with headings (you can access directly to the content by clicking on any of its items), and now, it shows the HTML 5 outline.",
 			"additional": "Rumoroso",
