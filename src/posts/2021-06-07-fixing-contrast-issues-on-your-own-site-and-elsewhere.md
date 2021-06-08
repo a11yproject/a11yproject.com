@@ -8,17 +8,17 @@ date: 2021-06-07
 further_reading:
   - title: "Fix Contrast website"
     url: https://fixa11y.com/
-    source: Fix contrast
+    source: FixA11y
   - title: "Fix contrast for Chrome, Vivaldi and Brave"
     url: https://chrome.google.com/webstore/detail/fix-contrast/pbbcgecjmpkglppfjjggkkbhdnlemhkg
-    source: Fix contrast
+    source: Chrome Web Store
   - title: "Fix contrast for Edge"
     url: https://microsoftedge.microsoft.com/addons/detail/cglmfaokelifdefnifhfdpmcckjfedeb
-    source: Fix contrast
+    source: Edge Add-ons
   - title: "Polypane"
     url: https://polypane.app/
     source: Polypane
-  - title: "What is color contrast"
+  - title: "Background: What is color contrast?"
     url: https://www.a11yproject.com/posts/2015-01-05-what-is-color-contrast/
     source: The A11Y Project
 eleventyNavigation:
@@ -69,7 +69,18 @@ You can also calculate the nearest color that does have enough contrast. So that
 Here's what that looks like:
 
 <figure role="figure" aria-label="Example of a contrast label in Polypane, which shows a failing score, a suggested color that gets applied when you hover over it, and copies that color when you click it.">
-  <video src="/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.mp4" loop="" controls=""></video>
+  <video
+    controls
+    loop
+    poster="{{ '/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/cover.png' | url }}">
+    <source
+      src="{{ '/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.mp4' | url }}"
+      type="video/mp4" />
+    <source
+      src="{{ '/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.webm' | url }}"
+      type="video/webm" />
+      This browser does not support the <code>video</code> element.
+  </video>
   <figcaption>Example of a contrast label in Polypane, which shows a failing score, a suggested color that gets applied when you hover over it, and copies that color when you click it.</figcaption>
 </figure>
 
