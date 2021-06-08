@@ -3,6 +3,8 @@
 {% set title = task.title | safe %}
 {% set url = task.url %}
 {% set wcag = task.wcag %}
+{% set wcagLevel = task.wcagLevel %}
+
 
 <div class="c-checklist__wrapper">
 
@@ -26,6 +28,7 @@
 		<p class="c-checklist__citation">
 			<a class="u-text-transform-uppercase c-checklist__link" href="{{ url }}">{{ wcag }}</a>
 		</p>
+		<p class="u-font-size-body-small c-checklist__wcag-levels">Level: {{ wcagLevel }}</p>
 		<p class="u-font-size-body-small c-checklist__description">
 			{{ description }}
 		</p>
