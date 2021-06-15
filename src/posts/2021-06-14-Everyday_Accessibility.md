@@ -2,14 +2,13 @@
 layout: post
 title: Everyday Accessibility
 description: "Even with the best of intentions, you may be making decisions that exclude disabled users. Below are practical, intentional steps you can start today to create and share more accessible social media, digital, and multimedia content."
-category:
+category: Background
 author: Michele A. Williams, PhD
 date: 2021-06-15
-further_reading:
 eleventyNavigation:
-  key: { { } }
-  title: { { } }
-tags:
+  key: { { category } }
+  title: { { title } }
+tags: background
 ---
 ## Social Media Posts
 1. **Use capital letters in hashtags:** Punctuation helps text-to-speech tools like screen readers speak more accurately, and helps with readability overall. This includes in hashtags where capital letters help distinguish words.
@@ -49,14 +48,14 @@ tags:
 	<figcaption>Microsoft's "Check Accessibility" feature helps ensure your document is inclusive.</figcaption>
 </figure>
 ## Audio and Video Content
-1. **Have clear audio:**Though all of our devices can record audio and video on-demand, sound quality can vary.  Be sure to speak as clearly as possible, preferably at a steady pace and reasonable volume, and remove or avoid background noise including echo, empty room effect, humming, or white noise. 
+1. **Have clear audio:**Though all of our devices can record audio and video on-demand, sound quality can vary.  Be sure to speak as clearly as possible, preferably at a steady pace and reasonable volume, and remove or avoid background noise including echo, empty room effect, humming, or white noise.
 > Using a microphone (even a common corded headset) usually helps amplify voices and minimize distracting unwanted sounds.
 2. **Reduce background music:** Instrumental music can enhance content’s quality, but not when it reduces the ability to hear the main speaker. When using background music, keep it to a minimum (such as during an intro) or, if used throughout, ensure it is very low.
 > Consider putting your background music at the volume of a whisper.
 3. **Provide text with the multimedia:** As with images, video and audio can be engaging but also inaccessible without a text equivalent for people who are deaf-blind, having sensory processing disorders, or have hearing impairments. Having media content written out as text is vital for inclusiveness. Text equivalents can include transcripts that type out spoken dialogue, or an article that accompanies a video (as in a video that supplements a news article).
 > Where there’s media, make sure there’s also text.
 4. **Ensure you have no flashing content:** Content that flashes on the screen more than 3 times per second is dangerous as it can trigger a seizure in some viewers. Ensure any rapidly moving content is below this threshold.
-> The Trace Center’s [Photosensitive Epilepsy Analysis Tool (PEAT)](https://trace.umd.edu/peat/) is a free, downloadable resource for developers to identify seizure risks in their web content and software. 
+> The Trace Center’s [Photosensitive Epilepsy Analysis Tool (PEAT)](https://trace.umd.edu/peat/) is a free, downloadable resource for developers to identify seizure risks in their web content and software.
 ## Advocate for Accessibility
 1. **Seek accessibility features:** Actively search for “accessibility” in the software you use every day — from survey creation tools to website design platforms. Understand what you can do to make sure your output is inclusive.
 <figure role="figure" aria-label="Search for accessibility tips in your favorite systems like this Typeform How To article.">
@@ -66,4 +65,4 @@ tags:
 2. **Ask about accessibility:** If a system doesn’t offer accessibility features (which is unfortunately very common), reach out to the company to ask about it via the company’s customer support channels. Also ask about it internally where you work and attend school. Don’t leave this to just your disabled colleagues to take on.
 > Customer pressure can help move accessibility to the front of a company’s roadmap.
 3. **Seek to learn more:** There’s a lot more to learn and the more allies who know about accessible and inclusive digital practices, the more we can make a big difference for who can participate in our ever-growing digital spaces.
-> You can start your journey with [The A11Y Project’s Resources Page](A11yProject.com/Resources). 
+> You can start your journey with [The A11Y Project’s Resources Page](A11yProject.com/Resources).
