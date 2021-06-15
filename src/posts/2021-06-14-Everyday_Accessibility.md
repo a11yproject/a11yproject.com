@@ -2,13 +2,13 @@
 layout: post
 title: Everyday Accessibility
 description: "Even with the best of intentions, you may be making decisions that exclude disabled users. Below are practical, intentional steps you can start today to create and share more accessible social media, digital, and multimedia content."
-category: Background
+category: Quick tip
 author: Michele A. Williams, PhD
 date: 2021-06-15
 eleventyNavigation:
   key: { { category } }
   title: { { title } }
-tags: background
+tags: quicktip
 ---
 
 TODO: ADD A SUMMARY HERE
