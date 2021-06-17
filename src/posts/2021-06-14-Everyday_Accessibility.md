@@ -15,7 +15,7 @@ Even with the best of intentions, you may be making decisions that exclude disab
 
 ## Social Media Posts
 
-**Use capital letters in hashtags:** Punctuation helps text-to-speech tools like screen readers speak more accurately, and helps with readability overall. This includes in hashtags where capital letters help distinguish words.
+**Use capital letters in hashtags:** Punctuation helps text-to-speech tools like screen readers speak more accurately, and helps with readability overall. This includes in hashtags, where capital letters help distinguish words.
 
 > Make it a habit to #UseCapitalLetters rather than #hardtoreadlowercase
 
@@ -29,7 +29,7 @@ Even with the best of intentions, you may be making decisions that exclude disab
 **Use “alt text” features to describe images:** Pictures are significant in social media, but also inaccessible to visually impaired readers unless they have a text-based description. When uploading, find the “image description” or “alternative/alt text” feature in the software to write a description. Don’t write every detail, just enough to ensure everyone can understand your post and share in the image’s meaning. For more, read Scott Vinkle’s [Considerations when writing alt text](https://ux.shopify.com/considerations-when-writing-alt-text-a9c1985a8204).
 
 <figure role="figure" aria-label="Twitter's Add Description feature allows adding alt text for visually impaired readers.">
-	<img alt="Two mobile phone screenshots show, first, a draft Twitter post saying 'Coolest clouds I've ever seen' with a photo attached, then, second, the Image Description input screen with text reading 'A field of wildflowers with hills in the background and clouds overhead'." src="/img/posts/2021-06-14-Everyday_Accessibility/twitter_alt.png" />
+	<img alt="Two mobile phone screenshots. The first shows a draft Twitter post reading, 'Coolest clouds I've ever seen' with a photo attached. The second shows the Image Description input screen with text reading 'A field of wildflowers with hills in the background and clouds overhead'." src="/img/posts/2021-06-14-Everyday_Accessibility/twitter_alt.png" />
 	<figcaption>Twitter's "Add description" feature allows adding "alt text" for visually impaired readers.</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Even with the best of intentions, you may be making decisions that exclude disab
 
 ## Documents
 
-**Use a program’s built-in styling features:** Assistive technology (AT) doesn’t interpret a page or document like people do with their eyes, it reads the underlying code markup. This means simply making something _look_ a certain way falls apart when using AT. When formatting a document or presentation, use the style buttons/options in the program to provide the needed markup; for instance, use the “bulleted list” button rather than just a dash (-) to format a list.
+**Use a program’s built-in styling features:** Assistive technology (AT) doesn’t interpret a page or document like people do with their eyes; it reads the underlying code markup. This means simply making something _look_ a certain way falls apart when using AT. When formatting a document or presentation, use the style buttons/options in the program to provide the needed markup; for instance, use the “bulleted list” button rather than just a dash (-) to format a list.
 
 <figure role="figure" aria-label="Explicitly select format options like Numbered List in Microsoft Word to increase accessibility.">
 	<img alt="Sample document including heading and numbered list with arrows pointing out the 'Numbered List' option in the menus and the 'Heading 1' text style used for the heading." src="/img/posts/2021-06-14-Everyday_Accessibility/WordRibbon.png" />
