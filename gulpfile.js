@@ -130,7 +130,7 @@ var buildStyles = function (done) {
 	if (!settings.styles) return done();
 	// Run tasks on all Sass files
 	return src(paths.styles.input)
-		.pipe(sass({
+		.pipe(sass.sync({
 			outputStyle: 'expanded',
 			sourceComments: true
 		}))
