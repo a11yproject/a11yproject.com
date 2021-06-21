@@ -70,6 +70,8 @@ var minify = require('gulp-cssnano');
 var gulpStylelint = require('gulp-stylelint');
 var purgeCSS = require('gulp-purgecss');
 
+sass.compiler = require('sass');
+
 // SVGs
 var svgmin = require('gulp-svgmin');
 var svgSprite = require('gulp-svg-sprite');
@@ -128,7 +130,7 @@ var buildStyles = function (done) {
 	if (!settings.styles) return done();
 	// Run tasks on all Sass files
 	return src(paths.styles.input)
-		.pipe(sass({
+		.pipe(sass.sync({
 			outputStyle: 'expanded',
 			sourceComments: true
 		}))
