@@ -93,6 +93,7 @@ Though all of our devices can record audio and video on-demand, sound quality ca
 > Using a microphone (even a common corded headset) can help amplify voices and minimize distracting unwanted sounds.
 
 ### Reduce background music
+
 Instrumental music can enhance content’s quality, but not when it reduces the ability to hear the main speaker. When using background music, keep it to a minimum (such as during an intro) or, if used throughout, ensure it is very low.
 
 > Consider putting your background music at the volume of a whisper.
