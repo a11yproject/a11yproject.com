@@ -87,6 +87,7 @@ Microsoft products (namely Word and PowerPoint) come with a “Check Accessibili
 ## Audio and Video Content
 
 ### Have clear audio
+
 Though all of our devices can record audio and video on-demand, sound quality can vary.  Be sure to speak as clearly as possible, preferably at a steady pace and reasonable volume, and remove or avoid background noise including echo, empty room effect, humming, or white noise.
 
 > Using a microphone (even a common corded headset) can help amplify voices and minimize distracting unwanted sounds.
