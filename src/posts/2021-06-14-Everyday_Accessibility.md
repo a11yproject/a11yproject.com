@@ -76,6 +76,7 @@ Just like with social media, you can add alt text descriptions to images in docu
 </figure>
 
 ### Use accessibility checkers
+
 Microsoft products (namely Word and PowerPoint) come with a “Check Accessibility” option. Use this to double-check you’ve addressed key accessibility needs.
 
 <figure role="figure" aria-label="Microsoft's Check Accessibility feature helps ensure your document is inclusive.">
