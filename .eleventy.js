@@ -105,18 +105,10 @@ module.exports = function (eleventyConfig) {
 		linkify: true,
 	};
 
-	const implicitFigureOpts = {
-		figcaption: true, // Convert title to figcaption
-		lazy: true, // add loading="lazy" to img inside figure
-	};
-
 	const markdownLib = require("markdown-it")(markdownItOpts)
 		.use(require("markdown-it-footnote"))
 		.use(require("markdown-it-anchor"))
-		.use(
-			require("./src/_11ty/markdown-it-implicit-figure"),
-			implicitFigureOpts
-		);
+		.use(require("./src/_11ty/markdown-it-figure"));
 
 	eleventyConfig.setLibrary("md", markdownLib);
 
