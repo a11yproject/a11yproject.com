@@ -2,7 +2,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyPluginTOC = require("eleventy-plugin-nesting-toc");
-const markdownItImplicitFigure = require("./src/_11ty/markdown-it-implicit-figure");
 
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
@@ -100,23 +99,24 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
 	/* Markdown Plugins */
-	let markdownIt = require("markdown-it");
-	let markdownItAnchor = require("markdown-it-anchor");
-	let markdownItFootnote = require("markdown-it-footnote");
-	let options = {
+	let markdownItOpts = {
 		html: true,
 		breaks: true,
 		linkify: true,
 	};
-	let markdownLib = markdownIt(options)
-	.use(markdownItFootnote)
-	.use(markdownItAnchor)
-	.use(markdownItImplicitFigure, {
-		figcaption: true,
-		dataType: true,
-		lazy: true,
-	});
 
+	const implicitFigureOpts = {
+		figcaption: true, // Convert title to figcaption
+		lazy: true, // add loading="lazy" to img inside figure
+	};
+
+	const markdownLib = require("markdown-it")(markdownItOpts)
+		.use(require("markdown-it-footnote"))
+		.use(require("markdown-it-anchor"))
+		.use(
+			require("./src/_11ty/markdown-it-implicit-figure"),
+			implicitFigureOpts
+		);
 
 	eleventyConfig.setLibrary("md", markdownLib);
 
