@@ -17,6 +17,7 @@
 		@include mappy-bp(lap-small) {
 			.l-toc {
 				margin-top: 0; // BUG: .v-toc is getting regenerated on some pages
+				margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
 			}
 		}
 	}
@@ -40,12 +41,6 @@
 	}
 
 	.template-contribute & {
-		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
-		}
-	}
-
-	.template-generic & {
 		.l-toc {
 			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
 		}
