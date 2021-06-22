@@ -58,6 +58,7 @@ Assistive technology (AT) doesn’t interpret a page or document like people do 
 </figure>
 
 ### Include document structure
+
 Headings (or titles on slides) provide a great way for everyone to preview, skim, and search content. Structure is particularly helpful for blind readers who want to get an overview of the document before reading line-by-line. Include headings throughout a document and titles on every slide, and remember to use the actual “Heading” and “Title” features of the program, not simply stylized text.
 
 <figure role="figure" aria-label="Using PowerPoint's built-in title placeholders is important for accessibility.">
