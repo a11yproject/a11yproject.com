@@ -2,6 +2,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyPluginTOC = require("eleventy-plugin-nesting-toc");
+const markdownItImplicitFigure = require("./src/_11ty/markdown-it-implicit-figure");
 
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
@@ -108,8 +109,14 @@ module.exports = function (eleventyConfig) {
 		linkify: true,
 	};
 	let markdownLib = markdownIt(options)
-		.use(markdownItFootnote)
-		.use(markdownItAnchor);
+	.use(markdownItFootnote)
+	.use(markdownItAnchor)
+	.use(markdownItImplicitFigure, {
+		figcaption: true,
+		dataType: true,
+		lazy: true,
+	});
+
 
 	eleventyConfig.setLibrary("md", markdownLib);
 
