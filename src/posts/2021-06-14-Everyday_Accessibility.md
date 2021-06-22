@@ -16,6 +16,7 @@ Even with the best of intentions, you may be making decisions that exclude disab
 ## Social Media Posts
 
 ### Use capital letters in hashtags
+
 Punctuation helps text-to-speech tools like screen readers speak more accurately, and helps with readability overall. This includes in hashtags, where capital letters help distinguish words.
 
 > Make it a habit to #UseCapitalLetters rather than #hardtoreadlowercase
