@@ -105,6 +105,7 @@ As with images, video and audio can be engaging but also inaccessible without a 
 > Where there’s media, make sure there’s also text.
 
 ### Do not have any flashing content
+
 Content that flashes on the screen more than 3 times per second is dangerous as it can trigger a seizure in some viewers. Use rapid movement sparingly in your videos and ensure nothing flashes.
 
 > The Trace Center’s [Photosensitive Epilepsy Analysis Tool (PEAT)](https://trace.umd.edu/peat/) is a free, downloadable resource to identify seizure risks in  web content and software.
@@ -112,6 +113,7 @@ Content that flashes on the screen more than 3 times per second is dangerous as 
 ## Advocate for Accessibility
 
 ### Seek accessibility features
+
 Actively search for “accessibility” in the tools you use every day — from survey creation sites to website design platforms. Understand what you can do to make sure your output is inclusive.
 
 <figure role="figure" aria-label="Search for accessibility tips in your favorite systems like this Typeform How To article.">
@@ -120,11 +122,13 @@ Actively search for “accessibility” in the tools you use every day — from 
 </figure>
 
 ### Ask about accessibility
+
 If a system doesn’t offer accessibility features (which is unfortunately very common), reach out to the company about their accessibility policy and roadmaps via the customer support channels. Also ask about it internally where you work and attend school. Don’t leave this to just your disabled colleagues to take on.
 
 > Customer pressure can help move accessibility to the front of a company’s roadmap.
 
 ### Seek to learn more 
+
 There’s a lot more to learn and the more allies who know about accessible and inclusive digital practices, the more we can make a big difference for who can participate in our ever-growing digital spaces.
 
 > You can start your journey with [The A11Y Project’s Resources Page](A11yProject.com/Resources).
