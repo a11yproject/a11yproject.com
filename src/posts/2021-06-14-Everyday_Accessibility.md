@@ -99,6 +99,7 @@ Instrumental music can enhance content’s quality, but not when it reduces the 
 > Consider putting your background music at the volume of a whisper.
 
 ### Provide text with multimedia
+
 As with images, video and audio can be engaging but also inaccessible without a text equivalent for people who are deaf-blind, having sensory processing disorders, or have hearing impairments. Having media content written out as text is vital for inclusiveness. Text equivalents can include transcripts that type out spoken dialogue, or an article that accompanies a video (as in a video that supplements a news article).
 
 > Where there’s media, make sure there’s also text.
