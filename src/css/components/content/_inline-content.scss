@@ -69,7 +69,12 @@
 	figure {
 		margin-top: 4ex;
 
-		figcaption {
+		> p:first-child {
+			margin: 0;
+			max-width: unset;
+		}
+
+		> figcaption {
 			background-color: $color-white;
 			border-bottom: $border-hairline solid $color-gray-shade;
 			font-family: $font-family-secondary;
