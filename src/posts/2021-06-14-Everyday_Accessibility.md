@@ -22,6 +22,7 @@ Punctuation helps text-to-speech tools like screen readers speak more accurately
 > Make it a habit to #UseCapitalLetters rather than #hardtoreadlowercase
 
 ### Don’t share just images of text
+
 Images of text (such as your favorite quote or saying) can be difficult for people with visual impairments to read and don’t allow people with reading difficulties to leverage text-to-speech read-aloud features. When posting these kinds of images, also write out the text in your post.
 
 <figure role="figure" aria-label="Typing out the text in an image makes the content more accessible.">
