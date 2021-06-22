@@ -31,6 +31,7 @@ Images of text (such as your favorite quote or saying) can be difficult for peop
 </figure>
 
 ### Use “alt text” features to describe images
+
 Pictures are significant in social media, but also inaccessible to visually impaired readers unless they have a text-based description. When uploading, find the “image description” or “alternative/alt text” feature in the software to write a description. For sample instructions, review [Alt Text for Social Media](https://symphonyagency.com/alt-text-for-social-media/). 
 
 When adding descriptions, don’t write every detail, just enough to ensure everyone can understand your post and share in the image’s meaning. For examples, read Scott Vinkle’s [Considerations when writing alt text](https://ux.shopify.com/considerations-when-writing-alt-text-a9c1985a8204).
