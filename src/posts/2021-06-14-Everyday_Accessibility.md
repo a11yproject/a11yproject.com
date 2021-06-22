@@ -67,6 +67,7 @@ Headings (or titles on slides) provide a great way for everyone to preview, skim
 </figure>
 
 ### Add alt text to images
+
 Just like with social media, you can add alt text descriptions to images in documents as well. You will typically see an input box to add descriptions grouped with other options when you insert the image.
 
 <figure role="figure" aria-label="Add image descriptions (alt text) to images in documents, as in Microsoft Word's Alt Text option.">
