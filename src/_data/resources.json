@@ -252,6 +252,12 @@
 			"url": "https://www.penguinrandomhouse.com/books/617802/disability-visibility-by-alice-wong/"
 		},
 		{
+			"title": "Giving a damn about accessibility",
+			"description": "A candid and practical handbook for designers.",
+			"additional": "Sheri Byrne-Haber, CPACC.",
+			"url": "https://accessibility.uxdesign.cc/"
+		},
+		{
 			"title": "Inclusify: The Power of Uniqueness and Belonging to Build Innovative Teams",
 			"description": "How do we find that happy medium where workers can demonstrate their individuality while also feeling they belong?",
 			"additional": "Stefanie K. Johnson",
@@ -573,6 +579,11 @@
 			"title": "Anybody can be an A11y Slacker",
 			"description": "Information on the web-a11y Slack group.",
 			"url": "https://developer.paciellogroup.com/blog/2015/07/anybody-can-be-an-a11y-slacker/"
+		},
+		{
+			"title": "Eleventy WCAG Reporter",
+			"description": "This repository lets you create WCAG EM Reports using Eleventy.",
+			"url": "https://github.com/hidde/eleventy-wcag-reporter#wcag-reporter"
 		},
 		{
 			"title": "The most insightful stories about Web Accessibility – Medium",
@@ -1814,6 +1825,12 @@
 	],
 	"additionalResources": [
 		{
+			"title": "A11yjobs.com",
+			"description": "A digital accessibility job board.",
+			"additional": "George Hewitt",
+			"url": "https://www.a11yjobs.com/"
+		},
+		{
 			"title": "a11y_styled_form_controls",
 			"description": "A repository of styled and “styled” form control elements and markup patterns, and how they are announced by screen readers.",
 			"additional": "Scott O'Hara",
@@ -1848,6 +1865,12 @@
 			"description": "Content for a full-day workshop on inclusive design, including workbook modules, and exercises.",
 			"additional": "Matt May",
 			"url": "https://github.com/adobe-inclusive-design/id-workshop"
+		},
+		{
+			"title": "Dataviz Accessibility Resources",
+			"description": "A non-exhaustive and in-progress list of people and resources in Accessibility and Data Visualization.",
+			"additional": "GitHub",
+			"url": "https://github.com/dataviza11y/resources#readme"
 		},
 		{
 			"title": "Disability is a spectrum, not a binary",
