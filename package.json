@@ -19,6 +19,9 @@
 		"Tatiana Mac (https://tatianamac.com/)",
 		"Wayne Elgin (https://twitter.com/esjay)"
 	],
+	"engines": {
+		"node": ">=16"
+	},
 	"scripts": {
 		"start": "npx @11ty/eleventy --watch | gulp watch",
 		"a11yproject": "npm start",
