@@ -336,8 +336,14 @@
 			"url": "http://a.co/d/4AX1wPY"
 		},
 		{
+			"title": "Sound Is Not Enough: Captioning as Universal Design",
+			"description": "Do you have a podcast, video series, or an upcoming live event? Do you want to increase your audience tenfold? We have the solution, and it’s captioning. In her book, Sound Is Not Enough: Captioning as Universal Design, Svetlana Kouznetsova will show you how to capture those new viewers and take your audience to a whole new, and diverse level.",
+			"additional": "Svetlana Kouznetsova",
+			"url": "https://audio-accessibility.com/book/"
+		},
+		{
 			"title": "We Are Not Users: Dialogues, Diversity, and Design",
-			"description": " A call to reclaim and rethink the field of designing as a liberal art where diverse voices come together to shape the material world.",
+			"description": "A call to reclaim and rethink the field of designing as a liberal art where diverse voices come together to shape the material world.",
 			"additional": "Eswaran Subrahmanian, Yoram Reich, Sruthi Krishnan",
 			"url": "https://mitpress.mit.edu/books/we-are-not-users"
 		},
@@ -1716,6 +1722,13 @@
 			"description": "Paris Web (2013)",
 			"additional": "Vimeo",
 			"url": "http://vimeo.com/77860167",
+			"type": "Talk"
+		},
+		{
+			"title": "How captions increase ROI and audience for media creators (Svetlana Kouznetsova)",
+			"description": "TEDxFultonStreet",
+			"additional": "YouTube",
+			"url": "https://www.youtube.com/watch?v=ngKp9MqUGj8",
 			"type": "Talk"
 		},
 		{
