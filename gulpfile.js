@@ -64,13 +64,11 @@ var jshint = require('gulp-jshint');
 var terser = require('gulp-terser');
 
 // Styles
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var prefix = require('gulp-autoprefixer');
 var minify = require('gulp-cssnano');
 var gulpStylelint = require('gulp-stylelint');
 var purgeCSS = require('gulp-purgecss');
-
-sass.compiler = require('sass');
 
 // SVGs
 var svgmin = require('gulp-svgmin');
