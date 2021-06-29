@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Getting started with ARIA
 description: Introduction to ARIA, describing Roles, States, and Properties and when to use ARIA in HTML.
 category: Background

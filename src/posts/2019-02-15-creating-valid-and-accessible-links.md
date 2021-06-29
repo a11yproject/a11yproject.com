@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Creating valid and accessible links
 description: Links are used on almost every site on the web, however it is easy to create links that are not accessible to all.
 category: Quick tip

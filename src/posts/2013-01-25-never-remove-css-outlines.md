@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Never remove CSS outlines
 description: Removing CSS outlines without proper fallbacks can make it impossible to navigate your site with a keyboard.
 category: Quick tip

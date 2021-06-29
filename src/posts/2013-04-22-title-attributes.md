@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Use <code>title</code> attributes
 description: Avoid using title attributes except in a few special circumstances.
 category: How-to

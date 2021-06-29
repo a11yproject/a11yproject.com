@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Getting started with VoiceOver on iOS
 description: How-to guide to the basics of navigating around on an iPhone using Apple’s VoiceOver screen reader, included in iOS.
 category: Assistive Technology

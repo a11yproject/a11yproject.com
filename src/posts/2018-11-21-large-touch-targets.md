@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Large touch targets
 description: How to determine if your touch targets are large enough to be used.
 category: Quick test

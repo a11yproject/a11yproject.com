@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Text resizing in iOS and Android
 description: Things to keep in mind for designing accessible mobile apps.
 category: Assistive Technology

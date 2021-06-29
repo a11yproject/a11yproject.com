@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Dyslexia fonts
 description: A quick overview of dyslexia fonts.
 category: Background

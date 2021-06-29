@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ARIA properties
 description: A quick introduction to ARIA's properties.
 category: Background

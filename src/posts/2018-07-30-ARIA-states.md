@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ARIA states
 description: A quick introduction to ARIA's states.
 category: Background

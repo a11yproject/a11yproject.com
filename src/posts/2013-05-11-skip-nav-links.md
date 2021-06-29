@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Use skip navigation links
 description: Use skip nav links to ease keyboard user fatigue and frustration.
 category: How-to

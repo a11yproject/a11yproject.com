@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Use <code>role='application'</code>
 description: Never use role='application' on a widely containing element body if your page consists mostly of traditional page elements.
 category: How-to

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Operating System and Browser Accessibility Display Modes
 description: A quick overview of navigating a webpage using the NVDA screen reader.
 category: Assistive technology

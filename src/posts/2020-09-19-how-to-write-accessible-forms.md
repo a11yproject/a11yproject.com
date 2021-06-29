@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Create accessible forms
 description: Practical tips on how to create accessible forms.
 category: How-to

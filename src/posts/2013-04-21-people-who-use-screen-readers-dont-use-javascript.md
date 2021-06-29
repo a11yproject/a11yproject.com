@@ -1,5 +1,4 @@
 ---
-layout: post
 title: People who use screen readers don't use JavaScript
 description: 97.6% of all screen readers have JavaScript enabled.
 category: Myth

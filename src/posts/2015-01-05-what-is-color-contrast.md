@@ -1,5 +1,4 @@
 ---
-layout: post
 title: What is color contrast?
 description: What is color contrast and why do we need it for web accessibility?
 category: Background

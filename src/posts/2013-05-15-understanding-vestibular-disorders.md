@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A primer to vestibular disorders
 description: Key facts, definitions, demographics and causes of vestibular disorders.
 category: Background

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Designing accessible animation
 description: A general guide to designing more inclusive animation and what to avoid along the away.
 category: How-to

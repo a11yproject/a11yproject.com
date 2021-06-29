@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ARIA Has Perfect Support
 description: ARIA is a very useful tool for helping to enhance accessible web experiences, but it should only be used when no other options are available.
 category: Myth

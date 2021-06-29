@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Create accessible data tables
 description: What you need to create an accessible data table.
 category: How-to

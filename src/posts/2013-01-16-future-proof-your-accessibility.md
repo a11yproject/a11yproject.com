@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Future-proofing your accessibility efforts
 description: Ways to help make your accessibility efforts are as future proof as possible.
 category: How-to

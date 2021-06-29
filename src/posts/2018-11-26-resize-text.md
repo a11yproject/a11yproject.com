@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Resize text
 description: How to test the Resize Text WCAG Success Criterion.
 category: Quick test

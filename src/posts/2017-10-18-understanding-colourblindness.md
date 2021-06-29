@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Understanding color blindness
 description: What is color blindness, and how can we design with it in mind?
 category: Background
@@ -31,7 +30,7 @@ These guidelines are compliant with the WCAG; guideline [1.4.1 covers making con
 
 In practice, you can achieve this by choosing colors that are easily distinguished from one another, and by adding secondary visualizations for icons and tasks. For example, say you're using red and green buttons to represent tasks a user has outstanding. It might seem logical to show items that need attention in red, and those that are good in green. One small change, such as overlaying a check mark icon over the "good" or "completed" items, will help communicate which items are approved and those that need attention.
 
-There are cases where this isn't possible. The periodic table, for example, often color-codes the chemical symbols of the elements. When working with tables or other standardised layouts, adding more text or symbols might not be practical. 
+There are cases where this isn't possible. The periodic table, for example, often color-codes the chemical symbols of the elements. When working with tables or other standardised layouts, adding more text or symbols might not be practical.
 
 
 ## Available tools

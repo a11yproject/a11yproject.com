@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Use the <code>tabindex</code> attribute
 description: <code>tabindex</code> is a global attribute that allows an HTML element to receive focus. It needs a value of zero or a negative number in order to work in an accessible way.
 category: How-to

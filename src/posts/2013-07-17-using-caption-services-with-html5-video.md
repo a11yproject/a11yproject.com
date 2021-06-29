@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Using captions with HTML's video element
 description: How to implement captions for HTML video element.
 category: How-to

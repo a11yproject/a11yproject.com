@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Check contrast with your mobile device
 description: Using an ordinary mobile device you can check your site's readability.
 category: Quick test

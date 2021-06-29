@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Use <code>placeholder</code> attributes
 description: How-to use placeholders on input elements.
 category: How-to

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Getting started with NVDA
 description: A quick overview of navigating a webpage using the NVDA screen reader.
 category: Assistive technology

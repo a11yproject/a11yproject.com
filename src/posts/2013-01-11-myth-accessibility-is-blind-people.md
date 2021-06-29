@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Accessibility is 'blind people'
 description: A brief explanation of the four categories of accessibility.
 category: Myth

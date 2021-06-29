@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hide content
 description: How-to hide content but still make it accessible to screen readers.
 category: How-to

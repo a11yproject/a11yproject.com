@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Learning common keyboard shortcuts for screen readers
 description: Keyboard shortcuts are hard to learn. Here are some other ways that can help that learning.
 category: Assistive Technology

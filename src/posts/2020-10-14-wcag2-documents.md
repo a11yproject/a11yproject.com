@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introduction to WCAG 2.x
 description: A quick overview of WCAG 2.x documents.
 category: Background
@@ -7,7 +6,7 @@ author: Hamsa Harcourt
 further_reading:
   - url: https://www.w3.org/TR/WCAG22/#intro
     title:  Web Content Accessibility Guidelines (WCAG) 2.2
-    source: W3C 
+    source: W3C
   - url:  https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines
     title: Web Content Accessibility Guidelines
     source: Wikipedia
@@ -20,7 +19,7 @@ tags:
 ---
 
 
-The [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-guidelines/wcag/) (<abbr>WCAG</abbr>) are web accessibility guidelines published by the [**Web Accessibility Initiative**](https://www.w3.org/WAI/about/) (<abbr>WAI</abbr>). 
+The [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-guidelines/wcag/) (<abbr>WCAG</abbr>) are web accessibility guidelines published by the [**Web Accessibility Initiative**](https://www.w3.org/WAI/about/) (<abbr>WAI</abbr>).
 
 The WCAG's goal is to provide a single shared standard for web content accessibility that meets the needs of individuals, organizations and governments internationally. Over time, WCAG has produced various versions of the [**Web Content Accessibility Guidelines**](https://www.w3.org/WAI/standards-guidelines/wcag/). WCAG 2.0 was published on 11 December 2008, WCAG 2.1 was published on 5 June 2018. WCAG 2.2 is a W3C working draft as of 5 June 2020.
 
@@ -36,7 +35,7 @@ WCAG 2.x consists of 12 guidelines. It is organized around four principles which
 - Information and structure must be separate from presentation.
 - Make it easy to distinguish foreground information from the background (for example: good color contrast).
 
-### 2. Interfaces must be Operable (O). 
+### 2. Interfaces must be Operable (O).
 
 - All functionality must be operable via keyboard.
 - Provide users enough time to read and use content.
@@ -65,7 +64,7 @@ The WCAG provides various ways to help authors meet its standard called ["layers
 
 ## Guidelines
 
-WCAG 2.x guidelines are categorized into [3 levels of conformance](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels) in order to meet the needs of different groups and situations. Under each principle, there is a [list of guidelines](https://w3c.github.io/wcag/21/guidelines/) that addresses the principles. 
+WCAG 2.x guidelines are categorized into [3 levels of conformance](https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels) in order to meet the needs of different groups and situations. Under each principle, there is a [list of guidelines](https://w3c.github.io/wcag/21/guidelines/) that addresses the principles.
 
 
 ## Success criteria
@@ -85,11 +84,11 @@ These are common mistakes that are considered failures of Success Criteria of WC
 
 ## What's new?
 
-WCAG 2.1 is the current standard. It was initiated with the aim of improving accessibility guidance for three major groups: 
+WCAG 2.1 is the current standard. It was initiated with the aim of improving accessibility guidance for three major groups:
 
-- People with cognitive or learning disabilities, 
-- People with low vision, and 
-- People with disabilities on mobile devices. 
+- People with cognitive or learning disabilities,
+- People with low vision, and
+- People with disabilities on mobile devices.
 
 There are additional success criteria in WCAG 2.1 that are not in WCAG 2.0. They are introduced in [What’s New in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/). For a detailed  review of WCAG 2.1 , see [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/).
 
@@ -100,7 +99,7 @@ There are additional success criteria in WCAG 2.1 that are not in WCAG 2.0. They
 	</footer>
 </blockquote>
 
-In effect, the  publication of WCAG 2.1 does not nullify WCAG 2.0 as content that conforms to WCAG 2.0 also conforms to WCAG 2.1. 
+In effect, the  publication of WCAG 2.1 does not nullify WCAG 2.0 as content that conforms to WCAG 2.0 also conforms to WCAG 2.1.
 
 
 ## Summary

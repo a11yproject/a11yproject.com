@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Browser Keyboard Navigation in macOS
 description: How to enable full keyboard support in browsers on macOS.
 category: Quick tip
