@@ -1,4 +1,5 @@
-const ALPHABETICAL_RE = new RegExp("[^a-zA-Z0-9 -]");
+// Tags cannot have non-alphabetical characters
+const FORBIDDEN_TAG_CHARS_EXP = new RegExp("[^a-zA-Z]");
 
 module.exports = {
 	layout: "post",
@@ -11,7 +12,7 @@ module.exports = {
 			if (tags) {
 				return tags;
 			} else {
-				return [category.replace(ALPHABETICAL_RE, "").toLowerCase()];
+				return [category.replace(FORBIDDEN_TAG_CHARS_EXP, "").toLowerCase()];
 			}
 		},
 	},
