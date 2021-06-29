@@ -4,9 +4,6 @@ description: Use skip nav links to ease keyboard user fatigue and frustration.
 category: How-to
 author: Cameron Cundiff
 date: 2013-05-11
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

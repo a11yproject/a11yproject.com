@@ -4,9 +4,6 @@ description: How to test the Resize Text WCAG Success Criterion.
 category: Quick test
 author: Luis Garcia
 date: 2018-11-26
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktest
 ---

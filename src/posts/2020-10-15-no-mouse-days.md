@@ -16,9 +16,6 @@ further_reading:
     url: https://github.com/marcysutton/no-mouse-days/
     source: Marcy Sutton
     year: 2019
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

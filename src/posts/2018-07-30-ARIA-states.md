@@ -4,9 +4,6 @@ description: A quick introduction to ARIA's states.
 category: Background
 author: Alex Brenon
 date: 2018-07-30
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

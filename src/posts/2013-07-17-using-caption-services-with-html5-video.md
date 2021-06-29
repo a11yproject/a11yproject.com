@@ -16,9 +16,6 @@ further_reading:
   - url: https://www.speechpad.com/captions/ttml
     title: TTML (Timed Text Markup Language)
     source: Speechpad
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

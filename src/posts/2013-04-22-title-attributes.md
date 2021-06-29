@@ -16,9 +16,6 @@ further_reading:
   - title: "title - HTML: Hypertext Markup Language"
     url: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title
     source: MDN
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

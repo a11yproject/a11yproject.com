@@ -17,9 +17,6 @@ further_reading:
     url: https://www.w3.org/TR/2008/NOTE-WCAG20-TECHS-20081211/F78
     source: W3C
     year: 2008
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

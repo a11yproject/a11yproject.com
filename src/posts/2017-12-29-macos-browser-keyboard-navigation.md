@@ -27,9 +27,6 @@ further_reading:
     url: https://developer.mozilla.org/en-US/docs/Mozilla/Preferences/Preference_reference/accessibility.tabfocus
     source: MDN Web Docs
     year: 2019
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

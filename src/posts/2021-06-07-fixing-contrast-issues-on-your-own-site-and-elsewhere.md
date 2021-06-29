@@ -20,9 +20,6 @@ further_reading:
   - title: "Background: What is color contrast?"
     url: https://www.a11yproject.com/posts/2015-01-05-what-is-color-contrast/
     source: The A11Y Project
-eleventyNavigation:
-  key: { { category } }
-  title: { { title } }
 tags:
   - assistivetechnology
 ---

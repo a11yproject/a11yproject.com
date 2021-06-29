@@ -11,9 +11,6 @@ further_reading:
   - title: Practice VoiceOver on iPhone Guide
     url: https://support.apple.com/en-ca/guide/iphone/iph3e2e415f/ios
     source: Apple
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - assistivetechnology
 ---

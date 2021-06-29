@@ -29,9 +29,6 @@ further_reading:
   - url: https://webkit.org/blog/7551/responsive-design-for-motion/
     title: Responsive Design for Motion
     source: WebKit
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

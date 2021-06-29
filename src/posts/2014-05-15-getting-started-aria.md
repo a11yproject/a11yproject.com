@@ -5,9 +5,6 @@ category: Background
 author: Monika Piotrowicz
 date: 2014-05-15
 last_updated: 2014-05-15
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

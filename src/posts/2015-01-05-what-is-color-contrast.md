@@ -27,9 +27,6 @@ further_reading:
   - title: Providing A Style Switcher To Switch To High Contrast
     url: https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/SL13
     source: W3C
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

@@ -27,9 +27,6 @@ further_reading:
     url: https://tink.uk/the-difference-between-keyboard-and-screen-reader-navigation/
     source: Léonie Watson
 thanks: "Thank you to <a href='https://sarahmhigley.com/'>Sarah Higley</a> and <a href='https://www.splintered.co.uk/'>Patrick Lauke</a> for their feedback."
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

@@ -113,9 +113,6 @@ further_reading:
   - title: "Why I blocked #AccessiBe"
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
   - featured

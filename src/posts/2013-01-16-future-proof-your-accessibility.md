@@ -19,9 +19,6 @@ further_reading:
   - url: https://www.w3.org/TR/WCAG21
     title: WCAG 2.1
     source: W3C
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

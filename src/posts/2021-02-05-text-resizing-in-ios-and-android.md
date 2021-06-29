@@ -12,9 +12,6 @@ further_reading:
     url: https://www.mobileux.net/2019/06/24/designing-apps-with-accessible-fonts/
     source: Mobile UX
 
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - assistivetechnology
 ---

@@ -4,9 +4,6 @@ description: What you need to create an accessible data table.
 category: How-to
 author: Franklyn Roth
 date: 2016-03-05
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

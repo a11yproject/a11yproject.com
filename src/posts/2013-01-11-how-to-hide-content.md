@@ -19,9 +19,6 @@ further_reading:
     url: https://hugogiraudel.com/2021/02/17/hiding-content-responsibly/
     source: Kitty Giraudel
     year: 2021
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

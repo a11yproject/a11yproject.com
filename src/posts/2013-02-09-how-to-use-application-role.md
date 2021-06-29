@@ -16,9 +16,6 @@ further_reading:
   - title: ARIA Widgets and Focus/Forms Mode Support in JAWS and NVDA (Internet Archive)
     url: https://web.archive.org/web/20191222143235/http://accessibleculture.org/articles/2012/09/aria-widgets-and-focus-forms-mode-support/
     source: Accessible Culture
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

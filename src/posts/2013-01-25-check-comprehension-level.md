@@ -5,9 +5,6 @@ category: Quick test
 author: Nat Tarnoff
 date: 2013-01-25
 last_updated: 2018-11-24
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktest
 ---

@@ -12,9 +12,6 @@ further_reading:
     url: http://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html
     source: Adrian Roselli
     year: 2016
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

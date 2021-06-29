@@ -29,9 +29,6 @@ further_reading:
     url: https://www.w3.org/WAI/GL/wiki/Using_@placeholder_on_input
     source: W3C
     year: 2012
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

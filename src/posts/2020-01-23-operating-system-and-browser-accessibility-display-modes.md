@@ -20,9 +20,6 @@ further_reading:
   - title: How users change colours on websites - GOV.UK
   - url: https://accessibility.blog.gov.uk/2017/03/27/how-users-change-colours-on-websites/
     source: Anika Henke
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - assistivetechnology
 ---

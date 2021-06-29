@@ -8,9 +8,6 @@ further_reading:
     title: Design for readability
     source: Havard University
 date: 2021-02-22
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

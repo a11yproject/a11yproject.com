@@ -11,9 +11,6 @@ further_reading:
     title: Web Content Accessibility Guidelines
     source: Wikipedia
 date: 2020-10-14
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

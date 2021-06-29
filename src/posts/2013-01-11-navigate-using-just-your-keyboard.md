@@ -17,9 +17,6 @@ further_reading:
   - url: https://www.usertesting.com/blog/why-keyboard-usability-is-more-important-than-you-think/
     title: Why Keyboard Usability Is More Important Than You Think
     source: User Testing
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktest
 ---

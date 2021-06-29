@@ -14,9 +14,6 @@ further_reading:
   - title: "NVDA tutorials: learning the basics"
     url: http://accessibilitycentral.net/nvda%20tutorials%20learning%20the%20basics.html
     source: accessibilitycentral.net
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - assistivetechnology
 ---

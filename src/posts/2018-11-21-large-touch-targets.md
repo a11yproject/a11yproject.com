@@ -34,9 +34,6 @@ further_reading:
     title: Touch Targets on Touchscreens
     source: Nielsen Norman Group
     year: 2019
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktest
 ---

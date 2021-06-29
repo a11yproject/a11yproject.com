@@ -6,9 +6,6 @@ author: Matthew Higgins
 date: 2017-10-18
 updated_by: Emily Lane
 last_updated: 2018-09-27
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

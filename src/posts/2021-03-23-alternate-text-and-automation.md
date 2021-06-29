@@ -20,9 +20,6 @@ further_reading:
   - title: "Using alt text properly"
     url: https://www.a11yproject.com/posts/2013-01-14-alt-text/
     source: The A11Y Project
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - myth
 ---

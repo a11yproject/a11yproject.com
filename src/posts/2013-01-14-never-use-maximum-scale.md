@@ -6,9 +6,6 @@ author: Thomas Sjögren
 date: 2013-01-14
 updated_by: Eric Bailey
 last_updated: 2019-02-04
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

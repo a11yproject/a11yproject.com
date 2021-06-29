@@ -14,9 +14,6 @@ further_reading:
     title: Web Accessibility Initiative
     source: Wikipedia
 date: 2020-10-02
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

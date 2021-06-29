@@ -9,9 +9,6 @@ further_reading:
     url: https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity
     source: Val Head
     year: 2015
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

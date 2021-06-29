@@ -17,9 +17,6 @@ further_reading:
   - url: https://css-tricks.com/aria-spackle-not-rebar/
     title: ARIA is Spackle, Not Rebar
     source: CSS-Tricks
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - myth
 ---

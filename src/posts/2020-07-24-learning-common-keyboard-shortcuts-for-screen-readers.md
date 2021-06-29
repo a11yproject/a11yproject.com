@@ -11,9 +11,6 @@ further_reading:
   - url: https://gist.github.com/anevins12/a9cc6548fcbab5f55c1dc3c7bbb0f4bd
     title: Source JSON file of the mindmap that can be imported into  mindmapmaker
     source: GitHub Gist
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - assistivetechnology
 ---

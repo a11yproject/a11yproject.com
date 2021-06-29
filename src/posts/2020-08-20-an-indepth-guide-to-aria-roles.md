@@ -4,9 +4,6 @@ description: ARIA roles are one half of the predefined categories of attributes 
 category: Background
 author: Duncan Jimbo
 date: 2020-08-20
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---
