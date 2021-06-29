@@ -1,14 +1,6 @@
 ---
-layout: post
 title: $10 for 10k
 description:
-category: Announcement
-author: The A11Y Project Team
-eleventyNavigation:
-  key: Announcement
-  title: $10 for 10k
-tags:
-  - announcements
 ---
 
 We are happy to announce that we have reached [10,000 followers on Twitter](https://twitter.com/A11YProject/followers)! This is wonderful news. It means more and more people are becoming interested in digital accessibility. It also means the reach of our message has grown significantly.
