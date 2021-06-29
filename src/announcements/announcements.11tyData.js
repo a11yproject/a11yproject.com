@@ -5,8 +5,8 @@ module.exports = {
 	tags: ["announcements"],
 	eleventyComputed: {
 		eleventyNavigation: {
-			key: (data) => data.title,
-			title: (data) => data.title,
+			key: ({ category }) => category,
+			title: ({ title }) => title,
 		},
 	},
 };

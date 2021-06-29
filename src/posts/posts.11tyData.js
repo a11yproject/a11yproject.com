@@ -4,8 +4,8 @@ module.exports = {
 	layout: "post",
 	eleventyComputed: {
 		eleventyNavigation: {
-			key: (data) => data.title,
-			title: (data) => data.title,
+			key: ({ category }) => category,
+			title: ({ title }) => title,
 		},
 		tags: ({ category, tags }) => {
 			if (tags) {
