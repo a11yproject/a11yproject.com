@@ -1,9 +1,9 @@
 module.exports = {
 	layout: "post",
-  eleventyComputed: {
-    eleventyNavigation: {
-      key: data => data.title,
-      title: data => data.title
-    }
-  }
+	eleventyComputed: {
+		eleventyNavigation: {
+			key: (data) => data.title,
+			title: (data) => data.title,
+		},
+	},
 };
