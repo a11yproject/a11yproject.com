@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Future-proofing your accessibility efforts
 description: Ways to help make your accessibility efforts are as future proof as possible.
 category: How-to
@@ -20,9 +19,6 @@ further_reading:
   - url: https://www.w3.org/TR/WCAG21
     title: WCAG 2.1
     source: W3C
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

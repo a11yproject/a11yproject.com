@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Use the <code>tabindex</code> attribute
 description: <code>tabindex</code> is a global attribute that allows an HTML element to receive focus. It needs a value of zero or a negative number in order to work in an accessible way.
 category: How-to
@@ -28,9 +27,6 @@ further_reading:
     url: https://tink.uk/the-difference-between-keyboard-and-screen-reader-navigation/
     source: Léonie Watson
 thanks: "Thank you to <a href='https://sarahmhigley.com/'>Sarah Higley</a> and <a href='https://www.splintered.co.uk/'>Patrick Lauke</a> for their feedback."
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

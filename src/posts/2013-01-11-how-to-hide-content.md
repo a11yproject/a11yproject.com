@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Hide content
 description: How-to hide content but still make it accessible to screen readers.
 category: How-to
@@ -20,9 +19,6 @@ further_reading:
     url: https://hugogiraudel.com/2021/02/17/hiding-content-responsibly/
     source: Kitty Giraudel
     year: 2021
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

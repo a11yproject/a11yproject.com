@@ -1,14 +1,10 @@
 ---
-layout: post
 title: Check comprehension level
 description: you can check the reading level of your written content by using these tools.
 category: Quick test
 author: Nat Tarnoff
 date: 2013-01-25
 last_updated: 2018-11-24
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktest
 ---

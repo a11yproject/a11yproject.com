@@ -1,13 +1,9 @@
 ---
-layout: post
 title: An in-depth guide to ARIA roles
 description: ARIA roles are one half of the predefined categories of attributes used to describe elements that may not exist natively in browsers or may not be understood by screen readers and other assistive technologies.
 category: Background
 author: Duncan Jimbo
 date: 2020-08-20
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---
@@ -62,8 +58,8 @@ Document roles are used to provide a structural description for a section of con
 #### Tooltip example
 
 ```html
-<button aria-describedby="notifications-desc">Notifications</button>  
-<div role="tooltip" id="notifications-desc">View and manage notifications</div>  
+<button aria-describedby="notifications-desc">Notifications</button>
+<div role="tooltip" id="notifications-desc">View and manage notifications</div>
 ```
 
 View the [full list of available Document Structure roles](https://www.w3.org/TR/wai-aria/#document_structure_roles).
@@ -88,7 +84,7 @@ Refer to [Quick Tip: ARIA Landmark roles and HTML5 implicit mapping](https://www
     <li><a href="#a">Dexter</a></li>
     <li><a href="#b">Doctor Who</a></li>
     <li><a href="#c">Futurama</a></li>
-  </ul>  
+  </ul>
 </nav>
 ```
 

@@ -1,14 +1,10 @@
 ---
-layout: post
 title: A primer to visual impairment
 description: Key facts, definitions, demographics, causes, challenges and future of visual impairment.
 category: Background
 author: Nat Tarnoff
 date: 2013-01-22
 updated_by: Emily Lane
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

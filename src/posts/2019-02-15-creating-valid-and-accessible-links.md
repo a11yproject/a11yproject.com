@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Creating valid and accessible links
 description: Links are used on almost every site on the web, however it is easy to create links that are not accessible to all.
 category: Quick tip
@@ -13,9 +12,6 @@ further_reading:
     url: http://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html
     source: Adrian Roselli
     year: 2016
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

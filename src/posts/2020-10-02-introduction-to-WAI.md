@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introduction to the Web Accessibility Initiative
 description: Key facts about web accessibility initiative, what it is, and why it exists.
 category: Background
@@ -15,9 +14,6 @@ further_reading:
     title: Web Accessibility Initiative
     source: Wikipedia
 date: 2020-10-02
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
 ---

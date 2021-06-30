@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ARIA Has Perfect Support
 description: ARIA is a very useful tool for helping to enhance accessible web experiences, but it should only be used when no other options are available.
 category: Myth
@@ -18,9 +17,6 @@ further_reading:
   - url: https://css-tricks.com/aria-spackle-not-rebar/
     title: ARIA is Spackle, Not Rebar
     source: CSS-Tricks
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - myth
 ---

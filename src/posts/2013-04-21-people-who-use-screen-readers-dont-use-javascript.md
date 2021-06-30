@@ -1,5 +1,4 @@
 ---
-layout: post
 title: People who use screen readers don't use JavaScript
 description: 97.6% of all screen readers have JavaScript enabled.
 category: Myth
@@ -13,9 +12,6 @@ further_reading:
   - url: https://www.w3.org/TR/WCAG20-TECHS/failures.html#F42
     title: "WCAG 2.0 Failure: Scripting events to emulate links"
     source: W3C
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - myth
 ---

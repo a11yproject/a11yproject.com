@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Use <code>title</code> attributes
 description: Avoid using title attributes except in a few special circumstances.
 category: How-to
@@ -17,9 +16,6 @@ further_reading:
   - title: "title - HTML: Hypertext Markup Language"
     url: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title
     source: MDN
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Should I use an accessibility overlay?
 description: "There are two types of accessibility overlays: Temporary bandage solutions, and permanent plugins. The use of a permanent plugin is incredibly problematic."
 category: Background
@@ -114,9 +113,6 @@ further_reading:
   - title: "Why I blocked #AccessiBe"
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
   - featured

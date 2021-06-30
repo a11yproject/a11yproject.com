@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Operating System and Browser Accessibility Display Modes
 description: A quick overview of navigating a webpage using the NVDA screen reader.
 category: Assistive technology
@@ -21,9 +20,6 @@ further_reading:
   - title: How users change colours on websites - GOV.UK
   - url: https://accessibility.blog.gov.uk/2017/03/27/how-users-change-colours-on-websites/
     source: Anika Henke
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - assistivetechnology
 ---
