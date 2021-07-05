@@ -8,9 +8,6 @@ further_reading:
   - title: "Plain Language Website"
     url: https://www.plainlanguage.gov/
     source: United States Government
-eleventyNavigation:
-  key: { { category } }
-  title: { { title } }
 tags:
   - myth
 ---
