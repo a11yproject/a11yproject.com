@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Accessibility and SEO
 description: "SEO and accessibility have a lot more in common than you would think. Many of the same practices that we use to further enable people to enjoy our digital experiences are also great for search engines."
 category: Myth
