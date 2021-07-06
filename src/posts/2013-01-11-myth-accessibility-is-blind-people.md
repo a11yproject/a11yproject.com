@@ -1,14 +1,10 @@
 ---
-layout: post
 title: Accessibility is 'blind people'
 description: A brief explanation of the four categories of accessibility.
 category: Myth
 author: Dave Rupert
 date: 2013-01-11
 last_updated: 2018-11-23
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - myth
 ---

@@ -1,14 +1,10 @@
 ---
-layout: post
 title: Check contrast with your mobile device
 description: Using an ordinary mobile device you can check your site's readability.
 category: Quick test
 author: Dave Rupert
 date: 2013-01-22
 last_updated: 2018-11-24
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktest
 ---

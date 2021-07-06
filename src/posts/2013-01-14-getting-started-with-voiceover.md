@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Getting started with macOS VoiceOver
 description: How-to guide to the basics of navigating a webpage using Apple’s VoiceOver screen reader, included in macOS.
 category: Assistive Technology
@@ -15,9 +14,6 @@ further_reading:
   - title: How to start testing screen reader support using VoiceOver
     url: https://yakim.nl/articles/voiceover-testing/
     source: Yakim van Zuijlen
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - assistivetechnology
 ---

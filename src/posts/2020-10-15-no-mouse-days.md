@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Enabling keyboard culture with No Mouse Days
 description: Tips on ditching your mouse and creating more accessible experiences.
 category: How-to
@@ -17,9 +16,6 @@ further_reading:
     url: https://github.com/marcysutton/no-mouse-days/
     source: Marcy Sutton
     year: 2019
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---
@@ -39,6 +35,6 @@ Building on that initiative came [No Mouse Days](https://npmjs.com/package/no-mo
 
 The idea of No Mouse Days was to make it easy to hide the mouse cursor so it would become extremely obvious when a user interface didn’t support the keyboard, perhaps disabling it automatically for front-end development one day a week. If you have further ideas for No Mouse Days or other culture-changing techniques, contributions are always welcome on [GitHub](https://github.com/marcysutton/no-mouse-days) and [Twitter](https://twitter.com/marcysutton)!
 
-No matter how you go about it, establishing a mouse-free development day at least once a week could work wonders for people who can’t use a mouse at all. You might find interactive controls that aren’t actually interactive for large segments of the population and lacking visible focus outlines which make keyboard navigation difficult. 
+No matter how you go about it, establishing a mouse-free development day at least once a week could work wonders for people who can’t use a mouse at all. You might find interactive controls that aren’t actually interactive for large segments of the population and lacking visible focus outlines which make keyboard navigation difficult.
 
 Surfacing issues with keyboard-support early and often will give teams something to react to, and hopefully dedicated tooling and processes can make it second nature through more inclusive design and development.

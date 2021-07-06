@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Learning common keyboard shortcuts for screen readers
 description: Keyboard shortcuts are hard to learn. Here are some other ways that can help that learning.
 category: Assistive Technology
@@ -12,9 +11,6 @@ further_reading:
   - url: https://gist.github.com/anevins12/a9cc6548fcbab5f55c1dc3c7bbb0f4bd
     title: Source JSON file of the mindmap that can be imported into  mindmapmaker
     source: GitHub Gist
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - assistivetechnology
 ---

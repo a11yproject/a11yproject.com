@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Should I use an accessibility overlay?
 description: "There are two types of accessibility overlays: Temporary bandage solutions, and permanent plugins. The use of a permanent plugin is incredibly problematic."
 category: Background
@@ -24,9 +23,18 @@ further_reading:
   - title: Accessibility Overlays in Digital Content
     url: https://www.tpgi.com/accessibility-overlays-in-digital-content/
     source: TPGI
+  - title: Accessibility Overlays May Not Make Your Site More Accessible
+    url: https://builtin.com/software-engineering-perspectives/overlay-accessibility
+    source: Built In
+  - title: Are Accessibility Overlays Overbaked?
+    url: https://theweco.com/overlays-are-overbaked/
+    source: WeCo
   - title: Automated Lies, with one line of code
     url: https://karlgroves.com/2018/05/25/automated-lies-with-one-line-of-code
     source: Karl Groves
+  - title: Avoid AccessiBe & other companies claiming quick & easy AI accessibility (YouTube)
+    url: https://www.youtube.com/watch?v=R12Z1Sp-u4U
+    source:  Haben Girma
   - title: Blind people, advocates slam company claiming to make websites ADA compliant
     url: https://www.nbcnews.com/tech/innovation/blind-people-advocates-slam-company-claiming-make-websites-ada-compliant-n1266720
     source: NBC News
@@ -72,6 +80,9 @@ further_reading:
   - title: Overlays are not the solution to your accessibility problem
     url: https://sheribyrnehaber.medium.com/overlays-are-not-the-solution-to-your-accessibility-problem-c5ffe44bd61f
     source: Sheri Byrne-Haber
+  - title: Overreliance on Overlays is Counter to Enculturation of Accessibility
+    url: https://nfb.org/images/nfb/publications/bm/bm21/bm2105/bm210510.htm
+    source: National Federation of the Blind Braille Monitor
   - title: "People With Disabilities Say This AI Tool Is Making the Web Worse for Them"
     url: https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them
     source: VICE
@@ -102,9 +113,6 @@ further_reading:
   - title: "Why I blocked #AccessiBe"
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - background
   - featured

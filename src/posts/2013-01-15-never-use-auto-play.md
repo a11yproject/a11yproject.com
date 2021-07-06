@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Don't auto-play video, music and more
 description: Why you shouldn't auto-play anything that could distract the user from their main task.
 category: Quick tip
@@ -30,9 +29,6 @@ further_reading:
   - url: https://webkit.org/blog/7551/responsive-design-for-motion/
     title: Responsive Design for Motion
     source: WebKit
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

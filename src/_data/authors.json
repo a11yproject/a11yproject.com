@@ -91,6 +91,12 @@
 			"biography": "Digital designer and accessibility advocate. Skilled in leading teams across all industries and disciplines towards creating accessible design systems for all platforms."
 		},
 		{
+			"name": "Kilian Valkhof",
+			"website": "https://kilianvalkhof.com",
+			"photo": "https://avatars.githubusercontent.com/u/41970?v=4",
+			"biography": "Creator of the Polypane browser for developers and designers, passionate about web development, accessibility and helping developers get better at their job."
+		},
+		{
 			"name": "Lucia Cerchie",
 			"website": "https://luciacerchie.dev/",
 			"photo": "https://luciacerchie.dev/img/lucia.png",
@@ -119,6 +125,12 @@
 			"website": "http://www.matthewalanhiggins.com/",
 			"photo": "https://avatars1.githubusercontent.com/u/5384450?s=400&v=4",
 			"biography": "Software generalist. Avid coffee drinker. Sometimes runner."
+		},
+		{
+			"name": "Michele A. Williams, PhD",
+			"website": "https://mawconsultingllc.com/",
+			"photo": "https://avatars.githubusercontent.com/u/84785057?v=4",
+			"biography": "UX and Accessibility Consultant."
 		},
 		{
 			"name": "Monika Piotrowicz",

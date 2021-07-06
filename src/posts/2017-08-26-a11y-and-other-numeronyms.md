@@ -1,5 +1,4 @@
 ---
-layout: post
 title: a11y and a brief numeronyms primer
 description: The numeronym 'a11y' is shorthand for 'accessibility.'
 category: Quick tip
@@ -24,9 +23,6 @@ further_reading:
     year: 2010
     url: https://58sound.com/2010/04/16/is-a11y-our-ally-thoughts-on-a-tag-for-web-accessibility/
     source: David Sloan
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

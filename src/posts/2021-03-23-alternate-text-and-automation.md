@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Alternate text and automation
 description: "Alternate (alt) text help people who use assistive technology understand images, and are a core part of the Web Content Accessibility Guidelines (WCAG). They require a human’s input to be effective."
 category: Myth
@@ -21,9 +20,6 @@ further_reading:
   - title: "Using alt text properly"
     url: https://www.a11yproject.com/posts/2013-01-14-alt-text/
     source: The A11Y Project
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - myth
 ---

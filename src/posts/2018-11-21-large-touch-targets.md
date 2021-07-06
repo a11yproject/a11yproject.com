@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Large touch targets
 description: How to determine if your touch targets are large enough to be used.
 category: Quick test
@@ -35,9 +34,6 @@ further_reading:
     title: Touch Targets on Touchscreens
     source: Nielsen Norman Group
     year: 2019
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktest
 ---

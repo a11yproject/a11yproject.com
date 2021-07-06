@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Using captions with HTML's video element
 description: How to implement captions for HTML video element.
 category: How-to
@@ -17,9 +16,6 @@ further_reading:
   - url: https://www.speechpad.com/captions/ttml
     title: TTML (Timed Text Markup Language)
     source: Speechpad
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

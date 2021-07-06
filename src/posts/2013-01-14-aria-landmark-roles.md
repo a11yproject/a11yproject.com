@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ARIA Landmark roles and HTML5 implicit mapping
 description: Use ARIA Landmark Roles to help assistive devices navigate the markup.
 category: Quick tip
@@ -26,9 +25,6 @@ further_reading:
   - title: Using ARIA
     url: https://www.w3.org/TR/using-aria/
     source: W3C
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - quicktip
 ---

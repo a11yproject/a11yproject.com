@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Designing accessible animation
 description: A general guide to designing more inclusive animation and what to avoid along the away.
 category: How-to
@@ -24,9 +23,6 @@ further_reading:
   - title: An Introduction to the Reduced Motion Media Query
     url: https://css-tricks.com/introduction-reduced-motion-media-query/
     source: CSS-Tricks
-eleventyNavigation:
-  key: {{ category }}
-  title: {{ title }}
 tags:
   - howto
 ---

@@ -64,7 +64,7 @@ var jshint = require('gulp-jshint');
 var terser = require('gulp-terser');
 
 // Styles
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var prefix = require('gulp-autoprefixer');
 var minify = require('gulp-cssnano');
 var gulpStylelint = require('gulp-stylelint');
@@ -128,7 +128,7 @@ var buildStyles = function (done) {
 	if (!settings.styles) return done();
 	// Run tasks on all Sass files
 	return src(paths.styles.input)
-		.pipe(sass({
+		.pipe(sass.sync({
 			outputStyle: 'expanded',
 			sourceComments: true
 		}))
@@ -143,6 +143,7 @@ var buildStyles = function (done) {
 			'builtin',
 			'cdata',
 			'char',
+			'code[class*=language-]',
 			'comment',
 			'constant',
 			'deleted',
@@ -155,6 +156,7 @@ var buildStyles = function (done) {
 			'keyword',
 			'number',
 			'operator',
+			'pre[class*=language-]',
 			'prolog',
 			'property',
 			'punctuation',
