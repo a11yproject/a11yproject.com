@@ -137,7 +137,7 @@ var buildStyles = function (done) {
 			)
 			.pipe(
 				purgeCSS({
-					content: ['src/**/*.njk", "src/**/*.md'],
+					content: ["src/**/*.njk", "src/**/*.md"],
 					safelist: {
 						standard: [
 							"atrule",
