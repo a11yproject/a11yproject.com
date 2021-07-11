@@ -1,0 +1,14 @@
+{% if avatar.link %}
+  <a
+    class="c-avatar {{ avatar.cssClass }}"
+    style="background-image: url({{ avatar.image }});"
+    href="{{ avatar.link }}"
+  >
+    <div class="u-hide-visually">{{ avatar.name }}'s avatar</div>
+  </a>
+{% else %}
+  <div
+    aria-hidden="true"
+    class="c-avatar {{ avatar.cssClass }}"
+    style="background-image: url({{ avatar.image }});"></div>
+{% endif %}

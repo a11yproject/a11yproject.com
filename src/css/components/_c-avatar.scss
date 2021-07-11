@@ -1,0 +1,22 @@
+
+// Photos use background images since we can't control the dimensions of
+// submitted avatars. This centers whatever is added, which hopefully creates a
+// good cropping effect.
+.c-avatar {
+	@include avatar-size("tiny");
+
+	background-position: center;
+	background-size: contain;
+	border-radius: 100%;
+	cursor: pointer;
+	display: block;
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+
+	@media screen and (-ms-high-contrast: active) {
+		-ms-high-contrast-adjust: none;
+	}
+}
