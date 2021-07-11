@@ -22,6 +22,11 @@
 		border-left-color: $color-green-shade;
 	}
 
+	&:focus-within > * {
+		color: $color-white;
+	}
+
+
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
@@ -29,6 +34,7 @@
 }
 
 // Color the author link when the title link is focused
+.c-card-resource__title:focus,
 .c-card-resource__title:focus ~ .c-card-resource__meta,
 .c-card-resource__title:focus ~ .c-card-resource__description {
 	color: $color-white;

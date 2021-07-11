@@ -17,7 +17,8 @@
 		background-color: $color-white;
 	}
 
-	&:focus-within {
+	&:focus-within,
+	&:focus-within * {
 		color: $color-white;
 	}
 
@@ -53,6 +54,7 @@
 
 
 // Color the author link when the title link is focused
+.c-featured__title:focus,
 .c-featured__title:focus ~ .c-featured__meta,
 .c-featured__title:focus ~ .c-featured__description {
 	color: $color-white;
