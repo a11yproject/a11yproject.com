@@ -20,7 +20,7 @@ Many of the same practices that we use to enable everyone to enjoy our digital e
 
 Search engine optimization often gets a bad reputation. In the early years, marketers were adding blocks of keywords into pages by the truck load. Getting to the top of the results by any means necessary was the game. Companies focused on publishing content that was machine-first, not people-first.
 
-The Search Engine Optimization <abbr>SEO</abbr> industry has since evolved. Those who choose to take a more human-centered approach, are often rewarded with increased visibility online. Content based on human insights yields a better return on investment and sustainable success. Catering to bots and algorithm changes, by contrast, is often a game of whack-a-mole and traffic gains are short lived.
+The Search Engine Optimization <abbr>SEO</abbr> industry has since evolved. Marketers who choose to build for people over profit, are those that gain increased visibility online. Catering to bots and algorithm changes, by contrast, is often a game of whack-a-mole and traffic gains are short lived.
 
 Below, we will examine some of the ways accessibility and <abbr>SEO</abbr> teams can work together towards a future where everyone wins.
 
@@ -63,7 +63,7 @@ Taking time to fine tune the outline of the page will lead to better results for
 
 ## Links
 
-Anchor tags are the backbone of the entire internet. They are also the HTML elements that power search engine results. In fact, of the three ways that Google and other companies discover pages on the web (XML Sitemaps, Inbound Links, Outbound Links), two involve anchor tags.
+Anchor tags are the backbone of the entire internet. They are also the HTML elements that power search engine results. In fact, of the three ways that Google and other companies discover pages on the web ([XML Sitemaps](https://developers.google.com/search/docs/advanced/sitemaps/overview), [Internal Links](https://moz.com/learn/seo/internal-link), [Backlinks](https://moz.com/learn/seo/backlinks)), two involve anchor tags.
 
 Anchors do more than send people to a new destination, though. Writing good anchor text paints a clear picture of what’s going to happen next.
 
@@ -103,9 +103,9 @@ How search engines discover, organize, and display results.
 
 As the internet has evolved, so has the presentation of information. What used to be plain text on the page is now enriched by images, audio, and video. With richness, comes complexity.
 
-For search engines, these new mediums mean new opportunities for engagement. There are four places on Google alone that a published video can show up.
+For search engines, these new mediums mean new opportunities for engagement. There are [four places](https://youtu.be/1Zqkz8Y_kFw?t=132) on Google alone that a published video can show up.
 
-Incorrect implementation can lead to confusion for people and bots. Captions, text alternatives, and unambiguous naming can provide vital context for search engine algorithms. Similarly, poor text alternatives may frustrate someone using assistive technology.
+Incorrect implementation of video content can lead to confusion for people and bots. Captions, text alternatives, and unambiguous naming can provide vital context for search engine algorithms. Similarly, poor text alternatives may frustrate someone using assistive technology, by adding too much redundant content to the page.
 
 Digital text remains the most compatible form of information. If you want to capture the attention of all your audience members, search engines included, take the time to get it right.
 
