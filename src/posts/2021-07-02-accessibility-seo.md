@@ -42,7 +42,7 @@ This is where section headings come into play. When implemented to provide meani
 <h2>Bears</h2>
 ```
 
-Properly implemented HyperText Markup Language section headings help search engines, too. To determine if a page is relevant to a person's search, Google has to know about the contents of a page. If a page title isn’t present in the code, search engines may use other elements from the document in its place. The level-one heading is generally a good substitute.
+Properly implemented HTML section headings help search engines, too. To determine if a page is relevant to a person's search, Google has to know about the contents of a page. If a page title isn’t present in the code, search engines may use other elements from the document in its place. The level-one heading is generally a good substitute.
 
 Headings can also help pages rank for a broader array of terms. For example, on a product page for a pair of shoes, including
 "Reviews" as a section heading may help that page show up for searches like “Product Name + Reviews”, where it may have only ranked for the product name.
