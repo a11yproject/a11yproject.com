@@ -63,7 +63,7 @@ Taking time to fine tune the outline of the page will lead to better results for
 
 ## Links
 
-Anchor tags are the backbone of the entire internet. They are also the <abbr>HTML</abbr> elements that power search engine results. In fact, of the three ways that Google and other companies discover pages on the web (XML Sitemaps, Inbound Links, Outbound Links), two involve anchor tags.
+Anchor tags are the backbone of the entire internet. They are also the HTML elements that power search engine results. In fact, of the three ways that Google and other companies discover pages on the web (XML Sitemaps, Inbound Links, Outbound Links), two involve anchor tags.
 
 Anchors do more than send people to a new destination, though. Writing good anchor text paints a clear picture of what’s going to happen next.
 
