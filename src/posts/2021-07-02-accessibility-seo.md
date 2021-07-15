@@ -20,7 +20,7 @@ Many of the same practices that we use to enable everyone to enjoy our digital e
 
 Search engine optimization often gets a bad reputation. In the early years, marketers were adding blocks of keywords into pages by the truck load. Getting to the top of the results by any means necessary was the game. Companies focused on publishing content that was machine-first, not people-first.
 
-The <abbr>SEO</abbr> industry has since evolved. Those who choose to take a more human-centered approach, are often rewarded with increased visibility online. Content based on human insights yields a better return on investment and sustainable success. Catering to bots and algorithm changes, by contrast, is often a game of whack-a-mole and traffic gains are short lived.
+The Search Engine Optimization <abbr>SEO</abbr> industry has since evolved. Those who choose to take a more human-centered approach, are often rewarded with increased visibility online. Content based on human insights yields a better return on investment and sustainable success. Catering to bots and algorithm changes, by contrast, is often a game of whack-a-mole and traffic gains are short lived.
 
 Below, we will examine some of the ways accessibility and <abbr>SEO</abbr> teams can work together towards a future where everyone wins.
 
