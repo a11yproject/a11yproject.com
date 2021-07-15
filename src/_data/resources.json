@@ -587,6 +587,11 @@
 			"url": "https://developer.paciellogroup.com/blog/2015/07/anybody-can-be-an-a11y-slacker/"
 		},
 		{
+			"title": "CivicActions Accessibility Practice Area Site",
+			"description": "An open project by the CivicActions team to foster more digital inclusion. This site focuses on open source approaches and builds on global best practices, particularly with government IT.",
+			"url": "https://accessibility.civicactions.com/"
+		},
+		{
 			"title": "Eleventy WCAG Reporter",
 			"description": "This repository lets you create WCAG EM Reports using Eleventy.",
 			"url": "https://github.com/hidde/eleventy-wcag-reporter#wcag-reporter"

@@ -68,6 +68,9 @@ further_reading:
   - title: More lawsuits filed against companies using accessibility plugin/overlays
     url: https://sheribyrnehaber.medium.com/more-lawsuits-filed-against-companies-using-accessibility-plugin-overlays-1cc539d493b2
     source: Sheri Byrne-Haber
+  - title: National Convention Sponsorship Statement Regarding accessiBe
+    url: https://nfb.org/about-us/press-room/national-convention-sponsorship-statement-regarding-accessibe
+    source: National Federation of the Blind
   - title: Not All Accessibility Overlays Are Created Equal
     url: https://www.deque.com/blog/not-all-accessibility-overlays-are-created-equal/
     source: Deque
@@ -113,6 +116,9 @@ further_reading:
   - title: "Why I blocked #AccessiBe"
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett
+  - title: "Why should you stay away from Accessibility Overlays?"
+    url: https://www.barrierbreak.com/2021/07/13/why-should-you-stay-away-from-accessibility-overlays/
+    source: Barrier Break
 tags:
   - background
   - featured

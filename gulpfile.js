@@ -127,62 +127,74 @@ var buildStyles = function (done) {
 	// Make sure this feature is activated before running
 	if (!settings.styles) return done();
 	// Run tasks on all Sass files
-	return src(paths.styles.input)
-		.pipe(sass.sync({
-			outputStyle: 'expanded',
-			sourceComments: true
-		}))
-		.pipe(purgeCSS({
-			content: ['src/**/*.njk', 'src/**/*.md'],
-			whitelist: [
-			'atrule',
-			'attr-name',
-			'attr-value',
-			'bold',
-			'boolean',
-			'builtin',
-			'cdata',
-			'char',
-			'comment',
-			'constant',
-			'deleted',
-			'doctype',
-			'entity',
-			'function',
-			'important',
-			'inserted',
-			'italic',
-			'keyword',
-			'number',
-			'operator',
-			'prolog',
-			'property',
-			'punctuation',
-			'regex',
-			'selector',
-			'string',
-			'symbol',
-			'tag',
-			'token',
-			'url',
-			'variable'
-		],
-			whitelistPatterns: [/^c-form/, /h5/],
-			whitelistPatternsChildren: [/^c-content/],
-		}))
-		.pipe(prefix({
-			cascade: true,
-			remove: true
-		}))
-		// .pipe(dest(paths.styles.output))
-		.pipe(rename({ suffix: '.min'}))
-		.pipe(minify({
-			discardComments: {
-				removeAll: true
-			}
-		}))
-		.pipe(dest(paths.styles.output))
-		.pipe(browserSync.stream());
+	return (
+		src(paths.styles.input)
+			.pipe(
+				sass.sync({
+					outputStyle: "expanded",
+					sourceComments: true,
+				})
+			)
+			.pipe(
+				purgeCSS({
+					content: ["src/**/*.njk", "src/**/*.md"],
+					safelist: {
+						standard: [
+							"atrule",
+							"attr-name",
+							"attr-value",
+							"bold",
+							"boolean",
+							"builtin",
+							"cdata",
+							"char",
+							"comment",
+							"constant",
+							"deleted",
+							"doctype",
+							"entity",
+							"function",
+							"important",
+							"inserted",
+							"italic",
+							"keyword",
+							"number",
+							"operator",
+							"prolog",
+							"property",
+							"punctuation",
+							"regex",
+							"selector",
+							"string",
+							"symbol",
+							"tag",
+							"token",
+							"url",
+							"variable",
+						],
+						deep: [/^c-content/],
+						greedy: [/^c-form/, /h5/],
+					},
+				})
+			)
+			.pipe(
+				prefix({
+					cascade: true,
+					remove: true,
+				})
+			)
+			// .pipe(dest(paths.styles.output))
+			.pipe(rename({ suffix: ".min" }))
+			.pipe(
+				minify({
+					discardComments: {
+						removeAll: true,
+					},
+				})
+			)
+			.pipe(dest(paths.styles.output))
+			.pipe(browserSync.stream())
+	);
 };
 
 
