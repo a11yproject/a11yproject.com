@@ -116,7 +116,7 @@ Digital text remains the most compatible form of information. If you want to cap
 <!-- Better -->
 <img
 	src="cool-shoes-1234.jpg"
-	alt="Cool shoes with a red upper and sky blue laces"
+	alt="Cool shoes with a red upper and sky blue laces."
 />
 ```
 
