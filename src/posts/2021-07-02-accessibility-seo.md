@@ -59,7 +59,7 @@ Headings can also help pages rank for a broader array of terms. For example, on 
 <h2>Size Chart</h2>
 ```
 
-Taking time to fine tune the outline of the page will lead to better results for people AND bots.
+Taking time to fine tune the outline of the page will lead to better results for people <strong>and</strong> bots.
 
 ## Links
 
