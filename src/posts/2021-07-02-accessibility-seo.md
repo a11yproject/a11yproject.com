@@ -105,7 +105,7 @@ As the internet has evolved, so has the presentation of information. What used t
 
 For search engines, these new mediums mean new opportunities for engagement. There are four places on Google alone that a published video can show up.
 
-Incorrect implementation can lead to confusion for people and bots. Captions, text alternatives, and unambiguous naming can provide vital context for search engine algorithms. Similarly, poor alt text may frustrate someone using assistive technology.
+Incorrect implementation can lead to confusion for people and bots. Captions, text alternatives, and unambiguous naming can provide vital context for search engine algorithms. Similarly, poor text alternatives may frustrate someone using assistive technology.
 
 Digital text remains the most compatible form of information. If you want to capture the attention of all your audience members, search engines included, take the time to get it right.
 
