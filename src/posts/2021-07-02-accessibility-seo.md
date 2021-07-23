@@ -37,9 +37,13 @@ This is where section headings come into play. When implemented to provide meani
 
 <!-- Better -->
 <h1>Animals</h1>
+<p>Monkey, lions, and bears are all examples of animals.</p>
 <h2>Monkeys</h2>
+<p>Monkeys are primarily found in tropical rain forests.</p>
 <h2>Lions</h2>
+<p>All wild lions live on the African continent, with the exception of a small population in western India.</p>
 <h2>Bears</h2>
+<p>Species of bears exist almost everywhere in the world.</p>
 ```
 
 Properly implemented HTML section headings help search engines, too. To determine if a page is relevant to a person's search, Google has to know about the contents of a page. If a page title isn’t present in the code, search engines may use other elements from the document in its place. The level-one heading is generally a good substitute.
