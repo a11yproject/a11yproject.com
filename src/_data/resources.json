@@ -32,14 +32,14 @@
 			"url": "https://www.456bereastreet.com/"
 		},
 		{
-			"title": "Accessibility Matters",
-			"description": "Documenting everything through the journey of learning web accessibility.",
-			"url": "https://www.a11ymatters.com/"
-		},
-		{
 			"title": "a11yTips",
 			"description": "Simple tips on making web content more accessible to all.",
 			"url": "http://dboudreau.tumblr.com/"
+		},
+		{
+			"title": "Accessibility Matters",
+			"description": "Documenting everything through the journey of learning web accessibility.",
+			"url": "https://www.a11ymatters.com/"
 		},
 		{
 			"title": "Accessible Culture",
@@ -50,6 +50,11 @@
 			"title": "Accessibility Wins",
 			"description": "Showcasing accessible user interfaces and tools.",
 			"url": "https://a11ywins.tumblr.com/"
+		},
+		{
+			"title": "Alicia Jarvis' Inclusive Design Blog",
+			"description": "Hi, I’m Alicia. I'm a diversity, equity and inclusion strategist, researcher, and culture consultant based in Toronto.",
+			"url": "https://www.alicia.design/writing"
 		},
 		{
 			"title": "Articles » Simply Accessible",
