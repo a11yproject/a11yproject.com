@@ -32,14 +32,14 @@
 			"url": "https://www.456bereastreet.com/"
 		},
 		{
-			"title": "Accessibility Matters",
-			"description": "Documenting everything through the journey of learning web accessibility.",
-			"url": "https://www.a11ymatters.com/"
-		},
-		{
 			"title": "a11yTips",
 			"description": "Simple tips on making web content more accessible to all.",
 			"url": "http://dboudreau.tumblr.com/"
+		},
+		{
+			"title": "Accessibility Matters",
+			"description": "Documenting everything through the journey of learning web accessibility.",
+			"url": "https://www.a11ymatters.com/"
 		},
 		{
 			"title": "Accessible Culture",
@@ -50,6 +50,11 @@
 			"title": "Accessibility Wins",
 			"description": "Showcasing accessible user interfaces and tools.",
 			"url": "https://a11ywins.tumblr.com/"
+		},
+		{
+			"title": "Alicia Jarvis' Inclusive Design Blog",
+			"description": "Hi, I’m Alicia. I'm a diversity, equity and inclusion strategist, researcher, and culture consultant based in Toronto.",
+			"url": "https://www.alicia.design/writing"
 		},
 		{
 			"title": "Articles » Simply Accessible",
@@ -1731,7 +1736,7 @@
 		},
 		{
 			"title": "How captions increase ROI and audience for media creators (Svetlana Kouznetsova)",
-			"description": "TEDxFultonStreet",
+			"description": "If media and event producers want a larger audience, they need to consider making them accessible via high quality same language captions and transcripts. They are good for business and a necessity for millions of people. Auto captions are not the best accessibility practice, especially for professional content. You have the opportunity to learn firsthand from a deaf speaker in the 8-minute video that has English captions and subtitles in multiple languages.",
 			"additional": "YouTube",
 			"url": "https://www.youtube.com/watch?v=ngKp9MqUGj8",
 			"type": "Talk"
