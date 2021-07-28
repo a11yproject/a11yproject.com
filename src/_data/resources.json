@@ -347,6 +347,12 @@
 			"url": "https://audio-accessibility.com/book/"
 		},
 		{
+			"title": "Technically Wrong",
+			"description": "In Technically Wrong, Sara Wachter-Boettcher demystifies the tech industry, leaving those of us on the other side of the screen better prepared to make informed choices about the services we use—and to demand more from the companies behind them.",
+			"additional": "Sara Wachter-Boettcher",
+			"url": "https://wwnorton.com/books/Technically-Wrong/"
+		},
+		{
 			"title": "We Are Not Users: Dialogues, Diversity, and Design",
 			"description": "A call to reclaim and rethink the field of designing as a liberal art where diverse voices come together to shape the material world.",
 			"additional": "Eswaran Subrahmanian, Yoram Reich, Sruthi Krishnan",
@@ -744,6 +750,18 @@
 			"url": "https://docs.microsoft.com/en-us/learn/paths/accessibility-fundamentals/"
 		},
 		{
+			"title": "Get Started with Web Accessibility",
+			"description": "Learn what accessibility is and how to make websites and apps accessible to people with disabilities.",
+			"additional": "Salesforce Trailhead",
+			"url": "https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-web-accessibility"
+		},
+		{
+			"title": "Introduction To Accessibility Testing",
+			"description": " Learn with me about what Accessibility is, why it's important to test for and how to get your team started with an Accessibility testing mindset.",
+			"additional": "Ministry of Testing",
+			"url": "https://www.ministryoftesting.com/dojo/courses/introduction-to-accessibility-testing"
+		},
+		{
 			"title": "Introduction to Web Accessibility",
 			"description": "Get a strong foundation in digital accessibility to make your websites and apps work well for people with disabilities, meet international standards, and provide a better user experience for everyone.",
 			"additional": "edX and the W3C",
@@ -760,12 +778,6 @@
 			"description": "A series of five 5-minute tutorial videos hosted by Aquent Gymnasium that deal with introductory accessibility topics.",
 			"additional": "Aquent Gymnasium",
 			"url": "https://ethanmarcotte.com/wrote/takin-five/"
-		},
-		{
-			"title": "Technically Wrong",
-			"description": "In Technically Wrong, Sara Wachter-Boettcher demystifies the tech industry, leaving those of us on the other side of the screen better prepared to make informed choices about the services we use—and to demand more from the companies behind them.",
-			"additional": "Sara Wachter-Boettcher",
-			"url": "https://wwnorton.com/books/Technically-Wrong/"
 		},
 		{
 			"title": "The A11Y Collective",
@@ -1286,9 +1298,15 @@
 	],
 	"mobileApps": [
 		{
+			"title": "Android Accessibility by Tutorials",
+			"description": " Learn to build accessible apps on Android using WCAG through hands-on, step-by-step tutorials.",
+			"additional": "Victoria Gonda",
+			"url": "https://www.raywenderlich.com/books/android-accessibility-by-tutorials"
+		},
+		{
 			"title": "iOS Accessibility: Getting Started",
-			"description": "In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector. ",
-			"additional": "raywenderlich.com",
+			"description": "In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector.",
+			"additional": "Fayyazuddin Syed",
 			"url": "https://www.raywenderlich.com/6827616-ios-accessibility-getting-started"
 		},
 		{
