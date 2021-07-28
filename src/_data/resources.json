@@ -1140,6 +1140,12 @@
 			"url": "https://www.meetup.com/a11ynyc/"
 		},
 		{
+			"title": "A11yVR - Accessibility Virtual Reality",
+			"description": "Accessibility VR is a monthly meetup that brings together people interested in accessibility in virtual reality to share ideas, best practices, and our experiences.",
+			"additional": "Tokyo, Japan",
+			"url": "https://www.meetup.com/a11yvr/"
+		},
+		{
 			"title": "AnnArborA11y",
 			"description": "Accessibility group based in Ann Arbor, Michigan.",
 			"additional": "Michigan, United States",
@@ -1310,6 +1316,12 @@
 			"description": "Get notified when we write new stuff",
 			"additional": "Axess Lab",
 			"url": "https://axesslab.com/alt-texts#thanks-for-making-the-web-better"
+		},
+		{
+			"title": "Equal Entry Newsletter",
+			"description": "Get free tips to grow your accessibility knowledge delivered right to the comfort of your own inbox.",
+			"additional": "Equal Entry",
+			"url": "https://equalentry.com/newsletter/"
 		},
 		{
 			"title": "Microassist",
@@ -1483,6 +1495,11 @@
 			"title": "Deque Systems",
 			"description": "Deque Systems provides web and mobile accessibility solutions so you can meet compliance goals and help make the web accessible to all users.",
 			"url": "https://www.deque.com/"
+		},
+		{
+			"title": "Equal Entry",
+			"description": "We help organizations be more inclusive and accessible by providing accessibility audits, training, and consulting.",
+			"url": "https://accessible360.com/"
 		},
 		{
 			"title": "Intopia",
