@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Eriol Fox",
-			"role": "Human-rights centred designer",
-			"description": "Eriol works part-time as the lead designer at The Open Food Network and spends the other days of the week doing freelance projects, open source design contributions and then working on their PhD research, which is around humanitarian open source software and designer contributions.",
-			"image": "eriol-fox.jpg",
-			"cta": "Meet Eriol"
+			"name": "Nic Steenhout",
+			"role": "Accessibility consultant",
+			"description": "Nic works with large and small organizations to them improve the accessibility of their websites. He guides them through the creation or improvement of their culture of accessibility, includeing changing how the organization and its people think about disabled people.",
+			"image": "nic-steenhout.jpg",
+			"cta": "Meet Nic"
 		}
 	]
 }
