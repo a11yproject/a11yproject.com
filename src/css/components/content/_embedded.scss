@@ -1,5 +1,14 @@
 // Namespace
 .c-content {
+	// Embedded CodePen
+	//
+	// Style guide: Components.post.codepen
+	iframe[src^="https://codepen.io/"] {
+		margin-top: $_c-post-vertical-spacing !important;
+		height: 20rem;
+	}
+
+
 	// Embedded Tweet
 	//
 	// Style guide: Components.post.tweet
@@ -9,11 +18,21 @@
 	}
 
 
-	// Embedded CodePen
+	// Embedded video
 	//
-	// Style guide: Components.post.codepen
-	iframe[src^="https://codepen.io/"] {
+	// Style guide: Components.post.video
+	.video--16-9 {
 		margin-top: $_c-post-vertical-spacing !important;
-		height: 20rem;
+		position: relative;
+		padding-bottom: 56.25%; // 16:9 ratio
+		height: 0;
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
 	}
 }
