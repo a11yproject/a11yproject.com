@@ -485,6 +485,15 @@
 			]
 		},
 		{
+			"title": "Skip to Landmarks and Headings",
+			"description": "Provides keyboard access to landmark regions and headings (h1–h6) on a web page.",
+			"additional": "Nicholas Hoyt",
+			"url": "https://chrome.google.com/webstore/detail/skip-to-landmarks-and-hea/fjkpbfcodhflpdildjbmdhhmcoplghgf",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
 			"title": "WAVE Evaluation Tool",
 			"description": "WAVE is a web accessibility evaluation tool developed by WebAIM. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page.",
 			"additional": "WebAIM",
@@ -822,6 +831,12 @@
 			"description": "As a UX designer, it is important to build empathy and celebrate accessibility requirements as a set of design constraints to build a better product.",
 			"additional": "Avinash Kaur",
 			"url": "https://uxdesign.cc/accessibility-guidelines-for-a-ux-designer-c3ba775539be"
+		},
+		{
+			"title": "Disabled And Here",
+			"description": "Disabled And Here is a stock image and interview series celebrating disabled Black, Indigenous, people of color (BIPOC).",
+			"additional": "Affect the Verb",
+			"url": "https://affecttheverb.com/disabledandhere/"
 		},
 		{
 			"title": "Designing for accessibility is not that hard",
