@@ -13,6 +13,10 @@ tags: quicktip
 
 Even with the best of intentions, you may be making decisions that exclude disabled users. Below are practical, intentional steps you can start today to create and share more accessible social media, digital, and multimedia content.
 
+## Watch this post as a video
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xPU-dJPumnc" title="YouTube: Everyday Accessibility: 15 Easy Tips to Make Your Content More Inclusive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Social Media Posts
 
 Social media is central to the world's conversations, so ensure you're not leaving anyone out.
@@ -34,7 +38,7 @@ Images of text (such as your favorite quote or saying) can be difficult for peop
 
 ### Use “alt text” features to describe images
 
-Pictures are significant in social media, but also inaccessible to visually impaired readers unless they have a text-based description. When uploading, find the “image description” or “alternative/alt text” feature in the software to write a description. For sample instructions, review [Alt Text for Social Media](https://symphonyagency.com/alt-text-for-social-media/). 
+Pictures are significant in social media, but also inaccessible to visually impaired readers unless they have a text-based description. When uploading, find the “image description” or “alternative/alt text” feature in the software to write a description. For sample instructions, review [Alt Text for Social Media](https://symphonyagency.com/alt-text-for-social-media/).
 
 When adding descriptions, don’t write every detail, just enough to ensure everyone can understand your post and share in the image’s meaning. For examples, read Scott Vinkle’s [Considerations when writing alt text](https://ux.shopify.com/considerations-when-writing-alt-text-a9c1985a8204).
 
@@ -140,8 +144,12 @@ If a system doesn’t offer accessibility features (which is unfortunately very 
 
 **Key Point:** Customer pressure can help move accessibility to the front of a company’s roadmap.
 
-### Seek to learn more 
+### Seek to learn more
 
 There’s a lot more to learn and the more allies who know about accessible and inclusive digital practices, the more we can make a big difference for who can participate in our ever-growing digital spaces.
 
 **Key Point:** You can start your learning journey with [The A11Y Project’s Resources Page](A11yProject.com/Resources).
+
+## Resources
+
+[Download “Everyday Accessibility” posters (PDF, 98kb)](https://mawconsultingllc.files.wordpress.com/2021/07/everyday-accessibility-posters.pdf).
