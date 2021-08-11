@@ -15,7 +15,9 @@ Even with the best of intentions, you may be making decisions that exclude disab
 
 ## Watch this post as a video
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xPU-dJPumnc" title="YouTube: Everyday Accessibility: 15 Easy Tips to Make Your Content More Inclusive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video--16-9">
+	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xPU-dJPumnc" title="YouTube: Everyday Accessibility: 15 Easy Tips to Make Your Content More Inclusive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Social Media Posts
 
