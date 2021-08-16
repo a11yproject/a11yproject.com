@@ -14,6 +14,12 @@ further_reading:
   - title: 5 False Claims 1-Line “AI” Accessibility Script Vendors Make - Eric Eggert
     url: https://www.youtube.com/watch?v=e-3xlUarxRQ
     source: YouTube
+  - title: "AccessiBe and data protection?"
+    url: https://tink.uk/accessibe-and-data-protection/
+    source: Léonie Watson
+  - title: "AccessiBe Is Not Your Friend"
+    url: https://toddl.dev/posts/accessibe-is-not-your-friend/
+    source: Todd Libby
   - title: "AccessiBe & the fake WordPress plug-in reviews"
     url: https://www.joedolson.com/2021/02/accessibe-the-fake-wordpress-plug-in-reviews/
     source: Joe Dolson
@@ -62,12 +68,18 @@ further_reading:
   - title: Is there a silver bullet for ADA website accessibility? Sorry, but the answer is no.
     url: https://accessdefense.com/?p=5378
     source: ADA and FHA Defense
+  - title: Largest U.S. Blind Advocacy Group Bans Web Accessibility Overlay Giant AccessiBe From Its National Convention
+    url: https://www.forbes.com/sites/gusalexiou/2021/06/26/largest-us-blind-advocacy-group-bans-web-accessibility-overlay-giant-accessibe/
+    source: Forbes
   - title: Lies, Damned Lies, Overlays and Widgets
     url: https://www.levelaccess.com/lies-damned-lies-overlays-and-widgets/
     source: Timothy Springer
   - title: More lawsuits filed against companies using accessibility plugin/overlays
     url: https://sheribyrnehaber.medium.com/more-lawsuits-filed-against-companies-using-accessibility-plugin-overlays-1cc539d493b2
     source: Sheri Byrne-Haber
+  - title: National Convention Sponsorship Statement Regarding accessiBe
+    url: https://nfb.org/about-us/press-room/national-convention-sponsorship-statement-regarding-accessibe
+    source: National Federation of the Blind
   - title: Not All Accessibility Overlays Are Created Equal
     url: https://www.deque.com/blog/not-all-accessibility-overlays-are-created-equal/
     source: Deque
@@ -98,6 +110,9 @@ further_reading:
   - title: "The Death of Accessibility Overlays"
     url: https://medium.com/@krisrivenburgh/the-death-of-accessibility-overlays-5603515d8250
     source: Kris Rivenburgh
+  - title: "There’s no such thing as fully automated web accessibility"
+    url: https://uxdesign.cc/theres-no-such-thing-as-fully-automated-web-accessibility-260d6f4632a8
+    source: Anna E. Cook
   - title: "You Can’t Solve Accessibility with 1 Line of Code"
     url: https://www.practicalecommerce.com/you-cant-solve-accessibility-with-1-line-of-code
     source: Practical Ecommerce
@@ -113,6 +128,9 @@ further_reading:
   - title: "Why I blocked #AccessiBe"
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett
+  - title: "Why should you stay away from Accessibility Overlays?"
+    url: https://www.barrierbreak.com/2021/07/13/why-should-you-stay-away-from-accessibility-overlays/
+    source: Barrier Break
 tags:
   - background
   - featured

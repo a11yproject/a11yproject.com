@@ -32,14 +32,14 @@
 			"url": "https://www.456bereastreet.com/"
 		},
 		{
-			"title": "Accessibility Matters",
-			"description": "Documenting everything through the journey of learning web accessibility.",
-			"url": "https://www.a11ymatters.com/"
-		},
-		{
 			"title": "a11yTips",
 			"description": "Simple tips on making web content more accessible to all.",
 			"url": "http://dboudreau.tumblr.com/"
+		},
+		{
+			"title": "Accessibility Matters",
+			"description": "Documenting everything through the journey of learning web accessibility.",
+			"url": "https://www.a11ymatters.com/"
 		},
 		{
 			"title": "Accessible Culture",
@@ -50,6 +50,11 @@
 			"title": "Accessibility Wins",
 			"description": "Showcasing accessible user interfaces and tools.",
 			"url": "https://a11ywins.tumblr.com/"
+		},
+		{
+			"title": "Alicia Jarvis' Inclusive Design Blog",
+			"description": "Hi, I’m Alicia. I'm a diversity, equity and inclusion strategist, researcher, and culture consultant based in Toronto.",
+			"url": "https://www.alicia.design/writing"
 		},
 		{
 			"title": "Articles » Simply Accessible",
@@ -342,6 +347,12 @@
 			"url": "https://audio-accessibility.com/book/"
 		},
 		{
+			"title": "Technically Wrong",
+			"description": "In Technically Wrong, Sara Wachter-Boettcher demystifies the tech industry, leaving those of us on the other side of the screen better prepared to make informed choices about the services we use—and to demand more from the companies behind them.",
+			"additional": "Sara Wachter-Boettcher",
+			"url": "https://wwnorton.com/books/Technically-Wrong/"
+		},
+		{
 			"title": "We Are Not Users: Dialogues, Diversity, and Design",
 			"description": "A call to reclaim and rethink the field of designing as a liberal art where diverse voices come together to shape the material world.",
 			"additional": "Eswaran Subrahmanian, Yoram Reich, Sruthi Krishnan",
@@ -474,6 +485,15 @@
 			]
 		},
 		{
+			"title": "Skip to Landmarks and Headings",
+			"description": "Provides keyboard access to landmark regions and headings (h1–h6) on a web page.",
+			"additional": "Nicholas Hoyt",
+			"url": "https://chrome.google.com/webstore/detail/skip-to-landmarks-and-hea/fjkpbfcodhflpdildjbmdhhmcoplghgf",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
 			"title": "WAVE Evaluation Tool",
 			"description": "WAVE is a web accessibility evaluation tool developed by WebAIM. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page.",
 			"additional": "WebAIM",
@@ -585,6 +605,11 @@
 			"title": "Anybody can be an A11y Slacker",
 			"description": "Information on the web-a11y Slack group.",
 			"url": "https://developer.paciellogroup.com/blog/2015/07/anybody-can-be-an-a11y-slacker/"
+		},
+		{
+			"title": "CivicActions Accessibility Practice Area Site",
+			"description": "An open project by the CivicActions team to foster more digital inclusion. This site focuses on open source approaches and builds on global best practices, particularly with government IT.",
+			"url": "https://accessibility.civicactions.com/"
 		},
 		{
 			"title": "Eleventy WCAG Reporter",
@@ -734,6 +759,18 @@
 			"url": "https://docs.microsoft.com/en-us/learn/paths/accessibility-fundamentals/"
 		},
 		{
+			"title": "Get Started with Web Accessibility",
+			"description": "Learn what accessibility is and how to make websites and apps accessible to people with disabilities.",
+			"additional": "Salesforce Trailhead",
+			"url": "https://trailhead.salesforce.com/en/content/learn/trails/get-started-with-web-accessibility"
+		},
+		{
+			"title": "Introduction To Accessibility Testing",
+			"description": " Learn with me about what Accessibility is, why it's important to test for and how to get your team started with an Accessibility testing mindset.",
+			"additional": "Ministry of Testing",
+			"url": "https://www.ministryoftesting.com/dojo/courses/introduction-to-accessibility-testing"
+		},
+		{
 			"title": "Introduction to Web Accessibility",
 			"description": "Get a strong foundation in digital accessibility to make your websites and apps work well for people with disabilities, meet international standards, and provide a better user experience for everyone.",
 			"additional": "edX and the W3C",
@@ -750,12 +787,6 @@
 			"description": "A series of five 5-minute tutorial videos hosted by Aquent Gymnasium that deal with introductory accessibility topics.",
 			"additional": "Aquent Gymnasium",
 			"url": "https://ethanmarcotte.com/wrote/takin-five/"
-		},
-		{
-			"title": "Technically Wrong",
-			"description": "In Technically Wrong, Sara Wachter-Boettcher demystifies the tech industry, leaving those of us on the other side of the screen better prepared to make informed choices about the services we use—and to demand more from the companies behind them.",
-			"additional": "Sara Wachter-Boettcher",
-			"url": "https://wwnorton.com/books/Technically-Wrong/"
 		},
 		{
 			"title": "The A11Y Collective",
@@ -800,6 +831,12 @@
 			"description": "As a UX designer, it is important to build empathy and celebrate accessibility requirements as a set of design constraints to build a better product.",
 			"additional": "Avinash Kaur",
 			"url": "https://uxdesign.cc/accessibility-guidelines-for-a-ux-designer-c3ba775539be"
+		},
+		{
+			"title": "Disabled And Here",
+			"description": "Disabled And Here is a stock image and interview series celebrating disabled Black, Indigenous, people of color (BIPOC).",
+			"additional": "Affect the Verb",
+			"url": "https://affecttheverb.com/disabledandhere/"
 		},
 		{
 			"title": "Designing for accessibility is not that hard",
@@ -1130,6 +1167,12 @@
 			"url": "https://www.meetup.com/a11ynyc/"
 		},
 		{
+			"title": "A11yVR - Accessibility Virtual Reality",
+			"description": "Accessibility VR is a monthly meetup that brings together people interested in accessibility in virtual reality to share ideas, best practices, and our experiences.",
+			"additional": "Tokyo, Japan",
+			"url": "https://www.meetup.com/a11yvr/"
+		},
+		{
 			"title": "AnnArborA11y",
 			"description": "Accessibility group based in Ann Arbor, Michigan.",
 			"additional": "Michigan, United States",
@@ -1270,9 +1313,15 @@
 	],
 	"mobileApps": [
 		{
+			"title": "Android Accessibility by Tutorials",
+			"description": " Learn to build accessible apps on Android using WCAG through hands-on, step-by-step tutorials.",
+			"additional": "Victoria Gonda",
+			"url": "https://www.raywenderlich.com/books/android-accessibility-by-tutorials"
+		},
+		{
 			"title": "iOS Accessibility: Getting Started",
-			"description": "In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector. ",
-			"additional": "raywenderlich.com",
+			"description": "In this iOS accessibility tutorial, learn how to make apps more accessible using VoiceOver and the Accessibility inspector.",
+			"additional": "Fayyazuddin Syed",
 			"url": "https://www.raywenderlich.com/6827616-ios-accessibility-getting-started"
 		},
 		{
@@ -1300,6 +1349,12 @@
 			"description": "Get notified when we write new stuff",
 			"additional": "Axess Lab",
 			"url": "https://axesslab.com/alt-texts#thanks-for-making-the-web-better"
+		},
+		{
+			"title": "Equal Entry Newsletter",
+			"description": "Get free tips to grow your accessibility knowledge delivered right to the comfort of your own inbox.",
+			"additional": "Equal Entry",
+			"url": "https://equalentry.com/newsletter/"
 		},
 		{
 			"title": "Microassist",
@@ -1473,6 +1528,11 @@
 			"title": "Deque Systems",
 			"description": "Deque Systems provides web and mobile accessibility solutions so you can meet compliance goals and help make the web accessible to all users.",
 			"url": "https://www.deque.com/"
+		},
+		{
+			"title": "Equal Entry",
+			"description": "We help organizations be more inclusive and accessible by providing accessibility audits, training, and consulting.",
+			"url": "https://accessible360.com/"
 		},
 		{
 			"title": "Intopia",
@@ -1726,7 +1786,7 @@
 		},
 		{
 			"title": "How captions increase ROI and audience for media creators (Svetlana Kouznetsova)",
-			"description": "TEDxFultonStreet",
+			"description": "If media and event producers want a larger audience, they need to consider making them accessible via high quality same language captions and transcripts. They are good for business and a necessity for millions of people. Auto captions are not the best accessibility practice, especially for professional content. You have the opportunity to learn firsthand from a deaf speaker in the 8-minute video that has English captions and subtitles in multiple languages.",
 			"additional": "YouTube",
 			"url": "https://www.youtube.com/watch?v=ngKp9MqUGj8",
 			"type": "Talk"
