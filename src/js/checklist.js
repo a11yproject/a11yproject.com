@@ -68,22 +68,16 @@ processChecklist();
 function registerToggleButton(buttonEl, parentEl) {
 	if (buttonEl && parentEl) {
 		var details = parentEl.querySelectorAll("details");
-
-		changeAttribute(buttonEl);
-}
-
-function changeAttribute (buttonEl) {
-	buttonEl.addEventListener("click", function (event) {
-		details.forEach(function (item) {
-			if (item.hasAttribute("open") === true) {
-				item.removeAttribute("open");
-			} else {
-				item.setAttribute("open", true);
-			}
+		buttonEl.addEventListener("click", function handleToggleButtonClick(event) {
+			details.forEach(function (item) {
+				if (item.hasAttribute("open") === true) {
+					item.removeAttribute("open");
+				} else {
+					item.setAttribute("open", true);
+				}
+			});
 		});
-	});
-}
-
+	}
 }
 
 function renderToggle() {
