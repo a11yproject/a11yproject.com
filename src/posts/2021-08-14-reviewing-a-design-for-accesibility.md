@@ -44,4 +44,6 @@ Here are a handful of things that I've found give good value / effort balance wh
 
 ## Summary
 
-Reviewing designs for accessibility is a great way to help designers think more accessibly and to help developers implement more accessibly. We can use annotations to be explicit about the semantic and accessibility features we want on each page. We can use short checklists (like the one in this article) to help us make sure we haven't missed any big things. 
+Reviewing designs for accessibility is a great way to help designers think more accessibly and to help developers implement more accessibly. We can use annotations to be explicit about the semantic and accessibility features we want on each page. We can use checklists to help us make sure we haven't missed any big things. 
+
+If you'd like to learn more about how to improve the experience for everyone who uses your site, check out [the WCAG checklist here on the A11Y Project](https://www.a11yproject.com/checklist/).
