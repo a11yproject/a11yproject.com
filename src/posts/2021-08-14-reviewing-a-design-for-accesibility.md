@@ -25,8 +25,8 @@ Here are a handful of things that I've found give good value / effort balance wh
     - Are headings used to divide content up in a logical way?
     - Are the levels shown, without skipping any?
 - **Text alternatives**
-    - Do all images (including icons) have a text alternative? 
-    - If the image is decorative, is it marked as such? Are we sure it's only decorative?
+    - Do all images (including icons) have a text alternative (using the `alt` attribute)? (See [WebAIM's guide to alternative text](https://webaim.org/techniques/alttext/) for more about what this is, and what makes good alternative text)
+    - If the image is decorative, is it marked as such (using `alt=""`)? Are we sure it's only decorative?
 - **Link and button text**
     - Does each link describe where we'll go when we follow it? Does each button describe what will happen when we use it?
     - Where links or buttons have the same text repeated on a page, do they have a longer accessible name that is unique? For example: "View details of Quarter 1 review" instead of "View details".
