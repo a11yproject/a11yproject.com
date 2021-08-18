@@ -12,7 +12,7 @@ I'm a big believer in [shifting left](https://www.deque.com/shift-left/): consid
 
 ## What to do: annotate
 
-By adding annotations about the semantics and accessibility of elements on a page we can remove barriers to access. The best way to do annotations might be sticky notes on a printout or comments on a Figma file, or something else. The important thing is that we want to be clear and explicit.
+By adding annotations about the semantics and accessibility of elements on a page we can remove barriers to access. The best way to do annotations might be sticky notes on a printout or [adding comments on a Figma file](https://help.figma.com/hc/en-us/articles/360041068574), or something else. The important thing is that we want to be clear and explicit.
 
 Here are a handful of things that I've found give good value / effort balance when reviewing a design for accessibility. 
 
