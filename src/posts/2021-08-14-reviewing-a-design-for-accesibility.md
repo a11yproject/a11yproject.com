@@ -42,6 +42,7 @@ Here are a handful of things that I've found give good value / effort balance wh
     - Are error messages clear and helpful?
     - Does the message say what went wrong and how to fix it?
     - Are we not relying on color alone to show the error state?
+    - Are we not referring to sensory characteristics (like shape, size, visual location) in the message?
 
 ## Summary
 
