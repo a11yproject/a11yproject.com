@@ -31,7 +31,8 @@ Here are a handful of things that I've found give good value / effort balance wh
     - Does each link describe where we'll go when we follow it? Does each button describe what will happen when we use it?
     - Where links or buttons have the same text repeated on a page, do they have a longer accessible name that is unique? For example: "View details of Quarter 1 review" instead of "View details".
 - **Standard controls**
-    - Are standard controls used? They have accessibility baked in. Example: a pair of radio buttons or a checkbox instead of a custom toggle.
+    - Do form controls match standard ones (like `selects`, `radio`, and `checkbox`) where possible? If not, is it possible to use a standard control instead? (They have accessibility baked in)
+    - Are standard controls being used to match the design intent?
 - **Names for form elements**
     - Do all form controls (one input plus one label) have a name? (See [MDN's article on the `<label>` HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) for an example of how the `label` and `input` elements work together with the `id` and `for` attributes to provide accessible names)
     - If the name isn't visible, is it shown in an annotation?
