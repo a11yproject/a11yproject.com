@@ -22,7 +22,7 @@ Here are a handful of things that I've found give good value / effort balance wh
     - Is the page title unique?
     - Does it concisely describe the page content?
 - **Headings**
-    - Are headings used liberally?
+    - Are headings used to divide content up in a logical way?
     - Are the levels shown, without skipping any?
 - **Text alternatives**
     - Do all images (including icons) have a text alternative? 
