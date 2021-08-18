@@ -33,7 +33,7 @@ Here are a handful of things that I've found give good value / effort balance wh
 - **Standard controls**
     - Are standard controls used? They have accessibility baked in. Example: a pair of radio buttons or a checkbox instead of a custom toggle.
 - **Names for form elements**
-    - Do all form controls (one input plus one label) have a name? 
+    - Do all form controls (one input plus one label) have a name? (See [MDN's article on the `<label>` HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) for an example of how the `label` and `input` elements work together with the `id` and `for` attributes to provide accessible names)
     - If the name isn't visible, is it shown in an annotation?
 - **Names for groups of form elements**
     - Do groups of related forms controls (such as multiple choice questions) have a name? The name should provide context for the individual questions in the group.
