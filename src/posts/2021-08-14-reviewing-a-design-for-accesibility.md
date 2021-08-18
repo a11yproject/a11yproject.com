@@ -40,7 +40,8 @@ Here are a handful of things that I've found give good value / effort balance wh
     - If the name isn't visible, is it shown in an annotation?
 - **Error messages**
     - Are error messages clear and helpful?
-    - Have we said what went wrong and how to fix it?
+    - Does the message say what went wrong and how to fix it?
+    - Are we not relying on color alone to show the error state?
 
 ## Summary
 
