@@ -20,7 +20,7 @@ Here are a handful of things that I've found give good value / effort balance wh
 
 - **Page title**
     - Is the page title unique?
-    - Does it describe the page content?
+    - Does it concisely describe the page content?
 - **Headings**
     - Are headings used liberally?
     - Are the levels shown, without skipping any?
