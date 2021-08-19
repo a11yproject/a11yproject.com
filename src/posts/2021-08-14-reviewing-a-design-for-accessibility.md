@@ -34,7 +34,7 @@ Here are a handful of things that I've found give good value / effort balance wh
     - Do form controls match standard ones (like `select`s, `radio`, and `checkbox`) where possible? If not, is it possible to use a standard control instead?
     - Are standard controls being used to match the design intent?
 - **Names for form elements**
-    - Do all form controls (one input plus one label) have a name? (See [MDN's article on the `<label>` HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) for an example of how the `label` and `input` elements work together with the `id` and `for` attributes to provide accessible names)
+    - Do all form controls (one input plus one label) have a name? You can reference [MDN's article on the `<label>` HTML element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label) for an example of how the `label` and `input` elements work together with the `id` and `for` attributes to provide accessible names.
     - If the name isn't visible, is it shown in an annotation?
 - **Names for groups of form elements**
     - Do groups of related forms controls (such as multiple choice questions) have a name? The name should provide context for the individual questions in the group. (See [the W3C's Web Accessibility Tutorial on Grouping Controls](https://www.w3.org/WAI/tutorials/forms/grouping/) for two approaches to this)
