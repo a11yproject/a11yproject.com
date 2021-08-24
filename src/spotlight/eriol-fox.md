@@ -9,7 +9,7 @@ further_reading:
   - title: Twitter
     url: https://twitter.com/EriolDoesDesign
   - title: GitHub
-    url: https://twitter.com/EriolDoesDesign
+    url: https://github.com/Erioldoesdesign
 eleventyNavigation:
   key: Eriol Fox
   parent: Spotlight
