@@ -1448,6 +1448,13 @@
 			"type": "Podcast"
 		},
 		{
+			"title": "#A11y Rules Soundbites",
+			"description": "Short discussions with disabled people about the barriers they encounter on the web.",
+			"additional": "Nicolas Steenhout",
+			"url": "https://a11yrules.com/series/a11y-rules-soundbite/",
+			"type": "Podcast"
+		},
+		{
 			"title": "a11y Cocktail",
 			"description": "In this episode, we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users.",
 			"additional": "Front End Happy Hour",
@@ -1487,6 +1494,13 @@
 			"description": "Accessible is a fortnightly—episodes are released twice per month—podcast about accessibility in tech. Topics covered on the show are mostly Apple-centric but will span the tech industry at large where appropriate.",
 			"additional": "Steven Aquino and Timothy Buck",
 			"url": "https://www.accessible.fm",
+			"type": "Podcast"
+		},
+		{
+			"title": "Document Accessibility Unraveled",
+			"description": "Join Chad Chelius and Dax Castro (CHAX) as they chat about important document accessibility topics, trends and maybe even complain a little now and again.",
+			"additional": "Chad Chelius and Dax Castro",
+			"url": "https://www.accessibilitychecklists.com/",
 			"type": "Podcast"
 		},
 		{
@@ -1545,14 +1559,19 @@
 			"url": "https://knowbility.org/"
 		},
 		{
-			"title": "TPGi",
-			"description": "TPGi – Your Accessibility Partner (WCAG 2.0/508 audits, VPAT, usability and accessible user experience).",
-			"url": "https://www.paciellogroup.com/"
-		},
-		{
 			"title": "Simply Accessible",
 			"description": "Help us a build a digital world for everybody. Apply an accessible approach to your design, development, and testing. We'll guide you & show you how using an accessibility first approach empower us all.",
 			"url": "https://simplyaccessible.com/"
+		},
+		{
+			"title": "Simply Open",
+			"description": "We work with brands who are listening. They want to make products and services you will love. They understand the value of insight from those who sense, think, move and feel differently.",
+			"url": "https://www.simplyopen.io/"
+		},
+		{
+			"title": "TPGi",
+			"description": "TPGi – Your Accessibility Partner (WCAG 2.0/508 audits, VPAT, usability and accessible user experience).",
+			"url": "https://www.paciellogroup.com/"
 		},
 		{
 			"title": "WebAIM: Web Accessibility In Mind",
