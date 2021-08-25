@@ -119,6 +119,9 @@ further_reading:
   - title: "Web accessibility overlay tools: lies and gum balls"
     url: https://www.lalutineduweb.fr/en/web-accessibility-overlays-lies-gum-balls/
     source: La Lutine du Web
+  - title: What are accessibility overlays good for?
+    url: https://uxdesign.cc/what-are-accessibility-overlays-good-for-718c6e2ef531
+    source: Gareth Ford Williams
   - title: What would an ethical overlay look like?
     url: https://blog.tenon.io/what-would-an-ethical-overlay-look-like/?utm_content=134281299
     source: Tenon.io
