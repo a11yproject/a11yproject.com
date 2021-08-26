@@ -66,9 +66,16 @@ Go through the text-only design and expand it to use only HTML elements. No CSS 
 
 ### What to do
 
-Review the design and try and break it. Now annotate the design with how to help the person using the page. Can we improve the labels of fields? Can we add help text for fields? What error messages can we show that will tell the person what went wring and how to fix it? If we’re reviewing it’s okay to think in CSS now! 
+Review the design and try and break it. Now annotate the design with how to help the person using the page. Can we improve the labels of fields? Can we add help text for fields? What error messages can we show that will tell the person what went wrong and how to fix it?
 
-One nice trick for doing this is to flip it and try the opposite.
+At this point we could review the design with some presentation applied and consider the CSS we would use. Adding presentational elements will give us more things to check, such as:
+
+- Use of color to convey information.
+- Contrast ratios.
+- Animation and timing.
+- States of interactive elements, such as focus styles.
+
+One nice way of trying to break the design is to approach it from a very different direction.
 
 - We can ask ourselves “if I was trying to do this wrong on purpose, what would I do?” For example: imagine not entering data in any required fields, or entering the wrong format.
 - Pick an element and flip, try the opposite. For example: if an error message uses colour, check what it would be like without colour.
