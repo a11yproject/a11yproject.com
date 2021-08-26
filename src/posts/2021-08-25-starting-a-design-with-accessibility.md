@@ -16,7 +16,7 @@ Here are three things we can do to start a design with accessibility.
 
 ### What to do
 
-Before opening up our favourite design tool (like [Sketch](https://www.sketch.com/) or [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/products/xd.html)), we can write out the design in text. We can use a numbered list, and do this with pen and paper or in a text editor. 
+We can write out the design in text before opening up our favorite design tool (like [Sketch](https://www.sketch.com/) or [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/products/xd.html)). Start by making a numbered list with pen and paper, or in a text editor. 
 
 Write out the:
 
