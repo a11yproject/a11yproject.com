@@ -20,6 +20,8 @@ Doing a text-only design to helps us clarify the order and content of a page.
 
 We can write out the design in text before opening up our favorite design tool (like [Sketch](https://www.sketch.com/) or [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/products/xd.html)). Start by making a numbered list with pen and paper, or in a text editor. 
 
+<img alt="A handwritten outline of this post: a numbered list of the headings." src="/img/posts/2021-08-25-starting-a-design-with-accessibility/text-only_design.png" />
+
 Write out the:
 
 - Section headings,
