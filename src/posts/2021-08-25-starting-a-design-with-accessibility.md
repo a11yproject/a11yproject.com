@@ -52,7 +52,7 @@ Doing an HTML-only design helps us clarify the order and content of a page. It a
 
 ### What to do
 
-Go through the text-only design and expand it to use only HTML elements. No CSS at this point! That means no presentation (except things with defaults, like heading styles) and no layout (everything will be on one column).
+Go through the text-only design and expand it to use only HTML elements. No CSS at this point! That means no presentation (except things with defaults, like heading styles) and no layout (everything will be in one column). [MDN's HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) has a grouped list we can use to find the correct semantic element.
 
 ### Why to do it
 
