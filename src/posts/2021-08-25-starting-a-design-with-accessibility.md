@@ -73,8 +73,8 @@ One nice trick for doing this is to flip it and try the opposite.
 
 Going off the Happy Path forces us to:
 
-- consider error states explicitly. It makes us write error messages up front.
-- think about the wider range of human experience. It helps is realise where we might be adding barriers by making assumptions about a person’s abilities.
+- Consider error states explicitly. It makes us write error messages up front.
+- Think about the wider range of human experience. It helps is realize where we might be adding barriers by making assumptions about a person’s abilities.
 
 ## Summary
 
