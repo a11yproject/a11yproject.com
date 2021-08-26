@@ -20,11 +20,11 @@ We can write out the design in text before opening up our favorite design tool (
 
 Write out the:
 
-- section headings; 
-- content and function of each image;
-- text of each link;
-- text of each button;
-- name of each form element.
+- Section headings,
+- Content and function of each image,
+- Text of each link,
+- Text of each button, and
+- Name of each form element.
 
 ### Why to do it
 
