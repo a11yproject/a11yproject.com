@@ -8,7 +8,7 @@ tags:
   - quicktip
 ---
 
-Designing with accessibility in mind from the start is even better than [reviewing a design for accessibility](https://www.a11yproject.com/posts/2021-08-14-reviewing-a-design-for-accessibility/). It helps us consider the wide range of people who use our product.
+Designing with accessibility in mind from the start is even better than [reviewing a design for accessibility](https://www.a11yproject.com/posts/2021-08-14-reviewing-a-design-for-accessibility/). It helps us consider the wide range of people who use our products and services.
 
 Here are three things we can do to start a design with accessibility.
 
