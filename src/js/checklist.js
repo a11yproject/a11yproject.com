@@ -68,12 +68,20 @@ processChecklist();
 function registerToggleButton(buttonEl, parentEl) {
 	if (buttonEl && parentEl) {
 		var details = parentEl.querySelectorAll("details");
+
 		buttonEl.addEventListener("click", function handleToggleButtonClick(event) {
+			var target = event.target;
+			if (target.hasAttribute("open") === true) {
+				target.removeAttribute("open");
+			} else {
+				target.setAttribute("open", true);
+			}
 			details.forEach(function (item) {
-				if (item.hasAttribute("open") === true) {
-					item.removeAttribute("open");
-				} else {
+
+				if (target.hasAttribute("open") === true) {
 					item.setAttribute("open", true);
+				} else {
+					item.removeAttribute("open");
 				}
 			});
 		});
@@ -87,12 +95,10 @@ function renderToggle() {
 	var toggleCategoryButtons = document.querySelectorAll(
 		"[data-toggle-category]"
 	);
-	toggleCategoryButtons.forEach(function(button){
+	toggleCategoryButtons.forEach(function (button) {
 		var parentSection = button.closest("section");
 		registerToggleButton(button, parentSection);
 	});
 }
 
 renderToggle();
-
-
