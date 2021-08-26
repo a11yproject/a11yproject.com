@@ -48,6 +48,8 @@ Writing the names of form elements forces us to think of good labels. It forces 
 
 ## Do an HTML-only design
 
+Doing an HTML-only design helps us clarify the order and content of a page. It also helps us clarify the single function of each interactive element on a page.
+
 ### What to do
 
 Go through the text-only design and expand it to use only HTML elements. No CSS at this point! That means no presentation (except things with defaults, like heading styles) and no layout (everything will be on one column).
