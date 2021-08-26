@@ -30,9 +30,9 @@ Write out the:
 
 Writing the content in a numbered list lets us be clear on:
 
-- the source order of elements in the HTML (this is the order that a screen reader will read the page in);
-- the hierarchy of elements on the page (which can help us make choices about layouts on different screen sizes)
-- the focus order of the page (to make sure it's logical and meaningful).
+- The source order of elements in the HTML. This is the order that a screen reader will read the page in.
+- The hierarchy of elements on the page. This helps us make choices about layouts on different screen sizes.
+- The focus order of the page. This helps us make sure it's logical and meaningful.
 
 Writing headings lets us divide the page up into logical sections. Screen reader users often use headings as a way of navigating around a page.
 
