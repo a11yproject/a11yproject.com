@@ -78,6 +78,12 @@ Going off the Happy Path forces us to:
 
 ## Summary
 
-Reviewing a design for accessibility is a good way to make sure we ship accessible code. Starting a design with accessibility is even better. It helps us to think about the diverse and complicated range of people who will be interacting with our designs and code. And it helps us make sure that we don't put up any barriers for them.
+Reviewing a design for accessibility is a good way to make sure we ship accessible experiences. Starting a design with accessibility is even better. 
 
-Three ways we can do this are: do a text-only design; do an HTML-only design; go off The Happy Path.
+Three steps we can start a design and consider accessibility are: 
+
+1. Do a text-only design, 
+2. Do an HTML-only design, then 
+3. Go off The Happy Path.
+
+This helps us to think about the diverse and complicated range of people who will be interacting with our designs and code. It helps us make sure that we don't put up any barriers for them.
