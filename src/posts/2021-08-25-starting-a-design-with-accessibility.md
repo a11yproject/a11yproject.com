@@ -14,6 +14,8 @@ Here are three things we can do to start a design with accessibility.
 
 ## Do a text-only design
 
+Doing a text-only design to helps us clarify the order and content of a page.
+
 ### What to do
 
 We can write out the design in text before opening up our favorite design tool (like [Sketch](https://www.sketch.com/) or [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/products/xd.html)). Start by making a numbered list with pen and paper, or in a text editor. 
