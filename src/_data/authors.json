@@ -191,6 +191,12 @@
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
 			"biography": "Got an idea for an post? Get in touch!"
+		},
+		{
+			"name": "Pascal Akunne",
+			"website": "https://kodecheff.netlify.com",
+			"photo": "https://kodecheff.netlify.app/img/pic1.jpg",
+			"biography": "Hi there, I'm Pascal Akunne, a JavaScript Developer & Technical Writer. I love building, writing and learning"
 		}
 	]
 }
