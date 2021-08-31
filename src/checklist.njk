@@ -82,7 +82,7 @@ templateClass: template-checklist
 
 	<hr class="c-divider" />
 
-	<button id="toggle-all" >Toggle All</button>
+	<button id="toggle-all">Toggle All</button>
 
 	{% for category, content in checklists %}
 	{# 6 May 2021: We don't publish our guidelines about SVGs #}
@@ -95,7 +95,7 @@ templateClass: template-checklist
 	<p class="c-preface">
 		{{ content.preface | safe }}
 	</p>
-	<button data-toggle-category="{{ category }}">Toggle {{ category }}</button>
+	<button class="toggle-category">Toggle {{ category }}</button>
 	<div class="c-card__wrapper">
 		{% set tasks = content.tasks %}
 		{% for task in tasks %}
