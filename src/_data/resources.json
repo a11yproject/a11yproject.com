@@ -1126,9 +1126,15 @@
 		},
 		{
 			"title": "Accessibility Chicago",
-			"description": "A community of digital professionals passionate about making the world more accessible and inclusive.",
+			"description": "Accessibility Twin Cities is designed to connect and support individuals who work in – or are even simply interested in – the field of digital accessibility and accessibility testing for organizations, businesses and government.",
 			"additional": "Chicago, United States",
 			"url": "https://www.meetup.com/a11ychi/"
+		},
+		{
+			"title": "Accessibility Twin Cities",
+			"description": "A community of digital professionals passionate about making the world more accessible and inclusive.",
+			"additional": "Minnesota, United States",
+			"url": "https://www.meetup.com/Accessibility-Twin-Cities/"
 		},
 		{
 			"title": "A11yPHL - Philly Accessibility Meetup",
@@ -1559,14 +1565,24 @@
 			"url": "https://knowbility.org/"
 		},
 		{
-			"title": "Simply Accessible",
-			"description": "Help us a build a digital world for everybody. Apply an accessible approach to your design, development, and testing. We'll guide you & show you how using an accessibility first approach empower us all.",
-			"url": "https://simplyaccessible.com/"
+			"title": "Level Access",
+			"description": "Level Access is a company that provides digital accessibility solutions and services to corporations, government agencies, and educational institutions.",
+			"url": "https://www.levelaccess.com/"
 		},
 		{
 			"title": "Simply Open",
 			"description": "We work with brands who are listening. They want to make products and services you will love. They understand the value of insight from those who sense, think, move and feel differently.",
 			"url": "https://www.simplyopen.io/"
+		},
+		{
+			"title": "Tenon",
+			"description": "We believe in a web accessible to everyone. Tenon.io exists because universal design is hard. We create software to help you reach beyond compliance and build superior experiences for everyone.",
+			"url": "https://tenon.io/"
+		},
+		{
+			"title": "TetraLogical",
+			"description": "We're a company with inclusion at its heart. Our focus is on emerging as well as existing technologies, offering knowledge, experience, strategic, and development services.",
+			"url": "https://tetralogical.com/"
 		},
 		{
 			"title": "TPGi",
@@ -1579,19 +1595,9 @@
 			"url": "https://webaim.org/"
 		},
 		{
-			"title": "Level Access",
-			"description": "Level Access is a company that provides digital accessibility solutions and services to corporations, government agencies, and educational institutions.",
-			"url": "https://www.levelaccess.com/"
-		},
-		{
-			"title": "Tenon",
-			"description": "We believe in a web accessible to everyone. Tenon.io exists because universal design is hard. We create software to help you reach beyond compliance and build superior experiences for everyone.",
-			"url": "https://tenon.io/"
-		},
-		{
-			"title": "TetraLogical",
-			"description": "We're a company with inclusion at its heart. Our focus is on emerging as well as existing technologies, offering knowledge, experience, strategic, and development services.",
-			"url": "https://tetralogical.com/"
+			"title": "WeCo",
+			"description": "We’re accessibility experts who live with the disabilities you’re trying to accommodate. Let us help you bring real-life accessibility, and legal compliance, to your projects.",
+			"url": "https://theweco.com/"
 		}
 	],
 	"professionalTesters": [
