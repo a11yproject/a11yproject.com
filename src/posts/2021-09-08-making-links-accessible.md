@@ -21,33 +21,64 @@ tags:
   - howto
 ---
 
-Links are one of the primary elements in web development. Links can be made accessible by making them clear, descriptive and purposeful out of context. This helps break accessibility barriers for both people with visual disability and clear sighted, as well as people with cognitive disability. Links should be made obvious so people can understand what is means. By default, links are underlined by the browser. 
+Links are one of the primary elements in web development. Links can be made accessible by making their texts clear, descriptive and purposeful out of context. This helps break accessibility barriers for both people with visual disability and clear sighted, as well as people with cognitive disability. 
 
 
 ## Guidelines for making links accessible
 
 ### Don'ts
 
-- Careless use of ambiguous link texts like `Click here`, `More...`, `Link` are not appropriate and should be avoided. Rather, a text that describes the purpose of that link should be used. 
-- Do not use overly long URLs as your link text. This makes it difficult for most screen readers to understand. Short and concise URLs such as twitter.com, github.com/kodecheff may be accepted. This would help users identify the text strings as links if the situation called for it.
+- Do not remove the ability for links to be navigated to and selected via the `tab` and `enter` keys respectively on the keyboard. 
+- Do not use overly long URLs as your link text. This makes it difficult for most screen readers to understand. Short and concise URLs such as **twitter.com**, **github.com/kodecheff** may be accepted. This would help users identify the text strings as links if the situation called for it.
 - Link texts are best not repeated to avoid disorientation for users with cognitive disability. 
 
-- The `href` attribute should not be empty. Some developers use the pound sign (`#`) as the value for the `href` attribute. There's no point in providing a link without a destination. 
+- The `href` attribute should not be empty (`href="" `). This causes the page to reload. Some developers use the pound sign (`#`) as the value for the `href` attribute. This is a valid approach when implementing Single Page Application routing. But there's a downside to this, it adds an extra entry to the browser history which can be annoying when using the back button on your browser.
 
 ### Dos
 
+- Ambiguous link texts like `Click here`, `More...`, `Link` should be put at the end of the sentence/paragraph that describes its destination. Rather than putting it at the beginning of the sentence to avoid confusion for screen reader users who are reading through the page. 
+```
+<!--good practice--> 
+HTML is a standard markup language for creating webpages. It consists of series of elements that tell the browser how to display contents.
+<a href="https://www.w3schools.com/html/html_intro.asp">Learn more</a>
+```
 - The `aria-label` attribute should be used where appropriate. Because it provides a descriptive information for people that are visually impaired. If used within a paragraph, it could cause a poor experience as the text of the paragraph could sound unnecessarily awkward when reading all at once.
 ```
+<!--bad practice-->
+<p>In doing this, there are <a href="https://www.washington.edu/accessibility/checklist/contrast/" aria-label="More information on color contrast">color contrast</a> and <a href="https://www.washington.edu/accessibility/checklist/focus/" aria-label="More information on focus visible">focus visible</a> rules to adhere to.</p>
+
+<!--good practice-->
 <a href="https://w3schools.com/html" aria-label="Read more on HTML" >Read more</a>
 ```
-- For easy readability, link texts should be underlined. Although, traditionally, link texts are underlined with a color by the browser.
-- By default, the browser uses the `cursor: pointer` declaration on your CSS. You can use the `a:hover` or `a:focus` style to apply other CSS styles such as color, background-color, or text-decoration, to help identify links on the browser. 
-- If the only way to access a link is with a mouse, the link is unusable by keyboard users. Traditionally, links can be easily to navigated to and selected using the `tab` key and `enter` key respectively. This helps keyboard users to easily access your website. Except disallowed using [JavaScript event handlers](https://webaim.org/techniques/javascript/eventhandlers). 
+- When using an `aria-label` on a link, it MUST meet [2.5.3 Label in Name](https://www.w3.org/WAI/WCAG21/Understanding/label-in-name.html#dfn-label) standards.
+```
+<!--bad practice-->
+<a href="http://fzmovies.net/?page=2 aria-label=">>"> >> </a>
+
+<!--good practice-->
+<a href="http://fzmovies.net/?page=2 aria-label="next page"> >> </a>
+
+<!--good practice-->
+<a href="https://kodecheff.netlify.app" aria-label="view live demo">view</a>
+```
+- For easy readability, link texts should be underlined. Although, traditionally, link texts are underlined with a color by the browser. This rule is best applied to links within a sentence/paragraph, to distinguish the links from other texts. Navigation links don't necessarily need to be underlined. 
+
+- You can use the `a:hover` or `a:focus` style to apply other CSS styles such as color, background-color, or text-decoration, to help identify links on the browser. In doing this, there are [color contrast](https://www.washington.edu/accessibility/checklist/contrast/) and [focus visible](https://www.washington.edu/accessibility/checklist/focus/) rules to adhere to. 
+
 - Link texts should be short and concise. Using a paragraph or an entire sentence is unnecessary and frustrating. 
+```
+<!--bad practice-->
+<a href="https://www.w3schools.com/html/html_intro.asp">HTML is a standard markup language for creating webpages. It consists of series of elements that tell the browser how to display contents</a>
+
+<!--good practice--> 
+<a href="https://www.w3schools.com/html/html_intro.asp">HTML</a> is a standard markup language for creating webpages. It consists of series of elements that tell the browser how to display contents. 
+
+
+```
 - Use `skip` link to skip over a long list of links. Some websites use `skip navigation` to skip to the main content. 
 ```
 <header>
-  <a href="#content" aria-label="Skip navigation">Skip navigation</a>
+  <a href="#content">Skip navigation</a>
 
   <nav>
     <ul>
@@ -58,9 +89,9 @@ Links are one of the primary elements in web development. Links can be made acce
   </nav>
 </header>
 
-<div id="content">
-  <!-- Content goes in here -->
-</div>
+<main>
+  <h1 id="content" tabindex=-1></h1>
+</main>
 ```
 
 ## Summary
@@ -69,6 +100,6 @@ Links are one of the primary elements in web development. Links can be made acce
 - Links are best not repeated to avoid disorientation of users with cognitive disability. 
 - The `aria-label` attribute should be used when necessary. 
 - use `skip` link to skip over a long list of links. 
-- Careless use of ambiguous link such as `click here`, `link` should be avoided. 
-- The `href` attribute should not be empty. 
+- Ambiguous link such as `click here`, `link` should be put at the end of the sentence that describes its destination.
 - Link text should be short and concise. 
+- The `href` attribute should not be empty. 
