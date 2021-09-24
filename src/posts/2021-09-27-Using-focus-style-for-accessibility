@@ -1,0 +1,142 @@
+---
+title: Using focus style for accessibility
+description: How-to make your website accessible with focus style
+category: How to
+author: Ezekiel Lawson
+date: 2021-09-27
+further_reading:
+  - title: Style focus
+    url: https://https://web.dev/style-focus/
+    source: Web dev
+    year: 2018
+  - title: designing usable focus indicators
+    url: https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/
+    source: Caitlin Geier
+    year: 2016
+  - title: never-remove-css-outlines
+    url: https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/
+    source: Guilherme Simões
+    year: 2013
+tags:
+  - howto
+  
+  ---
+  
+  While accessing any digital interface, a focus indicator is important it highlights the active intractable component in a webpage. In this article, you will learn how to make your website accessible with a focus style.
+
+What is a focus style?
+A focus is a pseudo-class used to indicate or highlights an intractable component in a webpage.
+
+Why is it important?
+
+A focus style is necessary because some people use a mouse or a touch device to access a website some rely on using a keyboard to navigate on a website. Having a focus indicator will improve the usability of your website and makes it accessible, It also tells us the interactive element we are focused on.
+
+
+HOW TO APPLY FOCUS STYLE
+
+Here is an example of how we can apply focus style to our elements
+
+Applying focus style to a link
+
+a:focus {
+  outline: 5px solid red;
+  }
+
+The above is a link that has a custom style for its focus state.
+In the above example, we added focus to our link and gave it an outline of solid red with a value of 5px. Please note the focused style is applied only to the <a> tag itself.
+
+Here is another example for applying focus
+
+Applying focus style to a form input
+
+<form>
+<label for="email">
+<input class="email-input" value="Click me to see my focus state">
+</label>
+</form>
+
+.email-input:focus {
+ background-color: gray;
+ color: black;
+}
+
+You can create your custom outline style aside from the blue outline default style in focus. Always ensure the color contrast for your focus indicator is sufficient especially important for people with low vision, this will also benefit those using their screen outside in a very bright space.
+
+Focus-visible
+Is a great idea for controlling how users interact with your elements it is used to provide a focus-indicator selectively 
+
+Let’s look at a quick example
+
+<form class=”form-container”>
+<label for="email">
+<input class="email-input" value="Click me to see my focus state">
+</label>
+<label for="username">
+<input class="user-input" value="Click me to see my focus state">
+</label>
+<input type="submit" value="Submit">
+</form>
+
+:focus {
+ outline: 2px solid orange
+}
+
+In the above code when we focus on each of the input and buttons it gives us a red outline but focus style can also affect the user experience of mouse users.
+
+
+It is wrong to remove the focus indicator as it makes your website inaccessible for people navigating with the keyboard the best way is to apply a different focus style for mouse/pointer users
+
+code example
+
+:focus:not(:focus-visible) {
+ outline:none
+}
+
+This will hide the focus indicator if the element receives focus via the mouse, but it will show up on the keyboard when tabbing.
+
+ 
+Focus-within
+The pseudo-class:focus-within is used to style the parent element of focusable elements it selects an element that has focus or when a descendant has focus, it is very useful when designing forms, supported in modern browsers.
+
+<form class=”form-container”>
+<label for="email">
+<input class="email-input" value="Click me to see my focus state">
+</label>
+<label for="username">
+<input class="user-input" value="Click me to see my focus state">
+</label>
+</form>
+
+.form-container:focus-within {
+ background: #ff8;
+ color: black;
+ padding:20px;
+}
+
+In the above example, we created a styling for the form element the background color changes when the input receives focus or when the user clicks on the input
+
+
+title: Using focus style for accessibility
+description: How-to make your website accessible with focus style
+category: How to
+author: Ezekiel Lawson
+date: 2021-09-27
+further_reading:
+  - title: Style focus
+    url: https://https://web.dev/style-focus/
+    source: Web dev
+    year: 2018
+  - title: designing usable focus indicators
+    url: https://www.deque.com/blog/give-site-focus-tips-designing-usable-focus-indicators/
+    source: Caitlin Geier
+    year: 2016
+  - title: never-remove-css-outlines
+    url: https://www.a11yproject.com/posts/2013-01-25-never-remove-css-outlines/
+    source: Guilherme Simões
+    year: 2013
+tags:
+  - howto
+
+Summary
+
+Having a focus indicator on your website will improve the usability and user experience
