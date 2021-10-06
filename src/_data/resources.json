@@ -1429,6 +1429,12 @@
 			"description": "Defining Acrobat PDF accessibility.",
 			"additional": "WebAIM",
 			"url": "https://webaim.org/techniques/acrobat/"
+		}, 
+		{
+			"title": "Accessibility Best Practices for Designers, Developers",
+			"description": "Accessibility checklist that highlights the main accessibility points, emphasizing concise, do-this descriptions, grouped per role.",
+			"additional": "Elsevier",
+			"url": "https://romeo.elsevier.com/accessibility_checklist/downloads/developer_designer_checklist.pdf"
 		}
 	],
 	"podcasts": [
