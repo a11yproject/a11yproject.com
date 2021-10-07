@@ -85,6 +85,7 @@
 //
 // Styleguide Logic.Mixins
 @import
+	"logic/mixins.avatar-size",
 	"logic/mixins.clearfix",
 	"logic/mixins.content-inset",
 	"logic/mixins.headings",
@@ -170,6 +171,7 @@
 @import
 	"components/c-simple",
 	"components/c-a11y-summary",
+	"components/c-avatar",
 	"components/c-banner",
 	"components/c-blm-banner",
 	"components/c-card",

@@ -123,13 +123,9 @@
 }
 
 
-.c-homepage-card__spotlight-photo {
-	$_photo-size: 12rem;
-
-	border-radius: $_photo-size;
-	cursor: pointer;
-	display: inline-block;
-	width: $_photo-size;
+.c-homepage-card__spotlight-avatar {
+	@include avatar-size("large");
+	position: relative;
 }
 
 
