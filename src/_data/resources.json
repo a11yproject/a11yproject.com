@@ -559,6 +559,12 @@
 			"url": "https://contrast-ratio.com/"
 		},
 		{
+			"title": "Contrast Tools",
+			"description": "Test the contrast of two colors to ensure high readability using both the Advanced Perception of Color Algorithm (APCA) and the classic contrast ratio.",
+			"additional": "Protean Studio",
+			"url": "https://contrast.tools"
+		},
+		{
 			"title": "Hex Naw",
 			"description": "Hex Naw is a tool that helps designers and developers test entire color systems for contrast and accessibility. Plug in your palette or color system and let Hex Naw do the rest.",
 			"additional": "The Scenery",
