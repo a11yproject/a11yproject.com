@@ -32,7 +32,7 @@ You'll need access to the following programs and technology in order to get the 
     - If you prefer to use a GUI to work with version control, GitHub offers a [free desktop app](https://desktop.github.com).
 1. [Node.js](https://nodejs.org/en/), a programming environment powered by JavaScript.
     - You can check to see if Node.js is already installed on your computer by typing `node -v` into your command line application. If it is installed it will list the currently installed version (e.g. `v16.4.0`). The A11Y Project requires a minimum version of `16.0.0`.
-    - It may also be helpful to use a program such as [nvm](https://github.com/creationix/nvm) to help manage your Node.js versions. This will ensure that the version of Node.js your computer uses to run various things won't conflict with an updated version.
+    - It may also be helpful to use a program such as [nvm](https://github.com/creationix/nvm) to help manage your Node.js versions. This will ensure that the version of Node.js your computer uses to run various things won't conflict with an updated version. For Windows users, you could use [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows).
 
 ### Installation
 
