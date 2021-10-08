@@ -4,6 +4,7 @@
 	h2,
 	h3 {
 		line-height: $line-height-tight;
+		overflow-wrap: break-word;
 
 		// Breakpoints
 		@include mappy-bp(lap-medium) {
