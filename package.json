@@ -23,13 +23,13 @@
 		"node": ">=16"
 	},
 	"scripts": {
-		"start": "npx @11ty/eleventy --watch | gulp watch",
+		"start": "eleventy --watch & gulp watch",
 		"a11yproject": "npm start",
-		"publish": "npx gulp && npx @11ty/eleventy",
+		"publish": "eleventy & gulp",
 		"clean": "rm -rf ./dist",
-		"eleventy-build": "npx @11ty/eleventy",
-		"eleventy-watch": "npx @11ty/eleventy --watch",
-		"eleventy-debug": "DEBUG=* npx @11ty/eleventy",
+		"eleventy-build": "eleventy",
+		"eleventy-watch": "eleventy --watch",
+		"eleventy-debug": "DEBUG=* eleventy",
 		"gulp-build": "gulp",
 		"gulp-watch": "gulp watch"
 	},
