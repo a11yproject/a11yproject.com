@@ -120,4 +120,4 @@ Thank you for reporting a bug. Please fill out the following information:
 
 ## Terms
 
-[ ] I have read, and agree to follow this project's [Code of Conduct](https://www.a11yproject.com/code-of-conduct/)
+- [ ] I have read, and agree to follow this project's [Code of Conduct](https://www.a11yproject.com/code-of-conduct/)
