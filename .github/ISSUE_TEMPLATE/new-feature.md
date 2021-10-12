@@ -1,6 +1,6 @@
 ---
 name: New feature
-about: Propose new functionality.
+about: Propose new functionality
 title: "[Feature] "
 labels: "feature"
 body:
@@ -33,4 +33,4 @@ Thank you for suggesting a feature. Please fill out the following information:
 
 ## Terms
 
-[ ] I have read, and agree to follow this project's [Code of Conduct](https://www.a11yproject.com/code-of-conduct/)
+- [ ] I have read, and agree to follow this project's [Code of Conduct](https://www.a11yproject.com/code-of-conduct/)
