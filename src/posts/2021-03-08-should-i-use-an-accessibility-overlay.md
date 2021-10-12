@@ -139,7 +139,7 @@ tags:
   - featured
 ---
 
-Due to their technical, social, and moral issues, <strong><mark>The A11Y Project does not recommend using permanent plugins</mark></strong>. We view these kinds of products as actively harmful, and a step backwards for digital accessibility efforts.
+Due to their technical, social, and moral issues, <strong><mark>The A11Y Project does not recommend using permanent overlay plugins</mark></strong>. We view these kinds of products as actively harmful, and a step backwards for digital accessibility efforts.
 
 
 ## Background
@@ -169,7 +169,7 @@ Bandage overlays usually have a process to signal when their code should be remo
 
 ## Permanent plugins
 
-Permanent plugins are more of a recent phenomenon. Unlike temporary bandage solutions, permanent plugins are designed to be a persistent presence on the inaccessible website or web app. Two examples of permanent plugins are [accessiBe](https://accessibe.com/) and [AudioEye](https://www.audioeye.com/).
+Permanent plugins are more of a recent phenomenon. Unlike temporary bandage solutions, permanent plugins are designed to be a persistent presence on the inaccessible website or web app. Three examples of permanent plugins are [accessiBe](https://accessibe.com/), [AudioEye](https://www.audioeye.com/), and [FACIL’iti](https://www.facil-iti.com/).
 
 There are numerous issues with permanent plugins. To build off the bandage metaphor, a permanent plugin left on a website or web app for too long will cause the underlying experience to rot.
 
