@@ -39,6 +39,8 @@ So about that word, ‘disabled.’
 
 Hesitance to use the word ‘disabled’ within the Deaf community stems from a variety of reasons. For this group, they were first Deaf, disabled a reluctant second. That was part of their identity. The [neurodiverse community](https://blogs.scientificamerican.com/observations/clearing-up-some-misconceptions-about-neurodiversity/) also generally prefers identity first. People in this group might not consider themselves disabled, actually calling their neurodivergence a superpower.
 
+What’s important to note here is that the communities themselves are driving how they are identified, as opposed to someone from the outside looking in trying to define the labels.
+
 Another group of people who hesitate to use the word ‘disabled’ are those who worry it’s a pejorative or insulting. These are usually non-disabled people who, in trying not to accidentally offend, use other potentially offending terms: “differently abled” (immediately “others” us), “range of abilities” or “people of all abilities” (okay, but we’re discriminated against for our <em>disability</em>, are you going to ignore that?), “specially challenged” (again, “others” us), and so on. Note here that the push for labels other than ‘disabled’ is coming from people <em>without</em> a disability.
 
 ## The #SayTheWord disability hashtag
