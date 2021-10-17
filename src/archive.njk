@@ -21,6 +21,19 @@ templateClass: template-posts
 		{% endfor %}
 	</div>
 
+	<h2 id="experiences" class="c-heading-large">
+		Experiences
+	</h2>
+	<p class="c-preface">
+		Lived experiences shared by disabled people.
+	</p>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "experience" ] %}
+		{% for post in taglist | reverse %}
+			{% include "card/post.njk" %}
+		{% endfor %}
+	</div>
+
 	<h2 id="background" class="c-heading-large">
 		Background
 	</h2>

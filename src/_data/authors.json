@@ -49,6 +49,12 @@
 			"biography": "Howdy! I'm Duncan, a front-end developer focused on design systems."
 		},
 		{
+			"name": "Emily Ogle",
+			"website": "https://www.linkedin.com/in/emily-ogle-pmp-cpaac-dhs-trusted-tester-aa540979/",
+			"photo": "{{ '/img/authors/emily-ogle.jpg' | url }}",
+			"biography": "Emily Ogle (she/her) lives in a condo with her two cats. They're often subject to her photography experiments whenever she gets a new lens. Emily will someday get a real, real camera that has all the things. When not snapping a shot of her two furbabies, she is snickering whenever anyone says they live “x miles above x city,” avidly watching fantasy shows, or reading something, probably by Stephen King. She happily works in the accessibility space but slightly wishes she didn't have such solid job security (slightly) given so much need for it. She's trying to make the world a more accessible place, one cat at a time. (What? Cats deserve access to software too!)"
+		},
+		{
 			"name": "Emma Patricios",
 			"website": "https://twitter.com/emmasax",
 			"photo": "https://pbs.twimg.com/profile_images/466621063267250176/jhmUjqc0_400x400.jpeg",
@@ -69,7 +75,7 @@
 		{
 			"name": "Federico Monaco",
 			"website": "https://www.federicomonaco.it/",
-			"photo": "https://www.a11yproject.com/img/authors/federico-monaco.jpg",
+			"photo": "{{ '/img/authors/federico-monaco.jpg' | url }}",
 			"biography": "Color-blind user experience designer focused on accessibility and inclusion."
 		},
 		{
