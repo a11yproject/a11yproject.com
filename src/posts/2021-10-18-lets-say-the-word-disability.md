@@ -3,7 +3,7 @@ title: "Disability: let’s say the word"
 description: What it means to be a colorblind designer and what the main problems are that someone with colorblindness can encounter if they decide to pursue a career as a designer.
 category: Experience
 author: Emily Ogle
-date: 2021-10-12
+date: 2021-10-18
 tags:
   - experience
 ---
