@@ -1,6 +1,6 @@
 ---
 title: "Disability: let’s say the word"
-description: What it means to be a colorblind designer and what the main problems are that someone with colorblindness can encounter if they decide to pursue a career as a designer.
+description: In hesitating to use the word ‘disability,’ people are unwittingly reinforcing the stigma that having a disability is a bad thing.
 category: Experience
 author: Emily Ogle
 date: 2021-10-18
