@@ -31,6 +31,12 @@
 			"biography": "I am an independent accessibility consultant. I work with large and small organizations. I help them improve the accessibility of their websites. I guide them through the creation or improvement of their culture of accessibility."
 		},
 		{
+			"name": "Alex Chen",
+			"website": "/spotlight/alex-chen",
+			"photo": "/img/spotlight/alex-chen.png",
+			"biography": "By day, I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right. In my spare time I love to train mixed martial arts, care for my house plants, and experiment with illustration and collage."
+		},
+		{
 			"name": "Want to nominate someone?",
 			"website": "{{ '/contact/' | url }}",
 			"photo": "/img/logos/maintainer.png",
