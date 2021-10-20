@@ -19,7 +19,7 @@ tags:
 
 ## What is your day job?
 
-By day, I’m a product designer at a custom software agency called TXI (we’re currently going through a re-brand, so you may know us as [Table XI](https://www.tablexi.com/)). I work with integrated teams to deliver software in a number of different industries, such as automotive, healthcare, and non-profit. In general, I’m passionate about designing technology that provides value to people, that is accessible and intuitive, and that does not perpetuate oppression or harm.
+By day, I’m a product designer at a custom software agency called [Table XI](https://www.tablexi.com/). I work with integrated teams to deliver software in a number of different industries, such as automotive, healthcare, and non-profit. In general, I’m passionate about designing technology that provides value to people, that is accessible and intuitive, and that does not perpetuate oppression or harm.
 
 I’ve worked in the tech industry for about 7 years and I arrived at my focus on usability and accessibility about halfway through that journey. I have lived experience as a trans person part of a Chinese immigrant family, so I’ve always been interested in the concept of inclusive design. However, I wasn’t actively engaging or acting on it beyond a surface level interest.
 
