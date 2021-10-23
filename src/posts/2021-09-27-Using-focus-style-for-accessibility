@@ -3,7 +3,8 @@
 | :------------- | :----------: | -----------: | -----------: |-----------: |
 |  Using focus style for accessibility |  A focus is a pseudo-class used to indicate or highlights an intractable component in a webpage.     | How to    | Ezekiel Lawson   | 2021-09-27    | 
 
-**Further Reading**
+## Further Reading
+
 
 | title       | url    |   source    | year     |
 | :------------- | :----------: | -----------: | -----------: | 
@@ -20,19 +21,19 @@
 
 While accessing any digital interface, a focus indicator is important it highlights the active intractable component in a webpage. 
 
-**What is a focus style?**
+# What is a focus style?
 A focus is a pseudo-class used to indicate or highlights an intractable component in a webpage.
 
-**Why is it important?**
+# Why is it important?
 
 A focus style is necessary because some people use a mouse or a touch device to access a website some rely on using a keyboard to navigate on a website. Having a focus indicator will improve the usability of your website and makes it accessible, It also tells us the interactive element we are focused on.
 
 
-**HOW TO APPLY FOCUS STYLE**
+# HOW TO APPLY FOCUS STYLE
 
 Here is an example of how we can apply focus style to our elements
 
-Applying focus style to a link
+**Applying focus style to a link**
 
 ```
 
@@ -42,11 +43,11 @@ a:focus {
 ```
 
 The above is a link that has a custom style for its focus state.
-In the above example, we added focus to our link and gave it an outline of solid red with a value of 5px. Please note the focused style is applied only to the <a> tag itself.
+In the above example, we added focus to our link and gave it an outline of solid red with a value of 5px. Please note the focused style is applied only to the link tag itself.
 
 Here is another example for applying focus
 
-Applying focus style to a form input
+**Applying focus style to a form input**
 
 ```
 <form>
@@ -64,7 +65,7 @@ Applying focus style to a form input
 
 You can create your custom outline style aside from the blue outline default style in focus. Always ensure the color contrast for your focus indicator is sufficient especially important for people with low vision, this will also benefit those using their screen outside in a very bright space.
 
-Focus-visible
+**Focus-visible**
 Is a great idea for controlling how users interact with your elements it is used to provide a focus-indicator selectively 
 
 Let’s look at a quick example
@@ -101,7 +102,7 @@ code example
 This will hide the focus indicator if the element receives focus via the mouse, but it will show up on the keyboard when tabbing.
 
  
-Focus-within
+**Focus-within**
 The pseudo-class:focus-within is used to style the parent element of focusable elements it selects an element that has focus or when a descendant has focus, it is very useful when designing forms, supported in modern browsers.
 
 ```
@@ -124,6 +125,6 @@ The pseudo-class:focus-within is used to style the parent element of focusable e
 In the above example, we created a styling for the form element the background color changes when the input receives focus or when the user clicks on the input
 
 
-Summary
+## Summary
 
-Having a focus indicator on your website will improve the usability and user experience
+Having a focus indicator on your website will improve the usability and user experience and also make it accessible to all users.
