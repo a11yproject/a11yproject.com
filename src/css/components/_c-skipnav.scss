@@ -27,21 +27,22 @@
 	letter-spacing: $font-tracking-slight;
 	padding: 1rem 2rem;
 	text-decoration: none;
-	transition:
-		background-color $animation-duration-short $animation-easing-character,
+	transition: background-color $animation-duration-short
+			$animation-easing-character,
 		color $animation-duration-short $animation-easing-character;
 
 	// States
 	&:focus {
+		z-index: 10;
 		outline: none;
 		position: absolute;
-			top: 6rem;
-			left: map-get($global-bleed, large);
+		top: 6rem;
+		left: map-get($global-bleed, large);
 
-			&:hover {
-				background-color: $color-black;
-				color: $color-white;
-			}
+		&:hover {
+			background-color: $color-black;
+			color: $color-white;
+		}
 	}
 
 	// User Queries
