@@ -169,7 +169,7 @@ Bandage overlays usually have a process to signal when their code should be remo
 
 ## Permanent plugins
 
-Permanent plugins are more of a recent phenomenon. Unlike temporary bandage solutions, permanent plugins are designed to be a persistent presence on the inaccessible website or web app. Three examples of permanent plugins are [accessiBe](https://accessibe.com/), [AudioEye](https://www.audioeye.com/), and [FACIL’iti](https://www.facil-iti.com/).
+Permanent plugins are more of a recent phenomenon. Unlike temporary bandage solutions, permanent plugins are designed to be a persistent presence on the inaccessible website or web app. Four examples of permanent plugins are [accessiBe](https://accessibe.com/), [AudioEye](https://www.audioeye.com/), [FACIL’iti](https://www.facil-iti.com/), and [Max Access](https://maxaccess.io/).
 
 There are numerous issues with permanent plugins. To build off the bandage metaphor, a permanent plugin left on a website or web app for too long will cause the underlying experience to rot.
 
