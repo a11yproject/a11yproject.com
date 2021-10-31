@@ -1941,6 +1941,18 @@
 			"url": "https://scottaohara.github.io/a11y_styled_form_controls/"
 		},
 		{
+			"title": "a11y-dialog",
+			"description": "A very lightweight and flexible accessible modal dialog script.",
+			"additional": "Kitty Giraudel",
+			"url": "https://github.com/KittyGiraudel/a11y-dialog"
+		},
+		{
+			"title": "a11y-tabs",
+			"description": "A lightweight (<1Kb) JavaScript package to facilitate a11y-compliant tabbed interfaces.",
+			"additional": "Rob Levin",
+			"url": "https://github.com/agnosticui/a11y-tabs"
+		},
+		{
 			"title": "Aaron Cannon’s Web Accessibility Checklist",
 			"description": "PDF accessibility checklist.",
 			"additional": "Cameron Moll",
