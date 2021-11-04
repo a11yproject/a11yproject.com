@@ -92,6 +92,9 @@ further_reading:
   - title: Overlays are not the solution to your accessibility problem
     url: https://sheribyrnehaber.medium.com/overlays-are-not-the-solution-to-your-accessibility-problem-c5ffe44bd61f
     source: Sheri Byrne-Haber
+  - title: "Overlays do not get rid of (moot) digital accessibility lawsuits"
+    url: https://www.levelaccess.com/overlays-do-not-get-rid-of-moot-digital-accessibility-lawsuits/
+    source: Level Access
   - title: Overreliance on Overlays is Counter to Enculturation of Accessibility
     url: https://nfb.org/images/nfb/publications/bm/bm21/bm2105/bm210510.htm
     source: National Federation of the Blind Braille Monitor
