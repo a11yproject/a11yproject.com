@@ -1983,6 +1983,12 @@
 			"url": "https://github.com/adobe-inclusive-design/id-workshop"
 		},
 		{
+			"title": "Collaborative planning, the forgotten step of accessible development",
+			"description": "Describes an agile development process to faciliate accessibility called Accessibility Behavior Informed Development (a11yBID).",
+			"additional": "Deque",
+			"url": "https://www.deque.com/blog/collaborative-planning-the-forgotten-step-of-accessible-development/"
+		},
+		{
 			"title": "Dataviz Accessibility Resources",
 			"description": "A non-exhaustive and in-progress list of people and resources in Accessibility and Data Visualization.",
 			"additional": "GitHub",
