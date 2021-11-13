@@ -33,7 +33,7 @@ A focus style is necessary because some people use a mouse or a touch device to 
 
 ## How to apply focus style
 
-Preceding code is an example of how we can apply focus style to our elements.
+Preceding code is an example of how we can apply focus style to our elements:
 
 ### Applying focus style to a link
 
@@ -43,13 +43,13 @@ a:focus {
   }
 ```
 
-The following code example is a link that has a custom style for its focus state.
+The following code example is a link that has a custom style for it focus state:
 
 ### Code explanation
 
 In the following code example, we added focus to our link and gave it an outline of solid red with a value of 5px. Please note the focused style is applied only to the link tag itself.
 
-The preceding code is another example for applying focus to a form input.
+The preceding code is another example for applying focus to a form input:
 
 ### Applying focus style to a form input
 
@@ -95,7 +95,7 @@ In the following code example, when we focus on each of the input and buttons it
 
 It is wrong to remove the focus indicator as it makes your website inaccessible for people navigating with the keyboard the best way is to apply a different focus style for mouse/pointer users.
 
-Code example
+Code example:
 
 ```CSS
 :focus:not(:focus-visible) {
