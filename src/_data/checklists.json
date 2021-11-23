@@ -33,7 +33,7 @@
 				"checkboxId": "validate-html",
 				"wcag": "4.1.1 Parsing",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
-				"description": "<a href='https://validator.w3.org/nu/'>Valid HTML</a> helps to provide an consistent, expected experience across all browsers and assistive technology."
+				"description": "<a href='https://validator.w3.org/nu/'>Valid HTML</a> helps to provide a consistent, expected experience across all browsers and assistive technology."
 			},
 			{
 				"title": "Use a <code>lang</code> attribute on the <code>html</code> element.",
@@ -78,7 +78,7 @@
 				"description": " People who are blind or who have low vision may be disoriented when focus is moved without their permission. Additionally, <code>autofocus</code> can be problematic for people with motor control disabilities, as it may create extra work for them to navigate out from the autofocused area and to other locations on the page/view."
 			},
 			{
-				"title": "Allow extending session timeouts",
+				"title": "Allow extending session timeouts.",
 				"checkboxId": "extend-timeouts",
 				"wcag": "2.2.1 Timing Adjustable",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html",
@@ -230,7 +230,7 @@
 		]
 	},
 	"controls": {
-		"preface":"Controls are interactive elements such as links and buttons that let a person navigate to a destination or perform an action.",
+		"preface": "Controls are interactive elements such as links and buttons that let a person navigate to a destination or perform an action.",
 		"tasks": [
 			{
 				"title": "Use the <code>a</code> element for links.",
