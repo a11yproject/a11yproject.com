@@ -18,7 +18,7 @@ further_reading:
     url: https://polypane.app/
     source: Polypane
   - title: "Background: What is color contrast?"
-    url: https://www.a11yproject.com/posts/2015-01-05-what-is-color-contrast/
+    url: https://www.a11yproject.com/posts/what-is-color-contrast/
     source: The A11Y Project
 tags:
   - assistivetechnology
@@ -34,7 +34,7 @@ When we talk about text contrast, what we mean is the difference between the col
 
 This difference can be measured using a formula that yields a number between 1 (no contrast, white text on a white background) and 21 (the most contrast possible, black text on a white background). That number is called the "contrast ratio".
 
-The formula is part of WCAG, the [Web Content Accessibility Guidelines](https://www.a11yproject.com/posts/2020-10-14-wcag2-documents/). How the formula works is not that important, but there are a few numbers you should be aware of. For regular text, you need a contrast value of at least 4.5, and for large text just 3, to pass the text for sufficient contrast. (There are more strict rules available too).
+The formula is part of WCAG, the [Web Content Accessibility Guidelines](https://www.a11yproject.com/posts/wcag2-documents/). How the formula works is not that important, but there are a few numbers you should be aware of. For regular text, you need a contrast value of at least 4.5, and for large text just 3, to pass the text for sufficient contrast. (There are more strict rules available too).
 
 Having to score a 4.5 out of 21 doesn't seem like a very high bar to clear, so why do 86% of websites still have contrast issues?
 
@@ -52,7 +52,7 @@ And herein lies a potential pitfall for designers and developers. If we only go 
 
 ## Resolving text contrast issues
 
-There are many design tool plugins and website accessibility checkers that let you test color contrast by manually picking two colors and comparing them. [See a list of tools in this earlier article on color contrast](https://www.a11yproject.com/posts/2015-01-05-what-is-color-contrast/).
+There are many design tool plugins and website accessibility checkers that let you test color contrast by manually picking two colors and comparing them. [See a list of tools in this earlier article on color contrast](https://www.a11yproject.com/posts/what-is-color-contrast/).
 
 For the most part, text contrast issues can be automatically found, and as a developer whenever something can be automated I prefer doing that over repeating an action (like selecting elements or clicking around with a color picker) over and over again. The chance of me missing something increases the more I have to repeat myself.
 
@@ -68,12 +68,12 @@ Here's what that looks like:
   <video
     controls
     loop
-    poster="{{ '/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/cover.png' | url }}">
+    poster="{{ '/img/posts/fixing-contrast-issues-on-your-own-site-and-elsewhere/cover.png' | url }}">
     <source
-      src="{{ '/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.mp4' | url }}"
+      src="{{ '/img/posts/fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.mp4' | url }}"
       type="video/mp4" />
     <source
-      src="{{ '/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.webm' | url }}"
+      src="{{ '/img/posts/fixing-contrast-issues-on-your-own-site-and-elsewhere/copy-color.webm' | url }}"
       type="video/webm" />
       This browser does not support the <code>video</code> element.
   </video>
@@ -94,7 +94,7 @@ That browser extension is called [Fix Contrast](https://fixa11y.com) and it free
 
 After you install it, it will automatically fix any text with low contrast up to your preferred contrast ratio.
 
-![The Fix Contrast settings where you can pick between "medium" and "high" contrast or set a custom minimum value and optionally add a background color](/img/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/ui.png)
+![The Fix Contrast settings where you can pick between "medium" and "high" contrast or set a custom minimum value and optionally add a background color](/img/posts/fixing-contrast-issues-on-your-own-site-and-elsewhere/ui.png)
 
 You can pick between two defaults, "medium" and "high" contrast, or pick your own minimum ratio for small and large text. You can also opt to add a background color when the text color can't be changed enough.
 

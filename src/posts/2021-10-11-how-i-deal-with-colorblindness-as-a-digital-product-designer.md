@@ -8,7 +8,7 @@ tags:
   - experience
 ---
 
-Colorblindness is any visual anomaly where someone has an altered perception of colors. It can be total or partial. The A11Y Project already has an [article that exhaustively covers the different types of color blindness](https://www.a11yproject.com/posts/2017-10-18-understanding-colourblindness/) while also providing tools that you can use during your design phases.
+Colorblindness is any visual anomaly where someone has an altered perception of colors. It can be total or partial. The A11Y Project already has an [article that exhaustively covers the different types of color blindness](https://www.a11yproject.com/posts/understanding-colourblindness/) while also providing tools that you can use during your design phases.
 
 In this article, I’d like to tell you what it means to be a colorblind designer and what the main problems are that someone with colorblindness can encounter if they decide to pursue a career as a designer.
 

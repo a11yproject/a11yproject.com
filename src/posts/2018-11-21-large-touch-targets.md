@@ -56,7 +56,7 @@ Only the inline element exception case typically applies to web design. Even the
 
 Small touch targets such as icon buttons can use [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) to expand their interactive area without increasing the visible size:
 
-![A translate button with a square purple area surrounding it. The button is labeled, "Button, 32 CSS pixels. The purple area is labeled, "Interactive area, 44 CSS pixels."](/img/posts/2018-11-21-large-touch-targets/touch-target-padding.svg)
+![A translate button with a square purple area surrounding it. The button is labeled, "Button, 32 CSS pixels. The purple area is labeled, "Interactive area, 44 CSS pixels."](/img/posts/large-touch-targets/touch-target-padding.svg)
 
 It is also recommended that you [add space between large interactive elements](https://axesslab.com/hand-tremors/), to help prevent people from accidentally clicking or tapping the wrong one.
 
@@ -68,6 +68,6 @@ Two common methods to open a browser's Inspector panel are typing <kbd>Command/C
 
 If you right click on the interactive element you want to test, it will automatically be highlighted when you choose the Inspect option in the right click menu. For most browsers, this method of selecting an element will also display its CSS pixel height and width:
 
-![Chrome's inspector highlighting the height and width of Wikipedia's logo, which serves as a link back to the Wikipedia homepage. The logo's computed size is 160 by 160 CSS pixels. The inspector also has the code for the logo highlighted, as well as its computed properties. Screenshot.](/img/posts/2018-11-21-large-touch-targets/touch-target-inspector.png)
+![Chrome's inspector highlighting the height and width of Wikipedia's logo, which serves as a link back to the Wikipedia homepage. The logo's computed size is 160 by 160 CSS pixels. The inspector also has the code for the logo highlighted, as well as its computed properties. Screenshot.](/img/posts/large-touch-targets/touch-target-inspector.png)
 
 The inspector also has a Computed panel. It will display the selected element's `height` and `width` values, as well as an alphabetical list of the other computed CSS properties. This can be good for checking how the browser ultimately renders your site's CSS.

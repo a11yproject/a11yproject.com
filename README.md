@@ -2,7 +2,7 @@
 
 # The A11Y Project
 
-The Accessibility [(A11Y)](https://a11yproject.com/posts/2017-08-26-a11y-and-other-numeronyms/) Project is an Open-source, community-driven effort to make digital accessibility easier.
+The Accessibility [(A11Y)](https://a11yproject.com/posts/a11y-and-other-numeronyms/) Project is an Open-source, community-driven effort to make digital accessibility easier.
 
 
 ## Contributing

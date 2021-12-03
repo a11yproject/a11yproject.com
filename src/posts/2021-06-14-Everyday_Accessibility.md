@@ -34,7 +34,7 @@ Punctuation helps text-to-speech tools like screen readers speak more accurately
 Images of text (such as your favorite quote or saying) can be difficult for people with visual impairments to read and don’t allow people with reading difficulties to leverage text-to-speech read-aloud features. When posting these kinds of images, also write out the text in your post.
 
 <figure role="figure" aria-label="Typing out the text in an image makes the content more accessible.">
-	<img alt="Instagram post where the photo is a quote reading 'Whatever is good for your soul do that - Anurup' and the quote's text is also typed in the post." src="/img/posts/2021-06-14-Everyday_Accessibility/instagram_quote.jpg" />
+	<img alt="Instagram post where the photo is a quote reading 'Whatever is good for your soul do that - Anurup' and the quote's text is also typed in the post." src="/img/posts/everyday-accessibility/instagram_quote.jpg" />
 	<figcaption><b>Key Point:</b> Typing out the text in an image makes the content more accessible.</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Pictures are significant in social media, but also inaccessible to visually impa
 When adding descriptions, don’t write every detail, just enough to ensure everyone can understand your post and share in the image’s meaning. For examples, read Scott Vinkle’s [Considerations when writing alt text](https://ux.shopify.com/considerations-when-writing-alt-text-a9c1985a8204).
 
 <figure role="figure" aria-label="Twitter's Add Description feature allows adding alt text for visually impaired readers.">
-	<img alt="Two mobile phone screenshots. The first shows a draft Twitter post reading, 'Coolest clouds I've ever seen' with a photo attached. The second shows the Image Description input screen with text reading 'A field of wildflowers with hills in the background and clouds overhead'." src="/img/posts/2021-06-14-Everyday_Accessibility/twitter_alt.png" />
+	<img alt="Two mobile phone screenshots. The first shows a draft Twitter post reading, 'Coolest clouds I've ever seen' with a photo attached. The second shows the Image Description input screen with text reading 'A field of wildflowers with hills in the background and clouds overhead'." src="/img/posts/everyday-accessibility/twitter_alt.png" />
 	<figcaption><b>Key Point:</b> Features like Twitter's "Add description" allow adding "alt text" for visually impaired readers.</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ Accessibility is not just for the Web, but all of our digital content.
 Assistive technology (AT) doesn't interpret a page or document like people do with their eyes. AT is reading the underlying code markup, which means simply making something _look_ a certain way is not sufficient. When formatting a document or presentation, use the style buttons/options in the program to provide the needed markup; for instance, use the “bulleted list” button rather than just a dash (-) to format a list.
 
 <figure role="figure" aria-label="Explicitly select format options like Numbered List in Microsoft Word to increase accessibility.">
-	<img alt="Sample document including heading and numbered list with arrows pointing out the 'Numbered List' option in the menus and the 'Heading 1' text style used for the heading." src="/img/posts/2021-06-14-Everyday_Accessibility/WordRibbon.png" />
+	<img alt="Sample document including heading and numbered list with arrows pointing out the 'Numbered List' option in the menus and the 'Heading 1' text style used for the heading." src="/img/posts/everyday-accessibility/WordRibbon.png" />
 	<figcaption><b>Key Point:</b> Explicitly select format options like "Numbered List" in Microsoft Word to increase accessibility.</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ Assistive technology (AT) doesn't interpret a page or document like people do wi
 Headings (or titles on slides) provide a great way for everyone to preview, skim, and search content. Structure is particularly helpful for blind readers who want to get an overview of the document before reading line-by-line. Include headings throughout a document and titles on every slide, and remember to use the actual “Heading” and “Title” features of the program, not simply stylized text.
 
 <figure role="figure" aria-label="Using PowerPoint's built-in title placeholders is important for accessibility.">
-	<img alt="Two simple PowerPoint slides each have titles. The mouse cursor hovers over the second slide's thumbnail to show the title text appears as mouse hover content when properly formatted." src="/img/posts/2021-06-14-Everyday_Accessibility/PPT_Titles.png" />
+	<img alt="Two simple PowerPoint slides each have titles. The mouse cursor hovers over the second slide's thumbnail to show the title text appears as mouse hover content when properly formatted." src="/img/posts/everyday-accessibility/PPT_Titles.png" />
 	<figcaption><b>Key Point:</b> Using built-in document structure like PowerPoint's "title" placeholders is important for accessibility.</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ Headings (or titles on slides) provide a great way for everyone to preview, skim
 Just like with social media, you can add alt text descriptions to images in documents as well. You will typically see an input box to add descriptions grouped with other options when you insert the image.
 
 <figure role="figure" aria-label="Add image descriptions (alt text) to images in documents, as in Microsoft Word's Alt Text option.">
-	<img alt="Word document has photo inserted and selected. In the right pane, the Alt Text option is open and showing an input field that reads 'White and yellow flowers'." src="/img/posts/2021-06-14-Everyday_Accessibility/Windows-AltText.png" />
+	<img alt="Word document has photo inserted and selected. In the right pane, the Alt Text option is open and showing an input field that reads 'White and yellow flowers'." src="/img/posts/everyday-accessibility/Windows-AltText.png" />
 	<figcaption><b>Key Point:</b> Add image descriptions ("alt text") to images in documents, as in Microsoft Word's Alt Text option.</figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ Just like with social media, you can add alt text descriptions to images in docu
 Microsoft products (namely Word and PowerPoint) come with a “Check Accessibility” option. Use this to double-check you’ve addressed key accessibility needs.
 
 <figure role="figure" aria-label="Microsoft's Check Accessibility feature helps ensure your document is inclusive.">
-	<img alt="The Check Accessibility menu option is activated on a simple PowerPoint deck where one slide is missing a title. The Accessibility pane shows the 'Missing slide title' error and the mouse hover text for that slide also reads '[No Title]'." src="/img/posts/2021-06-14-Everyday_Accessibility/PPT_A11yChecker.png" />
+	<img alt="The Check Accessibility menu option is activated on a simple PowerPoint deck where one slide is missing a title. The Accessibility pane shows the 'Missing slide title' error and the mouse hover text for that slide also reads '[No Title]'." src="/img/posts/everyday-accessibility/PPT_A11yChecker.png" />
 	<figcaption><b>Key Point:</b> Microsoft's "Check Accessibility" feature helps ensure your document is inclusive.</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ We have to work collectively to make inclusion happen.
 Actively search for “accessibility” in the tools you use every day — from survey creation sites to website design platforms. Understand what you can do to make sure your output is inclusive.
 
 <figure role="figure" aria-label="Search for accessibility tips in your favorite systems like on the Zoom accessibility page.">
-	<img alt="Zoom video conferencing Accessibility landing page showing their accessibility features." src="/img/posts/2021-06-14-Everyday_Accessibility/Zoom_A11y_Page.png" />
+	<img alt="Zoom video conferencing Accessibility landing page showing their accessibility features." src="/img/posts/everyday-accessibility/Zoom_A11y_Page.png" />
 	<figcaption><b>Key Point:</b> Search for accessibility tips in your favorite systems like on the Zoom "Accessibility" page.</figcaption>
 </figure>
 

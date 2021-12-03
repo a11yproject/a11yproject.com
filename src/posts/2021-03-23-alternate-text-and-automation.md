@@ -18,7 +18,7 @@ further_reading:
     url: https://axesslab.com/alt-texts/
     source: Axess Lab
   - title: "Using alt text properly"
-    url: https://www.a11yproject.com/posts/2013-01-14-alt-text/
+    url: https://www.a11yproject.com/posts/alt-text/
     source: The A11Y Project
 tags:
   - myth
@@ -93,7 +93,7 @@ Including relevant detail and abstract themes in alternate text is vital, as the
 
 ## Be wary of false promises
 
-Some companies promise to automatically add accurate alternate text to your image content, either as part of the content creation process, or after the fact as an overlay solution. Because of the issues with automation discussed earlier, [they cannot deliver on this promise](https://www.a11yproject.com/posts/2021-03-08-should-i-use-an-accessibility-overlay/).
+Some companies promise to automatically add accurate alternate text to your image content, either as part of the content creation process, or after the fact as an overlay solution. Because of the issues with automation discussed earlier, [they cannot deliver on this promise](https://www.a11yproject.com/posts/should-i-use-an-accessibility-overlay/).
 
 <figure role="figure" aria-label="Evidence from case Case 1:21-cv-00017-RAL demonstrating an overlay company’s inability to accurately automatically describe an image.">
 	<img alt="A photo of a Belkin car charger. Below is is text that reads: Car Chargers. Figure 9: Example from https://www.belkin.com/us/products/. Bulleted list that reads, 'Original text alterative: None provided. Text alternative with accessiBe's Blind User Profile active: belkin. Power electricity and addiction. Issues: accessiBe's machine-based description does not sufficiently communicate image content and purpose.' Case 1:21-cv-00017-RAL. Document 1-2. Filed 01/07/21. Page 17 of 35. Screenshot." src="/img/posts/2021-03-23-myth-alternate-text-can-be-automated/accessibe.png" />

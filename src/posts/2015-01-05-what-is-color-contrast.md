@@ -38,7 +38,7 @@ Oftentimes companies implement complementary colors to provide the most contrast
 
 ## What does this mean for web accessibility?
 
-On the web, the use of complementary colors is about finding shades that provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](/posts/2013-01-22-understanding-visual-impairment/).
+On the web, the use of complementary colors is about finding shades that provide enough contrast between content and the background for anyone with [low vision impairments and color deficiencies](/posts/understanding-visual-impairment/).
 
 This doesn't mean colors should only be limited to contrasting colors, but instead that care should be taken to ensure a level of contrast in body text, logos, and essential diagrams or other pieces of content. There are a number of tools to help designers and developers check color contrast, including these listed below:
 
@@ -60,5 +60,5 @@ Aside from using color contrast tools to determine your site's colors, there are
 
 - The larger the font and wider the stroke, the more legible it will be with lower contrast. Therefore the contrast requirement for larger font is lower. W3C recommends starting at 18pt regular weight or 14pt bold text.
 - Provide tools for users to adjust the foreground and background colors of your site on the front end. This is especially helpful for people that need to either switch to a low contrast or a high contrast mode. This gives them more control over the contrast ratio and covers everyone using your site regardless of what kind of vision loss or color deficiency they have.
-- Steer clear of text-based images and use text wherever possible. If that's not possible, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](/posts/2013-01-14-alt-text/).
+- Steer clear of text-based images and use text wherever possible. If that's not possible, consider using a high resolution for text images. Speaking of text images, [don't forget to fill out the alt text](/posts/alt-text/).
 - Ensure that your placeholders in forms also have valid color contrast.

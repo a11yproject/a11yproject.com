@@ -58,7 +58,7 @@ To associate a `<label>` with an `<input>`, set the identifier(ID) in the `<inpu
 
 Form insertion [carets](https://developer.mozilla.org/en-US/docs/Glossary/caret#:~:text=A%20caret%20sometimes%20called%20a,is%20called%20the%20insertion%20point.) can be difficult to track. A simple solution is to highlight `<input>` on [focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus). This way, people do not have to guess where they are on the form.
 
-![A form with an input field highlighted in blue.](/img/posts/2020-09-19-how-to-write-accessible-forms/form-field-on-focus.png)
+![A form with an input field highlighted in blue.](/img/posts/how-to-write-accessible-forms/form-field-on-focus.png)
 
 ```css
 input:focus {
