@@ -8,6 +8,26 @@
 	to = "/authors/#nat-tarnoff"
 
 [[redirects]]
+	from = "/2021-10-07-jammies-social-impact-award/"
+	to = "/jammies-social-impact-award/"
+
+[[redirects]]
+	from = "/2021-04-04-ten-dollars-for-ten-k/"
+	to = "/ten-dollars-for-ten-k/"
+
+[[redirects]]
+	from = "/2021-03-08-the-a11y-project-does-not-recommend-using-accessibility-overlay-products/"
+	to = "/the-a11y-project-does-not-recommend-using-accessibility-overlay-products/"
+
+[[redirects]]
+	from = "/2020-08-19-lets-support-inert/"
+	to = "/lets-support-inert/"
+
+[[redirects]]
+	from = "/2020-07-15-2020-redesign/"
+	to = "/redesign/"
+
+[[redirects]]
 	from = "/posts/2017-08-26-a11y-and-other-numeronyms/"
 	to = "/posts/a11y-and-other-numeronyms/"
 
