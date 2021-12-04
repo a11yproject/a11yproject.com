@@ -19,7 +19,7 @@ VoiceOver is a screen-reading tool built into Apple Inc.'s iOS. It helps people 
 
 For developers, it is always a good idea to test out VoiceOver with your project on your chosen testing device.
 
-There is also VoiceOver for macOS - a separate screen reader from VoiceOver iOS. If interested, you can check out [Mat Marquis's detailed guide to macOS VoiceOver](https://www.a11yproject.com/posts/2013-01-14-getting-started-with-voiceover/)!
+There is also VoiceOver for macOS - a separate screen reader from VoiceOver iOS. If interested, you can check out [Mat Marquis's detailed guide to macOS VoiceOver](https://www.a11yproject.com/posts/getting-started-with-voiceover/)!
 
 ## How does VoiceOver work?
 
@@ -71,13 +71,13 @@ For a more comprehensive list of gestures, check out [Apple's official VoiceOver
 VoiceOver Rotor helps us change how VoiceOver works to suit our needs, whether it is adjusting the volume or speaking rate, selecting Braille Screen Input or more.
 
 <figure role="figure" aria-label="VoiceOver Rotor on iOS">
-  <img alt="iOS VoiceOver Rotor showing a list of settings on The A11Y Project's homepage on mobile." src="/img/posts/2020-11-23-getting-started-with-voiceover-ios/voiceover-ios-rotor.jpg">
+  <img alt="iOS VoiceOver Rotor showing a list of settings on The A11Y Project's homepage on mobile." src="/img/posts/getting-started-with-voiceover-ios/voiceover-ios-rotor.jpg">
   <figcaption>VoiceOver Rotor on iOS</figcaption>
 </figure>
 
 1. When VoiceOver is on, you can open VoiceOver Rotor by rotating two fingers on the screen as if you are turning a dial. Alternatively, you can drag up one finger from one hand and drag down another finger from the other hand.
-1. Keep rotating the Rotor and hear the settings being read aloud until you get the one you want.
-1. Finally, swipe one finger up or down to use the setting.
+2. Keep rotating the Rotor and hear the settings being read aloud until you get the one you want.
+3. Finally, swipe one finger up or down to use the setting.
 
 For example, you can read The A11Y Project's webpage on mobile via headings. First, you rotate the Rotor and stop at Headings setting. Then you swipe one finger up and down to read the webpage headings by headings.
 

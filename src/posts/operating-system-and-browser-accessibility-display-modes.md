@@ -45,7 +45,7 @@ An example of a situation where Dark Mode could be useful is checking your phone
 Dark Mode will update **all** UI of the OS that supports it. **Most** apps developed by the company that creates the operating system will also support Dark Mode. Third party apps, websites, and web apps support Dark Mode **only** if the people who write the necessary code to enable it.
 
 <figure role="figure" aria-label="daverupert.com has support for Dark Mode.">
-  <img alt="A side-by-side comparison of light and dark themes for the home page daverupert.com. The navigation, text, background, and link colors update, but the logo and illustration of Dave as a fantasy warrior remain the same." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/dark-mode.png">
+  <img alt="A side-by-side comparison of light and dark themes for the home page daverupert.com. The navigation, text, background, and link colors update, but the logo and illustration of Dave as a fantasy warrior remain the same." src="/img/posts/operating-system-and-browser-accessibility-display-modes/dark-mode.png">
   <figcaption><a href="https://daverupert.com/">daverupert.com</a> has support for Dark Mode.</figcaption>
 </figure>
 
@@ -170,7 +170,7 @@ An example of a situation where Filtered Colors Mode could be useful is writing 
 Filtered Colors Mode will update **all** UI of the OS that supports it.
 
 <figure role="figure" aria-label="iOS set to a grayscale Filtered Colors Mode.">
-  <img alt="iOS Safari showing a search for food art on Pinterest.com. All color has been removed from the display. Screenshot." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/filtered-colors-mode.png">
+  <img alt="iOS Safari showing a search for food art on Pinterest.com. All color has been removed from the display. Screenshot." src="/img/posts/operating-system-and-browser-accessibility-display-modes/filtered-colors-mode.png">
   <figcaption>iOS set to a grayscale Filtered Colors Mode.</figcaption>
 </figure>
 
@@ -229,7 +229,7 @@ An example of one of these conditions could be vision-related issues caused by G
 Increased Contrast Mode will update **all** UI elements for macOS and iOS. **Most** apps developed by Apple will also support this mode. Third party apps that use Apple’s interface library will also support this mode, but custom, nonstandard UI elements will **not** be supported. Websites and web apps do **not** support this mode.
 
 <figure role="figure" aria-label="Preview.app comparing regular and Increased Contrast Mode.">
-  <img alt="A comparison of regular and Increased Contrast Mode UI. The bottom screenshot is Preview in regular mode. The buttons on the app’s toolbar are light gray gradient on a medium gray background. The top screenshot is Preview in Increased Contrast Mode. The buttons on the app’s toolbar are solid white with a black outline. A black outline has also been applied to the overall app window border. Preview is displaying a photo of a Mallard duck." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/increased-contrast-mode.png">
+  <img alt="A comparison of regular and Increased Contrast Mode UI. The bottom screenshot is Preview in regular mode. The buttons on the app’s toolbar are light gray gradient on a medium gray background. The top screenshot is Preview in Increased Contrast Mode. The buttons on the app’s toolbar are solid white with a black outline. A black outline has also been applied to the overall app window border. Preview is displaying a photo of a Mallard duck." src="/img/posts/operating-system-and-browser-accessibility-display-modes/increased-contrast-mode.png">
   <figcaption>Preview.app comparing regular and Increased Contrast Mode.</figcaption>
 </figure>
 
@@ -269,7 +269,7 @@ An example of one of these conditions could be someone avoiding triggering a mig
 Inverted Colors Mode affects **all** content displayed on the screen: Operating System UI, first and third party apps, and web content.
 
 <figure role="figure" aria-label="Safari will automatically invert images when Inverted Color Mode is activate.">
-  <img alt="A side-by-side comparison of regular and Inverted Colors Mode. The left screenshot is a Washington Post review of a Hokusai exhibit, including a headline, feature image of Mount Fuji, author photo and intro paragraph. The article’s design uses black text on a white background. The right screenshot is the same article, but with Inverted Colors Mode activated. The article is now white text on a black background." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/inverted-colors.png">
+  <img alt="A side-by-side comparison of regular and Inverted Colors Mode. The left screenshot is a Washington Post review of a Hokusai exhibit, including a headline, feature image of Mount Fuji, author photo and intro paragraph. The article’s design uses black text on a white background. The right screenshot is the same article, but with Inverted Colors Mode activated. The article is now white text on a black background." src="/img/posts/operating-system-and-browser-accessibility-display-modes/inverted-colors.png">
   <figcaption>Safari will automatically invert images when Inverted Color Mode is activate.</figcaption>
 </figure>
 
@@ -342,7 +342,7 @@ An example of one of these conditions could be someone who has Attention-Deficit
 Reader Mode is only available in certain web browsers, and **may not** work on every web page you visit. Each version has its own set of specialized checks it uses to determine what the main content of the page is, and if it can be presented.
 
 <figure role="figure" aria-label="Firefox’s Reader Mode applied to a blog post.">
-  <img alt="A side-by-side comparison of regular and Reader Mode. The left screenshot is a blog post from the website Damn Interesting about the Mystery Lake of the Himalayas. It features a headline, author, publish date, feature image of the lake, and intro paragraph. The right screenshot is the same blog post, only viewed in Firefox’s Reader Mode. Damn Interesting’s design has been removed in favor of a simple text presentation." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/reader-mode.png">
+  <img alt="A side-by-side comparison of regular and Reader Mode. The left screenshot is a blog post from the website Damn Interesting about the Mystery Lake of the Himalayas. It features a headline, author, publish date, feature image of the lake, and intro paragraph. The right screenshot is the same blog post, only viewed in Firefox’s Reader Mode. Damn Interesting’s design has been removed in favor of a simple text presentation." src="/img/posts/operating-system-and-browser-accessibility-display-modes/reader-mode.png">
   <figcaption><a href="https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages">Firefox’s Reader Mode</a> applied to a blog post.</figcaption>
 </figure>
 
@@ -466,7 +466,7 @@ It is helpful for:
 An example of one of these conditions could be someone with cataracts who wants to stay up to date on social media.
 
 <figure role="figure" aria-label="High Contrast Mode #1 theme.">
-  <img alt="Screenshot of High Contrast Mode running on Windows 10. A Wikipedia page for Bodiam Castle is in the background, displayed in Internet Explorer 11. In the foreground is a window showing Window’s File Explorer. Content for both the Operating System UI and web content have been updated to display high contrast color values." src="/img/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/high-contrast-mode.png">
+  <img alt="Screenshot of High Contrast Mode running on Windows 10. A Wikipedia page for Bodiam Castle is in the background, displayed in Internet Explorer 11. In the foreground is a window showing Window’s File Explorer. Content for both the Operating System UI and web content have been updated to display high contrast color values." src="/img/posts/operating-system-and-browser-accessibility-display-modes/high-contrast-mode.png">
   <figcaption>High Contrast Mode #1 theme.</figcaption>
 </figure>
 

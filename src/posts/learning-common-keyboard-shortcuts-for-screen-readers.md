@@ -27,8 +27,8 @@ A mind map is a diagram that visually organizes information into groups. Shortcu
 Here's a mind map of the common keyboard shortcuts in popular screen readers:
 
 <figure role="figure" aria-label="Mindmap of common screenreader commands.">
-  <img alt="A mind map of common screen reader commands, such as quick keys to navigate by elements, keys for reading content, and reviewing listings of certain elements." src="/img/posts/2020-07-24-learning-common-keyboard-shortcuts-for-screen-readers/common-keyboard-shortcuts-mindmap.png">
-  <figcaption>Mindmap of common screenreader commands. <a href="/img/posts/2020-07-24-learning-common-keyboard-shortcuts-for-screen-readers/common-keyboard-shortcuts-mindmap.png">Larger version.</a></figcaption>
+  <img alt="A mind map of common screen reader commands, such as quick keys to navigate by elements, keys for reading content, and reviewing listings of certain elements." src="/img/posts/learning-common-keyboard-shortcuts-for-screen-readers/common-keyboard-shortcuts-mindmap.png">
+  <figcaption>Mindmap of common screenreader commands. <a href="/img/posts/learning-common-keyboard-shortcuts-for-screen-readers/common-keyboard-shortcuts-mindmap.png">Larger version.</a></figcaption>
 </figure>
 
 The mind map is not an exhaustive listing of screen reader functionality, but shows many of the common commands to help you get a handle on starting out. For example, to learn more about how to 'list all landmarks', you can follow the mapping of branches to the different screen reader software, where the commands will be listed:
@@ -68,6 +68,6 @@ This quiz bookmarklet works on the [Deque screen reader shortcut pages](https://
 
 Demonstrating the quiz bookmarklet on the [JAWS Deque screen reader shortcuts](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts) page:
 
-![The quiz bookmarklet testing common shortcuts such as, 'Stop Reading' and 'Start reading continuously from this point.'](/img/posts/2020-07-24-learning-common-keyboard-shortcuts-for-screen-readers/quiz-bookmarklet-on-deque-with-jaws-shortcuts.png)
+![The quiz bookmarklet testing common shortcuts such as, 'Stop Reading' and 'Start reading continuously from this point.'](/img/posts/learning-common-keyboard-shortcuts-for-screen-readers/quiz-bookmarklet-on-deque-with-jaws-shortcuts.png)
 
 In an ideal world we would be using common screen readers daily to help us learn through experience. While these learning techniques can be helpful, they may not be right for everyone.

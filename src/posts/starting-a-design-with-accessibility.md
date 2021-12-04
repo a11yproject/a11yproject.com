@@ -8,7 +8,7 @@ tags:
   - quicktip
 ---
 
-Designing with accessibility in mind from the start is even better than [reviewing a design for accessibility](https://www.a11yproject.com/posts/2021-08-14-reviewing-a-design-for-accessibility/). It helps us consider the wide range of people who use our products and services.
+Designing with accessibility in mind from the start is even better than [reviewing a design for accessibility](https://www.a11yproject.com/posts/reviewing-a-design-for-accessibility/). It helps us consider the wide range of people who use our products and services.
 
 Here are three things we can do to start a design with accessibility.
 
@@ -18,9 +18,9 @@ Doing a text-only design to helps us clarify the order and content of a page.
 
 ### What to do
 
-We can write out the design in text before opening up our favorite design tool (like [Sketch](https://www.sketch.com/) or [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/products/xd.html)). Start by making a numbered list with pen and paper, or in a text editor. 
+We can write out the design in text before opening up our favorite design tool (like [Sketch](https://www.sketch.com/) or [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/products/xd.html)). Start by making a numbered list with pen and paper, or in a text editor.
 
-<img alt="A handwritten outline of this post: a numbered list of the headings." src="/img/posts/2021-08-25-starting-a-design-with-accessibility/text-only_design.png" />
+<img alt="A handwritten outline of this post: a numbered list of the headings." src="/img/posts/starting-a-design-with-accessibility/text-only_design.png" />
 
 Write out the:
 
@@ -91,12 +91,12 @@ Going off the Happy Path forces us to:
 
 ## Summary
 
-Reviewing a design for accessibility is a good way to make sure we ship accessible experiences. Starting a design with accessibility is even better. 
+Reviewing a design for accessibility is a good way to make sure we ship accessible experiences. Starting a design with accessibility is even better.
 
-Three steps we can start a design and consider accessibility are: 
+Three steps we can start a design and consider accessibility are:
 
-1. Do a text-only design, 
-2. Do an HTML-only design, then 
+1. Do a text-only design,
+2. Do an HTML-only design, then
 3. Go off The Happy Path.
 
 This helps us to think about the diverse and complicated range of people who will be interacting with our designs and code. It helps us make sure that we don't put up any barriers for them.

@@ -265,7 +265,7 @@
 				"checkboxId": "provide-skip-link",
 				"wcag": "2.4.1 Bypass Blocks",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html",
-				"description": "A <a href='/posts/2013-05-11-skip-nav-links/'>skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget."
+				"description": "A <a href='/posts/skip-nav-links/'>skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget."
 			},
 			{
 				"title": "Identify links that open in a new tab or window.",
@@ -414,7 +414,7 @@
 				"checkboxId": "check-specialized-modes",
 				"wcag": "1.4.1 Use of Color",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
-				"description": "Activate <a href='/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/'>modes such as Windows High Contrast or Inverted Colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?"
+				"description": "Activate <a href='/posts/operating-system-and-browser-accessibility-display-modes/'>modes such as Windows High Contrast or Inverted Colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?"
 			},
 			{
 				"title": "Increase text size to 200%.",
@@ -480,7 +480,7 @@
 		]
 	},
 	"color contrast": {
-		"preface": "<a class=\"c-preface__link\" href=\"{{ '/posts/2015-01-05-what-is-color-contrast/' | url }}\">Color contrast</a> is how legible colors are when placed next to, and on top of each other.",
+		"preface": "<a class=\"c-preface__link\" href=\"{{ '/posts/what-is-color-contrast/' | url }}\">Color contrast</a> is how legible colors are when placed next to, and on top of each other.",
 		"tasks": [
 			{
 				"title": "Check the contrast for all normal-sized text.",

@@ -75,7 +75,7 @@ To create accessible applications, basic principles of semantic HTML, keyboard s
 
 ### Landmark role
 
-The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](/posts/2013-01-14-aria-landmark-roles/) for more information.
+The `<nav>` element implicitly has a landmark role of `navigation` allowing screen reader users to navigate directly to this element. Review the article [Quick Tip: Aria Landmark Roles and HTML5 Implicit Mapping](/posts/aria-landmark-roles/) for more information.
 
 ```html
 <nav>

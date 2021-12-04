@@ -61,7 +61,7 @@ Command | Description
 ## The Web Item rotor
 
 <figure role="figure" aria-label="VoiceOver's Web Rotor.">
-  <img alt="macOS VoiceOver’s Web Item Rotor showing a list of headings on The A11Y Project's homepage." src="/img/posts/2013-01-14-getting-started-with-voiceover/voiceover-rotor.png">
+  <img alt="macOS VoiceOver’s Web Item Rotor showing a list of headings on The A11Y Project's homepage." src="/img/posts/getting-started-with-voiceover/voiceover-rotor.png">
   <figcaption>VoiceOver's Web Item Rotor.</figcaption>
 </figure>
 

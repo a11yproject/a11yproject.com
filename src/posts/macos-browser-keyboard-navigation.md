@@ -47,9 +47,9 @@ In the macOS settings, the **"All Controls"** setting must be enabled for all fo
 1. Shortcuts (tab)
 1. macOS Catalina: Select "Use keyboard navigation to move focus between controls" (check box). macOS pre-Catalina: Select "All controls" (radio button). Alternatively, in any macOS version, press <kbd>Control</kbd> + <kbd>F7</kbd> (if you're on a laptop you may also need to press the <kbd>fn</kbd> key).
 
-![The macOS (Catalina) Settings window. The screenshot is highlighting the selection of the 'Use keyboard navigation to move focus between controls' check box.](/img/posts/2017-12-29-macos-browser-keyboard-navigation/macos-catalina-settings-keyboard-shortcuts.png)
+![The macOS (Catalina) Settings window. The screenshot is highlighting the selection of the 'Use keyboard navigation to move focus between controls' check box.](/img/posts/macos-browser-keyboard-navigation/macos-catalina-settings-keyboard-shortcuts.png)
 
-![The macOS Settings window pre-Catalina. The screenshot is highlighting the selection of the 'All controls' radio button.](/img/posts/2017-12-29-macos-browser-keyboard-navigation/macos-catalina-settings-keyboard-all-controls.png)
+![The macOS Settings window pre-Catalina. The screenshot is highlighting the selection of the 'All controls' radio button.](/img/posts/macos-browser-keyboard-navigation/macos-catalina-settings-keyboard-all-controls.png)
 
 After updating this setting you will need to quit and restart your browsers to have the update take effect.
 
@@ -71,7 +71,7 @@ Additionally for Safari, you can enable the **"highlighting of each item"** sett
 1. Advanced (tab)
 1. Check "Press Tab to highlight each item on a webpage" (checkbox)
 
-![The Safari Preferences window. The screenshot is highlighting the selection of the 'Press Tab to highlight each item on a webpage' checkbox.](/img/posts/2017-12-29-macos-browser-keyboard-navigation/safari-tab-to-highlight-each-item.png)
+![The Safari Preferences window. The screenshot is highlighting the selection of the 'Press Tab to highlight each item on a webpage' checkbox.](/img/posts/macos-browser-keyboard-navigation/safari-tab-to-highlight-each-item.png)
 
 With these changed settings in place you should now be able to use the <kbd>Tab</kbd> key to navigate around web pages as expected.
 
@@ -83,7 +83,7 @@ Just like in Safari, a similar setting is available in Chrome. Verify that this 
 1. Appearance
 1. Check "Pressing Tab on a webpage highlights links, as well as form fields" (switch)
 
-![The Chrome Settings page. The screenshot is highlighting the selection of the 'Pressing Tab on a webpage highlights links, as well as form fields' switch.](/img/posts/2017-12-29-macos-browser-keyboard-navigation/chrome-pressing-tab.png)
+![The Chrome Settings page. The screenshot is highlighting the selection of the 'Pressing Tab on a webpage highlights links, as well as form fields' switch.](/img/posts/macos-browser-keyboard-navigation/chrome-pressing-tab.png)
 
 ### Highlight each item in Firefox
 
@@ -96,11 +96,11 @@ Unlike Safari and Chrome, Firefox does not have an option in the settings page f
 <ol>
 	<li>Open a new tab and go to <code>about:config</code></li>
 	<li>Right Click and select New > Integer
-	<img alt="The Firefox about:config add config menu. The screenshot is highlighting the selection of the New Integer configuration." src="/img/posts/2017-12-29-macos-browser-keyboard-navigation/firefox-add-config.png"></li>
+	<img alt="The Firefox about:config add config menu. The screenshot is highlighting the selection of the New Integer configuration." src="/img/posts/macos-browser-keyboard-navigation/firefox-add-config.png"></li>
 	<li>Enter the preference name <code>accessibility.tabfocus</code>. Click OK.
-	<img alt="The Firefox about:config add config menu. The screenshot is highlighting entering accessibility.tabfocus as a preference name." src="/img/posts/2017-12-29-macos-browser-keyboard-navigation/firefox-config-name.png"></li>
+	<img alt="The Firefox about:config add config menu. The screenshot is highlighting entering accessibility.tabfocus as a preference name." src="/img/posts/macos-browser-keyboard-navigation/firefox-config-name.png"></li>
 	<li>Enter the number <code>7</code>. Click OK.
-	<img alt="The Firefox about:config add config dialog. The screenshot is highlighting entering 7 as a preference value." src="/img/posts/2017-12-29-macos-browser-keyboard-navigation/firefox-config-value.png"></li>
+	<img alt="The Firefox about:config add config dialog. The screenshot is highlighting entering 7 as a preference value." src="/img/posts/macos-browser-keyboard-navigation/firefox-config-value.png"></li>
 </ol>
 
 #### To reset
@@ -109,6 +109,6 @@ Unlike Safari and Chrome, Firefox does not have an option in the settings page f
 	<li>Open a new tab and go to <code>about:config</code></li>
 	<li>Find the <code>accessibility.tabfocus</code> preference row. (tip: use search field at top of page)</li>
 	<li>Right Click on the row and select Reset
-	<img alt="The Firefox about:config right click menu. The screenshot is highlighting the selection of the Reset menu item." src="/img/posts/2017-12-29-macos-browser-keyboard-navigation/firefox-config-reset.png"></li>
+	<img alt="The Firefox about:config right click menu. The screenshot is highlighting the selection of the Reset menu item." src="/img/posts/macos-browser-keyboard-navigation/firefox-config-reset.png"></li>
 	<li>Restart Firefox</li>
 </ol>

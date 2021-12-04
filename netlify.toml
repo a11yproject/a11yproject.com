@@ -4,85 +4,253 @@
 		Permissions-Policy = "interest-cohort=()"
 
 [[redirects]]
-	from = "/posts/how-to-hide-content/"
-	to = "/posts/2013-01-11-how-to-hide-content/"
-
-[[redirects]]
-	from = "/posts/never-use-maximum-scale/"
-	to = "/posts/2013-01-14-never-use-maximum-scale/"
-
-[[redirects]]
-	from = "/posts/alt-text/"
-	to = "/posts/2013-01-14-alt-text/"
-
-[[redirects]]
-	from = "/posts/aria-landmark-roles/"
-	to = "/posts/2013-01-14-aria-landmark-roles/"
-
-[[redirects]]
-	from = "/posts/future-proof-your-accessibility/"
-	to = "/posts/2013-01-16-future-proof-your-accessibility/"
-
-[[redirects]]
-	from = "/posts/never-remove-css-outlines/"
-	to = "/posts/2013-01-25-never-remove-css-outlines/"
-
-[[redirects]]
-	from = "/posts/2013-04-21-myth-screen-readers-dont-use-javascript"
-	to = "/posts/2013-04-21-people-who-use-screen-readers-dont-use-javascript/"
-
-[[redirects]]
-	from = "/posts/posts/skip-nav-links/"
-	to = "/posts/2013-05-11-skip-nav-links/"
-
-[[redirects]]
-	from = "/posts/posts/understanding-vestibular-disorders/"
-	to = "/posts/2013-05-15-understanding-vestibular-disorders/"
-
-[[redirects]]
-	from = "/posts/getting-started-aria/"
-	to = "/posts/2014-05-15-getting-started-aria/"
-
-[[redirects]]
-	from = "/posts/what-is-color-contrast/"
-	to = "/posts/2015-01-05-what-is-color-contrast/"
-
-[[redirects]]
-	from = "/posts/placeholder-input-elements/"
-	to = "/posts/2016-01-07-placeholder-input-elements"
-
-[[redirects]]
-	from = "/posts/a11y-and-other-numeronyms/"
-	to = "/posts/2017-08-26-a11y-and-other-numeronyms/"
-
-[[redirects]]
-	from = "/posts/safari-keyboard-navigation"
-	to = "/posts/2017-12-29-macos-browser-keyboard-navigation/"
-
-[[redirects]]
-	from = "/posts/macos-browser-keyboard-navigation/"
-	to = "/posts/2017-12-29-macos-browser-keyboard-navigation/"
-
-[[redirects]]
-	from = "/posts/operating-system-and-browser-accessibility-display-modes/"
-	to = "/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/"
-
-[[redirects]]
-	from = "/posts/creating-valid-and-accessible-links/"
-	to = "/posts/2019-02-15-creating-valid-and-accessible-links/"
-
-[[redirects]]
-	from = "/posts/aria-has-perfect-support/"
-	to = "/posts/2020-05-13-aria-has-perfect-support/"
-
-[[redirects]]
 	from = "/authors/#greg-tarnoff"
 	to = "/authors/#nat-tarnoff"
 
 [[redirects]]
-	from = "/posts/2020-02-05-text-resizing-in-ios-and-android/"
-	to = "/posts/2021-02-05-text-resizing-in-ios-and-android/"
+	from = "/2021-10-07-jammies-social-impact-award/"
+	to = "/jammies-social-impact-award/"
+
+[[redirects]]
+	from = "/2021-04-04-ten-dollars-for-ten-k/"
+	to = "/ten-dollars-for-ten-k/"
+
+[[redirects]]
+	from = "/2021-03-08-the-a11y-project-does-not-recommend-using-accessibility-overlay-products/"
+	to = "/the-a11y-project-does-not-recommend-using-accessibility-overlay-products/"
+
+[[redirects]]
+	from = "/2020-08-19-lets-support-inert/"
+	to = "/lets-support-inert/"
+
+[[redirects]]
+	from = "/2020-07-15-2020-redesign/"
+	to = "/redesign/"
+
+[[redirects]]
+	from = "/posts/2017-08-26-a11y-and-other-numeronyms/"
+	to = "/posts/a11y-and-other-numeronyms/"
+
+[[redirects]]
+	from = "/posts/2016-03-05-accessible-data-tables/"
+	to = "/posts/accessible-data-tables/"
+
+[[redirects]]
+	from = "/posts/2013-01-11-myth-accessibility-is-blind-people/"
+	to = "/posts/accessibility-is-blind-people/"
+
+[[redirects]]
+	from = "/posts/2021-07-02-accessibility-seo/"
+	to = "/posts/accessibility-seo/"
+
+[[redirects]]
+	from = "/posts/2013-01-14-alt-text/"
+	to = "/posts/alt-text/"
+
+[[redirects]]
+	from = "/posts/2021-03-23-alternate-text-and-automation/"
+	to = "/posts/alternate-text-and-automation/"
 
 [[redirects]]
 	from = "/posts/2021-03-23-myth-alternate-text-can-be-automated/"
-	to = "/posts/2021-03-23-alternate-text-and-automation/"
+	to = "/posts/alternate-text-and-automation/"
+
+[[redirects]]
+	from = "/posts/2020-08-20-an-indepth-guide-to-aria-roles/"
+	to = "/posts/an-indepth-guide-to-aria-roles/"
+
+[[redirects]]
+	from = "/posts/2020-05-13-aria-has-perfect-support/"
+	to = "/posts/aria-has-perfect-support/"
+
+[[redirects]]
+	from = "/posts/2018-07-30-aria-properties/"
+	to = "/posts/aria-properties/"
+
+[[redirects]]
+	from = "/posts/2018-07-30-aria-states/"
+	to = "/posts/aria-states/"
+
+[[redirects]]
+	from = "/posts/2013-01-14-aria-landmark-roles/"
+	to = "/posts/aria-landmark-roles/"
+
+[[redirects]]
+	from = "/posts/2013-01-25-check-comprehension-level/"
+	to = "/posts/check-comprehension-level/"
+
+[[redirects]]
+	from = "/posts/2013-01-22-check-contrast-with-mobile-device/"
+	to = "/posts/check-contrast-with-mobile-device/"
+
+[[redirects]]
+	from = "/posts/2019-02-15-creating-valid-and-accessible-links/"
+	to = "/posts/creating-valid-and-accessible-links/"
+
+[[redirects]]
+	from = "/posts/2020-12-22-design-accessible-animation/"
+	to = "/posts/design-accessible-animation/"
+
+[[redirects]]
+	from = "/posts/2020-10-28-dyslexia-fonts/"
+	to = "/posts/dyslexia-fonts/"
+
+[[redirects]]
+	from = "/posts/2021-06-14-Everyday_Accessibility/"
+	to = "/posts/everyday-accessibility/"
+
+[[redirects]]
+	from = "/posts/2021-06-07-fixing-contrast-issues-on-your-own-site-and-elsewhere/"
+	to = "/posts/fixing-contrast-issues-on-your-own-site-and-elsewhere/"
+
+[[redirects]]
+	from = "/posts/2013-01-16-future-proof-your-accessibility/"
+	to = "/posts/future-proof-your-accessibility/"
+
+[[redirects]]
+	from = "/posts/2014-05-15-getting-started-aria/"
+	to = "/posts/getting-started-aria/"
+
+[[redirects]]
+	from = "/posts/2015-05-29-getting-started-with-nvda/"
+	to = "/posts/getting-started-with-nvda/"
+
+[[redirects]]
+	from = "/posts/2021-09-03-getting-started-with-orca/"
+	to = "/posts/getting-started-with-orca/"
+
+[[redirects]]
+	from = "/posts/2013-01-14-getting-started-with-voiceover/"
+	to = "/posts/getting-started-with-voiceover/"
+
+[[redirects]]
+	from = "/posts/2020-11-23-getting-started-with-voiceover-ios/"
+	to = "/posts/getting-started-with-voiceover-ios/"
+
+[[redirects]]
+	from = "/posts/2021-10-11-how-i-deal-with-colorblindness-as-a-digital-product-designer/"
+	to = "/posts/how-i-deal-with-colorblindness-as-a-digital-product-designer/"
+
+[[redirects]]
+	from = "/posts/2020-09-19-how-to-write-accessible-forms/"
+	to = "/posts/how-to-write-accessible-forms/"
+
+[[redirects]]
+	from = "/posts/2013-01-11-how-to-hide-content/"
+	to = "/posts/how-to-hide-content/"
+
+[[redirects]]
+	from = "/posts/2013-02-09-how-to-use-application-role/"
+	to = "/posts/how-to-use-application-role/"
+
+[[redirects]]
+	from = "/posts/2021-01-28-how-to-use-the-tabindex-attribute/"
+	to = "/posts/how-to-use-the-tabindex-attribute/"
+
+[[redirects]]
+	from = "/posts/2020-10-02-introduction-to-wai/"
+	to = "/posts/introduction-to-wai/"
+
+[[redirects]]
+	from = "/posts/2018-11-21-large-touch-targets/"
+	to = "/posts/large-touch-targets/"
+
+[[redirects]]
+	from = "/posts/2020-07-24-learning-common-keyboard-shortcuts-for-screen-readers/"
+	to = "/posts/learning-common-keyboard-shortcuts-for-screen-readers/"
+
+[[redirects]]
+	from = "/posts/2021-10-18-lets-say-the-word-disability/"
+	to = "/posts/lets-say-the-word-disability/"
+
+[[redirects]]
+	from = "/posts/2017-12-29-macos-browser-keyboard-navigation/"
+	to = "/posts/macos-browser-keyboard-navigation/"
+
+[[redirects]]
+	from = "/posts/2013-01-11-navigate-using-just-your-keyboard/"
+	to = "/posts/navigate-using-just-your-keyboard/"
+
+[[redirects]]
+	from = "/posts/2013-01-15-never-use-auto-play/"
+	to = "/posts/never-use-auto-play/"
+
+[[redirects]]
+	from = "/posts/2013-01-14-never-use-maximum-scale/"
+	to = "/posts/never-use-maximum-scale/"
+
+[[redirects]]
+	from = "/posts/2013-01-25-never-remove-css-outlines/"
+	to = "/posts/never-remove-css-outlines/"
+
+[[redirects]]
+	from = "/posts/2020-10-15-no-mouse-days/"
+	to = "/posts/no-mouse-days/"
+
+[[redirects]]
+	from = "/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/"
+	to = "/posts/operating-system-and-browser-accessibility-display-modes/"
+
+[[redirects]]
+	from = "/posts/2016-01-07-placeholder-input-elements/"
+	to = "/posts/placeholder-input-elements/"
+
+[[redirects]]
+	from = "/posts/2013-04-21-myth-screen-readers-dont-use-javascript"
+	to = "/posts/people-who-use-screen-readers-dont-use-javascript/"
+
+[[redirects]]
+	from = "/posts/2018-11-26-resize-text/"
+	to = "/posts/resize-text/"
+
+[[redirects]]
+	from = "/posts/2021-08-14-reviewing-a-design-for-accessibility/"
+	to = "/posts/reviewing-a-design-for-accessibility/"
+
+[[redirects]]
+	from = "/posts/2017-12-29-macos-browser-keyboard-navigation/"
+	to = "/posts/safari-keyboard-navigation/"
+
+[[redirects]]
+	from = "/posts/2021-03-08-should-i-use-an-accessibility-overlay/"
+	to = "/posts/should-i-use-an-accessibility-overlay/"
+
+[[redirects]]
+	from = "/posts/2013-05-11-skip-nav-links/"
+	to = "/posts/posts/skip-nav-links/"
+
+[[redirects]]
+	from = "/posts/2021-08-25-starting-a-design-with-accessibility/"
+	to = "/posts/starting-a-design-with-accessibility/"
+
+[[redirects]]
+	from = "/posts/2020-02-05-text-resizing-in-ios-and-android/"
+	to = "/posts/text-resizing-in-ios-and-android/"
+
+[[redirects]]
+	from = "/posts/2013-04-22-title-attributes/"
+	to = "/posts/title-attributes/"
+
+[[redirects]]
+	from = "/posts/2017-10-18-understanding-colourblindness/"
+	to = "/posts/understanding-colourblindness/"
+
+[[redirects]]
+	from = "/posts/posts/2013-05-15-understanding-vestibular-disorders/"
+	to = "/posts/understanding-vestibular-disorders/"
+
+[[redirects]]
+	from = "/posts/2013-01-22-understanding-visual-impairment/"
+	to = "/posts/understanding-visual-impairment/"
+
+[[redirects]]
+	from = "/posts/2013-07-17-using-caption-services-with-html5-video/"
+	to = "/posts/using-caption-services-with-html5-video/"
+
+[[redirects]]
+	from = "/posts/2020-10-14-wcag2-documents/"
+	to = "/posts/wcag2-documents/"
+
+[[redirects]]
+	from = "/posts/2015-01-05-what-is-color-contrast/"
+	to = "/posts/what-is-color-contrast/"

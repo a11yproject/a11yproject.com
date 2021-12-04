@@ -21,7 +21,7 @@ tags:
   - myth
 ---
 
-[Accessible Rich Internet Applications (ARIA)](/posts/2014-05-15-getting-started-aria/) is an extension of HTML. It is a technology that adds roles, states, and properties that are designed to help with the accessibility of websites and web apps.
+[Accessible Rich Internet Applications (ARIA)](/posts/getting-started-aria/) is an extension of HTML. It is a technology that adds roles, states, and properties that are designed to help with the accessibility of websites and web apps.
 
 
 ## Background

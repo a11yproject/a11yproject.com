@@ -50,4 +50,4 @@ Also consider that apps may contain HTML views. There are a couple things to kee
 
 In your HTML, make sure to use relative units for responsive design. Here's [a resource from The CSS Layout Workshop](https://thecssworkshop.com/lessons/relative-units) for applying them to your HTML via CSS. If you don't use relative units, people could end up having to use horizontal and vertical scrolling to view content, [which violates WCAG 1.4.10](https://www.w3.org/TR/WCAG21/#reflow).
 
-Note that a person's pinch-to-zoom capability will be frustrated on mobile < iOS10 if you add `maximum-scale=1.0` to the `meta` element. This could [force a person to view your content without zooming](https://www.a11yproject.com/posts/2013-01-14-never-use-maximum-scale/), which could make that content unviewable to them.
+Note that a person's pinch-to-zoom capability will be frustrated on mobile < iOS10 if you add `maximum-scale=1.0` to the `meta` element. This could [force a person to view your content without zooming](https://www.a11yproject.com/posts/never-use-maximum-scale/), which could make that content unviewable to them.
