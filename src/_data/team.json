@@ -96,7 +96,6 @@
 	"alumni": [
 		{
 			"name": "Alex Brenon",
-			"website": "https://alexroseb.com/",
 			"photo": "{{ '/img/team/alex-brenon.jpg' | url }}",
 			"biography": "Research Assistant for ESD and Classics at UMass Amherst. Creator of Pop-Up Astronomy."
 		},
