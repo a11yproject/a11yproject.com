@@ -44,7 +44,7 @@ This allows a person to know an image is present, and what the image’s content
 It’s up to the person writing the code to add an `alt` attribute. It’s also up to them to look at the image they’re using and write an accurate description. Many Content Management Systems (CMS) allow the people who use them to include alt text by writing it in a dedicated input field.
 
 <figure role="figure" aria-label="WordPress’ alt text input field for uploaded images.">
-	<img alt="A textarea with a label that reads, 'Image settings. Alt text (alternative text). Below the textarea is a sub-label that reads, 'Describe the purpose of the image. Leave empty if the image is purely decorative.' Screenshot." src="/img/posts/2021-03-23-myth-alternate-text-can-be-automated/wordpress-alt-field.png" />
+	<img alt="A textarea with a label that reads, 'Image settings. Alt text (alternative text). Below the textarea is a sub-label that reads, 'Describe the purpose of the image. Leave empty if the image is purely decorative.' Screenshot." src="/img/posts/myth-alternate-text-can-be-automated/wordpress-alt-field.png" />
 	<figcaption>WordPress’ alt text input field for uploaded images.</figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ Image recognition is extremely literal. For example, if you have an image of a f
 
 Consider the following example:
 
-<img alt="A family of four smiling while standing on top of a scenic vacation outlook. The father is taking a selfie while holding his daughter. The mother has her son on her back, and is standing next to him. Behind them the sun is gently setting over an ocean villa." src="/img/posts/2021-03-23-myth-alternate-text-can-be-automated/vacation-photo.jpg" />
+<img alt="A family of four smiling while standing on top of a scenic vacation outlook. The father is taking a selfie while holding his daughter. The mother has her son on her back, and is standing next to him. Behind them the sun is gently setting over an ocean villa." src="/img/posts/myth-alternate-text-can-be-automated/vacation-photo.jpg" />
 
 An automated description may report something along the lines of:
 
@@ -86,7 +86,7 @@ While this is technically correct, it doesn’t communicate the full experience.
 
 This discrepancy is even more apparent if an image is used as metaphor to help communicate larger, more abstract themes.
 
-<img alt="The words, 'wow,' 'so meme,' 'much describe,' 'such a11y,' 'wow' set in a cartoon font floating above a Shiba Inu dog staring sideways at the camera with raised eyebrows." src="/img/posts/2021-03-23-myth-alternate-text-can-be-automated/doge.png" />
+<img alt="The words, 'wow,' 'so meme,' 'much describe,' 'such a11y,' 'wow' set in a cartoon font floating above a Shiba Inu dog staring sideways at the camera with raised eyebrows." src="/img/posts/myth-alternate-text-can-be-automated/doge.png" />
 
 Including relevant detail and abstract themes in alternate text is vital, as they are why image may be included in the first place.
 
@@ -96,7 +96,7 @@ Including relevant detail and abstract themes in alternate text is vital, as the
 Some companies promise to automatically add accurate alternate text to your image content, either as part of the content creation process, or after the fact as an overlay solution. Because of the issues with automation discussed earlier, [they cannot deliver on this promise](https://www.a11yproject.com/posts/should-i-use-an-accessibility-overlay/).
 
 <figure role="figure" aria-label="Evidence from case Case 1:21-cv-00017-RAL demonstrating an overlay company’s inability to accurately automatically describe an image.">
-	<img alt="A photo of a Belkin car charger. Below is is text that reads: Car Chargers. Figure 9: Example from https://www.belkin.com/us/products/. Bulleted list that reads, 'Original text alterative: None provided. Text alternative with accessiBe's Blind User Profile active: belkin. Power electricity and addiction. Issues: accessiBe's machine-based description does not sufficiently communicate image content and purpose.' Case 1:21-cv-00017-RAL. Document 1-2. Filed 01/07/21. Page 17 of 35. Screenshot." src="/img/posts/2021-03-23-myth-alternate-text-can-be-automated/accessibe.png" />
+	<img alt="A photo of a Belkin car charger. Below is is text that reads: Car Chargers. Figure 9: Example from https://www.belkin.com/us/products/. Bulleted list that reads, 'Original text alterative: None provided. Text alternative with accessiBe's Blind User Profile active: belkin. Power electricity and addiction. Issues: accessiBe's machine-based description does not sufficiently communicate image content and purpose.' Case 1:21-cv-00017-RAL. Document 1-2. Filed 01/07/21. Page 17 of 35. Screenshot." src="/img/posts/myth-alternate-text-can-be-automated/accessibe.png" />
 	<figcaption><a href="https://www.scribd.com/document/490740167/Exhibit-A-for-21-cv-00017">Evidence from Case 1:21-cv-00017-RAL</a> demonstrating an overlay company’s inability to accurately automatically describe an image.</figcaption>
 </figure>
 
