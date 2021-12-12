@@ -3,7 +3,7 @@
 Technology decisions for The A11Y Project.
 
 
-## Prefer
+## Preferences
 
 The A11Y Project uses the following technology:
 
@@ -63,4 +63,4 @@ Our content needs do not require the benefits of a Single Page Application appro
 
 ### YAML
 
-We previously used to use YAML for storing data, but now prefer JSON. The exception to this is for Eleventy and Markdown frontmatter.
+We previously used YAML for storing data, but now preferring JSON. The exception to this is for Eleventy and Markdown frontmatter.
