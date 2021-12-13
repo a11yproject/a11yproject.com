@@ -81,7 +81,7 @@
 		"markdown-it": "^12.1.0",
 		"markdown-it-anchor": "^8.1.0",
 		"markdown-it-footnote": "^3.0.3",
-		"sass": "1.32.13",
+		"sass": "1.45.0",
 		"stylelint": "^13.13.1"
 	}
 }
