@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $_checklist-checkbox-size: (
 	small: 1.25rem,
 	large: 1.5rem
@@ -166,16 +168,16 @@ margin-left: 1rem;
 		display: block;
 		float: left;
 		height: map-get($_checklist-checkbox-size, small);
-		margin-right: map-get($_checklist-checkbox-size, small) / 1.5;
-		margin-left: map-get($_checklist-checkbox-size, small) / -2; // This covers the native checkbox element
+		margin-right: math.div(map-get($_checklist-checkbox-size, small), 1.5);
+		margin-left: math.div(map-get($_checklist-checkbox-size, small), -2); // This covers the native checkbox element
 		position: relative;
 		width: map-get($_checklist-checkbox-size, small);
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
 			height: map-get($_checklist-checkbox-size, large);
-			margin-right: map-get($_checklist-checkbox-size, large) / 1.5;
-			margin-left: map-get($_checklist-checkbox-size, large) / -2; // This covers the native checkbox element
+			margin-right: math.div(map-get($_checklist-checkbox-size, large), 1.5);
+			margin-left: math.div(map-get($_checklist-checkbox-size, large), -2); // This covers the native checkbox element
 			width: map-get($_checklist-checkbox-size, large);
 		}
 	}
