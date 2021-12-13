@@ -19,7 +19,7 @@ $_person-distance: (
 
 	margin-top: -2.75rem;
 	position: absolute;
-	right: calc(50% - #{map-get($avatar_dimensions, "tiny") / 2});
+	right: calc(50% - #{map-get($avatar_dimensions, "tiny") * 0.5});
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {

@@ -73,7 +73,7 @@
 		@include mappy-bp(palm-medium) {
 			margin-right: map-get($global-post-content-inset, "medium");
 			margin-bottom: 2rem;
-			margin-left: map-get($global-post-content-inset, "medium") / 2;
+			margin-left: map-get($global-post-content-inset, "medium") * 0.5;
 		}
 
 		@include mappy-bp(lap-small) {

@@ -8,14 +8,16 @@
 // $ratio     - The number used to construct the modular scale. Defaults to `$global-type-scale`.
 //
 // Styleguide Logic.Functions.modular-scale
+@use "sass:math";
+
 @function ms($increment, $base-size: $global-type-size, $ratio: $global-type-scale) {
 	@for $i from 1 through $increment {
 		@if $increment > 0 {
 			$base-size: $base-size * $ratio;
 		} @else {
-			$base-size: $base-size / $ratio;
+			$base-size: math.div($base-size, $ratio);
 		}
 	}
 	// Returns font size in rems, rounded to `$precision`'s length
-	@return round($base-size / $global-type-size * $precision) / $precision * 1rem;
+	@return math.div(round(math.div($base-size, $global-type-size) * $precision), $precision) * 1rem;
 }
