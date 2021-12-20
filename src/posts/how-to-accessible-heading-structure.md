@@ -1,12 +1,12 @@
 ---
-title: Accessible heading structure
-description: Headings are the backbone of the content of a page. A visitor should be able to scan or navigate a webpage using headings to get a good impression of its content.
-category: How-to
-author: Rian Rietveld
-date: 2021-10-25
-thanks: "Thank you to <a href='https://twitter.com/stevefaulkner'>Steve Faulkner</a> for his feedback."
-tags:
-- howto
+title: Accessible heading structure  
+description: Headings are the backbone of the content of a page. A visitor should be able to scan or navigate a webpage using headings to get a good impression of its content.    
+category: How-to  
+author: Rian Rietveld  
+date: 2021-12-20  
+thanks: "Thank you to <a href='https://twitter.com/stevefaulkner'>Steve Faulkner</a> for his feedback."  
+tags:  
+- howto  
 ---
 
 Headings are the backbone of the content of a page. A visitor should be able to scan the webpage using headings to get a good impression of its content.
@@ -28,7 +28,7 @@ In short: use a heading when the content or the page structure requires it.
 
 ### Best practices summarized
 - Use one unique `H1` per page that describes what that page is about. That `H1` preferably starts just above the main content;
-- Use headings to describe the content below it. Do not use an HTML heading just to make the text appear bigger or stand out;
+- Use headings to describe the content below. Do not use an HTML heading just to make the text appear bigger or stand out;
 - Use heading levels like the index of a book: hierarchical. Do not choose a heading by its size, but by its level in the context of the content;
 - Do not skip a heading level from the top down.
 
@@ -52,8 +52,8 @@ For example:
     h2 = main menu
 h1 = title of a news article
     h2 = subheading in the content of the news article
-        h3 =  subheading of the h2
-            h4 =  subheading of the h3
+        h3 = subheading of the h2
+            h4 = subheading of the h3
     h2 = subheading in the content of the news article
     h2 = Related news (the aside section)
     h2 = Contact us (in the footer)
@@ -186,11 +186,17 @@ There are constructions possible to only wrap the logo in an H1 on the homepage 
 
 With ARIA, it's possible to add the role of heading and the aria-level attribute to an element.
 ``` html
-<div role="heading" aria-level="2">
+
+<div role="heading" aria-level="2">My Heading</div>
+
+
 ```
 Or even change the level of a heading:
 ``` html
-<h2 aria-level="3">
+
+<h2 aria-level="3">My Heading</h2>
+
+
 ```
 
 The [role="heading" is very well-supported](https://a11ysupport.io/tech/aria/heading_role) by assistive technology.
@@ -207,7 +213,7 @@ One of the most remarkable reasons mentioned: use aria-headings for SEO. If a he
 
 This creates a shadow heading structure for screen readers, different from the actual HTML heading structure. As there is no evidence that search engines need a different heading structure for presenting content this can be considered as bad practice. 
 
-Provide a good heading structure for the reader.
+Provide a good heading structure for the reader, and the reader only.
 
 ### aria-labelledby
 With aria-labelledby it is possible to give a section or other landmark a name by referring to a heading. See also: [Getting started with ARIA](https://www.a11yproject.com/posts/2014-05-15-getting-started-aria/#aria-labelledby).
@@ -254,6 +260,8 @@ The browser add-on HeadingsMap by Jorge Rumoroso gives a clear visual presentati
 - [HeadingsMap for FireFox](https://addons.mozilla.org/en-GB/firefox/addon/headingsmap/)
 - [HeadingsMap for Edge](https://microsoftedge.microsoft.com/addons/detail/headingsmap/bokekiiaddinealohkmhjcgfanndmcgo)
 
+![Screenshot of how HeadingsMap visualises the heading structure in a sidebar of the homepage of the Accessibility Project](/img/posts/how-to-accessible-heading-structure/headings-map.png)
+
 ### WAVE Evaluation Tool by WebAIM 
 This tools shows, embedded within the landmarks, a visual presentation of the heading structure.
 
@@ -261,12 +269,18 @@ This tools shows, embedded within the landmarks, a visual presentation of the he
 - [WAVE for Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
 - [WAVE for FireFox](https://addons.mozilla.org/en-GB/firefox/addon/wave-accessibility-tool/)
 
+![Screenshot of how Wave visualises the heading structure in a sidebar the homepage of the Accessibility Project](/img/posts/how-to-accessible-heading-structure/wave.png)
+
 ### WordPress 
 This CMS provides per page information about the number of headings and a visual heading presentation. This info can be found with the "Details" option (the i-icon) in the toolbar at the top of the edit page functionality.
- 
- 
+
+![Screenshot of how WordPress visualises the heading structure on a page in the editor](/img/posts/how-to-accessible-heading-structure/wordpress.png)
+
 ## Further reading
 
 - [Heading off confusion: When do headings fail WCAG?](https://www.tpgi.com/heading-off-confusion-when-do-headings-fail-wcag/) by David Swallow, TPGi.
 - [H1-H6 Heading Tags and SEO: the Ultimate Guide](https://www.contentkingapp.com/academy/headings/) by Content King
 - [Will Accessibility Become Increasingly Important for SEO?](https://www.deque.com/blog/accessibility-importance-for-seo/) by David Oltean, Deque
+- [Headings | Usability & Web Accessibility](https://usability.yale.edu/web-accessibility/articles/headings), on yale.edu.
+- [How to structure headings for web accessibility](https://www.nomensa.com/blog/how-structure-headings-web-accessibility) by Amani Ali
+- [Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/) on Web Accessibility Tutorials by WAI
