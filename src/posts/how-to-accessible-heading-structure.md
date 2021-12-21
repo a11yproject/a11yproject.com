@@ -278,6 +278,7 @@ This tools shows, embedded within the landmarks, a visual presentation of the he
 ![Screenshot of how Wave visualises the heading structure in a sidebar the homepage of the Accessibility Project](/img/posts/how-to-accessible-heading-structure/wave.png)
 
 ### WordPress 
+
 This CMS provides per page information about the number of headings and a visual heading presentation. This info can be found with the "Details" option (the i-icon) in the toolbar at the top of the edit page functionality.
 
 ![Screenshot of how WordPress visualises the heading structure on a page in the editor](/img/posts/how-to-accessible-heading-structure/wordpress.png)
