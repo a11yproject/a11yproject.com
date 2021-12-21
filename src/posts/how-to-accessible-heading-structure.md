@@ -219,6 +219,7 @@ This creates a shadow heading structure for screen readers, different from the a
 Provide a good heading structure for the reader, and the reader only.
 
 ### aria-labelledby
+
 With aria-labelledby it is possible to give a section or other landmark a name by referring to a heading. See also: [Getting started with ARIA](https://www.a11yproject.com/posts/2014-05-15-getting-started-aria/#aria-labelledby).
 
 ``` html
