@@ -232,6 +232,7 @@ With aria-labelledby it is possible to give a section or other landmark a name b
 	</p>
 </section>
 ```
+
 Screen reader users can navigate by headings but also by landmarks. This way the name of a landmark can be inherited by a corresponding heading. 
 
 Landmark navigation is not that common amongst screen reader users. Labeling may not be necessary for every single section or landmark. While reading through the content the section heading is announced additional to the heading, adding up to the clutter of text a screen reader user hears. 
