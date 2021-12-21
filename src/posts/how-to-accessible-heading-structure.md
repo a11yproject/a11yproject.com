@@ -269,6 +269,7 @@ The browser add-on HeadingsMap by Jorge Rumoroso gives a clear visual presentati
 ![Screenshot of how HeadingsMap visualises the heading structure in a sidebar of the homepage of the Accessibility Project](/img/posts/how-to-accessible-heading-structure/headings-map.png)
 
 ### WAVE Evaluation Tool by WebAIM 
+
 This tools shows, embedded within the landmarks, a visual presentation of the heading structure.
 
 - Online at [wave.webaim.org](https://wave.webaim.org/)
