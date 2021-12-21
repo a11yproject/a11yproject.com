@@ -25,6 +25,7 @@ Headings are HTML elements. The main heading, `H1`, is level 1. The other levels
     <cite><a href="https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">The HTML Living Standard, The h1, h2, h3, h4, h5, and h6 elements</a></cite>
   </footer>
 </blockquote> 
+
 In short: use a heading when the content or the page structure requires it. 
 
 ### Best practices summarized
