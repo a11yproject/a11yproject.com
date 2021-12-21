@@ -259,6 +259,7 @@ Write well-structured headings, because what is good for your reader, is also go
 Next to the automated check tools like [Axe Devtools](https://www.deque.com/axe/devtools/), there are some browser add-ons and CMS functionality to quickly check the heading structure in a visual way.
 
 ### HeadingsMap by Jorge Rumoroso
+
 The browser add-on HeadingsMap by Jorge Rumoroso gives a clear visual presentation of the heading structure and indicates errors for skipping levels and incorrect order.
 
 - [HeadingsMap for Chrome](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi)
