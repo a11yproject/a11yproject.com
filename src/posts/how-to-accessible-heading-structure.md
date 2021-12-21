@@ -10,6 +10,7 @@ tags:
 ---
 
 Headings are the backbone of the content of a page. A visitor should be able to scan the webpage using headings to get a good impression of its content.
+
 Heading levels have meaning, especially for screen reader users and search engines. That means one unique H1 per page, with the other headings representing the page content similar to the index of a book: easily scannable and semantic.
 Write well-structured headings, because what is good for your reader, is also good for your SEO.
 
