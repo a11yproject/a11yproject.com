@@ -32,7 +32,8 @@ In short: use a heading when the content or the page structure requires it.
 
 - Use one unique `H1` per page that describes what that page is about. That `H1` preferably starts just above the main content;
 - Use headings to describe the content below. Do not use an HTML heading just to make the text appear bigger or stand out;
-- Use heading levels like the index of a book: hierarchical. Do not choose a heading by its size, but by its level in the context of the content;
+- Use heading levels like the index of a book: hierarchical; 
+- Do not choose a heading by its size, but by its level in the context of the content;
 - Do not skip a heading level from the top down.
 
 Common mistakes:
@@ -243,6 +244,8 @@ Landmark navigation is not that common amongst screen reader users. Labeling may
 How does a good semantic heading structure relate to Search Engine Optimisation (SEO)?  Search engines love text, content, written word, to understand the content of a page. Because headings give the content structure, the search engine is better able to understand and index the page properly.
 
 There are many theories and misconceptions about heading structure and SEO. How often do we hear the argument "My SEO expert demanded me to [ … ]",  fill in the blanks, as a reason for a heading structure that doesn't make any sense for a blind reader?
+
+Cooper Hollmaier addresses more [myths about accessibility and SEO](https://www.a11yproject.com/posts/accessibility-seo/).
 
 There are SEO gurus that really get the point about headings:
 
