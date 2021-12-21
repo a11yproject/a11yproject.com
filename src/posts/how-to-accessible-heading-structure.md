@@ -29,6 +29,7 @@ Headings are HTML elements. The main heading, `H1`, is level 1. The other levels
 In short: use a heading when the content or the page structure requires it. 
 
 ### Best practices summarized
+
 - Use one unique `H1` per page that describes what that page is about. That `H1` preferably starts just above the main content;
 - Use headings to describe the content below. Do not use an HTML heading just to make the text appear bigger or stand out;
 - Use heading levels like the index of a book: hierarchical. Do not choose a heading by its size, but by its level in the context of the content;
