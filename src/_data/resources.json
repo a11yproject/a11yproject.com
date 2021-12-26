@@ -1927,6 +1927,25 @@
 			]
 		}
 	],
+	"gaming": [
+		{
+			"title": "Gaming Accessibility Fundamentals Learning Path",
+			"description": "An introductory course to accessibility in gaming and how to create inclusive gaming experiences.",
+			"additional": "Microsoft Xbox",
+			"url": "https://docs.microsoft.com/en-us/gaming/accessibility/gaf-info",
+		},
+		{
+			"title": "Can I Play That?",
+			"description": "A centralized resource for game accessibility reviews and information.",
+			"url": "https://caniplaythat.com/",
+		},
+		{
+			"title": "Accessible Games",
+			"description": "A resource for accessible player experiences and connecting with gamers with disabilities.",
+			"additional": "AbleGamers",
+			"url": "https://accessible.games/",
+		}
+	],
 	"additionalResources": [
 		{
 			"title": "A11yjobs.com",
