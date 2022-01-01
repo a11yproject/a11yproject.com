@@ -60,6 +60,10 @@
 	to = "/posts/an-indepth-guide-to-aria-roles/"
 
 [[redirects]]
+	from = "/posts/indepth-guide-to-aria-roles/"
+	to = "/posts/an-indepth-guide-to-aria-roles/""
+
+[[redirects]]
 	from = "/posts/2020-05-13-aria-has-perfect-support/"
 	to = "/posts/aria-has-perfect-support/"
 
