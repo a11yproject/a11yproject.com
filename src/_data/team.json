@@ -27,12 +27,6 @@
 			"biography": "Carie Fisher is an author, speaker, and developer who is passionate about the intersection of front-end code and UX, digital accessibility, and promoting diversity in the tech world."
 		},
 		{
-			"name": "Dennis Gaebel",
-			"website": "https://droidpinkman.io/",
-			"photo": "{{ '/img/team/dennis-gaebel.jpg' | url }}",
-			"biography": "I'm Dennis. I specialize in SVG Animations, UI Prototyping, Visual Design, and building Modular Atomic Design Systems for the Web. I also consult and write about it."
-		},
-		{
 			"name": "Eric Bailey",
 			"website": "https://ericwbailey.design/",
 			"photo": "{{ '/img/team/eric-bailey.jpg' | url }}",
@@ -98,6 +92,12 @@
 			"name": "Alex Brenon",
 			"photo": "{{ '/img/team/alex-brenon.jpg' | url }}",
 			"biography": "Research Assistant for ESD and Classics at UMass Amherst. Creator of Pop-Up Astronomy."
+		},
+		{
+			"name": "Dennis Gaebel",
+			"website": "https://droidpinkman.io/",
+			"photo": "{{ '/img/team/dennis-gaebel.jpg' | url }}",
+			"biography": "I'm Dennis. I specialize in SVG Animations, UI Prototyping, Visual Design, and building Modular Atomic Design Systems for the Web. I also consult and write about it."
 		},
 		{
 			"name": "Emily Lane",
