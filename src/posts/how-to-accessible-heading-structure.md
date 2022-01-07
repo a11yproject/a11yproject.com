@@ -99,6 +99,7 @@ A few of the WCAG 2 AA success criteria address headings or heading structure di
 In short: use headings to describe content and use them consistently and semantically. This will help all users to better find the content they are looking for.
 
 Only WCAG 2 level **AAA** demands that headings must be structured. [Success criterion 2.4.10](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=246#section-headings) says: Section headings are used to organize the content.
+
 The worldwide web standard is **double A (AA)**, but that doesn't mean that you can't use success criteria that are triple A (AAA) if it's helpful for your users.
 
 A well-organised heading structure helps everyone, especially screen reader users, understand and navigate a web page.
