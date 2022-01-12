@@ -69,7 +69,7 @@ We understand that money is tight for many communities and companies right now. 
 Thank you for considering this initiative, and for your generosity.
 
 <p class="c-contribute__cta">
-	Contact us to <a href="{{ /contact/ | url }}">tell us about your pledge</a>.
+	Contact us to <a href="{{ '/contact/' | url }}">tell us about your pledge</a>.
 </p>
 
 ## Thank you
