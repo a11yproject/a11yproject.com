@@ -14,7 +14,6 @@ module.exports = function (eleventyConfig) {
 		tags: ["h2", "h3"],
 		wrapperClass: "l-toc",
 	});
-	eleventyConfig.setDataDeepMerge(true);
 
 	eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
