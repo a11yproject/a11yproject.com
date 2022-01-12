@@ -23,12 +23,12 @@
 		"node": ">=16"
 	},
 	"scripts": {
-		"start": "eleventy --watch & gulp watch",
+		"start": "npm run eleventy-watch & npm run gulp-watch",
 		"a11yproject": "npm start",
 		"publish": "eleventy & gulp",
 		"clean": "rm -rf ./dist",
 		"eleventy-build": "eleventy",
-		"eleventy-watch": "eleventy --watch",
+		"eleventy-watch": "eleventy --incremental --watch",
 		"eleventy-debug": "DEBUG=* eleventy",
 		"gulp-build": "gulp",
 		"gulp-watch": "gulp watch"
