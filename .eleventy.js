@@ -3,7 +3,6 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyPluginTOC = require("eleventy-plugin-nesting-toc");
 
-const slugify = require("slugify");
 const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
@@ -15,7 +14,6 @@ module.exports = function (eleventyConfig) {
 		tags: ["h2", "h3"],
 		wrapperClass: "l-toc",
 	});
-	eleventyConfig.setDataDeepMerge(true);
 
 	eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
@@ -62,17 +60,8 @@ module.exports = function (eleventyConfig) {
 
 	// only content in the `posts/` directory
 	eleventyConfig.addCollection("posts", function (collection) {
-		return collection.getFilteredByGlob("./src/posts/*").sort(function (a, b) {
+		return collection.getFilteredByGlob("./posts/*.md").sort(function (a, b) {
 			return a.date - b.date;
-		});
-	});
-
-	// Universal slug filter strips unsafe chars from URLs
-	eleventyConfig.addFilter("slugify", function (str) {
-		return slugify(str.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, ""), {
-			lower: true,
-			replacement: "-",
-			remove: /[*+~.·,()'"`´%!?¿:@»]/g,
 		});
 	});
 

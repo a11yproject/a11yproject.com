@@ -1,4 +1,4 @@
-{% set slugifiedTitle = task.title | slugify %}
+{% set slugifiedTitle = task.title | striptags(true) | slugify %}
 {% set description = task.description | safe %}
 {% set title = task.title | safe %}
 {% set url = task.url %}
