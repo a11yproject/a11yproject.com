@@ -1,5 +1,5 @@
 <div class="c-homepage-card">
-	<div class="c-homepage-card__image-link" onclick="location.href='/resources/{{ featuredResource.title | slugify | url }}'">
+	<div class="c-homepage-card__image-link" onclick="location.href='/resources/{{ featuredResource.title | slugify | url }}/'">
 		<img
 			class="c-homepage-card__image"
 			alt="{{ featuredResource.alt }}"
@@ -8,14 +8,14 @@
 	<p class="u-font-size-body-small u-text-transform-uppercase c-homepage-card__author">
 		{{ featuredResource.author }}
 	</p>
-	<h3 class="u-font-size-body-medium c-homepage-card__title" onclick="location.href='/resources/{{ featuredResource.title | slugify | url }}'">
+	<h3 class="u-font-size-body-medium c-homepage-card__title" onclick="location.href='/resources/{{ featuredResource.title | slugify | url }}/'">
 		{{ featuredResource.title }}
 	</h3>
 	<p class="c-homepage-card__description">
 		{{ featuredResource.description }}
 	</p>
 	<p>
-		<a class="c-homepage-card__cta" href="/resources/{{ featuredResource.title | slugify | url }}">
+		<a class="c-homepage-card__cta" href="/resources/{{ featuredResource.title | slugify | url }}/">
 			{{ featuredResource.cta }}
 		</a>
 	</p>
