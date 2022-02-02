@@ -59,7 +59,7 @@ function handleFormSubmit(event) {
  * @param {HTMLFormElement} form The submitted form.
  */
  function validateFields(form) {
-	form.querySelectorAll("input, textarea").forEach((input) => {
+	form.querySelectorAll("input, textarea").forEach(function(input) {
 		// Simple email regex, meant to mimic HTML5 validation.
 		// Checks if there's a character + @ + character.
 		const isEmail = new RegExp(/[^@\s]+@[^@\s]+/g).test(input.value);
