@@ -66,20 +66,24 @@ function handleFormSubmit(event) {
 
 		// If email field, make sure entry is valid:
 		if (input.type === "email" && !isEmail) {
-			return updateErrorState(input);
+			return storeError(input);
 		}
 
 		// Remove white space on either side of string,
 		// then check if field is empty.
 		if (input.value.trim() === "") {
-			return updateErrorState(input);
+			return storeError(input);
 		}
 	});
 }
 
 
-/** @param {HTMLInputElement | HTMLTextAreaElement} input The invalid input. */
-function updateErrorState(input) {
+/**
+ * Reads DOM information from invalid inputs, then stores it in memory
+ * so it can be rendered later.
+ *  @param {HTMLInputElement | HTMLTextAreaElement} input The invalid input.
+*/
+function storeError(input) {
 	hasError = true;
 
 	const inputID = input.getAttribute("id");
@@ -98,7 +102,12 @@ function updateErrorState(input) {
 	}
 }
 
-
+/**
+ * Creates the DOM elements necessary to render the form's errors
+ * to the user, and then prepend those elements to the form
+ * to display them.
+ * @param {HTMLFormElement} form The submitted form.
+ */
 function renderErrors(form) {
 	const errorWrapper = document.createElement("div");
 	errorWrapper.classList = "c-form__error-wrapper";
