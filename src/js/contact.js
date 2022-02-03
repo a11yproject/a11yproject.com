@@ -24,7 +24,7 @@ function handleFormSubmit(event) {
 
 	if (state.hasErrors) {
 		renderErrors(form);
-		form.querySelector(".c-form__error-message:first-of-type a").focus();
+		form.querySelector('.c-form__error-message:first-of-type a').focus();
 		return false;
 	} else {
 		// Only submit the form if no fields are invalid:
@@ -38,8 +38,8 @@ function handleFormSubmit(event) {
  * exist from a previous submit.
  * @param {HTMLFormElement} form The submitted form.
  */
- function resetState(form) {
-	var errorWrapper = form.querySelector(".c-form__error-wrapper");
+function resetState(form) {
+	var errorWrapper = form.querySelector('.c-form__error-wrapper');
 
 	// Remove the entire error message wrapper, if it exists:
 	if (errorWrapper) {
@@ -49,8 +49,8 @@ function handleFormSubmit(event) {
 	// Remove error attributes that may have been added on previous submit:
 	for (var inputID in state.formErrors) {
 		var input = state.formErrors[inputID].inputEl;
-		input.removeAttribute("aria-invalid");
-		input.removeAttribute("aria-describedby");
+		input.removeAttribute('aria-invalid');
+		input.removeAttribute('aria-describedby');
 	}
 
 	// Reset the application state to its default: no errors.
@@ -62,36 +62,35 @@ function handleFormSubmit(event) {
  * Check if a givem form's child inputs are valid.
  * @param {HTMLFormElement} form The submitted form.
  */
- function validateFields(form) {
-	form.querySelectorAll("input, textarea").forEach(function(input) {
+function validateFields(form) {
+	form.querySelectorAll('input, textarea').forEach(function (input) {
 		// Simple email regex, meant to mimic HTML5 validation.
 		// Checks if there's a character + @ + character.
 		var isEmail = new RegExp(/[^@\s]+@[^@\s]+/g).test(input.value);
 
 		// If email field, make sure entry is valid:
-		if (input.type === "email" && !isEmail) {
-			return storeError(input, "INVALID");
+		if (input.type === 'email' && !isEmail) {
+			return storeError(input, 'INVALID');
 		}
 
 		// Remove white space on either side of string,
 		// then check if field is empty.
-		if (input.value.trim() === "") {
-			return storeError(input, "EMPTY");
+		if (input.value.trim() === '') {
+			return storeError(input, 'EMPTY');
 		}
 	});
 }
-
 
 /**
  * Reads DOM information from invalid inputs, then stores it in state,
  * so it can be rendered later.
  *  @param {HTMLInputElement | HTMLTextAreaElement} input The invalid input.
  *  @param {'EMPTY' | 'INVALID'} type The type of form error being recorded.
-*/
+ */
 function storeError(input, type) {
 	state.hasErrors = true;
 
-	var inputID = input.getAttribute("id");
+	var inputID = input.getAttribute('id');
 	var label = form.querySelector('label[for="' + inputID + '"]');
 	var labelText = label.textContent.toLowerCase();
 
@@ -100,12 +99,13 @@ function storeError(input, type) {
 		labelID: label.id,
 	};
 
-	if (type === "EMPTY") {
+	if (type === 'EMPTY') {
 		state.formErrors[inputID].message = 'Please provide' + labelText + '.';
 	}
 
-	if (type === "INVALID") {
-		state.formErrors[inputID].message = 'Please provide a valid entry for ' + labelText + '.';
+	if (type === 'INVALID') {
+		state.formErrors[inputID].message =
+			'Please provide a valid entry for ' + labelText + '.';
 	}
 }
 
@@ -118,15 +118,15 @@ function storeError(input, type) {
 function renderErrors(form) {
 	// Create the DOM nodes that help display error information
 	// to the users, and assend classes and content to them
-	var errorWrapper = document.createElement("div");
-	errorWrapper.classList = "c-form__error-wrapper";
+	var errorWrapper = document.createElement('div');
+	errorWrapper.classList = 'c-form__error-wrapper';
 
-	var errorSummary = document.createElement("span");
-	errorSummary.classList = "c-form__error-summary";
-	errorSummary.innerHTML = "There was a problem with the form.";
+	var errorSummary = document.createElement('span');
+	errorSummary.classList = 'c-form__error-summary';
+	errorSummary.innerHTML = 'There was a problem with the form.';
 
-	var errorList = document.createElement("ul");
-	errorList.classList = "c-form__error-list";
+	var errorList = document.createElement('ul');
+	errorList.classList = 'c-form__error-list';
 
 	// Loop through the errors in the application state,
 	// and create DOM nodes for each error.
@@ -134,20 +134,20 @@ function renderErrors(form) {
 		var formError = state.formErrors[inputID];
 		var errorID = inputID + '__error-message';
 
-		var errorListItem = document.createElement("li");
-		var errorLink = document.createElement("a");
+		var errorListItem = document.createElement('li');
+		var errorLink = document.createElement('a');
 
 		errorLink.innerHTML = formError.message;
-		errorListItem.classList = "c-form__error-message";
-		errorLink.setAttribute("id", errorID);
-		errorLink.setAttribute("aria-describedby", formError.labelID);
-		errorLink.setAttribute("href", '#' + inputID);
+		errorListItem.classList = 'c-form__error-message';
+		errorLink.setAttribute('id', errorID);
+		errorLink.setAttribute('aria-describedby', formError.labelID);
+		errorLink.setAttribute('href', '#' + inputID);
 
 		errorListItem.appendChild(errorLink);
 		errorList.appendChild(errorListItem);
 
-		formError.inputEl.setAttribute("aria-describedby", errorID);
-		formError.inputEl.setAttribute("aria-invalid", true);
+		formError.inputEl.setAttribute('aria-describedby', errorID);
+		formError.inputEl.setAttribute('aria-invalid', true);
 	}
 
 	errorWrapper.append(errorSummary);
