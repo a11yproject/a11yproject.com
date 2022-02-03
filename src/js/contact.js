@@ -96,7 +96,6 @@ function storeError(input, type) {
 
 	state.formErrors[inputID] = {
 		inputEl: input,
-		labelID: label.id,
 	};
 
 	if (type === 'EMPTY') {
@@ -140,7 +139,6 @@ function renderErrors(form) {
 		errorLink.innerHTML = formError.message;
 		errorListItem.classList = 'c-form__error-message';
 		errorLink.setAttribute('id', errorID);
-		errorLink.setAttribute('aria-describedby', formError.labelID);
 		errorLink.setAttribute('href', '#' + inputID);
 
 		errorListItem.appendChild(errorLink);
