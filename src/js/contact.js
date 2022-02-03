@@ -1,7 +1,9 @@
 /** Error handling for the Contact and Newsletter forms. */
 
-let hasError = false;
-let formErrors = {};
+const state = {
+	formErrors: {},
+	hasErrors: false,
+};
 
 const form = document.querySelector('form');
 
@@ -19,7 +21,7 @@ function handleFormSubmit(event) {
 	// Validate fields in the current submitted form:
 	validateFields(form);
 
-	if (hasError) {
+	if (state.hasErrors) {
 		renderErrors(form);
 		form.querySelector(".c-form__error-message:first-of-type a").focus();
 		return false;
@@ -44,14 +46,14 @@ function handleFormSubmit(event) {
 	}
 
 	// Remove error attributes that may have been added on previous submit:
-	for (const inputID in formErrors) {
-		const input = formErrors[inputID].inputEl;
+	for (const inputID in state.formErrors) {
+		const input = state.formErrors[inputID].inputEl;
 		input.removeAttribute("aria-invalid");
 		input.removeAttribute("aria-describedby");
 	}
 
-	hasError = false;
-	formErrors = {};
+	state.hasErrors = false;
+	state.formErrors = {};
 }
 
 /**
@@ -84,21 +86,21 @@ function handleFormSubmit(event) {
  *  @param {HTMLInputElement | HTMLTextAreaElement} input The invalid input.
 */
 function storeError(input) {
-	hasError = true;
+	state.hasErrors = true;
 
 	const inputID = input.getAttribute("id");
 	const label = form.querySelector('label[for="' + inputID + '"]');
 	const labelText = label.textContent.toLowerCase();
 
-	formErrors[inputID] = {
+	state.formErrors[inputID] = {
 		inputEl: input,
 		labelID: label.id,
 	};
 
 	if (input.value.length === 0) {
-		formErrors[inputID].message = 'Please provide' + labelText + '.';
+		state.formErrors[inputID].message = 'Please provide' + labelText + '.';
 	} else {
-		formErrors[inputID].message = 'Please provide a valid entry for ' + labelText + '.';
+		state.formErrors[inputID].message = 'Please provide a valid entry for ' + labelText + '.';
 	}
 }
 
@@ -120,8 +122,8 @@ function renderErrors(form) {
 	const errorList = document.createElement("ul");
 	errorList.classList = "c-form__error-list";
 
-	for (const inputID in formErrors) {
-		const formError = formErrors[inputID];
+	for (const inputID in state.formErrors) {
+		const formError = state.formErrors[inputID];
 		const errorID = inputID + '__error-message';
 
 		const errorListItem = document.createElement("li");
