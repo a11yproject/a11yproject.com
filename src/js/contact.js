@@ -69,24 +69,25 @@ function handleFormSubmit(event) {
 
 		// If email field, make sure entry is valid:
 		if (input.type === "email" && !isEmail) {
-			return storeError(input);
+			return storeError(input, "INVALID");
 		}
 
 		// Remove white space on either side of string,
 		// then check if field is empty.
 		if (input.value.trim() === "") {
-			return storeError(input);
+			return storeError(input, "EMPTY");
 		}
 	});
 }
 
 
 /**
- * Reads DOM information from invalid inputs, then stores it in memory
+ * Reads DOM information from invalid inputs, then stores it in state,
  * so it can be rendered later.
  *  @param {HTMLInputElement | HTMLTextAreaElement} input The invalid input.
+ *  @param {'EMPTY' | 'INVALID'} type The type of form error being recorded.
 */
-function storeError(input) {
+function storeError(input, type) {
 	state.hasErrors = true;
 
 	const inputID = input.getAttribute("id");
@@ -98,9 +99,11 @@ function storeError(input) {
 		labelID: label.id,
 	};
 
-	if (input.value.length === 0) {
+	if (type === "EMPTY") {
 		state.formErrors[inputID].message = 'Please provide' + labelText + '.';
-	} else {
+	}
+
+	if (type === "INVALID") {
 		state.formErrors[inputID].message = 'Please provide a valid entry for ' + labelText + '.';
 	}
 }
