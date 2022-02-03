@@ -1,11 +1,12 @@
+/* jshint esversion: 5 */
 /** Error handling for the Contact and Newsletter forms. */
 
-const state = {
+var state = {
 	formErrors: {},
 	hasErrors: false,
 };
 
-const form = document.querySelector('form');
+var form = document.querySelector('form');
 
 /**
  * When the form is submitted, clear out previous error state
@@ -38,7 +39,7 @@ function handleFormSubmit(event) {
  * @param {HTMLFormElement} form The submitted form.
  */
  function resetState(form) {
-	const errorWrapper = form.querySelector(".c-form__error-wrapper");
+	var errorWrapper = form.querySelector(".c-form__error-wrapper");
 
 	// Remove the entire error message wrapper, if it exists:
 	if (errorWrapper) {
@@ -46,8 +47,8 @@ function handleFormSubmit(event) {
 	}
 
 	// Remove error attributes that may have been added on previous submit:
-	for (const inputID in state.formErrors) {
-		const input = state.formErrors[inputID].inputEl;
+	for (var inputID in state.formErrors) {
+		var input = state.formErrors[inputID].inputEl;
 		input.removeAttribute("aria-invalid");
 		input.removeAttribute("aria-describedby");
 	}
@@ -65,7 +66,7 @@ function handleFormSubmit(event) {
 	form.querySelectorAll("input, textarea").forEach(function(input) {
 		// Simple email regex, meant to mimic HTML5 validation.
 		// Checks if there's a character + @ + character.
-		const isEmail = new RegExp(/[^@\s]+@[^@\s]+/g).test(input.value);
+		var isEmail = new RegExp(/[^@\s]+@[^@\s]+/g).test(input.value);
 
 		// If email field, make sure entry is valid:
 		if (input.type === "email" && !isEmail) {
@@ -90,9 +91,9 @@ function handleFormSubmit(event) {
 function storeError(input, type) {
 	state.hasErrors = true;
 
-	const inputID = input.getAttribute("id");
-	const label = form.querySelector('label[for="' + inputID + '"]');
-	const labelText = label.textContent.toLowerCase();
+	var inputID = input.getAttribute("id");
+	var label = form.querySelector('label[for="' + inputID + '"]');
+	var labelText = label.textContent.toLowerCase();
 
 	state.formErrors[inputID] = {
 		inputEl: input,
@@ -117,24 +118,24 @@ function storeError(input, type) {
 function renderErrors(form) {
 	// Create the DOM nodes that help display error information
 	// to the users, and assend classes and content to them
-	const errorWrapper = document.createElement("div");
+	var errorWrapper = document.createElement("div");
 	errorWrapper.classList = "c-form__error-wrapper";
 
-	const errorSummary = document.createElement("span");
+	var errorSummary = document.createElement("span");
 	errorSummary.classList = "c-form__error-summary";
 	errorSummary.innerHTML = "There was a problem with the form.";
 
-	const errorList = document.createElement("ul");
+	var errorList = document.createElement("ul");
 	errorList.classList = "c-form__error-list";
 
 	// Loop through the errors in the application state,
 	// and create DOM nodes for each error.
-	for (const inputID in state.formErrors) {
-		const formError = state.formErrors[inputID];
-		const errorID = inputID + '__error-message';
+	for (var inputID in state.formErrors) {
+		var formError = state.formErrors[inputID];
+		var errorID = inputID + '__error-message';
 
-		const errorListItem = document.createElement("li");
-		const errorLink = document.createElement("a");
+		var errorListItem = document.createElement("li");
+		var errorLink = document.createElement("a");
 
 		errorLink.innerHTML = formError.message;
 		errorListItem.classList = "c-form__error-message";
