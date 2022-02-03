@@ -52,6 +52,7 @@ function handleFormSubmit(event) {
 		input.removeAttribute("aria-describedby");
 	}
 
+	// Reset the application state to its default: no errors.
 	state.hasErrors = false;
 	state.formErrors = {};
 }
@@ -111,17 +112,20 @@ function storeError(input) {
  * @param {HTMLFormElement} form The submitted form.
  */
 function renderErrors(form) {
+	// Create the DOM nodes that help display error information
+	// to the users, and assend classes and content to them
 	const errorWrapper = document.createElement("div");
 	errorWrapper.classList = "c-form__error-wrapper";
 
 	const errorSummary = document.createElement("span");
 	errorSummary.classList = "c-form__error-summary";
 	errorSummary.innerHTML = "There was a problem with the form.";
-	errorWrapper.append(errorSummary);
 
 	const errorList = document.createElement("ul");
 	errorList.classList = "c-form__error-list";
 
+	// Loop through the errors in the application state,
+	// and create DOM nodes for each error.
 	for (const inputID in state.formErrors) {
 		const formError = state.formErrors[inputID];
 		const errorID = inputID + '__error-message';
@@ -134,6 +138,7 @@ function renderErrors(form) {
 		errorLink.setAttribute("id", errorID);
 		errorLink.setAttribute("aria-describedby", formError.labelID);
 		errorLink.setAttribute("href", '#' + inputID);
+
 		errorListItem.appendChild(errorLink);
 		errorList.appendChild(errorListItem);
 
@@ -141,6 +146,8 @@ function renderErrors(form) {
 		formError.inputEl.setAttribute("aria-invalid", true);
 	}
 
+	errorWrapper.append(errorSummary);
 	errorWrapper.append(errorList);
+
 	form.prepend(errorWrapper);
 }
