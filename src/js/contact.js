@@ -68,16 +68,17 @@ function validateFields(form) {
 		// Checks if there's a character + @ + character.
 		var isEmail = new RegExp(/[^@\s]+@[^@\s]+/g).test(input.value);
 
-		// If email field, make sure entry is valid:
-		if (input.type === 'email' && !isEmail) {
-			return storeError(input, 'INVALID');
-		}
-
 		// Remove white space on either side of string,
 		// then check if field is empty.
 		if (input.value.trim() === '') {
 			return storeError(input, 'EMPTY');
 		}
+
+		// If email field, make sure entry is valid:
+		if (input.type === 'email' && !isEmail) {
+			return storeError(input, 'INVALID');
+		}
+
 	});
 }
 
@@ -99,7 +100,7 @@ function storeError(input, type) {
 	};
 
 	if (type === 'EMPTY') {
-		state.formErrors[inputID].message = 'Please provide' + labelText + '.';
+		state.formErrors[inputID].message = 'Please provide ' + labelText + '.';
 	}
 
 	if (type === 'INVALID') {
