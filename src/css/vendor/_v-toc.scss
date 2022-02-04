@@ -41,7 +41,8 @@
 
 	// Contexts
 	.template-post &,
-	.template-resources & {
+	.template-resources &,
+	.template-collections & {
 		color: $color-green;
 
 		&:focus {

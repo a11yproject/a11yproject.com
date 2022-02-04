@@ -30,7 +30,7 @@ templateClass: template-collection
 			<ol class="c-collection__list">
 				{%- for post in collectionObject.posts -%}
 					<li>
-						{% include "post.njk" %}
+						{% include "card/post.njk" %}
 					</li>
 				{%- endfor -%}
 			</ol>

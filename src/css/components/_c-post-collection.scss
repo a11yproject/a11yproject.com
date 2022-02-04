@@ -1,8 +1,13 @@
 .c-post-collection {
+  margin: 4ex 0;
   background-color: $color-blue-tint;
   padding: 1.5rem;
   counter-reset: post-collection;
   max-width: 102ex;
+}
+
+.c-post-collection__title {
+  margin-top: 0;
 }
 
 .c-post-collection__list {

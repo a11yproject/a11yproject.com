@@ -12,18 +12,16 @@ tags:
 templateClass: template-collections
 ---
 
-{% include "nav/toc.njk" %}
-
 <div data-content class="l-content">
 	{% set postCollections = collections[ "postCollections" ] %}
 	{% for handle, postCollection in postCollections %}
 		<div class="c-card__wrapper">
-			<h2>{{ postCollection.collection.data.title }}</h2>
+			<h2 id="{{ postCollection.collection.data.title | slugify }}">{{ postCollection.collection.data.title }}</h2>
 			<div class="c-preface">{{ postCollection.collection.templateContent | safe }}</div>
 			<ol class="c-collection__list">
 				{%- for post in postCollection.posts -%}
 					<li>
-						{% include "post.njk" %}
+						{% include "card/post.njk" %}
 					</li>
 				{%- endfor -%}
 			</ol>

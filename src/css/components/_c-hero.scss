@@ -51,7 +51,7 @@
 	.template-contribute &,
 	.template-spotlight &,
 	.template-404 &,
-	.template-collections {
+	.template-collections & {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -64,6 +64,10 @@
 
 	.template-resources & {
 		background-image: url("#{$path-to-img}/heroes/resources.svg");
+	}
+
+	.template-collections & {
+		background-image: url("#{$path-to-img}/heroes/collections.svg");
 	}
 
 	.template-about & {

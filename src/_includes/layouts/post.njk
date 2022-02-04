@@ -45,30 +45,23 @@ templateClass: template-post
 
 				<p class="c-last-updated__body">
 					{% if updated_by %}
-						This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+						This post was last updated {% if last_updated %} on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> {% endif %} by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
 					{% endif %}
 					{% if thanks %}
 						{{ thanks | safe }}
 					{% endif %}
 				</p>
 
-			<p class="c-last-updated__body">
-				{% if updated_by %}
-					This post was last updated {% if last_updated %} on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> {% endif %} by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+				{% if further_reading %}
+					{% include "further-reading.njk" %}
 				{% endif %}
-				{% if thanks %}
-					{{ thanks | safe }}
-				{% endif %}
-			</p>
+			</div>
 
-			{% if further_reading %}
-				{% include "further-reading.njk" %}
-			{% endif %}
 
 			{%- if collection -%}
 				{%- set collectionObject = collections.postCollections[collection.slug] -%}
 				<div class="c-post-collection">
-					<h2>Collection: {{ collectionObject.collection.data.title }}</h2>
+					<h2 class="c-post-collection__title">Collection: {{ collectionObject.collection.data.title }}</h2>
 					<ol class="c-post-collection__list">
 						{%- for post in collectionObject.posts -%}
 							{# Todo: Use this in styling #}
