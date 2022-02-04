@@ -11,15 +11,12 @@ tags:
 templateClass: template-resources
 ---
 
-{% include "nav/toc.njk" %}
-
 <div data-content class="l-content c-content--resources">
 
 	{% set resource = resources.featured %}
 	{% for featuredResource in resource %}
-		{% include "highlight.njk" %}
+		{% include "featured/resource.njk" %}
 	{% endfor %}
-
 
 	<h2 id="media" class="c-heading-large">
 		Media
@@ -35,7 +32,21 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.books %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
+		{% endfor %}
+	</div>
+
+	{% set resourceType = "Gaming" %}
+	<h3 id="books" class="c-heading-medium u-spacing-top-long">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Resources for computer, console, and mobile gaming.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.gaming %}
+		{% for resource in resource %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -49,7 +60,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.newsletters %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -63,7 +74,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.podcasts %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -77,7 +88,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.talks %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -96,7 +107,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.bookmarklets %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -110,7 +121,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.browserExtensions %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -124,7 +135,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.colors %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -138,7 +149,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.developmentTools %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -152,7 +163,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.screenReaders %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -166,7 +177,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.visionSimulators %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -185,7 +196,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.blogs %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -199,7 +210,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.communityHelp %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -213,7 +224,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.courses %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -227,7 +238,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.designUserExperience %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -241,7 +252,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.screenReaderHelp %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -255,7 +266,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.typography %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -274,7 +285,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.animation %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -288,7 +299,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.email %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -302,7 +313,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.htmlAndAria %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -316,7 +327,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.imagesAndIcons %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -330,7 +341,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.mobileApps %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -344,7 +355,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.pdfs %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -352,6 +363,20 @@ templateClass: template-resources
 	<h2 id="groups-and-organizations" class="c-heading-large">
 		Groups and organizations
 	</h2>
+
+	{% set resourceType = "Conferences" %}
+	<h3 id="conferences" class="c-heading-medium u-spacing-top-long">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Annual events about accessibility and inclusion.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.conferences %}
+		{% for resource in resource %}
+			{% include "card/resource.njk" %}
+		{% endfor %}
+	</div>
 
 	{% set resourceType = "Meetups" %}
 	<h3 id="meetups" class="c-heading-medium u-spacing-top-long">
@@ -363,7 +388,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.meetups %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -377,7 +402,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.professionalHelp %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -392,7 +417,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.professionalTesters %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 
@@ -411,7 +436,7 @@ templateClass: template-resources
 	<div class="c-card__wrapper">
 		{% set resource = resources.additionalResources %}
 		{% for resource in resource %}
-			{% include "resource.njk" %}
+			{% include "card/resource.njk" %}
 		{% endfor %}
 	</div>
 

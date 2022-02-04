@@ -42,3 +42,21 @@
 // .u-text-transform-initial {
 // 	text-transform: initial;
 // }
+
+// u-text-transform-sentence-case
+//
+// Converts the text of an element into sentence case.
+// NOTE: This utility is not recommended for elements that contain proper nouns,
+// as it will convert those proper nouns to lowercase.
+
+// Markup:
+// <p class="u-text-transform-sentence-case">The first letter in this sentence will be capitalized.</p>
+//
+// Styleguide Utilities.Type Alignment.u-text-transform-sentence-case
+.u-text-transform-sentence-case {
+	text-transform: lowercase;
+
+	&::first-letter {
+		text-transform: uppercase;
+	}
+}

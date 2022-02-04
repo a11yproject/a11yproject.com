@@ -85,7 +85,7 @@ tags:
 				Recent posts
 			</h2>
 			<ul class="c-linkroll">
-				{% for post in collections.posts | head(-3) %}
+				{% for post in collections.posts | head(-3) | reverse %}
 					{% include "linkroll.njk" %}
 				{% endfor %}
 			</ul>

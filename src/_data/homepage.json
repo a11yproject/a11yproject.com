@@ -1,12 +1,12 @@
 {
 	"featuredResources": [
 		{
-			"title": "Accessibility for Everyone",
-			"author": "Laura Kalbag",
-			"description": "Laura gives an excellent primer on why accessibility matters, provides context for laws and guidelines, and gives insight on how to integrate accessible design into your process.",
-			"image": "accessibility-for-everyone.jpg",
-			"alt": "Two stacked copies of the book, Accessibility for Everyone.",
-			"cta": "Learn more about Accessibility for Everyone"
+			"title": "The Bootcamper's Guide to Web Accessibility",
+			"author": "Lindsey Kopacz",
+			"description": "This book is geared towards bootcamp grads and self-guided front end web developers that explains the crucial takeaways of accessibility standards and makes them less intimidating.",
+			"image": "the-bootcampers-guide-to-web-accessibility.jpg",
+			"alt": "The title, The Bootcamper's Guide to Web Accessibility on a maroon background, surrounded by a blue chevron stripe pattern.",
+			"cta": "Learn more about this book"
 		},
 		{
 			"title": "Introduction to Web Accessibility",
@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Anna E. Cook",
-			"role": "Senior Product Designer",
-			"description": "Anne is a Senior Product Designer at Recurly. She leads product design efforts within one of their Scrum teams.",
-			"image": "anna-e-cook.jpg",
-			"cta": "Meet Anna"
+			"name": "Alex Chen",
+			"role": "Accessibility consultant",
+			"description": "I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right.",
+			"image": "alex-chen.png",
+			"cta": "Meet Alex"
 		}
 	]
 }

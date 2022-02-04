@@ -15,7 +15,54 @@
 	.template-generic & {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin-top: 5.25rem;
+			margin-top: 17.5rem;
+
+			.l-toc {
+				margin-top: 0; // BUG: .v-toc is getting regenerated on some pages
+				margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			}
+		}
+	}
+
+	.template-checklist & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+		}
+	}
+
+	.template-resources & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+		}
+	}
+
+	.template-about & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+		}
+	}
+
+	.template-contribute & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+		}
+	}
+
+	.template-team & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+		}
+	}
+
+	.template-authors & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+		}
+	}
+
+	.template-spotlight & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
@@ -26,12 +73,16 @@
 		@include mappy-bp(palm-medium) {
 			margin-right: map-get($global-post-content-inset, "medium");
 			margin-bottom: 2rem;
-			margin-left: map-get($global-post-content-inset, "medium") / 2;
+			margin-left: map-get($global-post-content-inset, "medium") * 0.5;
 		}
 
 		@include mappy-bp(lap-small) {
 			margin-right: map-get($global-post-content-inset, "large");
 			margin-left: 5.5rem;
+
+			.l-toc {
+				margin-left: 1.75rem; // BUG: .v-toc is getting regenerated on some pages
+			}
 		}
 
 		@include mappy-bp(lap-medium) {

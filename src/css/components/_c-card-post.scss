@@ -1,0 +1,80 @@
+.c-card-post {
+	background-color: $color-white;
+	padding: 1.5rem 2rem;
+	transition:
+		$animation-duration-shorter $animation-easing-character background-color,
+		$animation-duration-shorter $animation-easing-character border-color,
+		$animation-duration-shorter $animation-easing-character color;
+
+	// States
+	&:hover {
+		outline: $_card-outline $color-gray-tint;
+	}
+
+	&:focus-within {
+		background-color: $color-blue;
+		outline: $border-thinner solid $color-blue;
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+// Color the author link when the title link is focused
+.c-card-post__title:focus ~ .c-card-post__meta .c-card-post__author {
+	color: $color-white;
+}
+
+
+.c-card-post__title,
+.c-card-post__meta,
+.c-card-post__description {
+	max-width: $global-type-measure;
+
+	// States
+	.c-card-post:focus-within & {
+		color: $color-white;
+	}
+}
+
+
+.c-card-post__title {
+	color: $color-blue-shade;
+	letter-spacing: $font-tracking-tight;
+
+	// States
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+
+	&:focus {
+		color: $color-white;
+		outline: $border-thin solid transparent;
+	}
+}
+
+
+.c-card-post__meta {
+	color: $color-gray-shade;
+}
+
+
+.c-card-post__author {
+	color: $color-gray-shade;
+
+	// States
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+
+	&:focus {
+		color: $color-white;
+		outline: $border-thin solid transparent;
+	}
+}
+

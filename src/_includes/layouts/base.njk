@@ -4,6 +4,12 @@
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme-color"
+      content="#f6f6f6"
+      media="(prefers-color-scheme: light)">
+		<meta name="theme-color"
+      content="#333536"
+      media="(prefers-color-scheme: dark)">
 		{% include "meta/social-media.njk" %}
 		{% include "meta/icons.njk" %}
 		<link rel="stylesheet" as="style" href="{{ '/css/screen.min.css?v=' + getCurrentVersion.version  | url }}" />
@@ -22,6 +28,16 @@
 		{% include "header.njk" %}
 
 		<main id="main" class="l-main">
+
+			{% if (layout !== 'post') and (page.url !== '/') %}
+			{% set tocMarkup = content | toc | safe %}
+			{% set hasToc = tocMarkup.length > 0 %}
+
+				{% if hasToc %}
+					{% include "nav/toc.njk" %}
+				{% endif %}
+			{% endif %}
+
 			{{ content | safe }}
 		</main>
 
@@ -29,11 +45,15 @@
 
 		{% include "footer.njk" %}
 
-		<script async src="{{ '/' | url }}js/main.min.js?v={{getCurrentVersion.version}}"></script>
-    <script src="{{ '/' | url }}js/details-element-polyfill/details-element-polyfill.polyfill.min.js"></script>
-		<script src="{{ '/' | url }}js/table-of-contents/table-of-contents.min.js"></script>
-		<script src="{{ '/' | url }}js/contact.min.js"></script>
-		<script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
-
+		<script async src="{{ '/js/lib/details-element-polyfill.polyfill.min.js' | url }}"></script>
+		{% if hasToc %}
+		<script async src="{{ '/js/lib/table-of-contents.min.js' | url }}"></script>
+		{% endif %}
+		{% if page.url === '/checklist/' %}
+		<script src="{{ '/js/checklist.min.js?v=' + getCurrentVersion.version | url }}"></script>
+		{% endif %}
+		{% if page.url === '/contact/' %}
+		<script src="{{ '/js/contact.min.js?v=' + getCurrentVersion.version | url }}"></script>
+		{% endif %}
 	</body>
 </html>

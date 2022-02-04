@@ -1,5 +1,4 @@
 ---
-layout: collection
 title: Introduction to ARIA
 description: Test
 ---

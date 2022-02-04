@@ -7,6 +7,8 @@
 // $context - The font size to derive the `em` value from. Defaults to `$global-type-size`.
 //
 // Styleguide Logic.Functions.em
+@use "sass:math";
+
 @function em($pixels, $context: $global-type-size) {
 	@if (unitless($pixels)) {
 		$pixels: $pixels * 1px;
@@ -14,5 +16,5 @@
 	@if (unitless($context)) {
 		$context: $context * 1px;
 	}
-	@return $pixels / $context * 1em;
+	@return math.div($pixels, $context) * 1em;
 }

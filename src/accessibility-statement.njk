@@ -11,8 +11,6 @@ tags:
 templateClass: template-generic
 ---
 
-{% include "nav/toc.njk" %}
-
 <div data-content class="l-content c-content c-content--generic">
 
 	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
@@ -64,10 +62,10 @@ templateClass: template-generic
 	<ul>
 		<li>Distinct, descriptive page titles.</li>
 		<li>Ordered headings to construct a logical document flow.</li>
-		<li><a href="{{ '/posts/2013-01-14-aria-landmark-roles/' | url }}">Landmark areas</a> to describe overall sections of the page.</li>
+		<li><a href="{{ '/posts/aria-landmark-roles/' | url }}">Landmark areas</a> to describe overall sections of the page.</li>
 		<li>Unique, descriptive names for links, buttons, and other interactive controls.
-		<li><a href="{{ '/posts/2013-05-11-skip-nav-links/' | url }}">Skiplinks</a> have been placed to help people navigate past content that repeats from page to page.</li>
-		<li><a href="{{ '/posts/2013-01-14-alt-text/' | url }}">Alternative descriptions</a> for non-text content.</li>
+		<li><a href="{{ '/posts/skip-nav-links/' | url }}">Skiplinks</a> have been placed to help people navigate past content that repeats from page to page.</li>
+		<li><a href="{{ '/posts/alt-text/' | url }}">Alternative descriptions</a> for non-text content.</li>
 		<li>Titles for content embedded via <code>iframe</code> elements.</li>
 		<li>Removing repetitive, redundant links to the same destination from the Accessibility Tree.</li>
 		<li>Small amounts of ARIA to help address gaps in assistive technology support.</li>
@@ -104,7 +102,7 @@ templateClass: template-generic
 	</p>
 	<ul>
 		<li><a href="{{ '/contact/' | url }}">Sending us a message</a>.</li>
-		<li><a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=a11yproject-com-bug-report.md">Submitting an Issue on GitHub</a>.</li>
+		<li><a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=bug-report.md">Submitting an Issue on GitHub</a>.</li>
 		<li><a href="https://forms.gle/Lf8r58vJRVWsGsoP9">Filling out an anonymous form</a>.</li>
 	</ul>
 	<h2 id="how-you-can-help" class="c-heading-large">

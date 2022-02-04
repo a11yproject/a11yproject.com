@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"dbaeumer.jshint",
+		"editorconfig.editorconfig",
+		"ronnidc.nunjucks",
+		"stylelint.vscode-stylelint"
+	]
+}

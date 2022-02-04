@@ -31,8 +31,13 @@ templateClass: template-post
 		</p>
 	</header>
 
-	<div id="short-answer" class="l-post__body">
-		{% include "nav/toc.njk" %}
+	<div data-content id="short-answer" class="l-post__body">
+
+		{% set tocMarkup = content | toc | safe %}
+		{% set hasToc = tocMarkup.length > 0 %}
+		{% if hasToc %}
+			{% include "nav/toc.njk" %}
+		{% endif %}
 
 		<div class="l-post__content">
 			<div  data-content class="c-content c-content--post">
@@ -47,10 +52,19 @@ templateClass: template-post
 					{% endif %}
 				</p>
 
-				{% if further_reading %}
-					{% include "further-reading.njk" %}
+			<p class="c-last-updated__body">
+				{% if updated_by %}
+					This post was last updated {% if last_updated %} on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> {% endif %} by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
 				{% endif %}
-			</div>
+				{% if thanks %}
+					{{ thanks | safe }}
+				{% endif %}
+			</p>
+
+			{% if further_reading %}
+				{% include "further-reading.njk" %}
+			{% endif %}
+
 			{%- if collection -%}
 				{%- set collectionObject = collections.postCollections[collection.slug] -%}
 				<div class="c-post-collection">

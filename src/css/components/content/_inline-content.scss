@@ -49,7 +49,7 @@
 
 		footer {
 			font-size: 90%;
-			margin-top: $_c-post-vertical-spacing / 2;
+			margin-top: $_c-post-vertical-spacing * 0.5;
 
 			cite {
 				font-style: normal;
@@ -85,7 +85,7 @@
 	// Style guide: Components.post.pre
 	pre {
 		margin-left: map-get($global-post-content-inset, small) * -1;
-		width: calc(100% + (#{map-get($global-post-content-inset, small) * 2)}));
+		width: calc(100% + #{map-get($global-post-content-inset, small)} * 2);
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {

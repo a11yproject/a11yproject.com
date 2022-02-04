@@ -3,8 +3,8 @@
 // Imports
 @import
 	"../../node_modules/normalize.css/normalize",
-	"../../node_modules/mappy-breakpoints/mappy-breakpoints",
-	"imports/fonts";
+	"imports/fonts",
+	"imports/mappy-breakpoints";
 
 
 // Brand
@@ -85,6 +85,7 @@
 //
 // Styleguide Logic.Mixins
 @import
+	"logic/mixins.avatar-size",
 	"logic/mixins.clearfix",
 	"logic/mixins.content-inset",
 	"logic/mixins.headings",
@@ -152,6 +153,7 @@
 // Styleguide Utilities
 @import
 	"utilities/colors",
+	"utilities/font-families",
 	"utilities/font-sizes",
 	"utilities/hide",
 	"utilities/preserve-list-semantics",
@@ -169,9 +171,12 @@
 @import
 	"components/c-simple",
 	"components/c-a11y-summary",
+	"components/c-avatar",
 	"components/c-banner",
 	"components/c-blm-banner",
 	"components/c-card",
+	"components/c-card-post",
+	"components/c-card-resource",
 	"components/c-changelog",
 	"components/c-checklist",
 	"components/c-collection",
@@ -179,7 +184,7 @@
 	"components/c-cta-get-started",
 	"components/c-divider",
 	"components/c-dos-donts",
-	"components/c-featured-resource",
+	"components/c-featured",
 	"components/c-footer",
 	"components/c-form",
 	"components/c-further-reading",

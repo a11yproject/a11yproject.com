@@ -27,6 +27,7 @@ a {
 	// Style guide: Components.post.links
   a {
 		// States
+		&:hover,
 		&:focus {
 			// Text-level formatting
 			code {

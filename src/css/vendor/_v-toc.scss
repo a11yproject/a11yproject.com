@@ -126,12 +126,7 @@
 
 
 .v-toc__nav {
-	padding: 2rem 1rem 1.55rem 2rem;
-
-	// Supports
-	@supports #{$supports-flex} {
-		padding-top: 0.5rem;
-	}
+	padding: 0 1rem 1.55rem 0;
 
 	// Text-level formatting
 	h2 {
@@ -263,7 +258,6 @@
 	svg,
 	a.direct-link {
 		display: none !important;
-		outline: 10px solid #ff0000 !important;
 	}
 }
 

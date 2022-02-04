@@ -8,7 +8,6 @@
 		},
 		{
 			"name": "Alex Brenon",
-			"website": "https://alexroseb.com/",
 			"photo": "https://pbs.twimg.com/profile_images/975451645462106112/_h6vsUym_400x400.jpg",
 			"biography": "Research Assistant for ESD and Classics at UMass Amherst. Creator of Pop-Up Astronomy."
 		},
@@ -31,9 +30,15 @@
 			"biography": "Cameron is a software development leader, immersive tech pioneer, and accessibility specialist."
 		},
 		{
+			"name": "Cooper Hollmaier",
+			"website": "https://cooperhollmaier.com",
+			"photo": "https://pbs.twimg.com/profile_images/1093605286110060544/45BkREw2_400x400.jpg",
+			"biography": "Cooper is a Technical SEO, developer, and accessibility specialist."
+		},
+		{
 			"name": "Dave Rupert",
 			"website": "https://daverupert.com/",
-			"photo": "https://pbs.twimg.com/profile_images/477460555981025280/JUGkf8zv_400x400.jpeg",
+			"photo": "https://www.a11yproject.com/img/team/dave-rupert.jpg",
 			"biography": "I'm Dave Rupert, lead developer at Paravel. I co-host ShopTalk, an award-winning sound effects podcast that also covers web development. I'm a dad to two wonderful kids. I live in Austin, TX; the best damn city, in the best damn state, in the best damn country, in the whole damn world."
 		},
 		{
@@ -43,10 +48,10 @@
 			"biography": "Howdy! I'm Duncan, a front-end developer focused on design systems."
 		},
 		{
-			"name": "Emily Lane",
-			"website": "https://emilymlane.io/",
-			"photo": "https://avatars0.githubusercontent.com/u/9734623?s=460&u=912c5074b761e62141f1c7173d8f73de1e3ea8e2&v=4",
-			"biography": "Hi! I’m a recent grad with design and UX experience and a killer sense of humor. I’m currently working on munch., helping to find healthy food for pets."
+			"name": "Emily Ogle",
+			"website": "https://www.linkedin.com/in/emily-ogle-pmp-cpaac-dhs-trusted-tester-aa540979/",
+			"photo": "{{ '/img/authors/emily-ogle.jpg' | url }}",
+			"biography": "Emily Ogle (she/her) lives in a condo with her two cats. They're often subject to her photography experiments whenever she gets a new lens. Emily will someday get a real, real camera that has all the things. When not snapping a shot of her two furbabies, she is snickering whenever anyone says they live “x miles above x city,” avidly watching fantasy shows, or reading something, probably by Stephen King. She happily works in the accessibility space but slightly wishes she didn't have such solid job security (slightly) given so much need for it. She's trying to make the world a more accessible place, one cat at a time. (What? Cats deserve access to software too!)"
 		},
 		{
 			"name": "Emma Patricios",
@@ -65,6 +70,12 @@
 			"website": "https://erikrunyon.com/",
 			"photo": "https://pbs.twimg.com/profile_images/528499847209304064/QTQDxEz2_400x400.jpeg",
 			"biography": "I am the Technical Director and a web developer for Marketing Communications at the University of Notre Dame."
+		},
+		{
+			"name": "Federico Monaco",
+			"website": "https://www.federicomonaco.it/",
+			"photo": "{{ '/img/authors/federico-monaco.jpg' | url }}",
+			"biography": "Color-blind user experience designer focused on accessibility and inclusion."
 		},
 		{
 			"name": "Franklyn Roth",
@@ -91,10 +102,23 @@
 			"biography": "Hi, Hamsa Harcourt here, currently juggling the reins of Electrical & Electronics Engineering, Technical Writing & Software Development."
 		},
 		{
+			"name": "Joseph Mawa",
+			"website": "https://github.com/nibble0101",
+			"photo": "https://avatars.githubusercontent.com/u/52580190?v=4",
+			"biography": "I am a Front-end developer and Technical writer."
+
+		},
+		{
 			"name": "Kelly Gillit",
 			"website": "https://www.linkedin.com/in/kellygillit/",
 			"photo": "https://pbs.twimg.com/profile_images/1333513462794817536/JOxgHmi6_400x400.jpg",
 			"biography": "Digital designer and accessibility advocate. Skilled in leading teams across all industries and disciplines towards creating accessible design systems for all platforms."
+		},
+		{
+			"name": "Kilian Valkhof",
+			"website": "https://kilianvalkhof.com",
+			"photo": "https://avatars.githubusercontent.com/u/41970?v=4",
+			"biography": "Creator of the Polypane browser for developers and designers, passionate about web development, accessibility and helping developers get better at their job."
 		},
 		{
 			"name": "Lucia Cerchie",
@@ -127,10 +151,10 @@
 			"biography": "Software generalist. Avid coffee drinker. Sometimes runner."
 		},
 		{
-			"name": "Michael Fairchild",
-			"website": "https://github.com/mfairchild365",
-			"photo": "https://avatars0.githubusercontent.com/u/498678?s=460&v=4",
-			"biography": "Web Developer and forever a student."
+			"name": "Michele A. Williams, PhD",
+			"website": "https://mawconsultingllc.com/",
+			"photo": "https://avatars.githubusercontent.com/u/84785057?v=4",
+			"biography": "UX and Accessibility Consultant."
 		},
 		{
 			"name": "Monika Piotrowicz",
@@ -151,10 +175,22 @@
 			"biography": "Senior WordPress Developer."
 		},
 		{
+			"name": "Rian Rietveld",
+			"website": "https://rianrietveld.com/",
+			"photo": "https://avatars.githubusercontent.com/u/2351479?s=400&u=08f4c9763c73577813f648464d0df725384da856&v=4",
+			"biography": "Web accessibility specialist, developer and speaker from the Netherlands. Rian works for the WordPress agency Level Level and is a teacher for the online learning platform The A11Y Collective. She loves coding, learning, teaching and gardening."
+		},
+		{
 			"name": "Scott O'Hara",
 			"website": "https://www.scottohara.me/",
 			"photo": "https://avatars2.githubusercontent.com/u/4152514?s=460&v=4",
 			"biography": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone."
+		},
+		{
+			"name": "Steve Barnett",
+			"website": "https://naga.co.za/",
+			"photo": "https://avatars.githubusercontent.com/u/1239497?s=460&v=4",
+			"biography": "Steve is a web site maker, teacher / trainer, picture-taker, and avid gamer. He helps teams have happier customers and make better software by becoming more human-centered."
 		},
 		{
 			"name": "Susan Robertson",

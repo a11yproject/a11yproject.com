@@ -19,6 +19,24 @@
 			"biography": "I’m a Senior Product Designer at Recurly. I lead product design efforts within one of our Scrum teams."
 		},
 		{
+			"name": "Eriol Fox",
+			"website": "/spotlight/eriol-fox",
+			"photo": "/img/spotlight/eriol-fox.jpg",
+			"biography": "I work part-time as the lead designer at The Open Food Network and spend the other days of the week doing freelance projects, open source design contributions and then working on my PhD research, which is around humanitarian open source software and designer contributions."
+		},
+		{
+			"name": "Nic Steenhout",
+			"website": "/spotlight/nic-steenhout",
+			"photo": "/img/spotlight/nic-steenhout.jpg",
+			"biography": "I am an independent accessibility consultant. I work with large and small organizations. I help them improve the accessibility of their websites. I guide them through the creation or improvement of their culture of accessibility."
+		},
+		{
+			"name": "Alex Chen",
+			"website": "/spotlight/alex-chen",
+			"photo": "/img/spotlight/alex-chen.png",
+			"biography": "By day, I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right. In my spare time I love to train mixed martial arts, care for my house plants, and experiment with illustration and collage."
+		},
+		{
 			"name": "Want to nominate someone?",
 			"website": "{{ '/contact/' | url }}",
 			"photo": "/img/logos/maintainer.png",
