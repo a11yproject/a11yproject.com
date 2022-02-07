@@ -2,6 +2,9 @@
 title: ARIA properties
 description: A quick introduction to ARIA's properties.
 category: Background
+collection:
+  slug: introduction-to-aria
+  order: 30
 author: Alex Brenon
 date: 2018-07-30
 tags:

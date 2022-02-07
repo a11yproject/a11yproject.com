@@ -2,6 +2,9 @@
 title: ARIA states
 description: A quick introduction to ARIA's states.
 category: Background
+collection:
+  slug: introduction-to-aria
+  order: 20
 author: Alex Brenon
 date: 2018-07-30
 tags:

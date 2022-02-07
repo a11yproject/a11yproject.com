@@ -1,0 +1,41 @@
+.c-post-collection {
+  margin: 4ex 0;
+  background-color: $color-blue-tint;
+  padding: 1.5rem;
+  counter-reset: post-collection;
+  max-width: 102ex;
+}
+
+.c-post-collection__title {
+  margin-top: 0;
+}
+
+.c-post-collection__list {
+  margin-top: 1rem;
+  list-style-type: none;
+}
+
+.c-post-collection__item {
+  position: relative;
+  margin-top: 0.5rem;
+  counter-increment: post-collection;
+  font-family: $font-family-secondary;
+
+  &::before {
+    content: "Part " counter(post-collection) ": ";
+    text-transform: uppercase;
+  }
+}
+
+.c-post-collection__link {
+  color: $color-blue-shade;
+
+  &[aria-current] {
+    text-decoration: none;
+    color: $color-black;
+  }
+
+  &:focus {
+		@include link-states($color-blue);
+  }
+}

@@ -2,6 +2,9 @@
 title: An in-depth guide to ARIA roles
 description: ARIA roles are one half of the predefined categories of attributes used to describe elements that may not exist natively in browsers or may not be understood by screen readers and other assistive technologies.
 category: Background
+collection:
+  slug: introduction-to-aria
+  order: 10
 author: Duncan Jimbo
 date: 2020-08-20
 tags:

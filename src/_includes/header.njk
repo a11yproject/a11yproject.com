@@ -11,6 +11,11 @@
 		{% include "heroes/primary-nav.njk" %}
 	{% endif %}
 
+	{% if templateClass == "template-collections" %}
+		{% set hero = heroes.collections %}
+		{% include "heroes/primary-nav.njk" %}
+	{% endif %}
+
 	{% if templateClass == "template-checklist" %}
 		{% set hero = heroes.checklist %}
 		{% include "heroes/primary-nav.njk" %}
