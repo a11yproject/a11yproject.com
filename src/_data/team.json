@@ -21,12 +21,6 @@
 			"biography": "Ashley is an accessibility wonk and copy editor. She has a knack for taming technical and business writing, and she’s a heartfelt advocate for plain language. In real life, she enjoys drinking tea and kicking back to tracks from In Flames and Nevermore."
 		},
 		{
-			"name": "Carie Fisher",
-			"website": "https://cariefisher.com/",
-			"photo": "{{ '/img/team/carie-fisher.jpg' | url }}",
-			"biography": "Carie Fisher is an author, speaker, and developer who is passionate about the intersection of front-end code and UX, digital accessibility, and promoting diversity in the tech world."
-		},
-		{
 			"name": "Eric Bailey",
 			"website": "https://ericwbailey.design/",
 			"photo": "{{ '/img/team/eric-bailey.jpg' | url }}",
@@ -92,6 +86,12 @@
 			"name": "Alex Brenon",
 			"photo": "{{ '/img/team/alex-brenon.jpg' | url }}",
 			"biography": "Research Assistant for ESD and Classics at UMass Amherst. Creator of Pop-Up Astronomy."
+		},
+		{
+			"name": "Carie Fisher",
+			"website": "https://cariefisher.com/",
+			"photo": "{{ '/img/team/carie-fisher.jpg' | url }}",
+			"biography": "Carie Fisher is an author, speaker, and developer who is passionate about the intersection of front-end code and UX, digital accessibility, and promoting diversity in the tech world."
 		},
 		{
 			"name": "Dennis Gaebel",
