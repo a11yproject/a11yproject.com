@@ -2003,6 +2003,12 @@
 			"url": "https://github.com/adobe-inclusive-design/id-workshop"
 		},
 		{
+			"title": "Assistive Technology Glossary",
+			"description": "A list of assistive technology terms and what they mean.",
+			"additional": "Fable",
+			"url": "https://makeitfable.com/glossary/"
+		},
+		{
 			"title": "Collaborative planning, the forgotten step of accessible development",
 			"description": "Describes an agile development process to faciliate accessibility called Accessibility Behavior Informed Development (a11yBID).",
 			"additional": "Deque",
