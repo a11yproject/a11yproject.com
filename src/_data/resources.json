@@ -1,10 +1,10 @@
 {
 	"featured": [
 		{
-			"title": "Inclusive Design Patterns",
-			"description": "Inclusive Design Patterns explains how we can craft accessible interfaces without extra effort— and what front-end design patterns we can use to create inclusive experiences.",
-			"additional": "macOS, Windows",
-			"url": "https://shop.smashingmagazine.com/products/inclusive-design-patterns"
+			"title": "Assistive Technology Glossary",
+			"description": "A list of assistive technology terms and what they mean.",
+			"additional": "Fable",
+			"url": "https://makeitfable.com/glossary/"
 		}
 	],
 	"animation": [
