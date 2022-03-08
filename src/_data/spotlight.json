@@ -37,6 +37,12 @@
 			"biography": "By day, I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right. In my spare time I love to train mixed martial arts, care for my house plants, and experiment with illustration and collage."
 		},
 		{
+			"name": "Josh Kim",
+			"website": "/spotlight/josh-kim",
+			"photo": "/img/spotlight/josh-kim.png",
+			"biography": "I’m a researcher by heart, so I’m less about remediating solutions after the fact and all about including disabled people into our studies from the start."
+		},
+		{
 			"name": "Want to nominate someone?",
 			"website": "{{ '/contact/' | url }}",
 			"photo": "/img/logos/maintainer.png",

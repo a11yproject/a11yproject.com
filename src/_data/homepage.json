@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Alex Chen",
-			"role": "Accessibility consultant",
-			"description": "I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right.",
-			"image": "alex-chen.png",
-			"cta": "Meet Alex"
+			"name": "Josh Kim",
+			"role": "Researcher, CPWA",
+			"description": "Josh is a researcher who believes in including disabled people from the start, rather than remediating solutions after the fact.",
+			"image": "josh-kim.png",
+			"cta": "Meet Josh"
 		}
 	]
 }
