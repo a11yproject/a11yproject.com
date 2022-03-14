@@ -7,14 +7,23 @@ title: 'Theme toggle playground'
 <div class="l-content c-content c-content--generic">
   <h1>Theme toggle</h1>
   <p>This is just a temporary page to give you an area to work on the theme toggle away from most of the other site.</p>
-  <div class="theme-toggle">
+  <div data-theme-toggle>
     <!-- I'm just using a heading here, but label these however it works best in context -->
     <h2>Colour theme</h2>
 
-    <!-- These are your main controls. The aria-pressed role is determined by the current active theme. 
+    <!-- These are your main controls. The checked state is determined by the current active theme. 
          System is selected by default. -->
-    <button data-theme="system" aria-pressed="true">System</button>
-    <button data-theme="light" aria-pressed="false">Light</button>
-    <button data-theme="dark" aria-pressed="false">Dark</button>
+    <label>
+      <input name="theme" value="system" type="radio" role="switch" checked />
+      System
+    </label>
+    <label>
+      <input name="theme" value="light" type="radio" role="switch" />
+      Light 
+    </label>
+    <label>
+      <input name="theme" value="dark" type="radio" role="switch" />
+      Dark 
+    </label>
   </div>
 </div>

@@ -4,7 +4,9 @@
  * or the state changes via another control, the appropriate [aria-pressed] value is applied
  */
 (function themeToggle() {
-	const buttons = document.querySelectorAll("button[data-theme]");
+	const controls = document.querySelectorAll(
+		"[data-theme-toggle] [role='switch']"
+	);
 	const storageKey = "user-color-scheme";
 	const currentSetting = localStorage.getItem("user-color-scheme") || "system";
 
@@ -25,29 +27,29 @@
 	};
 
 	/**
-	 * Loop the buttons and set aria-pressed (active) state depending on current theme
-	 * @param {string} passedSetting The setting that needs to applied or undefined
+	 * Loop the controls and set checked state depending on current theme
+	 * @param {string} currentSetting The setting that needs to applied or undefined
 	 */
 	const setStatus = (currentSetting) => {
-		buttons.forEach((button) => {
-			button.setAttribute(
-				"aria-pressed",
-				currentSetting === button.getAttribute("data-theme") ? "true" : "false"
-			);
+		controls.forEach((control) => {
+			control.checked = currentSetting === control.value;
 		});
 	};
 
 	// Set the initial state of the controls, prior to interaction
 	setStatus(currentSetting);
 
-	// Attach a click event to each button that grabs its [data-theme]
-	// attribute and transmits that to the theme application script (in the head)
-	// and sends it to the setStatus to apply the correct aria roles.
-	buttons.forEach((button) => {
-		button.addEventListener("click", (evt) => {
-			evt.preventDefault();
+	// Attach a change event to each control that grabs its value
+	// and transmits that to the theme application script (in the head)
+	// then sends it to the setStatus to apply the correct aria roles.
+	controls.forEach((control) => {
+		control.addEventListener("change", () => {
+			// We don't need to process if not checked
+			if (!control.checked) {
+				return;
+			}
 
-			const setting = button.getAttribute("data-theme");
+			const setting = control.value;
 
 			applySetting(setting);
 
