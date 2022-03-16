@@ -1,14 +1,14 @@
 a {
 	// Contexts
 	.c-content--post & {
-		@include link-states($color-green);
+		@include link-states($color-green-lightMode);
 	}
 
 	.c-content--about &,
 	.c-content--generic &,
 	.c-content--checklist &,
 	.c-content--contribute & {
-		@include link-states($color-blue);
+		@include link-states($color-blue-lightMode);
 	}
 }
 

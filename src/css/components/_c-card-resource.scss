@@ -1,7 +1,7 @@
 .c-card-resource__body {
-	border-right: $border-thinnest solid $color-gray-shade;
-	border-bottom: $border-thinnest solid $color-gray-shade;
-	border-left: $border-thinnest solid $color-gray-shade;
+	border-right: $border-thinnest solid $color-gray-shade-lightMode;
+	border-bottom: $border-thinnest solid $color-gray-shade-lightMode;
+	border-left: $border-thinnest solid $color-gray-shade-lightMode;
 	margin-right: 1.25rem;
 	margin-left: 1.5rem;
 	padding: 1.5rem 2rem;
@@ -16,10 +16,10 @@
 	}
 
 	&:focus-within {
-		background-color: $color-green-shade;
-		border-right-color: $color-green-shade;
-		border-bottom-color: $color-green-shade;
-		border-left-color: $color-green-shade;
+		background-color: $color-green-shade-lightMode;
+		border-right-color: $color-green-shade-lightMode;
+		border-bottom-color: $color-green-shade-lightMode;
+		border-left-color: $color-green-shade-lightMode;
 	}
 
 	// User Queries
@@ -36,7 +36,7 @@
 
 
 .c-card-resource__title {
-	color: $color-green-shade;
+	color: $color-green-shade-lightMode;
 	letter-spacing: $font-tracking-tight;
 
 	// States
@@ -53,7 +53,7 @@
 
 
 .c-card-resource__meta {
-	color: $color-gray-shade;
+	color: $color-gray-shade-lightMode;
 	line-height: $line-height-tight;
 }
 

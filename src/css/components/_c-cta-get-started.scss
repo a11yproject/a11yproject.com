@@ -39,8 +39,8 @@
 
 
 .c-cta-get-started__link {
-	background-color: $color-pink-tint;
-	border: $border-thick solid $color-sand;
+	background-color: $color-pink-tint-lightMode;
+	border: $border-thick solid $color-sand-lightMode;
 	color: $color-black;
 	font-family: $font-family-secondary;
 	font-size: $font-size-body;
@@ -57,7 +57,7 @@
 	// States
 	&:hover,
 	&:focus {
-		background-color: $color-pink;
+		background-color: $color-pink-lightMode;
 		color: $color-white;
 		outline: $border-thin solid transparent;
 	}

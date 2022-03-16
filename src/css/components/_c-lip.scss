@@ -28,26 +28,26 @@
 		@include mappy-bp(lap-small) {
 			// Contexts
 			.template-posts & {
-				background-color: $color-pink-shade;
+				background-color: $color-pink-shade-lightMode;
 			}
 
 			.template-checklist & {
-				background-color: $color-blue;
+				background-color: $color-blue-lightMode;
 			}
 
 			.template-resources & {
-				background-color: $color-green-shade;
+				background-color: $color-green-shade-lightMode;
 			}
 
 			.template-about &,
 			.template-team &,
 			.template-authors &,
 			.template-spotlight & {
-				background-color: $color-blue-shade;
+				background-color: $color-blue-shade-lightMode;
 			}
 
 			.template-contribute & {
-				background-color: $color-yellow-tint;
+				background-color: $color-yellow-tint-lightMode;
 			}
 		}
 	}

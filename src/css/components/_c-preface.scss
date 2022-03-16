@@ -1,5 +1,5 @@
 .c-preface {
-	color: $color-gray-shade;
+	color: $color-gray-shade-lightMode;
 	margin-top: 0.5rem;
 	margin-bottom: 2rem;
 	margin-left: $_card-inset;
@@ -11,11 +11,11 @@
 	// Contexts
 	.template-checklist &,
 	.template-resources & {
-		@include link-states($color-green);
+		@include link-states($color-green-lightMode);
 	}
 
 	.template-posts &,
 	.template-team & {
-		@include link-states($color-blue);
+		@include link-states($color-blue-lightMode);
 	}
 }

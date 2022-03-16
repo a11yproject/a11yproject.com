@@ -1,24 +1,24 @@
 @mixin _generate-context-borders($border-direction) {
 	.c-linkroll__entry--background & {
-		border-#{$border-direction}-color: $color-gray-shade;
+		border-#{$border-direction}-color: $color-gray-shade-lightMode;
 	}
 
 	.c-linkroll__entry--assistive-technology &,
 	.c-linkroll__entry--how-to & {
-		border-#{$border-direction}-color: $color-yellow;
+		border-#{$border-direction}-color: $color-yellow-lightMode;
 	}
 
 	.c-linkroll__entry--myth &,
 	.c-linkroll__entry--announcement & {
-		border-#{$border-direction}-color: $color-pink;
+		border-#{$border-direction}-color: $color-pink-lightMode;
 	}
 
 	.c-linkroll__entry--quick-test & {
-		border-#{$border-direction}-color: $color-blue;
+		border-#{$border-direction}-color: $color-blue-lightMode;
 	}
 
 	.c-linkroll__entry--quick-tip & {
-		border-#{$border-direction}-color: $color-green;
+		border-#{$border-direction}-color: $color-green-lightMode;
 	}
 }
 
@@ -29,7 +29,7 @@
 	// States
 	&:hover,
 	&:focus {
-		background-color: $color-gray-shade;
+		background-color: $color-gray-shade-lightMode;
 		outline: $border-thin solid transparent;
 
 		.c-linkroll__title,
@@ -44,25 +44,25 @@
 
 		// Contexts
 		.c-linkroll__entry--background & {
-			background-color: $color-gray-shade;
+			background-color: $color-gray-shade-lightMode;
 		}
 
 		.c-linkroll__entry--assistive-technology &,
 		.c-linkroll__entry--how-to & {
-			background-color: $color-yellow;
+			background-color: $color-yellow-lightMode;
 		}
 
 		.c-linkroll__entry--myth &,
 		.c-linkroll__entry--announcements & {
-			background-color: $color-pink;
+			background-color: $color-pink-lightMode;
 		}
 
 		.c-linkroll__entry--quick-test & {
-			background-color: $color-blue;
+			background-color: $color-blue-lightMode;
 		}
 
 		.c-linkroll__entry--quick-tip & {
-			background-color: $color-green;
+			background-color: $color-green-lightMode;
 		}
 	}
 }
@@ -121,28 +121,28 @@
 .c-linkroll__category {
 	// Contexts
 	.c-linkroll__entry--assistive-technology & {
-		color: $color-gray-shade;
+		color: $color-gray-shade-lightMode;
 	}
 
 	.c-linkroll__entry--background & {
-		color: $color-gray-shade;
+		color: $color-gray-shade-lightMode;
 	}
 
 	.c-linkroll__entry--how-to & {
-		color: $color-yellow;
+		color: $color-yellow-lightMode;
 	}
 
 	.c-linkroll__entry--myth &,
 	.c-linkroll__entry--announcements & {
-		color: $color-pink;
+		color: $color-pink-lightMode;
 	}
 
 	.c-linkroll__entry--quick-test & {
-		color: $color-blue;
+		color: $color-blue-lightMode;
 	}
 
 	.c-linkroll__entry--quick-tip & {
-		color: $color-green;
+		color: $color-green-lightMode;
 	}
 }
 

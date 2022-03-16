@@ -1,5 +1,5 @@
 .c-changelog__version {
-	background-color: $color-blue-tint;
+	background-color: $color-blue-tint-lightMode;
 	border-radius: 0.25rem;
 	margin-right: 0.5rem;
 	padding: 0.25rem 0.5rem;
@@ -7,6 +7,6 @@
 
 
 .c-changelog__date {
-	color: $color-gray-shade;
+	color: $color-gray-shade-lightMode;
 	font-size: $font-size-body-small;
 }

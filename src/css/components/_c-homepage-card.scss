@@ -47,7 +47,7 @@
 
 
 .c-homepage-card__author {
-	color: $color-green;
+	color: $color-green-lightMode;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	margin-top: 1.5rem;
@@ -70,12 +70,12 @@
 
 
 .c-homepage-card__link {
-	@include link-states($color-blue);
+	@include link-states($color-blue-lightMode);
 }
 
 
 .c-homepage-card__cta {
-	border-bottom: $border-thinnest solid $color-pink;
+	border-bottom: $border-thinnest solid $color-pink-lightMode;
 	color: $color-black;
 	font-family: $font-family-secondary;
 	margin-top: 1rem;
@@ -89,16 +89,16 @@
 	}
 
 	&:focus {
-		background-color: $color-pink;
+		background-color: $color-pink-lightMode;
 		color: $color-white;
-		outline: $border-thin solid $color-pink;
+		outline: $border-thin solid $color-pink-lightMode;
 	}
 
 	// Supports
 	@supports #{$supports-underlines} {
 		border-bottom: none;
 		text-decoration: underline;
-		text-decoration-color: $color-pink;
+		text-decoration-color: $color-pink-lightMode;
 		/* stylelint-disable-next-line property-no-unknown */
 		text-decoration-thickness: $border-thinnest;
 		text-underline-offset: 0.5rem;
@@ -130,7 +130,7 @@
 
 
 .c-homepage-card__spotlight__info {
-	background-color: $color-blue-tint;
+	background-color: $color-blue-tint-lightMode;
 	height: 13rem;
 	margin-top: -8rem;
 	margin-left: 4rem;
@@ -153,7 +153,7 @@
 
 
 .c-homepage-card__spotlight-role {
-	color: $color-blue-shade;
+	color: $color-blue-shade-lightMode;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 }

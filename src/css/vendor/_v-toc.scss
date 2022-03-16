@@ -43,10 +43,10 @@
 	.template-post &,
 	.template-resources &,
 	.template-collections & {
-		color: $color-green;
+		color: $color-green-lightMode;
 
 		&:focus {
-			background-color: $color-green;
+			background-color: $color-green-lightMode;
 			color: $color-white;
 		}
 	}
@@ -56,10 +56,10 @@
 	.template-team &,
 	.template-authors,
 	.template-spotlight & {
-		color: $color-blue-shade;
+		color: $color-blue-shade-lightMode;
 
 		&:focus {
-			background-color: $color-blue-shade;
+			background-color: $color-blue-shade-lightMode;
 			color: $color-white;
 		}
 	}
@@ -67,10 +67,10 @@
 	.template-posts &,
 	.template-contribute &,
 	.template-generic & {
-		color: $color-blue;
+		color: $color-blue-lightMode;
 
 		&:focus {
-			background-color: $color-blue;
+			background-color: $color-blue-lightMode;
 			color: $color-white;
 		}
 	}
@@ -92,7 +92,7 @@
 	// Contexts
 	.template-post &,
 	.template-resources & {
-		fill: $color-green;
+		fill: $color-green-lightMode;
 	}
 
 	.template-checklist &,
@@ -100,13 +100,13 @@
 	.template-team &,
 	.template-authors,
 	.template-spotlight & {
-		fill: $color-blue-shade;
+		fill: $color-blue-shade-lightMode;
 	}
 
 	.template-posts &,
 	.template-contribute &,
 	.template-generic & {
-		fill: $color-blue;
+		fill: $color-blue-lightMode;
 	}
 }
 
@@ -212,8 +212,8 @@
 	}
 
 	a {
-		border-bottom: $border-thinnest solid $color-sand;
-		color: $color-gray-shade;
+		border-bottom: $border-thinnest solid $color-sand-lightMode;
+		color: $color-gray-shade-lightMode;
 		text-decoration: none;
 		transition:
 			$animation-duration-short $animation-easing-character color,
@@ -227,14 +227,14 @@
 			&::after {
 				content: "";
 				flex: 1 1;
-				border-bottom: $border-thick solid $color-sand;
+				border-bottom: $border-thick solid $color-sand-lightMode;
 				margin: auto auto auto 0.5rem;
 			}
 
 			// States
 			&:hover::after,
 			&:focus::after {
-				border-bottom-color: $color-pink;
+				border-bottom-color: $color-pink-lightMode;
 			}
 		}
 
@@ -245,7 +245,7 @@
 
 		&:hover,
 		&:focus {
-			border-bottom-color: $color-green;
+			border-bottom-color: $color-green-lightMode;
 			color: $color-black;
 		}
 

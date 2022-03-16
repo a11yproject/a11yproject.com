@@ -8,12 +8,12 @@
 
 	// States
 	&:hover {
-		outline: $_card-outline $color-gray-tint;
+		outline: $_card-outline $color-gray-tint-lightMode;
 	}
 
 	&:focus-within {
-		background-color: $color-blue;
-		outline: $border-thinner solid $color-blue;
+		background-color: $color-blue-lightMode;
+		outline: $border-thinner solid $color-blue-lightMode;
 	}
 
 	// User Queries
@@ -42,7 +42,7 @@
 
 
 .c-card-post__title {
-	color: $color-blue-shade;
+	color: $color-blue-shade-lightMode;
 	letter-spacing: $font-tracking-tight;
 
 	// States
@@ -59,12 +59,12 @@
 
 
 .c-card-post__meta {
-	color: $color-gray-shade;
+	color: $color-gray-shade-lightMode;
 }
 
 
 .c-card-post__author {
-	color: $color-gray-shade;
+	color: $color-gray-shade-lightMode;
 
 	// States
 	&:hover,

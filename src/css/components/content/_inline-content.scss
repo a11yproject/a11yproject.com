@@ -5,8 +5,8 @@
 	li,
 	p {
 		code {
-			background-color: $color-gray-tint;
-			border: 4px solid $color-gray-tint;
+			background-color: $color-gray-tint-lightMode;
+			border: 4px solid $color-gray-tint-lightMode;
 			font-size: 90%;
 			padding: 0 0.25ch;
 			word-break: normal;
@@ -71,7 +71,7 @@
 
 		figcaption {
 			background-color: $color-white;
-			border-bottom: $border-hairline solid $color-gray-shade;
+			border-bottom: $border-hairline solid $color-gray-shade-lightMode;
 			font-family: $font-family-secondary;
 			line-height: $line-height-tight;
 			margin-top: 0.75rem;

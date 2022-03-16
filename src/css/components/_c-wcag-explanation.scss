@@ -1,5 +1,5 @@
 .c-wcag-explanation {
-	background-color: $color-blue-tint;
+	background-color: $color-blue-tint-lightMode;
 	font-family: $font-family-secondary;
 	margin-bottom: 1rem;
 	padding: 0.5rem 1.5rem 2rem;
@@ -18,7 +18,7 @@
 
 
 .c-wcag-explanation__link {
-	@include link-states($color-blue-shade);
+	@include link-states($color-blue-shade-lightMode);
 
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;

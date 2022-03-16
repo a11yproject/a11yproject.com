@@ -1,23 +1,23 @@
 .c-sponsors {
-	background-color: $color-green-tint;
+	background-color: $color-green-tint-lightMode;
 
 	// Contexts
 	.template-posts & {
-		background-color: $color-pink-tint;
+		background-color: $color-pink-tint-lightMode;
 	}
 
 	.template-about &,
 	.template-authors &,
 	.template-team & {
-		background-color: $color-blue-tint;
+		background-color: $color-blue-tint-lightMode;
 	}
 
 	.template-contribute & {
-		background-color: $color-yellow-tint;
+		background-color: $color-yellow-tint-lightMode;
 	}
 
 	.template-generic & {
-		background-color: $color-gray-tint;
+		background-color: $color-gray-tint-lightMode;
 	}
 }
 

@@ -27,10 +27,10 @@ $_c-post-vertical-spacing: 4ex;
 //
 // Style guide: Components.post
 .c-post__category {
-	border-top: $border-thick solid $color-green;
+	border-top: $border-thick solid $color-green-lightMode;
 
 	p {
-		border-bottom: $border-thinnest solid $color-green;
+		border-bottom: $border-thinnest solid $color-green-lightMode;
 		padding: 0.5rem 0 0.5rem map-get($global-post-content-inset, small);
 		text-transform: uppercase;
 
@@ -61,7 +61,7 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__category__link {
-	color: $color-green;
+	color: $color-green-lightMode;
 	text-decoration: none;
 
 	// States
@@ -70,14 +70,14 @@ $_c-post-vertical-spacing: 4ex;
 	}
 
 	&:focus {
-		background-color: $color-green;
+		background-color: $color-green-lightMode;
 		color: $color-white;
-		outline: $border-thick solid $color-green;
+		outline: $border-thick solid $color-green-lightMode;
 	}
 
 	&:active {
 		background-color: transparent;
-		color: $color-green;
+		color: $color-green-lightMode;
 		outline: none;
 		text-decoration: none;
 	}
@@ -117,8 +117,8 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__metadata {
-	border-top: $border-thinnest solid $color-green;
-	border-bottom: $border-thick solid $color-green;
+	border-top: $border-thinnest solid $color-green-lightMode;
+	border-bottom: $border-thick solid $color-green-lightMode;
 	list-style-type: none;
 	padding: 0.75rem map-get($global-post-content-inset, small);
 

@@ -28,26 +28,26 @@
 }
 
 .c-featured__body--post {
-	background-color: $color-blue-tint;
+	background-color: $color-blue-tint-lightMode;
 
 	// States
 	&:focus-within {
-		background-color: $color-blue-shade;
-		border-right-color: $color-blue-shade;
-		border-bottom-color: $color-blue-shade;
-		border-left-color: $color-blue-shade;
+		background-color: $color-blue-shade-lightMode;
+		border-right-color: $color-blue-shade-lightMode;
+		border-bottom-color: $color-blue-shade-lightMode;
+		border-left-color: $color-blue-shade-lightMode;
 	}
 }
 
 .c-featured__body--resource {
-	background-color: $color-green-tint;
+	background-color: $color-green-tint-lightMode;
 
 	// States
 	&:focus-within {
-		background-color: $color-green-shade;
-		border-right-color: $color-green-shade;
-		border-bottom-color: $color-green-shade;
-		border-left-color: $color-green-shade;
+		background-color: $color-green-shade-lightMode;
+		border-right-color: $color-green-shade-lightMode;
+		border-bottom-color: $color-green-shade-lightMode;
+		border-left-color: $color-green-shade-lightMode;
 	}
 }
 
@@ -75,11 +75,11 @@
 }
 
 .c-featured__title--post {
-	color: $color-blue-shade;
+	color: $color-blue-shade-lightMode;
 }
 
 .c-featured__title--resource {
-	color: $color-green-shade;
+	color: $color-green-shade-lightMode;
 }
 
 

@@ -111,7 +111,7 @@ $_person-distance: (
 
 
 .c-person__link {
-	@include link-states($color-blue-shade);
+	@include link-states($color-blue-shade-lightMode);
 
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
