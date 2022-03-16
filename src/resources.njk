@@ -359,6 +359,20 @@ templateClass: template-resources
 		{% endfor %}
 	</div>
 
+	{% set resourceType = "Video" %}
+	<h3 id="video" class="c-heading-medium">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Video is a common experience online. Here is how to it ensure everyone can enjoy it.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.video %}
+		{% for resource in resource %}
+			{% include "card/resource.njk" %}
+		{% endfor %}
+	</div>
+
 
 	<h2 id="groups-and-organizations" class="c-heading-large">
 		Groups and organizations

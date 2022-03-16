@@ -12,6 +12,10 @@
       media="(prefers-color-scheme: dark)">
 		{% include "meta/social-media.njk" %}
 		{% include "meta/icons.njk" %}
+
+		{# This needs to run before CSS so we don't get a flash of the default theme #}
+		<script src="{{ '/js/apply-theme-setting.min.js?v=' + getCurrentVersion.version | url }}"></script>
+		
 		<link rel="stylesheet" as="style" href="{{ '/css/screen.min.css?v=' + getCurrentVersion.version  | url }}" />
 		<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}" />
 		<link rel="sitemap" type="application/xml" title="{{ metadata.title }}" href="{{ '/sitemap.xml' | url }}" />
@@ -46,6 +50,8 @@
 		{% include "footer.njk" %}
 
 		<script async src="{{ '/js/lib/details-element-polyfill.polyfill.min.js' | url }}"></script>
+		<script src="{{ '/js/theme-toggle.min.js?v=' + getCurrentVersion.version | url }}"></script>
+
 		{% if hasToc %}
 		<script async src="{{ '/js/lib/table-of-contents.min.js' | url }}"></script>
 		{% endif %}
