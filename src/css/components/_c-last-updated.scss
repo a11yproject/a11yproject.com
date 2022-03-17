@@ -2,6 +2,11 @@
 	color: $color-gray-shade-lightmode;
 	font-size: $font-size-body-small;
 	font-style: italic;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
+	}
 }
 
 
