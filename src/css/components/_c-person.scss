@@ -107,6 +107,17 @@ $_person-distance: (
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
 	}
+
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
+		border-color: $color-gray-shade-darkmode;
+
+		// States
+		&:hover {
+			background-color: $color-black;
+			border-color: $color-gray-tint-darkmode;
+		}
+	}
 }
 
 
@@ -122,6 +133,11 @@ $_person-distance: (
 	// States
 	&:hover {
 		text-decoration: none;
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include link-states($color-blue-tint-darkmode);
 	}
 }
 
