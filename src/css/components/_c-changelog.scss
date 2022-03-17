@@ -3,6 +3,11 @@
 	border-radius: 0.25rem;
 	margin-right: 0.5rem;
 	padding: 0.25rem 0.5rem;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-blue-shade-darkmode;
+	}
 }
 
 

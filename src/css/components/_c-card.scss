@@ -18,6 +18,10 @@ $_card-outline: $border-thinner solid;
 		// States
 		&:hover {
 			outline: $_card-outline $color-gray-tint-lightmode;
+
+			@media (prefers-color-scheme: dark) {
+				outline: $_card-outline $color-gray-shade-darkmode;
+			}
 		}
 
 		&:focus-within {
@@ -35,6 +39,10 @@ $_card-outline: $border-thinner solid;
 		// User Queries
 		@media screen and (prefers-reduced-motion: reduce) {
 			transition: none;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-black;
 		}
 	}
 
