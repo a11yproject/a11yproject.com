@@ -9,6 +9,11 @@ a {
 	.c-content--checklist &,
 	.c-content--contribute & {
 		@include link-states($color-blue-lightmode);
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			@include link-states($color-blue-tint-darkmode);
+		}
 	}
 }
 

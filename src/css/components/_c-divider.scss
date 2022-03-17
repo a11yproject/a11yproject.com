@@ -2,4 +2,9 @@
 	border: $border-thin solid $color-blue-tint-lightmode;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		border-color: $color-blue-shade-lightmode;
+	}
 }

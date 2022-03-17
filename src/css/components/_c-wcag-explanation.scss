@@ -9,6 +9,11 @@
 		padding: 0.5rem 4rem 2rem;
 	}
 
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
+	}
+
 	// Text-level formatting
 	p {
 		margin-top: 1.5rem;
@@ -23,6 +28,11 @@
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include link-states($color-blue-tint-darkmode);
+	}
 }
 
 
