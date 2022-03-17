@@ -2,47 +2,63 @@
 //
 // Colors:
 // $color-black:       #000000
-// $color-gray-tint-lightMode:   #e6e6e6
-// $color-gray-shade-lightMode:  #737373
+// $color-gray-tint-lightmode:   #e6e6e6
+// $color-gray-shade-lightmode:  #737373
 // $color-white:       #ffffff
-// $color-green-tint-lightMode:  #e2fed2;
-// $color-green-lightMode:       #2f7851
-// $color-green-shade-lightMode: #00260f
-// $color-blue-tint-lightMode:   #d4d8f2
-// $color-blue-lightMode:        #3b4bbf
-// $color-blue-shade-lightMode:  #232d71;
-// $color-pink-tint-lightMode:   #f1cbe6
-// $color-pink-lightMode:        #fb37ff
-// $color-pink-shade-lightMode:  #9b009e;
-// $color-red-lightMode:         #ff2626;
-// $color-sand-lightMode:        #f7f7f7;
-// $color-yellow-tint-lightMode: #ffedb3;
-// $color-yellow-lightMode       #ffce29;
-// $color-yellow-shade-lightMode #c49e1f;
+// $color-green-tint-lightmode:  #e2fed2;
+// $color-green-lightmode:       #2f7851
+// $color-green-shade-lightmode: #00260f
+// $color-blue-tint-lightmode:   #d4d8f2
+// $color-blue-lightmode:        #3b4bbf
+// $color-blue-shade-lightmode:  #232d71;
+// $color-pink-tint-lightmode:   #f1cbe6
+// $color-pink-lightmode:        #fb37ff
+// $color-pink-shade-lightmode:  #9b009e;
+// $color-red-lightmode:         #ff2626;
+// $color-sand-lightmode:        #f7f7f7;
+// $color-yellow-tint-lightmode: #ffedb3;
+// $color-yellow-lightmode       #ffce29;
+// $color-yellow-shade-lightmode #c49e1f;
 //
 // Style guide: Brand.Colors
 $color-black: #000000;
 $color-white: #ffffff;
 
-$color-gray-tint-lightMode: #e6e6e6;
-$color-gray-shade-lightMode: #707070;
+$color-gray-tint-lightmode: #e6e6e6;
+$color-gray-shade-lightmode: #707070;
+$color-gray-tint-darkmode: #e6e6e6;
+$color-gray-shade-darkmode: #454545;
 
-$color-green-tint-lightMode: #e2fed2;
-$color-green-lightMode: #2f7851;
-$color-green-shade-lightMode: #00260f;
+$color-green-tint-lightmode: #e2fed2;
+$color-green-lightmode: #2f7851;
+$color-green-shade-lightmode: #00260f;
+$color-green-tint-darkmode: #96a98c;
+$color-green-darkmode: #1e4d34;
+$color-green-shade-darkmode: #00260f;
 
-$color-blue-tint-lightMode: #d4d8f2;
-$color-blue-lightMode: #3b4bbf;
-$color-blue-shade-lightMode: #232d71;
+$color-blue-tint-lightmode: #d4d8f2;
+$color-blue-lightmode: #3b4bbf;
+$color-blue-shade-lightmode: #232d71;
+$color-blue-tint-darkmode: #9299ce;
+$color-blue-darkmode: #212a6a;
+$color-blue-shade-darkmode: #161c46;
 
-$color-pink-tint-lightMode: #f1cbe6;
-$color-pink-lightMode: #fb37ff;
-$color-pink-shade-lightMode: #9b009e;
+$color-pink-tint-lightmode: #f1cbe6;
+$color-pink-lightmode: #fb37ff;
+$color-pink-shade-lightmode: #9b009e;
+$color-pink-tint-darkmode: #a7789a;
+$color-pink-darkmode: #7e1c80;
+$color-pink-shade-darkmode: #480049;
 
-$color-sand-lightMode: #f7f7f7;
+$color-sand-lightmode: #f7f7f7;
+$color-sand-darkmode: #222222;
 
-$color-red-lightMode: #ff2626;
+$color-red-lightmode: #ff2626;
+$color-red-darkMode: #aa1919;
 
-$color-yellow-tint-lightMode: #ffedb3;
-$color-yellow-lightMode: #ffce29;
-$color-yellow-shade-lightMode: #c49e1f;
+$color-yellow-tint-lightmode: #ffedb3;
+$color-yellow-lightmode: #ffce29;
+$color-yellow-shade-lightmode: #c49e1f;
+$color-yellow-tint-darkmode: aa9e77;
+$color-yellow-darkmode: #aa891b;
+$color-yellow-shade-darkmode: #6f5912;

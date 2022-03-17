@@ -43,14 +43,24 @@
 .c-homepage-card__image {
 	cursor: pointer;
 	margin-top: 3rem;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include desaturate();
+	}
 }
 
 
 .c-homepage-card__author {
-	color: $color-green-lightMode;
+	color: $color-green-lightmode;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	margin-top: 1.5rem;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-green-tint-darkmode;
+	}
 }
 
 
@@ -58,6 +68,11 @@
 	cursor: pointer;
 	color: $color-black;
 	text-decoration: none;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
+	}
 }
 
 
@@ -70,12 +85,12 @@
 
 
 .c-homepage-card__link {
-	@include link-states($color-blue-lightMode);
+	@include link-states($color-blue-lightmode);
 }
 
 
 .c-homepage-card__cta {
-	border-bottom: $border-thinnest solid $color-pink-lightMode;
+	border-bottom: $border-thinnest solid $color-pink-lightmode;
 	color: $color-black;
 	font-family: $font-family-secondary;
 	margin-top: 1rem;
@@ -89,19 +104,25 @@
 	}
 
 	&:focus {
-		background-color: $color-pink-lightMode;
+		background-color: $color-pink-lightmode;
 		color: $color-white;
-		outline: $border-thin solid $color-pink-lightMode;
+		outline: $border-thin solid $color-pink-lightmode;
 	}
 
 	// Supports
 	@supports #{$supports-underlines} {
 		border-bottom: none;
 		text-decoration: underline;
-		text-decoration-color: $color-pink-lightMode;
+		text-decoration-color: $color-pink-lightmode;
 		/* stylelint-disable-next-line property-no-unknown */
 		text-decoration-thickness: $border-thinnest;
 		text-underline-offset: 0.5rem;
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		border-bottom-color: $color-pink-darkmode;
+		color: $color-white;
 	}
 }
 
@@ -110,6 +131,11 @@
 	height: auto;
 	position: relative;
 		left: map-get($global-bleed, small);
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include desaturate();
+	}
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
@@ -130,7 +156,7 @@
 
 
 .c-homepage-card__spotlight__info {
-	background-color: $color-blue-tint-lightMode;
+	background-color: $color-blue-tint-lightmode;
 	height: 13rem;
 	margin-top: -8rem;
 	margin-left: 4rem;
@@ -144,6 +170,11 @@
 		flex-direction: column;
 		justify-content: flex-end;
 	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-blue-darkmode;
+	}
 }
 
 
@@ -153,7 +184,12 @@
 
 
 .c-homepage-card__spotlight-role {
-	color: $color-blue-shade-lightMode;
+	color: $color-blue-shade-lightmode;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-white;
+	}
 }

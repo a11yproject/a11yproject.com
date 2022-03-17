@@ -15,8 +15,8 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__input {
-	background-color: $color-sand-lightMode;
-	border: $border-thinnest solid $color-gray-shade-lightMode;
+	background-color: $color-sand-lightmode;
+	border: $border-thinnest solid $color-gray-shade-lightmode;
 	line-height: $line-height-single;
 	padding: 0.5rem;
 	transition: background-color $animation-duration-shorter $animation-easing-character;
@@ -28,8 +28,8 @@ $_c-input-margin-top: 1.5rem;
 	}
 
 	&:focus {
-		border-color: $color-pink-shade-lightMode;
-		outline: $border-thinner solid $color-pink-shade-lightMode;
+		border-color: $color-pink-shade-lightmode;
+		outline: $border-thinner solid $color-pink-shade-lightmode;
 	}
 
 	&:active {
@@ -50,7 +50,7 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__button {
-	background-color: $color-pink-shade-lightMode;
+	background-color: $color-pink-shade-lightmode;
 	border: none;
 	border-radius: 0.25rem;
 	color: $color-white;
@@ -69,8 +69,8 @@ $_c-input-margin-top: 1.5rem;
 
 	&:focus {
 		box-shadow:
-			0 0 0 em(2) $color-sand-lightMode,
-			0 0 0 em(4) $color-pink-shade-lightMode;
+			0 0 0 em(2) $color-sand-lightmode,
+			0 0 0 em(4) $color-pink-shade-lightmode;
 		outline: $border-thin solid transparent;
 	}
 
@@ -102,7 +102,7 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__error-wrapper {
-	border: $border-thin solid $color-red-lightMode;
+	border: $border-thin solid $color-red-lightmode;
 	padding: 0.5rem;
 
 	.c-form__error-list {
@@ -120,7 +120,7 @@ $_c-input-margin-top: 1.5rem;
 }
 
 .c-form__input[aria-invalid]{
-	border: $border-thinner solid $color-red-lightMode;
+	border: $border-thinner solid $color-red-lightmode;
 }
 
 .c-form__progress {
@@ -139,12 +139,12 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__progress-fill {
-	background-color: $color-yellow-lightMode;
+	background-color: $color-yellow-lightmode;
 }
 
 
 .c-form__progress-label {
-	background-color: $color-sand-lightMode;
+	background-color: $color-sand-lightmode;
 	font-family: $font-family-secondary;
 	margin-top: 0;
 	padding-left: 1rem;

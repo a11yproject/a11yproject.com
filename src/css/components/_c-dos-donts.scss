@@ -13,7 +13,7 @@
 	}
 
 	abbr {
-		border-bottom: $border-thinnest dotted $color-green-lightMode;
+		border-bottom: $border-thinnest dotted $color-green-lightmode;
 	}
 
 	p:first-of-type {
@@ -21,11 +21,11 @@
 	}
 
 	p:nth-child(odd) {
-		border-left: $border-thick solid $color-green-tint-lightMode;
+		border-left: $border-thick solid $color-green-tint-lightmode;
 	}
 
 	p:nth-child(even) {
-		border-left: $border-thick solid $color-pink-tint-lightMode;
+		border-left: $border-thick solid $color-pink-tint-lightmode;
 		margin-top: 1.25ex;
 
 		// User queries

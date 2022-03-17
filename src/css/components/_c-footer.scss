@@ -57,15 +57,25 @@
 	&[aria-current="page"] {
 		text-decoration: underline;
 	}
+
+	// User Queries
+	@media screen and (prefers-color-scheme: dark) {
+		@include link-states($color-gray-tint-darkmode);
+	}
 }
 
 
 .c-footer__tagline {
-	color: $color-blue-shade-lightMode;
+	color: $color-blue-shade-lightmode;
 	font-family: $font-family-primary;
 	font-size: $font-size-heading-small;
 	line-height: $line-height-single;
 	margin-top: 2rem;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-blue-tint-darkmode;
+	}
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -86,5 +96,10 @@
 	// States
 	&:hover {
 		text-decoration: none;
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include link-states($color-white);
 	}
 }

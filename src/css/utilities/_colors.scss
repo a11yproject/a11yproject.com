@@ -11,23 +11,23 @@
 
 $utility-colors: (
 	"black":        $color-black,
-	"gray-tint":    $color-gray-tint-lightMode,
-	"gray-shade":   $color-gray-shade-lightMode,
+	"gray-tint":    $color-gray-tint-lightmode,
+	"gray-shade":   $color-gray-shade-lightmode,
 	"white":        $color-white,
-	"green-tint":   $color-green-tint-lightMode,
-	"green":        $color-green-lightMode,
-	"green-shade":  $color-green-shade-lightMode,
-	"blue-tint":    $color-blue-tint-lightMode,
-	"blue":         $color-blue-lightMode,
-	"blue-shade":   $color-blue-shade-lightMode,
-	"pink-tint":    $color-pink-tint-lightMode,
-	"pink":         $color-pink-lightMode,
-	"pink-shade":   $color-pink-shade-lightMode,
-	"sand":         $color-sand-lightMode,
-	"red":          $color-red-lightMode,
-	"yellow-tint":  $color-yellow-tint-lightMode,
-	"yellow":       $color-yellow-lightMode,
-	"yellow-shade": $color-yellow-shade-lightMode
+	"green-tint":   $color-green-tint-lightmode,
+	"green":        $color-green-lightmode,
+	"green-shade":  $color-green-shade-lightmode,
+	"blue-tint":    $color-blue-tint-lightmode,
+	"blue":         $color-blue-lightmode,
+	"blue-shade":   $color-blue-shade-lightmode,
+	"pink-tint":    $color-pink-tint-lightmode,
+	"pink":         $color-pink-lightmode,
+	"pink-shade":   $color-pink-shade-lightmode,
+	"sand":         $color-sand-lightmode,
+	"red":          $color-red-lightmode,
+	"yellow-tint":  $color-yellow-tint-lightmode,
+	"yellow":       $color-yellow-lightmode,
+	"yellow-shade": $color-yellow-shade-lightmode
 );
 
 @each $name, $var in $utility-colors {

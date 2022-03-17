@@ -5,7 +5,7 @@
 //
 // Styleguide Base.html
 html {
-	background-color: $color-sand-lightMode;
+	background-color: $color-sand-lightmode;
 	color: $color-black;
 	font-family: $font-family-primary;
 	font-size: $global-type-size;
@@ -42,6 +42,11 @@ html {
 	screen and (min-resolution: 2dppx) {
 		/* stylelint-disable-next-line property-no-unknown */
 		font-smoothing: subpixel-antialiased; // Only apply to devices that support font smoothing: https://www.zachleat.com/web/font-smooth/
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
 	}
 
 	// Vendor

@@ -39,8 +39,8 @@
 
 
 .c-cta-get-started__link {
-	background-color: $color-pink-tint-lightMode;
-	border: $border-thick solid $color-sand-lightMode;
+	background-color: $color-pink-tint-lightmode;
+	border: $border-thick solid $color-sand-lightmode;
 	color: $color-black;
 	font-family: $font-family-secondary;
 	font-size: $font-size-body;
@@ -57,7 +57,7 @@
 	// States
 	&:hover,
 	&:focus {
-		background-color: $color-pink-lightMode;
+		background-color: $color-pink-lightmode;
 		color: $color-white;
 		outline: $border-thin solid transparent;
 	}
@@ -80,5 +80,18 @@
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-pink-tint-darkmode;
+		border-color: $color-sand-darkmode;
+		color: $color-white;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-pink-darkmode;
+			color: $color-black;
+		}
 	}
 }

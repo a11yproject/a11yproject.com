@@ -1,23 +1,33 @@
 .c-sponsors {
-	background-color: $color-green-tint-lightMode;
+	background-color: $color-green-tint-lightmode;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
+	}
 
 	// Contexts
 	.template-posts & {
-		background-color: $color-pink-tint-lightMode;
+		background-color: $color-pink-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-pink-shade-darkmode;
+		}
 	}
 
 	.template-about &,
 	.template-authors &,
 	.template-team & {
-		background-color: $color-blue-tint-lightMode;
+		background-color: $color-blue-tint-lightmode;
 	}
 
 	.template-contribute & {
-		background-color: $color-yellow-tint-lightMode;
+		background-color: $color-yellow-tint-lightmode;
 	}
 
 	.template-generic & {
-		background-color: $color-gray-tint-lightMode;
+		background-color: $color-gray-tint-lightmode;
 	}
 }
 
@@ -33,6 +43,11 @@
 	// States
 	&:focus {
 		outline: $border-thin solid $color-black;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			outline: $border-thin solid $color-white;
+		}
 	}
 
 	// Supports
@@ -41,5 +56,13 @@
 		@include mappy-bp(palm-medium) {
 			margin-bottom: 0;
 		}
+	}
+}
+
+
+.c-sponsor__ad {
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include desaturate();
 	}
 }

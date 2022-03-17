@@ -43,10 +43,10 @@
 	.template-post &,
 	.template-resources &,
 	.template-collections & {
-		color: $color-green-lightMode;
+		color: $color-green-lightmode;
 
 		&:focus {
-			background-color: $color-green-lightMode;
+			background-color: $color-green-lightmode;
 			color: $color-white;
 		}
 	}
@@ -56,10 +56,10 @@
 	.template-team &,
 	.template-authors,
 	.template-spotlight & {
-		color: $color-blue-shade-lightMode;
+		color: $color-blue-shade-lightmode;
 
 		&:focus {
-			background-color: $color-blue-shade-lightMode;
+			background-color: $color-blue-shade-lightmode;
 			color: $color-white;
 		}
 	}
@@ -67,10 +67,10 @@
 	.template-posts &,
 	.template-contribute &,
 	.template-generic & {
-		color: $color-blue-lightMode;
+		color: $color-blue-lightmode;
 
 		&:focus {
-			background-color: $color-blue-lightMode;
+			background-color: $color-blue-lightmode;
 			color: $color-white;
 		}
 	}
@@ -92,7 +92,7 @@
 	// Contexts
 	.template-post &,
 	.template-resources & {
-		fill: $color-green-lightMode;
+		fill: $color-green-lightmode;
 	}
 
 	.template-checklist &,
@@ -100,13 +100,23 @@
 	.template-team &,
 	.template-authors,
 	.template-spotlight & {
-		fill: $color-blue-shade-lightMode;
+		fill: $color-blue-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			fill: $color-blue-tint-darkmode;
+		}
 	}
 
 	.template-posts &,
 	.template-contribute &,
 	.template-generic & {
-		fill: $color-blue-lightMode;
+		fill: $color-blue-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			fill: $color-blue-tint-darkmode;
+		}
 	}
 }
 
@@ -122,6 +132,11 @@
 	// States
 	&:hover {
 		text-decoration: none;
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-blue-tint-darkmode;
 	}
 }
 
@@ -212,8 +227,8 @@
 	}
 
 	a {
-		border-bottom: $border-thinnest solid $color-sand-lightMode;
-		color: $color-gray-shade-lightMode;
+		border-bottom: $border-thinnest solid $color-sand-lightmode;
+		color: $color-gray-shade-lightmode;
 		text-decoration: none;
 		transition:
 			$animation-duration-short $animation-easing-character color,
@@ -227,14 +242,24 @@
 			&::after {
 				content: "";
 				flex: 1 1;
-				border-bottom: $border-thick solid $color-sand-lightMode;
+				border-bottom: $border-thick solid $color-sand-lightmode;
 				margin: auto auto auto 0.5rem;
+
+				// User Queries
+				@media (prefers-color-scheme: dark) {
+					border-bottom-color: $color-sand-darkmode;
+				}
 			}
 
 			// States
 			&:hover::after,
 			&:focus::after {
-				border-bottom-color: $color-pink-lightMode;
+				border-bottom-color: $color-pink-lightmode;
+
+				// User Queries
+				@media screen and (prefers-color-scheme: dark) {
+					border-bottom-color: $color-pink-darkmode;
+				}
 			}
 		}
 
@@ -245,13 +270,23 @@
 
 		&:hover,
 		&:focus {
-			border-bottom-color: $color-green-lightMode;
+			border-bottom-color: $color-green-lightmode;
 			color: $color-black;
+
+			// User Queries
+			@media screen and (prefers-color-scheme: dark) {
+				border-bottom-color: $color-green-darkmode;
+				color: $color-white;
+			}
 		}
 
 		// User Queries
 		@media screen and (prefers-reduced-motion: reduce) {
 			transition: none;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			color: $color-gray-tint-darkmode;
 		}
 	}
 

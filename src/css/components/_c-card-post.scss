@@ -8,17 +8,26 @@
 
 	// States
 	&:hover {
-		outline: $_card-outline $color-gray-tint-lightMode;
+		outline: $_card-outline $color-gray-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			outline: $_card-outline $color-gray-shade-darkmode;
+		}
 	}
 
 	&:focus-within {
-		background-color: $color-blue-lightMode;
-		outline: $border-thinner solid $color-blue-lightMode;
+		background-color: $color-blue-lightmode;
+		outline: $border-thinner solid $color-blue-lightmode;
 	}
 
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
 	}
 }
 
@@ -42,7 +51,7 @@
 
 
 .c-card-post__title {
-	color: $color-blue-shade-lightMode;
+	color: $color-blue-shade-lightmode;
 	letter-spacing: $font-tracking-tight;
 
 	// States
@@ -55,16 +64,31 @@
 		color: $color-white;
 		outline: $border-thin solid transparent;
 	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-blue-tint-darkmode;
+	}
 }
 
 
 .c-card-post__meta {
-	color: $color-gray-shade-lightMode;
+	color: $color-gray-shade-lightmode;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-white;
+	}
 }
 
 
 .c-card-post__author {
-	color: $color-gray-shade-lightMode;
+	color: $color-gray-shade-lightmode;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
+	}
 
 	// States
 	&:hover,
@@ -78,3 +102,9 @@
 	}
 }
 
+.c-card-post__description {
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
+	}
+}

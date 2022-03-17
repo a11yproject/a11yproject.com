@@ -27,10 +27,10 @@ $_c-post-vertical-spacing: 4ex;
 //
 // Style guide: Components.post
 .c-post__category {
-	border-top: $border-thick solid $color-green-lightMode;
+	border-top: $border-thick solid $color-green-lightmode;
 
 	p {
-		border-bottom: $border-thinnest solid $color-green-lightMode;
+		border-bottom: $border-thinnest solid $color-green-lightmode;
 		padding: 0.5rem 0 0.5rem map-get($global-post-content-inset, small);
 		text-transform: uppercase;
 
@@ -61,7 +61,7 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__category__link {
-	color: $color-green-lightMode;
+	color: $color-green-lightmode;
 	text-decoration: none;
 
 	// States
@@ -70,14 +70,14 @@ $_c-post-vertical-spacing: 4ex;
 	}
 
 	&:focus {
-		background-color: $color-green-lightMode;
+		background-color: $color-green-lightmode;
 		color: $color-white;
-		outline: $border-thick solid $color-green-lightMode;
+		outline: $border-thick solid $color-green-lightmode;
 	}
 
 	&:active {
 		background-color: transparent;
-		color: $color-green-lightMode;
+		color: $color-green-lightmode;
 		outline: none;
 		text-decoration: none;
 	}
@@ -117,8 +117,8 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__metadata {
-	border-top: $border-thinnest solid $color-green-lightMode;
-	border-bottom: $border-thick solid $color-green-lightMode;
+	border-top: $border-thinnest solid $color-green-lightmode;
+	border-bottom: $border-thick solid $color-green-lightmode;
 	list-style-type: none;
 	padding: 0.75rem map-get($global-post-content-inset, small);
 

@@ -1,6 +1,6 @@
 .c-blm-banner {
 	background-color: #211009;
-	color: $color-sand-lightMode;
+	color: $color-sand-lightmode;
 	font-family: $font-family-secondary;
 	padding: 0.25rem map-get($global-bleed, small);
 	text-align: center;
@@ -9,6 +9,10 @@
 	@media screen and (-ms-high-contrast: active) {
 		background-color: windowText;
 		color: window;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
 	}
 }
 

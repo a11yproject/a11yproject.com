@@ -28,26 +28,51 @@
 }
 
 .c-featured__body--post {
-	background-color: $color-blue-tint-lightMode;
+	background-color: $color-blue-tint-lightmode;
 
 	// States
 	&:focus-within {
-		background-color: $color-blue-shade-lightMode;
-		border-right-color: $color-blue-shade-lightMode;
-		border-bottom-color: $color-blue-shade-lightMode;
-		border-left-color: $color-blue-shade-lightMode;
+		background-color: $color-blue-shade-lightmode;
+		border-right-color: $color-blue-shade-lightmode;
+		border-bottom-color: $color-blue-shade-lightmode;
+		border-left-color: $color-blue-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-shade-darkmode;
+			border-right-color: $color-blue-shade-darkmode;
+			border-bottom-color: $color-blue-shade-darkmode;
+			border-left-color: $color-blue-shade-darkmode;
+		}
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
 	}
 }
 
+
+.c-featured__body--post {
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		// States
+		&:hover {
+			background-color: $color-black;
+		}
+	}
+}
+
+
 .c-featured__body--resource {
-	background-color: $color-green-tint-lightMode;
+	background-color: $color-green-tint-lightmode;
 
 	// States
 	&:focus-within {
-		background-color: $color-green-shade-lightMode;
-		border-right-color: $color-green-shade-lightMode;
-		border-bottom-color: $color-green-shade-lightMode;
-		border-left-color: $color-green-shade-lightMode;
+		background-color: $color-green-shade-lightmode;
+		border-right-color: $color-green-shade-lightmode;
+		border-bottom-color: $color-green-shade-lightmode;
+		border-left-color: $color-green-shade-lightmode;
 	}
 }
 
@@ -75,11 +100,16 @@
 }
 
 .c-featured__title--post {
-	color: $color-blue-shade-lightMode;
+	color: $color-blue-shade-lightmode;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-blue-tint-darkmode;
+	}
 }
 
 .c-featured__title--resource {
-	color: $color-green-shade-lightMode;
+	color: $color-green-shade-lightmode;
 }
 
 

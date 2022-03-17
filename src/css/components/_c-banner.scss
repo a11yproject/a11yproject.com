@@ -2,7 +2,7 @@ $_banner-triangle-size: 1.49rem;
 
 
 .c-banner {
-	background-color: $color-green-tint-lightMode;
+	background-color: $color-green-tint-lightmode;
 	background-image: url("#{$path-to-img}/resource-banner-inset.svg");
 	background-position: center right;
 	background-repeat: no-repeat;
@@ -17,7 +17,7 @@ $_banner-triangle-size: 1.49rem;
 	&::before {
 		content: "";
 		border-style: solid;
-		border-color: transparent $color-green-lightMode transparent transparent;
+		border-color: transparent $color-green-lightmode transparent transparent;
 		border-width: 0 $_banner-triangle-size $_banner-triangle-size 0;
 		display: inline-block;
 		position: relative;
@@ -32,24 +32,34 @@ $_banner-triangle-size: 1.49rem;
 
 	// Contexts
 	&.c-banner--resource {
-		background-color: $color-green-lightMode;
+		background-color: $color-green-lightmode;
 		background-image: none;
 		color: $color-white;
 		margin-top: 0;
 
 		&::before {
-			border-color: transparent $color-green-shade-lightMode transparent transparent;
+			border-color: transparent $color-green-shade-lightmode transparent transparent;
 		}
 	}
 
 	&.c-banner--post {
-		background-color: $color-blue-lightMode;
+		background-color: $color-blue-lightmode;
 		background-image: none;
 		color: $color-white;
 		margin-top: 0;
 
 		&::before {
-			border-color: transparent $color-blue-shade-lightMode transparent transparent;
+			border-color: transparent $color-blue-shade-lightmode transparent transparent;
+
+			// User Queries
+			@media (prefers-color-scheme: dark) {
+				border-color: transparent $color-blue-shade-darkmode transparent transparent;
+			}
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-darkmode;
 		}
 	}
 }

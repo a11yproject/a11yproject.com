@@ -28,7 +28,7 @@
 
 .c-recommended-reading__link {
 	background-color: $color-white;
-	border-top: $border-thicker solid $color-red-lightMode;
+	border-top: $border-thicker solid $color-red-lightmode;
 	line-height: $line-height-tight;
 	padding: 1rem;
 	text-decoration: none;
@@ -43,7 +43,7 @@
 
 	&:hover,
 	&:focus {
-		background-color: $color-red-lightMode !important;
+		background-color: $color-red-lightmode !important;
 		color: $color-white;
 
 		.c-recommended-reading__category {
@@ -69,15 +69,15 @@
 
 
 .c-recommended-reading__category {
-	border-bottom: $border-thin dotted $color-red-lightMode;
-	color: $color-red-lightMode;
+	border-bottom: $border-thin dotted $color-red-lightmode;
+	color: $color-red-lightmode;
 	display: block;
 	padding-bottom: 0.75rem;
 }
 
 
 .c-recommended-reading__title {
-	color: $color-gray-shade-lightMode;
+	color: $color-gray-shade-lightmode;
 	display: block;
 	font-size: $font-size-body-tiny;
 	margin-top: 1rem;

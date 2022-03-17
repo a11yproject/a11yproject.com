@@ -1,9 +1,14 @@
 .c-preface {
-	color: $color-gray-shade-lightMode;
+	color: $color-gray-shade-lightmode;
 	margin-top: 0.5rem;
 	margin-bottom: 2rem;
 	margin-left: $_card-inset;
 	max-width: $global-type-measure;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
+	}
 }
 
 
@@ -11,11 +16,21 @@
 	// Contexts
 	.template-checklist &,
 	.template-resources & {
-		@include link-states($color-green-lightMode);
+		@include link-states($color-green-lightmode);
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			@include link-states($color-green-tint-darkmode);
+		}
 	}
 
 	.template-posts &,
 	.template-team & {
-		@include link-states($color-blue-lightMode);
+		@include link-states($color-blue-lightmode);
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			@include link-states($color-blue-tint-darkmode);
+		}
 	}
 }

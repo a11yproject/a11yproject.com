@@ -1,24 +1,24 @@
 @mixin _generate-context-borders($border-direction) {
 	.c-linkroll__entry--background & {
-		border-#{$border-direction}-color: $color-gray-shade-lightMode;
+		border-#{$border-direction}-color: $color-gray-shade-lightmode;
 	}
 
 	.c-linkroll__entry--assistive-technology &,
 	.c-linkroll__entry--how-to & {
-		border-#{$border-direction}-color: $color-yellow-lightMode;
+		border-#{$border-direction}-color: $color-yellow-lightmode;
 	}
 
 	.c-linkroll__entry--myth &,
 	.c-linkroll__entry--announcement & {
-		border-#{$border-direction}-color: $color-pink-lightMode;
+		border-#{$border-direction}-color: $color-pink-lightmode;
 	}
 
 	.c-linkroll__entry--quick-test & {
-		border-#{$border-direction}-color: $color-blue-lightMode;
+		border-#{$border-direction}-color: $color-blue-lightmode;
 	}
 
 	.c-linkroll__entry--quick-tip & {
-		border-#{$border-direction}-color: $color-green-lightMode;
+		border-#{$border-direction}-color: $color-green-lightmode;
 	}
 }
 
@@ -29,7 +29,7 @@
 	// States
 	&:hover,
 	&:focus {
-		background-color: $color-gray-shade-lightMode;
+		background-color: $color-gray-shade-lightmode;
 		outline: $border-thin solid transparent;
 
 		.c-linkroll__title,
@@ -44,26 +44,31 @@
 
 		// Contexts
 		.c-linkroll__entry--background & {
-			background-color: $color-gray-shade-lightMode;
+			background-color: $color-gray-shade-lightmode;
 		}
 
 		.c-linkroll__entry--assistive-technology &,
 		.c-linkroll__entry--how-to & {
-			background-color: $color-yellow-lightMode;
+			background-color: $color-yellow-lightmode;
 		}
 
 		.c-linkroll__entry--myth &,
 		.c-linkroll__entry--announcements & {
-			background-color: $color-pink-lightMode;
+			background-color: $color-pink-lightmode;
 		}
 
 		.c-linkroll__entry--quick-test & {
-			background-color: $color-blue-lightMode;
+			background-color: $color-blue-lightmode;
 		}
 
 		.c-linkroll__entry--quick-tip & {
-			background-color: $color-green-lightMode;
+			background-color: $color-green-lightmode;
 		}
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
 	}
 }
 
@@ -73,13 +78,6 @@
 // Style guide: Components.linkroll
 .c-linkroll {
 	margin-top: 1rem;
-}
-
-
-.c-linkroll__entry {
-	@include preserve-list-semantics();
-
-	margin-top: 1.25rem;
 }
 
 
@@ -118,33 +116,25 @@
 }
 
 
+.c-linkroll__entry {
+	@include preserve-list-semantics();
+
+	color: $color-blue-shade-lightmode;
+	margin-top: 1.25rem;
+
+
+}
+
+
 .c-linkroll__category {
-	// Contexts
-	.c-linkroll__entry--assistive-technology & {
-		color: $color-gray-shade-lightMode;
-	}
+	color: $color-pink-shade-lightmode;
 
-	.c-linkroll__entry--background & {
-		color: $color-gray-shade-lightMode;
-	}
-
-	.c-linkroll__entry--how-to & {
-		color: $color-yellow-lightMode;
-	}
-
-	.c-linkroll__entry--myth &,
-	.c-linkroll__entry--announcements & {
-		color: $color-pink-lightMode;
-	}
-
-	.c-linkroll__entry--quick-test & {
-		color: $color-blue-lightMode;
-	}
-
-	.c-linkroll__entry--quick-tip & {
-		color: $color-green-lightMode;
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-pink-tint-darkmode;
 	}
 }
+
 
 .c-linkroll__category--featured {
 	padding-top: 1rem;
@@ -155,6 +145,11 @@
 	color: $color-black;
 	line-height: $line-height-tight;
 	text-decoration: none;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
+	}
 }
 
 .c-linkroll__featured {

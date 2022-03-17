@@ -28,14 +28,14 @@ $_checklist-padding: (
 
 
 .c-card__wrapper .c-checklist__wrapper:first-of-type .c-checklist {
-	border-top: $border-thinnest solid $color-blue-shade-lightMode;
+	border-top: $border-thinnest solid $color-blue-shade-lightmode;
 }
 
 
 .c-checklist {
-	border-bottom: $border-thinnest solid $color-blue-shade-lightMode;
-	border-right: $border-thinnest solid $color-blue-shade-lightMode;
-	border-left: $border-thinnest solid $color-blue-shade-lightMode;
+	border-bottom: $border-thinnest solid $color-blue-shade-lightmode;
+	border-right: $border-thinnest solid $color-blue-shade-lightmode;
+	border-left: $border-thinnest solid $color-blue-shade-lightmode;
 	list-style-image: none;
 	width: 100%;
 
@@ -48,7 +48,7 @@ $_checklist-padding: (
 
 	&:hover {
 		.c-checklist__icon {
-			fill: $color-blue-tint-lightMode;
+			fill: $color-blue-tint-lightmode;
 		}
 	}
 
@@ -64,7 +64,7 @@ $_checklist-padding: (
 
 	// Text-level formatting
 	code {
-		background-color: $color-blue-tint-lightMode;
+		background-color: $color-blue-tint-lightmode;
 		margin-left: 0.25ch;
 		margin-right: 0.25ch;
 		padding: 0.3ch 0.5ch;
@@ -87,7 +87,7 @@ $_checklist-padding: (
 
 	// States
 	&:focus {
-		background-color: $color-blue-shade-lightMode;
+		background-color: $color-blue-shade-lightmode;
 		color: $color-white;
 		outline: $border-thin solid transparent;
 
@@ -97,7 +97,7 @@ $_checklist-padding: (
 
 		// Text-level formatting
 		code {
-			color: $color-blue-shade-lightMode;
+			color: $color-blue-shade-lightmode;
 		}
 	}
 }
@@ -112,7 +112,7 @@ $_checklist-padding: (
 }
 
 .c-checklist__icon {
-	fill: $color-blue-shade-lightMode;
+	fill: $color-blue-shade-lightmode;
 	height: map-get($_checklist-icon-size, small);
 	width: map-get($_checklist-icon-size, small);
 	transition: fill $animation-duration-shorter $animation-easing-character;
@@ -160,8 +160,8 @@ margin-left: 1rem;
 	// SEE: https://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html
 	// Sets up the checkbox box
 	input[type="checkbox"] + label::before {
-		background-color: $color-sand-lightMode;
-		border: $border-thinner solid $color-blue-shade-lightMode;
+		background-color: $color-sand-lightmode;
+		border: $border-thinner solid $color-blue-shade-lightmode;
 		box-sizing: border-box;
 		content: "";
 		cursor: pointer;
@@ -184,8 +184,8 @@ margin-left: 1rem;
 
 	input[type="checkbox"]:focus + label::before {
 		box-shadow:
-			0 0 0 em(2) $color-sand-lightMode,
-			0 0 0 em(4) $color-blue-shade-lightMode;
+			0 0 0 em(2) $color-sand-lightmode,
+			0 0 0 em(4) $color-blue-shade-lightmode;
 		outline: $border-thin solid transparent;
 	}
 
@@ -209,8 +209,8 @@ margin-left: 1rem;
 
 	// Checked checkmark styling
 	input[type="checkbox"]:checked + label::after {
-		border-right: 0.15rem solid $color-blue-shade-lightMode;
-		border-bottom: 0.15rem solid $color-blue-shade-lightMode;
+		border-right: 0.15rem solid $color-blue-shade-lightmode;
+		border-bottom: 0.15rem solid $color-blue-shade-lightmode;
 		height: 0.6rem;
 		left: -0.225rem;
 		top: 0.2rem;
@@ -239,7 +239,7 @@ margin-left: 1rem;
 
 
 .c-checklist__link {
-	@include link-states($color-blue-shade-lightMode);
+	@include link-states($color-blue-shade-lightmode);
 
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
@@ -270,7 +270,7 @@ margin-left: 1rem;
 
 	// Text-level formatting
 	a {
-		@include link-states($color-blue-shade-lightMode);
+		@include link-states($color-blue-shade-lightmode);
 	}
 }
 

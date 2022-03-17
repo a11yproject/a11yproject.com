@@ -47,7 +47,7 @@ kbd {
 	background-color: $color-white;
 	border: rem(4) solid $color-white;
 	border-radius: rem(4);
-	box-shadow: 0 2px 1px 0 $color-gray-shade-lightMode;
+	box-shadow: 0 2px 1px 0 $color-gray-shade-lightmode;
 	padding: 0 0.5ch;
 	word-break: break-word;
 }
@@ -82,7 +82,7 @@ pre {
 //
 // Styleguide Base.Code.samp
 samp {
-	background-color: $color-pink-tint-lightMode;
+	background-color: $color-pink-tint-lightmode;
 }
 
 // var

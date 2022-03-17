@@ -5,8 +5,12 @@
 //
 // Styleguide Base.body
 body {
-	background-color: $color-sand-lightMode; // Extends background color to full width on an iPhone X in landscape mode: http://stephenradford.me/removing-the-white-bars-in-safari-on-iphone-x/
+	background-color: $color-sand-lightmode; // Extends background color to full width on an iPhone X in landscape mode: http://stephenradford.me/removing-the-white-bars-in-safari-on-iphone-x/
 	font-size: 1em;
 	min-height: 100%; // Ensure the page always fills at least the entire height of the viewport
 	overflow-x: hidden;
+
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-sand-darkmode;
+	}
 }

@@ -11,7 +11,7 @@
 .c-hero {
 	// Contexts
 	.template-home & {
-		background-color: $color-green-shade-lightMode;
+		background-color: $color-green-shade-lightmode;
 		background-image: url("#{$path-to-img}/heroes/a11y.svg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 	}
 
 	.template-posts & {
-		background-color: $color-pink-shade-lightMode;
+		background-color: $color-pink-shade-lightmode;
 		background-image: url("#{$path-to-img}/heroes/posts.svg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 	}
 
 	.template-checklist & {
-		background-color: $color-blue-lightMode;
+		background-color: $color-blue-lightmode;
 		background-image: url("#{$path-to-img}/heroes/checklist.svg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -59,7 +59,7 @@
 
 	.template-resources &,
 	.template-collections & {
-		background-color: $color-green-shade-lightMode;
+		background-color: $color-green-shade-lightmode;
 	}
 
 	.template-resources & {
@@ -71,14 +71,14 @@
 	}
 
 	.template-about & {
-		background-color: $color-blue-shade-lightMode;
+		background-color: $color-blue-shade-lightmode;
 		background-image: url("#{$path-to-img}/heroes/about.svg");
 	}
 
 	.template-authors &,
 	.template-team &,
 	.template-spotlight & {
-		background-color: $color-blue-shade-lightMode;
+		background-color: $color-blue-shade-lightmode;
 	}
 
 	.template-authors & {
@@ -90,12 +90,12 @@
 	}
 
 	.template-contribute & {
-		background-color: $color-yellow-tint-lightMode;
+		background-color: $color-yellow-tint-lightmode;
 		background-image: url("#{$path-to-img}/heroes/contribute.svg");
 	}
 
 	.template-simple & {
-		background-color: $color-yellow-lightMode;
+		background-color: $color-yellow-lightmode;
 	}
 
 	.template-spotlight & {
@@ -123,32 +123,32 @@
 
 	// Contexts
 	.template-posts & {
-		color: $color-blue-tint-lightMode;
-		background-color: $color-pink-shade-lightMode;
-		border-top-color: $color-blue-tint-lightMode;
+		color: $color-blue-tint-lightmode;
+		background-color: $color-pink-shade-lightmode;
+		border-top-color: $color-blue-tint-lightmode;
 	}
 
 	.template-checklist & {
 		color: $color-white;
-		background-color: $color-blue-lightMode;
+		background-color: $color-blue-lightmode;
 		border-top-color: $color-white;
 	}
 
 	.template-resources &,
 	.template-collections & {
-		color: $color-green-tint-lightMode;
-		background-color: $color-green-shade-lightMode;
-		border-top-color: $color-green-tint-lightMode;
+		color: $color-green-tint-lightmode;
+		background-color: $color-green-shade-lightmode;
+		border-top-color: $color-green-tint-lightmode;
 	}
 
 	.template-about & {
-		color: $color-yellow-tint-lightMode;
-		background-color: $color-blue-shade-lightMode;
-		border-top-color: $color-yellow-tint-lightMode;
+		color: $color-yellow-tint-lightmode;
+		background-color: $color-blue-shade-lightmode;
+		border-top-color: $color-yellow-tint-lightmode;
 	}
 
 	.template-contribute & {
-		color: $color-yellow-tint-lightMode;
+		color: $color-yellow-tint-lightmode;
 		background-color: $color-black;
 		border-top-color: $color-white;
 	}
@@ -156,8 +156,8 @@
 	.template-authors &,
 	.template-team &,
 	.template-spotlight & {
-		color: $color-yellow-tint-lightMode;
-		background-color: $color-blue-shade-lightMode;
-		border-top-color: $color-yellow-tint-lightMode;
+		color: $color-yellow-tint-lightmode;
+		background-color: $color-blue-shade-lightmode;
+		border-top-color: $color-yellow-tint-lightmode;
 	}
 }

@@ -19,4 +19,8 @@
 	@media screen and (-ms-high-contrast: active) {
 		-ms-high-contrast-adjust: none;
 	}
+
+	@media (prefers-color-scheme: dark) {
+		@include desaturate();
+	}
 }

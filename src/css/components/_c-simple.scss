@@ -8,7 +8,7 @@
 
 .c-simple__hero {
 	background-color: $color-white;
-	border-top: $border-thicker solid $color-pink-shade-lightMode;
+	border-top: $border-thicker solid $color-pink-shade-lightmode;
 	margin-top: 2rem;
 	padding: 1rem 2rem 2rem;
 
@@ -36,7 +36,7 @@
 
 
 .c-simple__link {
-	@include link-states($color-pink-shade-lightMode);
+	@include link-states($color-pink-shade-lightmode);
 
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinner;
