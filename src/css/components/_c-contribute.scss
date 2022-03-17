@@ -11,4 +11,15 @@
 	padding: 0.25rem 1rem;
 	margin-left: -1rem;
 	width: $global-type-measure * 0.5;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-yellow-darkmode;
+		color: $color-black;
+		outline: $border-thicker solid $color-yellow-darkmode;
+
+		a {
+			color: $color-blue-shade-darkmode !important;
+		}
+	}
 }

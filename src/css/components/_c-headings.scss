@@ -60,6 +60,11 @@
 		font-size: $font-size-body-large;
 		line-height: $line-height-tight;
 	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-blue-tint-darkmode;
+	}
 }
 
 

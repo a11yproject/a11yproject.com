@@ -20,14 +20,29 @@
 	.template-authors &,
 	.template-team & {
 		background-color: $color-blue-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-shade-darkmode;
+		}
 	}
 
 	.template-contribute & {
 		background-color: $color-yellow-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-yellow-shade-darkmode;
+		}
 	}
 
 	.template-generic & {
 		background-color: $color-gray-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-gray-shade-darkmode;
+		}
 	}
 }
 
