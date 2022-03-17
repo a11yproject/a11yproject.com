@@ -15,6 +15,11 @@
 	// States
 	&:hover {
 		background-color: $color-white;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-green-shade-darkmode;
+		}
 	}
 
 	&:focus-within {
@@ -70,6 +75,11 @@
 		border-bottom-color: $color-green-shade-lightmode;
 		border-left-color: $color-green-shade-lightmode;
 	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
+	}
 }
 
 
@@ -106,6 +116,11 @@
 
 .c-featured__title--resource {
 	color: $color-green-shade-lightmode;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-green-tint-darkmode;
+	}
 }
 
 

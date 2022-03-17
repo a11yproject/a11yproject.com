@@ -13,6 +13,11 @@
 	// States
 	&:hover {
 		background-color: $color-white;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-black;
+		}
 	}
 
 	&:focus-within {
@@ -20,11 +25,25 @@
 		border-right-color: $color-green-shade-lightmode;
 		border-bottom-color: $color-green-shade-lightmode;
 		border-left-color: $color-green-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-green-shade-darkmode;
+			border-right-color: $color-green-shade-darkmode;
+			border-bottom-color: $color-green-shade-darkmode;
+			border-left-color: $color-green-shade-darkmode;
+		}
 	}
 
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		border-right-color: $color-gray-shade-darkmode;
+		border-bottom-color: $color-gray-shade-darkmode;
+		border-left-color: $color-gray-shade-darkmode;
 	}
 }
 
@@ -49,12 +68,22 @@
 		color: $color-white;
 		outline: $border-thin solid transparent;
 	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-green-tint-darkmode;
+	}
 }
 
 
 .c-card-resource__meta {
 	color: $color-gray-shade-lightmode;
 	line-height: $line-height-tight;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
+	}
 }
 
 

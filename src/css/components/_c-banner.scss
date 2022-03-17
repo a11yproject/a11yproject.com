@@ -28,6 +28,15 @@ $_banner-triangle-size: 1.49rem;
 		@media screen and (-ms-high-contrast: active) {
 			display: none;
 		}
+
+		@media (prefers-color-scheme: dark) {
+			border-color: transparent $color-green-darkmode transparent transparent;
+		}
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-green-tint-darkmode;
 	}
 
 	// Contexts
@@ -39,6 +48,16 @@ $_banner-triangle-size: 1.49rem;
 
 		&::before {
 			border-color: transparent $color-green-shade-lightmode transparent transparent;
+
+			// User Queries
+			@media (prefers-color-scheme: dark) {
+				border-color: transparent $color-green-tint-darkmode transparent transparent;
+			}
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-green-darkmode;
 		}
 	}
 
