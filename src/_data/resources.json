@@ -972,6 +972,12 @@
 			"additional": "Pa11y",
 			"url": "http://pa11y.org/"
 		},
+				{
+			"title": "Polypane",
+			"description": "Polypane is a cross-platform desktop browser that comes with extensive accessibility tooling: an accessibility checker, 19 different visual impairment simulators, color contrast checking, heading, links and image checking, focus order visualisation, horizontal overflow detection and more, showing improvement suggestions where possible.",
+			"additional": "Polypane",
+			"url": "https://polypane.com/"
+		},
 		{
 			"title": "Sa11y",
 			"description": "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y indicates errors or warnings at the source with a simple tooltip on how to fix.",
