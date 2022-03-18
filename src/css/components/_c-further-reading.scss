@@ -1,5 +1,10 @@
 .c-further-reading {
-	@include post-content-flourish("section-further-reading.svg", 132, 1.7rem);
+	@include post-content-flourish("section-further-reading-lightmode.svg", 132, 1.7rem);
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include post-content-flourish("section-further-reading-darkmode.svg", 132, 1.7rem);
+	}
 }
 
 
