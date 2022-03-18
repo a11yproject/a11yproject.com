@@ -12,15 +12,21 @@
 	// Contexts
 	.template-home & {
 		background-color: $color-green-shade-lightmode;
-		background-image: url("#{$path-to-img}/heroes/a11y.svg");
+		background-image: url("#{$path-to-img}/heroes/a11y-lightmode.svg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-green-shade-darkmode;
+			background-image: url("#{$path-to-img}/heroes/a11y-darkmode.svg");
+		}
 	}
 
 	.template-posts & {
 		background-color: $color-pink-shade-lightmode;
-		background-image: url("#{$path-to-img}/heroes/posts.svg");
+		background-image: url("#{$path-to-img}/heroes/posts-lightmode.svg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -29,11 +35,17 @@
 		@include mappy-bp(wrist-large) {
 			background-size: contain;
 		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-pink-shade-darkmode;
+			background-image: url("#{$path-to-img}/heroes/posts-darkmode.svg");
+		}
 	}
 
 	.template-checklist & {
 		background-color: $color-blue-lightmode;
-		background-image: url("#{$path-to-img}/heroes/checklist.svg");
+		background-image: url("#{$path-to-img}/heroes/checklist-lightmode.svg");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -41,6 +53,11 @@
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
 			background-size: contain;
+		}
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-darkmode;
+			background-image: url("#{$path-to-img}/heroes/checklist-darkmode.svg");
 		}
 	}
 
@@ -60,38 +77,74 @@
 	.template-resources &,
 	.template-collections & {
 		background-color: $color-green-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-green-shade-darkmode;
+		}
 	}
 
 	.template-resources & {
-		background-image: url("#{$path-to-img}/heroes/resources.svg");
+		background-image: url("#{$path-to-img}/heroes/resources-lightmode.svg");
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-image: url("#{$path-to-img}/heroes/resources-darkmode.svg");
+		}
 	}
 
 	.template-collections & {
-		background-image: url("#{$path-to-img}/heroes/collections.svg");
+		background-image: url("#{$path-to-img}/heroes/collections-lightmode.svg");
 	}
 
 	.template-about & {
 		background-color: $color-blue-shade-lightmode;
-		background-image: url("#{$path-to-img}/heroes/about.svg");
+		background-image: url("#{$path-to-img}/heroes/about-lightmode.svg");
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-shade-darkmode;
+			background-image: url("#{$path-to-img}/heroes/about-darkmode.svg");
+		}
 	}
 
 	.template-authors &,
 	.template-team &,
 	.template-spotlight & {
 		background-color: $color-blue-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-shade-darkmode;
+		}
 	}
 
 	.template-authors & {
-		background-image: url("#{$path-to-img}/heroes/authors.svg");
+		background-image: url("#{$path-to-img}/heroes/authors-lightmode.svg");
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-image: url("#{$path-to-img}/heroes/authors-darkmode.svg");
+		}
 	}
 
 	.template-team & {
-		background-image: url("#{$path-to-img}/heroes/team.svg");
+		background-image: url("#{$path-to-img}/heroes/team-lightmode.svg");
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-image: url("#{$path-to-img}/heroes/team-darkmode.svg");
+		}
 	}
 
 	.template-contribute & {
 		background-color: $color-yellow-tint-lightmode;
-		background-image: url("#{$path-to-img}/heroes/contribute.svg");
+		background-image: url("#{$path-to-img}/heroes/contribute-lightmode.svg");
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-yellow-shade-darkmode;
+		}
 	}
 
 	.template-simple & {
@@ -99,11 +152,16 @@
 	}
 
 	.template-spotlight & {
-		background-image: url("#{$path-to-img}/heroes/spotlight.svg");
+		background-image: url("#{$path-to-img}/heroes/spotlight-lightmode.svg");
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-image: url("#{$path-to-img}/heroes/spotlight-darkmode.svg");
+		}
 	}
 
 	.template-404 & {
-		background-image: url("#{$path-to-img}/heroes/404.svg");
+		background-image: url("#{$path-to-img}/heroes/404-lightmode.svg");
 	}
 }
 
@@ -126,12 +184,25 @@
 		color: $color-blue-tint-lightmode;
 		background-color: $color-pink-shade-lightmode;
 		border-top-color: $color-blue-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			color: $color-white;
+			background-color: $color-pink-shade-darkmode;
+			border-top-color: $color-white;
+		}
 	}
 
 	.template-checklist & {
 		color: $color-white;
 		background-color: $color-blue-lightmode;
 		border-top-color: $color-white;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-darkmode;
+			border-top-color: $color-gray-tint-darkmode;
+		}
 	}
 
 	.template-resources &,
@@ -139,18 +210,36 @@
 		color: $color-green-tint-lightmode;
 		background-color: $color-green-shade-lightmode;
 		border-top-color: $color-green-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-green-shade-darkmode;
+			border-top-color: $color-green-tint-darkmode;
+		}
 	}
 
 	.template-about & {
 		color: $color-yellow-tint-lightmode;
 		background-color: $color-blue-shade-lightmode;
 		border-top-color: $color-yellow-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-shade-darkmode;
+			border-top-color: $color-yellow-tint-darkmode;
+		}
 	}
 
 	.template-contribute & {
 		color: $color-yellow-tint-lightmode;
 		background-color: $color-black;
 		border-top-color: $color-white;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-black;
+			border-top-color: $color-gray-tint-darkmode;
+		}
 	}
 
 	.template-authors &,
@@ -159,5 +248,11 @@
 		color: $color-yellow-tint-lightmode;
 		background-color: $color-blue-shade-lightmode;
 		border-top-color: $color-yellow-tint-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-shade-darkmode;
+			border-top-color: $color-yellow-tint-darkmode;
+		}
 	}
 }

@@ -7,18 +7,38 @@
 	// Contexts
 	.template-home & {
 		background-color: $color-green-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-green-shade-darkmode;
+		}
 	}
 
 	.template-posts & {
 		background-color: $color-pink-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-pink-shade-darkmode;
+		}
 	}
 
 	.template-checklist & {
 		background-color: $color-blue-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-darkmode;
+		}
 	}
 
 	.template-resources & {
 		background-color: $color-green-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-green-shade-darkmode;
+		}
 	}
 
 	.template-about &,
@@ -26,6 +46,11 @@
 	.template-team &,
 	.template-spotlight & {
 		background-color: $color-blue-shade-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-blue-shade-darkmode;
+		}
 	}
 
 	.template-contribute &,
