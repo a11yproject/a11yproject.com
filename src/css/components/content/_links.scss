@@ -2,6 +2,11 @@ a {
 	// Contexts
 	.c-content--post & {
 		@include link-states($color-green-lightmode);
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			@include link-states($color-green-tint-darkmode);
+		}
 	}
 
 	.c-content--about &,

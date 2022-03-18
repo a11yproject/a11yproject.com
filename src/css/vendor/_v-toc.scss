@@ -48,6 +48,17 @@
 		&:focus {
 			background-color: $color-green-lightmode;
 			color: $color-white;
+
+			// User Queries
+			@media (prefers-color-scheme: dark) {
+				background-color: $color-green-tint-darkmode;
+				color: $color-black;
+			}
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			color: $color-green-tint-darkmode;
 		}
 	}
 
@@ -132,11 +143,6 @@
 	// States
 	&:hover {
 		text-decoration: none;
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-blue-tint-darkmode;
 	}
 }
 

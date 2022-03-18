@@ -45,5 +45,10 @@
 		color: $color-gray-shade-lightmode;
 		font-weight: $font-weight-bold;
 		margin-bottom: -4ch;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			color: $color-gray-tint-darkmode;
+		}
 	}
 }

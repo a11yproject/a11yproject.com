@@ -56,6 +56,16 @@ $_c-post-vertical-spacing: 4ex;
 				text-align: right;
 			}
 		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-bottom-color: $color-green-tint-darkmode;
+		}
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		border-top-color: $color-green-tint-darkmode;
 	}
 }
 
@@ -80,6 +90,20 @@ $_c-post-vertical-spacing: 4ex;
 		color: $color-green-lightmode;
 		outline: none;
 		text-decoration: none;
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-green-tint-darkmode;
+
+		&:focus {
+			background-color: $color-green-darkmode;
+			outline: $border-thick solid $color-green-darkmode;
+		}
+
+		&:active {
+			color: $color-green-darkmode;
+		}
 	}
 }
 
@@ -133,6 +157,12 @@ $_c-post-vertical-spacing: 4ex;
 		@include mappy-bp(lap-small) {
 			display: flex;
 			flex-direction: row;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-top-color: $color-green-tint-darkmode;
+			border-bottom-color: $color-green-tint-darkmode;
 		}
 	}
 
@@ -196,6 +226,11 @@ $_c-post-vertical-spacing: 4ex;
 	@include link-states($color-black);
 
 	text-underline-offset: 0.2em;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include link-states($color-white);
+	}
 }
 
 

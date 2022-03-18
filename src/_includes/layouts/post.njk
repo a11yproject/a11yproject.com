@@ -57,14 +57,12 @@ templateClass: template-post
 				{% endif %}
 			</div>
 
-
 			{%- if collection -%}
 				{%- set collectionObject = collections.postCollections[collection.slug] -%}
 				<div class="c-post-collection">
-					<h2 class="c-post-collection__title">Collection: {{ collectionObject.collection.data.title }}</h2>
+					<h2 class="u-font-size-body-small u-text-transform-uppercase c-post-collection__title">Collection: {{ collectionObject.collection.data.title }}</h2>
 					<ol class="c-post-collection__list">
 						{%- for post in collectionObject.posts -%}
-							{# Todo: Use this in styling #}
 							{%- set currentPost = false -%}
 							{%- if post.data.title == title -%}
 								{%- set currentPost = true -%}
@@ -76,6 +74,7 @@ templateClass: template-post
 					</ol>
 				</div>
 			{%- endif -%}
+
 		<div>
 	</div>
 

@@ -17,8 +17,8 @@
 			}
 
 			@media (prefers-color-scheme: dark) {
-				background-color: $color-blue-shade-darkmode;
-				border: 4px solid $color-blue-shade-darkmode;
+				background-color: $color-black;
+				border: 4px solid $color-black;
 			}
 		}
 	}
@@ -52,6 +52,12 @@
 			max-width: calc(#{$global-type-measure} * 1.25);
 		}
 
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-black;
+			color: $color-gray-tint-darkmode;
+		}
+
 		footer {
 			font-size: 90%;
 			margin-top: $_c-post-vertical-spacing * 0.5;
@@ -66,6 +72,11 @@
 	// Style guide: Components.post.image
 	img {
 		margin-top: 4ex;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			@include desaturate();
+		}
 	}
 
 	// Figure
@@ -81,6 +92,12 @@
 			line-height: $line-height-tight;
 			margin-top: 0.75rem;
 			padding: 1rem;
+
+			// User Queries
+			@media (prefers-color-scheme: dark) {
+				background-color: $color-black;
+				border-bottom-color: $color-gray-tint-darkmode;
+			}
 		}
 	}
 
@@ -110,6 +127,11 @@
 		@include post-content-flourish("section-code.svg", 197, -0.5rem);
 
 		margin-top: 4ex;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-black;
+		}
 	}
 
 

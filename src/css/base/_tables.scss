@@ -60,6 +60,11 @@ table {
 		// States
 		&:hover {
 			background-color: $color-white;
+
+			// User Queries
+			@media (prefers-color-scheme: dark) {
+				background-color: $color-black;
+			}
 		}
 
 		// User Queries
@@ -74,6 +79,11 @@ table {
 	td {
 		border-color: $color-gray-shade-lightmode;
 		padding: 0.75rem;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-color: $color-black;
+		}
 	}
 
 	th {
@@ -104,11 +114,13 @@ table {
 
 		tr {
 			th {
-				border-top: $border-thinnest solid currentColor;
+				border-top-width: $border-thinnest;
+				border-top-style: solid;
 			}
 
 			td {
-				border-top: $border-thinnest solid currentColor;
+				border-top-width: $border-thinnest;
+				border-top-style: solid;
 			}
 		}
 	}
@@ -118,7 +130,8 @@ table {
 		tr {
 
 			td {
-				border-top: $border-thinnest solid currentColor;
+				border-top-width: $border-thinnest;
+				border-top-style: solid;
 			}
 		}
 	}

@@ -54,6 +54,11 @@
 		.c-recommended-reading__title {
 			color: $color-white;
 		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-red-darkmode !important;
+		}
 	}
 
 	// Breakpoints
@@ -65,6 +70,11 @@
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
 	}
+
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-gray-tint-darkmode;
+		border-top-color: $color-red-darkmode;
+	}
 }
 
 
@@ -73,6 +83,12 @@
 	color: $color-red-lightmode;
 	display: block;
 	padding-bottom: 0.75rem;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		border-bottom-color: $color-red-darkmode;
+		color: $color-red-darkmode;
+	}
 }
 
 
@@ -85,5 +101,10 @@
 	// Breakpoints
 	@include mappy-bp(palm-small) {
 		font-size: $font-size-body;
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-shade-darkmode;
 	}
 }
