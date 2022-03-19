@@ -168,6 +168,11 @@ $_c-input-margin-top: 1.5rem;
 
 .c-form__progress-fill {
 	background-color: $color-yellow-lightmode;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-yellow-darkmode;
+	}
 }
 
 
@@ -176,4 +181,9 @@ $_c-input-margin-top: 1.5rem;
 	font-family: $font-family-secondary;
 	margin-top: 0;
 	padding-left: 1rem;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-sand-darkmode;
+	}
 }

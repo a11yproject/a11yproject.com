@@ -170,6 +170,11 @@ $_person-distance: (
 			scroll-margin-top: 5rem;
 		}
 	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-white;
+	}
 }
 
 

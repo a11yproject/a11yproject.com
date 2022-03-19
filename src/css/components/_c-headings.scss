@@ -18,6 +18,11 @@
 .c-heading-smallest {
 	font-family: $font-family-primary;
 	font-weight: $font-weight-normal;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-white;
+	}
 }
 
 
