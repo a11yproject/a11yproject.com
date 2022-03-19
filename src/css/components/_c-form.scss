@@ -40,6 +40,17 @@ $_c-input-margin-top: 1.5rem;
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
 	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		border-color: $color-gray-tint-darkmode;
+
+		// States
+		&:focus {
+			border-color: $color-pink-tint-darkmode;
+			outline: $border-thinner solid $color-pink-darkmode;
+		}
+	}
 }
 
 
@@ -81,6 +92,23 @@ $_c-input-margin-top: 1.5rem;
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-pink-lightmode;
+		color: $color-black;
+
+		// States
+		&:hover {
+			background-color: $color-pink-tint-darkmode;
+		}
+
+		&:focus {
+			box-shadow:
+				0 0 0 em(2) $color-sand-darkmode,
+				0 0 0 em(4) $color-pink-darkmode;
+		}
 	}
 }
 

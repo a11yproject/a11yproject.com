@@ -17,9 +17,14 @@
 		margin-top: 0;
 
 		// Breakpoints
-
 		@include mappy-bp(palm-large) {
 			width: 60%;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-sand-darkmode;
+			border-top-color: $color-pink-shade-darkmode;
 		}
 	}
 

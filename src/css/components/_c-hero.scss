@@ -149,6 +149,11 @@
 
 	.template-simple & {
 		background-color: $color-yellow-lightmode;
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			background-color: $color-yellow-shade-darkmode;
+		}
 	}
 
 	.template-spotlight & {
