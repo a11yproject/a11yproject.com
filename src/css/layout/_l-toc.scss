@@ -66,6 +66,12 @@
 		}
 	}
 
+	.template-posts & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+		}
+	}
+
 	.template-post & {
 		margin: 0.65rem 0 0 map-get($global-bleed, small);
 

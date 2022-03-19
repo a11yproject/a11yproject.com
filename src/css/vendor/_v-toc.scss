@@ -72,6 +72,17 @@
 		&:focus {
 			background-color: $color-blue-shade-lightmode;
 			color: $color-white;
+
+			// User Queries
+			@media (prefers-color-scheme: dark) {
+				background-color: $color-blue-tint-darkmode;
+				color: $color-black;
+			}
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			color: $color-blue-tint-darkmode;
 		}
 	}
 
@@ -83,6 +94,17 @@
 		&:focus {
 			background-color: $color-blue-lightmode;
 			color: $color-white;
+
+			// User Queries
+			@media (prefers-color-scheme: dark) {
+				background-color: $color-blue-tint-darkmode;
+				color: $color-black;
+			}
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			color: $color-blue-tint-darkmode;
 		}
 	}
 }
@@ -97,6 +119,7 @@
 }
 
 .v-toc__icon {
+	fill: $color-blue-lightmode;
 	height: 1rem;
 	width: 1rem;
 
@@ -128,6 +151,11 @@
 		@media (prefers-color-scheme: dark) {
 			fill: $color-blue-tint-darkmode;
 		}
+	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		fill: $color-blue-tint-darkmode;
 	}
 }
 
@@ -161,29 +189,7 @@
 		padding-top: none;
 		list-style-type: none;
 
-		// Breakpoints
-		@include mappy-bp(palm-small) {
-			columns: 2;
-
-			// Contexts
-			.template-generic &,
-			.template-resources &,
-			.template-post &,
-			.template-spotlight &,
-			.template-team & {
-				columns: 1;
-			}
-		}
-
-		@include mappy-bp(palm-large) {
-			columns: 3;
-		}
-
-		@include mappy-bp(lap-small) {
-			columns: 1;
-		}
-
-		ol {
+	ol {
 			padding-left: 1rem;
 		}
 	}
