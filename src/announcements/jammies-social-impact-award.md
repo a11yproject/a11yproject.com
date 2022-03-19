@@ -16,5 +16,8 @@ Our deepest gratitude is extended to [the Jamstack conference](https://jamstackc
 Here’s to a more accessible, inclusive internet!
 
 <a href="{{ '/team/' | url }}">
-	<img role="img" alt="The A11Y Project Team." src="/img/announcements/a11y-signature.svg" style="margin-top: 4rem; width: 20rem;" />
+	<picture style="margin-top: 4rem; width: 20rem;">
+		<source srcset="/img/announcements/a11y-signature-darkmode.svg" media="(prefers-color-scheme: dark)">
+		<img role="img" alt="The A11Y Project Team." src="/img/announcements/a11y-signature-lightmode.svg" />
+	</picture>
 </a>

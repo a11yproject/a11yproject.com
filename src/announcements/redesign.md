@@ -72,5 +72,8 @@ We acknowledge this redesign launched during a global pandemic. We hope that thi
 As more and more services go online, the ability for anyone—regardless of device, circumstance, or ability—to be able to use digital products and services becomes vital. It is our sincerest desire that we help turn the industry away from [accidental and intentional exclusion](https://themarkup.org/2020/04/21/blind-users-struggle-with-state-coronavirus-websites), and instead embrace an open, intentional, and inclusive world.
 
 <a href="{{ '/team/' | url }}">
-	<img role="img" alt="The A11Y Project Team." src="/img/announcements/a11y-signature.svg" style="margin-top: 4rem; width: 20rem;" />
+	<picture style="margin-top: 4rem; width: 20rem;">
+		<source srcset="/img/announcements/a11y-signature-darkmode.svg" media="(prefers-color-scheme: dark)">
+		<img role="img" alt="The A11Y Project Team." src="/img/announcements/a11y-signature-lightmode.svg" />
+	</picture>
 </a>
