@@ -3,7 +3,7 @@ $_banner-triangle-size: 1.49rem;
 
 .c-banner {
 	background-color: $color-green-tint-lightmode;
-	background-image: url("#{$path-to-img}/resource-banner-inset.svg");
+	background-image: url("#{$path-to-img}/resource-banner-inset-lightmode.svg");
 	background-position: center right;
 	background-repeat: no-repeat;
 	color: $color-black;
@@ -37,6 +37,10 @@ $_banner-triangle-size: 1.49rem;
 	// User Queries
 	@media (prefers-color-scheme: dark) {
 		background-color: $color-green-tint-darkmode;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		background-image: url("#{$path-to-img}/resource-banner-inset-darkmode.svg");
 	}
 
 	// Contexts

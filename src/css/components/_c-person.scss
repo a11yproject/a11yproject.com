@@ -142,6 +142,19 @@ $_person-distance: (
 }
 
 
+.c-person__spotlight-link {
+	@include link-states($color-blue-shade-lightmode);
+
+	display: inline-block;
+	margin-top: 1rem;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		@include link-states($color-blue-tint-darkmode);
+	}
+}
+
+
 .c-person__name {
 	font-family: $font-family-secondary;
 

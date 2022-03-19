@@ -2,42 +2,49 @@
 	"spotlight": [
 		{
 			"name": "Amy Carney",
+			"first": "Amy",
 			"website": "/spotlight/amy-carney",
 			"photo": "/img/spotlight/amy-carney.jpg",
 			"biography": "Hi! My name is Amy and my craft is web design. The bulk of my background lies in psychology and libraries. I care about how people think, how they interact with others and technology, and how information is accessed by everyone."
 		},
 		{
 			"name": "Segun Ola",
+			"first": "Segun",
 			"website": "/spotlight/segun-ola",
 			"photo": "/img/spotlight/segun-ola.png",
 			"biography": "I’m a frontend web developer working with Andela Nigeria. I work with Andela partners to build highly interactive and accessible web applications."
 		},
 		{
 			"name": "Anna E. Cook",
+			"first": "Anna",
 			"website": "/spotlight/anna-e-cook",
 			"photo": "/img/spotlight/anna-e-cook.jpg",
 			"biography": "I’m a Senior Product Designer at Recurly. I lead product design efforts within one of our Scrum teams."
 		},
 		{
 			"name": "Eriol Fox",
+			"first": "Eriol",
 			"website": "/spotlight/eriol-fox",
 			"photo": "/img/spotlight/eriol-fox.jpg",
 			"biography": "I work part-time as the lead designer at The Open Food Network and spend the other days of the week doing freelance projects, open source design contributions and then working on my PhD research, which is around humanitarian open source software and designer contributions."
 		},
 		{
 			"name": "Nic Steenhout",
+			"first": "Nic",
 			"website": "/spotlight/nic-steenhout",
 			"photo": "/img/spotlight/nic-steenhout.jpg",
 			"biography": "I am an independent accessibility consultant. I work with large and small organizations. I help them improve the accessibility of their websites. I guide them through the creation or improvement of their culture of accessibility."
 		},
 		{
 			"name": "Alex Chen",
+			"first": "Alex",
 			"website": "/spotlight/alex-chen",
 			"photo": "/img/spotlight/alex-chen.png",
 			"biography": "By day, I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right. In my spare time I love to train mixed martial arts, care for my house plants, and experiment with illustration and collage."
 		},
 		{
 			"name": "Josh Kim",
+			"first": "Josh",
 			"website": "/spotlight/josh-kim",
 			"photo": "/img/spotlight/josh-kim.png",
 			"biography": "I’m a researcher by heart, so I’m less about remediating solutions after the fact and all about including disabled people into our studies from the start."

@@ -55,8 +55,8 @@ Headings can also help pages rank for a broader array of terms. For example, on 
 <!-- Meh -->
 <h1>A cool pair of shoes</h1>
 <p>Read the latest <a href="#reviews">reviews</a> for this product.</p>
-<!-- Better -->
 
+<!-- Better -->
 <h1>A cool pair of shoes</h1>
 <h2>Reviews</h2>
 <h2>Questions</h2>
@@ -119,9 +119,8 @@ Digital text remains the most compatible form of information. If you want to cap
 
 <!-- Better -->
 <img
-	src="cool-shoes-1234.jpg"
-	alt="Cool shoes with a red upper and sky blue laces."
-/>
+  src="cool-shoes-1234.jpg"
+  alt="Cool shoes with a red upper and sky blue laces."/>
 ```
 
 ## When we work together, everyone wins
