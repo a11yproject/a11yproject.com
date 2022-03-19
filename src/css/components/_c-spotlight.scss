@@ -24,4 +24,9 @@
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	line-height: $line-height-single;
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-gray-tint-darkmode;
+	}
 }

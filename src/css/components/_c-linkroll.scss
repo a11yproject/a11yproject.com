@@ -1,78 +1,3 @@
-@mixin _generate-context-borders($border-direction) {
-	.c-linkroll__entry--background & {
-		border-#{$border-direction}-color: $color-gray-shade-lightmode;
-	}
-
-	.c-linkroll__entry--assistive-technology &,
-	.c-linkroll__entry--how-to & {
-		border-#{$border-direction}-color: $color-yellow-lightmode;
-	}
-
-	.c-linkroll__entry--myth &,
-	.c-linkroll__entry--announcement & {
-		border-#{$border-direction}-color: $color-pink-lightmode;
-	}
-
-	.c-linkroll__entry--quick-test & {
-		border-#{$border-direction}-color: $color-blue-lightmode;
-	}
-
-	.c-linkroll__entry--quick-tip & {
-		border-#{$border-direction}-color: $color-green-lightmode;
-	}
-}
-
-
-@mixin _generate-interactive-backgrounds() {
-	background-color: $color-white;
-
-	// States
-	&:hover,
-	&:focus {
-		background-color: $color-gray-shade-lightmode;
-		outline: $border-thin solid transparent;
-
-		.c-linkroll__title,
-		.c-linkroll__category,
-		.c-linkroll__featured {
-			color: $color-white;
-		}
-
-		.c-linkroll__featured {
-			border-bottom-color: $color-white;
-		}
-
-		// Contexts
-		.c-linkroll__entry--background & {
-			background-color: $color-gray-shade-lightmode;
-		}
-
-		.c-linkroll__entry--assistive-technology &,
-		.c-linkroll__entry--how-to & {
-			background-color: $color-yellow-lightmode;
-		}
-
-		.c-linkroll__entry--myth &,
-		.c-linkroll__entry--announcements & {
-			background-color: $color-pink-lightmode;
-		}
-
-		.c-linkroll__entry--quick-test & {
-			background-color: $color-blue-lightmode;
-		}
-
-		.c-linkroll__entry--quick-tip & {
-			background-color: $color-green-lightmode;
-		}
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-black;
-	}
-}
-
-
 // Linkroll
 //
 // Style guide: Components.linkroll
@@ -82,14 +7,21 @@
 
 
 .c-linkroll__link {
-	@include _generate-interactive-backgrounds();
-
-	border-left: $border-thickest solid transparent;
+	border-left: $border-thicker solid transparent;
 	padding: 1.25rem 1.75rem;
 	text-decoration: none;
 	transition:
 		background-color $animation-duration-shorter $animation-easing-character,
 		color $animation-duration-shorter $animation-easing-character;
+
+	// States
+	&:hover,
+	&:focus {
+		.c-linkroll__category,
+		.c-linkroll__title {
+			color: $color-white;
+		}
+	}
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -97,12 +29,177 @@
 		flex-direction: column;
 	}
 
-	// Contexts
-	@include _generate-context-borders("left");
-
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
+	}
+
+	&.announcements {
+		border-left-color: $color-pink-lightmode;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-pink-lightmode;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-left-color: $color-pink-darkmode;
+
+			// States
+			&:hover,
+			&:focus {
+				background-color: $color-pink-darkmode;
+			}
+		}
+	}
+
+	&.assistive-technology {
+		border-left-color: $color-gray-shade-lightmode;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-gray-shade-lightmode;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-left-color: $color-gray-tint-darkmode;
+
+			// States
+			&:hover,
+			&:focus {
+				background-color: $color-gray-tint-darkmode;
+			}
+		}
+	}
+
+	&.background {
+		border-left-color: $color-gray-shade-lightmode;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-gray-shade-lightmode;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-left-color: $color-gray-tint-darkmode;
+
+			// States
+			&:hover,
+			&:focus {
+				background-color: $color-gray-tint-darkmode;
+			}
+		}
+	}
+
+	&.experience {
+		border-left-color: $color-pink-lightmode;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-pink-lightmode;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-left-color: $color-pink-darkmode;
+
+			// States
+			&:hover,
+			&:focus {
+				background-color: $color-pink-darkmode;
+			}
+		}
+	}
+
+	&.how-to {
+		border-left-color: $color-yellow-lightmode;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-yellow-lightmode;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-left-color: $color-yellow-darkmode;
+
+			// States
+			&:hover,
+			&:focus {
+				background-color: $color-yellow-darkmode;
+			}
+		}
+	}
+
+	&.myth {
+		border-left-color: $color-pink-lightmode;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-pink-lightmode;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-left-color: $color-pink-darkmode;
+
+		// States
+		&:hover,
+		&:focus {
+			border-left-color: $color-pink-darkmode;
+		}
+		}
+	}
+
+	&.quick-test {
+		border-left-color: $color-blue-lightmode;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-blue-lightmode;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-left-color: $color-blue-darkmode;
+
+			// States
+			&:hover,
+			&:focus {
+				background-color: $color-blue-darkmode;
+			}
+		}
+	}
+
+	&.quick-tip {
+		border-left-color: $color-green-lightmode;
+
+		// States
+		&:hover,
+		&:focus {
+			background-color: $color-green-lightmode;
+		}
+
+		// User Queries
+		@media (prefers-color-scheme: dark) {
+			border-left-color: $color-green-darkmode;
+
+			// States
+			&:hover,
+			&:focus {
+				background-color: $color-green-darkmode;
+			}
+		}
 	}
 }
 
@@ -110,28 +207,28 @@
 .c-linkroll__link--featured {
 	border-top: $border-thicker solid transparent;
 	border-left: none;
-
-	// Contexts
-	@include _generate-context-borders("top");
 }
 
 
 .c-linkroll__entry {
 	@include preserve-list-semantics();
 
-	color: $color-blue-shade-lightmode;
+	background-color: $color-white;
 	margin-top: 1.25rem;
 
-
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		background-color: $color-black;
+	}
 }
 
 
 .c-linkroll__category {
-	color: $color-pink-shade-lightmode;
+	color: $color-gray-shade-lightmode;
 
 	// User Queries
 	@media (prefers-color-scheme: dark) {
-		color: $color-pink-tint-darkmode;
+		color: $color-gray-tint-darkmode;
 	}
 }
 
@@ -157,7 +254,4 @@
 	color: $color-black;
 	font-family: $font-family-secondary;
 	padding-bottom: 0.75rem;
-
-	// Contexts
-	@include _generate-context-borders("bottom");
 }
