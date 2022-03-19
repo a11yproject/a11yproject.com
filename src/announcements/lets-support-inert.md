@@ -10,6 +10,8 @@ description: Igalia working on HTML’s inert attribute represents a great oppor
 
 [HTML's `inert` attribute](https://html.spec.whatwg.org/multipage/interaction.html#inert) has great potential to make the web more accessible. Declaring `inert` on an element will remove its interactivity and make it unable to be focused.
 
+Update: The Open Prioritization initiative [chose <code>:focus-visible</code>](https://www.igalia.com/open-prioritization/#focuswebkit). Thank you to all of those who participated.
+
 ## The short version
 
 - Browser manufacturers often don’t prioritize accessibility-focused features. This includes supporting `inert`.
@@ -19,10 +21,6 @@ description: Igalia working on HTML’s inert attribute represents a great oppor
 - The A11Y Project is [matching up to <strong>$1,000 USD</strong> in pledges](https://opencollective.com/html-inert-in-webkit-safari) for `inert`.
 - You can make a pledge using an [an Open Collective account](https://opencollective.com/create-account). Pledged funds will be collected when the goal is met.
 - We encourage you to share this announcement and ask your employer if they’ll help.
-
-<p class="c-contribute__cta">
-	<a href="https://opencollective.com/html-inert-in-webkit-safari">Support <code>inert</code> with a pledge!</a>
-</p>
 
 
 ## The long version
