@@ -53,7 +53,7 @@
 }
 
 .c-heading-largest--generic {
-	color: $color-blue-shade-lightmode;
+	color: $color-pink-shade-lightmode;
 
 	& ~ .c-subtitle {
 		font-family: $font-family-secondary;
@@ -63,7 +63,7 @@
 
 	// User Queries
 	@media (prefers-color-scheme: dark) {
-		color: $color-blue-tint-darkmode;
+		color: $color-pink-tint-darkmode;
 	}
 }
 
