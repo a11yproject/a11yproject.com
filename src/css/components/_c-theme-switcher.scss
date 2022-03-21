@@ -1,0 +1,28 @@
+.c-theme-switcher {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.c-theme-switcher__wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.c-theme-switcher__title {
+	display: inline;
+	padding-right: 1rem;
+}
+
+
+.c-theme-switcher__input {
+	accent-color: $color-pink-shade-lightmode;
+}
+
+
+.c-theme-switcher__label {
+	margin-right: 0.75rem;
+	padding-left: 0.25rem;
+}
