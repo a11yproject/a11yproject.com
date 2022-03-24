@@ -137,6 +137,11 @@ $_c-post-vertical-spacing: 4ex;
 			margin-left: map-get($global-post-content-inset, small);
 		}
 	}
+
+	// User Queries
+	@media (prefers-color-scheme: dark) {
+		color: $color-white;
+	}
 }
 
 
