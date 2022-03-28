@@ -500,6 +500,15 @@
 			]
 		},
 		{
+			"title": "taba11y",
+			"description": "taba11y calculates the tab order of all elements and displays it visually, either by drawing a path or by highlighting the elements.",
+			"additional": "Peter Gould",
+			"url": "https://chrome.google.com/webstore/detail/taba11y/aocppmckdocdjkphmofnklcjhdidgmga/",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
 			"title": "WAVE Evaluation Tool",
 			"description": "WAVE is a web accessibility evaluation tool developed by WebAIM. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page.",
 			"additional": "WebAIM",
@@ -845,6 +854,12 @@
 			"url": "https://uxdesign.cc/accessibility-guidelines-for-a-ux-designer-c3ba775539be"
 		},
 		{
+			"title": "A Designer’s Guide to Documenting Accessibility & User Interactions",
+			"description": "Great documentation helps teams implement accessibility requirements the right way. I will tell you why, what and how designers can document different aspects of accessibility and user interactions requirements, to build better more inclusive products.",
+			"additional": "Stéphanie Walter",
+			"url": "https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/"
+		},
+		{
 			"title": "Disabled And Here",
 			"description": "Disabled And Here is a stock image and interview series celebrating disabled Black, Indigenous, people of color (BIPOC).",
 			"additional": "Affect the Verb",
@@ -972,7 +987,7 @@
 			"additional": "Pa11y",
 			"url": "http://pa11y.org/"
 		},
-				{
+		{
 			"title": "Polypane",
 			"description": "Polypane is a cross-platform desktop browser that comes with extensive accessibility tooling: an accessibility checker, 19 different visual impairment simulators, color contrast checking, heading, links and image checking, focus order visualisation, horizontal overflow detection and more, showing improvement suggestions where possible.",
 			"additional": "Polypane",
