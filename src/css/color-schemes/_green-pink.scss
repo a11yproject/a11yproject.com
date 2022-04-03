@@ -1,0 +1,10 @@
+
+$scheme-light: (
+  "body-background": "sand",
+);
+
+$scheme-dark: (
+  "body-background": "charcoal",
+);
+
+@include color-scheme("green-pink", $scheme-light, $scheme-dark);

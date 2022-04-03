@@ -1,0 +1,22 @@
+
+// dark-mode
+//
+// Generates dark mode related CSS based on the user settings,
+// Outputs the entire content of the mixin under scopes
+//
+// Styleguide Logic.Mixins.dark-mode
+@mixin dark-mode() {
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-mode: "dark";
+    }
+
+    :root:not([data-user-theme="light"]) {
+      @content;
+    }
+  }
+
+  [data-user-theme="dark"] {
+    @content;
+  }
+}

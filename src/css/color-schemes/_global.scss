@@ -1,0 +1,35 @@
+
+$scheme-light: (
+  "body-background": "sand",
+  "body-text": "black",
+  "toc-indicator": "pink",
+  "kbd-text": "black",
+  "kbd-background": "white",
+  "pre-background": "black",
+  "pre-text": "white",
+  "samp-background": "pink",
+  "mark-background": "yellow",
+  "mark-text": "black",
+);
+
+$scheme-dark: (
+  "body-background": "charcoal",
+  "body-text": "gray-tint",
+  "toc-indicator": "pink-muted",
+  "kbd-text": "gray-shade",
+  "kbd-background": "gray-wash",
+  "mark-background": "yellow-muted",
+  "mark-text": "black",
+);
+
+:root {
+  @each $name, $value in $scheme-light {
+    #{"--color-" + $name}: var(--color-#{$value});
+  }
+}
+
+@include dark-mode() {
+  @each $name, $value in $scheme-dark {
+    #{"--color-" + $name}: var(--color-#{$value});
+  }
+}

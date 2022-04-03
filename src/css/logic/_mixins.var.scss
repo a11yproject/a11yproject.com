@@ -1,14 +1,16 @@
 // var
 //
 // Generates a property + CSS custom property with a fallback for IE 11.
-// Based on this post:
+// Modified from this post:
 // https://vgpena.github.io/winning-with-css-variables/
 //
-// $how - Specifies which kind of technique used to hide content. Accepts `visually`, `invisible`, `hidden`, or `remove` as an argument. Defaults to `visually`.
+// $property: The CSS property to modify
+// $varName: The scoped variable name to look up
 //
 // Styleguide Logic.Mixins.var
 
 @mixin var($property, $varName) {
-  #{$property}: map-get($colors, $varName);
-  #{$property}: var(--color-#{$varName}, map-get($colors, $varName));
+  $fallbackName: #{map-get($scheme-light, $varName)};
+  #{$property}: #{map-get($colors, $fallbackName)};
+  #{$property}: var(--color-#{$varName});
 }

@@ -6,7 +6,6 @@
 	"imports/fonts",
 	"imports/mappy-breakpoints";
 
-
 // Brand
 //
 // Weight: 1
@@ -18,14 +17,6 @@
 	"brand/colors",
 	"brand/logos",
 	"brand/typefaces";
-
-
-// Logic
-//
-// Weight: 2
-//
-// Styleguide Logic
-
 
 // Variables
 //
@@ -48,7 +39,6 @@
 	"logic/variables.font-weights",
 	"logic/variables.line-heights",
 	"logic/variables.global";
-
 
 // Maps
 //
@@ -87,7 +77,9 @@
 @import
 	"logic/mixins.avatar-size",
 	"logic/mixins.clearfix",
+	"logic/mixins.color-scheme",
 	"logic/mixins.content-inset",
+	"logic/mixins.dark-mode",
 	"logic/mixins.desaturate",
 	"logic/mixins.headings",
 	"logic/mixins.hide",
@@ -101,6 +93,15 @@
 	"logic/mixins.show",
 	"logic/mixins.var";
 
+// Color Schemes
+//
+// Weight: 3
+//
+// Sets color schemes based on CSS custom properties
+//
+@import
+	"color-schemes/global",
+	"color-schemes/green-pink";
 
 // Base
 //

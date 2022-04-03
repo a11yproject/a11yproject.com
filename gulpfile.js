@@ -173,7 +173,7 @@ var buildStyles = function (done) {
 							"variable",
 						],
 						deep: [/^c-content/],
-						greedy: [/^c-form/, /h5/],
+						greedy: [/^c-form/, /h5/, /data-user-theme/, /data-colors-scheme/],
 					},
 				})
 			)

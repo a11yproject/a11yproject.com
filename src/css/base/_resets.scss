@@ -130,12 +130,8 @@ textarea {
 
 mark {
 	padding: em(2);
-	background-color: $color-yellow-lightmode;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-yellow-darkmode;
-	}
+	@include var(background-color, mark-background);
+	color: var(color, mark-text);
 }
 
 

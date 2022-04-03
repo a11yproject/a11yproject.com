@@ -35,7 +35,7 @@
 		}
 
 		.v-toc__icon {
-			fill: $color-white;
+			fill: currentColor;
 		}
 	}
 
@@ -254,24 +254,14 @@
 			&::after {
 				content: "";
 				flex: 1 1;
-				border-bottom: $border-thick solid $color-sand-lightmode;
+				border-bottom: $border-thick solid transparent;
 				margin: auto auto auto 0.5rem;
-
-				// User Queries
-				@media (prefers-color-scheme: dark) {
-					border-bottom-color: $color-sand-darkmode;
-				}
 			}
 
 			// States
 			&:hover::after,
 			&:focus::after {
-				border-bottom-color: $color-pink-lightmode;
-
-				// User Queries
-				@media screen and (prefers-color-scheme: dark) {
-					border-bottom-color: $color-pink-darkmode;
-				}
+				@include var(border-bottom-color, toc-indicator);
 			}
 		}
 
