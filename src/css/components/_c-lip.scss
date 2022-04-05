@@ -26,53 +26,15 @@
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			// Contexts
-			.template-posts & {
-				background-color: $color-pink-shade-lightmode;
-
-				// User Queries
-				@media (prefers-color-scheme: dark) {
-					background-color: $color-pink-shade-darkmode;
-				}
-			}
-
-			.template-checklist & {
-				background-color: $color-blue-lightmode;
-
-				// User Queries
-				@media (prefers-color-scheme: dark) {
-					background-color: $color-blue-darkmode;
-				}
-			}
-
-			.template-resources & {
-				background-color: $color-green-shade-lightmode;
-
-				// User Queries
-				@media (prefers-color-scheme: dark) {
-					background-color: $color-green-shade-darkmode;
-				}
-			}
-
+			.template-posts &,
+			.template-checklist &,
+			.template-resources &,
 			.template-about &,
 			.template-team &,
 			.template-authors &,
-			.template-spotlight & {
-				background-color: $color-blue-shade-lightmode;
-
-				// User Queries
-				@media (prefers-color-scheme: dark) {
-					background-color: $color-blue-shade-darkmode;
-				}
-			}
-
-			.template-contribute & {
-				background-color: $color-yellow-tint-lightmode;
-
-				// User Queries
-				@media (prefers-color-scheme: dark) {
-					background-color: $color-yellow-shade-darkmode;
-				}
+			.template-spotlight &,
+			.template-contribute {
+				@include var(background-color, hero-background);
 			}
 		}
 	}

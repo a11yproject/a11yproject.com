@@ -1,7 +1,10 @@
+.c-card-resource {
+	position: relative;
+	z-index: 0;
+}
+
 .c-card-resource__body {
-	border-right: $border-thinnest solid $color-gray-shade-lightmode;
-	border-bottom: $border-thinnest solid $color-gray-shade-lightmode;
-	border-left: $border-thinnest solid $color-gray-shade-lightmode;
+	@include var(background-color, card-background);
 	margin-right: 1.25rem;
 	margin-left: 1.5rem;
 	padding: 1.5rem 2rem;
@@ -11,27 +14,13 @@
 		$animation-duration-shorter $animation-easing-character color;
 
 	// States
-	&:hover {
-		background-color: $color-white;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-black;
-		}
-	}
-
 	&:focus-within {
-		background-color: $color-green-shade-lightmode;
-		border-right-color: $color-green-shade-lightmode;
-		border-bottom-color: $color-green-shade-lightmode;
-		border-left-color: $color-green-shade-lightmode;
+		@include var(background-color, card-focus-background);
 
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-green-shade-darkmode;
-			border-right-color: $color-green-shade-darkmode;
-			border-bottom-color: $color-green-shade-darkmode;
-			border-left-color: $color-green-shade-darkmode;
+		.c-card-resource__description,
+		.c-card-resource__meta,
+		.c-card-resource__title {
+			@include var(color, card-focus-text);
 		}
 	}
 
@@ -39,23 +28,11 @@
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
 	}
-
-	@media (prefers-color-scheme: dark) {
-		border-right-color: $color-gray-shade-darkmode;
-		border-bottom-color: $color-gray-shade-darkmode;
-		border-left-color: $color-gray-shade-darkmode;
-	}
-}
-
-// Color the author link when the title link is focused
-.c-card-resource__title:focus ~ .c-card-resource__meta,
-.c-card-resource__title:focus ~ .c-card-resource__description {
-	color: $color-white;
 }
 
 
 .c-card-resource__title {
-	color: $color-green-shade-lightmode;
+	@include var(color, card-heading-text);
 	letter-spacing: $font-tracking-tight;
 
 	// States
@@ -65,25 +42,14 @@
 	}
 
 	&:focus {
-		color: $color-white;
 		outline: $border-thin solid transparent;
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-green-tint-darkmode;
 	}
 }
 
 
 .c-card-resource__meta {
-	color: $color-gray-shade-lightmode;
+	@include var(color, card-meta-text);
 	line-height: $line-height-tight;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-tint-darkmode;
-	}
 }
 
 

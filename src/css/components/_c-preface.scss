@@ -1,36 +1,7 @@
 .c-preface {
-	color: $color-gray-shade-lightmode;
+	@include var(color, text-accent);
 	margin-top: 0.5rem;
 	margin-bottom: 2rem;
 	margin-left: $_card-inset;
 	max-width: $global-type-measure;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-darkmode;
-	}
-}
-
-
-.c-preface__link {
-	// Contexts
-	.template-checklist &,
-	.template-resources & {
-		@include link-states($color-green-lightmode);
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			@include link-states($color-green-tint-darkmode);
-		}
-	}
-
-	.template-posts &,
-	.template-team & {
-		@include link-states($color-blue-lightmode);
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			@include link-states($color-blue-tint-darkmode);
-		}
-	}
 }

@@ -2,11 +2,11 @@ $_banner-triangle-size: 1.49rem;
 
 
 .c-banner {
-	background-color: $color-green-tint-lightmode;
+	@include var(background-color, card-accent);
 	background-image: url("#{$path-to-img}/resource-banner-inset-lightmode.svg");
 	background-position: center right;
 	background-repeat: no-repeat;
-	color: $color-black;
+	@include var(color, card-accent-text);
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	line-height: $line-height-single;
@@ -17,90 +17,54 @@ $_banner-triangle-size: 1.49rem;
 	&::before {
 		content: "";
 		border-style: solid;
-		border-color: transparent $color-green-lightmode transparent transparent;
+		border-color: transparent;
+		@include var(border-right-color, card-accent-shadow);
 		border-width: 0 $_banner-triangle-size $_banner-triangle-size 0;
 		display: inline-block;
 		position: relative;
-			top: 2.26rem; // [1]
-			right: 0.275rem; // [1]
+		top: 2.26rem; // [1]
+		right: 0.275rem; // [1]
+		z-index: -1;
 
 			// User Queries
 		@media screen and (-ms-high-contrast: active) {
 			display: none;
 		}
-
-		@media (prefers-color-scheme: dark) {
-			border-color: transparent $color-green-darkmode transparent transparent;
-		}
 	}
 
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-green-tint-darkmode;
-	}
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-user-theme="light"]) & {
+			background-image: url("#{$path-to-img}/resource-banner-inset-darkmode.svg");
+    }
+  }
 
-	@media (prefers-color-scheme: dark) {
+  [data-user-theme="dark"] {
 		background-image: url("#{$path-to-img}/resource-banner-inset-darkmode.svg");
-	}
+  }
 
 	// Contexts
 	&.c-banner--resource {
-		background-color: $color-green-lightmode;
+		@include var(background-color, featured-card-accent);
 		background-image: none;
-		color: $color-white;
+		@include var(color, featured-card-accent-text);
 		margin-top: 0;
 
 		&::before {
-			border-color: transparent $color-green-shade-lightmode transparent transparent;
-
-			// User Queries
-			@media (prefers-color-scheme: dark) {
-				border-color: transparent $color-green-tint-darkmode transparent transparent;
-			}
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-green-darkmode;
+			@include var(border-right-color, featured-card-accent-shadow);
 		}
 	}
 
 	&.c-banner--post {
-		background-color: $color-blue-lightmode;
 		background-image: none;
-		color: $color-white;
 		margin-top: 0;
-
-		&::before {
-			border-color: transparent $color-blue-shade-lightmode transparent transparent;
-
-			// User Queries
-			@media (prefers-color-scheme: dark) {
-				border-color: transparent $color-blue-shade-darkmode transparent transparent;
-			}
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-darkmode;
-		}
 	}
 }
 
 
 .c-banner__icon {
-	fill: $color-white;
+	fill: currentColor;
 	height: 0.75rem;
 	width: auto;
-
-	// Contexts
-	.c-card-resource & {
-		fill: $color-black;
-	}
-
-	.c-card--highlight & {
-		fill: $color-white;
-	}
 
 	// User Queries
 	@media screen and (-ms-high-contrast: active) {

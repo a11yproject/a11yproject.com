@@ -480,7 +480,7 @@
 		]
 	},
 	"color contrast": {
-		"preface": "<a class=\"c-preface__link\" href=\"{{ '/posts/what-is-color-contrast/' | url }}\">Color contrast</a> is how legible colors are when placed next to, and on top of each other.",
+		"preface": "<a href=\"{{ '/posts/what-is-color-contrast/' | url }}\">Color contrast</a> is how legible colors are when placed next to, and on top of each other.",
 		"tasks": [
 			{
 				"title": "Check the contrast for all normal-sized text.",

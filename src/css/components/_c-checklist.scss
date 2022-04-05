@@ -18,6 +18,12 @@ $_checklist-padding: (
 );
 
 
+.c-checklist__outer-wrapper {
+	margin-bottom: 3rem;
+	max-width: $global-type-measure * 1.1;
+}
+
+
 .c-checklist__wrapper {
 	// Supports
 	@supports #{$supports-flex} {

@@ -1,40 +1,25 @@
 .c-card-post {
-	background-color: $color-white;
+	@include var(color, card-text);
+	@include var(background-color, card-background);
 	padding: 1.5rem 2rem;
 	transition:
 		$animation-duration-shorter $animation-easing-character background-color,
 		$animation-duration-shorter $animation-easing-character border-color,
 		$animation-duration-shorter $animation-easing-character color;
 
-	// States
-	&:hover {
-		outline: $_card-outline $color-gray-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			outline: $_card-outline $color-gray-shade-darkmode;
-		}
-	}
-
 	&:focus-within {
-		background-color: $color-blue-lightmode;
-		outline: $border-thinner solid $color-blue-lightmode;
+		@include var(background-color, card-focus-background);
+		@include var(outline-color, card-focus-background);
+
+		* {
+			@include var(color, card-focus-text);
+		}
 	}
 
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
 	}
-
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-black;
-	}
-}
-
-
-// Color the author link when the title link is focused
-.c-card-post__title:focus ~ .c-card-post__meta .c-card-post__author {
-	color: $color-white;
 }
 
 
@@ -42,16 +27,11 @@
 .c-card-post__meta,
 .c-card-post__description {
 	max-width: $global-type-measure;
-
-	// States
-	.c-card-post:focus-within & {
-		color: $color-white;
-	}
 }
 
 
 .c-card-post__title {
-	color: $color-blue-shade-lightmode;
+	@include var(color, card-heading-text);
 	letter-spacing: $font-tracking-tight;
 
 	// States
@@ -61,34 +41,19 @@
 	}
 
 	&:focus {
-		color: $color-white;
+		@include var(color, card-focus-text);
 		outline: $border-thin solid transparent;
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-blue-tint-darkmode;
 	}
 }
 
 
 .c-card-post__meta {
-	color: $color-gray-shade-lightmode;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-white;
-	}
+	@include var(color, card-meta-text);
 }
 
 
 .c-card-post__author {
-	color: $color-gray-shade-lightmode;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-tint-darkmode;
-	}
+	color: currentColor;
 
 	// States
 	&:hover,
@@ -97,14 +62,6 @@
 	}
 
 	&:focus {
-		color: $color-white;
 		outline: $border-thin solid transparent;
-	}
-}
-
-.c-card-post__description {
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-tint-darkmode;
 	}
 }
