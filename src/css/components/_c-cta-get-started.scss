@@ -39,9 +39,10 @@
 
 
 .c-cta-get-started__link {
-	background-color: $color-pink-tint-lightmode;
-	border: $border-thick solid $color-sand-lightmode;
-	color: $color-black;
+	@include var(background-color, button-background);
+	border: $border-thick solid;
+	@include var(border-color, body-background);
+	@include var(color, button-text);
 	font-family: $font-family-secondary;
 	font-size: $font-size-body;
 	letter-spacing: $font-tracking-slight;
@@ -57,8 +58,7 @@
 	// States
 	&:hover,
 	&:focus {
-		background-color: $color-pink-lightmode;
-		color: $color-white;
+		@include var(background-color, button-focus-background);
 		outline: $border-thin solid transparent;
 	}
 
@@ -80,18 +80,5 @@
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
-	}
-
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-pink-tint-darkmode;
-		border-color: $color-sand-darkmode;
-		color: $color-black;
-
-		// States
-		&:hover,
-		&:focus {
-			background-color: $color-pink-darkmode;
-			color: $color-black;
-		}
 	}
 }
