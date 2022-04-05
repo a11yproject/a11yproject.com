@@ -75,6 +75,7 @@
 //
 // Styleguide Logic.Mixins
 @import
+	"logic/mixins.var",
 	"logic/mixins.avatar-size",
 	"logic/mixins.clearfix",
 	"logic/mixins.color-scheme",
@@ -90,8 +91,7 @@
 	"logic/mixins.preserve-list-semantics",
 	"logic/mixins.responsify",
 	"logic/mixins.shift-click",
-	"logic/mixins.show",
-	"logic/mixins.var";
+	"logic/mixins.show";
 
 // Color Schemes
 //

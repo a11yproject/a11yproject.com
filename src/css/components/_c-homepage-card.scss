@@ -75,8 +75,8 @@
 
 .c-homepage-card__cta {
 	border-bottom: $border-thinnest solid;
-	@include var(border-color, link-accent);
-	@include var(color, link-text);
+	@include var(border-color, secondary-link-accent);
+	@include var(color, secondary-link-text);
 	font-family: $font-family-secondary;
 	margin-top: 1rem;
 	text-decoration: none;
@@ -89,17 +89,17 @@
 	}
 
 	&:focus {
-		@include var(background-color, link-focus-background);
-		@include var(color, link-focus-text);
+		@include var(background-color, secondary-link-focus-background);
+		@include var(color, secondary-link-focus-text);
 		outline: $border-thin solid;
-		@include var(outline-color, link-focus-background);
+		@include var(outline-color, secondary-link-focus-background);
 	}
 
 	// Supports
 	@supports #{$supports-underlines} {
 		border-bottom: none;
 		text-decoration: underline;
-		@include var(text-decoration-color, link-accent);
+		@include var(text-decoration-color, secondary-link-accent);
 		/* stylelint-disable-next-line property-no-unknown */
 		text-decoration-thickness: $border-thinnest;
 		text-underline-offset: 0.5rem;

@@ -1,6 +1,6 @@
 .c-blm-banner {
 	background-color: #211009;
-	color: $color-sand-lightmode;
+	color: map-get($colors, sand);
 	font-family: $font-family-secondary;
 	padding: 0.25rem map-get($global-bleed, small);
 	text-align: center;
@@ -14,15 +14,17 @@
 
 
 .c-blm-banner__link {
-	@include link-states($color-white);
+	color: map-get($colors, "white");
 
-	color: $color-white;
-
-	// States
 	&:focus {
-		color: $color-black;
-	}
+		background-color: map-get($colors, "white");
+		color: map-get($colors, "black");
+		outline: $border-thin solid map-get($colors, "white");
 
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 	// User Queries
 	@media screen and (-ms-high-contrast: active) {
 		color: window;

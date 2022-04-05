@@ -5,6 +5,7 @@ $scheme-override-light: (
 	"hero-content-background": "blue",
 	"hero-content-accent": "white",
 	"hero-content-text": "white",
+	"toc-summary": "blue-shade",
 );
 
 $scheme-override-dark: (
@@ -14,6 +15,7 @@ $scheme-override-dark: (
 	"hero-content-background": "blue-muted",
 	"hero-content-accent": "gray-wash",
 	"hero-content-text": "white",
+	"toc-summary": "blue-tint-muted",
 );
 
 @include color-scheme("blue", $scheme-override-light, $scheme-override-dark);

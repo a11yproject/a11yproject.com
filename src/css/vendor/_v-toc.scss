@@ -25,9 +25,12 @@
 	cursor: pointer;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
+	@include var(color, toc-summary);
 
 	// States
 	&:focus {
+		@include var(background-color, toc-summary);
+		@include var(color, link-focus-text);
 		outline: $border-thicker solid transparent;
 
 		.v-toc__title {
@@ -36,75 +39,6 @@
 
 		.v-toc__icon {
 			fill: currentColor;
-		}
-	}
-
-	// Contexts
-	.template-post &,
-	.template-resources &,
-	.template-collections & {
-		color: $color-green-lightmode;
-
-		&:focus {
-			background-color: $color-green-lightmode;
-			color: $color-white;
-
-			// User Queries
-			@media (prefers-color-scheme: dark) {
-				background-color: $color-green-tint-darkmode;
-				color: $color-black;
-			}
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			color: $color-green-tint-darkmode;
-		}
-	}
-
-	.template-checklist &,
-	.template-about &,
-	.template-team &,
-	.template-authors,
-	.template-spotlight & {
-		color: $color-blue-shade-lightmode;
-
-		&:focus {
-			background-color: $color-blue-shade-lightmode;
-			color: $color-white;
-
-			// User Queries
-			@media (prefers-color-scheme: dark) {
-				background-color: $color-blue-tint-darkmode;
-				color: $color-black;
-			}
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			color: $color-blue-tint-darkmode;
-		}
-	}
-
-	.template-posts &,
-	.template-contribute &,
-	.template-generic & {
-		color: $color-blue-lightmode;
-
-		&:focus {
-			background-color: $color-blue-lightmode;
-			color: $color-white;
-
-			// User Queries
-			@media (prefers-color-scheme: dark) {
-				background-color: $color-blue-tint-darkmode;
-				color: $color-black;
-			}
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			color: $color-blue-tint-darkmode;
 		}
 	}
 }
@@ -119,44 +53,9 @@
 }
 
 .v-toc__icon {
-	fill: $color-blue-lightmode;
+	fill: currentColor;
 	height: 1rem;
 	width: 1rem;
-
-	// Contexts
-	.template-post &,
-	.template-resources & {
-		fill: $color-green-lightmode;
-	}
-
-	.template-checklist &,
-	.template-about &,
-	.template-team &,
-	.template-authors,
-	.template-spotlight & {
-		fill: $color-blue-shade-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			fill: $color-blue-tint-darkmode;
-		}
-	}
-
-	.template-posts &,
-	.template-contribute &,
-	.template-generic & {
-		fill: $color-blue-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			fill: $color-blue-tint-darkmode;
-		}
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		fill: $color-blue-tint-darkmode;
-	}
 }
 
 
@@ -238,9 +137,8 @@
 		}
 	}
 
-	a {
-		border-bottom: $border-thinnest solid $color-sand-lightmode;
-		color: $color-gray-shade-lightmode;
+	a[href] {
+		@include var(color, toc-link);
 		text-decoration: none;
 		transition:
 			$animation-duration-short $animation-easing-character color,
@@ -266,29 +164,11 @@
 		}
 
 		// States
-		&:focus {
-			outline: $border-thin solid transparent;
-		}
-
 		&:hover,
 		&:focus {
-			border-bottom-color: $color-green-lightmode;
-			color: $color-black;
-
-			// User Queries
-			@media screen and (prefers-color-scheme: dark) {
-				border-bottom-color: $color-green-darkmode;
-				color: $color-white;
-			}
-		}
-
-		// User Queries
-		@media screen and (prefers-reduced-motion: reduce) {
-			transition: none;
-		}
-
-		@media (prefers-color-scheme: dark) {
-			color: $color-gray-tint-darkmode;
+			background-color: transparent;
+			outline-color: transparent;
+			@include var(color, toc-link-focus);
 		}
 	}
 
