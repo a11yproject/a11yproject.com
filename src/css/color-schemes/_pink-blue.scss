@@ -5,6 +5,7 @@ $scheme-override-light: (
   "hero-content-background": "pink-shade",
   "hero-content-accent": "blue-tint",
   "hero-content-text": "blue-tint",
+	"sponsors-background": "pink-tint",
 );
 
 $scheme-override-dark: (
@@ -14,6 +15,7 @@ $scheme-override-dark: (
   "hero-content-background": "pink-shade-muted",
   "hero-content-accent": "white",
   "hero-content-text": "white",
+	"sponsors-background": "pink-shade-muted",
 );
 
 @include color-scheme("pink-blue", $scheme-override-light, $scheme-override-dark);

@@ -138,7 +138,7 @@
 	}
 
 	a[href] {
-		@include var(color, toc-link);
+		@include var(color, toc-link-text);
 		text-decoration: none;
 		transition:
 			$animation-duration-short $animation-easing-character color,
@@ -168,7 +168,7 @@
 		&:focus {
 			background-color: transparent;
 			outline-color: transparent;
-			@include var(color, toc-link-focus);
+			@include var(color, toc-link-focus-text);
 		}
 	}
 

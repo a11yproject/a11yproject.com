@@ -18,7 +18,7 @@
 
 
 .c-theme-switcher__input {
-	accent-color: $color-pink-shade-lightmode;
+	@include var(accent-color, input-accent);
 }
 
 

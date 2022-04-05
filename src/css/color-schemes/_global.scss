@@ -35,8 +35,8 @@ $scheme-light: (
 	"hero-content-text": "black",
 	"hero-content-text-accent": "pink",
 	"toc-summary": "blue",
-	"toc-link": "gray",
-	"toc-link-focus": "black",
+	"toc-link-text": "gray",
+	"toc-link-focus-text": "black",
 	"toc-indicator": "pink",
 	"card-background": "white",
 	"card-heading-text": "green",
@@ -54,6 +54,10 @@ $scheme-light: (
 	"category-blue-background": "blue-tint",
 	"category-pink": "pink",
 	"category-pink-background": "pink-tint",
+	"sponsors-background": "gray-wash",
+	"footer-link-text": "black",
+	"footer-tagline-text": "blue-shade",
+	"input-accent": "pink-shade"
 );
 
 $scheme-dark: (
@@ -82,8 +86,8 @@ $scheme-dark: (
 	"hero-content-text": "gray-tint",
 	"hero-content-text-accent": "pink",
 	"toc-summary": "blue-tint-muted",
-	"toc-link": "gray-tint",
-	"toc-link-focus": "white",
+	"toc-link-text": "gray-tint",
+	"toc-link-focus-text": "white",
 	"toc-indicator": "pink-shade",
 	"card-background": "black",
 	"card-heading-text": "green-tint-muted",
@@ -101,6 +105,9 @@ $scheme-dark: (
 	"category-blue-background": "blue-shade-muted",
 	"category-pink": "pink-muted",
 	"category-pink-background": "pink-shade-muted",
+	"sponsors-background": "gray-shade",
+	"footer-link-text": "white",
+	"footer-tagline-text": "blue-tint-muted",
 );
 
 :root {

@@ -1,55 +1,12 @@
 .c-sponsors {
-	background-color: $color-green-tint-lightmode;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-black;
-	}
-
-	// Contexts
-	.template-posts & {
-		background-color: $color-pink-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-pink-shade-darkmode;
-		}
-	}
-
-	.template-about &,
-	.template-authors &,
-	.template-team & {
-		background-color: $color-blue-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-shade-darkmode;
-		}
-	}
-
-	.template-contribute & {
-		background-color: $color-yellow-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-yellow-shade-darkmode;
-		}
-	}
-
-	.template-generic & {
-		background-color: $color-gray-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-gray-shade-darkmode;
-		}
-	}
+	@include var(background-color, sponsors-background);
 }
 
 
 .c-sponsor__link {
 	width: $global-sponsor-width;
 	margin-bottom: 1rem;
+	@include var(color, body-text);
 
 	&:last-of-type {
 		margin-bottom: 0;
@@ -57,12 +14,7 @@
 
 	// States
 	&:focus {
-		outline: $border-thin solid $color-black;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			outline: $border-thin solid $color-white;
-		}
+		outline: $border-thin solid currentColor;
 	}
 
 	// Supports
