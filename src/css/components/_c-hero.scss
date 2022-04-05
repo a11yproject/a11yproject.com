@@ -9,167 +9,25 @@
 //
 // Style guide: Components.hero
 .c-hero {
+	position: relative;
+	overflow: hidden;
+	@include var(background-color, hero-background);
+
+	& > svg {
+		position: absolute;
+		top: 50%;
+		min-width: 100%;
+		transform: translateY(-50%);
+		@include var(color, hero-background-text);
+	}
+
 	// Contexts
 	.template-home & {
-		background-color: $color-green-shade-lightmode;
-		background-image: url("#{$path-to-img}/heroes/a11y-lightmode.svg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-green-shade-darkmode;
-			background-image: url("#{$path-to-img}/heroes/a11y-darkmode.svg");
+		& > svg {
+			min-height: 100%;
 		}
-	}
-
-	.template-posts & {
-		background-color: $color-pink-shade-lightmode;
-		background-image: url("#{$path-to-img}/heroes/posts-lightmode.svg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-
-		// Breakpoints
-		@include mappy-bp(wrist-large) {
-			background-size: contain;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-pink-shade-darkmode;
-			background-image: url("#{$path-to-img}/heroes/posts-darkmode.svg");
-		}
-	}
-
-	.template-checklist & {
-		background-color: $color-blue-lightmode;
-		background-image: url("#{$path-to-img}/heroes/checklist-lightmode.svg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-
-		// Breakpoints
-		@include mappy-bp(palm-medium) {
-			background-size: contain;
-		}
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-darkmode;
-			background-image: url("#{$path-to-img}/heroes/checklist-darkmode.svg");
-		}
-	}
-
-	.template-resources &,
-	.template-about &,
-	.template-authors &,
-	.template-team &,
-	.template-contribute &,
-	.template-spotlight &,
-	.template-404 &,
-	.template-collections & {
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
-
-	.template-resources &,
-	.template-collections & {
-		background-color: $color-green-shade-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-green-shade-darkmode;
-		}
-	}
-
-	.template-resources & {
-		background-image: url("#{$path-to-img}/heroes/resources-lightmode.svg");
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-image: url("#{$path-to-img}/heroes/resources-darkmode.svg");
-		}
-	}
-
-	.template-collections & {
-		background-image: url("#{$path-to-img}/heroes/collections-lightmode.svg");
-	}
-
-	.template-about & {
-		background-color: $color-blue-shade-lightmode;
-		background-image: url("#{$path-to-img}/heroes/about-lightmode.svg");
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-shade-darkmode;
-			background-image: url("#{$path-to-img}/heroes/about-darkmode.svg");
-		}
-	}
-
-	.template-authors &,
-	.template-team &,
-	.template-spotlight & {
-		background-color: $color-blue-shade-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-shade-darkmode;
-		}
-	}
-
-	.template-authors & {
-		background-image: url("#{$path-to-img}/heroes/authors-lightmode.svg");
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-image: url("#{$path-to-img}/heroes/authors-darkmode.svg");
-		}
-	}
-
-	.template-team & {
-		background-image: url("#{$path-to-img}/heroes/team-lightmode.svg");
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-image: url("#{$path-to-img}/heroes/team-darkmode.svg");
-		}
-	}
-
-	.template-contribute & {
-		background-color: $color-yellow-tint-lightmode;
-		background-image: url("#{$path-to-img}/heroes/contribute-lightmode.svg");
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-yellow-shade-darkmode;
-		}
-	}
-
-	.template-simple & {
-		background-color: $color-yellow-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-yellow-shade-darkmode;
-		}
-	}
-
-	.template-spotlight & {
-		background-image: url("#{$path-to-img}/heroes/spotlight-lightmode.svg");
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-image: url("#{$path-to-img}/heroes/spotlight-darkmode.svg");
-		}
-	}
-
-	.template-404 & {
-		background-image: url("#{$path-to-img}/heroes/404-lightmode.svg");
 	}
 }
-
 
 .c-hero-summary {
 	border-top-style: solid;
@@ -178,86 +36,12 @@
 	letter-spacing: $font-tracking-slight;
 	text-align: center;
 	padding: 0.75rem;
+	@include var(background-color, hero-content-background);
+	@include var(color, hero-content-text);
+	@include var(border-top-color, hero-content-accent);
 
 	// Breakpoints
 	@include mappy-bp(palm-large) {
 		padding: 0.75rem 2rem;
-	}
-
-	// Contexts
-	.template-posts & {
-		color: $color-blue-tint-lightmode;
-		background-color: $color-pink-shade-lightmode;
-		border-top-color: $color-blue-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			color: $color-white;
-			background-color: $color-pink-shade-darkmode;
-			border-top-color: $color-white;
-		}
-	}
-
-	.template-checklist & {
-		color: $color-white;
-		background-color: $color-blue-lightmode;
-		border-top-color: $color-white;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-darkmode;
-			border-top-color: $color-gray-tint-darkmode;
-		}
-	}
-
-	.template-resources &,
-	.template-collections & {
-		color: $color-green-tint-lightmode;
-		background-color: $color-green-shade-lightmode;
-		border-top-color: $color-green-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-green-shade-darkmode;
-			border-top-color: $color-green-tint-darkmode;
-		}
-	}
-
-	.template-about & {
-		color: $color-yellow-tint-lightmode;
-		background-color: $color-blue-shade-lightmode;
-		border-top-color: $color-yellow-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-shade-darkmode;
-			border-top-color: $color-yellow-tint-darkmode;
-		}
-	}
-
-	.template-contribute & {
-		color: $color-yellow-tint-lightmode;
-		background-color: $color-black;
-		border-top-color: $color-white;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-black;
-			border-top-color: $color-gray-tint-darkmode;
-		}
-	}
-
-	.template-authors &,
-	.template-team &,
-	.template-spotlight & {
-		color: $color-yellow-tint-lightmode;
-		background-color: $color-blue-shade-lightmode;
-		border-top-color: $color-yellow-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-shade-darkmode;
-			border-top-color: $color-yellow-tint-darkmode;
-		}
 	}
 }

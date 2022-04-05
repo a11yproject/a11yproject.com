@@ -46,6 +46,7 @@
 	position: relative;
 	top: unset;
 	transform: perspective(1px) translateY(0); // HACK: Keeps content from rendering blurry
+	z-index: 1;
 
 	// Supports
 	@supports #{$supports-flex} {

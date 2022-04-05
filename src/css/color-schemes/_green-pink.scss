@@ -1,10 +1,9 @@
 
-$scheme-light: (
-  "body-background": "sand",
+$scheme-override-light: (
+  "nav-background": "green-shade",
 );
 
-$scheme-dark: (
-  "body-background": "charcoal",
+$scheme-override-dark: (
 );
 
-@include color-scheme("green-pink", $scheme-light, $scheme-dark);
+@include color-scheme("green-pink", $scheme-override-light, $scheme-override-dark);

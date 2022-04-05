@@ -2,61 +2,53 @@
 //
 // Style guide: Components.Navigation.primary-nav
 .c-primary-nav {
-	background-color: $color-black;
+	@include var(background-color, nav-background);
 
-	// Contexts
-	.template-home & {
-		background-color: $color-green-shade-lightmode;
+	// COLOR TODO
+	// // Contexts
+	// .template-posts & {
+	// 	background-color: $color-pink-shade-lightmode;
 
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-green-shade-darkmode;
-		}
-	}
+	// 	// User Queries
+	// 	@media (prefers-color-scheme: dark) {
+	// 		background-color: $color-pink-shade-darkmode;
+	// 	}
+	// }
 
-	.template-posts & {
-		background-color: $color-pink-shade-lightmode;
+	// .template-checklist & {
+	// 	background-color: $color-blue-lightmode;
 
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-pink-shade-darkmode;
-		}
-	}
+	// 	// User Queries
+	// 	@media (prefers-color-scheme: dark) {
+	// 		background-color: $color-blue-darkmode;
+	// 	}
+	// }
 
-	.template-checklist & {
-		background-color: $color-blue-lightmode;
+	// .template-resources & {
+	// 	background-color: $color-green-shade-lightmode;
 
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-darkmode;
-		}
-	}
+	// 	// User Queries
+	// 	@media (prefers-color-scheme: dark) {
+	// 		background-color: $color-green-shade-darkmode;
+	// 	}
+	// }
 
-	.template-resources & {
-		background-color: $color-green-shade-lightmode;
+	// .template-about &,
+	// .template-authors &,
+	// .template-team &,
+	// .template-spotlight & {
+	// 	background-color: $color-blue-shade-lightmode;
 
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-green-shade-darkmode;
-		}
-	}
+	// 	// User Queries
+	// 	@media (prefers-color-scheme: dark) {
+	// 		background-color: $color-blue-shade-darkmode;
+	// 	}
+	// }
 
-	.template-about &,
-	.template-authors &,
-	.template-team &,
-	.template-spotlight & {
-		background-color: $color-blue-shade-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-shade-darkmode;
-		}
-	}
-
-	.template-contribute &,
-	.template-generic & {
-		background-color: $color-black;
-	}
+	// .template-contribute &,
+	// .template-generic & {
+	// 	background-color: $color-black;
+	// }
 }
 
 
@@ -95,9 +87,9 @@
 		margin-right: 0;
 
 		.c-primary-nav__link {
-			background-color: $color-white;
+			@include var(background-color, nav-cta-background);
+			@include var(color, nav-cta-text);
 			border-bottom: none;
-			color: $color-black;
 
 			// States
 			&:hover {
@@ -106,8 +98,8 @@
 			}
 
 			&:focus {
-				background-color: $color-black;
-				color: $color-white;
+				@include var(background-color, nav-cta-text);
+				@include var(color, nav-cta-background);
 			}
 
 			&[aria-current="page"] {
@@ -120,7 +112,7 @@
 
 .c-primary-nav__link {
 	border-bottom: $border-thinner solid transparent;
-	color: $color-white;
+	@include var(color, nav-link-text);
 	font-family: $font-family-secondary;
 	padding: 0.25rem 0.5rem;
 	text-decoration: none;
@@ -128,15 +120,15 @@
 
 	// States
 	&:hover {
-		border-bottom-color: $color-white;
+		border-bottom-color: currentColor;
 	}
 
 	&:focus {
-		outline: $border-thinner solid $color-white;
+		outline: $border-thinner solid currentColor;
 	}
 
 	&[aria-current="page"] {
-		border-bottom-color: $color-white;
+		border-bottom-color: currentColor;
 	}
 
 	// Breakpoints

@@ -35,7 +35,7 @@
 .c-homepage-card__image-link {
 	// States
 	&:focus {
-		outline: $border-thin solid $color-black;
+		outline: $border-thin solid currentColor;
 	}
 }
 
@@ -52,27 +52,17 @@
 
 
 .c-homepage-card__author {
-	color: $color-green-lightmode;
+	@include var(color, card-heading-text);
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	margin-top: 1.5rem;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-green-tint-darkmode;
-	}
 }
 
 
 .c-homepage-card__title {
 	cursor: pointer;
-	color: $color-black;
+	@include var(color, heading-text);
 	text-decoration: none;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-tint-darkmode;
-	}
 }
 
 
@@ -83,15 +73,10 @@
 	max-width: 50ch;
 }
 
-
-.c-homepage-card__link {
-	@include link-states($color-blue-lightmode);
-}
-
-
 .c-homepage-card__cta {
-	border-bottom: $border-thinnest solid $color-pink-lightmode;
-	color: $color-black;
+	border-bottom: $border-thinnest solid;
+	@include var(border-color, link-accent);
+	@include var(color, link-text);
 	font-family: $font-family-secondary;
 	margin-top: 1rem;
 	text-decoration: none;
@@ -104,25 +89,20 @@
 	}
 
 	&:focus {
-		background-color: $color-pink-lightmode;
-		color: $color-white;
-		outline: $border-thin solid $color-pink-lightmode;
+		@include var(background-color, link-focus-background);
+		@include var(color, link-focus-text);
+		outline: $border-thin solid;
+		@include var(outline-color, link-focus-background);
 	}
 
 	// Supports
 	@supports #{$supports-underlines} {
 		border-bottom: none;
 		text-decoration: underline;
-		text-decoration-color: $color-pink-lightmode;
+		@include var(text-decoration-color, link-accent);
 		/* stylelint-disable-next-line property-no-unknown */
 		text-decoration-thickness: $border-thinnest;
 		text-underline-offset: 0.5rem;
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		border-bottom-color: $color-pink-darkmode;
-		color: $color-white;
 	}
 }
 
@@ -156,7 +136,7 @@
 
 
 .c-homepage-card__spotlight__info {
-	background-color: $color-blue-tint-lightmode;
+	@include var(background-color, featured-card-background);
 	height: 13rem;
 	margin-top: -8rem;
 	margin-left: 4rem;
@@ -170,11 +150,6 @@
 		flex-direction: column;
 		justify-content: flex-end;
 	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-blue-darkmode;
-	}
 }
 
 
@@ -184,12 +159,7 @@
 
 
 .c-homepage-card__spotlight-role {
-	color: $color-blue-shade-lightmode;
+	@include var(color, featured-card-heading-text);
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-white;
-	}
 }

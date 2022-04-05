@@ -6,12 +6,11 @@
 		{% include "heroes/home.njk" %}
 	{% endif %}
 
-	{% if templateClass == "template-posts" %}
-		{% set hero = heroes.posts %}
+	{% if hero %}
 		{% include "heroes/primary-nav.njk" %}
 	{% endif %}
 
-	{% if templateClass == "template-collections" %}
+	{# {% if templateClass == "template-collections" %}
 		{% set hero = heroes.collections %}
 		{% include "heroes/primary-nav.njk" %}
 	{% endif %}
@@ -49,7 +48,7 @@
 	{% if templateClass == "template-spotlight" %}
 		{% set hero = heroes.spotlight %}
 		{% include "heroes/primary-nav.njk" %}
-	{% endif %}
+	{% endif %} #}
 
 </header>
 

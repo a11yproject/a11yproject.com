@@ -16,13 +16,9 @@
 .c-heading-small,
 .c-heading-smaller,
 .c-heading-smallest {
+	@include var(color, heading-text);
 	font-family: $font-family-primary;
 	font-weight: $font-weight-normal;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-white;
-	}
 }
 
 
@@ -58,17 +54,12 @@
 }
 
 .c-heading-largest--generic {
-	color: $color-pink-shade-lightmode;
+	@include var(color, heading-text-accent);
 
 	& ~ .c-subtitle {
 		font-family: $font-family-secondary;
 		font-size: $font-size-body-large;
 		line-height: $line-height-tight;
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-pink-tint-darkmode;
 	}
 }
 

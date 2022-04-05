@@ -6,8 +6,9 @@
 //
 // Style guide: Components.banner-a11y
 .c-a11y-summary {
-	background-color: $color-white;
-	border-top: $border-thicker solid $color-pink-tint-lightmode;
+	@include var(background-color, hero-content-background);
+	border-top: $border-thicker solid;
+	@include var(border-color, hero-content-accent);
 	padding: 1.5rem;
 	margin: 1rem 0;
 
@@ -19,13 +20,7 @@
 	@include mappy-bp(palm-large) {
 		padding: 2rem 7rem 2.75rem;
 	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-black;
-	}
 }
-
 
 .c-a11y-summary__explanation {
 	margin-top: 0;
@@ -46,7 +41,6 @@
 	}
 }
 
-
 .c-a11y-summary__accessibility {
 	display: block;
 	font-family: $font-family-secondary;
@@ -63,7 +57,6 @@
 	}
 }
 
-
 .c-a11y-summary__11-characters {
 	font-size: $font-size-heading-tiny;
 	width: 11rem;
@@ -77,7 +70,6 @@
 		width: 17rem;
 	}
 }
-
 
 .c-a11y-summary__mission {
 	font-family: $font-family-secondary;

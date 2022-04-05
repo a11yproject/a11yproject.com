@@ -1,0 +1,19 @@
+$scheme-override-light: (
+	"nav-background": "green-shade",
+	"hero-background": "green-shade",
+	"hero-background-text": "green-tint",
+	"hero-content-background": "green-shade",
+	"hero-content-accent": "green-tint",
+	"hero-content-text": "green-tint",
+);
+
+$scheme-override-dark: (
+	"nav-background": "green-shade",
+	"hero-background": "green-shade",
+	"hero-background-text": "green-muted",
+	"hero-content-background": "green-shade",
+	"hero-content-accent": "green-tint-muted",
+	"hero-content-text": "green-tint-muted",
+);
+
+@include color-scheme("green", $scheme-override-light, $scheme-override-dark);

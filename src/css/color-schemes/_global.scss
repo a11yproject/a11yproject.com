@@ -1,35 +1,76 @@
+// We want to make sure all colors are defined here in this file
+// to make sure that we know of all the different color variables we have globally,
+// but each color can be overridden in particular color schemes as needed.
 
 $scheme-light: (
-  "body-background": "sand",
-  "body-text": "black",
-  "toc-indicator": "pink",
-  "kbd-text": "black",
-  "kbd-background": "white",
-  "pre-background": "black",
-  "pre-text": "white",
-  "samp-background": "pink",
-  "mark-background": "yellow",
-  "mark-text": "black",
+	"body-background": "sand",
+	"body-text": "black",
+	"toc-indicator": "pink",
+	"kbd-text": "black",
+	"kbd-background": "white",
+	"pre-background": "black",
+	"pre-text": "white",
+	"samp-background": "pink",
+	"mark-background": "yellow",
+	"mark-text": "black",
+	"link-text": "black",
+	"link-accent": "pink",
+	"link-focus-background": "pink",
+	"link-focus-text": "black",
+	"heading-text": "black",
+	"heading-text-accent": "pink-shade",
+	"text-accent": "gray",
+	"nav-background": "black",
+	"nav-link-text": "white",
+	"nav-cta-background": "white",
+	"nav-cta-text": "black",
+	"hero-background": "green-shade",
+	"hero-background-text": "pink",
+	"hero-content-background": "white",
+	"hero-content-accent": "pink-tint",
+	"hero-content-text": "black",
+	"hero-content-text-accent": "pink",
+	"card-background": "white",
+	"card-heading-text": "green",
+	"featured-card-background": "blue-tint",
+	"featured-card-heading": "blue-shade",
 );
 
 $scheme-dark: (
-  "body-background": "charcoal",
-  "body-text": "gray-tint",
-  "toc-indicator": "pink-muted",
-  "kbd-text": "gray-shade",
-  "kbd-background": "gray-wash",
-  "mark-background": "yellow-muted",
-  "mark-text": "black",
+	"body-background": "charcoal",
+	"body-text": "gray-tint",
+	"toc-indicator": "pink-muted",
+	"kbd-text": "gray-shade",
+	"kbd-background": "gray-wash",
+	"mark-background": "yellow-muted",
+	"mark-text": "black",
+	"link-text": "white",
+	"link-accent": "pink-muted",
+	"link-focus-background": "pink-muted",
+	"link-focus-text": "gray-wash",
+	"heading-text": "white",
+	"heading-text-accent": "pink-tint-muted",
+	"text-accent": "gray-tint",
+	"hero-background": "green-shade",
+	"hero-background-text": "pink-shade-muted",
+	"hero-content-background": "black",
+	"hero-content-accent": "pink-tint",
+	"hero-content-text": "gray-tint",
+	"hero-content-text-accent": "pink",
+	"card-background": "black",
+	"card-heading-text": "green-tint-muted",
+	"featured-card-background": "blue-muted",
+	"featured-card-heading-text": "white",
 );
 
 :root {
-  @each $name, $value in $scheme-light {
-    #{"--color-" + $name}: var(--color-#{$value});
-  }
+	@each $name, $value in $scheme-light {
+		#{"--color-" + $name}: var(--color-#{$value});
+	}
 }
 
 @include dark-mode() {
-  @each $name, $value in $scheme-dark {
-    #{"--color-" + $name}: var(--color-#{$value});
-  }
+	@each $name, $value in $scheme-dark {
+		#{"--color-" + $name}: var(--color-#{$value});
+	}
 }

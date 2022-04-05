@@ -1,0 +1,19 @@
+$scheme-override-light: (
+	"nav-background": "blue-shade",
+	"hero-background": "blue-shade",
+	"hero-background-text": "yellow",
+	"hero-content-background": "blue-shade",
+	"hero-content-accent": "yellow-tint",
+	"hero-content-text": "yellow-tint",
+);
+
+$scheme-override-dark: (
+	"nav-background": "blue-shade-muted",
+	"hero-background": "blue-shade-muted",
+	"hero-background-text": "yellow-shade-muted",
+	"hero-content-background": "blue-shade-muted",
+	"hero-content-accent": "yellow-tint-muted",
+	"hero-content-text": "yellow-tint",
+);
+
+@include color-scheme("blue-yellow", $scheme-override-light, $scheme-override-dark);

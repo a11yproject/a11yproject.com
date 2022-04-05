@@ -10,11 +10,11 @@
 		@include mappy-bp(lap-medium) {
 			margin-left: map-get($global-post-content-inset, small) * -1;
 		}
+	}
 
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			color: $color-white;
-		}
+	h2,
+	h3 {
+		@include var(color, heading-text);
 	}
 
 

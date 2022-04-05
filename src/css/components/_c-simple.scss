@@ -3,14 +3,28 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
+
+	& > svg {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+		@include var(color, hero-background-text);
+	}
+
 }
 
 
 .c-simple__hero {
-	background-color: $color-white;
-	border-top: $border-thicker solid $color-pink-shade-lightmode;
+	position: relative;
+	border-top: $border-thicker solid;
+	@include var(background-color, hero-content-background);
+	@include var(border-color, hero-content-accent);
+	@include var(color, hero-content-text);
 	margin-top: 2rem;
 	padding: 1rem 2rem 2rem;
+	z-index: 1;
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -19,12 +33,6 @@
 		// Breakpoints
 		@include mappy-bp(palm-large) {
 			width: 60%;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-sand-darkmode;
-			border-top-color: $color-pink-shade-darkmode;
 		}
 	}
 
