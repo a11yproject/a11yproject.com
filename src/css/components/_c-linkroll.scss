@@ -7,7 +7,8 @@
 
 
 .c-linkroll__link {
-	border-left: $border-thicker solid transparent;
+	border-left: $border-thicker solid;
+	@include var(border-color, linkroll-gray);
 	padding: 1.25rem 1.75rem;
 	text-decoration: none;
 	transition:
@@ -17,10 +18,7 @@
 	// States
 	&:hover,
 	&:focus {
-		.c-linkroll__category,
-		.c-linkroll__title {
-			color: $color-white;
-		}
+		@include var(background-color, linkroll-gray-background);
 	}
 
 	// Supports
@@ -34,171 +32,51 @@
 		transition: none;
 	}
 
-	&.announcements {
-		border-left-color: $color-pink-lightmode;
+	&.announcements,
+	&.experience,
+	&.myth {
+		@include var(border-color, category-pink);
 
-		// States
 		&:hover,
 		&:focus {
-			background-color: $color-pink-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-pink-darkmode;
-
-			// States
-			&:hover,
-			&:focus {
-				background-color: $color-pink-darkmode;
-			}
+			@include var(background-color, category-pink-background);
 		}
 	}
 
-	&.assistive-technology {
-		border-left-color: $color-gray-shade-lightmode;
-
-		// States
-		&:hover,
-		&:focus {
-			background-color: $color-gray-shade-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-gray-tint-darkmode;
-
-			// States
-			&:hover,
-			&:focus {
-				background-color: $color-gray-tint-darkmode;
-			}
-		}
-	}
-
+	&.assistive-technology,
 	&.background {
-		border-left-color: $color-gray-shade-lightmode;
+		@include var(border-color, category-gray);
 
-		// States
 		&:hover,
 		&:focus {
-			background-color: $color-gray-shade-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-gray-tint-darkmode;
-
-			// States
-			&:hover,
-			&:focus {
-				background-color: $color-gray-tint-darkmode;
-			}
-		}
-	}
-
-	&.experience {
-		border-left-color: $color-pink-lightmode;
-
-		// States
-		&:hover,
-		&:focus {
-			background-color: $color-pink-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-pink-darkmode;
-
-			// States
-			&:hover,
-			&:focus {
-				background-color: $color-pink-darkmode;
-			}
+			@include var(background-color, category-gray-background);
 		}
 	}
 
 	&.how-to {
-		border-left-color: $color-yellow-lightmode;
+		@include var(border-color, category-yellow);
 
-		// States
 		&:hover,
 		&:focus {
-			background-color: $color-yellow-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-yellow-darkmode;
-
-			// States
-			&:hover,
-			&:focus {
-				background-color: $color-yellow-darkmode;
-			}
-		}
-	}
-
-	&.myth {
-		border-left-color: $color-pink-lightmode;
-
-		// States
-		&:hover,
-		&:focus {
-			background-color: $color-pink-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-pink-darkmode;
-
-		// States
-		&:hover,
-		&:focus {
-			border-left-color: $color-pink-darkmode;
-		}
+			@include var(background-color, category-yellow-background);
 		}
 	}
 
 	&.quick-test {
-		border-left-color: $color-blue-lightmode;
+		@include var(border-color, category-blue);
 
-		// States
 		&:hover,
 		&:focus {
-			background-color: $color-blue-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-blue-darkmode;
-
-			// States
-			&:hover,
-			&:focus {
-				background-color: $color-blue-darkmode;
-			}
+			@include var(background-color, category-blue-background);
 		}
 	}
 
 	&.quick-tip {
-		border-left-color: $color-green-lightmode;
+		@include var(border-color, category-green);
 
-		// States
 		&:hover,
 		&:focus {
-			background-color: $color-green-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-green-darkmode;
-
-			// States
-			&:hover,
-			&:focus {
-				background-color: $color-green-darkmode;
-			}
+			@include var(background-color, category-green-background);
 		}
 	}
 }
@@ -212,24 +90,13 @@
 
 .c-linkroll__entry {
 	@include preserve-list-semantics();
-
-	background-color: $color-white;
+	@include var(background-color, card-background);
 	margin-top: 1.25rem;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-black;
-	}
 }
 
 
 .c-linkroll__category {
-	color: $color-gray-shade-lightmode;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-tint-darkmode;
-	}
+	@include var(color, card-meta-text);
 }
 
 
@@ -239,19 +106,15 @@
 
 
 .c-linkroll__title {
-	color: $color-black;
+	@include var(color, card-text);
 	line-height: $line-height-tight;
 	text-decoration: none;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-tint-darkmode;
-	}
 }
+
 
 .c-linkroll__featured {
 	border-bottom: $border-thin dotted transparent;
-	color: $color-black;
+	@include var(color, card-text);
 	font-family: $font-family-secondary;
 	padding-bottom: 0.75rem;
 }

@@ -40,8 +40,20 @@ $scheme-light: (
 	"toc-indicator": "pink",
 	"card-background": "white",
 	"card-heading-text": "green",
+	"card-meta-text": "gray",
+	"card-text": "black",
 	"featured-card-background": "blue-tint",
 	"featured-card-heading": "blue-shade",
+	"category-green": "green",
+	"category-green-background": "green-tint",
+	"category-gray": "gray",
+	"category-gray-background": "gray-wash",
+	"category-yellow": "yellow",
+	"category-yellow-background": "yellow-tint",
+	"category-blue": "blue",
+	"category-blue-background": "blue-tint",
+	"category-pink": "pink",
+	"category-pink-background": "pink-tint",
 );
 
 $scheme-dark: (
@@ -75,8 +87,20 @@ $scheme-dark: (
 	"toc-indicator": "pink-shade",
 	"card-background": "black",
 	"card-heading-text": "green-tint-muted",
+	"card-meta-text": "white",
+	"card-text": "gray-tint",
 	"featured-card-background": "blue-muted",
 	"featured-card-heading-text": "white",
+	"category-green": "green-muted",
+	"category-green-background": "green-shade",
+	"category-gray": "gray",
+	"category-gray-background": "gray-shade",
+	"category-yellow": "yellow-shade",
+	"category-yellow-background": "yellow-shade-muted",
+	"category-blue": "blue-muted",
+	"category-blue-background": "blue-shade-muted",
+	"category-pink": "pink-muted",
+	"category-pink-background": "pink-shade-muted",
 );
 
 :root {
