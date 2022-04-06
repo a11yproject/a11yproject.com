@@ -1,10 +1,6 @@
 .c-divider {
-	border: $border-thin solid $color-blue-tint-lightmode;
+	border: $border-thin solid;
+	@include var(border-color, divider-background);
 	margin-top: 3rem;
 	margin-bottom: 3rem;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		border-color: $color-blue-shade-lightmode;
-	}
 }

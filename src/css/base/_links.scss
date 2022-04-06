@@ -7,7 +7,7 @@
 // Styleguide Base.link
 a {
 	// Style links that don't have a class declared on them
-	&[href]:not([class]) {
+	&:not([class]) {
 		@include link-states(link-text);
 
 		&:hover,

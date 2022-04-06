@@ -34,19 +34,16 @@ $_checklist-padding: (
 
 
 .c-card__wrapper .c-checklist__wrapper:first-of-type .c-checklist {
-	border-top: $border-thinnest solid $color-blue-shade-lightmode;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		border-top-color: $color-blue-tint-darkmode;
-	}
+	border-top: $border-thinnest solid;
+	@include var(border-top-color, checklist-accent);
 }
 
 
 .c-checklist {
-	border-bottom: $border-thinnest solid $color-blue-shade-lightmode;
-	border-right: $border-thinnest solid $color-blue-shade-lightmode;
-	border-left: $border-thinnest solid $color-blue-shade-lightmode;
+	border-bottom: $border-thinnest solid;
+	border-right: $border-thinnest solid;
+	border-left: $border-thinnest solid;
+	@include var(border-color, checklist-accent);
 	list-style-image: none;
 	width: 100%;
 
@@ -59,7 +56,7 @@ $_checklist-padding: (
 
 	&:hover {
 		.c-checklist__icon {
-			fill: $color-blue-tint-lightmode;
+			@include var(fill, checklist-hover);
 		}
 	}
 
@@ -75,7 +72,8 @@ $_checklist-padding: (
 
 	// Text-level formatting
 	code {
-		background-color: $color-blue-tint-lightmode;
+		@include var(background-color, checklist-code-background);
+		@include var(color, checklist-code-text);
 		margin-left: 0.25ch;
 		margin-right: 0.25ch;
 		padding: 0.3ch 0.5ch;
@@ -84,18 +82,6 @@ $_checklist-padding: (
 		@include mappy-bp(wrist-small wrist-large) {
 			word-break: normal;
 		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-darkmode;
-		}
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		border-bottom-color: $color-blue-tint-darkmode;
-		border-right-color: $color-blue-tint-darkmode;
-		border-left-color: $color-blue-tint-darkmode;
 	}
 }
 
@@ -111,28 +97,12 @@ $_checklist-padding: (
 
 	// States
 	&:focus {
-		background-color: $color-blue-shade-lightmode;
-		color: $color-white;
+		@include var(background-color, checklist-focus-background);
+		@include var(color, checklist-focus-text);
 		outline: $border-thin solid transparent;
 
 		.c-checklist__icon {
-			fill: $color-white;
-
-			// User Queries
-			@media (prefers-color-scheme: dark) {
-				fill: $color-black;
-			}
-		}
-
-		// Text-level formatting
-		code {
-			color: $color-blue-shade-lightmode;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-blue-tint-darkmode;
-			color: $color-black;
+			@include var(color, checklist-focus-text);
 		}
 	}
 }
@@ -147,7 +117,7 @@ $_checklist-padding: (
 }
 
 .c-checklist__icon {
-	fill: $color-blue-shade-lightmode;
+	@include var(color, checklist-accent);
 	height: map-get($_checklist-icon-size, small);
 	width: map-get($_checklist-icon-size, small);
 	transition: fill $animation-duration-shorter $animation-easing-character;
@@ -166,10 +136,6 @@ $_checklist-padding: (
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
-	}
-
-	@media (prefers-color-scheme: dark) {
-		fill: $color-blue-tint-darkmode;
 	}
 }
 
@@ -199,8 +165,9 @@ margin-left: 1rem;
 	// SEE: https://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html
 	// Sets up the checkbox box
 	input[type="checkbox"] + label::before {
-		background-color: $color-sand-lightmode;
-		border: $border-thinner solid $color-blue-shade-lightmode;
+		@include var(background-color, body-background);
+		border: $border-thinner solid;
+		@include var(border-color, checklist-accent);
 		box-sizing: border-box;
 		content: "";
 		cursor: pointer;
@@ -212,12 +179,6 @@ margin-left: 1rem;
 		position: relative;
 		width: map-get($_checklist-checkbox-size, small);
 
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-sand-darkmode;
-			border-color: $color-blue-tint-darkmode;
-		}
-
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
 			height: map-get($_checklist-checkbox-size, large);
@@ -228,17 +189,9 @@ margin-left: 1rem;
 	}
 
 	input[type="checkbox"]:focus + label::before {
-		box-shadow:
-			0 0 0 em(2) $color-sand-lightmode,
-			0 0 0 em(4) $color-blue-shade-lightmode;
-		outline: $border-thin solid transparent;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			box-shadow:
-				0 0 0 em(2) $color-sand-darkmode,
-				0 0 0 em(4) $color-blue-tint-darkmode;
-		}
+		outline: $border-thinner solid;
+		@include var(outline-color, checklist-accent);
+		outline-offset: 0.125rem;
 	}
 
 	// Positions the checkmark
@@ -261,19 +214,14 @@ margin-left: 1rem;
 
 	// Checked checkmark styling
 	input[type="checkbox"]:checked + label::after {
-		border-right: 0.15rem solid $color-blue-shade-lightmode;
-		border-bottom: 0.15rem solid $color-blue-shade-lightmode;
+		border-right: 0.15rem solid;
+		border-bottom: 0.15rem solid;
+		@include var(border-color, checklist-accent);
 		height: 0.6rem;
 		left: -0.225rem;
 		top: 0.2rem;
 		width: 0.3rem;
 		transform: rotate(45deg);
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-right-color: $color-blue-tint-darkmode;
-			border-bottom-color: $color-blue-tint-darkmode;
-		}
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
@@ -297,7 +245,7 @@ margin-left: 1rem;
 
 
 .c-checklist__link {
-	@include link-states($color-blue-shade-lightmode);
+	@include link-states(checklist-accent);
 
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
@@ -308,11 +256,6 @@ margin-left: 1rem;
 	// States
 	&:hover {
 		text-decoration: none;
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		@include link-states($color-blue-tint-darkmode);
 	}
 }
 
@@ -333,12 +276,7 @@ margin-left: 1rem;
 
 	// Text-level formatting
 	a {
-		@include link-states($color-blue-shade-lightmode);
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			@include link-states($color-blue-tint-darkmode);
-		}
+		@include link-states(checklist-accent);
 	}
 }
 
