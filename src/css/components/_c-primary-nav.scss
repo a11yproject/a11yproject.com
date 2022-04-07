@@ -3,52 +3,6 @@
 // Style guide: Components.Navigation.primary-nav
 .c-primary-nav {
 	@include var(background-color, nav-background);
-
-	// COLOR TODO
-	// // Contexts
-	// .template-posts & {
-	// 	background-color: $color-pink-shade-lightmode;
-
-	// 	// User Queries
-	// 	@media (prefers-color-scheme: dark) {
-	// 		background-color: $color-pink-shade-darkmode;
-	// 	}
-	// }
-
-	// .template-checklist & {
-	// 	background-color: $color-blue-lightmode;
-
-	// 	// User Queries
-	// 	@media (prefers-color-scheme: dark) {
-	// 		background-color: $color-blue-darkmode;
-	// 	}
-	// }
-
-	// .template-resources & {
-	// 	background-color: $color-green-shade-lightmode;
-
-	// 	// User Queries
-	// 	@media (prefers-color-scheme: dark) {
-	// 		background-color: $color-green-shade-darkmode;
-	// 	}
-	// }
-
-	// .template-about &,
-	// .template-authors &,
-	// .template-team &,
-	// .template-spotlight & {
-	// 	background-color: $color-blue-shade-lightmode;
-
-	// 	// User Queries
-	// 	@media (prefers-color-scheme: dark) {
-	// 		background-color: $color-blue-shade-darkmode;
-	// 	}
-	// }
-
-	// .template-contribute &,
-	// .template-generic & {
-	// 	background-color: $color-black;
-	// }
 }
 
 

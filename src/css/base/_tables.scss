@@ -59,12 +59,7 @@ table {
 
 		// States
 		&:hover {
-			background-color: $color-white;
-
-			// User Queries
-			@media (prefers-color-scheme: dark) {
-				background-color: $color-black;
-			}
+			@include var(background-color, card-background);
 		}
 
 		// User Queries
@@ -77,13 +72,7 @@ table {
 	col,
 	th,
 	td {
-		border-color: $color-gray-shade-lightmode;
 		padding: 0.75rem;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-color: $color-black;
-		}
 	}
 
 	th {
@@ -98,7 +87,7 @@ table {
 	// }
 
 	thead {
-		border-bottom: $border-thinner solid $color-black;
+		border-bottom: $border-thinner solid currentColor;
 
 		tr {
 

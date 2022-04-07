@@ -116,6 +116,7 @@
 // Sets the initial, document-level cascade.
 //
 // Styleguide Base
+/* purgecss start ignore */
 @import
 	"base/all",
 	"base/html",
@@ -127,7 +128,7 @@
 	"base/paragraphs",
 	"base/lists",
 	"base/tables";
-
+/* purgecss end ignore */
 
 // Layout
 //
@@ -161,7 +162,6 @@
 //
 // Styleguide Utilities
 @import
-	"utilities/colors",
 	"utilities/font-families",
 	"utilities/font-sizes",
 	"utilities/hide",

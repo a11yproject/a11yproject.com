@@ -140,6 +140,7 @@ var buildStyles = function (done) {
 					content: ["src/**/*.njk", "src/**/*.md"],
 					safelist: {
 						standard: [
+							"a",
 							"atrule",
 							"attr-name",
 							"attr-value",

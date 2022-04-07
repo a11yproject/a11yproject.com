@@ -5,6 +5,9 @@ $scheme-override-light: (
 	"hero-content-background": "black",
 	"hero-content-accent": "white",
 	"hero-content-text": "yellow-tint",
+	"featured-card-background": "yellow-tint",
+	"featured-card-heading-text": "blue",
+	"featured-card-text": "black",
 	"sponsors-background": "yellow-tint",
 );
 
@@ -15,6 +18,9 @@ $scheme-override-dark: (
 	"hero-content-background": "black",
 	"hero-content-accent": "white",
 	"hero-content-text": "yellow-tint",
+	"featured-card-background": "yellow-muted",
+	"featured-card-heading-text": "blue-shade-muted",
+	"featured-card-text": "black",
 	"sponsors-background": "yellow-shade-muted",
 );
 

@@ -9,7 +9,6 @@
 		max-width: $global-type-measure;
 	}
 
-
 	// Vertical spacing
 	blockquote,
 	dl,
@@ -25,7 +24,6 @@
 	ul {
 		margin-top: $_c-post-vertical-spacing;
 	}
-
 
 	// Extra breathing room
 	blockquote,
@@ -48,7 +46,11 @@
 			// This selector targets only the first child paragraph of
 			// `.c-content`, allowing us to apply the tl;dr image
 			& > p:first-of-type {
-				@include post-content-flourish("section-short-answer-lightmode.svg", 169, 0.75rem);
+				@include post-content-flourish(
+					"section-short-answer-lightmode.svg",
+					169,
+					0.75rem
+				);
 
 				font-size: 1.25rem;
 				font-family: $font-family-secondary;
@@ -58,9 +60,13 @@
 			}
 
 			// User Queries
-			@media (prefers-color-scheme: dark) {
+			@include dark-mode() {
 				& > p:first-of-type {
-					@include post-content-flourish("section-short-answer-darkmode.svg", 169, 0.75rem);
+					@include post-content-flourish(
+						"section-short-answer-darkmode.svg",
+						169,
+						0.75rem
+					);
 				}
 			}
 

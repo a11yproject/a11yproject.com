@@ -1,17 +1,12 @@
 .c-changelog__version {
-	background-color: $color-blue-tint-lightmode;
+	@include var(background-color, tag-background);
 	border-radius: 0.25rem;
 	margin-right: 0.5rem;
 	padding: 0.25rem 0.5rem;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-blue-shade-darkmode;
-	}
 }
 
 
 .c-changelog__date {
-	color: $color-gray-shade-lightmode;
+	@include var(color, text-accent);
 	font-size: $font-size-body-small;
 }

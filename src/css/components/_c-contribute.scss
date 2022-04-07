@@ -2,8 +2,10 @@
 //
 // Style guide: Components.contribute
 .c-contribute__cta {
-	background-color: $color-yellow-tint-lightmode;
-	outline: $border-thicker solid $color-yellow-tint-lightmode;
+	@include var(background-color, featured-card-background);
+	outline: $border-thicker solid;
+	@include var(outline-color, featured-card-background);
+	@include var(color, featured-card-text);
 	display: inline-block;
 	font-family: $font-family-secondary;
 	font-size: $font-size-body-medium;
@@ -12,14 +14,7 @@
 	margin-left: -1rem;
 	width: $global-type-measure * 0.5;
 
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-yellow-darkmode;
-		color: $color-black;
-		outline: $border-thicker solid $color-yellow-darkmode;
-
-		a {
-			color: $color-blue-shade-darkmode !important;
-		}
+	a {
+		@include link-states(featured-card-heading-text, white);
 	}
 }

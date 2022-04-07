@@ -3,13 +3,8 @@
 
 	// Text-level formatting
 	p {
-		background-color: $color-white;
+		@include var(background-color, card-background);
 		padding: 1rem 1.5rem;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-black;
-		}
 	}
 
 	strong {
@@ -18,12 +13,8 @@
 	}
 
 	abbr {
-		border-bottom: $border-thinnest dotted $color-green-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-bottom-color: $color-green-tint-darkmode;
-		}
+		border-bottom: $border-thinnest dotted;
+		@include var(border-color, do-accent);
 	}
 
 	p:first-of-type {
@@ -31,25 +22,18 @@
 	}
 
 	p:nth-child(odd) {
-		border-left: $border-thick solid $color-green-tint-lightmode;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-green-tint-darkmode;
-		}
+		border-left: $border-thick solid;
+		@include var(border-color, do-accent);
 	}
 
 	p:nth-child(even) {
-		border-left: $border-thick solid $color-pink-tint-lightmode;
+		border-left: $border-thick solid;
+		@include var(border-color, dont-accent);
 		margin-top: 1.25ex;
 
 		// User queries
 		@media screen and (-ms-high-contrast: active) {
 			border-left: $border-thick solid highlight;
-		}
-
-		@media (prefers-color-scheme: dark) {
-			border-left-color: $color-pink-tint-darkmode;
 		}
 	}
 

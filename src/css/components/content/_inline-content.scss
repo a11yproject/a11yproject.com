@@ -5,8 +5,10 @@
 	li,
 	p {
 		code {
-			background-color: $color-gray-tint-lightmode;
-			border: 4px solid $color-gray-tint-lightmode;
+			@include var(background-color, code-background);
+			@include var(color, body-text);
+			border: 4px solid;
+			@include var(border-color, code-background);
 			font-size: 90%;
 			padding: 0 0.25ch;
 			word-break: normal;
@@ -14,11 +16,6 @@
 			// User queries
 			@media screen and (-ms-high-contrast: active) {
 				border: none;
-			}
-
-			@media (prefers-color-scheme: dark) {
-				background-color: $color-black;
-				border: 4px solid $color-black;
 			}
 		}
 	}

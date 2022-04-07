@@ -49,7 +49,7 @@
 
 
 .c-simple__link {
-	@include link-states($color-pink-shade-lightmode);
+	@include link-states(link-text);
 
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinner;

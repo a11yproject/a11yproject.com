@@ -1,22 +1,12 @@
 .c-last-updated {
-	color: $color-gray-shade-lightmode;
+	@include var(color, text-accent);
 	font-size: $font-size-body-small;
 	font-style: italic;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-tint-darkmode;
-	}
 }
 
 
 .c-last-updated__body {
-	color: $color-gray-shade-lightmode;
+	@include var(color, text-accent);
 	font-size: $font-size-body-small;
 	font-style: italic;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-tint-darkmode;
-	}
 }

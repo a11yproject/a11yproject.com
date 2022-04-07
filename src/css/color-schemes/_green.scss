@@ -1,4 +1,5 @@
 $scheme-override-light: (
+	"link-text": "green",
 	"nav-background": "green-shade",
 	"hero-background": "green-shade",
 	"hero-background-text": "green-tint",
@@ -21,6 +22,7 @@ $scheme-override-light: (
 );
 
 $scheme-override-dark: (
+	"link-text": "green-tint-muted",
 	"nav-background": "green-shade",
 	"hero-background": "green-shade",
 	"hero-background-text": "green-muted",
@@ -34,6 +36,7 @@ $scheme-override-dark: (
 	"card-accent": "green-tint-muted",
 	"card-accent-shadow": "green",
 	"card-accent-text": "black",
+	"featured-card-background": "black",
 	"featured-card-heading-text": "green-tint-muted",
 	"featured-card-focus-background": "green-shade",
 	"featured-card-accent": "green-muted",

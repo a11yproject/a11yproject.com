@@ -10,7 +10,4 @@
   // <a href="URL">Link text</.>
   //
 	// Style guide: Components.post.links
-  a {
-		@include link-states(link-text);
-	}
 }

@@ -13,3 +13,11 @@
 // 2. What part of the codebase does it relate to?
 // 3. Why was this needed?
 // 4. How does this fix it, and how might you fix it properly, given more time?
+
+// Make our post template nav bar black
+// Our other green pages have a green navbar background to match the hero section, but our post pages don't, so this is an override.
+/* stylelint-disable */
+.template-post #header {
+  --color-nav-background: var(--color-black);
+}
+/* stylelint-enable */
