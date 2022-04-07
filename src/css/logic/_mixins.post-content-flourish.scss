@@ -2,16 +2,15 @@
 //
 // Adds images to specific section s of post content
 //
-// $image - Specifies the background image to use.
 // $height - Specifies the height of the background image container in pixels. Converted to `rem`.
 // $top-margin - Sets the amount of top margin.
 //
 // Styleguide Logic.Mixins.post-content-inset
-@mixin post-content-flourish($image, $height, $top-margin) {
+@mixin post-content-flourish($height, $top-margin) {
 	// Breakpoints
 	@include mappy-bp(lap-medium) {
 		&::before {
-			background: url("#{$path-to-img}/posts/#{$image}") no-repeat center;
+			background: var(--filename) no-repeat center;
 			background-size: cover;
 			content: "";
 			display: block;
@@ -20,6 +19,18 @@
 			position: absolute;
 				left: 1rem;
 			width: rem(164);
+		}
+
+		@media (prefers-color-scheme: dark) {
+			:root:not([data-user-theme="light"]) & {
+				&::before {
+					background-image: var(--filename-dark);
+				}
+			}
+		}
+
+		[data-user-theme="dark"] {
+			background-image: var(--filename-dark);
 		}
 	}
 }

@@ -46,28 +46,14 @@
 			// This selector targets only the first child paragraph of
 			// `.c-content`, allowing us to apply the tl;dr image
 			& > p:first-of-type {
-				@include post-content-flourish(
-					"section-short-answer-lightmode.svg",
-					169,
-					0.75rem
-				);
-
+				--filename: url("#{$path-to-img}/posts/section-short-answer-lightmode.svg");
+				--filename-dark: url("#{$path-to-img}/posts/section-short-answer-darkmode.svg");
 				font-size: 1.25rem;
 				font-family: $font-family-secondary;
 				line-height: $line-height-looser;
 				margin-top: 0;
 				margin-bottom: $_c-post-vertical-spacing * 1.25;
-			}
-
-			// User Queries
-			@include dark-mode() {
-				& > p:first-of-type {
-					@include post-content-flourish(
-						"section-short-answer-darkmode.svg",
-						169,
-						0.75rem
-					);
-				}
+				@include post-content-flourish(169, 0.75rem);
 			}
 
 			code,

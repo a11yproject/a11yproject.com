@@ -121,7 +121,9 @@
 	//
 	// Style guide: Components.post.code-examples
 	pre[class^="language"] {
-		@include post-content-flourish("section-code.svg", 197, -0.5rem);
+		--filename: url("#{$path-to-img}/posts/section-code-lightmode.svg");
+		--filename-dark: url("#{$path-to-img}/posts/section-code-darkmode.svg");
+		@include post-content-flourish(197, -0.5rem);
 
 		margin-top: 4ex;
 

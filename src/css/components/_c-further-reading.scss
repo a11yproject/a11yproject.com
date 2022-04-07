@@ -1,10 +1,8 @@
 .c-further-reading {
-	@include post-content-flourish("section-further-reading-lightmode.svg", 132, 1.7rem);
+	--filename: url("#{$path-to-img}/posts/section-further-reading-lightmode.svg");
+	--filename-dark: url("#{$path-to-img}/posts/section-further-reading-darkmode.svg");
+	@include post-content-flourish(132, 1.7rem);
 
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		@include post-content-flourish("section-further-reading-darkmode.svg", 132, 1.7rem);
-	}
 }
 
 
