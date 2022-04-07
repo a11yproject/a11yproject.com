@@ -28,8 +28,5 @@
 
 
 .c-sponsor__ad {
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		@include desaturate();
-	}
+	filter: var(--image-filter);
 }

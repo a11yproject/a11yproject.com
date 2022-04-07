@@ -66,11 +66,7 @@
 	// Style guide: Components.post.image
 	img {
 		margin-top: 4ex;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			@include desaturate();
-		}
+		filter: var(--image-filter);
 	}
 
 	// Figure

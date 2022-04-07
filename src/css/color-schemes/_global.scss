@@ -178,12 +178,16 @@ $scheme-dark: (
 );
 
 :root {
+	--image-filter: none;
+
 	@each $name, $value in $scheme-light {
 		#{"--color-" + $name}: var(--color-#{$value});
 	}
 }
 
 @include dark-mode() {
+	--image-filter: saturate(0.7);
+
 	@each $name, $value in $scheme-dark {
 		#{"--color-" + $name}: var(--color-#{$value});
 	}

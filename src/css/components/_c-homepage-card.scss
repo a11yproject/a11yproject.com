@@ -43,11 +43,7 @@
 .c-homepage-card__image {
 	cursor: pointer;
 	margin-top: 3rem;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		@include desaturate();
-	}
+	filter: var(--image-filter);
 }
 
 
@@ -110,12 +106,8 @@
 .c-homepage-card__checklist {
 	height: auto;
 	position: relative;
-		left: map-get($global-bleed, small);
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		@include desaturate();
-	}
+	left: map-get($global-bleed, small);
+	filter: var(--image-filter);
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
