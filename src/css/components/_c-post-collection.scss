@@ -1,29 +1,17 @@
 .c-post-collection {
-	border-top: $border-thicker solid $color-red-lightmode;
-  background-color: $color-white;
+	border-top: $border-thicker solid currentColor;
+	@include var(background-color, post-rec-background);
+	@include var(color, post-rec-accent);
   counter-reset: post-collection;
   padding: 1rem 2rem;
 	max-width: 68ex;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-gray-tint-darkmode;
-		border-color: $color-red-darkmode;
-	}
 }
 
 
 .c-post-collection__title {
-	border-bottom: $border-thin dotted $color-red-lightmode;
-	color: $color-red-lightmode;
+	border-bottom: $border-thin dotted currentColor;
   margin-top: 0;
 	padding-bottom: 1rem;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		border-color: $color-red-darkmode;
-		color: $color-red-darkmode;
-	}
 }
 
 
@@ -34,7 +22,7 @@
 
 
 .c-post-collection__item {
-	color: $color-black;
+	@include var(color, post-rec-text);
   position: relative;
   margin-top: 0.5rem;
   counter-increment: post-collection;
@@ -44,35 +32,19 @@
     content: "Part " counter(post-collection) ": ";
     text-transform: uppercase;
   }
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-sand-darkmode;
-	}
 }
 
 
 .c-post-collection__link {
-  color: $color-blue-shade-lightmode;
+	@include link-states(post-rec-accent, post-rec-focus-text);
 
-		// States
+	// States
   &[aria-current] {
     text-decoration: none;
-    color: $color-black !important;
+    color: currentColor;
 
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			color: $color-gray-tint-darkmode;
-		}
-  }
-
-
-  &:focus {
-		@include link-states($color-blue-lightmode);
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			@include link-states($color-blue-tint-darkmode);
+		&:focus {
+			@include var(color, post-rec-focus-text);
 		}
   }
 }

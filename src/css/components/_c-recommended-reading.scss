@@ -27,8 +27,9 @@
 
 
 .c-recommended-reading__link {
-	background-color: $color-white;
-	border-top: $border-thicker solid $color-red-lightmode;
+	border-top: $border-thicker solid currentColor;
+	@include var(background-color, post-rec-background);
+	@include var(color, post-rec-accent);
 	line-height: $line-height-tight;
 	padding: 1rem;
 	text-decoration: none;
@@ -43,21 +44,11 @@
 
 	&:hover,
 	&:focus {
-		background-color: $color-red-lightmode !important;
-		color: $color-white;
+		@include var(background-color, post-rec-accent);
 
-		.c-recommended-reading__category {
-			color: $color-white;
-			border-bottom-color: $color-white;
-		}
-
+		.c-recommended-reading__category,
 		.c-recommended-reading__title {
-			color: $color-white;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-red-darkmode !important;
+			@include var(color, post-rec-focus-text);
 		}
 	}
 
@@ -70,30 +61,18 @@
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
 	}
-
-	@media (prefers-color-scheme: dark) {
-		background-color: $color-gray-tint-darkmode;
-		border-top-color: $color-red-darkmode;
-	}
 }
 
 
 .c-recommended-reading__category {
-	border-bottom: $border-thin dotted $color-red-lightmode;
-	color: $color-red-lightmode;
+	border-bottom: $border-thin dotted currentColor;
 	display: block;
 	padding-bottom: 0.75rem;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		border-bottom-color: $color-red-darkmode;
-		color: $color-red-darkmode;
-	}
 }
 
 
 .c-recommended-reading__title {
-	color: $color-gray-shade-lightmode;
+	@include var(color, post-rec-text);
 	display: block;
 	font-size: $font-size-body-tiny;
 	margin-top: 1rem;
@@ -101,10 +80,5 @@
 	// Breakpoints
 	@include mappy-bp(palm-small) {
 		font-size: $font-size-body;
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-gray-shade-darkmode;
 	}
 }

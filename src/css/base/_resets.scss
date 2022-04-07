@@ -131,7 +131,7 @@ textarea {
 mark {
 	padding: em(2);
 	@include var(background-color, mark-background);
-	color: var(color, mark-text);
+	@include var(color, mark-text);
 }
 
 

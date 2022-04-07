@@ -31,7 +31,10 @@
 	//
 	// Style guide: Components.post.blockquote
 	blockquote {
-		background: $color-white url("#{$path-to-img}/posts/blockquote.svg") no-repeat top 1rem left -0.25rem;
+		@include var(background-color, card-background);
+		background-image: url("#{$path-to-img}/posts/blockquote.svg");
+		background-repeat: no-repeat;
+		background-position: top 1rem left -0.25rem;
 		margin-left: map-get($global-post-content-inset, small) * -1;
 		padding: 1.5rem 1rem;
 
@@ -47,12 +50,6 @@
 
 		@include mappy-bp(palm-large) {
 			max-width: calc(#{$global-type-measure} * 1.25);
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-black;
-			color: $color-gray-tint-darkmode;
 		}
 
 		footer {
@@ -83,18 +80,13 @@
 		margin-top: 4ex;
 
 		figcaption {
-			background-color: $color-white;
-			border-bottom: $border-hairline solid $color-gray-shade-lightmode;
+			@include var(background-color, card-background);
+			@include var(color, card-text);
+			border-bottom: $border-hairline solid currentColor;
 			font-family: $font-family-secondary;
 			line-height: $line-height-tight;
 			margin-top: 0.75rem;
 			padding: 1rem;
-
-			// User Queries
-			@media (prefers-color-scheme: dark) {
-				background-color: $color-black;
-				border-bottom-color: $color-gray-tint-darkmode;
-			}
 		}
 	}
 
@@ -124,13 +116,9 @@
 		--filename: url("#{$path-to-img}/posts/section-code-lightmode.svg");
 		--filename-dark: url("#{$path-to-img}/posts/section-code-darkmode.svg");
 		@include post-content-flourish(197, -0.5rem);
+		@include var(background-color, rte-code-background);
 
 		margin-top: 4ex;
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			background-color: $color-black;
-		}
 	}
 
 

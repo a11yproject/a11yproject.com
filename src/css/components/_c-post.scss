@@ -27,10 +27,11 @@ $_c-post-vertical-spacing: 4ex;
 //
 // Style guide: Components.post
 .c-post__category {
-	border-top: $border-thick solid $color-green-lightmode;
+	border-top: $border-thick solid currentColor;
+	@include var(color, rte-accent);
 
 	p {
-		border-bottom: $border-thinnest solid $color-green-lightmode;
+		border-bottom: $border-thinnest solid currentColor;
 		padding: 0.5rem 0 0.5rem map-get($global-post-content-inset, small);
 		text-transform: uppercase;
 
@@ -56,59 +57,23 @@ $_c-post-vertical-spacing: 4ex;
 				text-align: right;
 			}
 		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-bottom-color: $color-green-tint-darkmode;
-		}
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		border-top-color: $color-green-tint-darkmode;
 	}
 }
 
 
 .c-post__category__link {
-	color: $color-green-lightmode;
+	@include link-states(rte-accent);
 	text-decoration: none;
 
 	// States
 	&:hover {
 		text-decoration: underline;
 	}
-
-	&:focus {
-		background-color: $color-green-lightmode;
-		color: $color-white;
-		outline: $border-thick solid $color-green-lightmode;
-	}
-
-	&:active {
-		background-color: transparent;
-		color: $color-green-lightmode;
-		outline: none;
-		text-decoration: none;
-	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-green-tint-darkmode;
-
-		&:focus {
-			background-color: $color-green-darkmode;
-			outline: $border-thick solid $color-green-darkmode;
-		}
-
-		&:active {
-			color: $color-green-darkmode;
-		}
-	}
 }
 
 
 .c-post__title {
+	@include var(color, heading-text);
 	font-size: $font-size-heading-small;
 	line-height: $line-height-tight;
 	margin: 0.75rem map-get($global-post-content-inset, small) 2rem map-get($global-post-content-inset, small);
@@ -137,17 +102,13 @@ $_c-post-vertical-spacing: 4ex;
 			margin-left: map-get($global-post-content-inset, small);
 		}
 	}
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		color: $color-white;
-	}
 }
 
 
 .c-post__metadata {
-	border-top: $border-thinnest solid $color-green-lightmode;
-	border-bottom: $border-thick solid $color-green-lightmode;
+	border-top: $border-thinnest solid;
+	border-bottom: $border-thick solid;
+	@include var(border-color, rte-accent);
 	list-style-type: none;
 	padding: 0.75rem map-get($global-post-content-inset, small);
 
@@ -162,12 +123,6 @@ $_c-post-vertical-spacing: 4ex;
 		@include mappy-bp(lap-small) {
 			display: flex;
 			flex-direction: row;
-		}
-
-		// User Queries
-		@media (prefers-color-scheme: dark) {
-			border-top-color: $color-green-tint-darkmode;
-			border-bottom-color: $color-green-tint-darkmode;
 		}
 	}
 
@@ -228,14 +183,8 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__metadata-link {
-	@include link-states($color-black);
-
+	@include link-states(heading-text);
 	text-underline-offset: 0.2em;
-
-	// User Queries
-	@media (prefers-color-scheme: dark) {
-		@include link-states($color-white);
-	}
 }
 
 
