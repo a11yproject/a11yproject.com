@@ -38,7 +38,7 @@ $_banner-triangle-size: 1.49rem;
     }
   }
 
-  [data-user-theme="dark"] {
+  [data-user-theme="dark"] &  {
 		background-image: url("#{$path-to-img}/resource-banner-inset-darkmode.svg");
   }
 
