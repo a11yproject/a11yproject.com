@@ -1,6 +1,10 @@
 .c-featured {
 	position: relative;
 	z-index: 0;
+
+	.c-banner {
+		background-image: none !important;
+	}
 }
 
 .c-featured__body {
