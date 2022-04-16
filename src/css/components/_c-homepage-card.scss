@@ -35,7 +35,7 @@
 .c-homepage-card__image-link {
 	// States
 	&:focus {
-		outline: $border-thin solid $color-black;
+		outline: $border-thin solid currentColor;
 	}
 }
 
@@ -43,11 +43,12 @@
 .c-homepage-card__image {
 	cursor: pointer;
 	margin-top: 3rem;
+	filter: var(--image-filter);
 }
 
 
 .c-homepage-card__author {
-	color: $color-green;
+	@include var(color, card-heading-text);
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	margin-top: 1.5rem;
@@ -56,7 +57,7 @@
 
 .c-homepage-card__title {
 	cursor: pointer;
-	color: $color-black;
+	@include var(color, heading-text);
 	text-decoration: none;
 }
 
@@ -68,15 +69,10 @@
 	max-width: 50ch;
 }
 
-
-.c-homepage-card__link {
-	@include link-states($color-blue);
-}
-
-
 .c-homepage-card__cta {
-	border-bottom: $border-thinnest solid $color-pink;
-	color: $color-black;
+	border-bottom: $border-thinnest solid;
+	@include var(border-color, secondary-link-accent);
+	@include var(color, secondary-link-text);
 	font-family: $font-family-secondary;
 	margin-top: 1rem;
 	text-decoration: none;
@@ -89,16 +85,17 @@
 	}
 
 	&:focus {
-		background-color: $color-pink;
-		color: $color-white;
-		outline: $border-thin solid $color-pink;
+		@include var(background-color, secondary-link-focus-background);
+		@include var(color, secondary-link-focus-text);
+		outline: $border-thin solid;
+		@include var(outline-color, secondary-link-focus-background);
 	}
 
 	// Supports
 	@supports #{$supports-underlines} {
 		border-bottom: none;
 		text-decoration: underline;
-		text-decoration-color: $color-pink;
+		@include var(text-decoration-color, secondary-link-accent);
 		/* stylelint-disable-next-line property-no-unknown */
 		text-decoration-thickness: $border-thinnest;
 		text-underline-offset: 0.5rem;
@@ -109,7 +106,8 @@
 .c-homepage-card__checklist {
 	height: auto;
 	position: relative;
-		left: map-get($global-bleed, small);
+	left: map-get($global-bleed, small);
+	filter: var(--image-filter);
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
@@ -130,7 +128,7 @@
 
 
 .c-homepage-card__spotlight__info {
-	background-color: $color-blue-tint;
+	@include var(background-color, featured-card-background);
 	height: 13rem;
 	margin-top: -8rem;
 	margin-left: 4rem;
@@ -153,7 +151,7 @@
 
 
 .c-homepage-card__spotlight-role {
-	color: $color-blue-shade;
+	@include var(color, featured-card-heading-text);
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 }

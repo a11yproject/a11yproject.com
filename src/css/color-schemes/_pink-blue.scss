@@ -1,0 +1,21 @@
+$scheme-override-light: (
+  "nav-background": "pink-shade",
+  "hero-background": "pink-shade",
+  "hero-background-text": "blue-tint",
+  "hero-content-background": "pink-shade",
+  "hero-content-accent": "blue-tint",
+  "hero-content-text": "blue-tint",
+	"sponsors-background": "pink-tint",
+);
+
+$scheme-override-dark: (
+  "nav-background": "pink-shade-muted",
+  "hero-background": "pink-shade-muted",
+  "hero-background-text": "blue-shade-muted",
+  "hero-content-background": "pink-shade-muted",
+  "hero-content-accent": "white",
+  "hero-content-text": "white",
+	"sponsors-background": "pink-shade-muted",
+);
+
+@include color-scheme("pink-blue", $scheme-override-light, $scheme-override-dark);

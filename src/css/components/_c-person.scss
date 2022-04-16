@@ -73,17 +73,14 @@ $_person-distance: (
 
 
 .c-person__info {
-	border: $border-thinnest solid $color-black;
+	border: $border-thinnest solid;
+	@include var(border-color, card-outline);
+	@include var(background-color, card-background);
 	margin-top: 4rem;
 	min-height: 10rem;
 	padding: 1.5rem;
 	max-width: $global-type-measure;
 	transition: $animation-duration-shorter $animation-easing-character background-color;
-
-	// States
-	&:hover {
-		background-color: $color-white;
-	}
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -111,10 +108,8 @@ $_person-distance: (
 
 
 .c-person__link {
-	@include link-states($color-blue-shade);
-
+	@include link-states(card-heading-text);
 	font-family: $font-family-secondary;
-	letter-spacing: $font-tracking-slight;
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
@@ -123,6 +118,18 @@ $_person-distance: (
 	&:hover {
 		text-decoration: none;
 	}
+
+	&--primary {
+		letter-spacing: $font-tracking-slight;
+	}
+}
+
+
+.c-person__spotlight-link {
+	@include link-states(card-heading-text);
+
+	display: inline-block;
+	margin-top: 1rem;
 }
 
 

@@ -5,8 +5,10 @@
 	li,
 	p {
 		code {
-			background-color: $color-gray-tint;
-			border: 4px solid $color-gray-tint;
+			@include var(background-color, code-background);
+			@include var(color, body-text);
+			border: 4px solid;
+			@include var(border-color, code-background);
 			font-size: 90%;
 			padding: 0 0.25ch;
 			word-break: normal;
@@ -29,7 +31,10 @@
 	//
 	// Style guide: Components.post.blockquote
 	blockquote {
-		background: $color-white url("#{$path-to-img}/posts/blockquote.svg") no-repeat top 1rem left -0.25rem;
+		@include var(background-color, card-background);
+		background-image: url("#{$path-to-img}/posts/blockquote.svg");
+		background-repeat: no-repeat;
+		background-position: top 1rem left -0.25rem;
 		margin-left: map-get($global-post-content-inset, small) * -1;
 		padding: 1.5rem 1rem;
 
@@ -61,6 +66,7 @@
 	// Style guide: Components.post.image
 	img {
 		margin-top: 4ex;
+		filter: var(--image-filter);
 	}
 
 	// Figure
@@ -70,8 +76,9 @@
 		margin-top: 4ex;
 
 		figcaption {
-			background-color: $color-white;
-			border-bottom: $border-hairline solid $color-gray-shade;
+			@include var(background-color, card-background);
+			@include var(color, card-text);
+			border-bottom: $border-hairline solid currentColor;
 			font-family: $font-family-secondary;
 			line-height: $line-height-tight;
 			margin-top: 0.75rem;
@@ -102,7 +109,10 @@
 	//
 	// Style guide: Components.post.code-examples
 	pre[class^="language"] {
-		@include post-content-flourish("section-code.svg", 197, -0.5rem);
+		--filename: url("#{$path-to-img}/posts/section-code-lightmode.svg");
+		--filename-dark: url("#{$path-to-img}/posts/section-code-darkmode.svg");
+		@include post-content-flourish(197, -0.5rem);
+		@include var(background-color, rte-code-background);
 
 		margin-top: 4ex;
 	}

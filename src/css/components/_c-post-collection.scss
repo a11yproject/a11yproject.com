@@ -1,21 +1,28 @@
 .c-post-collection {
-  margin: 4ex 0;
-  background-color: $color-blue-tint;
-  padding: 1.5rem;
+	border-top: $border-thicker solid currentColor;
+	@include var(background-color, post-rec-background);
+	@include var(color, post-rec-accent);
   counter-reset: post-collection;
-  max-width: 102ex;
+  padding: 1rem 2rem;
+	max-width: 68ex;
 }
 
+
 .c-post-collection__title {
+	border-bottom: $border-thin dotted currentColor;
   margin-top: 0;
+	padding-bottom: 1rem;
 }
+
 
 .c-post-collection__list {
   margin-top: 1rem;
   list-style-type: none;
 }
 
+
 .c-post-collection__item {
+	@include var(color, post-rec-text);
   position: relative;
   margin-top: 0.5rem;
   counter-increment: post-collection;
@@ -27,15 +34,17 @@
   }
 }
 
-.c-post-collection__link {
-  color: $color-blue-shade;
 
+.c-post-collection__link {
+	@include link-states(post-rec-accent, post-rec-focus-text);
+
+	// States
   &[aria-current] {
     text-decoration: none;
-    color: $color-black;
-  }
+    color: currentColor;
 
-  &:focus {
-		@include link-states($color-blue);
+		&:focus {
+			@include var(color, post-rec-focus-text);
+		}
   }
 }

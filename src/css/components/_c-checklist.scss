@@ -18,6 +18,12 @@ $_checklist-padding: (
 );
 
 
+.c-checklist__outer-wrapper {
+	margin-bottom: 3rem;
+	max-width: $global-type-measure * 1.1;
+}
+
+
 .c-checklist__wrapper {
 	// Supports
 	@supports #{$supports-flex} {
@@ -28,14 +34,16 @@ $_checklist-padding: (
 
 
 .c-card__wrapper .c-checklist__wrapper:first-of-type .c-checklist {
-	border-top: $border-thinnest solid $color-blue-shade;
+	border-top: $border-thinnest solid;
+	@include var(border-top-color, checklist-accent);
 }
 
 
 .c-checklist {
-	border-bottom: $border-thinnest solid $color-blue-shade;
-	border-right: $border-thinnest solid $color-blue-shade;
-	border-left: $border-thinnest solid $color-blue-shade;
+	border-bottom: $border-thinnest solid;
+	border-right: $border-thinnest solid;
+	border-left: $border-thinnest solid;
+	@include var(border-color, checklist-accent);
 	list-style-image: none;
 	width: 100%;
 
@@ -48,7 +56,7 @@ $_checklist-padding: (
 
 	&:hover {
 		.c-checklist__icon {
-			fill: $color-blue-tint;
+			@include var(fill, checklist-hover);
 		}
 	}
 
@@ -64,11 +72,13 @@ $_checklist-padding: (
 
 	// Text-level formatting
 	code {
-		background-color: $color-blue-tint;
+		@include var(background-color, checklist-code-background);
+		@include var(color, checklist-code-text);
 		margin-left: 0.25ch;
 		margin-right: 0.25ch;
 		padding: 0.3ch 0.5ch;
 
+		// Breakpoints
 		@include mappy-bp(wrist-small wrist-large) {
 			word-break: normal;
 		}
@@ -87,17 +97,12 @@ $_checklist-padding: (
 
 	// States
 	&:focus {
-		background-color: $color-blue-shade;
-		color: $color-white;
+		@include var(background-color, checklist-focus-background);
+		@include var(color, checklist-focus-text);
 		outline: $border-thin solid transparent;
 
 		.c-checklist__icon {
-			fill: $color-white;
-		}
-
-		// Text-level formatting
-		code {
-			color: $color-blue-shade;
+			@include var(color, checklist-focus-text);
 		}
 	}
 }
@@ -112,7 +117,7 @@ $_checklist-padding: (
 }
 
 .c-checklist__icon {
-	fill: $color-blue-shade;
+	@include var(color, checklist-accent);
 	height: map-get($_checklist-icon-size, small);
 	width: map-get($_checklist-icon-size, small);
 	transition: fill $animation-duration-shorter $animation-easing-character;
@@ -160,8 +165,9 @@ margin-left: 1rem;
 	// SEE: https://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html
 	// Sets up the checkbox box
 	input[type="checkbox"] + label::before {
-		background-color: $color-sand;
-		border: $border-thinner solid $color-blue-shade;
+		@include var(background-color, body-background);
+		border: $border-thinner solid;
+		@include var(border-color, checklist-accent);
 		box-sizing: border-box;
 		content: "";
 		cursor: pointer;
@@ -183,10 +189,9 @@ margin-left: 1rem;
 	}
 
 	input[type="checkbox"]:focus + label::before {
-		box-shadow:
-			0 0 0 em(2) $color-sand,
-			0 0 0 em(4) $color-blue-shade;
-		outline: $border-thin solid transparent;
+		outline: $border-thinner solid;
+		@include var(outline-color, checklist-accent);
+		outline-offset: 0.125rem;
 	}
 
 	// Positions the checkmark
@@ -209,8 +214,9 @@ margin-left: 1rem;
 
 	// Checked checkmark styling
 	input[type="checkbox"]:checked + label::after {
-		border-right: 0.15rem solid $color-blue-shade;
-		border-bottom: 0.15rem solid $color-blue-shade;
+		border-right: 0.15rem solid;
+		border-bottom: 0.15rem solid;
+		@include var(border-color, checklist-accent);
 		height: 0.6rem;
 		left: -0.225rem;
 		top: 0.2rem;
@@ -239,7 +245,7 @@ margin-left: 1rem;
 
 
 .c-checklist__link {
-	@include link-states($color-blue-shade);
+	@include link-states(checklist-accent);
 
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
@@ -270,7 +276,7 @@ margin-left: 1rem;
 
 	// Text-level formatting
 	a {
-		@include link-states($color-blue-shade);
+		@include link-states(checklist-accent);
 	}
 }
 

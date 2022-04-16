@@ -5,8 +5,8 @@
 //
 // Styleguide Base.html
 html {
-	background-color: $color-sand;
-	color: $color-black;
+	@include var(background-color, body-background);
+	@include var(color, body-text);
 	font-family: $font-family-primary;
 	font-size: $global-type-size;
 	font-weight: $font-weight-regular;

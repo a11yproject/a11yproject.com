@@ -10,6 +10,7 @@
 	border-radius: 100%;
 	cursor: pointer;
 	display: block;
+	filter: var(--image-filter);
 
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {

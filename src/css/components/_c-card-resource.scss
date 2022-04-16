@@ -1,7 +1,11 @@
+.c-card-resource {
+	position: relative;
+	outline: 0.125rem solid transparent;
+	z-index: 0;
+}
+
 .c-card-resource__body {
-	border-right: $border-thinnest solid $color-gray-shade;
-	border-bottom: $border-thinnest solid $color-gray-shade;
-	border-left: $border-thinnest solid $color-gray-shade;
+	@include var(background-color, card-background);
 	margin-right: 1.25rem;
 	margin-left: 1.5rem;
 	padding: 1.5rem 2rem;
@@ -11,15 +15,14 @@
 		$animation-duration-shorter $animation-easing-character color;
 
 	// States
-	&:hover {
-		background-color: $color-white;
-	}
-
 	&:focus-within {
-		background-color: $color-green-shade;
-		border-right-color: $color-green-shade;
-		border-bottom-color: $color-green-shade;
-		border-left-color: $color-green-shade;
+		@include var(background-color, card-focus-background);
+
+		.c-card-resource__description,
+		.c-card-resource__meta,
+		.c-card-resource__title {
+			@include var(color, card-focus-text);
+		}
 	}
 
 	// User Queries
@@ -28,15 +31,9 @@
 	}
 }
 
-// Color the author link when the title link is focused
-.c-card-resource__title:focus ~ .c-card-resource__meta,
-.c-card-resource__title:focus ~ .c-card-resource__description {
-	color: $color-white;
-}
-
 
 .c-card-resource__title {
-	color: $color-green-shade;
+	@include var(color, card-heading-text);
 	letter-spacing: $font-tracking-tight;
 
 	// States
@@ -46,14 +43,13 @@
 	}
 
 	&:focus {
-		color: $color-white;
 		outline: $border-thin solid transparent;
 	}
 }
 
 
 .c-card-resource__meta {
-	color: $color-gray-shade;
+	@include var(color, card-meta-text);
 	line-height: $line-height-tight;
 }
 

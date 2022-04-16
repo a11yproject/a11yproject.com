@@ -26,28 +26,15 @@
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			// Contexts
-			.template-posts & {
-				background-color: $color-pink-shade;
-			}
-
-			.template-checklist & {
-				background-color: $color-blue;
-			}
-
-			.template-resources & {
-				background-color: $color-green-shade;
-			}
-
+			.template-posts &,
+			.template-checklist &,
+			.template-resources &,
 			.template-about &,
 			.template-team &,
 			.template-authors &,
-			.template-spotlight & {
-				background-color: $color-blue-shade;
-			}
-
-			.template-contribute & {
-				background-color: $color-yellow-tint;
+			.template-spotlight &,
+			.template-contribute {
+				@include var(background-color, hero-background);
 			}
 		}
 	}

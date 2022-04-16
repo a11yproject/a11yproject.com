@@ -1,73 +1,3 @@
-@mixin _generate-context-borders($border-direction) {
-	.c-linkroll__entry--background & {
-		border-#{$border-direction}-color: $color-gray-shade;
-	}
-
-	.c-linkroll__entry--assistive-technology &,
-	.c-linkroll__entry--how-to & {
-		border-#{$border-direction}-color: $color-yellow;
-	}
-
-	.c-linkroll__entry--myth &,
-	.c-linkroll__entry--announcement & {
-		border-#{$border-direction}-color: $color-pink;
-	}
-
-	.c-linkroll__entry--quick-test & {
-		border-#{$border-direction}-color: $color-blue;
-	}
-
-	.c-linkroll__entry--quick-tip & {
-		border-#{$border-direction}-color: $color-green;
-	}
-}
-
-
-@mixin _generate-interactive-backgrounds() {
-	background-color: $color-white;
-
-	// States
-	&:hover,
-	&:focus {
-		background-color: $color-gray-shade;
-		outline: $border-thin solid transparent;
-
-		.c-linkroll__title,
-		.c-linkroll__category,
-		.c-linkroll__featured {
-			color: $color-white;
-		}
-
-		.c-linkroll__featured {
-			border-bottom-color: $color-white;
-		}
-
-		// Contexts
-		.c-linkroll__entry--background & {
-			background-color: $color-gray-shade;
-		}
-
-		.c-linkroll__entry--assistive-technology &,
-		.c-linkroll__entry--how-to & {
-			background-color: $color-yellow;
-		}
-
-		.c-linkroll__entry--myth &,
-		.c-linkroll__entry--announcements & {
-			background-color: $color-pink;
-		}
-
-		.c-linkroll__entry--quick-test & {
-			background-color: $color-blue;
-		}
-
-		.c-linkroll__entry--quick-tip & {
-			background-color: $color-green;
-		}
-	}
-}
-
-
 // Linkroll
 //
 // Style guide: Components.linkroll
@@ -76,22 +6,20 @@
 }
 
 
-.c-linkroll__entry {
-	@include preserve-list-semantics();
-
-	margin-top: 1.25rem;
-}
-
-
 .c-linkroll__link {
-	@include _generate-interactive-backgrounds();
-
-	border-left: $border-thickest solid transparent;
+	border-left: $border-thicker solid;
+	@include var(border-color, linkroll-gray);
 	padding: 1.25rem 1.75rem;
 	text-decoration: none;
 	transition:
 		background-color $animation-duration-shorter $animation-easing-character,
 		color $animation-duration-shorter $animation-easing-character;
+
+	// States
+	&:hover,
+	&:focus {
+		@include var(background-color, linkroll-gray-background);
+	}
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -99,12 +27,57 @@
 		flex-direction: column;
 	}
 
-	// Contexts
-	@include _generate-context-borders("left");
-
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
 		transition: none;
+	}
+
+	&.announcements,
+	&.experience,
+	&.myth {
+		@include var(border-color, category-pink);
+
+		&:hover,
+		&:focus {
+			@include var(background-color, category-pink-background);
+		}
+	}
+
+	&.assistive-technology,
+	&.background {
+		@include var(border-color, category-gray);
+
+		&:hover,
+		&:focus {
+			@include var(background-color, category-gray-background);
+		}
+	}
+
+	&.how-to {
+		@include var(border-color, category-yellow);
+
+		&:hover,
+		&:focus {
+			@include var(background-color, category-yellow-background);
+		}
+	}
+
+	&.quick-test {
+		@include var(border-color, category-blue);
+
+		&:hover,
+		&:focus {
+			@include var(background-color, category-blue-background);
+		}
+	}
+
+	&.quick-tip {
+		@include var(border-color, category-green);
+
+		&:hover,
+		&:focus {
+			@include var(background-color, category-green-background);
+		}
 	}
 }
 
@@ -112,39 +85,20 @@
 .c-linkroll__link--featured {
 	border-top: $border-thicker solid transparent;
 	border-left: none;
+}
 
-	// Contexts
-	@include _generate-context-borders("top");
+
+.c-linkroll__entry {
+	@include preserve-list-semantics();
+	@include var(background-color, card-background);
+	margin-top: 1.25rem;
 }
 
 
 .c-linkroll__category {
-	// Contexts
-	.c-linkroll__entry--assistive-technology & {
-		color: $color-gray-shade;
-	}
-
-	.c-linkroll__entry--background & {
-		color: $color-gray-shade;
-	}
-
-	.c-linkroll__entry--how-to & {
-		color: $color-yellow;
-	}
-
-	.c-linkroll__entry--myth &,
-	.c-linkroll__entry--announcements & {
-		color: $color-pink;
-	}
-
-	.c-linkroll__entry--quick-test & {
-		color: $color-blue;
-	}
-
-	.c-linkroll__entry--quick-tip & {
-		color: $color-green;
-	}
+	@include var(color, card-meta-text);
 }
+
 
 .c-linkroll__category--featured {
 	padding-top: 1rem;
@@ -152,17 +106,15 @@
 
 
 .c-linkroll__title {
-	color: $color-black;
+	@include var(color, card-text);
 	line-height: $line-height-tight;
 	text-decoration: none;
 }
 
+
 .c-linkroll__featured {
 	border-bottom: $border-thin dotted transparent;
-	color: $color-black;
+	@include var(color, card-text);
 	font-family: $font-family-secondary;
 	padding-bottom: 0.75rem;
-
-	// Contexts
-	@include _generate-context-borders("bottom");
 }

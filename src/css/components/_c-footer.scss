@@ -48,7 +48,7 @@
 
 
 .c-footer__link {
-	@include link-states($color-black);
+	@include link-states(footer-link-text);
 
 	text-decoration: none;
 
@@ -61,7 +61,7 @@
 
 
 .c-footer__tagline {
-	color: $color-blue-shade;
+	@include var(color, footer-tagline-text);
 	font-family: $font-family-primary;
 	font-size: $font-size-heading-small;
 	line-height: $line-height-single;
@@ -81,7 +81,7 @@
 
 
 .c-footer__copyright-link {
-	@include link-states($color-black);
+	@include link-states(footer-link-text);
 
 	// States
 	&:hover {

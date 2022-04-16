@@ -1,0 +1,20 @@
+
+$scheme-override-light: (
+  "nav-background": "green-shade",
+	"card-heading-text": "green",
+	"button-background": "pink-tint",
+	"button-text": "black",
+	"button-focus-background": "pink",
+	"sponsors-background": "green-tint",
+);
+
+$scheme-override-dark: (
+	"card-heading-text": "green-tint-muted",
+	"featured-card-background": "blue-muted",
+	"button-background": "pink-tint-muted",
+	"button-text": "black",
+	"button-focus-background": "pink",
+	"sponsors-background": "black"
+);
+
+@include color-scheme("green-pink", $scheme-override-light, $scheme-override-dark);

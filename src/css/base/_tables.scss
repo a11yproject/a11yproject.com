@@ -49,6 +49,7 @@
 //
 // Styleguide Base.table
 table {
+	color: currentColor;
 
 	// caption {
 	// }
@@ -59,7 +60,7 @@ table {
 
 		// States
 		&:hover {
-			background-color: $color-white;
+			@include var(background-color, card-background);
 		}
 
 		// User Queries
@@ -72,7 +73,6 @@ table {
 	col,
 	th,
 	td {
-		border-color: $color-gray-shade;
 		padding: 0.75rem;
 	}
 
@@ -88,7 +88,7 @@ table {
 	// }
 
 	thead {
-		border-bottom: $border-thinner solid $color-black;
+		border-bottom: $border-thinner solid currentColor;
 
 		tr {
 
@@ -104,11 +104,13 @@ table {
 
 		tr {
 			th {
-				border-top: $border-thinnest solid currentColor;
+				border-top-width: $border-thinnest;
+				border-top-style: solid;
 			}
 
 			td {
-				border-top: $border-thinnest solid currentColor;
+				border-top-width: $border-thinnest;
+				border-top-style: solid;
 			}
 		}
 	}
@@ -118,7 +120,8 @@ table {
 		tr {
 
 			td {
-				border-top: $border-thinnest solid currentColor;
+				border-top-width: $border-thinnest;
+				border-top-style: solid;
 			}
 		}
 	}

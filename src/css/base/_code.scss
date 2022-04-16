@@ -44,14 +44,15 @@ var {
 //
 // Styleguide Base.Code.kbd
 kbd {
-	background-color: $color-white;
-	border: rem(4) solid $color-white;
+	@include var(background-color, kbd-background);
+	border: rem(4) solid;
+	@include var(border-color, kbd-background);
+	@include var(color, kbd-text);
 	border-radius: rem(4);
-	box-shadow: 0 2px 1px 0 $color-gray-shade;
+	box-shadow: 0 2px 1px 0 var(--color-gray-tint);
 	padding: 0 0.5ch;
 	word-break: break-word;
 }
-
 
 // pre
 //
@@ -62,8 +63,8 @@ kbd {
 //
 // Styleguide Base.Code.pre
 pre {
-	background-color: $color-black;
-	color: $color-white;
+	@include var(background-color, pre-background);
+	@include var(color, pre-text);
 	padding: 1rem 1.5rem;
 }
 
@@ -82,7 +83,7 @@ pre {
 //
 // Styleguide Base.Code.samp
 samp {
-	background-color: $color-pink-tint;
+	@include var(background-color, samp-background);
 }
 
 // var

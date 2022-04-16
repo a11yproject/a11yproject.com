@@ -130,7 +130,8 @@ textarea {
 
 mark {
 	padding: em(2);
-	background-color: $color-yellow;
+	@include var(background-color, mark-background);
+	@include var(color, mark-text);
 }
 
 

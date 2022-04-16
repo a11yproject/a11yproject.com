@@ -1,19 +1,19 @@
 .c-card-post {
-	background-color: $color-white;
+	@include var(color, card-text);
+	@include var(background-color, card-background);
 	padding: 1.5rem 2rem;
 	transition:
 		$animation-duration-shorter $animation-easing-character background-color,
 		$animation-duration-shorter $animation-easing-character border-color,
 		$animation-duration-shorter $animation-easing-character color;
 
-	// States
-	&:hover {
-		outline: $_card-outline $color-gray-tint;
-	}
-
 	&:focus-within {
-		background-color: $color-blue;
-		outline: $border-thinner solid $color-blue;
+		@include var(background-color, card-focus-background);
+		@include var(outline-color, card-focus-background);
+
+		* {
+			@include var(color, card-focus-text);
+		}
 	}
 
 	// User Queries
@@ -23,26 +23,15 @@
 }
 
 
-// Color the author link when the title link is focused
-.c-card-post__title:focus ~ .c-card-post__meta .c-card-post__author {
-	color: $color-white;
-}
-
-
 .c-card-post__title,
 .c-card-post__meta,
 .c-card-post__description {
 	max-width: $global-type-measure;
-
-	// States
-	.c-card-post:focus-within & {
-		color: $color-white;
-	}
 }
 
 
 .c-card-post__title {
-	color: $color-blue-shade;
+	@include var(color, card-heading-text);
 	letter-spacing: $font-tracking-tight;
 
 	// States
@@ -52,19 +41,19 @@
 	}
 
 	&:focus {
-		color: $color-white;
+		@include var(color, card-focus-text);
 		outline: $border-thin solid transparent;
 	}
 }
 
 
 .c-card-post__meta {
-	color: $color-gray-shade;
+	@include var(color, card-meta-text);
 }
 
 
 .c-card-post__author {
-	color: $color-gray-shade;
+	color: currentColor;
 
 	// States
 	&:hover,
@@ -73,8 +62,6 @@
 	}
 
 	&:focus {
-		color: $color-white;
 		outline: $border-thin solid transparent;
 	}
 }
-

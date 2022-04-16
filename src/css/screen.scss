@@ -6,7 +6,6 @@
 	"imports/fonts",
 	"imports/mappy-breakpoints";
 
-
 // Brand
 //
 // Weight: 1
@@ -18,14 +17,6 @@
 	"brand/colors",
 	"brand/logos",
 	"brand/typefaces";
-
-
-// Logic
-//
-// Weight: 2
-//
-// Styleguide Logic
-
 
 // Variables
 //
@@ -48,7 +39,6 @@
 	"logic/variables.font-weights",
 	"logic/variables.line-heights",
 	"logic/variables.global";
-
 
 // Maps
 //
@@ -85,9 +75,12 @@
 //
 // Styleguide Logic.Mixins
 @import
+	"logic/mixins.var",
 	"logic/mixins.avatar-size",
 	"logic/mixins.clearfix",
+	"logic/mixins.color-scheme",
 	"logic/mixins.content-inset",
+	"logic/mixins.dark-mode",
 	"logic/mixins.headings",
 	"logic/mixins.hide",
 	"logic/mixins.lede",
@@ -99,6 +92,21 @@
 	"logic/mixins.shift-click",
 	"logic/mixins.show";
 
+// Color Schemes
+//
+// Weight: 3
+//
+// Sets color schemes based on CSS custom properties
+//
+@import
+	"color-schemes/global",
+	"color-schemes/blue",
+	"color-schemes/blue-yellow",
+	"color-schemes/green",
+	"color-schemes/green-pink",
+	"color-schemes/pink-blue",
+	"color-schemes/yellow-blue",
+	"color-schemes/yellow-pink";
 
 // Base
 //
@@ -107,6 +115,7 @@
 // Sets the initial, document-level cascade.
 //
 // Styleguide Base
+/* purgecss start ignore */
 @import
 	"base/all",
 	"base/html",
@@ -118,7 +127,7 @@
 	"base/paragraphs",
 	"base/lists",
 	"base/tables";
-
+/* purgecss end ignore */
 
 // Layout
 //
@@ -152,7 +161,6 @@
 //
 // Styleguide Utilities
 @import
-	"utilities/colors",
 	"utilities/font-families",
 	"utilities/font-sizes",
 	"utilities/hide",
@@ -206,6 +214,7 @@
 	"components/c-skipnav",
 	"components/c-sponsors",
 	"components/c-spotlight",
+	"components/c-theme-switcher",
 	"components/c-wcag-explanation",
 
 	"components/content/spacing",
