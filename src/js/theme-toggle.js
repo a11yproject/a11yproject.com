@@ -5,7 +5,7 @@
  */
 (function themeToggle() {
 	const controls = document.querySelectorAll(
-		"[data-theme-toggle] [role='switch']"
+		"[data-theme-toggle] [type='radio']"
 	);
 	const storageKey = "user-color-scheme";
 	const currentSetting = localStorage.getItem("user-color-scheme") || "system";
