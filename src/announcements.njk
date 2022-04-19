@@ -31,7 +31,7 @@ templateClass: template-generic
 
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "announcements" ] %}
-		{% for post in taglist | reverse %}
+		{% for post in taglist %}
 			{% include "card/post.njk" %}
 		{% endfor %}
 	</div>
