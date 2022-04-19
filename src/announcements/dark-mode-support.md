@@ -3,9 +3,9 @@ title: Dark mode support
 description: The A11Y Project now supports dark mode!
 ---
 
-[Dark mode](https://www.a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/#dark-mode) is one of many specialized display modes someone can use to help look at a digital screen. It is intended to darken the colors on the screen to lessen eye strain and help prevent triggering low vision and photosensitive conditions.
+A website only supports [dark mode](https://www.a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/#dark-mode) if it has been programmed to do so. Fortunately, we are thrilled to announce that The A11Y Project now supports dark mode!
 
-A website only supports dark mode if it has been programmed to do so. Fortunately, we are thrilled to announce that The A11Y Project now supports dark mode!
+Dark mode is one of many specialized display modes someone can use to help look at a digital screen. It is intended to darken the colors on the screen to lessen eye strain and help prevent triggering low vision and photosensitive conditions.
 
 ## How it works
 
