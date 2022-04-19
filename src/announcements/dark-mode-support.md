@@ -44,6 +44,10 @@ We would like to thank the following people for their support:
 
 [Nic](https://twitter.com/NicMakesStuff) is a [front end web developer](https://www.nicchan.me/). She created an elegant and extensible way to manage color themes.
 
+### Saptak Sengupta
+
+[Saptak](https://twitter.com/Saptak013) is a [web developer](https://saptaks.blog/). He provided a thorough review of incoming dark mode code.
+
 ## What’s next
 
 We are hoping to implement a muted treatment for light mode, as well as a bright treatment for dark mode. These additions will offer more choices for how to view The A11Y Project content.
