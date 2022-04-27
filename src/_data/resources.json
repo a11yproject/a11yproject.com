@@ -438,6 +438,18 @@
 			]
 		},
 		{
+			"title": "BeeLine Reader",
+			"description": "BeeLine Reader makes reading on-screen easier, faster, and more enjoyable. We use a simple cognitive trick — an eye-guiding color gradient — to pull your eyes through long blocks of text.",
+			"additional": "BeeLine Reader",
+			"url": "BeeLine Reade",
+			"browsers": [
+				"Android",
+				"Chrome",
+				"Firefox",
+				"iOS Safari"
+			]
+		},
+		{
 			"title": "Color Contrast Analyzer",
 			"description": "Allows you to analyze text color contrast problems on a webpage according to the WCAG 2 text color contrast requirements.",
 			"additional": "NC State IT Accessibility",
