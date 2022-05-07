@@ -550,6 +550,12 @@
 			"url": "https://toolness.github.io/accessible-color-matrix/"
 		},
 		{
+			"title": "Atmos",
+			"description": "Create accessible UI color palettes with a specialized toolbox to find colors & create shades.",
+			"additional": "David Pešička, Ondřej Pešička and Vojtěch Vidra",
+			"url": "https://atmos.style/"
+		},
+		{
 			"title": "Blindspot: Hidden Biases of Good People",
 			"description": "In Blindspot, Mahzarin Banaji and Anthony Greenwald explore hidden biases that we all carry from a lifetime of experiences with Blindspot approved.inddsocial groups – age, gender, race, ethnicity, religion, social class, sexuality, disability status, or nationality.",
 			"additional": "Mahzarin R. Banaji, Anthony G. Greenwald",
