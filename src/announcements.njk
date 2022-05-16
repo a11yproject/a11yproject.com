@@ -21,31 +21,13 @@ templateClass: template-generic
 			{{ subtitle }}
 		</p>
 
-		<h2 id="news" class="c-heading-large u-spacing-top-longest">
-			News
-		</h2>
-		<p class="c-preface">
-			Detailed information about project news and updates.
-		</p>
 	</div>
 
 	<div class="c-card__wrapper">
 		{% set taglist = collections[ "announcements" ] %}
-		{% for post in taglist %}
+		{% for post in taglist | reverse %}
 			{% include "card/post.njk" %}
 		{% endfor %}
-	</div>
-
-	<div class="c-content c-content--generic">
-		<h2 id="changelog" class="c-heading-large">
-			Changelog
-		</h2>
-		<p class="c-preface">
-			Notable updates to our website.
-		</p>
-		<div class="c-content">
-			{% include "changelog.njk" %}
-		</div>
 	</div>
 
 </div>
