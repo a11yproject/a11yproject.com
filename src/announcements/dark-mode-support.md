@@ -1,6 +1,7 @@
 ---
 title: Dark mode support
 description: The A11Y Project now supports dark mode!
+date: 2022-04-26
 ---
 
 A website only supports [dark mode](https://www.a11yproject.com/posts/operating-system-and-browser-accessibility-display-modes/#dark-mode) if it has been programmed to do so. Fortunately, we are thrilled to announce that The A11Y Project now supports dark mode!

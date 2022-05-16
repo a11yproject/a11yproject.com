@@ -1,6 +1,7 @@
 ---
 title: The A11Y Project receives a Jammy
-description:
+description: "The A11Y Project was awarded a Jammy, an award given “for utilizing Jamstack technologies for the delivery of valuable and important resources, in service of the community and for the betterment of society.”"
+date: 2021-10-07
 ---
 
 The A11Y Project was awarded a [Jammy for Social Impact Award](https://jamstackconf.com/jammies/), an award given “for utilizing Jamstack technologies for the delivery of valuable and important resources, in service of the community and for the betterment of society.”

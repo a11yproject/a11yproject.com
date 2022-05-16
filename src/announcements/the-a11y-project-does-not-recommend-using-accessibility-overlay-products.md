@@ -1,6 +1,7 @@
 ---
 title: The A11Y Project does not recommend using accessibility overlay products
 description: These kinds of products are actively harmful, and a step backwards for digital accessibility efforts.
+date: 2021-03-08
 ---
 
 Permanent accessibility overlay products such as [accessiBe](https://accessibe.com/) and [AudioEye](https://www.audioeye.com/) are actively harmful, and a step backwards for digital accessibility efforts.
