@@ -1,6 +1,7 @@
 ---
 title: 2020 Redesign
 description: The A11Y Project has redesigned!
+date: 2020-05-12
 ---
 
 The A11Y Project has redesigned!

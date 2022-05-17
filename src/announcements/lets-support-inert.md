@@ -1,6 +1,7 @@
 ---
 title: Let’s support inert!
 description: Igalia working on HTML’s inert attribute represents a great opportunity to move web accessibility forward.
+date: 2020-08-09
 ---
 
 <div class="c-form__progress">

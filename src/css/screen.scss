@@ -1,10 +1,9 @@
 @charset "UTF-8";
 
 // Imports
-@import
-	"../../node_modules/normalize.css/normalize",
-	"imports/fonts",
-	"imports/mappy-breakpoints";
+@import "../../node_modules/normalize.css/normalize",
+"imports/fonts",
+"imports/mappy-breakpoints";
 
 // Brand
 //
@@ -13,10 +12,9 @@
 // The visual assets that set the overall tone and aesthetic for the site.
 //
 // Styleguide Brand
-@import
-	"brand/colors",
-	"brand/logos",
-	"brand/typefaces";
+@import "brand/colors",
+"brand/logos",
+"brand/typefaces";
 
 // Variables
 //
@@ -27,18 +25,17 @@
 // variable is used.
 //
 // Styleguide Logic.Variables
-@import
-	"logic/variables.paths",
-	"logic/variables.supports",
-	"logic/variables.animation-duration",
-	"logic/variables.animation-easing",
-	"logic/variables.borders",
-	"logic/variables.font-families",
-	"logic/variables.font-sizes",
-	"logic/variables.font-tracking",
-	"logic/variables.font-weights",
-	"logic/variables.line-heights",
-	"logic/variables.global";
+@import "logic/variables.paths",
+"logic/variables.supports",
+"logic/variables.animation-duration",
+"logic/variables.animation-easing",
+"logic/variables.borders",
+"logic/variables.font-families",
+"logic/variables.font-sizes",
+"logic/variables.font-tracking",
+"logic/variables.font-weights",
+"logic/variables.line-heights",
+"logic/variables.global";
 
 // Maps
 //
@@ -47,9 +44,8 @@
 // Maps are collections of related values contained in a variable.
 //
 // Styleguide Logic.Maps
-@import
-	"logic/maps.breakpoints",
-	"logic/maps.z-index";
+@import "logic/maps.breakpoints",
+"logic/maps.z-index";
 
 // Functions
 //
@@ -58,12 +54,11 @@
 // Functions allow you to use conditional logic for your CSS values.
 //
 // Styleguide Logic.Functions
-@import
-	"logic/functions.strip-unit",
-	"logic/functions.em",
-	"logic/functions.rem",
-	"logic/functions.modular-scale",
-	"logic/functions.z";
+@import "logic/functions.strip-unit",
+"logic/functions.em",
+"logic/functions.rem",
+"logic/functions.modular-scale",
+"logic/functions.z";
 
 
 // Mixins
@@ -74,23 +69,22 @@
 // They also let you use conditional logic to adjust what is declared.
 //
 // Styleguide Logic.Mixins
-@import
-	"logic/mixins.var",
-	"logic/mixins.avatar-size",
-	"logic/mixins.clearfix",
-	"logic/mixins.color-scheme",
-	"logic/mixins.content-inset",
-	"logic/mixins.dark-mode",
-	"logic/mixins.headings",
-	"logic/mixins.hide",
-	"logic/mixins.lede",
-	"logic/mixins.link-states",
-	"logic/mixins.post-content-flourish",
-	"logic/mixins.post-content-inset",
-	"logic/mixins.preserve-list-semantics",
-	"logic/mixins.responsify",
-	"logic/mixins.shift-click",
-	"logic/mixins.show";
+@import "logic/mixins.var",
+"logic/mixins.avatar-size",
+"logic/mixins.clearfix",
+"logic/mixins.color-scheme",
+"logic/mixins.content-inset",
+"logic/mixins.dark-mode",
+"logic/mixins.headings",
+"logic/mixins.hide",
+"logic/mixins.lede",
+"logic/mixins.link-states",
+"logic/mixins.post-content-flourish",
+"logic/mixins.post-content-inset",
+"logic/mixins.preserve-list-semantics",
+"logic/mixins.responsify",
+"logic/mixins.shift-click",
+"logic/mixins.show";
 
 // Color Schemes
 //
@@ -98,15 +92,14 @@
 //
 // Sets color schemes based on CSS custom properties
 //
-@import
-	"color-schemes/global",
-	"color-schemes/blue",
-	"color-schemes/blue-yellow",
-	"color-schemes/green",
-	"color-schemes/green-pink",
-	"color-schemes/pink-blue",
-	"color-schemes/yellow-blue",
-	"color-schemes/yellow-pink";
+@import "color-schemes/global",
+"color-schemes/blue",
+"color-schemes/blue-yellow",
+"color-schemes/green",
+"color-schemes/green-pink",
+"color-schemes/pink-blue",
+"color-schemes/yellow-blue",
+"color-schemes/yellow-pink";
 
 // Base
 //
@@ -116,17 +109,16 @@
 //
 // Styleguide Base
 /* purgecss start ignore */
-@import
-	"base/all",
-	"base/html",
-	"base/body",
-	"base/global-attributes",
-	"base/resets",
-	"base/code",
-	"base/links",
-	"base/paragraphs",
-	"base/lists",
-	"base/tables";
+@import "base/all",
+"base/html",
+"base/body",
+"base/global-attributes",
+"base/resets",
+"base/code",
+"base/links",
+"base/paragraphs",
+"base/lists",
+"base/tables";
 /* purgecss end ignore */
 
 // Layout
@@ -136,21 +128,20 @@
 // Classes that control [the overall arrangement of main site landmarks](https://www.scottohara.me/blog/2018/03/03/landmarks.html).
 //
 // Styleguide Layout
-@import
-	"layout/l-simple",
-	"layout/l-content",
-	"layout/l-footer",
-	"layout/l-footer-nav",
-	"layout/l-generic-title",
-	"layout/l-header",
-	"layout/l-hero",
-	"layout/l-lip",
-	"layout/l-main",
-	"layout/l-post",
-	"layout/l-primary-nav",
-	"layout/l-sponsors",
-	"layout/l-spotlight",
-	"layout/l-toc";
+@import "layout/l-simple",
+"layout/l-content",
+"layout/l-footer",
+"layout/l-footer-nav",
+"layout/l-generic-title",
+"layout/l-header",
+"layout/l-hero",
+"layout/l-lip",
+"layout/l-main",
+"layout/l-post",
+"layout/l-primary-nav",
+"layout/l-sponsors",
+"layout/l-spotlight",
+"layout/l-toc";
 
 
 // Utilities
@@ -160,13 +151,12 @@
 // Utility classes are small, single-purpose classes.
 //
 // Styleguide Utilities
-@import
-	"utilities/font-families",
-	"utilities/font-sizes",
-	"utilities/hide",
-	"utilities/preserve-list-semantics",
-	"utilities/spacing",
-	"utilities/text-transform";
+@import "utilities/font-families",
+"utilities/font-sizes",
+"utilities/hide",
+"utilities/preserve-list-semantics",
+"utilities/spacing",
+"utilities/text-transform";
 
 // Components
 //
@@ -176,54 +166,52 @@
 // element.
 //
 // Styleguide Components
-@import
-	"components/c-simple",
-	"components/c-a11y-summary",
-	"components/c-avatar",
-	"components/c-banner",
-	"components/c-blm-banner",
-	"components/c-card",
-	"components/c-card-post",
-	"components/c-card-resource",
-	"components/c-changelog",
-	"components/c-checklist",
-	"components/c-collection",
-	"components/c-contribute",
-	"components/c-cta-get-started",
-	"components/c-divider",
-	"components/c-dos-donts",
-	"components/c-featured",
-	"components/c-footer",
-	"components/c-form",
-	"components/c-further-reading",
-	"components/c-headings",
-	"components/c-hero",
-	"components/c-homepage-card",
-	"components/c-homepage-feature",
-	"components/c-last-updated",
-	"components/c-lede",
-	"components/c-linkroll",
-	"components/c-lip",
-	"components/c-logo",
-	"components/c-person",
-	"components/c-post",
-	"components/c-post-collection",
-	"components/c-preface",
-	"components/c-primary-nav",
-	"components/c-recommended-reading",
-	"components/c-skipnav",
-	"components/c-sponsors",
-	"components/c-spotlight",
-	"components/c-theme-switcher",
-	"components/c-wcag-explanation",
+@import "components/c-simple",
+"components/c-a11y-summary",
+"components/c-avatar",
+"components/c-banner",
+"components/c-blm-banner",
+"components/c-card",
+"components/c-card-post",
+"components/c-card-resource",
+"components/c-changelog",
+"components/c-checklist",
+"components/c-collection",
+"components/c-cta-get-started",
+"components/c-divider",
+"components/c-dos-donts",
+"components/c-featured",
+"components/c-footer",
+"components/c-form",
+"components/c-further-reading",
+"components/c-headings",
+"components/c-hero",
+"components/c-homepage-card",
+"components/c-homepage-feature",
+"components/c-last-updated",
+"components/c-lede",
+"components/c-linkroll",
+"components/c-lip",
+"components/c-logo",
+"components/c-person",
+"components/c-post",
+"components/c-post-collection",
+"components/c-preface",
+"components/c-primary-nav",
+"components/c-recommended-reading",
+"components/c-skipnav",
+"components/c-sponsors",
+"components/c-spotlight",
+"components/c-theme-switcher",
+"components/c-wcag-explanation",
 
-	"components/content/spacing",
-	"components/content/headings",
-	"components/content/links",
-	"components/content/lists",
-	"components/content/inline-content",
-	"components/content/cms",
-	"components/content/embedded";
+"components/content/spacing",
+"components/content/headings",
+"components/content/links",
+"components/content/lists",
+"components/content/inline-content",
+"components/content/cms",
+"components/content/embedded";
 
 
 // Vendor
@@ -233,9 +221,8 @@
 // Stylesheets that affect vendor and third party-supplied code.
 //
 // Styleguide Vendor
-@import
-	"vendor/v-prism-a11y-dark",
-	"vendor/v-toc";
+@import "vendor/v-prism-a11y-dark",
+"vendor/v-toc";
 
 
 // Media
@@ -245,8 +232,7 @@
 // Stylesheets for alternate modes of presentation.
 //
 // Styleguide Media
-@import
-	"media/print";
+@import "media/print";
 
 
 // Shame

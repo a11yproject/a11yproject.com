@@ -1,6 +1,7 @@
 ---
 title: $10 for 10k
-description:
+description: Thank you for believing in The A11Y Project’s mission, and for supporting us.
+date: 2021-12-03
 ---
 
 We are happy to announce that we have reached [10,000 followers on Twitter](https://twitter.com/A11YProject/followers)! This is wonderful news. It means more and more people are becoming interested in digital accessibility. It also means the reach of our message has grown significantly.
