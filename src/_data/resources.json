@@ -105,6 +105,12 @@
 			"url": "https://codepen.io/jared_w_smith/full/vYGXeMy"
 		},
 		{
+			"title": "A11y Tools",
+			"description": "A random collection of accessibility-focused tools that you might find at least partially useful.",
+			"additional": "Ian Lloyd",
+			"url": "https://a11y-tools.com/bookmarklets/"
+		},
+		{
 			"title": "Akbar",
 			"description": "A bookmarklet that simulates various types user experiences.",
 			"additional": "Hao Luo",
