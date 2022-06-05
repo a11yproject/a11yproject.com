@@ -130,11 +130,11 @@
 .c-homepage-card__spotlight__info {
 	@include var(background-color, featured-card-background);
 	height: 13rem;
-	margin-top: -8rem;
+	margin-top: -7.5rem;
 	margin-left: 4rem;
 	padding: 1rem;
 	text-align: right;
-	width: 12rem;
+	width: 13rem;
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -154,4 +154,5 @@
 	@include var(color, featured-card-heading-text);
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
+	line-height: $line-height-tighter;
 }
