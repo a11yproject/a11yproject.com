@@ -4,6 +4,10 @@
 		Permissions-Policy = "interest-cohort=()"
 
 [[redirects]]
+	from = "/contribute/"
+	to = "/contributing-guidelines/"
+
+[[redirects]]
 	from = "/authors/#greg-tarnoff"
 	to = "/authors/#nat-tarnoff"
 
