@@ -1587,6 +1587,13 @@
 			"type": "Episode"
 		},
 		{
+			"title": "InEx",
+			"description": "A show about inclusive design.",
+			"additional": "Matthew May",
+			"url": "https://inex.show/",
+			"type": "Podcast"
+		},
+		{
 			"title": "Intro to Accessibility with Stephanie Slattery",
 			"description": "Stephanie Slattery explains the 5 categories of disabilities, shows us how to implement suggestions from the Web Content Accessibility Guidelines, and shares why she’s so passionate about accessibility.",
 			"additional": "CodeNewbie",
