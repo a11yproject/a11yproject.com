@@ -59,6 +59,9 @@ further_reading:
   - title: "Exhibit A for 21-cv-00017: Sole reliance on accessiBe will not be sufficient in ensuring full and equal access to a website"
     url: https://www.scribd.com/document/490740167/Exhibit-A-for-21-cv-00017
     source: Scribd
+  - title: "For Blind Internet Users, the Fix Can Be Worse Than the Flaws"
+    url: https://www.nytimes.com/2022/07/13/technology/ai-web-accessibility.html
+    source: The New York Times
   - title: "Honor the ADA: Avoid Web Accessibility Quick-Fix Overlays"
     url: https://www.lflegal.com/2020/08/quick-fix/
     source: Lainey Feingold
