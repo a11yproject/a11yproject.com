@@ -244,6 +244,13 @@
 			"biography": "UX focused front-end developer with passion for behaviour-driven design."
 		},
 		{
+			"name": "Todd Libby",
+			"first": "Todd",
+			"website": "https://toddl.dev/",
+			"photo": "https://www.a11yproject.com/img/authors/todd-libby.jpg",
+			"biography": "Accessibility Engineer at WebstaurantStore and Invited Expert at the W3C. I have over twenty-three years of professional experience with web programming, accessibility, and design. Originally from Maine and now living in Arizona, the quest for the elusive Maine lobster roll in Arizona is over. I write articles for accessibility, I speak at conferences, and in my spare time, love to cook and read."
+		},
+		{
 			"name": "…and maybe you!",
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
