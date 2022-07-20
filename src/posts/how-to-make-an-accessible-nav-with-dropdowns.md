@@ -3,7 +3,7 @@ title: Make an accessible &lt;nav&gt; with dropdowns
 description: Navigation is a critical part of any application, it allows people to complete journeys and find the information they need. Therefore making it is accessible is key.
 category: How-to
 author: James Bateson
-date: 2022-05-21
+date: 2022-08-01
 further_reading:
   - title: "Menus & Menu Buttons"
     url: https://inclusive-components.design/menus-menu-buttons/
@@ -21,7 +21,7 @@ tags:
 
 Navigation is a critical part of any application and can often involve multiple levels of nesting. It allows people to complete journeys and find the information they need. Therefore making sure it is accessible is key. HTML5 includes the &lt;nav&gt; section element to help with this.
 
-## The `nav` section element
+## The &lt;nav&gt; section element
 
 Let's start with a quick overview of &lt;nav&gt;. The &lt;nav&gt; section element has semantic meaning and therefore comes with accessibility benefits just by using it to mark up sections of navigation.
 
