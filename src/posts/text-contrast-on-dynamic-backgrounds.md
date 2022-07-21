@@ -9,7 +9,7 @@ further_reading:
     url: https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/
     source: Scott O'Hara
     year: 2011
-  - title: text-shadow - CSS: Cascading Style Sheets | MDN
+  - title: text-shadow - CSS - Cascading Style Sheets | MDN
     url: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
     source: MDN
 tags:
