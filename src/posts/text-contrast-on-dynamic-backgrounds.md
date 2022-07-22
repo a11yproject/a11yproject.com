@@ -41,7 +41,8 @@ Designers and developers are not always in control of what renders beneath text 
 - Fixed or absolute text scrolling over different background colors
 - Responsive layouts shifting text over different background colors
 
-<!-- todo: add images of examples -->
+<img width="516" alt="Text over video without additional styling" title="Text over video without additional styling" src="https://user-images.githubusercontent.com/95449364/180560811-4bff5038-9e88-4103-b0f2-27ba6cfe64b2.png">
+
 
 ## The Solution
 
@@ -57,7 +58,8 @@ Typography in film / TV / video provide us with a few techniques to ensure our t
 
 Setting up text elements with a fixed background is a relatively simple approach, wherein the background may be translucent to avoid occluding other content. These background elements can either be styled as standard rectangles or as decorative overlay graphics.
 
-<!-- todo: include images of each -->
+<img width="514" alt="Text over video with a background element" title="Text over video with a background element" src="https://user-images.githubusercontent.com/95449364/180565391-9c7e5b20-4c20-4581-8f8c-ebc1971cca4c.png">
+
 
 ### Outlining Text
 
@@ -73,4 +75,9 @@ This effect cannot be reproduced by CSS styling, so designers and developers wil
 ### Text Shadows
 
 Similar to outlining text, developers can reproduce this effect by applying several text-shadows to create a "border" around the characters. This technique requires a blur-radius value of 0 to render as a hard line, though unlike box-shadow, text-shadow does not have a spread-radius property.
+
+<img width="510" alt="Text over video with a single text-shadow" title="Text over video with a single text-shadow" src="https://user-images.githubusercontent.com/95449364/180565741-5bf39660-3bfc-4cb0-886d-63d41a7605fa.png">
+
+<img width="513" alt="Text over video with multiple text-shadows" title="Text over video with multiple text-shadows" src="https://user-images.githubusercontent.com/95449364/180566095-a9588904-e834-4036-bf10-2fded8d8b2b4.png">
+
 
