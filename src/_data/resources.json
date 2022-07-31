@@ -916,6 +916,12 @@
 	],
 	"developmentTools": [
 		{
+			"title": "A11y Automation Tracker",
+			"description": " A more thorough way to track the potential accessibility violations and the automated linters and tests currently available.",
+			"additional": " Melanie Sumner",
+			"url": "https://a11y-automation.dev/"
+		},
+		{
 			"title": "Accessify",
 			"description": "Run a free website performance test and get actionable tips on how to optimize it.",
 			"additional": "Accessify",
