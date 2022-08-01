@@ -128,7 +128,16 @@ In theory, headings of different levels can be combined using the HTML element h
 
 > [...] given that a key purpose of the `<hgroup>` element is to affect how headings are displayed by the outline algorithm defined in the HTML specification — but the HTML outline algorithm is not implemented in any browsers—then the `<hgroup>` semantics are in practice only theoretical.
 
-Better not use `<hgroup>` then, it hinders assistive technology, and it isn't supported by browsers.
+<strong>Update August 1, 2022</strong>: Steve Faulkner proposed a way to introduce` hgroup` again, which is promising:
+[Subheadings, subtitles, alternative titles and taglines in HTML] (https://www.tpgi.com/subheadings-subtitles-alternative-titles-and-taglines-in-html/)
+Until browsers add the information themselves, add `role="group"` and `aria-roledescription="Heading group"` as attributes to the `hgroup` element, add the subtitles in a paragraph (not a heading) `<p aria-roledescription="subtitle">`. Then all information about the structure and connection of the headings group is given for assistive technology in the accessibility tree.
+
+``` html
+<hgroup role="group" aria-roledescription="Heading group">
+<h1>THE MONTH</h1>
+<p aria-roledescription="subtitle">The Best of UK and Foreign Media</p>
+</hgroup>
+```
 
 ## Navigation by headings
 
