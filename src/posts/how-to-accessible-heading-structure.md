@@ -4,6 +4,7 @@ description: Headings are the backbone of the content of a page. A visitor shoul
 category: How-to
 author: Rian Rietveld
 date: 2022-01-03
+last_updated: 2022-08-01
 further_reading:
   - title: "Heading off confusion: When do headings fail WCAG?"
     url: https://www.tpgi.com/heading-off-confusion-when-do-headings-fail-wcag/
@@ -114,7 +115,7 @@ Using multiple `h1`s was proposed with the introduction of the HTML Document Out
 
 If you want to know the full story, please read [Computer says NO to HTML5 document outline](https://html5doctor.com/computer-says-no-to-html5-document-outline/) and  [A decade of heading backwards](https://codepen.io/stevef/post/a-decade-of-heading-backwards) by Steven Falkner and [There Is No Document Outline Algorithm](https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html) by Adrian Roselli.
 
-Thankfully the example of multiple `h1`s in the [HTML outline is still a part of the WHATWG HTML Living standards](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements), has been removed and shows one h1 per page..
+Thankfully the example of multiple `h1`s in the [HTML outline is still a part of the WHATWG HTML Living standards](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements), has been removed and shows one h1 per page.
 
 **Concluding**: Multiple `h1s` on sections to create a document outline is <strong>not</strong> supported by browsers and therefore outdated.
 
@@ -128,14 +129,20 @@ In theory, headings of different levels can be combined using the HTML element h
 
 > [...] given that a key purpose of the `<hgroup>` element is to affect how headings are displayed by the outline algorithm defined in the HTML specification — but the HTML outline algorithm is not implemented in any browsers—then the `<hgroup>` semantics are in practice only theoretical.
 
-<strong>Update August 1, 2022</strong>: Steve Faulkner proposed a way to introduce` hgroup` again, which is promising:
-[Subheadings, subtitles, alternative titles and taglines in HTML] (https://www.tpgi.com/subheadings-subtitles-alternative-titles-and-taglines-in-html/)
-Until browsers add the information themselves, add `role="group"` and `aria-roledescription="Heading group"` as attributes to the `hgroup` element, add the subtitles in a paragraph (not a heading) `<p aria-roledescription="subtitle">`. Then all information about the structure and connection of the headings group is given for assistive technology in the accessibility tree.
+<strong>Update August 1, 2022</strong>: Steve Faulkner proposed a way to introduce` hgroup` again, which is promising, in:
+[Subheadings, subtitles, alternative titles and taglines in HTML](https://www.tpgi.com/subheadings-subtitles-alternative-titles-and-taglines-in-html/)
+
+Until browsers add the information themselves do:
+
+- Add `role="group"` and `aria-roledescription="Heading group"` as attributes to the `hgroup` element.
+-	Add the subtitles in a paragraph (not a heading) `<p aria-roledescription="subtitle">`.
+
+Then all information about the structure and connection of the headings group is given for assistive technology in the accessibility tree.
 
 ``` html
 <hgroup role="group" aria-roledescription="Heading group">
-<h1>THE MONTH</h1>
-<p aria-roledescription="subtitle">The Best of UK and Foreign Media</p>
+  <h1>My heading</h1>
+  <p aria-roledescription="subtitle">My subtitle or tagline</p>
 </hgroup>
 ```
 
