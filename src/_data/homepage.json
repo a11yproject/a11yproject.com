@@ -1,12 +1,12 @@
 {
 	"featuredResources": [
 		{
-			"title": "The Bootcamper's Guide to Web Accessibility",
-			"author": "Lindsey Kopacz",
-			"description": "This book is geared towards bootcamp grads and self-guided front end web developers that explains the crucial takeaways of accessibility standards and makes them less intimidating.",
-			"image": "the-bootcampers-guide-to-web-accessibility.jpg",
-			"alt": "The title, The Bootcamper's Guide to Web Accessibility on a maroon background, surrounded by a blue chevron stripe pattern.",
-			"cta": "Learn more about this book"
+			"title": "Testing Accessibility",
+			"author": "Marcy Sutton",
+			"description": "A self-paced workshop designed to teach you the principles and effective patterns of accessibility, from design to deployment.",
+			"image": "testing-accessibility.png",
+			"alt": "",
+			"cta": "Learn more about this workshop"
 		},
 		{
 			"title": "Introduction to Web Accessibility",
