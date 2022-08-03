@@ -115,7 +115,7 @@ Using multiple `h1`s was proposed with the introduction of the HTML Document Out
 
 If you want to know the full story, please read [Computer says NO to HTML5 document outline](https://html5doctor.com/computer-says-no-to-html5-document-outline/) and  [A decade of heading backwards](https://codepen.io/stevef/post/a-decade-of-heading-backwards) by Steven Falkner and [There Is No Document Outline Algorithm](https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html) by Adrian Roselli.
 
-Thankfully the example of multiple `h1`s in the [HTML outline is still a part of the WHATWG HTML Living standards](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements), has been removed and shows one h1 per page.
+Thankfully the example of multiple `h1`s in the [WHATWG HTML Living standards](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements), has been removed and shows one h1 per page.
 
 **Concluding**: Multiple `h1s` on sections to create a document outline is <strong>not</strong> supported by browsers and therefore outdated.
 
