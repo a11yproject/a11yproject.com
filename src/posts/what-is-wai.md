@@ -67,7 +67,7 @@ Users should be able to comprehend the content and learn from your website. One 
 
 Websites should be able to be accessed by a wide variety of users and technologies. For example, websites should be accessible for screen readers and many different browser versions.
 
-Each WCAG guideline has success criteria broken down to three standards, A, AA, AAA, with triple A being the standard we should aim for.
+Each WCAG guideline has success criteria broken down to three standards, A, AA, and AAA. AA is considered ideal support, and AAA is typically reserved for specialized audiences.
 
 [Accessible Rich Internet Applications](https://www.w3.org/WAI/standards-guidelines/aria/), or WAI-ARIA is also a guideline that was created by WAI to increase accessibility. In particular, WAI-ARIA gives guidance on how to create accessible dynamic content and user interface components.
 
