@@ -26,7 +26,7 @@ Organizers from all around the world, involved in many different fields, join W3
 
 W3C launched The Web Accessibility Initiative, (<abbr>WAI</abbr>), in 1997, with support from the White House. The Web Accessibility Initiative’s main goal is to make the internet accessible for people with disabilities.
 
-WAI brings people from disability organizations, governments and research labs from all around the world to develop guidelines and resources to make the Web accessible to people with disabilities that include auditory, cognitive, neurological, physical, speech and visual disabilities.
+WAI brings people from disability organizations, governments, and research labs from all around the world to develop guidelines and resources to make the Web accessible to people with disabilities. This includes: auditory, cognitive, neurological, physical, speech and visual disabilities.
 
 In short, WAI develops accessibility standards and offers implementation guidance.
 
