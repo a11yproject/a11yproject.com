@@ -63,7 +63,7 @@ Users should successfully use controls, buttons, navigation, and other interacti
 
 Users should be able to comprehend the content and learn from your website. One example of this would be if abbreviations or jargon is used, they should be defined for the user.
 
-- Robust:
+### Robust:
 
   Websites should be able to be accessed by a wide variety of users and technologies. For example, websites should be accessible for screen readers and many different browser versions.
 
