@@ -51,7 +51,7 @@ WAI’s effort created guidelines for developers, designers and people in tech t
 
 [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/), or WCAG is a benchmark for web accessibility. WCAG was created with a goal to clearly define technical standards and unifying accessibility standards. WCAG’s standards are categorized under 4 principles.
 
-- Perceivable:
+### Perceivable
 
 Users should be able to identify content and elements by means of senses. For example, if a website's navigation changes from page to page, users will have to relearn the navigation of the site, which will not be a great user experience.
 
