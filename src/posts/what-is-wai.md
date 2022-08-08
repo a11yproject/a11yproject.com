@@ -83,17 +83,12 @@ Purpose of WAI is to bring together members with different backgrounds to contri
 
 Some of the working group and interest groups listed on their web site are as follows:
 
-[Accessibility Guidelines Working Group (AG WG)](https://www.w3.org/WAI/GL/) (formerly the Web Content Accessibility Guidelines Working Group)
-
-[Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/)
-
-[Accessible Rich Internet Applications (ARIA) Working Group](https://www.w3.org/WAI/ARIA/)
-
-[Education and Outreach Working Group (EOWG)](https://www.w3.org/WAI/about/groups/eowg/)
-
-[WAI Interest Group (WAI IG)](https://www.w3.org/WAI/about/groups/waiig/)
-
-[WAI websites](https://www.w3.org/WAI/about/participating/), explains how interested future members can join WAI to promote and develop accessible web. No matter your background, there is a group or interest group you can contribute.
+- [Accessibility Guidelines Working Group (AG WG)](https://www.w3.org/WAI/GL/) (formerly the Web Content Accessibility Guidelines Working Group)
+- [Accessible Platform Architectures (APA) Working Group](https://www.w3.org/WAI/APA/)
+- [Accessible Rich Internet Applications (ARIA) Working Group](https://www.w3.org/WAI/ARIA/)
+- [Education and Outreach Working Group (EOWG)](https://www.w3.org/WAI/about/groups/eowg/)
+- [WAI Interest Group (WAI IG)](https://www.w3.org/WAI/about/groups/waiig/)
+- [WAI websites](https://www.w3.org/WAI/about/participating/), explains how interested future members can join WAI to promote and develop accessible web. No matter your background, there is a group or interest group you can contribute.
 
 ## Takeaways
 
