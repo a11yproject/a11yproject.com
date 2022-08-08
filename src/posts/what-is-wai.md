@@ -32,15 +32,15 @@ In short, WAI develops accessibility standards and offers implementation guidanc
 
 As described by [W3C Website](https://www.w3.org/WAI/about/), WAI “pursues accessibility of the web through these primary activities”:
 
-- ensuring that W3C standards support accessibility
-- developing accessibility guidelines for web content and applications,
+- Ensuring that W3C standards support accessibility
+- Developing accessibility guidelines for web content and applications,
   browsers, and authoring tools
-- developing resources to improve web accessibility evaluation
+- Developing resources to improve web accessibility evaluation
   processes and tools
-- supporting education and outreach on web accessibility
-- coordinating with research and development that may impact future  
+- Supporting education and outreach on web accessibility
+- Coordinating with research and development that may impact future  
   accessibility of the web
-- promoting harmonized international uptake of web accessibility  
+- Promoting harmonized international uptake of web accessibility  
   standards
 
 Two best examples of WAI’s significance in everyday technology life are the Web Content Accessibility Guidelines, (WCAG) and Accessible Rich Internet Applications (WAI-Aria) Recommendations that were created by members of WAI.
