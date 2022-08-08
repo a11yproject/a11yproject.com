@@ -1,7 +1,7 @@
 ---
 title: What is WAI? The Web Accessibility Initiative
 description: "The Web Accessibility Initiative is W3C's effort to improve accessibility of the Web for people with disabilities."
-category: concepts
+category: Background
 author: Ilknur Eren
 date: 2022-07-18
 tags:
