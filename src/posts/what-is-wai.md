@@ -5,7 +5,7 @@ category: Background
 author: Ilknur Eren
 date: 2022-07-18
 tags:
-  - concepts
+  - background
 ---
 
 ## What is the World Wide Consortium?
