@@ -100,4 +100,4 @@ WAI is a group of people all around the world that contribute ideas on how the i
 
 WAI touches most of the accessibility work that has been done. For example, designers and developers look for WCAG standards to see if their website is accessible or not. Developers also use WAI-ARIA’s guidance to know whether or not some interactions are accessible.
 
-Web Content Accessibility Guidelines, (WCAG) and Accessible Rich Internet Applications (WAI-Aria) Recommendations are some examples of WAI’s guidance on web accessibility.
+Web Content Accessibility Guidelines, (WCAG) and Accessible Rich Internet Applications (WAI-ARIA) Recommendations are some examples of WAI’s guidance on web accessibility.
