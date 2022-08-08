@@ -57,7 +57,7 @@ Users should be able to identify content and elements by means of senses. For ex
 
 ### Operarable:
 
-  Users should successfully use controls, buttons, navigation, and other interactive elements on the page. One example of this would be that websites should be operable by a keyboard and the page should have the same functionalities it has when used by a mouse to navigate.
+Users should successfully use controls, buttons, navigation, and other interactive elements on the page. One example of this would be that websites should be operable by a keyboard and the page should have the same functionalities it has when used by a mouse to navigate.
 
 - Understandable
 
