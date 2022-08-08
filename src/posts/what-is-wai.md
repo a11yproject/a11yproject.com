@@ -55,7 +55,7 @@ WAI’s effort created guidelines for developers, designers and people in tech t
 
 Users should be able to identify content and elements by means of senses. For example, if a website's navigation changes from page to page, users will have to relearn the navigation of the site, which will not be a great user experience.
 
-- Operarable:
+### Operarable:
 
   Users should successfully use controls, buttons, navigation, and other interactive elements on the page. One example of this would be that websites should be operable by a keyboard and the page should have the same functionalities it has when used by a mouse to navigate.
 
