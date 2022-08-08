@@ -24,7 +24,7 @@ Organizers from all around the world, involved in many different fields, join W3
 > Access by everyone regardless of disability is an essential aspect.
 > Tim Berners-Lee, W3C Director and inventor of the World Wide Web
 
-W3C launched The Web Accessibility Initiative, (WAI), in 1997, with support from the White House. The Web Accessibility Initiative’s main goal is to make the internet accessible for people with disabilities.
+W3C launched The Web Accessibility Initiative, (<abbr>WAI</abbr>), in 1997, with support from the White House. The Web Accessibility Initiative’s main goal is to make the internet accessible for people with disabilities.
 
 WAI brings people from disability organizations, governments and research labs from all around the world to develop guidelines and resources to make the Web accessible to people with disabilities that include auditory, cognitive, neurological, physical, speech and visual disabilities.
 
