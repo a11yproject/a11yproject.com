@@ -43,7 +43,7 @@ As described by [W3C Website](https://www.w3.org/WAI/about/), WAI “pursues acc
 - Promoting harmonized international uptake of web accessibility  
   standards
 
-Two best examples of WAI’s significance in everyday technology life are the Web Content Accessibility Guidelines, (WCAG) and Accessible Rich Internet Applications (WAI-Aria) Recommendations that were created by members of WAI.
+Two best examples of WAI’s significance in everyday technology life are the Web Content Accessibility Guidelines, (<abbr>WCAG</abbr>) and Accessible Rich Internet Applications (<abbr>WAI-ARIA</abbr>) Recommendations that were created by members of WAI.
 
 ## Web Content Accessibility Guidelines, (WCAG) and Accessible Rich Internet Applications (WAI-ARIA) Recommendations:
 
