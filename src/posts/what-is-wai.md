@@ -69,7 +69,7 @@ Websites should be able to be accessed by a wide variety of users and technologi
 
 Each WCAG guideline has success criteria broken down to three standards, A, AA, and AAA. AA is considered ideal support, and AAA is typically reserved for specialized audiences.
 
-[Accessible Rich Internet Applications](https://www.w3.org/WAI/standards-guidelines/aria/), or WAI-ARIA is also a guideline that was created by WAI to increase accessibility. In particular, WAI-ARIA gives guidance on how to create accessible dynamic content and user interface components.
+[Accessible Rich Internet Applications](https://www.w3.org/WAI/standards-guidelines/aria/), or WAI-ARIA is also a guideline that was created by WAI to provide an accessible experience for custom coded interactive experiences. In particular, WAI-ARIA gives guidance on how to create accessible dynamic content and user interface components.
 
 For example, ARIA can help developers divide the page into sections, kind of like a tab of index, so it’ll be easier for people to navigate the page. ARIA defines ways for functionality of the assistive technology. With the help of WAI-ARIA guidance and rules, developers can make websites accessible to all users.
 
