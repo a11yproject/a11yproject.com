@@ -8,6 +8,8 @@ tags:
   - background
 ---
 
+The Web Accessibility Initiative is W3C's effort to improve accessibility of the Web for people with disabilities.
+
 ## What is the World Wide Consortium?
 
 In order to know about the Web Accessibility Initiative, we must first talk about the World Wide Consortium, also known as W3C.
@@ -20,9 +22,14 @@ Organizers from all around the world, involved in many different fields, join W3
 
 ## What is the Web Accessibility Initiative?
 
-> The power of the Web is in its universality.
-> Access by everyone regardless of disability is an essential aspect.
-> Tim Berners-Lee, W3C Director and inventor of the World Wide Web
+<figure>
+	<blockquote>
+	  <p>The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.</p>
+	</blockquote>
+	<figcaption>
+	  <p>Tim Berners-Lee, <cite><a href="https://www.w3.org/standards/webdesign/accessibility">W3C Director and inventor of the World Wide Web</a></cite></p>
+	</figcaption>
+</figure>
 
 W3C launched The Web Accessibility Initiative, (<abbr>WAI</abbr>), in 1997, with support from the White House. The Web Accessibility Initiative’s main goal is to make the internet accessible for people with disabilities.
 
@@ -69,9 +76,11 @@ Websites should be able to be accessed by a wide variety of users and technologi
 
 Each WCAG guideline has success criteria broken down to three standards, A, AA, and AAA. AA is considered ideal support, and AAA is typically reserved for specialized audiences.
 
+## Accessible Rich Internet Applications
+
 [Accessible Rich Internet Applications](https://www.w3.org/WAI/standards-guidelines/aria/), or WAI-ARIA is also a guideline that was created by WAI to provide an accessible experience for custom coded interactive experiences. In particular, WAI-ARIA gives guidance on how to create accessible dynamic content and user interface components.
 
-For example, ARIA can help developers divide the page into sections, kind of like a tab of index, so it’ll be easier for people to navigate the page. ARIA defines ways for functionality of the assistive technology. With the help of WAI-ARIA guidance and rules, developers can make websites accessible to all users.
+For example, ARIA can help developers divide the page into sections, similar to a table of contents in a book, so it’ll be easier for people to navigate the page. ARIA defines ways for functionality of the assistive technology. With the help of WAI-ARIA guidance and rules, developers can make websites accessible to all users.
 
 Currently WAI-ARIA version 1.2 is under development.
 
