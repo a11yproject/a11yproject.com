@@ -68,7 +68,7 @@ People should successfully use controls, buttons, navigation, and other interact
 
 ### Understandable
 
-Users should be able to comprehend the content and learn from your website. One example of this would be if abbreviations or jargon is used, they should be defined for the user.
+People should be able to comprehend the content and learn from your website. One example of this would defining abbreviations or jargon for the reader.
 
 ### Robust:
 
