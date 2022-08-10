@@ -72,7 +72,7 @@ People should be able to comprehend the content and learn from your website. One
 
 ### Robust:
 
-Websites should be able to be accessed by a wide variety of users and technologies. For example, websites should be accessible for screen readers and many different browser versions.
+Websites should be able to be accessed by a wide variety of technologies. For example, websites should be accessible for screen readers, as well as many different browser versions.
 
 Each WCAG guideline has success criteria broken down to three standards, A, AA, and AAA. AA is considered ideal support, and AAA is typically reserved for specialized audiences.
 
