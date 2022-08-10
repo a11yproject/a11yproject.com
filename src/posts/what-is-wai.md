@@ -60,7 +60,7 @@ WAI’s effort created guidelines for developers, designers and people in tech t
 
 ### Perceivable
 
-Users should be able to identify content and elements by means of senses. For example, if a website's navigation changes from page to page, users will have to relearn the navigation of the site, which will not be a great user experience.
+People should be able to identify content and elements by means of their senses. For example, if a website's navigation changes from page to page, they will have to relearn the navigation of the site, which will not be a great experience.
 
 ### Operarable:
 
