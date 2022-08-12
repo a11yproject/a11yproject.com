@@ -251,6 +251,13 @@
 			"biography": "Accessibility Engineer at WebstaurantStore and Invited Expert at the W3C. I have over twenty-three years of professional experience with web programming, accessibility, and design. Originally from Maine and now living in Arizona, the quest for the elusive Maine lobster roll in Arizona is over. I write articles for accessibility, I speak at conferences, and in my spare time, love to cook and read."
 		},
 		{
+			"name": "Ilknur Eren",
+			"first": "Ilknur",
+			"website": "https://www.linkedin.com/in/ilknureren/",
+			"photo": "https://www.a11yproject.com/img/authors/ilknur-eren.jpg",
+			"biography": "Ilknur Eren is a Software Engineer and a writer currently residing in New Jersey. Ilknur is passionate about accessibility and sharing what she learns with others."
+		},
+		{
 			"name": "…and maybe you!",
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
