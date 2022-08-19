@@ -851,6 +851,11 @@
 			"additional": "Udacity",
 			"url": "https://www.udacity.com/course/web-accessibility--ud891"
 		}
+		{
+			"title": "CoursesOnline - User Experience Courses",
+			"description": "This comparison website allows learners to compare UX courses from training providers from across the UK.",
+			"additional": "CoursesOnline",
+			"url": "https://www.coursesonline.co.uk/courses/ux-design/"
 	],
 	"designUserExperience": [
 		{
