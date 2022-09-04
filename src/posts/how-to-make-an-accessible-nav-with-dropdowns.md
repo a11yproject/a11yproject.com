@@ -3,7 +3,7 @@ title: Make an accessible &lt;nav&gt; with dropdowns
 description: Navigation is a critical part of any application, it allows people to complete journeys and find the information they need. So making it accessible is key.
 category: How-to
 author: James Bateson
-date: 2022-08-01
+date: 2022-09-04
 further_reading:
   - title: "Menus & Menu Buttons"
     url: https://inclusive-components.design/menus-menu-buttons/
@@ -14,14 +14,26 @@ further_reading:
   - title: "Navigation role support"
     url: https://a11ysupport.io/tech/aria/navigation_role
     source: Accessibility Support
-thanks: ""
+  - title: "Top 5 rules of ARIA"
+    url: https://www.deque.com/blog/top-5-rules-of-aria/
+    source: Deque
+  - title: "Are your anchor links accessible?"
+    url: https://amberwilson.co.uk/blog/are-your-anchor-links-accessible/
+    source: Amber Wilson
+  - title: "Local Navigation Is a Valuable Orientation and Wayfinding Aid"
+    url: https://www.nngroup.com/articles/local-navigation/
+    source: Nielsen Norman Group
+  - title: "Cognitive accessibility"
+    url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Cognitive_accessibility
+    source: MDN Web Docs
+thanks: "Anya Mueller, Alex Hall"
 tags:
   - howto
 ---
 
 Navigation is a critical part of any application and can often involve many levels of nesting. It allows people to complete journeys and find the information they need. So making it accessible is key. HTML5 includes the &lt;nav&gt; section element to help with this.
 
-## The &lt;nav&gt; section element
+## The nav section element
 
 Let's start with a quick overview of &lt;nav&gt;. The &lt;nav&gt; section element has semantic meaning and comes with accessibility benefits by using it to mark-up sections of navigation.
 
@@ -49,10 +61,11 @@ Here's the example markup that we'll build up throughout this article. It's wort
 
 The &lt;nav&gt; element will communicate a role of navigation-equal to setting `role="navigation"`, (this may still need to be added if needing to [support some assistive technology](https://a11ysupport.io/tech/aria/navigation_role)) meaning it can be easily navigated to by people with screen readers—as a landmark.
 
-### Best practices summary
+### Best practices summarized
 
 - Not all blocks containing links need to use &lt;nav&gt;. Use it for larger sections of navigation links. Overuse can create 'noise' for people using screen readers.
-- Uniquely label the &lt;nav&gt; to give a better idea of its purpose. This can be done with a heading or `aria-label`/`aria-labelledby`. <strong>Note:</strong> Screen readers will already announce the element as being navigation, so avoid using the word 'nav' or 'navigation' in the accessible name.
+- Uniquely label the &lt;nav&gt; to give a better idea of its purpose. This can be done with a heading or `aria-label`/`aria-labelledby`. **Note**: Screen readers will already announce the element as being navigation, so avoid using the word 'nav' or 'navigation' in the accessible name.
+- For site navigation consider using a list (`<ul>/<ol>`) inside of the &lt;nav&gt;. So that assitive technology can announce how many links it contains.
 
 ```html
 <nav aria-labelledby="main-nav-label">
@@ -152,6 +165,13 @@ To hide elements such as sub-menus from assistive technology, you should not rel
 
 ## What about ARIA?
 
+<blockquote>
+	<p>Before you use ARIA,  use native HTML elements or attributes first. In the case that the semantics you are looking for is not available in HTML, then use ARIA.</p>
+	<footer>
+		<cite><a href="https://www.deque.com/blog/top-5-rules-of-aria/">Deque: Top 5 rules of ARIA</a></cite>
+	</footer>
+</blockquote>
+
 When thinking about making some component interactions accessible, it's often assumed that more complex ARIA attributes and patterns may be needed. But a &lt;nav&gt; with dropdowns does not need any. There are [menu-related ARIA patterns available](https://www.w3.org/TR/wai-aria-practices/#menu). But these are slightly different in context from the site navigation pattern in this article. Menu ARIA is more designed to deal with native operating system-like menus, for example, a selection of options for a person.
 
 Although &lt;nav&gt; can be used without ARIA to create accessible navigation, there are things we can do with it to provide a better experience for people.
@@ -197,6 +217,17 @@ Multi-level navigation with dropdowns often referred to as 'mega menus' can ofte
 
 ### In-page navigation/table of contents
 
-One option could be to keep the top-level navigation as links only. Then, on the page the parent link takes the person to, have an in-page navigation/table of contents. This could help someone get to a page they would like to see the content for, and then navigate from there. Rather than lots of links being nested with complexity in dropdowns, show them all up-front on a suitable page.
+One option could be to keep the top-level navigation as links only. Then, on their child pages, have an in-page navigation/table of contents. If the content length was suitable and the page didn't need to be broken out into further pages, these links would then anchor down the page to the relevant sections.
 
-If the page was short, these could anchor a person down to the relevant content, or if a content-heavy site, each link would be a page.
+**Note**: There are [accessibility considerations to be aware of](https://amberwilson.co.uk/blog/are-your-anchor-links-accessible/) when using this pattern.
+
+### Local navigation
+
+Local navigation can help people understand where they are, and what content might be related to the page they are on. This could look similar to the page of contents previously mentioned, but instead of the links anchoring, each would go to a seperate page. Or it could sit below the main navigation, for example, but being individual to a page.
+
+<blockquote>
+	<p>Visible local navigation is usually beneficial when users engage in exploratory browsing, rather than known-item search. In such situations, users may visit several pages within a category — either because they do not know exactly what category they need, even though they have a sense of its neighborhood, or because they need to combine or compare information from multiple categories</p>
+	<cite><a href="https://www.nngroup.com/articles/local-navigation/">Nielsen Norman Group: Local Navigation Is a Valuable Orientation and Wayfinding Aid</a></cite>
+</blockquote>
+
+**Note**: Be wary of changing how navigation appears and functions across multiple pages, predictability can be an important part of [cognitive accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Cognitive_accessibility).
