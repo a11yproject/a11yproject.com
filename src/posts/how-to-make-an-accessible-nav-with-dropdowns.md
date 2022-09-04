@@ -65,7 +65,7 @@ The &lt;nav&gt; element will communicate a role of navigation-equal to setting `
 
 - Not all blocks containing links need to use &lt;nav&gt;. Use it for larger sections of navigation links. Overuse can create 'noise' for people using screen readers.
 - Uniquely label the &lt;nav&gt; to give a better idea of its purpose. This can be done with a heading or `aria-label`/`aria-labelledby`. **Note**: Screen readers will already announce the element as being navigation, so avoid using the word 'nav' or 'navigation' in the accessible name.
-- For site navigation consider using a list (`<ul>/<ol>`) inside of the &lt;nav&gt;. So that assitive technology can announce how many links it contains.
+- For site navigation consider using a list (`<ul>/<ol>`) inside of the &lt;nav&gt;. So that assistive technology can announce how many links it contains.
 
 ```html
 <nav aria-labelledby="main-nav-label">
@@ -120,7 +120,7 @@ Structuring the markup as shown in the previous example means without any CSS lo
 
 Navigation patterns will often attach a click/focus event to the entire parent link to reveal the dropdown of nested items. This comes with two problems. Using a click means extra functionality is needed to handle the primary purpose of the parent link, which should itself act as a link. By using focus, people traversing the navigation using a keyboard would be required to tab through all dropdowns regardless of whether they wanted to or not.
 
-By adding a toggle element, for example an arrow icon button, within the parent link allows people to only show the dropdown if they are interested in seeing further links associated with the parent. Make sure that the toggle element has enough of a tap/click (this pattern could be used for mobile as well) area and accessible focus/hover states.
+Adding a toggle element, for example, an arrow icon button, within the parent link allows people to only show the dropdown if they are interested in seeing further links associated with the parent. Make sure that the toggle element has enough of a tap/click (this pattern could be used for mobile as well) area and accessible focus/hover states.
 
 **Note:** If your parent elements don't need to be a link themselves, make sure to use a `<button>` element, so that they can communicate they are expandable and have an event associated and benefit from all the accessible goodness buttons get for free.
 
@@ -149,7 +149,7 @@ By adding a toggle element, for example an arrow icon button, within the parent 
 
 ### Tip 3: Focus order
 
-By nesting the dropdown list as a direct child of the parent list item, it means that when visible, the first link will be the next focusable element after the parent item toggle. So adding a trigger inside the parent link is a great way to ensure a person's intention is to see the dropdown for that link and so take focus to the first link in said dropdown.
+By nesting the dropdown list as a direct child of the parent list item, it means that when visible, the first link will be the next focusable element after the parent item toggle. So adding a trigger inside the parent link is a great way to ensure a person intends to see the dropdown for that link and so take focus to the first link in said dropdown.
 
 Related to focus, another nice feature would be to make sure that if the person pressed the <kbd>ESC</kbd> key, the dropdown would close, and the person's focus return to the toggle element they used to open it.
 
@@ -223,7 +223,7 @@ One option could be to keep the top-level navigation as links only. Then, on the
 
 ### Local navigation
 
-Local navigation can help people understand where they are, and what content might be related to the page they are on. This could look similar to the page of contents previously mentioned, but instead of the links anchoring, each would go to a seperate page. Or it could sit below the main navigation, for example, but being individual to a page.
+Local navigation can help people understand where they are, and what content might be related to the page they are on. This could look similar to the page of contents previously mentioned, but instead of the links anchoring, each would go to a separate page. Or it could sit below the main navigation, for example, but being individual to a page.
 
 <blockquote>
 	<p>Visible local navigation is usually beneficial when users engage in exploratory browsing, rather than known-item search. In such situations, users may visit several pages within a category — either because they do not know exactly what category they need, even though they have a sense of its neighborhood, or because they need to combine or compare information from multiple categories</p>
