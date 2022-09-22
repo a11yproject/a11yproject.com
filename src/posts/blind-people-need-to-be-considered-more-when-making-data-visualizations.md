@@ -30,7 +30,7 @@ In my job as a digital journalist, I’m becoming increasingly aware of the desi
 
 For a lot of people, visual representations of complicated data has the ability to translate data into a format our brains can comprehend easier and quicker. However, what’s not so obvious is how exclusionary that can be for those of us who don’t operate in a visual way.
 
-I can’t take any of the other myriad visual data tools and translate them quickly into a way my brain understands. This includes infographics, maps, pie and bar charts, etc.
+I can’t take any of the other myriad of visual data tools and translate them quickly into a way my brain understands. This includes infographics, maps, pie and bar charts, etc.
 
 As someone who uses a screen reader to translate what’s on my screen it’s imperative to have an alternative method of accessing whatever data I’m being presented with. For example, this could be through simple alternate descriptions in a bar chart or map.
 
@@ -38,7 +38,7 @@ I would also argue that this is fairly limiting and isn’t presenting the data 
 
 I would even go as far as arguing that visual data by its’ very nature is an accessibility tool. It’s taking complicated data and presenting it in a way which is easy for many people to understand. I want to see the same thought being given to people who absorb information differently.
 
-I want to see thought and care being given to people who absorb information differently While the project I’ll be working on at the Reuters Institute is focused on visually impaired screen reader users, making visual data more widely accessible for neurodiverse people, or people with cognitive disabilities would also really help level a currently unlevel playing field.
+I would also like to see thought and care being given to people who absorb information differently. Making visual data more widely accessible for neurodiverse people, or people with cognitive disabilities for example would also really help level a currently unlevel playing field.
 
 
 ## My journey
@@ -54,7 +54,7 @@ I’m also aware that the need to know exactly how it all works isn’t entirely
 
 ## Collaboration
 
-I’m really hoping by being able to work these designers and developers, as well as with different people with many different skillsets who care as passionately as I do about universal accessibility and equitability for all. Together, we can move the dial on making more visual journalism accessible.
+I’m really hoping by being able to work with these designers and developers, as well as with different people with many different skillsets who care as passionately as I do about universal accessibility and equitability for all. Together, we can move the dial on making more visual journalism accessible.
 
 Global news organizations are rightly alert to the need for diversity and proper representation amongst their staff and the content they create. However, there’s a huge mismatch in this awareness and how data is being collated and presented in an equitable way for all parts of a global audience. I’m hoping by highlighting the issue I’ll be able to help efforts address this mismatch.
 
