@@ -125,6 +125,12 @@
 			"biography": "Ilknur Eren is a Software Engineer and a writer currently residing in New Jersey. Ilknur is passionate about accessibility and sharing what she learns with others."
 		},
 		{
+			"name": "Johny Cassidy",
+			"first": "Johny",
+			"website": "https://www.linkedin.com/in/johny-cassidy-36150121/",
+			"biography": "My name is Johny Cassidy. I’m a BBC journalist by trade but also have a personal interest in digital accessibility. I’ve a huge passion for diversity and inclusion and believe strongly in the concept of inclusive design in everything we do as a society. It’s why I think more diversity is needed across all sectors. That lived experience is what will ensure all projects are being planned and carried out for the benefit of all. In October I’ll be undertaking a three-month Fellowship with the Reuters Institute for the Study of Journalism at Oxford University where I’ll be working on a project to build a framework which will see all BBC visual data journalism made more accessible for blind and partially sighted people."
+		},
+		{
 			"name": "Joseph Mawa",
 			"first": "Joseph",
 			"website": "https://github.com/nibble0101",
