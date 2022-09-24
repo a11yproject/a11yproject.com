@@ -3,7 +3,7 @@ title: Make an accessible &lt;nav&gt; with dropdowns
 description: Navigation is a critical part of any application, it allows people to complete journeys and find the information they need. So making it accessible is key.
 category: How-to
 author: James Bateson
-date: 2022-09-04
+date: 2022-09-24
 further_reading:
   - title: "Menus & Menu Buttons"
     url: https://inclusive-components.design/menus-menu-buttons/
@@ -26,6 +26,9 @@ further_reading:
   - title: "Cognitive accessibility"
     url: https://developer.mozilla.org/en-US/docs/Web/Accessibility/Cognitive_accessibility
     source: MDN Web Docs
+  - title: "Fable assisitve technology glossary"
+    url: https://makeitfable.com/glossary/
+    source: Fable
 thanks: "Anya Mueller, Alex Hall"
 tags:
   - howto
@@ -60,6 +63,8 @@ Here's the example markup that we'll build up throughout this article. It's wort
 ### Semantics
 
 The &lt;nav&gt; element will communicate a role of navigation-equal to setting `role="navigation"`, (this may still need to be added if needing to [support some assistive technology](https://a11ysupport.io/tech/aria/navigation_role)) meaning it can be easily navigated to by people with screen readers—as a landmark.
+
+**Note**: Assistive technologies are systems and services that can provide people with independance and help remove exlusions and the inability participate in society. For some examples [Fable has a glossay](https://makeitfable.com/glossary/) of terms and services and there is a [section of this site dedicated to articles related to assitive technology](https://www.a11yproject.com/posts/#assistive-technology).
 
 ### Best practices summarized
 
