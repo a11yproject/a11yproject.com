@@ -57,6 +57,13 @@
 			"biography": "Kevin is an inclusive design strategist, speaker, researcher, and mentor. He is the Director of Experience Technologies for Kin+Carta EU, and sits on the British Interactive Media Association's Inclusive Design Council."
 		},
 		{
+			"name": "Rachele DiTullio",
+			"first": "Rachele",
+			"website": "/spotlight/rachele-ditullio",
+			"photo": "/img/spotlight/rachele-ditullio.png",
+			"biography": "Rachele is an accessibility engineer who enjoys helping teams prevent accessibility problems by designing for people not like themselves while using semantic markup."
+		},
+		{
 			"name": "Want to nominate someone?",
 			"website": "{{ '/contact/' | url }}",
 			"photo": "/img/logos/maintainer.png",
