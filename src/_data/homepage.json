@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Kevin Mar-Molinero",
-			"role": "Director of Experience Technologies",
-			"description": "Kevin is an inclusive design strategist, speaker, researcher, and mentor. He is the Director of Experience Technologies for Kin+Carta EU, and sits on the British Interactive Media Association's Inclusive Design Council.",
-			"image": "kevin-mar-molinero.png",
-			"cta": "Meet Kevin"
+			"name": "Rachele DiTullio",
+			"role": "Accessibility engineer",
+			"description": "Rachele is an accessibility engineer who enjoys helping teams prevent accessibility problems by designing for people not like themselves while using semantic markup.",
+			"image": "rachele-ditullio.png",
+			"cta": "Meet Rachele"
 		}
 	]
 }
