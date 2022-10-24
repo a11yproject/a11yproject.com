@@ -36,7 +36,7 @@ There are a number of online tools to help those without color blindness visuali
 
 - [Color Safe: accessible color palettes based on WCAG Guidelines](http://colorsafe.co)
 - [Colorblind web page filter by Toptal](https://www.toptal.com/designers/colorfilter)
-- [I want to see like the colour blind Chrome extension](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia)
+- [Colorblindly Chrome extension](https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg)
 
 These tools are free, simple to use, and can quickly help you make color-accessible choices.
 
