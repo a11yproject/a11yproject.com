@@ -828,6 +828,18 @@
 			"url": "https://egghead.io/courses/start-building-accessible-web-applications-today"
 		},
 		{
+			"title": "Learn Accessibility",
+			"description": "An evergreen accessibility course and reference to level up your web development.",
+			"additional": "web.dev",
+			"url": "https://web.dev/learn/accessibility/"
+		},
+		{
+			"title": "Practical Accessibility",
+			"description": "A self-paced, get-right-down-to-it online video course for web designers and developers who want to start creating more accessible websites and applications today.",
+			"additional": "Sara Soueidan",
+			"url": "https://practical-accessibility.today/"
+		},
+		{
 			"title": "Start Building Accessible Web Applications Today",
 			"description": "This course will introduce you to accessibility through hands-on, technical examples that are way more effective than reading 10-year-old static web content.",
 			"additional": "egghead.io",
@@ -838,6 +850,12 @@
 			"description": "A series of five 5-minute tutorial videos hosted by Aquent Gymnasium that deal with introductory accessibility topics.",
 			"additional": "Aquent Gymnasium",
 			"url": "https://ethanmarcotte.com/wrote/takin-five/"
+		},
+		{
+			"title": "Testing Accessibility",
+			"description": "A self-paced workshop designed to teach you the principles and effective patterns of accessibility, from design to deployment.",
+			"additional": "Marcy Sutton",
+			"url": "https://testingaccessibility.com/"
 		},
 		{
 			"title": "The A11Y Collective",
