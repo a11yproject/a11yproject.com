@@ -76,6 +76,13 @@
 			"biography": "I help create straightforward solutions that address a person’s practical, physical, cognitive, and emotional needs using accessible, performant, device-agnostic technology."
 		},
 		{
+			"name": "Erik Kroes",
+			"first": "Erik",
+			"website": "https://www.erikKroes.nl/",
+			"photo": "{{ '/img/authors/erik-kroes.jpg' | url }}",
+			"biography": "🎉 Art, Web Accessibility & Design Systems 🎉"
+		},
+		{
 			"name": "Erik Runyon",
 			"first": "Erik",
 			"website": "https://erikrunyon.com/",
