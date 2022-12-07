@@ -1106,6 +1106,12 @@
 	],
 	"gaming": [
 		{
+			"title": "Accessibility and video games: All ages gaming for people with disabilities",
+			"description": "For people living with disabilities, accessibility doesn’t just mean how reachable something is — oftentimes, the level of accessibility can define their ability to interact with and participate in certain activities or events, including entertainment.",
+			"additional": "Verizon",
+			"url": "https://www.verizon.com/about/blog/video-game-accessibility"
+		},
+		{
 			"title": "Gaming Accessibility Fundamentals Learning Path",
 			"description": "An introductory course to accessibility in gaming and how to create inclusive gaming experiences.",
 			"additional": "Microsoft Xbox",
