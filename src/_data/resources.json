@@ -1106,6 +1106,12 @@
 	],
 	"gaming": [
 		{
+			"title": "Accessibility and video games: All ages gaming for people with disabilities",
+			"description": "For people living with disabilities, accessibility doesn’t just mean how reachable something is — oftentimes, the level of accessibility can define their ability to interact with and participate in certain activities or events, including entertainment.",
+			"additional": "Verizon",
+			"url": "https://www.verizon.com/about/blog/video-game-accessibility"
+		},
+		{
 			"title": "Gaming Accessibility Fundamentals Learning Path",
 			"description": "An introductory course to accessibility in gaming and how to create inclusive gaming experiences.",
 			"additional": "Microsoft Xbox",
@@ -1613,6 +1619,27 @@
 			"additional": "Steven Aquino and Timothy Buck",
 			"url": "https://www.timothybuck.me/accessible-episode-archive",
 			"type": "Podcast"
+		},
+		{
+			"title": "Command Z Podcast - Episodio 73: Adriana Mattei Sosa | Diseño Accesible (Spanish)",
+			"description": "Aprende sobre la diversidad de diseños del bastón, herramienta para personas con impedimento visual. Comprende cómo los diseñadores podemos crear experiencias inclusivas y centradas en el diseño universal. Escucha como la disciplina del diseño resuelve problemas que son desapercibidos ante la falta de educación y empatía hacia la comunidad con discapacidad.",
+			"additional": "Adriana Mattei Sosa",
+			"url": " https://podcasts.apple.com/us/podcast/episodio-86-ivonne-acevedo-accesibilidad-sin-barreras/id1464454956?i=1000514246627",
+			"type": "Episode"
+		},
+		{
+			"title": "Command Z Podcast - Episodio 77: Paula Goyanes | Accesibilidad & Development (Spanish)",
+			"description": "Escucha cómo crear diseños accesibles y cómo llevarlos a producción de una manera correcta. Aprende como el diseño y el development trabajan de la mano para crear experiencias accesibles.Conoce como hacer experiencias usables y accesibles incluso para motores de búsqueda y mejorar tu SEO.",
+			"additional": "Paula Goyanes",
+			"url": " https://podcasts.apple.com/us/podcast/episodio-77-paula-goyanes-accesibilidad-development/id1464454956?i=1000505332708",
+			"type": "Episode"
+		},
+		{
+			"title": "Command Z Podcast - Episodio 73: Adriana Mattei Sosa | Diseño Accesible",
+			"description": "Aprende sobre la diversidad de diseños del bastón, herramienta para personas con impedimento visual. Comprende cómo los diseñadores podemos crear experiencias inclusivas y centradas en el diseño universal. Escucha como la disciplina del diseño resuelve problemas que son desapercibidos ante la falta de educación y empatía hacia la comunidad con discapacidad.",
+			"additional": "Adriana Mattei Sosa",
+			"url": "https://podcasts.apple.com/us/podcast/episodio-73-adriana-mattei-sosa-dise%C3%B1o-accesible/id1464454956?i=1000500357583",
+			"type": "Episode"
 		},
 		{
 			"title": "Document Accessibility Unraveled",
