@@ -2,6 +2,8 @@
 // http://github.com/cferdinandi/table-of-contents
 .v-toc {
 	margin-right: 2rem;
+	position: relative;
+	z-index: z(component);
 
 	// States
 	&[open] {
