@@ -394,6 +394,20 @@ templateClass: template-resources
 		{% endfor %}
 	</div>
 
+	{% set resourceType = "Employment" %}
+	<h3 id="employment" class="c-heading-medium u-spacing-top-long">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Resources for finding accessibility jobs.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.employment %}
+		{% for resource in resource %}
+			{% include "card/resource.njk" %}
+		{% endfor %}
+	</div>
+
 	{% set resourceType = "Meetups" %}
 	<h3 id="meetups" class="c-heading-medium u-spacing-top-long">
 		{{ resourceType }}
