@@ -2091,6 +2091,12 @@
 			"url": "https://www.a11yjobs.com/"
 		},
 		{
+			"title": "Applying for a job with a disability or impairment",
+			"description": "Combatting discrimination when entering the job market",
+			"additional": "Marlijn van der Bok",
+			"url": "https://resume.io/blog/applying-for-a-job-with-a-disability"
+		},
+		{
 			"title": "a11y_styled_form_controls",
 			"description": "A repository of styled and “styled” form control elements and markup patterns, and how they are announced by screen readers.",
 			"additional": "Scott O'Hara",
