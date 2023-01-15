@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Rachele DiTullio",
-			"role": "Accessibility engineer",
-			"description": "Rachele is an accessibility engineer who enjoys helping teams prevent accessibility problems by designing for people not like themselves while using semantic markup.",
-			"image": "rachele-ditullio.png",
-			"cta": "Meet Rachele"
+			"name": "Gertrude Nyenyeshi ",
+			"role": "Frontend Engineer",
+			"description": "Gertrude is a Frontend Engineer who is passionate about building accessible and inclusive user interfaces for a wide range of users. She is the Founder of Accessibility Africa, championing the advancement of digital accessibility in the African continent.",
+			"image": "gertrude-nyenyeshi.png",
+			"cta": "Meet Gertrude"
 		}
 	]
 }
