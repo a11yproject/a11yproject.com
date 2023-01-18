@@ -1042,6 +1042,12 @@
 			"url": "https://paypal.github.io/bootstrap-accessibility-plugin/"
 		},
 		{
+			"title": "Guidepup",
+			"description": "Screen reader driver for test automation.",
+			"additional": "Craig Morten",
+			"url": "https://github.com/guidepup/guidepup/"
+		},
+		{
 			"title": "Pa11y",
 			"description": "Pa11y is your automated accessibility testing pal.",
 			"additional": "Pa11y",
