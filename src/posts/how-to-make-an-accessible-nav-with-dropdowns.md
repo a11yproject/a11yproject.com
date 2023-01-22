@@ -44,7 +44,7 @@ Here's the example markup that we'll build up throughout this article. It's wort
 
 ### Semantics
 
-The <code>&lt;nav&gt;</code> element will communicate a role of navigation-equal to setting `role="navigation"`, (this may still need to be added if needing to [support some assistive technology](https://a11ysupport.io/tech/aria/navigation_role)) meaning it can be easily navigated to by people with screen readers—as a landmark.
+The <code>&lt;nav&gt;</code> element will communicate a role of navigation-equal to setting `role="navigation"`, meaning it can be easily navigated to by people with screen readers—as a landmark.
 
 ### Best practice
 
