@@ -209,6 +209,8 @@ The `aria-expanded` attribute can be used to communicate whether a toggle contro
 
 A common navigation design will see the currently active page link visually different in some way, indicating to the person which page they are on. But this isn't helpful for people who may not be able to see this distinction. The `aria-current` attribute can be used to inform assistive technology that a link is the current page. `aria-current` accepts a set list of values, the most suitable for the main navigation item would be `aria-current='page'`.
 
+Using ARIA attributes as styling hooks can also be a helpful strategy in ensuring that we don't omit helpful or necessary accessibility semantics. [Ben Myers wrote this excellent post](https://benmyers.dev/blog/semantic-selectors/) (including an example for the `aria-current` scenario mentioned in the previous paragraph). The idea is, as well as not having two separate attributes to handle (a toggled class and an attribute), you're also considering accessibility upfront and ensuring that's part of the visual experience as well as benefits for assistive technology.
+
 ## Skip links
 
 Although not technically required to make accessible navigation, making sure your site has a [skip link](https://www.a11yproject.com/posts/skip-nav-links/) that can be set to bypass the main site navigation is a handy usability feature. It allows someone to skip repeated site areas, such as the main navigation, so someone using assistive technology does not need to traverse this repetitive content on every page.
@@ -234,4 +236,4 @@ Local navigation can help people understand where they are, and what content mig
 
 **Note**: Be wary of changing how navigation appears and functions across multiple pages, predictability can be an important part of [cognitive accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Cognitive_accessibility).
 
-## Summary
+## In summary
