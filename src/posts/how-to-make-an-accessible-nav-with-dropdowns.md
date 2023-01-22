@@ -236,4 +236,12 @@ Local navigation can help people understand where they are, and what content mig
 
 **Note**: Be wary of changing how navigation appears and functions across multiple pages, predictability can be an important part of [cognitive accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Cognitive_accessibility).
 
-## In summary
+## Summary
+
+Navigation provides consistent and cirtical paths for peple to navigate to important information they need to find. There's making sure it is accessible and inclusive is vital.
+
+Overly complex ARIA solutions are not needed to acheive this. The <code>&lt;nav&gt;</code> landmark element provides a natively accessible way to mark up an area of navigation. Carefully considered ARIA can then be added to enhance the expereince for assistive technology users, not defnie and control it, for example the active page and accessible name.
+
+If havigation requires dropdowns to provide mutiple nested levels of pages, again, semantic HTML can be used to nest `<ul>` or `<ol>` elements. As long as these dropdows are visually and programatically hidden from people until they choose to see navigate them. Again ARIA can be used to enhance these native semantics but announcing if the parent link/button toggle is expanded or collapsed, and in some screen reader cases, which element it controls.
+
+With designers and developers working collaborativly to remove extra complexity from navigations (even with dropdowns) semantic, accessible HTML can be used to remove the need for inaccessible navigation solutions, that could create barriers for people trying to complete important journeys.
