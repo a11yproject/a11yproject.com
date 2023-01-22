@@ -158,9 +158,9 @@ A parent link for a dropdown generally will still need to keep its functionality
 
 ### Tip 5: Showing/hiding the dropdown
 
-To hide elements such as sub-menus from assistive technology, you should not rely on `opacity`. Although visually hidden, it would still allow the dropdown to be discoverable via assistive technology. To ensure that dropdowns are hidden until people choose to access that sub-navigation, consider toggling the `display: none;` or `visibility: hidden;` properties.
-
 When the navigation dropdown is closed, it's important to ensure the nested links are not visible to assistive technology. For example, people using a keyboard cannot tab to the links—this can lead to confusion on where their focus is on the page.
+
+To hide elements such as sub-menus from assistive technology, you should not rely on `opacity`. Although visually hidden, it would still allow the dropdown to be discoverable via assistive technology. To ensure that dropdowns are hidden until people choose to access that sub-navigation, consider toggling the `display: none;` or `visibility: hidden;` properties.
 
 ## What about ARIA?
 
