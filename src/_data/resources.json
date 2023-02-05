@@ -2135,6 +2135,12 @@
 			"url": "https://github.com/agnosticui/a11y-tabs"
 		},
 		{
+			"title": "a11y-webring.club",
+			"description": "A webring for digital accessibility practitioners.",
+			"additional": "Eric Bailey",
+			"url": "https://a11y-webring.club/"
+		},
+		{
 			"title": "Aaron Cannon’s Web Accessibility Checklist",
 			"description": "PDF accessibility checklist.",
 			"additional": "Cameron Moll",
