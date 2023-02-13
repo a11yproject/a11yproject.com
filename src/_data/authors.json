@@ -173,11 +173,18 @@
 			"biography": "Independent web developer and accessibility specialist. Camera-toting hiker, biker, pie baker."
 		},
 		{
+			"name": "Martin Lexelius ",
+			"first": "Martin",
+			"website": "http://www.lexelius.se/hello/",
+			"photo": "{{ '/img/authors/martin-lexelius .jpg' | url }}",
+			"biography": "Accessibility developer in Stockholm 🇸🇪. Occasional speaker and writer."
+		},
+		{
 			"name": "Mat Marquis",
 			"first": "Mat",
 			"website": "https://hire.wil.to/",
 			"photo": "https://avatars1.githubusercontent.com/u/439942?s=460&v=4",
-			"biography": " My name is Mat “Wilto” Marquis, and I make websites. I’m an independent consultant. My specialization is inclusive web development."
+			"biography": "My name is Mat “Wilto” Marquis, and I make websites. I’m an independent consultant. My specialization is inclusive web development."
 		},
 		{
 			"name": "Matthew Higgins",
