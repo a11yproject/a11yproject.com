@@ -105,9 +105,9 @@ Do consider if you can use [alternatives to modals](https://community.appway.com
 
 People will say “autocomplete” but generally mean autosuggest.
 
-<strongAutocomplete</strong> comes out of the box with HTML. It will make suggestions based on values the user has previously entered and submitted in similar form fields, like names and email addresses. Very useful. Do use it, follow this [excellent autocomplete guide from MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete).
+<strong>Autocomplete</strong> comes out of the box with HTML. It will make suggestions based on values the user has previously entered and submitted in similar form fields, like names and email addresses. Very useful. Do use it, follow this [excellent autocomplete guide from MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete).
 
-<strongAutosuggest/<strong>, however, is different. It looks like an autocomplete by displaying a list of suggestions as the user types. But the suggestions are compiled from a data source, not the user’s previous entries.
+<strong>Autosuggest</strong>, however, is different. It looks like an autocomplete by displaying a list of suggestions as the user types. But the suggestions are compiled from a data source, not the user’s previous entries.
 
 The data source can be a known and static scope like countries and cities, or a wide and dynamic scope like saved overall website searches.
 
