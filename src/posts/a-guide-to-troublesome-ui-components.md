@@ -10,7 +10,7 @@ tags:
 
 A common opinion is that accessibility is expensive, and that if you think accessibility is expensive, you can deal with it later.
 
-Here’s the twist: it <strong>will</strong> be expensive if you deal with it later.However, accessibility is not expensive if you discuss it as a team early in the process.
+Here’s the twist: it <strong>will</strong> be expensive if you deal with it later. However, accessibility is not expensive if you discuss it as a team early in the process.
 
 It is possible to build just about anything, it comes down to time and money. But no client ever has said, “Hey, we have a lot of time and money!” Accessibility is not expensive if you proactively plan for it. That’s why you need to learn how to avoid some of the common pitfalls.
 
