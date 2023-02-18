@@ -275,6 +275,13 @@
 			"website": "/contribute/",
 			"photo": "/img/logos/maintainer.png",
 			"biography": "Got an idea for an post? Get in touch!"
+		},
+		{
+			"name": "Peter Njuguna",
+			"first":"Peter",
+			"website":"https://github.com/peternjugunamwaura",
+			"photo": "https://drive.google.com/file/d/1X8IERn1PHiLSLVPbseG6HeRF3_vwgqgK/view?usp=sharing",
+			"biography": "Accessibility Analyst at Technoprise Global. I am also a native Android developer who loves kotlin"
 		}
 	]
 }
