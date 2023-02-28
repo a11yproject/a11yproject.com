@@ -465,6 +465,19 @@
 			]
 		},
 		{
+			"title": "Dark Reader",
+			"description": "This eye-care extension enables night mode by creating dark themes for websites on the fly. Dark Reader inverts bright colors, making them high contrast and easy to read at night.",
+			"additional": "Dark Reader Ltd.",
+			"url": "https://darkreader.org/",
+			"browsers": [
+				"Chrome",
+				"Edge",
+				"Firefox",
+				"Safari",
+				"iOS Safari"
+			]
+		},
+		{
 			"title": "Fix Contrast",
 			"description": "Automatically fixes contrast issue on websites to a specifix contrast ratio.",
 			"additional": "Fixa11y",
