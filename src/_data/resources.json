@@ -500,15 +500,6 @@
 			]
 		},
 		{
-			"title": "NoCoffee",
-			"description": "NoCoffee can be helpful for understanding the problems faced by people with slight to extreme vision problems.",
-			"additional": "artbek",
-			"url": "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl",
-			"browsers": [
-				"Chrome"
-			]
-		},
-		{
 			"title": "Skip to Landmarks and Headings",
 			"description": "Provides keyboard access to landmark regions and headings (h1–h6) on a web page.",
 			"additional": "Nicholas Hoyt",
