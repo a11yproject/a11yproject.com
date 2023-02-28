@@ -44,7 +44,10 @@ Once you have met [the prerequisites](#requirements), follow these steps to inst
 
 ### Running the website
 
-After cloning and installing project Node.js modules, type `npm start` into your command line application. This will tell Node.js to compile the project and turn it into a website.
+After cloning and installing project Node.js modules, you will need to tell Node.js to compile the project and turn it into a website. To do this:
+
+- **macOS and Linux:** Type `npm start` into your command line application.
+- **Windows:** Type `npm run eleventy-watch & npm run gulp-watch` into your command line application.
 
 Your command line application will then display some information about Eleventy, including a line that starts with `Local:`. You can copy the URL it points to (it should read something like [`http://localhost:3000`](http://localhost:3000)) and paste it into a browser tab. This will load a local copy of the website that you can interact with to preview your changes.
 
