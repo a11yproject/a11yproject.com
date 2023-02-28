@@ -1499,6 +1499,12 @@
 			"url": "https://www.a11yproject.com/newsletter/"
 		},
 		{
+			"title": "Accessible Mobile Apps Weekly",
+			"description": "News from the accessibility community, links to developer tools and frameworks, and more.",
+			"additional": "Robin Kanatzar",
+			"url": "https://accessible-mobile-apps-weekly.ghost.io/"
+		},
+		{
 			"title": "Accessibility Weekly",
 			"description": "A weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday.",
 			"additional": "David A. Kennedy",
