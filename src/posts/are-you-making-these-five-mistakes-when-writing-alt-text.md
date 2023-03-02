@@ -32,7 +32,7 @@ Their overall advice? Describe what you see.
 I thought that I finally understood it.
 
 
-## But sometimes, it’s simplicity that kills
+## Sometimes it is simplicity that kills
 
 When you ask them, most experts’ advice also boils down to: Describe what you see. And while it’s valid advice and may seem simple, it’s not.
 
@@ -51,7 +51,7 @@ Take the Udacity example earlier: Is this suitable alt text?
 
 If you close your eyes and someone reads out the words “eating apple heart disease” to you, does that in any way help you make sense of what’s in the image?
 
-### What about this example?
+What about this example?
 
 <figure
 	role="figure"
@@ -83,7 +83,7 @@ Then two weeks ago, [I watched Tommy Walker, an ex-Shopify senior content market
 	</figcaption>
 </figure>
 
-Ironically, the article was arguing for accessibility. But it made the point clearer. And for the first time, it dawned on me that I’ve been writing alt text the wrong way.
+Notice that the alt text does not communicate <strong>what the audit results are</strong>. Ironically, the article was arguing for accessibility. But it made the point clearer. And for the first time, it dawned on me that I’ve been writing alt text the wrong way.
 
 This got me curious, so I started researching:
 
@@ -98,8 +98,8 @@ Here’s what I learned and what I’m now applying to the articles I write:
 
 First, to clarify:
 
-- An [`alt` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#alt) is HTML syntax, and
-- Alt text is the description enclosed between the alt attribute's quotes.
+1. An [`alt` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#alt) is HTML syntax, and
+1. Alt text is the description enclosed between the alt attribute's quotes.
 
 All images need an `alt` attribute, but not all images need alt text. These are two different things, so do not mix them up.
 
@@ -121,7 +121,7 @@ Following is an overview of different types of images, and how to best describe 
 
 Decorative images' only value is aesthetic. If they are removed, the webpage would still make perfect sense.
 
-Some examples are website banners that have no text in them and other design elements. You should omit the description for this type of image, but always include an empty alt attribute.
+Some examples are website banners that have no text in them and other design elements. You should omit the description for this type of image, but always include an empty `alt` attribute.
 
 ```html
 <!-- Sample decorative image -->
@@ -147,9 +147,9 @@ A few examples are graphs, diagrams, poll results, and product screenshots. Pay 
 
 Active images are used to perform actions such as signing up, downloading, listening, uploading etc.
 
-They are mainly links and buttons. When writing alt text for these kinds of images, avoid terms like "Click here" or "Download".
+They are mainly links and buttons. When writing alt text for these kinds of images, avoid terms like "Click here".
 
-Instead, use descriptions like, "Sign up for a Twitter account", "Go to the account’s page", "Upload your national identity card", and so on.
+Instead, use descriptions like, "Sign up for a Twitter account", "Go to the account page", "Upload your national identity card", and so on.
 
 ```html
 <!-- Sample active image -->
@@ -160,15 +160,18 @@ Instead, use descriptions like, "Sign up for a Twitter account", "Go to the acco
 
 ## 2. Context matters
 
-Alt text should concisely and accurately describe the image's content.
+Alt text should concisely and accurately describe the image's content. If you have an overall point to make, let the surrounding text content communicate it.
 
 <img
 	alt="A used car dealership. Many modern cars are lined up in neat rows. The asphalt of the lot has cracks in it."
 	src="/img/posts/are-you-making-these-five-mistakes-when-writing-alt-text/car-lot.jpg" />
 
-If you have an overall point to make, let the surrounding text content communicate it.
+For example, this image could be used for:
 
-For example, this image could be used for a piece about a scammy used car lot, a hero image for a commercial real estate listing, or be featured on a political campaign promising commercial revitalization.
+- Helping to identify a business listing,
+- An exposé about an unscrupulous used car business,
+- A commercial real estate listing, or
+- A political campaign promising commercial revitalization.
 
 It is up to the reader to decide how they feel about something, and alt text helps provide them the full context of the story.
 
@@ -192,35 +195,35 @@ Instead, use the extra characters to convey information better.
 	</figcaption>
 </figure>
 
-I love the simplicity of the next one.
+I love the simplicity of the next one:
 
 <figure
 	role="figure"
-	aria-label="I think this is nice.">
+	aria-label="This is nice.">
 	<img
 		alt="Cropped screenshot of the CoSchedule's website where the images have failed to load. Above the images is a heading which reads, '30,000 marketers start their day with CoSchedule'. There are eight broken images present, but the alt text values are visible. The alt text reads, 'Forbes', 'Yamaha', 'Unicef', 'Vericast', 'Walgreens', 'Dictionary.com', 'P&G', and 'Schwans'."
 		src="/img/posts/are-you-making-these-five-mistakes-when-writing-alt-text/broken-images.png" />
 	<figcaption>
-		 I think this is nice.
+		 This is nice.
 	</figcaption>
 </figure>
 
 
-## 4. Write them as simple sentences, and include punctuation
+## 4. Write alt text as simple sentences
 
 A dark practice among search-engine optimizers is stuffing their target keywords into their images’ alt text. This is a terrible user experience.
 
 The shocking reality?
 
-Google’s John Muller [has repeatedly said that alt attributes don’t affect normal Google search](https://twitter.com/JohnMu/status/1507768571086217225).
+Google’s John Muller [has repeatedly said that `alt` attributes don’t affect normal Google search](https://twitter.com/JohnMu/status/1507768571086217225).
 
 Besides that, if you think that you need to stuff your alt attributes with keywords, you’re starting on the wrong foot and Google is coming for you—just like it did for Overstock, BMW, and even Google Japan.
 
 Screen readers like JAWS and NVDA read alt text aloud a lot like the way that we read sentences aloud. So you should format your descriptions as regular sentences with proper punctuation and spelling.
 
-There is no one formula for how long alt text should be. You should concisely describe all important and relevant details present in the image.
+There is [no one formula for how long alt text should be](https://yatil.net/blog/there-is-no-character-limit-for-alt-text). You should concisely and accurately describe all important and relevant details present in the image.
 
-In the rare cases where you need to describe a complicated graphic such as a chart or graph from a complex research study, consider following [the W3C tutorial for dealing with complex images](https://www.w3.org/WAI/tutorials/images/complex/). Note that [the `longdesc` method is no longer valid](https://caniuse.com/mdn-html_elements_img_longdesc), however (reference the link's Notes section).
+In the cases where you need to describe a complicated graphic such as a chart or graph from a research study, consider following [the W3C tutorial for dealing with complex images](https://www.w3.org/WAI/tutorials/images/complex/). Note that [the `longdesc` method is no longer valid](https://caniuse.com/mdn-html_elements_img_longdesc), however (reference the link's Notes section).
 
 
 
@@ -231,11 +234,13 @@ Copying captions verbatim into alt text is a popular practice in e-commerce beca
 This is because screen readers end up repeating the same words. Imagine this happening for two, three, or even five images and you can quickly see how the experience goes downhill for people with disabilities.
 
 <a class="u-hide-visually" href="#video-skip-target">Skip YouTube embed</a>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dEbl5jvLKGQ" title="YouTube: Screen Reader Demo for Digital Accessibility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video--16-9">
+	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dEbl5jvLKGQ" title="YouTube: Screen Reader Demo for Digital Accessibility" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <p id="video-skip-target">Captions and alt text serve a different purpose. Captions are typically used to add details such as photo credit and copyright information. Alt text should describe the image’s meaning in the context of the article instead.</p>
 
-You can omit captions, but the same can’t be said for alt attributes.
+You can omit captions, but the same can’t be said for `alt` attributes.
 
 
 ## Writing alt text might at first feel overwhelming or unproductive
@@ -258,7 +263,7 @@ On some sites, a third of their traffic comes from Google Images. Doing alt text
 
 While it can feel like there’s much to learn just to make your website accessible, my advice is to not overwhelm yourself. Instead, take it step-by-step, and understand the basic purposes of alt text, which are:
 
-1. Making it easier for screen readers to accurately describe images to their users,
+1. Making it easier for screen readers to accurately describe images to the people who rely on them,
 1. Appearing in place of the image if it fails to load, and
 1. Helping search engines understand the graphics on your website.
 
