@@ -34,9 +34,10 @@ This article is an introduction to TalkBack version 13.1. We will walk you throu
 ## Getting Started
 
 There are three ways to activate Talkback:
-1. From the settings menu: Accessibility > TalkBack > Toggle On
+
+1. From the settings menu: **Accessibility** > **TalkBack** > **Toggle On**
 2. On the physical device: Press and hold both volume keys for three seconds
-3. Via the Google Assistant: "Hey, Google. Turn on TalkBack"
+3. Via the [Google Assistant](https://assistant.google.com/): "Hey, Google. Turn on TalkBack"
 
 Once TalkBack is on, it will begin speaking instructions to you. While there are more robust features to explore, the basic commands you should know are:
 
