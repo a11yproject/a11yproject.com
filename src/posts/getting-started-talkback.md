@@ -52,7 +52,9 @@ There are at least three recognized ways to navigate with TalkBack: touch, swipe
 
 ### Navigating by touch
 
-To navigate by touch, touch anywhere on the screen, selecting any element. It will be highlighted by a green border box similar to what you would find when using a keyboard to navigate a web page. With pressure still applied, slowly drag your finger around the screen. As you move around the screen, TalkBack will jump to the next available item and announce its contents aloud. Once you've found the content you'd like to interact with, double-tap the screen.
+To navigate by touch, touch anywhere on the screen, selecting any element. It will be highlighted by a green border box similar to what you would find when using a keyboard to navigate a web page. 
+
+With pressure still applied, slowly drag your finger around the screen. As you move around the screen, TalkBack will jump to the next available item and announce its contents aloud. Once you've found the content you'd like to interact with, double-tap the screen.
 
 ### Navigting by swiping
 
