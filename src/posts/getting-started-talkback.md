@@ -22,7 +22,8 @@ tags:
 
 TalkBack is assistive technology that helps users with visual disabilities access native mobile applications and the web by providing audible and haptic responses to touchscreen gestures. It is the default screen reader software included on Google touchscreen devices running the Android operating system.
 
-As of 2017, TalkBack is part of a family of software products in the Android Accessibility Suite including:
+As of 2017, TalkBack is part of a family of software products in the [Android Accessibility Suite](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US&gl=US&pli=1) including:
+
 - Accessibility Menu
 - Select to Speak
 - Switch Access
