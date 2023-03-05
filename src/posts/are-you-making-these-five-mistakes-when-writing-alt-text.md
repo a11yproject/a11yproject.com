@@ -127,7 +127,7 @@ Some examples are website banners that have no text in them and other design ele
 <!-- Sample decorative image -->
 <img
   alt=""
-  source="decorative-banner.png" />
+  src="decorative-banner.png" />
 ```
 
 #### Informative images
@@ -140,7 +140,7 @@ A few examples are graphs, diagrams, poll results, and product screenshots. Pay 
 <!-- Sample informative image -->
 <img
   alt="A small, black, compact digital camera."
-  source="product-photo.png" />
+  src="product-photo.png" />
 ```
 
 #### Active images
@@ -155,7 +155,7 @@ Instead, use descriptions like, "Sign up for a Twitter account", "Go to the acco
 <!-- Sample active image -->
 <img
   alt="Upload resume."
-  source="upload-prompt.png" />
+  src="upload-prompt.png" />
 ```
 
 ## 2. Context matters
