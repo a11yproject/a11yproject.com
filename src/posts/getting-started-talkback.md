@@ -79,4 +79,6 @@ Move two fingers up or down the screen | Scrolls up or down the content
 Quickly flick up or down | Changes the read aloud speed
 Use one finger to swipe down and right | Opens the TalkBack Menu
 
+## Wrapping up
+
 You can start using TalkBack and your new skills right now! Get a feel for how these commands work in real life by navigating [A11yProject.com](https://www.a11yproject.com/) with TalkBack turned on.
