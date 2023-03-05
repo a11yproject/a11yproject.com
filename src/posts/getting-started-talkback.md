@@ -64,7 +64,9 @@ Selected items will be read aloud by TalkBack in the order they appear. Double-t
 
 ### Navigating by voice command
 
-In addition to touch controls, TalkBack supports some voice commands. To activate voice commands, using one finger, swipe down and right. This will open the TalkBack Menu. Select voice commands from the list to open a prompt with more information about specific commands you can use to navigate the page with just your voice.
+In addition to touch controls, TalkBack supports some voice commands. To activate voice commands, using one finger, swipe down and right. 
+
+This gesture will open the TalkBack Menu. Select voice commands from the list to open a prompt with more information about specific commands you can use to navigate the page with just your voice.
 
 ## Basic TalkBack Commands
 
