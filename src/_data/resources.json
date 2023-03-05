@@ -37,6 +37,11 @@
 			"url": "http://dboudreau.tumblr.com/"
 		},
 		{
+			"title": "Accessibility Made Easy",
+			"description": "Accessibility Made Easy is a not-for-profit who’s aim is to create a more accessible world. We believe that every person, no matter the ability or environment, should be able to access the same information as everyone else.",
+			"url": "https://www.accessibilityeasy.com/blog"
+		},
+		{
 			"title": "Accessibility Matters",
 			"description": "Documenting everything through the journey of learning web accessibility.",
 			"url": "https://www.a11ymatters.com/"
@@ -465,6 +470,19 @@
 			]
 		},
 		{
+			"title": "Dark Reader",
+			"description": "This eye-care extension enables night mode by creating dark themes for websites on the fly. Dark Reader inverts bright colors, making them high contrast and easy to read at night.",
+			"additional": "Dark Reader Ltd.",
+			"url": "https://darkreader.org/",
+			"browsers": [
+				"Chrome",
+				"Edge",
+				"Firefox",
+				"Safari",
+				"iOS Safari"
+			]
+		},
+		{
 			"title": "Fix Contrast",
 			"description": "Automatically fixes contrast issue on websites to a specifix contrast ratio.",
 			"additional": "Fixa11y",
@@ -497,15 +515,6 @@
 				"Chrome",
 				"Firefox",
 				"Opera"
-			]
-		},
-		{
-			"title": "NoCoffee",
-			"description": "NoCoffee can be helpful for understanding the problems faced by people with slight to extreme vision problems.",
-			"additional": "artbek",
-			"url": "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl",
-			"browsers": [
-				"Chrome"
 			]
 		},
 		{
@@ -801,7 +810,7 @@
 			"title": "Accessibility Courses",
 			"description": "Courses, webinars, educational videos, and more, offered in web accessibility.",
 			"additional": "Mike Gifford",
-			"url": "https://github.com/mgifford/a11y-courses"
+			"url": "https://github.com/accessibility/a11y-courses"
 		},
 		{
 			"title": "Accessibility fundamentals",
@@ -1493,6 +1502,12 @@
 			"description": "A summary of the links The A11Y Project shares on Twitter throughout the week. Shared weekly on Fridays.",
 			"additional": "The A11Y Project",
 			"url": "https://www.a11yproject.com/newsletter/"
+		},
+		{
+			"title": "Accessible Mobile Apps Weekly",
+			"description": "News from the accessibility community, links to developer tools and frameworks, and more.",
+			"additional": "Robin Kanatzar",
+			"url": "https://accessible-mobile-apps-weekly.ghost.io/"
 		},
 		{
 			"title": "Accessibility Weekly",

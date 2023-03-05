@@ -41,6 +41,13 @@
 			"biography": "Cooper (he/him) leads an award-winning accessibility team at Recreational Equipment, Inc. He's an empathetic problem solver, talented storyteller, and persistent community builder. When he's not working on accessibiltiy, you can find him playing video games, biking, running, skiing and supporting local businesses."
 		},
 		{
+			"name": "Daniel Sage",
+			"first": "Daniel",
+			"website": "https://switchandretain.com/blog/",
+			"photo": "https://www.a11yproject.com/img/authors/daniel-sage.jpg",
+			"biography": " help B2B Saas Startups increase their revenue by becoming better at selling and making products people will buy through Customer Research and Copywriting."
+		},
+		{
 			"name": "Dave Rupert",
 			"first": "Dave",
 			"website": "https://daverupert.com/",
@@ -173,11 +180,18 @@
 			"biography": "Independent web developer and accessibility specialist. Camera-toting hiker, biker, pie baker."
 		},
 		{
+			"name": "Martin Lexelius ",
+			"first": "Martin",
+			"website": "http://www.lexelius.se/hello/",
+			"photo": "{{ '/img/authors/martin-lexelius .jpg' | url }}",
+			"biography": "Accessibility developer in Stockholm 🇸🇪. Occasional speaker and writer."
+		},
+		{
 			"name": "Mat Marquis",
 			"first": "Mat",
 			"website": "https://hire.wil.to/",
 			"photo": "https://avatars1.githubusercontent.com/u/439942?s=460&v=4",
-			"biography": " My name is Mat “Wilto” Marquis, and I make websites. I’m an independent consultant. My specialization is inclusive web development."
+			"biography": "My name is Mat “Wilto” Marquis, and I make websites. I’m an independent consultant. My specialization is inclusive web development."
 		},
 		{
 			"name": "Matthew Higgins",

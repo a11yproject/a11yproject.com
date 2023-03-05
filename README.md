@@ -18,7 +18,7 @@ This `README` is focused on the technical side of the project. If you are intere
 
 The A11Y Project uses [Eleventy](https://www.11ty.io/) to manage its content. Eleventy relies on [Markdown](https://daringfireball.net/projects/markdown/syntax), [Sass](https://sass-lang.com/), [Nunjucks](https://mozilla.github.io/nunjucks/), and [JSON](https://www.json.org/) to function.
 
-It may be helpful to familiarize yourself with these technologies, depending on what you want to do. For more information, check our our [Contributor documentation](https://a11yproject.com/contributing-guidelines/).
+It may be helpful to familiarize yourself with these technologies, depending on what you want to do. For more information, check out our [Contributor documentation](https://a11yproject.com/contributing-guidelines/).
 
 ### Requirements
 
@@ -38,13 +38,16 @@ You'll need access to the following programs and technology in order to get the 
 
 Once you have met [the prerequisites](#requirements), follow these steps to install the website on your computer:
 
-1. Clone this repository by entering this command into your command line application: `git clone https://github.com/a11yproject/a11yproject.com.git`. It will create a version controlled copy of the website in the directory you entered the command in.
+1. Clone this repository by entering this command into your command line application: `git clone https://github.com/a11yproject/a11yproject.com.git`. It will create a version-controlled copy of the website in the directory you entered the command in.
 1. Navigate into the project's [root directory](https://en.m.wikipedia.org/wiki/Root_directory) by typing `cd a11yproject.com` in your command line application.
 1. Install the project's Node.js modules by typing `npm install` into your command line application. A list of these modules should be displayed after they are downloaded and installed.
 
 ### Running the website
 
-After cloning and installing project Node.js modules, type `npm start` into your command line application. This will tell Node.js to compile the project and turn it into a website.
+After cloning and installing project Node.js modules, you will need to tell Node.js to compile the project and turn it into a website. To do this:
+
+- **macOS and Linux:** Type `npm start` into your command line application.
+- **Windows:** Type `npm run eleventy-watch & npm run gulp-watch` into your command line application.
 
 Your command line application will then display some information about Eleventy, including a line that starts with `Local:`. You can copy the URL it points to (it should read something like [`http://localhost:3000`](http://localhost:3000)) and paste it into a browser tab. This will load a local copy of the website that you can interact with to preview your changes.
 
