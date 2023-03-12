@@ -536,10 +536,28 @@
 			]
 		},
 		{
+			"title": "Text Spacing Editor",
+			"description": "This extension allows you to set custom values for the following text spacing properties: Line height, letter spacing, word spacing, and paragraph spacing.",
+			"additional": "zmrhal.j",
+			"url": "https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj/",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
 			"title": "WAVE Evaluation Tool",
 			"description": "WAVE is a web accessibility evaluation tool developed by WebAIM. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page.",
 			"additional": "WebAIM",
 			"url": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
+			"title": "Web Disability Simulator",
+			"description": "The Web Disability Simulator lets you experience how people with different disabilities or inadequate abilities perceive a web site. Simulate color blindness, low vision, dyslexia and more.",
+			"additional": "Metamatrix",
+			"url": "https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla/",
 			"browsers": [
 				"Chrome"
 			]
@@ -1072,7 +1090,7 @@
 			"title": "Sa11y",
 			"description": "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y indicates errors or warnings at the source with a simple tooltip on how to fix.",
 			"additional": "Ryerson University",
-			"url": "https://ryersondmp.github.io/sa11y/"
+			"url": "https://sa11y.netlify.app/"
 		},
 		{
 			"title": "Sublime WAI-ARIA Package",
