@@ -42,9 +42,10 @@ There are three ways to activate Talkback:
 
 Once TalkBack is on, it will begin speaking instructions to you. While there are more robust features to explore, the basic commands you should know are:
 
-- Tapping the screen selects an item
-- Double tapping the screen activates your selection
-- When using a gesture, TalkBack requires you use 2 fingers instead of one
+- Tapping the screen selects an item, and
+- Double tapping the screen activates your selection.
+
+TalkBack also makes use of single finger, two finger, and three finger gestures to perform additional actions.
 
 ## Navigation Modes
 
@@ -56,11 +57,13 @@ To navigate by touch, touch anywhere on the screen, selecting any element. It wi
 
 With pressure still applied, slowly drag your finger around the screen. As you move around the screen, TalkBack will jump to the next available item and announce its contents aloud. Once you've found the content you'd like to interact with, double-tap the screen.
 
-### Navigting by swiping
+### Navigating by swiping
 
-Navigating by swiping can provide a more precise experience. To navigate in this way, select an initial item by tapping on the screen. Then, with one finger, move up and down the screen in a vertical motion.
+Navigating by swiping can provide a more precise experience. To navigate in this way, select an initial item by tapping on the screen. Then, with one finger, move left and right on the screen to move to the previous or next item.
 
 Selected items will be read aloud by TalkBack in the order they appear. Double-tap the screen once you've found the content you'd like to interact with.
+
+Swiping gestures may also be customized in TalkBack's preferences.
 
 ### Navigating by voice command
 
