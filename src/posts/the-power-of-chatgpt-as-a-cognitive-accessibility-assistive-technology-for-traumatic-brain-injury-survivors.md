@@ -1,6 +1,6 @@
 ---
 title: The power of ChatGPT as a cognitive accessibility assistive technology for Traumatic Brain Injury survivors
-description: TK
+description: This essay explores the use of ChatGPT as a cognitive accessibility assistive technology for traumatic brain injury (TBI) survivors.
 category: Experience
 author: Jamie Vanderwall
 date: 2023-03-14
