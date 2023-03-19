@@ -55,6 +55,13 @@
 			"biography": "I'm Dave Rupert, lead developer at Paravel. I co-host ShopTalk, an award-winning sound effects podcast that also covers web development. I'm a dad to two wonderful kids. I live in Austin, TX; the best damn city, in the best damn state, in the best damn country, in the whole damn world."
 		},
 		{
+			"name": "David A. Kennedy",
+			"first": "David",
+			"website": "https://davidakennedy.com/",
+			"photo": "https://avatars.githubusercontent.com/u/1473618?s=400&v=4",
+			"biography": "Designer and accessibility advocate. Curator of A11y Weekly. I help make the web fast, accessible and beautiful. Trust the process."
+		},
+		{
 			"name": "Duncan Jimbo",
 			"first": "Duncan",
 			"website": "https://simplydano.com",
