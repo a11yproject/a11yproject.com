@@ -35,7 +35,7 @@ When you select the right element for the content you have, you get some things 
 3. Other elements may communicate state to the browser and assistive technology. Radio buttons and checkboxes do this.
 4. The browser will give you some CSS styles for free.
 5. Search engines can index the content more efficiently so people can find it.
-6. RSS readers (and Reader mode) can parse and style the content effectively.
+6. Technologies such as RSS readers and Reader mode can parse and style the content effectively.
 
 If you use a `<div>` or `<span>` improperly in place of a more semantic element, you may have to recreate functionality. Worse yet, many people who rely on semantic HTML as the key underpinning of the web won't be able to use what you've made. Choose wisely.
 
