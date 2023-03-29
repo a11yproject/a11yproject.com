@@ -18,7 +18,7 @@ The word "semantic" has a few meanings. In computer science, semantics provides 
 
 ### Structure
 
-HTML stands for Hypertext Markup Language. Invented by Tim Berners-Lee as a way to link together important research documents, HTML has evolved to do much more than that. Early versions had heading elements (h1, h2, etc.), but not the structural elements like `<header>`, `<main>` and `<footer>`. Those came later. Each of these elements gives structure to the document, the web page. Creating semantic code means picking the right element for the job, giving your page structure.
+HTML stands for Hypertext Markup Language. [Invented by Tim Berners-Lee](https://home.cern/science/computing/birth-web/short-history-web) as a way to link together important research documents, HTML has evolved to do much more than that. Early versions had heading elements (h1, h2, etc.), but not the structural elements like `<header>`, `<main>` and `<footer>`. Those came later. Each of these elements gives structure to the document, the web page. Creating semantic code means picking the right element for the job, giving your page structure.
 
 ### Meaning
 
