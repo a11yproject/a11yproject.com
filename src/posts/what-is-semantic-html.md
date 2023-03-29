@@ -26,7 +26,7 @@ The elements also have a meaning underneath. Every [element has an implicit role
 
 People who use screen readers can navigate by those landmarks, granting an easier way to skim the content of a page. If a developer used a `<div>` instead of a `<header>`, the implicit role would be absent, unless provided with extra code. That means the HTML won't be as useful to the machines that interpret it.
 
-## What you Get with Semantic HTML
+## What you get with Semantic HTML
 
 When you select the right element for the content you have, you get some things for free. Free as in the web platform gives it to you without any other effort. We talked about one already:
 
