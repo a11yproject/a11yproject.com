@@ -32,7 +32,7 @@ When you select the right element for the content you have, you get some things 
 
 1. Structure and meaning gets conveyed to browsers and assistive technologies.
 2. Some elements come with built in keyboard functionality, for example, the `<form>` element.
-3. Other elements may communicate state to the browser and assistive technology. Radio buttons and checkboxes do this.
+3. Other elements may [communicate state](https://webaim.org/techniques/aria/#components) to the browser and assistive technology. Radio buttons and checkboxes do this.
 4. The browser will give you some CSS styles for free.
 5. Search engines can index the content more efficiently so people can find it.
 6. Technologies such as RSS readers and Reader mode can parse and style the content effectively.
