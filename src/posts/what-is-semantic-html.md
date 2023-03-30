@@ -4,6 +4,37 @@ description: "The Web Accessibility Initiative is W3C's effort to improve access
 category: Background
 author: David A. Kennedy
 date: 2023-04-04
+further_reading:
+  - title: HTML — Structuring the web
+    url: https://developer.mozilla.org/en-US/docs/Learn/HTML
+    source: MDN Web Docs
+  - title: "Semantic Structure: Regions, Headings, and Lists"
+    url: https://webaim.org/techniques/semanticstructure/
+    source: WebAIM
+  - title: Accessibility Through Semantic HTML
+    url: https://24ways.org/2017/accessibility-through-semantic-html/
+    source: 24 Ways
+  - title: Why, How, and When to Use Semantic HTML and ARIA
+    url: https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/
+    source: CSS-Tricks
+  - title: Use Semantic HTML for Easy Keyboard Wins
+    url: https://web.dev/use-semantic-html/
+    source: Web.dev
+  - title: Div Divisiveness
+    url: https://www.scottohara.me/blog/2022/01/20/divisive.html
+    source: Scott O'Hara
+  - title: "More to Give than Just the Div: Semantics and How to Get Them Right"
+    url: https://hidde.blog/more-to-give-than-just-the-div-semantics-and-how-to-get-them-right/
+    source: Hidde de Vries
+  - title: Understanding semantics
+    url: https://tink.uk/understanding-semantics/
+    source: Léonie Watson
+  - title: A Brief History of Hypertext
+    url: https://thehistoryoftheweb.com/brief-history-hypertext/
+    source: The History of the Web
+  - title: HTML Semantics
+    url: https://tetralogical.com/blog/2022/10/05/foundations-html-semantics/
+    source: TetraLogical
 tags:
   - background
 ---
@@ -38,16 +69,3 @@ When you select the right element for the content you have, you get some things 
 6. Technologies such as RSS readers and Reader mode can parse and style the content effectively.
 
 If you use a `<div>` or `<span>` improperly in place of a more semantic element, you may have to recreate functionality. Worse yet, many people who rely on semantic HTML as the key underpinning of the web won't be able to use what you've made. Choose wisely.
-
-## References and Further Reading
-
-1. [MDN Web Docs: HTML — Structuring the web](https://developer.mozilla.org/en-US/docs/Learn/HTML)
-2. [WebAIM: Semantic Structure: Regions, Headings, and Lists](https://webaim.org/techniques/semanticstructure/)
-3. [24 Ways: Accessibility Through Semantic HTML](https://24ways.org/2017/accessibility-through-semantic-html/)
-4. [CSS-Tricks: Why, How, and When to Use Semantic HTML and ARIA](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/)
-5. [Web.dev: Use semantic HTML for easy keyboard wins](https://web.dev/use-semantic-html/)
-6. [Scott O'Hara: Div divisiveness](https://www.scottohara.me/blog/2022/01/20/divisive.html)
-7. [Hidde de Vries: More to give than just the div: semantics and how to get them right](https://hidde.blog/more-to-give-than-just-the-div-semantics-and-how-to-get-them-right/)
-8. [Léonie Watson: Understanding semantics](https://tink.uk/understanding-semantics/)
-9. [A Brief History of Hypertext](https://thehistoryoftheweb.com/brief-history-hypertext/)
-10. [Foundations: HTML Semantics](https://tetralogical.com/blog/2022/10/05/foundations-html-semantics/)
