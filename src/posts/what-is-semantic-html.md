@@ -43,7 +43,7 @@ A common refrain comes up often in the accessibility field. "Use semantic HTML,"
 
 But what does that mean and why does it matter? More importantly, what do you get with semantic HTML?
 
-## What is Semantic HTML
+## What is Semantic HTML?
 
 The word "semantic" has a few meanings. In computer science, semantics provides the rules for interpreting expressions of code. In this case, semantics lays out the rules for how HTML (the code) gets interpreted. Those rules govern structure and meaning.
 
