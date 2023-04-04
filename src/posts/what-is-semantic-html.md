@@ -1,5 +1,5 @@
 ---
-title: What is Semantic HTML
+title: What is Semantic HTML?
 description: "The Web Accessibility Initiative is W3C's effort to improve accessibility of the Web for people with disabilities."
 category: Background
 author: David A. Kennedy
