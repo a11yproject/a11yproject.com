@@ -27,10 +27,11 @@ $_c-post-vertical-spacing: 4ex;
 //
 // Style guide: Components.post
 .c-post__category {
-	border-top: $border-thick solid $color-green;
+	border-top: $border-thick solid currentColor;
+	@include var(color, rte-accent);
 
 	p {
-		border-bottom: $border-thinnest solid $color-green;
+		border-bottom: $border-thinnest solid currentColor;
 		padding: 0.5rem 0 0.5rem map-get($global-post-content-inset, small);
 		text-transform: uppercase;
 
@@ -61,30 +62,18 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__category__link {
-	color: $color-green;
+	@include link-states(rte-accent);
 	text-decoration: none;
 
 	// States
 	&:hover {
 		text-decoration: underline;
 	}
-
-	&:focus {
-		background-color: $color-green;
-		color: $color-white;
-		outline: $border-thick solid $color-green;
-	}
-
-	&:active {
-		background-color: transparent;
-		color: $color-green;
-		outline: none;
-		text-decoration: none;
-	}
 }
 
 
 .c-post__title {
+	@include var(color, heading-text);
 	font-size: $font-size-heading-small;
 	line-height: $line-height-tight;
 	margin: 0.75rem map-get($global-post-content-inset, small) 2rem map-get($global-post-content-inset, small);
@@ -117,8 +106,9 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__metadata {
-	border-top: $border-thinnest solid $color-green;
-	border-bottom: $border-thick solid $color-green;
+	border-top: $border-thinnest solid;
+	border-bottom: $border-thick solid;
+	@include var(border-color, rte-accent);
 	list-style-type: none;
 	padding: 0.75rem map-get($global-post-content-inset, small);
 
@@ -193,8 +183,7 @@ $_c-post-vertical-spacing: 4ex;
 
 
 .c-post__metadata-link {
-	@include link-states($color-black);
-
+	@include link-states(heading-text);
 	text-underline-offset: 0.2em;
 }
 

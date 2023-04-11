@@ -3,7 +3,15 @@ layout: layouts/base.njk
 templateClass: template-generic
 ---
 
-{% include "spotlight/hero.njk" %}
+<div class="l-spotlight__hero c-spotlight__hero">
+	{%
+		set avatar = {
+			cssClass: "c-spotlight__hero-avatar",
+			image: '/img' + image
+		}
+	%}
+	{% include "avatar.njk" %}
+</div>
 
 <div data-content class="l-content c-content c-content--generic">
 
@@ -20,7 +28,7 @@ templateClass: template-generic
 
 	{% if further_reading %}
 		<h2 id="more-about-{{ title | slugify }}" class="c-heading-medium">
-			More about {{ title }}:
+			More about {{ title }}
 		</h2>
 		<ul>
 			{% for source in further_reading %}

@@ -66,6 +66,12 @@
 		}
 	}
 
+	.template-posts & {
+		.l-toc {
+			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+		}
+	}
+
 	.template-post & {
 		margin: 0.65rem 0 0 map-get($global-bleed, small);
 
@@ -73,7 +79,7 @@
 		@include mappy-bp(palm-medium) {
 			margin-right: map-get($global-post-content-inset, "medium");
 			margin-bottom: 2rem;
-			margin-left: map-get($global-post-content-inset, "medium") / 2;
+			margin-left: map-get($global-post-content-inset, "medium") * 0.5;
 		}
 
 		@include mappy-bp(lap-small) {

@@ -1,10 +1,13 @@
 <div class="l-hero c-hero">
+	{% set heroContent = heroes[hero] %}
+	{% set svgPath = 'heroes/svg/' + hero + '.njk' %}
+	{% include svgPath %}
 	<div class="u-text-transform-uppercase l-hero__promo c-hero-summary">
 		<h1 id="title" class="u-hide-visually">
-			{{ hero.title }}
+			{{ heroContent.title }}
 		</h1>
 		<p>
-			{{ hero.subtitle }}
+			{{ heroContent.subtitle }}
 		</p>
 	</div>
 </div>

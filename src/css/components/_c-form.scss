@@ -15,8 +15,10 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__input {
-	background-color: $color-sand;
-	border: $border-thinnest solid $color-gray-shade;
+	@include var(background-color, body-background);
+	@include var(color, body-text);
+	border: $border-thinnest solid;
+	@include var(border-color, input-border);
 	line-height: $line-height-single;
 	padding: 0.5rem;
 	transition: background-color $animation-duration-shorter $animation-easing-character;
@@ -24,12 +26,13 @@ $_c-input-margin-top: 1.5rem;
 
 	&:hover,
 	&:active {
-		background-color: $color-white;
+		@include var(background-color, input-hover-background);
 	}
 
 	&:focus {
-		border-color: $color-pink-shade;
-		outline: $border-thinner solid $color-pink-shade;
+		@include var(border-color, input-focus-border);
+		outline: $border-thinner solid;
+		@include var(outline-color, input-focus-border);
 	}
 
 	&:active {
@@ -50,10 +53,10 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__button {
-	background-color: $color-pink-shade;
+	@include var(background-color, button-background);
 	border: none;
 	border-radius: 0.25rem;
-	color: $color-white;
+	@include var(color, button-text);
 	cursor: pointer;
 	font-family: $font-family-secondary;
 	margin-top: $_c-input-margin-top * 1.5;
@@ -64,13 +67,14 @@ $_c-input-margin-top: 1.5rem;
 
 	// States
 	&:hover {
-		background-color: $color-black;
+		@include var(background-color, button-focus-background);
 	}
 
 	&:focus {
+		@include var(background-color, button-focus-background);
 		box-shadow:
-			0 0 0 em(2) $color-sand,
-			0 0 0 em(4) $color-pink-shade;
+			0 0 0 em(2) var(--color-body-background),
+			0 0 0 em(4) var(--color-button-background);
 		outline: $border-thin solid transparent;
 	}
 
@@ -86,7 +90,7 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__vendor {
-	color: $color-black;
+	@include link-states(body-text);
 
 	&:hover,
 	&:focus {
@@ -102,7 +106,8 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__error-wrapper {
-	border: $border-thin solid $color-red;
+	border: $border-thin solid;
+	@include var(border-color, error);
 	padding: 0.5rem;
 
 	.c-form__error-list {
@@ -112,19 +117,16 @@ $_c-input-margin-top: 1.5rem;
 	.c-form__error-message {
 		font-size: 0.75rem;
 		padding-top: 0.25rem;
-
-		a {
-			@include link-states($color-black);
-		}
 	}
 }
 
 .c-form__input[aria-invalid]{
-	border: $border-thinner solid $color-red;
+	border: $border-thinner solid;
+	@include var(border-color, error);
 }
 
 .c-form__progress {
-	background-color: $color-black;
+	@include var(background-color, progress-background);
 	min-height: 2rem;
 	margin-bottom: 3rem;
 	max-width: 68ch;
@@ -139,13 +141,18 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form__progress-fill {
-	background-color: $color-yellow;
+	@include var(background-color, progress-bar);
 }
 
 
 .c-form__progress-label {
-	background-color: $color-sand;
+	@include var(background-color, body-background);
 	font-family: $font-family-secondary;
 	margin-top: 0;
 	padding-left: 1rem;
+}
+
+
+.c-form__legal {
+	margin-top: 0.25rem !important;
 }

@@ -1,0 +1,13 @@
+{% if avatar.link %}
+  <div
+    class="c-avatar {{ avatar.cssClass }}"
+    onclick="location.href='{{ avatar.link }}'"
+    style="background-image: url({{ avatar.image }});"
+  ></div>
+{% else %}
+  <div
+    aria-hidden="true"
+    class="c-avatar {{ avatar.cssClass }}"
+    style="background-image: url({{ avatar.image }});"
+  ></div>
+{% endif %}

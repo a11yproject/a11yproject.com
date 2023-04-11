@@ -8,7 +8,8 @@
 	.template-authors &,
 	.template-team &,
 	.template-generic &,
-	.template-spotlight & {
+	.template-spotlight &,
+	.template-collections & {
 		margin-right: map-get($global-bleed, small);
 		margin-left: map-get($global-bleed, small);
 

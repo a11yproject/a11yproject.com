@@ -5,14 +5,15 @@
 // $link-color - Specifies what color to use for link styling.
 //
 // Styleguide Logic.Mixins.link-states
-@mixin link-states($link-color) {
-	color: $link-color;
+@mixin link-states($link-color, $link-focus-color: "link-focus-text") {
+	@include var(color, #{$link-color});
 
 	// States
 	&:focus {
-		background-color: $link-color;
-		color: $color-white;
-		outline: $border-thin solid $link-color;
+		@include var(background-color, #{$link-color});
+		@include var(color, #{$link-focus-color});
+		outline: $border-thin solid;
+		@include var(outline-color, #{$link-color});
 
 		&:hover {
 			text-decoration: underline;

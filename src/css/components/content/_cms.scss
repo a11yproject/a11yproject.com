@@ -21,7 +21,9 @@
 	}
 
 	.footnotes {
-		@include post-content-flourish("section-footnotes.svg", 62, 1.75rem);
+		--filename: url("#{$path-to-img}/posts/section-footnotes-lightmode.svg");
+		--filename-dark: url("#{$path-to-img}/posts/section-footnotes-darkmode.svg");
+		@include post-content-flourish(62, 1.75rem);
 
 		margin-top: 8ex;
 	}

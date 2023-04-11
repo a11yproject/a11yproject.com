@@ -2,6 +2,7 @@
 layout: layouts/home.njk
 title: Home
 subtitle: The A11Y Project is a community-driven effort to make digital accessibility easier.
+colorScheme: green-pink
 tags:
   - navprimary
   - home
@@ -85,7 +86,7 @@ tags:
 				Recent posts
 			</h2>
 			<ul class="c-linkroll">
-				{% for post in collections.posts | head(-3) %}
+				{% for post in collections.posts | head(-3) | reverse %}
 					{% include "linkroll.njk" %}
 				{% endfor %}
 			</ul>

@@ -49,6 +49,11 @@
 }
 
 
+.l-footer__theme-switcher {
+	margin-top: 1rem;
+}
+
+
 .l-footer__tagline-copyright {
 	// Supports
 	@supports #{$supports-flex} {

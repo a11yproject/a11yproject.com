@@ -2,10 +2,12 @@
 layout: layouts/home.njk
 title: Resources
 subtitle: Accessibility software, books, blogs, online tools, and more.
+colorScheme: green
+hero: resources
 eleventyNavigation:
   key: Resources
   parent: Feature
-  order: 3
+  order: 4
 tags:
   - navprimary
 templateClass: template-resources
@@ -31,6 +33,20 @@ templateClass: template-resources
 	</p>
 	<div class="c-card__wrapper">
 		{% set resource = resources.books %}
+		{% for resource in resource %}
+			{% include "card/resource.njk" %}
+		{% endfor %}
+	</div>
+
+	{% set resourceType = "Gaming" %}
+	<h3 id="gaming" class="c-heading-medium u-spacing-top-long">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Resources for computer, console, and mobile gaming.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.gaming %}
 		{% for resource in resource %}
 			{% include "card/resource.njk" %}
 		{% endfor %}
@@ -345,6 +361,20 @@ templateClass: template-resources
 		{% endfor %}
 	</div>
 
+	{% set resourceType = "Video" %}
+	<h3 id="video" class="c-heading-medium">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Video is a common experience online. Here is how to it ensure everyone can enjoy it.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.video %}
+		{% for resource in resource %}
+			{% include "card/resource.njk" %}
+		{% endfor %}
+	</div>
+
 
 	<h2 id="groups-and-organizations" class="c-heading-large">
 		Groups and organizations
@@ -359,6 +389,20 @@ templateClass: template-resources
 	</p>
 	<div class="c-card__wrapper">
 		{% set resource = resources.conferences %}
+		{% for resource in resource %}
+			{% include "card/resource.njk" %}
+		{% endfor %}
+	</div>
+
+	{% set resourceType = "Employment" %}
+	<h3 id="employment" class="c-heading-medium u-spacing-top-long">
+		{{ resourceType }}
+	</h3>
+	<p class="c-preface">
+		Resources for finding accessibility jobs.
+	</p>
+	<div class="c-card__wrapper">
+		{% set resource = resources.employment %}
 		{% for resource in resource %}
 			{% include "card/resource.njk" %}
 		{% endfor %}
@@ -430,7 +474,7 @@ templateClass: template-resources
 		Submit a resource
 	</h3>
 	<p class="c-preface">
-		We're always looking for <a class="c-preface__link" href="{{ '/contribute/' | url }}">people to help add great accessibility-related resources</a>.
+		We're always looking for <a href="{{ '/contribute/' | url }}">people to help add great accessibility-related resources</a>.
 	</p>
 
 </div>

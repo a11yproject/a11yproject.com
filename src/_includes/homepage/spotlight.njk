@@ -1,9 +1,13 @@
 <div class="c-homepage-card c-homepage-card--spotlight">
-	<img
-		class="c-homepage-card__spotlight-photo"
-		alt="Photo of {{ spotlight.name }}."
-		onclick="location.href='/spotlight/{{ spotlight.name | slugify | url }}'"
-		src="img/spotlight/{{ spotlight.image }}" />
+	{%
+		set avatar = {
+			cssClass: "c-homepage-card__spotlight-avatar",
+			image: "img/spotlight/" + spotlight.image,
+			link: "/spotlight/" + spotlight.name | slugify | url,
+			name: spotlight.name
+		}
+	%}
+	{% include "avatar.njk" %}
 	<div class="c-homepage-card__spotlight__info">
 		<p class="u-font-size-body-medium c-homepage-card__spotlight-name">
 			{{ spotlight.name }}

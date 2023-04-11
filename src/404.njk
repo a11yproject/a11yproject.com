@@ -2,6 +2,7 @@
 layout: layouts/home.njk
 title: Page not found
 subtitle: We’re sorry, that page doesn’t seem to exist.
+colorScheme: yellow-pink
 eleventyNavigation:
   key: Page not found
 tags:
@@ -12,6 +13,7 @@ eleventyExcludeFromCollections: true
 ---
 
 <div class="l-simple c-hero c-simple--404">
+	{% include 'heroes/svg/404.njk' %}
 	<div class="c-simple__hero">
 		<h1 id="page-not-found" class="c-heading-large">
 			{{ title }}

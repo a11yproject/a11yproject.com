@@ -1,0 +1,25 @@
+
+// color-scheme
+//
+// Generates color scheme CSS property values for both dark mode and light mode
+//
+// $name: Color scheme string name used in a layout file
+// $scheme-light: SCSS color scheme map for light mode
+// $scheme-dark: SCSS color scheme map for dark mode
+//
+// Styleguide Logic.Mixins.color-scheme
+@mixin color-scheme($name, $scheme-light, $scheme-dark) {
+  [data-color-scheme="#{$name}"] {
+    @each $name, $value in $scheme-light {
+      #{"--color-" + $name}: var(--color-#{$value});
+    }
+  }
+
+  @include dark-mode() {
+    [data-color-scheme="#{$name}"] {
+      @each $name, $value in $scheme-dark {
+        #{"--color-" + $name}: var(--color-#{$value});
+      }
+    }
+  }
+}

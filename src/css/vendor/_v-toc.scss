@@ -2,6 +2,8 @@
 // http://github.com/cferdinandi/table-of-contents
 .v-toc {
 	margin-right: 2rem;
+	position: relative;
+	z-index: z(component);
 
 	// States
 	&[open] {
@@ -25,9 +27,12 @@
 	cursor: pointer;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
+	@include var(color, toc-summary);
 
 	// States
 	&:focus {
+		@include var(background-color, toc-summary);
+		@include var(color, link-focus-text);
 		outline: $border-thicker solid transparent;
 
 		.v-toc__title {
@@ -35,42 +40,7 @@
 		}
 
 		.v-toc__icon {
-			fill: $color-white;
-		}
-	}
-
-	// Contexts
-	.template-post &,
-	.template-resources & {
-		color: $color-green;
-
-		&:focus {
-			background-color: $color-green;
-			color: $color-white;
-		}
-	}
-
-	.template-checklist &,
-	.template-about &,
-	.template-team &,
-	.template-authors,
-	.template-spotlight & {
-		color: $color-blue-shade;
-
-		&:focus {
-			background-color: $color-blue-shade;
-			color: $color-white;
-		}
-	}
-
-	.template-posts &,
-	.template-contribute &,
-	.template-generic & {
-		color: $color-blue;
-
-		&:focus {
-			background-color: $color-blue;
-			color: $color-white;
+			fill: currentColor;
 		}
 	}
 }
@@ -85,28 +55,9 @@
 }
 
 .v-toc__icon {
+	fill: currentColor;
 	height: 1rem;
 	width: 1rem;
-
-	// Contexts
-	.template-post &,
-	.template-resources & {
-		fill: $color-green;
-	}
-
-	.template-checklist &,
-	.template-about &,
-	.template-team &,
-	.template-authors,
-	.template-spotlight & {
-		fill: $color-blue-shade;
-	}
-
-	.template-posts &,
-	.template-contribute &,
-	.template-generic & {
-		fill: $color-blue;
-	}
 }
 
 
@@ -139,29 +90,7 @@
 		padding-top: none;
 		list-style-type: none;
 
-		// Breakpoints
-		@include mappy-bp(palm-small) {
-			columns: 2;
-
-			// Contexts
-			.template-generic &,
-			.template-resources &,
-			.template-post &,
-			.template-spotlight &,
-			.template-team & {
-				columns: 1;
-			}
-		}
-
-		@include mappy-bp(palm-large) {
-			columns: 3;
-		}
-
-		@include mappy-bp(lap-small) {
-			columns: 1;
-		}
-
-		ol {
+	ol {
 			padding-left: 1rem;
 		}
 	}
@@ -203,15 +132,15 @@
 			}
 
 			// Contexts
-			.template-posts & {
+			.template-posts &,
+			.template-collections & {
 				display: none;
 			}
 		}
 	}
 
-	a {
-		border-bottom: $border-thinnest solid $color-sand;
-		color: $color-gray-shade;
+	a[href] {
+		@include var(color, toc-link-text);
 		text-decoration: none;
 		transition:
 			$animation-duration-short $animation-easing-character color,
@@ -225,31 +154,23 @@
 			&::after {
 				content: "";
 				flex: 1 1;
-				border-bottom: $border-thick solid $color-sand;
+				border-bottom: $border-thick solid transparent;
 				margin: auto auto auto 0.5rem;
 			}
 
 			// States
 			&:hover::after,
 			&:focus::after {
-				border-bottom-color: $color-pink;
+				@include var(border-bottom-color, toc-indicator);
 			}
 		}
 
 		// States
-		&:focus {
-			outline: $border-thin solid transparent;
-		}
-
 		&:hover,
 		&:focus {
-			border-bottom-color: $color-green;
-			color: $color-black;
-		}
-
-		// User Queries
-		@media screen and (prefers-reduced-motion: reduce) {
-			transition: none;
+			background-color: transparent;
+			outline-color: transparent;
+			@include var(color, toc-link-focus-text);
 		}
 	}
 

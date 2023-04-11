@@ -33,7 +33,7 @@
 				"checkboxId": "validate-html",
 				"wcag": "4.1.1 Parsing",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html",
-				"description": "<a href='https://validator.w3.org/nu/'>Valid HTML</a> helps to provide an consistent, expected experience across all browsers and assistive technology."
+				"description": "<a href='https://validator.w3.org/nu/'>Valid HTML</a> helps to provide a consistent, expected experience across all browsers and assistive technology."
 			},
 			{
 				"title": "Use a <code>lang</code> attribute on the <code>html</code> element.",
@@ -78,7 +78,7 @@
 				"description": " People who are blind or who have low vision may be disoriented when focus is moved without their permission. Additionally, <code>autofocus</code> can be problematic for people with motor control disabilities, as it may create extra work for them to navigate out from the autofocused area and to other locations on the page/view."
 			},
 			{
-				"title": "Allow extending session timeouts",
+				"title": "Allow extending session timeouts.",
 				"checkboxId": "extend-timeouts",
 				"wcag": "2.2.1 Timing Adjustable",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html",
@@ -230,7 +230,7 @@
 		]
 	},
 	"controls": {
-		"preface":"Controls are interactive elements such as links and buttons that let a person navigate to a destination or perform an action.",
+		"preface": "Controls are interactive elements such as links and buttons that let a person navigate to a destination or perform an action.",
 		"tasks": [
 			{
 				"title": "Use the <code>a</code> element for links.",
@@ -265,7 +265,7 @@
 				"checkboxId": "provide-skip-link",
 				"wcag": "2.4.1 Bypass Blocks",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html",
-				"description": "A <a href='/posts/2013-05-11-skip-nav-links/'>skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget."
+				"description": "A <a href='/posts/skip-nav-links/'>skip link</a> can be used to provide quick access to the main content of a page or view. This allows a person to easily bypass globally repeated content such as a website's primary navigation, or persistent search widget."
 			},
 			{
 				"title": "Identify links that open in a new tab or window.",
@@ -414,7 +414,7 @@
 				"checkboxId": "check-specialized-modes",
 				"wcag": "1.4.1 Use of Color",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html",
-				"description": "Activate <a href='/posts/2020-01-23-operating-system-and-browser-accessibility-display-modes/'>modes such as Windows High Contrast or Inverted Colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?"
+				"description": "Activate <a href='/posts/operating-system-and-browser-accessibility-display-modes/'>modes such as Windows High Contrast or Inverted Colors</a>. Is your content still legible? Are your icons, borders, links, form fields, and other content still present? Can you distinguish foreground content from the background?"
 			},
 			{
 				"title": "Increase text size to 200%.",
@@ -428,7 +428,7 @@
 				"checkboxId": "good-proximity-of-content",
 				"wcag": "1.3.3 Sensory Characteristics",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html",
-				"description": "Use <a href='https://www.youtube.com/watch?v=S1j6CYT3kWA&feature=youtu.be'>the straw test</a> to ensure people who depend on screen zoom software can still easily discover all content. "
+				"description": "Use <a href='https://scottvinkle.me/blogs/work/proximity-and-zoom'>the straw test</a> to ensure people who depend on screen zoom software can still easily discover all content. "
 			},
 			{
 				"title": "Make sure color isn't the only way information is conveyed.",
@@ -480,7 +480,7 @@
 		]
 	},
 	"color contrast": {
-		"preface": "<a class=\"c-preface__link\" href=\"{{ '/posts/2015-01-05-what-is-color-contrast/' | url }}\">Color contrast</a> is how legible colors are when placed next to, and on top of each other.",
+		"preface": "<a href=\"{{ '/posts/what-is-color-contrast/' | url }}\">Color contrast</a> is how legible colors are when placed next to, and on top of each other.",
 		"tasks": [
 			{
 				"title": "Check the contrast for all normal-sized text.",

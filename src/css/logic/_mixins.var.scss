@@ -1,0 +1,16 @@
+// var
+//
+// Generates a property + CSS custom property with a fallback for IE 11.
+// Modified from this post:
+// https://vgpena.github.io/winning-with-css-variables/
+//
+// $property: The CSS property to modify
+// $varName: The scoped variable name to look up
+//
+// Styleguide Logic.Mixins.var
+
+@mixin var($property, $varName) {
+  $fallbackName: #{map-get($scheme-light, $varName)};
+  #{$property}: #{map-get($colors, $fallbackName)};
+  #{$property}: var(--color-#{$varName});
+}

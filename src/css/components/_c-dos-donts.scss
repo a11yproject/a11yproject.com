@@ -3,7 +3,7 @@
 
 	// Text-level formatting
 	p {
-		background-color: $color-white;
+		@include var(background-color, card-background);
 		padding: 1rem 1.5rem;
 	}
 
@@ -13,7 +13,8 @@
 	}
 
 	abbr {
-		border-bottom: $border-thinnest dotted $color-green;
+		border-bottom: $border-thinnest dotted;
+		@include var(border-color, do-accent);
 	}
 
 	p:first-of-type {
@@ -21,11 +22,13 @@
 	}
 
 	p:nth-child(odd) {
-		border-left: $border-thick solid $color-green-tint;
+		border-left: $border-thick solid;
+		@include var(border-color, do-accent);
 	}
 
 	p:nth-child(even) {
-		border-left: $border-thick solid $color-pink-tint;
+		border-left: $border-thick solid;
+		@include var(border-color, dont-accent);
 		margin-top: 1.25ex;
 
 		// User queries

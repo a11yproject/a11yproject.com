@@ -15,7 +15,6 @@ module.exports = function (eleventyConfig) {
 		tags: ["h2", "h3"],
 		wrapperClass: "l-toc",
 	});
-	eleventyConfig.setDataDeepMerge(true);
 
 	eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
@@ -25,7 +24,7 @@ module.exports = function (eleventyConfig) {
 	});
 
 	/**
-	 * Returns a humnan-readable date
+	 * Returns a human-readable date
 		E.g. May 31, 2019
 	 */
 
@@ -62,9 +61,54 @@ module.exports = function (eleventyConfig) {
 
 	// only content in the `posts/` directory
 	eleventyConfig.addCollection("posts", function (collection) {
-		return collection.getFilteredByGlob("./src/posts/*").sort(function (a, b) {
-			return a.date - b.date;
+		return collection
+			.getFilteredByGlob("./src/posts/*.md")
+			.sort(function (a, b) {
+				return a.date - b.date;
+			});
+	});
+
+	eleventyConfig.addCollection("postCollections", function (collection) {
+		// Grab our collections
+		const rawPostCollections = collection
+			.getFilteredByGlob("./src/collections/*")
+			.sort(function (a, b) {
+				return a.data.title.localeCompare(b.data.title);
+			});
+
+		// Build up the content in the collection
+		const postCollections = {};
+
+		collection.getFilteredByGlob("./src/posts/*").forEach(function (item) {
+			if (item.data.collection) {
+				if (!postCollections[item.data.collection.slug]) {
+					postCollections[item.data.collection.slug] = {
+						posts: [],
+					};
+				}
+				postCollections[item.data.collection.slug].posts.push(item);
+			}
 		});
+
+		// Sort by the order
+		for (const [slug, postCollection] of Object.entries(postCollections)) {
+			postCollection.posts.sort(function (a, b) {
+				return a.data.collection.order - b.data.collection.order;
+			});
+
+			// Attach collection object
+			postCollections[slug].collection = rawPostCollections.find(
+				(coll) => coll.template.parsed.name === slug
+			);
+		}
+
+		/* Return post collections in the following data format
+		[slug]: {
+			collection: Collection Object
+			posts: Array of Post Objects
+		}
+		*/
+		return postCollections;
 	});
 
 	// Universal slug filter strips unsafe chars from URLs

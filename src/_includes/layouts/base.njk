@@ -4,8 +4,19 @@
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content="{{ eleventy.generator }}">
+		<meta name="theme-color"
+      content="#f6f6f6"
+      media="(prefers-color-scheme: light)">
+		<meta name="theme-color"
+      content="#333536"
+      media="(prefers-color-scheme: dark)">
 		{% include "meta/social-media.njk" %}
 		{% include "meta/icons.njk" %}
+
+		{# This needs to run before CSS so we don't get a flash of the default theme #}
+		<script src="{{ '/js/apply-theme-setting.min.js?v=' + getCurrentVersion.version | url }}"></script>
+
 		<link rel="stylesheet" as="style" href="{{ '/css/screen.min.css?v=' + getCurrentVersion.version  | url }}" />
 		<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}" />
 		<link rel="sitemap" type="application/xml" title="{{ metadata.title }}" href="{{ '/sitemap.xml' | url }}" />
@@ -13,7 +24,7 @@
 		{% include "meta/service-worker.njk" %}
 
 	</head>
-	<body {% if templateClass %} class="{{ templateClass }}"{% endif %}>
+	<body {% if templateClass %} class="{{ templateClass }}"{% endif %} data-color-scheme="{{ colorScheme }}">
 
 		{% include "nav/skipnav.njk" %}
 
@@ -40,6 +51,8 @@
 		{% include "footer.njk" %}
 
 		<script async src="{{ '/js/lib/details-element-polyfill.polyfill.min.js' | url }}"></script>
+		<script src="{{ '/js/theme-toggle.min.js?v=' + getCurrentVersion.version | url }}"></script>
+
 		{% if hasToc %}
 		<script async src="{{ '/js/lib/table-of-contents.min.js' | url }}"></script>
 		{% endif %}

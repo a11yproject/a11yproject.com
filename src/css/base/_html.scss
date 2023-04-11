@@ -5,15 +5,14 @@
 //
 // Styleguide Base.html
 html {
-	background-color: $color-sand;
-	color: $color-black;
+	@include var(background-color, body-background);
+	@include var(color, body-text);
 	font-family: $font-family-primary;
 	font-size: $global-type-size;
 	font-weight: $font-weight-regular;
 	line-height: $line-height-loose;
 	margin: 0;
 	min-height: 100%;
-	overflow-y: scroll;
 	padding: 0;
 	text-size-adjust: 100%;
 

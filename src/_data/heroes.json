@@ -7,6 +7,10 @@
 		"title": "Authors",
 		"subtitle": "A bit about our contributors"
 	},
+	"collections": {
+		"title": "Collections",
+		"subtitle": "Our posts split up into learning tracks."
+	},
 	"checklist": {
 		"title": "Checklist",
 		"subtitle": "Check your WCAG compliance"

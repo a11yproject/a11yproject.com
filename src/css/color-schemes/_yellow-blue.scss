@@ -1,0 +1,27 @@
+$scheme-override-light: (
+	"nav-background": "black",
+	"hero-background": "yellow-tint",
+	"hero-background-text": "blue-shade",
+	"hero-content-background": "black",
+	"hero-content-accent": "white",
+	"hero-content-text": "yellow-tint",
+	"featured-card-background": "yellow-tint",
+	"featured-card-heading-text": "blue",
+	"featured-card-text": "black",
+	"sponsors-background": "yellow-tint",
+);
+
+$scheme-override-dark: (
+	"nav-background": "black",
+	"hero-background": "yellow-shade-muted",
+	"hero-background-text": "blue-muted",
+	"hero-content-background": "black",
+	"hero-content-accent": "white",
+	"hero-content-text": "yellow-tint",
+	"featured-card-background": "yellow-muted",
+	"featured-card-heading-text": "blue-shade-muted",
+	"featured-card-text": "black",
+	"sponsors-background": "yellow-shade-muted",
+);
+
+@include color-scheme("yellow-blue", $scheme-override-light, $scheme-override-dark);

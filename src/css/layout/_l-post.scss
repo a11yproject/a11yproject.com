@@ -5,6 +5,19 @@
 	@include mappy-bp(lap-medium) {
 		margin-top: 4rem;
 	}
+
+
+	&--collection {
+		.l-post__header,
+		.l-post__body {
+			@include mappy-bp(lap-medium) {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 68ex;
+			}
+		}
+	}
 }
 
 

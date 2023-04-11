@@ -1,4 +1,5 @@
 {
+  "$schema": "https://aka.ms/codetour-schema",
   "title": "Code Tour",
   "steps": [
     {
@@ -22,12 +23,12 @@
     },
     {
       "file": "package.json",
-      "line": 41,
-      "description": "These are the dependencies that the project requires to work. Run `npm install` in your command line application before doing anything else. \n\nThere will be a new folder created called `node_modules/` after the install task completes. This is where all the dependencies are stores."
+      "description": "These are the dependencies that the project requires to work. Run `npm install` in your command line application before doing anything else. \n\nThere will be a new folder created called `node_modules/` after the install task completes. This is where all the dependencies are stores.",
+      "line": 59
     },
     {
       "file": "package.json",
-      "line": 17,
+      "line": 25,
       "description": "These are the scripts you can run in your command line application. `npm start` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
     },
     {

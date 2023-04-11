@@ -2,6 +2,8 @@
 layout: layouts/home.njk
 title: Posts
 subtitle: Wisdom from the community.
+colorScheme: pink-blue
+hero: posts
 eleventyNavigation:
   key: Posts
   parent: Feature
@@ -18,6 +20,19 @@ templateClass: template-posts
 		{% set taglist = collections[ "featured" ] %}
 		{% for post in taglist %}
 			{% include "featured/post.njk" %}
+		{% endfor %}
+	</div>
+
+	<h2 id="experiences" class="c-heading-large">
+		Experiences
+	</h2>
+	<p class="c-preface">
+		Lived experiences shared by disabled people.
+	</p>
+	<div class="c-card__wrapper">
+		{% set taglist = collections[ "experience" ] %}
+		{% for post in taglist | reverse %}
+			{% include "card/post.njk" %}
 		{% endfor %}
 	</div>
 
@@ -103,7 +118,7 @@ templateClass: template-posts
 		Write for us
 	</h2>
 	<p class="c-preface">
-		We're always looking for people who want to <a class="c-preface__link" href="{{ '/contribute/' | url }}">share what they know</a> about accessibility.
+		We're always looking for people who want to <a href="{{ '/contribute/' | url }}">share what they know</a> about accessibility.
 	</p>
 
 </div>

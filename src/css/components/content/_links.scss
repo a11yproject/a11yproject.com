@@ -1,18 +1,3 @@
-a {
-	// Contexts
-	.c-content--post & {
-		@include link-states($color-green);
-	}
-
-	.c-content--about &,
-	.c-content--generic &,
-	.c-content--checklist &,
-	.c-content--contribute & {
-		@include link-states($color-blue);
-	}
-}
-
-
 // Namespace
 .c-content {
   // Links
@@ -25,13 +10,4 @@ a {
   // <a href="URL">Link text</.>
   //
 	// Style guide: Components.post.links
-  a {
-		// States
-		&:focus {
-			// Text-level formatting
-			code {
-				color: $color-black !important;
-			}
-		}
-	}
 }

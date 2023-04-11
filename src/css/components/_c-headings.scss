@@ -16,6 +16,7 @@
 .c-heading-small,
 .c-heading-smaller,
 .c-heading-smallest {
+	@include var(color, heading-text);
 	font-family: $font-family-primary;
 	font-weight: $font-weight-normal;
 }
@@ -53,7 +54,7 @@
 }
 
 .c-heading-largest--generic {
-	color: $color-blue-shade;
+	@include var(color, heading-text-accent);
 
 	& ~ .c-subtitle {
 		font-family: $font-family-secondary;

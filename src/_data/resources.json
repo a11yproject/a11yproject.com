@@ -1,10 +1,10 @@
 {
 	"featured": [
 		{
-			"title": "Inclusive Design Patterns",
-			"description": "Inclusive Design Patterns explains how we can craft accessible interfaces without extra effort— and what front-end design patterns we can use to create inclusive experiences.",
-			"additional": "macOS, Windows",
-			"url": "https://shop.smashingmagazine.com/products/inclusive-design-patterns"
+			"title": "Assistive Technology Glossary",
+			"description": "A list of assistive technology terms and what they mean.",
+			"additional": "Fable",
+			"url": "https://makeitfable.com/glossary/"
 		}
 	],
 	"animation": [
@@ -35,6 +35,11 @@
 			"title": "a11yTips",
 			"description": "Simple tips on making web content more accessible to all.",
 			"url": "http://dboudreau.tumblr.com/"
+		},
+		{
+			"title": "Accessibility Made Easy",
+			"description": "Accessibility Made Easy is a not-for-profit who’s aim is to create a more accessible world. We believe that every person, no matter the ability or environment, should be able to access the same information as everyone else.",
+			"url": "https://www.accessibilityeasy.com/blog"
 		},
 		{
 			"title": "Accessibility Matters",
@@ -103,6 +108,12 @@
 			"description": "A bookmarklet to make it easier to test WCAG’s Target Size and proposed Pointer Target Spacing requirements.",
 			"additional": "Jared Smith",
 			"url": "https://codepen.io/jared_w_smith/full/vYGXeMy"
+		},
+		{
+			"title": "A11y Tools",
+			"description": "A random collection of accessibility-focused tools that you might find at least partially useful.",
+			"additional": "Ian Lloyd",
+			"url": "https://a11y-tools.com/bookmarklets/"
 		},
 		{
 			"title": "Akbar",
@@ -213,6 +224,12 @@
 			"description": "Explore how to create culturally relevant and responsible experiences that reach a truly global audience.",
 			"additional": "Senongo Akpem",
 			"url": "https://abookapart.com/products/cross-cultural-design"
+		},
+		{
+			"title": "Demystifying Disability",
+			"description": "An approachable guide to being a thoughtful, informed ally to disabled people, with actionable steps for what to say and do (and what not to do) and how you can help make the world a more inclusive place.",
+			"additional": "Emily Ladau",
+			"url": "https://www.penguinrandomhouse.com/books/646508/demystifying-disability-by-emily-ladau/"
 		},
 		{
 			"title": "Design for Cognitive Bias",
@@ -432,12 +449,37 @@
 			]
 		},
 		{
+			"title": "BeeLine Reader",
+			"description": "BeeLine Reader makes reading on-screen easier, faster, and more enjoyable. We use a simple cognitive trick — an eye-guiding color gradient — to pull your eyes through long blocks of text.",
+			"additional": "BeeLine Reader",
+			"url": "https://www.beelinereader.com/",
+			"browsers": [
+				"Android",
+				"Chrome",
+				"Firefox",
+				"iOS Safari"
+			]
+		},
+		{
 			"title": "Color Contrast Analyzer",
 			"description": "Allows you to analyze text color contrast problems on a webpage according to the WCAG 2 text color contrast requirements.",
 			"additional": "NC State IT Accessibility",
 			"url": "https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll/related",
 			"browsers": [
 				"Chrome"
+			]
+		},
+		{
+			"title": "Dark Reader",
+			"description": "This eye-care extension enables night mode by creating dark themes for websites on the fly. Dark Reader inverts bright colors, making them high contrast and easy to read at night.",
+			"additional": "Dark Reader Ltd.",
+			"url": "https://darkreader.org/",
+			"browsers": [
+				"Chrome",
+				"Edge",
+				"Firefox",
+				"Safari",
+				"iOS Safari"
 			]
 		},
 		{
@@ -476,15 +518,6 @@
 			]
 		},
 		{
-			"title": "NoCoffee",
-			"description": "NoCoffee can be helpful for understanding the problems faced by people with slight to extreme vision problems.",
-			"additional": "artbek",
-			"url": "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl",
-			"browsers": [
-				"Chrome"
-			]
-		},
-		{
 			"title": "Skip to Landmarks and Headings",
 			"description": "Provides keyboard access to landmark regions and headings (h1–h6) on a web page.",
 			"additional": "Nicholas Hoyt",
@@ -494,10 +527,37 @@
 			]
 		},
 		{
+			"title": "taba11y",
+			"description": "taba11y calculates the tab order of all elements and displays it visually, either by drawing a path or by highlighting the elements.",
+			"additional": "Peter Gould",
+			"url": "https://chrome.google.com/webstore/detail/taba11y/aocppmckdocdjkphmofnklcjhdidgmga/",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
+			"title": "Text Spacing Editor",
+			"description": "This extension allows you to set custom values for the following text spacing properties: Line height, letter spacing, word spacing, and paragraph spacing.",
+			"additional": "zmrhal.j",
+			"url": "https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj/",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
 			"title": "WAVE Evaluation Tool",
 			"description": "WAVE is a web accessibility evaluation tool developed by WebAIM. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page.",
 			"additional": "WebAIM",
 			"url": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
+			"title": "Web Disability Simulator",
+			"description": "The Web Disability Simulator lets you experience how people with different disabilities or inadequate abilities perceive a web site. Simulate color blindness, low vision, dyslexia and more.",
+			"additional": "Metamatrix",
+			"url": "https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla/",
 			"browsers": [
 				"Chrome"
 			]
@@ -547,16 +607,34 @@
 			"url": "http://clrs.cc/a11y/"
 		},
 		{
+			"title": "Color & Contrast",
+			"description": "A comprehensive guide for exploring and learning about the theory, science, and perception of color and contrast.",
+			"additional": "Nate Baldwin",
+			"url": "https://colorandcontrast.com/"
+		},
+		{
+			"title": "Color Contrast Checker",
+			"description": "This tool tests the contrast of a background color and foreground color for accessibility.",
+			"additional": "Josef Eines",
+			"url": "https://www.alarmsystem.no/color-contrast/"
+		},
+		{
 			"title": "Colorblind Web Page Filter",
 			"description": "Use the Colorblind Colorlab to select safe colors earlier in the design process.",
 			"additional": "toptal",
-			"url": "http://colorfilter.wickline.org/"
+			"url": "https://www.toptal.com/designers/colorfilter/"
 		},
 		{
 			"title": "Contrast Ratio",
 			"description": "Easily calculate color contrast ratios. Passing WCAG was never this easy!",
 			"additional": "Lea Verou",
 			"url": "https://contrast-ratio.com/"
+		},
+		{
+			"title": "Contrast Tools",
+			"description": "Test the contrast of two colors to ensure high readability using both the Advanced Perception of Color Algorithm (APCA) and the classic contrast ratio.",
+			"additional": "Protean Studio",
+			"url": "https://contrast.tools"
 		},
 		{
 			"title": "Hex Naw",
@@ -676,7 +754,7 @@
 		{
 			"title": "axe-con Digital Accessibility Conference",
 			"description": "Axe-con is an open and inclusive digital accessibility conference that welcomes developers, designers, business users, and accessibility professionals of all experience levels to a new kind of accessibility conference focused on building, testing, and maintaining accessible digital experiences.",
-			"additional": "March 10–11",
+			"additional": "March 15–16",
 			"url": "https://www.deque.com/axe-con/"
 		},
 		{
@@ -750,7 +828,7 @@
 			"title": "Accessibility Courses",
 			"description": "Courses, webinars, educational videos, and more, offered in web accessibility.",
 			"additional": "Mike Gifford",
-			"url": "https://github.com/mgifford/a11y-courses"
+			"url": "https://github.com/accessibility/a11y-courses"
 		},
 		{
 			"title": "Accessibility fundamentals",
@@ -774,7 +852,19 @@
 			"title": "Introduction to Web Accessibility",
 			"description": "Get a strong foundation in digital accessibility to make your websites and apps work well for people with disabilities, meet international standards, and provide a better user experience for everyone.",
 			"additional": "edX and the W3C",
-			"url": "https://egghead.io/courses/start-building-accessible-web-applications-today"
+			"url": "https://www.edx.org/course/web-accessibility-introduction"
+		},
+		{
+			"title": "Learn Accessibility",
+			"description": "An evergreen accessibility course and reference to level up your web development.",
+			"additional": "web.dev",
+			"url": "https://web.dev/learn/accessibility/"
+		},
+		{
+			"title": "Practical Accessibility",
+			"description": "A self-paced, get-right-down-to-it online video course for web designers and developers who want to start creating more accessible websites and applications today.",
+			"additional": "Sara Soueidan",
+			"url": "https://practical-accessibility.today/"
 		},
 		{
 			"title": "Start Building Accessible Web Applications Today",
@@ -787,6 +877,12 @@
 			"description": "A series of five 5-minute tutorial videos hosted by Aquent Gymnasium that deal with introductory accessibility topics.",
 			"additional": "Aquent Gymnasium",
 			"url": "https://ethanmarcotte.com/wrote/takin-five/"
+		},
+		{
+			"title": "Testing Accessibility",
+			"description": "A self-paced workshop designed to teach you the principles and effective patterns of accessibility, from design to deployment.",
+			"additional": "Marcy Sutton",
+			"url": "https://testingaccessibility.com/"
 		},
 		{
 			"title": "The A11Y Collective",
@@ -833,6 +929,12 @@
 			"url": "https://uxdesign.cc/accessibility-guidelines-for-a-ux-designer-c3ba775539be"
 		},
 		{
+			"title": "A Designer’s Guide to Documenting Accessibility & User Interactions",
+			"description": "Great documentation helps teams implement accessibility requirements the right way. I will tell you why, what and how designers can document different aspects of accessibility and user interactions requirements, to build better more inclusive products.",
+			"additional": "Stéphanie Walter",
+			"url": "https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/"
+		},
+		{
 			"title": "Disabled And Here",
 			"description": "Disabled And Here is a stock image and interview series celebrating disabled Black, Indigenous, people of color (BIPOC).",
 			"additional": "Affect the Verb",
@@ -857,6 +959,12 @@
 			"url": "https://medium.com/@user_design/information-on-different-types-of-people-for-graphic-communication-website-and-information-4b6454905bb1"
 		},
 		{
+			"title": "Neurodiversity Design System",
+			"description": "The NDS is a coherent set of standards and principles that combine neurodiversity and user experience design for Learning Management Systems.",
+			"additional": "Will Soward",
+			"url": "https://www.neurodiversity.design/"
+		},
+		{
 			"title": "UX Myths",
 			"description": "UX Myths collects the most frequent user experience misconceptions and explains why they don't hold true.",
 			"additional": "Zoltán Gócza and Zoltán Kollin",
@@ -870,6 +978,12 @@
 		}
 	],
 	"developmentTools": [
+		{
+			"title": "A11y Automation Tracker",
+			"description": " A more thorough way to track the potential accessibility violations and the automated linters and tests currently available.",
+			"additional": " Melanie Sumner",
+			"url": "https://a11y-automation.dev/"
+		},
 		{
 			"title": "Accessify",
 			"description": "Run a free website performance test and get actionable tips on how to optimize it.",
@@ -955,16 +1069,28 @@
 			"url": "https://paypal.github.io/bootstrap-accessibility-plugin/"
 		},
 		{
+			"title": "Guidepup",
+			"description": "Screen reader driver for test automation.",
+			"additional": "Craig Morten",
+			"url": "https://github.com/guidepup/guidepup/"
+		},
+		{
 			"title": "Pa11y",
 			"description": "Pa11y is your automated accessibility testing pal.",
 			"additional": "Pa11y",
 			"url": "http://pa11y.org/"
 		},
 		{
+			"title": "Polypane",
+			"description": "Polypane is a cross-platform desktop browser that comes with extensive accessibility tooling: an accessibility checker, 19 different visual impairment simulators, color contrast checking, heading, links and image checking, focus order visualisation, horizontal overflow detection and more, showing improvement suggestions where possible.",
+			"additional": "Polypane",
+			"url": "https://polypane.com/"
+		},
+		{
 			"title": "Sa11y",
 			"description": "Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y indicates errors or warnings at the source with a simple tooltip on how to fix.",
 			"additional": "Ryerson University",
-			"url": "https://ryersondmp.github.io/sa11y/"
+			"url": "https://sa11y.netlify.app/"
 		},
 		{
 			"title": "Sublime WAI-ARIA Package",
@@ -1009,6 +1135,57 @@
 			"description": "It only takes a few small steps to make your emails more accessible for all of your subscribers. In this post, we’ll discuss what those steps are and how they can make email better for everyone.",
 			"additional": "Litmus",
 			"url": "https://litmus.com/blog/ultimate-guide-accessible-emails"
+		}
+	],
+	"employment": [
+		{
+			"title": "A11yjobs.com",
+			"description": "A digital accessibility job board.",
+			"additional": "George Hewitt",
+			"url": "https://www.a11yjobs.com/"
+		},
+		{
+			"title": "Applying for a job with a disability or impairment",
+			"description": "Combatting discrimination when entering the job market",
+			"additional": "Marlijn van der Bok",
+			"url": "https://resume.io/blog/applying-for-a-job-with-a-disability"
+		},
+		{
+			"title": "Accessibility Interview Questions",
+			"description": "These questions try to act as conversation starters, to gain insight into how someone solves problems, and interprets accessible, inclusive user experiences.",
+			"additional": "Scott O'Hara",
+			"url": "https://scottaohara.github.io/accessibility_interview_questions/"
+		},
+		{
+			"title": "Invisible Strengths",
+			"description": "Connecting disabled jobseekers with supportive work environments, and a diverse pipeline of candidates for employers.",
+			"additional": "Inclusive workplaces for everyone",
+			"url": "https://www.invisiblestrengths.com/"
+		}
+	],
+	"gaming": [
+		{
+			"title": "Accessibility and video games: All ages gaming for people with disabilities",
+			"description": "For people living with disabilities, accessibility doesn’t just mean how reachable something is — oftentimes, the level of accessibility can define their ability to interact with and participate in certain activities or events, including entertainment.",
+			"additional": "Verizon",
+			"url": "https://www.verizon.com/about/blog/video-game-accessibility"
+		},
+		{
+			"title": "Gaming Accessibility Fundamentals Learning Path",
+			"description": "An introductory course to accessibility in gaming and how to create inclusive gaming experiences.",
+			"additional": "Microsoft Xbox",
+			"url": "https://docs.microsoft.com/en-us/gaming/accessibility/gaf-info"
+		},
+		{
+			"title": "Can I Play That?",
+			"description": "A centralized resource for game accessibility reviews and information.",
+			"url": "https://caniplaythat.com/"
+		},
+		{
+			"title": "Accessible Games",
+			"description": "A resource for accessible player experiences and connecting with gamers with disabilities.",
+			"additional": "AbleGamers",
+			"url": "https://accessible.games/"
 		}
 	],
 	"htmlAndAria": [
@@ -1126,9 +1303,15 @@
 		},
 		{
 			"title": "Accessibility Chicago",
-			"description": "A community of digital professionals passionate about making the world more accessible and inclusive.",
+			"description": "Accessibility Twin Cities is designed to connect and support individuals who work in – or are even simply interested in – the field of digital accessibility and accessibility testing for organizations, businesses and government.",
 			"additional": "Chicago, United States",
 			"url": "https://www.meetup.com/a11ychi/"
+		},
+		{
+			"title": "Accessibility Twin Cities",
+			"description": "A community of digital professionals passionate about making the world more accessible and inclusive.",
+			"additional": "Minnesota, United States",
+			"url": "https://www.meetup.com/Accessibility-Twin-Cities/"
 		},
 		{
 			"title": "A11yPHL - Philly Accessibility Meetup",
@@ -1339,6 +1522,12 @@
 			"url": "https://www.a11yproject.com/newsletter/"
 		},
 		{
+			"title": "Accessible Mobile Apps Weekly",
+			"description": "News from the accessibility community, links to developer tools and frameworks, and more.",
+			"additional": "Robin Kanatzar",
+			"url": "https://accessible-mobile-apps-weekly.ghost.io/"
+		},
+		{
 			"title": "Accessibility Weekly",
 			"description": "A weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday.",
 			"additional": "David A. Kennedy",
@@ -1361,6 +1550,12 @@
 			"description": "Stay up to date on learning and development, training opportunities, and accessibility news.",
 			"additional": "Microassist",
 			"url": "https://www.microassist.com/about/newsletter-subscriptions/"
+		},
+		{
+			"title": "Skip to Content",
+			"description": "Your online accessibility magazine.",
+			"additional": "Huxley Digital",
+			"url": "https://skiptocontent.huxleydigital.co.uk/"
 		},
 		{
 			"title": "Stark",
@@ -1448,6 +1643,13 @@
 			"type": "Podcast"
 		},
 		{
+			"title": "#A11y Rules Soundbites",
+			"description": "Short discussions with disabled people about the barriers they encounter on the web.",
+			"additional": "Nicolas Steenhout",
+			"url": "https://a11yrules.com/series/a11y-rules-soundbite/",
+			"type": "Podcast"
+		},
+		{
 			"title": "a11y Cocktail",
 			"description": "In this episode, we have a special guest joining us to talk about digital accessibility, Jennison Asuncion who is a leader in the accessibility community and has a lot of information to help us improve our websites and applications be more accessible for all users.",
 			"additional": "Front End Happy Hour",
@@ -1486,7 +1688,35 @@
 			"title": "Accessible Podcast",
 			"description": "Accessible is a fortnightly—episodes are released twice per month—podcast about accessibility in tech. Topics covered on the show are mostly Apple-centric but will span the tech industry at large where appropriate.",
 			"additional": "Steven Aquino and Timothy Buck",
-			"url": "https://www.accessible.fm",
+			"url": "https://www.timothybuck.me/accessible-episode-archive",
+			"type": "Podcast"
+		},
+		{
+			"title": "Command Z Podcast - Episodio 86: Ivonne Acevedo | Accesibilidad sin barreras (Spanish)",
+			"description": "Escucha la importancia del diseño universal en proyectos arquitectónicos.Aprende sobre conceptos básicos de la accesibilidad digitalVisualiza como tú puedes aportar mediante tus diseños la accesibilidad y diversidad que todos necesitamos.",
+			"additional": "Ivonne Acevedo",
+			"url": "https://podcasts.apple.com/us/podcast/episodio-86-ivonne-acevedo-accesibilidad-sin-barreras/id1464454956?i=1000514246627",
+			"type": "Episode"
+		},
+		{
+			"title": "Command Z Podcast - Episodio 77: Paula Goyanes | Accesibilidad & Development (Spanish)",
+			"description": "Escucha cómo crear diseños accesibles y cómo llevarlos a producción de una manera correcta. Aprende como el diseño y el development trabajan de la mano para crear experiencias accesibles.Conoce como hacer experiencias usables y accesibles incluso para motores de búsqueda y mejorar tu SEO.",
+			"additional": "Paula Goyanes",
+			"url": "https://podcasts.apple.com/us/podcast/episodio-77-paula-goyanes-accesibilidad-development/id1464454956?i=1000505332708",
+			"type": "Episode"
+		},
+		{
+			"title": "Command Z Podcast - Episodio 73: Adriana Mattei Sosa | Diseño Accesible",
+			"description": "Aprende sobre la diversidad de diseños del bastón, herramienta para personas con impedimento visual. Comprende cómo los diseñadores podemos crear experiencias inclusivas y centradas en el diseño universal. Escucha como la disciplina del diseño resuelve problemas que son desapercibidos ante la falta de educación y empatía hacia la comunidad con discapacidad.",
+			"additional": "Adriana Mattei Sosa",
+			"url": "https://podcasts.apple.com/us/podcast/episodio-73-adriana-mattei-sosa-dise%C3%B1o-accesible/id1464454956?i=1000500357583",
+			"type": "Episode"
+		},
+		{
+			"title": "Document Accessibility Unraveled",
+			"description": "Join Chad Chelius and Dax Castro (CHAX) as they chat about important document accessibility topics, trends and maybe even complain a little now and again.",
+			"additional": "Chad Chelius and Dax Castro",
+			"url": "https://www.accessibilitychecklists.com/",
 			"type": "Podcast"
 		},
 		{
@@ -1497,11 +1727,25 @@
 			"type": "Episode"
 		},
 		{
+			"title": "InEx",
+			"description": "A show about inclusive design.",
+			"additional": "Matthew May",
+			"url": "https://inex.show/",
+			"type": "Podcast"
+		},
+		{
 			"title": "Intro to Accessibility with Stephanie Slattery",
 			"description": "Stephanie Slattery explains the 5 categories of disabilities, shows us how to implement suggestions from the Web Content Accessibility Guidelines, and shares why she’s so passionate about accessibility.",
 			"additional": "CodeNewbie",
 			"url": "https://www.codenewbie.org/podcast/intro-to-accessibility",
 			"type": "Episode"
+		},
+		{
+			"title": "The Neurodivergent Woman",
+			"description": "A podcast for neurodivergent women, covering Autism to ADHD and everything in between. Monique and Michelle aim to educate and inspire women who think differently.",
+			"additional": "Monique Mitchelson and Michelle Livock",
+			"url": "https://www.ndwomanpod.com/",
+			"type": "Podcast"
 		},
 		{
 			"title": "Presentable 30: Accessibility is Social Justice",
@@ -1545,14 +1789,24 @@
 			"url": "https://knowbility.org/"
 		},
 		{
+			"title": "Level Access",
+			"description": "Level Access is a company that provides digital accessibility solutions and services to corporations, government agencies, and educational institutions.",
+			"url": "https://www.levelaccess.com/"
+		},
+		{
+			"title": "Simply Open",
+			"description": "We work with brands who are listening. They want to make products and services you will love. They understand the value of insight from those who sense, think, move and feel differently.",
+			"url": "https://www.simplyopen.io/"
+		},
+		{
+			"title": "TetraLogical",
+			"description": "We're a company with inclusion at its heart. Our focus is on emerging as well as existing technologies, offering knowledge, experience, strategic, and development services.",
+			"url": "https://tetralogical.com/"
+		},
+		{
 			"title": "TPGi",
 			"description": "TPGi – Your Accessibility Partner (WCAG 2.0/508 audits, VPAT, usability and accessible user experience).",
 			"url": "https://www.paciellogroup.com/"
-		},
-		{
-			"title": "Simply Accessible",
-			"description": "Help us a build a digital world for everybody. Apply an accessible approach to your design, development, and testing. We'll guide you & show you how using an accessibility first approach empower us all.",
-			"url": "https://simplyaccessible.com/"
 		},
 		{
 			"title": "WebAIM: Web Accessibility In Mind",
@@ -1560,19 +1814,9 @@
 			"url": "https://webaim.org/"
 		},
 		{
-			"title": "Level Access",
-			"description": "Level Access is a company that provides digital accessibility solutions and services to corporations, government agencies, and educational institutions.",
-			"url": "https://www.levelaccess.com/"
-		},
-		{
-			"title": "Tenon",
-			"description": "We believe in a web accessible to everyone. Tenon.io exists because universal design is hard. We create software to help you reach beyond compliance and build superior experiences for everyone.",
-			"url": "https://tenon.io/"
-		},
-		{
-			"title": "TetraLogical",
-			"description": "We're a company with inclusion at its heart. Our focus is on emerging as well as existing technologies, offering knowledge, experience, strategic, and development services.",
-			"url": "https://tetralogical.com/"
+			"title": "WeCo",
+			"description": "We’re accessibility experts who live with the disabilities you’re trying to accommodate. Let us help you bring real-life accessibility, and legal compliance, to your projects.",
+			"url": "https://theweco.com/"
 		}
 	],
 	"professionalTesters": [
@@ -1795,7 +2039,7 @@
 			"title": "Introduction to Web Accessibility",
 			"description": "This brief introductory video geared towards technology professionals provides a baseline understanding of the topic of Web and digital accessibility: designing, coding, and testing with users with disabilities in mind, including the diverse assistive technology and tools they may be using to engage with their computing devices.",
 			"additional": "Dr. Michele A. Williams",
-			"url": "https://mawconsultingllc.com/webinars/webinar-intro-to-accessibility/",
+			"url": "https://mawconsultingllc.com/intro-to-web-accessibility/",
 			"type": "Talk"
 		},
 		{
@@ -1854,6 +2098,14 @@
 			"url": "https://typography.guru/journal/letters-symbols-misrecognition/"
 		}
 	],
+	"video": [
+		{
+			"title": "Video accessibility guide for content creators and viewers",
+			"description": "Accessible videos not only help those with disabilities but benefits others who want to engage with your videos. Here's what you need to know to make your videos accessible.",
+			"additional": "Adobe",
+			"url": "https://blog.adobe.com/en/publish/2021/12/10/video-accessibility-guide-for-content-creators-and-viewers"
+		}
+	],
 	"visionSimulators": [
 		{
 			"title": "Color Oracle",
@@ -1898,16 +2150,28 @@
 	],
 	"additionalResources": [
 		{
-			"title": "A11yjobs.com",
-			"description": "A digital accessibility job board.",
-			"additional": "George Hewitt",
-			"url": "https://www.a11yjobs.com/"
-		},
-		{
 			"title": "a11y_styled_form_controls",
 			"description": "A repository of styled and “styled” form control elements and markup patterns, and how they are announced by screen readers.",
 			"additional": "Scott O'Hara",
 			"url": "https://scottaohara.github.io/a11y_styled_form_controls/"
+		},
+		{
+			"title": "a11y-dialog",
+			"description": "A very lightweight and flexible accessible modal dialog script.",
+			"additional": "Kitty Giraudel",
+			"url": "https://github.com/KittyGiraudel/a11y-dialog"
+		},
+		{
+			"title": "a11y-tabs",
+			"description": "A lightweight (<1Kb) JavaScript package to facilitate a11y-compliant tabbed interfaces.",
+			"additional": "Rob Levin",
+			"url": "https://github.com/agnosticui/a11y-tabs"
+		},
+		{
+			"title": "a11y-webring.club",
+			"description": "A webring for digital accessibility practitioners.",
+			"additional": "Eric Bailey",
+			"url": "https://a11y-webring.club/"
 		},
 		{
 			"title": "Aaron Cannon’s Web Accessibility Checklist",
@@ -1922,22 +2186,34 @@
 			"url": "https://bitsofco.de/the-accessibility-cheatsheet/"
 		},
 		{
-			"title": "Accessibility Interview Questions",
-			"description": "These questions try to act as conversation starters, to gain insight into how someone solves problems, and interprets accessible, inclusive user experiences.",
-			"additional": "Scott O'Hara",
-			"url": "https://scottaohara.github.io/accessibility_interview_questions/"
-		},
-		{
 			"title": "Accessibility for teams",
 			"description": "This is a starter guide for teams about delivering accessible websites. Each person on your team has their own responsibilities, this guide tells you what everybody needs to do.",
 			"additional": "Peter van Grieken",
 			"url": "https://accessibility-for-teams.com/"
 		},
 		{
+			"title": "Accessible Social",
+			"description": "Accessible Social is a free resource hub for digital marketers, communication professionals, content creators, everyday social media users, and anyone who wants to learn how to make their content inclusive and accessible for people with disabilities.",
+			"additional": "Alexa Heinrich",
+			"url": "https://www.accessible-social.com/"
+		},
+		{
 			"title": "Adobe Inclusive Design Workshop",
 			"description": "Content for a full-day workshop on inclusive design, including workbook modules, and exercises.",
 			"additional": "Matt May",
 			"url": "https://github.com/adobe-inclusive-design/id-workshop"
+		},
+		{
+			"title": "Assistive Technology Glossary",
+			"description": "A list of assistive technology terms and what they mean.",
+			"additional": "Fable",
+			"url": "https://makeitfable.com/glossary/"
+		},
+		{
+			"title": "Collaborative planning, the forgotten step of accessible development",
+			"description": "Describes an agile development process to faciliate accessibility called Accessibility Behavior Informed Development (a11yBID).",
+			"additional": "Deque",
+			"url": "https://www.deque.com/blog/collaborative-planning-the-forgotten-step-of-accessible-development/"
 		},
 		{
 			"title": "Dataviz Accessibility Resources",

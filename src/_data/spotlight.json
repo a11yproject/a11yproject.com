@@ -2,33 +2,73 @@
 	"spotlight": [
 		{
 			"name": "Amy Carney",
+			"first": "Amy",
 			"website": "/spotlight/amy-carney",
 			"photo": "/img/spotlight/amy-carney.jpg",
 			"biography": "Hi! My name is Amy and my craft is web design. The bulk of my background lies in psychology and libraries. I care about how people think, how they interact with others and technology, and how information is accessed by everyone."
 		},
 		{
 			"name": "Segun Ola",
+			"first": "Segun",
 			"website": "/spotlight/segun-ola",
 			"photo": "/img/spotlight/segun-ola.png",
 			"biography": "I’m a frontend web developer working with Andela Nigeria. I work with Andela partners to build highly interactive and accessible web applications."
 		},
 		{
 			"name": "Anna E. Cook",
+			"first": "Anna",
 			"website": "/spotlight/anna-e-cook",
 			"photo": "/img/spotlight/anna-e-cook.jpg",
 			"biography": "I’m a Senior Product Designer at Recurly. I lead product design efforts within one of our Scrum teams."
 		},
 		{
 			"name": "Eriol Fox",
+			"first": "Eriol",
 			"website": "/spotlight/eriol-fox",
 			"photo": "/img/spotlight/eriol-fox.jpg",
 			"biography": "I work part-time as the lead designer at The Open Food Network and spend the other days of the week doing freelance projects, open source design contributions and then working on my PhD research, which is around humanitarian open source software and designer contributions."
 		},
 		{
 			"name": "Nic Steenhout",
+			"first": "Nic",
 			"website": "/spotlight/nic-steenhout",
 			"photo": "/img/spotlight/nic-steenhout.jpg",
 			"biography": "I am an independent accessibility consultant. I work with large and small organizations. I help them improve the accessibility of their websites. I guide them through the creation or improvement of their culture of accessibility."
+		},
+		{
+			"name": "Alex Chen",
+			"first": "Alex",
+			"website": "/spotlight/alex-chen",
+			"photo": "/img/spotlight/alex-chen.png",
+			"biography": "By day, I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right. In my spare time I love to train mixed martial arts, care for my house plants, and experiment with illustration and collage."
+		},
+		{
+			"name": "Frank Elavsky",
+			"first": "Frank",
+			"website": "/spotlight/frank-elavsky",
+			"photo": "/img/spotlight/frank-elavsky.jpg",
+			"biography": "I research, design, engineer, contribute to standards, and talk about things at the intersection of data work and accessibility. I'm a PhD student and a bit of a trouble-maker at times."
+		},
+		{
+			"name": "Gertrude Nyenyeshi",
+			"first": "Gertrude",
+			"website": "/spotlight/gertrude-nyenyeshi",
+			"photo": "/img/spotlight/gertrude-nyenyeshi.png",
+			"biography": "Gertrude is a Frontend Engineer who is passionate about building accessible and inclusive user interfaces for a wide range of users. She is the Founder of Accessibility Africa, championing the advancement of digital accessibility in the African continent."
+		},
+		{
+			"name": "Josh Kim",
+			"first": "Josh",
+			"website": "/spotlight/josh-kim",
+			"photo": "/img/spotlight/josh-kim.png",
+			"biography": "I’m a researcher by heart, so I’m less about remediating solutions after the fact and all about including disabled people into our studies from the start."
+		},
+		{
+			"name": "Kevin Mar-Molinero",
+			"first": "Kevin",
+			"website": "/spotlight/kevin-mar-molinero",
+			"photo": "/img/spotlight/kevin-mar-molinero.png",
+			"biography": "Kevin is an inclusive design strategist, speaker, researcher, and mentor. He is the Director of Experience Technologies for Kin+Carta EU, and sits on the British Interactive Media Association's Inclusive Design Council."
 		},
 		{
 			"name": "Want to nominate someone?",
