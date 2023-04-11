@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Gertrude Nyenyeshi ",
-			"role": "Frontend Engineer",
-			"description": "Gertrude is a Frontend Engineer who is passionate about building accessible and inclusive user interfaces for a wide range of users. She is the Founder of Accessibility Africa, championing the advancement of digital accessibility in the African continent.",
-			"image": "gertrude-nyenyeshi.png",
-			"cta": "Meet Gertrude"
+			"name": "Frank Elavsky",
+			"role": "PhD student and researcher",
+			"description": "Frank is a researcher, designer, engineer, and standards contributor with an interest in the intersection of data work and accessibility.",
+			"image": "frank-elavsky.jpg",
+			"cta": "Meet Frank"
 		}
 	]
 }

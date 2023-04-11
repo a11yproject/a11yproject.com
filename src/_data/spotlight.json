@@ -43,7 +43,14 @@
 			"biography": "By day, I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right. In my spare time I love to train mixed martial arts, care for my house plants, and experiment with illustration and collage."
 		},
 		{
-			"name": "Gertrude Nyenyeshi ",
+			"name": "Frank Elavsky",
+			"first": "Frank",
+			"website": "/spotlight/frank-elavsky",
+			"photo": "/img/spotlight/frank-elavsky.jpg",
+			"biography": "I research, design, engineer, contribute to standards, and talk about things at the intersection of data work and accessibility. I'm a PhD student and a bit of a trouble-maker at times."
+		},
+		{
+			"name": "Gertrude Nyenyeshi",
 			"first": "Gertrude",
 			"website": "/spotlight/gertrude-nyenyeshi",
 			"photo": "/img/spotlight/gertrude-nyenyeshi.png",
