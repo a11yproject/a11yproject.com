@@ -24,7 +24,8 @@ Ah! My day job is a bit of a mix of things. I spend most of my time as a researc
 But at CMU, I build stuff! My research is largely technical and focused on making better systems for working with data:
 
 - What will the future of accessible data analysis look like?
-- How do we research and design accessible technology for folks who have disabilities? - What barriers do they face?
+- How do we research and design accessible technology for folks who have disabilities? 
+- What barriers do they face?
 - What does a better future look like for this work?
 
 Generally my time is split between writing code, working in co-design sessions, chatting with folks, reading, and writing.
