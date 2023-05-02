@@ -2,8 +2,8 @@
 title: Text Contrast on Dynamic Backgrounds
 description: Use text shadows to guarantee color contrast
 category: How-to
-author: AccessiTech LLC
-date: 2022-07-21
+author: Conor Kelly
+date: 2023-05-02
 further_reading:
   - title: text-shadow | CSS-Tricks
     url: https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/
