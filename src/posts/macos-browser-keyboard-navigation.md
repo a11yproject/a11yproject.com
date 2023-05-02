@@ -7,10 +7,6 @@ date: 2017-12-29
 updated_by: Erin Olmon
 last_updated: 2019-11-15
 further_reading:
-  - title: Keyboard Navigation in Mac Browsers
-    url: http://www.weba11y.com/blog/2014/07/07/keyboard-navigation-in-mac-browsers/
-    source: WebA11y
-    year: 2014
   - title: "Tabbing Links in OSX/macOS"
     url: https://www.scottohara.me/blog/2014/10/03/link-tabbing-firefox-osx.html
     source: Scott O'Hara

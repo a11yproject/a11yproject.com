@@ -1,12 +1,12 @@
 {
 	"featuredResources": [
 		{
-			"title": "The Bootcamper's Guide to Web Accessibility",
-			"author": "Lindsey Kopacz",
-			"description": "This book is geared towards bootcamp grads and self-guided front end web developers that explains the crucial takeaways of accessibility standards and makes them less intimidating.",
-			"image": "the-bootcampers-guide-to-web-accessibility.jpg",
-			"alt": "The title, The Bootcamper's Guide to Web Accessibility on a maroon background, surrounded by a blue chevron stripe pattern.",
-			"cta": "Learn more about this book"
+			"title": "Testing Accessibility",
+			"author": "Marcy Sutton",
+			"description": "A self-paced workshop designed to teach you the principles and effective patterns of accessibility, from design to deployment.",
+			"image": "testing-accessibility.png",
+			"alt": "A notebook with hand-written phrases of 'Testing Accessibility', 'P.O.U.R. Perceivable, Operable, Understandable, Robust', and Automated Testing. There are also badges showing illustrations of a trail sign, a ski lift, a wheelchair in front of a scenic vista, a ladybug, and a bird. There is also a sketch of a lighthouse.",
+			"cta": "Learn more about this workshop"
 		},
 		{
 			"title": "Introduction to Web Accessibility",
@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Kevin Mar-Molinero",
-			"role": "Director of Experience Technologies",
-			"description": "Kevin is an inclusive design strategist, speaker, researcher, and mentor. He is the Director of Experience Technologies for Kin+Carta EU, and sits on the British Interactive Media Association's Inclusive Design Council.",
-			"image": "kevin-mar-molinero.png",
-			"cta": "Meet Kevin"
+			"name": "Frank Elavsky",
+			"role": "PhD student and researcher",
+			"description": "Frank is a researcher, designer, engineer, and standards contributor with an interest in the intersection of data work and accessibility.",
+			"image": "frank-elavsky.jpg",
+			"cta": "Meet Frank"
 		}
 	]
 }

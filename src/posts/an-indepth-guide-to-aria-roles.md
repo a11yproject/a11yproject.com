@@ -21,7 +21,7 @@ For instance, ARIA roles can be useful in situations where native HTML semantics
 
 ## Usage
 
-ARIA roles are added to elements using the `role="<ROLE_TYPE>` attribute, where `ROLE_TYPE` represents the specific role being added. Once an ARIA role is set on an element, it should not be changed, regardless of the state of the element. In some cases, roles have to be paired with the appropriate ARIA state or property. However, this article's examples have reduced markup to limit the scope to just ARIA roles.
+ARIA roles are added to elements using the `role="<ROLE_TYPE>"` attribute, where `ROLE_TYPE` represents the specific role being added. Once an ARIA role is set on an element, it should not be changed, regardless of the state of the element. In some cases, roles have to be paired with the appropriate ARIA state or property. However, this article's examples have reduced markup to limit the scope to just ARIA roles.
 
 ARIA roles are broken down into six categories:
 
