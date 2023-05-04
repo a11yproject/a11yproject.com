@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Rachele DiTullio",
-			"role": "Accessibility engineer",
-			"description": "Rachele is an accessibility engineer who enjoys helping teams prevent accessibility problems by designing for people not like themselves while using semantic markup.",
-			"image": "rachele-ditullio.png",
-			"cta": "Meet Rachele"
+			"name": "Frank Elavsky",
+			"role": "PhD student and researcher",
+			"description": "Frank is a researcher, designer, engineer, and standards contributor with an interest in the intersection of data work and accessibility.",
+			"image": "frank-elavsky.jpg",
+			"cta": "Meet Frank"
 		}
 	]
 }

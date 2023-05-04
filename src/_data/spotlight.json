@@ -43,6 +43,20 @@
 			"biography": "By day, I’m a product designer who specializes in usability and accessibility. I believe that access to technology is a human right. In my spare time I love to train mixed martial arts, care for my house plants, and experiment with illustration and collage."
 		},
 		{
+			"name": "Frank Elavsky",
+			"first": "Frank",
+			"website": "/spotlight/frank-elavsky",
+			"photo": "/img/spotlight/frank-elavsky.jpg",
+			"biography": "I research, design, engineer, contribute to standards, and talk about things at the intersection of data work and accessibility. I'm a PhD student and a bit of a trouble-maker at times."
+		},
+		{
+			"name": "Gertrude Nyenyeshi",
+			"first": "Gertrude",
+			"website": "/spotlight/gertrude-nyenyeshi",
+			"photo": "/img/spotlight/gertrude-nyenyeshi.png",
+			"biography": "Gertrude is a Frontend Engineer who is passionate about building accessible and inclusive user interfaces for a wide range of users. She is the Founder of Accessibility Africa, championing the advancement of digital accessibility in the African continent."
+		},
+		{
 			"name": "Josh Kim",
 			"first": "Josh",
 			"website": "/spotlight/josh-kim",
@@ -55,13 +69,6 @@
 			"website": "/spotlight/kevin-mar-molinero",
 			"photo": "/img/spotlight/kevin-mar-molinero.png",
 			"biography": "Kevin is an inclusive design strategist, speaker, researcher, and mentor. He is the Director of Experience Technologies for Kin+Carta EU, and sits on the British Interactive Media Association's Inclusive Design Council."
-		},
-		{
-			"name": "Rachele DiTullio",
-			"first": "Rachele",
-			"website": "/spotlight/rachele-ditullio",
-			"photo": "/img/spotlight/rachele-ditullio.png",
-			"biography": "Rachele is an accessibility engineer who enjoys helping teams prevent accessibility problems by designing for people not like themselves while using semantic markup."
 		},
 		{
 			"name": "Want to nominate someone?",

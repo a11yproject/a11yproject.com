@@ -17,9 +17,9 @@ further_reading:
   - title: "How to use -ms-high-contrast"
     url: https://www.gwhitworth.com/blog/2017/04/how-to-use-ms-high-contrast/
     source: Greg Whitworth
-  - title: How users change colours on websites - GOV.UK
-  - url: https://accessibility.blog.gov.uk/2017/03/27/how-users-change-colours-on-websites/
-    source: Anika Henke
+  - title: "How users change colours on websites - GOV.UK"
+    url: https://accessibility.blog.gov.uk/2017/03/27/how-users-change-colours-on-websites/
+    source: GOV.UK
 tags:
   - assistivetechnology
 ---

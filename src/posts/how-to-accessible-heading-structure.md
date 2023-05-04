@@ -184,7 +184,7 @@ Following are some considerations for using headings in design.
 
 Text in all capitals is harder to read. The shape of a word disappears,  every word becomes a rectangle. Research shows that all caps text is especially difficult for readers with dyslexia. Make life easy for your readers, don't capitalize all the words.
 
-Damien Sieger did excellent [research on readability on the web](https://www.ncdt.nl/ncdt-2019/readability-on-the-web-damien-senger), including the use of all caps.
+Damien Sieger did excellent [research on readability on the web](https://www.ncdt.nl/vorige-edities/2019/readability-on-the-web-damien-senger), including the use of all caps.
 
 ### Use of headings in the design
 

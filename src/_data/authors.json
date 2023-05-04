@@ -37,8 +37,15 @@
 			"name": "Cooper Hollmaier",
 			"first": "Cooper",
 			"website": "https://cooperhollmaier.com",
-			"photo": "https://pbs.twimg.com/profile_images/1093605286110060544/45BkREw2_400x400.jpg",
-			"biography": "Cooper is a Technical SEO, developer, and accessibility specialist."
+			"photo": "https://media.licdn.com/dms/image/D5603AQHXQLlrqKYkqg/profile-displayphoto-shrink_200_200/0/1662001305340?e=1681948800&v=beta&t=A7xq5_x90V89CzFG2Oje_vzaBuBFQHKWRdpCt_pE81k",
+			"biography": "Cooper (he/him) leads an award-winning accessibility team at Recreational Equipment, Inc. He's an empathetic problem solver, talented storyteller, and persistent community builder. When he's not working on accessibiltiy, you can find him playing video games, biking, running, skiing and supporting local businesses."
+		},
+		{
+			"name": "Daniel Sage",
+			"first": "Daniel",
+			"website": "https://switchandretain.com/blog/",
+			"photo": "https://www.a11yproject.com/img/authors/daniel-sage.jpg",
+			"biography": " help B2B Saas Startups increase their revenue by becoming better at selling and making products people will buy through Customer Research and Copywriting."
 		},
 		{
 			"name": "Dave Rupert",
@@ -46,6 +53,13 @@
 			"website": "https://daverupert.com/",
 			"photo": "https://www.a11yproject.com/img/team/dave-rupert.jpg",
 			"biography": "I'm Dave Rupert, lead developer at Paravel. I co-host ShopTalk, an award-winning sound effects podcast that also covers web development. I'm a dad to two wonderful kids. I live in Austin, TX; the best damn city, in the best damn state, in the best damn country, in the whole damn world."
+		},
+		{
+			"name": "David A. Kennedy",
+			"first": "David",
+			"website": "https://davidakennedy.com/",
+			"photo": "https://avatars.githubusercontent.com/u/1473618?s=400&v=4",
+			"biography": "Designer and accessibility advocate. Curator of A11y Weekly. I help make the web fast, accessible and beautiful. Trust the process."
 		},
 		{
 			"name": "Duncan Jimbo",
@@ -125,6 +139,13 @@
 			"biography": "Ilknur Eren is a Software Engineer and a writer currently residing in New Jersey. Ilknur is passionate about accessibility and sharing what she learns with others."
 		},
 		{
+			"name": "Jamie Vanderwall",
+			"first": "Jamie",
+			"website": "https://medium.com/@jamievanderwall",
+			"photo": "https://www.a11yproject.com/img/authors/jamie-vanderwall.jpg",
+			"biography": "UX designer, published researcher, and TBI survivor specializing in cognitive accessibility. Articles are written by myself and ChatGPT."
+		},
+		{
 			"name": "Johny Cassidy",
 			"first": "Johny",
 			"website": "https://www.linkedin.com/in/johny-cassidy-36150121/",
@@ -173,11 +194,18 @@
 			"biography": "Independent web developer and accessibility specialist. Camera-toting hiker, biker, pie baker."
 		},
 		{
+			"name": "Martin Lexelius ",
+			"first": "Martin",
+			"website": "http://www.lexelius.se/hello/",
+			"photo": "{{ '/img/authors/martin-lexelius .jpg' | url }}",
+			"biography": "Accessibility developer in Stockholm 🇸🇪. Occasional speaker and writer."
+		},
+		{
 			"name": "Mat Marquis",
 			"first": "Mat",
 			"website": "https://hire.wil.to/",
 			"photo": "https://avatars1.githubusercontent.com/u/439942?s=460&v=4",
-			"biography": " My name is Mat “Wilto” Marquis, and I make websites. I’m an independent consultant. My specialization is inclusive web development."
+			"biography": "My name is Mat “Wilto” Marquis, and I make websites. I’m an independent consultant. My specialization is inclusive web development."
 		},
 		{
 			"name": "Matthew Higgins",
