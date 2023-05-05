@@ -62,14 +62,14 @@
 			"url": "https://www.alicia.design/writing"
 		},
 		{
-			"title": "Articles » Simply Accessible",
-			"description": "Find out what’s happening in the world of accessible design, Simply Accessible’s team updates, and better practices for an accessible web.",
-			"url": "https://simplyaccessible.com/articles/"
+			"title": "Level Access Blog",
+			"description": "Find out what’s happening in the world of accessible design, Level Access’ team updates, and better practices for an accessible web.",
+			"url": "https://www.levelaccess.com/blog/"
 		},
 		{
 			"title": "Blog - Karl Groves",
 			"description": "Karl Groves' web accessibility blog",
-			"url": "http://www.karlgroves.com/blog/"
+			"url": "https://karlgroves.com/category/professional/accessibility/"
 		},
 		{
 			"title": "Inclusive Components",
@@ -301,7 +301,7 @@
 			"title": "Inclusion: Diversity, The New Workplace & The Will To Change",
 			"description": "The Inclusion Dividend provides a framework to tap the bottom line impact that results from an inclusive culture.",
 			"additional": "Jennifer Brown",
-			"url": "https://jenniferbrownconsulting.com/inclusion-the-book/"
+			"url": "https://jenniferbrownspeaks.com/jbs-book-inclusion"
 		},
 		{
 			"title": "The Inclusion Dividend: Why Investing in Diversity and Inclusion Pays Off",
@@ -510,11 +510,20 @@
 			"title": "Landmarks",
 			"description": "Allows you to navigate a web page via WAI-ARIA landmarks, using the keyboard or a pop-up menu.",
 			"additional": "Matthew Tylee Atkinson",
-			"url": "https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia",
+			"url": "https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp",
 			"browsers": [
 				"Chrome",
 				"Firefox",
 				"Opera"
+			]
+		},
+		{
+			"title": "NoCoffee",
+			"description": "NoCoffee can be helpful for understanding the problems faced by people with slight to extreme vision problems.",
+			"additional": "Eitan Isaacson",
+			"url": "https://addons.mozilla.org/en-US/firefox/addon/nocoffee/",
+			"browsers": [
+				"Firefox"
 			]
 		},
 		{
@@ -571,22 +580,10 @@
 			"url": "https://github.com/darekkay/a11y-contrast"
 		},
 		{
-			"title": "Accessibility Tester",
-			"description": "Pick any color to generate an accessible palette.",
-			"additional": "Confrere",
-			"url": "https://confrere.com/a11y/test/"
-		},
-		{
 			"title": "Accessible color palette builder",
 			"description": "An Elm-based prototype to help designers build accessible color palettes.",
 			"additional": "Atul Varma",
 			"url": "https://toolness.github.io/accessible-color-matrix/"
-		},
-		{
-			"title": "Blindspot: Hidden Biases of Good People",
-			"description": "In Blindspot, Mahzarin Banaji and Anthony Greenwald explore hidden biases that we all carry from a lifetime of experiences with Blindspot approved.inddsocial groups – age, gender, race, ethnicity, religion, social class, sexuality, disability status, or nationality.",
-			"additional": "Mahzarin R. Banaji, Anthony G. Greenwald",
-			"url": "http://blindspot.fas.harvard.edu/Book"
 		},
 		{
 			"title": "Colorable",
@@ -636,17 +633,11 @@
 			"additional": "Protean Studio",
 			"url": "https://contrast.tools"
 		},
-		{
+    {
 			"title": "Hex Naw",
 			"description": "Hex Naw is a tool that helps designers and developers test entire color systems for contrast and accessibility. Plug in your palette or color system and let Hex Naw do the rest.",
 			"additional": "The Scenery",
 			"url": "https://hexnaw.com/"
-		},
-		{
-			"title": "Image-Color: Color Contrast Checker",
-			"description": "Enter your colors in HEX format or click on the icon to use the color picker. Contrast ratio value will be updated automatically as you change color values.",
-			"additional": "image-color.com",
-			"url": "https://image-color.com/color-contrast.html"
 		},
 		{
 			"title": "Pika",
@@ -1317,7 +1308,7 @@
 			"title": "A11yPHL - Philly Accessibility Meetup",
 			"description": "The Philly Accessibility Meetup exists to connect and elevate the local accessibility community.",
 			"additional": "Philladelphia, United States",
-			"url": "https://www.meetup.com/a11yphl/"
+			"url": "https://a11yphl.com/events/"
 		},
 		{
 			"title": "a11ySD",
@@ -1420,18 +1411,6 @@
 			"description": "We like to come together to talk about inclusive design and accessibility. Be it UX design, UI design, EU law changes, web accessibility, product design, user research, what have you.",
 			"additional": "Utrecht, Netherlands",
 			"url": "https://www.meetup.com/Inclusive-Design-Accessibility/"
-		},
-		{
-			"title": "Munich Accessibility Meetup",
-			"description": "Munich Accessibility Meetup is a hub to bring together Munich's accessibility and inclusive design community.",
-			"additional": "Munich, Germany",
-			"url": "https://www.meetup.com/Munich-Accessibility-Meetup/"
-		},
-		{
-			"title": "Paris Web Accessibility",
-			"description": "Ce groupe s'adresse à toutes personnes étant intéressée à rendre le web plus accessible allant du développeur au designer en passant par le product owner.",
-			"additional": "Paris, France",
-			"url": "https://www.meetup.com/Paris-Web-Accessibility/"
 		},
 		{
 			"title": "Portland Accessibility and User Experience Meetup",
@@ -1556,12 +1535,6 @@
 			"description": "Your online accessibility magazine.",
 			"additional": "Huxley Digital",
 			"url": "https://skiptocontent.huxleydigital.co.uk/"
-		},
-		{
-			"title": "Stark",
-			"description": "Join readers from Microsoft, QZ, Amazon, and more receiving our weekly newsletter with highly curated content and write-ups, plus Stark updates here & there.",
-			"additional": "Stark",
-			"url": "https://www.getstark.co/newsletter"
 		},
 		{
 			"title": "t12t Accessibility Newsletter",
