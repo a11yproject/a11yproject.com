@@ -24,13 +24,6 @@
 			"biography": "Ashley is an accessibility wonk and copy editor. She has a knack for taming technical and business writing, and she’s a heartfelt advocate for plain language. In real life, she enjoys drinking tea and kicking back to tracks from In Flames and Nevermore."
 		},
 		{
-			"name": "Eric Bailey",
-			"first": "Eric",
-			"website": "https://ericwbailey.design/",
-			"photo": "{{ '/img/team/eric-bailey.jpg' | url }}",
-			"biography": "I’m an inclusive design advocate, writer, developer, and speaker."
-		},
-		{
 			"name": "EJ Mason",
 			"first": "EJ",
 			"website": "https://ejmason.com/",
@@ -120,6 +113,13 @@
 			"website": "https://emilymlane.io/",
 			"photo": "{{ '/img/team/emily-lane.jpg' | url }}",
 			"biography": "Hi! I’m a recent grad with design and UX experience and a killer sense of humor. I’m currently working on munch., helping to find healthy food for pets."
+		},
+		{
+			"name": "Eric Bailey",
+			"first": "Eric",
+			"website": "https://ericwbailey.design/",
+			"photo": "{{ '/img/team/eric-bailey.jpg' | url }}",
+			"biography": "I’m an inclusive design advocate, writer, developer, and speaker."
 		},
 		{
 			"name": "Joe Watkins",
