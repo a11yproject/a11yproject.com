@@ -41,7 +41,6 @@ The "clip pattern" accomplishes this task for you; hide the content visually, ye
 }
 ```
 
-
 If the `.visually-hidden` class is applied to natively focusable elements (such as `a`, `button`, `input`, etc) they **must** become visible when they receive keyboard focus. Otherwise, a sighted keyboard user would have to try and figure out where their visible focus indicator had gone to.
 
 With modern browsers and IE9 and up, the visually hidden selector can be written like so:
