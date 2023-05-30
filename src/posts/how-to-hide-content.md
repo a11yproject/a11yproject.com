@@ -53,6 +53,8 @@ With modern browsers and IE9 and up, the visually hidden selector can be written
 
 This will ensure that if an interactive element receives focus, the styles of the .`visually-hidden` class will be undone and the focusable content will be exposed.
 
+Many popular CSS frameworks provide a `.visually-hidden` or `.sr-only` class, where `sr` stands for "screen readers".
+
 
 ## Alternatives to `display: none`
 
