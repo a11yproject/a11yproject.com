@@ -26,7 +26,10 @@ further_reading:
   - title: "AccessiByeBye"
     url: https://www.accessibyebye.org/
     source: Pneuma Solutions
-  - title: Accessibility Overlays in Digital Content
+  - title: Accessibility overlays don’t guarantee compliance with European legislation
+    url: [https://www.tpgi.com/accessibility-overlays-in-digital-content/](https://www.edf-feph.org/accessibility-overlays-dont-guarantee-compliance-with-european-legislation/)
+    source: European Disability Forum
+	- title: Accessibility Overlays in Digital Content
     url: https://www.tpgi.com/accessibility-overlays-in-digital-content/
     source: TPGI
   - title: Accessibility Overlays May Not Make Your Site More Accessible
