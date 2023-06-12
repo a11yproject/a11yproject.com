@@ -29,7 +29,7 @@ further_reading:
   - title: "Accessibility overlays don’t guarantee compliance with European legislation"
     url: https://www.edf-feph.org/accessibility-overlays-dont-guarantee-compliance-with-european-legislation/
     source: European Disability Forum
-	- title: Accessibility Overlays in Digital Content
+  - title: Accessibility Overlays in Digital Content
     url: https://www.tpgi.com/accessibility-overlays-in-digital-content/
     source: TPGI
   - title: Accessibility Overlays May Not Make Your Site More Accessible
