@@ -176,11 +176,11 @@
 				"description": "This solves a bug in Safari which sometimes creates hidden, unanticipated tab-stops when navigating."
 			},
 			{
-				"title": "Ensure that <code>img</code> elements with an <code>svg</code> source includes the <code>role=\"img\"</code> attribute.",
+				"title": "It's recommended that <code>img</code> elements with an <code>svg</code> source include the <code>role=\"img\"</code> attribute.",
 				"checkboxId": "svg-image-src",
 				"wcag": "4.1.2 Name, Role, Value",
 				"url": "https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html",
-				"description": "VoiceOver on macOS and iOS will not correctly convey the element as an image if <code>role=\"img\"</code> is not present."
+				"description": "VoiceOver on macOS and iOS may not correctly convey the element as an image if <code>role=\"img\"</code> is not present."
 			}
 		]
 	},
