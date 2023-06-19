@@ -75,7 +75,7 @@
 	@include var(color, post-rec-text);
 	display: block;
 	font-size: $font-size-body-tiny;
-	margin-top: 1rem;
+	margin-top: $mt-3;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {

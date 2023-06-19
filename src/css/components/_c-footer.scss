@@ -37,12 +37,12 @@
 .c-footer__list {
 	@include preserve-list-semantics();
 
-	margin-top: 1rem;
+	margin-top: $mt-3;
 	margin-left: 0.4rem;
 
 	// Text-level formatting
 	li {
-		margin-top: 0.5rem;
+		margin-top: $mt-2;;
 	}
 }
 
@@ -70,7 +70,7 @@
 	// Breakpoints
 	@include mappy-bp(palm-small) {
 		font-size: $font-size-body-medium;
-		margin-top: 0;
+		margin-top: $mt-0;
 	}
 
 	@include mappy-bp(lap-small) {

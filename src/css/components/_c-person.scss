@@ -7,7 +7,7 @@ $_person-distance: (
 	margin-top: 2rem;
 
 	&:first-of-type {
-		margin-top: 0;
+		margin-top: $mt-0;
 	}
 }
 
@@ -129,7 +129,7 @@ $_person-distance: (
 	@include link-states(card-heading-text);
 
 	display: inline-block;
-	margin-top: 1rem;
+	margin-top: $mt-3;
 }
 
 
@@ -153,6 +153,6 @@ $_person-distance: (
 
 .c-person__biography {
 	font-family: $font-family-secondary;
-	margin-top: 1rem;
+	margin-top: $mt-3;
 	max-width: $global-type-measure;
 }

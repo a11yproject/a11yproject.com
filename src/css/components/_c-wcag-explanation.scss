@@ -23,7 +23,7 @@
 
 	// Breakpoints
 	@include mappy-bp(palm-large) {
-		margin-top: 0.5rem;
+		margin-top: $mt-2;;
 
 		// Supports
 		@supports #{$supports-flex} {
@@ -66,6 +66,6 @@
 
 	// Breakpoints
 	@include mappy-bp(palm-large) {
-		margin-top: 0;
+		margin-top: $mt-0;
 	}
 }

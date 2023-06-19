@@ -50,7 +50,7 @@
 
 
 .l-footer__theme-switcher {
-	margin-top: 1rem;
+	margin-top: $mt-3;
 }
 
 
@@ -64,7 +64,7 @@
 		@include mappy-bp(lap-small) {
 			flex-direction: row;
 			justify-content: space-between;
-			margin-top: 1rem;
+			margin-top: $mt-3;
 		}
 	}
 }
@@ -76,14 +76,14 @@
 	@supports #{$supports-flex} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin-top: 0;
+			margin-top: $mt-0;
 		}
 	}
 }
 
 
 .l-footer__top {
-	margin-top: 1rem;
+	margin-top: $mt-3;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -91,6 +91,6 @@
 	}
 
 	@include mappy-bp(lap-small) {
-		margin-top: 0;
+		margin-top: $mt-0;
 	}
 }

@@ -119,11 +119,11 @@
 			text-transform: none;
 
 			&:first-of-type {
-				margin-top: 1rem;
+				margin-top: $mt-3;
 
 				// Supports
 				@supports #{$supports-flex} {
-					margin-top: 0;
+					margin-top: $mt-0;
 				}
 			}
 

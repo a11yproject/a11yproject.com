@@ -2,7 +2,7 @@ $_c-input-margin-top: 1.5rem;
 
 
 .c-form {
-	margin-top: 1rem;
+	margin-top: $mt-3;
 }
 
 
@@ -148,7 +148,7 @@ $_c-input-margin-top: 1.5rem;
 .c-form__progress-label {
 	@include var(background-color, body-background);
 	font-family: $font-family-secondary;
-	margin-top: 0;
+	margin-top: $mt-0;
 	padding-left: 1rem;
 }
 

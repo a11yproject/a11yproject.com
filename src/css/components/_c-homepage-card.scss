@@ -64,7 +64,7 @@
 
 .c-homepage-card__description {
 	font-family: $font-family-secondary;
-	margin-top: 1rem;
+	margin-top: $mt-3;
 	margin-bottom: 1rem;
 	max-width: 50ch;
 }
@@ -74,7 +74,7 @@
 	@include var(border-color, secondary-link-accent);
 	@include var(color, secondary-link-text);
 	font-family: $font-family-secondary;
-	margin-top: 1rem;
+	margin-top: $mt-3;
 	text-decoration: none;
 
 	// States

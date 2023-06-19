@@ -1,6 +1,6 @@
 .c-preface {
 	@include var(color, text-accent);
-	margin-top: 0.5rem;
+	margin-top: $mt-2;;
 	margin-bottom: 2rem;
 	margin-left: $_card-inset;
 	max-width: $global-type-measure;

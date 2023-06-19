@@ -12,12 +12,12 @@
 
 
 .c-primary-nav__list-item {
-	margin-top: 1rem;
+	margin-top: $mt-3;
 	text-align: center;
 
 	// Supports
 	@supports #{$supports-flex} {
-		margin-top: 1rem;
+		margin-top: $mt-3;
 		margin-left: 0;
 		width: 33%;
 
@@ -33,7 +33,7 @@
 		}
 
 		@include mappy-bp(lap-small) {
-			margin-top: 0;
+			margin-top: $mt-0;t-0;
 		}
 	}
 

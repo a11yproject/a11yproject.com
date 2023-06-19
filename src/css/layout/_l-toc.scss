@@ -18,7 +18,7 @@
 			margin-top: 17.5rem;
 
 			.l-toc {
-				margin-top: 0; // BUG: .v-toc is getting regenerated on some pages
+				margin-top: $mt-0; // BUG: .v-toc is getting regenerated on some pages
 				margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
 			}
 		}

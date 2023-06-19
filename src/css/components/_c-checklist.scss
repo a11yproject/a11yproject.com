@@ -234,7 +234,7 @@ margin-left: 1rem;
 
 
 .c-checklist__citation {
-	margin-top: 0.5rem;
+	margin-top: $mt-2;;
 	padding-left: map-get($_checklist-inset, small);
 
 	// Breakpoints
