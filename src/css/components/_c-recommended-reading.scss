@@ -15,7 +15,6 @@
 	}
 }
 
-
 .c-recommended-reading__wrapper {
 	// Supports
 	@supports #{$supports-flex} {
@@ -25,7 +24,6 @@
 	}
 }
 
-
 .c-recommended-reading__link {
 	border-top: $border-thicker solid currentColor;
 	@include var(background-color, post-rec-background);
@@ -33,8 +31,8 @@
 	line-height: $line-height-tight;
 	padding: 1rem;
 	text-decoration: none;
-	transition:
-		background-color $animation-duration-shorter $animation-easing-character,
+	transition: background-color $animation-duration-shorter
+			$animation-easing-character,
 		color $animation-duration-shorter $animation-easing-character;
 
 	// States
@@ -63,19 +61,17 @@
 	}
 }
 
-
 .c-recommended-reading__category {
 	border-bottom: $border-thin dotted currentColor;
 	display: block;
 	padding-bottom: 0.75rem;
 }
 
-
 .c-recommended-reading__title {
 	@include var(color, post-rec-text);
 	display: block;
 	font-size: $font-size-body-tiny;
-	margin-top: 1rem;
+	margin-top: $mt-2;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {

@@ -1,7 +1,7 @@
 // tableOfContents.js
 // http://github.com/cferdinandi/table-of-contents
 .v-toc {
-	margin-right: 2rem;
+	margin-right: $mr-4;
 	position: relative;
 	z-index: z(component);
 
@@ -60,11 +60,10 @@
 	width: 1rem;
 }
 
-
 .v-toc__title {
 	display: block;
 	font-weight: 700;
-	margin-left: 0.5rem;
+	margin-left: $ml-1;
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.5em;
@@ -74,7 +73,6 @@
 		text-decoration: none;
 	}
 }
-
 
 .v-toc__nav {
 	padding: 0 1rem 1.55rem 0;
@@ -90,7 +88,7 @@
 		padding-top: none;
 		list-style-type: none;
 
-	ol {
+		ol {
 			padding-left: 1rem;
 		}
 	}
@@ -104,7 +102,7 @@
 
 		// Supports
 		@supports #{$supports-flex} {
-			margin-bottom: 0;
+			margin-bottom: $mb-0;
 		}
 
 		code {
@@ -119,11 +117,11 @@
 			text-transform: none;
 
 			&:first-of-type {
-				margin-top: 1rem;
+				margin-top: $mt-2;
 
 				// Supports
 				@supports #{$supports-flex} {
-					margin-top: 0;
+					margin-top: $mt-0;
 				}
 			}
 
@@ -142,8 +140,7 @@
 	a[href] {
 		@include var(color, toc-link-text);
 		text-decoration: none;
-		transition:
-			$animation-duration-short $animation-easing-character color,
+		transition: $animation-duration-short $animation-easing-character color,
 			$animation-duration-short $animation-easing-character border;
 
 		// Supports

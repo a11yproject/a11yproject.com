@@ -20,12 +20,10 @@
 		}
 	}
 
-
 	kbd {
 		margin-left: 0.25ch;
 		margin-right: 0.25ch;
 	}
-
 
 	// Blockquote
 	//
@@ -39,7 +37,7 @@
 		padding: 1.5rem 1rem;
 
 		p:first-of-type {
-			margin-bottom: 0;
+			margin-bottom: $mb-0;
 		}
 
 		// Breakpoints
@@ -86,7 +84,6 @@
 		}
 	}
 
-
 	// Preformatted Text
 	//
 	// Style guide: Components.post.pre
@@ -116,7 +113,6 @@
 
 		margin-top: 4ex;
 	}
-
 
 	// Table
 	//

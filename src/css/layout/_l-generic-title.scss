@@ -1,5 +1,5 @@
 .l-generic-title {
-background-color: #ffc2cc;
+	background-color: #ffc2cc;
 	// Supports
 	@supports #{$supports-flex} {
 		// Breakpoints
@@ -29,12 +29,11 @@ background-color: #ffc2cc;
 	}
 }
 
-
 .l-hero__promo {
 	margin-left: map-get($global-bleed, small);
 	margin-right: map-get($global-bleed, small);
 	position: relative;
-		top: 50%;
+	top: 50%;
 	transform: perspective(1px) translateY(-60%); // HACK: Keeps`perspective(1px)` keeps content from rendering blurry
 
 	// Supports
@@ -63,8 +62,8 @@ background-color: #ffc2cc;
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {
-			margin-top: 0;
-			margin-bottom: 0;
+			margin-top: $mt-0;
+			margin-bottom: $mb-0;
 			position: unset;
 			transform: none;
 		}

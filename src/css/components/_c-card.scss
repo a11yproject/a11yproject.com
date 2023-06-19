@@ -2,6 +2,6 @@ $_card-inset: 1.5rem;
 $_card-outline: $border-thinner solid;
 
 .c-card__wrapper {
-	margin-bottom: 3rem;
+	margin-bottom: $mb-6;
 	max-width: $global-type-measure * 1.1;
 }

@@ -1,7 +1,8 @@
 .l-hero {
 	position: relative;
 	height: auto;
-	padding: map-get($global-bleed, small) 0 (map-get($global-bleed, large) * 1.5) 0;
+	padding: map-get($global-bleed, small) 0 (map-get($global-bleed, large) * 1.5)
+		0;
 
 	@include mappy-bp(lap-large) {
 		height: 75vh;
@@ -39,7 +40,6 @@
 	}
 }
 
-
 .l-hero__promo {
 	margin-left: map-get($global-bleed, small);
 	margin-right: map-get($global-bleed, small);
@@ -74,14 +74,14 @@
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {
-			margin-top: 0;
-			margin-bottom: 0;
+			margin-top: $mt-0;
+			margin-bottom: $mb-0;
 			position: unset;
 			transform: none;
 		}
 
 		@include mappy-bp(lap-small) {
-			margin: 0;
+			margin: $m-0;
 		}
 
 		@include mappy-bp(lap-large) {

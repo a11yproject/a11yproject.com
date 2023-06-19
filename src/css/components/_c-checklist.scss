@@ -2,27 +2,25 @@
 
 $_checklist-checkbox-size: (
 	small: 1.25rem,
-	large: 1.5rem
+	large: 1.5rem,
 );
 $_checklist-icon-size: (
 	small: 1rem,
-	large: 1.5rem
+	large: 1.5rem,
 );
 $_checklist-inset: (
 	small: 3rem,
-	large: 4rem
+	large: 4rem,
 );
 $_checklist-padding: (
 	small: 1rem,
-	large: 1.5rem
+	large: 1.5rem,
 );
 
-
 .c-checklist__outer-wrapper {
-	margin-bottom: 3rem;
+	margin-bottom: $mb-6;
 	max-width: $global-type-measure * 1.1;
 }
-
 
 .c-checklist__wrapper {
 	// Supports
@@ -32,12 +30,10 @@ $_checklist-padding: (
 	}
 }
 
-
 .c-card__wrapper .c-checklist__wrapper:first-of-type .c-checklist {
 	border-top: $border-thinnest solid;
 	@include var(border-top-color, checklist-accent);
 }
-
 
 .c-checklist {
 	border-bottom: $border-thinnest solid;
@@ -85,14 +81,16 @@ $_checklist-padding: (
 	}
 }
 
-
 .c-checklist__summary {
 	cursor: pointer;
-	padding: map-get($_checklist-padding, small) map-get($_checklist-padding, small) map-get($_checklist-padding, small) 1rem;
+	padding: map-get($_checklist-padding, small)
+		map-get($_checklist-padding, small) map-get($_checklist-padding, small) 1rem;
 
 	// Breakpoints
 	@include mappy-bp(palm-medium) {
-		padding: map-get($_checklist-padding, large) map-get($_checklist-padding, large) map-get($_checklist-padding, large) 1.5rem;
+		padding: map-get($_checklist-padding, large)
+			map-get($_checklist-padding, large) map-get($_checklist-padding, large)
+			1.5rem;
 	}
 
 	// States
@@ -127,11 +125,11 @@ $_checklist-padding: (
 		flex-shrink: 0;
 	}
 
-		// Breakpoints
-		@include mappy-bp(palm-medium) {
-			height: map-get($_checklist-icon-size, large);
-			width: map-get($_checklist-icon-size, large);
-		}
+	// Breakpoints
+	@include mappy-bp(palm-medium) {
+		height: map-get($_checklist-icon-size, large);
+		width: map-get($_checklist-icon-size, large);
+	}
 
 	// User Queries
 	@media screen and (prefers-reduced-motion: reduce) {
@@ -139,15 +137,13 @@ $_checklist-padding: (
 	}
 }
 
-
 .c-checklist__title {
-margin-left: 1rem;
+	margin-left: $ml-2;
 	// Supports
 	@supports #{$supports-flex} {
 		flex: 1;
 	}
 }
-
 
 .c-checklist__checkbox {
 	// Supports
@@ -159,7 +155,7 @@ margin-left: 1rem;
 
 	input[type="checkbox"] {
 		position: relative;
-			left: 0.2rem; // HACK: Ensures iOS checkboxes are tucked fully under the generated checkbox
+		left: 0.2rem; // HACK: Ensures iOS checkboxes are tucked fully under the generated checkbox
 	}
 
 	// SEE: https://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html
@@ -175,7 +171,10 @@ margin-left: 1rem;
 		float: left;
 		height: map-get($_checklist-checkbox-size, small);
 		margin-right: math.div(map-get($_checklist-checkbox-size, small), 1.5);
-		margin-left: math.div(map-get($_checklist-checkbox-size, small), -2); // This covers the native checkbox element
+		margin-left: math.div(
+			map-get($_checklist-checkbox-size, small),
+			-2
+		); // This covers the native checkbox element
 		position: relative;
 		width: map-get($_checklist-checkbox-size, small);
 
@@ -183,7 +182,10 @@ margin-left: 1rem;
 		@include mappy-bp(palm-medium) {
 			height: map-get($_checklist-checkbox-size, large);
 			margin-right: math.div(map-get($_checklist-checkbox-size, large), 1.5);
-			margin-left: math.div(map-get($_checklist-checkbox-size, large), -2); // This covers the native checkbox element
+			margin-left: math.div(
+				map-get($_checklist-checkbox-size, large),
+				-2
+			); // This covers the native checkbox element
 			width: map-get($_checklist-checkbox-size, large);
 		}
 	}
@@ -200,8 +202,8 @@ margin-left: 1rem;
 		display: block;
 		height: map-get($_checklist-checkbox-size, small);
 		position: relative;
-			top: 0.5em;
-			left: 0.5em;
+		top: 0.5em;
+		left: 0.5em;
 		transform: rotate(0deg);
 		width: map-get($_checklist-checkbox-size, small);
 
@@ -232,9 +234,8 @@ margin-left: 1rem;
 	}
 }
 
-
 .c-checklist__citation {
-	margin-top: 0.5rem;
+	margin-top: $mt-1;
 	padding-left: map-get($_checklist-inset, small);
 
 	// Breakpoints
@@ -242,7 +243,6 @@ margin-left: 1rem;
 		padding-left: map-get($_checklist-inset, large);
 	}
 }
-
 
 .c-checklist__link {
 	@include link-states(checklist-accent);
@@ -258,7 +258,6 @@ margin-left: 1rem;
 		text-decoration: none;
 	}
 }
-
 
 .c-checklist__description {
 	line-height: $line-height-looser;

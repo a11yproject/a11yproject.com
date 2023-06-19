@@ -20,16 +20,15 @@
 	}
 }
 
-
 .l-primary-nav__sections {
-	margin-top: 1rem;
+	margin-top: $mt-2;
 	width: 100%;
 
 	// Supports
 	@supports #{$supports-flex} {
 		display: flex;
 		flex-flow: row wrap;
-		margin-top: 0;
+		margin-top: $mt-0;
 
 		// Breakpoints
 		@include mappy-bp(palm-small) {

@@ -18,57 +18,57 @@
 			margin-top: 17.5rem;
 
 			.l-toc {
-				margin-top: 0; // BUG: .v-toc is getting regenerated on some pages
-				margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+				margin-top: $mt-0; // BUG: .v-toc is getting regenerated on some pages
+				margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 			}
 		}
 	}
 
 	.template-checklist & {
 		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
 	.template-resources & {
 		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
 	.template-about & {
 		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
 	.template-contribute & {
 		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
 	.template-team & {
 		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
 	.template-authors & {
 		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
 	.template-spotlight & {
 		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
 	.template-posts & {
 		.l-toc {
-			margin-left: 1.5rem; // BUG: .v-toc is getting regenerated on some pages
+			margin-left: $ml-3; // BUG: .v-toc is getting regenerated on some pages
 		}
 	}
 
@@ -78,7 +78,7 @@
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
 			margin-right: map-get($global-post-content-inset, "medium");
-			margin-bottom: 2rem;
+			margin-bottom: $mb-4;
 			margin-left: map-get($global-post-content-inset, "medium") * 0.5;
 		}
 

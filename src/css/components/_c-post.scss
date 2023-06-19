@@ -1,7 +1,6 @@
 $_c-post-breathing-room: 6ex;
 $_c-post-vertical-spacing: 4ex;
 
-
 // Post
 //
 // A post component contains all content and information used for The A11Y
@@ -60,7 +59,6 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-post__category__link {
 	@include link-states(rte-accent);
 	text-decoration: none;
@@ -71,12 +69,12 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-post__title {
 	@include var(color, heading-text);
 	font-size: $font-size-heading-small;
 	line-height: $line-height-tight;
-	margin: 0.75rem map-get($global-post-content-inset, small) 2rem map-get($global-post-content-inset, small);
+	margin: 0.75rem map-get($global-post-content-inset, small) 2rem
+		map-get($global-post-content-inset, small);
 	padding-right: 1rem;
 
 	// Breakpoints
@@ -98,12 +96,11 @@ $_c-post-vertical-spacing: 4ex;
 		}
 
 		@include mappy-bp(lap-medium) {
-			margin-top: 0;
+			margin-top: $mt-0;
 			margin-left: map-get($global-post-content-inset, small);
 		}
 	}
 }
-
 
 .c-post__metadata {
 	border-top: $border-thinnest solid;
@@ -139,20 +136,18 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-post__metadata--author,
 .c-post__metadata--published,
 .c-post__metadata--updated {
 	display: block;
 }
 
-
 .c-post__metadata--author {
-	margin-bottom: 0.5rem;
+	margin-bottom: $mb-1;
 
 	// Breakpoints
 	@include mappy-bp(lap-small) {
-		margin-bottom: 0;
+		margin-bottom: $mb-0;
 	}
 
 	// Supports
@@ -162,11 +157,10 @@ $_c-post-vertical-spacing: 4ex;
 		// Breakpoints
 		@include mappy-bp(lap-small) {
 			flex-grow: 4;
-			margin-bottom: 0;
+			margin-bottom: $mb-0;
 		}
 	}
 }
-
 
 .c-post__metadata--published,
 .c-post__metadata--updated {
@@ -176,17 +170,15 @@ $_c-post-vertical-spacing: 4ex;
 
 		// Breakpokints
 		@include mappy-bp(lap-small) {
-			margin-left: 0.5rem;
+			margin-left: $ml-1;
 		}
 	}
 }
-
 
 .c-post__metadata-link {
 	@include link-states(heading-text);
 	text-underline-offset: 0.2em;
 }
-
 
 .c-post__list-item {
 	// Supports
@@ -194,7 +186,6 @@ $_c-post-vertical-spacing: 4ex;
 		flex-grow: 1;
 	}
 }
-
 
 .c-content {
 	line-height: $line-height-double;

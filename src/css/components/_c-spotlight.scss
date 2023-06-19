@@ -1,4 +1,3 @@
-
 .c-spotlight__hero-avatar {
 	@include avatar-size("hero");
 
@@ -7,7 +6,7 @@
 		// Breakpoints
 		@include mappy-bp(lap-small) {
 			margin-left: auto;
-			margin-right: 3rem;
+			margin-right: $mr-6;
 		}
 	}
 
@@ -16,7 +15,6 @@
 		-ms-high-contrast-adjust: none;
 	}
 }
-
 
 .c-spotlight__subheading {
 	@include var(color, text-accent);

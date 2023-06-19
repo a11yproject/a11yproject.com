@@ -1,10 +1,9 @@
 .c-changelog__version {
 	@include var(background-color, tag-background);
 	border-radius: 0.25rem;
-	margin-right: 0.5rem;
+	margin-right: $mr-1;
 	padding: 0.25rem 0.5rem;
 }
-
 
 .c-changelog__date {
 	@include var(color, text-accent);

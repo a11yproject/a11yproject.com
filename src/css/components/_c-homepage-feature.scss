@@ -4,7 +4,7 @@
 .c-homepage-feature {
 	// Contexts
 	&:not(:first-of-type) {
-		margin-top: 6rem;
+		margin-top: $mt-12;
 	}
 
 	// Supports
@@ -13,7 +13,6 @@
 		gap: 1.5rem;
 	}
 }
-
 
 .c-homepage-feature--50-50 {
 	// Supports
@@ -26,7 +25,6 @@
 		}
 	}
 }
-
 
 .c-homepage-feature--60-40 {
 	// Supports

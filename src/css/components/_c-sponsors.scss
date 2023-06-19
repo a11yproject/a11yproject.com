@@ -2,14 +2,13 @@
 	@include var(background-color, sponsors-background);
 }
 
-
 .c-sponsor__link {
 	width: $global-sponsor-width;
-	margin-bottom: 1rem;
+	margin-bottom: $mb-2;
 	@include var(color, body-text);
 
 	&:last-of-type {
-		margin-bottom: 0;
+		margin-bottom: $mb-0;
 	}
 
 	// States
@@ -21,11 +20,10 @@
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
-			margin-bottom: 0;
+			margin-bottom: $mb-0;
 		}
 	}
 }
-
 
 .c-sponsor__ad {
 	filter: var(--image-filter);

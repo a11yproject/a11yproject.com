@@ -11,9 +11,9 @@ html {
 	font-size: $global-type-size;
 	font-weight: $font-weight-regular;
 	line-height: $line-height-loose;
-	margin: 0;
+	margin: $m-0;
 	min-height: 100%;
-	padding: 0;
+	padding: $p-0;
 	text-size-adjust: 100%;
 
 	// Typography
@@ -39,7 +39,7 @@ html {
 
 	// Media Queries
 	@media screen and (-webkit-min-device-pixel-ratio: 2),
-	screen and (min-resolution: 2dppx) {
+		screen and (min-resolution: 2dppx) {
 		/* stylelint-disable-next-line property-no-unknown */
 		font-smoothing: subpixel-antialiased; // Only apply to devices that support font smoothing: https://www.zachleat.com/web/font-smooth/
 	}
