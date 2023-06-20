@@ -4,17 +4,14 @@
 //
 // Styleguide Base.resets
 
-
 a img {
 	border: none; // Removes borders from linked images
 }
-
 
 abbr[title],
 dfn[title] {
 	cursor: help; // Give a help cursor to elements that give extra info on `:hover`.
 }
-
 
 b,
 strong {
@@ -26,7 +23,6 @@ strong {
 	}
 }
 
-
 button,
 input[type="button"] {
 	border: 0;
@@ -34,10 +30,9 @@ input[type="button"] {
 	// Vendor
 	&::-moz-focus-inner {
 		border: 0;
-		padding: 0;
+		padding: $p-0;
 	}
 }
-
 
 em,
 cite,
@@ -52,7 +47,6 @@ i {
 	}
 }
 
-
 iframe,
 object,
 audio,
@@ -60,7 +54,6 @@ video,
 canvas {
 	@include responsify();
 }
-
 
 img,
 figure,
@@ -79,7 +72,6 @@ picture {
 	// TODO: Broken images fallback: https://bitsofco.de/styling-broken-images/
 }
 
-
 h1,
 h2,
 h3,
@@ -94,7 +86,6 @@ ins {
 	text-decoration: none;
 }
 
-
 // Selects all content in a read-only input field
 input:not([type="button"]):not([type="checkbox"]):not([type="radio"]),
 textarea {
@@ -103,11 +94,9 @@ textarea {
 	}
 }
 
-
 label {
 	cursor: pointer;
 }
-
 
 // Prevent zooming on mobile viewports when tapped
 input[type="text"],
@@ -134,7 +123,6 @@ mark {
 	@include var(color, mark-text);
 }
 
-
 sub {
 	text-transform: lowercase;
 	font-size: inherit;
@@ -146,7 +134,7 @@ sub {
 		-webkit-font-feature-settings: "subs", "subs";
 		font-feature-settings: "subs", "subs";
 
-		@supports ((-webkit-font-feature-settings: "subs") or (font-feature-settings: "subs")) {
+		@supports ((-webkit-font-feature-settings: "subs") or (font-feature-settings:"subs")) {
 			vertical-align: baseline;
 		}
 
@@ -156,7 +144,6 @@ sub {
 		}
 	}
 }
-
 
 sup {
 	text-transform: lowercase;
@@ -177,7 +164,6 @@ sup {
 		}
 	}
 }
-
 
 // Remove default table spacing
 table {
@@ -222,7 +208,6 @@ table {
 	}
 
 	tbody {
-
 		tr {
 			th {
 				font-weight: $font-weight-regular;
@@ -231,12 +216,10 @@ table {
 	}
 }
 
-
 textarea {
 	overflow: auto;
 	resize: vertical;
 }
-
 
 time {
 	font-variant-numeric: tabular-nums;
@@ -275,7 +258,6 @@ time {
 		font-feature-settings: "lnum" 0, "onum", "pnum" 0, "tnum";
 	}
 }
-
 
 var {
 	font-style: normal;

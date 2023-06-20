@@ -1,26 +1,22 @@
 .c-theme-switcher {
 	border: none;
 	margin: $m-0;
-	padding: 0;
+	padding: $p-0;
 }
-
 
 .c-theme-switcher__wrapper {
 	display: flex;
 	flex-direction: row;
 }
 
-
 .c-theme-switcher__title {
 	display: inline;
 	padding-right: 1rem;
 }
 
-
 .c-theme-switcher__input {
 	@include var(accent-color, input-accent);
 }
-
 
 .c-theme-switcher__label {
 	margin-right: 0.75rem;

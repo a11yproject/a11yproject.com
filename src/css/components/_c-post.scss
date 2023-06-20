@@ -1,7 +1,6 @@
 $_c-post-breathing-room: 6ex;
 $_c-post-vertical-spacing: 4ex;
 
-
 // Post
 //
 // A post component contains all content and information used for The A11Y
@@ -60,7 +59,6 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-post__category__link {
 	@include link-states(rte-accent);
 	text-decoration: none;
@@ -70,7 +68,6 @@ $_c-post-vertical-spacing: 4ex;
 		text-decoration: underline;
 	}
 }
-
 
 .c-post__title {
 	@include var(color, heading-text);
@@ -98,12 +95,11 @@ $_c-post-vertical-spacing: 4ex;
 		}
 
 		@include mappy-bp(lap-medium) {
-			margin-top: $mt-0;
+			margin-top: $m-0;
 			margin-left: map-get($global-post-content-inset, small);
 		}
 	}
 }
-
 
 .c-post__metadata {
 	border-top: $border-thinnest solid;
@@ -139,20 +135,18 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-post__metadata--author,
 .c-post__metadata--published,
 .c-post__metadata--updated {
 	display: block;
 }
 
-
 .c-post__metadata--author {
-	margin-bottom: 0.5rem;
+	margin-bottom: $m-1;
 
 	// Breakpoints
 	@include mappy-bp(lap-small) {
-		margin-bottom: 0;
+		margin-bottom: $m-0;
 	}
 
 	// Supports
@@ -162,11 +156,10 @@ $_c-post-vertical-spacing: 4ex;
 		// Breakpoints
 		@include mappy-bp(lap-small) {
 			flex-grow: 4;
-			margin-bottom: 0;
+			margin-bottom: $m-0;
 		}
 	}
 }
-
 
 .c-post__metadata--published,
 .c-post__metadata--updated {
@@ -176,17 +169,15 @@ $_c-post-vertical-spacing: 4ex;
 
 		// Breakpokints
 		@include mappy-bp(lap-small) {
-			margin-left: 0.5rem;
+			margin-left: $m-1;
 		}
 	}
 }
-
 
 .c-post__metadata-link {
 	@include link-states(heading-text);
 	text-underline-offset: 0.2em;
 }
-
 
 .c-post__list-item {
 	// Supports
@@ -195,20 +186,19 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-content {
 	line-height: $line-height-double;
 
 	// Breakpoints
 	@include mappy-bp(lap-small) {
-		margin-right: 0;
+		margin-right: $m-0;
 	}
 
 	// Supports
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin-right: 0;
+			margin-right: $m-0;
 		}
 	}
 }

@@ -31,7 +31,7 @@
 }
 
 .u-spacing-top-shorter {
-	margin-top: $mt-2;;
+	margin-top: $m-1;
 }
 
 .u-spacing-top-short {
@@ -39,28 +39,27 @@
 }
 
 .u-spacing-top-medium {
-	margin-top: $mt-3;
+	margin-top: $m-2;
 }
 
 .u-spacing-top-long {
-	margin-top: 1.5rem;
+	margin-top: $m-3;
 }
 
 .u-spacing-top-longer {
-	margin-top: 2rem;
+	margin-top: $m-4;
 }
 
 .u-spacing-top-longest {
-	margin-top: 3rem;
+	margin-top: $m-6;
 }
-
 
 .u-spacing-right-shortest {
 	margin-right: 0.25rem;
 }
 
 .u-spacing-right-shorter {
-	margin-right: 0.5rem;
+	margin-right: $m-1;
 }
 
 .u-spacing-right-short {
@@ -68,28 +67,27 @@
 }
 
 .u-spacing-right-medium {
-	margin-right: 1rem;
+	margin-right: $m-2;
 }
 
 .u-spacing-right-long {
-	margin-right: 1.5rem;
+	margin-right: $m-3;
 }
 
 .u-spacing-right-longer {
-	margin-right: 2rem;
+	margin-right: $m-4;
 }
 
 .u-spacing-right-longest {
-	margin-right: 3rem;
+	margin-right: $m-6;
 }
-
 
 .u-spacing-bottom-shortest {
 	margin-bottom: 0.25rem;
 }
 
 .u-spacing-bottom-shorter {
-	margin-bottom: 0.5rem;
+	margin-bottom: $m-1;
 }
 
 .u-spacing-bottom-short {
@@ -97,7 +95,7 @@
 }
 
 .u-spacing-bottom-medium {
-	margin-bottom: 1rem;
+	margin-bottom: $m-2;
 }
 
 .u-spacing-bottom-long {
@@ -105,20 +103,19 @@
 }
 
 .u-spacing-bottom-longer {
-	margin-bottom: 2rem;
+	margin-bottom: $m-4;
 }
 
 .u-spacing-bottom-longest {
-	margin-bottom: 3rem;
+	margin-bottom: $m-6;
 }
-
 
 .u-spacing-left-shortest {
 	margin-left: 0.25rem;
 }
 
 .u-spacing-left-shorter {
-	margin-left: 0.5rem;
+	margin-left: $m-1;
 }
 
 .u-spacing-left-short {
@@ -126,18 +123,17 @@
 }
 
 .u-spacing-left-medium {
-	margin-left: 1rem;
+	margin-left: $m-2;
 }
 
 .u-spacing-left-long {
-	margin-left: 1.5rem;
+	margin-left: $m-3;
 }
 
 .u-spacing-left-longer {
-	margin-left: 2rem;
+	margin-left: $m-4;
 }
 
 .u-spacing-left-longest {
 	margin-left: 3rem;
 }
-

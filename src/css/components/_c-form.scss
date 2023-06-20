@@ -1,10 +1,8 @@
 $_c-input-margin-top: 1.5rem;
 
-
 .c-form {
-	margin-top: $mt-3;
+	margin-top: $m-2;
 }
-
 
 .c-form__label {
 	display: inline-block;
@@ -13,14 +11,13 @@ $_c-input-margin-top: 1.5rem;
 	padding-bottom: 0.25rem;
 }
 
-
 .c-form__input {
 	@include var(background-color, body-background);
 	@include var(color, body-text);
 	border: $border-thinnest solid;
 	@include var(border-color, input-border);
 	line-height: $line-height-single;
-	padding: 0.5rem;
+	padding: $p-1;
 	transition: background-color $animation-duration-shorter $animation-easing-character;
 	width: 100%;
 
@@ -45,12 +42,10 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-
 .c-form__input--multiline {
 	line-height: $line-height-loose;
 	min-height: 15rem;
 }
-
 
 .c-form__button {
 	@include var(background-color, button-background);
@@ -72,7 +67,7 @@ $_c-input-margin-top: 1.5rem;
 
 	&:focus {
 		@include var(background-color, button-focus-background);
-		box-shadow:
+		box-shadow: 
 			0 0 0 em(2) var(--color-body-background),
 			0 0 0 em(4) var(--color-button-background);
 		outline: $border-thin solid transparent;
@@ -88,7 +83,6 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-
 .c-form__vendor {
 	@include link-states(body-text);
 
@@ -98,17 +92,15 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-
 .c-form__instructions {
 	position: relative;
-		bottom: 1rem;
+	bottom: 1rem;
 }
-
 
 .c-form__error-wrapper {
 	border: $border-thin solid;
 	@include var(border-color, error);
-	padding: 0.5rem;
+	padding: $p-1;
 
 	.c-form__error-list {
 		padding: 0 1rem;
@@ -128,7 +120,7 @@ $_c-input-margin-top: 1.5rem;
 .c-form__progress {
 	@include var(background-color, progress-background);
 	min-height: 2rem;
-	margin-bottom: 3rem;
+	margin-bottom: $m-6;
 	max-width: 68ch;
 
 	// Supports
@@ -139,19 +131,16 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-
 .c-form__progress-fill {
 	@include var(background-color, progress-bar);
 }
 
-
 .c-form__progress-label {
 	@include var(background-color, body-background);
 	font-family: $font-family-secondary;
-	margin-top: $mt-0;
+	margin-top: $m-0;
 	padding-left: 1rem;
 }
-
 
 .c-form__legal {
 	margin-top: 0.25rem !important;

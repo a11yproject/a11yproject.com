@@ -8,13 +8,13 @@
 }
 
 .c-featured__body {
-	margin-right: 0;
-	margin-bottom: 2rem;
-	margin-left: 1.5rem;
+	margin-right: $m-0;
+	margin-bottom: $m-4;
+	margin-left: $m-3;
 	padding: 1.5rem 2rem;
 	@include var(background-color, featured-card-background);
 	@include var(color, featured-card-text);
-	transition:
+	transition: 
 		$animation-duration-shorter $animation-easing-character background-color,
 		$animation-duration-shorter $animation-easing-character border-color,
 		$animation-duration-shorter $animation-easing-character color;
@@ -27,7 +27,6 @@
 		}
 	}
 }
-
 
 .c-featured__title {
 	letter-spacing: $font-tracking-tight;
@@ -44,11 +43,9 @@
 	}
 }
 
-
 .c-featured__meta {
 	line-height: $line-height-tight;
 }
-
 
 .c-featured__description {
 	max-width: $global-type-measure;

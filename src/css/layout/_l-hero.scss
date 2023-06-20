@@ -39,7 +39,6 @@
 	}
 }
 
-
 .l-hero__promo {
 	margin-left: map-get($global-bleed, small);
 	margin-right: map-get($global-bleed, small);
@@ -74,8 +73,8 @@
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {
-			margin-top: $mt-0;
-			margin-bottom: 0;
+			margin-top: $m-0;
+			margin-bottom: $m-0;
 			position: unset;
 			transform: none;
 		}

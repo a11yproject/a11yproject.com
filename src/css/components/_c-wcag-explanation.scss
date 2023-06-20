@@ -1,7 +1,7 @@
 .c-wcag-explanation {
 	@include var(background-color, featured-card-background);
 	font-family: $font-family-secondary;
-	margin-bottom: 1rem;
+	margin-bottom: $m-2;
 	padding: 0.5rem 1.5rem 2rem;
 
 	// Breakpoints
@@ -11,19 +11,18 @@
 
 	// Text-level formatting
 	p {
-		margin-top: 1.5rem;
+		margin-top: $m-3;
 		max-width: $global-type-measure;
 	}
 }
 
-
 .c-wcag-explanation__compliance-level {
-	margin-top: 2rem;
+	margin-top: $m-4;
 	max-width: $global-type-measure;
 
 	// Breakpoints
 	@include mappy-bp(palm-large) {
-		margin-top: $mt-2;;
+		margin-top: $m-1;
 
 		// Supports
 		@supports #{$supports-flex} {
@@ -33,12 +32,11 @@
 			// This knocks it back into position.
 			&:last-of-type {
 				position: relative;
-					right: 1rem;
+				right: 1rem;
 			}
 		}
 	}
 }
-
 
 .c-wcag-explanation__icon {
 	width: 65%;
@@ -52,13 +50,12 @@
 	@include mappy-bp(palm-large) {
 		// Supports
 		@supports #{$supports-flex} {
-			margin-top: 2rem;
-			margin-right: 1.5rem;
+			margin-top: $m-4;
+			margin-right: $m-3;
 			width: rem(320);
 		}
 	}
 }
-
 
 .c-wcag-explanation__conformance-level {
 	display: block;
@@ -66,6 +63,6 @@
 
 	// Breakpoints
 	@include mappy-bp(palm-large) {
-		margin-top: $mt-0;
+		margin-top: $m-0;
 	}
 }

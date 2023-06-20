@@ -1,13 +1,13 @@
 $_person-distance: (
 	small: 6rem,
-	large: 14rem
+	large: 14rem,
 );
 
 .c-person {
-	margin-top: 2rem;
+	margin-top: $m-4;
 
 	&:first-of-type {
-		margin-top: $mt-0;
+		margin-top: $m-0;
 	}
 }
 
@@ -50,7 +50,7 @@ $_person-distance: (
 		@include avatar-size("medium");
 
 		left: initial;
-		margin-left: 1rem;
+		margin-left: $m-2;
 		right: initial;
 	}
 
@@ -71,12 +71,11 @@ $_person-distance: (
 	}
 }
 
-
 .c-person__info {
 	border: $border-thinnest solid;
 	@include var(border-color, card-outline);
 	@include var(background-color, card-background);
-	margin-top: 4rem;
+	margin-top: $m-8;
 	min-height: 10rem;
 	padding: 1.5rem;
 	max-width: $global-type-measure;
@@ -106,7 +105,6 @@ $_person-distance: (
 	}
 }
 
-
 .c-person__link {
 	@include link-states(card-heading-text);
 	font-family: $font-family-secondary;
@@ -124,14 +122,12 @@ $_person-distance: (
 	}
 }
 
-
 .c-person__spotlight-link {
 	@include link-states(card-heading-text);
 
 	display: inline-block;
-	margin-top: $mt-3;
+	margin-top: $m-2;
 }
-
 
 .c-person__name {
 	font-family: $font-family-secondary;
@@ -150,9 +146,8 @@ $_person-distance: (
 	}
 }
 
-
 .c-person__biography {
 	font-family: $font-family-secondary;
-	margin-top: $mt-3;
+	margin-top: $m-2;
 	max-width: $global-type-measure;
 }

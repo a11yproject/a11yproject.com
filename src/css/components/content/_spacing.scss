@@ -35,7 +35,7 @@
 
 	.template-collection & {
 		p:first-of-type {
-			margin-top: $mt-0;
+			margin-top: $m-0;
 		}
 	}
 
@@ -51,7 +51,7 @@
 				font-size: 1.25rem;
 				font-family: $font-family-secondary;
 				line-height: $line-height-looser;
-				margin-top: $mt-0;
+				margin-top: $m-0;
 				margin-bottom: $_c-post-vertical-spacing * 1.25;
 				@include post-content-flourish(169, 0.75rem);
 			}

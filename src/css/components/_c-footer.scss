@@ -2,9 +2,8 @@
 	font-family: $font-family-secondary;
 }
 
-
 .c-footer__subnav {
-	margin-top: 2rem;
+	margin-top: $m-4;
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -19,7 +18,7 @@
 
 		@include mappy-bp(lap-small) {
 			width: initial;
-			margin-right: 2rem;
+			margin-right: $m-4;
 		}
 
 		@include mappy-bp(lap-medium) {
@@ -28,24 +27,21 @@
 	}
 }
 
-
 .c-footer__heading {
 	padding-left: 0.5ch;
 }
 
-
 .c-footer__list {
 	@include preserve-list-semantics();
 
-	margin-top: $mt-3;
+	margin-top: $m-3;
 	margin-left: 0.4rem;
 
 	// Text-level formatting
 	li {
-		margin-top: $mt-2;;
+		margin-top: $m-2;
 	}
 }
-
 
 .c-footer__link {
 	@include link-states(footer-link-text);
@@ -59,18 +55,17 @@
 	}
 }
 
-
 .c-footer__tagline {
 	@include var(color, footer-tagline-text);
 	font-family: $font-family-primary;
 	font-size: $font-size-heading-small;
 	line-height: $line-height-single;
-	margin-top: 2rem;
+	margin-top: $m-4;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
 		font-size: $font-size-body-medium;
-		margin-top: $mt-0;
+		margin-top: $m-0;
 	}
 
 	@include mappy-bp(lap-small) {
@@ -78,7 +73,6 @@
 		margin-top: 3.5rem;
 	}
 }
-
 
 .c-footer__copyright-link {
 	@include link-states(footer-link-text);

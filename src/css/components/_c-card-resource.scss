@@ -7,9 +7,9 @@
 .c-card-resource__body {
 	@include var(background-color, card-background);
 	margin-right: 1.25rem;
-	margin-left: 1.5rem;
+	margin-left: $m-3;
 	padding: 1.5rem 2rem;
-	transition:
+	transition: 
 		$animation-duration-shorter $animation-easing-character background-color,
 		$animation-duration-shorter $animation-easing-character border-color,
 		$animation-duration-shorter $animation-easing-character color;
@@ -31,7 +31,6 @@
 	}
 }
 
-
 .c-card-resource__title {
 	@include var(color, card-heading-text);
 	letter-spacing: $font-tracking-tight;
@@ -47,12 +46,10 @@
 	}
 }
 
-
 .c-card-resource__meta {
 	@include var(color, card-meta-text);
 	line-height: $line-height-tight;
 }
-
 
 .c-card-resource__description {
 	max-width: $global-type-measure;

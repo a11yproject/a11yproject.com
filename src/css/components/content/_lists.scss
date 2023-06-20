@@ -8,7 +8,7 @@
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
-			margin-left: 0;
+			margin-left: $m-0;
 		}
 	}
 
@@ -23,7 +23,7 @@
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
-			margin-left: 0;
+			margin-left: $m-0;
 		}
 
 		li {
@@ -36,19 +36,18 @@
 				font-size: 3ex;
 				height: 1rem;
 				position: relative;
-					top: rem(9);
-					right: 1.75rem;
+				top: rem(9);
+				right: 1.75rem;
 				width: 1rem;
 			}
 		}
 
 		ol {
-			margin-top: $mt-0;
-			margin-left: 2rem;
-			margin-bottom: 1rem;
+			margin-top: $m-0;
+			margin-left: $m-4;
+			margin-bottom: $m-2;
 		}
 	}
-
 
 	// Unordered List
 	//
@@ -61,7 +60,7 @@
 
 			// Breakpoints
 			@include mappy-bp(lap-medium) {
-				margin-left: 0;
+				margin-left: $m-0;
 			}
 
 			&::before {
@@ -71,18 +70,17 @@
 				font-size: 2ex;
 				height: 1rem;
 				position: relative;
-					top: rem(20);
-					right: rem(36);
+				top: rem(20);
+				right: rem(36);
 				width: 1rem;
 			}
 
 			ul {
-				margin-top: $mt-0;
-				margin-left: 2rem;
+				margin-top: $m-0;
+				margin-left: $m-4;
 			}
 		}
 	}
-
 
 	// Definition List
 	//
@@ -92,7 +90,7 @@
 
 		dt {
 			font-weight: $font-weight-bold;
-			margin-top: 1.5rem;
+			margin-top: $m-3;
 			margin-left: map-get($global-post-content-inset, small) * -1;
 		}
 
@@ -101,7 +99,6 @@
 		}
 	}
 }
-
 
 .c-further-reading__source {
 	display: block;

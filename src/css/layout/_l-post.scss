@@ -1,11 +1,10 @@
 .l-post {
-	margin-top: 2rem;
+	margin-top: $m-4;
 
 	// Breakpoints
 	@include mappy-bp(lap-medium) {
-		margin-top: 4rem;
+		margin-top: $m-8;
 	}
-
 
 	&--collection {
 		.l-post__header,
@@ -19,7 +18,6 @@
 		}
 	}
 }
-
 
 .l-post__header {
 	// Breakpoints
@@ -36,7 +34,6 @@
 	}
 }
 
-
 .l-post__body {
 	margin-top: 6ex;
 
@@ -52,14 +49,12 @@
 	}
 }
 
-
 .l-post__category {
 	// Supports
 	@supports #{$supports-grid} {
 		grid-area: category;
 	}
 }
-
 
 .l-post__title {
 	// Supports
@@ -68,14 +63,12 @@
 	}
 }
 
-
 .l-post__metadata {
 	// Supports
 	@supports #{$supports-grid} {
 		grid-area: metadata;
 	}
 }
-
 
 .l-post__content {
 	@include post-content-inset("small");
@@ -97,16 +90,15 @@
 
 		// Breakpoints
 		@include mappy-bp(lap-medium) {
-			margin-right: 0;
+			margin-right: $m-0;
 			margin-left: map-get($global-bleed, small);
 		}
 
 		@include mappy-bp(lap-small) {
-			margin-top: $mt-0;
+			margin-top: $m-0;
 		}
 	}
 }
-
 
 .l-post__linkroll {
 	// Supports
