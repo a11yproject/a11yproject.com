@@ -140,8 +140,8 @@
 	a[href] {
 		@include var(color, toc-link-text);
 		text-decoration: none;
-		transition: 
-			$animation-duration-short $animation-easing-character color, 
+		transition:
+			$animation-duration-short $animation-easing-character color,
 			$animation-duration-short $animation-easing-character border;
 
 		// Supports

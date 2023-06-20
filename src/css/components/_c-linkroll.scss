@@ -10,7 +10,7 @@
 	@include var(border-color, linkroll-gray);
 	padding: 1.25rem 1.75rem;
 	text-decoration: none;
-	transition: 
+	transition:
 		background-color $animation-duration-shorter $animation-easing-character,
 		color $animation-duration-shorter $animation-easing-character;
 

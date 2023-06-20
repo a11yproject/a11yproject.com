@@ -14,7 +14,7 @@
 	padding: 1.5rem 2rem;
 	@include var(background-color, featured-card-background);
 	@include var(color, featured-card-text);
-	transition: 
+	transition:
 		$animation-duration-shorter $animation-easing-character background-color,
 		$animation-duration-shorter $animation-easing-character border-color,
 		$animation-duration-shorter $animation-easing-character color;

@@ -67,9 +67,10 @@ $_c-input-margin-top: 1.5rem;
 
 	&:focus {
 		@include var(background-color, button-focus-background);
-		box-shadow: 
+		box-shadow:
 			0 0 0 em(2) var(--color-body-background),
 			0 0 0 em(4) var(--color-button-background);
+
 		outline: $border-thin solid transparent;
 	}
 
