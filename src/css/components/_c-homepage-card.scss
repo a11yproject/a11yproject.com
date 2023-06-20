@@ -10,7 +10,7 @@
 }
 
 .c-homepage-card--resources {
-	margin-right: $mr-4;
+	margin-right: $m-4;
 }
 
 .c-homepage-card--spotlight {
@@ -37,7 +37,7 @@
 
 .c-homepage-card__image {
 	cursor: pointer;
-	margin-top: $mt-6;
+	margin-top: $m-6;
 	filter: var(--image-filter);
 }
 
@@ -45,7 +45,7 @@
 	@include var(color, card-heading-text);
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
-	margin-top: $mt-3;
+	margin-top: $m-3;
 }
 
 .c-homepage-card__title {
@@ -56,8 +56,8 @@
 
 .c-homepage-card__description {
 	font-family: $font-family-secondary;
-	margin-top: $mt-2;
-	margin-bottom: $mb-2;
+	margin-top: $m-2;
+	margin-bottom: $m-2;
 	max-width: 50ch;
 }
 
@@ -66,7 +66,7 @@
 	@include var(border-color, secondary-link-accent);
 	@include var(color, secondary-link-text);
 	font-family: $font-family-secondary;
-	margin-top: $mt-2;
+	margin-top: $m-2;
 	text-decoration: none;
 
 	// States

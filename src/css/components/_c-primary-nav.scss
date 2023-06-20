@@ -10,33 +10,33 @@
 }
 
 .c-primary-nav__list-item {
-	margin-top: $mt-2;
+	margin-top: $m-2;
 	text-align: center;
 
 	// Supports
 	@supports #{$supports-flex} {
-		margin-top: $mt-2;
-		margin-left: 0;
+		margin-top: $m-2;
+		margin-left: $m-0;
 		width: 33%;
 
 		// Breakpoints
 		@include mappy-bp(palm-small) {
-			margin-right: $mr-1;
+			margin-right: $m-1;
 			width: initial;
 			flex-grow: 1;
 		}
 
 		@include mappy-bp(palm-medium) {
-			margin-right: $mr-2;
+			margin-right: $m-2;
 		}
 
 		@include mappy-bp(lap-small) {
-			margin-top: $mt-0;
+			margin-top: $m-0;
 		}
 	}
 
 	&:last-of-type {
-		margin-right: 0;
+		margin-right: $m-0;
 
 		.c-primary-nav__link {
 			@include var(background-color, nav-cta-background);

@@ -8,9 +8,9 @@
 }
 
 .c-featured__body {
-	margin-right: 0;
-	margin-bottom: $mb-4;
-	margin-left: $ml-3;
+	margin-right: $m-0;
+	margin-bottom: $m-4;
+	margin-left: $m-3;
 	padding: 1.5rem 2rem;
 	@include var(background-color, featured-card-background);
 	@include var(color, featured-card-text);

@@ -96,7 +96,7 @@ $_c-post-vertical-spacing: 4ex;
 		}
 
 		@include mappy-bp(lap-medium) {
-			margin-top: $mt-0;
+			margin-top: $m-0;
 			margin-left: map-get($global-post-content-inset, small);
 		}
 	}
@@ -143,11 +143,11 @@ $_c-post-vertical-spacing: 4ex;
 }
 
 .c-post__metadata--author {
-	margin-bottom: $mb-1;
+	margin-bottom: $m-1;
 
 	// Breakpoints
 	@include mappy-bp(lap-small) {
-		margin-bottom: $mb-0;
+		margin-bottom: $m-0;
 	}
 
 	// Supports
@@ -157,7 +157,7 @@ $_c-post-vertical-spacing: 4ex;
 		// Breakpoints
 		@include mappy-bp(lap-small) {
 			flex-grow: 4;
-			margin-bottom: $mb-0;
+			margin-bottom: $m-0;
 		}
 	}
 }
@@ -170,7 +170,7 @@ $_c-post-vertical-spacing: 4ex;
 
 		// Breakpokints
 		@include mappy-bp(lap-small) {
-			margin-left: $ml-1;
+			margin-left: $m-1;
 		}
 	}
 }
@@ -192,14 +192,14 @@ $_c-post-vertical-spacing: 4ex;
 
 	// Breakpoints
 	@include mappy-bp(lap-small) {
-		margin-right: 0;
+		margin-right: $m-0;
 	}
 
 	// Supports
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin-right: 0;
+			margin-right: $m-0;
 		}
 	}
 }

@@ -74,8 +74,8 @@
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {
-			margin-top: $mt-0;
-			margin-bottom: $mb-0;
+			margin-top: $m-0;
+			margin-bottom: $m-0;
 			position: unset;
 			transform: none;
 		}

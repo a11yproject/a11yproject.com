@@ -15,7 +15,7 @@
 @mixin heading-largest() {
 	font-size: 3rem;
 	line-height: $line-height-single;
-	margin-bottom: $mb-2;
+	margin-bottom: $m-2;
 
 	// Breakpoints
 	@include mappy-bp(lap-small) {

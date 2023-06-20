@@ -13,7 +13,7 @@
 // to not break, so we need to use this approach.
 .l-footer__meta--footer {
 	display: initial;
-	margin-top: $mt-6;
+	margin-top: $m-6;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -21,7 +21,7 @@
 	}
 
 	@include mappy-bp(lap-small) {
-		margin-top: $mt-12;
+		margin-top: $m-12;
 	}
 
 	@include mappy-bp(lap-small) {
@@ -47,7 +47,7 @@
 }
 
 .l-footer__theme-switcher {
-	margin-top: $mt-2;
+	margin-top: $m-2;
 }
 
 .l-footer__tagline-copyright {
@@ -60,24 +60,24 @@
 		@include mappy-bp(lap-small) {
 			flex-direction: row;
 			justify-content: space-between;
-			margin-top: $mt-2;
+			margin-top: $m-2;
 		}
 	}
 }
 
 .l-footer__copyright {
-	margin-top: $mt-4;
+	margin-top: $m-4;
 	// Supports
 	@supports #{$supports-flex} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin-top: $mt-0;
+			margin-top: $m-0;
 		}
 	}
 }
 
 .l-footer__top {
-	margin-top: $mt-2;
+	margin-top: $m-2;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -85,6 +85,6 @@
 	}
 
 	@include mappy-bp(lap-small) {
-		margin-top: $mt-0;
+		margin-top: $m-0;
 	}
 }

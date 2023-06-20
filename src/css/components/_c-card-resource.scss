@@ -7,7 +7,7 @@
 .c-card-resource__body {
 	@include var(background-color, card-background);
 	margin-right: 1.25rem;
-	margin-left: $ml-3;
+	margin-left: $m-3;
 	padding: 1.5rem 2rem;
 	transition: $animation-duration-shorter $animation-easing-character
 			background-color,

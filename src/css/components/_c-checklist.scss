@@ -18,7 +18,7 @@ $_checklist-padding: (
 );
 
 .c-checklist__outer-wrapper {
-	margin-bottom: $mb-6;
+	margin-bottom: $m-6;
 	max-width: $global-type-measure * 1.1;
 }
 
@@ -138,7 +138,7 @@ $_checklist-padding: (
 }
 
 .c-checklist__title {
-	margin-left: $ml-2;
+	margin-left: $m-2;
 	// Supports
 	@supports #{$supports-flex} {
 		flex: 1;
@@ -235,7 +235,7 @@ $_checklist-padding: (
 }
 
 .c-checklist__citation {
-	margin-top: $mt-1;
+	margin-top: $m-1;
 	padding-left: map-get($_checklist-inset, small);
 
 	// Breakpoints

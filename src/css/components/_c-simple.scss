@@ -20,13 +20,13 @@
 	@include var(background-color, hero-content-background);
 	@include var(border-color, hero-content-accent);
 	@include var(color, hero-content-text);
-	margin-top: $mt-4;
+	margin-top: $m-4;
 	padding: 1rem 2rem 2rem;
 	z-index: 1;
 
 	// Supports
 	@supports #{$supports-flex} {
-		margin-top: $mt-0;
+		margin-top: $m-0;
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {
@@ -41,7 +41,7 @@
 	// Text-level formatting
 	p {
 		font-family: $font-family-secondary;
-		margin-top: $mt-3;
+		margin-top: $m-3;
 	}
 }
 

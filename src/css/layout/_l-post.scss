@@ -1,9 +1,9 @@
 .l-post {
-	margin-top: $mt-4;
+	margin-top: $m-4;
 
 	// Breakpoints
 	@include mappy-bp(lap-medium) {
-		margin-top: $mt-8;
+		margin-top: $m-8;
 	}
 
 	&--collection {
@@ -100,12 +100,12 @@
 
 		// Breakpoints
 		@include mappy-bp(lap-medium) {
-			margin-right: 0;
+			margin-right: $m-0;
 			margin-left: map-get($global-bleed, small);
 		}
 
 		@include mappy-bp(lap-small) {
-			margin-top: $mt-0;
+			margin-top: $m-0;
 		}
 	}
 }

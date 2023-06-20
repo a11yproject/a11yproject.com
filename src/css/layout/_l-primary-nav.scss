@@ -21,14 +21,14 @@
 }
 
 .l-primary-nav__sections {
-	margin-top: $mt-2;
+	margin-top: $m-2;
 	width: 100%;
 
 	// Supports
 	@supports #{$supports-flex} {
 		display: flex;
 		flex-flow: row wrap;
-		margin-top: $mt-0;
+		margin-top: $m-0;
 
 		// Breakpoints
 		@include mappy-bp(palm-small) {

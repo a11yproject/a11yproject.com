@@ -8,7 +8,7 @@
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
-			margin-left: 0;
+			margin-left: $m-0;
 		}
 	}
 
@@ -23,7 +23,7 @@
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
-			margin-left: 0;
+			margin-left: $m-0;
 		}
 
 		li {
@@ -43,9 +43,9 @@
 		}
 
 		ol {
-			margin-top: $mt-0;
-			margin-left: $ml-4;
-			margin-bottom: $mb-2;
+			margin-top: $m-0;
+			margin-left: $m-4;
+			margin-bottom: $m-2;
 		}
 	}
 
@@ -60,7 +60,7 @@
 
 			// Breakpoints
 			@include mappy-bp(lap-medium) {
-				margin-left: 0;
+				margin-left: $m-0;
 			}
 
 			&::before {
@@ -76,8 +76,8 @@
 			}
 
 			ul {
-				margin-top: $mt-0;
-				margin-left: $ml-4;
+				margin-top: $m-0;
+				margin-left: $m-4;
 			}
 		}
 	}
@@ -90,7 +90,7 @@
 
 		dt {
 			font-weight: $font-weight-bold;
-			margin-top: $mt-3;
+			margin-top: $m-3;
 			margin-left: map-get($global-post-content-inset, small) * -1;
 		}
 

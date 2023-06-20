@@ -1,6 +1,6 @@
 .c-divider {
 	border: $border-thin solid;
 	@include var(border-color, divider-background);
-	margin-top: $mt-6;
-	margin-bottom: $mb-6;
+	margin-top: $m-6;
+	margin-bottom: $m-6;
 }

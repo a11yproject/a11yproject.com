@@ -9,7 +9,7 @@ $_banner-triangle-size: 1.49rem;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	line-height: $line-height-single;
-	margin-top: $mt-3;
+	margin-top: $m-3;
 	padding: 0.1rem 1rem 0.6rem 0.3rem;
 
 	// [1] Magic number to position the triangle
@@ -46,7 +46,7 @@ $_banner-triangle-size: 1.49rem;
 		@include var(background-color, featured-card-accent);
 		background-image: none;
 		@include var(color, featured-card-accent-text);
-		margin-top: $mt-0;
+		margin-top: $m-0;
 
 		&::before {
 			@include var(border-right-color, featured-card-accent-shadow);
@@ -55,7 +55,7 @@ $_banner-triangle-size: 1.49rem;
 
 	&.c-banner--post {
 		background-image: none;
-		margin-top: $mt-0;
+		margin-top: $m-0;
 	}
 }
 

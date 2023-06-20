@@ -3,7 +3,7 @@
 }
 
 .c-footer__subnav {
-	margin-top: $mt-4;
+	margin-top: $m-4;
 
 	// Supports
 	@supports #{$supports-flex} {
@@ -18,7 +18,7 @@
 
 		@include mappy-bp(lap-small) {
 			width: initial;
-			margin-right: $mr-4;
+			margin-right: $m-4;
 		}
 
 		@include mappy-bp(lap-medium) {
@@ -34,12 +34,12 @@
 .c-footer__list {
 	@include preserve-list-semantics();
 
-	margin-top: $mt-2;
+	margin-top: $m-2;
 	margin-left: 0.4rem;
 
 	// Text-level formatting
 	li {
-		margin-top: $mt-1;
+		margin-top: $m-1;
 	}
 }
 
@@ -60,12 +60,12 @@
 	font-family: $font-family-primary;
 	font-size: $font-size-heading-small;
 	line-height: $line-height-single;
-	margin-top: $mt-4;
+	margin-top: $m-4;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
 		font-size: $font-size-body-medium;
-		margin-top: $mt-0;
+		margin-top: $m-0;
 	}
 
 	@include mappy-bp(lap-small) {

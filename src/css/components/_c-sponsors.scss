@@ -4,11 +4,11 @@
 
 .c-sponsor__link {
 	width: $global-sponsor-width;
-	margin-bottom: $mb-2;
+	margin-bottom: $m-2;
 	@include var(color, body-text);
 
 	&:last-of-type {
-		margin-bottom: $mb-0;
+		margin-bottom: $m-0;
 	}
 
 	// States
@@ -20,7 +20,7 @@
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
-			margin-bottom: $mb-0;
+			margin-bottom: $m-0;
 		}
 	}
 }
