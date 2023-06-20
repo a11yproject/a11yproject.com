@@ -29,6 +29,11 @@
 	"logic/variables.font-weights", "logic/variables.line-heights",
 	"logic/variables.global";
 
+// Utilities Variables
+
+// Variables for padding and margin
+@import "utilities/variables";
+
 // Maps
 //
 // Weight: 2
@@ -110,7 +115,7 @@
 // Styleguide Utilities
 @import "utilities/font-families", "utilities/font-sizes", "utilities/hide",
 	"utilities/preserve-list-semantics", "utilities/spacing",
-	"utilities/text-transform", "utilities/variables";
+	"utilities/text-transform";
 
 // Components
 //
