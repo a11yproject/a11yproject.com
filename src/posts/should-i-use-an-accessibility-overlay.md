@@ -26,7 +26,10 @@ further_reading:
   - title: "AccessiByeBye"
     url: https://www.accessibyebye.org/
     source: Pneuma Solutions
-  - title: "Accessibility overlays don’t guarantee compliance with European legislation"
+  - title: "Accessible overlays aren’t accessible"
+    url: [https://www.edf-feph.org/accessibility-overlays-dont-guarantee-compliance-with-european-legislation/](https://scribe.rip/accessible-overlays-arent-accessible-96876ef474a4)
+    source: Camryn Manker
+	- title: "Accessibility overlays don’t guarantee compliance with European legislation"
     url: https://www.edf-feph.org/accessibility-overlays-dont-guarantee-compliance-with-european-legislation/
     source: European Disability Forum
   - title: Accessibility Overlays in Digital Content
