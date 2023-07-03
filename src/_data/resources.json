@@ -536,6 +536,15 @@
 			]
 		},
 		{
+			"title": "Sound Pointer",
+			"description": "Sound Pointer enables you to locate and follow the mouse pointer around your browser window with a sound that changes as you move your mouse.",
+			"additional": "Simon Miner",
+			"url": "https://chrome.google.com/webstore/detail/sound-pointer/ainiiiclibekafehinjoffjppjibgock",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
 			"title": "taba11y",
 			"description": "taba11y calculates the tab order of all elements and displays it visually, either by drawing a path or by highlighting the elements.",
 			"additional": "Peter Gould",
