@@ -140,6 +140,9 @@ further_reading:
   - title: What’s Wrong With Quick-Fix Products For Digital Accessibility
     url: https://go.forrester.com/blogs/whats-wrong-with-quick-fix-products-for-digital-accessibility/
     source: Forrester
+  - title: "Why Accessibility Overlays Fall Short"
+    url: https://www.viget.com/articles/why-a11y-overlays-fall-short/
+    source: Viget
   - title: "Why I blocked #AccessiBe"
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett
