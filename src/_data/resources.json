@@ -1069,6 +1069,11 @@
 			"url": "https://paypal.github.io/bootstrap-accessibility-plugin/"
 		},
 		{
+			"title": "Chart2Music",
+			"description": "A javascript library that makes it easy to generate interactive sonifications, so that you can make your charts, graphs, and other data visualizations accessible to screen reader users.",
+			"url": "https://www.chart2music.com"
+		},
+		{
 			"title": "Guidepup",
 			"description": "Screen reader driver for test automation.",
 			"additional": "Craig Morten",
