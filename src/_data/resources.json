@@ -1503,12 +1503,6 @@
 	],
 	"newsletters": [
 		{
-			"title": "The A11Y Project",
-			"description": "A summary of the links The A11Y Project shares on Twitter throughout the week. Shared weekly on Fridays.",
-			"additional": "The A11Y Project",
-			"url": "https://www.a11yproject.com/newsletter/"
-		},
-		{
 			"title": "Accessible Mobile Apps Weekly",
 			"description": "News from the accessibility community, links to developer tools and frameworks, and more.",
 			"additional": "Robin Kanatzar",
@@ -1525,6 +1519,18 @@
 			"description": "Get notified when we write new stuff",
 			"additional": "Axess Lab",
 			"url": "https://axesslab.com/alt-texts#thanks-for-making-the-web-better"
+		},
+		{
+			"title": "Crip News",
+			"description": "Disability Thinking Weekday is an email newsletter for disabled people and others interested in disability issues, ideas, and culture.",
+			"additional": "Kevin Gotkin",
+			"url": "https://cripnews.substack.com/"
+		},
+		{
+			"title": "Disability Thinking Weekday",
+			"description": "A weekly roundup about disability arts and politics.",
+			"additional": "Andrew Pulrang",
+			"url": "https://disabilitythinking.substack.com/"
 		},
 		{
 			"title": "Equal Entry Newsletter",
