@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // var
 //
 // Generates a property + CSS custom property with a fallback for IE 11.
@@ -10,7 +12,7 @@
 // Styleguide Logic.Mixins.var
 
 @mixin var($property, $varName) {
-  $fallbackName: #{map-get($scheme-light, $varName)};
-  #{$property}: #{map-get($colors, $fallbackName)};
-  #{$property}: var(--color-#{$varName});
+	$fallbackName: #{map.get($scheme-light, $varName)};
+	#{$property}: #{map.get($colors, $fallbackName)};
+	#{$property}: var(--color-#{$varName});
 }

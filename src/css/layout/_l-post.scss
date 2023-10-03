@@ -1,3 +1,5 @@
+@use "sass:map";
+
 .l-post {
 	margin-top: 2rem;
 
@@ -5,7 +7,6 @@
 	@include mappy-bp(lap-medium) {
 		margin-top: 4rem;
 	}
-
 
 	&--collection {
 		.l-post__header,
@@ -20,14 +21,18 @@
 	}
 }
 
-
 .l-post__header {
 	// Breakpoints
 	@include mappy-bp(lap-medium) {
 		// Supports
 		@supports #{$supports-grid} {
 			display: grid;
-			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 2fr 2rem map-get($global-post-columns, toc);
+			grid-template-columns:
+				map.get($global-post-columns, category) map.get(
+					$global-post-columns,
+					gutter
+				)
+				2fr 2rem map.get($global-post-columns, toc);
 			grid-template-rows: auto auto;
 			grid-template-areas:
 				"category . title    . ."
@@ -35,7 +40,6 @@
 		}
 	}
 }
-
 
 .l-post__body {
 	margin-top: 6ex;
@@ -45,13 +49,17 @@
 		// Supports
 		@supports #{$supports-grid} {
 			display: grid;
-			grid-template-columns: map-get($global-post-columns, category) map-get($global-post-columns, gutter) 2fr 2rem map-get($global-post-columns, toc);
+			grid-template-columns:
+				map.get($global-post-columns, category) map.get(
+					$global-post-columns,
+					gutter
+				)
+				2fr 2rem map.get($global-post-columns, toc);
 			grid-template-rows: auto auto;
 			grid-template-areas: ". . content     . toc";
 		}
 	}
 }
-
 
 .l-post__category {
 	// Supports
@@ -60,7 +68,6 @@
 	}
 }
 
-
 .l-post__title {
 	// Supports
 	@supports #{$supports-grid} {
@@ -68,14 +75,12 @@
 	}
 }
 
-
 .l-post__metadata {
 	// Supports
 	@supports #{$supports-grid} {
 		grid-area: metadata;
 	}
 }
-
 
 .l-post__content {
 	@include post-content-inset("small");
@@ -98,7 +103,7 @@
 		// Breakpoints
 		@include mappy-bp(lap-medium) {
 			margin-right: 0;
-			margin-left: map-get($global-bleed, small);
+			margin-left: map.get($global-bleed, small);
 		}
 
 		@include mappy-bp(lap-small) {
@@ -106,7 +111,6 @@
 		}
 	}
 }
-
 
 .l-post__linkroll {
 	// Supports

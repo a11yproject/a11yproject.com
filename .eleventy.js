@@ -1,9 +1,7 @@
-const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyPluginTOC = require("eleventy-plugin-nesting-toc");
-const moment = require("moment");
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
 
@@ -26,7 +24,7 @@ module.exports = function (eleventyConfig) {
 
 	/**
 	 * Returns a human-readable date
-		E.g. May 31, 2019
+		E.g. May 31, 2019f
 	 */
 
 	eleventyConfig.addFilter("dateReadable", (value) => {

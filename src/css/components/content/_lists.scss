@@ -1,10 +1,12 @@
+@use "sass:map";
+
 // Namespace
 .c-content,
 .c-person {
 	dl,
 	ul {
 		/* stylelint-disable-selector-list-comma-newline-after */
-		margin-left: map-get($global-post-content-inset, small);
+		margin-left: map.get($global-post-content-inset, small);
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
@@ -36,8 +38,8 @@
 				font-size: 3ex;
 				height: 1rem;
 				position: relative;
-					top: rem(9);
-					right: 1.75rem;
+				top: rem(9);
+				right: 1.75rem;
 				width: 1rem;
 			}
 		}
@@ -48,7 +50,6 @@
 			margin-bottom: 1rem;
 		}
 	}
-
 
 	// Unordered List
 	//
@@ -71,8 +72,8 @@
 				font-size: 2ex;
 				height: 1rem;
 				position: relative;
-					top: rem(20);
-					right: rem(36);
+				top: rem(20);
+				right: rem(36);
 				width: 1rem;
 			}
 
@@ -83,7 +84,6 @@
 		}
 	}
 
-
 	// Definition List
 	//
 	// Style guide: Components.post.dl
@@ -93,7 +93,7 @@
 		dt {
 			font-weight: $font-weight-bold;
 			margin-top: 1.5rem;
-			margin-left: map-get($global-post-content-inset, small) * -1;
+			margin-left: map.get($global-post-content-inset, small) * -1;
 		}
 
 		dd {
@@ -101,7 +101,6 @@
 		}
 	}
 }
-
 
 .c-further-reading__source {
 	display: block;

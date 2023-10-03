@@ -1,10 +1,8 @@
 $_c-input-margin-top: 1.5rem;
 
-
 .c-form {
 	margin-top: 1rem;
 }
-
 
 .c-form__label {
 	display: inline-block;
@@ -13,7 +11,6 @@ $_c-input-margin-top: 1.5rem;
 	padding-bottom: 0.25rem;
 }
 
-
 .c-form__input {
 	@include var(background-color, body-background);
 	@include var(color, body-text);
@@ -21,7 +18,8 @@ $_c-input-margin-top: 1.5rem;
 	@include var(border-color, input-border);
 	line-height: $line-height-single;
 	padding: 0.5rem;
-	transition: background-color $animation-duration-shorter $animation-easing-character;
+	transition: background-color $animation-duration-shorter
+		$animation-easing-character;
 	width: 100%;
 
 	&:hover,
@@ -45,12 +43,10 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-
 .c-form__input--multiline {
 	line-height: $line-height-loose;
 	min-height: 15rem;
 }
-
 
 .c-form__button {
 	@include var(background-color, button-background);
@@ -63,7 +59,8 @@ $_c-input-margin-top: 1.5rem;
 	min-width: 20ch;
 	padding: 0.75rem 1.25rem;
 	text-transform: uppercase;
-	transition: background-color $animation-duration-shorter $animation-easing-character;
+	transition: background-color $animation-duration-shorter
+		$animation-easing-character;
 
 	// States
 	&:hover {
@@ -72,9 +69,8 @@ $_c-input-margin-top: 1.5rem;
 
 	&:focus {
 		@include var(background-color, button-focus-background);
-		box-shadow:
-			0 0 0 em(2) var(--color-body-background),
-			0 0 0 em(4) var(--color-button-background);
+		box-shadow: 0 0 0 0.125rem var(--color-body-background),
+			0 0 0 0.25rem var(--color-button-background);
 		outline: $border-thin solid transparent;
 	}
 
@@ -88,7 +84,6 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-
 .c-form__vendor {
 	@include link-states(body-text);
 
@@ -98,12 +93,10 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-
 .c-form__instructions {
 	position: relative;
-		bottom: 1rem;
+	bottom: 1rem;
 }
-
 
 .c-form__error-wrapper {
 	border: $border-thin solid;
@@ -120,7 +113,7 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-.c-form__input[aria-invalid]{
+.c-form__input[aria-invalid] {
 	border: $border-thinner solid;
 	@include var(border-color, error);
 }
@@ -139,11 +132,9 @@ $_c-input-margin-top: 1.5rem;
 	}
 }
 
-
 .c-form__progress-fill {
 	@include var(background-color, progress-bar);
 }
-
 
 .c-form__progress-label {
 	@include var(background-color, body-background);
@@ -151,7 +142,6 @@ $_c-input-margin-top: 1.5rem;
 	margin-top: 0;
 	padding-left: 1rem;
 }
-
 
 .c-form__legal {
 	margin-top: 0.25rem !important;

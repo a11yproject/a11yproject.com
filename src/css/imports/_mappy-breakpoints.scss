@@ -1,9 +1,3 @@
-@use "sass:list";
-@use "sass:map";
-@use "sass:math";
-@use "sass:meta";
-@use "sass:string";
-
 // Mappy breakpoints
 // -----------------
 // Output media query with focus on min-width, max-width, min-height and max-height.
@@ -11,6 +5,8 @@
 //
 // @author Zell Liew
 // =================
+@use "sass:math";
+@use "sass:map";
 
 $breakpoints: () !default;
 $mappy-queries: () !default;
@@ -22,22 +18,26 @@ $mappy-queries: () !default;
 // - $type            : <media-type>
 // - $query-fallback  : <string> selector class
 // - $breakpoints     : <map>
-@mixin mappy-bp($queries, $type: all, $query-fallback: null, $breakpoints: $breakpoints) {
+@mixin mappy-bp(
+	$queries,
+	$type: all,
+	$query-fallback: null,
+	$breakpoints: $breakpoints
+) {
+	// Gets mappy map through mappy-bp fn
+	$mappy-map: mappy-bp($queries, $type, $query-fallback, $breakpoints);
 
-  // Gets mappy map through mappy-bp fn
-  $mappy-map: mappy-bp($queries, $type, $query-fallback, $breakpoints);
+	// Outputs media string
+	@media #{map.get($mappy-map, type)} and #{map.get($mappy-map, media-string)} {
+		@content;
+	}
 
-  // Outputs media string
-  @media #{map.get($mappy-map, type)} and #{map.get($mappy-map, media-string)} {
-    @content;
-  }
-
-  // If a query fallback is provided
-  @if $query-fallback {
-    #{$query-fallback} & {
-      @content;
-    }
-  }
+	// If a query fallback is provided
+	@if $query-fallback {
+		#{$query-fallback} & {
+			@content;
+		}
+	}
 }
 
 // Mappy Query [Mixin]
@@ -45,22 +45,22 @@ $mappy-queries: () !default;
 // Output query from $mappy-queries map.
 // $query : <string> from $mappy-queries key
 @mixin mappy-query($query, $mappy-queries: $mappy-queries) {
-  @if not map.has-key($mappy-queries, $query) {
-    @error "#{$mappy-queries} does not contain #{$query}";
-  }
+	@if not map-has-key($mappy-queries, $query) {
+		@error "#{$mappy-queries} does not contain #{$query}";
+	}
 
-  $mappy-map: map.get($mappy-queries, $query);
+	$mappy-map: map.get($mappy-queries, $query);
 
-  @media #{map.get($mappy-map, type)} and #{map.get($mappy-map, media-string)} {
-    @content;
-  }
+	@media #{map.get($mappy-map, type)} and #{map.get($mappy-map, media-string)} {
+		@content;
+	}
 
-  // If a query fallback is provided
-  @if map.get($mappy-map, query-fallback) {
-    #{map.get($mappy-map, query-fallback)} & {
-      @content;
-    }
-  }
+	// If a query fallback is provided
+	@if map.get($mappy-map, query-fallback) {
+		#{map.get($mappy-map, query-fallback)} & {
+			@content;
+		}
+	}
 }
 
 // Mappy BP [Function]
@@ -69,120 +69,149 @@ $mappy-queries: () !default;
 // - type           : Media type
 // - media-string   : media query string
 // - query-fallback : query fallback (if any)
-@function mappy-bp($queries, $type: all, $query-fallback: null, $breakpoints: $breakpoints) {
-  $media-string: ();
-  $_return: ();
-  $media-map: parse-bp($queries, $breakpoints);
+@function mappy-bp(
+	$queries,
+	$type: all,
+	$query-fallback: null,
+	$breakpoints: $breakpoints
+) {
+	$media-string: ();
+	$_return: ();
+	$media-map: parse-bp($queries, $breakpoints);
 
-  @each $key, $value in $media-map {
-    @if $value and $value != 0 {
-      @if $media-string == (()) {
-        $media-string: list.append($media-string, string.unquote("(#{$key}: #{$value})"));
-      }
+	@each $key, $value in $media-map {
+		@if $value and $value != 0 {
+			@if $media-string == (()) {
+				$media-string: append($media-string, unquote("(#{$key}: #{$value})"));
+			} @else {
+				$media-string: append(
+					$media-string,
+					unquote("and (#{$key}: #{$value})")
+				);
+			}
+		}
+	}
+	$_return: (
+		type: $type,
+		media-string: implode($media-string),
+		query-fallback: $query-fallback,
+	);
 
-      @else {
-        $media-string: list.append($media-string, string.unquote("and (#{$key}: #{$value})"));
-      }
-    }
-  }
-  $_return: (
-    type: $type,
-    media-string: implode($media-string),
-    query-fallback: $query-fallback
-  );
-
-  @return $_return;
+	@return $_return;
 }
 
 // BP [Mixin]
 // ----------
 // Convenience mixin for Mappy Breakpoints
-@mixin bp($queries, $type: all, $query-fallback: null, $breakpoints: $breakpoints) {
-  @include mappy-bp($queries, $type, $query-fallback, $breakpoints) {
-    @content;
-  }
+@mixin bp(
+	$queries,
+	$type: all,
+	$query-fallback: null,
+	$breakpoints: $breakpoints
+) {
+	@include mappy-bp($queries, $type, $query-fallback, $breakpoints) {
+		@content;
+	}
 }
 
 // Parse BP [function]
 // -------------------
 // Parses arguments and returns a map with 4 keys
 @function parse-bp($queries, $breakpoints) {
-  $_return: ();
-  $_i: 1;
-  $_minw: null;
-  $_maxw: null;
-  $_minh: null;
-  $_maxh: null;
-  $_length: list.length($queries);
+	$_return: ();
+	$_i: 1;
+	$_minw: null;
+	$_maxw: null;
+	$_minh: null;
+	$_maxh: null;
+	$_length: length($queries);
 
-  // Checks for width queries
-  $_minw: list.nth($queries, 1);
-  $_minw: mappy-validate($_minw, $breakpoints);
+	// Checks for width queries
+	$_minw: nth($queries, 1);
+	$_minw: mappy-validate($_minw, $breakpoints);
 
-  // Check for width queries
-  @if $_minw {
-    $_minw: mappy-convert-to-em($_minw);
-    $_return: map.merge($_return, (min-width: $_minw));
-    $queries: list.set-nth($queries, 1, null);
-  }
+	// Check for width queries
+	@if $_minw {
+		$_minw: mappy-convert-to-em($_minw);
+		$_return: map-merge(
+			$_return,
+			(
+				min-width: $_minw,
+			)
+		);
+		$queries: set-nth($queries, 1, null);
+	}
 
-  // Checks if there is a max width query
-  @if $_minw and $_length >= 2 {
-    $_maxw: list.nth($queries, 2);
-    $_maxw: mappy-validate($_maxw, $breakpoints);
-  }
+	// Checks if there is a max width query
+	@if $_minw and $_length >= 2 {
+		$_maxw: nth($queries, 2);
+		$_maxw: mappy-validate($_maxw, $breakpoints);
+	}
 
-  @if $_maxw {
-    $_maxw: mappy-convert-to-em($_maxw - 1px);
-    $_return: map.merge($_return, (max-width: $_maxw));
-    $queries: list.set-nth($queries, 2, null);
-  }
+	@if $_maxw {
+		$_maxw: mappy-convert-to-em($_maxw - 1px);
+		$_return: map-merge(
+			$_return,
+			(
+				max-width: $_maxw,
+			)
+		);
+		$queries: set-nth($queries, 2, null);
+	}
 
-  // Checks for height queries
-  $_h: list.index($queries, h) or list.index($queries, height);
+	// Checks for height queries
+	$_h: index($queries, h) or index($queries, height);
 
-  @if $_h {
-    $_minh: list.nth($queries, $_h + 1);
-    $_minh: mappy-validate($_minh, $breakpoints);
+	@if $_h {
+		$_minh: nth($queries, $_h + 1);
+		$_minh: mappy-validate($_minh, $breakpoints);
 
-    @if $_minh {
-      $_minh: mappy-convert-to-em($_minh);
-      $_return: map.merge($_return, (min-height: $_minh));
-      $queries: list.set-nth($queries, $_h + 1, null);
-    }
+		@if $_minh {
+			$_minh: mappy-convert-to-em($_minh);
+			$_return: map-merge(
+				$_return,
+				(
+					min-height: $_minh,
+				)
+			);
+			$queries: set-nth($queries, $_h + 1, null);
+		}
 
-    // Checks if there is a max height query
-    @if $_length - $_h >= 2 {
-      $_maxh: list.nth($queries, $_h + 2);
-      $_maxh: mappy-validate($_maxh, $breakpoints);
-    }
+		// Checks if there is a max height query
+		@if $_length - $_h >= 2 {
+			$_maxh: nth($queries, $_h + 2);
+			$_maxh: mappy-validate($_maxh, $breakpoints);
+		}
 
-    @if $_maxh {
-      $_maxh: mappy-convert-to-em($_maxh - 1px);
-      $_return: map.merge($_return, (max-height: $_maxh));
-      $queries: list.set-nth($queries, $_h + 2, null);
-    }
-    // Reset h marker
-    $queries: list.set-nth($queries, $_h, null);
-  }
+		@if $_maxh {
+			$_maxh: mappy-convert-to-em($_maxh - 1px);
+			$_return: map-merge(
+				$_return,
+				(
+					max-height: $_maxh,
+				)
+			);
+			$queries: set-nth($queries, $_h + 2, null);
+		}
+		// Reset h marker
+		$queries: set-nth($queries, $_h, null);
+	}
 
-  // Checks for other queries
-  @while $_i <= list.length($queries) {
-    $_key: list.nth($queries, $_i);
+	// Checks for other queries
+	@while $_i <= length($queries) {
+		$_key: nth($queries, $_i);
 
-    @if $_key and $_length - $_i >= 1 {
-      $_val: list.nth($queries, $_i + 1);
-      $_return: map.merge($_return, (#{$_key}: $_val));
-      $queries: list.set-nth($queries, $_i, null);
-      $queries: list.set-nth($queries, $_i + 1, null);
-    }
-
-    @else if $_key {
-      @warn string.unquote('"Mappy Breakpoints is missing value for media feature "#{$_key}""');
-    }
-    $_i: $_i + 1;
-  }
-  @return $_return;
+		@if $_key and $_length - $_i >= 1 {
+			$_val: nth($queries, $_i + 1);
+			$_return: map-merge($_return, (#{$_key}: $_val));
+			$queries: set-nth($queries, $_i, null);
+			$queries: set-nth($queries, $_i + 1, null);
+		} @else if $_key {
+			@warn unquote('"Mappy Breakpoints is missing value for media feature "#{$_key}""');
+		}
+		$_i: $_i + 1;
+	}
+	@return $_return;
 }
 
 // Mappy Validate [Function]
@@ -192,24 +221,19 @@ $mappy-queries: () !default;
 // 2) Is a number
 // 3) Is a "max", "max-width" or "max-height" string
 @function mappy-validate($query, $breakpoints) {
-  $_return: null;
+	$_return: null;
 
-  @if map.has-key($breakpoints, $query) {
-    $_return: map.get($breakpoints, $query);
-  }
-
-  @else if meta.type-of($query) == number {
-    $_return: $query;
-  }
-
-  @else if $query == "max" or $query == "max-height" or $query == "max-width" {
-    $_return: 0;
-  }
-
-  @else {
-    $_return: null;
-  }
-  @return $_return;
+	@if map-has-key($breakpoints, $query) {
+		$_return: map.get($breakpoints, $query);
+	} @else if type-of($query) == number {
+		$_return: $query;
+	} @else if $query == "max" or $query == "max-height" or $query == "max-width"
+	{
+		$_return: 0;
+	} @else {
+		$_return: null;
+	}
+	@return $_return;
 }
 
 // Mappy Convert To Em [Function]
@@ -217,15 +241,15 @@ $mappy-queries: () !default;
 // Checks and converts px values to em. Leave other units untouched.
 
 @function mappy-convert-to-em($val) {
-  @if math.unit($val) == "px" or $val == 0 {
-    @return mappy-em($val);
-  } @else if math.unit($val) == "em" {
-    @return $val;
-  } @else if math.unit($val) == "rem" {
-    @return mappy-strip-unit($val) * 1em;
-  } @else {
-    @error string.unquote("Breakpoint value must have a unit if it's a number");
-  }
+	@if unit($val) == "px" or $val == 0 {
+		@return mappy-em($val);
+	} @else if unit($val) == "em" {
+		@return $val;
+	} @else if unit($val) == "rem" {
+		@return mappy-strip-unit($val) * 1em;
+	} @else {
+		@error unquote("Breakpoint value must have a unit if it's a number");
+	}
 }
 
 // Mappy Em [Function]
@@ -233,32 +257,31 @@ $mappy-queries: () !default;
 // Converts pixels to em with $base-font-size
 // - https://gist.github.com/ijy/1441967
 @function mappy-em($target, $context: 16px) {
-  @if $target == 0 {
-    @return 0;
-  }
-  @return math.div($target, $context) * 1em;
+	@if $target == 0 {
+		@return 0;
+	}
+	@return math.div($target, $context) * 1em;
 }
 
 @function mappy-strip-unit($num) {
-  @return math.div($num, $num * 0 + 1);
+	@return math.div($num, $num * 0 + 1);
 }
 
 // Implode [Function]
 // --------------------
 // Implode a list into a string
 @function implode($list, $glue: " ") {
-  $res: null;
-  $len: list.length($list);
+	$res: null;
+	$len: length($list);
 
-  @for $i from 1 through $len {
-    $e: list.nth($list, $i);
-    @if $i == $len {
-      $res: string.unquote("#{$res}#{$e}");
-    }
-    @else {
-      $res: string.unquote("#{$res}#{$e}#{$glue}");
-    }
-  }
+	@for $i from 1 through $len {
+		$e: nth($list, $i);
+		@if $i == $len {
+			$res: unquote("#{$res}#{$e}");
+		} @else {
+			$res: unquote("#{$res}#{$e}#{$glue}");
+		}
+	}
 
-  @return $res;
+	@return $res;
 }

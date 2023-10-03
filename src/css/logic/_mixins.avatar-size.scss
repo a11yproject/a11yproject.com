@@ -1,12 +1,14 @@
+@use "sass:map";
+
 $avatar_dimensions: (
 	"tiny": 4rem,
 	"small": 6rem,
 	"medium": 8rem,
-  "large": 12rem,
-  "hero": 14rem,
+	"large": 12rem,
+	"hero": 14rem,
 );
 
 @mixin avatar-size($size: "tiny") {
-	height: map-get($avatar_dimensions, $size);
-	width: map-get($avatar_dimensions, $size);
+	height: map.get($avatar_dimensions, $size);
+	width: map.get($avatar_dimensions, $size);
 }

@@ -1,3 +1,4 @@
+@use "sass:map";
 // Homepage Card
 //
 // Style guide: Components.homepage-card
@@ -9,11 +10,9 @@
 	}
 }
 
-
 .c-homepage-card--resources {
 	margin-right: 2rem;
 }
-
 
 .c-homepage-card--spotlight {
 	// Breakpoints
@@ -23,14 +22,12 @@
 
 	// Supports
 	@supports #{$supports-flex} {
-
 		// Breakpoints
 		@include mappy-bp(palm-large) {
 			justify-self: end;
 		}
 	}
 }
-
 
 .c-homepage-card__image-link {
 	// States
@@ -39,13 +36,11 @@
 	}
 }
 
-
 .c-homepage-card__image {
 	cursor: pointer;
 	margin-top: 3rem;
 	filter: var(--image-filter);
 }
-
 
 .c-homepage-card__author {
 	@include var(color, card-heading-text);
@@ -54,13 +49,11 @@
 	margin-top: 1.5rem;
 }
 
-
 .c-homepage-card__title {
 	cursor: pointer;
 	@include var(color, heading-text);
 	text-decoration: none;
 }
-
 
 .c-homepage-card__description {
 	font-family: $font-family-secondary;
@@ -102,16 +95,15 @@
 	}
 }
 
-
 .c-homepage-card__checklist {
 	height: auto;
 	position: relative;
-	left: map-get($global-bleed, small);
+	left: map.get($global-bleed, small);
 	filter: var(--image-filter);
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
-		left: map-get($global-bleed, large);
+		left: map.get($global-bleed, large);
 		width: rem(400);
 	}
 
@@ -120,12 +112,10 @@
 	}
 }
 
-
 .c-homepage-card__spotlight-avatar {
 	@include avatar-size("large");
 	position: relative;
 }
-
 
 .c-homepage-card__spotlight__info {
 	@include var(background-color, featured-card-background);
@@ -144,11 +134,9 @@
 	}
 }
 
-
 .c-homepage-card__spotlight-name {
 	font-family: $font-family-secondary;
 }
-
 
 .c-homepage-card__spotlight-role {
 	@include var(color, featured-card-heading-text);

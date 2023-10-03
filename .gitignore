@@ -1,6 +1,6 @@
 # Project-specific files and folders
 dist/
-
+tmp/
 
 # Generic files to ignore
 *~

@@ -1,10 +1,12 @@
+@use "sass:map";
+
 .l-simple {
-	padding: map-get($global-bleed, large) map-get($global-bleed, small);
+	padding: map.get($global-bleed, large) map.get($global-bleed, small);
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
-		padding-right: map-get($global-bleed, large);
-		padding-left: map-get($global-bleed, large);
+		padding-right: map.get($global-bleed, large);
+		padding-left: map.get($global-bleed, large);
 	}
 
 	// Supports

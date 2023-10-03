@@ -1,6 +1,8 @@
+@use "sass:map";
+
 .l-sponsors {
 	margin-top: 8rem;
-	padding: map-get($global-bleed, large);
+	padding: map.get($global-bleed, large);
 
 	// Supports
 	@supports #{$supports-flex} {

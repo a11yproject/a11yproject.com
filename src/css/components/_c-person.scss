@@ -1,6 +1,8 @@
+@use "sass:map";
+
 $_person-distance: (
 	small: 6rem,
-	large: 14rem
+	large: 14rem,
 );
 
 .c-person {
@@ -19,7 +21,7 @@ $_person-distance: (
 
 	margin-top: -2.75rem;
 	position: absolute;
-	right: calc(50% - #{map-get($avatar_dimensions, "tiny") * 0.5});
+	right: calc(50% - #{map.get($avatar_dimensions, "tiny") * 0.5});
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
@@ -71,7 +73,6 @@ $_person-distance: (
 	}
 }
 
-
 .c-person__info {
 	border: $border-thinnest solid;
 	@include var(border-color, card-outline);
@@ -80,7 +81,8 @@ $_person-distance: (
 	min-height: 10rem;
 	padding: 1.5rem;
 	max-width: $global-type-measure;
-	transition: $animation-duration-shorter $animation-easing-character background-color;
+	transition: $animation-duration-shorter $animation-easing-character
+		background-color;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -106,7 +108,6 @@ $_person-distance: (
 	}
 }
 
-
 .c-person__link {
 	@include link-states(card-heading-text);
 	font-family: $font-family-secondary;
@@ -124,14 +125,12 @@ $_person-distance: (
 	}
 }
 
-
 .c-person__spotlight-link {
 	@include link-states(card-heading-text);
 
 	display: inline-block;
 	margin-top: 1rem;
 }
-
 
 .c-person__name {
 	font-family: $font-family-secondary;
@@ -149,7 +148,6 @@ $_person-distance: (
 		}
 	}
 }
-
 
 .c-person__biography {
 	font-family: $font-family-secondary;
