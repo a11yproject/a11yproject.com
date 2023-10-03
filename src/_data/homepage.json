@@ -1,12 +1,12 @@
 {
 	"featuredResources": [
 		{
-			"title": "Accessibility for Everyone",
-			"author": "Laura Kalbag",
-			"description": "Laura gives an excellent primer on why accessibility matters, provides context for laws and guidelines, and gives insight on how to integrate accessible design into your process.",
-			"image": "accessibility-for-everyone.jpg",
-			"alt": "Two stacked copies of the book, Accessibility for Everyone.",
-			"cta": "Learn more about Accessibility for Everyone"
+			"title": "Testing Accessibility",
+			"author": "Marcy Sutton",
+			"description": "A self-paced workshop designed to teach you the principles and effective patterns of accessibility, from design to deployment.",
+			"image": "testing-accessibility.png",
+			"alt": "A notebook with hand-written phrases of 'Testing Accessibility', 'P.O.U.R. Perceivable, Operable, Understandable, Robust', and Automated Testing. There are also badges showing illustrations of a trail sign, a ski lift, a wheelchair in front of a scenic vista, a ladybug, and a bird. There is also a sketch of a lighthouse.",
+			"cta": "Learn more about this workshop"
 		},
 		{
 			"title": "Introduction to Web Accessibility",
@@ -19,11 +19,11 @@
 	],
 	"spotlight": [
 		{
-			"name": "Segun Ola",
-			"role": "Frontend Web Developer",
-			"description": "Segun is a frontend web developer working with Andela Nigeria. They work with Andela partners to build highly interactive and accessible web applications.",
-			"image": "segun-ola.png",
-			"cta": "Meet Segun"
+			"name": "Frank Elavsky",
+			"role": "PhD student and researcher",
+			"description": "Frank is a researcher, designer, engineer, and standards contributor with an interest in the intersection of data work and accessibility.",
+			"image": "frank-elavsky.jpg",
+			"cta": "Meet Frank"
 		}
 	]
 }

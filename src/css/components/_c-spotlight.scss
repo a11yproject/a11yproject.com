@@ -1,10 +1,6 @@
-$_hero-photo-size: 14rem;
 
-.c-spotlight__hero {
-	background-size: cover;
-	border-radius: $_hero-photo-size;
-	height: $_hero-photo-size;
-	width: $_hero-photo-size;
+.c-spotlight__hero-avatar {
+	@include avatar-size("hero");
 
 	// Supports
 	@supports #{$supports-grid} {
@@ -23,7 +19,7 @@ $_hero-photo-size: 14rem;
 
 
 .c-spotlight__subheading {
-	color: $color-gray-shade;
+	@include var(color, text-accent);
 	display: block;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;

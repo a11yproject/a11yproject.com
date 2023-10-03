@@ -1,0 +1,70 @@
+---
+layout: layouts/home.njk
+title: Contact
+subtitle: Send us a message.
+colorScheme: yellow-pink
+tags:
+  - contact
+templateClass: template-simple
+---
+
+<div class="l-simple c-hero">
+	<div class="c-simple__hero">
+		<h1 id="page-not-found" class="c-heading-large">
+			{{ title }}
+		</h1>
+		<p>
+			{{ subtitle }} All fields are required.
+		</p>
+
+		<form
+			novalidate
+			class="c-form"
+			action="/thanks/"
+			name="contact"
+			method="POST"
+			data-netlify="true">
+			<div class="c-form__input-wrapper">
+				<label id="your-name__label" for="your-name" class="c-form__label">
+					Your name
+				</label>
+				<input
+					id="your-name"
+					class="c-form__input"
+					autocomplete="name"
+					autocorrect="off"
+					spellcheck="false"
+					type="text"
+					name="name"
+					required />
+			</div>
+			<div class="c-form__input-wrapper">
+				<label id="your-email__label" for="your-email" class="c-form__label">
+					Your email address
+				</label>
+				<input
+					id="your-email"
+					class="c-form__input"
+					autocomplete="email"
+					autocapitalize="off"
+					autocorrect="off"
+					spellcheck="false"
+					type="email"
+					name="email"
+					required />
+				<p class="u-font-size-body-small c-form__instructions">
+					We value your privacy and will not share this information with third parties.
+				</p>
+			</div>
+			<div class="c-form__input-wrapper">
+				<label id="your-message__label" for="your-message" class="c-form__label">
+					Your message
+				</label>
+				<textarea id="your-message" class="c-form__input c-form__input--multiline" name="message" required></textarea>
+			</div>
+			<button
+			onclick="handleFormSubmit(event)" class="c-form__button" type="submit">Send</button>
+		</form>
+
+	</div>
+</div>

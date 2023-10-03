@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 templateClass: template-post
+colorScheme: green
 ---
 
 <div class="l-post">
@@ -32,19 +33,49 @@ templateClass: template-post
 	</header>
 
 	<div data-content id="short-answer" class="l-post__body">
-		{% include "nav/toc.njk" %}
 
-		<div class="l-post__content c-content c-content--post">
+		{% set tocMarkup = content | toc | safe %}
+		{% set hasToc = tocMarkup.length > 0 %}
+		{% if hasToc %}
+			{% include "nav/toc.njk" %}
+		{% endif %}
 
-			{{ content | safe }}
+		<div class="l-post__content">
+			<div  data-content class="c-content c-content--post">
+				{{ content | safe }}
 
-			{% if updated_by %}
-				<p class="c-last-updated__body">This post was last updated on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
-			{% endif %}
+				<p class="c-last-updated__body">
+					{% if updated_by %}
+						This post was last updated {% if last_updated %} on <time datetime="{{ last_updated | htmlDateString }}">{{ last_updated | dateReadable }}</time> {% endif %} by <a href="/authors/#{{ updated_by | slugify | url }}">{{ updated_by }}</a>.
+					{% endif %}
+					{% if thanks %}
+						{{ thanks | safe }}
+					{% endif %}
+				</p>
 
-			{% if further_reading %}
-				{% include "further-reading.njk" %}
-			{% endif %}
+				{% if further_reading %}
+					{% include "further-reading.njk" %}
+				{% endif %}
+			</div>
+
+			{%- if collection -%}
+				{%- set collectionObject = collections.postCollections[collection.slug] -%}
+				<div class="c-post-collection">
+					<h2 class="u-font-size-body-small u-text-transform-uppercase c-post-collection__title">Collection: {{ collectionObject.collection.data.title }}</h2>
+					<ol class="c-post-collection__list">
+						{%- for post in collectionObject.posts -%}
+							{%- set currentPost = false -%}
+							{%- if post.data.title == title -%}
+								{%- set currentPost = true -%}
+							{%- endif -%}
+							<li class="c-post-collection__item">
+								<a class="c-post-collection__link" href="{{ post.url }}" {% if currentPost %}aria-current="page"{% endif %}>{{ post.data.title }}</a>
+							</li>
+						{%- endfor -%}
+					</ol>
+				</div>
+			{%- endif -%}
+
 		<div>
 	</div>
 

@@ -11,4 +11,34 @@
 			text-decoration: none;
 		}
 	}
+
+	.footnote-ref {
+		vertical-align: super;
+	}
+
+	.footnotes-sep {
+		display: none;
+	}
+
+	.footnotes {
+		--filename: url("#{$path-to-img}/posts/section-footnotes-lightmode.svg");
+		--filename-dark: url("#{$path-to-img}/posts/section-footnotes-darkmode.svg");
+		@include post-content-flourish(62, 1.75rem);
+
+		margin-top: 8ex;
+	}
+
+	.footnotes-list {
+		margin-top: 1rem;
+	}
+
+	.footnote-item {
+		p {
+			margin-top: 0;
+		}
+	}
+
+	.footnote-backref {
+		display: none;
+	}
 }

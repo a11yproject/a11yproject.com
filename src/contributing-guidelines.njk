@@ -11,8 +11,6 @@ tags:
 templateClass: template-generic
 ---
 
-{% include "nav/toc.njk" %}
-
 <div data-content class="l-content c-content c-content--generic">
 
 	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
@@ -29,11 +27,162 @@ templateClass: template-generic
 		About this site
 	</h2>
 	<p>
-		Following is information about how the site operates. Instructions on how to get the site running locally on your computer can be found in the <a href="https://github.com/a11yproject/a11yproject.com/blob/main/README.md"><code>README</code></a>.
+		Following are guidelines for submitting content for our site. Instructions on how to get the site running locally on your computer can be found in the <a href="https://github.com/a11yproject/a11yproject.com/blob/main/README.md"><code>README</code></a>.
 	</p>
-	<h3 id="git-and-github" class="c-heading-medium">
-		Git and GitHub
+	<h2 id="submitting-content" class="c-heading-large">
+		Submitting content
+	</h2>
+	<p>
+		In the spirit of Open Source, The A11Y Project tries to only promote content that is free, or has a low barrier to entry.
+	</p>
+	<h3 id="content-style-guide" class="c-heading-medium">
+		Content style guide
 	</h3>
+	<p>
+		The A11Y Project has a <a href="{{ '/content-style-guide/' | url }}">Content Style Guide</a> to help our content have a consistent voice and tone. Please familiarize yourself with it before writing content for us.
+	</p>
+	<h3 id="posts" class="c-heading-medium">
+		Posts
+	</h3>
+	<h4 id="pitching" class="c-heading-small">
+		Pitching
+	</h4>
+	<p>
+		Have an idea for a post? Great! We&#39;d love to know what you want to contribute!
+	</p>
+	<ol>
+		<li><a href="https://github.com/a11yproject/a11yproject.com/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc">Search our open GitHub Issues</a> to make sure someone hasn&#39;t claimed the post already.</li>
+		<li>Claim a post by starting a new Issue with &quot;Post: Your title&quot; as the Issue title. This will help us keep track of who is working on what. The final, published title can be different from the Issue name.</li>
+	</ol>
+	<p>
+		We also have a <a href="https://github.com/a11yproject/a11yproject.com/issues/12">list of posts</a> we&#39;d love to see written!
+	</p>
+	<h4 id="writing" class="c-heading-small">
+		Writing
+	</h4>
+	<p>
+		Posts are written using <a href="#markdown">Markdown</a>, using a special formatting technique called <a href="https://www.11ty.dev/docs/data-frontmatter/">front matter</a>. Eleventy uses front matter information to create things like author attribution, categories, and page layout.
+	</p>
+	<p>
+		To get started writing a post, <a href="#important-branches">create a feature branch</a> and create a new Markdown file in the <a href="https://github.com/a11yproject/a11yproject.com/tree/main/src/posts"><code>posts</code> directory</a>. The Markdown&#39;s file name should reflect the intended publishing date and the title of the post. For example, a post about accessible typography may have a filename along the lines of <code>accessible-typography.md</code>.
+	</p>
+	<p>
+		Copying <a href="https://github.com/a11yproject/a11yproject.com/tree/main/src/posts">an existing post</a>, then updating its filename and front matter to match your post can be an easy way to help ensure everything is formatted properly.
+	</p>
+	<p>
+		If you would like to write an post but do not feel comfortable working in Markdown or with GitHub, please <a href="{{ '/contact/' | url }}">contact us</a> and we can work something out.
+	</p>
+	<h4 id="submitting" class="c-heading-small">
+		Submitting
+	</h4>
+	<p>
+		Once you are satisfied with your post&#39;s content, <a href="#submitting-pull-requests">submit a Pull Request</a> so it can be reviewed. Reviews will be conducted using <a href="https://github.com/features/code-review/">GitHub&#39;s review tools</a>. Project maintainers may request additional updates for clarification or technical accuracy.
+	</p>
+	<p>
+		Be sure to also add yourself to <a href="https://github.com/a11yproject/a11yproject.com/blob/main/src/_data/authors.json"><code>authors.json</code></a> so you can get credit for your work!
+	</p>
+	<p>
+		Once both the project maintainers and author are satisfied with the post, it will be merged by a project maintainer and published automatically. We will also notify you that publication has occurred.
+	</p>
+	<h4 id="compensation" class="c-heading-small">
+		Compensation
+	</h4>
+	<p>
+		Each published post will receive $75 USD. We will also:
+	</p>
+	<ul>
+		<li>Add you to <a href="{{ '/authors/' | url }}">our authors page</a>.
+		<li>Promote the post on our <a href="https://twitter.com/A11YProject">Twitter</a> and <a href="https://www.linkedin.com/company/the-a11y-project/">LinkedIn</a> social media accounts.
+		{# <li>Feature you in <a href="{{ '/newsletter/' | url }}">our weekly newsletter</a>.</li> #}
+	</ul>
+	<p>
+		Payment is coordinated via email, using PayPal, Venmo, or Square Cash. We no longer support bank transfers due to attempts at scamming.
+	</p>
+	<h4 id="translation" class="c-heading-small">
+		Translation
+	</h4>
+	<p>
+		The A11Y Project does not currently support translations of our content, either on or offsite.
+	</p>
+	<p>
+		Creating, updating, and maintaining accurate translations require a level of investment and resources we cannot currently provide. This would endanger the quality of our content and potentially risk creating access barriers.
+	</p>
+	<p>
+		If you are prepared to make a long-term commitment to supporting translated content on our site, please <a href="{{ '/contact/' | url }}">contact us</a>.
+	</p>
+	<h3 id="resources" class="c-heading-medium">
+		Resources
+	</h3>
+	<p>
+		Did you create or find a great accessibility-related resource that you think other people would find useful? Add it to the <a href="https://github.com/a11yproject/a11yproject.com/blob/main/src/_data/resources.json">Resources</a> file under the appropriate category, or <a href="{{ '/contact/' | url }}">contact us</a>.
+	</p>
+	<p>
+		Please be sure to include the resource&#39;s title, description, and a URL where it can be accessed.
+	</p>
+	<h3 id="social-media-posts" class="c-heading-medium">
+		Social media posts
+	</h3>
+	<p>
+		We share links about accessibility, inclusivity, design, and development on <a href="https://twitter.com/A11YProject">Twitter</a> and <a href="https://www.linkedin.com/company/the-a11y-project/">LinkedIn</a>. If you would like to submit a link for sharing, please <a href="{{ '/contact/' | url }}">contact us</a> and include the link in your message.
+	</p>
+
+
+
+	<hr class="c-divider" />
+
+	<h2 id="evaluation" class="c-heading-medium">
+		Evaluation
+	</h2>
+	<h3 id="process" class="c-heading-medium">
+		Process
+	</h3>
+	<p>When you submit content to us, one or more of <a href="https://www.a11yproject.com/team/">The A11Y Project maintainers</a> will review it and provide feedback, if it is necessary. These reviews happen on GitHub or in email.</p>
+	<p>
+		When we evaluate suggested content, we consider the following things:</p>
+	<ul>
+		<li>The quality of the content itself,</li>
+		<li>The accessibility of the site that hosts the content,</li>
+		<li>The content creator&rsquo;s standing within the broader web-accessibility community,</li>
+		<li>The content creator&rsquo;s mission</li>
+	</ul>
+	<p>A maintainer may reach out to someone submitting content to request clarification or further information.</p>
+	<h3 id="rejection" class="c-heading-medium">
+		Rejection
+	</h3>
+	<p>
+		Project maintainers may elect to not accept your submission if they feel it is not in line with the site&#39;s goals. This will be handled on a case-by-case basis.
+	</p>
+	<h4 id="unacceptable-content" class="c-heading-medium">
+		Unacceptable content
+	</h4>
+	<p>
+		The following content is not allowed on the website:
+	</p>
+	<ul>
+		<li>Press releases,</li>
+		<li>Content hosted on sites that violate our <a href="{{ '/code-of-conduct/' | url }}">Code of Conduct</a>,</li>
+		<li>Content hosted on <a href="https://medium.com/">Medium</a>,</li>
+		<li>Content that uses <a href="https://www.a11yproject.com/posts/should-i-use-an-accessibility-overlay/">a permanent accessibility overlay plugin</a>, and</li>
+		<li>URLs with UTM codes or other <a href="{{ '/privacy-and-security/' | url }}">tracking mechanisms</a>.</li>
+	</ul>
+	<h4 id="promotions-partnership-deals-and-seo-scams" class="c-heading-medium">
+		Promotions, partnership deals, and SEO scams
+	</h4>
+	<p>
+		We are not interested in quid pro quo schemes to boost your site&#39;s SEO ranking. We are also not interested in backlink, partnership, and affiliate linking programs.
+	</p>
+	<h4 id="plagiarism" class="c-heading-medium">
+		Plagiarism
+	</h4>
+	<p>
+		The A11Y Project does not condone <a href="https://en.wikipedia.org/wiki/Plagiarism">plagiarism</a>. We check submitted content for stolen phrasing and assets when submitted. People found plagiarizing content will be asked to stop contributing to the website.
+	</p>
+
+	<hr class="c-divider" />
+
+	<h2 id="git-and-github" class="c-heading-medium">
+		Git and GitHub
+	</h2>
 	<p>
 		The A11Y Project is an <a href="https://en.wikipedia.org/wiki/Open-source_software">Open Source</a> project. It uses <a href="https://git-scm.com/">Git</a> and <a href="https://github.com/">GitHub</a> to handle publishing new content and features, as well as coordinating maintenance.
 	</p>
@@ -130,117 +279,6 @@ templateClass: template-generic
 
 	<hr class="c-divider" />
 
-	<h2 id="submitting-content" class="c-heading-large">
-		Submitting content
-	</h2>
-	<p>
-		In the spirit of Open Source, The A11Y Project tries to only promote content that is free, or has a low barrier to entry. We&#39;re not too keen on partnership deals or promotions.
-	</p>
-	<h3 id="content-style-guide" class="c-heading-medium">
-		Content style guide
-	</h3>
-	<p>
-		The A11Y Project has a <a href="{{ '/content-style-guide/' | url }}">Content Style Guide</a> to help our content have a consistent voice and tone. Please take a moment to familiarize yourself with it.
-	</p>
-	<h3 id="posts" class="c-heading-medium">
-		Posts
-	</h3>
-	<h4 id="pitching" class="c-heading-small">
-		Pitching
-	</h4>
-	<p>
-		Have an idea for a post? Great! We&#39;d love to know what you want to contribute!
-	</p>
-	<ol>
-		<li>Search to make sure someone hasn&#39;t claimed the post already.</li>
-		<li>Claim a post by starting a new Issue with &quot;Post: Your title&quot; as the Issue title. This will help us keep track of who is working on what. The final, published title can be different from the Issue name.</li>
-	</ol>
-	<p>
-		We also have a <a href="https://github.com/a11yproject/a11yproject.com/issues/12">list of posts</a> we&#39;d love to see written!
-	</p>
-	<h4 id="writing" class="c-heading-small">
-		Writing
-	</h4>
-	<p>
-		Posts are written using <a href="#markdown">Markdown</a>, using a special formatting technique called <a href="https://www.11ty.dev/docs/data-frontmatter/">front matter</a>. Eleventy uses front matter information to create things like author attribution, categories, and page layout.
-	</p>
-	<p>
-		To get started writing a post, <a href="#important-branches">create a feature branch</a> and create a new Markdown file in the <a href="https://github.com/a11yproject/a11yproject.com/tree/main/src/posts"><code>posts</code> directory</a>. The Markdown&#39;s file name should reflect the intended publishing date and the title of the post. For example, a post about accessible typography may have a filename along the lines of <code>2018-09-12-accessible-typography.md</code>.
-	</p>
-	<p>
-		Copying <a href="https://github.com/a11yproject/a11yproject.com/tree/main/src/posts">an existing post</a>, then updating its filename and front matter to match your post can be an easy way to help ensure everything is formatted properly.
-	</p>
-	<p>
-		If you would like to write an post but do not feel comfortable working in Markdown or with GitHub, please <a href="{{ '/contact/' | url }}">contact us</a> and we can work something out.
-	</p>
-	<h4 id="submitting" class="c-heading-small">
-		Submitting
-	</h4>
-	<p>
-		Once you are satisfied with your post&#39;s content, <a href="#submitting-pull-requests">submit a Pull Request</a> so it can be reviewed. Reviews will be conducted using <a href="https://github.com/features/code-review/">GitHub&#39;s review tools</a>. Project maintainers may request additional updates for clarification or technical accuracy.
-	</p>
-	<p>
-		Be sure to also add yourself to <a href="https://github.com/a11yproject/a11yproject.com/blob/main/src/_data/authors.json"><code>authors.json</code></a> so you can get credit for your work!
-	</p>
-	<p>
-		Once both the project maintainers and author are satisfied with the post, it will be merged by a project maintainer and published automatically. We will also notify you that publication has occured.
-	</p>
-	<h4 id="compensation" class="c-heading-small">
-		Compensation
-	</h4>
-	<p>
-		Each published post will receive $75 USD. We will also:
-	</p>
-	<ul>
-		<li>Add you to <a href="{{ '/authors/' | url }}">our authors page</a>.
-		<li>Promote the post on our <a href="https://twitter.com/A11YProject">Twitter</a> and <a href="https://www.linkedin.com/company/the-a11y-project/">LinkedIn</a> social media accounts.
-		<li>Feature you in <a href="{{ '/newsletter/' | url }}">our weekly newsletter</a>.</li>
-	</ul>
-	<h3 id="resources" class="c-heading-medium">
-		Resources
-	</h3>
-	<p>
-		Did you create or find a great accessibility-related resource that you think other people would find useful? Add it to the <a href="https://github.com/a11yproject/a11yproject.com/blob/main/src/_data/resources.json">Resources</a> file under the appropriate category.
-	</p>
-	<p>
-		Please be sure to include the resource&#39;s title, description, and a URL where it can be accessed.
-	</p>
-	<p>
-		Acceptance of resource content suggestions are weighed on the quality of the actual content, the accessibility of the site it is hosted on, the organization&#39;s status in the industry, and the organization&#39;s mission.
-	</p>
-	<h3 id="events" class="c-heading-medium">
-		Events
-	</h3>
-	<p>
-		The A11Y Project used to list webinars, regional events, and meetups. We no longer support this feature. If you are interested in finding an accessibility-related group near you, please check our <a href="{{ '/resources/#meetups' | url }}">Meetups section in Resources</a>.
-	</p>
-	<h3 id="patterns" class="c-heading-medium">
-		Patterns
-	</h3>
-	<p>
-		The A11Y Project used to list code patterns. We no longer support this feature. If you are interested in learning about accessible implimentations of common User Interface elements, please consult the <a href="https://www.w3.org/TR/wai-aria-practices-1.1/">WAI-ARIA Authoring Practices</a>.
-	</p>
-	<h3 id="promotions-partnership-deals-and-seo-scams" class="c-heading-medium">
-		Promotions, partnership deals, and SEO scams
-	</h3>
-	<p>
-		We are not interested in quid pro quo schemes to boost your site&#39;s SEO ranking. We are also not interested in backlink, partnership, and affiliate linking programs.
-	</p>
-	<h3 id="plagiarism" class="c-heading-medium">
-		Plagiarism
-	</h3>
-	<p>
-		The A11Y Project does not condone <a href="https://en.wikipedia.org/wiki/Plagiarism">plagiarism</a>. We check submitted content for stolen phrasing and assets when submitted. People found plagiarizing content will be asked to stop contributing to the website.
-	</p>
-	<h3 id="rejection" class="c-heading-medium">
-		Rejection
-	</h3>
-	<p>
-		Project maintainers may elect to not accept your submission if they feel it is not in line with the site&#39;s goals. This will be handled on a case-by-case basis.
-	</p>
-
-	<hr class="c-divider" />
-
 	<h2 id="submitting-new-features" class="c-heading-large">
 		Submitting new features
 	</h2>
@@ -263,7 +301,7 @@ templateClass: template-generic
 		Have you noticed something inaccurate or inaccessible? You can help make it better!
 	</p>
 	<ol>
-		<li>File an <a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=a11yproject-com-bug-report.md">Issue</a>.</li>
+		<li>File an <a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=bug-report.md">Issue</a>.</li>
 		<li>Preface your Issue title as an:
 		<ul>
 			<li><strong>Inaccuracy</strong> for incorrect or inaccurate information (e.g. &quot;Inaccuracy: Visually hidden CSS missing property declaration&quot;).</li>
@@ -302,7 +340,7 @@ templateClass: template-generic
 	<ol>
 		<li>The last comment was made over three months ago.</li>
 		<li>There has been no activity since.</li>
-		<li>Someone has attempted to address the Issue, no with no followup participation from the author.</li>
+		<li>Someone has attempted to address the Issue, with no followup participation from the author.</li>
 	</ol>
 	<h4 id="stale-pull-requests" class="c-heading-small">
 		Stale Pull Requests
@@ -329,6 +367,35 @@ templateClass: template-generic
 	</p>
 	<pre><code>updated_by: editor_name
 last_updated: yyyy-mm-dd</code></pre>
+
+	<hr class="c-divider" />
+
+	<h2 id="content-we-no-longer-support" class="c-heading-large">
+		Content we no longer support
+	</h2>
+	<p>Following is content we&rsquo;ve removed from the website and no longer support:</p>
+	<h3 id="events" class="c-heading-medium">
+		Events
+	</h3>
+	<p>
+		The A11Y Project used to list webinars, regional events, and meetups. We no longer support this feature. If you are interested in finding an accessibility-related group near you, please check our <a href="{{ '/resources/#meetups' | url }}">Meetups section in Resources</a>.
+	</p>
+	<h3 id="patterns" class="c-heading-medium">
+		Patterns
+	</h3>
+	<p>
+		The A11Y Project used to list code patterns. We no longer support this feature. If you are interested in learning about accessible implementations of common User Interface elements, please consult the <a href="https://www.w3.org/TR/wai-aria-practices-1.1/">WAI-ARIA Authoring Practices</a>.
+	</p>
+	<h3 id="who-to-follow" class="c-heading-medium">
+		Who to follow
+	</h3>
+	<p>
+		The A11Y Project used to list people to follow in the digital accessibility space. We no longer support this feature. <a href="https://brunopulis.com/">Bruno Pulis</a> maintains a list of notable <a href="https://github.com/brunopulis/awesome-a11y/blob/master/topics/people.md">people</a>, <a href="https://github.com/brunopulis/awesome-a11y/blob/master/topics/companies-and-organizations.md">companies and organizations</a>, and <a href="https://github.com/brunopulis/awesome-a11y/blob/master/topics/meetups.md">meetups</a> that contribute to digital accessibility and open standards.
+	</p>
+
+
+	<hr class="c-divider" />
+
 	<h2 id="license" class="c-heading-large">
 		License
 	</h2>

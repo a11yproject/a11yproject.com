@@ -1,4 +1,5 @@
 {
+  "$schema": "https://aka.ms/codetour-schema",
   "title": "Code Tour",
   "steps": [
     {
@@ -22,13 +23,13 @@
     },
     {
       "file": "package.json",
-      "line": 41,
-      "description": "These are the dependencies that the project requires to work. Run `npm install` in your command line application before doing anything else. \n\nThere will be a new folder created called `node_modules/` after the install task completes. This is where all the dependencies are stores."
+      "description": "These are the dependencies that the project requires to work. Run `npm install` in your command line application before doing anything else. \n\nThere will be a new folder created called `node_modules/` after the install task completes. This is where all the dependencies are stores.",
+      "line": 59
     },
     {
       "file": "package.json",
       "line": 17,
-      "description": "These are the scripts you can run in your command line application. `npm start` will use Eleventy to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
+      "description": "These are the scripts you can runn in your command line application. `npm start` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
     },
     {
       "file": "package.json",
@@ -55,7 +56,7 @@
     },
     {
       "directory": "src/_includes",
-      "description": "This folder contains snippets of code that Eleventy can add to the file it is referenced in. This helps keeps files easier to work thorugh, as well as letting you pass JSON data through them to keep repetition down."
+      "description": "This folder contains snippets of code that Eleventy can add to the file it is referenced in. This helps keeps files easier to work through, as well as letting you pass JSON data through them to keep repetition down."
     },
     {
       "directory": "src/_includes/layouts",

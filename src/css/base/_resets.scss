@@ -32,7 +32,6 @@ input[type="button"] {
 	border: 0;
 
 	// Vendor
-	&::-moz-focus-inner,
 	&::-moz-focus-inner {
 		border: 0;
 		padding: 0;
@@ -131,7 +130,8 @@ textarea {
 
 mark {
 	padding: em(2);
-	background-color: $color-yellow;
+	@include var(background-color, mark-background);
+	@include var(color, mark-text);
 }
 
 

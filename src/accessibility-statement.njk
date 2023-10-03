@@ -11,8 +11,6 @@ tags:
 templateClass: template-generic
 ---
 
-{% include "nav/toc.njk" %}
-
 <div data-content class="l-content c-content c-content--generic">
 
 	<h1 id="title" class="c-heading-largest c-heading-largest--generic">
@@ -45,7 +43,7 @@ templateClass: template-generic
 		<li>Working with daily assistive technology users to help verify our content works as intended.</li>
 		<li><a href="https://twitter.com/A11YProject">Promoting and attributing resources and knowledge</a> about digital accessibility.</li>
 		<li>Providing a free <a href="{{ '/checklist/' | url }}">checklist</a> to help others audit their content for accessibility issues.</li>
-		<li>Using <a href="{{ '/content-style-guide/' | url }}">clear, person-first, non-abelist language</a> for our messaging.</li>
+		<li>Using <a href="{{ '/content-style-guide/' | url }}">clear, person-first, non-ableist language</a> for our messaging.</li>
 		<li>Hosting our code on <a href="https://github.com/a11yproject/a11yproject.com/">a public repository</a>, allowing anyone with the interest and capability to inspect and modify it.</li>
 		<li>Striving to keep our interactions and user interface unambiguous and easy to understand.</li>
 		<li>Striving to keep our download size small and memory footprint light.</li>
@@ -64,12 +62,12 @@ templateClass: template-generic
 	<ul>
 		<li>Distinct, descriptive page titles.</li>
 		<li>Ordered headings to construct a logical document flow.</li>
-		<li><a href="{{ '/posts/2013-01-14-aria-landmark-roles/' | url }}">Landmark areas</a> to describe overall sections of the page.</li>
+		<li><a href="{{ '/posts/aria-landmark-roles/' | url }}">Landmark areas</a> to describe overall sections of the page.</li>
 		<li>Unique, descriptive names for links, buttons, and other interactive controls.
-		<li><a href="{{ '/posts/2013-05-11-skip-nav-links/' | url }}">Skiplinks</a> have been placed to help people navigate past content that repeats from page to page.</li>
-		<li><a href="{{ '/posts/2013-01-14-alt-text/' | url }}">Alternative descriptions</a> for non-text content.</li>
+		<li><a href="{{ '/posts/skip-nav-links/' | url }}">Skiplinks</a> have been placed to help people navigate past content that repeats from page to page.</li>
+		<li><a href="{{ '/posts/alt-text/' | url }}">Alternative descriptions</a> for non-text content.</li>
 		<li>Titles for content embedded via <code>iframe</code> elements.</li>
-		<li>Removing repetive, redundant links to the same destination from the Accessibility Tree.</li>
+		<li>Removing repetitive, redundant links to the same destination from the Accessibility Tree.</li>
 		<li>Small amounts of ARIA to help address gaps in assistive technology support.</li>
 	</ul>
 	<h3 id="technical-specifications" class="c-heading-medium">
@@ -104,7 +102,7 @@ templateClass: template-generic
 	</p>
 	<ul>
 		<li><a href="{{ '/contact/' | url }}">Sending us a message</a>.</li>
-		<li><a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=a11yproject-com-bug-report.md">Submitting an Issue on GitHub</a>.</li>
+		<li><a href="https://github.com/a11yproject/a11yproject.com/issues/new?template=bug-report.md">Submitting an Issue on GitHub</a>.</li>
 		<li><a href="https://forms.gle/Lf8r58vJRVWsGsoP9">Filling out an anonymous form</a>.</li>
 	</ul>
 	<h2 id="how-you-can-help" class="c-heading-large">

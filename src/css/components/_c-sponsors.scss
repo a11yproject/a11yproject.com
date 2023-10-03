@@ -1,30 +1,12 @@
 .c-sponsors {
-	background-color: $color-green-tint;
-
-	// Contexts
-	.template-posts & {
-		background-color: $color-pink-tint;
-	}
-
-	.template-about &,
-	.template-authors &,
-	.template-team & {
-		background-color: $color-blue-tint;
-	}
-
-	.template-contribute & {
-		background-color: $color-yellow-tint;
-	}
-
-	.template-generic & {
-		background-color: $color-gray-tint;
-	}
+	@include var(background-color, sponsors-background);
 }
 
 
 .c-sponsor__link {
 	width: $global-sponsor-width;
 	margin-bottom: 1rem;
+	@include var(color, body-text);
 
 	&:last-of-type {
 		margin-bottom: 0;
@@ -32,7 +14,7 @@
 
 	// States
 	&:focus {
-		outline: $border-thin solid $color-black;
+		outline: $border-thin solid currentColor;
 	}
 
 	// Supports
@@ -42,4 +24,9 @@
 			margin-bottom: 0;
 		}
 	}
+}
+
+
+.c-sponsor__ad {
+	filter: var(--image-filter);
 }

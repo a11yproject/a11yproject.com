@@ -38,7 +38,7 @@ These module bundlers are complicated to set up and maintain and not a good fit 
 
 ### CSS Custom Properties
 
-We use Sass to control CSS-related variables to to maximize compatibility with older and non-standard browsers.
+We use Sass to control CSS-related variables to maximize compatibility with older and non-standard browsers.
 
 ### CSS-in-JS
 

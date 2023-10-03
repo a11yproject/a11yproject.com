@@ -3,18 +3,6 @@ $_person-distance: (
 	large: 14rem
 );
 
-$_person-photo: (
-	tiny: 4rem,
-	small: 6rem,
-	medium: 8rem,
-	large: 12rem
-);
-
-@mixin _person-photo-size($size: tiny) {
-	height: map-get($_person-photo, $size);
-	width: map-get($_person-photo, $size);
-}
-
 .c-person {
 	margin-top: 2rem;
 
@@ -27,33 +15,28 @@ $_person-photo: (
 // submitted avatars. This centers whatever is added, which hopefully creates a
 // good cropping effect.
 .c-person__photo {
-	@include _person-photo-size(tiny);
+	@include avatar-size("tiny");
 
-	background-position: center;
-	background-size: contain;
-	border-radius: 100%;
-	cursor: pointer;
-	display: inline-block;
 	margin-top: -2.75rem;
 	position: absolute;
-		right: calc(50% - #{map-get($_person-photo, tiny) / 2});
+	right: calc(50% - #{map-get($avatar_dimensions, "tiny") * 0.5});
 
 	// Breakpoints
 	@include mappy-bp(wrist-large) {
-		@include _person-photo-size(small);
+		@include avatar-size("small");
 
 		right: 2rem;
 	}
 
 	@include mappy-bp(palm-small) {
-		@include _person-photo-size(medium);
+		@include avatar-size("medium");
 
 		margin-top: -3.5rem;
 		right: 3rem;
 	}
 
 	@include mappy-bp(palm-medium) {
-		@include _person-photo-size(medium);
+		@include avatar-size("medium");
 
 		left: 1rem;
 		margin-top: -2rem;
@@ -64,7 +47,7 @@ $_person-photo: (
 	}
 
 	@include mappy-bp(lap-small) {
-		@include _person-photo-size(medium);
+		@include avatar-size("medium");
 
 		left: initial;
 		margin-left: 1rem;
@@ -72,7 +55,7 @@ $_person-photo: (
 	}
 
 	@include mappy-bp(lap-medium) {
-		@include _person-photo-size(large);
+		@include avatar-size("large");
 
 		margin-top: -3rem;
 		margin-left: -1rem;
@@ -90,17 +73,14 @@ $_person-photo: (
 
 
 .c-person__info {
-	border: $border-thinnest solid $color-black;
+	border: $border-thinnest solid;
+	@include var(border-color, card-outline);
+	@include var(background-color, card-background);
 	margin-top: 4rem;
 	min-height: 10rem;
 	padding: 1.5rem;
 	max-width: $global-type-measure;
 	transition: $animation-duration-shorter $animation-easing-character background-color;
-
-	// States
-	&:hover {
-		background-color: $color-white;
-	}
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -128,10 +108,8 @@ $_person-photo: (
 
 
 .c-person__link {
-	@include link-states($color-blue-shade);
-
+	@include link-states(card-heading-text);
 	font-family: $font-family-secondary;
-	letter-spacing: $font-tracking-slight;
 	/* stylelint-disable-next-line property-no-unknown */
 	text-decoration-thickness: $border-thinnest;
 	text-underline-offset: 0.3em;
@@ -140,6 +118,18 @@ $_person-photo: (
 	&:hover {
 		text-decoration: none;
 	}
+
+	&--primary {
+		letter-spacing: $font-tracking-slight;
+	}
+}
+
+
+.c-person__spotlight-link {
+	@include link-states(card-heading-text);
+
+	display: inline-block;
+	margin-top: 1rem;
 }
 
 

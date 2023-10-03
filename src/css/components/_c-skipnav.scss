@@ -37,11 +37,12 @@
 		position: absolute;
 			top: 6rem;
 			left: map-get($global-bleed, large);
+		z-index: 10;
 
-			&:hover {
-				background-color: $color-black;
-				color: $color-white;
-			}
+		&:hover {
+			background-color: $color-black;
+			color: $color-white;
+		}
 	}
 
 	// User Queries

@@ -1,0 +1,59 @@
+.c-card-resource {
+	position: relative;
+	outline: 0.125rem solid transparent;
+	z-index: 0;
+}
+
+.c-card-resource__body {
+	@include var(background-color, card-background);
+	margin-right: 1.25rem;
+	margin-left: 1.5rem;
+	padding: 1.5rem 2rem;
+	transition:
+		$animation-duration-shorter $animation-easing-character background-color,
+		$animation-duration-shorter $animation-easing-character border-color,
+		$animation-duration-shorter $animation-easing-character color;
+
+	// States
+	&:focus-within {
+		@include var(background-color, card-focus-background);
+
+		.c-card-resource__description,
+		.c-card-resource__meta,
+		.c-card-resource__title {
+			@include var(color, card-focus-text);
+		}
+	}
+
+	// User Queries
+	@media screen and (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
+}
+
+
+.c-card-resource__title {
+	@include var(color, card-heading-text);
+	letter-spacing: $font-tracking-tight;
+
+	// States
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+
+	&:focus {
+		outline: $border-thin solid transparent;
+	}
+}
+
+
+.c-card-resource__meta {
+	@include var(color, card-meta-text);
+	line-height: $line-height-tight;
+}
+
+
+.c-card-resource__description {
+	max-width: $global-type-measure;
+}

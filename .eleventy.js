@@ -2,59 +2,123 @@ const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const moment = require('moment');
+const eleventyPluginTOC = require("eleventy-plugin-nesting-toc");
+const moment = require("moment");
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(pluginSyntaxHighlight);
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.setDataDeepMerge(true);
+	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(pluginSyntaxHighlight);
+	eleventyConfig.addPlugin(eleventyNavigationPlugin);
+	eleventyConfig.addPlugin(eleventyPluginTOC, {
+		wrapper: "div",
+		tags: ["h2", "h3"],
+		wrapperClass: "l-toc",
+	});
 
-  eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+	eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLL yyyy");
-  });
+	// https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
+		return dateObj.toISOString();
+	});
 
-  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
-  });
+	/**
+	 * Returns a human-readable date
+		E.g. May 31, 2019
+	 */
 
-  eleventyConfig.addFilter('dateReadable', date => {
-    return moment(date).format('LL'); // E.g. May 31, 2019
-  });
+	eleventyConfig.addFilter("dateReadable", (value) => {
+		const date = new Date(value);
+		const utcDate = new Date(
+			date.getUTCFullYear(),
+			date.getUTCMonth(),
+			date.getUTCDate()
+		);
+		const formatOpts = {
+			timezone: "UTC",
+			day: "numeric",
+			month: "long",
+			year: "numeric",
+		};
+		return new Intl.DateTimeFormat("en-US", formatOpts).format(utcDate);
+	});
 
-  // Get the first `n` elements of a collection.
-  eleventyConfig.addFilter("head", (array, n) => {
-    if (n < 0) {
-      return array.slice(n);
-    }
+	// Get the first `n` elements of a collection.
+	eleventyConfig.addFilter("head", (array, n) => {
+		if (n < 0) {
+			return array.slice(n);
+		}
 
-    return array.slice(0, n);
-  });
+		return array.slice(0, n);
+	});
 
-  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd');
-  });
+	eleventyConfig.addFilter("getPostsByAuthor", (posts, author) => {
+		return posts.filter((a) => {
+			return a.data.author === author;
+		});
+	});
 
-  // only content in the `posts/` directory
-  eleventyConfig.addCollection("posts", function (collection) {
-    return collection.getFilteredByGlob("./src/posts/*").sort(function (a, b) {
-      return a.date - b.date;
-    });
-  });
+	// only content in the `posts/` directory
+	eleventyConfig.addCollection("posts", function (collection) {
+		return collection
+			.getFilteredByGlob("./src/posts/*.md")
+			.sort(function (a, b) {
+				return a.date - b.date;
+			});
+	});
 
-  // Universal slug filter strips unsafe chars from URLs
-  eleventyConfig.addFilter("slugify", function (str) {
-    return slugify(str, {
-      lower: true,
-      replacement: "-",
-      remove: /[*+~.·,()'"`´%!?¿:@»]/g
-    });
+	eleventyConfig.addCollection("postCollections", function (collection) {
+		// Grab our collections
+		const rawPostCollections = collection
+			.getFilteredByGlob("./src/collections/*")
+			.sort(function (a, b) {
+				return a.data.title.localeCompare(b.data.title);
+			});
+
+		// Build up the content in the collection
+		const postCollections = {};
+
+		collection.getFilteredByGlob("./src/posts/*").forEach(function (item) {
+			if (item.data.collection) {
+				if (!postCollections[item.data.collection.slug]) {
+					postCollections[item.data.collection.slug] = {
+						posts: [],
+					};
+				}
+				postCollections[item.data.collection.slug].posts.push(item);
+			}
+		});
+
+		// Sort by the order
+		for (const [slug, postCollection] of Object.entries(postCollections)) {
+			postCollection.posts.sort(function (a, b) {
+				return a.data.collection.order - b.data.collection.order;
+			});
+
+			// Attach collection object
+			postCollections[slug].collection = rawPostCollections.find(
+				(coll) => coll.template.parsed.name === slug
+			);
+		}
+
+		/* Return post collections in the following data format
+		[slug]: {
+			collection: Collection Object
+			posts: Array of Post Objects
+		}
+		*/
+		return postCollections;
+	});
+
+	// Universal slug filter strips unsafe chars from URLs
+	eleventyConfig.addFilter("slugify", function (str) {
+		return slugify(str.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, ""), {
+			lower: true,
+			replacement: "-",
+			remove: /[*+~.·,()'"`´%!?¿:@»]/g,
+		});
 	});
 
 	// Directories
@@ -81,58 +145,55 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("./src/robots.txt");
 	eleventyConfig.addPassthroughCopy("./src/sw.js");
 
-  eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
+	eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
-  /* Markdown Plugins */
-  let markdownIt = require("markdown-it");
-  let options = {
-    html: true,
-    breaks: true,
-    linkify: true
-  };
+	/* Markdown Plugins */
+	let markdownIt = require("markdown-it");
+	let markdownItAnchor = require("markdown-it-anchor");
+	let markdownItFootnote = require("markdown-it-footnote");
+	let options = {
+		html: true,
+		breaks: true,
+		linkify: true,
+	};
+	let markdownLib = markdownIt(options)
+		.use(markdownItFootnote)
+		.use(markdownItAnchor);
 
-  eleventyConfig.setLibrary("md", markdownIt(options));
+	eleventyConfig.setLibrary("md", markdownLib);
 
 	eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    if (
-      outputPath &&
-      outputPath.endsWith(".html")
-    ) {
-      let minified = htmlmin.minify(content, {
-        removeComments: true,
-        collapseWhitespace: true,
-      });
-      return minified;
-    }
+		if (outputPath && outputPath.endsWith(".html")) {
+			let minified = htmlmin.minify(content, {
+				removeComments: true,
+				collapseWhitespace: true,
+			});
+			return minified;
+		}
 
-    return content;
+		return content;
 	});
 
 	eleventyConfig.setUseGitIgnore(false);
 
-  return {
-    templateFormats: [
-      "md",
-      "njk",
-      "html",
-      "liquid"
-    ],
+	return {
+		templateFormats: ["md", "njk", "html", "liquid"],
 
-    // If your site lives in a different subdirectory, change this.
-    // Leading or trailing slashes are all normalized away, so don’t worry about it.
-    // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
-    // This is only used for URLs (it does not affect your file structure)
-    pathPrefix: "/",
+		// If your site lives in a different subdirectory, change this.
+		// Leading or trailing slashes are all normalized away, so don’t worry about it.
+		// If you don’t have a subdirectory, use "" or "/" (they do the same thing)
+		// This is only used for URLs (it does not affect your file structure)
+		pathPrefix: "/",
 
-    markdownTemplateEngine: "liquid",
-    htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
-    passthroughFileCopy: true,
-    dir: {
-      input: "./src",
-      includes: "_includes",
-      data: "_data",
-      output: "dist"
-    }
-  };
+		markdownTemplateEngine: "liquid",
+		htmlTemplateEngine: "njk",
+		dataTemplateEngine: "njk",
+		passthroughFileCopy: true,
+		dir: {
+			input: "./src",
+			includes: "_includes",
+			data: "_data",
+			output: "dist",
+		},
+	};
 };
