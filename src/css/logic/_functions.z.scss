@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // z
 //
 // Calls a z-index value from the z-index map. Used to create a terse,
@@ -7,5 +9,5 @@
 //
 // Styleguide Logic.Functions.z
 @function z($index) {
-	@return map-get($z-index, $index);
+	@return map.get($z-index, $index);
 }

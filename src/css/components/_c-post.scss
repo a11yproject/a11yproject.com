@@ -1,6 +1,7 @@
+@use "sass:map";
+
 $_c-post-breathing-room: 6ex;
 $_c-post-vertical-spacing: 4ex;
-
 
 // Post
 //
@@ -32,20 +33,20 @@ $_c-post-vertical-spacing: 4ex;
 
 	p {
 		border-bottom: $border-thinnest solid currentColor;
-		padding: 0.5rem 0 0.5rem map-get($global-post-content-inset, small);
+		padding: 0.5rem 0 0.5rem map.get($global-post-content-inset, small);
 		text-transform: uppercase;
 
 		// Breakpoints
 		@include mappy-bp(palm-medium) {
-			padding-left: map-get($global-post-content-inset, medium);
+			padding-left: map.get($global-post-content-inset, medium);
 		}
 
 		@include mappy-bp(lap-medium) {
-			padding-left: map-get($global-post-content-inset, medium);
+			padding-left: map.get($global-post-content-inset, medium);
 		}
 
 		@include mappy-bp(lap-large) {
-			padding-left: map-get($global-post-content-inset, large);
+			padding-left: map.get($global-post-content-inset, large);
 		}
 
 		// Supports
@@ -53,13 +54,12 @@ $_c-post-vertical-spacing: 4ex;
 			// Breakpoints
 			@include mappy-bp(lap-medium) {
 				padding-left: 0;
-				padding-right: map-get($global-post-content-inset, small);
+				padding-right: map.get($global-post-content-inset, small);
 				text-align: right;
 			}
 		}
 	}
 }
-
 
 .c-post__category__link {
 	@include link-states(rte-accent);
@@ -71,18 +71,18 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-post__title {
 	@include var(color, heading-text);
 	font-size: $font-size-heading-small;
 	line-height: $line-height-tight;
-	margin: 0.75rem map-get($global-post-content-inset, small) 2rem map-get($global-post-content-inset, small);
+	margin: 0.75rem map.get($global-post-content-inset, small) 2rem
+		map.get($global-post-content-inset, small);
 	padding-right: 1rem;
 
 	// Breakpoints
 	@include mappy-bp(palm-medium) {
-		margin-right: map-get($global-post-content-inset, small);
-		margin-left: map-get($global-post-content-inset, medium);
+		margin-right: map.get($global-post-content-inset, small);
+		margin-left: map.get($global-post-content-inset, medium);
 	}
 
 	@include mappy-bp(lap-small) {
@@ -94,27 +94,26 @@ $_c-post-vertical-spacing: 4ex;
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin: 1rem 0 2rem map-get($global-post-content-inset, medium);
+			margin: 1rem 0 2rem map.get($global-post-content-inset, medium);
 		}
 
 		@include mappy-bp(lap-medium) {
 			margin-top: 0;
-			margin-left: map-get($global-post-content-inset, small);
+			margin-left: map.get($global-post-content-inset, small);
 		}
 	}
 }
-
 
 .c-post__metadata {
 	border-top: $border-thinnest solid;
 	border-bottom: $border-thick solid;
 	@include var(border-color, rte-accent);
 	list-style-type: none;
-	padding: 0.75rem map-get($global-post-content-inset, small);
+	padding: 0.75rem map.get($global-post-content-inset, small);
 
 	// Breakpoints
 	@include mappy-bp(palm-medium) {
-		padding-left: map-get($global-post-content-inset, medium);
+		padding-left: map.get($global-post-content-inset, medium);
 	}
 
 	// Supports
@@ -130,22 +129,20 @@ $_c-post-vertical-spacing: 4ex;
 	@supports #{$supports-grid} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			padding: 0.75rem map-get($global-post-content-inset, medium);
+			padding: 0.75rem map.get($global-post-content-inset, medium);
 		}
 
 		@include mappy-bp(lap-medium) {
-			padding-left: map-get($global-post-content-inset, small);
+			padding-left: map.get($global-post-content-inset, small);
 		}
 	}
 }
-
 
 .c-post__metadata--author,
 .c-post__metadata--published,
 .c-post__metadata--updated {
 	display: block;
 }
-
 
 .c-post__metadata--author {
 	margin-bottom: 0.5rem;
@@ -167,7 +164,6 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-post__metadata--published,
 .c-post__metadata--updated {
 	// Supports
@@ -181,12 +177,10 @@ $_c-post-vertical-spacing: 4ex;
 	}
 }
 
-
 .c-post__metadata-link {
 	@include link-states(heading-text);
 	text-underline-offset: 0.2em;
 }
-
 
 .c-post__list-item {
 	// Supports
@@ -194,7 +188,6 @@ $_c-post-vertical-spacing: 4ex;
 		flex-grow: 1;
 	}
 }
-
 
 .c-content {
 	line-height: $line-height-double;

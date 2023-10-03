@@ -38,8 +38,9 @@ html {
 	}
 
 	// Media Queries
+	/* stylelint-disable-next-line media-feature-name-no-vendor-prefix */
 	@media screen and (-webkit-min-device-pixel-ratio: 2),
-	screen and (min-resolution: 2dppx) {
+		screen and (min-resolution: 2dppx) {
 		/* stylelint-disable-next-line property-no-unknown */
 		font-smoothing: subpixel-antialiased; // Only apply to devices that support font smoothing: https://www.zachleat.com/web/font-smooth/
 	}

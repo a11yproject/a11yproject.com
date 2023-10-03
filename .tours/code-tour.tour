@@ -28,8 +28,8 @@
     },
     {
       "file": "package.json",
-      "line": 25,
-      "description": "These are the scripts you can run in your command line application. `npm start` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
+      "line": 17,
+      "description": "These are the scripts you can runn in your command line application. `npm start` will use Eleventy and Gulp to stitch everything together, open the site in your default browser, and then update when you make changes to anything in the `src/` directory."
     },
     {
       "file": "package.json",
@@ -44,22 +44,7 @@
     {
       "file": "TECHNOLOGY.md",
       "line": 1,
-      "description": "This document outlines the technology choices we have made. What we have elected to use is just as important as what we've dliberately chosen not to use."
-    },
-    {
-      "file": "gulpfile.js",
-      "line": 1,
-      "description": "This is a Gulp file. It stores a series of instructions to automate repetitive tasks. Gulp allows your computer to watch the code you instruct it to, and then will execute these tasks automatically for you."
-    },
-    {
-      "file": "gulpfile.js",
-      "line": 297,
-      "description": "This is how you instruct Gulp to execute what tasks in which order."
-    },
-    {
-      "file": "gulpfile.js",
-      "line": 105,
-      "description": "These are the tasks. The previous code is configuration options for it."
+      "description": "This document outlines the technology choices we have made. What we have elected to use is just as important as what we've deliberately chosen not to use."
     },
     {
       "directory": "src",
@@ -88,7 +73,7 @@
     {
       "file": "src/css/screen.scss",
       "line": 1,
-      "description": "This is how the website's CSS is generated. This file imports various Sass partials for Gulp to stitch together into the stylesheet the website will use.\n\nThe `//` comments are for kss-node, which uses structured comment blocks to make a living styleguide."
+      "description": "This is how the website's CSS is generated. This file imports various Sass partials for other scripts to stitch together into the stylesheet the website will use.\n\nThe `//` comments are for kss-node, which uses structured comment blocks to make a living styleguide."
     },
     {
       "file": "src/css/homepage.md",

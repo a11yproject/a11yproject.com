@@ -50,17 +50,8 @@
 
 		{% include "footer.njk" %}
 
-		<script async src="{{ '/js/lib/details-element-polyfill.polyfill.min.js' | url }}"></script>
-		<script src="{{ '/js/theme-toggle.min.js?v=' + getCurrentVersion.version | url }}"></script>
+		<script src="{{ '/' | url }}js/main.min.js?v={{getCurrentVersion.version}}"></script>
+    <script>tableOfContents('[data-content]', '[data-toc]', { levels: 'h2, h3' });</script>
 
-		{% if hasToc %}
-		<script async src="{{ '/js/lib/table-of-contents.min.js' | url }}"></script>
-		{% endif %}
-		{% if page.url === '/checklist/' %}
-		<script src="{{ '/js/checklist.min.js?v=' + getCurrentVersion.version | url }}"></script>
-		{% endif %}
-		{% if page.url === '/contact/' %}
-		<script src="{{ '/js/contact.min.js?v=' + getCurrentVersion.version | url }}"></script>
-		{% endif %}
 	</body>
 </html>

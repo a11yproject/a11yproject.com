@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // Get Started
 //
 // The Get Started call-to-action provides a large guiding prompt for a person
@@ -12,7 +14,7 @@
 // Style guide: Components.get-started
 .c-cta-get-started {
 	position: relative;
-		bottom: 2rem;
+	bottom: 2rem;
 	text-align: center;
 
 	@include mappy-bp(lap-large) {
@@ -22,7 +24,10 @@
 	// Supports
 	@supports #{$supports-grid} {
 		display: grid;
-		grid-template-columns: map-get($global-bleed, small) 1fr map-get($global-bleed, small);
+		grid-template-columns: map.get($global-bleed, small) 1fr map.get(
+				$global-bleed,
+				small
+			);
 		grid-template-areas: ". get-started .";
 
 		// Breakpoints
@@ -37,7 +42,6 @@
 	}
 }
 
-
 .c-cta-get-started__link {
 	@include var(background-color, button-background);
 	border: $border-thick solid;
@@ -50,8 +54,8 @@
 	padding: 0.75rem 1rem;
 	text-align: center;
 	text-decoration: none;
-	transition:
-		background-color $animation-duration-shorter $animation-easing-character,
+	transition: background-color $animation-duration-shorter
+			$animation-easing-character,
 		color $animation-duration-shorter $animation-easing-character,
 		letter-spacing $animation-duration-shorter $animation-easing-character;
 

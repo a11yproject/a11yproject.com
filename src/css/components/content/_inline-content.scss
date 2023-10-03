@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // Namespace
 .c-content {
 	blockquote,
@@ -20,12 +22,10 @@
 		}
 	}
 
-
 	kbd {
 		margin-left: 0.25ch;
 		margin-right: 0.25ch;
 	}
-
 
 	// Blockquote
 	//
@@ -35,7 +35,7 @@
 		background-image: url("#{$path-to-img}/posts/blockquote.svg");
 		background-repeat: no-repeat;
 		background-position: top 1rem left -0.25rem;
-		margin-left: map-get($global-post-content-inset, small) * -1;
+		margin-left: map.get($global-post-content-inset, small) * -1;
 		padding: 1.5rem 1rem;
 
 		p:first-of-type {
@@ -86,13 +86,12 @@
 		}
 	}
 
-
 	// Preformatted Text
 	//
 	// Style guide: Components.post.pre
 	pre {
-		margin-left: map-get($global-post-content-inset, small) * -1;
-		width: calc(100% + #{map-get($global-post-content-inset, small)} * 2);
+		margin-left: map.get($global-post-content-inset, small) * -1;
+		width: calc(100% + #{map.get($global-post-content-inset, small)} * 2);
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {
@@ -117,11 +116,10 @@
 		margin-top: 4ex;
 	}
 
-
 	// Table
 	//
 	// Style guide: Components.post.table
 	table {
-		margin-left: map-get($global-post-content-inset, small) * -1;
+		margin-left: map.get($global-post-content-inset, small) * -1;
 	}
 }

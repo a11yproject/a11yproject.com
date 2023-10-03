@@ -1,9 +1,11 @@
+@use "sass:map";
+
 .l-primary-nav {
-	padding: 1rem map-get($global-bleed, small);
+	padding: 1rem map.get($global-bleed, small);
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
-		padding: 1rem map-get($global-bleed, large);
+		padding: 1rem map.get($global-bleed, large);
 	}
 
 	// Supports
@@ -19,7 +21,6 @@
 		}
 	}
 }
-
 
 .l-primary-nav__sections {
 	margin-top: 1rem;

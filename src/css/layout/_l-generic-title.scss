@@ -1,5 +1,7 @@
+@use "sass:map";
+
 .l-generic-title {
-background-color: #ffc2cc;
+	background-color: #ffc2cc;
 	// Supports
 	@supports #{$supports-flex} {
 		// Breakpoints
@@ -29,12 +31,11 @@ background-color: #ffc2cc;
 	}
 }
 
-
 .l-hero__promo {
-	margin-left: map-get($global-bleed, small);
-	margin-right: map-get($global-bleed, small);
+	margin-left: map.get($global-bleed, small);
+	margin-right: map.get($global-bleed, small);
 	position: relative;
-		top: 50%;
+	top: 50%;
 	transform: perspective(1px) translateY(-60%); // HACK: Keeps`perspective(1px)` keeps content from rendering blurry
 
 	// Supports
@@ -46,8 +47,8 @@ background-color: #ffc2cc;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
-		margin-left: map-get($global-bleed, large);
-		margin-right: map-get($global-bleed, large);
+		margin-left: map.get($global-bleed, large);
+		margin-right: map.get($global-bleed, large);
 	}
 
 	@include mappy-bp(palm-large) {

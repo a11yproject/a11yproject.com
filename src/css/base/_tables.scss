@@ -56,7 +56,8 @@ table {
 
 	// Styles all table rows
 	tr {
-		transition: background-color $animation-duration-shorter $animation-easing-character;
+		transition: background-color $animation-duration-shorter
+			$animation-easing-character;
 
 		// States
 		&:hover {
@@ -91,7 +92,6 @@ table {
 		border-bottom: $border-thinner solid currentColor;
 
 		tr {
-
 			th {
 				font-family: $font-family-secondary;
 				font-size: $font-size-body;
@@ -101,7 +101,6 @@ table {
 	}
 
 	tbody {
-
 		tr {
 			th {
 				border-top-width: $border-thinnest;
@@ -116,9 +115,7 @@ table {
 	}
 
 	tfoot {
-
 		tr {
-
 			td {
 				border-top-width: $border-thinnest;
 				border-top-style: solid;

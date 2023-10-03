@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // tableOfContents.js
 // http://github.com/cferdinandi/table-of-contents
 .v-toc {
@@ -60,7 +62,6 @@
 	width: 1rem;
 }
 
-
 .v-toc__title {
 	display: block;
 	font-weight: 700;
@@ -74,7 +75,6 @@
 		text-decoration: none;
 	}
 }
-
 
 .v-toc__nav {
 	padding: 0 1rem 1.55rem 0;
@@ -90,7 +90,7 @@
 		padding-top: none;
 		list-style-type: none;
 
-	ol {
+		ol {
 			padding-left: 1rem;
 		}
 	}
@@ -128,7 +128,7 @@
 			}
 
 			&:last-of-type {
-				margin-bottom: map-get($global-bleed, small);
+				margin-bottom: map.get($global-bleed, small);
 			}
 
 			// Contexts
@@ -142,8 +142,7 @@
 	a[href] {
 		@include var(color, toc-link-text);
 		text-decoration: none;
-		transition:
-			$animation-duration-short $animation-easing-character color,
+		transition: $animation-duration-short $animation-easing-character color,
 			$animation-duration-short $animation-easing-character border;
 
 		// Supports

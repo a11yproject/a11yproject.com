@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // Skipnav
 //
 // A skipnav, sometimes known as a jumpnav, allows someone to skip sections of
@@ -27,16 +29,16 @@
 	letter-spacing: $font-tracking-slight;
 	padding: 1rem 2rem;
 	text-decoration: none;
-	transition:
-		background-color $animation-duration-short $animation-easing-character,
+	transition: background-color $animation-duration-short
+			$animation-easing-character,
 		color $animation-duration-short $animation-easing-character;
 
 	// States
 	&:focus {
 		outline: none;
 		position: absolute;
-			top: 6rem;
-			left: map-get($global-bleed, large);
+		top: 6rem;
+		left: map.get($global-bleed, large);
 		z-index: 10;
 
 		&:hover {

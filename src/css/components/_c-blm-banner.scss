@@ -1,8 +1,10 @@
+@use "sass:map";
+
 .c-blm-banner {
 	background-color: #211009;
-	color: map-get($colors, sand);
+	color: map.get($colors, sand);
 	font-family: $font-family-secondary;
-	padding: 0.25rem map-get($global-bleed, small);
+	padding: 0.25rem map.get($global-bleed, small);
 	text-align: center;
 
 	// User Queries
@@ -12,14 +14,13 @@
 	}
 }
 
-
 .c-blm-banner__link {
-	color: map-get($colors, "white");
+	color: map.get($colors, "white");
 
 	&:focus {
-		background-color: map-get($colors, "white");
-		color: map-get($colors, "black");
-		outline: $border-thin solid map-get($colors, "white");
+		background-color: map.get($colors, "white");
+		color: map.get($colors, "black");
+		outline: $border-thin solid map.get($colors, "white");
 
 		&:hover {
 			text-decoration: underline;

@@ -2,7 +2,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyPluginTOC = require("eleventy-plugin-nesting-toc");
-
 const slugify = require("slugify");
 const htmlmin = require("html-minifier");
 
@@ -25,7 +24,7 @@ module.exports = function (eleventyConfig) {
 
 	/**
 	 * Returns a human-readable date
-		E.g. May 31, 2019
+		E.g. May 31, 2019f
 	 */
 
 	eleventyConfig.addFilter("dateReadable", (value) => {
@@ -122,6 +121,10 @@ module.exports = function (eleventyConfig) {
 
 	// Directories
 	eleventyConfig.addPassthroughCopy("./src/fonts");
+	eleventyConfig.addPassthroughCopy({
+		"./tmp/_dist/css": "css",
+		"./tmp/_dist/js": "js",
+	});
 
 	// Social Media
 	eleventyConfig.addPassthroughCopy("./src/apple-touch-icon.png");
@@ -168,6 +171,8 @@ module.exports = function (eleventyConfig) {
 
 		return content;
 	});
+
+	eleventyConfig.setUseGitIgnore(false);
 
 	return {
 		templateFormats: ["md", "njk", "html", "liquid"],
