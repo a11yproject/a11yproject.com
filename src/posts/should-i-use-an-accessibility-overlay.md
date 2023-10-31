@@ -26,6 +26,12 @@ further_reading:
   - title: "AccessiByeBye"
     url: https://www.accessibyebye.org/
     source: Pneuma Solutions
+  - title: "Accessible overlays aren’t accessible"
+    url: https://scribe.rip/accessible-overlays-arent-accessible-96876ef474a4
+    source: Camryn Manker
+  - title: "Accessibility overlays don’t guarantee compliance with European legislation"
+    url: https://www.edf-feph.org/accessibility-overlays-dont-guarantee-compliance-with-european-legislation/
+    source: European Disability Forum
   - title: Accessibility Overlays in Digital Content
     url: https://www.tpgi.com/accessibility-overlays-in-digital-content/
     source: TPGI
@@ -134,6 +140,9 @@ further_reading:
   - title: What’s Wrong With Quick-Fix Products For Digital Accessibility
     url: https://go.forrester.com/blogs/whats-wrong-with-quick-fix-products-for-digital-accessibility/
     source: Forrester
+  - title: "Why Accessibility Overlays Fall Short"
+    url: https://www.viget.com/articles/why-a11y-overlays-fall-short/
+    source: Viget
   - title: "Why I blocked #AccessiBe"
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett

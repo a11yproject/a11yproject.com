@@ -536,6 +536,15 @@
 			]
 		},
 		{
+			"title": "Sound Pointer",
+			"description": "Sound Pointer enables you to locate and follow the mouse pointer around your browser window with a sound that changes as you move your mouse.",
+			"additional": "Simon Miner",
+			"url": "https://chrome.google.com/webstore/detail/sound-pointer/ainiiiclibekafehinjoffjppjibgock",
+			"browsers": [
+				"Chrome"
+			]
+		},
+		{
 			"title": "taba11y",
 			"description": "taba11y calculates the tab order of all elements and displays it visually, either by drawing a path or by highlighting the elements.",
 			"additional": "Peter Gould",
@@ -745,7 +754,6 @@
 		{
 			"title": "axe-con Digital Accessibility Conference",
 			"description": "Axe-con is an open and inclusive digital accessibility conference that welcomes developers, designers, business users, and accessibility professionals of all experience levels to a new kind of accessibility conference focused on building, testing, and maintaining accessible digital experiences.",
-			"additional": "March 15–16",
 			"url": "https://www.deque.com/axe-con/"
 		},
 		{
@@ -1495,12 +1503,6 @@
 	],
 	"newsletters": [
 		{
-			"title": "The A11Y Project",
-			"description": "A summary of the links The A11Y Project shares on Twitter throughout the week. Shared weekly on Fridays.",
-			"additional": "The A11Y Project",
-			"url": "https://www.a11yproject.com/newsletter/"
-		},
-		{
 			"title": "Accessible Mobile Apps Weekly",
 			"description": "News from the accessibility community, links to developer tools and frameworks, and more.",
 			"additional": "Robin Kanatzar",
@@ -1517,6 +1519,18 @@
 			"description": "Get notified when we write new stuff",
 			"additional": "Axess Lab",
 			"url": "https://axesslab.com/alt-texts#thanks-for-making-the-web-better"
+		},
+		{
+			"title": "Crip News",
+			"description": "Disability Thinking Weekday is an email newsletter for disabled people and others interested in disability issues, ideas, and culture.",
+			"additional": "Kevin Gotkin",
+			"url": "https://cripnews.substack.com/"
+		},
+		{
+			"title": "Disability Thinking Weekday",
+			"description": "A weekly roundup about disability arts and politics.",
+			"additional": "Andrew Pulrang",
+			"url": "https://disabilitythinking.substack.com/"
 		},
 		{
 			"title": "Equal Entry Newsletter",
@@ -1770,6 +1784,11 @@
 			"title": "Simply Open",
 			"description": "We work with brands who are listening. They want to make products and services you will love. They understand the value of insight from those who sense, think, move and feel differently.",
 			"url": "https://www.simplyopen.io/"
+		},
+		{
+			"title": "Prime Access Consulting",
+			"description": "Via our inclusive design methodology, we help you design, develop, and produce inclusive experiences. We work across digital and physical spaces, spanning websites, mobile apps, small-to-large capital projects, themed experiences, and much more.",
+			"url": "https://www.pac.bz/"
 		},
 		{
 			"title": "TetraLogical",
