@@ -9,7 +9,7 @@ further_reading:
     url: https://www.bbc.co.uk/accessibility/forproducts/guides/mobile/content-resizing/
     source: BBC
   - title: Designing Apps with Accessible Fonts
-    url: https://www.mobileux.net/2019/06/24/designing-apps-with-accessible-fonts/
+    url: https://mobileux.net/designing-apps-with-accessible-fonts/
     source: Mobile UX
 
 tags:
