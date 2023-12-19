@@ -26,6 +26,9 @@ further_reading:
   - title: "AccessiByeBye"
     url: https://www.accessibyebye.org/
     source: Pneuma Solutions
+  - title: "Accessibility overlays"
+    url: https://commission.europa.eu/resources-partners/europa-web-guide/design-content-and-development/accessibility/testing-early-and-regularly/accessibility-overlays_en
+    source: European Comission
   - title: "Accessible overlays aren’t accessible"
     url: https://scribe.rip/accessible-overlays-arent-accessible-96876ef474a4
     source: Camryn Manker
