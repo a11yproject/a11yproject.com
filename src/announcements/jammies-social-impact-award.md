@@ -4,7 +4,7 @@ description: "The A11Y Project was awarded a Jammy, an award given “for utiliz
 date: 2021-10-07
 ---
 
-The A11Y Project was awarded a [Jammy for Social Impact Award](https://jamstackconf.com/jammies/), an award given “for utilizing Jamstack technologies for the delivery of valuable and important resources, in service of the community and for the betterment of society.”
+The A11Y Project was awarded a [Jammy for Social Impact Award](https://2021.jamstackconf.com/jammies/), an award given “for utilizing Jamstack technologies for the delivery of valuable and important resources, in service of the community and for the betterment of society.”
 
 If you are unfamiliar with the term [Jamstack](https://jamstack.org/what-is-jamstack/), it is a way to build websites that prioritizes speed, performance, and security. It does this by letting servers do the bulk of the work before the website or web app is sent to the device requesting it.
 
