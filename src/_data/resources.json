@@ -527,6 +527,15 @@
 			]
 		},
 		{
+			"title": "No Target Blank",
+			"description": "Removes target='_blank' attributes from the websites you browse!",
+			"additional": "Moritz Gießmann",
+			"url": "https://addons.mozilla.org/de/firefox/addon/no-target-blank/",
+			"browsers": [
+				"Firefox"
+			]
+		},
+		{
 			"title": "Skip to Landmarks and Headings",
 			"description": "Provides keyboard access to landmark regions and headings (h1–h6) on a web page.",
 			"additional": "Nicholas Hoyt",
