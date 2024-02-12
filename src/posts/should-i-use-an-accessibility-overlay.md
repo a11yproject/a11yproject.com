@@ -32,6 +32,9 @@ further_reading:
   - title: "Accessible overlays aren’t accessible"
     url: https://scribe.rip/accessible-overlays-arent-accessible-96876ef474a4
     source: Camryn Manker
+  - title: "Accessibility Widgets Are Not Enough for Screen-Reader Users"
+    url: https://www.nngroup.com/videos/accessibility-widget/
+    source: Nielsen Norman Group
   - title: "Accessibility overlays don’t guarantee compliance with European legislation"
     url: https://www.edf-feph.org/accessibility-overlays-dont-guarantee-compliance-with-european-legislation/
     source: European Disability Forum
