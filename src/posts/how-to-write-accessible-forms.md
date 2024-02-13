@@ -123,7 +123,7 @@ In the code below, there is an empty [live region](https://developer.mozilla.org
 If validation errors occur, two things happen:
 
 1. The [live region](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) is populated upon form submission, announcing to assistive devices that there are errors.
-2. Each invalid `<input>` is given an [`aria-invalid="true"`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-invalid_attribute) attribute and connected to a __hint__ using  an [`aria-describedby`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute) attribute.
+2. Each invalid `<input>` is given an [`aria-invalid="true"`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-invalid) attribute and connected to a __hint__ using  an [`aria-describedby`](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby) attribute.
 
 Here's the markup for the email field in its invalid state:
 

@@ -19,7 +19,7 @@ tags:
 
 Orca is a free, open-source screen reader developed under the [GNOME project](https://www.gnome.org/about-us/). Several Linux distributions have it installed by default.
 
-This article will introduce you to the basics of Orca on Gnome desktop environment on [Ubuntu](https://help.ubuntu.com/lts/installation-guide/s390x/ch01s01.html) version 20.04 LTS. There might be some slight variations if you are using a different desktop environment or using GNOME on a different Linux distribution. You need to consult the manual for your Linux distribution or desktop environment.
+This article will introduce you to the basics of Orca on Gnome desktop environment on [Ubuntu](https://help.ubuntu.com/20.04/installation-guide/s390x/index.html) version 20.04 LTS. There might be some slight variations if you are using a different desktop environment or using GNOME on a different Linux distribution. You need to consult the manual for your Linux distribution or desktop environment.
 
 ## Launching Orca
 

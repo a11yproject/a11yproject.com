@@ -32,7 +32,7 @@ If you manually limit how large your text scales it may cause issues for people 
 
 You can use a [tool called the Android Emulator](https://developer.android.com/studio/run/emulator) to preview how your app works in the context of different android devices. This can help you stay aware of how people who use different types of androids experience your app.
 
-Again, users can only zoom in on specified areas, so you'll need to use [scale-independent pixels](https://www.pixel-ruler.net/android-scale-independent-pixel) to determine the size of your text.
+Again, users can only zoom in on specified areas, so you'll need to use [scale-independent pixels](https://web.archive.org/web/20160507221349/https://www.pixel-ruler.net/android-scale-independent-pixel) to determine the size of your text.
 
 There isn't a tool like Dynamic Type in Android, so you'll need to scale the text at different sizes yourself. Material design [has a resource](https://material.io/design/typography/the-type-system.html#type-scale) that makes a good starting point.
 
