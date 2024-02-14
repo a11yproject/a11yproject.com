@@ -153,7 +153,7 @@ further_reading:
     url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
     source: Robert Kingett
   - title: "Why should you stay away from Accessibility Overlays?"
-    url: https://www.barrierbreak.com/2021/07/13/why-should-you-stay-away-from-accessibility-overlays/
+    url: https://www.barrierbreak.com/why-should-you-stay-away-from-accessibility-overlays/
     source: Barrier Break
 tags:
   - background
