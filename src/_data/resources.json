@@ -496,6 +496,18 @@
 			]
 		},
 		{
+			"title": "Fontonic - Change Fonts",
+			"description": "Change fonts of any website with your locally installed fonts!",
+			"additional": "amkhrjee",
+			"url": "https://chromewebstore.google.com/detail/hnjlnpipbcbgllcjgbcjfgepmeomdcog",
+			"browsers": [
+				"Chrome",
+				"Edge",
+				"Brave",
+				"Vivaldi"
+			]
+		},
+		{
 			"title": "headingsMap",
 			"description": "The extension generates a documentmap or index of any web document structured with headings (you can access directly to the content by clicking on any of its items), and now, it shows the HTML 5 outline.",
 			"additional": "Rumoroso",
