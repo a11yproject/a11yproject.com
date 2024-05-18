@@ -530,6 +530,17 @@
 			]
 		},
 		{
+			"title": "Midnight Lizard",
+			"description": "Browser extension with custom color schemes for all websites.",
+			"additional": "Pavel Agarkov",
+			"url": "https://midnight-lizard.org/",
+			"browsers": [
+				"Chrome",
+				"Firefox",
+				"Edge"
+			]
+		},
+		{
 			"title": "NoCoffee",
 			"description": "NoCoffee can be helpful for understanding the problems faced by people with slight to extreme vision problems.",
 			"additional": "Eitan Isaacson",
