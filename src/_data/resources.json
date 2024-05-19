@@ -398,6 +398,12 @@
 			"description": "A fascinating and provocative new way of looking at the things we use and the spaces we inhabit, and a call to imagine a better-designed world for us all.",
 			"additional": "Sara Hendren",
 			"url": "https://www.penguinrandomhouse.com/books/561049/what-can-a-body-do-by-sara-hendren/"
+		},
+		{
+			"title": "What Every Engineer Should Know About Digital Accessibility ",
+			"description": "What Every Engineer Should Know About Digital Accessibility will prepare readers to integrate digital accessibility into their engineering practices. Readers will learn how to accurately frame accessibility as an engineering challenge so they are able to address the correct problems in the correct way.",
+			"additional": "Sarah Horton and David Sloan",
+			"url": "https://www.routledge.com/What-Every-Engineer-Should-Know-About-Digital-Accessibility/Horton-Sloan/p/book/9781032263861"
 		}
 	],
 	"browserExtensions": [
