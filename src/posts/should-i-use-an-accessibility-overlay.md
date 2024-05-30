@@ -155,6 +155,18 @@ further_reading:
   - title: "Why should you stay away from Accessibility Overlays?"
     url: https://www.barrierbreak.com/why-should-you-stay-away-from-accessibility-overlays/
     source: Barrier Break
+  - title: "Should I Use An Accessibility Overlay?"
+    url: https://shouldiuseanaccessibilityoverlay.com/
+    source: Michael Spellacy
+  - title: "Do Away with Overlays"
+    url: https://accessibleweb.com/web-accessibility-news/do-away-with-overlays/
+    source: Accessible Web
+  - title: "Why accessibility overlays do not improve site accessibility"
+    url: https://business.scope.org.uk/article/why-accessibility-overlays-and-widgets-do-not-improve-your-website-accessibility
+    source: Scope
+  - title: "My Journey with Accessibility Overlays: A 13-Year Reflection"
+    url: https://www.linkedin.com/posts/amihaimiron_my-journey-with-accessibility-overlays-a-activity-7201231937078734849-xYQy/
+    source: Amihai Miron on LinkedIn
 tags:
   - background
   - featured
