@@ -164,6 +164,9 @@ further_reading:
   - title: "Why accessibility overlays do not improve site accessibility"
     url: https://business.scope.org.uk/article/why-accessibility-overlays-and-widgets-do-not-improve-your-website-accessibility
     source: Scope
+  - title: "Accessibility overlays are not for disabled people"
+    url: https://www.tempertemper.net/blog/accessibility-overlays-are-not-for-disabled-people
+    source: tempertemper
   - title: "My Journey with Accessibility Overlays: A 13-Year Reflection"
     url: https://www.linkedin.com/posts/amihaimiron_my-journey-with-accessibility-overlays-a-activity-7201231937078734849-xYQy/
     source: Amihai Miron on LinkedIn
