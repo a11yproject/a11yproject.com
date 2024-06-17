@@ -561,7 +561,17 @@
 			"additional": "Moritz Gießmann",
 			"url": "https://addons.mozilla.org/de/firefox/addon/no-target-blank/",
 			"browsers": [
-				"Firefox"
+				"Chrome"
+			]
+		},
+		{
+			"title": "openinthesametab",
+			"description": "Some sites annoyingly open links in new tabs. This extension lets you take back control.",
+			"additional": "phpied.com",
+			"url": "https://chromewebstore.google.com/detail/openinthesametab/lfpobllhlghoebgfogblmjpaobmoanfg",
+			"browsers": [
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
