@@ -820,11 +820,6 @@
 			"url": "https://www.accessibility.legal/"
 		},
 		{
-			"title": "Funka Accessibility Days",
-			"description": "Funka Accessibility Days is northern Europe’s largest conference on accessible ICT. We are proud to welcome some of the world´s leading experts on web accessibility.",
-			"url": "https://www.funka.com/en/we-offer/funka-accessibility-days/"
-		},
-		{
 			"title": "Future Date",
 			"description": "Future Date is a free, volunteer-led, virtual accessibility conference. Our goal is to expose our audience to the pioneering work and lived experiences of disability and accessibility leaders.",
 			"url": "https://afuturedate.herokuapp.com/"
@@ -2354,7 +2349,7 @@
 			"title": "The a11y Monthly: Does Accessibility slow down the development process?",
 			"description": "One of the complaints I’ve often heard from business owners and managers is that implementing accessibility is hard and slows down the development process. For this reason, sometimes accessibility gets postponed or set aside in the erroneous belief that’s something that can be “added” later. Here, I’d like to share my thoughts on why I think the first statement is misleading.",
 			"additional": "Yoast",
-			"url": "https://developer.yoast.com/accessibility-slow-down-development-process/"
+			"url": "https://yoast.com/developer-blog/accessibility-slow-down-development-process/"
 		},
 		{
 			"title": "Writing CSS with Accessibility in Mind",
@@ -2371,8 +2366,8 @@
 		{
 			"title": "Information On Different Types Of People For Graphic Communication, Website And Information Designers",
 			"description": "Every day we use graphic communication design from reading letters which have come through the post, or the newspaper in the morning, to reading and using information at work, to travelling and navigating in the environment. How can we include as many people as possible when designing graphic communication and information, and how do we not unnecessarily exclude people?",
-			"additional": "Usability Geek",
-			"url": "https://usabilitygeek.com/information-different-types-people-graphic-communication-website-information-designers/"
+			"additional": "User Design, Illustration and Typesetting, previously Usability Geek",
+			"url": "https://medium.com/@user_design/information-on-different-types-of-people-for-graphic-communication-website-and-information-4b6454905bb1"
 		},
 		{
 			"title": "Accessibility for Teams",
