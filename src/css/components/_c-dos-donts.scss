@@ -1,5 +1,5 @@
 .c-dos-donts {
-	margin-top: 1.5rem;
+	margin-top: $m-3;
 
 	// Text-level formatting
 	p {
@@ -18,7 +18,7 @@
 	}
 
 	p:first-of-type {
-		margin-top: 0.5rem;
+		margin-top: $m-1;
 	}
 
 	p:nth-child(odd) {
