@@ -41,7 +41,7 @@ An estimated 19,000,000 children under 15 years are visually impaired with 12,00
 
 Disorders of the eye that lead to visual impairments can include:
 
-- [Retinal degeneration](http://ffb.ca/learn/eye-diseases/),
+- [Retinal degeneration](https://www.sciencedirect.com/topics/neuroscience/retinal-degeneration),
 - [Albinism](https://en.wikipedia.org/wiki/Albinism),
 - [Cataracts](https://en.wikipedia.org/wiki/Cataract),
 - [Glaucoma](https://en.wikipedia.org/wiki/Glaucoma),

@@ -149,9 +149,6 @@ further_reading:
   - title: "Why Accessibility Overlays Fall Short"
     url: https://www.viget.com/articles/why-a11y-overlays-fall-short/
     source: Viget
-  - title: "Why I blocked #AccessiBe"
-    url: https://blindjournalist.wordpress.com/2021/03/04/why-i-blocked-accessibe/
-    source: Robert Kingett
   - title: "Why should you stay away from Accessibility Overlays?"
     url: https://www.barrierbreak.com/why-should-you-stay-away-from-accessibility-overlays/
     source: Barrier Break
