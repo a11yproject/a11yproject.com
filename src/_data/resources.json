@@ -547,6 +547,16 @@
 			]
 		},
 		{
+			"title": "NerdeRegion",
+			"description": "NerdeRegion is a developer tools extension for debugging live regions on a Web Page. When activated, it lists all active Aria live regions, and keeps a record of all mutations that has happened on the region.",
+			"additional": "Ugurcan (Ugi) Kutluoglu",
+			"url": "https://chromewebstore.google.com/detail/nerderegion/lkcampbojgmgobcfinlkgkodlnlpjieb",
+			"browsers": [
+				"Chrome",
+				"Edge"
+			]
+		},
+		{
 			"title": "NoCoffee",
 			"description": "NoCoffee can be helpful for understanding the problems faced by people with slight to extreme vision problems.",
 			"additional": "Eitan Isaacson",
