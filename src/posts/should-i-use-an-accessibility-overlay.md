@@ -167,6 +167,9 @@ further_reading:
   - title: "It’s really this thing that gets me."
     url: https://chriscoyier.net/2024/07/13/its-really-this-thing-that-gets-me/
     source: Chris Coyier
+  - title: What a new accessibility class action lawsuit means for agencies
+    source: Access Armada
+    url: https://www.accessarmada.com/blog/what-a-new-accessibility-class-action-lawsuit-means-for-agencies/
   - title: "My Journey with Accessibility Overlays: A 13-Year Reflection"
     url: https://www.linkedin.com/posts/amihaimiron_my-journey-with-accessibility-overlays-a-activity-7201231937078734849-xYQy/
     source: Amihai Miron on LinkedIn
