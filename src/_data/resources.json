@@ -413,7 +413,8 @@
 			"additional": "Microsoft",
 			"url": "https://accessibilityinsights.io/",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -422,7 +423,18 @@
 			"additional": "TPGi",
 			"url": "https://www.paciellogroup.com/toolkit/",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
+			]
+		},
+		{
+			"title": "ARIA DevTools",
+			"description": "Easily spot missing ARIA labels, misused ARIA roles, and incomplete keyboard support in your web applications.",
+			"additional": "Mateusz Zielinski",
+			"url": "https://chromewebstore.google.com/detail/aria-devtools/dneemiigcbbgbdjlcdjjnianlikimpck",
+			"browsers": [
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -442,7 +454,8 @@
 			"additional": "Deque",
 			"url": "https://www.deque.com/axe/beta/",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -451,7 +464,8 @@
 			"additional": "Google",
 			"url": "https://chrome.google.com/webstore/detail/chromevox/kgejglhpjiefppelpmljglcjbhoiplfn",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -472,7 +486,8 @@
 			"additional": "NC State IT Accessibility",
 			"url": "https://chrome.google.com/webstore/detail/color-contrast-analyzer/dagdlcijhfbmgkjokkjicnnfimlebcll/related",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -521,6 +536,7 @@
 			"browsers": [
 				"Chrome",
 				"Firefox",
+				"Edge",
 				"Edge"
 			]
 		},
@@ -531,6 +547,7 @@
 			"url": "https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp",
 			"browsers": [
 				"Chrome",
+				"Edge",
 				"Firefox",
 				"Opera"
 			]
@@ -571,7 +588,8 @@
 			"additional": "Moritz Gießmann",
 			"url": "https://addons.mozilla.org/de/firefox/addon/no-target-blank/",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -590,7 +608,8 @@
 			"additional": "Nicholas Hoyt",
 			"url": "https://chrome.google.com/webstore/detail/skip-to-landmarks-and-hea/fjkpbfcodhflpdildjbmdhhmcoplghgf",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -599,7 +618,8 @@
 			"additional": "Simon Miner",
 			"url": "https://chrome.google.com/webstore/detail/sound-pointer/ainiiiclibekafehinjoffjppjibgock",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -608,7 +628,8 @@
 			"additional": "Peter Gould",
 			"url": "https://chrome.google.com/webstore/detail/taba11y/aocppmckdocdjkphmofnklcjhdidgmga/",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -617,7 +638,8 @@
 			"additional": "zmrhal.j",
 			"url": "https://chrome.google.com/webstore/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj/",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -626,7 +648,8 @@
 			"additional": "WebAIM",
 			"url": "https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		},
 		{
@@ -635,7 +658,8 @@
 			"additional": "Metamatrix",
 			"url": "https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla/",
 			"browsers": [
-				"Chrome"
+				"Chrome",
+				"Edge"
 			]
 		}
 	],
