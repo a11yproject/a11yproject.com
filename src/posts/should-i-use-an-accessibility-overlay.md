@@ -171,8 +171,11 @@ further_reading:
     source: Access Armada
     url: https://www.accessarmada.com/blog/what-a-new-accessibility-class-action-lawsuit-means-for-agencies/
   - title: "My Journey with Accessibility Overlays: A 13-Year Reflection"
-    url: https://www.linkedin.com/posts/amihaimiron_my-journey-with-accessibility-overlays-a-activity-7201231937078734849-xYQy/
     source: Amihai Miron on LinkedIn
+    url: https://www.linkedin.com/posts/amihaimiron_my-journey-with-accessibility-overlays-a-activity-7201231937078734849-xYQy/
+  - title: "The Promise and Pitfalls of Web Accessibility Overlays for Blind and Low Vision Users"
+    source: ResearchGate
+    url: https://www.researchgate.net/publication/383118166_The_Promise_and_Pitfalls_of_Web_Accessibility_Overlays_for_Blind_and_Low_Vision_Users  
 tags:
   - background
   - featured
