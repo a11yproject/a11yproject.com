@@ -178,10 +178,22 @@
 			"url": "http://a.co/d/7aVobuX"
 		},
 		{
+			"title": "Against Technoableism",
+			"description": "A manifesto exploding what we think we know about disability, and arguing that disabled people are the real experts when it comes to technology and disability.",
+			"additional": "Ashley Shew",
+			"url": "https://wwnorton.com/books/9781324076254"
+		},
+		{
 			"title": "Agile Accessibility Handbook",
 			"description": "Free ebook: A Practical Guide to Accessible Software Development at Scale.",
 			"additional": "Dylan Barrell",
 			"url": "https://accessibility.deque.com/agile-accessibility-handbook"
+		},
+		{
+			"title": " Approachable Accessibility: Planning for Success",
+			"description": "Understand the realities of modern web accessibility and what considerations should be made to include everyone. This book makes the topic of web accessibility as approachable as possible to help every web professional become an accessibility advocate at their companies, on their projects, and in their communities.",
+			"additional": "Martine Dowden and Michael Dowden",
+			"url": "https://link.springer.com/book/10.1007/978-1-4842-4881-2"
 		},
 		{
 			"title": "Apps For All: Coding Accessible Web Applications",
@@ -190,10 +202,22 @@
 			"url": "https://shop.smashingmagazine.com/products/apps-for-all"
 		},
 		{
+			"title": "Appt Accessibility Handbook",
+			"description": "The Appt Foundation is working towards a world where everyone can use apps equally. To make this vision a reality, we have written a handbook. It helps you learn the basics of app accessibility in a straightforward way.",
+			"additional": "Jan Jaap de Groot and Paul van Workum",
+			"url": ""
+		},
+		{
 			"title": "Automating Inequality",
 			"description": "In Automating Inequality, Virginia Eubanks systematically investigates the impacts of data mining, policy algorithms, and predictive risk models on poor and working-class people in America.",
 			"additional": "Virginia Eubanks",
 			"url": "https://us.macmillan.com/books/9781250074317"
+		},
+		{
+			"title": "Beyond Accessibility Compliance",
+			"description": "Take a deep look at accessibility as it applies to mobile and wearables. This book covers topics within the accessibility domain that are rarely covered or understood, despite the fact that nearly half of the world’s population uses smartphones.",
+			"additional": "Sukriti Chadha",
+			"url": "https://link.springer.com/book/10.1007/978-1-4842-7948-9"
 		},
 		{
 			"title": "Branding and Designing Disability: Reconceptualising Disability Studies",
@@ -224,6 +248,12 @@
 			"description": "Explore how to create culturally relevant and responsible experiences that reach a truly global audience.",
 			"additional": "Senongo Akpem",
 			"url": "https://abookapart.com/products/cross-cultural-design"
+		},
+		{
+			"title": "Dark and Silent Office: A Digital Accessibility Guidebook for Inclusive Communication in the Workplace",
+			"description": "Stephanie Warlick",
+			"additional": "Change is never easy, but in this case, it’s crucial. Whether you are an employee, manager, HR/DEI leader, or company owner, this guide provides practical and achievable steps to ensure everybody can fulfill their role to the best of their abilities while feeling respected.",
+			"url": "https://www.amazon.com.au/dp/B0D3SB2YX8"
 		},
 		{
 			"title": "Demystifying Disability",
@@ -268,6 +298,12 @@
 			"url": "http://a.co/d/f0aNSFO"
 		},
 		{
+			"title": "Designing Learning Experiences for Inclusivity and Diversity: Advice for Learning Designers",
+			"description": "The development and implementation of inclusive and diverse learning experiences is a vital consideration for educators in higher education. Increasingly, learning designers play a significant role in this process. This textbook offers postgraduate students a comprehensive guide to designing learning experiences that are accessible, equitable, and inclusive.",
+			"additional": "Keith Heggart et al",
+			"url": "https://oercollective.caul.edu.au/designing-learning-experiences/"
+		},
+		{
 			"title": "Disability Visibility: First-Person Stories from the Twenty-First Century",
 			"description": "Activist Alice Wong brings together this urgent, galvanizing collection of contemporary essays by disabled people.",
 			"additional": "Alice Wong",
@@ -278,6 +314,12 @@
 			"description": "A candid and practical handbook for designers.",
 			"additional": "Sheri Byrne-Haber, CPACC.",
 			"url": "https://accessibility.uxdesign.cc/"
+		},
+		{
+			"title": "The Glossary of Accessibility Design",
+			"description": "A guide to navigating the crucial field of accessibility design with precision and clarity. This comprehensive dictionary comprises over 700 meticulously defined terms, offering a vital resource for designers, developers, policymakers, and anyone dedicated to creating inclusive digital experiences.",
+			"additional": "Vimal Gupta",
+			"url": "https://www.amazon.com/dp/B0CJLCLV66"
 		},
 		{
 			"title": "Inclusify: The Power of Uniqueness and Belonging to Build Innovative Teams",
@@ -370,6 +412,18 @@
 			"url": "https://wwnorton.com/books/Technically-Wrong/"
 		},
 		{
+			"title": "Universal Design for Learning: Principles, Framework, and Practice",
+			"description": "A practical, research-based framework that enables all educators to respond to individual learning differences through the design of inclusive goals, methods, materials, assessments, and environments.",
+			"additional": "David Gordon",
+			"url": "https://publishing.cast.org/catalog/books-products/udl-principles-framework-practice"
+		},
+		{
+			"title": "WCAG for Designers: Accessibility Reference Manual",
+			"description": "This accessibility reference manual is geared toward designers working on digital products.",
+			"additional": "Stacey Swinehart Ganderson",
+			"url": "https://play.google.com/store/books/details?id=6gAcEQAAQBAJ"
+		},
+		{
 			"title": "We Are Not Users: Dialogues, Diversity, and Design",
 			"description": "A call to reclaim and rethink the field of designing as a liberal art where diverse voices come together to shape the material world.",
 			"additional": "Eswaran Subrahmanian, Yoram Reich, Sruthi Krishnan",
@@ -380,6 +434,18 @@
 			"description": "Your Roadmap to Digital Inclusion is made up of four instructive chapters, focused on the resource considerations for each stage of a typical digital accessibility program and how to integrate the disability community across your program.",
 			"additional": "Jason C. Taylor",
 			"url": "https://info.usablenet.com/web-and-app-accessibility"
+		},
+		{
+			"title": "Web Accessibility Cookbook",
+			"description": "The Web Accessibility Cookbook provides you with dozens of recipes to help you avoid creating accessibility failures. You'll learn how to build common components, such as main navigation, filters, and dialogs, in an accessible manner. Each recipe not only explains how to build things but also why.",
+			"additional": "Manuel Matuzovic",
+			"url": "https://www.oreilly.com/library/view/web-accessibility-cookbook/9781098145590/"
+		},
+		{
+			"title": "The Web Accessibility Project: Development and Testing Best Practices",
+			"description": "By applying the accessibility best practices covered in this book, developers can help their organizations rise to a whole new level of accessibility adherence, innovation, and inclusive design. They will also see greater work satisfaction in their professional lives and a way to help improve digital accessibility for end users.",
+			"additional": "Narayanan Palani",
+			"url": "https://www.routledge.com/The-Web-Accessibility-Project-Development-and-Testing-Best-Practices/Palani/p/book/9781032202006"
 		},
 		{
 			"title": "Web Accessibility: Web Standards and Regulatory Compliance",
@@ -839,6 +905,12 @@
 			"url": "https://www.deque.com/axe-con/"
 		},
 		{
+			"title": "Building For Everyone: Expand Your Market With Design Practices From Google’s Product Inclusion Team",
+			"description": "How can business leaders adapt to our ever-more-diverse world by capturing market share and building more inclusive products for people of color, women and other underrepresented groups? The Product Inclusion Team at Google has developed strategies to do just that.",
+			"additional": "Annie Jean-Baptiste",
+			"url": "https://www.wiley.com/en-au/Building+For+Everyone%3A+Expand+Your+Market+With+Design+Practices+From+Google's+Product+Inclusion+Team-p-9781119646235"
+		},
+		{
 			"title": "Closing the Gap",
 			"description": "Discover how AT can change lives and improve learning!",
 			"url": "https://www.closingthegap.com/conference/"
@@ -965,6 +1037,12 @@
 			"description": "The A11Y Collective is the e-learning platform for anyone who wants to learn more about web accessibility. The courses focus mostly on knowledge and skills that are valuable for web designers, developers, webmasters, product owners and web editors.",
 			"additional": "a11y-collective.com",
 			"url": "https://a11y-collective.com/"
+		},
+		{
+			"title": "Thinking about Digital Accessibility: From Ally to Advocate",
+			"description": "In this book, we explore what digital accessibility is, how it is integrated with common functional roles, such as content writer, user experience designer, or engineer, and how it grows as the knowledge and skill of an individual develops, answering the question “how do I get there from here”.",
+			"additional": "H. Robert King",
+			"url": "https://www.everand.com/book/527830515/Thinking-about-Digital-Accessibility-From-Ally-to-Advocate"
 		},
 		{
 			"title": "Web Accessibility by Google",
