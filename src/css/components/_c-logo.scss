@@ -46,7 +46,6 @@
 	}
 }
 
-
 .c-logo__lockup {
 	// Supports
 	@supports #{$supports-flex} {
@@ -55,7 +54,6 @@
 		flex-direction: row;
 	}
 }
-
 
 .c-logo__icon {
 	fill: $color-white;
@@ -67,9 +65,8 @@
 	}
 }
 
-
 .c-logo__wordmark {
 	fill: $color-white;
 	margin-top: 0.25rem;
-	margin-left: 0.5rem;
+	margin-left: $m-1;
 }
