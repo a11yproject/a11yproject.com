@@ -5,7 +5,7 @@ image: /resources/introduction-to-web-accessibility.jpg
 category: Featured resource
 featured_resource:
   - title: "Watch Introduction to Web Accessibility on M.A.W. Consulting, LLC's website"
-    url: https://mawconsultingllc.com/intro-to-web-accessibility/
+    url: https://mawconsultingllc.com/videos/v/hzzcebcywrh37xperxt54z53bryzea
 eleventyNavigation:
   key: "Introduction to Web Accessibility"
   parent: Featured resource
