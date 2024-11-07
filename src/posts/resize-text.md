@@ -103,9 +103,12 @@ To do a more thorough job, you should check the page at each of the zoom steps t
 
 
 ## Can I zoom everything instead of resizing text only?
+It depends on which legislation you have to follow. It's still a good idea to make sure that pages work well with text-only zoom since some people want only the text to be bigger. The usage has increased especially on mobile devices, and statistics from [appt.org](https://appt.org/en) (2024) show that more than a third of users on Android and iOS devices use this setting.
 
-Without going too deep into the Success Criterion, it does not require you to use text-only zoom. But I think it's still a good idea to make sure that pages work well with text-only zoom since some people may want only the text to be bigger.
+### If you have to comply with the EN-301 549 standard
+In the EN-standard 301 459 which the accessibility laws in the EU and Canada points to there's the section [11.7 User preferences]([https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-11-software#_Toc66969652)) which explicitly points out color and font settings to be respected. This means that such things as Dark mode and text-resize is mandated by law.
 
-Practically speaking, I don't think many people know that text-only resizing is available. And that's assuming they're using a browser that supports it. I'd expect most folks that want larger text would use regular browser zooming more often than text-only zooming.
+### If you do not have to comply with the EN-301 549 standard
+Without going too deep into the Success Criterion in WCAG, it does not require you to use text-only zoom. 
 
 There is even a [Success Technique (G142)](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G142) that says you can pass the Success Criterion by zooming everything.
