@@ -4,6 +4,7 @@ description: How to test the Resize Text WCAG Success Criterion.
 category: Quick test
 author: Luis Garcia
 date: 2018-11-26
+updated: 2024-11-08
 tags:
   - quicktest
 ---
@@ -46,25 +47,48 @@ Testing is pretty straightforward.
 
 ### Choosing a browser
 
-Testing text-resize needs initial testing in multiple browsers to confirm that relative units are used correctly in order to conform with [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html).
+Testing text-resize needs initial testing in multiple browsers to confirm that relative units are used correctly in order to conform with [WCAG Resize Text (Success Criterion 1.4.4)](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html).
 
-Testing text-resizing can fail in Chrome but pass in Firefox since text-zoom in Firefox resizes regardless of usage of relative units. Suggested setup is to use Chrome and Firefox in initial testing.
+Note that you can by mistake give text-resize a pass when testing in Firefox. Text-zoom in Firefox resizes regardless of usage of relative units. Suggested setup is to use two different browsers in initial testing.
+
+Chrome works best, allthough:
+
+- Ability to resize text is not obvious.
+- Does not display the current zoom level.
+
+Edge works well:
+
+- Has a smiliar functionality as Chrome.
+- Increase text size used to only support text-only resize in Reading view but has since improved.
+
+Safari, works but not as well:
+
+- Ability to resize text is not obvious.
+- Does not display the current zoom level.
+- Safari is only available on macOS.
 
 Firefox is an easy browser for testing further:
 
 - It makes resizing text really easy.
 - It informs you of the current zoom level.
 - It's available on all popular Operating Systems.
+- Text-zoom in Firefox resizes regardless of usage of relative units.
 
-Safari and Chrome work, but not as well:
+### Resizing text in Chrome
 
-- Ability to resize text is not obvious.
-- Does not display the current zoom level.
-- Safari is only available on macOS.
+1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard.
+1. Increase the **font size** to 32px (default is 16px).
 
-Edge won't work:
+### Resizing text in Edge
 
-- Edge only supports text-only resize in Reading view.
+1. Copy `edge://settings/appearance` to the address bar and then return on your keyboard.
+1. Go to section "Fonts" and the option "Customize fonts".
+1. Increase the **font size** to 32px (default is 16px).
+
+### Resizing text in Safari
+
+1. To increase the font size, press <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>+</kbd>
+1. To decrease the font size, press <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>-</kbd>
 
 ### Resizing text in Firefox
 
@@ -72,11 +96,6 @@ Edge won't work:
 1. Zoom to 200%.
     - <kbd>Ctrl</kbd> + <kbd>+</kbd>.
     - <kbd>Ctrl</kbd> + Scroll Up.
-
-### Resizing text in Chrome
-
-1. Copy `chrome://settings/fonts` to the address bar and then return on your keyboard.
-1. Increase the **font size** to 32px (default is 16px).
 
 ### Checking everything
 
@@ -99,16 +118,16 @@ To do a more thorough job, you should check the page at each of the zoom steps t
 
 - Images of text won't resize.
 - Captions over videos likely won't resize.
-- Using the incorrect html `lang` code will result in no text-zoom.
+- Using the incorrect html `lang` code might result in no text-zoom.
 
 
 ## Can I zoom everything instead of resizing text only?
 It depends on which legislation you have to follow. It's still a good idea to make sure that pages work well with text-only zoom since some people want only the text to be bigger. The usage has increased especially on mobile devices, and statistics from [appt.org](https://appt.org/en/stats) (2024) show that more than a third of users on Android and iOS devices use this setting.
 
-### If you have to comply with the EN-301 549 standard
+### If you have to conform with the EN-301 549 standard
 In the EN-standard 301 459 which the accessibility laws in the EU and Canada points to there's the section [11.7 User preferences](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-11-software#_Toc66969652) which explicitly points out color and font settings to be respected. This means that such things as Dark mode and text-resize is mandated by law.
 
 ### If you do not have to comply with the EN-301 549 standard
-Without going too deep into the Success Criterion in WCAG, the Success Criterion does not require you to use text-only zoom. 
+Without going too deep into the [Success Criterion 1.4.4](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html) in WCAG, the Success Criterion does not require you to use text-only zoom. 
 
-There is even a [Success Technique (G142)](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G142) that says you can pass the Success Criterion by zooming everything.
+There is even a [Success Technique (G142)](https://www.w3.org/WAI/WCAG22/Techniques/general/G142) that says you can pass the Success Criterion by zooming everything.
