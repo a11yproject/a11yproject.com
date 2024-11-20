@@ -122,7 +122,7 @@ To do a more thorough job, you should check the page at each of the zoom steps t
 
 
 ## Can I zoom everything instead of resizing text only?
-It depends on which legislation you have to follow. It's still a good idea to make sure that pages work well with text-only zoom since some people want only the text to be bigger. The usage has increased especially on mobile devices, and statistics from [appt.org](https://appt.org/en/stats) (2024) show that more than a third of users on Android and iOS devices use this setting.
+It depends on which legislation you have to follow. It's still a good idea to make sure that pages work well with text-only zoom since some people want only the text to be bigger. The usage has increased especially on mobile devices, and statistics from [appt.org](https://appt.org/en/stats/font-size) (2024) show that more than a third of users on Android and iOS devices use this setting.
 
 ### If you have to conform with the EN-301 549 standard
 In the EN-standard 301 459 which the accessibility laws in the EU and Canada points to there's the section [11.7 User preferences](https://accessible.canada.ca/en-301-549-accessibility-requirements-ict-products-and-services-11-software#_Toc66969652) which explicitly points out color and font settings to be respected. This means that such things as Dark mode and text-resize is mandated by law.
