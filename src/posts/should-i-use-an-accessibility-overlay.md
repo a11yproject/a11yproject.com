@@ -170,6 +170,9 @@ further_reading:
   - title: What a new accessibility class action lawsuit means for agencies
     source: Access Armada
     url: https://www.accessarmada.com/blog/what-a-new-accessibility-class-action-lawsuit-means-for-agencies/
+  - title: "Widgets vs. Direct Remediation: A cost analysis for SMBs"
+    source: Afixt
+    url: https://afixt.com/widgets-vs-direct-remediation-a-cost-analysis-for-smbs/
   - title: "My Journey with Accessibility Overlays: A 13-Year Reflection"
     source: Amihai Miron on LinkedIn
     url: https://www.linkedin.com/posts/amihaimiron_my-journey-with-accessibility-overlays-a-activity-7201231937078734849-xYQy/
