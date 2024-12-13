@@ -535,18 +535,6 @@
 			]
 		},
 		{
-			"title": "BeeLine Reader",
-			"description": "BeeLine Reader makes reading on-screen easier, faster, and more enjoyable. We use a simple cognitive trick — an eye-guiding color gradient — to pull your eyes through long blocks of text.",
-			"additional": "BeeLine Reader",
-			"url": "https://www.beelinereader.com/",
-			"browsers": [
-				"Android",
-				"Chrome",
-				"Firefox",
-				"iOS Safari"
-			]
-		},
-		{
 			"title": "Color Contrast Analyzer",
 			"description": "Allows you to analyze text color contrast problems on a webpage according to the WCAG 2 text color contrast requirements.",
 			"additional": "NC State IT Accessibility",
@@ -663,6 +651,16 @@
 			"description": "Some sites annoyingly open links in new tabs. This extension lets you take back control.",
 			"additional": "phpied.com",
 			"url": "https://chromewebstore.google.com/detail/openinthesametab/lfpobllhlghoebgfogblmjpaobmoanfg",
+			"browsers": [
+				"Chrome",
+				"Edge"
+			]
+		},
+		{
+			"title": "Silktide Accessibility Checker",
+			"description": "Test your website against over 200 website accessibility checks with Silktide’s easy to understand accessibility checker.",
+			"additional": "Silktide Ltd.",
+			"url": "https://chromewebstore.google.com/detail/silktide-accessibility-ch/mpobacholfblmnpnfbiomjkecoojakah",
 			"browsers": [
 				"Chrome",
 				"Edge"
@@ -2498,6 +2496,12 @@
 			"description": "Accessibility of the world wide web hasn’t always been a number one priority for web developers (much to detriment of internet users). Whilst very few people set out to design a website that is inaccessible, many studies have documented partially or completely inaccessible websites.",
 			"additional": "Amy Dickens",
 			"url": "https://medium.com/samsung-internet-dev/are-you-accessible-a-primer-on-web-accessibility-7b2ab0ceffe8"
+		},
+		{
+			"title": "mouseless",
+			"description": "Lightning-fast mouse control with the keyboard.",
+			"additional": "Sonuscape LLC",
+			"url": "https://mouseless.click/"
 		},
 		{
 			"title": "Solid Start",
