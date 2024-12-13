@@ -155,6 +155,9 @@ further_reading:
   - title: "Should I Use An Accessibility Overlay?"
     url: https://shouldiuseanaccessibilityoverlay.com/
     source: Michael Spellacy
+  - title: "Overlays and other "fix-it" products"
+    url: https://www.makethingsaccessible.com/guides/overlays-and-other-fix-it-products/
+    source: Make Things Accessible
   - title: "Do Away with Overlays"
     url: https://accessibleweb.com/web-accessibility-news/do-away-with-overlays/
     source: Accessible Web
