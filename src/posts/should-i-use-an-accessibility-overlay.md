@@ -5,6 +5,9 @@ category: Background
 author: The A11Y Project Team
 date: 2021-03-08
 further_reading:
+  - title: "FTC Order Requires Online Marketer to Pay $1 Million for Deceptive Claims that its AI Product Could Make Websites Compliant with Accessibility Guidelines"
+    url: https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-order-requires-online-marketer-pay-1-million-deceptive-claims-its-ai-product-could-make-websites
+    source: Federal Trade Comission
   - title: "#accessiBe Will Get You Sued"
     url: https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit
     source: Adrian Roselli
