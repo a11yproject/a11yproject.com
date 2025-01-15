@@ -5,6 +5,11 @@ category: Background
 author: The A11Y Project Team
 date: 2021-03-08
 further_reading:
+  - title: "FTC Order Requires Online Marketer to Pay $1 Million for Deceptive Claims that its AI Product Could Make Websites Compliant with Accessibility Guidelines"
+    url: https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-order-requires-online-marketer-pay-1-million-deceptive-claims-its-ai-product-could-make-websites
+  - title: "Userway faces class action lawsuit over alleged false accessibility and ADA compliance claims"
+    url: https://techstartups.com/2024/12/23/userway-faces-class-action-lawsuit-over-alleged-false-accessibility-and-ada-compliance-claims/
+    source: Federal Trade Comission
   - title: "#accessiBe Will Get You Sued"
     url: https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit
     source: Adrian Roselli
@@ -155,6 +160,9 @@ further_reading:
   - title: "Should I Use An Accessibility Overlay?"
     url: https://shouldiuseanaccessibilityoverlay.com/
     source: Michael Spellacy
+  - title: "Overlays and other “fix-it” products"
+    url: https://www.makethingsaccessible.com/guides/overlays-and-other-fix-it-products/
+    source: Make Things Accessible
   - title: "Do Away with Overlays"
     url: https://accessibleweb.com/web-accessibility-news/do-away-with-overlays/
     source: Accessible Web
@@ -170,6 +178,9 @@ further_reading:
   - title: What a new accessibility class action lawsuit means for agencies
     source: Access Armada
     url: https://www.accessarmada.com/blog/what-a-new-accessibility-class-action-lawsuit-means-for-agencies/
+  - title: "Widgets vs. Direct Remediation: A cost analysis for SMBs"
+    source: Afixt
+    url: https://afixt.com/widgets-vs-direct-remediation-a-cost-analysis-for-smbs/
   - title: "My Journey with Accessibility Overlays: A 13-Year Reflection"
     source: Amihai Miron on LinkedIn
     url: https://www.linkedin.com/posts/amihaimiron_my-journey-with-accessibility-overlays-a-activity-7201231937078734849-xYQy/
