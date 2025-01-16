@@ -1673,6 +1673,12 @@
 			"url": "https://accessible-mobile-apps-weekly.ghost.io/"
 		},
 		{
+			"title": "Accessibility Unlocked",
+			"description": "A free six day newsletter series that covers who benefits from accessibility, and how you can start designing, building, measuring, testing, and managing accessibility.",
+			"additional": "TetraLogical",
+			"url": "https://tetralogical.com/newsletters/accessibility-unlocked/"
+		},
+		{
 			"title": "Accessibility Weekly",
 			"description": "A weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday.",
 			"additional": "David A. Kennedy",
