@@ -62,6 +62,66 @@ function processChecklist() {
 	populateChecklistFromLocalStorage(checkboxSelector);
 	processChecklistClick(checkboxSelector);
 }
+/**
+ * Toggles all details elements within a container to a specific state
+ * @param {HTMLElement} container - The container element
+ * @param {boolean} shouldExpand - Whether to expand or collapse
+ */
+function toggleDetails(container, shouldExpand) {
+    var details = container.querySelectorAll('details');
+    var length = details.length;
+    for (var i = 0; i < length; ++i) {
+        if (shouldExpand) {
+            details[i].setAttribute('open', '');
+        } else {
+            details[i].removeAttribute('open');
+        }
+    }
+}
+
+/**
+ * Sets up toggle functionality for category and global controls
+ */
+function setupToggles() {
+    var mainContent = document.querySelector('[data-content]');
+    var toggleAllBtn = document.getElementById('toggle-all');
+    var allExpanded = false;
+
+    // Setup global toggle
+    if (toggleAllBtn) {
+        toggleAllBtn.setAttribute('aria-expanded', 'false');
+        
+        toggleAllBtn.addEventListener('click', function() {
+            allExpanded = !allExpanded;
+            toggleDetails(mainContent, allExpanded);
+            toggleAllBtn.setAttribute('aria-expanded', allExpanded.toString());
+            toggleAllBtn.textContent = allExpanded ? 'Close All' : 'Open All';
+        });
+    }
+
+    // Setup category toggles
+    var categoryToggles = document.querySelectorAll('.toggle-category');
+    var length = categoryToggles.length;
+    for (var i = 0; i < length; ++i) {
+        var toggle = categoryToggles[i];
+        toggle.setAttribute('aria-expanded', 'false');
+        
+        toggle.addEventListener('click', function(event) {
+            var btn = event.currentTarget;
+            var categorySection = btn.closest('[data-checklist-category]');
+            var categoryName = categorySection.getAttribute('data-checklist-category');
+            var isExpanded = btn.getAttribute('aria-expanded') === 'true';
+            var newExpandedState = !isExpanded;
+            
+            toggleDetails(categorySection, newExpandedState);
+            btn.setAttribute('aria-expanded', newExpandedState.toString());
+            btn.textContent = newExpandedState ? 
+                'Close ' + categoryName : 
+                'Open ' + categoryName;
+        });
+    }
+}
 
 openLinkedCheckListItem();
 processChecklist();
+setupToggles();
