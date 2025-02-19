@@ -181,6 +181,9 @@ further_reading:
   - title: "Widgets vs. Direct Remediation: A cost analysis for SMBs"
     source: Afixt
     url: https://afixt.com/widgets-vs-direct-remediation-a-cost-analysis-for-smbs/
+  - title: "Fixing digital accessibility issues with the press of a button: too good to be true?"
+    source: Eleven Ways
+    url: https://www.elevenways.be/en/articles/overlays-digital-accessibility-fix-with-a-press-of-a-button
   - title: "My Journey with Accessibility Overlays: A 13-Year Reflection"
     source: Amihai Miron on LinkedIn
     url: https://www.linkedin.com/posts/amihaimiron_my-journey-with-accessibility-overlays-a-activity-7201231937078734849-xYQy/
