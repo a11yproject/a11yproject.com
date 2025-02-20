@@ -13,6 +13,8 @@ further_reading:
   - title: "#accessiBe Will Get You Sued"
     url: https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit
     source: Adrian Roselli
+  - title: "Web Accessibility - European Comission"
+    url: https://digital-strategy.ec.europa.eu/en/policies/web-accessibility 
   - title: 4 Reasons Why Accessibility Overlays Fall Short
     url: https://blog.usablenet.com/3-reasons-why-accessibility-overlays-fall-short
     source: Usablenet
