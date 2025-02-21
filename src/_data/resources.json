@@ -1081,6 +1081,12 @@
 			"url": "https://uxdesign.cc/accessibility-guidelines-for-a-ux-designer-c3ba775539be"
 		},
 		{
+			"title": "Chartability",
+			"description": "Chartability is a set of heuristics (testable questions) for ensuring that data visualizations, systems, and interfaces are accessible.",
+			"additional": "Fizz Studio",
+			"url": "https://chartability.fizz.studio/"
+		},
+		{
 			"title": "A Designer’s Guide to Documenting Accessibility & User Interactions",
 			"description": "Great documentation helps teams implement accessibility requirements the right way. I will tell you why, what and how designers can document different aspects of accessibility and user interactions requirements, to build better more inclusive products.",
 			"additional": "Stéphanie Walter",
