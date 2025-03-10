@@ -236,11 +236,18 @@
 			"biography": "Founder of MadHackerHaus and Rolled Up Sleeves, LLC. Advocate for accessibility in developing the internet and mobile technology."
 		},
 		{
-			"name": "Rachel R. Vasquez",
-			"first": "Rachel",
-			"website": "http://rachievee.com",
-			"photo": "https://avatars0.githubusercontent.com/u/10246844?s=460&v=4",
-			"biography": "Senior WordPress Developer."
+			"name": "Nat Tarnoff",
+			"first": "Nat",
+			"website": "http://tarnoff.info/",
+			"photo": "https://pbs.twimg.com/profile_images/855580021951537152/bS14U2d5_400x400.jpg",
+			"biography": "Founder of MadHackerHaus and Rolled Up Sleeves, LLC. Advocate for accessibility in developing the internet and mobile technology."
+		},
+		{
+			"name": "Paul McFedries",
+			"first": "Paul",
+			"website": "https://paulmcfedries.com",
+			"photo": "https://avatars.githubusercontent.com/u/7156439?s=200&v=4",
+			"biography": "Author of more than 100 technical books, including Web Design Playground, Web Coding and Development All-in-One For Dummies, and HTML, CSS, and JavaScript All-in-One For Dummies."
 		},
 		{
 			"name": "Rian Rietveld",
