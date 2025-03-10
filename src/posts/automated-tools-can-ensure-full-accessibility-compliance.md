@@ -3,7 +3,7 @@ title: Automated tools can ensure full accessibility compliance
 description: "Can automated tools guarantee full compliance with accessibility standards like WCAG? The short answer is no."
 category: Myth
 author: Melwyn Joseph
-date: 2025-03-XX
+date: 2025-03-10
 tags:
   - myth
 ---
