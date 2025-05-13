@@ -590,7 +590,17 @@
 			"browsers": [
 				"Chrome",
 				"Firefox",
-				"Edge",
+				"Edge"
+			]
+		},
+		{
+			"title": "IBM Equal Access Checker",
+			"description": "The IBM Equal Access Accessibility Checker is an open source tool for web developers and auditors that utilizes IBM's accessibility rule engine, which detects accessibility issues for web pages and web applications. The extension integrates into the browser development tools, providing an integrated checking experience, helping users quickly identify the source of accessibility issues and try fixes.",
+			"additional": "IBM",
+			"url": "https://www.ibm.com/able/toolkit/tools/#develop",
+			"browsers": [
+				"Chrome",
+				"Firefox",
 				"Edge"
 			]
 		},
