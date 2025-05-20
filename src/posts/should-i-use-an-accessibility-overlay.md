@@ -17,7 +17,7 @@ further_reading:
     url: https://digital-strategy.ec.europa.eu/en/policies/web-accessibility 
   - title: The Impact of Web Accessibility Overlays on the Usability and User Experience for People with Permanent Visual Impairments
     url: https://overlays.dnikub.dev/
-    source: Daniela Kubesch, MSc MSc
+    source: "Daniela Kubesch, MSc MSc"
 	- title: 4 Reasons Why Accessibility Overlays Fall Short
     url: https://blog.usablenet.com/3-reasons-why-accessibility-overlays-fall-short
     source: Usablenet
