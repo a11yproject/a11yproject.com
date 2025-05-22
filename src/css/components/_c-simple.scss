@@ -12,9 +12,7 @@
 		object-fit: contain;
 		@include var(color, hero-background-text);
 	}
-
 }
-
 
 .c-simple__hero {
 	position: relative;
@@ -22,13 +20,13 @@
 	@include var(background-color, hero-content-background);
 	@include var(border-color, hero-content-accent);
 	@include var(color, hero-content-text);
-	margin-top: 2rem;
+	margin-top: $m-4;
 	padding: 1rem 2rem 2rem;
 	z-index: 1;
 
 	// Supports
 	@supports #{$supports-flex} {
-		margin-top: 0;
+		margin-top: $m-0;
 
 		// Breakpoints
 		@include mappy-bp(palm-large) {
@@ -43,10 +41,9 @@
 	// Text-level formatting
 	p {
 		font-family: $font-family-secondary;
-		margin-top: 1.5rem;
+		margin-top: $m-3;
 	}
 }
-
 
 .c-simple__link {
 	@include link-states(link-text);

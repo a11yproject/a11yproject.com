@@ -9,11 +9,9 @@
 	}
 }
 
-
 .c-homepage-card--resources {
-	margin-right: 2rem;
+	margin-right: $m-4;
 }
-
 
 .c-homepage-card--spotlight {
 	// Breakpoints
@@ -23,14 +21,12 @@
 
 	// Supports
 	@supports #{$supports-flex} {
-
 		// Breakpoints
 		@include mappy-bp(palm-large) {
 			justify-self: end;
 		}
 	}
 }
-
 
 .c-homepage-card__image-link {
 	// States
@@ -39,21 +35,18 @@
 	}
 }
 
-
 .c-homepage-card__image {
 	cursor: pointer;
-	margin-top: 3rem;
+	margin-top: $m-6;
 	filter: var(--image-filter);
 }
-
 
 .c-homepage-card__author {
 	@include var(color, card-heading-text);
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
-	margin-top: 1.5rem;
+	margin-top: $m-3;
 }
-
 
 .c-homepage-card__title {
 	cursor: pointer;
@@ -61,10 +54,9 @@
 	text-decoration: none;
 }
 
-
 .c-homepage-card__description {
 	font-family: $font-family-secondary;
-	margin-top: 1rem;
+	margin-top: $m-3;
 	margin-bottom: 1rem;
 	max-width: 50ch;
 }
@@ -74,7 +66,7 @@
 	@include var(border-color, secondary-link-accent);
 	@include var(color, secondary-link-text);
 	font-family: $font-family-secondary;
-	margin-top: 1rem;
+	margin-top: $m-3;
 	text-decoration: none;
 
 	// States
@@ -102,7 +94,6 @@
 	}
 }
 
-
 .c-homepage-card__checklist {
 	height: auto;
 	position: relative;
@@ -120,12 +111,10 @@
 	}
 }
 
-
 .c-homepage-card__spotlight-avatar {
 	@include avatar-size("large");
 	position: relative;
 }
-
 
 .c-homepage-card__spotlight__info {
 	@include var(background-color, featured-card-background);
@@ -144,11 +133,9 @@
 	}
 }
 
-
 .c-homepage-card__spotlight-name {
 	font-family: $font-family-secondary;
 }
-
 
 .c-homepage-card__spotlight-role {
 	@include var(color, featured-card-heading-text);
