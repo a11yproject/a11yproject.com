@@ -1,0 +1,68 @@
+name: Check for Broken Links
+
+on:
+  schedule:
+    # Run on the first day of every month at 9 AM UTC
+    - cron: '0 9 1 * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Check for broken links
+        id: lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          # Check the built site
+          args: >
+            --verbose
+            --no-progress
+            --accept 200,204,206,301,302,307,308
+            --timeout 20
+            --max-retries 3
+            --user-agent "Mozilla/5.0 (compatible; lychee/0.13.0; +https://github.com/lycheeverse/lychee)"
+            --exclude-loopback
+            --exclude "^https://twitter\.com"
+            --exclude "^https://x\.com"
+            --exclude "^https://linkedin\.com"
+            --exclude "localhost"
+            --exclude "example\.com"
+            --exclude "^mailto:"
+            --exclude "^tel:"
+            --exclude "^javascript:"
+            --exclude-path "node_modules"
+            --exclude-path ".git"
+            _site
+          output: ./lychee-report.md
+          format: markdown
+          fail: false # Don't fail the action, just report
+
+      - name: Create or update issue
+        if: ${{ steps.lychee.outputs.exit_code != 0 }}
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Monthly Broken Links Report"
+          content-filepath: ./lychee-report.md
+          labels: |
+            bug
+            help wanted
+            content
+          assignees: |
+            ericwbailey
+            scottohara
