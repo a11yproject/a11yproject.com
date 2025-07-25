@@ -100,7 +100,12 @@
 			"title": "Web Axe",
 			"description": "Blog and podcast on web accessibility.",
 			"url": "http://www.webaxe.org/"
-		}
+		},
+		{
+			"title": "GetWCAG Blog",
+			"description": "A blog and tips on web accessibility.",
+			"url": "https://getwcag.com/blog"
+		},
 	],
 	"bookmarklets": [
 		{
@@ -1270,7 +1275,13 @@
 			"description": "WAI-ARIA Roles, States and Properties auto-completion for Sublime Text.",
 			"additional": "Indrek Paas",
 			"url": "https://packagecontrol.io/packages/WAI-ARIA"
-		}
+		},
+		{
+			"title": "GetWCAG Accessibility platform ",
+			"description": "GetWCAG automated web app scanner where you can scan thousands of pages in minutes.",
+			"additional": "GetWCAG",
+			"url": "https://getwcag.com"
+		},
 	],
 	"email": [
 		{
@@ -1995,7 +2006,12 @@
 			"title": "WeCo",
 			"description": "We’re accessibility experts who live with the disabilities you’re trying to accommodate. Let us help you bring real-life accessibility, and legal compliance, to your projects.",
 			"url": "https://theweco.com/"
-		}
+		},
+		{
+			"title": "GetWCAG",
+			"description": "GetWCAG is a company that can help you with accessibility. Offering development services and automated scans.",
+			"url": "https://getwcag.com/"
+		},
 	],
 	"professionalTesters": [
 		{
