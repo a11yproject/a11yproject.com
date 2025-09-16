@@ -1865,6 +1865,13 @@
 			"type": "Podcast"
 		},
 		{
+			"title": "Beyond Barriers",
+			"description": "Wally teams up with accessibility experts across the content supply and the disabled community, to understand their insights on accessibility.",
+			"additional": "Wally",
+			"url": "https://wallyax.com/beyond-barriers",
+			"type": "Podcast"
+		},
+		{
 			"title": "Command Z Podcast - Episodio 86: Ivonne Acevedo | Accesibilidad sin barreras (Spanish)",
 			"description": "Escucha la importancia del diseño universal en proyectos arquitectónicos.Aprende sobre conceptos básicos de la accesibilidad digitalVisualiza como tú puedes aportar mediante tus diseños la accesibilidad y diversidad que todos necesitamos.",
 			"additional": "Ivonne Acevedo",
