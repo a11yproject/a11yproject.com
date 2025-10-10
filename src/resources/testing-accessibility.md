@@ -1,7 +1,7 @@
 ---
 layout: layouts/featured
 title: Testing Accessibility
-image: /resources/testing-accessibility.png
+image: /resources/testing-accessibility.jpg
 category: Featured resource
 featured_resource:
   - title: Check out the Testing Accessibility workshop
