@@ -27,99 +27,101 @@ tags:
 	- howto
 ---
 
-A "modal" or "dialog" is a window that appears on top of a site's content. It's meant to capture people's attention, and may even require interaction
-before it can be dismissed.
+A "modal" or "dialog" is a window that appears on top of a site's content. It draws attention and may require interaction before the user can dismiss it.
 
-Many people may also be familiar with it being called a "pop-up". The words "modal" and "dialog" may seem interchangeable, but
-they are two different components that require different accessibility approaches. Let's review what these differences are.
+People often know these as pop-ups. They also use the words “modal” and “dialog” as if they mean the same thing, but these terms describe different
+components and follow different accessibility rules. Below is a breakdown of how they differ.
 
 ## Interaction differences
 
-The difference between a "modal dialog" and a "non-modal dialog" is that a modal dialog blocks interaction with the site content behind it. A translucent full-screen
-background color will usually appear behind the modal-dialog to emphasize this.
+A modal dialog blocks interaction with the rest of the page. A translucent full-screen background often appears behind it to make this clear.
 
-A non-modal dialog does not have a translucent background, and it does not block interaction with the site's content behind it.
+A non-modal dialog does not block interaction with the page and does not include a translucent background.
 
 ### Examples of modal dialog uses
 
-A modal dialog is useful for informing people of critical information, collecting required details or confirming irreversible actions. Some examples are:
+Modal dialogs are useful for informing people of critical information or confirming required actions. Some examples are:
 
-- Confirming destructive actions like before deleting data permanently.
+- Confirming destructive actions, such as deleting data.
 - Collecting required payment details for checkout.
-- Showing critical warnings and alerts.
-- Asking to acknowledge or agree to legal terms before proceeding.
-- A login form to view content only accessible to those who are logged in.
+- Displaying critical warnings and alerts.
+- Asking users to agree to legal terms.
+- Showing a login form when access requires authentication.
 
-Since this kind of dialog blocks interaction with the rest of the page and can feel disruptive, it's best to use modal dialogs for sharing really important
-information and to implement them sparingly.
+Because a modal dialog interrupts the page, it should be used sparingly.
 
 ### Examples of non-modal dialog uses
 
-A non-modal dialog is useful for sharing optional information and choices. Some examples are:
+Non-modal dialogs are useful for optional information and choices. Some examples are:
 
-- For newsletter signups.
-- For help text or tool tips.
-- To offer optional settings and preferences.
-- To advertise a product or sale.
+- Newsletter signups.
+- Help text or tooltips.
+- Optional settings and preferences.
+- Product, event, or sale announcements.
 
 ## Keyboard behavior differences
 
 Keyboard behavior differs between the two kinds of dialogs. Here is how each differ and where both dialogs should have the same keyboard behavior:
 
-**Modal dialog**
-- Maintains keyboard focus. None of the content behind should be focusable unless the modal dialog has been closed.
-- When the modal dialog is opened, the [autofocus](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus) attribute should be added to the element we expect people to interact with immediately.
+**Modal dialogs**
+- Keep keyboard focus inside the dialog. People should not be able to focus on any content behind it.
+- When the dialog is open, focus should move to the element users need first. The [autofocus](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/autofocus) attribute is helpful for this.
 
-In most cases, `autofocus` is added to the close button, but depending on the modal dialog's content, that might not be the best user experience.
+**Non-modal dialogs**
+- Do not trap keyboard focus. Users can move focus into and out of the dialog.
+- The dialog should close automatically when it loses focus.
+- Pressing the `esc` key should close the dialog.
 
-**Non-modal dialog**
-- Does not maintain keyboard focus. Meaning we can focus in and out of the dialog and are not blocked from content behind it.
-- Once the dialog loses focus, it should automatically close.
-- The `esc` key should close the dialog.
+**Behaviors shared by both**
+- Focus should move into the dialog once it's triggered.
+- When a dialog is closed, focus should return to the triggering element.
+- If there was no trigger, focus should return to the element that was focused before the dialog opened.
 
-**Both dialog types**
-- Focus should automatically move into the dialog once it's triggered.
-- When a modal dialog is closed or a non-modal dialog loses focus, focus should return to the element that triggered it.
-- If the dialog is not triggered by an element, when the dialog closes, focus should return to the previously focused element from before the dialog was active.
+## How to create a dialog
 
-## How to implement a dialog
+The [dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog) makes it easier to create both modal and non-modal dialogs.
+It includes several built-in features that developers would otherwise need to add manually.
 
-The [dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog) gives developers an easier way to create dialogs and can be used to create both modal and non-modal dialogs.
-The `dialog` element also offers out of the box accessibility features that would otherwise be implemented manually. Here are the benefits
-to using this element:
+### Key benefits:
 
-- Implementation usually requires less Javascript and CSS when compared to implementing an accessible dialog from scratch.
-- Automatically adds an `open` attribute to indicate when the dialog is active and can be interacted with.
-- Automatically handles the `aria-modal` attribute for modal dialogs. This attribute helps assistive technologies to correctly identify and interact with the dialog.
-- Inherently supports closing modal dialogs with the `esc` key.
-  - Note: Does not support closing non-modal dialogs with the `esc` key by default. This can be added manually via Javascript.
-- Automatically manages focus within modal dialogs.
+- Requires less JavaScript and CSS than building a dialog from scratch.
+- Toggles an `open` attribute to show when the dialog is active.
+- Manages the `aria-modal` attribute on modal dialogs. This attribute helps assistive technologies to identify and interact with the dialog.
+- Supports closing modal dialogs with the `esc` key.
+  - Note: Does not support closing non-modal dialogs with the `esc` key by default. This can be added via custom Javascript.
+- Manages focus within modal dialogs.
 - Comes with native functions to open and close dialogs.
-- Modal dialogs include a `::backdrop` pseudo-element that can be styled with CSS.
-- The `<dialog>` element has semantic meaning.
+- Modal dialogs include a `::backdrop` pseudo-element for styling.
+- Gives semantic meaning to your markup.
 
 ### ARIA attributes
 
-For attributes that are not handled out of the box by using the dialog element, we can add ourselves. We will need attributes on both the element
-that triggers the dialog and attributes on the dialog itself. The trigger is usually a button element so we'll  move forward with that assumption.
+For attributes that are not handled out of the box, we can add them ourselves.
 
-For the trigger button, we need to apply the [aria-haspopup](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-haspopup) and [aria-controls](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-controls) attributes.
-`aria-haspopup="dialog"` tells assistive technologies that the button can trigger a popup, in this case, a dialog popup.
+#### Trigger element
 
-Using `aria-controls` on the button, that then references the `id` attribute on our dialog, connects the two. It's like telling assistive technology, "Hey, this button controls this dialog with this ID!"
+The trigger is usually a button element so we'll move forward with that assumption.
 
-Now for the dialog element, if our dialog has a heading or title, we can add an `id` attribute to our heading, and then
-use the `aria-labelledby` attribute on the dialog. This links the dialog to the visible title which is then read out loud by assistive technologies
-when the dialog appears.
+- `aria-haspopup="dialog"` — announces that the button opens a dialog.
+- `aria-controls="dialog-id"` — links the button to the dialog it controls.
 
-If there is a description or summary in the dialog, we can also use `aria-describedby` on the dialog element. This links the dialog to
-descriptive content which is also read aloud by assistive technologies.
+#### Dialog element
 
-Now that we've gone over necessary and optional ARIA attributes, let's see what this looks like in practice.
+If the dialog has a heading:
+
+- Give the heading an id.
+- Add `aria-labelledby="heading-id"` to link the dialog to its title.
+
+If the dialog has descriptive text:
+
+- Give the descriptive element an id.
+- Add `aria-describedby="description-id"`.
+
+Assistive technologies will read both the title and description when the dialog opens.
 
 ### HTML
 
-This is a bare-bones example of a button that triggers a dialog that has an "example-dialog" id attribute:
+A simple button that triggers a dialog might look like this:
 
 ``` html
 <button id="btn-dialog-trigger" aria-haspopup="dialog" aria-controls="example-dialog">
@@ -127,7 +129,7 @@ This is a bare-bones example of a button that triggers a dialog that has an "exa
 </button>
 ```
 
-And this is what the dialog it's linked to would look like in the HTML:
+And a basic dialog that connects to the button:
 
 ``` html
 <dialog id="example-dialog" aria-modal="true" aria-labelledby="dialog-title" aria-describedby="dialog-content" autoFocus>
@@ -143,24 +145,22 @@ And this is what the dialog it's linked to would look like in the HTML:
 </dialog>
 ```
 
-Note that the `aria-modal` attribute is handled automatically. We've linked to what our dialog title is and what our dialog is about with
-our `dialog-title` id on the heading, and our `dialog-content` id on a paragraph element.
+Note: The `aria-modal` attribute is added automatically for modal dialogs.
 
 ### Notes on the close button
 
-The close button inside the dialog was written with the assumption that it's using an SVG or other icon instead of visible text. While visible text is
-the most accessible option, that isn't how close buttons are usually designed. In that case, we don't want SVGs or other icon code read by
-screen readers, so we use the `aria-hidden="true"` attribute. We also include the `aria-label="Close dialog"` along with a screen reader only text alternative.
+The example uses an icon-only close button. Since icons should not be read by screen readers, use:
 
-If you're curious on how to include text alternatives for screen readers, check out our ["How to hide content"](https://www.a11yproject.com/posts/how-to-hide-content/) post.
+- `aria-hidden="true"` on the icon.
+- `aria-label="Close dialog"` on the button.
+- A [visually hidden text alternative](https://www.a11yproject.com/posts/how-to-hide-content/) when possible.
 
 ### Javascript
 
 The dialog element comes with functions out of the box to open and close our dialogs. To open modal dialogs, we can use the `.showModal()` function.
 To open non-modal dialogs, we can use the `.show()` function.
 
-To close either type of dialog, we can use the `.close()` or `.requestClose()` functions. Here's what that looks like in practice when used with the
-example button and dialog HTML we've already provided.
+To close either type of dialog, we can use the `.close()` or `.requestClose()` functions. Here's what that looks like in practice:
 
 ``` javascript
 const dialog = document.getElementById("example-dialog");
@@ -180,9 +180,10 @@ closeButton.addEventListener("click", () => {
 ```
 
 ## Common mistakes and gotchas
+
 - Do not add `tab-index` to the `<dialog>` element as it is not interactive and cannot receive focus. The dialog's contents can be interactive and receive focus.
-- Do not disable scrolling the site content behind dialogs unless it's a modal dialog.
-- The `role="dialog` attribute is only necessary if for some reason, we're not using the `<dialog>` element. Using this attribute on a `<dialog>` element is redundant.
-- Dialog elements render to the "top layer" when opened. Because of this, `z-index` has no effect on dialog elements. Regardless of the value, dialog elements will always be the highest priority and display on top of anything else.
-- Since dialog elements open on the topmost layer, this can cause layering issues with anything that renders elements dynamically outside of it. For example, ReCAPTCHAs that live in the dialog can render challenges outside the dialog, requiring people to dismiss the dialog to interact with it.
-- [Form handling](https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html#Forms) has some UX considerations.
+- Do not disable scrolling the site's content unless it's a modal dialog that is active.
+- Do not add role="dialog" to the <dialog> element — it’s redundant.
+- `z-index` does not affect dialog stacking. Dialogs always render on the top layer.
+- Elements that render outside the dialog (such as ReCAPTCHA challenges) may appear above it. This can force users to close the dialog to interact with them.
+- [Form handling](https://adrianroselli.com/2025/06/where-to-put-focus-when-opening-a-modal-dialog.html#Forms) may have UX considerations.
