@@ -3,14 +3,14 @@ title: How to make accessible dialogs and modals
 description: Modal dialogs and non-modal dialogs are two different components. Depending on which type of dialog it is, the accessibility approach differs.
 category: How-to
 author: Rachel R. Vasquez
-date: 2025-01-12
+date: 2025-03-12
 further_reading:
   - title: "Modal dialog example"
     url: https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/
     source: W3
   - title: "The dialog element"
     url: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog/
-    source: W3
+    source: MDN
   - title: "When to use modal vs dialog components"
     url: https://www.a11y-collective.com/blog/modal-vs-dialog/
     source: A11y collective
