@@ -535,6 +535,16 @@
 			]
 		},
 		{
+			"title": "Color Blind & Low Vision Simulator",
+			"description": "This vision simulator allows users to observe how people with colorblindness or low vision may perceive web-based content.",
+			"additional": "Homer Gaines",
+			"url": "https://chromewebstore.google.com/detail/color-blind-low-vision-si/lgflijofdempkdlaknbfmacfidjjhjbb?pli=1",
+			"browsers": [
+				"Chrome",
+				"Edge"
+			]
+		},
+		{
 			"title": "Color Contrast Analyzer",
 			"description": "Allows you to analyze text color contrast problems on a webpage according to the WCAG 2 text color contrast requirements.",
 			"additional": "NC State IT Accessibility",
