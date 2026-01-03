@@ -16,7 +16,7 @@ further_reading:
   - title: "German auditors reject accessibility overlays in EAA context"
     url: https://chrisyoong.com/blog/germany-rejects-accessibility-overlays-for-eaa-compliance
     source: "Chris Yoong"
-	- title: "Web Accessibility Policies"
+  - title: "Web Accessibility Policies"
     url: https://digital-strategy.ec.europa.eu/en/policies/web-accessibility
     source: "European Comission"
   - title: The Impact of Web Accessibility Overlays on the Usability and User Experience for People with Permanent Visual Impairments
