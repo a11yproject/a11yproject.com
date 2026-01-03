@@ -13,8 +13,12 @@ further_reading:
   - title: "#accessiBe Will Get You Sued"
     url: https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html#Lawsuit
     source: Adrian Roselli
-  - title: "Web Accessibility - European Comission"
-    url: https://digital-strategy.ec.europa.eu/en/policies/web-accessibility 
+  - title: "German auditors reject accessibility overlays in EAA context"
+    url: https://chrisyoong.com/blog/germany-rejects-accessibility-overlays-for-eaa-compliance
+    source: "Chris Yoong"
+	- title: "Web Accessibility Policies"
+    url: https://digital-strategy.ec.europa.eu/en/policies/web-accessibility
+    source: "European Comission"
   - title: The Impact of Web Accessibility Overlays on the Usability and User Experience for People with Permanent Visual Impairments
     url: https://overlays.dnikub.dev/
     source: "Daniela Kubesch, MSc MSc"
