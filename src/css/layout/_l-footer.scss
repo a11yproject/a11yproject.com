@@ -8,13 +8,12 @@
 	}
 }
 
-
 // [1] Adds and removes the tagline from the footer nav lockup by toggling
 // its presence in the DOM. Nested CSS grids won't zoom properly and cause text
 // to not break, so we need to use this approach.
 .l-footer__meta--footer {
 	display: initial;
-	margin-top: 3rem;
+	margin-top: $m-6;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -22,14 +21,13 @@
 	}
 
 	@include mappy-bp(lap-small) {
-		margin-top: 6rem;
+		margin-top: $m-12;
 	}
 
 	@include mappy-bp(lap-small) {
 		display: unset;
 	}
 }
-
 
 .l-footer__meta--nav {
 	@include hide(remove); // [1]
@@ -48,11 +46,9 @@
 	}
 }
 
-
 .l-footer__theme-switcher {
-	margin-top: 1rem;
+	margin-top: $m-2;
 }
-
 
 .l-footer__tagline-copyright {
 	// Supports
@@ -64,26 +60,24 @@
 		@include mappy-bp(lap-small) {
 			flex-direction: row;
 			justify-content: space-between;
-			margin-top: 1rem;
+			margin-top: $m-2;
 		}
 	}
 }
 
-
 .l-footer__copyright {
-	margin-top: 2rem;
+	margin-top: $m-4;
 	// Supports
 	@supports #{$supports-flex} {
 		// Breakpoints
 		@include mappy-bp(lap-small) {
-			margin-top: 0;
+			margin-top: $m-0;
 		}
 	}
 }
 
-
 .l-footer__top {
-	margin-top: 1rem;
+	margin-top: $m-2;
 
 	// Breakpoints
 	@include mappy-bp(palm-small) {
@@ -91,6 +85,6 @@
 	}
 
 	@include mappy-bp(lap-small) {
-		margin-top: 0;
+		margin-top: $m-0;
 	}
 }

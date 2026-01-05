@@ -1,6 +1,5 @@
 $_banner-triangle-size: 1.49rem;
 
-
 .c-banner {
 	@include var(background-color, card-accent);
 	background-image: url("#{$path-to-img}/resource-banner-inset-lightmode.svg");
@@ -10,7 +9,7 @@ $_banner-triangle-size: 1.49rem;
 	font-family: $font-family-secondary;
 	letter-spacing: $font-tracking-slight;
 	line-height: $line-height-single;
-	margin-top: 1.5rem;
+	margin-top: $m-3;
 	padding: 0.1rem 1rem 0.6rem 0.3rem;
 
 	// [1] Magic number to position the triangle
@@ -26,28 +25,28 @@ $_banner-triangle-size: 1.49rem;
 		right: 0.275rem; // [1]
 		z-index: -1;
 
-			// User Queries
+		// User Queries
 		@media screen and (-ms-high-contrast: active) {
 			display: none;
 		}
 	}
 
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-user-theme="light"]) & {
+	@media (prefers-color-scheme: dark) {
+		:root:not([data-user-theme="light"]) & {
 			background-image: url("#{$path-to-img}/resource-banner-inset-darkmode.svg");
-    }
-  }
+		}
+	}
 
-  [data-user-theme="dark"] &  {
+	[data-user-theme="dark"] & {
 		background-image: url("#{$path-to-img}/resource-banner-inset-darkmode.svg");
-  }
+	}
 
 	// Contexts
 	&.c-banner--resource {
 		@include var(background-color, featured-card-accent);
 		background-image: none;
 		@include var(color, featured-card-accent-text);
-		margin-top: 0;
+		margin-top: $m-0;
 
 		&::before {
 			@include var(border-right-color, featured-card-accent-shadow);
@@ -56,10 +55,9 @@ $_banner-triangle-size: 1.49rem;
 
 	&.c-banner--post {
 		background-image: none;
-		margin-top: 0;
+		margin-top: $m-0;
 	}
 }
-
 
 .c-banner__icon {
 	fill: currentColor;

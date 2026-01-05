@@ -2,9 +2,8 @@
 //
 // Style guide: Components.linkroll
 .c-linkroll {
-	margin-top: 1rem;
+	margin-top: $m-2;
 }
-
 
 .c-linkroll__link {
 	border-left: $border-thicker solid;
@@ -81,12 +80,10 @@
 	}
 }
 
-
 .c-linkroll__link--featured {
 	border-top: $border-thicker solid transparent;
 	border-left: none;
 }
-
 
 .c-linkroll__entry {
 	@include preserve-list-semantics();
@@ -94,23 +91,19 @@
 	margin-top: 1.25rem;
 }
 
-
 .c-linkroll__category {
 	@include var(color, card-meta-text);
 }
 
-
 .c-linkroll__category--featured {
 	padding-top: 1rem;
 }
-
 
 .c-linkroll__title {
 	@include var(color, card-text);
 	line-height: $line-height-tight;
 	text-decoration: none;
 }
-
 
 .c-linkroll__featured {
 	border-bottom: $border-thin dotted transparent;

@@ -26,8 +26,8 @@
 				display: grid;
 				grid-template-columns: map-get($global-bleed, large) $global-grid-columns map-get($global-bleed, large);
 				grid-template-areas: ". toc content .";
-				margin-left: 0;
-				margin-right: 0;
+				margin-left: $m-0;
+				margin-right: $m-0;
 			}
 		}
 	}
