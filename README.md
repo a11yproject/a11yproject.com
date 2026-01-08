@@ -1,3 +1,5 @@
+![Build](https://github.com/a11yproject/a11yproject.com/actions/workflows/eleventy-build.yml/badge.svg)
+
 ![A11Y.](https://github.com/a11yproject/a11yproject.com/blob/main/src/img/social/og-image-home.png?raw=true)
 
 # The A11Y Project
