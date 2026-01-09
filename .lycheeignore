@@ -1,0 +1,28 @@
+# Lychee ignore file for broken link checking
+
+# Social media sites often block automated checkers
+https://twitter.com/*
+https://x.com/*
+https://linkedin.com/*
+https://www.linkedin.com/*
+https://facebook.com/*
+https://www.facebook.com/*
+
+# Authentication required
+https://github.com/*/edit/*
+https://github.com/*/new/*
+
+# Local development
+http://localhost*
+http://127.0.0.1*
+
+# Examples and documentation
+http://example.com/*
+https://example.com/*
+
+# These sites often give false positives
+https://www.amazon.com/*
+https://codepen.io/*
+
+# Temporary ignores for known issues
+# Add specific URLs here that are temporarily down but expected to return
