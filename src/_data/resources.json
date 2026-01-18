@@ -2560,11 +2560,12 @@
 			"additional": "Max Antonucci",
 			"url": "https://dev.to/maxwell_dev/the-web-accessibility-introduction-i-wish-i-had-4ope"
 		},
-		{
-			 "title": "Readable Content Guidelines",
-       "url": "https://webaim.org/techniques/writing/",
-       "description": "A simple guide on writing readable, accessible content using clear language, short sentences, and proper structure.",
-       "author": "WebAIM"
-		}
+  {
+    "title": "Readable Content Guidelines",
+    "url": "https://webaim.org/techniques/writing/",
+    "description": "A simple guide on writing readable, accessible content using clear language, short sentences, and proper structure.",
+    "author": "WebAIM"
+  }
+
 	]
 }
