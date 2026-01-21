@@ -1163,6 +1163,12 @@
 			"url": "https://a11y-automation.dev/"
 		},
 		{
+			"title": "Accessibility Cloud",
+			"description": "Test & monitor your websites and documents against WCAG, EN 301 549, Section 508 and ADA. Accessibility Cloud offers automatic and manual accessibility tests, monitoring and compliance management within the same powerful platform.",
+			"additional": "Accessibility Cloud",
+			"url": "https://www.accessibilitycloud.com/"
+		},
+		{
 			"title": "Accessify",
 			"description": "Run a free website performance test and get actionable tips on how to optimize it.",
 			"additional": "Accessify",
