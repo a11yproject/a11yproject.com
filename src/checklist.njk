@@ -83,6 +83,12 @@ templateClass: template-checklist
 	</div>
 
 	<hr class="c-divider" />
+	
+	<button 
+		type="button" 
+		id="toggle-all" 
+		class="c-checklist-toggle c-checklist-toggle--global" 
+		aria-expanded="false">Open All</button>
 
 	{% for category, content in checklists %}
 	{# 6 May 2021: We don't publish our guidelines about SVGs #}
@@ -95,6 +101,12 @@ templateClass: template-checklist
 	<p class="c-preface">
 		{{ content.preface | safe }}
 	</p>
+
+	<button 
+		type="button" 
+		class="c-checklist-toggle c-checklist-toggle--category toggle-category" 
+		aria-expanded="false">Open {{ category }}</button>
+	
 	<div class="c-card__wrapper">
 		{% set tasks = content.tasks %}
 		{% for task in tasks %}
