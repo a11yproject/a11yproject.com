@@ -10,7 +10,7 @@ If you are unfamiliar with the term [Jamstack](https://jamstack.org/what-is-jams
 
 When redesigning, keeping a Jamstack approach was of the utmost importance. Jamstack websites are more approachable, more accessible, and more performance-conscious. These qualities are vital for creating inclusive experiences on the web.
 
-We would also like to thank [Zach Leatherman and the Eleventy team](https://www.11ty.dev/) for creating a static site generator that was [a perfect fit for our needs when redesigning](https://www.a11yproject.com/announcements/redesign/#eleventy).
+We would also like to thank [Zach Leatherman and the Eleventy team](https://www.11ty.dev/) for creating a static site generator that was [a perfect fit for our needs when redesigning](/announcements/redesign/#eleventy).
 
 Our deepest gratitude is extended to [the Jamstack conference](https://jamstackconf.com/) team and community, as well as our contributors and our maintainers. Your support makes this effort possible.
 
