@@ -54,7 +54,7 @@
 		{
 			"name": "Scott Vinkle",
 			"first": "Scott",
-			"website": "https://scottvinkle.me/",
+			"website": "https://scottvinkle.com/",
 			"photo": "{{ '/img/team/scott-vinkle.jpg' | url }}",
 			"biography": "Hi, I'm Scott. Web accessibility consultant and front end engineer from Toronto, Canada."
 		},
