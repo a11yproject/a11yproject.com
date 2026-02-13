@@ -428,7 +428,7 @@
 				"checkboxId": "good-proximity-of-content",
 				"wcag": "1.3.3 Sensory Characteristics",
 				"url": "https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics.html",
-				"description": "Use <a href='https://scottvinkle.me/blogs/work/proximity-and-zoom'>the straw test</a> to ensure people who depend on screen zoom software can still easily discover all content. "
+				"description": "Use <a href='https://scottvinkle.com/blogs/work/proximity-and-zoom'>the straw test</a> to ensure people who depend on screen zoom software can still easily discover all content. "
 			},
 			{
 				"title": "Make sure color isn't the only way information is conveyed.",
