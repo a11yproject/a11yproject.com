@@ -1258,6 +1258,12 @@
 			"url": "https://github.com/guidepup/guidepup/"
 		},
 		{
+			"title": "JAWS Accessibility Skill",
+			"description": "An agent skill for AI coding assistants that helps people build accessible web interfaces. Covers JAWS and NVDA screen reader testing, WCAG 2.2 criteria, ARIA patterns, and European accessibility legislation including the European Accessibility Act and EN 301 549. Works with Claude Code, GitHub Copilot, Cursor, and other AI coding tools.",
+			"additional": "Fundacion Ambitos",
+			"url": "https://github.com/Ambitos-1995/jaws-accessibility-skill"
+		},
+		{
 			"title": "Pa11y",
 			"description": "Pa11y is your automated accessibility testing pal.",
 			"additional": "Pa11y",
