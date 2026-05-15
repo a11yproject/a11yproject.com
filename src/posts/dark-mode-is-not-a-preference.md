@@ -38,6 +38,17 @@ What Daniel describes has a name. *Halation* is the visual effect where bright a
 
 A high-contrast pairing like thin black text on pure white is among the worst offenders. The eye can't comfortably resolve the edges. The text appears to vibrate. Sustained reading becomes exhausting in a way that doesn't show up in a contrast-ratio calculation.
 
+<figure
+	role="figure"
+	aria-label="A visual demonstration of halation. Thin black text on a bright white background appears soft and to bleed outwards instead of resolving with sharp edges.">
+	<img
+		alt="A close-up of three lines of thin black handwritten text on a bright white background. The text reads, in part: 'cause bleeding into the other colours… have thin black writing on a white background… white is so bright it makes it hard to focus on text.' The letters appear softly blurred, with their edges fading and bleeding outwards into the white background instead of resolving cleanly."
+		src="/img/posts/dark-mode-is-not-a-preference/halation-example.png" />
+	<figcaption>
+		A visual demonstration of halation. Thin black text on a bright white background appears to soften and bleed at the edges, making sustained reading more effortful than the contrast ratio alone would predict.
+	</figcaption>
+</figure>
+
 White text on a dark background reverses the problem. There's less bright surface area to scatter light, so the edges sit cleanly. Patrick, who has a degenerative eye condition, put it like this:
 
 > *"White text on a black background doesn't just look cool, it's much easier on the eyes. When I used white on black, it was easier because the print would stand out much more. Even looking at the time was much easier. The numbers would just jump at you."*
