@@ -1,39 +1,53 @@
 {
 	"sponsor": [
 		{
+			"slug": "go-make-things",
 			"image": "go-make-things.svg",
 			"url": "https://gomakethings.com/",
-			"alt": "Go make things. Learn Vanilla JavaScript. Get daily developer tips."
+			"linkLabel": "Go Make Things, sponsor of The A11Y Project",
+			"tagline": "Vanilla JavaScript developer tips."
 		},
 		{
+			"slug": "assistiv-labs",
 			"image": "assistiv-labs.svg",
 			"url": "https://assistivlabs.com/?utm_source=the_a11y_project&utm_medium=sponsored_ad",
-			"alt": "Assistiv Labs. Instantly test with real screen readers and more. Get started."
+			"linkLabel": "Assistiv Labs, sponsor of The A11Y Project",
+			"tagline": "Instantly test with real screen readers."
 		},
 		{
+			"slug": "fable",
 			"image": "fable.png",
 			"url": "https://makeitfable.com/?utm_source=partnerships&utm_medium=website&utm_campaign=a11yproject",
-			"alt": "Fable."
+			"linkLabel": "Fable, sponsor of The A11Y Project",
+			"tagline": ""
 		},
 		{
+			"slug": "a11y-collective",
 			"image": "a11y-collective.svg",
 			"url": "https://a11y-collective.com/?utm_medium=website&utm_source=a11y_project&utm_campaign=banner",
-			"alt": "A11Y Collective. Online courses in web accessibility. Increase your knowledge base and add accessible code, design, or content to your skill set. Sign up for a course."
+			"linkLabel": "A11Y Collective, sponsor of The A11Y Project",
+			"tagline": "Online courses in web accessibility."
 		},
 		{
+			"slug": "be-inclusive",
 			"image": "be-inclusive.svg",
 			"url": "https://beinclusive.app/?mtm_campaign=Sponsorship&mtm_kwd=A11yProject",
-			"alt": "Be Inclusive. Tired of tracking audits in spreadsheets? Focus on what really matters, let us simplify the rest. Try it free for a week!"
+			"linkLabel": "Be Inclusive, sponsor of The A11Y Project",
+			"tagline": "Accessibility audit tracking, simplified."
 		},
 		{
+			"slug": "hello-access",
 			"image": "hello-access.svg",
 			"url": "https://www.helloaccess.co?utm_source=a11yproject",
-			"alt": "Improve your website and app accessibility. We offer user tests and audits provided by people with disabilities. Get started."
+			"linkLabel": "Hello Access, sponsor of The A11Y Project",
+			"tagline": "User tests and audits with people with disabilities."
 		},
 		{
+			"slug": "sponsor-the-a11y-project",
 			"image": "sponsor-the-a11y-project.svg",
 			"url": "https://www.a11yproject.com/sponsorship/",
-			"alt": "Sponsor The A11Y Project. Learn how."
+			"linkLabel": "Sponsor The A11Y Project",
+			"tagline": "Learn how."
 		}
 	]
 }

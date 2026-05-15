@@ -1,8 +1,15 @@
-<a class="c-sponsor__link" href="{{ sponsor.url }}">
+<a
+	class="c-sponsor__link"
+	href="{{ sponsor.url }}"
+	{% if sponsor.tagline %}aria-describedby="sponsor-{{ sponsor.slug }}-tagline"{% endif %}>
 	<img
-		alt="{{ sponsor.alt }}"
+		alt="{{ sponsor.linkLabel }}"
 		class="c-sponsor__ad"
 		loading="lazy"
-		role="img"
 		src="/img/sponsors/{{ sponsor.image }}" />
 </a>
+{% if sponsor.tagline %}
+<p id="sponsor-{{ sponsor.slug }}-tagline" class="u-hide-visually">
+	{{ sponsor.tagline }}
+</p>
+{% endif %}
