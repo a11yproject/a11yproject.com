@@ -1157,6 +1157,12 @@
 	],
 	"developmentTools": [
 		{
+	    "title": "ADAGuard",
+	    "description": "Playwright-powered WCAG 2.2 accessibility scanner with ~78% automated AA coverage. Tests live DOM after JavaScript renders — catches violations in SPAs, modals, and authenticated pages that static scanners miss. Supports ADA, Section 508, EAA, and AODA compliance.",
+	    "additional": "ADAGuard",
+	    "url": "https://www.adaguard.io"
+		},
+		{
 			"title": "A11y Automation Tracker",
 			"description": " A more thorough way to track the potential accessibility violations and the automated linters and tests currently available.",
 			"additional": " Melanie Sumner",
