@@ -815,6 +815,12 @@
 			"url": "https://hexnaw.com/"
 		},
 		{
+			"title": "OKCA",
+			"description": "An open-source contrast algorithm that closes WCAG 2.x's false-pass gap. It keeps the familiar [1, 21] scale and AA/AAA thresholds but reads perceptual lightness and penalises saturated light colors, so chromatic pairs like hot pink on near-black that pass WCAG yet fail in practice score below threshold.",
+			"additional": "John Rioflorido",
+			"url": "https://pawn002.github.io/blog-public/blog/okca-algorithm/"
+		},
+		{
 			"title": "Pika",
 			"description": "An open-source colour picker app for macOS.",
 			"additional": "Super High Fives",
