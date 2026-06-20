@@ -1223,6 +1223,12 @@
 			"url": "https://github.com/dequelabs/axe-core"
 		},
 		{
+			"title": "AxeGuard",
+			"description": "Free online WCAG scanner that loads a public URL in a real browser, runs axe-core, and reports machine-checkable accessibility issues grouped by WCAG rule with affected elements and fix guidance.",
+			"additional": "AxeGuard",
+			"url": "https://axeguard.dev/?utm_source=a11yproject&utm_medium=resource_list&utm_campaign=axeguard_launch_2026_06"
+		},
+		{
 			"title": "Atom: web-accessibility-checker",
 			"description": "Web Accessibility checker which evaluate some defined WCAG rules instantly during coding or on command.",
 			"additional": "Michael Weber",
