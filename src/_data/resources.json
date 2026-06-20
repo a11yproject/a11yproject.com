@@ -808,7 +808,7 @@
 			"additional": "Protean Studio",
 			"url": "https://contrast.tools"
 		},
-    {
+		{
 			"title": "Hex Naw",
 			"description": "Hex Naw is a tool that helps designers and developers test entire color systems for contrast and accessibility. Plug in your palette or color system and let Hex Naw do the rest.",
 			"additional": "The Scenery",
@@ -1161,6 +1161,12 @@
 			"description": " A more thorough way to track the potential accessibility violations and the automated linters and tests currently available.",
 			"additional": " Melanie Sumner",
 			"url": "https://a11y-automation.dev/"
+		},
+		{
+			"title": "A11yRisk",
+			"description": "Automated WCAG 2.1 Level AA accessibility scanner. Scan any URL, download PDF reports, and integrate into CI/CD pipelines — built for teams subject to EU EAA requirements.",
+			"additional": "A11yRisk",
+			"url": "https://www.a11yrisk.eu"
 		},
 		{
 			"title": "Accessify",
