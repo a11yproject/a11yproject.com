@@ -727,6 +727,17 @@
 			]
 		},
 		{
+			"title": "Vertex A11y: ADA/WCAG Accessibility Checker",
+			"description": "Vertex A11y scans websites for ADA/WCAG violations, highlights inaccessible elements instantly, and provides contextual explanations along with code suggestions for each issue.",
+			"additional": "Deepesh Raj",
+			"url": "https://chromewebstore.google.com/detail/vertex-a11y-adawcag-acces/fddgoomiiadfajelcedmejfcdiihdknh",
+			"browsers": [
+				"Chrome",
+				"Edge",
+				"Brave"
+			]
+		},
+		{
 			"title": "WAVE Evaluation Tool",
 			"description": "WAVE is a web accessibility evaluation tool developed by WebAIM. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page.",
 			"additional": "WebAIM",
