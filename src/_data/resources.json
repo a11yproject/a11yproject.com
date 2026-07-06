@@ -1280,6 +1280,11 @@
 			"description": "WAI-ARIA Roles, States and Properties auto-completion for Sublime Text.",
 			"additional": "Indrek Paas",
 			"url": "https://packagecontrol.io/packages/WAI-ARIA"
+		},
+		{
+			"title": "TrueConform",
+			"description": "Free axe-core based WCAG 2.1/2.2 AA scanner that grades any page or whole site with plain-language explanations and fixes in 8 languages. Includes a free accessibility statement generator and openly documents what automated testing can and cannot detect.",
+			"url": "https://trueconform.com/"
 		}
 	],
 	"email": [
