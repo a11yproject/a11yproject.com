@@ -1157,6 +1157,12 @@
 	],
 	"developmentTools": [
 		{
+			"title": "Accessibility Scanner",
+			"description": "A free, no-login automated tool that checks any web page for accessibility barriers and WCAG 2.2 compliance issues, grouping findings by severity with guidance on fix priorities.",
+			"additional": "AccessibilityScanner.org",
+			"url": "https://www.accessibilityscanner.org/"
+		},
+		{
 			"title": "A11y Automation Tracker",
 			"description": " A more thorough way to track the potential accessibility violations and the automated linters and tests currently available.",
 			"additional": " Melanie Sumner",
