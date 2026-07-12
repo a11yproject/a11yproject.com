@@ -9,6 +9,12 @@
 	],
 	"animation": [
 		{
+			"title": "MotionSpec Motion Accessibility Checker",
+			"description": "A free tool that statically scans a web page's linked CSS and style blocks for animation that ignores prefers-reduced-motion, flagging WCAG 2.2.2 (Pause, Stop, Hide) and 2.3.3 (Animation from Interactions) issues with a fix for each finding.",
+			"additional": "Fröba Sales Solutions UG — open-source MIT core on npm (motionspec)",
+			"url": "https://motionspec.dev/motion-check"
+		},
+		{
 			"title": "Photosensitive Epilepsy Analysis Tool",
 			"description": "The Trace Center's Photosensitive Epilepsy Analysis Tool (PEAT) is a free, downloadable resource for developers to identify seizure risks in their web content and software.",
 			"additional": "University of Maryland Trace Research and Development Center",
