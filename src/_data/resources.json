@@ -474,6 +474,16 @@
 	],
 	"browserExtensions": [
 		{
+			"title": "Accesserty Signal",
+			"description": "Surfaces published accessibility statements, certifications, and maintainer status for a website directly in your search results, so you can see who has committed to accessibility before you click.",
+			"additional": "Accesserty",
+			"url": "https://accesserty.com/en/signal",
+			"browsers": [
+				"Chrome",
+				"Firefox"
+			]
+		},
+		{
 			"title": "Accessibility Insights",
 			"description": "Solve accessibility issues before they reach your customers.",
 			"additional": "Microsoft",
