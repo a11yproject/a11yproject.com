@@ -1163,6 +1163,12 @@
 			"url": "https://a11y-automation.dev/"
 		},
 		{
+			"title": "Accessibility Scanner",
+			"description": "Runs the real axe-core engine against any URL and reports every WCAG violation grouped by severity, each with the exact element selector, offending HTML, failing success criterion, and a link to fix guidance. Also available as a browser extension, a command-line tool for CI, and an MCP server.",
+			"additional": "Full Cycle Development",
+			"url": "https://accessibilityscanner.app"
+		},
+		{
 			"title": "Accessify",
 			"description": "Run a free website performance test and get actionable tips on how to optimize it.",
 			"additional": "Accessify",
