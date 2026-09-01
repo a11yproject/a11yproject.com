@@ -1,0 +1,14 @@
+A11Y Project - Broken Links Report
+==================================================
+
+Link: https://www.a11yproject.com/announcements
+Replacement: /announcements/
+Occurrences: 1
+Locations:
+  - src/announcements/jammies-social-impact-award.md:13
+
+Link: https://increment.com/development/a-guide-to-coding-accessible-developer-tools
+Occurrences: 1
+Locations:
+  - src/_data/resources.json:2496
+
