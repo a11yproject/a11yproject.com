@@ -59,7 +59,7 @@
 		{
 			"title": "Alicia Jarvis' Inclusive Design Blog",
 			"description": "Hi, I’m Alicia. I'm a diversity, equity and inclusion strategist, researcher, and culture consultant based in Toronto.",
-			"url": "https://www.alicia.design/writing"
+			"url": "https://alicia.design/"
 		},
 		{
 			"title": "Level Access Blog",
@@ -152,12 +152,6 @@
 			"url": "https://cdpn.io/stevef/debug/YLMqbo"
 		},
 		{
-			"title": "tota11y",
-			"description": "An accessibility visualization toolkit.",
-			"additional": "Khan Academy",
-			"url": "http://khan.github.io/tota11y/"
-		},
-		{
 			"title": "The Visual ARIA Bookmarklet",
 			"description": "Visual ARIA allows engineers, testers, educators, and students to physically observe ARIA usage within web technologies.",
 			"additional": "WhatSock",
@@ -199,7 +193,7 @@
 			"title": "Apps For All: Coding Accessible Web Applications",
 			"description": "Web accessibility is quite a large topic — far too large to fit into a small book. So, what will this book cover? Though we shall encounter visual design challenges, deal with performance issues, and adopt progressive enhancement — all of which are accessibility concerns — the underlying theme of this book is about making the interactivity of web applications include keyboard and screen reader users.",
 			"additional": "Heydon Pickering",
-			"url": "https://shop.smashingmagazine.com/products/apps-for-all"
+			"url": "https://www.smashingmagazine.com/printed-books/apps-for-all/"
 		},
 		{
 			"title": "Appt Accessibility Handbook",
@@ -310,12 +304,6 @@
 			"url": "https://www.penguinrandomhouse.com/books/617802/disability-visibility-by-alice-wong/"
 		},
 		{
-			"title": "Giving a damn about accessibility",
-			"description": "A candid and practical handbook for designers.",
-			"additional": "Sheri Byrne-Haber, CPACC.",
-			"url": "https://accessibility.uxdesign.cc/"
-		},
-		{
 			"title": "The Glossary of Accessibility Design",
 			"description": "A guide to navigating the crucial field of accessibility design with precision and clarity. This comprehensive dictionary comprises over 700 meticulously defined terms, offering a vital resource for designers, developers, policymakers, and anyone dedicated to creating inclusive digital experiences.",
 			"additional": "Vimal Gupta",
@@ -343,7 +331,7 @@
 			"title": "Inclusion: Diversity, The New Workplace & The Will To Change",
 			"description": "The Inclusion Dividend provides a framework to tap the bottom line impact that results from an inclusive culture.",
 			"additional": "Jennifer Brown",
-			"url": "https://jenniferbrownspeaks.com/jbs-book-inclusion"
+			"url": "https://jenniferbrownspeaks.com/books/"
 		},
 		{
 			"title": "The Inclusion Dividend: Why Investing in Diversity and Inclusion Pays Off",
@@ -361,7 +349,7 @@
 			"title": "Inclusive Design Patterns",
 			"description": "Inclusive Design Handbook gets to the bottom of it all: accessibility myths and rules of thumbs, WAI-ARIA roles, content accessibility guidelines, landmark roles, keyboard and touch accessibility, accessible markup and interaction patterns, accessible forms and widgets, multimedia accessibility and inclusive prototyping.",
 			"additional": "Heydon Pickering",
-			"url": "https://shop.smashingmagazine.com/products/inclusive-design-patterns"
+			"url": "https://www.smashingmagazine.com/2016/09/inclusive-design-patterns/"
 		},
 		{
 			"title": "Living in Information: Responsible Design for Digital Places",
@@ -785,12 +773,6 @@
 			"url": "https://colorandcontrast.com/"
 		},
 		{
-			"title": "Color Contrast Checker",
-			"description": "This tool tests the contrast of a background color and foreground color for accessibility.",
-			"additional": "Josef Eines",
-			"url": "https://www.alarmsystem.no/color-contrast/"
-		},
-		{
 			"title": "Colorblind Web Page Filter",
 			"description": "Use the Colorblind Colorlab to select safe colors earlier in the design process.",
 			"additional": "toptal",
@@ -808,7 +790,7 @@
 			"additional": "Protean Studio",
 			"url": "https://contrast.tools"
 		},
-    {
+		{
 			"title": "Hex Naw",
 			"description": "Hex Naw is a tool that helps designers and developers test entire color systems for contrast and accessibility. Plug in your palette or color system and let Hex Naw do the rest.",
 			"additional": "The Scenery",
@@ -837,6 +819,12 @@
 			"description": "A tool that brings attention and understanding to how color contrast can affect different people with visual impairments.",
 			"additional": "Corey Ginnivan",
 			"url": "https://whocanuse.com/"
+		},
+		{
+			"title": "WCAG Color Contrast Checker",
+			"description": "Checks foreground and background color contrast against WCAG 2.1 AA and AAA standards, with colorblindness simulation for four deficiency types, accessible color variant suggestions, and a markdown bug report for logging accessibility defects.",
+			"additional": "David Mello",
+			"url": "https://www.davidmello.com/tools/color-contrast-checker"
 		}
 	],
 	"communityHelp": [
@@ -942,11 +930,6 @@
 			"title": "The Digital Accessibility Legal Summit",
 			"description": "We bring together experts from the fields of accessibility and legal to discuss current trends, and to provide insights that will be helpful to practitioners in their work on digital accessibility.",
 			"url": "https://www.accessibility.legal/"
-		},
-		{
-			"title": "Future Date",
-			"description": "Future Date is a free, volunteer-led, virtual accessibility conference. Our goal is to expose our audience to the pioneering work and lived experiences of disability and accessibility leaders.",
-			"url": "https://afuturedate.herokuapp.com/"
 		},
 		{
 			"title": "Global Accessibility Awareness Day",
@@ -1055,12 +1038,6 @@
 			"description": "The A11Y Collective is the e-learning platform for anyone who wants to learn more about web accessibility. The courses focus mostly on knowledge and skills that are valuable for web designers, developers, webmasters, product owners and web editors.",
 			"additional": "a11y-collective.com",
 			"url": "https://a11y-collective.com/"
-		},
-		{
-			"title": "Thinking about Digital Accessibility: From Ally to Advocate",
-			"description": "In this book, we explore what digital accessibility is, how it is integrated with common functional roles, such as content writer, user experience designer, or engineer, and how it grows as the knowledge and skill of an individual develops, answering the question “how do I get there from here”.",
-			"additional": "H. Robert King",
-			"url": "https://www.everand.com/book/527830515/Thinking-about-Digital-Accessibility-From-Ally-to-Advocate"
 		},
 		{
 			"title": "Web Accessibility by Google",
@@ -1453,12 +1430,6 @@
 			"url": "https://knowbility.org/blog/2019/an-alt-text-primer/"
 		},
 		{
-			"title": "Considerations when writing alt text",
-			"description": "Find out what alt text is, why it’s so important, and how to write content for your images.",
-			"additional": "Scott Vinkle",
-			"url": "https://ux.shopify.com/considerations-when-writing-alt-text-a9c1985a8204"
-		},
-		{
 			"title": "Creating Accessible SVGs",
 			"description": "Scalable Vector Graphics (SVGs) have been around since 1999, but they have seen a real resurgence in use as design interactions have become more complex and CSS/JavaScript have replaced antiquated animation programs such as Adobe Flash.",
 			"additional": "Deque",
@@ -1797,12 +1768,6 @@
 			"url": "https://commonlook.com/pdf-tagging-and-reading-order/"
 		},
 		{
-			"title": "PDF accessibility introduction",
-			"description": "Although web accessibility is most commonly thought of when talking about digital accessibility, document accessibility also plays an important role. Document formats such as Word, PowerPoint, Excel, ePub, and most commonly PDF, are quite common and are usually linked within web pages or sent via email. As such, it’s important to make sure that those documents are accessible as well.",
-			"additional": "Pragmatic Access",
-			"url": "https://pragmaticaccess.com/articles/2019-05-30-pdf-accessibility-introduction"
-		},
-		{
 			"title": "WebAIM: PDF Accessibility",
 			"description": "Defining Acrobat PDF accessibility.",
 			"additional": "WebAIM",
@@ -1872,13 +1837,6 @@
 			"additional": "The Big Web Show",
 			"url": "http://5by5.tv/bigwebshow/184",
 			"type": "Episode"
-		},
-		{
-			"title": "Accessible Podcast",
-			"description": "Accessible is a fortnightly—episodes are released twice per month—podcast about accessibility in tech. Topics covered on the show are mostly Apple-centric but will span the tech industry at large where appropriate.",
-			"additional": "Steven Aquino and Timothy Buck",
-			"url": "https://www.timothybuck.me/accessible-episode-archive",
-			"type": "Podcast"
 		},
 		{
 			"title": "Beyond Barriers",
@@ -1988,11 +1946,6 @@
 			"title": "Level Access",
 			"description": "Level Access is a company that provides digital accessibility solutions and services to corporations, government agencies, and educational institutions.",
 			"url": "https://www.levelaccess.com/"
-		},
-		{
-			"title": "Simply Open",
-			"description": "We work with brands who are listening. They want to make products and services you will love. They understand the value of insight from those who sense, think, move and feel differently.",
-			"url": "https://www.simplyopen.io/"
 		},
 		{
 			"title": "Prime Access Consulting",
@@ -2237,13 +2190,6 @@
 			"type": "Talk"
 		},
 		{
-			"title": "Introduction to Web Accessibility",
-			"description": "This brief introductory video geared towards technology professionals provides a baseline understanding of the topic of Web and digital accessibility: designing, coding, and testing with users with disabilities in mind, including the diverse assistive technology and tools they may be using to engage with their computing devices.",
-			"additional": "Dr. Michele A. Williams",
-			"url": "https://mawconsultingllc.com/intro-to-web-accessibility/",
-			"type": "Talk"
-		},
-		{
 			"title": "JavaScript and Civil Rights (Marcy Sutton)",
 			"description": "Web Rebels (2017)",
 			"additional": "YouTube",
@@ -2447,12 +2393,6 @@
 			"url": "https://www.google.com/accessibility/"
 		},
 		{
-			"title": "List of online accessibility tools",
-			"description": "The Directory of the Web.",
-			"additional": "DMOZ",
-			"url": "http://dmoztools.net/Computers/Internet/Web_Design_and_Development/Authoring/Online_Tools/Checking_and_Debugging/Accessibility/"
-		},
-		{
 			"title": "Tips For Online Shopping With Disabilities: A Website Accessibility Guide",
 			"description": "In-person shopping can be difficult and stressful for disabled people for many reasons, from tall checkout counters to non-navigable spaces, but meanwhile, disabled Americans are more likely to never use the Internet compared to the total population.",
 			"additional": "Coupon Follow",
@@ -2523,12 +2463,6 @@
 			"description": "Every day we use graphic communication design from reading letters which have come through the post, or the newspaper in the morning, to reading and using information at work, to travelling and navigating in the environment. How can we include as many people as possible when designing graphic communication and information, and how do we not unnecessarily exclude people?",
 			"additional": "User Design, Illustration and Typesetting, previously Usability Geek",
 			"url": "https://medium.com/@user_design/information-on-different-types-of-people-for-graphic-communication-website-and-information-4b6454905bb1"
-		},
-		{
-			"title": "Accessibility for Teams",
-			"description": "A ‘quick-start’ guide for embedding accessibility and inclusive design practices into your team’s workflow.",
-			"additional": "U.S. General Services Administration",
-			"url": "https://accessibility.digital.gov/"
 		},
 		{
 			"title": "Access & Use",
