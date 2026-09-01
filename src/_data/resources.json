@@ -2278,6 +2278,13 @@
 			"url": "http://www.youtube.com/watch?v=Fe1behOSjdU&list=PLb_ziuDPiUzZkc077IW3_rDcqX1OC8VbV&index=16",
 			"type": "Talk"
 		}
+		{
+  "title": "Recognise",
+  "description": "This is a popular five-minute talk from Interaction Design Association (IxDA) Dublin’s Defuse (Design for Use) event in November 2025. It explores why we still see people struggling to use products and services, and how designers can prevent their projects from excluding people.",
+  "additional": "YouTube",
+  "url": "https://www.youtube.com/watch?v=rm5Ag6x-dRo&list=PLsaoWzR87FsUvLEI7xjThSdIB5TqMrOc0&index=4",
+  "type": "video"
+		}
 	],
 	"typography": [
 		{
