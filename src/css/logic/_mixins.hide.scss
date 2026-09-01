@@ -13,7 +13,7 @@
 		height: 1px;
 		margin: -1px;
 		overflow: hidden;
-		padding: 0;
+		padding: $p-0;
 		position: absolute;
 		white-space: nowrap;
 		width: 1px;
@@ -22,7 +22,7 @@
 		&:focus {
 			clip: auto;
 			height: auto;
-			margin: 0;
+			margin: $m-0;
 			overflow: visible;
 			position: static;
 			width: auto;
