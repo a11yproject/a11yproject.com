@@ -31,7 +31,7 @@ tags:
   - howto
 ---
 
-[`tabindex` is a global attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) that allows an HTML element to receive focus. It needs a value of zero or a negative number in order to work in an accessible way.
+[`tabindex` is a global attribute](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/tabindex) that allows an HTML element to receive focus. It needs a value of zero or a negative number in order to work in an accessible way.
 
 When `tabindex`’s value is set to zero or a positive number, the element can be navigated to via the keyboard’s <kbd>Tab</kbd> key. When it is set to a negative number, its element can be programmatically focused via JavaScript.
 
@@ -83,13 +83,13 @@ Following are some of the more common cases where you do need to use `tabindex`.
 
 ### Interactive JavaScript widgets and charts
 
-Declarations of `tabindex="-1"` can sometimes be found on interactive widgets and [components that manage focus internally](https://w3c.github.io/aria/#managingfocus), such as [comboboxes](https://www.w3.org/TR/2017/REC-wai-aria-1.1-20171214/#combobox) or [trees](https://www.w3.org/TR/wai-aria/#tree), as it allows JavaScript to focus on the element via [the `focus()` method](https://developer.mozilla.org/en-US/docs/Web/API/HTMLOrForeignElement/focus).
+Declarations of `tabindex="-1"` can sometimes be found on interactive widgets and [components that manage focus internally](https://w3c.github.io/aria/#managingfocus), such as [comboboxes](https://www.w3.org/TR/2017/REC-wai-aria-1.1-20171214/#combobox) or [trees](https://www.w3.org/TR/wai-aria/#tree), as it allows JavaScript to focus on the element via [the `focus()` method](https://developer.mozilla.org/docs/Web/API/HTMLOrForeignElement/focus).
 
 ![A basic line graph with a small circle to indicate each data point. One of the points has a larger circle and a label of “82.76%.”](/img/posts/how-to-use-the-tabindex-attribute/interactive-chart.png)
 
 ### Scrollable overflow containers
 
-`tabindex="0"` should be applied to any non-interactive element that has had [CSS’ `overflow` property](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow) applied to it. This will allow people using a keyboard to navigate to, and scroll around the overflowed content.
+`tabindex="0"` should be applied to any non-interactive element that has had [CSS’ `overflow` property](https://developer.mozilla.org/docs/Web/CSS/overflow) applied to it. This will allow people using a keyboard to navigate to, and scroll around the overflowed content.
 
 ![A basic overflow container embedded in a webpage about creating an account. The container is titled “Terms of Service” and contains boilerplate terms of service information. A basic scrollbar is also present, indicating overflow content.](/img/posts/how-to-use-the-tabindex-attribute/scrollable-overflow-container.png)
 
@@ -99,7 +99,7 @@ You will also need to provide:
     1. An `id`/`aria-labelledby` association if it has a visible heading, or
     2. An `aria-label`, if not.
 2. A way to specify what the content contains semantically. This can be provided by:
-    1. An applicable [sectioning element](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/HTML5.html), or
+    1. An applicable [sectioning element](https://www.w3.org/WAI/ARIA/apg/practices/landmark-regions/#htmlsectioningelements), or
     2. A [Landmark Role](https://www.a11yproject.com/posts/aria-landmark-roles/) if the content is important enough that people need a quick and easy way to return to it.
     3. A [`group` role](https://www.w3.org/TR/wai-aria-1.1/#group) can also be used if there isn’t a need for quick access.
 
@@ -118,7 +118,7 @@ This satisfies [WCAG criterion 4.1.2: Name, Role, Value](https://www.w3.org/WAI/
 
 ### When there is not an applicable HTML element
 
-Interactive controls that don’t have a relevant HTML element need a declaration of `tabindex="0"`. An example of this would be a [listbox](https://www.w3.org/TR/wai-aria-practices-1.2/examples/listbox/listbox-grouped.html), a widget that “[presents a list of options and allows a user to select one or more of them](https://www.w3.org/TR/wai-aria-practices-1.2/#Listbox).”
+Interactive controls that don’t have a relevant HTML element need a declaration of `tabindex="0"`. An example of this would be a [listbox](https://www.w3.org/WAI/ARIA/apg/patterns/listbox/), a widget that “[presents a list of options and allows a user to select one or more of them](https://www.w3.org/WAI/ARIA/apg/patterns/listbox/#examples).”
 
 ![A basic listbox with a label that reads “Choose your favorite avocado.” There are two categories displayed for the listbox, “A Cultivars” and “B Cultivars.” Each category contains specific avocado cultivar names, with the last option partially obscured to indicate more content is present. A basic scrollbar is present, indicating overflow content.](/img/posts/how-to-use-the-tabindex-attribute/listbox.png)
 
