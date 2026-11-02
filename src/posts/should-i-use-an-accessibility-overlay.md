@@ -100,6 +100,9 @@ further_reading:
   - title: Largest U.S. Blind Advocacy Group Bans Web Accessibility Overlay Giant AccessiBe From Its National Convention
     url: https://www.forbes.com/sites/gusalexiou/2021/06/26/largest-us-blind-advocacy-group-bans-web-accessibility-overlay-giant-accessibe/
     source: Forbes
+  - title: Why Accessibility Overlays Don’t Work: Findings from U.S. State Government Websites 
+    url: https://www.lflegal.com/2026/10/guest-article-overlays/
+    source: Alison Walden and Matt Vitale
   - title: Lies, Damned Lies, Overlays and Widgets
     url: https://www.levelaccess.com/lies-damned-lies-overlays-and-widgets/
     source: Timothy Springer
