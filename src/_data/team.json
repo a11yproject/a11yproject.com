@@ -61,10 +61,9 @@
 		{
 			"name": "Soren Hamby",
 			"first": "Soren",
-			"website": "http://linktr.ee/uxicorn",
+			"website": "http://soren.work",
 			"photo": "{{ '/img/team/soren-hamby.jpg' | url }}",
-			"biography": "Soren is a UXer living in the NYC metro. They are currently doing design community outreach as InVision’s Design Advocate. They also host a livestream about UX, accessibility, and inclusion called Feature Disabled and write about UX for Modus, UX Planet, and UX Collective. Otherwise, you can find them eating large amounts of plants and making poems about space, loss, and inequality."
-		},
+			"biography": "Soren is an accessibility specialist and product equity designer living in the NYC metro, with 15+ years of experience making digital products more inclusive. They’re a member of W3C’s WCAG working groups, and write about accessibility and inclusive design at soren.work, UX Collective, UX Planet, and other design and accessibility publications. Otherwise, you can find them eating large amounts of plants and making poems about space, loss, and inequality."
 		{
 			"name": "Tatiana Mac",
 			"first": "Tatiana",
