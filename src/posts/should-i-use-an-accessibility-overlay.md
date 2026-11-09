@@ -211,6 +211,9 @@ further_reading:
   - title: "The Accessibility Menu, a Friend to Eschew?"
     source: Grand Duchy of Luxembourg
     url: https://accessibilite.public.lu/en/news/2025-03-18-menus.html
+  - title: "State of Ecommerce Accessibility 2026: Overlays"
+    source: Dave Davies
+    url: https://davedavies.dev/state-of-ecommerce-accessibility/#overlays
   - title: "The Promise and Pitfalls of Web Accessibility Overlays for Blind and Low Vision Users"
     source: ResearchGate
     url: https://www.researchgate.net/publication/383118166_The_Promise_and_Pitfalls_of_Web_Accessibility_Overlays_for_Blind_and_Low_Vision_Users  
